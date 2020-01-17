@@ -79,30 +79,34 @@ class UserCommits:
         name : str
             The name of the repository.
         """
-        # Trim slashes and non-compliant characters & extensions from name, and make the name easier to understand.
+        # Obtain positions of slashes and git extension for later removal.
         last_slash_index = name.rfind("/")
         last_suffix_index = name.rfind(".git")
 
-        # Identify last index of the repository name.
+        # Identify last index of a non-name component of the repository URL/location.
         if last_suffix_index < 0:
             last_suffix_index = len(name)
 
-        # Identify last slash position to remove them, or throw error if none found.
+        # Validate slash position and last suffix position, and throw an error if they are invalid.
         if last_slash_index < 0 or last_suffix_index <= last_slash_index:
             raise Exception(f"Badly formatted Git URL {name}")
 
-        # Set name to the new name without slashes or issues.
-        name = name[last_slash_index + 1:last_suffix_index]
+        # Set name to the new name without slashes or issues and to represent the repository name.
+        location = name[last_slash_index + 1:last_suffix_index]
+
+        # Trim the .git off of the name to use for link identification.
+        name = name.rstrip('.git')
 
         # Create CSV file and write data to file.
-        with open(f"results_first_commit_{name}.csv", mode='w') as csv_file:
+        with open(f"results_first_commit_{location}.csv", mode='w') as csv_file:
             # Set CSV writer properties to account for possible quoted usernames and properties.
             csv_writer = csv.writer(csv_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-            csv_writer.writerow(['First Commit Hash', 'Git Identification (Username)'])
+            csv_writer.writerow(['First Commit Hash', 'Git Identification (Username)', 'Link to Commit'])
 
-            # Iterate through all found commits, and put them into the CSV file with the CSV writer.
+            # Iterate through all found commits, and put them into the CSV file with the CSV writer with additionally
+            # related aspects of the commit.
             for current in results:
-                csv_writer.writerow([current.hash, current.committer.name])
+                csv_writer.writerow([current.hash, current.committer.name, name + "/commit/" + current.hash])
 
 
 UserCommits.get_first_commits("https://github.com/dalderliesten/Scrumbledore.git")
