@@ -1,6 +1,5 @@
-from pydriller import RepositoryMining, GitRepository
+from pydriller import RepositoryMining
 import csv
-import git
 
 
 class UserCommits:
@@ -66,26 +65,44 @@ class UserCommits:
                 initial_commit.append(commit)
 
         # Write results to CSV for storage and later use/validation by user.
-        UserCommits.write_first_commit_results_to_csv(initial_commit)
+        UserCommits.write_first_commit_results_to_csv(initial_commit, repository)
 
     # TODO: obtain Github URL for commits to associate in file.
-    # TODO: set file name to project repo name.
-    def write_first_commit_results_to_csv(results: dict):
-        """Writes the found results for first commits by a user to a CSV file.
+    def write_first_commit_results_to_csv(results: dict, name: str):
+        """Writes the found results for first commits by a user to a CSV file. Also handles trimming of the file such
+        that the git and slash information is removed for file storage.
 
         Parameters
         ----------
         results : dict
             The list of commits that must be stored.
+        name : str
+            The name of the repository.
         """
-        # Define location to store results for current repository.
-        location = "results_first_commit_.csv"
+        # Trim slashes and non-compliant characters & extensions from name, and make the name easier to understand.
+        last_slash_index = name.rfind("/")
+        last_suffix_index = name.rfind(".git")
 
-        with open(location, mode='w') as csv_file:
+        # Identify last index of the repository name.
+        if last_suffix_index < 0:
+            last_suffix_index = len(name)
+
+        # Identify last slash position to remove them, or throw error if none found.
+        if last_slash_index < 0 or last_suffix_index <= last_slash_index:
+            raise Exception(f"Badly formatted Git URL {name}")
+
+        # Set name to the new name without slashes or issues.
+        name = name[last_slash_index + 1:last_suffix_index]
+
+        # Create CSV file and write data to file.
+        with open(f"results_first_commit_{name}.csv", mode='w') as csv_file:
             # Set CSV writer properties to account for possible quoted usernames and properties.
             csv_writer = csv.writer(csv_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-            csv_writer.writerow(['First Commit Hash', 'Git Identification / Name'])
+            csv_writer.writerow(['First Commit Hash', 'Git Identification (Username)'])
 
             # Iterate through all found commits, and put them into the CSV file with the CSV writer.
             for current in results:
                 csv_writer.writerow([current.hash, current.committer.name])
+
+
+UserCommits.get_first_commits("https://github.com/dalderliesten/Scrumbledore.git")
