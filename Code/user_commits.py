@@ -6,35 +6,14 @@ class UserCommits:
     """Handles all data related to user commits
 
     This class contains methods and logic related to the identification of the first commits for user within a
-    repository, and the storing of this data in a CSV file. A single or multiple repositories can be analyzed at
+    repository, and the storing of this data in a CSV file. A single repository can be analyzed at
     once by calling the get_first_commits method with your repository URL or location as an argument.
 
     Methods
     -------
-    get_first_commits(repositories: dict)
-        Gets all first commits of all users for all the given repositories in the dict, and stores them each in a CSV.
     get_first_commits(repository: str)
         Gets all first commits of all users for the given repository location, and stores them each in a CSV.
     """
-
-    def get_first_commits(repositories: dict) -> dict:
-        """Obtains the first commits per user for the given repositories in the argument.
-
-        Achieves this by making multiple calls to the string-based get_first_commits method of this class, and the
-        same functionality can be achieved by making multiple calls to that method as calling this method.
-
-        Parameters
-        ----------
-        repositories : dict
-            The list of repositories that require the first commits per user to be obtained.
-
-        Returns
-        -------
-        dict
-            A dictionary containing all the first commits found for all repositories.
-        """
-        for repository in repositories:
-            UserCommits.get_first_commits(repository)
 
     def get_first_commits(repository: str) -> dict:
         """Obtains the first commits per user for the given repository in the argument.
@@ -66,6 +45,9 @@ class UserCommits:
 
         # Write results to CSV for storage and later use/validation by user.
         UserCommits.write_first_commit_results_to_csv(initial_commit, repository)
+
+        # Return initial commits found.
+        return initial_commit
 
     # TODO: obtain Github URL for commits to associate in file.
     def write_first_commit_results_to_csv(results: dict, name: str):
