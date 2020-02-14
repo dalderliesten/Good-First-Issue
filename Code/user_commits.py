@@ -49,7 +49,6 @@ class UserCommits:
         # Return initial commits found.
         return initial_commit
 
-    # TODO: obtain Github URL for commits to associate in file.
     def write_first_commit_results_to_csv(results: dict, name: str):
         """Writes the found results for first commits by a user to a CSV file. Also handles trimming of the file such
         that the git and slash information is removed for file storage.
@@ -71,7 +70,7 @@ class UserCommits:
 
         # Validate slash position and last suffix position, and throw an error if they are invalid.
         if last_slash_index < 0 or last_suffix_index <= last_slash_index:
-            raise Exception(f"Badly formatted Git URL {name}")
+            raise Exception(f"Badly formatted Git URL for the {name} repository...")
 
         # Set name to the new name without slashes or issues and to represent the repository name.
         location = name[last_slash_index + 1:last_suffix_index]
@@ -79,8 +78,8 @@ class UserCommits:
         # Trim the .git off of the name to use for link identification.
         name = name.rstrip('.git')
 
-        # Create CSV file and write data to file.
-        with open(f"results_first_commit_{location}.csv", mode='w') as csv_file:
+        # Create CSV file and write data to file in UTF-8 format for possible non-Western characters.
+        with open(f"results_first_commit_{location}.csv", mode='w', encoding="utf-8") as csv_file:
             # Set CSV writer properties to account for possible quoted usernames and properties.
             csv_writer = csv.writer(csv_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
             csv_writer.writerow(['First Commit Hash', 'Git Identification (Username)', 'Link to Commit'])
@@ -89,6 +88,3 @@ class UserCommits:
             # related aspects of the commit.
             for current in results:
                 csv_writer.writerow([current.hash, current.committer.name, name + "/commit/" + current.hash])
-
-
-UserCommits.get_first_commits("https://github.com/dalderliesten/Scrumbledore.git")

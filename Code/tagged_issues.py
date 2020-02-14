@@ -1,4 +1,5 @@
 from github import Github
+import csv
 
 
 class TaggedIssues:
@@ -13,7 +14,7 @@ class TaggedIssues:
         Gets all issues with the define tag and the given repository reference and stores them in a CSV file.
     """
 
-    def get_tagged_issues(repository: str, tag: str) -> dict:
+    def get_tagged_issues(repository: str, api_key: str, tag: str) -> dict:
         """Gets all the tagged issues with the desired tag and returns a dict containing them.
 
         Utilizing Github's API, the given repository string is trimmed to match Github's API requirements, after which
@@ -32,26 +33,25 @@ class TaggedIssues:
         dict
             A dict containing all issues with the given tag within the given repository.
         """
-        # Creating a Github object with token for utilization.
-        # TODO: Remove this once finished and delete token for history BEFORE making public.
-        githubaccess = Github("b7c4b588dd912a79197b60195977b298c4e45e28")
+        # Creating a Github object with a token for utilization and a greater allowed number of requests to the API.
+        github_access = Github(api_key)
 
         # Trim given repository string to match PyGithub requirements but not break compatibility with rest of tool.
         name = TaggedIssues.trim_repository_name(repository)
 
         # Get repository to analyze.
-        repo = githubaccess.get_repo(name)
+        repo = github_access.get_repo(name)
 
         # Convert the desired tag to a Github compliant tag as per PyGithub's requirements (it was an object, not a
         # string).
         tag_compliant = repo.get_label(tag)
 
-        # Get all issues with the identifier 'tag' as given in the method argument.
-        good_first_issues = repo.get_issues(labels=[tag_compliant])
+        # Get all issues with the identifier 'tag' as given in the method argument. Also indicates all issues are
+        # wanted, and not only 'open' issues, which is the default API behavior if left undeclared.
+        good_first_issues = repo.get_issues(labels=[tag_compliant], state='all')
 
-        # TODO: remove debug: print out all found issues.
-        for current in good_first_issues:
-            print(current)
+        # Store found issues in a CSV for validation.
+        TaggedIssues.write_issue_results_to_csv(good_first_issues, repository)
 
         # Return the found first issues with the tag.
         return good_first_issues
@@ -80,3 +80,42 @@ class TaggedIssues:
 
         # Return the changed name to the caller.
         return name
+
+    def write_issue_results_to_csv(results: dict, name: str):
+        """Writes the found issues and their associated relevant data to a CSV file. Also handles trimming of the file
+        such that the git and slash information is removed for file storage.
+
+        Parameters
+        ----------
+        results : dict
+            The list of issues and associated data that must be stored.
+        name : str
+            The name of the repository.
+        """
+        # Obtain positions of slashes and git extension for later removal.
+        last_slash_index = name.rfind("/")
+        last_suffix_index = name.rfind(".git")
+
+        # Identify last index of a non-name component of the repository URL/location.
+        if last_suffix_index < 0:
+            last_suffix_index = len(name)
+
+        # Validate slash position and last suffix position, and throw an error if they are invalid.
+        if last_slash_index < 0 or last_suffix_index <= last_slash_index:
+            raise Exception(f"Badly formatted Git URL for the {name} repository...")
+
+        # Set name to the new name without slashes or issues and to represent the repository name.
+        location = name[last_slash_index + 1:last_suffix_index]
+
+        # Trim the .git off of the name to use for link identification.
+        name = name.rstrip('.git')
+
+        # Create CSV file and write data to file in UTF-8 format for possible non-Western characters.
+        with open(f"results_good_first_issues_{location}.csv", mode='w', encoding="utf-8") as csv_file:
+            # Set CSV writer properties to account for possible quoted usernames, characters, and/or properties.
+            csv_writer = csv.writer(csv_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+            csv_writer.writerow(['Issue Description', 'Issue Status', 'Link to Issue'])
+
+            # Iterate through all found issues and store them within a CSV file along with a status and link.
+            for current in results:
+                csv_writer.writerow([current.title, 'Open', name + "/issues/" + str(current.number)])

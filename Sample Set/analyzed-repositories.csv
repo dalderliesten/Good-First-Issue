@@ -1,0 +1,51 @@
+Project Name,Link to Github,Uses 'Good First Issue' tagging? (0/1),Justification for Selection
+React,https://github.com/facebook/react,1,Stackoverflow Business (https://stackoverflow.blog/2019/12/17/the-top-10-frameworks-and-what-tech-recruiters-need-to-know-about-them/)
+Angular,https://github.com/angular/angular,1,Stackoverflow Business (https://stackoverflow.blog/2019/12/17/the-top-10-frameworks-and-what-tech-recruiters-need-to-know-about-them/)
+Django,https://github.com/django/django,0,Stackoverflow Business (https://stackoverflow.blog/2019/12/17/the-top-10-frameworks-and-what-tech-recruiters-need-to-know-about-them/)
+Laravel,https://github.com/laravel/laravel,0,Stackoverflow Business (https://stackoverflow.blog/2019/12/17/the-top-10-frameworks-and-what-tech-recruiters-need-to-know-about-them/)
+Ruby on Rails,https://github.com/rails/rails,1,Stackoverflow Business (https://stackoverflow.blog/2019/12/17/the-top-10-frameworks-and-what-tech-recruiters-need-to-know-about-them/)
+Vue.js,https://github.com/vuejs/vue,1,Stackoverflow Business (https://stackoverflow.blog/2019/12/17/the-top-10-frameworks-and-what-tech-recruiters-need-to-know-about-them/)
+Spring Framework,https://github.com/spring-projects/spring-framework,0,Stackoverflow Business (https://stackoverflow.blog/2019/12/17/the-top-10-frameworks-and-what-tech-recruiters-need-to-know-about-them/)
+Express,https://github.com/expressjs/express,1,Stackoverflow Business (https://stackoverflow.blog/2019/12/17/the-top-10-frameworks-and-what-tech-recruiters-need-to-know-about-them/)
+ASP.NET,https://github.com/dotnet/aspnetcore,1,Stackoverflow Business (https://stackoverflow.blog/2019/12/17/the-top-10-frameworks-and-what-tech-recruiters-need-to-know-about-them/)
+Meteor,https://github.com/meteor/meteor,0,Stackoverflow Business (https://stackoverflow.blog/2019/12/17/the-top-10-frameworks-and-what-tech-recruiters-need-to-know-about-them/)
+Flask,https://github.com/pallets/flask,1,Stackoverflow Developer Survey 2019 (https://insights.stackoverflow.com/survey/2019)
+Drupal,https://github.com/drupal/drupal,0,Stackoverflow Developer Survey 2019 (https://insights.stackoverflow.com/survey/2019)
+Node.js,https://github.com/nodejs/node,1,Stackoverflow Developer Survey 2019 (https://insights.stackoverflow.com/survey/2019)
+Pandas,https://github.com/pandas-dev/pandas,1,Stackoverflow Developer Survey 2019 (https://insights.stackoverflow.com/survey/2019)
+Tensorflow,https://github.com/tensorflow/tensorflow,1,Stackoverflow Developer Survey 2019 (https://insights.stackoverflow.com/survey/2019)
+Ansible,https://github.com/ansible/ansible,0,Stackoverflow Developer Survey 2019 (https://insights.stackoverflow.com/survey/2019)
+Cordova,https://github.com/apache/cordova,1,Stackoverflow Developer Survey 2019 (https://insights.stackoverflow.com/survey/2019)
+Xamarin,https://github.com/xamarin/Xamarin.Forms,1,Stackoverflow Developer Survey 2019 (https://insights.stackoverflow.com/survey/2019)
+Apache Spark,https://github.com/apache/spark,0,Stackoverflow Developer Survey 2019 (https://insights.stackoverflow.com/survey/2019)
+Hadoop,https://github.com/apache/hadoop,0,Stackoverflow Developer Survey 2019 (https://insights.stackoverflow.com/survey/2019)
+Flutter,https://github.com/flutter/flutter,1,Stackoverflow Developer Survey 2019 (https://insights.stackoverflow.com/survey/2019)
+PyTorch,https://github.com/pytorch/pytorch,1,Stackoverflow Developer Survey 2019 (https://insights.stackoverflow.com/survey/2019)
+Puppet,https://github.com/puppetlabs/puppet,0,Stackoverflow Developer Survey 2019 (https://insights.stackoverflow.com/survey/2019)
+CryEngine,https://github.com/CRYTEK/CRYENGINE,0,Stackoverflow Developer Survey 2019 (https://insights.stackoverflow.com/survey/2019)
+Chef,https://github.com/chef/chef,1,Stackoverflow Developer Survey 2019 (https://insights.stackoverflow.com/survey/2019)
+MongoDB,https://github.com/mongodb/mongo,0,Stackoverflow Developer Survey 2019 (https://insights.stackoverflow.com/survey/2019)
+PostgreSQL,https://github.com/postgres/postgres,0,Stackoverflow Developer Survey 2019 (https://insights.stackoverflow.com/survey/2019)
+ElasticSearch,https://github.com/elastic/elasticsearch,1,Stackoverflow Developer Survey 2019 (https://insights.stackoverflow.com/survey/2019)
+Redis,https://github.com/antirez/redis,0,Stackoverflow Developer Survey 2019 (https://insights.stackoverflow.com/survey/2019)
+MySQL,https://github.com/mysql/mysql-server,0,Stackoverflow Developer Survey 2019 (https://insights.stackoverflow.com/survey/2019)
+Firebase,https://github.com/firebase/firebase-android-sdk https://github.com/firebase/firebase-ios-sdk https://github.com/firebase/firebase-js-sdk,0,Stackoverflow Developer Survey 2019 (https://insights.stackoverflow.com/survey/2019)
+Cassandra,https://github.com/apache/cassandra,0,Stackoverflow Developer Survey 2019 (https://insights.stackoverflow.com/survey/2019)
+MariaDB,https://github.com/MariaDB/server,0,Stackoverflow Developer Survey 2019 (https://insights.stackoverflow.com/survey/2019)
+GitHub CLI,https://github.com/cli/cli,0,"Github Trending, 14 February 2020"
+OpenChakra,https://github.com/premieroctet/openchakra,0,"Github Trending, 14 February 2020"
+FreeRTOS,https://github.com/FreeRTOS/FreeRTOS,0,"Github Trending, 14 February 2020"
+DeepSpeed,https://github.com/microsoft/DeepSpeed,1,"Github Trending, 14 February 2020"
+Azure Policy,https://github.com/Azure/azure-policy,0,"Github Trending, 14 February 2020"
+PySyft,https://github.com/OpenMined/PySyft,1,"Github Trending, 14 February 2020"
+Actix,https://github.com/actix/actix,0,"Github Trending, 14 February 2020"
+Chakra-UI,https://github.com/chakra-ui/chakra-ui,0,"Github Trending, 14 February 2020"
+Airplay SDK,https://github.com/xfirefly/Airplay-SDK,0,"Github Trending, 14 February 2020"
+Front-End-Checklist,https://github.com/thedaviddias/Front-End-Checklist,1,"Github Trending, 14 February 2020"
+Front-End-Performance-Checklist,https://github.com/thedaviddias/Front-End-Performance-Checklist,1,"Github Trending, 14 February 2020"
+Swagger,https://github.com/swagger-api/swagger-core,0,"Github Trending, 14 February 2020"
+John Hopkins COVID-19,https://github.com/CSSEGISandData/COVID-19,0,"Github Trending, 14 February 2020"
+Serverless,https://github.com/serverless/serverless,1,"Github Trending, 14 February 2020"
+Kubernetes,https://github.com/kubernetes/kubernetes,1,"Github Trending, 14 February 2020"
+HTML Standard Spec,https://github.com/whatwg/html,1,"Github Trending, 14 February 2020"
+CSS Working Draft,https://github.com/w3c/csswg-drafts,1,"Github Trending, 14 February 2020"
