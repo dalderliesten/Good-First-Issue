@@ -21,14 +21,14 @@ class GoodFirstIssue:
         Requires the manual entry of Github API key on line 24, repository link as described above the declaration on
         line 28, and the manual entry of the desired tag to analyze on line 31.
         """
-        # Provide the Github API key to utilze.
+        # Provide the Github API key to utilize.
         api_key = "34b8204b93e9ac470e5f34f55fe3f780a1a71c45"
 
         # Define location of the repository. This should be an https:// link to Github with the .git still on it.
-        repository = "https://github.com/facebook/react-native.git"
+        repository = "https://github.com/facebook/react.git"
 
         # Define the name of the good-first-issue tag used in the repository to analyze.
-        first_issue_tag = "Good first issue"
+        first_issue_tag = "good first issue (taken)"
 
         # Get first commits for each user in the repository.
         user_commits = UserCommits.get_first_commits(repository)
@@ -36,4 +36,11 @@ class GoodFirstIssue:
         # Get all tagged issues within the repository.
         tagged_issues = TaggedIssues.get_tagged_issues(repository, api_key, first_issue_tag)
 
+        # Iterate through all tagged issues and identify any overlap with user commits based on username for debug.
+        for current_issue in tagged_issues:
+            if user_commits in current_issue.assignees:
+                print('Got something!')
+
+
+# Main method call for program execution.
 GoodFirstIssue.main()

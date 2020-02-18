@@ -107,15 +107,14 @@ class TaggedIssues:
         # Set name to the new name without slashes or issues and to represent the repository name.
         location = name[last_slash_index + 1:last_suffix_index]
 
-        # Trim the .git off of the name to use for link identification.
-        name = name.rstrip('.git')
-
         # Create CSV file and write data to file in UTF-8 format for possible non-Western characters.
         with open(f"results_good_first_issues_{location}.csv", mode='w', encoding="utf-8") as csv_file:
             # Set CSV writer properties to account for possible quoted usernames, characters, and/or properties.
             csv_writer = csv.writer(csv_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-            csv_writer.writerow(['Issue Description', 'Issue Status', 'Link to Issue'])
+            csv_writer.writerow(['Issue Description', 'Assignees', 'Link'])
 
-            # Iterate through all found issues and store them within a CSV file along with a status and link.
+            # Iterate through all found issues and store them within a CSV file along with relevant information.
             for current in results:
-                csv_writer.writerow([current.title, 'Open', name + "/issues/" + str(current.number)])
+                csv_writer.writerow([current.title,
+                                     current.assignees,
+                                     current.html_url])

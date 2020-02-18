@@ -1,5 +1,5 @@
 Project Name,Link to Github,Status?,Notes
-React,https://github.com/facebook/react,,
+React,https://github.com/facebook/react,,label = 'good first issue (taken)'
 Angular,https://github.com/angular/angular,,
 Ruby on Rails,https://github.com/rails/rails,,
 Vue.js,https://github.com/vuejs/vue,,
@@ -23,3 +23,20 @@ Serverless,https://github.com/serverless/serverless,,
 Kubernetes,https://github.com/kubernetes/kubernetes,,
 HTML Standard Spec,https://github.com/whatwg/html,,
 CSS Working Draft,https://github.com/w3c/csswg-drafts,,
+Fyne,https://github.com/fyne-io/fyne,,
+PowerToys,https://github.com/microsoft/PowerToys,,
+Animate.css,https://github.com/daneden/animate.css,,
+JSON for C++,https://github.com/nlohmann/json,,
+Clash,https://github.com/Dreamacro/clash,,
+Keras,https://github.com/keras-team/keras,,
+Lion,https://github.com/ing-bank/lion,,
+Org-Roam,https://github.com/jethrokuan/org-roam,,
+Crawlab,https://github.com/crawlab-team/crawlab,,
+Joplin,https://github.com/laurent22/joplin,,
+Todomvc,https://github.com/tastejs/todomvc,,label = 'first time contributor'
+Istio,https://github.com/istio/istio,,label = 'community/good first issue'
+efcore,https://github.com/dotnet/efcore,,
+Leon AI,https://github.com/leon-ai/leon,,
+Playwright,https://github.com/microsoft/playwright,,
+CleanArchitecture,https://github.com/ardalis/CleanArchitecture,,
+Carbon,https://github.com/briannesbitt/Carbon,,
