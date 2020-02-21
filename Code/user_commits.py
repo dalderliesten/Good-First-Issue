@@ -82,11 +82,15 @@ class UserCommits:
         with open(f"results_first_commit_{location}.csv", mode='w', encoding="utf-8") as csv_file:
             # Set CSV writer properties to account for possible quoted usernames and properties.
             csv_writer = csv.writer(csv_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-            csv_writer.writerow(['First Commit Hash', 'Git Identification (Username)', 'Link'])
+            csv_writer.writerow(['First Commit Hash',
+                                 'Author Name (Github)',
+                                 'Committer Name (Github)',
+                                 'Link'])
 
             # Iterate through all found commits, and put them into the CSV file with the CSV writer with additionally
             # related aspects of the commit.
             for current in results:
                 csv_writer.writerow([current.hash,
+                                     current.author.name,
                                      current.committer.name,
                                      name + "/commit/" + current.hash])

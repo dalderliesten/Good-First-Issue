@@ -25,10 +25,10 @@ class GoodFirstIssue:
         api_key = "34b8204b93e9ac470e5f34f55fe3f780a1a71c45"
 
         # Define location of the repository. This should be an https:// link to Github with the .git still on it.
-        repository = "https://github.com/facebook/react.git"
+        repository = "https://github.com/pytorch/pytorch.git"
 
         # Define the name of the good-first-issue tag used in the repository to analyze.
-        first_issue_tag = "good first issue (taken)"
+        first_issue_tag = "good first issue"
 
         # Get first commits for each user in the repository.
         user_commits = UserCommits.get_first_commits(repository)
@@ -36,10 +36,17 @@ class GoodFirstIssue:
         # Get all tagged issues within the repository.
         tagged_issues = TaggedIssues.get_tagged_issues(repository, api_key, first_issue_tag)
 
-        # Iterate through all tagged issues and identify any overlap with user commits based on username for debug.
-        for current_issue in tagged_issues:
-            if user_commits in current_issue.assignees:
-                print('Got something!')
+        # Get all pull requests in a repository.
+        # TODO
+
+        # Identify any matches existing based on username hits.
+        GoodFirstIssue.identify_username_matches(tagged_issues, user_commits)
+
+    def identify_username_matches(tagged_issues: dict, user_commits: dict):
+        for user in user_commits:
+            for issue in tagged_issues:
+                if user.author.name in issue.assignees:
+                    print('Got a match!')
 
 
 # Main method call for program execution.

@@ -111,7 +111,7 @@ class TaggedIssues:
         with open(f"results_good_first_issues_{location}.csv", mode='w', encoding="utf-8") as csv_file:
             # Set CSV writer properties to account for possible quoted usernames, characters, and/or properties.
             csv_writer = csv.writer(csv_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-            csv_writer.writerow(['Issue Description', 'Assignees', 'Link'])
+            csv_writer.writerow(['Issue Description', 'Assignees to the Issue', 'Link'])
 
             # Iterate through all found issues and store them within a CSV file along with relevant information.
             for current in results:
