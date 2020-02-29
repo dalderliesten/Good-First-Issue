@@ -42,22 +42,27 @@ class TaggedIssues:
         # Get repository to analyze.
         repo = github_access.get_repo(name)
 
+        # Informing user that issue fetching is beginning for logging purposes.
+        print(f'---------- FETCHING ISSUES TAGGED WITH {tag} FROM REPOSITORY ----------')
+
         # Convert the desired tag to a Github compliant tag as per PyGithub's requirements (it was an object, not a
         # string).
         tag_compliant = repo.get_label(tag)
 
         # Get all issues with the identifier 'tag' as given in the method argument. Also indicates all issues are
         # wanted, and not only 'open' issues, which is the default API behavior if left undeclared.
+        print('Getting issues from Github API...')
         good_first_issues = repo.get_issues(labels=[tag_compliant], state='all')
 
         # Store found issues in a CSV for validation.
+        print('Writing found issues to CSV...')
         TaggedIssues.write_issue_results_to_csv(good_first_issues, repository)
 
         # Return the found first issues with the tag.
         return good_first_issues
 
     def trim_repository_name(name: str) -> str:
-        """Trims the name of the repository to match (Py)Github's API requirements.
+        """Trims the name of the repository to match Github's API requirements.
 
         Removes the last 4 characters, containing the git file declaration ('.git'), and removes the initial 19
         characters, which contain the Github referral ('https://github.com/').
@@ -115,6 +120,17 @@ class TaggedIssues:
 
             # Iterate through all found issues and store them within a CSV file along with relevant information.
             for current in results:
+                # Isolate a single string with all assignee due to the possibilities of there being multiple users.
+                assigned_users = ''
+
+                # Get user login display name on Github for assignee string.
+                for user in current.assignees:
+                    assigned_users + user.login
+
+                # Write row itself to CSV.
                 csv_writer.writerow([current.title,
-                                     current.assignees,
+                                     assigned_users,
                                      current.html_url])
+
+        # Log termination for tracking and logging uses.
+        print('Finished writing to CSV...')

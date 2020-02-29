@@ -1,4 +1,4 @@
-from pydriller import RepositoryMining
+from github import Github
 import csv
 
 
@@ -15,7 +15,7 @@ class UserCommits:
         Gets all first commits of all users for the given repository location, and stores them each in a CSV.
     """
 
-    def get_first_commits(repository: str) -> dict:
+    def get_first_commits(repository: str, api_key: str) -> dict:
         """Obtains the first commits per user for the given repository in the argument.
 
         Employs PyDriller to iterate over all commits and identifies all first commits by iterating over all existing
@@ -36,18 +36,64 @@ class UserCommits:
         initial_commit = []
         users_tracked = []
 
+        # Creating a Github object with a token for utilization and a greater allowed number of requests to the API.
+        github_access = Github(api_key)
+
+        # Trim given repository string to match PyGithub requirements but not break compatibility with rest of tool.
+        name = UserCommits.trim_repository_name(repository)
+
+        # Get repository to analyze.
+        repo = github_access.get_repo(name)
+
+        # Store all commits found within the repository. This needs to be done because doing it within the for-loop
+        # causes fetching of infinite commits, thereby causing an infinite loop AND using a TON all Github API requests.
+        total_commits = repo.get_commits()
+
+        # Notifying user that commit identification is starting.
+        print('---------- FETCHING FIRST COMMIT FOR EACH USER IN THE REPOSITORY ----------')
+
         # Obtain all initial / first commits by iterating through desired repository and comparing the names to the
         # already seen commits.
-        for commit in RepositoryMining(repository).traverse_commits():
-            if commit.committer.name not in users_tracked:
-                users_tracked.append(commit.committer.name)
-                initial_commit.append(commit)
+        for commit in total_commits:
+            # Filtering out NoneType users (who deleted their account) to prevent errors.
+            if commit.author is not None:
+                print(f'Commit found created by {commit.author.login}.')
+                if commit.author.login not in users_tracked:
+                    users_tracked.append(commit.author.login)
+                    initial_commit.append(commit)
+                    print(f'+++ Identified first commit by {commit.author.login}.')
 
         # Write results to CSV for storage and later use/validation by user.
+        print('Writing identified first commits to a CSV...')
         UserCommits.write_first_commit_results_to_csv(initial_commit, repository)
 
         # Return initial commits found.
         return initial_commit
+
+    def trim_repository_name(name: str) -> str:
+        """Trims the name of the repository to match (Py)Github's API requirements.
+
+        Removes the last 4 characters, containing the git file declaration ('.git'), and removes the initial 19
+        characters, which contain the Github referral ('https://github.com/').
+
+        Parameters
+        ----------
+        repository : str
+            The repository whose API compliant name is required.
+
+        Returns
+        -------
+        str
+            A string containing the repository name as required by Github's API mechanism.
+        """
+        # Strip the last 4 characters, containing '.git'.
+        name = name[:-4]
+
+        # Strip the first 19 characters, containing the URL and Github referral (https://github.com/).
+        name = name[19:]
+
+        # Return the changed name to the caller.
+        return name
 
     def write_first_commit_results_to_csv(results: dict, name: str):
         """Writes the found results for first commits by a user to a CSV file. Also handles trimming of the file such
@@ -82,15 +128,17 @@ class UserCommits:
         with open(f"results_first_commit_{location}.csv", mode='w', encoding="utf-8") as csv_file:
             # Set CSV writer properties to account for possible quoted usernames and properties.
             csv_writer = csv.writer(csv_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-            csv_writer.writerow(['First Commit Hash',
-                                 'Author Name (Github)',
-                                 'Committer Name (Github)',
-                                 'Link'])
+            csv_writer.writerow(['First Commit Hash (SHA)',
+                                 'Commit Message',
+                                 'Author (Github Name)',
+                                 'Link to Commit'])
 
             # Iterate through all found commits, and put them into the CSV file with the CSV writer with additionally
             # related aspects of the commit.
             for current in results:
-                csv_writer.writerow([current.hash,
-                                     current.author.name,
-                                     current.committer.name,
-                                     name + "/commit/" + current.hash])
+                csv_writer.writerow([current.sha,
+                                     current.commit.message,
+                                     current.author.login,
+                                     current.commit.url])
+
+        print('Finished writing to CSV...')

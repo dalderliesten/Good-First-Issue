@@ -25,13 +25,13 @@ class GoodFirstIssue:
         api_key = "34b8204b93e9ac470e5f34f55fe3f780a1a71c45"
 
         # Define location of the repository. This should be an https:// link to Github with the .git still on it.
-        repository = "https://github.com/pytorch/pytorch.git"
+        repository = "https://github.com/daneden/animate.css.git"
 
         # Define the name of the good-first-issue tag used in the repository to analyze.
         first_issue_tag = "good first issue"
 
         # Get first commits for each user in the repository.
-        user_commits = UserCommits.get_first_commits(repository)
+        user_commits = UserCommits.get_first_commits(repository, api_key)
 
         # Get all tagged issues within the repository.
         tagged_issues = TaggedIssues.get_tagged_issues(repository, api_key, first_issue_tag)
