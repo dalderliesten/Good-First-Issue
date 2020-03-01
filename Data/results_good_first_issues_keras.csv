@@ -1,0 +1,27 @@
+Issue Description,Assignees to the Issue,Link
+Convert the docstrings of examples in `examples/*` to use Markdown formatting,,https://github.com/keras-team/keras/issues/12219
+decoder summary has a output shape as multiple. What does it mean,,https://github.com/keras-team/keras/issues/12213
+TypeError: object of type 'ImageDataGenerator' has no len(),,https://github.com/keras-team/keras/issues/12188
+Implement K.arange for the cntk backend.,,https://github.com/keras-team/keras/issues/12164
+implement K.cumsum and K.cumprod for the cntk backend.,,https://github.com/keras-team/keras/issues/12163
+Implement K.update_sub() for the cntk backend.,,https://github.com/keras-team/keras/issues/12162
+Implement K.reset_uids() for the cntk backend.,,https://github.com/keras-team/keras/issues/12161
+__getitem__ gets called too many times,,https://github.com/keras-team/keras/issues/12082
+Where can I find topics of reuters dataset,,https://github.com/keras-team/keras/issues/12072
+Callback warning error,,https://github.com/keras-team/keras/issues/12069
+Keras fails silently if the name of the output is not correct when using metrics.,,https://github.com/keras-team/keras/issues/12068
+"""rgb"" misspelled as ""rbg"" in Keras documentation for flow_from_directory()",,https://github.com/keras-team/keras/issues/11952
+The link to deconv paper is broken in Conv2DTranspose comments,,https://github.com/keras-team/keras/issues/11943
+Confused information on keras fit_generator() steps_per_epoch/validation_steps parameters documentation,,https://github.com/keras-team/keras/issues/11877
+"Feature Request : Add Precision, Recall and F1 Score as Stateful Metrics",,https://github.com/keras-team/keras/issues/11846
+Using flow_from_dataframe with predict_generator produces wrong ordering of filenames,,https://github.com/keras-team/keras/issues/11841
+Fix the formatting of flow_from_dataframe in the docs.,,https://github.com/keras-team/keras/issues/11623
+Keras 2.0 release notes is misleading,,https://github.com/keras-team/keras/issues/11517
+Making lines shorter in five different files.,,https://github.com/keras-team/keras/issues/11383
+Fixing the rendering of the Constraints section in the docs.,,https://github.com/keras-team/keras/issues/11382
+References in the documentation are sometimes badly rendered.,,https://github.com/keras-team/keras/issues/11375
+"Keras issues, correcting typo.",,https://github.com/keras-team/keras/issues/11366
+Keras documentation of multi_gpu_model: example 2 can be misleading ,,https://github.com/keras-team/keras/issues/11307
+Keras documentation: multi_gpu_model examples do not show properly on the home page keras.io,,https://github.com/keras-team/keras/issues/11306
+Documentation doesn't explain how to make a lamda layer with multiple inputs/outputs,,https://github.com/keras-team/keras/issues/11020
+CuDNNLSTM and activations,,https://github.com/keras-team/keras/issues/8510

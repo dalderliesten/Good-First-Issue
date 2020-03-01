@@ -1,0 +1,54 @@
+Issue Description,Assignees to the Issue,Link
+expand tree when cilcking on 'In: Folder ...' in search result,,https://github.com/laurent22/joplin/issues/2616
+Implement font picker in desktop application,,https://github.com/laurent22/joplin/issues/2605
+Add support for Rule of Hooks plugin,,https://github.com/laurent22/joplin/issues/2579
+White-Space preventing selected text to be converted into Bold/Italics if the selected text ends or starts with a white-space,,https://github.com/laurent22/joplin/issues/2573
+Toggling formatting elements from Toolbar doesn't work.,,https://github.com/laurent22/joplin/issues/2560
+Check and fix window dimensions and position when the application start,,https://github.com/laurent22/joplin/issues/2476
+location displayed incorrectly in note properties,,https://github.com/laurent22/joplin/issues/2470
+find a good geolocation service (https),,https://github.com/laurent22/joplin/issues/2469
+edit menu items and shortcuts not disabled in preview mode,,https://github.com/laurent22/joplin/issues/2467
+Implement locale based sorting for notebooks,,https://github.com/laurent22/joplin/issues/2445
+Add Back button when navigating between notes,,https://github.com/laurent22/joplin/issues/2409
+"Add a ""Copy code"" button on code blocks",,https://github.com/laurent22/joplin/issues/2383
+Right-click to assign a note to a notebook,,https://github.com/laurent22/joplin/issues/2296
+Add a scrollbar in note editor and viewer,,https://github.com/laurent22/joplin/issues/2286
+Handle Thai language in search engine,,https://github.com/laurent22/joplin/issues/2279
+english not move next column,,https://github.com/laurent22/joplin/issues/2170
+Goto anything doesn't scroll as expected,,https://github.com/laurent22/joplin/issues/2122
+[Feature Request] Configurable layout for terminal joplin,,https://github.com/laurent22/joplin/issues/2110
+Alarm dates not visible,,https://github.com/laurent22/joplin/issues/2098
+Add warning in log if a large resource is about to be uploaded,,https://github.com/laurent22/joplin/issues/2097
+"Parenthesis in title change to underscores when using ""Copy Markdown Link""",,https://github.com/laurent22/joplin/issues/2085
+Support <kbd> tag,,https://github.com/laurent22/joplin/issues/2043
+Allow setting ratio on camera component,,https://github.com/laurent22/joplin/issues/1998
+Add menu item to toggle note list,,https://github.com/laurent22/joplin/issues/1988
+Create sub-notebook by right-clicking on notebook,,https://github.com/laurent22/joplin/issues/1978
+Add command to list all the tags of a note,,https://github.com/laurent22/joplin/issues/1974
+Allow custom CSS when printing,,https://github.com/laurent22/joplin/issues/1918
+"On mobile app running dark theme, document properties are nearly illegible",,https://github.com/laurent22/joplin/issues/1910
+Add a Nord theme,,https://github.com/laurent22/joplin/issues/1903
+Allow selecting what views should be available from the Layout button,,https://github.com/laurent22/joplin/issues/1900
+Hide editing toolbar buttons when text editor is hidden,,https://github.com/laurent22/joplin/issues/1896
+Upgrade styles in the import screen,,https://github.com/laurent22/joplin/issues/1862
+[Feature Request] Automatically convert URLs to link,,https://github.com/laurent22/joplin/issues/1718
+Add a password verification field when enabling E2EE,,https://github.com/laurent22/joplin/issues/1656
+Beautify Joplin,,https://github.com/laurent22/joplin/issues/1396
+GNU/Linux Desktop Changelog Dialog Too Long,,https://github.com/laurent22/joplin/issues/1222
+Select and convert multiple lines to list items,,https://github.com/laurent22/joplin/issues/1014
+Increase size of the search bar,,https://github.com/laurent22/joplin/issues/917
+Increase the font size for note titles in the note view/edit pane,,https://github.com/laurent22/joplin/issues/915
+FR: exporting notes in JSON,,https://github.com/laurent22/joplin/issues/912
+FR: Add Subnotebook menu item,,https://github.com/laurent22/joplin/issues/898
+"On the desktop app, create a screen that list all the resouces",,https://github.com/laurent22/joplin/issues/592
+[feature request] duplicate note,,https://github.com/laurent22/joplin/issues/545
+Export Human-readable Filenames and Folders,,https://github.com/laurent22/joplin/issues/316
+[Feature Request] Show version on mobile apps,,https://github.com/laurent22/joplin/issues/233
+[Feature Request] Character count in notes,,https://github.com/laurent22/joplin/issues/160
+Request: Web Clipper Extension + Integration,,https://github.com/laurent22/joplin/issues/135
+"Shell mode ""edit"" command raising error",,https://github.com/laurent22/joplin/issues/117
+Theme support for desktop apps,,https://github.com/laurent22/joplin/issues/93
+About Joplin dialog - Text is preselected (ctrl+a as default),,https://github.com/laurent22/joplin/issues/89
+Feature Request: Tab Completion in Terminal ,,https://github.com/laurent22/joplin/issues/81
+Terminal - Keyboard navigation improvements,,https://github.com/laurent22/joplin/issues/63
+Add support for maths input,,https://github.com/laurent22/joplin/issues/11

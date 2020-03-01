@@ -1,0 +1,3464 @@
+First Commit Hash (SHA),Commit Message,Author (Github Name),Link to Commit
+0216e811e9da88b867742710f7d166cef2eabfbc,Initial commit,smawson,https://api.github.com/repos/istio/istio/git/commits/0216e811e9da88b867742710f7d166cef2eabfbc
+8ba719ba0b74f70a1bcd85563a4b252c3f9633fa,Initial commit,geeknoid,https://api.github.com/repos/istio/istio/git/commits/8ba719ba0b74f70a1bcd85563a4b252c3f9633fa
+e5282a60f8e76738b50a964cfb67ffe621ce3623,Create LICENSE,louiscryan,https://api.github.com/repos/istio/istio/git/commits/e5282a60f8e76738b50a964cfb67ffe621ce3623
+b17bfb73a640b696bca91b8c0e132271cb93c522,"remove bad file
+
+
+Former-commit-id: f7236567e528ee753271511681abc42cad475bfd",mandarjog,https://api.github.com/repos/istio/istio/git/commits/b17bfb73a640b696bca91b8c0e132271cb93c522
+853df951b12766140daa2130c4c10a7998724f24,"Establish initial contrib docs.
+
+These docs borrow heavily from the k8s docs, making only
+small changes to remove unneeded parts and/or to replace
+kubernetes with istio mixer where appropriate.
+
+A number of TODOs are left in place to indicate areas that
+need further attention as our dev story becomes more fleshed
+out.
+
+
+Former-commit-id: 01d84311cde4be30f0c35024ab2bb9606f57254c",douglas-reid,https://api.github.com/repos/istio/istio/git/commits/853df951b12766140daa2130c4c10a7998724f24
+acd38bc1957e3a0e5fb8e9c21743d3f3e1363ce4,"Suggest to use singular names for directory naming (#28)
+
+
+
+Former-commit-id: 0a0c56aabf7bdceb31b65a179a51c8752d90751d",wora,https://api.github.com/repos/istio/istio/git/commits/acd38bc1957e3a0e5fb8e9c21743d3f3e1363ce4
+490e149863998b5f0194ee80157a75f40a83c8c5,Initial code import for istio manager,kyessenov,https://api.github.com/repos/istio/istio/git/commits/490e149863998b5f0194ee80157a75f40a83c8c5
+c4545db8a50ffef056dd62f5d98f499e07dcb65c,Add initial travis-CI build config for bazel.build.,sebastienvas,https://api.github.com/repos/istio/istio/git/commits/c4545db8a50ffef056dd62f5d98f499e07dcb65c
+57224f8cfb8ed85ad0a7c05e8cb147ee0ac0387d,"add repositories.bzl to remove boilerplate in BUILD files (#101)
+
+
+
+Former-commit-id: 1b5ffae676e58e9daa83c05f5f39e6a037010dd2",lizan,https://api.github.com/repos/istio/istio/git/commits/57224f8cfb8ed85ad0a7c05e8cb147ee0ac0387d
+1d759d48aca02db25b6a5e80082a206ebc09a769,Add a simple CDS API.,ijsnellf,https://api.github.com/repos/istio/istio/git/commits/1d759d48aca02db25b6a5e80082a206ebc09a769
+480bff8e943e9768ffdeb2fd5d9732860e7a6101,add demos from amalgam8,frankbu,https://api.github.com/repos/istio/istio/git/commits/480bff8e943e9768ffdeb2fd5d9732860e7a6101
+cdbf93679baf3d309a2c4aa9b675139673f33293,"Initial stab at some governance type of docs
+
+Signed-off-by: Doug Davis <dug@us.ibm.com>",duglin,https://api.github.com/repos/istio/istio/git/commits/cdbf93679baf3d309a2c4aa9b675139673f33293
+662642a5050e080e2659cc4ddcc7c81df8a2285f,"Merge pull request #3 from frankbu/master
+
+add demos from amalgam8",rshriram,https://api.github.com/repos/istio/istio/git/commits/662642a5050e080e2659cc4ddcc7c81df8a2285f
+d6be2f9bd389db92d07b13e1fb494e4d365ddf63,"Move proxy iptable configuration into istio init image (#73)
+
+* Move proxy iptable configuration into istio init image",ayj,https://api.github.com/repos/istio/istio/git/commits/d6be2f9bd389db92d07b13e1fb494e4d365ddf63
+2dc8d615ee5311d2b1bbbef7a4194cb08da9f156,Update to rules_go latest commit (#89),andraxylia,https://api.github.com/repos/istio/istio/git/commits/2dc8d615ee5311d2b1bbbef7a4194cb08da9f156
+3d9088abec8bce694a0ae67872b3263222297c66,"Update README (#6)
+
+Add problem statement and objectives into readme",lookuptable,https://api.github.com/repos/istio/istio/git/commits/3d9088abec8bce694a0ae67872b3263222297c66
+e59bac09f3ba7c2494728e76bf7b74e5b75dbc06,"Envoy-based ingress controller (#71)
+
+* incorporate IngressRule config type into model
+
+* convert k8s ingresses to IngressRule config
+
+* add ingress watcher for envoy configuration
+
+* add a 'manager ingress' command to launch the ingress controller
+
+* lint fixes
+
+* make sure rule.Match.Http map gets created
+
+* use port name for cluster name from ingress rule",zcahana,https://api.github.com/repos/istio/istio/git/commits/e59bac09f3ba7c2494728e76bf7b74e5b75dbc06
+1a633826084889ea4d75981a1251adfd6150ff57,add license headers (#12),wlu2016,https://api.github.com/repos/istio/istio/git/commits/1a633826084889ea4d75981a1251adfd6150ff57
+23eb80c262da121c7acdeddf17a82d6213e6a0fc,"support parsing multiple documents in istioctl (#259)
+
+* istioctl create should expect YAML that includes name and type
+
+* Implemented Shriram's suggestions
+
+* Incorporated Shriram's renaming suggestion
+
+* Cleaned up Go return value usage per requests
+
+* Made corrections suggested by gometalinter
+
+* Incorporated Kuats changes
+
+* Factored dest policy sample into its own file and used more recent style",esnible,https://api.github.com/repos/istio/istio/git/commits/23eb80c262da121c7acdeddf17a82d6213e6a0fc
+59fba81badbd0f331ce3bb188da47f8610232770,"Update the access log manager to look more like the metric and quota managers. Unlink log templates from attribute names, deferring to a mapping instead. A follow-on PR will introduce using descriptors for both application and access logs at the same time.
+
+
+Former-commit-id: 18594173f43750e118595fc3ac98b6a76b295d09",ZackButcher,https://api.github.com/repos/istio/istio/git/commits/59fba81badbd0f331ce3bb188da47f8610232770
+8acb72fb7e1b1504ae2eee79dfe74130fe8029db,"Expose copyBag function. (#414)
+
+* Expose copyBag function.
+
+* add comment
+
+* Update the comment
+
+
+Former-commit-id: 064001053b51f73adc3a80ff87ef41a15316c300",qiwzhang,https://api.github.com/repos/istio/istio/git/commits/8acb72fb7e1b1504ae2eee79dfe74130fe8029db
+25d513f909681dcca936ff6d621172d77098c8c8,"minor fixes in documentation. (#418)
+
+
+
+Former-commit-id: 0daa33dd0b7ffdf338ee110acc73a2ee2f062c5a",guptasu,https://api.github.com/repos/istio/istio/git/commits/25d513f909681dcca936ff6d621172d77098c8c8
+f1049b75a65df43c1b5ca2e932999e670c041cb3,"Implement Istio auth config for clusters (#357)
+
+* Implement Istio auth config generation (#339).
+
+* Command line can specify Istio TLS auth and config file paths.
+
+* Set ssl_context for outbound traffic clusters.
+
+* More tests are needed.
+
+* Fix broken integration test.
+
+* Fix service account naming issues and bugs.
+
+* Change Istio auth to boolean argument.
+
+* Apply ssl_context for all outbound routing cases.
+
+* Add unit tests for GetIstioServiceAccounts.
+
+* Add Istio auth doc.
+
+* Always create SSL context regardless of errors.
+
+* Use SSL context that requires verify_subject_alt_name for clusters.
+
+* Do not apply SSL context to TCP traffic.
+
+* Some nit fixes.
+
+* Fix formatting.
+
+* Fix format.
+
+* Fix format.
+
+* Fix format.
+
+* Some bug fixes.",myidpt,https://api.github.com/repos/istio/istio/git/commits/f1049b75a65df43c1b5ca2e932999e670c041cb3
+8c5951d9f3db6f084af3569d74308f5df31bee52,"Add redis quota adapter. (#435)
+
+* Add redis quota adapter.
+
+* Update aspect config.
+
+* Lint and format.
+
+* Address comments.
+
+* Temporary fix for unit test.
+
+* Import miniredis to unit test.
+
+* Update comment.
+
+
+Former-commit-id: 7c95a08ee421b64b82a7009b236d4ffd058f97ce",chowchow316,https://api.github.com/repos/istio/istio/git/commits/8c5951d9f3db6f084af3569d74308f5df31bee52
+5522fabbc50b963e0c940a252716b49953da8efa,"Add sslcontext to inbound http listener (#413)
+
+* Add sslcontext to inbound http listener
+
+* Add an empty line at end of json files
+
+* Address comment
+
+* Address comments
+
+* Fix broken test
+
+* Apply gofmt
+
+* Do not return nil for buildSSLContext
+
+* Add another param to determine inbound/outbound listener
+
+* Fix comment
+
+* Address comments
+
+* Address comments
+
+* Fix format",wattli,https://api.github.com/repos/istio/istio/git/commits/5522fabbc50b963e0c940a252716b49953da8efa
+b5a00092bd57d51dbe2c5da960963b49e29b852d,clarify the build instructions once the vagrant machine is up (#420),christian-posta,https://api.github.com/repos/istio/istio/git/commits/b5a00092bd57d51dbe2c5da960963b49e29b852d
+35875f6496dae1f3fbde77a344281131a8d5b987,"Add package code coverage check (#358)
+
+* Add package code coverage check
+
+* Add parameters passing, using class.
+
+* Bazelify and add tests
+
+* Call bazel output instead, use unittest.main
+
+* Migrate package codecov to toolbox and take it as external bazel dependency.
+
+* Change command for calling package codecov check.
+
+* Change threshold to pass tests
+
+* Change external dependency name.",yutongz,https://api.github.com/repos/istio/istio/git/commits/35875f6496dae1f3fbde77a344281131a8d5b987
+334234180baae5e46dc33a0152ad54790b53df2d,"Implement egress proxy for external services (#463)
+
+* first pass at egress service implementation
+
+* added integration test
+
+* golint fixes
+
+* removed unnecessary files
+
+* removed unnecessary files
+
+* improved test coverage.  egress cluster name generation mod
+
+* golint fix
+
+* attempted bug fix for codecov tool
+
+* removed short-circuited logic
+
+* bug fix for egress e2e testing.  only match on hostname for egress routes
+
+* external name now stored in Service.External instead of .Address
+
+* disable e2e auth tests for egress
+
+* updated test all cds/rds/sds unit tests for external services
+
+* go fmt fixes",GregHanson,https://api.github.com/repos/istio/istio/git/commits/334234180baae5e46dc33a0152ad54790b53df2d
+f726ec4ee5b3be3fd86c7e0db0366317e8e977e1,"Add support for 1.6 with RBAC and change install to use one file. (#150)
+
+* Added RBAC roles and bindings
+* Script to generate merged configs for 1.5 and 1.6 - the 1.6 works wit rbac on or off. 
+
+To avoid confusion, auth will be added in separate PR
+
+
+Former-commit-id: a2049c9ff0f0cd505d6719cabdcc6332ed578157",costinm,https://api.github.com/repos/istio/istio/git/commits/f726ec4ee5b3be3fd86c7e0db0366317e8e977e1
+f17b722d7821a9670c4e63807032b2e331f5b341,"Fixing error message typo (#643)
+
+Addresses point 2 in
+https://github.com/istio/istio.github.io/issues/91",ldemailly,https://api.github.com/repos/istio/istio/git/commits/f17b722d7821a9670c4e63807032b2e331f5b341
+beb070fde53ef2ed3df55a00f7a03984f113e0d0,"use WaitGroup and add capacity to map (#682)
+
+* use WaitGroup and add capacity to map
+
+* gofmt
+
+
+Former-commit-id: 21df298dbf747d48b663a48fdce7f3b8c4aa1b21",rkpagadala,https://api.github.com/repos/istio/istio/git/commits/beb070fde53ef2ed3df55a00f7a03984f113e0d0
+6e3281da74e49f5d2321c02ed0976de24dbbad73,"typo (#659)
+
+
+
+Former-commit-id: e2cfc3e710ed07ab6608f7266338d5bc67a3dfcc",ryancox,https://api.github.com/repos/istio/istio/git/commits/6e3281da74e49f5d2321c02ed0976de24dbbad73
+a4cbd853732dbf58bf5fcc0b17436333b6e18e2b,"Updated v1alpha to use fine grain RBAC rules (#272)
+
+* Updated v1alpha to use fine grain RBAC rules
+
+* updated alpha rbac to add update support to istio-ca
+
+* Improve rbac for istio-ca and istio-manager
+
+
+Former-commit-id: 736157a61da39745d2005d0edea29852f118e55f",dcberg,https://api.github.com/repos/istio/istio/git/commits/a4cbd853732dbf58bf5fcc0b17436333b6e18e2b
+2f498f4071ab97c709c21e9ca3df4875e507e5af,"Fixed repeated words (#768)
+
+There were some repeated words.",rettori,https://api.github.com/repos/istio/istio/git/commits/2f498f4071ab97c709c21e9ca3df4875e507e5af
+a24a9bf4fbe341917d5c5c8708cdfa3b6e54b1d6,"Introduce redis backend for config store. (#694)
+
+* Introduce redis backend for config store.
+
+Note: this implements the exact SPI currently we have. With
+some redis features, some things (like listening updates)
+can be done more efficiently, but that needs to change the SPI.
+
+I'll address that after landing this.
+
+* review fixes.
+
+* Fix the key length cache.
+
+* lint fixes
+
+* more lint checks.
+
+* fix usage of log module.
+
+Former-commit-id: 72388028a804f52967e8cc88b575cb137fb0155e",jmuk,https://api.github.com/repos/istio/istio/git/commits/a24a9bf4fbe341917d5c5c8708cdfa3b6e54b1d6
+68b47d743fb4be1e0e5566101207ce4ed46b5021,"Update the README.md file (#128)
+
+Update the README.md file to mention SPIFFE certificates",ajessup,https://api.github.com/repos/istio/istio/git/commits/68b47d743fb4be1e0e5566101207ce4ed46b5021
+6a93f2721e5af957f58b14518da06f86cc8b713c,Update README.md (#5),xiaolanz,https://api.github.com/repos/istio/istio/git/commits/6a93f2721e5af957f58b14518da06f86cc8b713c
+2c3138ef8cd82a2aa4d19e81aa88746bb1a9c0cf,Update README.md (#130),wenchenglu,https://api.github.com/repos/istio/istio/git/commits/2c3138ef8cd82a2aa4d19e81aa88746bb1a9c0cf
+dd6fb76fff44229f9df37b1724310b9e23241027,"Update mixer docs location (#750)
+
+
+
+Former-commit-id: c30e2856a9014ec4955cbd2ed388d3d881498e67",craigbox,https://api.github.com/repos/istio/istio/git/commits/dd6fb76fff44229f9df37b1724310b9e23241027
+76387626b77354e4ddae8a7ce5a21a96b8e5df69,"updating to show access token is optional (#772)
+
+* updating with respect to PRs and forks not needing token
+
+using a newly created basic account
+
+* updating
+
+- spelling out PR per review
+- clarify 
+- mention ssh as an alternative
+
+
+Former-commit-id: d6fd5efdf763b5bb0af09d0f66442ecd3c03ec5b",ldemaillytest,https://api.github.com/repos/istio/istio/git/commits/76387626b77354e4ddae8a7ce5a21a96b8e5df69
+10827383af662dd49aee7d0cf64a6b20eabbd0c5,Typo fix (#147),devopsbrett,https://api.github.com/repos/istio/istio/git/commits/10827383af662dd49aee7d0cf64a6b20eabbd0c5
+8255d6a86cc79cac03a6ce7fe1c6c75cf5688d8e,"CONTRIBUTING: fix istio-dev to point to forum (#405)
+
+Fixes #404.
+
+Point istio-dev to the Google Groups Forum link
+https://groups.google.com/forum/#!forum/istio-dev
+instead of using the email address that Github resolves
+to https://github.com/istio/istio/blob/master/istio-dev@googlegroups.com
+which is non-existent and 404s.
+Former-commit-id: 77dbca4479c1d7fe5d845ef802184b2292b5fd9e",odeke-em,https://api.github.com/repos/istio/istio/git/commits/8255d6a86cc79cac03a6ce7fe1c6c75cf5688d8e
+d9c4ebe3cfe9c7486277175146986319e110eaed,"Introducing the Mixer IL. (#844)
+
+
+
+Former-commit-id: dc6deec73220f8ae39af787a06f0b9a15b903e8c",ozevren,https://api.github.com/repos/istio/istio/git/commits/d9c4ebe3cfe9c7486277175146986319e110eaed
+8dca8dde8d9889cf46b2e8649a305056f2cf0e53,"Document Bazel's buildifier tool development dependency (#448)
+
+
+
+Former-commit-id: 06656faed98e8dff1481fa2c12da54a108942c1f",elevran,https://api.github.com/repos/istio/istio/git/commits/8dca8dde8d9889cf46b2e8649a305056f2cf0e53
+95c0a67685d429f42b650bfff8319ed35b179c7c,"Istio CA Service definition (#164)
+
+* Istio CA Service definition
+
+* Add generated go file and some compiler fixes
+
+* Add Build files
+
+* fix field name.
+
+* Remove individual cert file.
+
+* Remove on-prem credentials message.
+
+* Remove Cluster in the name.
+
+* Use rpc status instead of Error message",sarvaniv,https://api.github.com/repos/istio/istio/git/commits/95c0a67685d429f42b650bfff8319ed35b179c7c
+5f0985df52af050b19b8c31a99b0f3f7bcd04683,"kube-inject: add support for StatefulSets (#896)
+
+* add support for StatefulSets
+
+* gofmt
+
+* update golden file",kelseyhightower,https://api.github.com/repos/istio/istio/git/commits/5f0985df52af050b19b8c31a99b0f3f7bcd04683
+8e44c4f551b84980977dd04f8b7bb31bde4d4dbe,"Remove OWNERS dead link and reference (#469)
+
+
+
+Former-commit-id: b97070d6cc99feddb609b7cba1d69e93ff1803e1",meirf,https://api.github.com/repos/istio/istio/git/commits/8e44c4f551b84980977dd04f8b7bb31bde4d4dbe
+1db77b773b51182a35a466a9c05e5fc9f32b0498,"test-infra: add presubmit file for prow job (#910)
+
+* add presubmit job
+
+* mv jobs/ prow/
+
+* add e2e
+
+* nlandolfi -> istio
+
+* use istio-testing e2e-testing cluster
+
+* use e2e-testing-kubeconfig mount
+
+* link specific config file, not dir
+
+* add copyright
+
+* rm needless line
+
+* add default for CI
+
+* scaffold codecov
+
+* fix toolbox bin path
+
+* fix call to script
+
+* codecov
+
+* fix build id
+
+* close quote
+
+* use codecov token
+
+* fix codecov stuff
+
+* grossly increase zipkin trace response limit
+
+* add trace id as annotation parameter
+
+* shorten line",nlandolfi,https://api.github.com/repos/istio/istio/git/commits/1db77b773b51182a35a466a9c05e5fc9f32b0498
+7c2d68a40de32ffe588078bd606a5c7e5b897f40,"Fetch, save, and upload cluster trace logs from multiple services (#440)
+
+* Fetch, save, and upload cluster trace logs from multiple services
+
+* Make fetching log optional and not just stackdriver
+
+* project id flag set thru jenkinsfile
+
+* Update jenkensfile with proper flags and pull logs in runtime
+
+* Fetch, save, and upload cluster trace logs from multiple services
+
+* Make fetching log optional and not just stackdriver
+
+* project id flag set thru jenkinsfile
+
+* Update jenkensfile with proper flags and pull logs in runtime
+
+* Expand page size to mitigate api out of resource
+
+* Extend page size and rearrange if branches
+
+* Include the namespace to get deployment info
+
+* Use multierror to append errs
+
+* Turn on log uploads in prow
+
+* Better practice of using multierror
+
+* use go routine to fetch logs in paralell
+
+* Limit the number of concurrent jobs fetching logs
+
+* Fetch log only when test failed
+
+
+Former-commit-id: 7a9bc3a127a2930ed9ddc97f366c718c4a1c23c7",chxchx,https://api.github.com/repos/istio/istio/git/commits/7c2d68a40de32ffe588078bd606a5c7e5b897f40
+58664a16c0f3deebfa81da45178ca79184528cfa,"(bugfix/kubernetes/rbac): Bring alpha and beta rbac rules into sync (#333)
+
+* Fixes #327
+Bring alpha and beta rbac rules into sync
+
+* handle manager->pilot rename
+
+* Revert ""handle manager->pilot rename""
+
+This reverts commit 72aa8c5b572dedd4bf87e43750975f3955954dea [formerly ffcac4d8351e464c77650d56e058f85768015ae3].
+
+* removed extra comments that were not originally present
+
+
+Former-commit-id: 84031fe74167f14366377db7eda06499a4b7b40b",lachie83,https://api.github.com/repos/istio/istio/git/commits/58664a16c0f3deebfa81da45178ca79184528cfa
+d8d3cdb64d2342642d1caa1e448b79c216fcde39,"Update mixer-rule-additional-telemetry.yaml (#367)
+
+Fix Additional telemetry for reviews' response size
+
+Former-commit-id: 400a49dd15e79a7cb79fc650149e861b759cfad8",AnthonyAmanse,https://api.github.com/repos/istio/istio/git/commits/d8d3cdb64d2342642d1caa1e448b79c216fcde39
+788c7aa34ed9da45216d0a87b3ee2079f8a6ab98,"Add Makefile (#938)
+
+Signed-off-by: Christopher M. Luciano <cmluciano@us.ibm.com>",cmluciano,https://api.github.com/repos/istio/istio/git/commits/788c7aa34ed9da45216d0a87b3ee2079f8a6ab98
+2c0554d25e121ec937d7947b7f1a4c56afa9711f,"Fix misplaced serviceAccoutName in istio-egress (#482)
+
+* Fix misplaced serviceAccoutName in istio-egress
+
+* Fix serviceAccoutName in istio-egress template
+
+
+Former-commit-id: 11051dfaa7aee34f3b8bf60a733bf32aa5db297d",suguru,https://api.github.com/repos/istio/istio/git/commits/2c0554d25e121ec937d7947b7f1a4c56afa9711f
+7c698981afa22c3d097282be4f25a91c7f9e925f,"Adding instruction for zsh for bazel build mixer (#512)
+
+* Adding instruction for zsh for bazel build mixer
+
+* add fully qualified path as it works too
+
+* Simplify the cmd per @ldemailly's suggestion
+
+* update bazel test cmd so it works for zsh too
+
+* remove nit: trailing space, comment from @lizan
+
+
+Former-commit-id: 8d4effd80b36ac2934e244b3e0ccfc774b68580a",linsun,https://api.github.com/repos/istio/istio/git/commits/7c698981afa22c3d097282be4f25a91c7f9e925f
+557f0163c3124f6fc2e137fbf8224b0cf8d8529c,"Add volumeMount for /etc/istio/config in istio-auth.yaml (#504)
+
+
+
+Former-commit-id: 56bd47f28cc5567dcad2a18b69aac8a0449926d8",mwieczorek,https://api.github.com/repos/istio/istio/git/commits/557f0163c3124f6fc2e137fbf8224b0cf8d8529c
+a2a95789161ca7b25451b90ed1f801dde50ae210,"Istio Release 0.2.0 (#542)
+
+
+
+Former-commit-id: 42305af48f6f63acafdc1941c81246564cc7fb76",rvkubiak,https://api.github.com/repos/istio/istio/git/commits/a2a95789161ca7b25451b90ed1f801dde50ae210
+9d2f9b906f676b32060501917501dfb3ab3914f9,"Fix build command for Docker images. (#1003)
+
+* Fix build command for Docker images.
+
+* Clarify --hub arg.",spikecurtis,https://api.github.com/repos/istio/istio/git/commits/9d2f9b906f676b32060501917501dfb3ab3914f9
+3c876c37eafbc9d9006df048cb9b955a92067c1e,"Makefile: proper deps for the setup target (#1010)
+
+this config is linked, but not forcefully linked, during setup.
+
+```
+[vbatts@getdown] (master) ~/src/github.com/istio/pilot$ make
+ln: failed to create symbolic link 'platform/kube/config': File exists
+make: *** [Makefile:19: setup] Error 1
+```
+
+With this, a user could put their own config without getting clobbered,
+or no error on `make` when the PHONY setup runs everytime.
+
+Signed-off-by: Vincent Batts <vbatts@hashbangbash.com>",vbatts,https://api.github.com/repos/istio/istio/git/commits/3c876c37eafbc9d9006df048cb9b955a92067c1e
+8a4ffdd06f5741a6ae073972793ed9c55a61af77,"Fix typo (#554)
+
+Automatic merge from submit-queue
+
+Fix typo
+
+**Release note**:
+
+```release-note
+```
+
+Former-commit-id: 0a85223e198bcb4be4c033e5d9b01628c7d0dfd4",danmcp,https://api.github.com/repos/istio/istio/git/commits/8a4ffdd06f5741a6ae073972793ed9c55a61af77
+9a6ed354ad5d5be3bae33a38188d32819a060729,"Added support for building original_dst clusters (#1051)
+
+* istio/pilot#1050 added cluster type and lb type for original_dst clusters
+
+* istio/pilot#1050 added buildOrinalDSTCluster function
+
+* istio/pilot#1050 added nolint deadcode directive
+
+* istio/pilot#1050 added nolint megachek directive
+
+* istio/pilot#1050 fixed a typo in nolint megacheck directive",vadimeisenbergibm,https://api.github.com/repos/istio/istio/git/commits/9a6ed354ad5d5be3bae33a38188d32819a060729
+353782d8f90fb563ba25360236530544faff6d89,"Create issue_template.md
+
+Former-commit-id: 2581433d0244b04dfe8c229095a99977544207b5",sakshigoel12,https://api.github.com/repos/istio/istio/git/commits/353782d8f90fb563ba25360236530544faff6d89
+ee6cd93b5163090fb11a5a26c64b9c319c6e3fb1,"Add controller and eventing support for memory configstore  (#1032)
+
+* add monitor for inmem config store
+
+* update monitor
+
+* update memory config store
+
+* update changes to controller and monitor
+
+* sequential update of monitor
+
+* Async Implementation
+
+* Add conformation tests and update monitor
+
+* formatting + update controller/monitor + update tests
+
+* Update monitor",kimikowang,https://api.github.com/repos/istio/istio/git/commits/ee6cd93b5163090fb11a5a26c64b9c319c6e3fb1
+47e4e02987a7b19871b7a87807edd9af87fca409,"Added `make gazelle` to mixer. (#1115)
+
+
+
+Former-commit-id: 571f19019579ed57dacb8f937fc1a230b06663a4",gyliu513,https://api.github.com/repos/istio/istio/git/commits/47e4e02987a7b19871b7a87807edd9af87fca409
+ba8adeb99e6b492945de987c82d12e055078d2ea,"Update_Dependencies (#602)
+
+Automatic merge from submit-queue
+
+[DO NOT MERGE] Auto PR to update dependencies of istio
+
+This PR will be merged automatically once checks are successful.
+
+Former-commit-id: 76323941bb89fc48f401839c140fcdfcaebf2e36",istio-testing,https://api.github.com/repos/istio/istio/git/commits/ba8adeb99e6b492945de987c82d12e055078d2ea
+42f8fcf2413ed88f822a928aadfe6abba3d788ca,"Add mysql db to ratings service in bookinfo app. (#574)
+
+Automatic merge from submit-queue
+
+Add mysql db to ratings service in bookinfo app.
+
+Tracked in https://github.com/istio/istio/issues/573 and discussed in https://github.com/istio/istio/pull/473, adding mysql db access to the ratings service.
+cc @rshriram @AnthonyAmanse @ldemailly
+
+Former-commit-id: 7b5271d2a19b3e26aba52825f5d3fda4d1699e18",saumoh,https://api.github.com/repos/istio/istio/git/commits/42f8fcf2413ed88f822a928aadfe6abba3d788ca
+f5580a3eec387b5a3b715a265de6fed174f9e715,"Add newer version of service control adapter (#1141)
+
+Automatic merge from submit-queue
+
+Add newer version of service control adapter based on new adapter fra…
+
+…mework
+
+The adapter doesn't do much at this point except sending a hardcoded metric to Google Service Control backend.
+
+**Release note**:
+
+```release-note
+```
+
+Former-commit-id: 7a2197f83e20c716a0e71990de4e68c682d1a436",manlinl,https://api.github.com/repos/istio/istio/git/commits/f5580a3eec387b5a3b715a265de6fed174f9e715
+db6fd1f929989677eebafc6bd99a7d2a9b54de7a,"fix typo in helloworld example (#627)
+
+
+
+Former-commit-id: 658574b1b0f778e5ceaf02cb1741ecf534d1cfb8",ipedrazas,https://api.github.com/repos/istio/istio/git/commits/db6fd1f929989677eebafc6bd99a7d2a9b54de7a
+111b37a7ee3a620a300347278030802c5a579667,"Update GROUPS.md (#697)
+
+
+
+Former-commit-id: 097037e44d7b5805130f24f745b6d7c75502560a",Brian-Xincheng-Zhang,https://api.github.com/repos/istio/istio/git/commits/111b37a7ee3a620a300347278030802c5a579667
+47441cd553675afad9075cf51bccddd3c070dd7e,"API-enabled BookInfo sample application (#693)
+
+* revised source code of microservices so they communicate in JSON and expose an API
+
+* make API accessible via ingress controller
+
+* added swagger definition of new API
+
+* removed HTML status pages of microservices; aligned their health endpoints to return JSON
+
+* do not display anything when ratings data is not present to address comment by @frankbu on pull request #693
+
+
+Former-commit-id: 2ffc8ed1398dd89618383b221f37ffafad84cf85",ErikWittern,https://api.github.com/repos/istio/istio/git/commits/47441cd553675afad9075cf51bccddd3c070dd7e
+d6967d9891b536150979531a1cad7d1d7b4815c3,"correct url of lyft.github.io to envoyproxy.github.io and correct content path changed (#1289)
+
+Signed-off-by: linzhinan <linzhinan@huawei.com>",zenlint,https://api.github.com/repos/istio/istio/git/commits/d6967d9891b536150979531a1cad7d1d7b4815c3
+5a203760fef5d6a1d13a8b2cd994989f98547bc7,"Clarify environment variables set in .profile (#919)
+
+Automatic merge from submit-queue
+
+Clarify environment variables set in .profile
+
+Fixes (#918)
+
+Prior to this small change, the .profile settings were not completely
+obvious.  Now all profile settings that Istio should expect to use
+are set in one place.
+
+**Release note**:
+
+NONE
+
+Former-commit-id: 977a1af1769c0eac0748f9e2c78aa3435dc47299",sdake,https://api.github.com/repos/istio/istio/git/commits/5a203760fef5d6a1d13a8b2cd994989f98547bc7
+0366256a049bea6cb969dfeee2f08279938b5efe,"WIP: Setting the Envoy tracing operation name for inbound and outboun… (#1358)
+
+* WIP: Setting the Envoy tracing operation name for inbound and outbound listeners
+
+* Fix line lengths
+
+* Fix format errors",objectiser,https://api.github.com/repos/istio/istio/git/commits/0366256a049bea6cb969dfeee2f08279938b5efe
+ce93a6b94656e78f94a0a24ca86b9c244b5f65e4,"developper => developer (#1356)
+
+Automatic merge from submit-queue
+
+developper => developer
+
+Typo fix.
+```release-note
+NONE
+```
+
+Former-commit-id: 2fa9d64c25337a06044aae494d71d0c61ac65c9a",redhotpenguin,https://api.github.com/repos/istio/istio/git/commits/ce93a6b94656e78f94a0a24ca86b9c244b5f65e4
+a57e96de714bd60ee9914101b12632446895f98e,"fix: use routerule[s] instead of route-rule[s] (#938)
+
+Automatic merge from submit-queue
+
+fix: use routerule[s] instead of route-rule[s]
+
+**Release note**:
+
+```release-note
+<Update `route-rule` to `routerule` in `cleanup.sh`>
+```
+
+Closes https://github.com/istio/issues/issues/78
+
+Former-commit-id: d5676e6036fe23a45290d8b248140588b6c21484",sublimino,https://api.github.com/repos/istio/istio/git/commits/a57e96de714bd60ee9914101b12632446895f98e
+f0ad296eea8c7a9db87219dab186b91deeaa82b4,"fix config typo (#1371)
+
+Automatic merge from submit-queue
+
+fix config typo
+
+**What this PR does / why we need it**:
+fixes config typo 
+**Which issue this PR fixes** *(optional, in `fixes #<issue number>(, fixes #<issue_number>, ...)` format, will close that issue when PR gets merged)*: fixes #
+
+**Special notes for your reviewer**:
+fixes typo pointed in #75
+**Release note**:
+
+```release-note
+```",karmab,https://api.github.com/repos/istio/istio/git/commits/f0ad296eea8c7a9db87219dab186b91deeaa82b4
+ce5d1113a6d59d165768dd8f8d0d36dad4f89f21,"Typo in README.md (#276)
+
+Automatic merge from submit-queue
+
+Typo in README.md",alexeykazakov,https://api.github.com/repos/istio/istio/git/commits/ce5d1113a6d59d165768dd8f8d0d36dad4f89f21
+8cbfc877186a48cabdff13c460332562a7ef7792,"get default namespace from kubeconfig if possible (#1373)
+
+Automatic merge from submit-queue
+
+istioctl: Use namespace from kube config
+
+Changes istioctl to use the namespace for the current context in local kube config if it exists.
+
+fixes istio/istio#979
+
+Let me know if you think this is the right approach.",emaildanwilson,https://api.github.com/repos/istio/istio/git/commits/8cbfc877186a48cabdff13c460332562a7ef7792
+7b3cdcb0644efef3b06dcc28f8dbd9cb71f3b848,"Add api attributes to the attribute vocabulary. (#1418)
+
+Automatic merge from submit-queue
+
+Add api attributes to the attribute vocabulary.
+
+Design doc: https://goo.gl/3WTUfW
+
+**Release note**:
+```release-note
+None
+```
+
+Former-commit-id: 7447e4667ccdb93dc064da4afe8156f74b9e50f5",apicl,https://api.github.com/repos/istio/istio/git/commits/7b3cdcb0644efef3b06dcc28f8dbd9cb71f3b848
+82de7db41a9ed478f2302ef9b8a2c831feb2fe83,"Added unit tests to increase code coverages (#279)
+
+Automatic merge from submit-queue.
+
+Added unit tests to increase code coverages
+
+**Release note**:
+
+```release-note
+none
+```",mangchiandjjoe,https://api.github.com/repos/istio/istio/git/commits/82de7db41a9ed478f2302ef9b8a2c831feb2fe83
+f105a849ea3b2a65d34dd5ef9160589a4ab657ab,"Merge changes from apigee branch (#307)
+
+Automatic merge from submit-queue.
+
+Merge changes from apigee branch
+
+**Release note**:
+
+```release-note
+NONE
+```",crazytan,https://api.github.com/repos/istio/istio/git/commits/f105a849ea3b2a65d34dd5ef9160589a4ab657ab
+03db1e3c76d824633092946ba1cf7a06bcf906d4,"Invert error handling (#1531)
+
+Handling errors first is consistent with the other binaries
+
+Signed-off-by: bndw <benjamindwoodward@gmail.com>",bndw,https://api.github.com/repos/istio/istio/git/commits/03db1e3c76d824633092946ba1cf7a06bcf906d4
+1a14b34c6df8c73b11b92b150db8c9d92fff163c,"Add timestamp() expression support (#1383)
+
+Automatic merge from submit-queue.
+
+Add timestamp() expression support
+
+**Release note**:
+```
+Add timestamp() expression support.
+```
+
+Former-commit-id: c1335224bbd608ca12cc185eaaecf6cf2a933582",RoeyMaor,https://api.github.com/repos/istio/istio/git/commits/1a14b34c6df8c73b11b92b150db8c9d92fff163c
+df187e7916eb93800b1eaddec672da27d42cfbd5,"Update GROUPS.md (#1210)
+
+Automatic merge from submit-queue.
+
+Update GROUPS.md
+
+**What this PR does / why we need it**:
+
+**Which issue this PR fixes** *(optional, in `fixes #<issue number>(, fixes #<issue_number>, ...)` format, will close that issue when PR gets merged)*: fixes #
+
+**Special notes for your reviewer**:
+
+**Release note**:
+
+```release-note
+NONE
+```
+
+Former-commit-id: 158afc82f28b4ef0efbed7c218ba588dc26cfc49",jasminejaksic-zz,https://api.github.com/repos/istio/istio/git/commits/df187e7916eb93800b1eaddec672da27d42cfbd5
+acc833605ffb8c04a57a54dda69cbbde97badf9c,"Fixed Makefile BUILD_FLAGS for darwin (#1624)
+
+* Fixed Makefile BUILD_FLAGS for darwin
+
+* Changed more flags from k8 to darwin",mcwienczek,https://api.github.com/repos/istio/istio/git/commits/acc833605ffb8c04a57a54dda69cbbde97badf9c
+655e20414058e29ce2ee24bb86bace84674d3b3e,"Per-service auth enablement via service annotation (#1443)
+
+* Draft implementation for security optin/optout via service annotation
+
+* Clean up and add some comments
+
+* Rename SecurtiyOption -> AuthenticationPolicy.
+Add separate tests for auth opt-in/opt-out to reduce redundant golden files.
+
+* Fix comment lint.
+
+* Revert WORKSPACE to master
+
+* Revert ""Revert WORKSPACE to master""
+
+This reverts commit 266aada1f6b263feb694377f3eff99aff0c886c6.
+
+* Fix go lint
+
+* Fix go lint.
+
+* Rename test function name.
+
+* Add comments
+
+* Fix new golden files after merger
+
+* Merge proxy/envoy/config.go
+
+* Remerge WORKSPACE
+
+* Fix merge: egress file was removed
+
+* Add e2e test
+
+* Update test comments
+
+* Add comment to the top of the test function.",diemtvu,https://api.github.com/repos/istio/istio/git/commits/655e20414058e29ce2ee24bb86bace84674d3b3e
+65c52e39ade4606705a53b3aba4d88d3a4b8ad24,Fix golint warning (#1514),gliptak,https://api.github.com/repos/istio/istio/git/commits/65c52e39ade4606705a53b3aba4d88d3a4b8ad24
+977aeafb7d7b0ffe6678e9fc5efdb2ba388c8e3d,add support for ALPN protocols in listener ssl context (#1294),mdhume,https://api.github.com/repos/istio/istio/git/commits/977aeafb7d7b0ffe6678e9fc5efdb2ba388c8e3d
+689bc6486100d99bdd27bde1ddd500a1c76d431e,"small fix for dev guide. (#1593)
+
+Signed-off-by: CuiHaozhi <cuihaozhi@chinacloud.com.cn>",sak0,https://api.github.com/repos/istio/istio/git/commits/689bc6486100d99bdd27bde1ddd500a1c76d431e
+f6049d3b933a16febe953381761ebbb894022227,"Fix typos in DEV-GUIDE.md (#1599) (#1602)
+
+Change-Id: Ia3a44c85703d33ffed343bfc27fd25b4d0f4d600",rcurran1,https://api.github.com/repos/istio/istio/git/commits/f6049d3b933a16febe953381761ebbb894022227
+ac16f02d3574b7c21d08dd3fc71e2cf13056ebda,"[pilot] Adding file-based ConfigStore (#1601)
+
+* Adding file-based ConfigStore
+
+This is to support integration testing of Pilot.
+
+* addressing comments.
+
+* Adding file-based ConfigStore
+
+This is to support integration testing of Pilot.
+
+* addressing comments",nmittler,https://api.github.com/repos/istio/istio/git/commits/ac16f02d3574b7c21d08dd3fc71e2cf13056ebda
+96404c915d1c8146b9e6af76ad4c2a38b94a87ff,apiVersion not set (#1312),victorgs,https://api.github.com/repos/istio/istio/git/commits/96404c915d1c8146b9e6af76ad4c2a38b94a87ff
+49380353d18c8b471dbbcb0b8409a5626571002c,Fix forgot to close the file (#1620),FengyunPan2,https://api.github.com/repos/istio/istio/git/commits/49380353d18c8b471dbbcb0b8409a5626571002c
+93e83577df833e5262ef25466d13ef06bbb7d2fb,"Fix injecting into CronJobs. (#1619)
+
+CronJobs have JobTemplates instead of Templates, causing injecting to
+fail.",TimDumol,https://api.github.com/repos/istio/istio/git/commits/93e83577df833e5262ef25466d13ef06bbb7d2fb
+ca61895422fec379f92578f1b455c1703bc18b48,fixed the broken links (#1639),hrishin,https://api.github.com/repos/istio/istio/git/commits/ca61895422fec379f92578f1b455c1703bc18b48
+52a1dadea0870bc09a04320f9137be74d402d5c4,Update DEV-GUIDE.md (#1644),Mistobaan,https://api.github.com/repos/istio/istio/git/commits/52a1dadea0870bc09a04320f9137be74d402d5c4
+1f601f11ad63e27c730620b83a1b1506c5452c08,"Cleaning up RBAC permissions part 1 (#1715)
+
+Automatic merge from submit-queue.
+
+Cleaning up RBAC permissions part 1
+
+**What this PR does / why we need it**: 
+
+This PR is a part of ""excessive RBAC permissions cleanup process"". It limits RBAC permissions for 
+
+configmaps  to: get, list, watch, update
+
+endpoints, pods, services to:  get, list, watch
+
+```release-note
+Limiting  RBAC rules to what is only required.
+```",sbezverk,https://api.github.com/repos/istio/istio/git/commits/1f601f11ad63e27c730620b83a1b1506c5452c08
+1cb27faeff29d1d83e627ec5fd5521f374549beb,"Updated Cloud Builder build infra for monorepo and Istio 0.3 release process (#1674)
+
+Automatic merge from submit-queue.
+
+Updated Cloud Builder build infra for monorepo and Istio 0.3 release process
+
+This change introduces files that allow Cloud Builder (CB) to be used to do an end-to-end build of Istio.
+
+This is my first time doing 1) an istio change, 2) a pull request, and 3) a non-trivial amount of bash scripting so please be patient with the newb.  I've created an overview of the execution and motivations at:
+
+https://docs.google.com/a/google.com/document/d/1nOzb7M2aT2nB5kHy8DJyiyK6un8pSaJTEnB9upbbllw/edit?usp=sharing
+
+Parts of the design/implementation are driven by the requirements of the ""Istio 0.3 OSS Release Train"":
+
+https://goo.gl/6V1SHm
+
+The overview (for those that aren't inclined to use the docs or can't access them):
+
+The existing continuous integration system (CI) publishes repo tool manifest of green builds in:
+
+https://github.com/istio/green-builds/
+
+The release process (RP) decides which of these green build manifest it wants to use as today's daily build and leverages the functionality in this change to use CB to make a clean build based on that manifest.  An automated RP doesn't yet exist so a human is likely to serve the role in the meantime.  RP uses start_gcb_build.sh (or alternate implementation that's functionally equivalent) to:
+
+1) download the version of the build instructions template (cloud_build.template.json) in the istio repo that corresponds to the manifest,
+2) populate the template with: a istio version string, the URL & commit hash of the manifest repo, and the path where to store the build artifacts on GCS & GCR
+3) start the build using a REST API call to cloud builder
+
+Cloud builder runs the build in a docker image by executing (as specified in the original cloud_build.template.json) a sequence of commands from outside the image:
+1) initialize the repo tool using the specified manifest repo and commit hash
+2) use repo tool to download the source code for the istio components
+3) run cloud_builder.sh to build across the proxy and istio repos and store the results in a temporary directory (currently an ephemeral /output that's provided by CB and discarded after a build completes).
+4) run create_release_archives.sh to create the install tarballs from the artifacts in the temp dir, writing the results back to the temp dir.
+5) run store_artifacts.sh to store the artifacts in the specified dir to GCS/GCR.  With this change there will be a complete set of artifacts in GCS (images on GCR are also present as a tar on GCS under a docker/ subdirectory).
+
+These files are new but heavily based on 0.2:
+
+bin/cloud_builder.sh
+bin/create_release_archives.sh (replaces release/create_release_archives.sh )
+
+These files are basically new:
+
+bin/cloud_build.template.json
+bin/start_gcb_build.sh
+bin/store_artifacts.sh
+
+These existing files were modified to they can be used to store artifacts to a specified directory (this is optional behavior that can be done instead of or in addition to their typical use to push to an external location):
+
+bin/docker_lib.sh
+security/bin/push-debian.sh
+pilot/bin/push-debian.sh
+pilot/bin/upload-istioctl
+
+I made a fix to pilot/bin/init.sh though that file isn't used by this change.
+
+A similar/analogous modification is needed for the proxy (which I already have implemented but I'm inclined to hold off on that PR until I see how this one goes).  I have done various test builds.  I have compared the variety and count of artifacts in these builds to earlier builds, and I have checked certain details like ""dirty"" being reported in version tags, but I haven't actually tried to run istio.
+
+**Release note**:
+NONE
+```release-note
+NONE
+```",mattdelco,https://api.github.com/repos/istio/istio/git/commits/1cb27faeff29d1d83e627ec5fd5521f374549beb
+02812612637717219ff86d4044eb4e6f5a8f130f,"Fixed Istio-security linter errors (#1787)
+
+* Fixed linter errors
+
+* fix test failures",JimmyCYJ,https://api.github.com/repos/istio/istio/git/commits/02812612637717219ff86d4044eb4e6f5a8f130f
+1b0db6b179c00097a13ff767f53815282a01c45f,"Change tpr into cr in configuration-flow.md (#1745)
+
+Signed-off-by: Guihua Zhu <zhuguihua@cmss.chinamobile.com>",zhuguihua,https://api.github.com/repos/istio/istio/git/commits/1b0db6b179c00097a13ff767f53815282a01c45f
+0ca1706ad6ca39dd03c52f33b80512f98705e454,"removed omitempty from Route TimeoutMS (#1748)
+
+Automatic merge from submit-queue.
+
+removed omitempty from Route TimeoutMS
+
+the `omitempty` keyword in the Route definition is preventing an empty timeout (=0) to be defined. This leads to the Envoy Default Timeout of 15s which breakes the long lasting connections, like the ones used in gRPC Streaming.
+
+With this change, the Timeout is alway 0 (no timeout) except when you set it to another value in a RouteRule.
+
+**What this PR does / why we need it**:
+
+**Which issue this PR fixes** *(optional, in `fixes #<issue number>(, fixes #<issue_number>, ...)` format, will close that issue when PR gets merged)*: fixes #
+
+**Special notes for your reviewer**:
+
+**Release note**:
+
+```release-note
+NONE
+```",prune998,https://api.github.com/repos/istio/istio/git/commits/0ca1706ad6ca39dd03c52f33b80512f98705e454
+c5a2b3bc3afe3f5bc4198df726bd0455505212d7,"Revert ""Add support for Mapkey caching"" (#1834)
+
+* Revert ""update proxy sha (#1831)""
+
+This reverts commit 8d37ee5f8f4748e0d0639113125491e7509c2876.
+
+* Revert ""Add support for Mapkey caching (#1828)""
+
+This reverts commit ab6a36a1c28c034cd1692b470d36b5f6688d5068.",hklai,https://api.github.com/repos/istio/istio/git/commits/c5a2b3bc3afe3f5bc4198df726bd0455505212d7
+4a0c241bfd7ef732a8eec720e2eed3ad57f5ca5f,"Update the Prometheus image to v2.0.0 (#1864)
+
+The CLI flags have been modified accordingly.",simonpasquier,https://api.github.com/repos/istio/istio/git/commits/4a0c241bfd7ef732a8eec720e2eed3ad57f5ca5f
+6b423a9a0937cbe57b84e53912d1c76f062299be,"Add additional install method via Google Cloud Deployment Manager (#1861)
+
+* Add additional install method via Google Cloud Deployment Manager
+
+See install/gcp/deployment_manager/README.md for instructions.
+
+* Add more description details
+
+* Swap order of cd/checkout
+
+* Update version to 0.3.0",selmanj,https://api.github.com/repos/istio/istio/git/commits/6b423a9a0937cbe57b84e53912d1c76f062299be
+2dd598ef494c691e1123a73d08d05389c6d6cb2f,Update links to Open Service Broker API (#1923),pmorie,https://api.github.com/repos/istio/istio/git/commits/2dd598ef494c691e1123a73d08d05389c6d6cb2f
+2294b7aa158408367d3f7962d00d7344a50dd842,"Touch pilot/platform/kube/config instead of symlinking. (#1953)
+
+This fixes the build for a user with no existing ~/.kube/config file,
+but places the burden on developers to set up proper symlink if they
+need it for testing.
+
+For convenience, another make target is added to create the symlink:
+kubelink. If developers want to create the symlink instead of creating
+an empty file, they can run:
+
+    $ make kubelink build
+
+Also, update the circleci config to use the new target.",pipejakob,https://api.github.com/repos/istio/istio/git/commits/2294b7aa158408367d3f7962d00d7344a50dd842
+f4f55b3032f987424b11674b55827c0838027a46,"add pilot end-to-end test for routing rules to outboud traffic (#2016)
+
+Automatic merge from submit-queue.
+
+add pilot end-to-end test for routing rules to outboud traffic
+
+**What this PR does / why we need it**:
+add pilot end-to-end test for routing rules to outboud traffic defined by egress rules
+
+**Special notes for your reviewer**:
+This PR adds the first test of routing rules to egress rules:
+fault injection to httpbin.org
+more tests to follow...
+
+**Release note**:
+
+```
+NONE
+```",ronenschafferibm,https://api.github.com/repos/istio/istio/git/commits/f4f55b3032f987424b11674b55827c0838027a46
+bb0a5f7634ffce00a5f1eebf9865c92902b2c01d,"Fix the istio-proxy-cfg script (#2077)
+
+Update the parameter parsing in bin/istio-proxy-cfg to pull
+the correct values and function correctly.",robcresswell,https://api.github.com/repos/istio/istio/git/commits/bb0a5f7634ffce00a5f1eebf9865c92902b2c01d
+9df837330d1109aa358d36a84a7a0dfc36f829c5,"Introduces Cloudfoundry Platform (#2022)
+
+* Introduces CloudFoundry Platform
+
+- This allows pilot to fetch services and serviceInstances for
+CloudFoundry
+- This is a minimal implementation to get the CloudFoundry
+platform to work in pilot, there will be additionals PRs as more
+features are added
+- The tests are run with ginkgo
+- The fakes are generated with hel (https://github.com/nelsam/hel)
+
+[#151465998]
+
+Signed-off-by: Edwin Xie <exie@pivotal.io>
+
+* Add Apache license header to CloudFoundry platform
+
+[#151465998]
+
+Signed-off-by: Nick Mahoney <nmahoney@pivotal.io>
+
+* Bazel fixes
+
+- use fork of certstrap to work around build vs BUILD confusion on mac
+
+[#151465998]
+
+Signed-off-by: Nick Mahoney <nmahoney@pivotal.io>
+
+* fix import
+
+[#151465998]
+
+Signed-off-by: Gabe Rosenhouse <grosenhouse@pivotal.io>
+
+* Lint and fmt fixes
+
+[#151465998]
+
+Signed-off-by: Nick Mahoney <nmahoney@pivotal.io>
+
+* Add godoc comments, fix linter errors
+
+[#151465998]
+
+Signed-off-by: Nick Mahoney <nmahoney@pivotal.io>
+
+* Fix unit test
+
+[#151465998]
+
+Signed-off-by: Gabe Rosenhouse <grosenhouse@pivotal.io>
+
+* lock copilot to the latest commit
+
+ref: https://github.com/istio/istio/pull/2022#issuecomment-352042301
+
+[#151465998]
+
+* package import ordering matches recommended style
+
+ref: https://github.com/istio/istio/pull/2022#discussion_r157236144
+
+* use camelCase for function-scoped variables
+
+ref: https://github.com/istio/istio/pull/2022#discussion_r157229264
+
+* GetService returns (nil, nil) when no service is found
+
+ref: https://github.com/istio/istio/pull/2022#discussion_r157239405
+
+[#151465998]
+
+* Remove dot imports from test files
+
+ref: https://github.com/istio/istio/pull/2022#discussion_r157261990
+
+[#151465998]
+
+* Revert ""Remove dot imports from test files""
+
+This reverts commit a12c911c187e1cd1bca3fee51327603b74562f29.",Nino-K,https://api.github.com/repos/istio/istio/git/commits/9df837330d1109aa358d36a84a7a0dfc36f829c5
+335938f0d7af44f4e419a51d5b4a38cc31898c28,fix unavailable link (#2335),carlory,https://api.github.com/repos/istio/istio/git/commits/335938f0d7af44f4e419a51d5b4a38cc31898c28
+87aa56e286b544c2380390ac77b2bd4a891a5752,"add ratings service unavailable message to bookinfo app (#2354)
+
+Automatic merge from submit-queue.
+
+add ratings service unavailable message to bookinfo app
+
+as a fix of issue https://github.com/istio/istio/issues/1034
+
+showing rating service unavailable when rating service is being blocked, rate limited, etc.
+![screen shot 2017-12-30 at 4 51 10 pm](https://user-images.githubusercontent.com/7304774/34458309-b0a4d11c-ed81-11e7-8018-00760013aa7f.png)",jasonwzm,https://api.github.com/repos/istio/istio/git/commits/87aa56e286b544c2380390ac77b2bd4a891a5752
+010e611abe05880e8b49f714cdc2ba8e16e5d437,"Update Grafana to 4.6.3 (#2320)
+
+Automatic merge from submit-queue.
+
+Update Grafana to 4.6.3
+
+Switch from using custom Docker image to the upstream image and a configmap with sidecar. Config files are now under install/kubernetes/templates/addons/grafana-config and are inserted by install/updateVersion.sh.",jeffmendoza,https://api.github.com/repos/istio/istio/git/commits/010e611abe05880e8b49f714cdc2ba8e16e5d437
+58c9643a55dcbeb27bea4e402453778b299c95e0,"Add max_retries to circuit breaker configuration (#2070)
+
+Automatic merge from submit-queue.
+
+Add max_retries to circuit breaker configuration
+
+**What this PR does / why we need it**: This PR adds the possibility to use the httpMaxRetries config attribute in the DestinationPolicy yaml file. It allows configuring the max number of outgoing retries in a circuit breaker scenario.
+
+**Which issue this PR fixes** *(optional, in `fixes #<issue number>(, fixes #<issue_number>, ...)` format, will close that issue when PR gets merged)*: fixes #
+
+**Special notes for your reviewer**:
+
+**Release note**:
+
+```release-note
+```",hap2712,https://api.github.com/repos/istio/istio/git/commits/58c9643a55dcbeb27bea4e402453778b299c95e0
+eebc28073b3132742f56631cb0bdf20d142e43df,"comment Validate method - fix lint build (#2387)
+
+* comment the Validate method
+
+* correct spelling",mdevilliers,https://api.github.com/repos/istio/istio/git/commits/eebc28073b3132742f56631cb0bdf20d142e43df
+f399b43c79c1c4555ff6027ac78acc49a4a25016,"cloudfoundry unit tests do not use ginkgo (#2345)
+
+- still use gomega matchers
+
+[#153712695]",rosenhouse,https://api.github.com/repos/istio/istio/git/commits/f399b43c79c1c4555ff6027ac78acc49a4a25016
+9d92527d6b787f764f56236b2f7eb0dd2f3883ef,"Airflow configs for Istio's release pipline. (#2304)
+
+Automatic merge from submit-queue.
+
+Airflow configs for Istio's release pipline.
+
+These config files are used by Apache incubator's airflow. Airflow
+is an open source orchestration engine. Even without the defined pipline
+can be manually run by executing the scripts found in release.",silverdev,https://api.github.com/repos/istio/istio/git/commits/9d92527d6b787f764f56236b2f7eb0dd2f3883ef
+6314ca57a099fb0366f8e34f5029054e6d327d95,Clarifying Dev Guide - adding KUBECONFIG to required environment variables (#2454),gnirodi,https://api.github.com/repos/istio/istio/git/commits/6314ca57a099fb0366f8e34f5029054e6d327d95
+ccb00b27405f78062e5b878527ee13b53fb698f6,"Better handle GOPATH in Makefile and init.sh (#2460)
+
+- Honor its value if already set in env
+- Handle multiple paths in GOPATH
+
+While on that, modify `dep` usages to its full path.
+
+Closes #2441.",jwendell,https://api.github.com/repos/istio/istio/git/commits/ccb00b27405f78062e5b878527ee13b53fb698f6
+1c498e7712badd8f3e885fbe3b77e4d2d3621843,"Fix #2389 add missing jinja files to install folder (#2391)
+
+Signed-off-by: David Gageot <david@gageot.net>",dgageot,https://api.github.com/repos/istio/istio/git/commits/1c498e7712badd8f3e885fbe3b77e4d2d3621843
+7899c8999eee4237200cf2e576d6f95df438492c,"HostIntances now in CloudFoundry Platform Adapter (#2453)
+
+- HostInstances now returns all instances for all hosts
+- Supports clusters and routes endpoints
+- Change Port Protocol from TCP to HTTP
+
+Signed-off-by: Gabe Rosenhouse <grosenhouse@pivotal.io>",charleshansen,https://api.github.com/repos/istio/istio/git/commits/7899c8999eee4237200cf2e576d6f95df438492c
+beab61c819fac9d37ca48cfe487a77de748f0630,"use only isito chart to deploy all components (#2461)
+
+Automatic merge from submit-queue.
+
+use only isito chart to deploy all components
+
+Use helm hooks to install CRD before installing the custom objects that depend on them. With this then there is not need to run `deployIstioHelmCharts.sh` to install istio, just `helm install istio` is enough.
+
+TODO:
+
+- [x]  Move all components into istio chart
+- [x] Use post-install hook to install custom objects (that depend on CRD)
+- [x] Move all needed manifests to `istio` chart
+- [x] Full test
+
+How to test it:
+run `helm install istio` (on `install/kubernetes/helm` folder). 
+
+helm hooks are not quite ready to handle CRD. Even if you define CRD as a `pre-install` hook, `helm isntall` will fail if it founds a custom object that depend on this CRD (so they use api ""config.istio.io"") in the same install. This is due to validation step that helm does before installing any object. Check kubernetes/helm#2925 (comment)
+
+So, according to my knowledge, there two ways to install pass this issue using helm right now:
+
+- A two install step:
+First install CRD and then install the custom objects that depend on them. This is what the incubator's istio chart is doing with a `helm init` followed by a `helm upgrade` as you can see [here](https://github.com/kubernetes/charts/tree/master/incubator/istio#installing-the-chart).
+
+- Install custom objects in a `post-install` hook:
+In order to pass helm validation, you can create custom objects out of helm context by running a `post-intall` job that will manually create custom objects. This is what I choose in this PR, as you can see `create-custom-objects-job.yaml` job create custom object  by running `kubectl apply -f custom-objects` after helm installation. Also, this is what `prometheus-operator` is doing right now as you can see here in the [templates](https://github.com/coreos/prometheus-operator/tree/master/helm/prometheus-operator).
+
+I'll open an issue in `helm` repo to see if there is a better way to do this. Let me know what you guys think and if you can install all by just running `helm install`.",luisyonaldo,https://api.github.com/repos/istio/istio/git/commits/beab61c819fac9d37ca48cfe487a77de748f0630
+141c8ef350d27d6447015caf626d7b80b49d617f,Fixing typo on namespace (#2568),knabben,https://api.github.com/repos/istio/istio/git/commits/141c8ef350d27d6447015caf626d7b80b49d617f
+4e8fee8b207f934d72754d10cb9622b214f2329f,use a working link for the istio logo in grafana dashboard (#2648),cmeury,https://api.github.com/repos/istio/istio/git/commits/4e8fee8b207f934d72754d10cb9622b214f2329f
+39e6e59ae1678cd33c7729bb57e9728dcfeddbaf,"Add istioctl deregister feature (#2508)
+
+This commit adds the istioctl deregister feature. At present only
+istioctl register is available. Deregister will deregister the
+endpoint registered as part of the registration option. It takes
+into consideration the following cases :
+
+1. Where no endpoint is registered and deregister is issued.
+2. Only one endpoint is registered and same is inputed to deregister.
+3. Multiple endpoints are registered and one (or none) of them is
+   asked to deregister.",vilobhmm,https://api.github.com/repos/istio/istio/git/commits/39e6e59ae1678cd33c7729bb57e9728dcfeddbaf
+47d0a3bd0f02a9dd05785877280c2fa871b63a96,"Add ansible playbook that can install Istio on k8s or ocp (#2794)
+
+Automatic merge from submit-queue.
+
+Add ansible playbook that can install Istio on k8s or ocp
+
+This PR implements #2763.
+
+As you can see from the changes, we have added the ansible playbook inside `install/ansible` directory. Along with the playbook the README provides all the relevant documentation.
+
+Furthermore the team has developed some [scripts](https://github.com/snowdrop/spring-boot-quickstart-istio/tree/master/scripts) that aided us with our dealing with Istio, that you might find useful.
+Specifically under the `minikube` and `minishift` directories you will find some scripts we used to ensure that common cases work correctly on the respective clusters.
+If you would like us to donate those as well, we would be more than happy to do so.
+
+Regards",geoand,https://api.github.com/repos/istio/istio/git/commits/47d0a3bd0f02a9dd05785877280c2fa871b63a96
+5d323f7624822a7429b6b89336e081aa1e731653,"bump dependency on code.cloudfoundry.org/copilot (#2845)
+
+Signed-off-by: Gabe Rosenhouse <grosenhouse@pivotal.io>",zachgersh,https://api.github.com/repos/istio/istio/git/commits/5d323f7624822a7429b6b89336e081aa1e731653
+31532ccebaa231418a116a88612e7ef72ef65f58,"Add a default vagrant enviroment for development (#2412) (#2646)
+
+* Add a default vagrant enviroment for development (#2412)
+
+* --amned",linsheng9731,https://api.github.com/repos/istio/istio/git/commits/31532ccebaa231418a116a88612e7ef72ef65f58
+c4628a59acf1a29ee30aad102a92b4301edd624c,"RBAC adapter implementation (#2743)
+
+* Implement RBAC adapter.
+
+* Fix tests.
+
+* Test file change and format change.
+
+* Fix linter issues.
+
+* Addressed review comments.
+
+* Fix format.
+
+* Comments updates and changes to stop the daemon when handler is closed.
+
+* Add a newline.
+
+* Added a cache duration parameter.
+
+* Added package level description.
+
+* Added cache duration parameter.
+
+* Fix format.
+
+* Addressed Martin's comments.
+
+* Wait for daemon thread to terminate.",liminw,https://api.github.com/repos/istio/istio/git/commits/c4628a59acf1a29ee30aad102a92b4301edd624c
+50cfa8aa578b84e78fcb7b188f72774b60aaa557,"Add script for e2e tests where Istio is already installed. (#2841)
+
+* Add script for e2e tests where Istio is already installed.",ostromart,https://api.github.com/repos/istio/istio/git/commits/50cfa8aa578b84e78fcb7b188f72774b60aaa557
+b32acb6af8ee0ceec32fabb455cf23ecf4df2af0,"Mixer adapter for Solarwinds Appoptics and Papertrail (#2463)
+
+* Appoptics-papetrail mixer adapter.",girishranganathan,https://api.github.com/repos/istio/istio/git/commits/b32acb6af8ee0ceec32fabb455cf23ecf4df2af0
+9e34eb27a897527ecd22593f321814944a7393d2,"istioctl: enable logging for all subcommands (not just create) (#3025)
+
+* istioctl: enable logging for all subcommands (not just create)
+
+log.Configure() is currently only called for 'create' so no other
+subcommands' log.XYC calls do anything.  This change calls
+log.Configure in the rootCmd prerun to enable logging options for all
+istioctl subcommands.
+
+* istioctl: change to PreRunE to return error from log.Configure",tiswanso,https://api.github.com/repos/istio/istio/git/commits/9e34eb27a897527ecd22593f321814944a7393d2
+8a5725f9107b887b661e6008b786f4d07297f61d,"Update README.md (#3045)
+
+correcting links to screenshots.",leecalcote,https://api.github.com/repos/istio/istio/git/commits/8a5725f9107b887b661e6008b786f4d07297f61d
+0fdb0185896b80ff500eca751e4381368dd0318d,"Remove sync time hardcoding (#2991)
+
+* Remove sync time hardcoding
+
+* make comment clear",leizhiyuan,https://api.github.com/repos/istio/istio/git/commits/0fdb0185896b80ff500eca751e4381368dd0318d
+d38cca2dcdb27e0b47b8ee56b6032fd24d76c974,Add RBAC for prometheus (#3150),Stono,https://api.github.com/repos/istio/istio/git/commits/d38cca2dcdb27e0b47b8ee56b6032fd24d76c974
+2e916eedd2eb001f1ebae114e48d084b4f4b6d59,"Expose concurrency flag of envoy (#3065)
+
+Automatic merge from submit-queue.
+
+Expose concurrency flag of envoy
+
+This is to address the following github issue: https://github.com/istio/istio/issues/3031",mcieplak,https://api.github.com/repos/istio/istio/git/commits/2e916eedd2eb001f1ebae114e48d084b4f4b6d59
+89e56e8fe7c08923a10c3a3dcdba90924a3eb1b8,Add namespace to zipkin-to-stackdriver yaml (#3296),bianpengyuan,https://api.github.com/repos/istio/istio/git/commits/89e56e8fe7c08923a10c3a3dcdba90924a3eb1b8
+70c9b0774ac1977ae4e2afbd44c257e88066b6ba,Use proxy_init image in sidecar-injector helm chart (#3303),munnerz,https://api.github.com/repos/istio/istio/git/commits/70c9b0774ac1977ae4e2afbd44c257e88066b6ba
+6967d8ee7545942bfefe5297bb13b04bb395a065,"Enable basic security/mTLS for consul (#3339)
+
+* Enable basic security/mTLS for consul
+
+* adding tests for consul extractAuthenticationPolicy
+
+* adding tests for consul extractAuthenticationPolicy",kidiyoor,https://api.github.com/repos/istio/istio/git/commits/6967d8ee7545942bfefe5297bb13b04bb395a065
+83da8213cd601f252b13ff66294cc20635cd7dbd,"Update Cobra.go to print version on stdout (#3450)
+
+* Update Cobra.go to print version on stdout
+
+Change Printf  in order to be able to parse result of command line istioctl version (ie. istioctl version | grep -I 0.5.1)
+
+* Update with remarks
+
+Add fmt in import and remove comment
+
+* Update with linter",jsenon,https://api.github.com/repos/istio/istio/git/commits/83da8213cd601f252b13ff66294cc20635cd7dbd
+eae14e1abafd95695417f0eae48b93482a403774,Fix broken link to image in README.md (#3489),lizrice,https://api.github.com/repos/istio/istio/git/commits/eae14e1abafd95695417f0eae48b93482a403774
+55449bd89864f4864c8a8e0ca51561449dbab915,"pin mergo dependency against kubernetes/client-go compatible version (#3497)
+
+Automatic merge from submit-queue.
+
+x509 error with certificate-authority-data: pin mergo dependency against kubernetes/client-go compatible version
+
+This issue was noticed when istioctl returned
+""x509: certificate signed by unknown authority""
+in combination with a cluster in ~/.kube/config that
+specifies its cluster certificate using certificate-authority-data.
+
+The merging in
+https://github.com/kubernetes/client-go/blob/b6a34c5a002893138005771f76480e7166da9310/tools/clientcmd/loader.go#L225-L227
+results in `CertificateAuthorityData` containing the base64-decoded
+certificate twice, which results in the x509 error.
+
+Potentially related to https://github.com/kubernetes/client-go/blob/7cd1d3291b7d9b1e2d54d4b69eb65995eaf8888e/tools/clientcmd/client_config.go#L160-L162.
+Not sure if that's the right way to fix that issue, I'd also appreciate
+some pointers on the best approach to add tests for this.",steffengy,https://api.github.com/repos/istio/istio/git/commits/55449bd89864f4864c8a8e0ca51561449dbab915
+448436a5acd72b77206eb0d61be084b572710022,"Dogstatsd mixer metrics adapter (#3368)
+
+Automatic merge from submit-queue.
+
+Dogstatsd mixer metrics adapter
+
+This PR adds a datadog adapter that sends metrics using the dogstatsd flavor of statsd. I modeled this largely using the statsd and prometheus adapters since dogstatsd ""tags"" are similar to prometheus ""labels"" applied to statsd metric names.
+
+I have this adapted currently running in a staging environment of mine and can confirm it is working as intended. I've only implemented statsd type metrics with tags from dimensions. There is also the potential to emit checks/events to datadog using istio telemetry but that's out of scope for what I wanted to build for an initial adapter.
+
+Please let me know how this looks or if I've missed anything important.",awwithro,https://api.github.com/repos/istio/istio/git/commits/448436a5acd72b77206eb0d61be084b572710022
+b453f5b31e6adf15d6990c973037f8e44ea742af,"Fix comment in CA sign function (#3435)
+
+The comment specified that an invalid TTL time requested for signature
+would be disregarded, taking the max TTL configured in the CA into
+account. However, this is inaccurate, as an error is returned instead.",JAORMX,https://api.github.com/repos/istio/istio/git/commits/b453f5b31e6adf15d6990c973037f8e44ea742af
+d7b81ecdfe92eaccaf9e080fc445eb482ac335c0,"enable generation of adapter and template .proto files (#3778)
+
+* enable generation of adapter and template .proto files
+
+* bad patch
+
+* fix patch
+
+* add ""|| die"" error message for curl
+
+* vendor",theganyo,https://api.github.com/repos/istio/istio/git/commits/d7b81ecdfe92eaccaf9e080fc445eb482ac335c0
+e7b13f7979e6453ee6de4203b2423af51f873871,Update the DEV-GUIDE to refer GOPATH instead of hardcoded path. (#3885),incfly,https://api.github.com/repos/istio/istio/git/commits/e7b13f7979e6453ee6de4203b2423af51f873871
+f434fc244cb73598c0ab288cd4362367c28f34ab,Change the Infof to Debugf in KindMap() (#3925),yangminzhu,https://api.github.com/repos/istio/istio/git/commits/f434fc244cb73598c0ab288cd4362367c28f34ab
+4081af68a66af44c998036eee2febe45c4124ac1,Switch CI badge to match style of other badges. [skip ci]. (#3932),felicianotech,https://api.github.com/repos/istio/istio/git/commits/4081af68a66af44c998036eee2febe45c4124ac1
+98e61d9824373af12c80b1520b7eab11a7fd569d,fix readme example to show how to add jaeger (#4082),jmazzitelli,https://api.github.com/repos/istio/istio/git/commits/98e61d9824373af12c80b1520b7eab11a7fd569d
+bc017a990dbdb932ce88fc300d5a3f898c27ca85,"Fix #3545 - change istioctl delete to use default namespace if no namespace provided (#3604)
+
+Automatic merge from submit-queue.
+
+Fix #3545 - change istioctl delete to use default namespace if no namespace provided
+
+I assume that this is the expected behavior for all the `istioctl` commands
+
+fixes https://github.com/istio/istio/issues/3545",SeriyBg,https://api.github.com/repos/istio/istio/git/commits/bc017a990dbdb932ce88fc300d5a3f898c27ca85
+4edcc814be953dd9461189cafbe84b8b0d5b6101,"Location of istioctl code changed (#4251)
+
+Automatic merge from submit-queue.
+
+Location of istioctl code changed",loewenstein,https://api.github.com/repos/istio/istio/git/commits/4edcc814be953dd9461189cafbe84b8b0d5b6101
+33b225f3d932761489d25ec22487c657a4fe5054,"Adds copilot snapshot during cf config setup (#4019)
+
+- cloudfoundry can now dynamically inject route rules
+based on data from copilot
+- during a snapshot, the config monitor will keep its config store in
+tact if a connection error occurs while attempting to update itself.
+- copilot e2e test: fix apiversion
+- don't log error in monitor package
+- copilot_snapshot: add deadline for querying routes
+- we are now attempting to cache the routes in the copilot
+snapshot. Needlessly creating route objects that may
+already be there was bad.
+- server boostrap has a pattern emerging now that
+the two monitors and one controller have been extracted.
+- change v3routing to networking everywhere",aaronshurley,https://api.github.com/repos/istio/istio/git/commits/33b225f3d932761489d25ec22487c657a4fe5054
+1428876eaaff5e06879d4654725d8bb9d6fecc87,allow cleanup.sh scripts to be re-run without outputing errors (#3617),burnettk,https://api.github.com/repos/istio/istio/git/commits/1428876eaaff5e06879d4654725d8bb9d6fecc87
+433dd9c2a25fe2d9a2fa30ed89c4a8b266a238a9,"IPv6: Proxy address validation (#4263)
+
+Automatic merge from submit-queue.
+
+IPv6: Proxy address validation
+
+Modified logic to allow validation of IPv6 addresses, which will have the IP
+address enclosed in square brackets.",pmichali,https://api.github.com/repos/istio/istio/git/commits/433dd9c2a25fe2d9a2fa30ed89c4a8b266a238a9
+3a49842c210b6c3d8fd7739167099f51d2355cff,"Removing Istio Release Tag Version from Default Variable (#4364)
+
+Automatic merge from submit-queue.
+
+[Ansible Install] Removing Istio Release Tag Version from defaults 
+
+- If you have a version on default, the ``determine_latest_version.yml`` task will not work even if the extra var is determined with -e",gbaufake,https://api.github.com/repos/istio/istio/git/commits/3a49842c210b6c3d8fd7739167099f51d2355cff
+ebc71c35942197b88e0018c1bf888297adaa0b37,"correct the url of envoy docs (#4498)
+
+Automatic merge from submit-queue.
+
+Correct the url of envoy docs
+
+When I read the code, I found that the URL in the note was not accessible. I modified to improve code readability.",ping035627,https://api.github.com/repos/istio/istio/git/commits/ebc71c35942197b88e0018c1bf888297adaa0b37
+91b424faa6b5c1ba7be29cf7fc2d1b91cd03b695,"Add istioctl command document and canonical import path (#4520)
+
+Automatic merge from submit-queue.
+
+Add istioctl command document and canonical import path
+
+Add `istioctl` command document and canonical import path.
+I saw `istioctl` package files, but there is no defined canonical import path. so any users can fetch with `go get -u github.com/istio/istio/istioctl/cmd/istioctl`, but also fetch some files into `$GOPATH/istio.io/istio/...`.
+It is a bit confusing. I think that it is good to avoid it with canonical import path.",zchee,https://api.github.com/repos/istio/istio/git/commits/91b424faa6b5c1ba7be29cf7fc2d1b91cd03b695
+33075b82633d9ee4f373494b90ea68776538b19c,"update nodeSelector to affinity for chart to customize pod scheduling arch preference (#3856)
+
+Automatic merge from submit-queue.
+
+update nodeSelector to affinity for chart to customize pod scheduling arch preference
+
+Replace `nodeSelector` with node `affinity` for `nodeSelector` will be deprecated:
+> nodeSelector continues to work as usual, but will eventually be deprecated, as node affinity can express everything that nodeSelector can express.
+
+With the power of `affinity`, users can customized arch preference based on their requirements.
+When install `Istio` chart, specify pod scheduling arch(amd64, ppc64le, s390x) preference and weight as follows:
+ - 0(Never scheduled)
+ - 1(Least preferred)
+ - 2(No preference)
+ - 3(Most preferred)
+
+default value:
+```
+  arch:
+    amd64: 2
+    s390x: 2
+    ppc64le: 2
+```",morvencao,https://api.github.com/repos/istio/istio/git/commits/33075b82633d9ee4f373494b90ea68776538b19c
+01aaffb6918e08fa0942ba1bc14c3e1490ce6da0,"Change apiversion for destination policies sample in bookinfo (#4734)
+
+Automatic merge from submit-queue.
+
+Change apiversion for destination policies sample in bookinfo
+
+In Bookinfo sample, there is an example of definition of a DestinationPolicy (`/samples/bookinfo/kube/destination-policy-reviews.yaml`). 
+
+When creating it into a Open Shift cluster using:
+
+`oc create -f samples/bookinfo/kube/destination-policy-reviews.yaml`
+
+it prompts the following error:
+
+> Error from server (BadRequest): error when creating ""samples/bookinfo/kube/destination-policy-reviews.yaml"": the API version in the data (config.istio.io/v1beta1) does not match the expected API version (config.istio.io/v1alpha2)
+
+Changing the DestinationPolicy apiVersion from `v1beta1` to `v1alpha2` just fix this issue.",xeviknal,https://api.github.com/repos/istio/istio/git/commits/01aaffb6918e08fa0942ba1bc14c3e1490ce6da0
+de9f2dee56ed14bfbd56ae2a28296c92c25ac583,Make TestOddballs of log package robust (#4657),249043822,https://api.github.com/repos/istio/istio/git/commits/de9f2dee56ed14bfbd56ae2a28296c92c25ac583
+b28dfe5fe4e6dbf59e5fbf1a3dc9ff72b3e0dcbd,"We should not set container/use_client_certificate if we disable legacy authorization (#4487)
+
+doc changes",panywei,https://api.github.com/repos/istio/istio/git/commits/b28dfe5fe4e6dbf59e5fbf1a3dc9ff72b3e0dcbd
+2497efe94294847da71731756c9802f285ff649f,"Creates a remote connection for multicluster e2e (#4815)
+
+Automatic merge from submit-queue.
+
+Creates a remote connection for multicluster e2e
+
+This is the initial change for a series of changes
+required to enable multicluster e2e tests. This test
+parses the clusterregistry config file to get the
+multiple registries and then creates the namespace on
+the remote cluster",john-a-joyce,https://api.github.com/repos/istio/istio/git/commits/2497efe94294847da71731756c9802f285ff649f
+2dd2a1435e53c5ac08ccaeb8332184b928445bd3,"Add loadBalancerIP to ingress chart (#4955)
+
+Automatic merge from submit-queue.
+
+Add loadBalancerIP to istio-ingress service in Helm chart
+
+This allows to bind an existing IP address (from a cloud provider) with istio-ingress LoadBalancer service instead of creating a new IP address",ilyasotkov,https://api.github.com/repos/istio/istio/git/commits/2dd2a1435e53c5ac08ccaeb8332184b928445bd3
+f4f9d640eeca1d92a489dc1e409c88b25d239310,"fix sidecar-injector command usage spelling error (#4932)
+
+Automatic merge from submit-queue.
+
+fix sidecar-injector command usage spelling error
+
+Hi, I have fixed a sidecar-injector command usage spelling error, please check out changes.",sevennt,https://api.github.com/repos/istio/istio/git/commits/f4f9d640eeca1d92a489dc1e409c88b25d239310
+71c016568f78407b2aa5dd8f110d1d35cba31413,"[vendor-change] Adding support for exporting logs from Stackdriver using Sink (#4806)
+
+Automatic merge from submit-queue.
+
+[vendor-change] Adding support for exporting logs from Stackdriver using Sink",gargnupur,https://api.github.com/repos/istio/istio/git/commits/71c016568f78407b2aa5dd8f110d1d35cba31413
+83c3ada587418c49e4bc1a391b566d7d27f3ca3c,"use consistent service name in zipkin helm chart (#4944)
+
+Automatic merge from submit-queue.
+
+use consistent service name in zipkin helm chart
+
+fixes https://github.com/istio/issues/issues/284",ryane,https://api.github.com/repos/istio/istio/git/commits/83c3ada587418c49e4bc1a391b566d7d27f3ca3c
+1a50ba3f246a4837ecb008256fb510976c9f61b7,Delete blank .gitmodules file (#5025),Tahler,https://api.github.com/repos/istio/istio/git/commits/1a50ba3f246a4837ecb008256fb510976c9f61b7
+fdd39716fe5d376a0ba3fe90b1a8f6485162f1ee,"get jwks_uri from openid discovery if it's not set inside auth policy (#4834)
+
+Automatic merge from submit-queue.
+
+get jwks_uri from openid discovery if it's not set inside auth policy
+
+This PR captures some discussion with qiwzhang,  liminw, diemtvu, which include
+1. move the fetching logic to istio config store layer, so that it could be shared by building both listeners and    clusters(if necessary) configuration.
+2. add cache to avoid sending web request to external URLs in each lds/cds call.
+
+With this, previous PR https://github.com/istio/istio/pull/4799 is deprecated. 
+
+I'm going to write a small design doc for this PR and future work we talked (fetch/cache key, key rotation/watcher, etc)",quanjielin,https://api.github.com/repos/istio/istio/git/commits/fdd39716fe5d376a0ba3fe90b1a8f6485162f1ee
+0759c8572119b8c78eeed1e0bbd3c58efc748092,"Use iptables TPROXY instead of REDIRECT for inbound traffic (#4654)
+
+* Pilot: Support running Envoy with CAP_NET_ADMIN to support TPROXY
+
+Add iptables as a dependency to the istio.deb package.
+
+Signed-off-by: Romain Lenglet <romain@covalent.io>
+
+* Pilot: Support iptables TPROXY instead of REDIRECT for inbound traffic
+
+Add iproute2 as dependency to the istio.deb package and the proxy_init
+Docker image.
+Add a ""-m"" command-line flag to istio-ipstables.sh to select the inbound
+traffic interception mode (""REDIRECT"" or ""TPROXY"").
+Fix the usage doc for the other command-line options.
+
+Signed-off-by: Romain Lenglet <romain@covalent.io>
+
+* Fix deb/* Makefile targets
+
+Signed-off-by: Romain Lenglet <romain@covalent.io>
+
+* Pilot: Configure transparent proxy redirection from proxy config
+
+Configure the redirection mode (redirect vs. tproxy) in ProxyConfig.
+Pass the redirection mode to Pilot in the Node's metadata, in environment
+variable ISTIO_META_INTERCEPTION_MODE.
+
+Fix Envoy bootstrap to remove the ISTIO_META_ prefix from metadata
+key names, instead of ISTIO_META.
+
+Signed-off-by: Romain Lenglet <romain@covalent.io>
+
+* Pilot: Parse Node Metadata and store it in Proxy
+
+Signed-off-by: Romain Lenglet <romain@covalent.io>
+
+* Update pilot/pkg/kube/inject tests
+
+Fix pilot/pkg/kube/inject tests to use the new templates.
+Add unit tests for the ProxyConfig.InterceptionMode.
+
+Signed-off-by: Romain Lenglet <romain@covalent.io>
+
+* Pilot: Define sidecar.istio.io/interceptionMode annotation
+
+Define sidecar.istio.io/interceptionMode to override the
+ProxyConfig.InterceptionMode mesh-wide setting.
+
+Signed-off-by: Romain Lenglet <romain@covalent.io>",rlenglet,https://api.github.com/repos/istio/istio/git/commits/0759c8572119b8c78eeed1e0bbd3c58efc748092
+b5f4f5d643227b2ecf4fcfb069e42759ccd744fc,"[vendor-change] CloudWatch Mixer adapter (#4617)
+
+Automatic merge from submit-queue.
+
+[vendor-change] CloudWatch Mixer adapter
+
+Adding an adapter to send metrics to cloudwatch",narehayrapetyan,https://api.github.com/repos/istio/istio/git/commits/b5f4f5d643227b2ecf4fcfb069e42759ccd744fc
+2dd7c6d1c283d19cb5409fc8142c5e969c45bb82,"fix cloudfoundry copilot e2e test (#5188)
+
+* initial changes to fix both pilot endpoints
+
+* they now should be curl'ing the right things
+
+properly booting an envoy with dynamic
+template now
+
+new port name for building listeners
+
+Include port for Cloud Foundry services
+
+* Building listeners now requires named ports.
+
+* always run cloudfoundry tests
+
+* moves cloudfoundry circleci test to own run
+
+* adds cloudfoundry test to all
+
+* want to just use default env vars
+
+* need GOPATH/bin on path for envoy
+
+* switch to defaults which uses da container
+
+* disable zipkin test in pilot",utako,https://api.github.com/repos/istio/istio/git/commits/2dd7c6d1c283d19cb5409fc8142c5e969c45bb82
+4138b456998e53cfc98980cd42d66366ae31d800,"adds default prefix of 'istio.' to istio dsd adapter, adds tags to example (#5231)
+
+Automatic merge from submit-queue.
+
+Dogstatsd should have a default namespace
+
+The metric name is very important in Datadog. In order to ensure that metrics from integrations are properly ingested and to avoid any billing issues, metrics need to have the right prefixes.
+
+So, this PR changes the default prefix for Istio to `istio.` and changes the docs to warn people about the implications of using another prefix.",gmmeyer,https://api.github.com/repos/istio/istio/git/commits/4138b456998e53cfc98980cd42d66366ae31d800
+3fffebac188b20ede3f45a8f1d645c8da87f6bfa,Use consul node address as a backup when filtering service instances (#4195),baranov1ch,https://api.github.com/repos/istio/istio/git/commits/3fffebac188b20ede3f45a8f1d645c8da87f6bfa
+613ac8c8c893a2c72a44651e042386ab58d26b13,"Make metrics command ready for web scale. (#5289)
+
+This change makes the output denser and easier to read.
+
+Example usage (bookinfo example):
+
+$ istioctl experimental metrics productpage reviews ratings details
+    SERVICE    TOTAL RPS    ERROR RPS  P50 LATENCY  P90 LATENCY  P99 LATENCY
+productpage        7.873        0.000         40ms         80ms         98ms
+    reviews        7.909        0.000          4ms          9ms         21ms
+    ratings        5.309        0.000          2ms          4ms          4ms
+    details        7.873        0.000          3ms         38ms         48ms
+
+Signed-off-by: Piotr Sikora <piotrsikora@google.com>",PiotrSikora,https://api.github.com/repos/istio/istio/git/commits/613ac8c8c893a2c72a44651e042386ab58d26b13
+2099c15597780ae99d511274c091a746b0464feb,"Add mixer tests for the Istio authn filter (#5267)
+
+Add the following Mixer tests for Istio authn filter
+
+- Test when requiring JWT for peer and binding to peer, the authn attributes in the actual check and report calls match those in the expected check call
+- Test when requiring JWT for peer and binding to origin, but no method specified in origin policy, the request will be rejected by Istio authn filter.
+- Test when when requiring JWT for origin and binding to origin, the authn attributes in the actual check and report calls match those in the expected check call.
+- Test when requiring JWT for origin and no binding to origin, the authn attributes in the actual check and report calls match those in the expected check call.
+- Test when the HTTP request is rejected by the Istio authn filter for peer JWT authentication, the response code and the response message is as expected.
+- Test when the HTTP request is rejected by the Istio authn filter for origin JWT authentication, the response code and the response message is as expected.
+- Test when the Istio authn filter requires mTLS for peer connection, the non mTLS connection is rejected and the response code and the response message are as expected.
+- Test when the Istio authn filter requires TLS for peer connection, the non TLS connection is rejected and the response code and the response message are as expected.",lei-tang,https://api.github.com/repos/istio/istio/git/commits/2099c15597780ae99d511274c091a746b0464feb
+e314725312e90e900722daabe75cc5875acc9d2b,"Change GKE version from 1.9.6-gke.0 to 1.9.6-gke.1 (#5460)
+
+1.9.6-gke.0 is not available in GCP anymore, 1.9.6-gke.1 should be used instead.
+
+Currently, GCP DM deployment fails with following error:
+istio-cluster: {""ResourceType"":""container.v1.cluster"",""ResourceErrorCode"":""400"",""ResourceErrorMessage"":{""code"":400,""message"":""Version ""1.9.6-gke.0"" is invalid."",""status"":""INVALID_ARGUMENT"",""statusMessage"":""Bad Request"",""requestPath"":""https://container.googleapis.com/v1/projects/aburnos-kube-playground/zones/us-central1-a/clusters"",""httpMethod"":""POST""}}",alexburnos,https://api.github.com/repos/istio/istio/git/commits/e314725312e90e900722daabe75cc5875acc9d2b
+2f7e191fc9c5dec39640cc6c2c9221cd41a1cd90,"Cloud Foundry service registry now supports internal routes (#5427)
+
+* can now use two envoys in same test
+
+- made proxy ports and additional http
+service are optional (we don't always need
+them)
+- simplifies the bootstrap template
+from for the CF test but can be
+used in other cases and is easier to
+read for first timers who just need
+dynamic discovery to happen
+
+* Bump cloudfoundry/copilot
+
+* Cloud Foundry registry supports internal routes
+
+- requires a iptables DNAT rule in our container to redirect a VIP
+to the physical envoy port",christianang,https://api.github.com/repos/istio/istio/git/commits/2f7e191fc9c5dec39640cc6c2c9221cd41a1cd90
+34596b0383fc48f64d628418380e75298c1bb5df,CKI-3 Use template variable for access log (#5501),holgero,https://api.github.com/repos/istio/istio/git/commits/34596b0383fc48f64d628418380e75298c1bb5df
+2f4c1b9fcfdcb619a4cdac67a28582931aea593b,helm lint check (#5406),ceshihao,https://api.github.com/repos/istio/istio/git/commits/2f4c1b9fcfdcb619a4cdac67a28582931aea593b
+c6a1608330d76333d853b0cc2a2d15a9ac7450c6,Use the global image pull policy in the configmap (#5465),ymesika,https://api.github.com/repos/istio/istio/git/commits/c6a1608330d76333d853b0cc2a2d15a9ac7450c6
+0de2f09ce9e57f11427c75e2c08f47c17637a1fb,Make Kube Pod cache log line more helpful (#5256),bobbytables,https://api.github.com/repos/istio/istio/git/commits/0de2f09ce9e57f11427c75e2c08f47c17637a1fb
+add23dc7f0ecace99fde4e4a9880349eb3b87af2,helloworld example does not include '-n istio-system' in commands for finding host:port (#4213),geoffhendrey,https://api.github.com/repos/istio/istio/git/commits/add23dc7f0ecace99fde4e4a9880349eb3b87af2
+f0fd6aa33e30936bf9f9ca6c4622153a2849e7bc,"Remove unnecessary webhook script (#5493)
+
+Version 0.8 migrated to a helm based installation of the automatic
+sidecar injection, thus making this script irrelevant",idoshamun,https://api.github.com/repos/istio/istio/git/commits/f0fd6aa33e30936bf9f9ca6c4622153a2849e7bc
+d97cd8a4d9a6b3f34f83275495d9385bea73dc7d,fix cleanup.sh (#5660),ccl0326,https://api.github.com/repos/istio/istio/git/commits/d97cd8a4d9a6b3f34f83275495d9385bea73dc7d
+d3b1cb77cc3c1ef7a3dc4b6424c41058bddc0cbd,"Fix broken mixer develop document link. (#5758)
+
+Mixer developer doc has moved to github wiki page, update the link
+url for README file.",cizixs,https://api.github.com/repos/istio/istio/git/commits/d3b1cb77cc3c1ef7a3dc4b6424c41058bddc0cbd
+b958d4d8e287bc554a09ccf298022455bb900bcd,"Stackdriver tracespan support (#5938)
+
+* Stackdriver tracespan support
+
+Adds tracespan template support to the Stackdriver adapter sending
+spans to Stackdriver Trace using OpenCensus.
+
+* Prevent races on gRPC logging configuration from test code",ramonza,https://api.github.com/repos/istio/istio/git/commits/b958d4d8e287bc554a09ccf298022455bb900bcd
+52ea042957401e848bed4b57caf50684b5550dbe,"Fixes #6108 Updated version checking statements in Ansible scripts (#6111)
+
+Using version-comparison feature of Ansible to compare the versions.",bingoarun,https://api.github.com/repos/istio/istio/git/commits/52ea042957401e848bed4b57caf50684b5550dbe
+1c0fc3d4bfb37d7d262106bbe134d86694ff5965,"Adding the ability to annotate services (#6242)
+
+* Adding the ability to annotate services
+
+* Adding the ability to annotate services",sudermanjr,https://api.github.com/repos/istio/istio/git/commits/1c0fc3d4bfb37d7d262106bbe134d86694ff5965
+e1edb4d260577fc6d8faa7c8c167fcbcd66b52ac,"SignalFx Metric Adapter (#6328)
+
+* Add SignalFx metrics adapter
+
+* Adding vendor for SignalFx golib
+
+* Improvements based on code review
+
+* More changes from code review",keitwb,https://api.github.com/repos/istio/istio/git/commits/e1edb4d260577fc6d8faa7c8c167fcbcd66b52ac
+b950c8867f9928b2861b335418533160304f1cbd,Add annotations to services defined in Charts (#5760),etiennetremel,https://api.github.com/repos/istio/istio/git/commits/b950c8867f9928b2861b335418533160304f1cbd
+a385ed0cde23b07cfe19a1f997da10b3ab062e50,"Avoid using constant domain suffix for destination host (#6522)
+
+* Avoid using constant domain for destination host
+
+* default domain suffix is set in ingress converts",rokii,https://api.github.com/repos/istio/istio/git/commits/a385ed0cde23b07cfe19a1f997da10b3ab062e50
+bd7e268f987917803ca53cbc9793e753dfc85128,"cleanup copilot test (#6492)
+
+- split edge and sidecar envoy tests
+- there was an error if kubernetes api ran at the same time because of conflicting
+service ports
+- this refactor enables a dedicated service port for edge and sidecar envoys",nhsieh,https://api.github.com/repos/istio/istio/git/commits/bd7e268f987917803ca53cbc9793e753dfc85128
+7bba996125b321cbe694e057e1e8f0dfc4386593,"Make the error message when Istio is checked out into the wrong place less confusing. (#6897)
+
+The old message says:
+
+Istio not found in GOPATH/src/istio.io. Make sure to clone Istio on that path. /Users/ssuchter/go/src/istio.io not under /Users/ssuchter/go
+
+I had checked out into /Users/ssuchter/go/src/istio.io, not /Users/ssuchter/go/src/istio.io/istio
+
+I found this confusing in multiple ways:
+1. Because the first letter was capitalized (I vs i), I thought it was meaning a proper noun, not the directory name (which should have a lower case i)
+2. In the next sentence, it says 'on that path' which wasn't obvious that it meant to have a subdirectory called 'istio'
+3. In the last sentence, is says that the first directory isn't under the second directory, and you can see it obviously is.
+
+I reworded the error message to be like this:
+
+Not building in expected path 'GOPATH/src/istio.io/istio'. Make sure to clone Istio into that path. Istio root=/Users/ssuchter/go/src/istio.io, GO_TOP=/Users/ssuchter/go",ssuchter,https://api.github.com/repos/istio/istio/git/commits/7bba996125b321cbe694e057e1e8f0dfc4386593
+6f68d90ad8886d44867154d35a80c5b0d9af1fe6,"add certmanager integration (#6660)
+
+* move certmanager to charts
+
+* add sidecar label sample
+
+* add cluster issuer
+
+* merge crds to one file and remove rbac from values
+
+* remove unnecessary setting from crds
+
+* remove certmanager custom values
+remove certmanager dynamic name
+use global pull policy in certmanager deployment
+add comment to clusterResourceNamespace config",yacut,https://api.github.com/repos/istio/istio/git/commits/6f68d90ad8886d44867154d35a80c5b0d9af1fe6
+79d7fe864f29f285d62e3c3bc4ead3ef02aeb350,Support regional GKE clusters (#6891),quentinmit,https://api.github.com/repos/istio/istio/git/commits/79d7fe864f29f285d62e3c3bc4ead3ef02aeb350
+9d413500d7585facfa521528ee31ec8d66c6d0b4,remove gateway not used (#7035),DreamRivulet,https://api.github.com/repos/istio/istio/git/commits/9d413500d7585facfa521528ee31ec8d66c6d0b4
+c6bd822768f1fb01e9aebe43f582ca6ac3b56a6e,"make bookinfo sample build repeatable (#7152)
+
+* make bookinfo sample build repeatable
+
+* update bookinfo image references to 1.8
+
+* delete me later-- reference temporary images",krancour,https://api.github.com/repos/istio/istio/git/commits/c6bd822768f1fb01e9aebe43f582ca6ac3b56a6e
+9d406f0fdb9a7de20b227cd064dc894306069cba,update for 1.0.0 path (#7088),salrashid123,https://api.github.com/repos/istio/istio/git/commits/9d406f0fdb9a7de20b227cd064dc894306069cba
+71a1d654091504399494e3e4f802df3a65a0ab51,"Delete namespace after tests when using helm (#7051)
+
+* Delete namespace after tests when using helm
+
+Signed-off-by: Neil Hickey <nhickey@pivotal.io>
+
+* Do not return error if namespace deletion fails
+
+If the helm chart being deleted has the namespace manifest then the HelmDelete would've already deleted the namespace",alex-slynko,https://api.github.com/repos/istio/istio/git/commits/71a1d654091504399494e3e4f802df3a65a0ab51
+18a938fece1756a097f6adfb5789cbb815b4840a,use receive only channel (#6960),hzxuzhonghu,https://api.github.com/repos/istio/istio/git/commits/18a938fece1756a097f6adfb5789cbb815b4840a
+de69c149babf0e046556bec67899d381d5b33fb7,make install istio release version configurable (#7268),LillyWu,https://api.github.com/repos/istio/istio/git/commits/de69c149babf0e046556bec67899d381d5b33fb7
+e51a439cd8b76d3a13bf1111c4a4de4114da1a85,Remove the unnecessary 'creationTimestamp' fields in sample's yamls (#7210),crystaldust,https://api.github.com/repos/istio/istio/git/commits/e51a439cd8b76d3a13bf1111c4a4de4114da1a85
+1ce98727d67a8fae20f253af15f153ca3e0c66e2,"Fix istio-remote sidecar-injector-configmap rendered yaml parse error (#7260)
+
+* Fix istio-remote sidecar-injector-configmap rendered yaml parse error
+
+* Fix istio chart sidecar-injector-configmap rendered yaml parse error",mt-inside,https://api.github.com/repos/istio/istio/git/commits/1ce98727d67a8fae20f253af15f153ca3e0c66e2
+4d35bed008ec686a67766e87bbb88227d22ac3ba,add rbacconfig validation (fixing istio-pilot crash) (#7324),adamglt,https://api.github.com/repos/istio/istio/git/commits/4d35bed008ec686a67766e87bbb88227d22ac3ba
+4e1710e38a8eb088fd45119e7ef1074d146b144b,Do not set ingressService if ingress is disabled (#6100) (#7353),knrc,https://api.github.com/repos/istio/istio/git/commits/4e1710e38a8eb088fd45119e7ef1074d146b144b
+a107891fed3a58e2d857a3de5bf8ee3dad79f353,remove redundant whitespace (#7385),irisdingbj,https://api.github.com/repos/istio/istio/git/commits/a107891fed3a58e2d857a3de5bf8ee3dad79f353
+3530fca7e8799a9ecfb8a8207890620604090a97,"Reduced 'small pilot' cpu and increased memory to compensate. (#7460)
+
+Fixes #7459",duderino,https://api.github.com/repos/istio/istio/git/commits/3530fca7e8799a9ecfb8a8207890620604090a97
+4c5867d129f62a54663b8b9c5fda8e1b880e7ead,"Several fixes for Kiali integration (#7498)
+
+- Use a non-namespaced PROMETHEUS_SERVICE_URL (Kiali hardcodes istio-system kiali/kiali#350)
+- Enable URL configuration for Grafana and Jaeger (Kiali tries to autodetect a service with an ExternalIP)
+- Use a GRAFANA_DASHBOARD that really exists",sebastien-prudhomme,https://api.github.com/repos/istio/istio/git/commits/4c5867d129f62a54663b8b9c5fda8e1b880e7ead
+7f02ff3448c858cd260240c11706194e8fa31469,"[helm chart] quotes for service annotation values (#7682)
+
+* quotes for service annotation values
+
+* add quote option to service annotations",kimxogus,https://api.github.com/repos/istio/istio/git/commits/7f02ff3448c858cd260240c11706194e8fa31469
+7ef5841b9418bb72d61f6eeb714b26bb71ee2667,Add ImagePullSecrets to Helm Chart components that don't use serviceaccounts (#7560),onesolpark,https://api.github.com/repos/istio/istio/git/commits/7ef5841b9418bb72d61f6eeb714b26bb71ee2667
+e0fbc1663ebb52efdbe9a092cbbe3f1d91950b3b,"Add grafana persist option to istio helm chart (#7553)
+
+On pod death, the current grafana chart does not persist any
+configuration changes made in the UI (like adding alerts).
+This adds a boolean option `grafana.persist` to create a
+`PersistentVolumeClaim` that mounts to the existing grafana
+data volume.
+
+There is an additional option for `storageClassName` to override the
+default storage class.
+
+* Moved storageClassName to values.yaml instead of default operator",k,https://api.github.com/repos/istio/istio/git/commits/e0fbc1663ebb52efdbe9a092cbbe3f1d91950b3b
+855e1ef5837105aece9d6fe79a25605e1798b640,"fixed:  duplicated port in kiali service (#7769)
+
+* fixed:  duplicated port in kiali service
+
+* changed port name from tcp to http-kiali",fleeto,https://api.github.com/repos/istio/istio/git/commits/855e1ef5837105aece9d6fe79a25605e1798b640
+24798c9ad10fb48c8c71d0b5f8ad9fef8aabbf0d,"Custom proxy image for ingress, gateways, pilot and mixer. (#7784)",ewbankkit,https://api.github.com/repos/istio/istio/git/commits/24798c9ad10fb48c8c71d0b5f8ad9fef8aabbf0d
+76b58edf06e1fd3e006427ac60214ba248f0a254,"Use debian-9 GCE image family. (#7816)
+
+The debian-8 GCE image is deprecated so is not usable by default in the
+deployment manager script.  So we'll bump up to debian-9 and that should
+keep for a couple of years.",rcleveng,https://api.github.com/repos/istio/istio/git/commits/76b58edf06e1fd3e006427ac60214ba248f0a254
+9ca6659f3ae7b65d54a7a89ffc2a0be3af724157,"Replace ""MaxMsgSize"" with ""MaxRecvMsgSize"" in grpc server (#7796)",lichuqiang,https://api.github.com/repos/istio/istio/git/commits/9ca6659f3ae7b65d54a7a89ffc2a0be3af724157
+1afcb2577615cfdfe6d1e4056848476834575892,ix spelling error in file tests/util/checker/testlinter/README.md (#7898),myonlyzzy,https://api.github.com/repos/istio/istio/git/commits/1afcb2577615cfdfe6d1e4056848476834575892
+1d47253357b664c279e526a159535622b8c0a436,"Add RDS load timestamp to istioctl proxy-status (#7833)
+
+This commit adds the RDS load timestamp to istioctl proxy-status <pod>
+i.e. by obtaining the most recent LastUpdated value from all available
+DynamicRouteConfigs.
+
+Signed-off-by: Venil Noronha <veniln@vmware.com>",venilnoronha,https://api.github.com/repos/istio/istio/git/commits/1d47253357b664c279e526a159535622b8c0a436
+fe6ce12bd47798251cd5b968f2f8fe63d8e4c276,Helm chart: allow annotations on mixer pods (#7557),plumdog,https://api.github.com/repos/istio/istio/git/commits/fe6ce12bd47798251cd5b968f2f8fe63d8e4c276
+f5a6605db8e903a1215fb8d8c48ffbbfd19eb808,Add loadBalancerIP/loadBalancerSourceRanges (#7686),Lord-Y,https://api.github.com/repos/istio/istio/git/commits/f5a6605db8e903a1215fb8d8c48ffbbfd19eb808
+23ae1731a399a03a102e792a9c6a279f5696da85,store_artifacts.sh: inject LICENSES.txt file into all Docker images (#7712),listx,https://api.github.com/repos/istio/istio/git/commits/23ae1731a399a03a102e792a9c6a279f5696da85
+3efafb7a4ff1e44635082c8ad279502b3e7d85ec,Fix path of manifest file for bookinfo sample application (#7753),giannisalinetti,https://api.github.com/repos/istio/istio/git/commits/3efafb7a4ff1e44635082c8ad279502b3e7d85ec
+f9ad4f0535962a648c9459827b73b8390d0eb163," fix pilot crash issue if there is zero listeners and err is nil (#7801)
+
+* fix pilot crash issue if there is zero listeners and err is nil
+
+* fix pilot crash issue if there is zero listeners and err is nil",x15zhang,https://api.github.com/repos/istio/istio/git/commits/f9ad4f0535962a648c9459827b73b8390d0eb163
+d9c934cea804fff6ad5dd4c2776d40dc95b35920,Update install_addons.yml (#7829),dudash,https://api.github.com/repos/istio/istio/git/commits/d9c934cea804fff6ad5dd4c2776d40dc95b35920
+20cbbb49fe4317123f4ead1528672fd0fa2d4596,"Support Timestamp type for valueTypeEncoder (#7924)
+
+* Support Timestamp type
+
+An expression type like `response.time` is TIMESTAMP, so add new encoder
+ to encode `time.Time` as `v1beat1.Timestamp`.",hanahmily,https://api.github.com/repos/istio/istio/git/commits/20cbbb49fe4317123f4ead1528672fd0fa2d4596
+2c1ca4eb1987461fa0a16ca370a1dee8de1ea606,remove TPR since it has been deleted from k8s 1.8 (#7972),wackxu,https://api.github.com/repos/istio/istio/git/commits/2c1ca4eb1987461fa0a16ca370a1dee8de1ea606
+aaafc049ec1d7e88209b538ed72a6b3310d959cc,fix nil pointer panic when ads request node is nil (#8021),songrgg,https://api.github.com/repos/istio/istio/git/commits/aaafc049ec1d7e88209b538ed72a6b3310d959cc
+711df5cbd5f5c94af4853f83da491c49952d1448,exec cancel() when stop server timeout (#8213),fisherxu,https://api.github.com/repos/istio/istio/git/commits/711df5cbd5f5c94af4853f83da491c49952d1448
+3ab53ade26e8e9d0c9c3f7ecdb66b4cb45661535,"Remove non-existant apt-get param in local/vagrant (#8219)
+
+Remove non-existing apt-get install parameter in
+local/vagrant/install_prereqs_debian.sh that made the install_prereqs
+script to fail.
+
+Signed-off-by: Tomas Slusny <slusnucky@gmail.com>",deathbeam,https://api.github.com/repos/istio/istio/git/commits/3ab53ade26e8e9d0c9c3f7ecdb66b4cb45661535
+af73923d620cfa52e4433a0102d0bbb80500d278,"Add a configuration option for consecutive gateway errors (#8098)
+
+* add a config option for consecutive gateway failures.
+
+* integrate the changes from the API PR.
+
+* Enable gatway failure outlier detection.
+
+By default EnforcingConsecutiveGatewayFailure is set to 0. See https://www.envoyproxy.io/docs/envoy/latest/api-v1/cluster_manager/cluster_outlier_detection.html . This change will set it to 100 once ConsecutiveGatewayFailure is set to a value > 0.
+
+* add ConsecutiveGatewayFailure to validation tests
+
+* fix wording in ConsecutiveGatewayFailure validation
+
+* switch ConsecutiveErrors to react on gateway errors instead of 5xx.
+
+- Reverts the changes made to the API.
+- Disables 5xx errors by setting EnforcingConsecutive_5Xx to 0.
+- For discussion see https://github.com/istio/api/pull/617.
+
+* fix a copy/paste error.
+
+Use out.ConsecutiveGatewayFailure instead of out.EnforcingConsecutiveGatewayFailure.",arnecls,https://api.github.com/repos/istio/istio/git/commits/af73923d620cfa52e4433a0102d0bbb80500d278
+cf98675aa3d65dbfdfe6c164110cea38de41d87a,[e2e] remove redundancy parameter in function (#8174),stewart-yu,https://api.github.com/repos/istio/istio/git/commits/cf98675aa3d65dbfdfe6c164110cea38de41d87a
+973e4ccf06f1cdaa210a06022db4a803064522c1," refactor scripts under bin directory (#8211)
+
+* reconstruct bin/linters.sh
+
+* rename some directory varName",knightXun,https://api.github.com/repos/istio/istio/git/commits/973e4ccf06f1cdaa210a06022db4a803064522c1
+fe588805291aec5e830f784f6d30f306d0d46bef,remove deprecated MixerAddress (#8257),islinwb,https://api.github.com/repos/istio/istio/git/commits/fe588805291aec5e830f784f6d30f306d0d46bef
+aa6f58f9d4772c7d17eb286203a319594ba80920,fix TestErrors/unix_socket_removal (#8294),Lion-Wei,https://api.github.com/repos/istio/istio/git/commits/aa6f58f9d4772c7d17eb286203a319594ba80920
+aaefd14234809e57eae556a921fbcd96c134e690,Add namespace to mesh expansion resources (#8314),wmuizelaar,https://api.github.com/repos/istio/istio/git/commits/aaefd14234809e57eae556a921fbcd96c134e690
+22caffb0ac84dad0b704c41416cd345954938c2e,"Update istio-cluster.jinja (#7781)
+
+s/debian-8/debian-9/",jason-callaway,https://api.github.com/repos/istio/istio/git/commits/22caffb0ac84dad0b704c41416cd345954938c2e
+291c73252ed8002b18e28b98adaffcd2fbf429fe,fixtodo: Move secret to security/pkg/k8s/. (#8399),hanxiaoshuai,https://api.github.com/repos/istio/istio/git/commits/291c73252ed8002b18e28b98adaffcd2fbf429fe
+365a12847dfa832da886ae0ad4ae4359992a2921,"fix pilot log formats (#8654)
+
+Signed-off-by: dastan <real.duhw@gmail.com>",dunjut,https://api.github.com/repos/istio/istio/git/commits/365a12847dfa832da886ae0ad4ae4359992a2921
+261797599870d995a59a2b1516f94b759282f641,use edsCliet instead of adsClient building the StreamEndpoints (#7642),idouba,https://api.github.com/repos/istio/istio/git/commits/261797599870d995a59a2b1516f94b759282f641
+dbf0b66a68907e82166f07ab903f354bc3525f7f,Remove redundant constant. (#8591),agile6v,https://api.github.com/repos/istio/istio/git/commits/dbf0b66a68907e82166f07ab903f354bc3525f7f
+b118b8e9117a88bfb633da17ad22d90ed1e31a52,"Replacing hardcoded namespace in pilot helm template (#8142)
+
+* Replacing hardcoded namespace in pilot template
+
+with original template installing into custom ns
+was failing with following error
+```
+helm install install/kubernetes/helm/istio --name istio-test \
+                                           --namespace test-namespace \
+                                           --set global.oneNamespace=true \
+                                           --set sidecarInjectorWebhook.enabled=false \
+                                           --set gateways.enabled=false
+Error: release istio-test failed: namespaces ""istio-system"" not found
+```
+
+With this fix error is gone and pilot is configurated with proper ns
+```
+helm install ~/istio/install/kubernetes/helm/istio --name istio-test \
+                                                   --namespace test-namespace \
+                                                   --set global.oneNamespace=true \
+                                                   --set sidecarInjectorWebhook.enabled=false \
+                                                   --set gateways.enabled=false
+NAME:   istio-test
+LAST DEPLOYED: Wed Aug 22 13:22:59 2018
+NAMESPACE: test-namespace
+
+```
+
+* Prefer Release.Namespace over Chart.Namespace
+
+* removing .global.istioNamespace per review",depohmel,https://api.github.com/repos/istio/istio/git/commits/b118b8e9117a88bfb633da17ad22d90ed1e31a52
+17623adab88daa7d655ab973d93a29c30336bfae,Add enabled switch to security section in values.yaml for requirements dependencies of security chart. (#8675),shenxg13,https://api.github.com/repos/istio/istio/git/commits/17623adab88daa7d655ab973d93a29c30336bfae
+4a6cb1a0b0db1d643c624ba489a40d064e1c3149,"Add podAnnotations to gateways in helm chart (#8776)
+
+This allows adding additional annotations on any of the gateways, e.g.
+
+--set gateways.istio-ingressgateway.podAnnotations.fluentbit\\.io/parser=envoy",donbowman,https://api.github.com/repos/istio/istio/git/commits/4a6cb1a0b0db1d643c624ba489a40d064e1c3149
+06c669b3fdb7ff15177d334bfebbed5efc70d4e3,"Change the ECC PEM block type from EC PARAMETERS to (#8850)
+
+EC PRIVATE KEY. Loading a key pair via tls.X509KeyPair
+will fail when using EC PARAMETERS since the parser is
+looking for a PEM block ending in PRVIATE KEY.""",aaronjwood,https://api.github.com/repos/istio/istio/git/commits/06c669b3fdb7ff15177d334bfebbed5efc70d4e3
+a19a9de5f3cd3bb07b8f0aa8188ff70937b2bcf9,"Typo fix: chage->change (#8747)
+
+Typo fix: chage->change",AdamDang,https://api.github.com/repos/istio/istio/git/commits/a19a9de5f3cd3bb07b8f0aa8188ff70937b2bcf9
+a9a64a92ff39c6916db5078430c173d39c7669ac,"Fix helper script for extending the mesh to VMs (#8876)
+
+It was broken by #7694",MrTrustor,https://api.github.com/repos/istio/istio/git/commits/a9a64a92ff39c6916db5078430c173d39c7669ac
+918f250fab99921cc1188fad483aec281ad61506,"BookInfo: Use OpenTracing for productpage headers (#8461)
+
+* BookInfo: Use OpenTracing for productpage headers
+
+Update the productpage service to use OpenTracing for forwarding b3
+(zipkin) headers.
+
+This patch gives a basic example of using OpenTracing with Istio, which
+may be a useful reference. Using OpenTracing gives application developers
+the potential to create spans representing work.
+
+This patch leaves the existing header propagation behaviour unchanged.
+Eg we continue to propagate ""x-b3-spanid"" unchanged, and it will continue
+to be overwritten automatically by the sidecar.
+
+Reference: https://github.com/istio/proxy/issues/168
+
+* BookInfo: remove unused header from productpage
+
+A review comment mentioned that 'x-ot-span-context' should
+no longer be required. Based on this comment we remove it
+from the productpage example service.
+
+* BookInfo: Add unit tests for productpage
+
+Add a couple of unit tests for the sample productpage app. These verify
+that headers, including x-request-id, are forwarded as expected.
+
+They may also catch some unrelated basic issues, eg syntax errors.
+
+The tests are run during the docker build, or can be run on the
+command line with:
+
+ $ pip install -r test-requirements.txt
+ $ python -m unittest discover tests/unit
+
+* BookInfo: Update to use 1.9.0 tagged images",stuart-mclaren-hpe,https://api.github.com/repos/istio/istio/git/commits/918f250fab99921cc1188fad483aec281ad61506
+9bc2cb72f7faabe23ea6cebf39e30b289a0afff6,"Added a new disable-install-crds flag to Pilot Discovery.  This flag when passed disables creation of CRDs when they cannot be detected.  In the case of a failure during CRDs creation, the call to deregister CRDs has been removed.  (#8813) (#8933)",kdillane,https://api.github.com/repos/istio/istio/git/commits/9bc2cb72f7faabe23ea6cebf39e30b289a0afff6
+7383dcb948c0805415b06f774f178ec144b23c5a,Fix missing inbound listener for multiport ServiceEntry (#8943),ajaymandvekar,https://api.github.com/repos/istio/istio/git/commits/7383dcb948c0805415b06f774f178ec144b23c5a
+19315ed01763585525377460a7fa72237dc3107c,"Added externalTrafficPolicy to istio-ingressgateway, to keep X-Forwar… (#8941)
+
+* Added externalTrafficPolicy to istio-ingressgateway, to keep X-Forwarded-For header. This is needed for a client, connected to issue 7328
+
+* Moved all config to values.yaml file and removed values-istio-external-traffic.yaml",Modulus,https://api.github.com/repos/istio/istio/git/commits/19315ed01763585525377460a7fa72237dc3107c
+6717060c74dcaac617344c9da84b34d82efb419d,fixed wrong directory and delete not required kubectl command (#8837),skikkh,https://api.github.com/repos/istio/istio/git/commits/6717060c74dcaac617344c9da84b34d82efb419d
+c2066ddf41bd2fd61c713a30bf5aa40b73c705fc,"add opencensus metrics to mcp/server (#8288)
+
+* add opencensus metrics to mcp/server
+
+* load connection count atomically
+
+* add metric recordError helper
+
+* use Prometheus-style metric names
+
+* align metric variables to names and comment them
+
+* refactor metrics into a stats struct
+
+This allows multiple MCP servers to be used with different metric
+prefix names for each server.
+
+* few code fixes
+
+* export new opencensus metrics
+
+* add copyright header to reporter.go
+
+* panic if no MCP metric prefix is specified
+
+* refactor in memory stats context to its own package
+
+Also rename it to InMemoryServerStatsContext, in anticipation of the
+MCP client code needing its own context.
+
+* fix some lint errors
+
+* fix tests that broke during refactor
+
+* fix lint error",tangiel,https://api.github.com/repos/istio/istio/git/commits/c2066ddf41bd2fd61c713a30bf5aa40b73c705fc
+d2abca4d2e4f86ac0093696e279e1202b16fda72,Fix log rotation configuration bug. (#9044),luckyxiaoqiang,https://api.github.com/repos/istio/istio/git/commits/d2abca4d2e4f86ac0093696e279e1202b16fda72
+8c7ef1ab11ed8283cb37b063e725d5cde777f2f4,"fix the spelling mistake (#9210)
+
+* Update conversion_test.go
+
+* Update webhook.go
+
+* Update deprecated_cmd.go
+
+* Update client.go
+
+* Update conversion.go
+
+* Update generate_config_crd_types.go",pandaamanda,https://api.github.com/repos/istio/istio/git/commits/8c7ef1ab11ed8283cb37b063e725d5cde777f2f4
+03249adb556d4cf9dd8f293b87d61a7240b31f01,Fixed https://github.com/istio/istio/issues/9237 (#9245),clyang82,https://api.github.com/repos/istio/istio/git/commits/03249adb556d4cf9dd8f293b87d61a7240b31f01
+8cbda56525a28646edec93529ad1f65b8fc9b907,"Fix envoy proxy log levels in pilot agent (#9186)
+
+Signed-off-by: Joshua Benjamin <joshuabnjmn@gmail.com>",annymsMthd,https://api.github.com/repos/istio/istio/git/commits/8cbda56525a28646edec93529ad1f65b8fc9b907
+6c02a769b3bd0a07a8a4ac9c7b7b767624648d70,"Header manipulation (#8340)
+
+* added AppendHeaders, RemoveResponseHeaders and AppendResponseHeaders to e2e test, same as AppendHeaders in route.
+
+* added TestHeadersManipulations implementation.
+
+* first pass revision
+
+* better e2e test
+
+* fix echo server
+
+* added headers flat to test client for allowing multiple headers, the old key val mechanism is deprecated.
+
+* updated old headers manipulation code accordingly to fit with new interfaces in both route and destination objects(AppendRequestHeaders, RemoveRequestHeaders, AppendResponseHeaders and RemoveResponseHeaders). changed new interface to use the new headers manipulation functions in envoy Route object instead of deprecated function in envoy RouteAction. improved tests for all cases AppendRequestHeaders, RemoveRequestHeaders, AppendResponseHeaders and RemoveResponseHeaders for both route and destination objects and test for deprecated AppendHeaders.
+
+* add sort stable to envoy headers to add list
+
+* move sort stable to translateAppendHeaders function",omersadika,https://api.github.com/repos/istio/istio/git/commits/6c02a769b3bd0a07a8a4ac9c7b7b767624648d70
+5dfa319436c66da270656ca6cf0e169a34566828,"Add REFRESH_GOLDEN functionality to HelmInject tests. (#9328)
+
+* Add REFRESH_GOLDEN functionality to HelmInject tests.
+
+Issue #9313
+
+If the helm templating is changed, the env REFRESH_GOLDEN can be used to
+update the HelmInject/webhook tests as well as the other pilot tests.
+
+Golden artifact files have a slightly different format since they are created
+via yaml.Marshal.
+
+Co-authored-by: Ralf Pannemans <ralf.pannemans@sap.com>
+
+* Add comment for public function
+
+Co-authored-by: Ralf Pannemans <ralf.pannemans@sap.com>
+
+* Make golden artifact test yaml standard conform
+
+Co-authored-by: Ralf Pannemans <ralf.pannemans@sap.com>",c0d1ngm0nk3y,https://api.github.com/repos/istio/istio/git/commits/5dfa319436c66da270656ca6cf0e169a34566828
+492d953fec9dd358253c474525d2f7f966eedbad,"Update values.yaml (#9416)
+
+it's ae not ea",jjasghar,https://api.github.com/repos/istio/istio/git/commits/492d953fec9dd358253c474525d2f7f966eedbad
+465786f3d9638519dbfeed54acc6944ef436a9b4,"Remove duplicated nodeagent in chart requirements.yaml (#9422)
+
+* Remove duplicated nodeagent in chart requirements.yaml
+
+* Remove last empty line",eric4545,https://api.github.com/repos/istio/istio/git/commits/465786f3d9638519dbfeed54acc6944ef436a9b4
+bd24a62648c07e24ca655c39727aeb0e4761919a,"Resolve root controller for ReplicationController based workloads (#9087)
+
+* Resolve root controller for ReplicationController based workloads
+- ReplicationController can be created from higher controllers as DeploymentConfig
+- Prometheus adds an RC identifier as workload, so Kiali can not resolve correctly nodes generated from DeploymentConfig controllers
+
+* Add replicationcontroller from deploymentconfig test case
+
+* Update cache.go and cache_test.go after rebasing",lucasponce,https://api.github.com/repos/istio/istio/git/commits/bd24a62648c07e24ca655c39727aeb0e4761919a
+d3eed9a347ad02f0b79e3f92330878f88953cf64,"Add support for configuring LightStep as a tracing backend (#9270)
+
+* Add LightStep configuration
+
+- Validate LightStep ProxyConfig options
+- Clean up formatting of envoy_bootstrap
+ by using a single indentation scheme
+- Update bootstrap golden files and add new ones for tracing
+- Update bootstrap tests to check new tracing options
+
+* Add root cacert.pem into proxy containers
+
+* Update bootstrap config test
+
+* Update golden files
+
+* Move tracer configuration up a level (replacing old one)
+
+* Remove lightstep as default proxy tracer
+
+* Set default proxy.tracer to zipkin
+
+* Make fixes to yaml
+
+- Make istio-remote configmap set the same default zipkin
+  address as istio configmap
+- Explicitly check that tracer == ""zipkin"" instead of always
+  defaulting to it
+
+* Replace check for global.remoteZipkinAddress with global.proxy.tracer
+
+* Enable mounting a custom cacert file
+
+* Remove default cacert.pem
+
+* Fix issues after rebase",JulianGriggs,https://api.github.com/repos/istio/istio/git/commits/d3eed9a347ad02f0b79e3f92330878f88953cf64
+99d9f3fda4bd7ae1a851306a0140d67ca3c324cd,"Add missing resources to kiali cluster role in helm chart (#9444)
+
+The kiali helm chart was recently updated to 0.9 version but the
+clusterole was not updated accordingly as it now requires access to more
+resources. See https://github.com/kiali/kiali/blob/b11bc05013df2457e479eb381c52e924e27db19d/deploy/kubernetes/kiali.yaml#L117",cezarsa,https://api.github.com/repos/istio/istio/git/commits/99d9f3fda4bd7ae1a851306a0140d67ca3c324cd
+7aee01bdcbfb3c00b8fdcf9b1285a6883133509b,"Rename identity-domain to trust-domain. (#9559)
+
+Trust domain seems to be the correct term for spiffe:
+https://github.com/spiffe/spiffe/blob/master/standards/SPIFFE-ID.md#21-trust-domain
+
+Co-authored-by: Ralf Pannemans <ralf.pannemans@sap.com>",axel7born,https://api.github.com/repos/istio/istio/git/commits/7aee01bdcbfb3c00b8fdcf9b1285a6883133509b
+5c9856ec3d1380f73e13b1caef2e496c5a274012,fix typo (#9780),stepyu,https://api.github.com/repos/istio/istio/git/commits/5c9856ec3d1380f73e13b1caef2e496c5a274012
+a34cf107a1fbdd9476d74e1f49acf019b9d9752b,remove ConfigFetchIntervalSec from mixer args (#9321),supereagle,https://api.github.com/repos/istio/istio/git/commits/a34cf107a1fbdd9476d74e1f49acf019b9d9752b
+939b596781d45a12631d41b0fb1aeacc463b79ca,let serviceName in ingress.yaml equal to servicemesh (#9351),waret,https://api.github.com/repos/istio/istio/git/commits/939b596781d45a12631d41b0fb1aeacc463b79ca
+37b8cc35778f4cdf61f8ba79f592a92dd87a8fa1,Cherry pick #8993 - Set default traceSampling to 1% (#9798),jnativio,https://api.github.com/repos/istio/istio/git/commits/37b8cc35778f4cdf61f8ba79f592a92dd87a8fa1
+9708b61413eb07d3f5801a56811368a726d13d45,Fix loadBalancerSourceRanges default value in the helm chart (#9727),enis,https://api.github.com/repos/istio/istio/git/commits/9708b61413eb07d3f5801a56811368a726d13d45
+9b473355d8595bae4254065af3dfb3eda4771e44,"Use ServiceMeta to convey the protocol and other service properties (#9713)
+
+* Use ServiceMeta to convey the protocol and other service properties
+
+Protocol is a property of the service itself, so it should not be bound
+to the node on which the service is located. This assumes all the services
+reside on the same node must expose endpoints with the same single protocol,
+which is obviously not true in most cases.
+
+Signed-off-by: Huabing Zhao <zhaohuabing@gmail.com>
+
+* Fix test failures
+
+Signed-off-by: Huabing Zhao <zhaohuabing@gmail.com>",zhaohuabing,https://api.github.com/repos/istio/istio/git/commits/9b473355d8595bae4254065af3dfb3eda4771e44
+ef55a0580b09fd8de32741c030d9821ff75054a5,"Added envoy's server_name to gateway and ingress sidecar (#9879)
+
+Signed-off-by: Shakti <shaktiprakash.das@salesforce.com>",shakti-das,https://api.github.com/repos/istio/istio/git/commits/ef55a0580b09fd8de32741c030d9821ff75054a5
+8b930144c13ff16b6fced36fbb2b29a85119f0e1,fix typo: falta -> fatal (#9953),SataQiu,https://api.github.com/repos/istio/istio/git/commits/8b930144c13ff16b6fced36fbb2b29a85119f0e1
+66daadcab83282c6eb58919492086ac6d5d39e17,"Add function to create kubeClient for istio CRDs by passing in a restconfig (#9914)
+
+* Add function to create pilot client with rest cfg
+
+- Refactor current NewClient method to take advantage
+
+[#161854456]
+
+Co-authored-by: Jeff Pak <jeffrey.pak@dell.com>
+
+* Revert change to bootstrap server
+
+- NewClient uses NewForConfig so we get test coverage
+
+Co-authored-by: Jeff Pak <jeffrey.pak@dell.com>
+
+* use descriptor to make client set
+
+Co-authored-by: Jeff Pak <jeffrey.pak@dell.com>",angelachin,https://api.github.com/repos/istio/istio/git/commits/66daadcab83282c6eb58919492086ac6d5d39e17
+2a5994938a926e082044d8cd3947a4194a6e5aa2,"fixs typo: dont -> don't (#9741)
+
+* fixs typo: dont -> don't
+
+* fix typo error",JoeWrightss,https://api.github.com/repos/istio/istio/git/commits/2a5994938a926e082044d8cd3947a4194a6e5aa2
+2e64ebe8cedefb4cc88518360d1545be1f97adf8,Update helm README - add gateway & security toggle (#10032),tak2siva,https://api.github.com/repos/istio/istio/git/commits/2e64ebe8cedefb4cc88518360d1545be1f97adf8
+6b146a00c2d5905bc168a21a19eaa4bb0c45c753,Added the env NODE_NAME to the gateways to facilitate talking to a daemonset (#10076),michaelkipper,https://api.github.com/repos/istio/istio/git/commits/6b146a00c2d5905bc168a21a19eaa4bb0c45c753
+90f7ee4a20d689a8f05505da14125fea8bf8f44e,"add basic unit tests to mixer plugin (#9479)
+
+* add basic unit tests to mixer plugin
+
+* minor lint
+
+Signed-off-by: Rama <rama.rao@salesforce.com>",ramaraochavali,https://api.github.com/repos/istio/istio/git/commits/90f7ee4a20d689a8f05505da14125fea8bf8f44e
+38183709eead25c869358b5afb652861eacaa54f,"Fix request/response header validation (#10121)
+
+* fix request response header validation
+
+* re-add line space",itaysk,https://api.github.com/repos/istio/istio/git/commits/38183709eead25c869358b5afb652861eacaa54f
+75153eb2ee73c57da167be1441f9fa9f6316605b,"Import cluster local ExternalName services (#9975)
+
+* Import cluster local ExternalName k8s services
+
+* Add a test for external name k8s services
+
+* Address review comments
+
+* Address review comments
+
+* Address more review comments
+
+* Noticed a discrepancy thanks to review
+
+* Improve coverage: delete k8s services
+
+* Reduce callback noise",imikushin,https://api.github.com/repos/istio/istio/git/commits/75153eb2ee73c57da167be1441f9fa9f6316605b
+60f9c35f040af1ed41160b71218d0057e97a9448,Update Jaeger to version 1.8 (#10162),aljesusg,https://api.github.com/repos/istio/istio/git/commits/60f9c35f040af1ed41160b71218d0057e97a9448
+77a95fbe99540b8e1c0ee49fb9d04913676cceac,Bugfix: return an error instead of multierr.Prefix (#10167),taion809,https://api.github.com/repos/istio/istio/git/commits/77a95fbe99540b8e1c0ee49fb9d04913676cceac
+c5fef28760b7071b4044961a75f9f573147c14dd,"Add more values to additionalCrs (#8975)
+
+- Improve error verbosity",johnholiver,https://api.github.com/repos/istio/istio/git/commits/c5fef28760b7071b4044961a75f9f573147c14dd
+575e6b3dea7084d5afc5467d19b3f2b5e74604c8,fix helmignore issues. (#10334),paassdc,https://api.github.com/repos/istio/istio/git/commits/575e6b3dea7084d5afc5467d19b3f2b5e74604c8
+2c89c42fc8a159db18b932ce58aed7be10b69cde,update consul docker image to 1.3.0 (#9787),dp450,https://api.github.com/repos/istio/istio/git/commits/2c89c42fc8a159db18b932ce58aed7be10b69cde
+d8892de4d8e4c2b742cbceb3ce6a8a4a96b04dbf,Extend status pkg to expose all grpc status codes (#9698),PhilipGough,https://api.github.com/repos/istio/istio/git/commits/d8892de4d8e4c2b742cbceb3ce6a8a4a96b04dbf
+0ac85b018233805e1b6f54309700fb74cddf3a4f,"exclude livenessprobe request in rule,fix k8s livenessprobe is unknown in kiali (#10480)",Liv1020,https://api.github.com/repos/istio/istio/git/commits/0ac85b018233805e1b6f54309700fb74cddf3a4f
+d8c4579fa4085c575faefd18f801106c035ca8ea,"Fixing typo in the Helm chart available parameters (#10542)
+
+Fixing typo in the Helm chart available parameters",woernfl,https://api.github.com/repos/istio/istio/git/commits/d8c4579fa4085c575faefd18f801106c035ca8ea
+c256ec8ae1219c69747e9529eaf3b30c206c8cd2,manually set version when api call to get latest fails (#10559),rvennam,https://api.github.com/repos/istio/istio/git/commits/c256ec8ae1219c69747e9529eaf3b30c206c8cd2
+a117ac46fe9c69d59cc11fc6839c13ffb6105442,Add useAdapterCRDs switch (#10404),dtzar,https://api.github.com/repos/istio/istio/git/commits/a117ac46fe9c69d59cc11fc6839c13ffb6105442
+bbec202d3524a156f2141fbcc34053321246267b,"Convert k8s services to Istio service entries in Galley (#10427)
+
+* WIP: Convert k8s services to Istio service entries
+
+* Address comments
+
+* Fix Service API version and set location field
+
+* Try to fix e2e test again
+
+* Move ISTIO_CONVERT_K8S_SERVICE to features
+
+* group imports
+
+* Remove some internall error handling in the name of superficially higher coverage
+
+* Move code back from features to kube/source
+
+* Use kube.Schema",qfel,https://api.github.com/repos/istio/istio/git/commits/bbec202d3524a156f2141fbcc34053321246267b
+a1e7b919ad2dd8a47f7ce8fa0d45cb47bc0e90aa,"feat: additional volumes for sidecar injection configuration (#10081)
+
+* feat: istio volumes injector
+
+* fix: codestyle for user-volume part in webhook_test
+
+* fix: unit test for user volume in sidecar",anasinnyk,https://api.github.com/repos/istio/istio/git/commits/a1e7b919ad2dd8a47f7ce8fa0d45cb47bc0e90aa
+7f8f157432019471c95849b3096c0d12a86d8a97,"Add <, <=, >= and > operators for string, ints and floats to Mixer EL (#10678)",robertpanzer,https://api.github.com/repos/istio/istio/git/commits/7f8f157432019471c95849b3096c0d12a86d8a97
+80f7ced8f636201bdd70fb9d8da0244cf67e4ac2,Fix uninitialized error (#10572),magicyang168,https://api.github.com/repos/istio/istio/git/commits/80f7ced8f636201bdd70fb9d8da0244cf67e4ac2
+31407414e03afa8f855ffec6c7809466eb2c2784,Gateway service support externalIps in helm charts #9557 (#10309),cwocwo,https://api.github.com/repos/istio/istio/git/commits/31407414e03afa8f855ffec6c7809466eb2c2784
+99e33b91dff9bba6a77d8e1bb1edb46636507659,"Allow prometheus scraper to fetch port outside of sidecar umbrella (#10492)
+
+See issue #10487
+
+- kubernetes-pods job is now keeping all targets without sidecar or with expicit prometheus.io/scheme=http annotation
+- kubernetes-pods-istio-secure is now discarding targets with expicit prometheus.io/scheme=http annotation",jotak,https://api.github.com/repos/istio/istio/git/commits/99e33b91dff9bba6a77d8e1bb1edb46636507659
+55251a58da262c0b27c58d41f5cd6f0d4c689251,"Move everything related to spiffe URIs to package spiffe (#9090)
+
+* Move everything related to spiffe URIs to package spiffe
+
+Co-authored-by: Ulrich Kramer <u.kramer@sap.com>
+
+* Fix end-to-end tests after merge
+
+Co-authored-by: Julia Plachetka <julia.plachetka@sap.com>
+
+* Adapt and fix unit tests.
+
+Co-authored-by: Ralf Pannemans <ralf.pannemans@sap.com>
+
+* Adapt and fix unit tests.
+
+* Fix lint errors and unit tests
+
+* Fix lint errors
+
+* Fix lint errors
+
+* Fix lint errors. Exit integration test in case of nonexisting secret
+
+* Remove duplicate trustDomain
+
+* Fixed compile errors
+
+* Fixed lint errors
+
+* Fixed lint errors
+
+* Do not panic and small fixes
+
+* Do not panic when spiffe uri is missing some configuration values
+* Remove environment variable ISTIO_SA_DOMAIN_CANONICAL
+* Fix SNA typo
+* Comment why testing for a kube registry
+
+Co-authored-by: Holger Oehm <holger.oehm@sap.com>
+
+* goimports-ed
+
+Co-authored-by: Holger Oehm <holger.oehm@sap.com>
+
+* Adapt test to getSpiffeId no longer panicing
+
+Co-authored-by: Holger Oehm <holger.oehm@sap.com>
+
+* Fix formatting
+
+Co-authored-by: Holger Oehm <holger.oehm@sap.com>
+
+* Fix lint errors and unit tests
+
+Co-authored-by: Holger Oehm <holger.oehm@sap.com>
+
+* Fix double declared imports
+
+Co-authored-by: Ralf Pannemans <ralf.pannemans@sap.com>
+
+* Fix more import related linting
+
+Co-authored-by: Ralf Pannemans <ralf.pannemans@sap.com>",jsPlachetka,https://api.github.com/repos/istio/istio/git/commits/55251a58da262c0b27c58d41f5cd6f0d4c689251
+d04e0b21162f2d8d749400a2e02344d74359c0d2,"fix a typo to get familiar with the PR process (#10853)
+
+Signed-off-by: YaoZengzeng <yaozengzeng@zju.edu.cn>",YaoZengzeng,https://api.github.com/repos/istio/istio/git/commits/d04e0b21162f2d8d749400a2e02344d74359c0d2
+2d2ed29cff9faf75b729bb29aa991ae10dc0b9a4,Allow pulling images from private repository (#10763),kevinsimper,https://api.github.com/repos/istio/istio/git/commits/2d2ed29cff9faf75b729bb29aa991ae10dc0b9a4
+2b30a7bebc4556306c54db28a583f20be22e47eb,Fix comment on defaultNodeSelector comment (#10980),sterchelen,https://api.github.com/repos/istio/istio/git/commits/2b30a7bebc4556306c54db28a583f20be22e47eb
+aa067d2fa783c3de1a6846fa078b8d52f168e3bb,"Update docker image build script for galley component (#11105)
+
+* Update updateVersion.sh
+
+Adding docker image build command for galley component
+
+* Update README.md
+
+Adding galley docker image build option",AsCat,https://api.github.com/repos/istio/istio/git/commits/aa067d2fa783c3de1a6846fa078b8d52f168e3bb
+e8b83fc54b63222a864f2ff6d27464053cb9382b,"Adding namespace declaration in Grafana PersistentVolumeClaim (#11305)
+
+When using the Helm chart with a user specific namespace and Grafana persistency
+enabled, the generated PersistentVolumeClaim for Grafana was missing a namespace,
+leading in the Grafana pod to be stuck in the Pending state.",jfaixo,https://api.github.com/repos/istio/istio/git/commits/e8b83fc54b63222a864f2ff6d27464053cb9382b
+2e4d19c5bd7fba5a8d0e25dfb195b0641ee1b2ba,"Configure envoy_bootstrap_v2.json to use the configured admin port (#11214)
+
+* Configure envoy_bootstrap_v2.json to use the configured admin port
+
+* Also set the prometheus_stats cluster's port
+
+* Fix bootstrap tests that override admin port",joeyb,https://api.github.com/repos/istio/istio/git/commits/2e4d19c5bd7fba5a8d0e25dfb195b0641ee1b2ba
+63cbdbbdac751290698eb1667302c0196ba26885,Allow ipv6 local traffic. (#10738),arcimboldo,https://api.github.com/repos/istio/istio/git/commits/63cbdbbdac751290698eb1667302c0196ba26885
+9324b62f791e52c8a0aa44caf07e3871b389f98b,"[DO NOT MERGE] Rollout Status timeout during e2e tests (#10996)
+
+Addresses issue #9685",mbanikazemi,https://api.github.com/repos/istio/istio/git/commits/9324b62f791e52c8a0aa44caf07e3871b389f98b
+4f6933b280e0a04d694aaa6c9906e1d6ba14b571,Fix some small typos in helm charts (#11405),mathspanda,https://api.github.com/repos/istio/istio/git/commits/4f6933b280e0a04d694aaa6c9906e1d6ba14b571
+efab32336c3c924d898818d102f8ea76e2ad3191,"add request for memory so mem based hpa also works (#10755)
+
+* add request for memory so mem based hpa works
+
+Signed-off-by: Naseem Ullah <naseemkullah@gmail.com>
+
+* Update values.yaml",naseemkullah,https://api.github.com/repos/istio/istio/git/commits/efab32336c3c924d898818d102f8ea76e2ad3191
+a660fc4f7c72e8b62d8d0aded63ae5c16c5d23fa,"Allow identity domain to be configured in istio: Ensure e2e tests are working with different identity domain (#9226)
+
+* Refactor identity domain handling and adapt unit tests
+
+Co-authored-by: Ulrich Kramer <u.kramer@sap.com>
+
+* Fix goimports error
+
+*  set role.TrustDomain in pilot main
+
+Co-authored-by: Holger Oehm <holger.oehm@sap.com>
+
+* Add end to end test e2e_bookinfo_trustdomain
+
+Co-authored-by: Holger Oehm <holger.oehm@sap.com>
+
+* Use .Values.global.trustDomain as trustDomain for citadel
+
+Co-authored-by: Holger Oehm <holger.oehm@sap.com>
+
+* Removed commented out code
+
+Co-authored-by: Jakob Schmid <jakob.schmid@sap.com>
+
+* Remove fallback to domain for trust domain
+
+This became necessary due to #11050, which always set the domain
+command line flag for executables. But we didn't expect this flag to
+have two different meanings (dns-domain and domain-suffix).
+
+Co-authored-by: Ulrich Kramer <u.kramer@sap.com>",kramerul,https://api.github.com/repos/istio/istio/git/commits/a660fc4f7c72e8b62d8d0aded63ae5c16c5d23fa
+43262a653a54c88fe06420e856c0a436510331cf,"Use print() function in both Python 2 and Python 3 (#10943)
+
+Legacy __print__ statements are syntax errors in Python 3 but __print()__ function works as expected in both Python 2 and Python 3.",cclauss,https://api.github.com/repos/istio/istio/git/commits/43262a653a54c88fe06420e856c0a436510331cf
+ed5e9596c2a30d0b6c818b1a0b31712fb16ac7eb,"Envoy Graceful Shutdown (#11485)
+
+* Add Draining bootstrap to Proxies
+
+Signed-off-by: Liam White <liam@tetrate.io>
+
+* Drain open connections
+
+Signed-off-by: Liam White <liam@tetrate.io>
+
+* typo and makefile fix for drain config
+
+Signed-off-by: Liam White <liam@tetrate.io>
+
+* Add proxy agent tests for draining
+
+Signed-off-by: Liam White <liam@tetrate.io>
+
+* appease our golangcibot overlord
+
+Signed-off-by: Liam White <liam@tetrate.io>
+
+* Windows Go doesn't have syscall.Kill
+
+Signed-off-by: Liam White <liam@tetrate.io>",liamawhite,https://api.github.com/repos/istio/istio/git/commits/ed5e9596c2a30d0b6c818b1a0b31712fb16ac7eb
+ba883f7c9e947726642defc97eee2557301ab5c0,Support NotMethods (#11544),pitlv2109,https://api.github.com/repos/istio/istio/git/commits/ba883f7c9e947726642defc97eee2557301ab5c0
+dbe193944b1e0e9bc69d5e75912c7f0d456288de,"fix ctrlz listen address (#11468)
+
+Print correct `ctrlz` listen to address. When ""--ctrlz_address"" not set value, we use default address ""127.0.0.1"".  
+
+```
+func (s *Server) listen(port uint16) {
+	log.Infof(""ControlZ available at %s:%d"", getLocalIP(), port)  // Print non-local IP Address, but we use ""127.0.0.1"" now!
+       // ... 
+}
+```",DavadDi,https://api.github.com/repos/istio/istio/git/commits/dbe193944b1e0e9bc69d5e75912c7f0d456288de
+1ac77bbf26a41ed9511ada4efdca10c961eaca9e,"Change default monitoring port (#11421)
+
+* Change default monitoring port
+
+Update the default monitoring port from 9093 to 15014.
+
+* Fix test cases
+
+* Hardcode the monitoringPort in istio-remote",ericvn,https://api.github.com/repos/istio/istio/git/commits/1ac77bbf26a41ed9511ada4efdca10c961eaca9e
+3b247188364904ee7af2fadecdd85ea890f2627d,"Add readiness check for Ingress Gateway (#3063) (#11001) (#11548)
+
+Enabling the same readiness probe for Ingress Gateway that is being
+used for sidecars.",philrud,https://api.github.com/repos/istio/istio/git/commits/3b247188364904ee7af2fadecdd85ea890f2627d
+744be17b511e2053210f142cf712da87f3c31ec8,"Cleanup Helm RBAC (#11486)
+
+* Clean up ClusterRole apiGroups
+
+* Separate Kiali's ClusterRole rules into correct API groups
+
+* Fix list indentation
+
+* Remove OpenShift-specific ""projects"" resource from core apiGroup
+
+* Consolidate more RBAC rules
+
+* Update all RBAC resource apiVersions to v1",chrisob,https://api.github.com/repos/istio/istio/git/commits/744be17b511e2053210f142cf712da87f3c31ec8
+65610b6e91a6e19cf3345f7b3769736c4078dab9,Fix kubernetesenv workload attributes for multicluster with one control plane (#11581),dicarlo2,https://api.github.com/repos/istio/istio/git/commits/65610b6e91a6e19cf3345f7b3769736c4078dab9
+9be6b898893b2668b207f6e4f6450f6334ae9d4a,"Fix #10694. Improve error message for wildcard ServiceEntry host (#11637)
+
+Error message for ServiceEntries with a wildcard host was unclear
+about why an error was generated. Example:
+
+    ""admission webhook ""pilot.validation.istio.io"" denied the request:
+    configuration is invalid: invalid host metadata""
+
+Improved error message to report why the metadata was not valid. Ex:
+
+    Error from server: error when creating ""../../testServiceEntry.yaml"":
+    admission webhook ""pilot.validation.istio.io"" denied the request:
+    configuration is invalid: wildcard host * not allowed in ServiceEntry",BLaurenB,https://api.github.com/repos/istio/istio/git/commits/9be6b898893b2668b207f6e4f6450f6334ae9d4a
+f16f56b5f41c06fcff20dd75f80357b9f1b3bd6d,"move apply plugin below buildscript (#11625)
+
+The Cloud Foundry open source licensing scanner has a plugin that
+identifies dependencies from gradle scripts, but it requires the
+buildscript and plugins block be before anything else in the file.
+This change does not affect the build, but makes our lives a smidge
+easier.
+
+Co-authored-by: Teal Stannard <tstannard@pivotal.io>",XanderStrike,https://api.github.com/repos/istio/istio/git/commits/f16f56b5f41c06fcff20dd75f80357b9f1b3bd6d
+c750ee9fa24daa8c361d570946273b55bc0bc38a,Add 'name' selector to istio-sidecar-injector (#11182),sjanota,https://api.github.com/repos/istio/istio/git/commits/c750ee9fa24daa8c361d570946273b55bc0bc38a
+406e15e8ca3fc8ba7281cd156b10db58afe40f91,"Support customization of Envoy bootstrap config (#11559)
+
+* Support customization of Envoy bootstrap config
+
+This change allows override the default Envoy bootstrap configuration
+for a resource. A sample is included to show how it can be used.
+
+* Format code
+
+* Fix tests",howardjohn,https://api.github.com/repos/istio/istio/git/commits/406e15e8ca3fc8ba7281cd156b10db58afe40f91
+1405b34d46b60c725444a100fffdb7ecfeacaee3,"Add empty check for proxy's locality (#11681)
+
+Make sure empty proxy locality will fall back to using proxy service's instance locality.",aattuluri,https://api.github.com/repos/istio/istio/git/commits/1405b34d46b60c725444a100fffdb7ecfeacaee3
+6113e155ac85e2485e30dfea2b80fd97afd3130a,Add duration time to stale EDS (#11568),MorrisLaw,https://api.github.com/repos/istio/istio/git/commits/6113e155ac85e2485e30dfea2b80fd97afd3130a
+655850eeb45f92c8634a1f1d4934d96434a008b9,Fix tests param: istioNamespace (#11780),exiaohao,https://api.github.com/repos/istio/istio/git/commits/655850eeb45f92c8634a1f1d4934d96434a008b9
+f62b4fa7d7ade9ab1c4a7d0307e649cc86d1434f,"Automatically populate the GCP zone in the proxy bootstrap (#11607)
+
+* Automatically populate the GCP zone in the proxy bootstrap
+
+* Fix import formatting
+
+* Ignore the zone in bootstrap tests
+
+* Provide region in addition to zone",rfaulk,https://api.github.com/repos/istio/istio/git/commits/f62b4fa7d7ade9ab1c4a7d0307e649cc86d1434f
+a970ec6afaf8b199ec094f78bb553ef67d9d4629,Create internal interface argument for istio-iptables script. (#11321),SchSeba,https://api.github.com/repos/istio/istio/git/commits/a970ec6afaf8b199ec094f78bb553ef67d9d4629
+5f61fbdceeb6321e2f757926cabe715166f685c8,"Add verify_test.go to unit test ""istioctl verify-install"" (#11794)",andrewjjenkins,https://api.github.com/repos/istio/istio/git/commits/5f61fbdceeb6321e2f757926cabe715166f685c8
+96d0abec5c367e796a2e493af91bfed16bd66fef,"new proxy sha for release-1.1 (#11857)
+
+* new proxy sha for release-1.1
+
+* Run deps ensure to api
+
+* right sha",utka,https://api.github.com/repos/istio/istio/git/commits/96d0abec5c367e796a2e493af91bfed16bd66fef
+d613ef826e6e9fcd8dd16d578b50536000a619d0,update labels for citadel health check (#11923),bdecoste,https://api.github.com/repos/istio/istio/git/commits/d613ef826e6e9fcd8dd16d578b50536000a619d0
+d15e9a52905c831824333f23db5c9624fa6f8011,"Added changes to support modifying the secure naming SAN identity and… (#10091)
+
+* added changes to support modifying the secure naming SAN identity and format
+
+* added changes to support modifying the secure naming SAN identity and format
+
+* lint fixes
+
+* lint fixes
+
+* removed unused var.
+
+* removed call to get mixer san OS variable
+unified the mixer and pilot san generation into one function
+
+* fixed typo
+
+* removed new line
+
+* fixed mixer san check for no auth deployments
+
+* format fixes
+
+* removed sprintf with string cancat",jwebb49,https://api.github.com/repos/istio/istio/git/commits/d15e9a52905c831824333f23db5c9624fa6f8011
+e9a94e4b4d5f44942d92d249d1647fa079c43815,Support offline running productpage by packing js and css in image (#12218),yubingjiaocn,https://api.github.com/repos/istio/istio/git/commits/e9a94e4b4d5f44942d92d249d1647fa079c43815
+870572caa2abcdf20d92d0c3135113a6aa483da7,"Allow local loopback traffic not to be redirected (#12110)
+
+If Envoy does not have a listener to send local loopback traffic to 127.0.0.1, the rule ""iptables -t nat -A ISTIO_OUTPUT -o lo ! -d 127.0.0.1/32 -j ISTIO_REDIRECT"" would cause infinite loop. For deployment that does not have server side proxy, environment variable DISABLE_REDIRECTION_ON_LOCAL_LOOPBACK can be defined to be non-empty to avoid the fatal loop.",tianyicaig,https://api.github.com/repos/istio/istio/git/commits/870572caa2abcdf20d92d0c3135113a6aa483da7
+bf37088a5010897c45d47c71a04fbdf900d72df7,fix wrong link for mixer (#12347),tianxiaoliang,https://api.github.com/repos/istio/istio/git/commits/bf37088a5010897c45d47c71a04fbdf900d72df7
+7c342741df9bd4e313420b4d17e279089d8956da,"Configuration:  no longer hardcode mesh certs (#12189)
+
+* Configuration: Pilot-Agent: no longer hardcode certs to watch. Pilot-Discovery: no longer hardcode Envoy listener cert paths.
+
+* Address demands of golangcibot overlord
+
+* Change usages of github.com/stretchr/testify/require to github.com/stretchr/testify/assert
+
+* Address code style violation
+
+* Revert temporary api changes. Set cert paths in envoy node metadata and use them when setting up listeners
+
+* Use envoy node metadata cert paths (if available) when constructing clusters
+
+* Rename constants to make golint happy
+
+* Fix imports
+
+* Ignore ordering in test
+
+* Pass around proxy instead of proxy.Metadata",drichelson,https://api.github.com/repos/istio/istio/git/commits/7c342741df9bd4e313420b4d17e279089d8956da
+93b8bfd87b75171bace2d8cd053dabfe9fec304d,Removing the hard-coded istio-system in endpoints.yaml (#12393),srini084,https://api.github.com/repos/istio/istio/git/commits/93b8bfd87b75171bace2d8cd053dabfe9fec304d
+e2df7c7dc76d269bdb0a0f712e86362906dbba95,add the remote flag to the istioctl version command (#12398),dwradcliffe,https://api.github.com/repos/istio/istio/git/commits/e2df7c7dc76d269bdb0a0f712e86362906dbba95
+97a840bd7a062b5de38b54bc34c43b4fa2781cd1,"Fix domainname of galley in envoy configmap istio-control/istio-discovery
+
+Co-authored-by: Julia Plachetka <julia.plachetka@sap.com>
+Signed-off-by: Philipp Stehle <philipp.stehle@sap.com>",phil9909,https://api.github.com/repos/istio/istio/git/commits/97a840bd7a062b5de38b54bc34c43b4fa2781cd1
+8d5c62ead2c15ede58eb851bfbabf4705a58d408,merge top-level trafficPolicy (#12418),dzdx,https://api.github.com/repos/istio/istio/git/commits/8d5c62ead2c15ede58eb851bfbabf4705a58d408
+0145ed7309c0854b39ab04b68298010b624ab9ab,"Put back a couple settings for Kiali that were accidentally deleted. (#12472)
+
+Some Kiali settings were accidently deleted when the new installation options for
+release-1.1 was published. This is because these settings were commented out in
+the values.yaml file for kiali under istio/kubernetes/helm/istio/charts/kiali.
+
+Bug:#3660",johnma14,https://api.github.com/repos/istio/istio/git/commits/0145ed7309c0854b39ab04b68298010b624ab9ab
+d7dd807d06fcd36ec991058602f38f9add971af7,test: add dump pod events function (#12821),draveness,https://api.github.com/repos/istio/istio/git/commits/d7dd807d06fcd36ec991058602f38f9add971af7
+faa7a2c0e7b499b059d2af76046068c9488433d1,"Move MCP-address to mesh config (instead of using flag).
+
+Co-authored-by: Philipp Stehle <philipp.stehle@sap.com>
+Signed-off-by: Jakob Schmid <jakob.schmid@sap.com>",jkbschmid,https://api.github.com/repos/istio/istio/git/commits/faa7a2c0e7b499b059d2af76046068c9488433d1
+761d0c1c3751f31bf04dfcc98b155f344cfe896a,samples/bookinfo: easier access to logs (#12584),epk,https://api.github.com/repos/istio/istio/git/commits/761d0c1c3751f31bf04dfcc98b155f344cfe896a
+e9bb955d7648ef80d08cdba269fc3baa7065252c,Exclude Prometheus traffic in rule so that Kiali does not show it. (#12251),pilhuhn,https://api.github.com/repos/istio/istio/git/commits/e9bb955d7648ef80d08cdba269fc3baa7065252c
+312ca8286cfa6a3af7f78377ae8aa83751128b00,"Add instructions and scripts to facilitate running E2E tests locally using KinD (#12641)
+
+* Adding check/install go in both macOS and Linux.
+
+* Install go if not installed.
+
+* Adding support to run e2e test on KinD locally.
+
+* Adding the ability to run e2e tests locally on KinD.
+
+* Update install_prereqs_debian.sh
+
+* Update setup_test.sh
+
+* Adding the ability to run e2e test on KinD
+for presubmit test.
+
+* Presubmit e2e test on KinD.
+
+* Adding the ability to run e2e_simple presubmit on KinD
+
+* Adding README file for testing on KinD locally.
+
+* Revert the changes on adding install_go function.
+
+* Revert install_go in common_macos.sh
+
+* Revert the file changes of deleting newline.
+
+* Reverting the changes.
+
+* Addressing reviews.
+
+* Fixing shellcheck",icygalz,https://api.github.com/repos/istio/istio/git/commits/312ca8286cfa6a3af7f78377ae8aa83751128b00
+d6aeaa4be18042f6da6063aff0f9806a3cdc192d,"Add support for datadog tracing (on release-1.1 branch) (#12687)
+
+* Add support for datadog tracing.
+
+Signed-off-by: Caleb Gilmour <caleb.gilmour@datadoghq.com>
+
+* Use $(HOST_IP) instead of special-casing empty address value
+
+Signed-off-by: Caleb Gilmour <caleb.gilmour@datadoghq.com>",cgilmour,https://api.github.com/repos/istio/istio/git/commits/d6aeaa4be18042f6da6063aff0f9806a3cdc192d
+dfef53c1e21d7be711bec1186e90c1bd882fc7b7,"add param to sidecar to ignore iptables changes (#12829)
+
+* add param to sidecar to ignore iptables changes
+
+* rephrase description",benraz,https://api.github.com/repos/istio/istio/git/commits/dfef53c1e21d7be711bec1186e90c1bd882fc7b7
+6eeeb3946a1f0e7ed560a9aeb8f7d7f37a8c2d33,samples/bookinfo: migrate `apiVersion` of deployments to `apps/v1` (#13030),caohe,https://api.github.com/repos/istio/istio/git/commits/6eeeb3946a1f0e7ed560a9aeb8f7d7f37a8c2d33
+abe476eb42b35b6511a5a5337c6f5fd587d7aa15,"Allows cleanup.sh to run non-interactively when in terminal (#12635)
+
+This change allows cleanup.sh to run non-interactively in standard terminals.
+For example: NAMESPACE=""test123"" ./cleanup.sh",ruzickap,https://api.github.com/repos/istio/istio/git/commits/abe476eb42b35b6511a5a5337c6f5fd587d7aa15
+2dc77abb5a0819befecb186bf7790867f34a98e1,"Added certmanager flag into helm chart values.yaml (#12953)
+
+* Added certmanager flag into helm chart values.yaml
+
+* Moved certmanager configuration",rvgud,https://api.github.com/repos/istio/istio/git/commits/2dc77abb5a0819befecb186bf7790867f34a98e1
+5e93685a0e58ae6f5d1a91c4868e8458912a7b5a,"Pilot [networking]: Add upstream idle_timeout to cluster definition (#13066)
+
+* adding upstream idle_timeout to cluster definition.
+
+* reverting vendor changes before running dep ensure again.
+
+* running dep ensure update on api from master.",arianmotamedi,https://api.github.com/repos/istio/istio/git/commits/5e93685a0e58ae6f5d1a91c4868e8458912a7b5a
+d57ae90f5b506a747221b40a6bf818350b697f4c,"added sidecar.istio.io/rewriteAppProbers annotation (#13112)
+
+* pilot: registered sidecar.istio.io/rewriteAppProbers annotation
+
+* pilot: checked from sidecar.istio.io/rewriteAppProbers too
+
+* pilot: added webhook inject tests
+
+TestWebhookInject_http_probe_rewrite_enabled_via_annotation case is a modification of TestWebhookInject_http_probe_rewrite case.
+The difference is rewriteAppHTTPProbe is false in template, but set to true in annotation.
+
+TestWebhookInject_http_probe_rewrite_disabled_via_annotation case is a modification of TestWebhookInject case.
+The difference is rewriteAppHTTPProbe is true in template, but set to false in annotation.
+
+* fixed linter issue in test
+
+* added http probe test for kubeinject case
+
+* added tests and fixed login upon checking RewriteAppHTTPProbe setting
+
+* Add more tests in app_probe_test.go
+
+* renamed RewriteAppProbers to RewriteAppHTTPProbers
+
+* fixed test case for webhook injection
+
+* add description to rewriteAppHTTPProbers annotation
+
+* updated tests in app probe to sync with recent master change
+
+* change validateBool to alwaysValidFunc as per review",arief-hidayat,https://api.github.com/repos/istio/istio/git/commits/d57ae90f5b506a747221b40a6bf818350b697f4c
+cb63131a20ad12098ec76e4295cc922e780865d2,Export inject.injectionData() (#12426),luksa,https://api.github.com/repos/istio/istio/git/commits/cb63131a20ad12098ec76e4295cc922e780865d2
+7e69fecfc20dd1b0ec494ff886b161cc9ca536d4,Registrator should use master version (#13083),sKabYY,https://api.github.com/repos/istio/istio/git/commits/7e69fecfc20dd1b0ec494ff886b161cc9ca536d4
+aec5f8b9eaa52d75091e813df84c393bc50fbb93,"Added data source for Galley dashboard (#13041)
+
+Fixes: #13040",nrjpoddar,https://api.github.com/repos/istio/istio/git/commits/aec5f8b9eaa52d75091e813df84c393bc50fbb93
+db8bc29a732a6bc43e5aafd8655555cd63781f27,"Change exposed port of istio-pilot in consul (#13170)
+
+`15003` and `15005` are never used in pilot under consul env. It would be confusing to expose the two ports. Instead, 
+```
+   --grpcAddr string                     Discovery service grpc address (default "":15010"")
+   --secureGrpcAddr string               Discovery service grpc address, with https (default "":15012"")
+```
+we know `15010` and `15012` are still using.",harryge00,https://api.github.com/repos/istio/istio/git/commits/db8bc29a732a6bc43e5aafd8655555cd63781f27
+6c0e7fe23589eee40695812dad3dd80f20da4a6b,Fixes panic in pilot agent when provided with custom cert paths. (#13409),vladlosev,https://api.github.com/repos/istio/istio/git/commits/6c0e7fe23589eee40695812dad3dd80f20da4a6b
+0be08066ae5385ff2cb90e3a8d44fe010e30fa6b,"Add istioctl completion to the 'istioctl' make target. (#13024)
+
+Signed-off-by: Jason Clark <jason.clark.oss@gmail.com>",jasontclark,https://api.github.com/repos/istio/istio/git/commits/0be08066ae5385ff2cb90e3a8d44fe010e30fa6b
+403833f1babd80d13605c67396213d8ef7debbb5,Scrape internal Grafana metrics. (#12509),charleskorn,https://api.github.com/repos/istio/istio/git/commits/403833f1babd80d13605c67396213d8ef7debbb5
+e77d6cc8928559a15982d166fe0ff1c93c43ce06,"Support using the kiali-viewer role directly from Helm chart configuration (#13528)
+
+* Support using the kiali-viewer role
+
+* Switch to viewOnlyMode name to be consistent with Kiali operator name",jaygorrell,https://api.github.com/repos/istio/istio/git/commits/e77d6cc8928559a15982d166fe0ff1c93c43ce06
+42839d0b8acbb91c2cd10df09a51f2099eac915c,move istioctl completion generator to its own target (#13567),tvieira,https://api.github.com/repos/istio/istio/git/commits/42839d0b8acbb91c2cd10df09a51f2099eac915c
+8f55a847304c597a3c157b9f76d0349462eaf89c,Fix potential fd leak (#13310),zrss,https://api.github.com/repos/istio/istio/git/commits/8f55a847304c597a3c157b9f76d0349462eaf89c
+7381d0fbe99db892daaef25f6830e7aa91569056,"Fix typo (#64)
+
+Signed-off-by: Roc Chan <rockerchen@tencent.com>",imroc,https://api.github.com/repos/istio/istio/git/commits/7381d0fbe99db892daaef25f6830e7aa91569056
+43d5487c538eb97fc2d3130713c31fd9cfc49b9f,"Tiny change in Makefile (#63)
+
+Signed-off-by: Yan Xue <yxyan@google.com>",yxue,https://api.github.com/repos/istio/istio/git/commits/43d5487c538eb97fc2d3130713c31fd9cfc49b9f
+e3bba2386fe1faaf94b9ecb91574b920f757697c,"Update UsingGKE.md (#13560)
+
+To avoid confusion, per the gcloud SDK documentation: https://cloud.google.com/sdk/gcloud/reference/#--project, project ID instead of project name should be used for the project flag.",richardwxn,https://api.github.com/repos/istio/istio/git/commits/e3bba2386fe1faaf94b9ecb91574b920f757697c
+794b795d036bbd6613f155bc52d550789db45acf,"initial vendoring
+
+Signed-off-by: rcernich <rcernich@redhat.com>",rcernich,https://api.github.com/repos/istio/istio/git/commits/794b795d036bbd6613f155bc52d550789db45acf
+bd7e445fd7b980a7b94b32ab155c1d27c886cabf,"Remove trailing tab chars from each line ending. (#13570)
+
+Trailing tabs were left in the rendered template, having the yaml
+linter throw warnings.",dewe,https://api.github.com/repos/istio/istio/git/commits/bd7e445fd7b980a7b94b32ab155c1d27c886cabf
+2936c7886c6cf2eae64bb9f489e36b2e91f1558d,feat: Add debugging on host resolution failures (#13582),mikebryant,https://api.github.com/repos/istio/istio/git/commits/2936c7886c6cf2eae64bb9f489e36b2e91f1558d
+5819de9aa6705201f4054765b8ba0606040202c9,fix typo in pilot/cmd/pilot-agent/status/ready/probe.go (#12321),abel123,https://api.github.com/repos/istio/istio/git/commits/5819de9aa6705201f4054765b8ba0606040202c9
+ee61f6e815dd34d6e85a56c695e48b480ee2522e,correct example text for istioctl authn tls-check command (#13561),castlemilk,https://api.github.com/repos/istio/istio/git/commits/ee61f6e815dd34d6e85a56c695e48b480ee2522e
+02c8de72986c174ff7f8def317949ea59d13a919,"bootstrap: add test to confirm ISTIO_META_ envvar (#13645)
+
+ISTIO_META_key=val env variable can be encoded into node metadata
+as ""key"" to ""val""
+
+Signed-off-by: Yuchen Dai <silentdai@gmail.com>",lambdai,https://api.github.com/repos/istio/istio/git/commits/02c8de72986c174ff7f8def317949ea59d13a919
+106d45cff53bd628ff422e0c710df4d0ac588926,"When using plugged certs, use chain cert if avaiable. (#13733)",lsjostro,https://api.github.com/repos/istio/istio/git/commits/106d45cff53bd628ff422e0c710df4d0ac588926
+c6ccf9e33b3f2794bb7ecadbf7880d4fea842cfd,Added corrected link to Bookinfo docs (#13833),jamtur01,https://api.github.com/repos/istio/istio/git/commits/c6ccf9e33b3f2794bb7ecadbf7880d4fea842cfd
+7731e3fbf79c71c604b5ef1ac1a745adce4797f1,"Pass the original user agent to applications in app probes (#13835)
+
+* Pass the original user agent to applications in app probes
+
+* Forward all incoming probe headers to the application",zachomedia,https://api.github.com/repos/istio/istio/git/commits/7731e3fbf79c71c604b5ef1ac1a745adce4797f1
+11cfe38d2e94e855c69af8f6d62f1b80fc566f25,No need to hold pod cache lock when getting pod from podstore and reuse function getPodKey (#13975),hex108,https://api.github.com/repos/istio/istio/git/commits/11cfe38d2e94e855c69af8f6d62f1b80fc566f25
+1de8b4b0ea07daec3ad05f96c04fb312012dbafb,"[ImgBot] Optimize images (#14013)
+
+*Total -- 1,157.76kb -> 797.90kb (31.08%)
+
+/tests/e2e/local/vagrant/macos_docker_daemon.png -- 145.90kb -> 96.36kb (33.95%)
+/mixer/adapter/solarwinds/docs/istio-papertrail.png -- 764.88kb -> 509.06kb (33.45%)
+/mixer/adapter/opa/mixer_adapter_opa.png -- 35.85kb -> 26.58kb (25.86%)
+/tests/integration_old/images/integration_framework_structure.jpg -- 25.12kb -> 19.58kb (22.04%)
+/mixer/adapter/solarwinds/docs/istio-appoptics.png -- 186.02kb -> 146.32kb (21.34%)",imgbot[bot],https://api.github.com/repos/istio/istio/git/commits/1de8b4b0ea07daec3ad05f96c04fb312012dbafb
+8bf123173d6e7be8f1f366f19d2471c751af8c56,"Add neverInjectSelector and alwaysInjectSelector properties to Helm chart (#165)
+
+* Add neverInjectSelector and alwaysInjectSelector properties to Helm chart
+
+Fixes istio/istio#14020
+
+* Reduce indention to 6",cagataygurturk,https://api.github.com/repos/istio/istio/git/commits/8bf123173d6e7be8f1f366f19d2471c751af8c56
+09e77e19d640225d9abe9707cce41275486d439b,"Merge pull request #14041 from howardjohn/master-merge-again
+
+Merge release-1.1 into master",fpesce,https://api.github.com/repos/istio/istio/git/commits/09e77e19d640225d9abe9707cce41275486d439b
+a1e1027542f3c8b554774b3454da60428024b3cc,Update Vendor Files to match go.mod (#14165),therealmitchconnors,https://api.github.com/repos/istio/istio/git/commits/a1e1027542f3c8b554774b3454da60428024b3cc
+e49111d6e0e8dd547db44742473326016fce6f2d,"Added support for outbound port exclusions (#13970)
+
+Signed-off-by: James Roper <james@jazzy.id.au>",jroper,https://api.github.com/repos/istio/istio/git/commits/e49111d6e0e8dd547db44742473326016fce6f2d
+e5cc9c804f6c5c9fbfc296d5255ddc8663ae7bff,"Add test which installs a minimal istio to get knative serving running. (#177)
+
+knative serving is taken from
+https://github.com/knative/serving/releases/download/v0.5.2/serving.yaml",trshafer,https://api.github.com/repos/istio/istio/git/commits/e5cc9c804f6c5c9fbfc296d5255ddc8663ae7bff
+b2cee15f5cb3e8c1d94fac461ce547b433991569,"Create the role in the same namespace (#14280)
+
+* Create the role in the same namespace
+
+Create the role in the same namespace as the gateway
+
+* Update rolebindings.yaml",lancehudson,https://api.github.com/repos/istio/istio/git/commits/b2cee15f5cb3e8c1d94fac461ce547b433991569
+0cec2842e434479d8c7a720f9d364580fd040449,fix expression of clientSpan in traceSpan template (#14421),zhongfox,https://api.github.com/repos/istio/istio/git/commits/0cec2842e434479d8c7a720f9d364580fd040449
+99c7a77a4b075a9522d7fe343d358bee82ec6643,Add replicaCount to certmanager chart deployment template (#210),Lysholm,https://api.github.com/repos/istio/istio/git/commits/99c7a77a4b075a9522d7fe343d358bee82ec6643
+d6d298327117385a51a51a3a4d65f96961006964,"Tunable batch report behavior (#14301)
+
+* added helm values to tune batch reporting behavior of telemetry data
+
+* fix space formatting issue
+
+* update dependencies from istio/api
+
+* fix extra line
+
+* move comment inside of {{- if }}
+
+* move parameters back to top level values.yaml
+
+* fix name of helm parameters
+
+* fix comments
+
+* fix comment",huang195,https://api.github.com/repos/istio/istio/git/commits/d6d298327117385a51a51a3a4d65f96961006964
+0a3ef6540e614a5be3e098bef0ca0417ce0db3cb,"Correct link to example docs (#14558)
+
+Add a working link to examples documentation.",marta-lapina,https://api.github.com/repos/istio/istio/git/commits/0a3ef6540e614a5be3e098bef0ca0417ce0db3cb
+5c1f917439a49f53bba8c6104fd2ec00a7866c4a,"Add http1.0 support to gateway (#14448)
+
+* Add http1 support to gateway
+
+* Remove allow_absolute_url
+
+* Simplify
+
+* Add tests",Demonsthere,https://api.github.com/repos/istio/istio/git/commits/5c1f917439a49f53bba8c6104fd2ec00a7866c4a
+399986a9f0289a928f8b6edca46a2da8199e731f,"Make sidecar injector clusterrole more restrictive by specifying resourcenames (#231)
+
+* Make sidecar injector clusterrole more restrictive by specifying resourcenames
+
+* Simplify string concatenation",neeleshkorade,https://api.github.com/repos/istio/istio/git/commits/399986a9f0289a928f8b6edca46a2da8199e731f
+c667e03083f30516901d9e174dc54b9442b6bde0,Don't mv when USE_LOCAL_PROXY=1 (#14338),wxdao,https://api.github.com/repos/istio/istio/git/commits/c667e03083f30516901d9e174dc54b9442b6bde0
+de5768ff8e7c5038fa28398f8b9b0cdef725f3a9,"Update gen-jwt.py (#14521)
+
+* Update gen-jwt.py
+
+I use python 3.7.3.  This is hava error: `TypeError: from_buffer() cannot return the address of a unicode object`
+Solve by change to bytes.
+
+* Update gen-jwt.py
+
+Variable name error",sun-wenming,https://api.github.com/repos/istio/istio/git/commits/de5768ff8e7c5038fa28398f8b9b0cdef725f3a9
+068a3171e4ee4e15a477ff07e7d596b933e92234,Fix indentation of podDnsConfig values in cert-manager chart (#13834),ergunozyurt,https://api.github.com/repos/istio/istio/git/commits/068a3171e4ee4e15a477ff07e7d596b933e92234
+b034753e104adff9faad7969d9246a2157fa6bd1,"allow configuring istio-init proxy resources (#14438)
+
+* allow configuring istio-init proxy resources
+
+* address comments: update limits
+
+* add resources to common demo values.yaml
+
+* Revert ""add resources to common demo values.yaml""
+
+This reverts commit f8c424bd1f0906d4681d4d7d6426d1eaa8192d84.
+
+* fix spacing
+
+* set indent 8
+
+* fix missing resources key",r0fls,https://api.github.com/repos/istio/istio/git/commits/b034753e104adff9faad7969d9246a2157fa6bd1
+85bee69b48283b7664585e295e15eb69d385519b,"Updates the post install output. (#14396)
+
+Addresses: #14340.
+
+Signed-off-by: Jason Clark <jason.clark@ibm.com>",ibm-jason,https://api.github.com/repos/istio/istio/git/commits/85bee69b48283b7664585e295e15eb69d385519b
+c1c8eeea41177137bffe7f7a4ed81d906a4cd0a7,"Update Makefile (#14268)
+
+Currently, running `make test WHAT=<component>` doesn't work:
+* `-i` is deprecated on `xargs` and has been replaced with `-I {}`
+* the list of files to run run `go test` against need to be prefixed with `./` (as with other test commands), otherwise it will try to find them in $GOROOT and $GOPATH",spike01,https://api.github.com/repos/istio/istio/git/commits/c1c8eeea41177137bffe7f7a4ed81d906a4cd0a7
+1e1bae11230a3f1f080492c2086611b0a72fd184,Add outliner check column in proxy config command (#13119),voanhduy1512,https://api.github.com/repos/istio/istio/git/commits/1e1bae11230a3f1f080492c2086611b0a72fd184
+86ce8c97b982059a75f256faf61c2cff03f4b913,Extend CODEOWNERS (#37),Laci21,https://api.github.com/repos/istio/istio/git/commits/86ce8c97b982059a75f256faf61c2cff03f4b913
+00f52cbe53b19cbfc72540895ecae1330799f879,"create_cluster_gke.sh preserves previous use_client_certificate value (#14668)
+
+* create_cluster_gke.sh preserves previous use_client_certificate value
+
+The create_cluster_gke script assumed that use_client_certificate was
+already true in the user's GKE config. If it was false or unset, this
+resulted in a surprising change in the user's settings.
+
+This fix ensures that the previous value (including if it was unset)
+is restored correctly.
+
+See https://github.com/istio/istio.io/issues/4269 for more context
+
+* Quote use of shell var",sushicw,https://api.github.com/repos/istio/istio/git/commits/00f52cbe53b19cbfc72540895ecae1330799f879
+0c8f2fa9c3064cee1dfb20d9aed350503f6f2191,add pull secret to istio-security-post-install-account (#14816),anandkumarpatel,https://api.github.com/repos/istio/istio/git/commits/0c8f2fa9c3064cee1dfb20d9aed350503f6f2191
+4ea452d3f6f62469e79b19a9cc64acbca52d0311,Fix comment error of model validation (#14895),ChangyuWang,https://api.github.com/repos/istio/istio/git/commits/4ea452d3f6f62469e79b19a9cc64acbca52d0311
+ed099bc2fefd3dbef9319634ab507738608663d4,"Update loadgen.sh (#15047)
+
+change HELLOWORLD_URL to GATEWAY_URL",janitha09,https://api.github.com/repos/istio/istio/git/commits/ed099bc2fefd3dbef9319634ab507738608663d4
+cfc62869c0fe2058a3536be11fc811196905abf5,[fix] spelling error (#15083),starizard,https://api.github.com/repos/istio/istio/git/commits/cfc62869c0fe2058a3536be11fc811196905abf5
+fd479ba1668c441cdc63d76226d059b538d0e33f,"Makefile - hermetic protoc builds (#43)
+
+* added docker based proto generation
+
+* removed deprecated proto target",martonsereg,https://api.github.com/repos/istio/istio/git/commits/fd479ba1668c441cdc63d76226d059b538d0e33f
+96a09895dd9f7ba416ff94268ce52a01aa2435b0,[Fix] retain CommonLbConfig for HealthyPanicThreshold (#13682) (#15220),mnktsts2,https://api.github.com/repos/istio/istio/git/commits/96a09895dd9f7ba416ff94268ce52a01aa2435b0
+8d3f6b87a44f7f169b9cb49d04d605a74e7461e0,"Grant k8s namespace read permissions to Citadel (#15113)
+
+In order to check labels attached to a namespace, Citadel must have k8s
+cluster permissions to read namespace resources. In the current
+chart defaults, Citadel is not granted *any* namespace related
+permissions, despite making a namespace read in the istioEnabledObject
+function.",Monkeyanator,https://api.github.com/repos/istio/istio/git/commits/8d3f6b87a44f7f169b9cb49d04d605a74e7461e0
+839a9f5a3bab21631d69be686c4851714374f42e,"Fix metric description typos (#15111)
+
+Found those while looking at metrics endpoint.",therve,https://api.github.com/repos/istio/istio/git/commits/839a9f5a3bab21631d69be686c4851714374f42e
+c5ff36a66084fe7f3b72d5a15203f5783317dbec,"Grafana additional env for config changes (#14796)
+
+* Added section for configuring additional environment variable configs for grafana to override certain grafana.ini settings like adding SMTP settings.
+
+* Removed redundance templating code. Moved grafana env to demo config file.
+
+* Removed demo grafana config file. Moved the env and envSecrets values to grafana chart values file with comments on how to use.",newtondev,https://api.github.com/repos/istio/istio/git/commits/c5ff36a66084fe7f3b72d5a15203f5783317dbec
+e45631c1828b6bafd950f943f9f4081a2df7e078,Fix go build command to output to iop binary (#63),Niksko,https://api.github.com/repos/istio/istio/git/commits/e45631c1828b6bafd950f943f9f4081a2df7e078
+a7c4d9163d81657881ad8a53d7a8553afa65fad6,format code (#15259),IanCao,https://api.github.com/repos/istio/istio/git/commits/a7c4d9163d81657881ad8a53d7a8553afa65fad6
+2e4277c18054cb1fcbe7fb3cb11d1cf71c279e07,Added --log_as_json container arg to all istio components (#266),rajusharma,https://api.github.com/repos/istio/istio/git/commits/2e4277c18054cb1fcbe7fb3cb11d1cf71c279e07
+4845794ca109f7457dcf3c0a9cfda5ccee92d415,fix a typo (#15368),zhaoyuguang,https://api.github.com/repos/istio/istio/git/commits/4845794ca109f7457dcf3c0a9cfda5ccee92d415
+dcaec55676759b9a9134b88e908a95bab3c7ac77,Update pilot service registry aggregate controller to use rlock (#14953),goodluckbot,https://api.github.com/repos/istio/istio/git/commits/dcaec55676759b9a9134b88e908a95bab3c7ac77
+6ac07450831c3e03173625d5f1395c823b20e8c5,Allow auth strategy configuration in Kiali Helm chart (#15016),couniojc,https://api.github.com/repos/istio/istio/git/commits/6ac07450831c3e03173625d5f1395c823b20e8c5
+ac717d2747743b4e7658ade8c809ec6432dd40d9,Fix typo in 'expected' (#15557),juniorz,https://api.github.com/repos/istio/istio/git/commits/ac717d2747743b4e7658ade8c809ec6432dd40d9
+01c0afd6f8fed3b2c1018e8a720a9f44363edb01,"remove unneeded service instance guard for gateway (#15473)
+
+- This guard breaks Cloud Foundry, because CF does not need a
+  service instance attached to the gateway.
+- This guard should not be needed by Galley; Galley should only be
+  sending config when it is updated.
+- Tests have been doctored to address removal of guard.
+- The mock copilot has been removed, since it is unused.",jeffpak,https://api.github.com/repos/istio/istio/git/commits/01c0afd6f8fed3b2c1018e8a720a9f44363edb01
+247f2839723a3802cdc2a316cb0479e72c945f5d,fix stackdriver adapter getting shutdown (#15612),canthefason,https://api.github.com/repos/istio/istio/git/commits/247f2839723a3802cdc2a316cb0479e72c945f5d
+15a7a4527f2bf56e4f866de0fb474e8b88be8d5a,"Add error logs for various scenarios. Update existing log messages and… (#99)
+
+* Add error logs for various scenarios. Update exsting log messages and log level. If log to file, also echo input command to log.
+
+* Address PR comments, golint, test issues.
+
+* Rebase and merge with upstream/master.",elfinhe,https://api.github.com/repos/istio/istio/git/commits/15a7a4527f2bf56e4f866de0fb474e8b88be8d5a
+241901a3b27368637aeacffd97f139e5b04a3821,"Update config URL (#15153)
+
+Old link 404s",jcantosz,https://api.github.com/repos/istio/istio/git/commits/241901a3b27368637aeacffd97f139e5b04a3821
+55e971eb6155b14f9ff98b412e0c96c198c57f91,Add support for specify redirectCode in HTTPRoute (#15650),ckcd,https://api.github.com/repos/istio/istio/git/commits/55e971eb6155b14f9ff98b412e0c96c198c57f91
+14bf10a1954e51149a55bcc9f6c0ec3414bd868a,Fix metrics proxy port (#15807),kebe7jun,https://api.github.com/repos/istio/istio/git/commits/14bf10a1954e51149a55bcc9f6c0ec3414bd868a
+76f15793c4f9b259c075c2c9a99d13f64f09599f,"Try fetch secret directly in case a secret is requested but cache doe… (#15672)
+
+* Try fetch secret directly in case a secret is requested but cache doesn't have it somehow
+
+* Don't put secret directly fetched from API call to cache",lzang,https://api.github.com/repos/istio/istio/git/commits/76f15793c4f9b259c075c2c9a99d13f64f09599f
+00a1d12fea075a0d5dfb340034b7898168fcd820,"Detect ARM arch with variant when building (#15668)
+
+* detect arm architecture
+
+* remove hardcoded value
+
+* only normalize arm with variant",aliariff,https://api.github.com/repos/istio/istio/git/commits/00a1d12fea075a0d5dfb340034b7898168fcd820
+fcc722c8cdc23d53ad0e5ecacc5ea61040b64579,"Update Pilot to Configure Envoy with TLS fingerprint options (#15937)
+
+* Update Pilot to configure gateway to take advantage of TLS options
+
+* Add gateway test cases
+
+* Update pilot/pkg/networking/core/v1alpha3/gateway_test.go
+
+Fix spacing
+
+Co-Authored-By: Bot from GolangCI <42910462+golangcibot@users.noreply.github.com>
+
+* Update pilot/pkg/networking/core/v1alpha3/gateway.go
+
+Fix spacing
+
+Co-Authored-By: Bot from GolangCI <42910462+golangcibot@users.noreply.github.com>
+
+* Fix typo and revert api pkg update
+
+* Update pilot/pkg/networking/core/v1alpha3/gateway.go
+
+Fix whitespace
+
+Co-Authored-By: Bot from GolangCI <42910462+golangcibot@users.noreply.github.com>
+
+* Fix whitespce
+
+* gofmt -w gateway_test.go
+
+* Update tests to use util.ALPNHttp",Phlak106,https://api.github.com/repos/istio/istio/git/commits/fcc722c8cdc23d53ad0e5ecacc5ea61040b64579
+23a5e4e23deaef581ed5f98fbf5875b3d4cb078b,"Update README.md (#16009)
+
+Fixed the link for components from:
+https://istio.io/docs/concepts/what-is-istio/overview.html
+to
+https://istio.io/docs/concepts/what-is-istio/
+As the current link is broken",jbounds83,https://api.github.com/repos/istio/istio/git/commits/23a5e4e23deaef581ed5f98fbf5875b3d4cb078b
+c65e67a88940fdf2f4a3acb69bb380d56c32d2b8,correct error receiving (#16013),leowucn,https://api.github.com/repos/istio/istio/git/commits/c65e67a88940fdf2f4a3acb69bb380d56c32d2b8
+7845e7e1f074e24259c1d457553ca35c527dcd0d,Add missing quotes for the sample snippet in tracespan template (#15511),morningspace,https://api.github.com/repos/istio/istio/git/commits/7845e7e1f074e24259c1d457553ca35c527dcd0d
+6ecc2c196d65474eb50981272cb0ba43be31e125,Fix error collides with imported package name (#16050),Moriadry,https://api.github.com/repos/istio/istio/git/commits/6ecc2c196d65474eb50981272cb0ba43be31e125
+1b028f88924297299b8c16204e7ca0eb63acac23,"[WIP] Istio.io Test Framework (#16081)
+
+* Initial implementation of examples
+
+* Added license
+
+* Started README and moved examples
+
+* Added current status of mtls-migration test
+
+* Current status
+
+* Fixed pr issues
+
+* Changes for PR isssues",brian-avery,https://api.github.com/repos/istio/istio/git/commits/1b028f88924297299b8c16204e7ca0eb63acac23
+b45de18499220e85e067cc8a71155e2af79cf170,Update grafana-dashboard for syncing with istio/istio install k8s (#326),carolynhu,https://api.github.com/repos/istio/istio/git/commits/b45de18499220e85e067cc8a71155e2af79cf170
+409fb9765266db0ba5d24c677b5aabed82e7132c,"add missing priorityClassName for telemetry deployment (#16204)
+
+The mixer telemetry deployment spec missing priorityClassName taken from .Values.global.priorityClassName",thangbn,https://api.github.com/repos/istio/istio/git/commits/409fb9765266db0ba5d24c677b5aabed82e7132c
+cdc0fac962f3c122878dc7ee9192941bf87d90f5,Check ip for ingress/router type sidecar (#16229),ydh926,https://api.github.com/repos/istio/istio/git/commits/cdc0fac962f3c122878dc7ee9192941bf87d90f5
+5c56816d1a65e0437f9c8cfd385d4c17548ef7d0,Fix err check for service ingress hostname lookup (#16378),yadzhang,https://api.github.com/repos/istio/istio/git/commits/5c56816d1a65e0437f9c8cfd385d4c17548ef7d0
+ea82718ce611844f7369b41331ed9c0a5e755dea,Fix line ending for yaml files (#16415),johscheuer,https://api.github.com/repos/istio/istio/git/commits/ea82718ce611844f7369b41331ed9c0a5e755dea
+d45ecf18603e02f230a7631650b2dcb48a8ae558,"skip proxy udp/sctp port (#16294)
+
+Signed-off-by: forrestchen <forrestchen@tencent.com>",ChenLingPeng,https://api.github.com/repos/istio/istio/git/commits/d45ecf18603e02f230a7631650b2dcb48a8ae558
+764e372331497ea6e4f75675f92305aee52be410,Typo in istio-cni daemonset template (#362),roaldvanloon,https://api.github.com/repos/istio/istio/git/commits/764e372331497ea6e4f75675f92305aee52be410
+9153840e8149ac9f5ed0e7eb7ac5590022ac2a95,"Fix multiple ips not found with kube service registry (#16400)
+
+Signed-off-by: Jason-ZW <zhenyang@rancher.com>",Jason-ZW,https://api.github.com/repos/istio/istio/git/commits/9153840e8149ac9f5ed0e7eb7ac5590022ac2a95
+310ce925494e6bdb9f37b64e6d1a81d1f5609d49,"Updates to mesh command help text (#236)
+
+* Updates to mesh command help text
+
+Updates to mesh command descriptions
+
+Added duration units
+
+* Fixed line length lint failure
+
+* Fixed typos and expanded manifest diff description
+
+* Fixed merge error that broke the build",adammil2000,https://api.github.com/repos/istio/istio/git/commits/310ce925494e6bdb9f37b64e6d1a81d1f5609d49
+d1fd91b4116e9bc26ccc350fc766d23f78fb8989,"Deduplicate hosts added to gateway listeners (#16691)
+
+Signed-off-by: Maximilian Bischoff <maximilian.bischoff@inovex.de>",maxbischoff,https://api.github.com/repos/istio/istio/git/commits/d1fd91b4116e9bc26ccc350fc766d23f78fb8989
+6c9c0344c3512da4cb6a15ece37f26d291fe2ba4,"Stabilizing manifest generation to create text diffable output (#249)
+
+* Stabilizing manifest generation to create text diffable output
+
+* Fixing gofmt lint failure",stewartbutler,https://api.github.com/repos/istio/istio/git/commits/6c9c0344c3512da4cb6a15ece37f26d291fe2ba4
+f13525eb2cbc7af37d77e0bf2d0109fea1a9ad2d,add support for install helm (#16012),mrshengzyzy,https://api.github.com/repos/istio/istio/git/commits/f13525eb2cbc7af37d77e0bf2d0109fea1a9ad2d
+e7512685241115f42cbb3ed7856a4a2a12057536,Added missing pod annotations parameter to istio charts. (#16886),aaronmell,https://api.github.com/repos/istio/istio/git/commits/e7512685241115f42cbb3ed7856a4a2a12057536
+8f233fc59de356b5a4c85b4eba37c843120bad20,"Update doc link in tracespan doc template (#17054)
+
+* Update doc link in tracespan doc template
+
+Change a link to reflect some shuffle in istio/istio.io.
+
+* fixup: Include proto source update",gtaylor,https://api.github.com/repos/istio/istio/git/commits/8f233fc59de356b5a4c85b4eba37c843120bad20
+41204513d2e82dbcc1ece25958a818c2ed4be10f,Fix spell mistake (#17078),hiyosi,https://api.github.com/repos/istio/istio/git/commits/41204513d2e82dbcc1ece25958a818c2ed4be10f
+e8bf5f5de380893b35aa8511396a8948aaa1fb23,test(mixer): add adapter bypass unit test (#16427),chlins,https://api.github.com/repos/istio/istio/git/commits/e8bf5f5de380893b35aa8511396a8948aaa1fb23
+95e45cf73c8d3d1403b7ea22d66375d9b9ad7434,"improve Pilot metrics (#17011)
+
+* improve Pilot metrics
+
+* add new metric pilot_xds_push_time
+
+* adjust pilot_xds_push_time bucket size and remove xds push error metrics",edussx,https://api.github.com/repos/istio/istio/git/commits/95e45cf73c8d3d1403b7ea22d66375d9b9ad7434
+1dda7c186eb24e9214fd280cb7bf0c78192c835e,"ca.go: delete useless break in select statement (#17179)
+
+Signed-off-by: Guangming Wang guangming.wang@daocloud.io",beautytiger,https://api.github.com/repos/istio/istio/git/commits/1dda7c186eb24e9214fd280cb7bf0c78192c835e
+8bea9c2e63fdd59bcdc41b72234d33d0e76b4d47,update package name in the package documentation line (#17258),dmitris,https://api.github.com/repos/istio/istio/git/commits/8bea9c2e63fdd59bcdc41b72234d33d0e76b4d47
+f1e1142afb83e5b8f088055759e92df4bdbd7ecf,"Add analyzer to check Istio injection status (#17192)
+
+* Add analyzer to check Istio injection status
+
+* Fix import ordering
+
+* Add missing break
+
+* Add TODO comment in metadata.yaml
+
+* Add a constant and a TODO comment
+
+* Imnplement analysis.Metadata
+
+* Add link to issue in comment
+
+* Added TODO",davidebbo,https://api.github.com/repos/istio/istio/git/commits/f1e1142afb83e5b8f088055759e92df4bdbd7ecf
+495a2b463e3c84f7d55666f4dcc756c9ea2cd8e2,"Fix error message: ""the e"" => ""the proxy"" (#17302)
+
+Introduced accidentally in #8253, it appears",justinsb,https://api.github.com/repos/istio/istio/git/commits/495a2b463e3c84f7d55666f4dcc756c9ea2cd8e2
+f4d776b4f34815b285c7176bd513fa1bb9a0358c,Fixed the CNI_ARGS for GKE clusters (#402),tharakadesilva,https://api.github.com/repos/istio/istio/git/commits/f4d776b4f34815b285c7176bd513fa1bb9a0358c
+9f9c81e8fb9b191c54ba2511d6995a071986f2b7,"Add test for setting output directory for manifest generate (#295)
+
+* Remove unused file
+
+* Add new testdata
+
+* Add new tests for -o flag, combining -o with -s, and overriding values from input file
+
+* Move temp dir cleanup to the right place, use separate dirs for tests
+
+* Use util.ReadFilesWithFilter
+
+* Adjust test data to changes on master",dgn,https://api.github.com/repos/istio/istio/git/commits/9f9c81e8fb9b191c54ba2511d6995a071986f2b7
+a459d2a2aa89ebd463d39599890cd571a7ff01cd,solving #16784 in accordance with https://istio.io/docs/tasks/traffic-management/ingress/secure-ingress-mount/ (#17342),zeph,https://api.github.com/repos/istio/istio/git/commits/a459d2a2aa89ebd463d39599890cd571a7ff01cd
+d66547aba365ec7a99b202763e954033d070379f,"Refactor tools/istio-iptables/main.go (#16837)
+
+* Refactor tools/istio-iptables/main.go (#13967)
+
+* Fix errors reported by golangcibot
+
+* Fix gofmt errors
+
+* Address some review comments
+
+* Start using cobra and viper
+
+* Fix lint issues
+
+* Use fmt instead of log for cmd output
+
+* Fix istio-iptables-test.sh test",abhide,https://api.github.com/repos/istio/istio/git/commits/d66547aba365ec7a99b202763e954033d070379f
+e12eaa31e3b3c3fba5e7c89ba505674d2ba08740,"Fix spelling errors (#16690)
+
+* Fix spelling errors
+
+* Update pilot/pkg/serviceregistry/kube/controller/controller.go
+
+Co-Authored-By: John Howard <howardjohn@google.com>",devincd,https://api.github.com/repos/istio/istio/git/commits/e12eaa31e3b3c3fba5e7c89ba505674d2ba08740
+1c12321962287a6a6f039f310086c776dcb1b27c,"fix some spelling mistakes (#17373)
+
+Signed-off-by: hwdef <hwdef97@gmail.com>",hwdef,https://api.github.com/repos/istio/istio/git/commits/1c12321962287a6a6f039f310086c776dcb1b27c
+60a945dc99546763d9aa29d4a52a24335b989e95,Fix bug in slice size (#17640),bvwells,https://api.github.com/repos/istio/istio/git/commits/60a945dc99546763d9aa29d4a52a24335b989e95
+0950722bba6d915af741d005cf20870e82bc18d2,cert-manager: bump to v0.8.1 to avoid impending blacklist (#17737),Kampe,https://api.github.com/repos/istio/istio/git/commits/0950722bba6d915af741d005cf20870e82bc18d2
+705a6280fde5b026d52df936737100caba738fe2,"fix: NodeAgent CrashLoopBackOff if enabled (#17432)
+
+* fix: NodeAgent CrashLoopBackOff if enabled
+
+If nodeagent enabled in values.yml, by default it'll crashloop.
+
+* Moving nodeagent values to charts/values.yaml",rjshrjndrn,https://api.github.com/repos/istio/istio/git/commits/705a6280fde5b026d52df936737100caba738fe2
+a93e01158bc4459045d42b077bdf1f87a20dadc5,"Sort messages before finishing analysis (#17940)
+
+* Sort messages before finishing analysis
+
+Right now the output when running istioctl x analyze depends on what
+order the analyzers run in, which isn't ideal. This adds a Sort function
+to the Messages struct which will sort by the fields that happen to
+occur on the log line right now, then calls it in the
+analyzingdistributor. Fixes #17809.
+
+* Simplify analysis sorting code
+
+* Fix lint errors
+
+* Use pointers for Messages receivers, update name
+
+* Use more descriptive name for level sort order",zerobfd,https://api.github.com/repos/istio/istio/git/commits/a93e01158bc4459045d42b077bdf1f87a20dadc5
+d9fd1c24a0e3c3271e75a6e5f23b6895a7f46e51,"setup file trigger before start (#17588)
+
+* setup file trigger before start
+
+Signed-off-by: Shriram Rajagopalan <rshriram@tetrate.io>
+
+* Update unit tests and add opt-in flag for enabling Fsnotify watcher",vikaschoudhary16,https://api.github.com/repos/istio/istio/git/commits/d9fd1c24a0e3c3271e75a6e5f23b6895a7f46e51
+b1af8e720d1c7c08f902483e8dc9686f32895deb,"mixer: remove explicit flush in Opencensus tracing adapter (#18074)
+
+* mixer: remove explicit flush in Opencensus tracing adapter
+
+Currently, the Opencensus tracing adapter manually calls flush with each
+batch of tracespan instances that are passed to it. The implementation
+of the flush method is such that it calls (*Bundler).Flush, which blocks
+until all batches of spans in the bundler are written to the tracing
+backend.
+
+Given the flush method is blocking (i.e. only one goroutine can be
+flushing at any point in time), this makes the
+(*Handler).HandleTraceSpan method blocking, which in turn prevents
+concurrent calls to mixer's Report endpoint.
+
+The blocking in the tracing adapter ultimately results in increased
+overall latency to the Report endpoint, which can trip the rate limiting
+functionality, resulting in unnecessary throttling, even on requests
+that do not contain tracing information.
+
+Remove the explicit flushing in the Opencensus tracing adapter, instead
+relying on the flushing functionality provided in the underlying tracing
+library, which defaults to flushing once every two seconds.
+
+Fixes #18042.
+
+Signed-off-by: Nick Travers <n.e.travers@gmail.com>
+
+* Fix formatting",nicktrav,https://api.github.com/repos/istio/istio/git/commits/b1af8e720d1c7c08f902483e8dc9686f32895deb
+8056cb8f19d0b79cd38958bdfac46e859a97eaa5,"Add LDAP support to Kiali (#432)
+
+* Add ldap support to Kiali
+
+* Fix kiali values
+
+* Fix values typo
+
+* Added kiali ldap strategy values comment",stevehipwell,https://api.github.com/repos/istio/istio/git/commits/8056cb8f19d0b79cd38958bdfac46e859a97eaa5
+850c0964534b96486b23aa8044d5b99b074df163,"Check wildcards when trying to match VS to ServiceEntries, fixes #17976 (#17977)
+
+* Check wildcards when trying to match VS to ServiceEntries, fixes #17976
+
+* Rename functions in hosts.go, add test case for unexported SE
+
+* Add exact match test for unexported validation error",burmanm,https://api.github.com/repos/istio/istio/git/commits/850c0964534b96486b23aa8044d5b99b074df163
+f94e271565cbceaae55b161a6b6e8423d26848ef,"Fix CRD jobs to have DNS-compatible names (#18483)
+
+The name field of CRD jobs comes from a truncated .Value.global.tag.
+This could end in a hyphen, which is not a legal k8s name.
+Trim any hyphen from the end of the name.",tmshort,https://api.github.com/repos/istio/istio/git/commits/f94e271565cbceaae55b161a6b6e8423d26848ef
+1d903db64d9435e72bb76c641349caa975e0f081,"create slice with capacity, when capacity is known (#18504)
+
+This reduces the number of allocations made to the underlying array, while append() attempts to 'grow' the slice beyond its initial capacity",AdityaHarindar,https://api.github.com/repos/istio/istio/git/commits/1d903db64d9435e72bb76c641349caa975e0f081
+f3371be953598f89b5bd4ef93061ea7807c10e5e,"Unified style (#18582)
+
+* Unified style
+
+* remove "";""
+
+remove "";""",xxjwxc,https://api.github.com/repos/istio/istio/git/commits/f3371be953598f89b5bd4ef93061ea7807c10e5e
+b8a3016671f3247a8c3aaa00c11ea0ff2725bfb1,"fix waterch_test failed in windows (#18635)
+
+* fix waterch_test failed in windows
+
+* fix waterch_test failed in windows by filepath
+
+* fix istio top path",sniperking1234,https://api.github.com/repos/istio/istio/git/commits/b8a3016671f3247a8c3aaa00c11ea0ff2725bfb1
+6001dc0208cb6a66d64db3cd572596df243d369c,"Correct spelling mistakes (#18848)
+
+Signed-off-by: yuxiaobo <yuxiaobogo@163.com>",yuxiaobo96,https://api.github.com/repos/istio/istio/git/commits/6001dc0208cb6a66d64db3cd572596df243d369c
+db8fc20343a70056f80d913f2f52f3c00de2cd55,Update bug_report.md (#18919),blhagadorn,https://api.github.com/repos/istio/istio/git/commits/db8fc20343a70056f80d913f2f52f3c00de2cd55
+56ec9115243a2098f5bc38560cf86f7c77dbfba6,Optionally support passing header to envoy download (#19005),clarketm,https://api.github.com/repos/istio/istio/git/commits/56ec9115243a2098f5bc38560cf86f7c77dbfba6
+dfe1b04fb3075002004fdc766c65fbb9aec05824,fix minor typo (#19037),zqzzq,https://api.github.com/repos/istio/istio/git/commits/dfe1b04fb3075002004fdc766c65fbb9aec05824
+669ca1a26b7a762f9036820186182009e038a2a3,fix some invalid 404 urls (#19011),tanjunchen,https://api.github.com/repos/istio/istio/git/commits/669ca1a26b7a762f9036820186182009e038a2a3
+16856b99119f7f8c13198b4f98392f269e8bf0e1,Fix helm template option in iop (#562),110y,https://api.github.com/repos/istio/istio/git/commits/16856b99119f7f8c13198b4f98392f269e8bf0e1
+7a48624126bb9283a0182ae53e24d9cacf3d86fb,"Fix mixer source namespace attribute when dot in pod name (#19022)
+
+* Fix mixer source namespace attribute when dot in pod name
+
+* Fix mixer source namespace attribute when dot in pod name (add test)",chaudyg,https://api.github.com/repos/istio/istio/git/commits/7a48624126bb9283a0182ae53e24d9cacf3d86fb
+bd339330b411354b1c2b0d95a9dbe90b4167366d,"remove the useless todo (#19159)
+
+* remove the useless todo
+
+* remove space",zehuaiWANG,https://api.github.com/repos/istio/istio/git/commits/bd339330b411354b1c2b0d95a9dbe90b4167366d
+f26becf4462c4cc6dd66d93b6ff1f4b498cb113a,"Remove unreachable code after os.Exit (#19163)
+
+This patch makes a tiny change which removes unreachable code after
+os.Exit.",nak3,https://api.github.com/repos/istio/istio/git/commits/f26becf4462c4cc6dd66d93b6ff1f4b498cb113a
+4948416d0fb2a8dfefd25dde24adca067da21280,"Allow setting lifecycle to proxy containers (#17866)
+
+Signed-off-by: Dinar Valeev <k0da@opensuse.org>",k0da,https://api.github.com/repos/istio/istio/git/commits/4948416d0fb2a8dfefd25dde24adca067da21280
+f408ae78055b09ac773c51693cb7983b8f6e168b,"Fix RPMs build (#19119)
+
+* Fix RPMs build
+
+* Fix warnings in the proxy build
+
+* Update to latest bazelisk - v1.1.0",zachidan,https://api.github.com/repos/istio/istio/git/commits/f408ae78055b09ac773c51693cb7983b8f6e168b
+7064af011b349388eb927f36277d5bcdbd69a803,"Added jaeger-collector-headless service (#18278)
+
+Signed-off-by: Juraci Paixão Kröhling <jpkroehling@redhat.com>",jpkrohling,https://api.github.com/repos/istio/istio/git/commits/7064af011b349388eb927f36277d5bcdbd69a803
+713fc5ed1c72fc745c1c84896e6ae540fda889b0,Keep service instances sorted by creation/hostname (#19265),sergii-koshel-exa,https://api.github.com/repos/istio/istio/git/commits/713fc5ed1c72fc745c1c84896e6ae540fda889b0
+7fa4b090ee2bc28e041df4d2cf4d2b046d1709e6,err is definded before (#19461),helight,https://api.github.com/repos/istio/istio/git/commits/7fa4b090ee2bc28e041df4d2cf4d2b046d1709e6
+de78a6decb8eb17a50cc362563b209988c92f388,"Add nil check when determining reflect.Kind of types (#675)
+
+* Add nil check when determining reflect.Kind of types. Added test.
+
+* Fix comment",ashlineldridge,https://api.github.com/repos/istio/istio/git/commits/de78a6decb8eb17a50cc362563b209988c92f388
+32c4d6bcdbc0c3e2189531d2e21f562ab9a7bd94,"fix: Handle cache.DeletedFinalStateUnknown in Citadel (#18645)
+
+ref #17728",stuart-warren,https://api.github.com/repos/istio/istio/git/commits/32c4d6bcdbc0c3e2189531d2e21f562ab9a7bd94
+7d190326dfbf767ad9e03296af6aaa0f2e3c5dc5,"only add lightstepCacertpath if secure is true (#19727)
+
+Signed-off-by: Jon Carl <grounded042@icloud.com>",grounded042,https://api.github.com/repos/istio/istio/git/commits/7d190326dfbf767ad9e03296af6aaa0f2e3c5dc5
+6e6293e81ded1e1632e6628d4a3b28b5a2188dca,Improved compatibility of unit tests within 'probe_test.go' (#19755),seflerZ,https://api.github.com/repos/istio/istio/git/commits/6e6293e81ded1e1632e6628d4a3b28b5a2188dca
+0cc24fbb6ba48a75cce90c661c942334e38294bc,add quotation marks for PATH #19433 (#19774),maplebeats,https://api.github.com/repos/istio/istio/git/commits/0cc24fbb6ba48a75cce90c661c942334e38294bc
+c35f1d9095345ffacae7ab3da82e5839f1bbbdc4,Replace flag --use-automatic-injection as --use_automatic_injection for naming consistent in e2e testing framework. (#19768),aijingyc,https://api.github.com/repos/istio/istio/git/commits/c35f1d9095345ffacae7ab3da82e5839f1bbbdc4
+89d230585d1146ca30543885282c69eb55501382,Fix API spelling (#19857),martinbaillie,https://api.github.com/repos/istio/istio/git/commits/89d230585d1146ca30543885282c69eb55501382
+bb250319f71c81c76447fcd6c665b349c92d7536,"Remote clusters installed with istioctl are unable to use FQDN for pilot endpoints. (#635)
+
+This patch allows you to override global.remotePilotAddress for remote clusters.
+See https://github.com/istio/istio/issues/19639 for a full issue write-up.
+Fixes istio/istio#19639",taylorreece,https://api.github.com/repos/istio/istio/git/commits/bb250319f71c81c76447fcd6c665b349c92d7536
+b288f6f6ad1ccf35553793c04fff8865f680783d,"istio: add consecutive 5xx and gateway errors for outlier detection (#19771)
+
+* istio: add consecutive 5xx and gateway errors for outlier detection
+
+This CL implements the consecutive 5xx and gateway errors for outlier
+detection. It's related to the api change:
+https://gerrit.musta.ch/c/public/istio-api/+/195
+
+Note that originally if ConsecutiveErrors is not specified, we reject
+after 5 5xx errors instead of gateway errors (only when ConsecutiveErrors
+is set to non-zero, we reject after the specified gateway failures).
+We decided to leave this old behavior as it is.
+
+Change-Id: I38b82c6c8a597af21abc04aed774397c2f0e6e11
+Reviewed-on: https://gerrit.musta.ch/c/public/istio/+/184
+Reviewed-by: Jungho Ahn <jungho.ahn@airbnb.com>
+
+* istio: remove unused import and run make format
+
+This CL removes unused import and runs ""make format"".
+
+Change-Id: I26cd0d9eedc4db45b56100ad752eb9817d2cf0ff
+Reviewed-on: https://gerrit.musta.ch/c/public/istio/+/215
+Reviewed-by: Jungho Ahn <jungho.ahn@airbnb.com>
+Reviewed-by: Brian Wolfe <brian.wolfe@airbnb.com>
+
+* istio: run gofmt -s for all updated files
+
+This CL runs ""gofmt -s"" for all updated files.
+
+Change-Id: I0124e2531bd8ca828516fed0f747bd3043cc2a0f
+Reviewed-on: https://gerrit.musta.ch/c/public/istio/+/217
+Reviewed-by: Brian Wolfe <brian.wolfe@airbnb.com>
+Reviewed-by: Jungho Ahn <jungho.ahn@airbnb.com>
+
+* istio: duplicate function instead of using double pointer
+
+This CL removes the setConsecErrs and duplicates the logic as
+suggested in https://github.com/istio/istio/pull/19771/files#r363558107.
+
+Change-Id: Iec17aa05184e0a80f051db61d01971ef7547da31
+Reviewed-on: https://gerrit.musta.ch/c/public/istio/+/218
+Reviewed-by: Jungho Ahn <jungho.ahn@airbnb.com>",yingzhuivy,https://api.github.com/repos/istio/istio/git/commits/b288f6f6ad1ccf35553793c04fff8865f680783d
+fc099f72404973929afebab1e9fec32e9a5e5393,support dualstack in bookinfo sample (#18979),sstoner,https://api.github.com/repos/istio/istio/git/commits/fc099f72404973929afebab1e9fec32e9a5e5393
+79f2e235efff73b6ad5612843db1468d2fe1a570,Add link for how to set HUB and TAG (#20053),shamsher31,https://api.github.com/repos/istio/istio/git/commits/79f2e235efff73b6ad5612843db1468d2fe1a570
+b3d83c6fa5e808e06e0d35135ff8cc959f39c1e9,Fix segfaults: unaligned atomics on 32bit architectures (#19595),stesie,https://api.github.com/repos/istio/istio/git/commits/b3d83c6fa5e808e06e0d35135ff8cc959f39c1e9
+9dd53b96af6ffaf7fadd908c1b3a84bcfa532f65,"Fix a group of mixer attributes generated from k8s when pod name contains dot (#20026)
+
+* Fix a group of mixer attributes generated from k8s env such as source/destination's name, owner, namespace when dot in pod name
+
+* Add test to #20026",zhranklin,https://api.github.com/repos/istio/istio/git/commits/9dd53b96af6ffaf7fadd908c1b3a84bcfa532f65
+f6347189c5d8ffe77076d8610fdb0d49c6070431,"Add PILOT_ENABLE_EDS_FOR_HEADLESS_SERVICES (#19992)
+
+Add a new environment variable on pilot which will treat all headless
+services as EDS services. This is useful if you want to run Istio as a
+sidecar proxy and call headless services",jackkleeman,https://api.github.com/repos/istio/istio/git/commits/f6347189c5d8ffe77076d8610fdb0d49c6070431
+b8608a437d267f5595567f52a02e1983c964b08a,"Add Envoy filter types so typed_config can be used when configuring EnvoyFilters (#20156)
+
+* Add Envoy filter types so typed_config can be used when configuring EnvoyFilters
+
+* Format code",nacx,https://api.github.com/repos/istio/istio/git/commits/b8608a437d267f5595567f52a02e1983c964b08a
+18965ce56223ab1e322cb69436871af5bf2d7646,operator/pkg/validate: fix dropped test error (#20375),alrs,https://api.github.com/repos/istio/istio/git/commits/18965ce56223ab1e322cb69436871af5bf2d7646
+7b858e54a93cc74d61da87183e259bc4f84e21c7,only set FSGroup in Pod SecurityContext (#20428),btoonk,https://api.github.com/repos/istio/istio/git/commits/7b858e54a93cc74d61da87183e259bc4f84e21c7
+7d0dd7a7eee1797289b68fb2c028d166b537e39d,Replace unicode quotes with ascii quotes (#20492),bplotnick,https://api.github.com/repos/istio/istio/git/commits/7d0dd7a7eee1797289b68fb2c028d166b537e39d
+c6ecff62d0d1ac2b0b89a7c11f930801d1076706,"Citadel trust domain fix (#20388)
+
+* Set Citadel spiffe trust domain for all root certs
+
+* Unit tests for custom trust-domain.
+
+* Completed unit tests for createCA function.
+
+* Fix test case.
+
+* Add stop channel after rebase.
+
+* Linted.
+
+* Remove unnecessary string conversion.
+
+Co-authored-by: Carter Anderson <mcanders1@gmail.com>",cmanzi,https://api.github.com/repos/istio/istio/git/commits/c6ecff62d0d1ac2b0b89a7c11f930801d1076706
+a068c04eeeae18aa54cf671da67fd4d1fd53380d,Added istioio test for TCP traffic shifting (#18285) (#20232),su225,https://api.github.com/repos/istio/istio/git/commits/a068c04eeeae18aa54cf671da67fd4d1fd53380d
+8732e0e1a1aad7f175a45f945e2a6be6bcc311be,"Reserve analyzer message code IST0119 for policy with jwt message (#20671)
+
+The code to use this analyzer will follow after this has been merged
+into master and the release-1.5 branch. This is so that we can track
+this commit individually since there will also be an analyzer for istio
+1.4 that utilizes this code.",jacob-delgado,https://api.github.com/repos/istio/istio/git/commits/8732e0e1a1aad7f175a45f945e2a6be6bcc311be
+77a195d28c61ab3e4755028e79c271329024c81b,"Set securityContext.runAsUser: 1337 for control plane containers (#20311)
+
+Fixes #19720 removing the need to overlay the KubernetesResourceSpec for each component
+when deploying in a cluster with PodSecurityPolicy that enforces runAsNonRoot.
+
+This doesn't cover the ingress/egress gateways as they need to be able to bind to ports
+below 1024 and it's quite a bit more complex.",michaelbannister,https://api.github.com/repos/istio/istio/git/commits/77a195d28c61ab3e4755028e79c271329024c81b
+906442d12f0a0ce3ece5145f4b243ac2cdaf298b,"Add handling for without_header (#20629)
+
+Add test case for testing translation from regex matching to presence matching
+
+Change the all-matching pattern only to ""*"" in order to keep consistency with other ""isCatchAllMatch"" and ""isCatchAllRoute"" functions",igsong,https://api.github.com/repos/istio/istio/git/commits/906442d12f0a0ce3ece5145f4b243ac2cdaf298b
+07e133b23443b0587f1e897328f3b3156fba5c43,Fix quoting for custom env variables in gateway deployment helm template (#20984),ggermis,https://api.github.com/repos/istio/istio/git/commits/07e133b23443b0587f1e897328f3b3156fba5c43
+9f19b64ab908a9ea45272f9da93a7ba4090a4863,"Thrift routing and rate limiting (#19852)
+
+* Thrift routing and rate limiting support
+
+* Only apply thrift rate limit filter to listeners with matching quota
+
+* Add negative and positive thrift rate limit filter test
+
+* make gen
+
+* warn instead of panicing on invalid filter config, remove config option (will be added to API)
+
+* set default thrift rls timeout to 50ms, move to const
+
+* use new api configuration options
+
+* fix go modules delta
+
+* update api to pull in thrift changes
+
+* add cluster name builder func + test
+
+* gating, allways marshal to any
+
+* add feature gate for outbound listener generation
+
+* initialize empty thrift config in mesh config init
+
+* satiate linter, add license
+
+* small grammatical issues tripping linter
+
+* remove capitlization in error messages
+
+* add thrift config message to test data
+
+* make gen
+
+* make gen
+
+* messagetoany
+
+* add quota and quota binding caches
+
+* fix test to work with cache
+
+* make gen",pnovotnak,https://api.github.com/repos/istio/istio/git/commits/9f19b64ab908a9ea45272f9da93a7ba4090a4863
+c496ae8206d46c3cc5c28c61267b53aed7e74454,"Only use autoscaling when .Values.mixer.telemetry is true (#20985)
+
+* Only use autoscaling when .Values.mixer.telemetry is true
+
+* run make gen",flyinggecko,https://api.github.com/repos/istio/istio/git/commits/c496ae8206d46c3cc5c28c61267b53aed7e74454
+88b0085faa96377c9705fac44276826344b609f2,"Adapt to the change in DestinationRule api (#21101)
+
+* adapt to the api changes
+* change DestinationRule ttl field to gogo duration
+
+* fix imports order in route_test.go
+
+* update istio.io/api dependency
+
+* fix validation part first
+
+* fix route_test.go imports as well",kentchenjh,https://api.github.com/repos/istio/istio/git/commits/88b0085faa96377c9705fac44276826344b609f2
+386890114b52e661d29cd003027642e4d0d37aee,"Improve the istioctl manifest versions output. (#21229)
+
+See #21116 for discussion and details.
+
+* Changes references from the 'operator' to 'istioctl'
+* Updates the output from the 'manifest versions' cmd",maasen,https://api.github.com/repos/istio/istio/git/commits/386890114b52e661d29cd003027642e4d0d37aee
+8fc5955be36033487c057bea9f9766ffd0bda383,"Add in_cluster_url parameters to kiali configmap (#21393)
+
+* Add in_cluster_url parameters to kiali configmap
+
+* working gen",voroniys,https://api.github.com/repos/istio/istio/git/commits/8fc5955be36033487c057bea9f9766ffd0bda383

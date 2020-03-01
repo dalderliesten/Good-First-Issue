@@ -1,0 +1,1413 @@
+First Commit Hash (SHA),Commit Message,Author (Github Name),Link to Commit
+475e3471b4e8da8776fe7e66a3390c8a30c19f08,Create README.md,unknwon,https://api.github.com/repos/gogs/gogs/git/commits/475e3471b4e8da8776fe7e66a3390c8a30c19f08
+a30e5bcaf83a82f5f7d1c89a6f9f7e52036d74af,add createrepository & deleterepository,lunny,https://api.github.com/repos/gogs/gogs/git/commits/a30e5bcaf83a82f5f7d1c89a6f9f7e52036d74af
+ffcfd428b8372b3b5fafc70acf2ecc189bd7712e,"ui design for sign-in and sign-up page
+add /login and /sign-up link for user signing
+fix typo error",fuxiaohei,https://api.github.com/repos/gogs/gogs/git/commits/ffcfd428b8372b3b5fafc70acf2ecc189bd7712e
+2289ff20bf40e2adaa096aeac80837c69c2f01c3,"That's one small step for man, one giant leap for gopher.",slene,https://api.github.com/repos/gogs/gogs/git/commits/2289ff20bf40e2adaa096aeac80837c69c2f01c3
+ccd43b09b22f551070c2656dd2f4c7f347619a1c,add some comment,codeskyblue,https://api.github.com/repos/gogs/gogs/git/commits/ccd43b09b22f551070c2656dd2f4c7f347619a1c
+588a700257e982fda3fee66d38672e9598d350a7,fix typo s/Broad/Board,mattbaird,https://api.github.com/repos/gogs/gogs/git/commits/588a700257e982fda3fee66d38672e9598d350a7
+60b83ce0c670e2b96c19ff694301684500392838,Fix up the spelling on the intro :),jakejscott,https://api.github.com/repos/gogs/gogs/git/commits/60b83ce0c670e2b96c19ff694301684500392838
+7524aeab638cf6645deab1ae9215cc95d1e8174b,"add the license section under the README.md file
+It's very clear if we add the license type in the README.md",laofo,https://api.github.com/repos/gogs/gogs/git/commits/7524aeab638cf6645deab1ae9215cc95d1e8174b
+1a247340dbea3404431f60a24bb8f8d06d94b1e9,"Merge pull request #1 from gogits/master
+
+Sync to lastest",genedna,https://api.github.com/repos/gogs/gogs/git/commits/1a247340dbea3404431f60a24bb8f8d06d94b1e9
+868d921f7bb30a3bd5c690b484722fc35c0d8211,Description list instead of div's in admin Dashboard & Configuration.,crackcomm,https://api.github.com/repos/gogs/gogs/git/commits/868d921f7bb30a3bd5c690b484722fc35c0d8211
+fa34656b5dd914938950da6ce95230caab733da7,Add missing deps,wind0r,https://api.github.com/repos/gogs/gogs/git/commits/fa34656b5dd914938950da6ce95230caab733da7
+5966dd78e67de613bea53a517712645c8449b358,Add the scirpts for auto deploy.,crystaldust,https://api.github.com/repos/gogs/gogs/git/commits/5966dd78e67de613bea53a517712645c8449b358
+f3ed11d177d76bcb1850c6670c1516d25a66eb2c,mistakes,zhsso,https://api.github.com/repos/gogs/gogs/git/commits/f3ed11d177d76bcb1850c6670c1516d25a66eb2c
+2315dc39b6c84bdb8fbbe778e56e4b27b8760ba9,Add the auto build scripts for deplying gogs with Docker.,lanceju,https://api.github.com/repos/gogs/gogs/git/commits/2315dc39b6c84bdb8fbbe778e56e4b27b8760ba9
+25fd495b2e790001e9c138205606ec4fa16bf129,"Add sqlite build tag
+
+This adds a sqlite build tag so that you don't have to have the sqlite
+import commented out in code and users can run:
+    go build -tags sqlite
+if they want to have sqlite support enabled.  It is disabled by default
+so nothing changes with the default go get or build commands.",crosbymichael,https://api.github.com/repos/gogs/gogs/git/commits/25fd495b2e790001e9c138205606ec4fa16bf129
+caeddb79a339d8eaff78ac0212ac2959700d77de,update SetEngine for postgresql #76,compressed,https://api.github.com/repos/gogs/gogs/git/commits/caeddb79a339d8eaff78ac0212ac2959700d77de
+338fc122facdbe45476e40a804d58cadcdac4821,fixed typo,cburgdorf,https://api.github.com/repos/gogs/gogs/git/commits/338fc122facdbe45476e40a804d58cadcdac4821
+b32407456a767aae4a7a45680302203013883fa1,"Typos
+
+- Very small typo fixes",octplane,https://api.github.com/repos/gogs/gogs/git/commits/b32407456a767aae4a7a45680302203013883fa1
+4b58c016038be87fa8d50c73cc064da216f10ec2,Changed setting url to settings,jamesa,https://api.github.com/repos/gogs/gogs/git/commits/4b58c016038be87fa8d50c73cc064da216f10ec2
+35a86d04c05c3fc8697fb9b1c8ed3fb2b070456a,delete superfluous environment variables,fundon,https://api.github.com/repos/gogs/gogs/git/commits/35a86d04c05c3fc8697fb9b1c8ed3fb2b070456a
+d0f887a1edf3937a495c54d9a345a36018041b79,"explicitly install sudo
+
+```deploy.sh``` in the docker container requires ```sudo```; this should resolve #127.",shabbychef,https://api.github.com/repos/gogs/gogs/git/commits/d0f887a1edf3937a495c54d9a345a36018041b79
+8a8f84d245ed7b5cd007b43747098663019654c7,Use commit summaries instead of full messages,clee,https://api.github.com/repos/gogs/gogs/git/commits/8a8f84d245ed7b5cd007b43747098663019654c7
+494e5fd40c6c6f035c9d7a7e2737259afcb8424c,Install: Set the default host string based on database type,rspeicher,https://api.github.com/repos/gogs/gogs/git/commits/494e5fd40c6c6f035c9d7a7e2737259afcb8424c
+6ce8fa49eaa9550951f355da3060b6c9f91010bf,"Add 'IF EXISTS', otherwise an error would show on MySQL that has no
+'gogs' created before.",jcfrank,https://api.github.com/repos/gogs/gogs/git/commits/6ce8fa49eaa9550951f355da3060b6c9f91010bf
+501f70e248660d51e5eb8f2343b1a19db8679c21,fix news feed repo link,jiangjianxiao,https://api.github.com/repos/gogs/gogs/git/commits/501f70e248660d51e5eb8f2343b1a19db8679c21
+1482bd8fb4d03f07db0d1a7f60d752357140a91f,"add supervisor support and script, easy to use.
+
+just like ./gogs_supervisord.sh start
+./gogs_supervisord.sh stop
+./gogs_supervisord.sh restart
+and logs all saved tmp folder",jacksonpan,https://api.github.com/repos/gogs/gogs/git/commits/1482bd8fb4d03f07db0d1a7f60d752357140a91f
+cca2a53d6f756ac9adee2570703558a545ec2f1f,"Fix issue link in issues page
+
+The link assumes that the issue belongs to the signed in
+user, which is not necessarily the case
+I changed it to use repository owner name instead",mlitbk,https://api.github.com/repos/gogs/gogs/git/commits/cca2a53d6f756ac9adee2570703558a545ec2f1f
+7fd22bea1ee7c305418572edbf709442b9e0982f,"Add dropdown-menu-right class to the repo-watching dropdown
+
+The dropdown menu was dropping down to the right and appearing outside of the page container. This made it not visible at smaller browser widths.
+
+This commit makes it drop down into the page container, instead of out, and keeps it visible at all screen sizes.",j20,https://api.github.com/repos/gogs/gogs/git/commits/7fd22bea1ee7c305418572edbf709442b9e0982f
+6227b59b1afca9fd531f0ce0f4732010dbb1e9d2,Registeration -> Registration,bbigras,https://api.github.com/repos/gogs/gogs/git/commits/6227b59b1afca9fd531f0ce0f4732010dbb1e9d2
+6fe43eb8d4d7337024ca3001214c19fe1ba2c33d,"Fixed directory permissions for the zip download router
+
+If the archives/ directory is created with 0655, it results in a permission error.",janoliver,https://api.github.com/repos/gogs/gogs/git/commits/6fe43eb8d4d7337024ca3001214c19fe1ba2c33d
+925ccc2608839e34d30849a310e06af600db1604,use 'docker.io' command instead of 'docker',baijum,https://api.github.com/repos/gogs/gogs/git/commits/925ccc2608839e34d30849a310e06af600db1604
+a13a6b14ec4ab8e9660fd59d7abe00e3d3666f9f,"Using strings.HasPrefix(...) will misjudgement
+
+`strings.HasPrefix(access.RepoName, uname)` can't handle the situation which like following in access table.
+
+	user_name | repo_name
+	----------+-------------
+	toby      | toby/blog
+	toby      | toby/test
+	toby      | tobyzxj/blog
+	toby      | tobyzxj/test",tobyzxj,https://api.github.com/repos/gogs/gogs/git/commits/a13a6b14ec4ab8e9660fd59d7abe00e3d3666f9f
+29a40c97f367a432e4038f20f09d7bf76ce4ab93,RepoRootPath must be absolute path,niphor,https://api.github.com/repos/gogs/gogs/git/commits/29a40c97f367a432e4038f20f09d7bf76ce4ab93
+d5d04a66f36f86e2369cb66d54f2095385d7dc70,Fix #252,eryx,https://api.github.com/repos/gogs/gogs/git/commits/d5d04a66f36f86e2369cb66d54f2095385d7dc70
+3ad20773a2e3fecc786dd56c97fdc70a948ef3fa,fix typos in users' editing template.,AntonioMeireles,https://api.github.com/repos/gogs/gogs/git/commits/3ad20773a2e3fecc786dd56c97fdc70a948ef3fa
+a481672c5cec1efe8d4856b393e98775c55ad8bc,Add 'pprof' tag for enabling debugging,nussjustin-hmmh,https://api.github.com/repos/gogs/gogs/git/commits/a481672c5cec1efe8d4856b393e98775c55ad8bc
+10f932b952ef871f9d3519089d301b8cbc312457,Fix wrong method for profiling routes.,nussjustin,https://api.github.com/repos/gogs/gogs/git/commits/10f932b952ef871f9d3519089d301b8cbc312457
+5a97cc69edf47cec6005c58bc2e2d385e11229a6,Make possible for administrators to change user's password (fix proposal for #290),gima,https://api.github.com/repos/gogs/gogs/git/commits/5a97cc69edf47cec6005c58bc2e2d385e11229a6
+887ad1ec8b88061a7a5d2fb2bfcf4d69e3a43c21,"Utilize ssh-keygen for checking of keys.
+
+Removes the limitation to RSA and enables us to use all key types
+SSH recognizes.",wmark,https://api.github.com/repos/gogs/gogs/git/commits/887ad1ec8b88061a7a5d2fb2bfcf4d69e3a43c21
+78103f1df3d89cbf5b3a75188e2ea097d2a8ca9f,"Remove apt-get cleanup from Dockerfile
+
+Purging/cleaning packages using apt doesn't actually reduce image size, and only creates additional layers, which doesn't add any benefit to the overall image.",chancez,https://api.github.com/repos/gogs/gogs/git/commits/78103f1df3d89cbf5b3a75188e2ea097d2a8ca9f
+8ccde45c5fdfe2993b59d13c38c79f661dee189e,Fix #319 (user not-logged in error),acusti,https://api.github.com/repos/gogs/gogs/git/commits/8ccde45c5fdfe2993b59d13c38c79f661dee189e
+cf3021eccac305b9291f27668d997a1ecb40b025,Add the set -e option to dockerfiles/build.sh,ciarand,https://api.github.com/repos/gogs/gogs/git/commits/cf3021eccac305b9291f27668d997a1ecb40b025
+febaddfd1d75727e67443d1ae954a071e20db444,"actually use SshPort variable
+
+SshPort is defined (SSH_PORT) but the value is not actually used (just compared to default port 22).",taziden,https://api.github.com/repos/gogs/gogs/git/commits/febaddfd1d75727e67443d1ae954a071e20db444
+d4cbbc864a01cb7d698ca8d764d2d4ac7ce53074,Avoid using fixed width in CSS for layouts,adelq,https://api.github.com/repos/gogs/gogs/git/commits/d4cbbc864a01cb7d698ca8d764d2d4ac7ce53074
+371372d65d49297a4eff7f141ec769be6952cfec,"Update locale_en-US.ini
+
+Fixed typo",rojaro,https://api.github.com/repos/gogs/gogs/git/commits/371372d65d49297a4eff7f141ec769be6952cfec
+872cd0d3bdb1d037a92f93b2340be63609fc72f2,Correct some type issues,fanningert,https://api.github.com/repos/gogs/gogs/git/commits/872cd0d3bdb1d037a92f93b2340be63609fc72f2
+1661421a65ba73d28bff8fe33a5fdea16fb227c4,"update dockerfiles README.md
+
+typo",choas,https://api.github.com/repos/gogs/gogs/git/commits/1661421a65ba73d28bff8fe33a5fdea16fb227c4
+95a594d75aa14898ff266850fb3e65636a9396a9,Migrate all branches and tags,m0sth8,https://api.github.com/repos/gogs/gogs/git/commits/95a594d75aa14898ff266850fb3e65636a9396a9
+12639c577f297687539283bf8877a5583ecb8447,"Remove newline characters from ssh key before processing it.
+Fixes issue #370: https://github.com/gogits/gogs/issues/370",andmarios,https://api.github.com/repos/gogs/gogs/git/commits/12639c577f297687539283bf8877a5583ecb8447
+69e332f432c87ce83a488a8c06a02ded26f66beb,"Removed trailing white spaces
+
+Removed trailing whitespaces with
+
+```sh
+for file in `grep -r "" $"" * | cut -d : -f 1 | sort | uniq | grep -v "" ""`; do sed -i 's/[ \t]*$//' $file; done
+```
+
+and some handwork.",tstorch,https://api.github.com/repos/gogs/gogs/git/commits/69e332f432c87ce83a488a8c06a02ded26f66beb
+1bbf4c9768ac03b0c4fdac0993f7a864cea5faa1,"Add missing 'new migration' link
+
+Addresses issue #399",michaeldyrynda,https://api.github.com/repos/gogs/gogs/git/commits/1bbf4c9768ac03b0c4fdac0993f7a864cea5faa1
+8e0aeb4ad5183030a1e669713e8a053957742aaf,Fix a gramma error and translate two additional strings,th3noname,https://api.github.com/repos/gogs/gogs/git/commits/8e0aeb4ad5183030a1e669713e8a053957742aaf
+7fe61558f616b5889d26a7564722560b6e265a5d,Make Gogs packageable with https://packager.io,crohr,https://api.github.com/repos/gogs/gogs/git/commits/7fe61558f616b5889d26a7564722560b6e265a5d
+3549fb0ea8c4e039ec55caf90e8cabf78cde87a2,Remove APP_LOGO setting,4d47,https://api.github.com/repos/gogs/gogs/git/commits/3549fb0ea8c4e039ec55caf90e8cabf78cde87a2
+cff3ca23a57230c21e685ab02aab85f07bd25fe2,Fix TimeSince arguments error.,j100002ben,https://api.github.com/repos/gogs/gogs/git/commits/cff3ca23a57230c21e685ab02aab85f07bd25fe2
+9e10304ab21ef9a5e32a2204bee34b13c3631948,started french localization,pbarsalou,https://api.github.com/repos/gogs/gogs/git/commits/9e10304ab21ef9a5e32a2204bee34b13c3631948
+0055cbd3651ebde0f8b6cc70c9c44de56dc38830,"Allow Gogs to run from a suburl behind a reverse proxy. e.g. http://mydomain.com/gogs/
+
+Conflicts:
+	modules/setting/setting.go
+
+Conflicts:
+	templates/repo/release/list.tmpl
+	templates/user/dashboard/dashboard.tmpl
+
+Conflicts:
+	routers/repo/setting.go",chadoe,https://api.github.com/repos/gogs/gogs/git/commits/0055cbd3651ebde0f8b6cc70c9c44de56dc38830
+b0f8b1147c41f4ce0a6e5c2ebe8218187b9f1ced,[TASK] Refine german string for authentification source,cedricziel,https://api.github.com/repos/gogs/gogs/git/commits/b0f8b1147c41f4ce0a6e5c2ebe8218187b9f1ced
+b7b0ee7df96c019795e3939dbb33389f7f0c2c43,Fix minor typo,evolvedlight,https://api.github.com/repos/gogs/gogs/git/commits/b7b0ee7df96c019795e3939dbb33389f7f0c2c43
+5e48c89c5eee43eee76c6b5c906b720ea986285f,Add a CentOS init script,lbeltrame,https://api.github.com/repos/gogs/gogs/git/commits/5e48c89c5eee43eee76c6b5c906b720ea986285f
+f7de6d2b86e7e56a46d2763800760ac16ae363d3,"Added ""init.d"" service script for Debian-based Linux.
+Compatible with ""/etc/default/gogs"" configuration file for adding or overwriting values.
+Based on ""/etc/init.d/skeleton"" and tested on Raspbian 2014-06-20 (Debian 7.5 [Wheezy] ARM)
+
+[TO FIX] For some reason, it's necessary to remove the value of RUN_USER from the app.ini configuration file because the following error occurs:
+2014/09/28 18:12:53 [setting.go:182 NewConfigContext()] [E] Expect user(git) but current user is:",silverkorn,https://api.github.com/repos/gogs/gogs/git/commits/f7de6d2b86e7e56a46d2763800760ac16ae363d3
+8c70bcee99b26103f9361321ea8bcc60bde6164b,Translate missing strings and some improvements,chk1,https://api.github.com/repos/gogs/gogs/git/commits/8c70bcee99b26103f9361321ea8bcc60bde6164b
+67c44b7d27a15dd415651ccb9a2ad486a3738183,"If git >= 2.0, sort tags in descending order by version number",linquize,https://api.github.com/repos/gogs/gogs/git/commits/67c44b7d27a15dd415651ccb9a2ad486a3738183
+bbf5bcdf990b248d000e2532dbcdfa499c270c47,"Updated Dutch translations
+
+Fixed some spelling mistakes.
+
+* Number up to 20 are written as words instead of digits.
+* Nouns are written without spaces.
+* Fixed mixups between informal/formal language.
+* Removal of extra spaces in sentences.",basilfx,https://api.github.com/repos/gogs/gogs/git/commits/bbf5bcdf990b248d000e2532dbcdfa499c270c47
+6705559ce08326381c12791d269e8179ac44d531,Fix malformed address,Xefir,https://api.github.com/repos/gogs/gogs/git/commits/6705559ce08326381c12791d269e8179ac44d531
+8c71ab50943e7f9b3ad98020bc709e60ff581988,Add locale zh-HK (Traditional Chinese),TonyTsangHK,https://api.github.com/repos/gogs/gogs/git/commits/8c71ab50943e7f9b3ad98020bc709e60ff581988
+bff1e157d556a9b39ddf3c1b617c2795c01a4d81,"force the use of InnoDB as db engine for all tables, fixes #59",luto,https://api.github.com/repos/gogs/gogs/git/commits/bff1e157d556a9b39ddf3c1b617c2795c01a4d81
+377530ec21daaa4df359b3aa620fd1be0e821d7d,Fix Issue 589,semlanik,https://api.github.com/repos/gogs/gogs/git/commits/377530ec21daaa4df359b3aa620fd1be0e821d7d
+b9881d1e7b88d0a8dc5c3cfb9e8f2d02b6529bfa,check for smtp AUTH extension,mcheng89,https://api.github.com/repos/gogs/gogs/git/commits/b9881d1e7b88d0a8dc5c3cfb9e8f2d02b6529bfa
+5094e9501ce3c5476cb5ad1b2b392f5e8b60ddff,Add basic FCGI support,andyleap,https://api.github.com/repos/gogs/gogs/git/commits/5094e9501ce3c5476cb5ad1b2b392f5e8b60ddff
+80c6cc6321e5d8aebbedbdfb1cd5340d20fa094d,"Fix x padding for #repo-content for width < 1170px
+
+This pull request fixes the issue when resizing the window smaller than 1170 px, right now there is no padding/margin on sides and it looks broken.",omeid,https://api.github.com/repos/gogs/gogs/git/commits/80c6cc6321e5d8aebbedbdfb1cd5340d20fa094d
+fc5985f425200bd66f1b3d648f990d9c4cd8fa49,Enable package building on EL6,justinclift,https://api.github.com/repos/gogs/gogs/git/commits/fc5985f425200bd66f1b3d648f990d9c4cd8fa49
+6bdb8ec4b96fb2f16222cb7f5e6bf356e70b3fdc,"Add function argument missing
+
+Not enough arguments in call to c.AddFunc when I copied and pasted",skibum55,https://api.github.com/repos/gogs/gogs/git/commits/6bdb8ec4b96fb2f16222cb7f5e6bf356e70b3fdc
+47f37e55e95011a4f6cf41541161b97b17b7b06d,use AppSubUrl as prefix for routes in FCGI mode,KylePDavis,https://api.github.com/repos/gogs/gogs/git/commits/47f37e55e95011a4f6cf41541161b97b17b7b06d
+f9ad8d6903b3e4a39a3ae3963dbcdcee4b143a91,Fix #656,chai2010,https://api.github.com/repos/gogs/gogs/git/commits/f9ad8d6903b3e4a39a3ae3963dbcdcee4b143a91
+ca09a0b516a853098dc9920cda9c7d4164bd36ea,Added comments documenting how to export SSL keys from .pfx,jcracknell,https://api.github.com/repos/gogs/gogs/git/commits/ca09a0b516a853098dc9920cda9c7d4164bd36ea
+3e528f34af62cd8d62aa5ecaf98e4c043a9ff3df,Cert command stub should return a non-zero exit code,willglynn,https://api.github.com/repos/gogs/gogs/git/commits/3e528f34af62cd8d62aa5ecaf98e4c043a9ff3df
+d0a80e432dc240187642162180d3aadfdc56fe15,Addded sha1 pattern in markdown for current repository,Dennis-Smurf,https://api.github.com/repos/gogs/gogs/git/commits/d0a80e432dc240187642162180d3aadfdc56fe15
+48bb0fadc2ddc362fe2da272767aba614f691645,"update user api search results to include the full name
+
+Is fully backwards compatible
+Fixes #677",deiwin,https://api.github.com/repos/gogs/gogs/git/commits/48bb0fadc2ddc362fe2da272767aba614f691645
+d06d58e461946a101aeb1649312577393c2eaa08,fixed code view line height for firefox,CBiX,https://api.github.com/repos/gogs/gogs/git/commits/d06d58e461946a101aeb1649312577393c2eaa08
+00cf3e4dabf810751bab3c83787c343f5ac6a88c,Use the avatar.HashEmail function instead of hashing email directly.  Fixes #700,ErebusBat,https://api.github.com/repos/gogs/gogs/git/commits/00cf3e4dabf810751bab3c83787c343f5ac6a88c
+39c068400e9dd3a577580faa41e87140c2d2e499,Fix spelling errors in comments.,jbcrail,https://api.github.com/repos/gogs/gogs/git/commits/39c068400e9dd3a577580faa41e87140c2d2e499
+21081836ba2c408aad04591980f5551a58fdb89d,Allow send mail without authentication if SMTP server allow this,Alukardd,https://api.github.com/repos/gogs/gogs/git/commits/21081836ba2c408aad04591980f5551a58fdb89d
+b7ebbb4064942ca5013207eb89c4e2dd045ba3ce,"Correction for #723
+
+Correction for #723
+Bug was : decode failed if the password contains ```:```",Mageti,https://api.github.com/repos/gogs/gogs/git/commits/b7ebbb4064942ca5013207eb89c4e2dd045ba3ce
+4f4392b83efe13744198db13c622068f69071612,"increase minimum version vor HTTPS to TLS 1.0 (POODLE, fixes #730)",cryptix,https://api.github.com/repos/gogs/gogs/git/commits/4f4392b83efe13744198db13c622068f69071612
+99599c099f818ec7e0c41974f774d145170048a5,"Add alternative email addresses to the model
+
+A new struct is created named EmailAddress that contains alternative
+email addresses for users. Also the email related methods; IsEmailUsed
+and GetUserByEmail are updated.
+
+DeleteUser deletes the extra email addresses and DeleteInactivateUsers
+also deletes inactive accounts. This could be factored out, but should
+do it for now.",psmit,https://api.github.com/repos/gogs/gogs/git/commits/99599c099f818ec7e0c41974f774d145170048a5
+86e9ebdcc936fb093b4af2c3ccb8dac7a64d02a8,Added Gitter badge,gitter-badger,https://api.github.com/repos/gogs/gogs/git/commits/86e9ebdcc936fb093b4af2c3ccb8dac7a64d02a8
+995a805a3146aa9cf81c69fae1ab67df95093dce,spellcheck,morpheyesh,https://api.github.com/repos/gogs/gogs/git/commits/995a805a3146aa9cf81c69fae1ab67df95093dce
+bae1d655640d901345c18ec9689fd33eaf0a9760,bugfix: Unable to assign any issue myself,estetsenko,https://api.github.com/repos/gogs/gogs/git/commits/bae1d655640d901345c18ec9689fd33eaf0a9760
+30c750a5df1f5a6274e6371df3b18cd4c0a8936f,"Use the new build env on Travis
+
+http://docs.travis-ci.com/user/workers/container-based-infrastructure",joshk,https://api.github.com/repos/gogs/gogs/git/commits/30c750a5df1f5a6274e6371df3b18cd4c0a8936f
+afc659442d4c24b92e53f02dd331a9e05e10773e,flexiable the build scripts and add a freebsd build script,andre-hub,https://api.github.com/repos/gogs/gogs/git/commits/afc659442d4c24b92e53f02dd331a9e05e10773e
+234a7c19a4a59632dadaf430ab2431dccc0d74a9,"Default values for both user.name and user.email
+
+The previous behavior was to set default values only if user.name was
+not set, but to always set it for both. This only sets a value if there
+wasn't one; this fixes cases where someone has a user.name but no
+user.email (see included Dockerfile) or someone has a user.email but no
+user.name (before the email would have been over-written).",euank,https://api.github.com/repos/gogs/gogs/git/commits/234a7c19a4a59632dadaf430ab2431dccc0d74a9
+e948c7c262c77d41f05a3f72acd5161713cf18ef,Fix #795,Mikayex,https://api.github.com/repos/gogs/gogs/git/commits/e948c7c262c77d41f05a3f72acd5161713cf18ef
+6643647687aa2ba8a41f8f95d404407ff6106d8c,"add afunction to rewrite all public keys on admin request
+refs #763",fzerorubigd,https://api.github.com/repos/gogs/gogs/git/commits/6643647687aa2ba8a41f8f95d404407ff6106d8c
+7d4cef6008af4390aa98ec9025d3b20c778abf59,Add missing translations for email settings page to de_DE.,dominikschulz,https://api.github.com/repos/gogs/gogs/git/commits/7d4cef6008af4390aa98ec9025d3b20c778abf59
+cf59057ef3e91735592a3067ba803c9223a64caa,fix if service.ENABLE_CACHE_AVATAR is true,vitalvas,https://api.github.com/repos/gogs/gogs/git/commits/cf59057ef3e91735592a3067ba803c9223a64caa
+7e3d66673d7223f17f1f290423360eabd7fb0751,Add freebsd rc script,clinta,https://api.github.com/repos/gogs/gogs/git/commits/7e3d66673d7223f17f1f290423360eabd7fb0751
+b8425ccbece9f10973e9454566de29001e81d534,Add Miguel de la Cruz as a translator,mgdelacroix,https://api.github.com/repos/gogs/gogs/git/commits/b8425ccbece9f10973e9454566de29001e81d534
+5c4b85c0290adce70b9c58ed151e30081151a57c,"Referencing issues from commit messages is now possible.
+
+Code-wise: the fixing-part of the code now doesn't reference the issue any more, because this is done by the referencing-part of the code, which is called just before.
+
+Fixes #462, #668, #732.",EtienneBruines,https://api.github.com/repos/gogs/gogs/git/commits/5c4b85c0290adce70b9c58ed151e30081151a57c
+e43bd15b968523ec86dba143b9634397f2d8bc40,fix settings/email html&css,makhov,https://api.github.com/repos/gogs/gogs/git/commits/e43bd15b968523ec86dba143b9634397f2d8bc40
+79f328154841152d1add7d2035ff125a6ccc5e25,Add ShowRegistrationButton configuration option,nicolai86,https://api.github.com/repos/gogs/gogs/git/commits/79f328154841152d1add7d2035ff125a6ccc5e25
+00653e52ee078ae76872f722f056805fb75d98af,"Get username, name, surname and e-mail from LDAP server",lafriks,https://api.github.com/repos/gogs/gogs/git/commits/00653e52ee078ae76872f722f056805fb75d98af
+85f384f271b3d6bd6304c78bbeb68c278b198b61,"Updated gogs.css - monospace font for hash
+
+Updated gogs.css to use monospaced font for sha hash label in repository view to make it look nicer because of equal label width.",Stefan-Code,https://api.github.com/repos/gogs/gogs/git/commits/85f384f271b3d6bd6304c78bbeb68c278b198b61
+8a6c86644e6d73421e325c937916cefe7495bc38,"New feature: SMTP connection may use client certificate.
+
+New config keys in [mailer] section:
+ - CERT_FILE: path to a certificate file.
+ - KEY_FILE: path to a key file.",diseaz,https://api.github.com/repos/gogs/gogs/git/commits/8a6c86644e6d73421e325c937916cefe7495bc38
+8c1986181dad8cb3e3205dc976f8077e187c664c,Fix a bunch of small typos and formatting quirks,bpollack,https://api.github.com/repos/gogs/gogs/git/commits/8c1986181dad8cb3e3205dc976f8077e187c664c
+81fcc0db0c2ae8ed84931995e505076e8227948c,$DIRECTORY variable is never set,albang,https://api.github.com/repos/gogs/gogs/git/commits/81fcc0db0c2ae8ed84931995e505076e8227948c
+5d5d774e03ea02b29ff2bd25e1bf63ce82851fc5,Handle submodules without a .gitmodules entry - fix #1023,FiloSottile,https://api.github.com/repos/gogs/gogs/git/commits/5d5d774e03ea02b29ff2bd25e1bf63ce82851fc5
+406efbf3f543f6f5911a6c6d4da3b9f002d5023a,Adding a project-level Dockerfile & docker-compose script,voxxit,https://api.github.com/repos/gogs/gogs/git/commits/406efbf3f543f6f5911a6c6d4da3b9f002d5023a
+98674b2a21e95f9843274d6ca79e06b7070389fe,registeration -> registration,ndarilek,https://api.github.com/repos/gogs/gogs/git/commits/98674b2a21e95f9843274d6ca79e06b7070389fe
+2bfe2ddb6dcc9ed3e8e4ca7f04f1b86a3d106a6d,"Add mysql unix socket support.
+
+If the host setting looks like a unix socket (leading by char '/'), will use unix(host) as connection string",tomcatzh,https://api.github.com/repos/gogs/gogs/git/commits/2bfe2ddb6dcc9ed3e8e4ca7f04f1b86a3d106a6d
+d0e34c57ccbc738bcfa28d35524d43ca47eeeeb4,Fix for deleting user when gogs instalation is on http://hostname/gogs,sternik,https://api.github.com/repos/gogs/gogs/git/commits/d0e34c57ccbc738bcfa28d35524d43ca47eeeeb4
+d61962a18ac384d0b27e1cb178dd4cb59dfc1ef8,"Add setting.AppSubUrl for LANDING_PAGE = explore
+
+Add setting.AppSubUrl in case of different ROOT_URL and LANDING_PAGE = explore",c35sys,https://api.github.com/repos/gogs/gogs/git/commits/d61962a18ac384d0b27e1cb178dd4cb59dfc1ef8
+e7f4d234125f40b02c2f3dafee31869ffee03074,Remove use of PID and fix stderr redirection,CarlosGtrz,https://api.github.com/repos/gogs/gogs/git/commits/e7f4d234125f40b02c2f3dafee31869ffee03074
+96a71aaed8b01e505fffbd740ffb492ce89cead1,Apply ng to issue dashboard,sapk,https://api.github.com/repos/gogs/gogs/git/commits/96a71aaed8b01e505fffbd740ffb492ce89cead1
+f1ba0c859f4cd87b4422ac61c9a1706ae08ac3f2,Fix email contact and link,masegaloeh,https://api.github.com/repos/gogs/gogs/git/commits/f1ba0c859f4cd87b4422ac61c9a1706ae08ac3f2
+44ea3d9065c891b3a63a179f628a969603ff66be,"Fix ""Plus"" icon size in dashboard",davmrtl,https://api.github.com/repos/gogs/gogs/git/commits/44ea3d9065c891b3a63a179f628a969603ff66be
+7e5063a93d15945150339c30beb6d09ba7b42939,"fix typo in centos init script
+
+We should be *sourcing* `/etc/sysconfig/gogs`, not *executing* it, don't we?",rauchrob,https://api.github.com/repos/gogs/gogs/git/commits/7e5063a93d15945150339c30beb6d09ba7b42939
+1988c0993d1f2d535766e03695b4cdb0fe74e4d6,remove extra space in ssh authentication message,lukad,https://api.github.com/repos/gogs/gogs/git/commits/1988c0993d1f2d535766e03695b4cdb0fe74e4d6
+7b59d40f08b52ba101626793bc5aed2fd54ef15f,"Fixed a typo: .ssh/autorized_key -> .ssh/authorized_key
+
+Signed-off-by: Dmitry Yu Okunev <dyokunev@ut.mephi.ru>",xaionaro,https://api.github.com/repos/gogs/gogs/git/commits/7b59d40f08b52ba101626793bc5aed2fd54ef15f
+423b1c69be7828c331a47467b66217d190e916b9,"don't set mime type to text/plain. This will break serving e.g. raw images,
+html, etc
+
+According to http://golang.org/pkg/net/http/#DetectContentType
+""If the Header does not contain a Content-Type line, Write adds
+a Content-Type set to the result of passing the initial 512 bytes
+of written data to DetectContentType.""",donbowman,https://api.github.com/repos/gogs/gogs/git/commits/423b1c69be7828c331a47467b66217d190e916b9
+f78046fc3be8db80f8ac44512237c92825540e5d,typo fix,mephux,https://api.github.com/repos/gogs/gogs/git/commits/f78046fc3be8db80f8ac44512237c92825540e5d
+6a0fec77eaacbce05486fea76b67db3f5f880e88,"Allow an SSHDomain configuration option. Defaults to Domain, preserves legacy behavior",tony,https://api.github.com/repos/gogs/gogs/git/commits/6a0fec77eaacbce05486fea76b67db3f5f880e88
+51aef347ee8b315426b81d97e5dc82fe11cea3bf,Display author's name on explore page,dhuan,https://api.github.com/repos/gogs/gogs/git/commits/51aef347ee8b315426b81d97e5dc82fe11cea3bf
+8363c9dd0f2161d4ca34f4b1e3eb5e02cf738a31,Fixes issue with LDAP inserting users with blank names.,StrangeWill,https://api.github.com/repos/gogs/gogs/git/commits/8363c9dd0f2161d4ca34f4b1e3eb5e02cf738a31
+5300a63d0f515902b62b9e72cc71515415504315,Fix typo,Scarsz,https://api.github.com/repos/gogs/gogs/git/commits/5300a63d0f515902b62b9e72cc71515415504315
+182003aa417ba67661c6743e0fabe6e1f67efd1c,Add PAM authentication,pbor,https://api.github.com/repos/gogs/gogs/git/commits/182003aa417ba67661c6743e0fabe6e1f67efd1c
+5c63e1015d54098e56652f07d4ce2861e52e75f9,"Add app sub url for color picker js lib inclusion
+
+Currently, the js file doesn't take into account the possibility of a sub url being used (wich is my case :) wich prevents its inclusion.",mrburns,https://api.github.com/repos/gogs/gogs/git/commits/5c63e1015d54098e56652f07d4ce2861e52e75f9
+27fe9cfcba095ea42fb97764b869616d2079cdc1,"Fix: ""Port is blocked"" issue
+
+Fixed an issue where the post intall file for Debian enforced port 6000
+which should have been port 3000 because it renders the software virtually unusable
+because it's a blocked port in Firefox, Chrome and alikes.
+
+For further reference see:
+http://www-archive.mozilla.org/projects/netlib/PortBanning.html",winfr34k,https://api.github.com/repos/gogs/gogs/git/commits/27fe9cfcba095ea42fb97764b869616d2079cdc1
+b36134194cf8304ba553c2623447ea60586cd5e2,"settings/password: no minimal required characters for OldPassword
+
+If users are added to gogs due a reverse proxy automatically, their password is
+set to their initial username. If their username is shorter than 6 characters,
+they can never set a password. But since this password is required for some
+operations (e.g. repository deletion), they could not use all features of gogs
+until now.",stettberger,https://api.github.com/repos/gogs/gogs/git/commits/b36134194cf8304ba553c2623447ea60586cd5e2
+6eecbf17cd8be6c2ee7f935e53a45c4f41f86d04,"fix debian init script
+
+- use start-stop-daemon's chuid feature insted of su
+  - using `su -c` breaks if the git user has no usable shell
+  - this fixes #1025
+- put --test before --exec, instead it gets passed to gogs
+- set cwd via --chdir",stroborobo,https://api.github.com/repos/gogs/gogs/git/commits/6eecbf17cd8be6c2ee7f935e53a45c4f41f86d04
+73698d292a2c60cbe947efc2f62c05d8ffd88277,"fix .keys route
+
+This change fixes the output from /{{ username }}.keys so that it can work in
+a ~/.ssh/authorized_keys file",smcquay,https://api.github.com/repos/gogs/gogs/git/commits/73698d292a2c60cbe947efc2f62c05d8ffd88277
+bfef8f0edd5f2c4afb1e2551a9e36c57508ad12d,Fix command used by FreeBSD init script,wfriesen,https://api.github.com/repos/gogs/gogs/git/commits/bfef8f0edd5f2c4afb1e2551a9e36c57508ad12d
+d82d9bc153580a6e09df784414f9b12d467d3e69,Fix minor spelling issues.,technosophos,https://api.github.com/repos/gogs/gogs/git/commits/d82d9bc153580a6e09df784414f9b12d467d3e69
+562ad02a6da7323b3ec5e2b0259ee1f17935d5f6,"Add file permalink button
+
+The button appears when a file is viewed in a branch or a tag. It points
+to a URL containing the branch's (or tag's) current commit id so that
+it'll always point to the same content.",jstasiak,https://api.github.com/repos/gogs/gogs/git/commits/562ad02a6da7323b3ec5e2b0259ee1f17935d5f6
+f62ffeb481e2ee7e8faad7bbbe1a9d99ec9db6ae,Update TRANSLATORS,m4rcs,https://api.github.com/repos/gogs/gogs/git/commits/f62ffeb481e2ee7e8faad7bbbe1a9d99ec9db6ae
+a5f9077e5a7d334e7ec84cedc4d8465ff1e2d910,"Update docker image.
+Shrink docker image.
+Update from fig (deprecated) to docker-compose.
+Update README.md.
+
+Signed-off-by: Tiago Pires <tandrepires@gmail.com>",tpires,https://api.github.com/repos/gogs/gogs/git/commits/a5f9077e5a7d334e7ec84cedc4d8465ff1e2d910
+30beb59fd8fdf2ae06cc0253930deb9434bb8a10,"install admin password field fix
+
+Admin Password field in install form must be of type password",manfer,https://api.github.com/repos/gogs/gogs/git/commits/30beb59fd8fdf2ae06cc0253930deb9434bb8a10
+53bcf373c1d076dd14db6aff0247ae9dbdc49c77,Allow explicit charset/codepage setting for ANSI source files to alleviate issue #1088,wqweto,https://api.github.com/repos/gogs/gogs/git/commits/53bcf373c1d076dd14db6aff0247ae9dbdc49c77
+4564d1349615c1d976b812acb4d7451852a6fbd2,Remove SSH button when SSH is disabled,gustavopaes,https://api.github.com/repos/gogs/gogs/git/commits/4564d1349615c1d976b812acb4d7451852a6fbd2
+16f74b62b98a978deb26167888d1881708a84268,custom avatar source,jqs7,https://api.github.com/repos/gogs/gogs/git/commits/16f74b62b98a978deb26167888d1881708a84268
+c3c638e59679b146a98b44270c0fde9078ae1d28,fix dashboard padding,sorl,https://api.github.com/repos/gogs/gogs/git/commits/c3c638e59679b146a98b44270c0fde9078ae1d28
+38e11b4f680eb6794b27206eea7e2913364a2fae,fixed chinese character to japanese KANJI,yaggytter,https://api.github.com/repos/gogs/gogs/git/commits/38e11b4f680eb6794b27206eea7e2913364a2fae
+e680faf0d87bcb200ccd470273824d39456aad11,Correct form name to smtp_email to fix matching in InstallForm struct.,pecastro,https://api.github.com/repos/gogs/gogs/git/commits/e680faf0d87bcb200ccd470273824d39456aad11
+51473f7bfe8d93050d32149faaf964e5507bf621,Update TRANSLATORS,KLIM8D,https://api.github.com/repos/gogs/gogs/git/commits/51473f7bfe8d93050d32149faaf964e5507bf621
+bfa8ef68a69fd49294703f86138f88db791dcd26,Change input field to type=password for the authentication templates.,LydiaSevelt,https://api.github.com/repos/gogs/gogs/git/commits/bfa8ef68a69fd49294703f86138f88db791dcd26
+feed2b61ee9fd028a11c83d2ce7d58994a4bfbc8,add newline at the end of file for each gitignore,Ralph-Wang,https://api.github.com/repos/gogs/gogs/git/commits/feed2b61ee9fd028a11c83d2ce7d58994a4bfbc8
+24d7a86a8d35aa1fadf05deaa10e141d33ea6632,"Set IsAdmin using LDAP
+
+The IsAdmin flag is set based on whether the admin filter
+returned any result. The admin filter is applied with the user dn
+as the search root.
+
+In the future, we should update IsAdmin as well on each login.
+Alternately, we can have a periodic sync operation.",gramakri,https://api.github.com/repos/gogs/gogs/git/commits/24d7a86a8d35aa1fadf05deaa10e141d33ea6632
+d720c92d995131c19a5cb2bb55f54b804fda4cc4,"Added supported of 'AUTH LOGIN'
+
+i've been missing a 'r' in previous, lol~",haoyixin,https://api.github.com/repos/gogs/gogs/git/commits/d720c92d995131c19a5cb2bb55f54b804fda4cc4
+44aab7af87211d576175cf8d27c7bd99c34a7599,错误字符修正,YoungHu,https://api.github.com/repos/gogs/gogs/git/commits/44aab7af87211d576175cf8d27c7bd99c34a7599
+e6917b6be87ec5308c5a513cbee7ad4ba41ab00f,Fix missing space in issue emails subject,LouisMT,https://api.github.com/repos/gogs/gogs/git/commits/e6917b6be87ec5308c5a513cbee7ad4ba41ab00f
+e2bea0631345696f796ede81af9d6185bf0ef62b,Updated - Lang Selection Width,goldbattle,https://api.github.com/repos/gogs/gogs/git/commits/e2bea0631345696f796ede81af9d6185bf0ef62b
+d1c5a5ed685f3bf330ced5a31bedf245ce0b294e,new explore UI,peppage,https://api.github.com/repos/gogs/gogs/git/commits/d1c5a5ed685f3bf330ced5a31bedf245ce0b294e
+ae1650824cd50890837d04b310d8ab0f54d46912,"Set IsBare true if migrated repo is empty.
+
+Executes `git log -1` and sets IsBare to true if stderr contains this
+string:
+
+  fatal: bad default revision 'HEAD'",siadat,https://api.github.com/repos/gogs/gogs/git/commits/ae1650824cd50890837d04b310d8ab0f54d46912
+7b92dc3d9df3fdba495bcabe335402bc462ebcb0,implemented #1528,denghongcai,https://api.github.com/repos/gogs/gogs/git/commits/7b92dc3d9df3fdba495bcabe335402bc462ebcb0
+f8c09dc1ff6fa49bc19a890d547632dc3fc02879,Fix `go get` not working when there is a username or repository name with some uppercase letters.,thehowl,https://api.github.com/repos/gogs/gogs/git/commits/f8c09dc1ff6fa49bc19a890d547632dc3fc02879
+5a2093b053d40338339cfc6e0cc326c5f1db7aae,fix the restart,Preovaleo,https://api.github.com/repos/gogs/gogs/git/commits/5a2093b053d40338339cfc6e0cc326c5f1db7aae
+4a05c4a759a71706a897075405be5f437d5530a1,Set USER env variable so installation can complete successfully.,geerlingguy,https://api.github.com/repos/gogs/gogs/git/commits/4a05c4a759a71706a897075405be5f437d5530a1
+ecd59deb27437963ea0589f07a97d397a0e5e1ef,implemented #1721: see users who forked/starred/watched a repository,soudy,https://api.github.com/repos/gogs/gogs/git/commits/ecd59deb27437963ea0589f07a97d397a0e5e1ef
+e63e0b3105124bd8ec3028a39dc71c8d8ca103e3,"New approach to Gogs Docker Container
+
+- VOLUME for ‘/data’
+- Usage of S6 as PID 1 Process
+- Usage of ‘socat’ so linked container (like databases) are binded to
+localhost
+- OpenSSH, Socat Link and Gogs are supervised using S6
+- Size of container reduced to ~75Mo",0rax,https://api.github.com/repos/gogs/gogs/git/commits/e63e0b3105124bd8ec3028a39dc71c8d8ca103e3
+3e7d8db7a2f52fcbe3e4a863d29d10eee90e2ff8,"Several bugfixes in Docker build
+
+- Removed unnecessary variables
+- Fixed symbolic links creation
+- Fixed enter point
+- Less intermediate containers",ogarcia,https://api.github.com/repos/gogs/gogs/git/commits/3e7d8db7a2f52fcbe3e4a863d29d10eee90e2ff8
+2671c86ba7028818d13f760c3c5b005ee653630b,"Update gosu, this fixes #1756",alvaroaleman,https://api.github.com/repos/gogs/gogs/git/commits/2671c86ba7028818d13f760c3c5b005ee653630b
+b854d3ba40b29bbc92979c553769bfce8c6202e8,fix typo in README for Docker,limianwang,https://api.github.com/repos/gogs/gogs/git/commits/b854d3ba40b29bbc92979c553769bfce8c6202e8
+9573f9afe9b879a6ce1e4294abda0b40bcbbf44c,"Simplify disable Gravatar preference wording
+
+""Enable this to disable..."" is needlessly confusing, simplify it by being
+upfront that this setting disables the Gravatar fetching.",legoktm,https://api.github.com/repos/gogs/gogs/git/commits/9573f9afe9b879a6ce1e4294abda0b40bcbbf44c
+1f1abb17e24a137196e1b49aaa19f549bf401e34,Fix import path,kenno,https://api.github.com/repos/gogs/gogs/git/commits/1f1abb17e24a137196e1b49aaa19f549bf401e34
+87c05c386f779aad585d0af6092b66968ad3a9a1,"fix import path, fix #1795",llikeitt,https://api.github.com/repos/gogs/gogs/git/commits/87c05c386f779aad585d0af6092b66968ad3a9a1
+0252629956b99834fc4182279e6e9edf3c1c5a05,Adding simple script to install Gogs as a Windows service.,andreynering,https://api.github.com/repos/gogs/gogs/git/commits/0252629956b99834fc4182279e6e9edf3c1c5a05
+f1aa4c05242e95fdc2b42a0b59a7b5a410990170,"Fix the JSON field names for MigrateRepoForm
+
+For some reason, the field names for Private and Mirror got swapped.",edef1c,https://api.github.com/repos/gogs/gogs/git/commits/f1aa4c05242e95fdc2b42a0b59a7b5a410990170
+b90b0c1191c559a60d4f30633266fc4c0a76ae4b,"move minimum key sizes to config
+
+This moves the minimum key sizes into the config file, so that anyone
+can modify the restrictions.",Gibheer,https://api.github.com/repos/gogs/gogs/git/commits/b90b0c1191c559a60d4f30633266fc4c0a76ae4b
+b992deae920086ed8663edb64d95bcf3ab231993,adding extra check on logpath,tjyang,https://api.github.com/repos/gogs/gogs/git/commits/b992deae920086ed8663edb64d95bcf3ab231993
+923c45d7212442afe2a63eb6b12f918ce12da10d,HOME fix into FreeBSD init script,renatoaquino,https://api.github.com/repos/gogs/gogs/git/commits/923c45d7212442afe2a63eb6b12f918ce12da10d
+e04c97b9fa3a9955e967a918aada9b21a78a0ec6,"Fix #1965 - the hyperlink and the display name of the branch
+
+The hyperlink and the display name of the branch if the branch is in a folder or the branch name has '#'",arthuroy,https://api.github.com/repos/gogs/gogs/git/commits/e04c97b9fa3a9955e967a918aada9b21a78a0ec6
+f63a468dfce812423b78a47cfa2583c5ad2faa49,Dockerfile for RaspberryPi is added.,raxetul,https://api.github.com/repos/gogs/gogs/git/commits/f63a468dfce812423b78a47cfa2583c5ad2faa49
+f86afb04a2af72c53443e38899ea4c2a87bd581d,"Adding more error handling in dump cmd
+
+The dump cmd did not check the return value of the z.AddFile or
+z.AddDir when building the final archive.
+It caused the dump command to succeed even if an error occurred.
+The resulted dump archive could be corrupted/empty.
+(errors could be various: removal by a concurrent process, disk full,
+bugs in the dump cmd itself)",kakwa,https://api.github.com/repos/gogs/gogs/git/commits/f86afb04a2af72c53443e38899ea4c2a87bd581d
+e57b2dffa42e554810d9b3f027bd8c5e12ba7369,"Admin should be able to see all organizations
+
+This is follow-up for 56c66ee486b4b8d544201662de62a23f36e6a069 allowing admin
+to see private repositories, even when not being member of them.",nanoant,https://api.github.com/repos/gogs/gogs/git/commits/e57b2dffa42e554810d9b3f027bd8c5e12ba7369
+d45302a6bafef3e0d496fd4e1af5a0021811527a,"Update English translations
+
+Just some phrasing changes to make the English translations sound more natural.",angus-g,https://api.github.com/repos/gogs/gogs/git/commits/d45302a6bafef3e0d496fd4e1af5a0021811527a
+ae54d878c0b347f5f0b6a40c35d2bef00c223316,Fix misspelled words,msoedov,https://api.github.com/repos/gogs/gogs/git/commits/ae54d878c0b347f5f0b6a40c35d2bef00c223316
+2a0db47935621d83f7b53b699701656075881ab8,Update Russian translation,Comminux,https://api.github.com/repos/gogs/gogs/git/commits/2a0db47935621d83f7b53b699701656075881ab8
+0d469f261ee1bb50a5b1d157ffd1ee14e473730e,"gogs: add import that lets gogs run as a stand-alone windows service
+
+Updates #630",kardianos,https://api.github.com/repos/gogs/gogs/git/commits/0d469f261ee1bb50a5b1d157ffd1ee14e473730e
+5b2afd8ec82e33d65cf31e9b38ce9c0113c41466,Minor typo in en-US locale: gloabl -> global,roidelapluie,https://api.github.com/repos/gogs/gogs/git/commits/5b2afd8ec82e33d65cf31e9b38ce9c0113c41466
+9a27e5ccdc029ae6c0cb7db9c59f1e259d90bc99,ignore invalid env,bclermont,https://api.github.com/repos/gogs/gogs/git/commits/9a27e5ccdc029ae6c0cb7db9c59f1e259d90bc99
+fd79fad2ec6f716c0113de938bd6563123665fcf,"Fix typo
+
+take*",tonivj5,https://api.github.com/repos/gogs/gogs/git/commits/fd79fad2ec6f716c0113de938bd6563123665fcf
+072109594425a7f7195111e2a3bc7987429505e0,"Wiki pages containing question marks in their name weren't loading
+
+(untested)",Jofkos,https://api.github.com/repos/gogs/gogs/git/commits/072109594425a7f7195111e2a3bc7987429505e0
+227dcc3cb9099ce82f6479c3daa356d288782c8e,fix #2268,novaeye,https://api.github.com/repos/gogs/gogs/git/commits/227dcc3cb9099ce82f6479c3daa356d288782c8e
+34f01aab5e09b5f773df93429ea813f8a72151dc,Update head.tmpl,joaopms,https://api.github.com/repos/gogs/gogs/git/commits/34f01aab5e09b5f773df93429ea813f8a72151dc
+0df39b33ebcff50df537f4682a72dcc29f046d01,"Implement Split Diff-View
+
+- Unified/Inline Diff-View Selectable",bkcsoft,https://api.github.com/repos/gogs/gogs/git/commits/0df39b33ebcff50df537f4682a72dcc29f046d01
+4ea75dfcbe279dd5b59775a343ac930ca5bf01f4,Remove RSA1 keys as only SSH version 2 is used,ivanmarban,https://api.github.com/repos/gogs/gogs/git/commits/4ea75dfcbe279dd5b59775a343ac930ca5bf01f4
+7655337a1f891d1a4b77baf1d43d83d4ed1c3b4c,"Update repo.go
+
+Release download file name doesn't include tag number #2339
+Download: Changed to use refName instead of commit.ID for downloaded file name",ddelpero,https://api.github.com/repos/gogs/gogs/git/commits/7655337a1f891d1a4b77baf1d43d83d4ed1c3b4c
+4db0e1d340293011e6a0c097d7cf6b9b2b8716aa,"Fix status command in FreeBSD init script
+
+If the init script is called with `status`, the rc.subr(8) routines check if
+the first argument associated with the pid in the pidfile is equal to
+`procname`. By default, `procname` is equal to the value of `command`. In our
+case, `command` contains a space (i.e. has multiple arguments), so `procname`
+can never be equal to the first argument of the command associated with the
+pid.
+
+Set `procname` to the first argument of `command` to fix the `status` command
+of the init script.",koenw,https://api.github.com/repos/gogs/gogs/git/commits/4db0e1d340293011e6a0c097d7cf6b9b2b8716aa
+f610bfa8a2ccaf195fe89866da55879436a202d8,"Added organization display on profile
+Fixed ""Follower"" Icon too big",exmex,https://api.github.com/repos/gogs/gogs/git/commits/f610bfa8a2ccaf195fe89866da55879436a202d8
+fb99d50fa1d2d38ef6b4d8fa63c81b27fa6123bd,"Fix #2431 - handle requests waiting for reply
+
+According to the docs [1], the Reply method must be called for all
+requests where WantReply is true. This fixes a hanging java ssh
+implementation (jsch) which sets WantReply flag and waits for reply from
+the server.
+
+[1] https://godoc.org/golang.org/x/crypto/ssh#Request.Reply",nd,https://api.github.com/repos/gogs/gogs/git/commits/fb99d50fa1d2d38ef6b4d8fa63c81b27fa6123bd
+eb14fbf95f64a1c6bb04ef9815229faf8fad4b01,Add Docker Volume from 1.9,jgsqware,https://api.github.com/repos/gogs/gogs/git/commits/eb14fbf95f64a1c6bb04ef9815229faf8fad4b01
+863ff19e1f5f94288da7bdac23eeb3f3b4f2c547,Fixed forgotten err variable assignment,pdan,https://api.github.com/repos/gogs/gogs/git/commits/863ff19e1f5f94288da7bdac23eeb3f3b4f2c547
+646e90d833332782ba4d1fa11d8ea9fcdc7b2824,Fix grammar in deploy key section,SarenCurrie,https://api.github.com/repos/gogs/gogs/git/commits/646e90d833332782ba4d1fa11d8ea9fcdc7b2824
+674c5c37be53665db8ce549ece51c24129e695d9,Change user name in Pull Requests,mhartkorn,https://api.github.com/repos/gogs/gogs/git/commits/674c5c37be53665db8ce549ece51c24129e695d9
+1becf01cfa0d3efc74c2de99b9bba606f743c6f5,Fixed gravatar url,MilesPong,https://api.github.com/repos/gogs/gogs/git/commits/1becf01cfa0d3efc74c2de99b9bba606f743c6f5
+abc5abce302885622107c2ffa93d3863311569f9,Allow modification of a release if Content is empty (fix #2516),fnkr,https://api.github.com/repos/gogs/gogs/git/commits/abc5abce302885622107c2ffa93d3863311569f9
+caa4ca46c0d4cb7b29e5702679b1ce70b7a2c178,Add debug log when SSH key for deletion isn't found,JohnMaguire,https://api.github.com/repos/gogs/gogs/git/commits/caa4ca46c0d4cb7b29e5702679b1ce70b7a2c178
+9d67528c82cef1831348248d100bb0587e0ef45a,"Change en-us localization ""mirror from""  to ""mirror of""",redoz,https://api.github.com/repos/gogs/gogs/git/commits/9d67528c82cef1831348248d100bb0587e0ef45a
+9fe9cd8b5c665d335f9c11d3f4ece88550397382,Add small user arrows on issue comments pointing to users avatar,chriswatt,https://api.github.com/repos/gogs/gogs/git/commits/9fe9cd8b5c665d335f9c11d3f4ece88550397382
+45659d0fd2dbdd23e3ea35eadad24caf2d12d236,optipng,Eriner,https://api.github.com/repos/gogs/gogs/git/commits/45659d0fd2dbdd23e3ea35eadad24caf2d12d236
+fa5a1cb54f70ffab621f13749d835983101a50f4,regulate timezone for milestone.deadline,tkausl,https://api.github.com/repos/gogs/gogs/git/commits/fa5a1cb54f70ffab621f13749d835983101a50f4
+47adc0e8f7926a98a3b03704c3c06e12c01bd9ac,Bump git-module. Fixes #2589,joshfng,https://api.github.com/repos/gogs/gogs/git/commits/47adc0e8f7926a98a3b03704c3c06e12c01bd9ac
+a467184e13e4e3867031c191263dc0adaec2673c,#2505 Allow to fork and disallow to create PRs for mirrors.,Download-Fritz,https://api.github.com/repos/gogs/gogs/git/commits/a467184e13e4e3867031c191263dc0adaec2673c
+dbd4697001a2a32f001efa230eebe6dda81a1c0f,"Update contributing guidlines link
+
+previously displays 404",jwdeitch,https://api.github.com/repos/gogs/gogs/git/commits/dbd4697001a2a32f001efa230eebe6dda81a1c0f
+5609585ec18ba11a7b139c8e65d55e3c65ac3028,"update alpine package dependencies
+
+- s6 is in main in 3.3, so we no longer need to mangle the repos file
+- official image is periodically updated, so it's not preferred to do
+  upgrades downstream (usually harmless, but inelegant)
+- apk-tools in 3.3 supports --no-cache to avoid leaving the APKINDEX
+  files in the image",muhmuhten,https://api.github.com/repos/gogs/gogs/git/commits/5609585ec18ba11a7b139c8e65d55e3c65ac3028
+b91b35b5659f1588c80346606183d4f132b1a484,Removed duplicate of paragraph,louwers,https://api.github.com/repos/gogs/gogs/git/commits/b91b35b5659f1588c80346606183d4f132b1a484
+c65bd65254b244e099d32626a258db9b57bf4a9a,test the latest version.,appleboy,https://api.github.com/repos/gogs/gogs/git/commits/c65bd65254b244e099d32626a258db9b57bf4a9a
+ab4bc653ab0b95a85acb3c0cf8ee599b943a7bba,Image attachments keep aspect ratio,ChubbyNinja,https://api.github.com/repos/gogs/gogs/git/commits/ab4bc653ab0b95a85acb3c0cf8ee599b943a7bba
+c0eaae200e4c6cfdef5a0a298921db02cba56a92,Add ForegroundColor for labels,lukasdietrich,https://api.github.com/repos/gogs/gogs/git/commits/c0eaae200e4c6cfdef5a0a298921db02cba56a92
+9d44cd79ee0ddef0c463fb0d053a81e058597198,"update README.md
+
+minor grammar fix",mblacktree,https://api.github.com/repos/gogs/gogs/git/commits/9d44cd79ee0ddef0c463fb0d053a81e058597198
+94f9ff1ac9e8dc27453bdf814c6e778919c3f7a8,"ISSUE_TEMPLATE: suggestion to test at try.gogs.io
+
+I've noticed that a lot of issues cannot be reproduced on http://try.gogs.io,
+which either hints about specific database type problems or
+hints about bugs which are already solved in the newer version
+(as http://try.gogs.io is usually a newer build).
+
+This patch adds the suggestion to test the issue at http://try.gogs.io in
+the Github ""issue template"". The user can answer: ""Yes"", ""No"", ""Not relevant"".
+
+""Not relevant"" is an option where testing on http://try.gogs.io makes no sense as
+the bug is unrelated to the Web UI or is very specific in nature.",neolit123,https://api.github.com/repos/gogs/gogs/git/commits/94f9ff1ac9e8dc27453bdf814c6e778919c3f7a8
+52fdecf97b4df74697db696f2e675235a24d6cd0,Fix grammar in README,rom1504,https://api.github.com/repos/gogs/gogs/git/commits/52fdecf97b4df74697db696f2e675235a24d6cd0
+9c91e279338f4d8bf09e1f7f5904d34cd525b102,Added: Ability to delete org avatar.,moltam,https://api.github.com/repos/gogs/gogs/git/commits/9c91e279338f4d8bf09e1f7f5904d34cd525b102
+d8738f5bfdc849648fc6948675fd68e43c5d5256,минимальные -> низкие (системные требования),xDShot,https://api.github.com/repos/gogs/gogs/git/commits/d8738f5bfdc849648fc6948675fd68e43c5d5256
+72a8fa3bc87096b7e0fd4cd6ba400c9e100804f9,Allowing site admins to view private repositories in org/home,Rukenshia,https://api.github.com/repos/gogs/gogs/git/commits/72a8fa3bc87096b7e0fd4cd6ba400c9e100804f9
+3cacec916308a350b2c801129f550d46c28dfd49,Making AppDataPath customizable.,saboya,https://api.github.com/repos/gogs/gogs/git/commits/3cacec916308a350b2c801129f550d46c28dfd49
+6775ac7334c7a5a451a309a6e3dc1c85dbf04f6b,change page titles for user and org dashes,allonsy,https://api.github.com/repos/gogs/gogs/git/commits/6775ac7334c7a5a451a309a6e3dc1c85dbf04f6b
+1314ba219ef8a655872df743434bffe959d3028f,Updated and created were appended with _unix. Fresh databases have only the newly named fields.,maxlazio,https://api.github.com/repos/gogs/gogs/git/commits/1314ba219ef8a655872df743434bffe959d3028f
+13e1fa6789b40fb1684c02a5275d2242cdd5a5bd,"Add Japanese Fonts
+
+By adding a Japanese font in the less file, easier to see the display in
+Japanese.",MATTENN,https://api.github.com/repos/gogs/gogs/git/commits/13e1fa6789b40fb1684c02a5275d2242cdd5a5bd
+63e21c146aa3fda2715d55235d54dfb95a9077cc,ensure we don’t try changing LDAP passswords,zacheryph,https://api.github.com/repos/gogs/gogs/git/commits/63e21c146aa3fda2715d55235d54dfb95a9077cc
+85d7afeba01b3fb3415ac954161d776732f3e9c4,"Set HTML meta values corresponding to repository
+
+Use the authors name, and the description of the repo in HTML meta.
+Pages without repository context will display as before.",odinuge,https://api.github.com/repos/gogs/gogs/git/commits/85d7afeba01b3fb3415ac954161d776732f3e9c4
+db3905c0a39423057ad720dd84764f5a64de5312,"Make go's build flags a variable
+
+This allows the user to specify build flags from the make command
+line. For example to force a complete rebuild one could use:
+
+make BUILD_FLAGS='-v -a' TAGS=""sqlite""",dankm,https://api.github.com/repos/gogs/gogs/git/commits/db3905c0a39423057ad720dd84764f5a64de5312
+3decc0b3d6db450d1885ea5cffef8491136d72ca,use monospace font for wiki and issue textareas (fix #2869),dakira,https://api.github.com/repos/gogs/gogs/git/commits/3decc0b3d6db450d1885ea5cffef8491136d72ca
+9a43fcb61cec9952ff80be7a0d7d27635186b9e5,Changed EscapePound function with string replace function,nikkomiu,https://api.github.com/repos/gogs/gogs/git/commits/9a43fcb61cec9952ff80be7a0d7d27635186b9e5
+79a1bfd9632c40ce3ee15c2dcbb8f322d871ade0,Try to make the SQL queries cleaner and more secure,tboerger,https://api.github.com/repos/gogs/gogs/git/commits/79a1bfd9632c40ce3ee15c2dcbb8f322d871ade0
+b35157f4ffa6b94b49494f9de13fe7bc4307ed2b,reduce line number creation to one DOM manipulation,psychomario,https://api.github.com/repos/gogs/gogs/git/commits/b35157f4ffa6b94b49494f9de13fe7bc4307ed2b
+e75a1444aff3ba318ff7ef65caf44e7e55a07905,Update ISC license,l2dy,https://api.github.com/repos/gogs/gogs/git/commits/e75a1444aff3ba318ff7ef65caf44e7e55a07905
+6be9a2c1db530f2114eb70a165aeecf9f7361001,Add DPlatform as an installation way (#3044),j8r,https://api.github.com/repos/gogs/gogs/git/commits/6be9a2c1db530f2114eb70a165aeecf9f7361001
+13216c5c206fda7d84d372e33a02ac8213d9949c,Update glide.lock with latest go-gogs-client (#2939),nawa,https://api.github.com/repos/gogs/gogs/git/commits/13216c5c206fda7d84d372e33a02ac8213d9949c
+d35a1c30f45d11d2e38ac848eb70c89f9a3cc524,"Do not write HTML in text/plain mail part (#2954)
+
+* Do not write HTML in text/plain mail part
+
+Fixes #2928
+
+* Pass text/plain first, text/html second
+
+* Do not send plain/text email if html2text failed (untested)",strk,https://api.github.com/repos/gogs/gogs/git/commits/d35a1c30f45d11d2e38ac848eb70c89f9a3cc524
+fb970b9d87ef662e429e651da459445d91020ccf,"Add ServerName to tls.Config in LDAP auth (#3104)
+
+From https://godoc.org/crypto/tls#Config
+
+    ServerName is used to verify the hostname on the returned
+    certificates unless InsecureSkipVerify is given. It is also included
+    in the client's handshake to support virtual hosting unless it is
+    an IP address.
+
+This is needed for certificate validation without InsecureSkipVerify.",ptman,https://api.github.com/repos/gogs/gogs/git/commits/fb970b9d87ef662e429e651da459445d91020ccf
+bc00da1721924a642b470a5a1b44672ee9bc5d4c,Fix negative issue count (#3207),roblabla,https://api.github.com/repos/gogs/gogs/git/commits/bc00da1721924a642b470a5a1b44672ee9bc5d4c
+04592c385b669b4f3dc83405ff90b79629e93773,"Adding myself (#3084)
+
+As you included Czech translation to official distribution, I think I'm missing here.
+I know, selfish as hell... ;)",rbukovansky,https://api.github.com/repos/gogs/gogs/git/commits/04592c385b669b4f3dc83405ff90b79629e93773
+17a4d8a5e50d74df3bc464468101c19fb545b74e,"Fix capitalisation of repo-name in news (#3203)
+
+use 'official' repo.Name instead of incoming repoName; to enforce
+correct capitalisation",SjonHortensius,https://api.github.com/repos/gogs/gogs/git/commits/17a4d8a5e50d74df3bc464468101c19fb545b74e
+8b35c194ecf5ff44a0b80595a5631e76e14fd0fb,Fixes #3110 (#3136),kinnarr,https://api.github.com/repos/gogs/gogs/git/commits/8b35c194ecf5ff44a0b80595a5631e76e14fd0fb
+927d9f092b611b9895375847b911e5a2260289e4,"port 25 do not work, and port 465 is right (#3145)
+
+QQ STMP host port is 465
+
+host = smtp.qq.com:465
+
+and need the Authorized",wagnlinzh,https://api.github.com/repos/gogs/gogs/git/commits/927d9f092b611b9895375847b911e5a2260289e4
+f0df46c88a9854cbb46221ac6d076e6062a9efc1,Add an OpenBSD daemon control script (#3060),vaskas,https://api.github.com/repos/gogs/gogs/git/commits/f0df46c88a9854cbb46221ac6d076e6062a9efc1
+99c3a9390fefd3990d9f3edc63310bbae72d0cab, change setting.go -> LocalUrl default   value to (#3078),everhopingandwaiting,https://api.github.com/repos/gogs/gogs/git/commits/99c3a9390fefd3990d9f3edc63310bbae72d0cab
+528682a294834611a95b2cf6c80efdccdf6fd791,getEngine() not handles DB parameters (#2972) (#2974),tcarrio,https://api.github.com/repos/gogs/gogs/git/commits/528682a294834611a95b2cf6c80efdccdf6fd791
+467d7dacb68da78c1ec8dbe45d1dc745ecdf7f8d,"Modify behaviour of repo-delete. (#3232)
+
+Re: issues gogits/gogs#2863 and gogits/gogs#3231
+
+As a result of modifications to the contents of the conf folder, `make bindata`
+was run, causing an update to bindata.go.
+
+Meta
+-----
+This commit will be rebased onto the 'develop' branch.",phtan,https://api.github.com/repos/gogs/gogs/git/commits/467d7dacb68da78c1ec8dbe45d1dc745ecdf7f8d
+98b152030dd99a58dd0e27aac9d0eee06cc88c43,"The pruning for the synchronized mirrors is a option now. Default value: enable_prune = true (#3246)
+
+Executed go fmt
+
+getEngine() not handles DB parameters (#2972) (#2974)
+
+Uses .AllCols() for Update in updateMirror()
+
+Spanish traslation removed
+
+Fixed a wrong way to ommit the --prune option in process.ExecDir() for MirrorUpdate function",psaavedra,https://api.github.com/repos/gogs/gogs/git/commits/98b152030dd99a58dd0e27aac9d0eee06cc88c43
+12cb84b97fc10184a9c41c6a3b2b839e018db0b3,"Extend the API to include more repository properties (#3249)
+
+Adds description, stars_count, forks_count, watchers_count and
+open_issues_count.",lstahlman,https://api.github.com/repos/gogs/gogs/git/commits/12cb84b97fc10184a9c41c6a3b2b839e018db0b3
+6a98e7d9143c0f31d0cc81d2645f9f979a0c87d4,docker: Support timezones (#3262),arno01,https://api.github.com/repos/gogs/gogs/git/commits/6a98e7d9143c0f31d0cc81d2645f9f979a0c87d4
+32ec4734f903e041bc0f3a8c26addaa0c32524ba,Changed Turkish language name to 'Türkçe' (#3268),atakangktepe,https://api.github.com/repos/gogs/gogs/git/commits/32ec4734f903e041bc0f3a8c26addaa0c32524ba
+528ec9bffd854b550b6b35c405a230e11e80a30a,Apply font for Japanese / Chinese (more) (#3266),Laica-Lunasys,https://api.github.com/repos/gogs/gogs/git/commits/528ec9bffd854b550b6b35c405a230e11e80a30a
+7796c9e1223e8a99eb265adff0974d05bb594cfa,Fixes #3263 - Change for Fontawesome icons to not conflict withs semantic-ui (#3267),richmahn,https://api.github.com/repos/gogs/gogs/git/commits/7796c9e1223e8a99eb265adff0974d05bb594cfa
+5ff2dfb23eb4f5c436d69cc86945192eb4b3d279,"api: delete repository webhooks (#3275)
+
+Allows the deletion of a webhook from a repository at the
+/:user/:repo/hooks/:id endpoint.
+
+Solves drone/drone issue #1603.
+
+Signed-off-by: Dennis Chen <barracks510@gmail.com>",barracks510,https://api.github.com/repos/gogs/gogs/git/commits/5ff2dfb23eb4f5c436d69cc86945192eb4b3d279
+fe60ca408b7bbec43bdba18d0eded2ed586ddfdd,"routers/repo/release: Use correct branch reference (#3330)
+
+When calculating the current behind commit count the calculation should
+use the current release target to get the total commit count. Should the
+release target not exist anymore the calculation will return zero for
+the newest release on that target. Older releases on that target will then
+use that calculated commit count as reference.
+
+The only use case that is now somehow invalid is when the release target
+was merged / deleted after a tag on that release target:
+
+    master 1 - - - - - - - 6
+            \             /
+    branch   2 - 3 - 4 - 5
+
+When `4` is the last tag on branch `branch` and the branch `branch` is not
+yet deleted the calculated numbers would be:
+
+    1 commits to branch since this release
+
+Now if the branch `branch` gets deleted the calculation function will not
+find the branch and use the commit count of the newest release (`4`) as
+reference resulting in:
+
+    0 commit to branch since this release
+
+This fixes #3326",nalla,https://api.github.com/repos/gogs/gogs/git/commits/fe60ca408b7bbec43bdba18d0eded2ed586ddfdd
+b1133c99348c332df4cede25af9093aa0cfd302b,"Lighter icon colors for repo files (#3351)
+
+* Lighter icon colors for repo files
+
+* also color submodule icon",silverwind,https://api.github.com/repos/gogs/gogs/git/commits/b1133c99348c332df4cede25af9093aa0cfd302b
+28dc5bb5667c4d1839ad28b33b7145b145f30665,Replace gogs.io http links with https version (#3386),rugk,https://api.github.com/repos/gogs/gogs/git/commits/28dc5bb5667c4d1839ad28b33b7145b145f30665
+30fda0f1aecbb45b0abc67e0fb9fdb806a52cb8c,"Fix #3315: Release dont use tag creation date (#3374)
+
+* Fix #3315: Release dont use tag creation date
+
+* Simplify code and apply gofmt
+
+* remove useless block (ctx.Repo.GitRepo.GetTag) on EditReleasePost
+
+* apply gofmt on modified files",0xBAADF00D,https://api.github.com/repos/gogs/gogs/git/commits/30fda0f1aecbb45b0abc67e0fb9fdb806a52cb8c
+0885784f136b9b68653ec33fa733e962f3507f7e,"Wiki mirroring implementation (#3233)
+
+* Implement wiki mirroring, add Update mirrors operation to admin dashboard
+
+* bindata.go update after merge
+
+* Implement checking Git repo endpoint existence, support for BB included
+
+* Remove admin dashboard operation
+Fix bindata.go
+
+* Apply gofmt to repo model file
+
+* Try to remove bindata from PR
+
+* Revert accepted wiki names change in favor of better system
+
+* Remove unused imports",andrew-boyarshin,https://api.github.com/repos/gogs/gogs/git/commits/0885784f136b9b68653ec33fa733e962f3507f7e
+f1a5a4277d06702ddcb9673b23fc82a930676e54,fix grammar + typo. (#3453),vroomanj,https://api.github.com/repos/gogs/gogs/git/commits/f1a5a4277d06702ddcb9673b23fc82a930676e54
+67fb0fe6a5783f772abfb5438a154435dafff4de,added support to set pull_request event from api (#3513),kmadel,https://api.github.com/repos/gogs/gogs/git/commits/67fb0fe6a5783f772abfb5438a154435dafff4de
+8dca9f95fab909c52cd34fb401f171d22f0065ae,"issues comment API : list, create, edit (#2966)
+
+add `since` query string support to list issue comment",iwanbk,https://api.github.com/repos/gogs/gogs/git/commits/8dca9f95fab909c52cd34fb401f171d22f0065ae
+3738b6399eb360fef3f987e8cb9d0121f080ed61,"Fixed typo (#3533)
+
+Git convention has it capitalised.",lflare,https://api.github.com/repos/gogs/gogs/git/commits/3738b6399eb360fef3f987e8cb9d0121f080ed61
+d09fca3ca9f40be6b4c291028418d5c95428db17,Add a (Open)SuSE init script (#3558),Corben78,https://api.github.com/repos/gogs/gogs/git/commits/d09fca3ca9f40be6b4c291028418d5c95428db17
+5d35578811f68629bfd28d28d19310d3820b8b79,Update size of SHA to fix #3538 (#3563),DblK,https://api.github.com/repos/gogs/gogs/git/commits/5d35578811f68629bfd28d28d19310d3820b8b79
+178556142a6d0e299f1713e9a4847454f0f5b178,fix link error under preview (#3566),raphael10241024,https://api.github.com/repos/gogs/gogs/git/commits/178556142a6d0e299f1713e9a4847454f0f5b178
+4efaf8e882dad4bffbb84104aec6df25d15b4f87,Fix repo list display on Safari (#3569),DanielOaks,https://api.github.com/repos/gogs/gogs/git/commits/4efaf8e882dad4bffbb84104aec6df25d15b4f87
+7358e46815d6c622377b957329269e4a967913f3,Fix string format verbs (#3637),alunegov,https://api.github.com/repos/gogs/gogs/git/commits/7358e46815d6c622377b957329269e4a967913f3
+5034ef787c4ee8cea21d0ec996ac35159eae04ce,[mod] readme: update YunoHost package link. (#3881),M5oul,https://api.github.com/repos/gogs/gogs/git/commits/5034ef787c4ee8cea21d0ec996ac35159eae04ce
+282f7fb8fa35c7c4df9e21c1a551219cce4cd6f8,Fix typos (#3852),blindpirate,https://api.github.com/repos/gogs/gogs/git/commits/282f7fb8fa35c7c4df9e21c1a551219cce4cd6f8
+ad6de46ce4cc207ec392abd85cf3fbcd53c61a33,Fix typo: 'passowrd' -> 'password' (#3951),leonklingele,https://api.github.com/repos/gogs/gogs/git/commits/ad6de46ce4cc207ec392abd85cf3fbcd53c61a33
+bab051a8c17324e616d2fd649f1de9f36992ecaa,"Fix Typo Errors (#3885)
+
+* Fix typos
+
+* Fix typos",seongahjo,https://api.github.com/repos/gogs/gogs/git/commits/bab051a8c17324e616d2fd649f1de9f36992ecaa
+04fbfad2d4b7ac32b536aa6d2ecf33202d8d0217,init script for gentoo (#3761),afilippov1985,https://api.github.com/repos/gogs/gogs/git/commits/04fbfad2d4b7ac32b536aa6d2ecf33202d8d0217
+adcb1d7c651720d71efea238e011582b9e455c2d,serve video files using the HTML5 video tag (#3967),nmandery,https://api.github.com/repos/gogs/gogs/git/commits/adcb1d7c651720d71efea238e011582b9e455c2d
+ca6cbb95cc8af4216a457f5940e1d5bf756723c2,#3791 update LDAP username check (#3906),solo12zw74,https://api.github.com/repos/gogs/gogs/git/commits/ca6cbb95cc8af4216a457f5940e1d5bf756723c2
+2cfdce88e0b66bc6d6a52507ab682be76289aa6f,Check for zero length passwords in LDAP module. (#3827),ruanda,https://api.github.com/repos/gogs/gogs/git/commits/2cfdce88e0b66bc6d6a52507ab682be76289aa6f
+85fbd6e9c6e90ea998719d0d40ddfb71affd9a05,New settings option for a custom SSH host (#3763),inmylo,https://api.github.com/repos/gogs/gogs/git/commits/85fbd6e9c6e90ea998719d0d40ddfb71affd9a05
+e9f6a4307372b8e82518b10c89a9a7d649153d73,"Fix database write context interleaving bug (#3822)
+
+* UpdateIssueUsersByMentions was calling database write operations while
+a transaction session was in progress. MailParticipants was failing
+silently because of the SQLITE_LOCKED error. Make sure failures in
+MailParticipants enter the log, and pass on the transaction context.
+
+issue: let caller pass in database context, and use it
+issue_comment: obtain database context to pass to UpdateIssueMentions
+issue_comment: log any error from call to MailParticipants
+issue_mail: pass on database context to UpdateIssueMentions
+
+* issue: forgot debug statement",stroucki,https://api.github.com/repos/gogs/gogs/git/commits/e9f6a4307372b8e82518b10c89a9a7d649153d73
+952e510dfa6f4d20842bf2216286710f0b1a233c,"Added public entries to reserved keywords list
+
+Closes #3728",LefsFlare,https://api.github.com/repos/gogs/gogs/git/commits/952e510dfa6f4d20842bf2216286710f0b1a233c
+e5972bbcdea957dc9baf5ed55b0f094d9f30142e,"#3480 Fix new ssh key adding issues (#3565)
+
+* #3480 Fix new ssh key adding issues
+
+Added regular exp match (108) and remove training new line (111) that cause system to think its an ssh2 key.
+
+* #3480 Fix new ssh key adding issues
+
+-Sanitizate new lines (windows format) in posted key
+-Edit sanitization implementation to use string replace for code readability and maintenability.",mohamme89d,https://api.github.com/repos/gogs/gogs/git/commits/e5972bbcdea957dc9baf5ed55b0f094d9f30142e
+3376354ed8a38c6a3c4f27d6a1111cfa8f739089,"Check if file is a symlink with web editor (#3687)
+
+* editor checks for symlinks
+
+* translate file_is_a_symlink message
+
+* credit translation author",gronke,https://api.github.com/repos/gogs/gogs/git/commits/3376354ed8a38c6a3c4f27d6a1111cfa8f739089
+539b07e20590628e0b56e9a15f67dcba607ae176,"Pluralize ""Statistic"" (#3665)
+
+Other locales appear to use the plural version, and the text is being associated with more than one statistic.",ipavl,https://api.github.com/repos/gogs/gogs/git/commits/539b07e20590628e0b56e9a15f67dcba607ae176
+3c91c9063bbd7de114a5e67e4d0ee6db39da6d49,Enable Ubuntu 16.04 build at packager.io (#3617),gianperrone,https://api.github.com/repos/gogs/gogs/git/commits/3c91c9063bbd7de114a5e67e4d0ee6db39da6d49
+cdedc2d188ad0e0a366c0cf9747011be2cbb2eff,"Use temporary file to avoid out-of-memory when receiving big chunks. (#3748)
+
+* Use temporary file to avoid out-of-memory when receiving big chunk.
+
+Not perfect but I think it's a reasonable solution.
+For small request bodies, I suppose performance wouldn't be an issue.
+For large ones, this seems to be a necessary evil.
+
+* Must close the open file to avoid fd leaks",typeless,https://api.github.com/repos/gogs/gogs/git/commits/cdedc2d188ad0e0a366c0cf9747011be2cbb2eff
+bf70082c224de12c821d0ca2037764634ffc53f2,"New locale ""galician"" (#3917)",dalareo,https://api.github.com/repos/gogs/gogs/git/commits/bf70082c224de12c821d0ca2037764634ffc53f2
+d674cb7f20e62f7f1c68465768b3fc7784008897,"Fix wrong anchors for non-latin headings (#3981)
+
+Change Javascript regular expression to match non-latin characters
+The regex comes from here: http://stackoverflow.com/questions/150033/regular-expression-to-match-non-english-characters#comment22322603_150078
+
+And this patch should fixed these two issues: #3919 #3843",joelliang,https://api.github.com/repos/gogs/gogs/git/commits/d674cb7f20e62f7f1c68465768b3fc7784008897
+e6ef75204bed1fc5438d1e0aefb62838c29d4829,"Fix assigned/created issues in dashboard. (#3560)
+
+* Fix assigned/created issues in dashboard.
+
+* Use GetUserIssueStats for getting all Dashboard stats.
+
+* Use gofmt to format the file properly.
+
+* Replace &Issue{} with new(Issue).
+
+* Check if user has access to given repository.
+
+* Remove unnecessary filtering of issues.
+
+* Return 404 error if invalid repository is given.
+
+* Use correct number of issues in paginater.",hgaiser,https://api.github.com/repos/gogs/gogs/git/commits/e6ef75204bed1fc5438d1e0aefb62838c29d4829
+3143e35d831156718cbce8be7987859d883d1f77,Reword README.md (#4047),jfremstad,https://api.github.com/repos/gogs/gogs/git/commits/3143e35d831156718cbce8be7987859d883d1f77
+64788ffff6b738f3ece815a6e6ec066bba7c9a2b,"Remove call to set GOMAXPROCS (#4010)
+
+* Remove call to set GOMAXPROCS
+
+* Remove runtime import",aaronjwood,https://api.github.com/repos/gogs/gogs/git/commits/64788ffff6b738f3ece815a6e6ec066bba7c9a2b
+4e967bc765cecb165a49cdb956c83f34230ed6c6,Dockerfile for aarch64 (odroid c2 & pine64) (#4018),atzoum,https://api.github.com/repos/gogs/gogs/git/commits/4e967bc765cecb165a49cdb956c83f34230ed6c6
+84f28fc5d667a24caf24a000047c4af6efe1af16,Safe compare password (timing attack) (#4064),denji,https://api.github.com/repos/gogs/gogs/git/commits/84f28fc5d667a24caf24a000047c4af6efe1af16
+4f778da35e12a8fb785fead6e616dd37027daa5d,"Change copyright date to 2017 (#4079)
+
+The copyright date in the footer was still set to 2016.",Crayon2000,https://api.github.com/repos/gogs/gogs/git/commits/4f778da35e12a8fb785fead6e616dd37027daa5d
+9af0dd23dd6afc9b4103a8aeb17e6eba1c649f6c,"Ipython notebook support (#4070)
+
+* added marked and notebookjs javascript libraries
+
+* added ipython notebook render support using javascript libraries
+
+* recompiled gogs.css to include ipynb-related css
+
+* removed superflous javascript library files",prinsherbert,https://api.github.com/repos/gogs/gogs/git/commits/9af0dd23dd6afc9b4103a8aeb17e6eba1c649f6c
+6971143dc5986a84585c3885a0a19c6846fbf01e,Make Gogs compatible with LibreJS (#4092),jorgesumle,https://api.github.com/repos/gogs/gogs/git/commits/6971143dc5986a84585c3885a0a19c6846fbf01e
+29722af1ae51333a7da742b5e02a5e7fe5983aab,"Configurable SSH cipher suite (#4109)
+
+* Configurable SSH cipher suite
+
+* Maintain ordering",spacetourist,https://api.github.com/repos/gogs/gogs/git/commits/29722af1ae51333a7da742b5e02a5e7fe5983aab
+4a1dc29e233a5da5ebf4954b5ce15bb8fc98d974,Added Open Graph Meta tags to head template (#3664),simeonradivoev,https://api.github.com/repos/gogs/gogs/git/commits/4a1dc29e233a5da5ebf4954b5ce15bb8fc98d974
+35f30a306b0142192082ab3424126e9110cffbe5,Icon redesign. (#4121),egonelbre,https://api.github.com/repos/gogs/gogs/git/commits/35f30a306b0142192082ab3424126e9110cffbe5
+5179063e71d7234250209389e6f69db1cd6f0caa,Added mssql support. (#3772),dlob,https://api.github.com/repos/gogs/gogs/git/commits/5179063e71d7234250209389e6f69db1cd6f0caa
+859009259a5d02a09b05094070b6db063bfc5a37,"Typo in LocalCopyPath (#4122)
+
+This won't fix any bugs, but a typo is a typo.",mkaito,https://api.github.com/repos/gogs/gogs/git/commits/859009259a5d02a09b05094070b6db063bfc5a37
+a45205b988b3d41793774bb132e60069deefb903,Commits fetch concurrency (#3837),thibaultmeyer,https://api.github.com/repos/gogs/gogs/git/commits/a45205b988b3d41793774bb132e60069deefb903
+59981b8818e9ed5f56e7b34e5b425a2192c0c26d,Enable syntax highlighting for CMakeLists.txt files #2199 (#4130),bouffa,https://api.github.com/repos/gogs/gogs/git/commits/59981b8818e9ed5f56e7b34e5b425a2192c0c26d
+89593a82c1991eddb6e575d032e79880b46c613a,Update TRANSLATORS (#4135),sergystepanov,https://api.github.com/repos/gogs/gogs/git/commits/89593a82c1991eddb6e575d032e79880b46c613a
+c033cfc684b8241b2145f85660577d0b8baa8a00,Update TRANSLATORS (#4136),javydreamercsw,https://api.github.com/repos/gogs/gogs/git/commits/c033cfc684b8241b2145f85660577d0b8baa8a00
+dab768212af15f4e671e5403ad3def455117f699,Update TRANSLATORS (#4137),risafov,https://api.github.com/repos/gogs/gogs/git/commits/dab768212af15f4e671e5403ad3def455117f699
+edccbc048102cf2abefe20c076ace792f66c8e09,Added myself (#4138),alexandregz,https://api.github.com/repos/gogs/gogs/git/commits/edccbc048102cf2abefe20c076ace792f66c8e09
+f4e714d54a1cb5bfcf29c4734c5934f5efeecd63,Update TRANSLATORS (#4139),alexyer,https://api.github.com/repos/gogs/gogs/git/commits/f4e714d54a1cb5bfcf29c4734c5934f5efeecd63
+81e74858d82770b34ce63a1c85d730b69756c03c,Update TRANSLATORS (#4140),pierreprinetti,https://api.github.com/repos/gogs/gogs/git/commits/81e74858d82770b34ce63a1c85d730b69756c03c
+956bdb18c9e267ca7e6d51a7f9404dccce2182cf,Update TRANSLATORS (#4142),vongola12324,https://api.github.com/repos/gogs/gogs/git/commits/956bdb18c9e267ca7e6d51a7f9404dccce2182cf
+71f0dd858bc37c35864a73c197d0e2a530fad87d,Update TRANSLATORS (#4143),wp-src,https://api.github.com/repos/gogs/gogs/git/commits/71f0dd858bc37c35864a73c197d0e2a530fad87d
+5d9680b00d458e0bc359c0735b6d3e4258b415da,Update TRANSLATORS (#4147),jlsjonas,https://api.github.com/repos/gogs/gogs/git/commits/5d9680b00d458e0bc359c0735b6d3e4258b415da
+018614cdf072e9fea2af5325479bcfef4cda10cc,Update TRANSLATORS (#4146),reekoheek,https://api.github.com/repos/gogs/gogs/git/commits/018614cdf072e9fea2af5325479bcfef4cda10cc
+77757f6d39e2c8af3f13405bc1500dc9c03813fd,I've got Translation Credits message from 无闻 (joe2010xtmf) (#4144),app,https://api.github.com/repos/gogs/gogs/git/commits/77757f6d39e2c8af3f13405bc1500dc9c03813fd
+1841316f188538b572c784b6875a89f63a83c513,"Provide an updated Dockerfile where Gogs is build with Go 1.8 (#4151)
+
+In order to have an up to date Docker image based on alpine 3.5
+  and having Gogs built with Go 1.8
+
+Refs: [ #4145 ]",yaourt,https://api.github.com/repos/gogs/gogs/git/commits/1841316f188538b572c784b6875a89f63a83c513
+c3f52ab52dafe351dd30b12df48d48fb930993f7,"this fix #3958 (#4153)
+
+Deal with '/' in Wiki page title.",huqiangit,https://api.github.com/repos/gogs/gogs/git/commits/c3f52ab52dafe351dd30b12df48d48fb930993f7
+dd4d6236121e4a48253b6401796ac55eb3eee34c,Update 'disable_register_mail' verbiage (#4155),ttftw,https://api.github.com/repos/gogs/gogs/git/commits/dd4d6236121e4a48253b6401796ac55eb3eee34c
+fe69a7b116ddc174689317c2b53e296f15451d96,"Update home.tmpl (#4159)
+
+Russian lang. Small fix.",Supme,https://api.github.com/repos/gogs/gogs/git/commits/fe69a7b116ddc174689317c2b53e296f15451d96
+6a785804290aa75d4b04401344cb468dfd2a7044,locale: update TRANSLATORS (#4161),quosol,https://api.github.com/repos/gogs/gogs/git/commits/6a785804290aa75d4b04401344cb468dfd2a7044
+ba88bb5f5ff7baeda096e909b22e51f27f03b035,locale: update translators (#4166),MST-Development,https://api.github.com/repos/gogs/gogs/git/commits/ba88bb5f5ff7baeda096e909b22e51f27f03b035
+6a8ad0b3574c3ab1f3a441493dc002b805b45a38,"locale: changes relates to Ukrainian language (#4168)
+
+- Add Ukrainian translation into templates/home.tmpl
+    - Fix Ukrainian language name in conf/app.ini
+          because on Ukrainian 'language' is female.
+    - Add me as translator into conf/locale/TRANSLATORS",Argentumbolo,https://api.github.com/repos/gogs/gogs/git/commits/6a8ad0b3574c3ab1f3a441493dc002b805b45a38
+e0af5c280da4064af86857362f5c0b0abe747e79,locale: update TRANSLATORS (#4170),Andersbiha,https://api.github.com/repos/gogs/gogs/git/commits/e0af5c280da4064af86857362f5c0b0abe747e79
+ec05c64ead43809d4d033d4c48b4fb6b02a9fb29,docker: update Dockerfile for Raspberry Pi (#4185),Spice-King,https://api.github.com/repos/gogs/gogs/git/commits/ec05c64ead43809d4d033d4c48b4fb6b02a9fb29
+193cc3ba9a831e677ee45d8c1e5c4fd6f29236a3,locale: update TRANSLATORS (#4204),NeodarZ,https://api.github.com/repos/gogs/gogs/git/commits/193cc3ba9a831e677ee45d8c1e5c4fd6f29236a3
+e19a69442d7e90cf63906a9db4903a28f1127a3f,Update README.md (#4238),xiapoy,https://api.github.com/repos/gogs/gogs/git/commits/e19a69442d7e90cf63906a9db4903a28f1127a3f
+837fc9847d5bed7a4e15f04760fb10818fe49ccb,"conf/gitignore: use correct OS name (#4240)
+
+This is no more OSX, but macOS. Long live macOS!",Fastidious,https://api.github.com/repos/gogs/gogs/git/commits/837fc9847d5bed7a4e15f04760fb10818fe49ccb
+b9bb4a62d60c0e8b863f160e5f35e67b94c18e6c,"api: make CORS work by handling preflight OPTIONS request (#4264)
+
+* make CORS work by handling preflight OPTIONS request
+
+* Update api.go",girishso,https://api.github.com/repos/gogs/gogs/git/commits/b9bb4a62d60c0e8b863f160e5f35e67b94c18e6c
+44a6b6331630d301a4c97719b108846e5d6173cf,cmd/hook: fixed typo (#4280),FibreFoX,https://api.github.com/repos/gogs/gogs/git/commits/44a6b6331630d301a4c97719b108846e5d6173cf
+aaadc61ee81a32ffb1497ed609f4f65899bce61d,"models/repo: allow SearchRepos to return private but accessible repositories (#4273)
+
+* models/repo.go SearchRepositoryByName()
+Updated function to return public and private repositories that the logged in user has been given rights to view
+issue #3088
+
+* models/repo.go SearchRepositoryName
+changed repository table alias to 'repo'
+removed debug line
+
+* models/repo.go SearchRepositoryByName
+modified UserID search query to use the ""access"" table instead of team_repo, team_user etc
+
+* models/repo.go SearchRepositoryByName
+1) uppercased SQL keywords
+2) removed alias for ACCESS table",master-d,https://api.github.com/repos/gogs/gogs/git/commits/aaadc61ee81a32ffb1497ed609f4f65899bce61d
+50b36a732c4b57248a2ee1757668155c5f77d3bb,ui: added Select class to ui.dropdown menus to prevent label changing (#4294),spectre013,https://api.github.com/repos/gogs/gogs/git/commits/50b36a732c4b57248a2ee1757668155c5f77d3bb
+7adaf8f8122f1f6f28c28abbd652bec1490523b0,locale: fix language names (#4330),sikmir,https://api.github.com/repos/gogs/gogs/git/commits/7adaf8f8122f1f6f28c28abbd652bec1490523b0
+f40eb9774e5466917efd65c519cd0caaa8b230de,modes/mirror: corrected NextUpdate not set (#4345),cez81,https://api.github.com/repos/gogs/gogs/git/commits/f40eb9774e5466917efd65c519cd0caaa8b230de
+cf7d5d0c56a81bf1770147dfdd7f5f088054b5dd,"docker: fix heading in README.md (#4353)
+
+The unicode non-breaking space character was breaking the heading format; this switches that character for an ASCII space.",davidjb,https://api.github.com/repos/gogs/gogs/git/commits/cf7d5d0c56a81bf1770147dfdd7f5f088054b5dd
+864761c2d0d77b40afc8271f43f3dff91d5b2b11,js: use jQuery .find() (#4343),amouhzi,https://api.github.com/repos/gogs/gogs/git/commits/864761c2d0d77b40afc8271f43f3dff91d5b2b11
+09723ec0e5be9aae41d6fc3ad87d3eabe1035376,migration.v17: handle mysql error (#4361),kylemcc,https://api.github.com/repos/gogs/gogs/git/commits/09723ec0e5be9aae41d6fc3ad87d3eabe1035376
+65bb6eb284582f5ea72c962846d48136fb43c416,"locale: update TRANSLATORS (#4372)
+
+* Update TRANSLATORS
+
+* Update TRANSLATORS",jxsl13,https://api.github.com/repos/gogs/gogs/git/commits/65bb6eb284582f5ea72c962846d48136fb43c416
+10ee2e0dad6471e8912cc833faf33db7eaa55fa8,vendor: update xorm version for fix git clone error build with golang 1.8.1 (#4460),ddatsh,https://api.github.com/repos/gogs/gogs/git/commits/10ee2e0dad6471e8912cc833faf33db7eaa55fa8
+07d5badfed49aa1236407dfd67fd004d44c4ec91,cmd/update: fix typo (#4492),rouzier,https://api.github.com/repos/gogs/gogs/git/commits/07d5badfed49aa1236407dfd67fd004d44c4ec91
+4b2bf41381a64e17821074346f0e6e1b37a8e809,locale: added missing word and fixed a typo (#4490),hahanein,https://api.github.com/repos/gogs/gogs/git/commits/4b2bf41381a64e17821074346f0e6e1b37a8e809
+1755025e7f5e3b9b4fd46e37a5d74f8e192f7bd2,"models/login_source: add check for user for create/update on LDAP (#4405)
+
+* Add check for user for create/update
+
+* Update login_source.go
+
+* Update login_source.go",JonLundy,https://api.github.com/repos/gogs/gogs/git/commits/1755025e7f5e3b9b4fd46e37a5d74f8e192f7bd2
+dbb7e5464b6a9cad430b2f36b52e7674211f51cf,"ldap: add check for group membership (#4398)
+
+* Add standard LDAP group membership checking.
+
+* Fix formatting, typo, grammer, and syntax errors
+
+* Debugging done.
+Gave up on locale file edits.",aboron,https://api.github.com/repos/gogs/gogs/git/commits/dbb7e5464b6a9cad430b2f36b52e7674211f51cf
+306ba917ea1bf103dd54f9a2781add39f259632f,"conf: made the default webhook timeout duration longer. (#4423)
+
+A 5 seconds timeout is too low and can cause random timeouts in certain setups.",BartWillems,https://api.github.com/repos/gogs/gogs/git/commits/306ba917ea1bf103dd54f9a2781add39f259632f
+bf060387af47dbc9f0abb06025c754baad093061,ui: fix emoji not rendered in commits table (#4440),carbontwelve,https://api.github.com/repos/gogs/gogs/git/commits/bf060387af47dbc9f0abb06025c754baad093061
+612a7e76f1a47d0159d3b6fa5558c37397bbca10,"cmd/admin: fix typo Preform → Perform (#4540)
+
+Just an English typo in the command line help.",Naereen,https://api.github.com/repos/gogs/gogs/git/commits/612a7e76f1a47d0159d3b6fa5558c37397bbca10
+21c1b8d834c8f9a4c44861f5ac1388e10efe4928,conf: rename attachment toggle from ENABLE to ENABLED (#4474),magnetikonline,https://api.github.com/repos/gogs/gogs/git/commits/21c1b8d834c8f9a4c44861f5ac1388e10efe4928
+3df25fadfa82aa79635396c979afdb73ef93f652,scripts: fix LSB init scripts so gogs starts when using mysql/postgresql for database (#4561),credomane,https://api.github.com/repos/gogs/gogs/git/commits/3df25fadfa82aa79635396c979afdb73ef93f652
+2961afe8fb9afcb9825f59dfb49d6197bea5ee5a,css: not include line numbers in diff selection (#4584),eigan,https://api.github.com/repos/gogs/gogs/git/commits/2961afe8fb9afcb9825f59dfb49d6197bea5ee5a
+261237745f3786dc1ca0aea85dde101bd2870be3,api: fix ListIssueComments API (#4587),hochhaus,https://api.github.com/repos/gogs/gogs/git/commits/261237745f3786dc1ca0aea85dde101bd2870be3
+5a88546a8040c2f56b9cd924b2d4d5b180a63159,"docker: enable Automated builds for rpi (#4431)
+
+* Enable Automated builds for rpi
+
+* Rename the file to fit only for Docker Hub
+
+* Update the binary to v2.9.0+resin1
+
+* Restore default status
+
+* Commit as new file
+
+In order to avoid breaking native builds",julianxhokaxhiu,https://api.github.com/repos/gogs/gogs/git/commits/5a88546a8040c2f56b9cd924b2d4d5b180a63159
+52f383381143264e93e33f991d483e63a3d9074c,"Add Dingtalk webhook support (#4773)
+
+* Add dingtalk webhook into html template
+
+* Add Dingtalk's icon
+
+* Insert dingtalk into repo's webhook page template
+
+* Insert dingtalk into org's webhook page
+
+* Add dingtalk into default webhook config
+
+* Add locale string for add_dingtalk_hook_desc
+
+* Update bindata
+
+* Add dingtalk webhook form validator
+
+* Add dingtalk hook task
+
+* Add dingtalk hook create handler
+
+* Add dingtalk hook edit handler
+
+* Add dingtalk router
+
+* Add dingtalk webhook task skeleton
+
+* Add markdown link formatter
+
+* Add Dingtalk ActionCard create wrapper
+
+* Add support for dingtalk create event payload
+
+* Add support for dingtalk delete event payload
+
+* Add support for dingtalk fork event payload
+
+* Add support for dingtalk push event payload
+
+* Add support for dingtalk issue event payload
+
+* Add support for dingtalk issue comment payload
+
+* Add support for dingtalk pull event payload
+
+* Add support for dingtalk release event payload",athurg,https://api.github.com/repos/gogs/gogs/git/commits/52f383381143264e93e33f991d483e63a3d9074c
+b16c12f67b6993e44820abb8222ad2b30b213898,cmd/admin: add subcommands for all admin dashboard actions (#4813),knedlsepp,https://api.github.com/repos/gogs/gogs/git/commits/b16c12f67b6993e44820abb8222ad2b30b213898
+ce7496aec97d00a055077301b83618f85cfb661d,"docker: allow setting UID and GID when running a container (#4776)
+
+* Allow setting the UID and GID when running a docker container via shadow
+
+* Disable password login via usermod (fix leaving user in insecure state)",robertbeal,https://api.github.com/repos/gogs/gogs/git/commits/ce7496aec97d00a055077301b83618f85cfb661d
+77c77fbd42a2cafcb31ecf042a94141a7ca31c98,"api: add endpoint /api/v1/user/orgs (#4835)
+
+* Add API endpoint /api/v1/user/orgs
+
+The difference between this endpoint and
+/api/v1/admin/users/<username>/orgs,
+is that here you're creating a repo with the `user`
+that corresponds to the API token you're using.
+
+* Extract duplicate API org creation",syndbg,https://api.github.com/repos/gogs/gogs/git/commits/77c77fbd42a2cafcb31ecf042a94141a7ca31c98
+ae4c4708ada4f470455906d632cbcfcf5c9a5c2e,"locale: update TRANSLATORS (#4866)
+
+Crowdin contributor",gholami-mohammad,https://api.github.com/repos/gogs/gogs/git/commits/ae4c4708ada4f470455906d632cbcfcf5c9a5c2e
+339fd9c5a4bd6048dee479b07ceb4b093ff4c326,"locale: fix English grammar for delete repository dialog (#4862)
+
+* fix typo in en-US delete dialog
+
+* fix typo in en-GB delete dialog
+
+* improve en-GB delete dialog language
+
+* improve en-US delete dialog language",33mhz,https://api.github.com/repos/gogs/gogs/git/commits/339fd9c5a4bd6048dee479b07ceb4b093ff4c326
+5260d70b19a255b8e5be6425c7d820392d66e53e,templates: fix typo in repo/home.tmpl (#4845),ryancyq,https://api.github.com/repos/gogs/gogs/git/commits/5260d70b19a255b8e5be6425c7d820392d66e53e
+f1465b6847d767a378517c584dc6993d1b010c3a,locale: fix the language name for zh_TW (#4807),yan12125,https://api.github.com/repos/gogs/gogs/git/commits/f1465b6847d767a378517c584dc6993d1b010c3a
+925c2a2ca2a00141ad62d06e27a656ab4a204fe2,"docker: symlink fixes (#4747)
+
+* Prevent circular links (symlinks) from being created:
+	* /data/gogs/log/log -> /data/gogs/log
+	* /data/gogs/data/data -> /data/gogs/data
+	* /data/git/git -> /data/git",gunzy83,https://api.github.com/repos/gogs/gogs/git/commits/925c2a2ca2a00141ad62d06e27a656ab4a204fe2
+67d67289c7e2aa5ed2a461275fa8c4bfcc847002,models: add utf8mb4 to connStr for mysql (#4878),m2nlight,https://api.github.com/repos/gogs/gogs/git/commits/67d67289c7e2aa5ed2a461275fa8c4bfcc847002
+3cba8778b21232b344fc35a4ff4397a70ac85eee,scripts: fix overextending of variable name (#4888),Androbin,https://api.github.com/repos/gogs/gogs/git/commits/3cba8778b21232b344fc35a4ff4397a70ac85eee
+ca874ba8c74d045b85bd54e6c808ad10937f9598,templates/repo: fix wrong branch url in branches view (#4902),kaajavi,https://api.github.com/repos/gogs/gogs/git/commits/ca874ba8c74d045b85bd54e6c808ad10937f9598
+f3e835219361bf0baa0d4693fed7066ebece0550,locale: update TRANSLATORS (#4908),feikname,https://api.github.com/repos/gogs/gogs/git/commits/f3e835219361bf0baa0d4693fed7066ebece0550
+2a8a293c7c6175106652ca8946b4a0a8b1a13650,pkg/tool: use identicon image as the default gravatar (#4934),Arnie97,https://api.github.com/repos/gogs/gogs/git/commits/2a8a293c7c6175106652ca8946b4a0a8b1a13650
+7faa2356d8e9b3266807d978d9c9eafdbf763182,pkg/context: add doctype to go-get=1 response (#4938),drahoslove,https://api.github.com/repos/gogs/gogs/git/commits/7faa2356d8e9b3266807d978d9c9eafdbf763182
+0bfce7aca495d72c9390142f436ac3fceb25ed97,"repo/commit: fix file commit history pagination (#4965)
+
+- The `commits_table.tmpl` pagination uses a `$.FileName` variable in
+  order to generate the next/previous URLs, but it seems like that
+  variable was no longer being populated in `renderCommits`.",douglaswth,https://api.github.com/repos/gogs/gogs/git/commits/0bfce7aca495d72c9390142f436ac3fceb25ed97
+68d22e78bf4831cfe6ea8d737e916fc845d7f7f0,"templates: update year in footer (#4966)
+
+Happy new year!",STayinloves,https://api.github.com/repos/gogs/gogs/git/commits/68d22e78bf4831cfe6ea8d737e916fc845d7f7f0
+c5728291ba60d60d0f63bce7572a9cd65a01064f,conf/gitignore: add PhpStorm and WebStorm (#4974),antkaz,https://api.github.com/repos/gogs/gogs/git/commits/c5728291ba60d60d0f63bce7572a9cd65a01064f
+f9c706e31bda08a0c25e86d26a0d5692c0cdeed6,templates/user/settings: fix delete email button (#4998),larryli,https://api.github.com/repos/gogs/gogs/git/commits/f9c706e31bda08a0c25e86d26a0d5692c0cdeed6
+e4f187cd3d7e7cbc69b1bdf9ec58b4191c67aa7d,"models: bug fix for query protected branches (#5054)
+
+Signed-off-by: Wendell Sun <iwendellsun@gmail.com>",xwjdsh,https://api.github.com/repos/gogs/gogs/git/commits/e4f187cd3d7e7cbc69b1bdf9ec58b4191c67aa7d
+8729a60c1dd17378df42f622fc189b6d47f384b7,"templates/user/auth/login: disable password autocomplete (#5068)
+
+As gogs can be linked with PAM it is recommended to disable the autocomplete on the password input.",adoreste,https://api.github.com/repos/gogs/gogs/git/commits/8729a60c1dd17378df42f622fc189b6d47f384b7
+199d67581a1c30e5b9380af6c9d63a9cb7320449,"templates/user/dashboard/issues: show labels to each issue (#4976)
+
+* add issue labels
+
+* remove hyperlink from issue label
+
+* wrap labels in right aligned span
+
+* put issues with div
+
+put the issue labels within a div so they don't interfere with the number of comments",JamesGKent,https://api.github.com/repos/gogs/gogs/git/commits/199d67581a1c30e5b9380af6c9d63a9cb7320449
+f4e4ea137445834677892889ee8101d62d8f5b32,"public: update notebookjs to 0.3.0 (#5084)
+
+Fixes #5077",rubenv,https://api.github.com/repos/gogs/gogs/git/commits/f4e4ea137445834677892889ee8101d62d8f5b32
+679147cd5d9d3184e32849512a8c2cd616074244,pkgr: update spec to build on Debian 9 (Stretch) (#5083),moepman,https://api.github.com/repos/gogs/gogs/git/commits/679147cd5d9d3184e32849512a8c2cd616074244
+51e087fd8731137c969f616bc90f383a2c2bff27,"repo: disallow web ui to delete protected branch after PR merged (#4803)
+
+* Disallow web ui to delete protected branch
+
+* Fix for branches not yet protected
+
+Had to change how error was handled. If a branch had not yet been protected the error would be generated.
+
+Reworked to start as false and then use the protected if it was found.",bayangan1991,https://api.github.com/repos/gogs/gogs/git/commits/51e087fd8731137c969f616bc90f383a2c2bff27
+6a185e94b94d807ac0d0d008e991cac49b784e28,repo/http: add CORS headers to allow clone/push from browser agents (#4970),wmhilton,https://api.github.com/repos/gogs/gogs/git/commits/6a185e94b94d807ac0d0d008e991cac49b784e28
+afbb31c05e1c0168f1fe19706f7ce33484138bf6,MISC: fix Mac OS X → macOS (#5168),Nicolapps,https://api.github.com/repos/gogs/gogs/git/commits/afbb31c05e1c0168f1fe19706f7ce33484138bf6
+eac5b48da09225040b42e918b6a0bd6178dc76c2,locale: Add myself to TRANSLATORS (#5177),changwoo,https://api.github.com/repos/gogs/gogs/git/commits/eac5b48da09225040b42e918b6a0bd6178dc76c2
+9387b79b981c268df4bbc97811b9d844d0799dec,templates: delete legacy file (#5180),rokuu,https://api.github.com/repos/gogs/gogs/git/commits/9387b79b981c268df4bbc97811b9d844d0799dec
+8df59c01d5d3d660dcff4251a0194092b8084337,public/css: fix file view responsiveness (#5169),florianwiech,https://api.github.com/repos/gogs/gogs/git/commits/8df59c01d5d3d660dcff4251a0194092b8084337
+45545e897caea97849e9179c6b207630665130b2,templates/user/dashboard: make page more concise for user's activity/issues/PR information (#5209),alimy,https://api.github.com/repos/gogs/gogs/git/commits/45545e897caea97849e9179c6b207630665130b2
+cd093a07a3b8e0c52c93682d325c5b44f9f2dd63,"templates/mail/auth: update copyright year (#5224)
+
+* Update activate.tmpl
+
+* Update activate_email.tmpl
+
+* Update register_notify.tmpl
+
+* Update reset_passwd.tmpl",Madzahttr,https://api.github.com/repos/gogs/gogs/git/commits/cd093a07a3b8e0c52c93682d325c5b44f9f2dd63
+73dbaefec50c4fc99a63c5be2891a1a34db18767,routes/user/setting: fix avatar email update error (#5245),wei,https://api.github.com/repos/gogs/gogs/git/commits/73dbaefec50c4fc99a63c5be2891a1a34db18767
+4c844081f3f635f454e1040a568dc03f1a427f58,"routes/repo: added deletion of an empty line at the end of file (#5261) (#5270)
+
+* Added deletion of an empty line at the end of file (#5261)
+
+Signed-off-by: Alexey Terentyev <axifnx@gmail.com>
+
+* Fix after feedback
+
+Signed-off-by: Alexey Terentyev <axifnx@gmail.com>",axifive,https://api.github.com/repos/gogs/gogs/git/commits/4c844081f3f635f454e1040a568dc03f1a427f58
+04b4431bc0981e17cb0c84e8a629eab25441b013,migrations: clean unlinked webhook and hook_tasks,naiba,https://api.github.com/repos/gogs/gogs/git/commits/04b4431bc0981e17cb0c84e8a629eab25441b013
+f9bc980b0b51844367305a347b6dbcb327c65677,api: correct pagination in repository search api (#5293),o-oops,https://api.github.com/repos/gogs/gogs/git/commits/f9bc980b0b51844367305a347b6dbcb327c65677
+cd71077c6acb52bf564ede19cf480fddfad72c05,"pull request: able to add custom commit description (#5276)
+
+* pull request merges now allow for custom commit messages
+
+* allow i18n on commit_message label
+
+* place label above textarea for commit message
+
+* rename commit message for pull requests into commit description and pass to git separately",ususdei,https://api.github.com/repos/gogs/gogs/git/commits/cd71077c6acb52bf564ede19cf480fddfad72c05
+436dd6c0a4549e09069193879046a2a202d6291e,routes/repo/setting: require autosize when repo/settings/options is rendered (#5315),s12chung,https://api.github.com/repos/gogs/gogs/git/commits/436dd6c0a4549e09069193879046a2a202d6291e
+87b229d280def1cd591a9a823b1b2b0bfc8e693e,"templates: add 'rel=noopener noreferrer' to <a> tags (#5319)
+
+Signed-off-by: cezar97 <cezar97@protonmail.com>",cezar97,https://api.github.com/repos/gogs/gogs/git/commits/87b229d280def1cd591a9a823b1b2b0bfc8e693e
+8bbf0293f5f894911bb1df2f0bb80da3bb8c9dcd,"webhook: add headers to support spring config server (#5325)
+
+Spring cloud config server dependency spring cloud config monitor looks for X-Github-Event condition PropertyPathEndpoint.class -> GithubPropertyPathNotificationExtractor.class if (""push"".equals(headers.getFirst(""X-Github-Event""))) {...}",PhaneendraGoutham,https://api.github.com/repos/gogs/gogs/git/commits/8bbf0293f5f894911bb1df2f0bb80da3bb8c9dcd
+66016b8499761460ccf3db99a4747ca87a50ff33,scripts: apply hardening for systemd service (#5332),khomutsky,https://api.github.com/repos/gogs/gogs/git/commits/66016b8499761460ccf3db99a4747ca87a50ff33
+c9bb33afc3ae35db21b26fd914bd80ca277a4e0d,repo: fix issue of fork repository no check the limit of users' repository (#5346),geekcomb,https://api.github.com/repos/gogs/gogs/git/commits/c9bb33afc3ae35db21b26fd914bd80ca277a4e0d
+1f247cf8139cb483276cd8dd06385a800ce9d4b2,routes: fix open redirect vulnerability #5364 (#5365),chromium1337,https://api.github.com/repos/gogs/gogs/git/commits/1f247cf8139cb483276cd8dd06385a800ce9d4b2
+3c227af508b085f9113c36892ce9c52b940761f9,"scripts: add NoNewPrivileges=true to systemd unit file (#5381)
+
+Also add comment about unsupported options in different systemd versions.",CRCinAU,https://api.github.com/repos/gogs/gogs/git/commits/3c227af508b085f9113c36892ce9c52b940761f9
+5caa7436d8f4b1c2c55bebcd251ea6905831e199,"gogs: remove app flags line (#5388)
+
+No meaning for this line",devfans,https://api.github.com/repos/gogs/gogs/git/commits/5caa7436d8f4b1c2c55bebcd251ea6905831e199
+5d4bb4d6f8cc296d5f23f0b520a5dc45d5051c23,"librejs.html: fix semantic version (#5404)
+
+currently incompatible with librejs",PiPc2,https://api.github.com/repos/gogs/gogs/git/commits/5d4bb4d6f8cc296d5f23f0b520a5dc45d5051c23
+068e6ce2c995445f0ce1c10ee11816600b12a5fd,docker: remove chown the git repos on startup (refs #4996). (#5390),rossigee,https://api.github.com/repos/gogs/gogs/git/commits/068e6ce2c995445f0ce1c10ee11816600b12a5fd
+54e9442a14af0064ed75d5a4728eebc411e489c1,docker: fix aarch64 dockerfile make docker image error (#5411),leonunix,https://api.github.com/repos/gogs/gogs/git/commits/54e9442a14af0064ed75d5a4728eebc411e489c1
+798798f7ab00ae3e43b40253cf7ea388662b539d,"templates: hide dashboard org creation when not allowed (#5393)
+
+The admin -> DISABLE_REGULAR_ORG_CREATION setting
+hides organization creation in the header, but not
+in the dashboard.",jakobandersen,https://api.github.com/repos/gogs/gogs/git/commits/798798f7ab00ae3e43b40253cf7ea388662b539d
+68a65798520556ff7130d7e7e53bd260d890bb7c,"login_source: add default authentication switch (#5338)
+
+* Add default Authentication Switch.
+
+* adjust the code accroding to reviews
+
+* #1. Remove redudant logic.
+#2, Fix a bug in ""Edit"" panel.
+
+* Remove unused logic
+
+* Fix local authentication files are not flushed.
+
+* refactor according to review.",luhaixun,https://api.github.com/repos/gogs/gogs/git/commits/68a65798520556ff7130d7e7e53bd260d890bb7c
+044d359a7eb1bd80eded2fc9af1e0807b209c6ee,docker: grammar fix (#5492),hopegolden,https://api.github.com/repos/gogs/gogs/git/commits/044d359a7eb1bd80eded2fc9af1e0807b209c6ee
+3d117b89644013d7cab3ca23e227d61603afe1ca,"Dockerfile.aarch64hub: install shadow package (#5481)
+
+the shadow package contains the usermod(8) utility which is used by
+start.sh and finalize.sh to configure the git user",masenf,https://api.github.com/repos/gogs/gogs/git/commits/3d117b89644013d7cab3ca23e227d61603afe1ca
+f4630f9044a2d00abb4cf20902ea37b99ffff64d,public/css: add 'overflow-wrap: break-word' to dashboard news feeds (#5507),ajruckman,https://api.github.com/repos/gogs/gogs/git/commits/f4630f9044a2d00abb4cf20902ea37b99ffff64d
+81effe674dfe5d0bfd242112ffa61051a20580e8,"templates/user/profile: added rel=""me"" to website link on user profile (#5485)
+
+* Added rel=""me"" to website link on user profile
+
+See issue #5008
+
+* Added `nofollow` as per feedback",federicoculloca,https://api.github.com/repos/gogs/gogs/git/commits/81effe674dfe5d0bfd242112ffa61051a20580e8
+6c90d12a0c1e70b5627eaea160e209b0ba8aa646,"routes/repo/issue: implement issue pre-filling (#5521)
+
+Signed-off-by: Charles Kenney <charlesc.kenney@gmail.com>",Charliekenney23,https://api.github.com/repos/gogs/gogs/git/commits/6c90d12a0c1e70b5627eaea160e209b0ba8aa646
+084d9e0009f9238c349ee8460d0ea82efaa9830c,templates/user/dashboard: include 'org' query parameter in new mirror URL (#5534),sj26,https://api.github.com/repos/gogs/gogs/git/commits/084d9e0009f9238c349ee8460d0ea82efaa9830c
+9079fb6a0df75e351800c434cdc226fd8bc47e71,pkg/markup: support data URL of base64 encoded images (#5391),Nikeron,https://api.github.com/repos/gogs/gogs/git/commits/9079fb6a0df75e351800c434cdc226fd8bc47e71
+74f26bb6677ae2c38ccaa135688b95929a35b6a2,"public/less: fix layout misalignment in Firefox for Linux (#5317)
+
+* Update _repository.less
+
+* Update _repository.less",sq787,https://api.github.com/repos/gogs/gogs/git/commits/74f26bb6677ae2c38ccaa135688b95929a35b6a2
+5702e4bc2483ab976a1391f7517f5187527d9635,"pkg/mailer: support plaintext alt for HTML emails (#5568)
+
+* Added option to use plain text alt to HTML emails. Should make the messages friendlier for spam filters.
+
+* Check that plaintext conversion worked before adding the HTML alt
+
+* Add description of ADD_PLAIN_TEXT_ALT to app.ini
+
+* Added comment clarifying html AddAlternative",guysmoilov,https://api.github.com/repos/gogs/gogs/git/commits/5702e4bc2483ab976a1391f7517f5187527d9635
+f0aeef82a1f64b30571706df5688dff0b42481c8,README: add LunaNode cloud deployment URL (#5584),uakfdotb,https://api.github.com/repos/gogs/gogs/git/commits/f0aeef82a1f64b30571706df5688dff0b42481c8
+2c3e2b701e012294d457937e6bfbffd63dd8ae4f,conf/gitignore: add Unreal Engine (#5623),WhoBrokeTheBuild,https://api.github.com/repos/gogs/gogs/git/commits/2c3e2b701e012294d457937e6bfbffd63dd8ae4f
+0bfa981e701f528df686b0727f8ca6d239f26424,README: introduce a  deployment method which using helm (#5638),zouyee,https://api.github.com/repos/gogs/gogs/git/commits/0bfa981e701f528df686b0727f8ca6d239f26424
+a971910723770217f46d31e907c22992a104c988,"README: fix tutorial links (#5641)
+
+* Update README_ZH.md
+
+* Update README.md",vgxbj,https://api.github.com/repos/gogs/gogs/git/commits/a971910723770217f46d31e907c22992a104c988
+bd13df972e2737911f11ff62ad6704a82e833a4b,"docker: remove deprecated option (#5650)
+
+This line has been removed in respect to the OpenSSH spec update with Version 7.5 (https://www.openssh.com/txt/release-7.5)",mvrahden,https://api.github.com/repos/gogs/gogs/git/commits/bd13df972e2737911f11ff62ad6704a82e833a4b
+0aec2df74fb87d776466a7be751a8ddae51df0f8,"models/repo: idiomatic English (#5678)
+
+* Idiomatic English
+
+* Even better English",Tekaoh,https://api.github.com/repos/gogs/gogs/git/commits/0aec2df74fb87d776466a7be751a8ddae51df0f8
+044a45db2e00e89a5c5481c6de794c92a9d6cf45,"docker: prevent Gogs from running a recursive chown on each boot (#5724)
+
+The chown command in the setup file of Gogs is supposed to be executed just once. As soon as the app.ini file exists, this step should be skipped. However, the test was checking if a directory with the name app.ini exists instead of a file. Therefore, the chown command was executed on each boot.",spieker,https://api.github.com/repos/gogs/gogs/git/commits/044a45db2e00e89a5c5481c6de794c92a9d6cf45
+798636c95b207fc97a785ce545d7af7197361447,Include the Sha in webhook create payloads. (#5689),Beanow,https://api.github.com/repos/gogs/gogs/git/commits/798636c95b207fc97a785ce545d7af7197361447
+dc13eb6df0655ba9bb61669e9939f21d23ef891d,"pkg/context: Render live notice banner from file (#5750)
+
+* pkg/context: Render live notice banner from file
+
+- Contexter checks if there is a file called 'notice' under the
+GOGS_CUSTOM directory and loads it.
+- The first line is treated as a header/title and everything else as the
+message body.
+- Message body is rendered as HTML (tags allowed).
+- File size is limited to 1024 bytes.
+- File mime type must be text.
+- Notice is rendered in head.tmpl for all pages.
+
+* pkg/context: Rename maxlen to maxSize
+
+Rename maxlen to maxSize for the maximum size (in bytes) of the notice
+file to render.
+Define the variable when needed to avoid instantiating it when the file
+doesn't exist.
+
+Co-Authored-By: ᴊ. ᴄʜᴇɴ <u@gogs.io>
+
+* pkg/context: Package name after license header
+
+Co-Authored-By: ᴊ. ᴄʜᴇɴ <u@gogs.io>
+
+* pkg/context: Don't print 'Found notice file'
+
+Becomes too verbose as it prints on every page load when the file
+exists.
+
+* pkg/context: Match project conventions
+
+Import order and grouping
+
+Variable names:
+    fileloc -> fpath
+    fp -> f
+    finfo -> fi
+
+* pkg/context: Remove empty line
+
+Co-Authored-By: ᴊ. ᴄʜᴇɴ <u@gogs.io>
+
+* pkg/context: Render notice as markdown
+
+Server notice file should be named 'notice.md'.  The contents of the
+file are treated as markdown and rendered as a warning message at the
+top of every page.
+
+* Update notice.go
+
+
+Co-authored-by: ᴊ. ᴄʜᴇɴ <u@gogs.io>",achilleas-k,https://api.github.com/repos/gogs/gogs/git/commits/dc13eb6df0655ba9bb61669e9939f21d23ef891d
+e6bddd3ed2814a770d08490b7c326e72e291f83b,"packager.io: fix and update build files (#5760)
+
+* Update pkgr distros and dependencies
+
+* Configure govendor for heroku builds",half-duplex,https://api.github.com/repos/gogs/gogs/git/commits/e6bddd3ed2814a770d08490b7c326e72e291f83b
+591a05caa3fb8e3e7b9e5a86887d4d7532edaaaa,Update TRANSLATORS (#5774),mathiasrw,https://api.github.com/repos/gogs/gogs/git/commits/591a05caa3fb8e3e7b9e5a86887d4d7532edaaaa
+04de9778553adc376d43db21d40a6b93808c9913,"dockerfile: add rsync (#5773)
+
+* Add rsync to docker.
+
+Add rsync to docker.
+Rsync is nearly a necessity to optimize backup inside Openshift container.
+Using TAR (default without Rsync), the process of external backup constantly stops at the middle.
+
+* Add rsync to docker
+
+Add rsync to docker.
+Rsync is nearly a necessity to optimize backup inside Openshift container.
+Using TAR (default without Rsync), the process of external backup constantly stops at the middle.
+
+* Add rsync to docker
+
+Add rsync to docker.
+Rsync is nearly a necessity to optimize backup inside Openshift container.
+Using TAR (default without Rsync), the process of external backup constantly stops at the middle.
+
+* Add rsync to docker
+
+Add rsync to docker.
+Rsync is nearly a necessity to optimize backup inside Openshift container.
+Using TAR (default without Rsync), the process of external backup constantly stops at the middle.",pabloalcantara,https://api.github.com/repos/gogs/gogs/git/commits/04de9778553adc376d43db21d40a6b93808c9913
+9571a9b53d6c87457370d8c65017e2919b4f5d79,docker: change how to check whether initial or not (#5766),midoridge,https://api.github.com/repos/gogs/gogs/git/commits/9571a9b53d6c87457370d8c65017e2919b4f5d79
+2f0cdfd564f5af6114797bd6596dea46c9c859c8,scripts/mysql: fix compatibility issue (#5786),Shiki-H,https://api.github.com/repos/gogs/gogs/git/commits/2f0cdfd564f5af6114797bd6596dea46c9c859c8
+ed2adc702504cf1cb7c70515c650e66959f26932,templates/mail: modify the year at the footer (#5793),zhangyiqiu,https://api.github.com/repos/gogs/gogs/git/commits/ed2adc702504cf1cb7c70515c650e66959f26932
+cab2b9687134aa886ace3323b06a34845b07bd3c,ldap: log two non-errors on Trace level (#5804),zwets,https://api.github.com/repos/gogs/gogs/git/commits/cab2b9687134aa886ace3323b06a34845b07bd3c
+ca084ab1a2edf2d02c3c7cb2029e6502cf8f9918,scripts: ddwrt / entware init script (#5795),mb-0,https://api.github.com/repos/gogs/gogs/git/commits/ca084ab1a2edf2d02c3c7cb2029e6502cf8f9918
+11f79a209545c53adc188197595e57f81de502e3,api/v1: fix status response in checkUserFollowing (#5812),sauyon,https://api.github.com/repos/gogs/gogs/git/commits/11f79a209545c53adc188197595e57f81de502e3
+ffbb0f6a60a000e42f26fd1e08925de1f2ff90be,"token: disallow multiple tokens with same name (#5820)
+
+* api/v1: don't allow multiple tokens with same name
+
+Fail with 422 Unprocessable Entity if the token name
+already exist
+
+ref: https://github.com/gogs/gogs/issues/5587
+
+* Move new token error type to models/errors/token
+
+* Remove ""useless"" ListAccessTokensByName function
+
+* Add an i18n entry for token_name_exists",frodeaa,https://api.github.com/repos/gogs/gogs/git/commits/ffbb0f6a60a000e42f26fd1e08925de1f2ff90be
+dbc66d0405a83bdef9a12ca00399ede7cb947946,"tls: update default CurvePreferences and CipherSuites (#5850)
+
+* Enable X25519 curve and reorder curve list to improve key exchange performance
+* Enable ECDSA ciphers for EC certs
+* Enable CHACHA20_POLY1305 ciphers
+* Disable RSA key exchange algorithm which don't provide PFS
+* Disable non-AEAD ciphers
+
+Signed-off-by: Kasei Wang <kasei@kasei.im>",kaseiwang,https://api.github.com/repos/gogs/gogs/git/commits/dbc66d0405a83bdef9a12ca00399ede7cb947946
+7d9f408d3acc2fce65021d6e6a78df3b44e7b73d,"public: update highlights.js to 9.16.2 (#5856)
+
+* updated the highlight.js plugin
+
+* added some explicit mappings for syntax highlighting",maschinensehen,https://api.github.com/repos/gogs/gogs/git/commits/7d9f408d3acc2fce65021d6e6a78df3b44e7b73d
+1b929e3afce638b808c30074ec0461c72e636abc,repo: fix stale webhook documentation link (#5883),kevingentile,https://api.github.com/repos/gogs/gogs/git/commits/1b929e3afce638b808c30074ec0461c72e636abc
+76b87b1bbd9dcbb1adf0192b1168905565fea774,"repo: use editorconfig v2 (#5888)
+
+* repo: editorconfig v2
+
+Signed-off-by: Yoan Blanc <yoan@dosimple.ch>
+
+* fixup! repo: editorconfig v2
+
+Signed-off-by: Yoan Blanc <yoan@dosimple.ch>
+
+* Update repo.go
+
+* Update repo.go
+
+Co-authored-by: Unknwon <u@gogs.io>",greut,https://api.github.com/repos/gogs/gogs/git/commits/76b87b1bbd9dcbb1adf0192b1168905565fea774
+a0342d95278702ae3802723087f41cd1876a8620,"repo: able fill pull request title by template from md file (#5901)
+
+* able fill pull request title by template from md file
+
+* fix: unusedresult: result of fmt.Sprintf call not used (from govet)
+
+* fix: remove import fmt -> not used
+
+* after review / PullRequestTitleTemplateCandidates moved to after line 39
+
+* Update pull.go
+
+* Update pull.go
+
+Co-authored-by: ᴜɴᴋɴᴡᴏɴ <u@gogs.io>",ivanbogomoloff,https://api.github.com/repos/gogs/gogs/git/commits/a0342d95278702ae3802723087f41cd1876a8620
+465be9b16ee331c258a5a4fa29921953e64e5266,"[ImgBot] Optimize images (#5913)
+
+*Total -- 2,264.72kb -> 2,093.92kb (7.54%)
+
+/public/plugins/pdfjs-1.4.20/web/images/annotation-noicon.svg -- 0.15kb -> 0.08kb (46.84%)
+/public/img/emoji/back.png -- 3.97kb -> 2.46kb (37.95%)
+/public/img/gogs-large-resize.png -- 80.67kb -> 54.16kb (32.86%)
+/public/plugins/pdfjs-1.4.20/web/images/annotation-note.svg -- 1.02kb -> 0.69kb (32.08%)
+/public/img/404.png -- 8.43kb -> 5.94kb (29.47%)
+/public/img/500.png -- 9.76kb -> 7.27kb (25.47%)
+/public/img/favicon.png -- 28.47kb -> 21.58kb (24.21%)
+/public/plugins/pdfjs-1.4.20/web/images/annotation-check.svg -- 0.41kb -> 0.31kb (23.37%)
+/public/plugins/pdfjs-1.4.20/web/images/annotation-newparagraph.svg -- 0.42kb -> 0.32kb (23%)
+/public/img/gogs.svg -- 14.66kb -> 11.34kb (22.66%)
+/public/plugins/pdfjs-1.4.20/web/images/annotation-insert.svg -- 0.40kb -> 0.31kb (22.55%)
+/public/img/gogs-lg.png -- 164.32kb -> 133.07kb (19.02%)
+/public/img/dingtalk.png -- 30.02kb -> 24.91kb (17.02%)
+/public/plugins/pdfjs-1.4.20/web/images/annotation-comment.svg -- 0.86kb -> 0.74kb (14.72%)
+/public/img/avatar_default.png -- 502.04kb -> 442.97kb (11.77%)
+/public/img/emoji/black_circle.png -- 2.31kb -> 2.07kb (10.68%)
+/public/plugins/pdfjs-1.4.20/web/images/annotation-paragraph.svg -- 1.12kb -> 1.00kb (10.15%)
+/public/plugins/pdfjs-1.4.20/web/images/annotation-help.svg -- 2.12kb -> 1.96kb (7.29%)
+/public/plugins/pdfjs-1.4.20/web/images/annotation-key.svg -- 1.42kb -> 1.32kb (6.68%)
+/public/assets/octicons-4.3.0/octicons.svg -- 43.89kb -> 41.59kb (5.23%)
+/public/img/emoji/envelope.png -- 1.62kb -> 1.53kb (5.08%)
+/public/css/themes/default/assets/fonts/icons.svg -- 381.68kb -> 369.58kb (3.17%)
+/public/css/themes/default/assets/fonts/outline-icons.svg -- 104.69kb -> 101.59kb (2.96%)
+/public/css/themes/default/assets/fonts/brand-icons.svg -- 495.73kb -> 487.61kb (1.64%)
+/public/img/emoji/page_facing_up.png -- 2.13kb -> 2.09kb (1.56%)
+/public/assets/font-awesome-4.6.3/fonts/fontawesome-webfont.svg -- 382.44kb -> 377.43kb (1.31%)
+
+Signed-off-by: ImgBotApp <ImgBotHelp@gmail.com>
+
+Co-authored-by: Imgbot <help@imgbot.net>",imgbot[bot],https://api.github.com/repos/gogs/gogs/git/commits/465be9b16ee331c258a5a4fa29921953e64e5266
+cf3d55fa10f9b16d0ba996f8129f50743b2cd4ad,"api: support getting repository Git tree (#5934) (#5937)
+
+* add basic git repository tree api (#5934)
+
+This PR adds the tree  api endpoint to gogs api:
+`GET/repos/:owner/:repo/git/trees/:tree_sha`
+
+This new api endpoint that is being added is in conformance to
+the GitHub REST API v3 specification. Documentation can be found
+here: developer.github.com/v3/git/trees/#get-a-tree
+
+For a given user, repo and sha value, this api (currently) returns
+a single tree using the SHA1 value for that tree.
+
+- Recursive implementation is yet to be implemented.
+- Creating a Tree using POST is yet to be implemented.
+
+Example curl:
+
+```
+
+l curl -H ""Authorization: token REDACTED"" http://localhost:3000/api/v1/repos/root/testrepo/git/trees/c59441ded1549b149def0d4c54594d31a7f3718f -X GET  | jq .
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   940  100   940    0     0  12034      0 --:--:-- --:--:-- --:--:-- 12051
+
+[
+  {
+    ""sha"": ""c59441ded1549b149def0d4c54594d31a7f3718f"",
+    ""tree"": [
+      {
+        ""mode"": ""120000"",
+        ""path"": ""/home/bharatnc/gogs-repositories/root/testrepo.git"",
+        ""sha"": ""472ac2361b65136b393d652de25341e2ea44f299"",
+        ""size"": 1077,
+        ""type"": ""blob"",
+        ""url"": ""http://localhost:3000/api/v1/repos/root/testrepo/git/trees/472ac2361b65136b393d652de25341e2ea44f299""
+      },
+      {
+        ""mode"": ""120000"",
+        ""path"": ""/home/bharatnc/gogs-repositories/root/testrepo.git"",
+        ""sha"": ""70fcb456d436f08462602f26df6fb7e167e7a916"",
+        ""size"": 12,
+        ""type"": ""blob"",
+        ""url"": ""http://localhost:3000/api/v1/repos/root/testrepo/git/trees/70fcb456d436f08462602f26df6fb7e167e7a916""
+      },
+      {
+        ""mode"": ""120000"",
+        ""path"": ""/home/bharatnc/gogs-repositories/root/testrepo.git"",
+        ""sha"": ""092c58d4b63df5779a4d020b1fdbb762421bbb4f"",
+        ""size"": 380,
+        ""type"": ""blob"",
+        ""url"": ""http://localhost:3000/api/v1/repos/root/testrepo/git/trees/092c58d4b63df5779a4d020b1fdbb762421bbb4f""
+      }
+    ],
+    ""url"": ""http://localhost:3000/api/v1/repos/root/testrepo/git/trees/c59441ded1549b149def0d4c54594d31a7f3718f""
+  }
+]
+
+```
+
+* remove vertical space
+
+* make go.mod to be same as in master
+
+* rename structs to sound better
+
+* simplify expressions and fix error msg
+
+* Update tree.go
+
+* Update tree.go
+
+* display file name instead of repo path
+
+* Update tree.go
+
+Co-authored-by: ᴜɴᴋɴᴡᴏɴ <u@gogs.io>",bharatnc,https://api.github.com/repos/gogs/gogs/git/commits/cf3d55fa10f9b16d0ba996f8129f50743b2cd4ad
+40214ef109fda6d0ca1e7cc188cbaa3976c1e194,"public: fix jquery3.x syntax error (#5951)
+
+$.post().success -> $.post().done",g-u-a-n,https://api.github.com/repos/gogs/gogs/git/commits/40214ef109fda6d0ca1e7cc188cbaa3976c1e194

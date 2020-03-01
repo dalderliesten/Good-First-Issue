@@ -1,0 +1,5 @@
+Issue Description,Assignees to the Issue,Link
+[Feature]: page.goto(URL) no longer works,,https://github.com/microsoft/playwright/issues/1006
+[Feature] - Delete a certain cookie instead of clear all cookies,,https://github.com/microsoft/playwright/issues/742
+Add real-world examples,,https://github.com/microsoft/playwright/issues/660
+Missing a few device defs for landscape variants,,https://github.com/microsoft/playwright/issues/606

@@ -1,0 +1,637 @@
+First Commit Hash (SHA),Commit Message,Author (Github Name),Link to Commit
+2403f14853adc9a6b068b409e214326ab26f1ca3,Initial commit,briannesbitt,https://api.github.com/repos/briannesbitt/Carbon/git/commits/2403f14853adc9a6b068b409e214326ab26f1ca3
+bc44c2bc6730aa0e9f7f9777a633a0ad613bfa36,Fixed typos,pborreli,https://api.github.com/repos/briannesbitt/Carbon/git/commits/bc44c2bc6730aa0e9f7f9777a633a0ad613bfa36
+e36ffcc473f47829440e2ea23d5b4d16ef55be87,implement __isset,flevour,https://api.github.com/repos/briannesbitt/Carbon/git/commits/e36ffcc473f47829440e2ea23d5b4d16ef55be87
+72f3813ec3fd16bf07c154fdcff4ad16ac9c5c45,Use DateTime instead of always referring to its fully qualified name,Anahkiasen,https://api.github.com/repos/briannesbitt/Carbon/git/commits/72f3813ec3fd16bf07c154fdcff4ad16ac9c5c45
+992e4ae006010df2bd3ba9358d1f95f1f5ae0587,"Update Carbon.php
+
+Really faster (no multiplication, no array explode operation) and easier diffInSeconds",lucasmichot,https://api.github.com/repos/briannesbitt/Carbon/git/commits/992e4ae006010df2bd3ba9358d1f95f1f5ae0587
+6e4c7445a3ba0c5d8d762dfa7507f6f9483ba1bf,Added to day of week modifiers. startOfWeek() & endOfWeek(),aloha,https://api.github.com/repos/briannesbitt/Carbon/git/commits/6e4c7445a3ba0c5d8d762dfa7507f6f9483ba1bf
+51f9c39cd23ed3239c6786b68fc4463f620048ef,Carbon::parse PHPDoc @return added,skrabadiloseidon,https://api.github.com/repos/briannesbitt/Carbon/git/commits/51f9c39cd23ed3239c6786b68fc4463f620048ef
+b9188951af08bdead5331459af1fd6096d81fed1,added test aid for relative dates,nicholas-eden,https://api.github.com/repos/briannesbitt/Carbon/git/commits/b9188951af08bdead5331459af1fd6096d81fed1
+5fa0c4abd7111ba62f78e03ee94eee75e1dc528a,"Added $local, checks if the timezone is local",semalead,https://api.github.com/repos/briannesbitt/Carbon/git/commits/5fa0c4abd7111ba62f78e03ee94eee75e1dc528a
+017d6b746d35f9923468fd57952349f0702db884,"default string format setter, fixes #55",cviebrock,https://api.github.com/repos/briannesbitt/Carbon/git/commits/017d6b746d35f9923468fd57952349f0702db884
+2c70b6eefabadd65399bf47c7f80d567cae14b97,"Added isSameDay
+
+Checks if a date is the same day as a passed date.",enkelmedia,https://api.github.com/repos/briannesbitt/Carbon/git/commits/2c70b6eefabadd65399bf47c7f80d567cae14b97
+d58947cf2bfd9f701dc17b7aeeb4ba88d1a4a34d,"Timezone tests changed to take into account daylight saving time. 2 tests were failing, because offset between UTC and London timezone is not constant due to DST(0 with DST off, 1 with DST on).",jan-j,https://api.github.com/repos/briannesbitt/Carbon/git/commits/d58947cf2bfd9f701dc17b7aeeb4ba88d1a4a34d
+f8fb92fe96020e0446ca5169615b9acc1f03195e,"Added getter for weekOfMonth. Returns the occurence of the day of the week within the month, e.g. returns 2 if the date is the second Friday in the month.",itised,https://api.github.com/repos/briannesbitt/Carbon/git/commits/f8fb92fe96020e0446ca5169615b9acc1f03195e
+ef72808f5e9715be91cefd9d3c8ffe05bdc3f9fb,Fixed issue with isPast() returning true for now(),RyanNielson,https://api.github.com/repos/briannesbitt/Carbon/git/commits/ef72808f5e9715be91cefd9d3c8ffe05bdc3f9fb
+a0706156f591286cc0eac07a477864a94b7d9778,Updated testing,GrahamCampbell,https://api.github.com/repos/briannesbitt/Carbon/git/commits/a0706156f591286cc0eac07a477864a94b7d9778
+015d4f9680f0e1d528a2e4ba412b7f7003681d5b,"Add new diffInDaysFiltered method to provide functionality to calculate the difference, in days, between two dates while filtering out specific days.
+Add diffInWeekdays() and diffInWeekendDays() methods to provide easy access to calculate week day and weekend diffs.",m4tthumphrey,https://api.github.com/repos/briannesbitt/Carbon/git/commits/015d4f9680f0e1d528a2e4ba412b7f7003681d5b
+0fefab57614e26e02a16efbbac5fcacbb971d529,"Remove wrong default parameter value in formatLocalized()
+
+This value did not work, as it is not a strftime() format.
+Introduced in #121, seems to be a leftover.",vlakoff,https://api.github.com/repos/briannesbitt/Carbon/git/commits/0fefab57614e26e02a16efbbac5fcacbb971d529
+af813fb97a882252c990c80f87b8acd4b1a933ae,use install sections for composer setup in .travis.yml,jrobeson,https://api.github.com/repos/briannesbitt/Carbon/git/commits/af813fb97a882252c990c80f87b8acd4b1a933ae
+67adf0e7903b5c0f72d5fcc8bc9f80a1d4f185ce,"Update Carbon.php
+
+Adding strict comparisons for the month/day checks.",gayanhewa,https://api.github.com/repos/briannesbitt/Carbon/git/commits/67adf0e7903b5c0f72d5fcc8bc9f80a1d4f185ce
+e24ef5c6c048dfd3ebb8178c5f22908fc53ec05b,Update Carbon.php,tunaabutbul,https://api.github.com/repos/briannesbitt/Carbon/git/commits/e24ef5c6c048dfd3ebb8178c5f22908fc53ec05b
+ebd417031294e3af9055cacffa61dba1da82c53b,"Updating README
+
+Added a bit more information to the install procedure, since it was using an uppercase `Carbon` which breaks some of composer's new tooling and added a note for users to avoid using `*`",rdohms,https://api.github.com/repos/briannesbitt/Carbon/git/commits/ebd417031294e3af9055cacffa61dba1da82c53b
+4e84da18481a1bd9b385c4e2ad5dfcfa994d98e0,formatLocalized now respects the timezone assigned to date object,php-workx,https://api.github.com/repos/briannesbitt/Carbon/git/commits/4e84da18481a1bd9b385c4e2ad5dfcfa994d98e0
+1053c795353ad17485eb8a4ebb04fb2b23ea6100,Added function diffInHoursFiltered to filter a Date period by hours,antoniofrignani,https://api.github.com/repos/briannesbitt/Carbon/git/commits/1053c795353ad17485eb8a4ebb04fb2b23ea6100
+7f2b9f779263bbbeb93c929c111b32d238c96cf0,"Added optional 2nd parameter to diffForHumans to remove relative modifier
+
+When set to true, it modifies the string to only contain the
+human-readable time difference by omitting modifiers ""ago"", ""from now"",
+""before"", and ""after""",smazurov,https://api.github.com/repos/briannesbitt/Carbon/git/commits/7f2b9f779263bbbeb93c929c111b32d238c96cf0
+0a29ee2f848b5f933c2e90489a4293e26ebd44bf,"Add yearIso property
+
+To get the ISO-8601 year number.",barryvdh,https://api.github.com/repos/briannesbitt/Carbon/git/commits/0a29ee2f848b5f933c2e90489a4293e26ebd44bf
+6d3b000eda3a1992bb2b136452ba7638eb2bc443,Applying fix in tests to get them passing - see Issue #237,tshelburne,https://api.github.com/repos/briannesbitt/Carbon/git/commits/6d3b000eda3a1992bb2b136452ba7638eb2bc443
+dfc3f34b94d02d9e6bf0ea06cbcf11385962898a,spelling: occurance => occurence,martinlindhe,https://api.github.com/repos/briannesbitt/Carbon/git/commits/dfc3f34b94d02d9e6bf0ea06cbcf11385962898a
+dcced3e5aa34af16c88bd53b94acac031cfb27de,added German translation files,hohl,https://api.github.com/repos/briannesbitt/Carbon/git/commits/dcced3e5aa34af16c88bd53b94acac031cfb27de
+0f13876184f8c1ec16732e03d68ec024b4281020,"Ternary expression
+
+If you use ternary expression, it can be two in one.",kylekatarnls,https://api.github.com/repos/briannesbitt/Carbon/git/commits/0f13876184f8c1ec16732e03d68ec024b4281020
+120bd2f8fee2380e00c201adceef05456d85e797,italian translation,flinux,https://api.github.com/repos/briannesbitt/Carbon/git/commits/120bd2f8fee2380e00c201adceef05456d85e797
+be533cbe780156173ddccb247af259e6dea25335,Add danish translation,Herlevsen,https://api.github.com/repos/briannesbitt/Carbon/git/commits/be533cbe780156173ddccb247af259e6dea25335
+170ffb628b3efd427de5785769dfb2b8f7e0f056,Added Brazilian Portuguese localization,paulofreitas,https://api.github.com/repos/briannesbitt/Carbon/git/commits/170ffb628b3efd427de5785769dfb2b8f7e0f056
+ff734cb14c32dc82de004a4fee469ddc0b9da9a8,"Dutch translation
+
+Do you also want me to create the tests?",Jeroen-G,https://api.github.com/repos/briannesbitt/Carbon/git/commits/ff734cb14c32dc82de004a4fee469ddc0b9da9a8
+3379138899098c2313f84fe26ee18ab9d103b0f1,"Update and rename src/Carbon/Lang to src/Carbon/Lang/tr.php
+
+Turkish translation",barantr90,https://api.github.com/repos/briannesbitt/Carbon/git/commits/3379138899098c2313f84fe26ee18ab9d103b0f1
+7a572aebf78bfc4a44cee1b07ccd8e9e137d209a,"Update Carbon.php
+
+I think it's easy for non english people to call addYear instead of addYears.
+In my case, I wrongly wrote addYear(2). 
+addYear(2) actually add one year. 
+
+I think should raise an exception or better, work as an alias for addYears.",angelomaragna,https://api.github.com/repos/briannesbitt/Carbon/git/commits/7a572aebf78bfc4a44cee1b07ccd8e9e137d209a
+39df75c309f0798c791b752c72ba6e2ad510c657,"Clean up annotations
+
+IDE (eg. PHPStorm) annotation validator reports: Field with the same name is already defined in this class.
+Its due annotation has 2 definitions (read-only and write-only) pointing to the same property, which is not correct.",jaymecd,https://api.github.com/repos/briannesbitt/Carbon/git/commits/39df75c309f0798c791b752c72ba6e2ad510c657
+2ccb29a0d9cba3bfc89d56b0f65aa81e84fab4e9,Korean translation added. Korean does not have plural,appkr,https://api.github.com/repos/briannesbitt/Carbon/git/commits/2ccb29a0d9cba3bfc89d56b0f65aa81e84fab4e9
+a15b86d14924c2c28af7398af708282d3746474f,Create lt.php,rolka,https://api.github.com/repos/briannesbitt/Carbon/git/commits/a15b86d14924c2c28af7398af708282d3746474f
+4a24077f3dafc248dd505885320f389f886a7975,Added ability to pass offset in hours instead of timezone name,slik,https://api.github.com/repos/briannesbitt/Carbon/git/commits/4a24077f3dafc248dd505885320f389f886a7975
+598199d59f6f4808f320f0a73c0056451ee6b3b1,"Update Carbon.php: Update minValue() and maxValue() for 64bit systems
+
+On 64 bit systems `maxValue()` and `minValue` produce akward dates (see end for examples) that can not be used for database or html date input fields (see bottom for examples).
+
+I propose to use more common max and min values in the case, that integer values are 64 bit, ie '1001-01-01 00:00:00' to '9999-12-31 23:59:59'.
+
+It is possible to use these values for an html date input field as well as in MySQL for DATE, DATETIME ([MySQL 5.0 Reference Manual: 11.3.1 The DATE, DATETIME, and TIMESTAMP Types](https://dev.mysql.com/doc/refman/5.0/en/datetime.html)). MySQL TIMESTAMP only supports a range of '1970-01-01 00:00:01' UTC to '2038-01-19 03:14:07' UTC.
+
+Examples
+=======
+
+64 bit
+------
+64 bit `maxValue()`  
+
+    //PHP_INT_MAX = 9223372036854775807
+    Carbon {
+      +""date"": ""-292277022657-01-27 09:29:51.000000""
+      +""timezone_type"": 3
+      +""timezone"": ""Europe/Vienna""
+    }
+    
+64 bit `minValue()`    
+
+    //~PHP_INT_MAX = 9223372036854775807 (same as PHP_INT_MAX)
+    Carbon {
+      +""date"": ""-292277022657-01-27 09:29:52.000000""
+      +""timezone_type"": 3
+      +""timezone"": ""Europe/Vienna""
+    }
+    
+32 bit
+------
+32 bit `maxValue()`
+
+    //PHP_INT_MAX = 4294967295
+    Carbon {
+      +""date"": ""2106-02-07 07:28:15.000000""
+      +""timezone_type"": 3
+      +""timezone"": ""Europe/Vienna""
+    }
+    
+32 bit `minValue()`
+
+    //~PHP_INT_MAX = -4294967296
+    Carbon {
+      +""date"": ""1833-11-24 18:31:44.000000""
+      +""timezone_type"": 3
+      +""timezone"": ""Europe/Vienna""
+    }",lanort,https://api.github.com/repos/briannesbitt/Carbon/git/commits/598199d59f6f4808f320f0a73c0056451ee6b3b1
+3a61d4c26bad6bcf53cd8d1ee02f702c8a7308d0,Removed duplicated lines in no-language.,jimmitjoo,https://api.github.com/repos/briannesbitt/Carbon/git/commits/3a61d4c26bad6bcf53cd8d1ee02f702c8a7308d0
+6e04352ce3d83f67974c2b3e9685c5718f9a2218,"fa language
+
+Add fa language.",nimamo,https://api.github.com/repos/briannesbitt/Carbon/git/commits/6e04352ce3d83f67974c2b3e9685c5718f9a2218
+8050a7cabe966c9f2f19a4a13130f73cefd5a7ea,Updated messages for correct infinitive.,xexperimente,https://api.github.com/repos/briannesbitt/Carbon/git/commits/8050a7cabe966c9f2f19a4a13130f73cefd5a7ea
+c9e9c256211f0a247daaec9b9eb19a6f7d398790,"Fixed Dutch translation for hours.
+
+The plural of ""uur"" (hour) is ""uren"" (hours), but only used when describing clock faces. When describing (relative) time, there's no plural use.",monkeyphysics,https://api.github.com/repos/briannesbitt/Carbon/git/commits/c9e9c256211f0a247daaec9b9eb19a6f7d398790
+dd279bcf5fac40db9c763ff9502fdc44337deb34,Added Catalan and Bulgarian Unit Tests,Newman101,https://api.github.com/repos/briannesbitt/Carbon/git/commits/dd279bcf5fac40db9c763ff9502fdc44337deb34
+b954185c213a947cc591275072b0f3abe673073b,Faroese translation,Sverri,https://api.github.com/repos/briannesbitt/Carbon/git/commits/b954185c213a947cc591275072b0f3abe673073b
+3a66470213337b93e97066e41f0ad5a983c74431,Updated LT translation,nonamez,https://api.github.com/repos/briannesbitt/Carbon/git/commits/3a66470213337b93e97066e41f0ad5a983c74431
+991359a6f8e976b7b6273a35e52002698bfba3ca,Fix: Remove unused import,localheinz,https://api.github.com/repos/briannesbitt/Carbon/git/commits/991359a6f8e976b7b6273a35e52002698bfba3ca
+fc4bb8ffd11b9994fd8f1dd6e69c8476ea599c28,"Farsi (Persian) Translation
+
+Used in Iran, Tajikistan, Afghanistan. Total Persian speaking population globally is around 120 Million.",hojabbr,https://api.github.com/repos/briannesbitt/Carbon/git/commits/fc4bb8ffd11b9994fd8f1dd6e69c8476ea599c28
+57a49b72da1b9bfcc4220bd673ca32563f518f9b,"Allow latest Carbon to be installed with symfony/translation 2.7 or
+later when it become available.
+
+This would avoid Laravel 5.1 (development) to resolved to Carbon 1.17
+since it require symfony/translation 2.7
+
+Signed-off-by: crynobone <crynobone@gmail.com>",crynobone,https://api.github.com/repos/briannesbitt/Carbon/git/commits/57a49b72da1b9bfcc4220bd673ca32563f518f9b
+a61b9149de119b685dca98ad3fbe2f55649f8ade,Update ro.php,cdarken,https://api.github.com/repos/briannesbitt/Carbon/git/commits/a61b9149de119b685dca98ad3fbe2f55649f8ade
+b0e71ea5ff7a4a7fd380ea80a05111dcc89184ac,Fix arabix language strings,ibrasho,https://api.github.com/repos/briannesbitt/Carbon/git/commits/b0e71ea5ff7a4a7fd380ea80a05111dcc89184ac
+6f31dc41aa17ab74260439ffebf1df76d87e8fae,"Add Malay language
+
+Added translations for ms (Malay) language.",hariadi,https://api.github.com/repos/briannesbitt/Carbon/git/commits/6f31dc41aa17ab74260439ffebf1df76d87e8fae
+928eea2a1ea4dbd922f484f263d7374460a11ebe,add UZ locale,anatoliyarkhipov,https://api.github.com/repos/briannesbitt/Carbon/git/commits/928eea2a1ea4dbd922f484f263d7374460a11ebe
+132ba398c7898cbbcec975944720a5347bf1c23a,"Fix SL translations
+
+Added some missing plural forms",acasar,https://api.github.com/repos/briannesbitt/Carbon/git/commits/132ba398c7898cbbcec975944720a5347bf1c23a
+234035ec63ff72d05dd782eb1ef9111207ff9416,added bangla transalation,faisal58,https://api.github.com/repos/briannesbitt/Carbon/git/commits/234035ec63ff72d05dd782eb1ef9111207ff9416
+5e4dfbfbae3c9438324c3e35617e1067dcc6574b,"Add methods isSunday(), isMonday(), isTuesday() ..",wangchj,https://api.github.com/repos/briannesbitt/Carbon/git/commits/5e4dfbfbae3c9438324c3e35617e1067dcc6574b
+a6b27d29aaeab9eea4d1245813de87fd3b93ef1e,"Adding HE language
+
+Adding Hebrew to Carbon, allowing ->diffForHumans() to work in hebrew as well.
+Made difference between ""one minute"", ""two minutes"" and "":n minutes"" in HE, as it should.",itainathaniel,https://api.github.com/repos/briannesbitt/Carbon/git/commits/a6b27d29aaeab9eea4d1245813de87fd3b93ef1e
+b6fc6896ab776996b2b1e7ad3c534bd35257b7e3,"Dynamic first/last day of week and weekend days
+
+In Israel, week starts at Sunday and ends at Saturday, weekend days are Friday and Saturday
+and many other countries has their own weekends and weird calendars.. so I think it might help others
+
+Added:
+protected static $weekStartsAt integer (use Carbon::DAYCONST)
+protected static $weekEndsAt integer (use Carbon::DAYCONST)
+protected static $weekendDays array (array of Carbon::DAYCONST)
+public static function getWeekStartsAt()
+public static function setWeekStartsAt($day)
+public static function getWeekEndsAt()
+public static function setWeekEndsAt($day)
+public static function getWeekendDays()
+public static function setWeekendDays($days)
+
+Updated:
+isWeekday() - to use !$this->isWeekend()
+isWeekend() - to check if current day is in static::$weekendDays
+startOfWeek() - to use static::$weekStartsAt
+endOfWeek() - to use static::$weekEndsAt",dani3l,https://api.github.com/repos/briannesbitt/Carbon/git/commits/b6fc6896ab776996b2b1e7ad3c534bd35257b7e3
+ebd8431562997b9c864d6a373a78288b552bbb70,"Exlude /tests for dist package
+
+Follow guidelines to clean up dist packages
+http://www.sitepoint.com/mastering-composer-tips-tricks/#making-your-composer-project-lighter",LeoColomb,https://api.github.com/repos/briannesbitt/Carbon/git/commits/ebd8431562997b9c864d6a373a78288b552bbb70
+950731680f4702706adb6bd5222b5f4d11d5f4bf,Latvian translations added,kavacky,https://api.github.com/repos/briannesbitt/Carbon/git/commits/950731680f4702706adb6bd5222b5f4d11d5f4bf
+4b9182c0a86e22b7ecc6b8188ba71b45fbbe7af5,"Fix arabic translation
+
+Add missing "":count"" to [3,10]  plurals.",MLTDev,https://api.github.com/repos/briannesbitt/Carbon/git/commits/4b9182c0a86e22b7ecc6b8188ba71b45fbbe7af5
+cb030f34e68d0864324de615b5357e600156094c,"Fix start/end of century. The 1st century AD/CE started on January 1, 1 and ended on December 31, 100. via https://en.wikipedia.org/wiki/Century",omoon,https://api.github.com/repos/briannesbitt/Carbon/git/commits/cb030f34e68d0864324de615b5357e600156094c
+fad1c31a119a96052397967634edfc7991eb359a,Add Albanian (sq) locale,fadion,https://api.github.com/repos/briannesbitt/Carbon/git/commits/fad1c31a119a96052397967634edfc7991eb359a
+bcd5d59fa89de6e1c60820e83758d655f4d699b0,Change occurence to occurences in Carbon.php,clrke,https://api.github.com/repos/briannesbitt/Carbon/git/commits/bcd5d59fa89de6e1c60820e83758d655f4d699b0
+f055d79608369078c102846fef4d95fa11274baa,Added Afrikaans locale,pierredup,https://api.github.com/repos/briannesbitt/Carbon/git/commits/f055d79608369078c102846fef4d95fa11274baa
+1e4a08f67d60403020ea2ea17306fd442112430e,Fix spanish translation,diemax,https://api.github.com/repos/briannesbitt/Carbon/git/commits/1e4a08f67d60403020ea2ea17306fd442112430e
+8244ac7c6d6742941abcb92eebf95419eda98d08,Allow for creation of a zero interval.,jarnovanleeuwen,https://api.github.com/repos/briannesbitt/Carbon/git/commits/8244ac7c6d6742941abcb92eebf95419eda98d08
+272ff01f9cb8b9ffd7f06b2ed9872911ba3eedfe,added Estonian locale,ybr-nx,https://api.github.com/repos/briannesbitt/Carbon/git/commits/272ff01f9cb8b9ffd7f06b2ed9872911ba3eedfe
+85337913060f19db5974714fc82e4f3e7293b690,Added test localized in Japanese,serima,https://api.github.com/repos/briannesbitt/Carbon/git/commits/85337913060f19db5974714fc82e4f3e7293b690
+14fddf3c464a7f72d3d31c2274cd4c5ea47f00aa,"Update cs.php
+
+This is the proper translation.",Tlapi,https://api.github.com/repos/briannesbitt/Carbon/git/commits/14fddf3c464a7f72d3d31c2274cd4c5ea47f00aa
+8752c2a2d3cf12323566e1c65c802e967546628e,Allow for more expressive comparisons,marcusmoore,https://api.github.com/repos/briannesbitt/Carbon/git/commits/8752c2a2d3cf12323566e1c65c802e967546628e
+78b6f0129db004c8b7c1b69976f932697ab46c7a,Get spec_interval string from CarbonInterval,martinssipenko,https://api.github.com/repos/briannesbitt/Carbon/git/commits/78b6f0129db004c8b7c1b69976f932697ab46c7a
+52a66e2fd21f9ecf3adcc10ba59cb0cd8414c311,Adding armenian language translation,mhamlet,https://api.github.com/repos/briannesbitt/Carbon/git/commits/52a66e2fd21f9ecf3adcc10ba59cb0cd8414c311
+724bcb49804e65768eaa722c7bd574662b70a8d9,Fix Dutch translation for years,adriaanzon,https://api.github.com/repos/briannesbitt/Carbon/git/commits/724bcb49804e65768eaa722c7bd574662b70a8d9
+5601d8a80940443ff843195a104b4e4ae6c996cb,Added Georgian (ka) localization,akalongman,https://api.github.com/repos/briannesbitt/Carbon/git/commits/5601d8a80940443ff843195a104b4e4ae6c996cb
+e7f68a60d86c59c0c7f1ed2d9480b621be2a36ca,"Add isLongYear() to test a year for ""long year"" status",ssfinney,https://api.github.com/repos/briannesbitt/Carbon/git/commits/e7f68a60d86c59c0c7f1ed2d9480b621be2a36ca
+d13a2dc250b5afd4089505c922abf48911bcca97,Add Galician language,dieg0v,https://api.github.com/repos/briannesbitt/Carbon/git/commits/d13a2dc250b5afd4089505c922abf48911bcca97
+430bd5ff2760caa4bbd90f7b75a78c29394b9a3f,"Hungarian translation improved A LOT
+
+... after I realised that actually I can use second_before, second_ago, etc keys.
+Reading the original source code can be really useful!
+
+Also, unit test added for Hungarian language",balping,https://api.github.com/repos/briannesbitt/Carbon/git/commits/430bd5ff2760caa4bbd90f7b75a78c29394b9a3f
+a0a0e79e0945593b67a0883598417a0b371199d4,Fix mistype,riccai,https://api.github.com/repos/briannesbitt/Carbon/git/commits/a0a0e79e0945593b67a0883598417a0b371199d4
+1229bf96e31c76d8fa9fd74c3b86848abaea684b,fixes docblock mistype,jncampbell,https://api.github.com/repos/briannesbitt/Carbon/git/commits/1229bf96e31c76d8fa9fd74c3b86848abaea684b
+f4de249b17e40fd847282a69c0b8b77f7cc3d03d,"Tr translate fix 
+
+Meaning of ""from now"" on dictionary is not suitable for the usage of package like the example; ""3 yıl andan itibaren"" (translation of 3 years from now) doesn't make sense. It should be ""sonra"" as both Google translate and jenssegers/date use it.",murat-yuksel,https://api.github.com/repos/briannesbitt/Carbon/git/commits/f4de249b17e40fd847282a69c0b8b77f7cc3d03d
+edbe1fbef242f6f4b805634d1be3eed61cf8d4db,Add isCurrentYear method,MaxGiting,https://api.github.com/repos/briannesbitt/Carbon/git/commits/edbe1fbef242f6f4b805634d1be3eed61cf8d4db
+cd8ee530bcf60ee9cbe74e3884e4a5c2296fa945,"Update Carbon.php
+
+using my setlocale(LC_TIME, 'es') and formating my date with ""formatLocalized"", the output is not well (mi�rcoles, 06 de enero de 2016), so I googled and found this solution:
+http://stackoverflow.com/questions/8993971/php-strftime-french-characters
+
+Now is working properly: miércoles, 06 de enero de 2016
+
+This problem will occur for all those languages with special characters.
+
+A better solution will be using setlocale(LC_TIME, 'es.UTF-8') but strftime don't understand that.  Any suggestions?",saruman,https://api.github.com/repos/briannesbitt/Carbon/git/commits/cd8ee530bcf60ee9cbe74e3884e4a5c2296fa945
+a1f604c08022fe5bcd38034c35ab9eca34d3e9aa,"Improve the Chinese translation.
+
+5 seconds from now.
+In Chinese,it should be ""距现在5秒"",not ""5秒距现在""。",lndj,https://api.github.com/repos/briannesbitt/Carbon/git/commits/a1f604c08022fe5bcd38034c35ab9eca34d3e9aa
+67b3cdc180615095198b15c102d59afc04f1cb5d,"Update fa.php
+
+Farsi translations of 'after' and 'before' switched to correct the meanings.",hafezdivandari,https://api.github.com/repos/briannesbitt/Carbon/git/commits/67b3cdc180615095198b15c102d59afc04f1cb5d
+f19bb9997a12ae0729a864a47b9ba022efb9191d,Added support for Urdu.,mehshan,https://api.github.com/repos/briannesbitt/Carbon/git/commits/f19bb9997a12ae0729a864a47b9ba022efb9191d
+5daff200bc020ddbef2b8a6b17bda9e092f4db8b,"Add support to short time units for diffFoHumans
+
+convert intends from tab to spaces
+
+convert indents from tab to spaces 2
+
+Add $short param to doc-block
+
+shorten time units to the max!
+
+fix styling 2
+
+convert intends from tab to spaces
+
+convert indents from tab to spaces 2
+
+style fix
+
+style fix
+
+correct test for max short time units
+
+convert intends from tab to spaces
+
+convert indents from tab to spaces 2
+
+fix styling 2
+
+convert intends from tab to spaces
+
+convert indents from tab to spaces 2
+
+style fix
+
+style correction
+
+Add support for short time units for human",rob-union,https://api.github.com/repos/briannesbitt/Carbon/git/commits/5daff200bc020ddbef2b8a6b17bda9e092f4db8b
+dfe0fbd3e492b2d6bebb2156b52c054876a81850,Added Macedonian language support file,t-atanasoski,https://api.github.com/repos/briannesbitt/Carbon/git/commits/dfe0fbd3e492b2d6bebb2156b52c054876a81850
+00879c507ab9d173cc13d54187e279d9ceb62775,fixed lithuanian tests and added more translations.,sanis,https://api.github.com/repos/briannesbitt/Carbon/git/commits/00879c507ab9d173cc13d54187e279d9ceb62775
+7ad78bbe493f9b02187f846429afb8179752da2f,pt_BR,swalker2,https://api.github.com/repos/briannesbitt/Carbon/git/commits/7ad78bbe493f9b02187f846429afb8179752da2f
+d5818d6ac74225cf1a83b673fd115f56dbfd72f3,"German Short Texts according to DIN 1355-1
+
+https://de.wikipedia.org/wiki/DIN_1355-1",BlueTeck,https://api.github.com/repos/briannesbitt/Carbon/git/commits/d5818d6ac74225cf1a83b673fd115f56dbfd72f3
+8caa53312e5c5a3774055e373a9388a463a051a5,added Khmer language,sovichet,https://api.github.com/repos/briannesbitt/Carbon/git/commits/8caa53312e5c5a3774055e373a9388a463a051a5
+3870c6ad218ad46be4c0725b9ac30dae36598cc9,Add Montenegrin locale,milose,https://api.github.com/repos/briannesbitt/Carbon/git/commits/3870c6ad218ad46be4c0725b9ac30dae36598cc9
+b936a82b046555eb14da975846605b90cb7930f6,Change Carbon::setTestNow() to be able to parse a string.,c-jm,https://api.github.com/repos/briannesbitt/Carbon/git/commits/b936a82b046555eb14da975846605b90cb7930f6
+463d0a83138355bbe83275b5995fd3176f1f8880,Add number of interval pieces to diffForHumans,pushpak,https://api.github.com/repos/briannesbitt/Carbon/git/commits/463d0a83138355bbe83275b5995fd3176f1f8880
+f1f47a020e4b4fa3fc23959a3c163631f4fe8ae0,Fixed namespaces of a few tests,ondrejmirtes,https://api.github.com/repos/briannesbitt/Carbon/git/commits/f1f47a020e4b4fa3fc23959a3c163631f4fe8ae0
+c94eb4b0de14fc68e5d57b087d06895811de4b7d,"Translation for th is wrong
+
+There are no plural in th, which means e.g.
+'year' => '1 ปี|:count ปี',
+Should be
+'year' => ':count ปี'",ROKAISAKKON,https://api.github.com/repos/briannesbitt/Carbon/git/commits/c94eb4b0de14fc68e5d57b087d06895811de4b7d
+650d0effa3e75a18385e1d4dd00e58816f7ef183,Add get to days,Bernardorg22,https://api.github.com/repos/briannesbitt/Carbon/git/commits/650d0effa3e75a18385e1d4dd00e58816f7ef183
+cd8c6d2e8c3d7f90810d3e3983df5e7f9db0c600,Fixed japanese language file,toyamarinyon,https://api.github.com/repos/briannesbitt/Carbon/git/commits/cd8c6d2e8c3d7f90810d3e3983df5e7f9db0c600
+230eb8e01f4749d71f9ae788c1b59ea06033b587,"Fixed issue #891, when getLastErrors returned null when creation Carbon with __constructor",damnedest,https://api.github.com/repos/briannesbitt/Carbon/git/commits/230eb8e01f4749d71f9ae788c1b59ea06033b587
+260823fe7f84285bc10a85edc5f244a77b739399,"issue #885 fix dealing with EOL on Windows
+
+EOL forced to LF in .gitattributes for all text files",Ovsyanka,https://api.github.com/repos/briannesbitt/Carbon/git/commits/260823fe7f84285bc10a85edc5f244a77b739399
+0322759e46f801a009cbbb3e915ef0f016941952,Minor phpdoc fix,skiptirengu,https://api.github.com/repos/briannesbitt/Carbon/git/commits/0322759e46f801a009cbbb3e915ef0f016941952
+75dfe92e8b5dbeab1ab10cbffaeabf3776c7763b,"comment is error;
+""secondsUntilEndOfDay"" function 's old comment is 'The number of seconds
+until 23:23:59'; It should be 'The number of seconds until 23:59:59';",GreenLightt,https://api.github.com/repos/briannesbitt/Carbon/git/commits/75dfe92e8b5dbeab1ab10cbffaeabf3776c7763b
+c6bd35e1f92bdc249ff4cd28718169817b492e61,Add __set_state() method,rdarcy1,https://api.github.com/repos/briannesbitt/Carbon/git/commits/c6bd35e1f92bdc249ff4cd28718169817b492e61
+13181679a0168fb98075527075162851b0712d0e,"array_push() to array[] =
+
+This should be faster",Debeet,https://api.github.com/repos/briannesbitt/Carbon/git/commits/13181679a0168fb98075527075162851b0712d0e
+2377d740ba756731518de067823ca1d8d182d692,"Update sk.php
+
+Slovak declensions",MarekAdamicky,https://api.github.com/repos/briannesbitt/Carbon/git/commits/2377d740ba756731518de067823ca1d8d182d692
+918fc6f57d793e05056dc2d4433691232ca86d7a,"fix typo in from_now property and 'week' word
+
+In arabic we say ':time from now' (see: https://github.com/jenssegers/date/commit/efa4cbee3d7a71509ef49e8090677fb8a948b476), and 'week' begins with 'أ' not 'إ'.",atefBB,https://api.github.com/repos/briannesbitt/Carbon/git/commits/918fc6f57d793e05056dc2d4433691232ca86d7a
+23d299fdc24e8e7ff7f239846a9f8398ffb5a263,Add Syfmony 4.0 constraint,GawainLynch,https://api.github.com/repos/briannesbitt/Carbon/git/commits/23d299fdc24e8e7ff7f239846a9f8398ffb5a263
+e4211d5775d4890e8317a19625deb6aaf38d6027,"Fix typo in fromSerialized() method comments
+
+Change the word `form` to `from` in method comments",ironpilot,https://api.github.com/repos/briannesbitt/Carbon/git/commits/e4211d5775d4890e8317a19625deb6aaf38d6027
+b1f30c9a3c7f08aad0544beaec16dd9f53331260,"typos in greek language
+https://el.wiktionary.org/wiki/%CF%80%CF%81%CE%B9%CE%BD
+https://el.wiktionary.org/wiki/%CE%B1%CF%80%CF%8C",yiannisdesp,https://api.github.com/repos/briannesbitt/Carbon/git/commits/b1f30c9a3c7f08aad0544beaec16dd9f53331260
+e95eba8fa0537d010ce2f936910f8044f573c88c,"update uk.php
+
+Word ""назад"" is not so popular nowadays. Most people use ""тому"" after counted time",AucT,https://api.github.com/repos/briannesbitt/Carbon/git/commits/e95eba8fa0537d010ce2f936910f8044f573c88c
+a8059934b861a8a66b4d78cd122644f5cd5b21c9,Fix polish translations,damlys,https://api.github.com/repos/briannesbitt/Carbon/git/commits/a8059934b861a8a66b4d78cd122644f5cd5b21c9
+a5bda481281c6d64c243cd1a27a5bbf1009cd4a8,"fix markdown format
+
+missing empty lead to ""without composer"" not being rendered as header",tolry,https://api.github.com/repos/briannesbitt/Carbon/git/commits/a5bda481281c6d64c243cd1a27a5bbf1009cd4a8
+8ab2a4187f336501d94cc77d4c0a0be7bf10b93a,"Merge pull request #1028 from GawainLynch/symfony-4
+
+Add Syfmony 4.0 constraint",Glavic,https://api.github.com/repos/briannesbitt/Carbon/git/commits/8ab2a4187f336501d94cc77d4c0a0be7bf10b93a
+11067e92a73a0d24955af7f2f12b0b0f67a3a6a5,Add asterisk to isSameAs doc block,mbabker,https://api.github.com/repos/briannesbitt/Carbon/git/commits/11067e92a73a0d24955af7f2f12b0b0f67a3a6a5
+427bd23b0070cad21864c9f03489327bb86f643d,"Azerbaijani change öncə to əvvəl (#901)
+
+* Azerbaijani language: öncə => əvvəl (ago/before)
+* Add unit tests",shehi,https://api.github.com/repos/briannesbitt/Carbon/git/commits/427bd23b0070cad21864c9f03489327bb86f643d
+cdd3ea22427868bf08392c3e5f704f94e1fc40c1,"Fix zh_TW typo (#941)
+
+Change 周 to 週",jyhsu2000,https://api.github.com/repos/briannesbitt/Carbon/git/commits/cdd3ea22427868bf08392c3e5f704f94e1fc40c1
+e59c59b118c0139955c0e6d8d1a5b77103ed725b,"Fix traditional Chinese language, extra space removed and '周' shall be '週' (#963)
+
+* Fix traditional Chinese language
+
+There should be no space between :count and the Chinese character.
+
+* Create zh_TW.php",luoenzhen,https://api.github.com/repos/briannesbitt/Carbon/git/commits/e59c59b118c0139955c0e6d8d1a5b77103ed725b
+8fc3bcf4e3bbeea35205d8ab5d5fab5ce03f5683,"Added createFromTimestampMs method to parse timestamps in milliseconds. (#988)
+
+* Added createFromTimestampMs method to parse timestamps in milliseconds.
+
+* Fixed typo.",hackel,https://api.github.com/repos/briannesbitt/Carbon/git/commits/8fc3bcf4e3bbeea35205d8ab5d5fab5ce03f5683
+6b32deca066d92830c1e68ef80d4702eeb38cac1,Add arabic with shakl,chadidi,https://api.github.com/repos/briannesbitt/Carbon/git/commits/6b32deca066d92830c1e68ef80d4702eeb38cac1
+c4ada5b10eec54ec48db96caa019218b1f159237,"Add Armenian Language Localization (#996)
+
+* Add Armenian Language Localization
+* Fix PHPUnit tests issues",armgabrielyan,https://api.github.com/repos/briannesbitt/Carbon/git/commits/c4ada5b10eec54ec48db96caa019218b1f159237
+a69efdeb89e2517bc1e8dfec852a1c549eb74ace,Add Pashto (PS) Language (#967),mnrafg,https://api.github.com/repos/briannesbitt/Carbon/git/commits/a69efdeb89e2517bc1e8dfec852a1c549eb74ace
+0af5f753c113d476537a76b600ca5f0b809d5e91,"Merge pull request #1036 from professor93/patch-1
+
+Fix uz.php",professor93,https://api.github.com/repos/briannesbitt/Carbon/git/commits/0af5f753c113d476537a76b600ca5f0b809d5e91
+576d4a4855cc2ff39d4696559c5dcda5c826a6bf, Kazakh language support (#1015),TOLK-kz,https://api.github.com/repos/briannesbitt/Carbon/git/commits/576d4a4855cc2ff39d4696559c5dcda5c826a6bf
+3fe5370c41762e62579205a93c911aa6286598b3,"Created Mongolian translation (#1041)
+
+* Create mn.php",Batmandakh,https://api.github.com/repos/briannesbitt/Carbon/git/commits/3fe5370c41762e62579205a93c911aa6286598b3
+ee26477dcd63bb4bdf493661e6dfc145870ffd3f,"Locale dv mv (#1106)
+
+* Added dv_MV locale support",ajaaibu,https://api.github.com/repos/briannesbitt/Carbon/git/commits/ee26477dcd63bb4bdf493661e6dfc145870ffd3f
+ff3b26391b122d6df6c9cda165eb753ad034dfc1,Week number in month (#1105),Vendin,https://api.github.com/repos/briannesbitt/Carbon/git/commits/ff3b26391b122d6df6c9cda165eb753ad034dfc1
+b1ab4a10fc9f5d6931cfb9f0030fd67c8845813f,"Add Serbian (Cyrillic) Language (#972)
+
+script: Cyrl;
+native: Српски;
+regional: sr_RS;",zeravcic,https://api.github.com/repos/briannesbitt/Carbon/git/commits/b1ab4a10fc9f5d6931cfb9f0030fd67c8845813f
+ba61af080c8a618ce5ff33ae4cc79229fb1c1fc4,Use namespaced TestCase (#1021),MarioBlazek,https://api.github.com/repos/briannesbitt/Carbon/git/commits/ba61af080c8a618ce5ff33ae4cc79229fb1c1fc4
+86b5fc010ae04fa375e39a7d08786e7a8a15871c,"Provide RFC7231 formating (#898)
+
+Fixes #897.",neclimdul,https://api.github.com/repos/briannesbitt/Carbon/git/commits/86b5fc010ae04fa375e39a7d08786e7a8a15871c
+884fcddad581f21a386b4b2ed9970737571af1d3,"Adding support for not overflowing months when adding a year (#907)
+
+* Adding support for not overflowing months when adding a year",robertpcontreras,https://api.github.com/repos/briannesbitt/Carbon/git/commits/884fcddad581f21a386b4b2ed9970737571af1d3
+b51136288b1e66f1212deba7229a3f5461a62604,"Zulu ISO8601 String Helper (#970)
+
+* Adds a helper to get a Zulu ISO8601 String",bretterer,https://api.github.com/repos/briannesbitt/Carbon/git/commits/b51136288b1e66f1212deba7229a3f5461a62604
+1ba1778622429284cb841be005d6e402171c1bb1,"Fixes #940 by extending the relative keyword list (#1137)
+
+* Fixes #940 by extending the relative keyword list to include bare weekdays; added test coverage for this edge case
+
+* Added missing weekday to relative keywords
+
+* fixed `hasRelativeKeywords` detecting non-relative dates when a year was specified in the format (#940); increased the amount of test scenarios for relative dates
+
+* removed a test scenario that presents inconsistency on pre-5.5 PHP versions",DfKimera,https://api.github.com/repos/briannesbitt/Carbon/git/commits/1ba1778622429284cb841be005d6e402171c1bb1
+5adf8704be8ba72c6cc72c12c0b406dd32da9a2d,Add isLastOfMonth comparison,mpf-christoph,https://api.github.com/repos/briannesbitt/Carbon/git/commits/5adf8704be8ba72c6cc72c12c0b406dd32da9a2d
+270142052c38eff6b289f77edbc5993260530bbf,Implement hasFormat() method (#1054),Propaganistas,https://api.github.com/repos/briannesbitt/Carbon/git/commits/270142052c38eff6b289f77edbc5993260530bbf
+dadde346f21a8481620b85b6fb34bf64adde0384,Add compare method to ComposerInterval (#932),Horat1us,https://api.github.com/repos/briannesbitt/Carbon/git/commits/dadde346f21a8481620b85b6fb34bf64adde0384
+c2103db76dfd43e8b1e1f0ede9124d41e0acb2da,Add compare method to ComposerInterval (#932),wearesho,https://api.github.com/repos/briannesbitt/Carbon/git/commits/c2103db76dfd43e8b1e1f0ede9124d41e0acb2da
+8f1b76420a49caebda68ef1b92029f88eaac3703,"Extra helpers
+- toArray(): array
+- startOfHour(): Carbon Modify to start of current hour, minutes and seconds become 0
+- endOfHour(): Carbon Modify to end of current hour, minutes and seconds become 59
+- startOfMinute(): Carbon Modify to start of current minute, seconds become 0
+- endOfMinute() : Carbon Modify to end of current minute, seconds become 59
+- midDay(): Carbon Modify to midday, default to self::$midDayAt",zaaom,https://api.github.com/repos/briannesbitt/Carbon/git/commits/8f1b76420a49caebda68ef1b92029f88eaac3703
+dd557ee2a966ab1d43e43e6ffd3b2e85ac521a05,"Added isDayOfWeek(int) method (#993)
+
+* Added isDayOfWeek(int) method",wilcarjose,https://api.github.com/repos/briannesbitt/Carbon/git/commits/dd557ee2a966ab1d43e43e6ffd3b2e85ac521a05
+14aef4c71ee830f4c62ead97ca544c4dd5674eee,Fix constructor bug (#1180),gitstashgithub,https://api.github.com/repos/briannesbitt/Carbon/git/commits/14aef4c71ee830f4c62ead97ca544c4dd5674eee
+e771fb40995696f5518a60ead038b0a29274677c,"* Make .php_cs.dist compatible with PHP 5.3
+* Fix unit-tests (`testAddHourPassingArg`, `testMicroGetterWithDefaultNow`) while running on Windows
+* Correct spelling for some unit-test methods and comments",nthachus,https://api.github.com/repos/briannesbitt/Carbon/git/commits/e771fb40995696f5518a60ead038b0a29274677c
+8df0d6d578b986b104c46dd33fffecbb6ee62a3b,"diffForHumans creates the carbon instance if a timestamp is provided (#1161)
+
+#1160 diffForHumans creates the carbon instance if a timestamp is provided",Benjyclay,https://api.github.com/repos/briannesbitt/Carbon/git/commits/8df0d6d578b986b104c46dd33fffecbb6ee62a3b
+1b4434e0d551e36461f308b196397e971290f9e9,"Create CarbonInterval::fromString(string) method (#1199)
+
+* create CarbonInterval::fromString(string) method
+
+Creates a CarbonInterval from string in JIRA format
+
+Format:
+| Suffix | Unit    | Example | DateInterval expression |
+|--------|---------|---------|-------------------------|
+|   y    | years   |   1y    | P1Y                     |
+|   M    | months  |   3m    | P3M                     |
+|   w    | weeks   |   2w    | P2W                     |
+|   d    | days    |  28d    | P28D                    |
+|   h    | hours   |   4h    | PT4H                    |
+|   m    | minutes |  12m    | PT12M                   |
+|   s    | seconds |  59s    | PT59S                   |
+|--------|---------|---------|-------------------------|
+
+e. g. `1w 3d 4h 32m 23s` is converted to 10 days 4 hours 32 minutes and 23 seconds.
+
+Special cases:
+ - An empty string will return a zero interval
+ - Fractions are allowed for weeks, days, hours and minutes and will be converted
+   and rounded to the next smaller value (caution: 0.5w = 4d)
+
+* update code style according to styleci
+
+* add type definition to param annotations
+
+* update code style according to styleci
+
+* allow spaces between, written-out units and pass fractions to smaller units
+
+* use while to loop over growing array
+
+* be more strict on the formatting of intervals",tflori,https://api.github.com/repos/briannesbitt/Carbon/git/commits/1b4434e0d551e36461f308b196397e971290f9e9
+fed1d2122bfb1d96c33f1263d6245eef5bee77e6,"Add methods to set date or time from another instance (#1214)
+
+* Add `setDateFrom` method
+* Add `setTimeFrom` method",willrowe,https://api.github.com/repos/briannesbitt/Carbon/git/commits/fed1d2122bfb1d96c33f1263d6245eef5bee77e6
+e4b350741aa69dfa4b12d03ab3e593196032c04d,"Added Welsh Language support (#1230)
+
+* Added Welsh Language support
+
+* Create CyTest.php
+
+* Fixed short month localisation value not working properly with unit tests
+
+* Update pluralisation for Cy locale file",GLaDOSDan,https://api.github.com/repos/briannesbitt/Carbon/git/commits/e4b350741aa69dfa4b12d03ab3e593196032c04d
+d3e04cd19caf20c154295cfba1752280e8f95e5b,"Added Methods for Quarter (#1243)
+
+* Added Methods for Quarter
+
+The following methods have been added:
+ - isSameQuarter
+ - isCurrentQuarter
+ - isNextQuarter
+ - isLastQuarter
+
+* Update IsTest.php",ahmedmsvb,https://api.github.com/repos/briannesbitt/Carbon/git/commits/d3e04cd19caf20c154295cfba1752280e8f95e5b
+2ad66ded693e72f8738b7e47fd39a12687c75c35,"Fix Italian translation for from_now (#1244)
+
+Fix Italian translation for from_now
+
+* The correct way to say it in Italian is ""tra 2 ore"", otherwise it could be misunderstood as if the date is in the past.
+
+* Update test",anmartini,https://api.github.com/repos/briannesbitt/Carbon/git/commits/2ad66ded693e72f8738b7e47fd39a12687c75c35
+0271028194cb9fc9c8624258b06714f07d4cf1ce,"Multiply CarbonInterval given number of times (#1260)
+
+* Multiply CarbonInterval given number of times
+* Invert interval for negative factor",imbrish,https://api.github.com/repos/briannesbitt/Carbon/git/commits/0271028194cb9fc9c8624258b06714f07d4cf1ce
+e41a06bb806f3abd3cf7a0d15a9997f9b82c75e4,"Add methods for granular comparison (mentioned in #1248) (#1261)
+
+* Add comparison method isSameHour, isSameMinute and isSameSecond
+* Add isCurrent aliases",spawnia,https://api.github.com/repos/briannesbitt/Carbon/git/commits/e41a06bb806f3abd3cf7a0d15a9997f9b82c75e4
+1cff23d35818386ed76e9360822044a08be0a920,Add diff translations for Spanish. (#1283),v0ctor,https://api.github.com/repos/briannesbitt/Carbon/git/commits/1cff23d35818386ed76e9360822044a08be0a920
+6ec1eb75057f426fafd6faad5bf646d6d4947e4b,"Update phpdoc comment with content from official documentation (#1278)
+
+Signed-off-by: codekaar <kharelbarun@gmail.com>",sudo-barun,https://api.github.com/repos/briannesbitt/Carbon/git/commits/6ec1eb75057f426fafd6faad5bf646d6d4947e4b
+97fc06bbef903dcfe8ebffc165ba8da210ef3aab,Add short polish translations (#1291),aso824,https://api.github.com/repos/briannesbitt/Carbon/git/commits/97fc06bbef903dcfe8ebffc165ba8da210ef3aab
+53b0a6b0a0f749e61e7953fd4a15b4be04f72f04,"Occitan translation (#1284)
+Unit tests for Occitan language (#1285)",Quenty31,https://api.github.com/repos/briannesbitt/Carbon/git/commits/53b0a6b0a0f749e61e7953fd4a15b4be04f72f04
+313dac6f28a081620bf41e911fa586498c80648e,Add an option to align createFromFormat on DateTime::createFromFormat,jimrobinson-croud,https://api.github.com/repos/briannesbitt/Carbon/git/commits/313dac6f28a081620bf41e911fa586498c80648e
+88bb19826552ccf0f46455c0a20ccb2897e48ae5,Update de.php,sheriffmarley,https://api.github.com/repos/briannesbitt/Carbon/git/commits/88bb19826552ccf0f46455c0a20ccb2897e48ae5
+a4a059f9f1cfae91e81ac4d2058c47c88c336c69,"Fix testFluentSetters() day comparison (#1340)
+
+This test would fail last day of the
+month up until the 10th of the next
+month, when single-digit days of the
+month are present.
+
+Carbon::today()->format('d H')
+// '01 00'
+
+Carbon::today()->day
+// 1
+
+Carbon::today()->format('j H')
+// '1 00'",derekmd,https://api.github.com/repos/briannesbitt/Carbon/git/commits/a4a059f9f1cfae91e81ac4d2058c47c88c336c69
+db37d253ba345f316d5855a623302a41878dbce5,"Update pt_BR Language (#1362)
+
+Carbon::JUST_NOW, Carbon::ONE_DAY_WORDS and Carbon::TWO_DAY_WORDS now works in PT-BR Language",felipeleite1,https://api.github.com/repos/briannesbitt/Carbon/git/commits/db37d253ba345f316d5855a623302a41878dbce5
+1fde0db08c35412d583edc7db00d78ac0bdd8111,"Myanmar language for diffForHumans function translation (#1365)
+
+* [add] add Myanmar language for diffForHumans function translation
+* [add] add Test",stevenay,https://api.github.com/repos/briannesbitt/Carbon/git/commits/1fde0db08c35412d583edc7db00d78ac0bdd8111
+95057d7f7d3ca791a397603857f1c7dccad6b415,Use service provider local app reference (#1370),grzesw,https://api.github.com/repos/briannesbitt/Carbon/git/commits/95057d7f7d3ca791a397603857f1c7dccad6b415
+4b8a6f71ca458a4d75beb975bc4053d61b89f5f3,Added Ukrainian translation (#1380),max-kovpak,https://api.github.com/repos/briannesbitt/Carbon/git/commits/4b8a6f71ca458a4d75beb975bc4053d61b89f5f3
+86338b84dfe58aff2e977fcf36d9c74c46d1bdd8,Added short units for pt_BR translation (#1381),RauppRafael,https://api.github.com/repos/briannesbitt/Carbon/git/commits/86338b84dfe58aff2e977fcf36d9c74c46d1bdd8
+b554befb9fc9271929d0ebd4fa93b363f123e277,"Added rest of translations in Azerbaijani.
+
+Added missing translations for the Azerbaijani language.",orkhanfarmanli,https://api.github.com/repos/briannesbitt/Carbon/git/commits/b554befb9fc9271929d0ebd4fa93b363f123e277
+2262cbfd0c132d1e8553b93d7f9f3b8219a5914a,"Change before yesterday spanish transalation (#1393)
+
+This form is more used and commun around the world",jycr753,https://api.github.com/repos/briannesbitt/Carbon/git/commits/2262cbfd0c132d1e8553b93d7f9f3b8219a5914a
+8ff6eff24c31d7367250c4bbab5908f10cc9ec01,fix exception message,fyzzy1943,https://api.github.com/repos/briannesbitt/Carbon/git/commits/8ff6eff24c31d7367250c4bbab5908f10cc9ec01
+7740882759f84c6cedfb0042e949bf73c38a239c,Add cb_IQ language,HalwestRasul,https://api.github.com/repos/briannesbitt/Carbon/git/commits/7740882759f84c6cedfb0042e949bf73c38a239c
+bd87af49e4cd04966c2edcfba31b5a67f60b9799,"Add start/end of second, make the microsecond handling more consistent (#1400)",szeber,https://api.github.com/repos/briannesbitt/Carbon/git/commits/bd87af49e4cd04966c2edcfba31b5a67f60b9799
+112735c791cb6f41b2d9d8c2b277773af902e993,"Patch catalan translation
+
+'from_now' current translation is wrong. It is a literal spanish translation of ""dentro de x días / semanas"" that can be understood in Catalan but is grammatically wrong.",xaviqv,https://api.github.com/repos/briannesbitt/Carbon/git/commits/112735c791cb6f41b2d9d8c2b277773af902e993
+83983726c957aa3e16b1c982e9d426d7014e15ee,"Full Translation Added (#1406)
+
+* Full Translation Added
+
+* Duplicate Removed
+
+* Remove 2-days words
+
+Wait for clarification before adding 2-days words",saaiful,https://api.github.com/repos/briannesbitt/Carbon/git/commits/83983726c957aa3e16b1c982e9d426d7014e15ee
+413023403b3a0eb46ca2724a1b65d6ab0febb792,"Update sl.php (#1425)
+
+Added month, weekday and period translations to Slovene language locale.
+Added calendar options to have proper setup for test scenarios.",morpheus7CS,https://api.github.com/repos/briannesbitt/Carbon/git/commits/413023403b3a0eb46ca2724a1b65d6ab0febb792
+0ea5250a9802055b822cb01437af2f7ffca8f7d1,Added toDateTimeLocalString format (#1428),yamenarahman,https://api.github.com/repos/briannesbitt/Carbon/git/commits/0ea5250a9802055b822cb01437af2f7ffca8f7d1
+20d3f3393a83157d6d76cd1de88e00d5c217ea95,"Add interface_exists check (#1430)
+
+This makes sure that the interface does not override the PHP provided interface.",eFrane,https://api.github.com/repos/briannesbitt/Carbon/git/commits/20d3f3393a83157d6d76cd1de88e00d5c217ea95
+3335e3dfa4c301b95f0841d568e004ff1e123d83,"Refactor the comparison function
+
+- Move the short hand functions to be aliases of the full named functions",richardhughes,https://api.github.com/repos/briannesbitt/Carbon/git/commits/3335e3dfa4c301b95f0841d568e004ff1e123d83
+8da3c7ef1a84d55c0b6814444a44e7be61758ccd,"Add ru abbreviations
+
+(cherry picked from commit 815ae84)",Fellzo,https://api.github.com/repos/briannesbitt/Carbon/git/commits/8da3c7ef1a84d55c0b6814444a44e7be61758ccd
+a701371ebc9d613d90559963a3a95ca85c77d373,Update lt.php,DomasWEB,https://api.github.com/repos/briannesbitt/Carbon/git/commits/a701371ebc9d613d90559963a3a95ca85c77d373
+f45fdd49023627b6d3edbec4680d049406ddbb1a,Remove the JsonSerializable interface and prevent composer validate warning,ntzm,https://api.github.com/repos/briannesbitt/Carbon/git/commits/f45fdd49023627b6d3edbec4680d049406ddbb1a
+abb24b5933d3484219da7bf944b185b77acd813f,"Update without-composer instructions
+
+As Carbon no longer is a single file library, the current information is outdated and does not work anymore.",digilist,https://api.github.com/repos/briannesbitt/Carbon/git/commits/abb24b5933d3484219da7bf944b185b77acd813f
+7ffd7a40a8ba1474bef70385d20db9da7597c96c,Refactoring tests,omarkdev,https://api.github.com/repos/briannesbitt/Carbon/git/commits/7ffd7a40a8ba1474bef70385d20db9da7597c96c
+9ce1f1a2d9492331c25ef5a2d33f2708908656d7,Run locale update only if services are registered (#1459),CupOfTea696,https://api.github.com/repos/briannesbitt/Carbon/git/commits/9ce1f1a2d9492331c25ef5a2d33f2708908656d7
+5cb80a38efb6914a8b5382d7daca38de1db0cc9c,Extends czech localization (#1464),VaclavPavek,https://api.github.com/repos/briannesbitt/Carbon/git/commits/5cb80a38efb6914a8b5382d7daca38de1db0cc9c
+3a473120a8f838df2614b6b3045ec489b8d8faa4,require JSON extension (#1461),browner12,https://api.github.com/repos/briannesbitt/Carbon/git/commits/3a473120a8f838df2614b6b3045ec489b8d8faa4
+8889739f3a49f80a3bd4484f6d0bf0b31e8ea2bc,Fixed short time format for id lang (#1480),nafiesl,https://api.github.com/repos/briannesbitt/Carbon/git/commits/8889739f3a49f80a3bd4484f6d0bf0b31e8ea2bc
+b9c255ba4ca1cb308ecb94f251362f7b65b94829,Add trans docblock (#1483),kevinruscoe,https://api.github.com/repos/briannesbitt/Carbon/git/commits/b9c255ba4ca1cb308ecb94f251362f7b65b94829
+e27f611ca8762c3ad0ab4d32df42aa92ffb7ede5,add php 7.3 to travis,andreybolonin,https://api.github.com/repos/briannesbitt/Carbon/git/commits/e27f611ca8762c3ad0ab4d32df42aa92ffb7ede5
+d1472da6d2bfe0185fc7649c2a253e49172eccf3,"Update hr.php (#1524)
+
+Added Croatian values for diff_before_yesterday and diff_after_tomorrow.",wast,https://api.github.com/repos/briannesbitt/Carbon/git/commits/d1472da6d2bfe0185fc7649c2a253e49172eccf3
+1c40c9b9b8b2096dae37776bc149d4fe2caea7b2,"Estonian and Portuguese languages update (#1525)
+
+* Estonian Language update
+* PT diff & period language update",jpmaga,https://api.github.com/repos/briannesbitt/Carbon/git/commits/1c40c9b9b8b2096dae37776bc149d4fe2caea7b2
+1f334c85c7fdd79d1fa506c87393c32f6bb75718,"Add methods add/sub/diffIn milliseconds (#1527)
+
+Added shortcut methods to add, sub or diff milliseconds (milli) that call respective microsecond methods under the hood",autaut03,https://api.github.com/repos/briannesbitt/Carbon/git/commits/1f334c85c7fdd79d1fa506c87393c32f6bb75718
+7482b7a7663278ecc1d8ff8ff7324c2051b08cd0,Use carbon constants instead of hard-coded numbers (#1541),Stadly,https://api.github.com/repos/briannesbitt/Carbon/git/commits/7482b7a7663278ecc1d8ff8ff7324c2051b08cd0
+e127e5c4fbf750709beb164039faa7100fb16eb4,Updated the Norwegian translation (#1551),DanielRTRD,https://api.github.com/repos/briannesbitt/Carbon/git/commits/e127e5c4fbf750709beb164039faa7100fb16eb4
+42d82ceb2100f51e78663677448009087c225a85,Support for symfony/translation ^3.4,brusch,https://api.github.com/repos/briannesbitt/Carbon/git/commits/42d82ceb2100f51e78663677448009087c225a85
+ec3e0efc9a3cbc258d199eb2d52c91eade74977e,"Adding short formats into a sk.php
+
+Slovak language unfortunatelly doesn't have a short format for each and every time part, but if there's an option for it why not to give an oportunity of some frequent shorthands. Here they are.",jadamec,https://api.github.com/repos/briannesbitt/Carbon/git/commits/ec3e0efc9a3cbc258d199eb2d52c91eade74977e
+92da99cadb18f8a548f446f454f27b001ba091ab,"Update it.php (#1639)
+
+Added Italian support for date prefixes: 
+- dal (From)
+- al (To)
+- ogni (Every)",davide-casiraghi,https://api.github.com/repos/briannesbitt/Carbon/git/commits/92da99cadb18f8a548f446f454f27b001ba091ab
+31dc0af46f72d3db99b33918addf82b3d50764c9,Fix addRealMicrosecond() with low float precision,cmorbitzer,https://api.github.com/repos/briannesbitt/Carbon/git/commits/31dc0af46f72d3db99b33918addf82b3d50764c9
+63dfada7c4d39babf449d931f076be43b2eb17fe,Fix #1664 Add ago/from now/before/after translations,SuperManPHP,https://api.github.com/repos/briannesbitt/Carbon/git/commits/63dfada7c4d39babf449d931f076be43b2eb17fe
+36e61223eb6c1f91079b9239a39ef5498944c403,Fix #1665 Add Standard Moroccan Tamazight translations,BAKTETE,https://api.github.com/repos/briannesbitt/Carbon/git/commits/36e61223eb6c1f91079b9239a39ef5498944c403
+eeee04725ff6d087899d7e4d31f0820e84fb6b62,Update sq.php,neomorina,https://api.github.com/repos/briannesbitt/Carbon/git/commits/eeee04725ff6d087899d7e4d31f0820e84fb6b62
+1774b28adbcacfef0a1bc3b53c8c1a921c9f624a,Use fmod() for floating-point modulo,pflueg,https://api.github.com/repos/briannesbitt/Carbon/git/commits/1774b28adbcacfef0a1bc3b53c8c1a921c9f624a
+f8a29bb3b0cf1f4dc94ba1deaeccd8084b206ce8,Fix #1706 Allow mixins to have constructor arguments (#1707),matt-allan,https://api.github.com/repos/briannesbitt/Carbon/git/commits/f8a29bb3b0cf1f4dc94ba1deaeccd8084b206ce8
+c22a28a2e126589d628d847bad54b74f040960ed,Support event dispatcher's contract from Laravel,lorisleiva,https://api.github.com/repos/briannesbitt/Carbon/git/commits/c22a28a2e126589d628d847bad54b74f040960ed
+6a322451b721448bab308b4499910022ddd4a737,Fix #1756 - Add a parseFromLocale method to the CarbonInterval class,kusabi,https://api.github.com/repos/briannesbitt/Carbon/git/commits/6a322451b721448bab308b4499910022ddd4a737
+eddca6f038b11d10d0a1d95c3171c5317c9e7049,Add equalTo method to CarbonInterval.,burobo,https://api.github.com/repos/briannesbitt/Carbon/git/commits/eddca6f038b11d10d0a1d95c3171c5317c9e7049
+75005304f78489118718fd25777994518b384606,Fix #1790,jxlwqq,https://api.github.com/repos/briannesbitt/Carbon/git/commits/75005304f78489118718fd25777994518b384606
+cdbd8fe822fa11e872c9ca1f4a959157b074a93d,Correct day names in Pashto,spinzar,https://api.github.com/repos/briannesbitt/Carbon/git/commits/cdbd8fe822fa11e872c9ca1f4a959157b074a93d
+757505f43d3d11f5b12445149472372a71cfba26,Persian language localization fixes,hpez,https://api.github.com/repos/briannesbitt/Carbon/git/commits/757505f43d3d11f5b12445149472372a71cfba26
+fdafa57eb807b44b1be43dee439df7326d26117d,[AR] Update with enhancements,mohamedsabil83,https://api.github.com/repos/briannesbitt/Carbon/git/commits/fdafa57eb807b44b1be43dee439df7326d26117d
+a6b988ebb60defa97858f6ea3e87f9081f519849,"Nit: Grammar (#1880)
+
+https://writingexplained.org/a-vs-an-difference",acinader,https://api.github.com/repos/briannesbitt/Carbon/git/commits/a6b988ebb60defa97858f6ea3e87f9081f519849
+9d3ad878ddc0ceecbfd83c5c70259a203cc5c2e2,"Fix isBefore documentation
+
+There was an error in the documentation of the function isBefore.
+
+2018-07-25 12:45:16 is before 2018-07-25 12:45:18.",bouchardm,https://api.github.com/repos/briannesbitt/Carbon/git/commits/9d3ad878ddc0ceecbfd83c5c70259a203cc5c2e2
+cf5bd46a3ae0591edc1f18b92bcb7192309095b8,"Fixed all greater examples
+
+Fixed bad one + changed date to have at least 1 true example",karlyn33,https://api.github.com/repos/briannesbitt/Carbon/git/commits/cf5bd46a3ae0591edc1f18b92bcb7192309095b8
+80b3c04d2d24bc6761b247e743a5ac1cc035fca9,Fix typehint for static create methods (Fix #1914),spaceemotion,https://api.github.com/repos/briannesbitt/Carbon/git/commits/80b3c04d2d24bc6761b247e743a5ac1cc035fca9
+01987b520334f28364eab6914a914c292d603e13,added new CreateFromFormat method to CarbonInterval,silvio-gratani,https://api.github.com/repos/briannesbitt/Carbon/git/commits/01987b520334f28364eab6914a914c292d603e13
+016ef16dac7c7cfa6bbbed6ff12b58a1dc619aff,Add diff translate,dima-bzz,https://api.github.com/repos/briannesbitt/Carbon/git/commits/016ef16dac7c7cfa6bbbed6ff12b58a1dc619aff
+898f3582ab324874f48bbf5a8f60a97e4e2c755b,Add option for rounding in forHumans,tylercollier,https://api.github.com/repos/briannesbitt/Carbon/git/commits/898f3582ab324874f48bbf5a8f60a97e4e2c755b
+4d38b1076b582d6d5fa87c06a7de3afe076b1805,"Update lv.php
+
+typo",janiseglitis,https://api.github.com/repos/briannesbitt/Carbon/git/commits/4d38b1076b582d6d5fa87c06a7de3afe076b1805
+f279df6a80b899df6512e059df05d2574ccc1552,CarbonPeriod and CarbonImmutable not behaving similarly,deleugpn,https://api.github.com/repos/briannesbitt/Carbon/git/commits/f279df6a80b899df6512e059df05d2574ccc1552
+b1a1905a472bbc6d397125d5a3449b51835be969,Fixed serialization issue,msarca,https://api.github.com/repos/briannesbitt/Carbon/git/commits/b1a1905a472bbc6d397125d5a3449b51835be969
+cb3bcfeae03d0eea7aedcd1a6720df619ceacde8,"#2002 Fix CarbonInterval not honoring toStringFormat setting, with tests (second attempt).",digitaladapt,https://api.github.com/repos/briannesbitt/Carbon/git/commits/cb3bcfeae03d0eea7aedcd1a6720df619ceacde8
+9ef61da8d5ec53ac71ede02e5f56035d3fce959d,"Update CarbonInterface.php (#2010)
+
+Use ""millennium"" word for startOfMillennium().",rentalhost,https://api.github.com/repos/briannesbitt/Carbon/git/commits/9ef61da8d5ec53ac71ede02e5f56035d3fce959d
+7951e801a25954074a56b550b76789ad28e0568e,always use non-deprecated translation method (#2019),xabbuh,https://api.github.com/repos/briannesbitt/Carbon/git/commits/7951e801a25954074a56b550b76789ad28e0568e
+658941fb7b48e3a9202c7a6b4bd1c3bd68db48ee,"Skip test when a required locale is unavailable (#2021)
+
+testSetLocale fails in environments lacking the desired English locale,
+while testComaDecimalSeparatorLocale fails without the French locale.
+
+Other tests that rely on specific locales being available on the system
+are skipped if those locales are unavailable.
+
+This change will similarly skip these tests if the required locale is
+not found.",rgson,https://api.github.com/repos/briannesbitt/Carbon/git/commits/658941fb7b48e3a9202c7a6b4bd1c3bd68db48ee
+ca197a5e31acb17e1ac6fe2708b65e367534ec1b,Add method for diffInQuarters (#2023),JurianArie,https://api.github.com/repos/briannesbitt/Carbon/git/commits/ca197a5e31acb17e1ac6fe2708b65e367534ec1b

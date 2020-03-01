@@ -1,0 +1,12 @@
+Issue Description,Assignees to the Issue,Link
+angular-dart complains about audio context...,,https://github.com/tastejs/todomvc/issues/1501
+beforeEach hook,,https://github.com/tastejs/todomvc/issues/1410
+duplicate tests,,https://github.com/tastejs/todomvc/issues/1409
+CSS: Homepage responsive clipping bug,,https://github.com/tastejs/todomvc/issues/1260
+Add page with all resources in learn.json,,https://github.com/tastejs/todomvc/issues/1244
+Get rid of completed todos count,,https://github.com/tastejs/todomvc/issues/1234
+Fix google page speed score,,https://github.com/tastejs/todomvc/issues/1193
+New app UI & switch to npm for dependencies,,https://github.com/tastejs/todomvc/issues/1110
+Tooltips not appearing in Firefox and Safari,,https://github.com/tastejs/todomvc/issues/1010
+right-column popup too narrow,,https://github.com/tastejs/todomvc/issues/850
+Use .focus() instead of .select()?,,https://github.com/tastejs/todomvc/issues/203

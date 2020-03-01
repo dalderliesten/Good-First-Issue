@@ -1,0 +1,276 @@
+First Commit Hash (SHA),Commit Message,Author (Github Name),Link to Commit
+94cdd58f9f0434aff478582e29b6cc0ab514a194,Initial commit,goldbergyoni,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/94cdd58f9f0434aff478582e29b6cc0ab514a194
+1df96585b43478acbab9049dff25505ac4491074,Update README.md,idori,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/1df96585b43478acbab9049dff25505ac4491074
+c72c65bafa443ad90631ebaa0795b4722dfceb75,Fix incomplete function declaration,kevinrambaud,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/c72c65bafa443ad90631ebaa0795b4722dfceb75
+8cfcc2116b715fc451a693472aa5f0b1c21705b2,Fix ambiguous typo in 4.1,mfine15,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/8cfcc2116b715fc451a693472aa5f0b1c21705b2
+ae7a6a7d2977242947ff2ec5d760189d1bfbacbc,"Fixed typo
+
+I believe it should be ""Even worse"", not ""Even worth"".",squgeim,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/ae7a6a7d2977242947ff2ec5d760189d1bfbacbc
+504cf72546379281042bec3f06eee216244a4385,Fix typo pitfal to pitfall,ChangJoo-Park,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/504cf72546379281042bec3f06eee216244a4385
+da4263e51f42ebae7119ac93614ebe3a8a41b1d3,"Update README.md
+
+Fixing typo.",matheusrocha89,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/da4263e51f42ebae7119ac93614ebe3a8a41b1d3
+9864269c6d607c104f3ff7e2536d80bd2f7c26b7,README.md: added semantic,BitYog,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/9864269c6d607c104f3ff7e2536d80bd2f7c26b7
+8672f5590f3daf3adaff661b415a77bcc2ea6c09,"[breakintcomponents.md] Fix some typos
+
+-- 
+   * correct 'modulurize' => 'modularize'
+   * correct 'consumeits' => 'consume its'
+   * add full stop at end of first paragraph",kudapara,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/8672f5590f3daf3adaff661b415a77bcc2ea6c09
+8e54c9a27c6d88eee2685d20ae517a576f214759,Fixed some typos,BrunoScheufler,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/8e54c9a27c6d88eee2685d20ae517a576f214759
+f29b698ef5c2cbc975e84e9a145e086c2e8c8b4c,fix(readme): typos,t1st3,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/f29b698ef5c2cbc975e84e9a145e086c2e8c8b4c
+100ab54c7f5353a2884485e3e54de24e1ff27155,Update README.md,mulijordan1976,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/100ab54c7f5353a2884485e3e54de24e1ff27155
+f606c95da3f853a2bafdd731558806e3b6ae9c23,Link loggers and add Pino,jsumners,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/f606c95da3f853a2bafdd731558806e3b6ae9c23
+9918a50cfa782580df6acda2802556aa75248c58,"create LICENSE
+
+CC BY-SA 4.0
+https://github.com/idleberg/Creative-Commons-Markdown/edit/master/4.0/by-sa.markdown",refack,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/9918a50cfa782580df6acda2802556aa75248c58
+681f38cc78522c6e06c40c443bd5b7c0ad196398,"Removed parenthesis from SomeClassExample
+
+Parenthesis throw a syntax error when used like this with `class`",dan-gamble,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/681f38cc78522c6e06c40c443bd5b7c0ad196398
+c0e1264dfe2161986a8c91e3df7df8d1d51b8785,"corrected typos in readme (#35)
+
+explictly -> explicitly
+interpeter -> interpreter  
+Prefering -> Preferring 
+asyncronous -> asynchronous
+Nowdays -> Nowadays
+extremly -> extremely",bhageena,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/c0e1264dfe2161986a8c91e3df7df8d1d51b8785
+81fc26a8490d3c70c4c99086ea3cd6f356b4f3c0,fix markdown in CI section,trainorpj,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/81fc26a8490d3c70c4c99086ea3cd6f356b4f3c0
+c2c0f21022860738ebde23f7ccb5d01116aa34f6,Fix link formatting,reod,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/c2c0f21022860738ebde23f7ccb5d01116aa34f6
+a4c09bb58a25aee5882df6302a40bb7585916bbe,Fix code sample syntax issue for bullet 3.3,hazolsky,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/a4c09bb58a25aee5882df6302a40bb7585916bbe
+e16a4532e148d9537ebbfbf0fed3b9416b7d073b,"Fixup a couple of code examples
+
+- Fix ""SyntaxError: Unexpected token throw""
+- Update Joi example
+
+Fixes #43",EvgenyOrekhov,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/e16a4532e148d9537ebbfbf0fed3b9416b7d073b
+ae72a6bad8e7d0250aa58c7915e029a2ccf3aba6,Update productoncode.md,gediminasml,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/ae72a6bad8e7d0250aa58c7915e029a2ccf3aba6
+aa425faac262dbcba5ef5a974c96e7ea492d862d,"Clean up some grammar
+
+Just cleaned up some of the grammar",hisaac,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/aa425faac262dbcba5ef5a974c96e7ea492d862d
+4d3c589dbbccbc15624ff5d4aadf9525b5b4a084,Typo,vkaracic,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/4d3c589dbbccbc15624ff5d4aadf9525b5b4a084
+72bb36232307989c68e433853b6ae443f34c8df7,"Tiny grammar fix in section 1.2
+
+changed the plural conjugation `ease` to the correct singular conjugation `eases`",lallenlowe,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/72bb36232307989c68e433853b6ae443f34c8df7
+c399b3de49dee07012708e2b303d50a6d0bcb925,Fixing #51,yonjah,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/c399b3de49dee07012708e2b303d50a6d0bcb925
+463de3bf14ba91b684d356f309df3ae6c5e4fa60,add rc as config manager option,nwwells,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/463de3bf14ba91b684d356f309df3ae6c5e4fa60
+016c0b44a0678da5dd065b636ce2f3ca96dd9d45,Fixed code example string template,paulovitin,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/016c0b44a0678da5dd065b636ce2f3ca96dd9d45
+37414b131d11b4ead3a51e753ec8563d2f45eacc,Update README.md,syzer,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/37414b131d11b4ead3a51e753ec8563d2f45eacc
+a1212c650c04a4be40a002e6787411e20f6b7075,Fix typo,pito-svk,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/a1212c650c04a4be40a002e6787411e20f6b7075
+fe208f212f9d7e334dd9c7505d7ed6c810524078,Add Prettier to Code Style Practices,septa97,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/fe208f212f9d7e334dd9c7505d7ed6c810524078
+cbd2bfcf2073ad4fc976f3edabf46b9990c129ff,Remove duplicated ESLint reference. Close #84,guumaster,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/cbd2bfcf2073ad4fc976f3edabf46b9990c129ff
+ab5421c434636a85d4fa9df4c3b06e6296e2f05a,[Chinese-translation]add 'table of contents' and '1.1' in README.chinese.md,MattJin,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/ab5421c434636a85d4fa9df4c3b06e6296e2f05a
+4699c46eccb5bde89a13a4ac9f304c287db63980,Fix typo in apmproducts.md,Pupix,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/4699c46eccb5bde89a13a4ac9f304c287db63980
+d36d4a0833d883ecac0ae9e5dbe694e42c519165,"Create thincomponents.chinese.md
+
+chinese.md",iamphr,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/d36d4a0833d883ecac0ae9e5dbe694e42c519165
+75661f307143a3052ef7dd69dcc5d7ad483d0cfe,Update frontendout.md,Sargon2234,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/75661f307143a3052ef7dd69dcc5d7ad483d0cfe
+9db490979b4a0c9ea79f572f9a9b8a503b58b035,Removed duplicate quote from Node.JS official doc,Spaxe,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/9db490979b4a0c9ea79f572f9a9b8a503b58b035
+fc0fce4622a73353fc2a773e7472aeaf39cd85c4,"Merge pull request #1 from i0natan/chinese-translation
+
+Merge pull request #104 from only-lei/chinese-translation",only-lei,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/fc0fce4622a73353fc2a773e7472aeaf39cd85c4
+73170b42a0939369385c75a159329b49a6c7f339,"Update resources section
+
+The current link does not actually link to a video. This commit will add a direct link to the video as well as a link to the slide deck.",ocularrhythm,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/73170b42a0939369385c75a159329b49a6c7f339
+45c29a7b5152858ee4dcd837a4a151b9f7490784,prettify and unify the syntax,AllenFang,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/45c29a7b5152858ee4dcd837a4a151b9f7490784
+0b227171d0b618fe7a0d05e8bb109c50461da45a,"Fix wrong copypasta
+
+This code is not Nginx but Express",Kiruchi,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/0b227171d0b618fe7a0d05e8bb109c50461da45a
+47b4d90d139a734ff9acac388cfe7d0d00df0073,Fixed Typing error in Section 3.11,dip4k,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/47b4d90d139a734ff9acac388cfe7d0d00df0073
+656b87543eead965e20f7c629038bea8876cbba4,"Update wraputilities.md
+
+- Change term ""framework"" to ""tool"", because is more correct.",leonardovillela,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/656b87543eead965e20f7c629038bea8876cbba4
+f0d023211c0b63cce1966f900b53606606a3f35a,Provide a URL to the StrongLoop blogpost,MichalZalecki,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/f0d023211c0b63cce1966f900b53606606a3f35a
+ae785939c24b1ccb4eac84079b48083da29dc8ed,fix(typos): use correct form of Node.js,lirantal,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/ae785939c24b1ccb4eac84079b48083da29dc8ed
+37667105fed9cbb7fedc95fa99525282570a15be,"Update shuttingtheprocess.md
+
+Fix indentation for errorHandler() and add missing closing bracket.",aecorredor,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/37667105fed9cbb7fedc95fa99525282570a15be
+f4f1065af53f18f633d7930187d2cbf93a3ce4c7,Changed (b) to (2) and made it easier to read,yeminnhtut,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/f4f1065af53f18f633d7930187d2cbf93a3ce4c7
+090a051dff571ec203ea47aa7cda7ad6392c1c83,"Fix typo in documentingusingswagger.md
+
+minor typo",cwar,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/090a051dff571ec203ea47aa7cda7ad6392c1c83
+d2882e10f5b3653a4ee1dc399d89505ac51db0bb,5.17. Use an LTS release of Node.js,js-kyle,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/d2882e10f5b3653a4ee1dc399d89505ac51db0bb
+825b3869b8b8659211cc5315b35c410765a989ac,fix bare markdown,keyfoxth,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/825b3869b8b8659211cc5315b35c410765a989ac
+e2ca2c6ea8f17090e08e9ca9792a7fde60cf20d8,fix grammar and formatting in all files,utkarshbhatt12,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/e2ca2c6ea8f17090e08e9ca9792a7fde60cf20d8
+f28169575311bd95c6a0f28946cda3adef6380fa,Remove unrelated quote.,duartemendes,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/f28169575311bd95c6a0f28946cda3adef6380fa
+0fcfc427154765b82d500b3fc07ea06ec0a9ae18,"Fix spaces, periods and line breaks
+
+Make the markdown in README.md consistent:
+1. Remove multiple spaces in between words
+2. Remove periods at the end of paragraphs
+3. Remove extra line breaks
+4. Add line breaks where missing
+5. Ensure three `<br>`s at the end of level 1 headings
+6. Format HTML",sagirk,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/0fcfc427154765b82d500b3fc07ea06ec0a9ae18
+74ef41ef690447b8499c16f8aec5578f4ae4297c,#187: 5.7. maintenance endpoint is dangerous when it becomes a target of DDOS,serv,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/74ef41ef690447b8499c16f8aec5578f4ae4297c
+36af008cc7e2c70e0aa50aff09a106c56d339c0c,"Constructor function in error should be uppercase
+
+Its perhaps a small thing but important for newbies I guess as constructor classes (functions) are usually uppercased in javascript:
+https://stackoverflow.com/questions/1564398/javascript-method-naming-lowercase-vs-uppercase",Max101,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/36af008cc7e2c70e0aa50aff09a106c56d339c0c
+b76d326f3555e3239f582072feba883a08b63134,add some notes about mongoose to error handling,vkarpov15,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/b76d326f3555e3239f582072feba883a08b63134
+219cbdafd014700a252c506b1648f545b449c253,Used async/await syntax over chaining .then's,GabeKuslansky,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/219cbdafd014700a252c506b1648f545b449c253
+26241eddd5e0bcae74f57ff5e63ca110a46c650a,Replace deprecated Node Security Project with npm audit,ripper234,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/26241eddd5e0bcae74f57ff5e63ca110a46c650a
+e9eaa80850e119b14101db00bc0e06e7bb131371,"Initial Korean translation
+
+Credits go to @uronly14me 
+
+Changes include
+
+* Korean main file
+
+* Replaced README.korean.md contents with README.md
+
+- The language of README.korean.md was Chinese, Replaced README.korean.md contents with latest version of README.md
+
+* Translated important part of main page
+
+- Only translated title, and some contents of main page
+
+* Fix typo in 'READ MORE'
+
+* Translate 1.1 and 1.2 to Korean
+
+* Fix 1.2 title
+
+* Translate 1.3 and 1.4 to Korean
+
+* Fix typo
+
+* Translate 1.5 and 2.1 to Korean
+
+* Translate 2.2 and 2.3 to Korean
+
+* Fix typo and nuance of translations
+
+* Translate 2.4, 2.5 and 2.6 to Korean
+
+* Fix nuance of translations
+
+* Translate rest of 2 to Korean
+
+* Translate to 3.3
+
+* Translate 3.3 again
+
+* Translate to 3.7 and all TLDR/Otherwise things
+
+* Translate 3.8 and 3.9 to Korean
+
+* Fix typo and markdown syntax
+
+* Translate rest of 3 and fix typo
+
+* added Korean translation links to all READMEs
+
+* removed temp directory
+
+* re-added chinese translation",uronly14me,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/e9eaa80850e119b14101db00bc0e06e7bb131371
+761fe191b020061f4f15aa580ba7da752d646f0e,"Use ES6 async/await in the example
+
+Hi, I'm a beginner developer. I think now it's more clear with ES6 Async/await and arrow function.
+
+I didn't use try-catch because throw. I'm just practising! Any suggestion is very welcome",imsergiobernal,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/761fe191b020061f4f15aa580ba7da752d646f0e
+8e51ab42102cd71fd6b1f0914c37659b882011e8,Dead link in security updated,manishsaraan,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/8e51ab42102cd71fd6b1f0914c37659b882011e8
+61a4ba4600f6075ad0e62abac960b6b2df7a5943,"Added semicolon issues and examples (#235)
+
+* Added semicolon issues and examples",phistuck,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/61a4ba4600f6075ad0e62abac960b6b2df7a5943
+28dc77b745b75c0ac9e86eb0eb6904c4f60d723f,"Update limitrequests.md
+
+delayAfter and delayMs have been removed - https://github.com/nfriedly/express-rate-limit#v3-changes.",ntelkedzhiev,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/28dc77b745b75c0ac9e86eb0eb6904c4f60d723f
+6a9876ab40d646ed541e01473c0294825ab21e32,"Fixing some typos in dependencysecurity.md
+
+Fixing some typos",vitordagamagodoy,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/6a9876ab40d646ed541e01473c0294825ab21e32
+0ac89be7ffe9a902b3efc7c781d4cc140353a0cb,"pre-editing, content is in place",coreyc,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/0ac89be7ffe9a902b3efc7c781d4cc140353a0cb
+c844a4fd3b51ff2f9fae9f81e0e64c72590e4e92,trans in processing,blackmatch,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/c844a4fd3b51ff2f9fae9f81e0e64c72590e4e92
+95805d841e27b3429983db5e266d4b67d13ea867,Add Brazilian flag,marcelosdm,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/95805d841e27b3429983db5e266d4b67d13ea867
+11ec931a7d290ab8dd4eedacceef09fc0e6a2154,Fix name typo,david-szabo97,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/11ec931a7d290ab8dd4eedacceef09fc0e6a2154
+62a92cabcba292f409aed2aa370109ef61e0e5a8,Updated references to NSP,ISNIT0,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/62a92cabcba292f409aed2aa370109ef61e0e5a8
+d6d0d36203f808e4f130e35fc52d96ed17bb1b5c,"Typo && Spacing
+
+There was an extraneous space. I also updated functions syntax to follow the style guide referenced in other parts of this document. These functions could potentially be updated to es6 as well.",BusbyActual,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/d6d0d36203f808e4f130e35fc52d96ed17bb1b5c
+78f5827cc38a90423a3828b2004598dd89fa2ccd,fixes a typo on 6.5,ImanMh,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/78f5827cc38a90423a3828b2004598dd89fa2ccd
+ea7617c94e4d629cbe55d6a0dbea750775638844,Added 'Native methods Over Util' article,Berkmann18,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/ea7617c94e4d629cbe55d6a0dbea750775638844
+685195941dd8ad3ab3d59a1ce1cf509bffb9564b,Change links from producton to production,HeeL,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/685195941dd8ad3ab3d59a1ce1cf509bffb9564b
+4bd5cbe94b2f1074f25a1f4cd071fa52c35b60f6,"Update README.md
+
+add rate-limiter-flexible item to 6.2 tldr",animir,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/4bd5cbe94b2f1074f25a1f4cd071fa52c35b60f6
+a70fc1c19685ba8fe1d5b5476d53cf189304d6ff,Minor change-lower case to title case,kapilepatel,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/a70fc1c19685ba8fe1d5b5476d53cf189304d6ff
+7aa2eeff118198f9d0de886d711d97d1e776e734,"Update README.chinese.md
+
++Removing original eng text
++Fix wired Expression",rhapsodyn,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/7aa2eeff118198f9d0de886d711d97d1e776e734
+cd5c872bc54e313e708ec716900f33ad66524e22,fix npm link,justjavac,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/cd5c872bc54e313e708ec716900f33ad66524e22
+9ef4e5a4e6a3487bdff2ed65c3ca5f7d8d1c83b3,docs: fix typos and couple spelling changes,hozefaj,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/9ef4e5a4e6a3487bdff2ed65c3ca5f7d8d1c83b3
+545ae028cd61a47944f0a9edb931f222319bd841,"Fix some typos and grammar errors, add a few links",el-ethan,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/545ae028cd61a47944f0a9edb931f222319bd841
+8843e9c07129306986ed2bc67567a1e5079aa6f5,Update guardprocess.chinese.md,milkdeliver,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/8843e9c07129306986ed2bc67567a1e5079aa6f5
+ee66477a09c1a26bd55651eada6de76439e6db37,typo fix at 4.1,ArlindXh,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/ee66477a09c1a26bd55651eada6de76439e6db37
+67e7c3b49c166a2c4215e5c75c09cd5c728befef,Typo fix,ttous,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/67e7c3b49c166a2c4215e5c75c09cd5c728befef
+830907a95820ad5067cfbceda6e4378a7b551b69,"Include new Function within avoideval.md
+
+Dynamic execution of JavaScript also happens in new Function, which is even referenced here: https://github.com/i0natan/nodebestpractices#-615-avoid-javascript-eval-statements, so this should be included.",LewisArdern,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/830907a95820ad5067cfbceda6e4378a7b551b69
+7ccb9b225301db41e55e8740ef46f9deee2b8fe6,"Fixed Anchors at brazilian translation
+
+Fixed anchors for chapters 5, 6 and 7 at README.brazilian-portuguese.md",DouglasMV,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/7ccb9b225301db41e55e8740ef46f9deee2b8fe6
+8d3c6a53dc91032fcc74abce530af0572477ddfc,"Update README.brazilian-portuguese.md (#356)
+
+Ortographic errors correction and  transtalation of non-translated english paragraph on portuguese translation version",Francozeira,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/8d3c6a53dc91032fcc74abce530af0572477ddfc
+69e1efcb045474287e1c9840a6e5b7399e20eaa6,"Removed the unnecessary de
+
+In this sentence the ""de"" is incorrect.",GabrielLidenor,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/69e1efcb045474287e1c9840a6e5b7399e20eaa6
+12a3b41eb30844a4a98c3efa1dcf85de9237d22c,"Rename 3.4 Use Semicolon to proper statement separation
+
+Fixes #26.
+
+I hope I integrated all feedback from this issue, while leaving the core message intact: People should be aware how statements are separated or linked together, and that there are cases where ASI and/or semicolon do not help, if statement termination is not understood. This also leaves room for the reader to prefer semicolons or not.",MartinMuzatko,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/12a3b41eb30844a4a98c3efa1dcf85de9237d22c
+1c752bfd92d59733d66625567533693a26ffdf24,"Update useonlythebuiltinerror.chinese.md
+
+optimize Chinese translation",ryanouyang,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/1c752bfd92d59733d66625567533693a26ffdf24
+2c63fee92303b9219466cf3e144c9826c9c2fadf,Added initial event loop copy,TheHollidayInn,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/2c63fee92303b9219466cf3e144c9826c9c2fadf
+935744eb6d9aaf8d0b74d4ccfcbc5550b2d2182f,"Update the URL link
+
+The previous landing page informed user to go to the GitHub where the cheatsheet has been moved to",Invvard,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/935744eb6d9aaf8d0b74d4ccfcbc5550b2d2182f
+f50624fd79338aa23c82dd08c37801a03ed41f79,Update README.brazilian-portuguese.md,romulogarofalo,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/f50624fd79338aa23c82dd08c37801a03ed41f79
+067c3274c4e7d7bee8a8f4943b7607f639030876,"Update configguide.md
+
+Better view for comment in json",thoqbk,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/067c3274c4e7d7bee8a8f4943b7607f639030876
+fccc95110f2cfa2262da5d006841d13afbf013d7,fix: Typo in centralizedhandling.md files,thealexandrelara,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/fccc95110f2cfa2262da5d006841d13afbf013d7
+b528d5acc8322a17062a1641d2baa97c044de204,Missing parentheses in the code,zhuweiyou,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/b528d5acc8322a17062a1641d2baa97c044de204
+d1e8819f863ce82ce38588fcd69a5ecbadd6df01,Sync w master,oshliaer,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/d1e8819f863ce82ce38588fcd69a5ecbadd6df01
+063e11e3bc2299f8002bbefe77b9446e14de61fd,"Fix typo
+
+Spotted a typo in sandbox.md",FreddishS,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/063e11e3bc2299f8002bbefe77b9446e14de61fd
+988bb88ea2afbf0ac982760b138c7dfb87f41363,"Update code examples in asyncerrorhandling.md
+
+- makes the Promises example more readable
+- adds an async/await example",autoboxer,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/988bb88ea2afbf0ac982760b138c7dfb87f41363
+d4c5b4b9c784ff2aa0f82e32a5226494645c073f,Create breakintcomponents.japanese.md,MasahiroSakaguchi,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/d4c5b4b9c784ff2aa0f82e32a5226494645c073f
+5c0488ff6a880e2148b6cc4972a3e451f162cf73,Update breakintcomponents.chinese.md,Alexerx,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/5c0488ff6a880e2148b6cc4972a3e451f162cf73
+94dd885032e36098172569c5fb12603c92f891de,"Update README.md
+
+Added Pino to the suggested loggers list (fastest one!)",lmammino,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/94dd885032e36098172569c5fb12603c92f891de
+d1e20cde92b044cf35c3905778d1344f06a2736c,Removed EN fragment,nicotrygub,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/d1e20cde92b044cf35c3905778d1344f06a2736c
+3b6dc1b180b9030c98d024c16354897caef7dbdf,update istanbul/nyc links,ziyaddin,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/3b6dc1b180b9030c98d024c16354897caef7dbdf
+7fb444517db9149894de85049fcb6bcc21521049,Fix absolute link redirecting,AbdelrahmanHafez,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/7fb444517db9149894de85049fcb6bcc21521049
+b69d7f5868a6efdf98bd29b05603b9b4059cbbde,docs: update CONTRIBUTORS.md,allcontributors[bot],https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/b69d7f5868a6efdf98bd29b05603b9b4059cbbde
+04fef2903f14d8ac602be62b6af1a1be6ff4a3f3,"Update README.md
+
+fix: spell correction",shabeer-mdy,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/04fef2903f14d8ac602be62b6af1a1be6ff4a3f3
+ce1c7dbb99ba0f0803cd092c93e79d02bbc9132e,correção de termo 'acync' para 'async',gnunesmoura,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/ce1c7dbb99ba0f0803cd092c93e79d02bbc9132e
+87cbc5e005407c3c1207b5810e129b2564788e9d,Removed the bunyan as a suggested logger,halfzebra,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/87cbc5e005407c3c1207b5810e129b2564788e9d
+7748b9dc59515f1978680162d80fe66e5074a43a,Fix translate on comments,deyvisonrocha,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/7748b9dc59515f1978680162d80fe66e5074a43a
+c4d8e165195bac913d9d61b8eb6b968e21de58d9,Update async/await example to resemble promises,leimonio,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/c4d8e165195bac913d9d61b8eb6b968e21de58d9
+e1fb2c91f51e0dd73c333a2c13fa90250d2069a6,Sync updates 19_10/1,contributorpw,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/e1fb2c91f51e0dd73c333a2c13fa90250d2069a6
+29d77b61af385f8ca5a0b0d837f7096d62760296,"link 7 point heading section properly
+
+The 7th section link is broken, this commit fixes it.",adeelibr,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/29d77b61af385f8ca5a0b0d837f7096d62760296
+4ad4479d9471945fd99b949917872f06d313c3a4,Update block-loop.md,singh1114,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/4ad4479d9471945fd99b949917872f06d313c3a4
+da1f0fdac2eca43bfe7fd02ace7e4a11f5bd52c7,fix typo in russian version of readme,collierrgbsitisfise,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/da1f0fdac2eca43bfe7fd02ace7e4a11f5bd52c7
+c113e1fe89e187e852ab9a8db4038eeb331e7fec,Update README.russian.md,LozaVolodymyr,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/c113e1fe89e187e852ab9a8db4038eeb331e7fec
+c44d60b428720086b3764c0919144da5b0d39ec3,Improve wording,taylankasap,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/c44d60b428720086b3764c0919144da5b0d39ec3
+10da3918552d64edc2676272e75f3495ae9eee05,"Update nativeoverutil.md
+
+The reason for file change is to correct the statement that the original author created to mean what was intended.",germangamboa95,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/10da3918552d64edc2676272e75f3495ae9eee05
+ed10c002da37a7915921cd1f79a25d0cb0c55f62,"Merge pull request #615 from AbdelrahmanHafez/master
+
+Elaborate on 2.2 (Use only built-in Error object)",kevynb,https://api.github.com/repos/goldbergyoni/nodebestpractices/git/commits/ed10c002da37a7915921cd1f79a25d0cb0c55f62

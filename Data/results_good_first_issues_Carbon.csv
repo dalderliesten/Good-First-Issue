@@ -1,0 +1,10 @@
+Issue Description,Assignees to the Issue,Link
+Add notEqualTo() to CarbonInterval and CarbonPeriod,,https://github.com/briannesbitt/Carbon/issues/1797
+Add comparison methods to CarbonInterval,,https://github.com/briannesbitt/Carbon/issues/1796
+Add equalTo() to CarbonInterval and CarbonPeriod,,https://github.com/briannesbitt/Carbon/issues/1775
+CarbonInterval::parseFromLocale,,https://github.com/briannesbitt/Carbon/issues/1756
+Functionnality - New option for diffForHumans - sequential parts,,https://github.com/briannesbitt/Carbon/issues/1701
+Add methods add/sub/diffIn milliseconds,,https://github.com/briannesbitt/Carbon/issues/1523
+Add second rounding methods,,https://github.com/briannesbitt/Carbon/issues/1248
+"isThisQuarter, isLastQuarter, isNextQuarter",,https://github.com/briannesbitt/Carbon/issues/1235
+Event overlap,,https://github.com/briannesbitt/Carbon/issues/1016

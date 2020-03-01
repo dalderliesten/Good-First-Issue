@@ -1,0 +1,232 @@
+Issue Description,Assignees to the Issue,Link
+Document exceptions that should not be caught as part of normal flow control (i.e. most of them),,https://github.com/dotnet/efcore/issues/20086
+Missing function DataLength ,,https://github.com/dotnet/efcore/issues/19988
+RevEng: Let IDatabaseModelFactory override the scaffolded connection string,,https://github.com/dotnet/efcore/issues/19799
+Scaffolder removal of HasDefaultValueSql does not cope with DEFAULT(0),,https://github.com/dotnet/efcore/issues/19720
+SQLite: Enable Decimal,,https://github.com/dotnet/efcore/issues/19635
+Cosmos: Support IWebProxy configuration,,https://github.com/dotnet/efcore/issues/19492
+Query: Timespan.TotalMinutes is not translated to server,,https://github.com/dotnet/efcore/issues/19360
+Query: Translate byte array.IndexOf,,https://github.com/dotnet/efcore/issues/19287
+Query: SqlServer: Functions to create datetime variations from components,,https://github.com/dotnet/efcore/issues/19237
+Query: SqlServer: Convert new DateTime to DATETIMEFROMPARTS,,https://github.com/dotnet/efcore/issues/19236
+SQL Server Index Fill Factor,,https://github.com/dotnet/efcore/issues/19147
+Orderings when Offset is used,,https://github.com/dotnet/efcore/issues/19031
+commandTimeout for some query only,,https://github.com/dotnet/efcore/issues/18895
+SQLite: Translate Regex.IsMatch(),,https://github.com/dotnet/efcore/issues/18845
+SQLite: UseSpatiaLite can translate more Math members,,https://github.com/dotnet/efcore/issues/18843
+Query: optimize arithmetic operation on constants,,https://github.com/dotnet/efcore/issues/18819
+Update CommandTimeout API docs to reference DbCommand.CommandTimeout,,https://github.com/dotnet/efcore/issues/18748
+ExpressionEqualityComparer cleanup,,https://github.com/dotnet/efcore/issues/18685
+Add built-in value converters for IPAddress or PhysicalAddress,,https://github.com/dotnet/efcore/issues/18662
+Having a keyless detail scaffolds wrong code,,https://github.com/dotnet/efcore/issues/18633
+Search for opportunities to use Dictionary.Remove while enumerating without defensive copy,,https://github.com/dotnet/efcore/issues/18598
+"more exception info for ""Include has been used on non entity queryable""",,https://github.com/dotnet/efcore/issues/18471
+Provider-agnostic timeouts,,https://github.com/dotnet/efcore/issues/18456
+Compute Hash for MemberMemberBinding in ExpressionEqualityComparer,,https://github.com/dotnet/efcore/issues/17959
+Scaffold-DbContext with -ContextDir flag doesn't add namespace for models,,https://github.com/dotnet/efcore/issues/17839
+HasDefaultvalue() for interfaces/generics,,https://github.com/dotnet/efcore/issues/17780
+Query: Translate List.Exists,,https://github.com/dotnet/efcore/issues/17762
+DateTime.AddX failure,,https://github.com/dotnet/efcore/issues/17507
+Add XML docs referencing how to determine the default CommandTimeout,,https://github.com/dotnet/efcore/issues/17503
+Translate `as` in where clause,,https://github.com/dotnet/efcore/issues/17475
+Entity comments overwrites property comments,,https://github.com/dotnet/efcore/issues/17474
+Translate Queryable.Reverse,,https://github.com/dotnet/efcore/issues/17388
+Contains on generic IList/HashSet/ImmutableHashSet will throw exception,,https://github.com/dotnet/efcore/issues/17342
+[Perf] SqliteConnection lazy initialization,,https://github.com/dotnet/efcore/issues/17271
+Sqlite Support translation of ToString,,https://github.com/dotnet/efcore/issues/17223
+please add feature `DateDiffWeek` extension for mssql,,https://github.com/dotnet/efcore/issues/17170
+Add hook to allow actions on the context after it is leased/returned from/to the pool,,https://github.com/dotnet/efcore/issues/17086
+3.0 Preview 7: ConnectionMode to Cosmos DB is hard-coded to Direct,,https://github.com/dotnet/efcore/issues/16842
+Sqlite Migrations: Support HasComment(),,https://github.com/dotnet/efcore/issues/16820
+Allow DefaultValueSql when using ForSqlServerUseSequenceHiLo,,https://github.com/dotnet/efcore/issues/16814
+Create resource strings for exception messages,,https://github.com/dotnet/efcore/issues/16712
+Interception tests don't normalize SQL,,https://github.com/dotnet/efcore/issues/16701
+SQLITE: EXPLAIN requires adding values for all query's parameters,,https://github.com/dotnet/efcore/issues/16647
+Indexes on hidden fields breaks scaffolding,,https://github.com/dotnet/efcore/issues/16316
+Add Clone or With methods to AlterColumnOperation,,https://github.com/dotnet/efcore/issues/16224
+Implement events for before and after SaveChanges,,https://github.com/dotnet/efcore/issues/15910
+Make MigrationsModelDiffer:ToReferentialAction protected rather than private,,https://github.com/dotnet/efcore/issues/15828
+dotnet-ef: Consider showing output that the project is building,,https://github.com/dotnet/efcore/issues/15787
+Consider allowing table mapping by attribute on the `DbSet`,,https://github.com/dotnet/efcore/issues/15748
+Allow users to check connection string used by database update operation,,https://github.com/dotnet/efcore/issues/15689
+[REVENG] Unblock scaffolding of Azure SQL DW,,https://github.com/dotnet/efcore/issues/15487
+"Consider translating `System.Math.Round(double, MidpointRounding)`",,https://github.com/dotnet/efcore/issues/15427
+Migrations: CHECK enum columns,,https://github.com/dotnet/efcore/issues/15411
+RevEng: Check constraint,,https://github.com/dotnet/efcore/issues/15408
+Allow `DeleteBehavior` to be reset to the default,,https://github.com/dotnet/efcore/issues/15295
+DBFunctions.CreateDateTime,,https://github.com/dotnet/efcore/issues/15283
+migrations are too aggressive on RenameColumn,,https://github.com/dotnet/efcore/issues/15178
+Unstable sort for Correlated_collection_with_top_level_FirstOrDefault test,,https://github.com/dotnet/efcore/issues/15164
+Automatically add query tags to warnings/exceptions,,https://github.com/dotnet/efcore/issues/15127
+Add a PMC command that will list all DbContext types,,https://github.com/dotnet/efcore/issues/15104
+Enhance warning for non-nullable store-generated bool properties to also cover enums,,https://github.com/dotnet/efcore/issues/15070
+[Microsoft.Data.Sqlite] ColumnSize of text fields is always DbNull.Value,,https://github.com/dotnet/efcore/issues/14963
+EnsureCreated not working when exist a Database Diagrams on SQL Server,,https://github.com/dotnet/efcore/issues/14890
+Microsoft.Data.Sqlite: Enable overflow checking (except for ulong),,https://github.com/dotnet/efcore/issues/14682
+Use soft-binding for EF commands,,https://github.com/dotnet/efcore/issues/14602
+Remove or internalize JSON.NET in tooling,,https://github.com/dotnet/efcore/issues/14571
+Design: Modernize generated C#,,https://github.com/dotnet/efcore/issues/14545
+NotImplementedExceptions in ExpressionEqualityComparer,,https://github.com/dotnet/efcore/issues/14509
+Default DateTime value on smalldatetime column throws exception when saving new object,,https://github.com/dotnet/efcore/issues/14457
+Support for CHECK constraints,,https://github.com/dotnet/efcore/issues/14425
+SqlServer: Translate bool ToString,,https://github.com/dotnet/efcore/issues/14205
+"SqlServerObjectToStringTranslator supports DateTime and DateTimeOffset, while SqlServerConvertTranslator does not",,https://github.com/dotnet/efcore/issues/14193
+Add TagWith overload that gets the filename and line number automatically,,https://github.com/dotnet/efcore/issues/14176
+Find tests that assert order without an ORDER BY,,https://github.com/dotnet/efcore/issues/14041
+XML comments for DbContext.Attach unclear,,https://github.com/dotnet/efcore/issues/14037
+"Microsoft.Data.Sqlite: Make GetBytes, GetChars, and GetTextReader more efficient",,https://github.com/dotnet/efcore/issues/13987
+Migrations XMLDOC,,https://github.com/dotnet/efcore/issues/13955
+Translation error using negative ,,https://github.com/dotnet/efcore/issues/13919
+The --context-dir parameter should respect the namespace conventions,,https://github.com/dotnet/efcore/issues/13904
+Dynamically constructed Where truncates DateTimeOffset values to 3 decimal places,,https://github.com/dotnet/efcore/issues/13897
+Microsoft.Data.Sqlite: SQLite provider seems to ignore |DataDirectory| ,,https://github.com/dotnet/efcore/issues/13840
+Microsoft.Data.Sqlite: Authorization Callbacks,,https://github.com/dotnet/efcore/issues/13835
+Microsoft.Data.Sqlite: BackupDatabase() should yield,,https://github.com/dotnet/efcore/issues/13834
+"Microsoft.Data.Sqlite: Feature request: tracing, debugging",,https://github.com/dotnet/efcore/issues/13832
+Microsoft.Data.Sqlite: Adding support for providing an encryption key in SqliteConnectionString class,,https://github.com/dotnet/efcore/issues/13828
+Microsoft.Data.Sqlite: Incremental blob I/O,,https://github.com/dotnet/efcore/issues/13824
+Sqlite Spatial RevEng: Column SRID and Dimension not configured,,https://github.com/dotnet/efcore/issues/13765
+Implement DatePart nanosecond,,https://github.com/dotnet/efcore/issues/13481
+Sqlite Migrations: Support RENAME COLUMN,,https://github.com/dotnet/efcore/issues/13341
+Migration file with small values data seed doesn't build,,https://github.com/dotnet/efcore/issues/13089
+SqlServer Query: double.NaN (or float) constant produces invalid SQL,,https://github.com/dotnet/efcore/issues/12998
+Migration file name date part is generated based on system region settings,,https://github.com/dotnet/efcore/issues/12978
+{SQLCE] Specification tests fail due to SQLCE limitations ,,https://github.com/dotnet/efcore/issues/12904
+Primary key name not taken into account when scaffolding,,https://github.com/dotnet/efcore/issues/12821
+Missing ExpressionType.Default in ExpressionComparer.Compare,,https://github.com/dotnet/efcore/issues/12771
+Generating invalid SQL for RenameTable for 2.1.0-preview1 version,,https://github.com/dotnet/efcore/issues/12559
+Additional ExecutionStrategy extension point: OnOperationRetrying(Async),,https://github.com/dotnet/efcore/issues/12536
+Ternary operation being evaluated when it should not,,https://github.com/dotnet/efcore/issues/12521
+Format HasData in snapshot to multiple lines,,https://github.com/dotnet/efcore/issues/12367
+Add partial methods to the scaffolded DbContext code,,https://github.com/dotnet/efcore/issues/12245
+SqlServer: Cannot use a clustered index without making PK non clustered explicitly,,https://github.com/dotnet/efcore/issues/12193
+Expression DateTime.CompareTo drops entire Where,,https://github.com/dotnet/efcore/issues/12115
+SQLite Query: Simplify composed DateTime functions,,https://github.com/dotnet/efcore/issues/12059
+DbFunction tests are missing from the Relational specification tests,,https://github.com/dotnet/efcore/issues/12044
+wrong method-name in warning when not explicitly define precisions for decimals,,https://github.com/dotnet/efcore/issues/12041
+Context 'Person' started tracking 'BloggingContext' entity.,,https://github.com/dotnet/efcore/issues/11951
+Identity property configuration,,https://github.com/dotnet/efcore/issues/11924
+Invalid SQL generated with nested .Sum() and operator,,https://github.com/dotnet/efcore/issues/11922
+Add EF tests that use the Identity model,,https://github.com/dotnet/efcore/issues/11838
+RevEng: Use nameof in data annotations,,https://github.com/dotnet/efcore/issues/11744
+Add HasPrecision() Fluent API,,https://github.com/dotnet/efcore/issues/11614
+Improve logging around context model caching,,https://github.com/dotnet/efcore/issues/11608
+SQLite Update: Value propagation DML broken with triggers,,https://github.com/dotnet/efcore/issues/11603
+IncludeExpressionNode and ThenIncludeExpressionNode throw different exception types,,https://github.com/dotnet/efcore/issues/11598
+DateTimeOffset.Now should be translated to SYSDATETIMEOFFSET(),,https://github.com/dotnet/efcore/issues/11594
+Allow specifying online option on SQL Server indexes,,https://github.com/dotnet/efcore/issues/11499
+Add built-in conversions from strings to other types,,https://github.com/dotnet/efcore/issues/11492
+SQL Server full-text search: Support creating full-text indexes in migrations,,https://github.com/dotnet/efcore/issues/11488
+SQL Server full-text search: FreeTextTable and ContainsTable table-valued functions,,https://github.com/dotnet/efcore/issues/11487
+SQL Server full-text search: Contains predicate,,https://github.com/dotnet/efcore/issues/11486
+SQLCE issue with WithConstructorsTestBase,,https://github.com/dotnet/efcore/issues/11471
+model builder lambda APIs don't work with public fields on entities,,https://github.com/dotnet/efcore/issues/11410
+Query: rewrite predicate with constanList.Any(e =>e == someProperty) to Contains,,https://github.com/dotnet/efcore/issues/11389
+Inherited private DbSet property isn't found,,https://github.com/dotnet/efcore/issues/11383
+Support cache when creating a sequence,,https://github.com/dotnet/efcore/issues/11261
+Feature parity: Add IQueryTypeConfiguration<TEntity>,,https://github.com/dotnet/efcore/issues/11257
+Document how to build the EF fort,,https://github.com/dotnet/efcore/issues/11142
+Query: convert ExpressionEqualityComparer to a singleton,,https://github.com/dotnet/efcore/issues/10983
+Implement change tracking proxies,,https://github.com/dotnet/efcore/issues/10949
+RevEng: Option to ignore DEFAULT constraints,,https://github.com/dotnet/efcore/issues/10881
+SqlServer: UseRowNumberForPaging shouldn't return void,,https://github.com/dotnet/efcore/issues/10808
+Add API to configure construction of entity type instances,,https://github.com/dotnet/efcore/issues/10789
+Lazy-loading proxies: allow entity types/navigations to be specified,,https://github.com/dotnet/efcore/issues/10787
+"EF Core Drop Database Command runs the ""ConfigureServices"" method twice",,https://github.com/dotnet/efcore/issues/10636
+Validate requiredness (nullability) in the in-memory database,,https://github.com/dotnet/efcore/issues/10613
+NRE thrown during add-migration if primary key is null.,,https://github.com/dotnet/efcore/issues/10571
+Query: Inline deterministic static member access in SQL,,https://github.com/dotnet/efcore/issues/10547
+Migrations: Changing delete behavior from restrict -> ClientSetNull causes FK to be modified,,https://github.com/dotnet/efcore/issues/10543
+Query: GetHashCode(Expression obj) of ExpressionEqualityComparer does not support ExpressionType.Assign,,https://github.com/dotnet/efcore/issues/10529
+Sqlite: Add translators for string methods,,https://github.com/dotnet/efcore/issues/10527
+Sqlite: Add translator for Math related functions,,https://github.com/dotnet/efcore/issues/10526
+Sqlite: Translate DateTime.Millisecond,,https://github.com/dotnet/efcore/issues/10523
+SQL Server: Translate DateTime.TimeOfDay,,https://github.com/dotnet/efcore/issues/10522
+Scaffolding issue with Oracle function-based index,,https://github.com/dotnet/efcore/issues/10416
+Query: Order By (Select 1) can be omitted for Sql without skip/take,,https://github.com/dotnet/efcore/issues/10410
+Add support for using response files from EF commands,,https://github.com/dotnet/efcore/issues/10409
+Tools: Command to get EnsureCreated() SQL script,,https://github.com/dotnet/efcore/issues/10378
+SqlServerMigrationsSqlGenerator missing dependency object,,https://github.com/dotnet/efcore/issues/10233
+Make it easy to add custom file header to generated code,,https://github.com/dotnet/efcore/issues/10226
+Query: subquery with orderby but without skip causes client eval - we could inject Skip(0) to allow for full translation,,https://github.com/dotnet/efcore/issues/10102
+Having non generic ApplyConfiguration method,,https://github.com/dotnet/efcore/issues/10069
+Test: UdfDbFunctionSqlServerTests should use AssertSql pattern,,https://github.com/dotnet/efcore/issues/9957
+DbFunctions: Consider protected methods for discovering DbFunctionAttribute,,https://github.com/dotnet/efcore/issues/9956
+nullreference when during add-migration when migration implementations lack migration attribute,,https://github.com/dotnet/efcore/issues/9920
+"Change ""Relational:TypeMapping"" annotation name",,https://github.com/dotnet/efcore/issues/9913
+Implement useful mappings in EF.Functions,,https://github.com/dotnet/efcore/issues/9585
+Improve Tools packages descriptions,,https://github.com/dotnet/efcore/issues/9439
+Design: Make OperationBase.Execute() protected,,https://github.com/dotnet/efcore/issues/9388
+Consider adding sugar method(s) to obtain the discriminator property's configuration,,https://github.com/dotnet/efcore/issues/9384
+Test: Remove dependency on SqlServer from EFCore.Design.Tests,,https://github.com/dotnet/efcore/issues/9352
+Consider having sugar methods to make it easier to apply migrations programatically,,https://github.com/dotnet/efcore/issues/9339
+Improve logging of datetime parameter values,,https://github.com/dotnet/efcore/issues/9319
+Query: Translate Exists,,https://github.com/dotnet/efcore/issues/9295
+Unit test suite questions,,https://github.com/dotnet/efcore/issues/9228
+DbFunctions: Schema not specified when calling DbFunction in projection,,https://github.com/dotnet/efcore/issues/9214
+DbFunctions: Consider allowing instance methods,,https://github.com/dotnet/efcore/issues/9213
+"Query: string concatenation where at least one operand in null translates to null, which is different than Linq to objects",,https://github.com/dotnet/efcore/issues/9201
+Add DbContext Validate to CLI/PS commands,,https://github.com/dotnet/efcore/issues/9052
+Disable _EFMigrationsHistory (HistoryRepository) when generating scripts in migrations,,https://github.com/dotnet/efcore/issues/8970
+SQLite RevEng: Allow tables without a primary key,,https://github.com/dotnet/efcore/issues/8840
+CLI Tools: Error when MSBuildProjectExtensionsPath doesn't exist,,https://github.com/dotnet/efcore/issues/8816
+Support DbSet fields as well as properties,,https://github.com/dotnet/efcore/issues/8698
+Preserve result order when doing DISTINCT,,https://github.com/dotnet/efcore/issues/8606
+Query: Add Support for DateTimeOffset.Add* functions,,https://github.com/dotnet/efcore/issues/8590
+"Migrations: Add IsSqlServer, etc. to MigrationBuilder",,https://github.com/dotnet/efcore/issues/8566
+"Add parameterless overloads of UseSqlServer, UseSqlite, etc.",,https://github.com/dotnet/efcore/issues/8427
+Improve SaveChanges circular dependency exception,,https://github.com/dotnet/efcore/issues/8363
+Hidden columns are scaffolded,,https://github.com/dotnet/efcore/issues/8192
+Unable to cast object of type 'System.Func`2 using entity framework core. v1.1.1,,https://github.com/dotnet/efcore/issues/8182
+SqlServer: Fluent API to configure a column as SPARSE column,,https://github.com/dotnet/efcore/issues/8023
+SQLite Migrations: Rebuild renamed indexes,,https://github.com/dotnet/efcore/issues/7821
+SQL Server: Error better when no database name,,https://github.com/dotnet/efcore/issues/7816
+Query: ParameterExtraction creates a parameter for every instance even though same variable is referenced,,https://github.com/dotnet/efcore/issues/7797
+Query: Add missing translators for Math functions in SqlServer provider,,https://github.com/dotnet/efcore/issues/7601
+Use Task.FromResult consistently,,https://github.com/dotnet/efcore/issues/7445
+Add Property/Reference/etc overloads that take IProperty/INavigation,,https://github.com/dotnet/efcore/issues/7390
+Design: Look at generic parameters when generating namespace using directives,,https://github.com/dotnet/efcore/issues/7352
+Migrations: Make generated code play well with StyleCop,,https://github.com/dotnet/efcore/issues/7189
+"Add IsRelational(), IsSqlServer(), IsInMemory(), etc. (or GetProviderName()) on DatabaseFacade",,https://github.com/dotnet/efcore/issues/6983
+Migrations: Attempt better ordering when adding computed columns,,https://github.com/dotnet/efcore/issues/6853
+Migrations: Handle GO statements in SQL Server,,https://github.com/dotnet/efcore/issues/6747
+Support creating non-durable SQL Server memory-optimized tables,,https://github.com/dotnet/efcore/issues/6671
+Allow changing the connection string for a DbContext instance,,https://github.com/dotnet/efcore/issues/6525
+Support for DateAdd,,https://github.com/dotnet/efcore/issues/6402
+Provide a data annotation for setting backing fields,,https://github.com/dotnet/efcore/issues/6266
+Support for translating ToString() to SQL,,https://github.com/dotnet/efcore/issues/6264
+Migrations: SQL Server Filtered Indexes,,https://github.com/dotnet/efcore/issues/5817
+"Provide Migration ""Hooks""",,https://github.com/dotnet/efcore/issues/5581
+Microsoft.EntityFrameworkCore.Tools does not support Shared Projects,,https://github.com/dotnet/efcore/issues/5248
+Test fixture base class uses SqlServer-specific code,,https://github.com/dotnet/efcore/issues/5216
+"SQL Server: Support INCLUDE (columnA, columnB...) clause when creating indexes",,https://github.com/dotnet/efcore/issues/4846
+ModelBuilder: Allow mixing CLR and shadow properties in HasKey (and elsewhere),,https://github.com/dotnet/efcore/issues/4842
+Query: Translate DateTime.Month/Day/Year etc.,,https://github.com/dotnet/efcore/issues/4582
+Query: Translate bitwise operations,,https://github.com/dotnet/efcore/issues/4255
+"Cleanup code generated in ModelSnapshot (extra line breaks, etc.)",,https://github.com/dotnet/efcore/issues/4253
+Support for defining query in query types,,https://github.com/dotnet/efcore/issues/3932
+Make InMemory provider enforce uniqueness of Alternate Keys,,https://github.com/dotnet/efcore/issues/3850
+Query: Concating null with not null string resulting in null,,https://github.com/dotnet/efcore/issues/3836
+Allow reusing column names for multiple properties,,https://github.com/dotnet/efcore/issues/3821
+Feature Request: Specifying Included Columns for an Index,,https://github.com/dotnet/efcore/issues/3748
+From_sql_queryable_simple_projection_composed isn't portable,,https://github.com/dotnet/efcore/issues/3548
+OrderByDescending(...).First() returns random for a not mapped property,,https://github.com/dotnet/efcore/issues/3302
+Naming nitpicking: rename cross apply to lateral join,,https://github.com/dotnet/efcore/issues/3118
+ContainsTranslater support for more than strings,,https://github.com/dotnet/efcore/issues/3078
+Equivalent to ObjectContext.CreateDatabaseScript,,https://github.com/dotnet/efcore/issues/2943
+Script-Migrations throws when no migrations,,https://github.com/dotnet/efcore/issues/2942
+Support Enum.HasFlag in LINQ,,https://github.com/dotnet/efcore/issues/2852
+Query: Provide EF.Functions to define methods that correspond to standard SQL operations,,https://github.com/dotnet/efcore/issues/2850
+Error when specifying AttachDbFileName in connection string,,https://github.com/dotnet/efcore/issues/2810
+Replace FunctionEvaluationDisablingVisitor and FunctionEvaluationEnablingVisitor with EvaluatableExpressionFilter,,https://github.com/dotnet/efcore/issues/2667
+Migrations: CHECK Required Columns on TPH Derived Types,,https://github.com/dotnet/efcore/issues/2595
+Migrations: CHECK Discriminator Values,,https://github.com/dotnet/efcore/issues/2594
+Migrations Design: Invalid 'using' statements for default namespace,,https://github.com/dotnet/efcore/issues/2467
+Add tests for ModelBuilder that use half-configured relationships,,https://github.com/dotnet/efcore/issues/2412
+Column ordering,,https://github.com/dotnet/efcore/issues/2272
+Migrations: Add ApplyMigrationsAsync (and related async methods),,https://github.com/dotnet/efcore/issues/2212
+Add FK constraint checking to the in-memory provider,,https://github.com/dotnet/efcore/issues/2166
+Hide Object-inherited members on certain APIs,,https://github.com/dotnet/efcore/issues/1367
+CLI Tools: DBCONTEXT environment variable,,https://github.com/dotnet/efcore/issues/927
+IndentedStringBuilder shouldn't create space-only lines,,https://github.com/dotnet/efcore/issues/654
+Commands: A way to see current Migrations status,,https://github.com/dotnet/efcore/issues/577

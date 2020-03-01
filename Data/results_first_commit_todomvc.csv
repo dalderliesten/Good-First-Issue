@@ -1,0 +1,1191 @@
+First Commit Hash (SHA),Commit Message,Author (Github Name),Link to Commit
+6f02ce1fd0d87917193f610f1432760543cb678b,initial commit,addyosmani,https://api.github.com/repos/tastejs/todomvc/git/commits/6f02ce1fd0d87917193f610f1432760543cb678b
+ed349aa76c79a83678d1aa5a21e3aab46d455138,Fixed inline editing,jesseemerick,https://api.github.com/repos/tastejs/todomvc/git/commits/ed349aa76c79a83678d1aa5a21e3aab46d455138
+ce37926e1009fe8f6d91a0196083b9c740c76a58,Added an AngularJS example,cburgdorf,https://api.github.com/repos/tastejs/todomvc/git/commits/ce37926e1009fe8f6d91a0196083b9c740c76a58
+2935c7af1138b35142d732b0a0f553d6ec53814d,Removed reference to missing image file,kazad,https://api.github.com/repos/tastejs/todomvc/git/commits/2935c7af1138b35142d732b0a0f553d6ec53814d
+ea43d08113be318a9bcaaaf3b03c408d0b73d0c2,sammyjs/index.html - fix localStorage test,mayoff,https://api.github.com/repos/tastejs/todomvc/git/commits/ea43d08113be318a9bcaaaf3b03c408d0b73d0c2
+dea0f1cf7d95441a6290dc47d1bb1fb7ac1992ab,"Fixed css styles, added pluralization widget, removed broken links",dandoyon,https://api.github.com/repos/tastejs/todomvc/git/commits/dea0f1cf7d95441a6290dc47d1bb1fb7ac1992ab
+9f372546f85ab46dcb622b88a5429cc7a63fce9f,Fix the URL :),maccman,https://api.github.com/repos/tastejs/todomvc/git/commits/9f372546f85ab46dcb622b88a5429cc7a63fce9f
+e467a6e3a17e17d0d5486e96a09e9eb1dc6c109a,Added broke.js todo app,brokenseal,https://api.github.com/repos/tastejs/todomvc/git/commits/e467a6e3a17e17d0d5486e96a09e9eb1dc6c109a
+e1676f6d7eb5eaf7d27db6e7b00c75569f1b4054,Added Angularjs-Persistencejs example,jacobmumm,https://api.github.com/repos/tastejs/todomvc/git/commits/e1676f6d7eb5eaf7d27db6e7b00c75569f1b4054
+a4e0e61cd22ae9d5c1a75f9b626f472573f86a14,Spruced up the grammar and punctuation in README,jasonm,https://api.github.com/repos/tastejs/todomvc/git/commits/a4e0e61cd22ae9d5c1a75f9b626f472573f86a14
+67ac6f966e551830a44833956bfbe00695199f93,add extjs example,goldledoigt,https://api.github.com/repos/tastejs/todomvc/git/commits/67ac6f966e551830a44833956bfbe00695199f93
+67233f91740bc07f0eb0c13a735f7653825310b6,Add jQuery example,sindresorhus,https://api.github.com/repos/tastejs/todomvc/git/commits/67233f91740bc07f0eb0c13a735f7653825310b6
+d2bd11298aca399c2de10b3a20e99abb99823f77,"Added support for adding and deleting todo items
+
+Initial setup of Dojo 1.7, using DojoX MVC to bind between a stateful
+model and UI elements. Use dojox.mvc.Repeat to render model items as
+a series of list items.",jthomas,https://api.github.com/repos/tastejs/todomvc/git/commits/d2bd11298aca399c2de10b3a20e99abb99823f77
+0ec40115c1f0cd4a6f8f5f106124b76ee454ca5a,My updates to handle the checkbox and to use dijit/InlineEditBox for the todo item.,edchat,https://api.github.com/repos/tastejs/todomvc/git/commits/0ec40115c1f0cd4a6f8f5f106124b76ee454ca5a
+6151aa69ff6998c194cf8e46a66f82e9098d88ff,Added a example for backbone+requirejs,thomasdavis,https://api.github.com/repos/tastejs/todomvc/git/commits/6151aa69ff6998c194cf8e46a66f82e9098d88ff
+56a09f6fd1c9ba779d5bfe38184c568f4a417dd3,Implemented a new SpineJS version using CoffeeScript with the latest SpineJS 1.0.5,fredwu,https://api.github.com/repos/tastejs/todomvc/git/commits/56a09f6fd1c9ba779d5bfe38184c568f4a417dd3
+8c997cfde730d55c9a1632b251d39817d0982e82,Added pure js version,ffesseler,https://api.github.com/repos/tastejs/todomvc/git/commits/8c997cfde730d55c9a1632b251d39817d0982e82
+7074c5459d5399fe8475ccf115522885364a99cd,"These changes address a keyboard navigation issue which made it impossible to
+tab to the ""clear all"" link. Only CSS was changed save fidel, which needed an
+href on the link to allow tabbing to it.  I did not edit source (less,scss)
+files.",Sequoia,https://api.github.com/repos/tastejs/todomvc/git/commits/7074c5459d5399fe8475ccf115522885364a99cd
+9ca024d4353a238142277e419cbb1d5b1e6f2e08,Preventing the backbone.js example from unnecessarily polluting the global namespace.,boushley,https://api.github.com/repos/tastejs/todomvc/git/commits/9ca024d4353a238142277e419cbb1d5b1e6f2e08
+4116c09d59fd1f65916fce21042ba463c5d9117c,Update Knockout.js sample to use 2.0.0 features.,rniemeyer,https://api.github.com/repos/tastejs/todomvc/git/commits/4116c09d59fd1f65916fce21042ba463c5d9117c
+236e44d6d5281db65207ced02448d012e1fa8630,inline initial dependencies,neonstalwart,https://api.github.com/repos/tastejs/todomvc/git/commits/236e44d6d5281db65207ced02448d012e1fa8630
+233879303367f237514e2e9e79b307fd410483c9,"Fix: double click on item allows editing of item.
+
+dblclick event was attached to div.todo-content when it needed to be label.todo-content.",colmjude,https://api.github.com/repos/tastejs/todomvc/git/commits/233879303367f237514e2e9e79b307fd410483c9
+a402067867f8ec3a62394ca9262685482bfd4552,"Small typo in architecture example for backbone, closes #91
+
+Signed-off-by: drublic <hans@sa-designz.de>",drublic,https://api.github.com/repos/tastejs/todomvc/git/commits/a402067867f8ec3a62394ca9262685482bfd4552
+526b9c4463ae08c474a582bf6bb100ff17840914,"Initial commit
+
+need to tidy up directory structure to match the others",chrisprice,https://api.github.com/repos/tastejs/todomvc/git/commits/526b9c4463ae08c474a582bf6bb100ff17840914
+677d0623bdce41fc0cde5c72564c53374bac0088,Grammo swat,coldhead,https://api.github.com/repos/tastejs/todomvc/git/commits/677d0623bdce41fc0cde5c72564c53374bac0088
+4a9b2483315a4d27dff2c55ce4d95d181b8669e7,Fixed that @maccman appears twice in contributers list,PascalPrecht,https://api.github.com/repos/tastejs/todomvc/git/commits/4a9b2483315a4d27dff2c55ce4d95d181b8669e7
+cb530ef2171bf159cce731172542fa4985c5d271,Removed rogue terror-comma from the premises.,sholden,https://api.github.com/repos/tastejs/todomvc/git/commits/cb530ef2171bf159cce731172542fa4985c5d271
+88768b143e9bca9d4e7ad3de2072030d2c407c86,Fixed typo in README,erikjansson,https://api.github.com/repos/tastejs/todomvc/git/commits/88768b143e9bca9d4e7ad3de2072030d2c407c86
+e4786809b196cc8c58ca4d9016dd194ad69a9402,Closes #136: DUEL app,mckamey,https://api.github.com/repos/tastejs/todomvc/git/commits/e4786809b196cc8c58ca4d9016dd194ad69a9402
+fb3b2b08db8bd7470c5a8538f5bb870eb93462e3,Closes #129: todo application made with Agilityjs.. Fixes #115,tshm,https://api.github.com/repos/tastejs/todomvc/git/commits/fb3b2b08db8bd7470c5a8538f5bb870eb93462e3
+3b6ab926b08dd83f4d6b59d15d32638c993d7e0b,"grammar fix - it's to its
+
+it's -> it is
+its -> belonging to it",roryokane,https://api.github.com/repos/tastejs/todomvc/git/commits/3b6ab926b08dd83f4d6b59d15d32638c993d7e0b
+5a63f69376c44eccc1592f284d3b33affebd3b1e,Close GH-147: Meteor. Fixes #133,siuying,https://api.github.com/repos/tastejs/todomvc/git/commits/5a63f69376c44eccc1592f284d3b33affebd3b1e
+8657561825540581746ac28e38bfe368217c7358,"upgrade backbone, underscore, requireJs to latest version",atomsfat,https://api.github.com/repos/tastejs/todomvc/git/commits/8657561825540581746ac28e38bfe368217c7358
+5690847f9f3c37e5359e44fe33346ada3039d6c7,Add new app o_O,weepy,https://api.github.com/repos/tastejs/todomvc/git/commits/5690847f9f3c37e5359e44fe33346ada3039d6c7
+1b653228ad18988101bd40271b9dc5311949ec9d,Close GH-116: Ember.js + Require.js example.,stas,https://api.github.com/repos/tastejs/todomvc/git/commits/1b653228ad18988101bd40271b9dc5311949ec9d
+a3c6bafd2042a1eef961a749f7d48aaacbd505a5,Close GH-149: Updated Batman example. Fixes #14,airhorns,https://api.github.com/repos/tastejs/todomvc/git/commits/a3c6bafd2042a1eef961a749f7d48aaacbd505a5
+86462783f845f954227d44dd721aea843dead1ec,Close GH-114: Olives + Emily Frameworks proposal.,podefr,https://api.github.com/repos/tastejs/todomvc/git/commits/86462783f845f954227d44dd721aea843dead1ec
+bdb644a3a48d60d7f67e2a50baa5612b0ec9d92c,Close GH-157: Updating Angular demo to v1.0 of the library.,ebidel,https://api.github.com/repos/tastejs/todomvc/git/commits/bdb644a3a48d60d7f67e2a50baa5612b0ec9d92c
+9e536a3c32edf47cf7a1f7ed1302d1bcd7f3b43b,Close #163: PlastronJS app,rhysbrettbowen,https://api.github.com/repos/tastejs/todomvc/git/commits/9e536a3c32edf47cf7a1f7ed1302d1bcd7f3b43b
+b47026fd3e4d7e134e5a67475bce0d6c3592f601,Close GH-122: Added a Stapes.js example.,hay,https://api.github.com/repos/tastejs/todomvc/git/commits/b47026fd3e4d7e134e5a67475bce0d6c3592f601
+f189c265c31f95824ccb0ac89d17c17326c37359,Close GH-162: Somajs.,soundstep,https://api.github.com/repos/tastejs/todomvc/git/commits/f189c265c31f95824ccb0ac89d17c17326c37359
+ce405e711d0a49e34631aedb82a90fdaaa224537,Use html escaping in the underscore templates,everett-sochowski,https://api.github.com/repos/tastejs/todomvc/git/commits/ce405e711d0a49e34631aedb82a90fdaaa224537
+47c8ab0aa78a2ad50c7430ddc12ea20e738ebe18,Close GH-120: Example using TroopJS.,mikaelkaron,https://api.github.com/repos/tastejs/todomvc/git/commits/47c8ab0aa78a2ad50c7430ddc12ea20e738ebe18
+a7949c8c66d1ca4896f94a16dffa979147a7bd82,Close GH-103: Added GWT implementation.,ColinEberhardt,https://api.github.com/repos/tastejs/todomvc/git/commits/a7949c8c66d1ca4896f94a16dffa979147a7bd82
+77b54786aa870d933f0b69f12414a6ec25c88400,Close GH-176: Changed Angular bindings so they will not be visible to the user prior to expression rendering..,arielbh,https://api.github.com/repos/tastejs/todomvc/git/commits/77b54786aa870d933f0b69f12414a6ec25c88400
+b32ef3c99fe463fb588706473775b6885c641a76,add knockoutjs_require,loicknuchel,https://api.github.com/repos/tastejs/todomvc/git/commits/b32ef3c99fe463fb588706473775b6885c641a76
+2aef4b5d9186ac5a78487f0d4e9498687d0d1b29,Close GH-156: rappidjs update. Fixes #140,krebbl,https://api.github.com/repos/tastejs/todomvc/git/commits/2aef4b5d9186ac5a78487f0d4e9498687d0d1b29
+3dd6ba51782856d7f61aaf4a11390a17e40db8a4,Fixed the failure testcases. Wrap the template compile with a function.,runawaygo,https://api.github.com/repos/tastejs/todomvc/git/commits/3dd6ba51782856d7f61aaf4a11390a17e40db8a4
+6d40fc20e3f6d92ddf7ea1d7aa3cafabe71876dc,use built maria.js file and organize files according to framework's recommended best practices,petermichaux,https://api.github.com/repos/tastejs/todomvc/git/commits/6d40fc20e3f6d92ddf7ea1d7aa3cafabe71876dc
+c3dfa36ebe5bf27cb124e2a53ee887a55e9db8db,fixed loss of context for 'this' keyword when AppView instance method addAll calls AppView instance method addOne (in the backbone app).,richardharrington,https://api.github.com/repos/tastejs/todomvc/git/commits/c3dfa36ebe5bf27cb124e2a53ee887a55e9db8db
+ce1e4cb02f2a49201c56facc5fe937325d2de8ed,"AngularJS: unifying indentation and ws
+
+per https://github.com/rwldrn/idiomatic.js/#idiomatic-style-manifesto
+
+- Never mix spaces and tabs.
+- ...  choose between soft indents (spaces) or real tabs, consider this law.
+
+I went with spaces everywhere.",IgorMinar,https://api.github.com/repos/tastejs/todomvc/git/commits/ce1e4cb02f2a49201c56facc5fe937325d2de8ed
+9b3f7f1ef85e5012720c144d8d16d3c5ef505c3b,"Added AMD version of angularjs-perf using require.js
+
+Controllers and directives share a common app namespace, which is an angular
+module that is loaded via require.js. The angular-loader is inlined so the
+loading of angular.js and the modules can happen in parallel.",passy,https://api.github.com/repos/tastejs/todomvc/git/commits/9b3f7f1ef85e5012720c144d8d16d3c5ef505c3b
+6c7fbb92ae88679164a1a97574270d383e3ca58b,Cujo todo implementation,briancavalier,https://api.github.com/repos/tastejs/todomvc/git/commits/6c7fbb92ae88679164a1a97574270d383e3ca58b
+2c3e0f2206a267f1dda3c19e8d10a2f7c85236e0,unnecessary comma,demetriuz,https://api.github.com/repos/tastejs/todomvc/git/commits/2c3e0f2206a267f1dda3c19e8d10a2f7c85236e0
+58ac2a5335b4b772c45787f4820c3376625eb3d4,fixed typos: Todos -> todos on all index.html files in order to be consistent along the different demos,juristr,https://api.github.com/repos/tastejs/todomvc/git/commits/58ac2a5335b4b772c45787f4820c3376625eb3d4
+f9445c31c9d654d324326913795ee12daf2bbd15,initial labs for epitome,DimitarChristoff,https://api.github.com/repos/tastejs/todomvc/git/commits/f9445c31c9d654d324326913795ee12daf2bbd15
+6fa1cbc9dfc5b4b1d0326d7f7d5b67d477d336cd,Backbone Require - Fix incorrect end-tags. Fixes #243,neoswf,https://api.github.com/repos/tastejs/todomvc/git/commits/6fa1cbc9dfc5b4b1d0326d7f7d5b67d477d336cd
+67be50caa27550b3d3b2b81740b09628c836ec78,"**First, thanks to do this awesome job with TodoMVC, It's great to see some projects like this :)**
+
+Here my modifications to respect the ""best-pratices"" in Backbone.js :
+
+**Model** - js/models/todo.js
+
+ - remove `initialize` method in Model (useless because `defaults` do already the job)
+ - remove `clear` method, we should not change `clear` behavior of Backbone.Model -> http://backbonejs.org/#Model-clear
+
+**Views** - js/views/app.js and js/views/todos.js
+
+ - Call model.destroy() (model.clear(); is not logic)
+ - Use this.$el instead of $(this.el) to improve readability and caching
+
+Correct this issue: https://github.com/addyosmani/todomvc/issues/223 with adding `window.app.Todos.on( 'change:completed', this.addAll, this );` and `add` event call now `addAll` method in *js/views/app.js*
+
+Issue related too: https://github.com/addyosmani/todomvc/issues/253",Atinux,https://api.github.com/repos/tastejs/todomvc/git/commits/67be50caa27550b3d3b2b81740b09628c836ec78
+f1ad95c4304cda5a0532c50ac9c5a52c66a1d2b6,fix broken link to unlicense.org in README,benjmin-r,https://api.github.com/repos/tastejs/todomvc/git/commits/f1ad95c4304cda5a0532c50ac9c5a52c66a1d2b6
+a3e94ba8129370cc9f91a09d026befc73723f8fe,TodoMVC using new dojox/mvc 1.8 features.,asudoh,https://api.github.com/repos/tastejs/todomvc/git/commits/a3e94ba8129370cc9f91a09d026befc73723f8fe
+16dd0bb345274a0a2762c6107854ab4ad1cf9b33,"Update labs/architecture-examples/sammyjs/css/app.css
+
+now when checkbox done - style is working",nemilya,https://api.github.com/repos/tastejs/todomvc/git/commits/16dd0bb345274a0a2762c6107854ab4ad1cf9b33
+d6c0495a4cd4741d4f09030689ac0e4443a1b54d,"Update labs/architecture-examples/dijon/js/services/LocalStorageService.js
+
+should use ""ns"" argument var rather than the global ""dijondemo"" var",dadaxr,https://api.github.com/repos/tastejs/todomvc/git/commits/d6c0495a4cd4741d4f09030689ac0e4443a1b54d
+66197be6251afe1b70c1f9f6aab433c54b261057,DerbyJS: Initial version,absoludity,https://api.github.com/repos/tastejs/todomvc/git/commits/66197be6251afe1b70c1f9f6aab433c54b261057
+7188e3bf1bad512aff937e40d7eb6f1642f93f52,DerbyJS: Various improvements,lackac,https://api.github.com/repos/tastejs/todomvc/git/commits/7188e3bf1bad512aff937e40d7eb6f1642f93f52
+d23c0c335fe6b6c84b8daf7238ae4d6c16cc6336,DerbyJS: Rework to use model filters instead of CSS,nateps,https://api.github.com/repos/tastejs/todomvc/git/commits/d23c0c335fe6b6c84b8daf7238ae4d6c16cc6336
+be8f51105b8bf037b279a97615c0d5a8718c9626,"FIX: calling the correct callback on 'add' on Todos
+
+The call to this.addAll for the 'add' event on Todos is redundant and incorrect, this fix corrects it. ",ricogallo,https://api.github.com/repos/tastejs/todomvc/git/commits/be8f51105b8bf037b279a97615c0d5a8718c9626
+810da9aacff215d8d6047358d71d117e7afa2b97,Updated to Ext 4.1.1,seanparmelee,https://api.github.com/repos/tastejs/todomvc/git/commits/810da9aacff215d8d6047358d71d117e7afa2b97
+f4cd79cdb29a1c0700b3638783d6e2cd902e5c19,typo,alltom,https://api.github.com/repos/tastejs/todomvc/git/commits/f4cd79cdb29a1c0700b3638783d6e2cd902e5c19
+e904feb439dd5bb9d23692fd1880e71e0fd3ea55,"Update Meteor app to Meteor 0.3.8. Closes #225
+
+Replace it with vanilla JS instead of CoffeScript",MStumpp,https://api.github.com/repos/tastejs/todomvc/git/commits/e904feb439dd5bb9d23692fd1880e71e0fd3ea55
+2dfaa8b30863b3779a4cdd9cc5a741e9c80d58fa,Close GH-280: PureMVC version (this time with routing). Fixes #77,cliffhall,https://api.github.com/repos/tastejs/todomvc/git/commits/2dfaa8b30863b3779a4cdd9cc5a741e9c80d58fa
+2a923887ac0d6f068b115cf021a09528c5266812,Backbone Marionette reference app,jsoverson,https://api.github.com/repos/tastejs/todomvc/git/commits/2a923887ac0d6f068b115cf021a09528c5266812
+b7cc462ae64520f4501a55a49e8f0c4e2b63c996,Re-worked @jsoverson's Marionette implementation to use Marionette's modules,derickbailey,https://api.github.com/repos/tastejs/todomvc/git/commits/b7cc462ae64520f4501a55a49e8f0c4e2b63c996
+2540365e7262b334ce09b6eb3f4e3710e3b3e2b4,dermis example,contra,https://api.github.com/repos/tastejs/todomvc/git/commits/2540365e7262b334ce09b6eb3f4e3710e3b3e2b4
+8222e00258d8dbfd0ece8280a2d6354901f740d6,"Added Lab for KnockoutJS ClassBindingProvider
+
+Implements Ryan Niemeyer's classBindingProvider in the default
+KnockoutJS TodoMVC app.",mberkom,https://api.github.com/repos/tastejs/todomvc/git/commits/8222e00258d8dbfd0ece8280a2d6354901f740d6
+0671e6cd21bf4533f3f31ccbfc93262f15bb2070,CanJS TodoMVC example,daffl,https://api.github.com/repos/tastejs/todomvc/git/commits/0671e6cd21bf4533f3f31ccbfc93262f15bb2070
+79ec609dbf31535526c704b8fb2231ae0f142a81,Add Dart lang app. Closes #295,MathieuLorber,https://api.github.com/repos/tastejs/todomvc/git/commits/79ec609dbf31535526c704b8fb2231ae0f142a81
+ad2e4a07862f42827aa47fef8da00f4cd28aaaf5,YUI app: Clean up HTML tags,InSuperposition,https://api.github.com/repos/tastejs/todomvc/git/commits/ad2e4a07862f42827aa47fef8da00f4cd28aaaf5
+bfcfcc7361ca324a05cbad7052f1f2c7adf8f425,Fixes #329,petsagouris,https://api.github.com/repos/tastejs/todomvc/git/commits/bfcfcc7361ca324a05cbad7052f1f2c7adf8f425
+815aa07efb61c57486eac697877f09b9297bc129,Angular+TypeScript,pavelsavara,https://api.github.com/repos/tastejs/todomvc/git/commits/815aa07efb61c57486eac697877f09b9297bc129
+f4df18ba4ab850e4a745e581c5f0f53018e6bc71,animate developer quotes randomly.,stephensawchuk,https://api.github.com/repos/tastejs/todomvc/git/commits/f4df18ba4ab850e4a745e581c5f0f53018e6bc71
+00ca0421638998655593d8e7321ecf6645b07860,Add Chaplin app.,paulmillr,https://api.github.com/repos/tastejs/todomvc/git/commits/00ca0421638998655593d8e7321ecf6645b07860
+9d4b0b064efbcf187552b381c61c9185773ce80c,Simplify Backbone collection code.,maiwald,https://api.github.com/repos/tastejs/todomvc/git/commits/9d4b0b064efbcf187552b381c61c9185773ce80c
+88b37a65a1832ca7809d251cb6b5a14df2b6430b,Fixing footer issues in YUI TodoMVC,clarle,https://api.github.com/repos/tastejs/todomvc/git/commits/88b37a65a1832ca7809d251cb6b5a14df2b6430b
+eeb6f5ffbc98fff5d156e92b5a09a3a3f7acdee4,Fixed Stapes/RequireJS link on the homepage.,knpwrs,https://api.github.com/repos/tastejs/todomvc/git/commits/eeb6f5ffbc98fff5d156e92b5a09a3a3f7acdee4
+31c052b70af498bd4cfece0c953b576cb34c710b,"chmod -x
+
+find . -type f -exec chmod -x {} \;",aeosynth,https://api.github.com/repos/tastejs/todomvc/git/commits/31c052b70af498bd4cfece0c953b576cb34c710b
+8b95665f7719255d79587edf2c5d93bff874da66,"backbone: Consistent use of '$' prefix, other minor style changes.
+backbone.xmpp: Fixed up backbone script reference.",ssarj,https://api.github.com/repos/tastejs/todomvc/git/commits/8b95665f7719255d79587edf2c5d93bff874da66
+72b7d4be56133c2cc0f74cbdbe01beafd6e0e142,fixed site URL for TypeScript,thorn0,https://api.github.com/repos/tastejs/todomvc/git/commits/72b7d4be56133c2cc0f74cbdbe01beafd6e0e142
+5696cf5a28c0b520974ce2ccbc7195843449e6cc,"Update montage link
+
+The project's official site is montagejs.org now",mczepiel,https://api.github.com/repos/tastejs/todomvc/git/commits/5696cf5a28c0b520974ce2ccbc7195843449e6cc
+d56c8a8a84347ac7926980ec98a511f3c29d6b18,typo: well-profen -> well-proven,gr2m,https://api.github.com/repos/tastejs/todomvc/git/commits/d56c8a8a84347ac7926980ec98a511f3c29d6b18
+f9552feb95385e64a811318459fe512bf69c89fd,"Bring Ember example up-to-date with 1.0
+
+Closes #407
+Fixes #394",tomdale,https://api.github.com/repos/tastejs/todomvc/git/commits/f9552feb95385e64a811318459fe512bf69c89fd
+0ee6deb89176d020bb21668959b93e369db210ed,Added Serenade.js example,jnicklas,https://api.github.com/repos/tastejs/todomvc/git/commits/0ee6deb89176d020bb21668959b93e369db210ed
+f9fab08735f118353250e70ca46ab6b285493663,"Fixed various issues with this version.
+Please refer to README.md for a complete list of changes.",BorisKozo,https://api.github.com/repos/tastejs/todomvc/git/commits/f9fab08735f118353250e70ca46ab6b285493663
+ac6d76c85de73476d12df2a032547530271800dc,Batman: fix mixed indentation that cause coffee to generate incorrect js,gstof,https://api.github.com/repos/tastejs/todomvc/git/commits/ac6d76c85de73476d12df2a032547530271800dc
+566d0d5859251a8ddb7260e69eec57019255aba0,Added Kendo UI implementation,bsatrom,https://api.github.com/repos/tastejs/todomvc/git/commits/566d0d5859251a8ddb7260e69eec57019255aba0
+9d107c89959f3083b470f494aaa9f6c0fefefcd2,Fix broken link,meeech,https://api.github.com/repos/tastejs/todomvc/git/commits/9d107c89959f3083b470f494aaa9f6c0fefefcd2
+a93df88f68ac142a45ddb3a9a2cf4ded372f33ae,added todo in twitter flight,mkuklis,https://api.github.com/repos/tastejs/todomvc/git/commits/a93df88f68ac142a45ddb3a9a2cf4ded372f33ae
+590ce395b56c55b734c071097b82271d61e28619,Update the Batman.js example to the latest release v0.14.1 and modify the example to load more smoothly by hiding the todo template until the todos have loaded,matthelm,https://api.github.com/repos/tastejs/todomvc/git/commits/590ce395b56c55b734c071097b82271d61e28619
+65869839a19f0e2b47e3e5b79cc973104064a0c3,Updates Ember.js example to 1.0.rc1,trek,https://api.github.com/repos/tastejs/todomvc/git/commits/65869839a19f0e2b47e3e5b79cc973104064a0c3
+f8d5c28adbaff54fe7aa939a8d6ba2acb40fdbf8,ExtJS with DeftJS version of TodoMVC.,brian428,https://api.github.com/repos/tastejs/todomvc/git/commits/f8d5c28adbaff54fe7aa939a8d6ba2acb40fdbf8
+7b621ff1b01a9dad6bce89167c2a14fdb22ab5de,Aria Templates implementation of the TodoMVC app.,olaf-k-1a,https://api.github.com/repos/tastejs/todomvc/git/commits/7b621ff1b01a9dad6bce89167c2a14fdb22ab5de
+50aa9e10ac23d3953664f18d8219a207de847c77,fix css class err,shiyj,https://api.github.com/repos/tastejs/todomvc/git/commits/50aa9e10ac23d3953664f18d8219a207de847c77
+18839bd1ee7f18babf05ac80a0d07bfd4cf923d5,fix typo,abyx,https://api.github.com/repos/tastejs/todomvc/git/commits/18839bd1ee7f18babf05ac80a0d07bfd4cf923d5
+a84dc634bcd5ffdc7c3ef402989af9c285a76a30,removed an orphaned submodule,mgol,https://api.github.com/repos/tastejs/todomvc/git/commits/a84dc634bcd5ffdc7c3ef402989af9c285a76a30
+b62ab50a2b86585b33119edacd43dff78db10d4d,Replaced DOMReady checks with immediately-invoked function expressions that explicitly pass jQuery to the local scope,rkulla,https://api.github.com/repos/tastejs/todomvc/git/commits/b62ab50a2b86585b33119edacd43dff78db10d4d
+78195d3fe97fb1c5cdbf564ac8a0f935ba6e4246,fixing globals comment,LeonFedotov,https://api.github.com/repos/tastejs/todomvc/git/commits/78195d3fe97fb1c5cdbf564ac8a0f935ba6e4246
+d0fdfa9af497888a98b0b1a83a741af0ebbcd984,"fixed jshint warnings (added missing commas, removed trailing comma)",xinsight,https://api.github.com/repos/tastejs/todomvc/git/commits/d0fdfa9af497888a98b0b1a83a741af0ebbcd984
+e6f149763f6fc551b5871a1de0ea73dad99c1296,"TodoMVC app in vanilla JS. No, that's not a framework.",OscarGodson,https://api.github.com/repos/tastejs/todomvc/git/commits/e6f149763f6fc551b5871a1de0ea73dad99c1296
+dccfdac94635f306bb5c788b77605d11ee1fa43a,"use Marionette's event hashes for Model and Collection events
+
+refer to Marionette's documentation for more details https://github.com/marionettejs/backbone.marionette/blob/master/docs/marionette.view.md#viewmodelevents-and-viewcollectionevents",callmephilip,https://api.github.com/repos/tastejs/todomvc/git/commits/dccfdac94635f306bb5c788b77605d11ee1fa43a
+f434c38b7dd61bb8f148c5329a8e4d5c95bda82a,Update ember data revision from 11 to 12,rahulcs,https://api.github.com/repos/tastejs/todomvc/git/commits/f434c38b7dd61bb8f148c5329a8e4d5c95bda82a
+57d0c3ea9c9e62d74f7673318e524920ca2efb0f,"Fixed broken AngularJS test runner
+
+Incorrect paths in the testacular.conf.js file prevented the tests from running.  Also, updated package.json to use karma instead of testacular (project was renamed)",mdhaney,https://api.github.com/repos/tastejs/todomvc/git/commits/57d0c3ea9c9e62d74f7673318e524920ca2efb0f
+00dcae174b2310c529707acc6c6e418ce9b807b9,Updated enyo/backbone example to not kill the sidebar,callmehiphop,https://api.github.com/repos/tastejs/todomvc/git/commits/00dcae174b2310c529707acc6c6e418ce9b807b9
+e81122280f44b178acac9066b175fefaf392d073,Fixed AngularJS links to .org instead of .com,acanby,https://api.github.com/repos/tastejs/todomvc/git/commits/e81122280f44b178acac9066b175fefaf392d073
+be8416523cd792d4fe8dce89b4ebc092c18c17b3,removes un-used (and un-needed) shim for backbone.localStorage,joyvuu-dave,https://api.github.com/repos/tastejs/todomvc/git/commits/be8416523cd792d4fe8dce89b4ebc092c18c17b3
+966886b679c71a829854a6c6121fe04d4b7d473d,fixed input::-moz-placeholder,theoptips,https://api.github.com/repos/tastejs/todomvc/git/commits/966886b679c71a829854a6c6121fe04d4b7d473d
+37589b39c3394147b61e865fa2ea0216d36680bd,"Initial add of React TodoMVC to labs
+
+React is a JavaScript library for building user interfaces by Facebook and Instagram. It powers many components on Facebook.com and all of Instagram.com is written with it. We have two TodoMVC examples checked into our repo: this one, which has no dependencies, and another one which showcases Backbone integration. I've only included the first one for now, if you guys think it's a good idea I can put out a PR for the one with Backbone integration.
+
+I read the contributing guide and I think this meets the standards, let me know if I missed something.",petehunt,https://api.github.com/repos/tastejs/todomvc/git/commits/37589b39c3394147b61e865fa2ea0216d36680bd
+eb2d7cbbc96c47d44d982cb7fe85065710bf4004,added insecure package,snize,https://api.github.com/repos/tastejs/todomvc/git/commits/eb2d7cbbc96c47d44d982cb7fe85065710bf4004
+50b52b2cc05e5e592c439fb62808bb886e590715,"Add jQuery annotated source
+
+I suggest adding annotated source to the readme, as it seems helpful to understand how most of the things work.",danekszy,https://api.github.com/repos/tastejs/todomvc/git/commits/50b52b2cc05e5e592c439fb62808bb886e590715
+6e00474eaef2822da4eb17d1e90a125a4b1ec4a2,Added Mozart example,tomdionysus,https://api.github.com/repos/tastejs/todomvc/git/commits/6e00474eaef2822da4eb17d1e90a125a4b1ec4a2
+e7fbe334bb09689fc2d14fef348263b3c25cd7b8,TodoMVC using SAPUI5,schubertha,https://api.github.com/repos/tastejs/todomvc/git/commits/e7fbe334bb09689fc2d14fef348263b3c25cd7b8
+96921127e4f94caa8439cb4c8cd65420d36c2101,sapui5: remove unneeded libraries from bootstrap,akudev,https://api.github.com/repos/tastejs/todomvc/git/commits/96921127e4f94caa8439cb4c8cd65420d36c2101
+ba4b1496066f32d5f59d46e14fb9dd6a5c537920,Close GH-629: Update YUI.,camsong,https://api.github.com/repos/tastejs/todomvc/git/commits/ba4b1496066f32d5f59d46e14fb9dd6a5c537920
+1617459fcf59fb4ca43b9b485491a018ffd9c16c,"Update index.html
+
+Updated YUI seed file",gsydonkey,https://api.github.com/repos/tastejs/todomvc/git/commits/1617459fcf59fb4ca43b9b485491a018ffd9c16c
+6defd806a34d73407e380666062a1809fb6d5605,Add Firebase + AngularJS realtime example,anantn,https://api.github.com/repos/tastejs/todomvc/git/commits/6defd806a34d73407e380666062a1809fb6d5605
+1b16a19dfdc8b9ea8e4703f30779c5f2dd44a70a,"Upgrade to React 0.4, fully compilant
+
+- Compilant with coding style.
+- Removed app.css. No need anymore since we freed id.
+- Render info footer separately (specs).
+- Tweak footer to make it pass jshint when compiled:
+  - {''} after 'left'.
+  - {''} around `clear completed`.
+  - Breaking style for footer clearButton, `>` on the same line.
+- Rename cx and put it in Utils.
+- Routing with director.
+- Change some keyUp to keyDown (specs).
+- Strip form tags (specs? Referred to the stable ones).
+- Trim after editing item.
+- Manually autofocus (attribute not supported in ie9).
+- Input focus now triggers as a callback (because of batch rendering).
+- Controlled input.
+- Gutter at 80.
+- Class `completed` trim whitespace.
+- Remove bind.",chenglou,https://api.github.com/repos/tastejs/todomvc/git/commits/1b16a19dfdc8b9ea8e4703f30779c5f2dd44a70a
+2d92e7066efd83ea0d9fb17b83db35f799f71146,"Remove ternary expressions
+
+A more readable and scalable approach",glebm,https://api.github.com/repos/tastejs/todomvc/git/commits/2d92e7066efd83ea0d9fb17b83db35f799f71146
+3db7131fed2896ba0903d6830a124379ae936bf9,Add an if to prevent unneeded saves,Foxandxss,https://api.github.com/repos/tastejs/todomvc/git/commits/3db7131fed2896ba0903d6830a124379ae936bf9
+6d5c1f0f29235ecfb689d3a1ebae061f99cc3443,"Backbone naming tweaks
+
+Closes #610
+Fixes #605",gregloby,https://api.github.com/repos/tastejs/todomvc/git/commits/6d5c1f0f29235ecfb689d3a1ebae061f99cc3443
+31c25032adba2593e8a18f1748b6afd5c51a8c10,use fetch({reset:true}) for better performance.,melnikov-s,https://api.github.com/repos/tastejs/todomvc/git/commits/31c25032adba2593e8a18f1748b6afd5c51a8c10
+6551cbbb5d08b24e706ca1c311c6e77bdf8a5a08,Added Durandal framework,abhinavgujjar,https://api.github.com/repos/tastejs/todomvc/git/commits/6551cbbb5d08b24e706ca1c311c6e77bdf8a5a08
+0d982b25347ec8bdf69cf8eb7400a1154c5e6598,"Update todoEscape.js
+
+I think you meant escape :)",basarat,https://api.github.com/repos/tastejs/todomvc/git/commits/0d982b25347ec8bdf69cf8eb7400a1154c5e6598
+c46ab08caa7e2739fb8555e147b325a3c3c6e3bc,"remove 'order' attribute from comment
+
+don't mention 'order' as a default attribute since the attribute no longer exists",bpmason1,https://api.github.com/repos/tastejs/todomvc/git/commits/c46ab08caa7e2739fb8555e147b325a3c3c6e3bc
+80a25245a3a8461c32d37d31a8300f0bfa967485,Add AngularFire link and change mailing list link to Firebase + Angular Google Group,sararob,https://api.github.com/repos/tastejs/todomvc/git/commits/80a25245a3a8461c32d37d31a8300f0bfa967485
+1e0e19087fd48bf48a37a742ef4e550019964619,"Minor bug fix in controller.js Controller.prototype.removeItem
+
+Controller.prototype.removeItem did not check if the item was available
+via the DOM before calling removeChild.  If you were only viewing
+""active"" and clicked the ""Clear completed"" button it would result in an
+error.  Wrapped the remvoeChild call in an if statement to validate
+existence of the elememnt.",jdarling,https://api.github.com/repos/tastejs/todomvc/git/commits/1e0e19087fd48bf48a37a742ef4e550019964619
+759b3cfdc9fff004f82ba6c7c24ffe7d3ffe9b0e,remove FIXME as Polymer issue 186 is now closed,hugo,https://api.github.com/repos/tastejs/todomvc/git/commits/759b3cfdc9fff004f82ba6c7c24ffe7d3ffe9b0e
+e82fa1a63487ed414f9f9bb566430d5f5ca7478e,fix clearCompleted method variable name conflict.,DC3,https://api.github.com/repos/tastejs/todomvc/git/commits/e82fa1a63487ed414f9f9bb566430d5f5ca7478e
+0fd9c99b6f5bdad054bad6af0e5124f881ab8e02,"add npm script watch
+data-yield header in markup
+use data-context todo
+move view-related methods to view
+reorder model definition, use @Alfred
+simplify which tab is active
+clean up routes
+put run in HTML
+save when completed changes
+When done editing, trim the title and save the record, if no title, delete record
+change form binding, make views for other controller actions
+let binding save checked todos, rename keypress listener",rmosolgo,https://api.github.com/repos/tastejs/todomvc/git/commits/0fd9c99b6f5bdad054bad6af0e5124f881ab8e02
+d456aeb1bacca8b85d171258a98ef0132967f675,"React - Improve performance by 6x
+
+ - 2x: The unminified version contains invariants that shouldn't be used in production and slow it down.
+
+ - 3x: Adding a shouldComponentUpdate override in order to short-cut re-rendering the component when props and state didn't change. In order to do that, we need to avoid doing mutations by doing a shallow copy and only modifying what changed
+
+ - When React 0.5.0 will be released, it will give another 1.5x.
+
+Other miscellaneous changes:
+
+ - Update class=""..."" to className=""..."" to work in 0.5.0 (still works in 0.4.1)
+ - Use prop=""..."" instead of prop='...'
+ - Use filter(f, this) instead of filter(f.bind(this)) to prevent a function allocaton",vjeux,https://api.github.com/repos/tastejs/todomvc/git/commits/d456aeb1bacca8b85d171258a98ef0132967f675
+2191e0291427abb0610ce2f168a3bdbde3088ac8,Close GH-670: Ember 1.0.0 and Ember Data 1.0.0-beta.1.,bantic,https://api.github.com/repos/tastejs/todomvc/git/commits/2191e0291427abb0610ce2f168a3bdbde3088ac8
+55b1bc7c77193d72f51afd89faeca1c217ac6dde,Ember input value trimming and text selection removal,kamilogorek,https://api.github.com/repos/tastejs/todomvc/git/commits/55b1bc7c77193d72f51afd89faeca1c217ac6dde
+b72a1cb0d48b312559f681bc3a16324a99355c69,Added lavaca example to labs,georgehenderson,https://api.github.com/repos/tastejs/todomvc/git/commits/b72a1cb0d48b312559f681bc3a16324a99355c69
+dd9c2c6b272c0ecc1363704b2fccc73fe1f98c33,Add Atma.js architecture-example,tenbits,https://api.github.com/repos/tastejs/todomvc/git/commits/dd9c2c6b272c0ecc1363704b2fccc73fe1f98c33
+7bc2c26171cf940de6edaa121837d07f6c9d9b23,"angularjs: upgrade angular to 1.2.1 & fixed filter bug
+angularjs-perf: upgrade angular to 1.2.1",torifat,https://api.github.com/repos/tastejs/todomvc/git/commits/7bc2c26171cf940de6edaa121837d07f6c9d9b23
+9e80700cc5744f2a1b048f510d50f5548c5f3fc4,"Update readme.md
+
+minor typo fix 'browser'",steveclarke,https://api.github.com/repos/tastejs/todomvc/git/commits/9e80700cc5744f2a1b048f510d50f5548c5f3fc4
+2dc9b91f0c6211a3925ab46786f1f7c717e81d8a,Moved Flight by Twitter from Labs list to standard list,joecritch,https://api.github.com/repos/tastejs/todomvc/git/commits/2dc9b91f0c6211a3925ab46786f1f7c717e81d8a
+6ac9442638e68478d6e2dab3cc1d8e202d09b500,React: Use classSet helper instead of recreating,sophiebits,https://api.github.com/repos/tastejs/todomvc/git/commits/6ac9442638e68478d6e2dab3cc1d8e202d09b500
+85e66a4e1923e2fd17fc79551a9f90f9790dcd79,Close GH-655: Ractive.js TodoMVC example app.,Rich-Harris,https://api.github.com/repos/tastejs/todomvc/git/commits/85e66a4e1923e2fd17fc79551a9f90f9790dcd79
+1ac0775bcc3becdd0643774d8131d77b5d0da434,fix the index view to render contents correctly,watsonjon,https://api.github.com/repos/tastejs/todomvc/git/commits/1ac0775bcc3becdd0643774d8131d77b5d0da434
+b0d725da15b2dd9d5d52e1e7240d79492f7f6a11,use the sap.ui.Device API instead of jQuery plugin,gladiator001,https://api.github.com/repos/tastejs/todomvc/git/commits/b0d725da15b2dd9d5d52e1e7240d79492f7f6a11
+fdd26a69ef658a3fb87e3495495ffca8bce5f32a,provide ComponentJS TodoMVC Example implementation,rse,https://api.github.com/repos/tastejs/todomvc/git/commits/fdd26a69ef658a3fb87e3495495ffca8bce5f32a
+267531f52359e323790d6f9c807a85cb38252d54,reduce complexity,alexeyraspopov,https://api.github.com/repos/tastejs/todomvc/git/commits/267531f52359e323790d6f9c807a85cb38252d54
+5fa0a742f25c884b08f999b3d0f8ef3c64bbf3ac,"Fixes typo in firebase-angular
+
+A capital ""F"" kept this TodoMVC example from working at all.",abeisgoat,https://api.github.com/repos/tastejs/todomvc/git/commits/5fa0a742f25c884b08f999b3d0f8ef3c64bbf3ac
+4cbfaa7b1bdd6748302c9ca5ec1249d246796dff,Fix link to the spec,gcapizzi,https://api.github.com/repos/tastejs/todomvc/git/commits/4cbfaa7b1bdd6748302c9ca5ec1249d246796dff
+896810e1e7973abf1ca4f86712cf673e1574d1c5,Close GH-776: Make sure updateCount works with async Stores,daleharvey,https://api.github.com/repos/tastejs/todomvc/git/commits/896810e1e7973abf1ca4f86712cf673e1574d1c5
+5897610716eb80441f889eebac36d854b7b11203,Remove extra parens,NeilvB,https://api.github.com/repos/tastejs/todomvc/git/commits/5897610716eb80441f889eebac36d854b7b11203
+e31fdda2b3ec60f04a069fa5a246e9dee2121ae0,"Angular-perf: Fixing conditional that causes the ""Clear completed"" button to be enabled at the wrong time.",andrewwong1221,https://api.github.com/repos/tastejs/todomvc/git/commits/e31fdda2b3ec60f04a069fa5a246e9dee2121ae0
+27b885f87ccae6fbf806b45f638562428ea47b1a,use object identity to compare (immutable data),tcoopman,https://api.github.com/repos/tastejs/todomvc/git/commits/27b885f87ccae6fbf806b45f638562428ea47b1a
+a253d9e37f7c2e4dac0b3fb358b15018464989ca,"Added a resource
+
+Added the new CodeSchool course to the resources.",wazery,https://api.github.com/repos/tastejs/todomvc/git/commits/a253d9e37f7c2e4dac0b3fb358b15018464989ca
+9386c868898eb368952373425259c1409da81ae1,"Bug fix: clicking toggle-all checkbox didn't affect all checkboxes consistently, since setting checked to null means ""don't sync with React""",danstutzman,https://api.github.com/repos/tastejs/todomvc/git/commits/9386c868898eb368952373425259c1409da81ae1
+860bc462cd92ad40f46d1d409dd6a1f850a6a297,Update meteor,marcandre,https://api.github.com/repos/tastejs/todomvc/git/commits/860bc462cd92ad40f46d1d409dd6a1f850a6a297
+eddf784154e243101474bd1f6a1a0bda418511d1,index.html: (whitespace) spaces to tabs,rdworth,https://api.github.com/repos/tastejs/todomvc/git/commits/eddf784154e243101474bd1f6a1a0bda418511d1
+74d167145d4cbe0e3efd6afcb4fe720b6de2d61f,Close GH-810: Update to use Bower and new Kendo UI Router.,burkeholland,https://api.github.com/repos/tastejs/todomvc/git/commits/74d167145d4cbe0e3efd6afcb4fe720b6de2d61f
+3522bd1d0b72ef81cb73e0ded88e4dcb15a59644,Add Vue.js implementation,yyx990803,https://api.github.com/repos/tastejs/todomvc/git/commits/3522bd1d0b72ef81cb73e0ded88e4dcb15a59644
+60e0f7aecde04ff855e098fa98ca8ed9abd47d6f,Add the Ruby version of the web server,elia,https://api.github.com/repos/tastejs/todomvc/git/commits/60e0f7aecde04ff855e098fa98ca8ed9abd47d6f
+7b5ccec5d880f65c969ba459918437f1e5c1943f,"Fixed Twitter link for SAP UI 5
+
+sapui5 != reactjs ;) 
+Added the official openui5 account. 
+Maybe this should have been two pull requests?",themasch,https://api.github.com/repos/tastejs/todomvc/git/commits/7b5ccec5d880f65c969ba459918437f1e5c1943f
+193752e8e166583a6a9ec475b0851198061fdac2,Close GH-847: Ember: Prevent global leakage of 'use strict' directive.,Munter,https://api.github.com/repos/tastejs/todomvc/git/commits/193752e8e166583a6a9ec475b0851198061fdac2
+79c2ba726f1f8b4a16c02006add8c62893b72c25,"shortened ComponentJS description
+
+Too long for a popup, even [when the width is normalized](https://github.com/tastejs/todomvc/issues/767).  Tried to not take out too much; left in only what is needed for a quick overview.",tomByrer,https://api.github.com/repos/tastejs/todomvc/git/commits/79c2ba726f1f8b4a16c02006add8c62893b72c25
+f01f3d0372900e3d6ed60c8ca4e1c8120227cef9,Fixed typo in comment,maks-rafalko,https://api.github.com/repos/tastejs/todomvc/git/commits/f01f3d0372900e3d6ed60c8ca4e1c8120227cef9
+f57e0b773db14f094ef09274af90042f83328412,"upgrade backbone to 1.1.1 and underscore to 1.6.0
+
+Signed-off-by: Bo-Yi Wu <appleboy.tw@gmail.com>",appleboy,https://api.github.com/repos/tastejs/todomvc/git/commits/f57e0b773db14f094ef09274af90042f83328412
+57ede0439354c6e0bb208b8a74754a6bf05804cf,"$live: improve variables, remove unnecessary if",Daniel-Hug,https://api.github.com/repos/tastejs/todomvc/git/commits/57ede0439354c6e0bb208b8a74754a6bf05804cf
+e3ce95c21cd408f319dd76e34eed0cf89d27e3cf,fix it's/its usage in app-spec.md,couchand,https://api.github.com/repos/tastejs/todomvc/git/commits/e3ce95c21cd408f319dd76e34eed0cf89d27e3cf
+26c74cdad926ec2f72e7a9aef7320f52b6adab36,"Backbone: call initial Todos fetch with reset
+
+If you want to smartly update the contents of a Collection, adding new models,
+removing missing ones, and merging those already present, you now call set
+(previously named ""update""), a similar operation to calling set on a Model. This
+is now the default when you call fetch on a collection. To get the old behavior,
+pass {reset: true}.
+
+In you code you use listener to 'reset' event. So you should pass {reset: true}
+to get what you want.",DmitryOlkhovoi,https://api.github.com/repos/tastejs/todomvc/git/commits/26c74cdad926ec2f72e7a9aef7320f52b6adab36
+4ca60efddd7dc07f21eca7d6f388fb5e98798eec,Typo fix + updates to uniform comments,dprotti,https://api.github.com/repos/tastejs/todomvc/git/commits/4ca60efddd7dc07f21eca7d6f388fb5e98798eec
+452ad3ab0300598c1844cbc309d0d08890220253,"Change filterFilter to $filter('filter')
+
+Change filterFilter to $filter('filter') and add dependency injection to be conforme to the angular documentation 1.2xx",myalban,https://api.github.com/repos/tastejs/todomvc/git/commits/452ad3ab0300598c1844cbc309d0d08890220253
+bfdfba2c424a04d2cc5403409fde1a9c1834c7d1,Update Marionette example,jasonLaster,https://api.github.com/repos/tastejs/todomvc/git/commits/bfdfba2c424a04d2cc5403409fde1a9c1834c7d1
+6ca9e0ed8007173a42f203ad4d285c09b6ef62c7,"Update knockout.js sample to use ""rateLimit""
+
+In v3.1.0, new rate limiting functionality to have better control and flexibility over throttle/debounce scenarios.",ando19721226,https://api.github.com/repos/tastejs/todomvc/git/commits/6ca9e0ed8007173a42f203ad4d285c09b6ef62c7
+9670be72ece1a916ccb7d262c92e988031cfe775,"Polymer: fix/remove links
+
+The Polymer Project got a new website, so most of the links were
+deadlinks now. Some of them where easy to fix, for some there
+is not a section on the Polymer page any more.",robertkowalski,https://api.github.com/repos/tastejs/todomvc/git/commits/9670be72ece1a916ccb7d262c92e988031cfe775
+c81b9d1afc3946eb8319677185ccd8002b2d04d1,reduce redundant filter & without syntax,pgilad,https://api.github.com/repos/tastejs/todomvc/git/commits/c81b9d1afc3946eb8319677185ccd8002b2d04d1
+90bab7f3a70159328d79ff85920b346a848c12a9,Create .bowerrc,beriberikix,https://api.github.com/repos/tastejs/todomvc/git/commits/90bab7f3a70159328d79ff85920b346a848c12a9
+4507b15e3c40a8f766f937c011e9b96835d3c318,"browser-tests - disable timeouts for Mocha 1.21
+
+Commit 17a3ca7eb70942a6c74aa50876be1ce31dc1de00 set timeout to Infinity,
+but this still doesn't solve the issue reported in #961 if you use Mocha
+1.21.
+
+This commit changes the config for grunt test run to
+`enableTimeouts=false`, and documents the equivalent command line switch
+(`--no-timeouts`) for mocha executable.",jakub-g,https://api.github.com/repos/tastejs/todomvc/git/commits/4507b15e3c40a8f766f937c011e9b96835d3c318
+3525cbaf7302f96a17bf1b56103caa2cbce2df33,Issue 952: fix styling for all/active/completed buttons,dwsupplee,https://api.github.com/repos/tastejs/todomvc/git/commits/3525cbaf7302f96a17bf1b56103caa2cbce2df33
+df820b52bcd5fda24f4b0f4e75b43b5ff327eef9,Close GH-974: no using underscore -> no last() on collection..,oak-tree,https://api.github.com/repos/tastejs/todomvc/git/commits/df820b52bcd5fda24f4b0f4e75b43b5ff327eef9
+1a970d54737f7e087bcb74e420dbf6469fd8748d,"fix links to app-spec.md
+
+and ""template/"".
+
+The rest of the gh-pages links look okay.",juhp,https://api.github.com/repos/tastejs/todomvc/git/commits/1a970d54737f7e087bcb74e420dbf6469fd8748d
+67b7d7630413a3361318e4656093ec6eb8ad7fd0,fix link to app spec in index.html,moredip,https://api.github.com/repos/tastejs/todomvc/git/commits/67b7d7630413a3361318e4656093ec6eb8ad7fd0
+757e78ae3202562af691bb96d0b071b58f31f5ed,Close GH-991: Fix Marionette Example to comply to spec 100%.,samccone,https://api.github.com/repos/tastejs/todomvc/git/commits/757e78ae3202562af691bb96d0b071b58f31f5ed
+bfb65966f675c4cca15e17c7fce2900c2175ca72,Fixing broken Angular Code School links,jeremypepper,https://api.github.com/repos/tastejs/todomvc/git/commits/bfb65966f675c4cca15e17c7fce2900c2175ca72
+b6b7915a480544920a63b5878db1e5e2b8f2379f,replace weird boolean logic with ternary,michaelficarra,https://api.github.com/repos/tastejs/todomvc/git/commits/b6b7915a480544920a63b5878db1e5e2b8f2379f
+ba1417313b8902b08575da649e5a9740c97979ec,fix typo,likang,https://api.github.com/repos/tastejs/todomvc/git/commits/ba1417313b8902b08575da649e5a9740c97979ec
+1eaebc068a56cae49f9a9bc15381d25713b3ece1,Use @ui syntax in events hash,dsumac,https://api.github.com/repos/tastejs/todomvc/git/commits/1eaebc068a56cae49f9a9bc15381d25713b3ece1
+b1c4be5f84ed4ed99c32218f61586c35d27ea8b4,Close GH-1020: Add ampersand.js. Fixes #936,HenrikJoreteg,https://api.github.com/repos/tastejs/todomvc/git/commits/b1c4be5f84ed4ed99c32218f61586c35d27ea8b4
+31e6b9716f6d3307ad599f2f8b0dd83d74d98bd6,Update todomvc-common of vanillajs example,kt3k,https://api.github.com/repos/tastejs/todomvc/git/commits/31e6b9716f6d3307ad599f2f8b0dd83d74d98bd6
+b3bca962dff7eb5b467d773be9cc490cdc08a62e,"i.e. = that is, e.g. = for example",Trott,https://api.github.com/repos/tastejs/todomvc/git/commits/b3bca962dff7eb5b467d773be9cc490cdc08a62e
+511fddd8410e6f4083f319b8e0ae00e3503aac9a,index: add node.js section and express gcp backend,proppy,https://api.github.com/repos/tastejs/todomvc/git/commits/511fddd8410e6f4083f319b8e0ae00e3503aac9a
+fb79b3bfa7cffcbac538d8eed13300550feb2750,Fixed JSHint error 'Strings must use singlequote',Hurtak,https://api.github.com/repos/tastejs/todomvc/git/commits/fb79b3bfa7cffcbac538d8eed13300550feb2750
+34ac8b26a720693fabb9351f56895304c2f7b2a2,Remove deprecated JSHint options,arthurvr,https://api.github.com/repos/tastejs/todomvc/git/commits/34ac8b26a720693fabb9351f56895304c2f7b2a2
+b607f0f7eae965e2e1df2e88b73eb70e576f7043,"(contributing.md) grammatical changes for clarity
+
+Changed some wording for better grammatical structure.
+
+BEFORE: ""This is why we can't accept all submissions.""
+AFTER: ""This is why we can't accept every submission.""
+
+BEFORE: ""However, we're always open to look at novel ways to solve existing problems.""
+AFTER: ""However, we're always open to looking at novel ways to solve existing problems.""",alextsg,https://api.github.com/repos/tastejs/todomvc/git/commits/b607f0f7eae965e2e1df2e88b73eb70e576f7043
+706622eb74dc06dd31525076d6894b96f756fb79,Add the FOAM version of TodoMVC,shepheb,https://api.github.com/repos/tastejs/todomvc/git/commits/706622eb74dc06dd31525076d6894b96f756fb79
+82a5bac32a263f24fa363de84180ce2411492c47,"Fix demo application link and twitter handle (README included). Add articles, guides, videos and community links. Add debug mode. Upgrade depot, flight, jQuery, requirejs and dev deps. Sync bower since some deps are aready upgraded but not depicted to bower.json. Adjust flight attributes to new api. Enabled debug mode for event 'visualisation' and ensuring only serialisable data are passed to components. Moved app to page folder. Introduced new paths for cleaner deps. Upgrade karma and deps. Update karma conf according to new dependencies. Replay paths to test-main and spec-dep paths. Update specs to new jasmine-flight api. Upgrade bower components.",margaritis,https://api.github.com/repos/tastejs/todomvc/git/commits/82a5bac32a263f24fa363de84180ce2411492c47
+ddcb82414b105fb26c294fba83b5cc41f5c9baf8,refs #1110 migrates React app to new UI,gargol,https://api.github.com/repos/tastejs/todomvc/git/commits/ddcb82414b105fb26c294fba83b5cc41f5c9baf8
+d24fcd67dffa79e2e8699579786556e690409806,Close #1150 PR: Update `angularjs_require` to new app UI. Fixes #1110,andreruffert,https://api.github.com/repos/tastejs/todomvc/git/commits/d24fcd67dffa79e2e8699579786556e690409806
+e8c21d6e3948324aaf5204391d7ce7a703d98d4b,"Bug fix in angular example, when editbox losts focus (blur event). Ref #1083",jnthas,https://api.github.com/repos/tastejs/todomvc/git/commits/e8c21d6e3948324aaf5204391d7ce7a703d98d4b
+460010c92fd51f80a47859b816029e00d40c16b2,Upgrade to NPM,yavorsky,https://api.github.com/repos/tastejs/todomvc/git/commits/460010c92fd51f80a47859b816029e00d40c16b2
+6a9c603527c58536d95571679c2d0a586b658c27,"updated copy for sidebar, removed wiki link and other out dated links, added links to more recent resources and updated description",kkemple,https://api.github.com/repos/tastejs/todomvc/git/commits/6a9c603527c58536d95571679c2d0a586b658c27
+354ed36f7acc63f010e7d8df9e2dbd5e429b0da2,"Update index.html
+
+Fix the template link",kirjs,https://api.github.com/repos/tastejs/todomvc/git/commits/354ed36f7acc63f010e7d8df9e2dbd5e429b0da2
+da86b20cbe127c5f4c55ce2000d2e579144d1aa8,"Correct spelling/grammar mistake
+
+Checkboxes is plural possessive",josephfinlayson,https://api.github.com/repos/tastejs/todomvc/git/commits/da86b20cbe127c5f4c55ce2000d2e579144d1aa8
+6a7614c62f756a8650af931affb67308f61efd50,"jQuery: remove moot properties from `package.json`
+
+Close #1202",evverx,https://api.github.com/repos/tastejs/todomvc/git/commits/6a7614c62f756a8650af931affb67308f61efd50
+74640b450889a96763d199017e02f58aa8514f0c,"Update firebase-angular example to Firebase 2.2.2 and AngularFire 1.0.0.
+
+Update firebase-angular to npm and new CSS.",davideast,https://api.github.com/repos/tastejs/todomvc/git/commits/74640b450889a96763d199017e02f58aa8514f0c
+52bceed7e98f4ff9a2c6e6918d0752bfc68ad7ed,Close #1163 PR: Todomvc-Aurelia 0.1.0.,mhoyer,https://api.github.com/repos/tastejs/todomvc/git/commits/52bceed7e98f4ff9a2c6e6918d0752bfc68ad7ed
+9ea62431496d2a2b3b23dea2c4227716169b66b7,Fix getting started with Dojo link,petk,https://api.github.com/repos/tastejs/todomvc/git/commits/9ea62431496d2a2b3b23dea2c4227716169b66b7
+fbb42223698acc8e675cd0fadc4865bc40587232,"Fixed link to official website
+
+replaced a few occurrences of angulajs.com to angularjs.org",bkeyvani,https://api.github.com/repos/tastejs/todomvc/git/commits/fbb42223698acc8e675cd0fadc4865bc40587232
+7d7d79e41940978794c23895309a8c6e09beb74a,Updated vue.js to v0.11.6,azamat-sharapov,https://api.github.com/repos/tastejs/todomvc/git/commits/7d7d79e41940978794c23895309a8c6e09beb74a
+e714fd00c49996c96edaa7b68641e3f54b1dc6dc,add reagent example,gadfly361,https://api.github.com/repos/tastejs/todomvc/git/commits/e714fd00c49996c96edaa7b68641e3f54b1dc6dc
+a2362c39f768c0802ef7068523c3b8e082d71597,fix for the example source URL,yogthos,https://api.github.com/repos/tastejs/todomvc/git/commits/a2362c39f768c0802ef7068523c3b8e082d71597
+0ce79857939777c8b5a1e99b466e2fcb3fed9d25,Resolves #1270 by moving backbone.history.start invocation,jh3y,https://api.github.com/repos/tastejs/todomvc/git/commits/0ce79857939777c8b5a1e99b466e2fcb3fed9d25
+4870aae2d663e7b6f385d7ebfeb6f55f7d8b4581,"Debounce the rendering of the application view
+
+If we don't debounce ""this.render"", the app-view will be rendered 4 times on each todo (visible, change, change:complete and sync). So when we try to check globally all todos, this.render is called a hundred times.",elie29,https://api.github.com/repos/tastejs/todomvc/git/commits/4870aae2d663e7b6f385d7ebfeb6f55f7d8b4581
+be58d7ce39622fb7b68feb3af0d437862083f755,"Updates to `AngularJS+RequireJS` app
+
+Replaces `angular-loader` with a better RequireJS setup
+
+Also adds tests (#254)
+
+Closes #1277
+Fixes #1276",leog,https://api.github.com/repos/tastejs/todomvc/git/commits/be58d7ce39622fb7b68feb3af0d437862083f755
+1b06abf0bf9f99547732d84ede416a2d6afb877a,"WebRx Implementation - All tests passing
+
+Beautified HTML
+
+HTML Tidy
+
+HTML Tidy
+
+Implemented review feedback
+
+deps
+
+deps
+
+Readme
+
+Review Feedback
+
+Updated readme and removed node_modules from commits
+
+Updated readme
+
+learn.js
+
+.gitignore + deps
+
+Implemented review feedback
+
+Indenting + trailing whitespace
+
+More indenting
+
+Yeah
+
+Router BaseUrl + WebRx package update
+
+Misc
+
+WebRx: Indentation and whitespace fixes",oliverw,https://api.github.com/repos/tastejs/todomvc/git/commits/1b06abf0bf9f99547732d84ede416a2d6afb877a
+addbb07a76a06616a9e7a6d2cc8c3540065d18ab,"contributing.md: temporary => temporarily
+
+adjective => adverb",ericcarraway,https://api.github.com/repos/tastejs/todomvc/git/commits/addbb07a76a06616a9e7a6d2cc8c3540065d18ab
+29f83b75270d85860be151ddc8a99fc2e92ee563,dont lint the same example a bunch of times,oyvindberg,https://api.github.com/repos/tastejs/todomvc/git/commits/29f83b75270d85860be151ddc8a99fc2e92ee563
+5a91dac007be5c65d9062f93dd94a6fa99e9fa33,"typo
+
+just a typo",kmdsbng,https://api.github.com/repos/tastejs/todomvc/git/commits/5a91dac007be5c65d9062f93dd94a6fa99e9fa33
+e57f3e92558b3fdb0c48d6897003f8cc2ecf6008,getDOMNode() has been deprecated. Use React.findDOMNode() instead,vasanthk,https://api.github.com/repos/tastejs/todomvc/git/commits/e57f3e92558b3fdb0c48d6897003f8cc2ecf6008
+2de650d1e28f9b28d62d8378c2dffe165b58a07a,Add README to SAPUI5 example,jyguyomarch,https://api.github.com/repos/tastejs/todomvc/git/commits/2de650d1e28f9b28d62d8378c2dffe165b58a07a
+73351789d9d394f22112c84c625108929d216d43,"Don't set height on innerList
+
+* Rename `AppTabs.adjustHeight` to `AppTabs.switchTab`
+* Remove height set by JavaScript, to let the elements flow normally",ahmedelgabri,https://api.github.com/repos/tastejs/todomvc/git/commits/73351789d9d394f22112c84c625108929d216d43
+286d5701ee37e67859964ad5eb24f590c9f8d8eb,"Typo fix in `durandal` example
+
+Ref gh-1380",Ibrahim-Islam,https://api.github.com/repos/tastejs/todomvc/git/commits/286d5701ee37e67859964ad5eb24f590c9f8d8eb
+e4f39becca5d7699249695782fbdfc3a6bc53e3d,"Ractive.js: Fix documentation links
+
+The 60 second setup and the docs have been moved from the wiki to the website.",darthmaim,https://api.github.com/repos/tastejs/todomvc/git/commits/e4f39becca5d7699249695782fbdfc3a6bc53e3d
+6af1645d497d85ef21fd17d9c4abe83ec6608558,"fix: Finish renaming stopEditing to saveEditing
+
+(follow-up to 233db94c1333eda411c70076226df6be76635edc)",andreaswachowski,https://api.github.com/repos/tastejs/todomvc/git/commits/6af1645d497d85ef21fd17d9c4abe83ec6608558
+6da5aa7a112a500f7b5ec01d0535e61dc204deed,"Fix jscs issues found in #1403...
+
+I am so sorry that this results in a bunch of whitespace change
+and git history nuking 💣",kentcdodds,https://api.github.com/repos/tastejs/todomvc/git/commits/6da5aa7a112a500f7b5ec01d0535e61dc204deed
+ba22570f44ab1432b62ff449c9f77cfa03ad86b4,"Update readme.md
+
+Spelling correction",sethbergman,https://api.github.com/repos/tastejs/todomvc/git/commits/ba22570f44ab1432b62ff449c9f77cfa03ad86b4
+e71635656ae45eb07dd77f3488111666047dc90b,fix indentation in marionette package,robbbz,https://api.github.com/repos/tastejs/todomvc/git/commits/e71635656ae45eb07dd77f3488111666047dc90b
+e0233261853155ad24999687165e1824aa404942,"npm version must be >=2.0.0
+
+In order to support passing arguments to npm, you need to be running npm version 2.0.0 or greater:
+http://blog.npmjs.org/post/98131109725/npm200
+
+Update instructions with how to check and how to update npm.",ClashTheBunny,https://api.github.com/repos/tastejs/todomvc/git/commits/e0233261853155ad24999687165e1824aa404942
+0117e01decd626fe9b26a70519d0ee243b6ad805,Add riot.js 2.0 example,txchen,https://api.github.com/repos/tastejs/todomvc/git/commits/0117e01decd626fe9b26a70519d0ee243b6ad805
+80f9fbe42aea5ed98b1dd6566402602569f79001,"Changing redraw strategy while handling input events in order to avoid focus
+issues.
+
+Fix style issues: missing spaces.
+
+Fix avoid double deletion when handling empty input and the following blur event.",marcolamberto,https://api.github.com/repos/tastejs/todomvc/git/commits/80f9fbe42aea5ed98b1dd6566402602569f79001
+deff945f92a76698421df9d5bed5937846408cb0,Update AngularJS case studies links,petebacondarwin,https://api.github.com/repos/tastejs/todomvc/git/commits/deff945f92a76698421df9d5bed5937846408cb0
+083ba9fe5177bebb41a59898866ad17b992670bb,Update Knockback to 1.0.0 and simplified.,kmalakoff,https://api.github.com/repos/tastejs/todomvc/git/commits/083ba9fe5177bebb41a59898866ad17b992670bb
+b7ed14ae1982e4b872f9ba8fb055283b1fbbb707,Fix broken links,felipedaraujo,https://api.github.com/repos/tastejs/todomvc/git/commits/b7ed14ae1982e4b872f9ba8fb055283b1fbbb707
+55d367e4a3f740850343fe69ceba2a051e71610b,Fix typo,ciceropablo,https://api.github.com/repos/tastejs/todomvc/git/commits/55d367e4a3f740850343fe69ceba2a051e71610b
+6af87b866efa2c8e32f01f22b5b9d36e9da5bec3,"This fixes a bug in the mithril TodoMVC application
+
+The bug is caused by lack of keying.
+
+To reproduce the bug:
+1. Open the app
+2. Create at least two tasks
+3. Complete all tasks
+4. Go to the completed view
+5. uncheck the top item
+6. Voilá, see how the first item in the list now has an unchecked checkbox",nordfjord,https://api.github.com/repos/tastejs/todomvc/git/commits/6af87b866efa2c8e32f01f22b5b9d36e9da5bec3
+025d1845661044f163dc95d4408986bd414c9bd4,"fix name of localStorage namespace in comment
+
+comment was using `todos` whereas the code is using `todos-react-backbone` - i opted for a non-breakable comment instead",m90,https://api.github.com/repos/tastejs/todomvc/git/commits/025d1845661044f163dc95d4408986bd414c9bd4
+3c4b5289394ee7c7efcd926dbbba9c8bfae98a4c,Update index.html,brenopolanski,https://api.github.com/repos/tastejs/todomvc/git/commits/3c4b5289394ee7c7efcd926dbbba9c8bfae98a4c
+a61442908381b72bc3f7da42454823865d35c239,"React: Replace link to Mailing list with link to discussion forum
+
+Close #1459",sotayamashita,https://api.github.com/repos/tastejs/todomvc/git/commits/a61442908381b72bc3f7da42454823865d35c239
+6cf92ac35155a608fae77f5538d5b4437fe2aa7f,"Update angular version 1.4.1->1.4.3, add angular-resource",kaidokert,https://api.github.com/repos/tastejs/todomvc/git/commits/6cf92ac35155a608fae77f5538d5b4437fe2aa7f
+36d828a8ece38e3be2425f816ceff8e2bcef7129,update readme,jonnykry,https://api.github.com/repos/tastejs/todomvc/git/commits/36d828a8ece38e3be2425f816ceff8e2bcef7129
+d6503c93073a1a69ba4b1387c654aa7c0f268ec4,"Js_of_ocaml TodoMVC Example.
+
+Js_of_ocaml is a compiler of OCaml bytecode to Javascript.
+OCaml is a general purpose programming language with an
+emphasis on expressiveness and safety. Js_of_ocaml brings
+nearly all the OCaml features to Javascript. And especially
+its powerful type system.",slegrand45,https://api.github.com/repos/tastejs/todomvc/git/commits/d6503c93073a1a69ba4b1387c654aa7c0f268ec4
+9c7b1a25648f06e38b9781ac2c2e74a30d76a538,new app typescript-react,remojansen,https://api.github.com/repos/tastejs/todomvc/git/commits/9c7b1a25648f06e38b9781ac2c2e74a30d76a538
+c3a5a416de2d0f44aeabb4b093ca4d5f10c7fd41,jsblocks TodoMVC implementation,astoilkov,https://api.github.com/repos/tastejs/todomvc/git/commits/c3a5a416de2d0f44aeabb4b093ca4d5f10c7fd41
+82857f9608a9eb8f22e90509a1caf9cf013a6edc,Hanging comma,lawilli,https://api.github.com/repos/tastejs/todomvc/git/commits/82857f9608a9eb8f22e90509a1caf9cf013a6edc
+f88894dc6aff0b3dabf2de055707a524e65d42c7,Fixed links for TypeScript issues/documentation.,DanielRosenwasser,https://api.github.com/repos/tastejs/todomvc/git/commits/f88894dc6aff0b3dabf2de055707a524e65d42c7
+e56aa7dce8235a03fdba72e0e2f07696434758bb,added react-alt example,wishpishh,https://api.github.com/repos/tastejs/todomvc/git/commits/e56aa7dce8235a03fdba72e0e2f07696434758bb
+8f6e1257cb5c51e046915cf714256f71c86a20ca,"Fix typo ""reduntant"" to ""redundant"".",adjohnson916,https://api.github.com/repos/tastejs/todomvc/git/commits/8f6e1257cb5c51e046915cf714256f71c86a20ca
+35a6ed1245c9d920425e8c47da45edfbd0007d01,Add a new framework: GopherJS + Humble,albrow,https://api.github.com/repos/tastejs/todomvc/git/commits/35a6ed1245c9d920425e8c47da45edfbd0007d01
+69cb6f7c052eeb0119300375fec3dd2afdda35d9,"jQuery: Fixups
+
+* Remove unused variables
+* Simplify cached elements, IDs are unique
+* Use chaining for event binding
+* Use IDs directly, no benefit in caching
+* DRY out the update logic
+* Remove cacheElements since it's now named wrong",dmethvin,https://api.github.com/repos/tastejs/todomvc/git/commits/69cb6f7c052eeb0119300375fec3dd2afdda35d9
+9f642c91f61388a6e3f14d50aa2396736434fff8,Fixed TypeScript+Angular example check all button functionality.,marcogrcr,https://api.github.com/repos/tastejs/todomvc/git/commits/9f642c91f61388a6e3f14d50aa2396736434fff8
+d908cfab68c900d98da3988ec64df286586416ee,sidebar links text fixes when framework + Require.js,cherouvim,https://api.github.com/repos/tastejs/todomvc/git/commits/d908cfab68c900d98da3988ec64df286586416ee
+e6f4264e2e4377fb7e35cf623e6386a5783e51e1,vanilla-es6 with passy changes 👍,lukeed,https://api.github.com/repos/tastejs/todomvc/git/commits/e6f4264e2e4377fb7e35cf623e6386a5783e51e1
+ec8823c25437d206337b7c3450e9a3c82c530d40,Fixes Long Task Overflow,anubhav7495,https://api.github.com/repos/tastejs/todomvc/git/commits/ec8823c25437d206337b7c3450e9a3c82c530d40
+a960f9a425b6af596c05a4c2b4f217b6e1f6d150,angularjs-perf: Remove global var todomvc,dmitriz,https://api.github.com/repos/tastejs/todomvc/git/commits/a960f9a425b6af596c05a4c2b4f217b6e1f6d150
+c871c72c3407b9a6512dfd1967496665b78f1fd1,Backbone example: add id attr to input,cisar,https://api.github.com/repos/tastejs/todomvc/git/commits/c871c72c3407b9a6512dfd1967496665b78f1fd1
+eaf7c3a40cef9a2beaf5ca4307a2cb0426758af3,"Fix bug: Show all items when ""All"" tab is active",totemikaTest1,https://api.github.com/repos/tastejs/todomvc/git/commits/eaf7c3a40cef9a2beaf5ca4307a2cb0426758af3
+0f4201d83aaaaf1017fa9fdefbd03a2e1cbd0da9,"Updating the Marionette, Chaplin Comparision Link",anoopmd,https://api.github.com/repos/tastejs/todomvc/git/commits/0f4201d83aaaaf1017fa9fdefbd03a2e1cbd0da9
+63faab0ad8bca652aa0124361da6159cb5900072,"Lock minor version of selenium
+
+Webdriver logs in actual version of selenium should never be instantiated directly:
+https://github.com/SeleniumHQ/selenium/blob/fa5ac92b451cff497e686d8e1e67c9c3101440a3/javascript/node/selenium-webdriver/lib/webdriver.js#L1429-L1432
+
+But drool still uses selenium 2.46.1:
+https://github.com/samccone/drool/commit/3770a157d218e6ea27ef9fd2e78f58105375fca0
+
+So the fast fix is the old version of selenium.
+
+Fixes #1605.",ipetropolsky,https://api.github.com/repos/tastejs/todomvc/git/commits/63faab0ad8bca652aa0124361da6159cb5900072
+e07106436cf89061b36181a0bd16f33b95b69505,"Typo in app.tsx importing TodoModel from ./TodoModel. (#1609)
+
+Compiling as downloaded (with `tsc -p js/`) yields the following error:
+```
+js/app.tsx(12,27): error TS2307: Cannot find module './TodoModel'.
+```",augustjd,https://api.github.com/repos/tastejs/todomvc/git/commits/e07106436cf89061b36181a0bd16f33b95b69505
+8019b409d016ed3ae1c182d98ba5e3d25c2ffc06,"Update ancient emberjs version and use ember-cli (#1582)
+
+Update to Ember 2.6",cibernox,https://api.github.com/repos/tastejs/todomvc/git/commits/8019b409d016ed3ae1c182d98ba5e3d25c2ffc06
+26ceac577102aeb6dbee4d7f3eb6921e67db2528,"Improve test suite robustness. (#1646)
+
+..by waiting for DOM states instead of checking them only once.",oskargustafsson,https://api.github.com/repos/tastejs/todomvc/git/commits/26ceac577102aeb6dbee4d7f3eb6921e67db2528
+604a76c50a06bf9b1695db6d506aaa87bc9b0a0f,do not parse db again in store.save/remove/drop (#1657),lucasqiu,https://api.github.com/repos/tastejs/todomvc/git/commits/604a76c50a06bf9b1695db6d506aaa87bc9b0a0f
+9e22e76c532c4ce8a2956c61b4fe719eb5cbfede,"Request to add Binding.scala (#1615)
+
+* Squashed 'examples/binding-scala/' content from commit 4f546d0
+
+git-subtree-dir: examples/binding-scala
+git-subtree-split: 4f546d0745a5f4b3a72e95ddc1d7f59773f12b28
+
+* Squashed 'examples/binding-scala/' changes from 4f546d0..45178a9
+
+45178a9 Publish to GitHub Pages
+d9a0c1a Merge branch 'gh-pages' of github.com:ThoughtWorksInc/todo into gh-pages
+d2ac731 Publish to GitHub Pages
+cb59711 Merge branch 'gh-pages' of github.com:ThoughtWorksInc/todo into gh-pages
+0324b27 Avoid tab indention
+8f4cb6f Update indention
+7284ab6 Publish to GitHub Pages
+e092b56 Merge branch 'gh-pages' of github.com:ThoughtWorksInc/todo into gh-pages
+96c270e Update readme.md
+
+git-subtree-dir: examples/binding-scala
+git-subtree-split: 45178a9b9dd50d72eb1f04a4a56e10ca78d3be14
+
+* Ignore jslint for Binding.scala
+
+* Squashed 'examples/binding-scala/' changes from 45178a9..5af88e8
+
+5af88e8 Publish to GitHub Pages
+22fd76b Merge branch 'gh-pages' of github.com:ThoughtWorksInc/todo into gh-pages
+15c6fae Update readme.md
+fd2c78b Publish to GitHub Pages
+62730da Merge branch 'gh-pages' of github.com:ThoughtWorksInc/todo into gh-pages
+c99bf54 Update readme.md
+4c8d780 Publish to GitHub Pages
+d905883 Merge branch 'gh-pages' of github.com:ThoughtWorksInc/todo into gh-pages
+7e3898e Update readme.md
+443e2c4 Publish to GitHub Pages
+efb05b5 Merge branch 'gh-pages' of github.com:ThoughtWorksInc/todo into gh-pages
+56fc875 Update readme.md
+
+git-subtree-dir: examples/binding-scala
+git-subtree-split: 5af88e8003ab124c1c0037594454b73bcd2de9e0
+
+* Squashed 'examples/binding-scala/' changes from 5af88e8..5191681
+
+5191681 Publish to GitHub Pages
+7ac7f44 Merge branch 'gh-pages' of github.com:ThoughtWorksInc/todo into gh-pages
+e8fa8f7 Map source to github
+efbf6ec Publish to GitHub Pages
+335bcd9 Merge branch 'gh-pages' of github.com:ThoughtWorksInc/todo into gh-pages
+95db23e Update build.sbt
+
+git-subtree-dir: examples/binding-scala
+git-subtree-split: 51916810746d9928c36a85a3cb6d33a7e313066f
+
+* Squashed 'examples/binding-scala/' changes from 5191681..3385b9d
+
+3385b9d Publish to GitHub Pages
+27ad704 Merge branch 'gh-pages' of github.com:ThoughtWorksInc/todo into gh-pages
+0a17bac Use upickle for serialization
+
+git-subtree-dir: examples/binding-scala
+git-subtree-split: 3385b9da95abb2bee3ddd1536c6d4ded38c9db46
+
+* Squashed 'examples/binding-scala/' changes from 3385b9d..1e71eb4
+
+1e71eb4 Publish to GitHub Pages
+d2d2692 Merge branch 'gh-pages' of github.com:ThoughtWorksInc/todo into gh-pages
+d22821a Replace Any to Event
+f1a73ab Publish to GitHub Pages
+0e8d094 Merge branch 'gh-pages' of github.com:ThoughtWorksInc/todo into gh-pages
+f4077b5 Seperate event handlers and HTML elements
+5c10f67 Publish to GitHub Pages
+4a164d0 Merge branch 'gh-pages' of github.com:ThoughtWorksInc/todo into gh-pages
+6661116 Seperate event handlers and HTML elements
+8cd4a2f Publish to GitHub Pages
+b54987f Merge branch 'gh-pages' of github.com:ThoughtWorksInc/todo into gh-pages
+0c51d90 Adjust indention
+181600f Adjust indention
+4ae6c9b Remove unused imports
+8b6b49d Publish to GitHub Pages
+6121028 Merge branch 'gh-pages' of github.com:ThoughtWorksInc/todo into gh-pages
+1e6e913 Avoid DOM property `htmlFor` in favor of HTML attribute `for`
+e130601 Avoid deprecated `each` method, in favor of `bind`
+3bd0e84 Publish to GitHub Pages
+7583e90 Merge branch 'gh-pages' of github.com:ThoughtWorksInc/todo into gh-pages
+cee4dc1 Avoid MountPoint
+4978768 Add explicit type signature
+7928e68 Publish to GitHub Pages
+2d48f1c Merge branch 'gh-pages' of github.com:ThoughtWorksInc/todo into gh-pages
+d593f00 Avoid DRY string
+b43c268 Add a comment for Todo class
+4adc337 Publish to GitHub Pages
+6126301 Merge branch 'gh-pages' of github.com:ThoughtWorksInc/todo into gh-pages
+a9e31ae Update readme.md
+bdb5573 Publish to GitHub Pages
+abd1575 Merge branch 'gh-pages' of github.com:ThoughtWorksInc/todo into gh-pages
+4f0f26f Fix compilation error
+1343e1a Upgrade Binding.scala to 7.0.0
+e564d01 Publish to GitHub Pages
+1e7b918 Merge branch 'gh-pages' of github.com:ThoughtWorksInc/todo into gh-pages
+17cea8d Use class attributes instead of className
+f4a630f Upgrade Binding.scala version
+a1b4fff Publish to GitHub Pages
+42301b5 Merge branch 'gh-pages' of github.com:ThoughtWorksInc/todo into gh-pages
+51742f0 More clear indention
+575fa93 Publish to GitHub Pages
+4d1e2b6 Merge branch 'gh-pages' of github.com:ThoughtWorksInc/todo into gh-pages
+5773f76 Update Main.scala
+
+git-subtree-dir: examples/binding-scala
+git-subtree-split: 1e71eb427fe2365b8f014c8bbc8f8978a5efd5c1
+
+* Squashed 'examples/binding-scala/' changes from 1e71eb4..7490122
+
+7490122 Publish to GitHub Pages
+6f88ebc Merge branch 'gh-pages' of github.com:ThoughtWorksInc/todo into gh-pages
+0dd27a0 Update readme.md
+ff46962 Update readme.md
+
+git-subtree-dir: examples/binding-scala
+git-subtree-split: 7490122cd7425b84624e76769d6b5e37429720c5
+
+* Squashed 'examples/binding-scala/' changes from 7490122..ea1b6bb
+
+ea1b6bb Publish to GitHub Pages
+21bb704 Merge branch 'gh-pages' of github.com:ThoughtWorksInc/todo into gh-pages
+0acc806 Upgrade Scala.js version
+eb5c97c Publish to GitHub Pages
+57d81eb Merge branch 'gh-pages' of github.com:ThoughtWorksInc/todo into gh-pages
+6886177 Upgrade Binding.scala
+6f67bb1 Publish to GitHub Pages
+6f1b13c Merge branch 'gh-pages' of github.com:ThoughtWorksInc/todo into gh-pages
+bf0b4d5 Upgrade dependencies
+5099d22 Avoid widecard imports so that a reader is able to find out where each class is imported from
+79a69a9 Publish to GitHub Pages
+cf4d002 Merge branch 'gh-pages' of github.com:ThoughtWorksInc/todo into gh-pages
+79edc64 Add explicit type signature
+
+git-subtree-dir: examples/binding-scala
+git-subtree-split: ea1b6bb3ee8b6b0f3fad39cf7d257c7106336cb8
+
+* Squashed 'examples/binding-scala/' changes from ea1b6bb..109f8a7
+
+109f8a7 Publish to GitHub Pages
+96bbf7a Merge branch 'gh-pages' of github.com:ThoughtWorksInc/todo into gh-pages
+64fe55c Update line numbers
+21bf71a Inline filterListItem
+d6b91f8 Adjust spaces
+e21d55b Publish to GitHub Pages
+e8e8e6f Merge branch 'gh-pages' of github.com:ThoughtWorksInc/todo into gh-pages
+e277e4e Update line numbers
+5300789 Remove new
+0905dbd Extract onclick event in mainSection
+55d8f55 Extract onclick event in footer
+e61bc2b Extract toggleHandler
+68dbdc4 Move done ignoreEvent
+27ddd65 Extract standalone blurHandler
+92663ea Publish to GitHub Pages
+9ac9410 Merge branch 'master' of github.com:ThoughtWorksInc/todo into gh-pages
+6d806dd Cache .npm directory
+
+git-subtree-dir: examples/binding-scala
+git-subtree-split: 109f8a72f9e9c29407310449819916921fb1c3db
+
+* Add Binding.scala in home page",Atry,https://api.github.com/repos/tastejs/todomvc/git/commits/9e22e76c532c4ce8a2956c61b4fe719eb5cbfede
+0194041a46c46216ba45b69807df4d646c7990c5,"Fix dead link to source of Binding.scala TodoMVC application (#1669)
+
+Fixes #1669",alanbares,https://api.github.com/repos/tastejs/todomvc/git/commits/0194041a46c46216ba45b69807df4d646c7990c5
+07d0b47c8235c1a688bb29ad602335c809dcd401,"Update marionette.js to v3 (#1676)
+
+* update marionette.js to v3
+
+* update readme
+
+* update name of Mn on main page
+
+* fix code style",denar90,https://api.github.com/repos/tastejs/todomvc/git/commits/07d0b47c8235c1a688bb29ad602335c809dcd401
+41eaaadfc9ff045a3d85c045ba0ff4076a0559fa,"Updated elm example to 0.17.1 (#1667)
+
+* Updated elm example to 0.17.1
+
+* Excluded elm compiled assets and packages from jscs
+
+* Removed focus port",halfzebra,https://api.github.com/repos/tastejs/todomvc/git/commits/41eaaadfc9ff045a3d85c045ba0ff4076a0559fa
+7d5d1260142736d992867a6138dad48e2fca4847,Update ScreenCast link. Fix #1690 (#1691),Devinsuit,https://api.github.com/repos/tastejs/todomvc/git/commits/7d5d1260142736d992867a6138dad48e2fca4847
+450a463b17d1d888876f8685094f93bd0e0d3b5f,"Update Elm links to point to latest URLs (#1710)
+
+The old links are currently redirected to the new links. I figured I'd skip the redirect while I was looking at the file!
+
+It may also be worth linking to [The Official Guide](http://guide.elm-lang.org/) in addition to these links. Not sure!",evancz,https://api.github.com/repos/tastejs/todomvc/git/commits/450a463b17d1d888876f8685094f93bd0e0d3b5f
+ae2dd19588f551032233a66bbc262cf9dba3b1ff,Vue.js: Update to 2.1.8 (#1734),sun-zheng-an,https://api.github.com/repos/tastejs/todomvc/git/commits/ae2dd19588f551032233a66bbc262cf9dba3b1ff
+ae39b8e5a59da6330d182b1f8feadccdbc07d669,"Renamed edit function to editingMode (#1747)
+
+The edit function actually switches the todo to an editable input, it doesn't edit anything itself. The new function name 'editingMode' is more accurate and descriptive.",naterino,https://api.github.com/repos/tastejs/todomvc/git/commits/ae39b8e5a59da6330d182b1f8feadccdbc07d669
+0a0af2145ad1d75647a0143c527edff64f8145b2,angularjs: do not use self-closing form of <ng-view /> tag (closes #1748) (#1749),kveretennicov,https://api.github.com/repos/tastejs/todomvc/git/commits/0a0af2145ad1d75647a0143c527edff64f8145b2
+213eedf5afe3ff24e2d584141f6c88cee03ca712,"New TodoMVC implementation in Angular 2 with ES2015 (#1581)
+
+* New TodoMVC implementation in Angular 2 with ES2015
+
+* New TodoMVC implementation in Angular 2 with ES2015 - add jscs exclusion for built files
+
+* New TodoMVC implementation in Angular 2 with ES2015 - fix linting errors and add esnext to jscs rules for decorator syntax
+
+* New TodoMVC implementation in Angular 2 with ES2015 - remove own editor specific gitignore
+
+* update dependencies
+
+* upgrade to rc3
+
+* remove inject author
+
+* update jscs exclude
+
+* fix jscs styling
+
+* fix loading issue of assets
+
+* resolve conflicts and update to angular 2 final",blacksonic,https://api.github.com/repos/tastejs/todomvc/git/commits/213eedf5afe3ff24e2d584141f6c88cee03ca712
+2a1214f7917945775ca198aac448f76ab699aced,"Update section on Editors (#1784)
+
+Existing content was dated; brought to current",CodeCharm,https://api.github.com/repos/tastejs/todomvc/git/commits/2a1214f7917945775ca198aac448f76ab699aced
+748c199cce8b0b6c889d8769199a45a4532b80f3,Change the position of input cursor (#1821),wuzehao16,https://api.github.com/repos/tastejs/todomvc/git/commits/748c199cce8b0b6c889d8769199a45a4532b80f3
+b7fc712d3d8a26a78b7c9ccbd798bb9a89144385,fix react tutorial link (#1827),nishina555,https://api.github.com/repos/tastejs/todomvc/git/commits/b7fc712d3d8a26a78b7c9ccbd798bb9a89144385
+187b55f1b01849c2a4391916c9147d6f161bba97,"Updating ""Why I Like TypeScript"" screencast link (#1829)
+
+Existing link for the screencast was leading to [a rather empty looking page](http://www.leebrimelow.com/why-i-like-typescripts).
+
+I updated the link to what I believe is the same screencast the original link was referring to. The link redirects to the video ""Why I Like TypeScript"" on YouTube by Lee Brimelow.",fvcproductions,https://api.github.com/repos/tastejs/todomvc/git/commits/187b55f1b01849c2a4391916c9147d6f161bba97
+1dc309135580cb4c3d55cbe71382170013b831e1,add keys for todo items for vue to ensure checkboxes are not reused.  Fixes issue #1736 (#1835),jjimenez,https://api.github.com/repos/tastejs/todomvc/git/commits/1dc309135580cb4c3d55cbe71382170013b831e1
+b8913f1353381e68c3ca8d2c91f60dbb0b42f527,"Update readme.md (#1838)
+
+-Made explicit HTTPS calls
+-Add link to licence
+-Minor edits",alanyee,https://api.github.com/repos/tastejs/todomvc/git/commits/b8913f1353381e68c3ca8d2c91f60dbb0b42f527
+34e9739bd441408d36902e08d8ab8a69f6c5dc21,Docs: Fix typo (#1849),dijonkitchen,https://api.github.com/repos/tastejs/todomvc/git/commits/34e9739bd441408d36902e08d8ab8a69f6c5dc21
+c5bee456a812e75162f6ef5a5f380e8e5c312456,"Change command to 'npm run start' (#1807)
+
+""dev"" is not included in the scripts list in '../examples/angular2_es2015/package.json', but ""start"" is.",lukecaputo,https://api.github.com/repos/tastejs/todomvc/git/commits/c5bee456a812e75162f6ef5a5f380e8e5c312456
+544a0a52a684e231d093f4927f4eda8a94402509,"(Merge)Learn page to display all the learn.json info in one place (#1552)
+
+* Creating the learn.html page
+
+* Including @samccone suggestions
+
+* Including more comments from @samccone",mriccia,https://api.github.com/repos/tastejs/todomvc/git/commits/544a0a52a684e231d093f4927f4eda8a94402509
+2cda67b20c555f76a67dc596f06d1721f2dd4816,"Merge(update projects to todomvc-app-css v2 (#1811))
+
+* update angular2
+
+* update atmajs
+
+* update backbone
+
+* update vanilla-es6
+
+* update everything else
+
+* update spine to todomvc-app-css v2
+
+* update ampersand to todomvc-app-css v2
+
+* update angular-dart to todomvc-app-css v2
+
+* update angularjs to todomvc-app-css v2
+
+* update angularjs_require to todomvc-app-css v2
+
+* update ariatemplates to todomvc-app-css v2
+
+* update backbone_marionette to todomvc-app-css v2
+
+* update backbone_require to todomvc-app-css v2
+
+* update canjs to todomvc-app-css v2
+
+* update canjs_require to todomvc-app-css v2
+
+* update somajs_require to todomvc-app-css v2
+
+* update somajs to todomvc-app-css v2
+
+* update serenadejs to todomvc-app-css v2
+
+* update reagent to todomvc-app-css v2
+
+* update rappidjs to todomvc-app-css v2
+
+* update ractive to todomvc-app-css v2
+
+* update puremvc to todomvc-app-css v2
+
+* update polymer to todomvc-app-css v2
+
+* update olives to todomvc-app-css v2
+
+* update mithril to todomvc-app-css v2
+
+* update lavaca_require to todomvc-app-css v2
+
+* update knockoutjs_require to todomvc-app-css v2
+
+* update knockoutjs to todomvc-app-css v2
+
+* update jquery to todomvc-app-css v2
+
+* update closure to todomvc-app-css v2
+
+* update flight to todomvc-app-css v2
+
+* update dijon to todomvc-app-css v2
+
+* update dojo to todomvc-app-css v2
+
+* update enyo_backbone to todomvc-app-css v2
+
+* update exoskeleton to todomvc-app-css v2
+
+* update extjs_deftjs to todomvc-app-css v2
+
+* update firebase-angular to todomvc-app-css v2
+
+* fix toggle-all",patrickkettner,https://api.github.com/repos/tastejs/todomvc/git/commits/2cda67b20c555f76a67dc596f06d1721f2dd4816
+215af94a43b19a76b0c5a795e6ec3509f7e5bbc1,"Cypress test suite  <work in progress> (#1861)
+
+* add TodoMVC tests, configure examples/react
+
+* add run race command to start the server + Cypress, then shut down
+
+* define parallel travic CI jobs
+
+* update react, react-alt and react-backbone
+
+* enable all tests in the spec
+
+* install bin-up in each framework folder
+
+* do not record on dashboard yet
+
+* start recording on dashboard
+
+* record from the root
+
+* add vue
+
+* do not install anything else
+
+* selectors for most ids vs classes
+
+* test more frameworks on travis
+
+* use same version of node 9.3.0
+
+* add all frameworks
+
+* set path
+
+* try caching in separate job
+
+* enable all examples again, because caching works
+
+* replace not.exist with not.be.visible
+
+* rework the routing tests
+
+* only check todo count number
+
+* comments on hidden
+
+* compare label text only
+
+* visible fix
+
+* page loaded only when someone attached event listeners
+
+* filter known issues when making tests
+
+* use setTimeout instead of raf
+
+* fixed local storage check for knockoutjs
+
+* better visible check
+
+* use visible todos, fix enter
+
+* replace clear with combined enter
+
+* disable routing in angular2, use single selector for escape test
+
+* more visible selectors
+
+* better routing test
+
+* enable a lot of tests, because they no longer are flaky
+
+* use start-server-and-test
+
+* fix loading of chapling todomvc
+
+* trying to make chapling work better
+
+* pass CYPRESS_times to control number of times tests run
+
+* observe localStorage.setItem to intercept old calls
+
+* spy on local storage - also means the app has started
+
+* add test:all command that runs through frameworks using Cypress
+
+* color test output
+
+* except ampesand from spy on local storage check
+
+* run series on Circle
+
+* command
+
+* command
+
+* pass --framework or -f
+
+* print counter in the title
+
+* tweaks
+
+* enable typescript-backbone routing
+
+* move from circle v1 to v2
+
+* second workflow
+
+* add more frameworks
+
+* run from CLI main tests using --main flag
+
+* more frameworks
+
+* update emberjs known issues
+
+* update angular-dart issues
+
+* fix serenadejs
+
+* fixed js_of_ocaml
+
+* fix mithril
+
+* fix canjs
+
+* added all compiled to js
+
+* dojo issue
+
+* fix count in dijon app
+
+* no local storage spy for knockoutjs
+
+* fixed scalajs-react
+
+* looked at reagent, hmm
+
+* start labs
+
+* fix for rappidjs
+
+* known issues for kendo
+
+* fix canjs_require
+
+* add more apps to labs workflow
+
+* more labs
+
+* store screenshots as artifacts
+
+* fix exoskeleton
+
+* fix react-backbone
+
+* fix puremvc
+
+* fix extjs_deftjs
+
+* how did extfs work before?
+
+* assert times parameter
+
+* allow --browser parameter
+
+* emberjs known issue
+
+* update flight start check
+
+* known issues for angular2
+
+* persistance in ampersand
+
+* typescript-backbone
+
+* add remaining projects
+
+* dijon known issues
+
+* worked with last few frameworks
+
+* add --problems flag to run just specific list of apps
+
+* js_of_ocaml has really bad localStorage format
+
+* better wait for local storage spy - with retry
+
+* allow spying on setItem for some frameworks with retry
+
+* add blur after editing field and enter
+
+* using blur for some apps after typing
+
+* refactor
+
+* duel should work
+
+* all tests for somajs_require
+
+* fixed a few issues
+
+* print TRAVIS env variables",FadySamirSadek,https://api.github.com/repos/tastejs/todomvc/git/commits/215af94a43b19a76b0c5a795e6ec3509f7e5bbc1
+62b950208d918925fda5204c435da0a2e14e540a,"Flight: Cancel editing on ESCAPE key press (#1855)
+
+* Flight: Cancel editing on ESCAPE key press
+
+* Flight: Cancel editing on ESCAPE key press - Review fixes
+
+* Flight: Cancel editing on ESCAPE key press - Review fixes
+
+* Changes e.which to e.key for both escape and enter key
+
+* Flight: Cancel editing on ESCAPE key press - Review fixes
+
+* changes mistake with e.which usage",nithindavid,https://api.github.com/repos/tastejs/todomvc/git/commits/62b950208d918925fda5204c435da0a2e14e540a
+1ec9083fc590504e442963b3dc75f5f595afc4cb,"Clearing completed todos leaves filter as is (#1871)
+
+Clearing completed todos doesn't reset filter.",ugitch,https://api.github.com/repos/tastejs/todomvc/git/commits/1ec9083fc590504e442963b3dc75f5f595afc4cb
+8f3e17dcf365c9221b54e737634e6d41f277f40d,"Focus caret at end of input when in editMode (#1830)
+
+* jquery - focus caret at end of line 
+
+Removed deprecated line that didn't move caret to end of input upon editing a todo. Added a way that works to put caret at end of input
+
+* changed spaces to tabs indent",starogre,https://api.github.com/repos/tastejs/todomvc/git/commits/8f3e17dcf365c9221b54e737634e6d41f277f40d
+2fd9da7d5c43a6c626073683720c53aeb83e55ee,Fixes broken blog link (#1894),manaswinidas,https://api.github.com/repos/tastejs/todomvc/git/commits/2fd9da7d5c43a6c626073683720c53aeb83e55ee
+5619b6cfed56d8cf28496eedfe8888cb4a64dd80,"Remove ExtJS + DeftJS from examples (#1898)
+
+*  Remove extjs_deftjs from examples and all occurrences of the project
+
+* Remove extjs_deftjs from travi-ci config",Fruitseller,https://api.github.com/repos/tastejs/todomvc/git/commits/5619b6cfed56d8cf28496eedfe8888cb4a64dd80
+302b409c2b8510dc634fdd0e481196845109dc97,fix cypress test for vanilla-es6 (#1907),gj262,https://api.github.com/repos/tastejs/todomvc/git/commits/302b409c2b8510dc634fdd0e481196845109dc97
+7fb200ad4e303abb333bfe4744746763aacd6f0d,Adding kotlin-react implementation (#1908),marcelofrau,https://api.github.com/repos/tastejs/todomvc/git/commits/7fb200ad4e303abb333bfe4744746763aacd6f0d
+e76034cacd37e83c3747e9fc5f214816cbd4f2bc,"Upgrade Ember TodoMVC to Ember v3.2 (#1912)
+
+* Update Ember Todomvc to 3.2 with ember-cli-update
+
+* Changes after running ember-cli-update codemods
+
+* New production build with Ember v3.2
+
+* Move and update Ember.js TodoMVC README.md
+
+* Change rootURL to empty for proper production build",zoltan-nz,https://api.github.com/repos/tastejs/todomvc/git/commits/e76034cacd37e83c3747e9fc5f214816cbd4f2bc
+830b246c454e1e4bdecdd6d114331af9ac803d6a,fix gitignore (#1915),eyqs,https://api.github.com/repos/tastejs/todomvc/git/commits/830b246c454e1e4bdecdd6d114331af9ac803d6a
+1ae9830bcd65570d0e40d397b27539d658437783,"Fixing cursor position in todo name input (#1916)
+
+* Fixing cursor position in todo name input
+
+* Replacing let with var
+
+* Defining variables at the top of the function",3b3ziz,https://api.github.com/repos/tastejs/todomvc/git/commits/1ae9830bcd65570d0e40d397b27539d658437783
+c78ae12a1834a11da6236c64a0c0fb06b20b7c51,Grammar fix/typo in contributing (#1941),AndreasElia,https://api.github.com/repos/tastejs/todomvc/git/commits/c78ae12a1834a11da6236c64a0c0fb06b20b7c51
+1a4941c84d9e969deab9e10acebe85d686338e92,Fix aurelia links (#1951),jozefizso,https://api.github.com/repos/tastejs/todomvc/git/commits/1a4941c84d9e969deab9e10acebe85d686338e92
+94ff67e8d0f2c860f956e37e87d1b3bfb1221dc3,"Update the ember example (#1948)
+
+Update ember to the 3.4 LTS
+Update to the latest TodoMVC template to make the info sidebar appear",Windvis,https://api.github.com/repos/tastejs/todomvc/git/commits/94ff67e8d0f2c860f956e37e87d1b3bfb1221dc3
+40f936b71a05c6a941068789f3bb680a3a820b9b,App update: update typescript and react,broekema41,https://api.github.com/repos/tastejs/todomvc/git/commits/40f936b71a05c6a941068789f3bb680a3a820b9b
+74912d67ce8dcdf4834702dc680e72c3c1981fe9,"Update Main.scala (#1961)
+
+Remove unused variable declaration",longngn,https://api.github.com/repos/tastejs/todomvc/git/commits/74912d67ce8dcdf4834702dc680e72c3c1981fe9
+07368a4aa271e88b066fa982b8ead9f7306ab6fa,"Migrate Cujo app to new UI (#1980)
+
+refs #1110",fboechats,https://api.github.com/repos/tastejs/todomvc/git/commits/07368a4aa271e88b066fa982b8ead9f7306ab6fa
+3849197fa0a4d2a2f581740a29fb4408760a2b57,"Update cypress dep (#1988)
+
+This version of Cypress is a year old now. Cypress has had a lot of updates since ~3.0.3, including a lot of performance improvements. [Full changelog](https://on.cypress.io/changelog#3-4-1)",jennifer-shehane,https://api.github.com/repos/tastejs/todomvc/git/commits/3849197fa0a4d2a2f581740a29fb4408760a2b57
+9f6e22cc463c60113f823e2622b9478d62191e72,"Update elm to version 0.19 (#1954)
+
+* Update elm to version 0.19",Razzeee,https://api.github.com/repos/tastejs/todomvc/git/commits/9f6e22cc463c60113f823e2622b9478d62191e72
+1a595254d8358dd8dce7ff12fad7a529fe21fa5c,"refactor(Aurelia): upgrade to Aurelia post beta usage (#1969)
+
+* refactor(aurelia): enhance aurelia impl
+
+* fix(docs): add links, fix old links
+
+* chore(aurelia): update deps, update startup code
+
+* chore(aurelia): add comments
+
+* chore(aurelia): simplify comments
+
+* chore: some small formatting tweaks
+
+* chore(example): fix aurelia implementation
+
+* chore(example): upgrade aurelia script, add promise polyfill for older browsers",bigopon,https://api.github.com/repos/tastejs/todomvc/git/commits/1a595254d8358dd8dce7ff12fad7a529fe21fa5c
+41ba86db92336c11e56d425c5151b7ec2932be9a,Added react-hooks example. (#1962),jacob-ebey,https://api.github.com/repos/tastejs/todomvc/git/commits/41ba86db92336c11e56d425c5151b7ec2932be9a

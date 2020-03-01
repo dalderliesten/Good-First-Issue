@@ -1,0 +1,528 @@
+First Commit Hash (SHA),Commit Message,Author (Github Name),Link to Commit
+bda4052092408dd9b971c79b35b4c34c56b120c4,Initializing repo,anpete,https://api.github.com/repos/dotnet/efcore/git/commits/bda4052092408dd9b971c79b35b4c34c56b120c4
+fee46155917d79d27ed240b5be2adaa236986ef2,Updated build files.,davidfowl,https://api.github.com/repos/dotnet/efcore/git/commits/fee46155917d79d27ed240b5be2adaa236986ef2
+ab565487574504cc9b299f0b960714ed8075344a,"Low memory footprint... (Initial stubbed-out top-level API)
+
+This is the API surface required to build the version of Music Store checked in. No implementation as yet, and some things (like Database.Create) will likely change.",ajcvickers,https://api.github.com/repos/dotnet/efcore/git/commits/ab565487574504cc9b299f0b960714ed8075344a
+ba43a69686894e032e48e9dc8a47bbaffc58590a,Updatng build.cmd to use cached NuGet.exe,pranavkm,https://api.github.com/repos/dotnet/efcore/git/commits/ba43a69686894e032e48e9dc8a47bbaffc58590a
+285ba07d5e0b97f23df513bdb51767eda042fea0,Add build files,bricelam,https://api.github.com/repos/dotnet/efcore/git/commits/285ba07d5e0b97f23df513bdb51767eda042fea0
+24dfa12912370773a37e853d9e45761a07dc39ce,SimpleCUD - adding simple CUD command text generator,moozzyk,https://api.github.com/repos/dotnet/efcore/git/commits/24dfa12912370773a37e853d9e45761a07dc39ce
+fe1be206808e027e9e00a7b63f5662a8babb81fe,"Enable round tripping with SQL Server
+
+Wiring up SaveChanges in RelationalDataStore
+Adding temporary wire up of EntitySet IEnumerable and IQuerable to use
+List<T> to enable query
+Adding a few end to end tests against SQL Server",rowanmiller,https://api.github.com/repos/dotnet/efcore/git/commits/fe1be206808e027e9e00a7b63f5662a8babb81fe
+df09fde1d513f91902279b0afd8d6ce724dc6af3,Switching to the System.Data.SqlClient package.,AndriySvyryd,https://api.github.com/repos/dotnet/efcore/git/commits/df09fde1d513f91902279b0afd8d6ce724dc6af3
+947b801088b9bfebb265e24a1c7cb04895eb2db8,Fixes for IServiceCollection,HaoK,https://api.github.com/repos/dotnet/efcore/git/commits/947b801088b9bfebb265e24a1c7cb04895eb2db8
+7ea3df73602ca681eb954720d6094b63b9e12f3d,Updating build scripts,loudej,https://api.github.com/repos/dotnet/efcore/git/commits/7ea3df73602ca681eb954720d6094b63b9e12f3d
+f7131aceafe87f4766da57ff61708d1e14be2d1c,Removed unused dependency,ChengTian,https://api.github.com/repos/dotnet/efcore/git/commits/f7131aceafe87f4766da57ff61708d1e14be2d1c
+3bd07d661787f0697a895aba3d909a5ee50ce974,Adding a test for issue #153 and fixing a couple of Check.NotNull() calls.,DavidObando,https://api.github.com/repos/dotnet/efcore/git/commits/3bd07d661787f0697a895aba3d909a5ee50ce974
+b8d2181099d4cd21032778f83f231e20e9aefbec,Create LICENSE.txt,Eilon,https://api.github.com/repos/dotnet/efcore/git/commits/b8d2181099d4cd21032778f83f231e20e9aefbec
+346365baa09b582c049bd4aaa02434cbc1d7bec6,Update README.md,danroth27,https://api.github.com/repos/dotnet/efcore/git/commits/346365baa09b582c049bd4aaa02434cbc1d7bec6
+23416d9a534e669b0f973b595dce9dc765fdd3e4,"Fix to issue 271 - Table names and identifiers are not quoted when querying, fix is to start escaping identifiers in query generator, as well as provide means to extend it for other providers. CR: AnPete",maumar,https://api.github.com/repos/dotnet/efcore/git/commits/23416d9a534e669b0f973b595dce9dc765fdd3e4
+12cc46a9428830b92acc90a01afb3caf8f8113e2,Pass the format provider to DateTime.Parse to make tests that rely on Shared\Nothwind.cs works on machines with a culture different than 'en-US'.,MrJingle,https://api.github.com/repos/dotnet/efcore/git/commits/12cc46a9428830b92acc90a01afb3caf8f8113e2
+c0dd2967928383cc467c803897aa77a1755bdb56,"Double, double, toil and trouble
+Make unit test work on non-US systems",ErikEJ,https://api.github.com/repos/dotnet/efcore/git/commits/c0dd2967928383cc467c803897aa77a1755bdb56
+1bbb5f7e0518450a966cb6a35bc1d91b10a4bca4,"First working copy. Supports insert, update and delete but not query yet.
+Various tests added - more to come.",lajones,https://api.github.com/repos/dotnet/efcore/git/commits/1bbb5f7e0518450a966cb6a35bc1d91b10a4bca4
+640b08daacc92534cc6db9933dcdc461f9b8063a,Handle IBuilder rename to IApplicationBuilder.,Tratcher,https://api.github.com/repos/dotnet/efcore/git/commits/640b08daacc92534cc6db9933dcdc461f9b8063a
+7ac6280cef68b0113b1b599193e464f2b11671b3,Initial Commit of EF Performance Microbenchmark applications. This commit is a direct copy of the performance applications from the performance repository to enable a clean transition of pending changes in the performance repo and clean rebases.  Future commits will address changes necessary for building applications depending directly on the EF source code.,lukewaters,https://api.github.com/repos/dotnet/efcore/git/commits/7ac6280cef68b0113b1b599193e464f2b11671b3
+c0aab51bb10db51d4e45b3a87e51885666f9e014,"Updates to ILogger, see aspnet/Logging#3",SonjaKhan,https://api.github.com/repos/dotnet/efcore/git/commits/c0aab51bb10db51d4e45b3a87e51885666f9e014
+f57b95000f3d48b7080269ad365ac6d8f5f33d22,Moved Compiled Model out of Product Assembly,smitpatel,https://api.github.com/repos/dotnet/efcore/git/commits/f57b95000f3d48b7080269ad365ac6d8f5f33d22
+0977d75d9fb9372c84dff88b7498382efe5c5805,"Moved Column from Relational.Model to Migrations.Model
+Moved RelationalMetadataExtensionProvider to test code. Implemented SQLiteMetadataExtensionProvider to return Relational extensions.
+Added RelationalTestHelper and MigrationsTestHelper.",emilcicos,https://api.github.com/repos/dotnet/efcore/git/commits/0977d75d9fb9372c84dff88b7498382efe5c5805
+547334540772c44629ee76ee0b340ba34fe1ff47,Add schema version to kproj files,victorhurdugaci,https://api.github.com/repos/dotnet/efcore/git/commits/547334540772c44629ee76ee0b340ba34fe1ff47
+69049dff88cf0d32c543a9cb76449a8a4278eb65,Moved Entry Methods from ChangeTracker to DbContext,mikary,https://api.github.com/repos/dotnet/efcore/git/commits/69049dff88cf0d32c543a9cb76449a8a4278eb65
+3c7d705d5ebeba47ce76f08f94ccbf54df5ec0ea,Updating to release NuGet.config,suhasj,https://api.github.com/repos/dotnet/efcore/git/commits/3c7d705d5ebeba47ce76f08f94ccbf54df5ec0ea
+76ad8c149d17ce698333e502d78509be1d4327e6,"supported ""Contains"" method of string in Where clause.
+
+Conflicts:
+	src/EntityFramework.Relational/EntityFramework.Relational.csproj",RickyLin,https://api.github.com/repos/dotnet/efcore/git/commits/76ad8c149d17ce698333e502d78509be1d4327e6
+0e0254f0b1bda866624e7036c7e14f0645539bdf,Updating .kproj files,BrennanConroy,https://api.github.com/repos/dotnet/efcore/git/commits/0e0254f0b1bda866624e7036c7e14f0645539bdf
+1db6efecb4db744a2ae866c34ac12400bf5d9726,Fix to #1640 - Make SqlGeneratorTestBase implementation independent by removing dbo constant as table schema,bartdevriendt,https://api.github.com/repos/dotnet/efcore/git/commits/1db6efecb4db744a2ae866c34ac12400bf5d9726
+ebdcb16dd564a12ca8eeb9b513592c4be4030265,React to Options changes.,GrabYourPitchforks,https://api.github.com/repos/dotnet/efcore/git/commits/ebdcb16dd564a12ca8eeb9b513592c4be4030265
+fa1711caf4513ac8aee0f4ef068fe9b20a6637d1,Update aspnet50/aspnetcore50 => dnx451/dnxcore50.,NTaylorMullen,https://api.github.com/repos/dotnet/efcore/git/commits/fa1711caf4513ac8aee0f4ef068fe9b20a6637d1
+601a1d9d742d7988dd0fb9a69eca12eef35e870d,"Renaming Nuget.org feed key name to Nuget.
+
+fixes https://github.com/aspnet/Universe/issues/174",Praburaj,https://api.github.com/repos/dotnet/efcore/git/commits/601a1d9d742d7988dd0fb9a69eca12eef35e870d
+dfd5aea69ccd6428040a2ba70ac5a46d58fcd534,Do not use deprecated `dnvm -x86` switch,dougbu,https://api.github.com/repos/dotnet/efcore/git/commits/dfd5aea69ccd6428040a2ba70ac5a46d58fcd534
+1bd2604be178a4e8345fad58e7df59aa7664e11f,"Fix wrong parentheses, must be after InvariantCulture",LunicLynx,https://api.github.com/repos/dotnet/efcore/git/commits/1bd2604be178a4e8345fad58e7df59aa7664e11f
+e09f5d986c918c93cb90d72ee8d63f2709b41f12,"Clean up PerfTestRunner
+
+https://github.com/aspnet/EntityFramework/issues/1300",MarcinJuraszek,https://api.github.com/repos/dotnet/efcore/git/commits/e09f5d986c918c93cb90d72ee8d63f2709b41f12
+3cbd0967eec576fa23926c0b720d8d0efbaf7ff6,"Update global.json, sources=>projects",troydai,https://api.github.com/repos/dotnet/efcore/git/commits/3cbd0967eec576fa23926c0b720d8d0efbaf7ff6
+2dc23008cbc89805d5dbc4a0b2645d0a2da08811,Reacting to ILogger api changes,kichalla,https://api.github.com/repos/dotnet/efcore/git/commits/2dc23008cbc89805d5dbc4a0b2645d0a2da08811
+2130f4e2a596d01f6f0e935e978d0d8b3a5ab962,"Ignore user override for culture parsing dates
+
+In the tests' Northwind data, ignore the user override for the en-US
+culture while parsing date strings. Otherwise tests fail because of
+an external user preference.",roji,https://api.github.com/repos/dotnet/efcore/git/commits/2130f4e2a596d01f6f0e935e978d0d8b3a5ab962
+283a8aa3b0325788c7552bd4bd137db73b006088,"unwrapping nullable types on ValueGeneratorSelectors, updated tests to test for nullable guid's.",0xdeafcafe,https://api.github.com/repos/dotnet/efcore/git/commits/283a8aa3b0325788c7552bd4bd137db73b006088
+caa24df919dd62591596949d7b6592ee3379a61b,"#2143 Fix CSharpHelper to generate valid C# code regardless of current culture
+
+* DateTime, TimeSpan, and DateTimeOffset are generated as their individual constructor call instead of their Parse-methods.
+* Double values are generated with support for round tripping to ensure the max/min-values can also be interpreted.
+* Decimal and integer types are ensured to always print in numeric notation, not exponential notation.",MichaelKetting,https://api.github.com/repos/dotnet/efcore/git/commits/caa24df919dd62591596949d7b6592ee3379a61b
+f2c576492e20b63024d2be5bfd054a65b9733f1f,Throws errors when executing query with unset parameters. Fixes #79,natemcmaster,https://api.github.com/repos/dotnet/efcore/git/commits/f2c576492e20b63024d2be5bfd054a65b9733f1f
+365278f10a173b802bce7a823dba4b554503d6e3,ASP.NET vNext -> ASP.NET 5,hishamco,https://api.github.com/repos/dotnet/efcore/git/commits/365278f10a173b802bce7a823dba4b554503d6e3
+739a7233bbd49a7130e55a48188d3dc2a59f5a0c,"fix small typo
+
+the ""EF7 is not recommend for:"" should be ""EF7 is not recommended for:""",va5ili5,https://api.github.com/repos/dotnet/efcore/git/commits/739a7233bbd49a7130e55a48188d3dc2a59f5a0c
+efa442ff76587dbc0c654d17b8a130fc4bea0480,Fixes #654,felipepessoto,https://api.github.com/repos/dotnet/efcore/git/commits/efa442ff76587dbc0c654d17b8a130fc4bea0480
+63fe9b65b6305dd1c5bc6dae5bba108cf70ce8bb,Removed await in favor of returning a task,danielmarbach,https://api.github.com/repos/dotnet/efcore/git/commits/63fe9b65b6305dd1c5bc6dae5bba108cf70ce8bb
+03792af6c8580338044168c1f1cc8069dd8bfb70,patch up build script,anurse,https://api.github.com/repos/dotnet/efcore/git/commits/03792af6c8580338044168c1f1cc8069dd8bfb70
+73f59104e5cd21dc5ca2d8705d8851db3a830efc,Add Convert.ToInt32 to SqlServer.,TanielianVB,https://api.github.com/repos/dotnet/efcore/git/commits/73f59104e5cd21dc5ca2d8705d8851db3a830efc
+7b1ee7cdc9ff81676cbae9508f7b9828f20268eb,"Add predicate to subquery
+
+Predicate where not included in SQL or where included outside the subquery and generate invalid sql",Anderman,https://api.github.com/repos/dotnet/efcore/git/commits/7b1ee7cdc9ff81676cbae9508f7b9828f20268eb
+5e6c231e1a20418fad81e9f3fcf7c3f85ef3abe8,fix comment on TrackGraph method,micdenny,https://api.github.com/repos/dotnet/efcore/git/commits/5e6c231e1a20418fad81e9f3fcf7c3f85ef3abe8
+3f9c5025d00f4ed066e56c429a94816ff2e6592d,React to aspnet/configuration #246,kirthik,https://api.github.com/repos/dotnet/efcore/git/commits/3f9c5025d00f4ed066e56c429a94816ff2e6592d
+4211c4968024fd7eb4b245e0a5999a578387fc71,Resolves #2212 Add MigrateAsync (and related async methods),laskoviymishka,https://api.github.com/repos/dotnet/efcore/git/commits/4211c4968024fd7eb4b245e0a5999a578387fc71
+3a09a751b394554d7100f13b48d6cd6f4fad6526,Translate DateTime.UtcNow to getutcdate() in LINQ queries,dcga,https://api.github.com/repos/dotnet/efcore/git/commits/3a09a751b394554d7100f13b48d6cd6f4fad6526
+b4edf2eabd05752420f434b490c317e8f27488de,Enabling NuGetPackageVerifier,ajaybhargavb,https://api.github.com/repos/dotnet/efcore/git/commits/b4edf2eabd05752420f434b490c317e8f27488de
+c7e1ec4a0f65abceb43295710abd73d6c49c1ad5,Update CoreStrings.resx,yukozh,https://api.github.com/repos/dotnet/efcore/git/commits/c7e1ec4a0f65abceb43295710abd73d6c49c1ad5
+5d43159a48c7468a04d8a080d0c752396678d991,"Small typo fix to comment on ModelBuilder.cs
+
+Very minor typo update to comment.",michaelrp,https://api.github.com/repos/dotnet/efcore/git/commits/5d43159a48c7468a04d8a080d0c752396678d991
+db1e3cae2c926f766f3eb90671cf4d430f2cecc2,Refactor to incorporate dnx dependency injection changes,pakrym,https://api.github.com/repos/dotnet/efcore/git/commits/db1e3cae2c926f766f3eb90671cf4d430f2cecc2
+4e0a5d92e14e56892f0a7a81abb925c9792f0664,Remove duplicate test case.,JoshVarty,https://api.github.com/repos/dotnet/efcore/git/commits/4e0a5d92e14e56892f0a7a81abb925c9792f0664
+c8a552a7aafd91a6ba4e214140fe87caaa0dbcf0,Reacting to removal of ILoggerFactory.MinimumLevel,JunTaoLuo,https://api.github.com/repos/dotnet/efcore/git/commits/c8a552a7aafd91a6ba4e214140fe87caaa0dbcf0
+644c905b16ff514291beb663a25d4459f2fbc0b6,"#3235 fix - more than a fix, actually we could allow to use types as base types without strict declaration of base types on model if we want separated tables with the same logic/base on entity. And as result we can ignore keys/properties from base type
+#3317 fix - select statement in SQL couldn't result in a bool, so just check the expression if it's select on binary expression and add "" = 1""
+Also MSSQL tests does have some missed parts on SQL generation if we have different FK/PK names and result SQL query was contain wrong table reference values because of small mistake. That was fixed in this commit.",multiarc,https://api.github.com/repos/dotnet/efcore/git/commits/644c905b16ff514291beb663a25d4459f2fbc0b6
+94cd412e9319d35aac3f2600d9d42d6132e0cbb6, * Remove un-needed reference,ryanbrandenburg,https://api.github.com/repos/dotnet/efcore/git/commits/94cd412e9319d35aac3f2600d9d42d6132e0cbb6
+9401717b84648b400baf07f069df6ecc3ec47771,"Adds and implements ModelCustomizer
+
+Updates ModelCustomizer to be more transparent
+
+Removes unneeded usings
+
+Updates ModelSource to use ModelCacheKey instead of Type
+
+Updates ModelCustomizer",Grinderofl,https://api.github.com/repos/dotnet/efcore/git/commits/9401717b84648b400baf07f069df6ecc3ec47771
+8f49f53b1ffe44df0eb6af3f24e998f4072d8e39,Add CommandBehavior.SingleResult to ignored behaviors,NickCraver,https://api.github.com/repos/dotnet/efcore/git/commits/8f49f53b1ffe44df0eb6af3f24e998f4072d8e39
+6e798eb8cbe5cd7457f6f89a85ad14c1b925f65d,Failing test for #3722,Tasteful,https://api.github.com/repos/dotnet/efcore/git/commits/6e798eb8cbe5cd7457f6f89a85ad14c1b925f65d
+b6f33773b240200497bef78dd76beadc7e1fffd7,React to changes in Logging,javiercn,https://api.github.com/repos/dotnet/efcore/git/commits/b6f33773b240200497bef78dd76beadc7e1fffd7
+3d7031229591a115b14929e322b062c172f42161,"Properties can be defined in a base type with a private setter and then overridden. In such cases the setter does not show up in the .NET Reflection metadata for the property in the derived type. We therefore need to use special code to go down the hierarchy and find the private setter on the base type so it can be mapped to a delegate and called.
+Fixes #753",davidroth,https://api.github.com/repos/dotnet/efcore/git/commits/3d7031229591a115b14929e322b062c172f42161
+1bc237b9fa5b5a8fef4b5ab8a26d15af39d4d9bb,ASP.NET 5 -> ASP.NET Core,cesarblum,https://api.github.com/repos/dotnet/efcore/git/commits/1bc237b9fa5b5a8fef4b5ab8a26d15af39d4d9bb
+9d0481966b13e7d03b015b287f4d51471235345b,Reacting to changes in Caching,sebastienros,https://api.github.com/repos/dotnet/efcore/git/commits/9d0481966b13e7d03b015b287f4d51471235345b
+d3610cb8e1fe120fc53c100ed4c10574288ab314,"Adds Timestamps, InstanceId and Duration to Diagnostic Source events",avanderhoorn,https://api.github.com/repos/dotnet/efcore/git/commits/d3610cb8e1fe120fc53c100ed4c10574288ab314
+83ddd80661c97ee4f0146a81e4e340c304038974,"Switches the order of ConfigureServices methods called in StartupInvoker
+
+Fixes #5236
+
+This code is used in a loop that stops on the first method it finds.  It should try the more specific methods before the less specific methods.",MicahZoltu,https://api.github.com/repos/dotnet/efcore/git/commits/83ddd80661c97ee4f0146a81e4e340c304038974
+cb6247f6fddc9609c30bcc569457477af37a81f0,"Culture resistence in JsonUtility
+- If the entity framework is used in some culture that use another kind of decimal separator the JsonUtility test fail
+- Forced invariant culture when doing serialization and add specific test forcing another culture
+
+Fixes #5821",jenseralmeida,https://api.github.com/repos/dotnet/efcore/git/commits/cb6247f6fddc9609c30bcc569457477af37a81f0
+88ccc1d25e86ab8a87d7ee6049dfbdde5d67a250,Rename DatabaseProvider`.cs to DatabaseProvider.cs,fadihania,https://api.github.com/repos/dotnet/efcore/git/commits/88ccc1d25e86ab8a87d7ee6049dfbdde5d67a250
+e2a181ed5d3bc43096e896460510731c756aeced,"Fix incorrect timestamp conversion to milliseconds in logging
+
+TimeSpan ticks does not always equate to Stopwatch ticks so a conversion based on the Stopwatch.Frequency is necessary.",angelyordanov,https://api.github.com/repos/dotnet/efcore/git/commits/e2a181ed5d3bc43096e896460510731c756aeced
+6b2de539f56092297e384755f59d786972a828a3,"Add support for AttachDBFilename
+
+There isn't any handling for custom filenames within sql connection strings
+('AttachDBFilename'), which leads to obscure error messages. Thus, we just
+add proper handling of filenames.
+
+* AttachDBFilename gets a reset while building master connection strings
+* Exists accept error 1832 and 5120 too as a hint for non existing database
+* SqlServerCreateDatabaseOperation gets an additional FileName property",axelheer,https://api.github.com/repos/dotnet/efcore/git/commits/6b2de539f56092297e384755f59d786972a828a3
+ab4b6dc6038a674e055c51a6d28ad15ffe75e246,Fix to #7112 - Remove redundant call to String.Format() in LogCommandExecuted() method.,lecaillon,https://api.github.com/repos/dotnet/efcore/git/commits/ab4b6dc6038a674e055c51a6d28ad15ffe75e246
+32dab580aeaffa7090376ecc7672b34df087a55d,Changes to InternalRelationshipBuilder (fixes #7327),tuespetre,https://api.github.com/repos/dotnet/efcore/git/commits/32dab580aeaffa7090376ecc7672b34df087a55d
+835120c52862496abd5f8406d620f6a1cdd62137,"Fix CreateIndexOperation filter generation
+Use CSharpHelper.Literal to correctly wrap the filter with """"",searus,https://api.github.com/repos/dotnet/efcore/git/commits/835120c52862496abd5f8406d620f6a1cdd62137
+ef6522f55432ce1e9addc7aef1e8a82070956d18,"Summary of the changes
+ - Added more Math methods in SqlServerMathTranslator
+ - Added tests in QueryTestBase and QuerySqlServerTest",rpawlaszek,https://api.github.com/repos/dotnet/efcore/git/commits/ef6522f55432ce1e9addc7aef1e8a82070956d18
+16fbc0de7afb96589c641fc93fe165dc3320a522,"Fixed issue #5982.
+
+Non-generic EntityQueryProvider.Execute method should call proper IQueryCompiler.Execute generic method.
+A similar approach is used used by EntityQueryProvider.CreateQuery.",BladeWise,https://api.github.com/repos/dotnet/efcore/git/commits/16fbc0de7afb96589c641fc93fe165dc3320a522
+952af890b0c57335824dc5eaca148f72d88461bf,"Data migration operations
+
+New operations:
+
+* InsertOperation
+* DeleteOperation
+* UpdateOperation
+
+New `MigrationBuilder` methods:
+
+* Insert
+* Delete
+* Update",colltoaction,https://api.github.com/repos/dotnet/efcore/git/commits/952af890b0c57335824dc5eaca148f72d88461bf
+42e8bbed604b0447a57933e75caa0e58ed35d912,fix issue 7784.  Remove extraneous IS NOT NULL checks on equals comparisons,pmiddleton,https://api.github.com/repos/dotnet/efcore/git/commits/42e8bbed604b0447a57933e75caa0e58ed35d912
+838cd298b90bd76762278723e10d31746140d545,Add conversion from julian date to SqliteDataReader.GetDateTime.,AlexanderTaeschner,https://api.github.com/repos/dotnet/efcore/git/commits/838cd298b90bd76762278723e10d31746140d545
+67548dc32177c6472374c8fe77c784b6fbb51bd7,"Make generated code play well with StyleCop
+
+Fixes #7189",reaction1989,https://api.github.com/repos/dotnet/efcore/git/commits/67548dc32177c6472374c8fe77c784b6fbb51bd7
+2764d07745f319e42065984f7fbb1c829654f192,"Fix minor grammatical error
+
+While working on a project on VS, I noticed that the comments had a slight typo.",dubeme,https://api.github.com/repos/dotnet/efcore/git/commits/2764d07745f319e42065984f7fbb1c829654f192
+37a4c2357e02f4aae14479e6b5672c16d6aaef72,"Update WarningsTest for ""Query: Include: Log ignored Include warnings properly in new compiler."" (#8262)
+
+- React to https://github.com/aspnet/EntityFramework/pull/8261",mikeharder,https://api.github.com/repos/dotnet/efcore/git/commits/37a4c2357e02f4aae14479e6b5672c16d6aaef72
+c2f61fc6ec19464ae35e422425a395468e84aad1,"Remove obsolete remarks about forcing shadowness
+
+I believe that @ajcvickers made these remarks obsolete/nonsensical when he removed the ""shadow"" parameter in https://github.com/aspnet/EntityFramework/commit/847a2668125beba73878cef683922be6b2e81cad, but that he missed these remarks in his adjustment of the docs.",ExplodingCabbage,https://api.github.com/repos/dotnet/efcore/git/commits/c2f61fc6ec19464ae35e422425a395468e84aad1
+f116e0d38683845e732a3e76a7a5b9441f3b75d1,fix join IGrouping with IAsyncEnumerable,voronov-maxim,https://api.github.com/repos/dotnet/efcore/git/commits/f116e0d38683845e732a3e76a7a5b9441f3b75d1
+3d7ecc984b72bbd9b693a1cefe97fc48ffde6f5a,Remove GetTempFileName,jbagga,https://api.github.com/repos/dotnet/efcore/git/commits/3d7ecc984b72bbd9b693a1cefe97fc48ffde6f5a
+f44520d96bf98d240464ad7585b862526da695fb,Allow errorNumbersToAdd to be null,owre,https://api.github.com/repos/dotnet/efcore/git/commits/f44520d96bf98d240464ad7585b862526da695fb
+232a52678427d79e9ea4381885fc8d20f70d60dc,Updated that the base method is a noop.,weitzhandler,https://api.github.com/repos/dotnet/efcore/git/commits/232a52678427d79e9ea4381885fc8d20f70d60dc
+38ba45f925a7bbadf0544b5542a1c7d87f51edb7,Trivial code cleanup. (#9721),cincuranet,https://api.github.com/repos/dotnet/efcore/git/commits/38ba45f925a7bbadf0544b5542a1c7d87f51edb7
+f214fbb8f82fec924d682b44c935b78853e5690b,Increase Minimum Version of Visual Studio to 15.3.0,jkotalik,https://api.github.com/repos/dotnet/efcore/git/commits/f214fbb8f82fec924d682b44c935b78853e5690b
+4984cbc9a0ba8b354855de5d70fb455216bce381,Fixed spelling mistake,nathankodilla,https://api.github.com/repos/dotnet/efcore/git/commits/4984cbc9a0ba8b354855de5d70fb455216bce381
+83fa1989af47ee8c7c656191349ba12829580ad5,"Resolves #9820 use-database-names for Scaffolding DBContext columns, tests",chrisAmelinckx,https://api.github.com/repos/dotnet/efcore/git/commits/83fa1989af47ee8c7c656191349ba12829580ad5
+b84df60654b21ca04a075260021fa6028c31333c,"Oracle - Implementation of Batch Insertion
+
+A combination of the 6 ""commits"" of PR #10071
+
+With the updated files from the branch dev!",ralmsdeveloper,https://api.github.com/repos/dotnet/efcore/git/commits/b84df60654b21ca04a075260021fa6028c31333c
+f44eaa4bbd80e0223cf5888d67627405f14629eb,"Change private methods to protected virtual in DbContext and EntityType generators.
+- CSharpDbContextGenerator: GenerateClass, GenerateOnConfiguring, GenerateOnModelCreating
+- CSharpEntityTypeGenerator: GenerateClass, GenerateConstructor, GenerateProperties, GenerateNavigationProperties, GenerateEntityTypeDataAnnotations, GeneratePropertyDataAnnotations",tonysneed,https://api.github.com/repos/dotnet/efcore/git/commits/f44eaa4bbd80e0223cf5888d67627405f14629eb
+e70d7daef78b7ef76f989277c0b63bc6a666acf6,Add checks for concurrency tokens in Update and Delete methods of InMemoryTable. Fixes #10157 (#10158),shaynevanasperen,https://api.github.com/repos/dotnet/efcore/git/commits/e70d7daef78b7ef76f989277c0b63bc6a666acf6
+2197ef2c0dcc06fa162b0525d66757ad52e01257,"Fix log time output (#10246)
+
+* fix #10223
+
+* RelationalLoggerExtensionsTest -> DbParameterCollectionExtensionsTest",Mardoxx,https://api.github.com/repos/dotnet/efcore/git/commits/2197ef2c0dcc06fa162b0525d66757ad52e01257
+199c5b863e51fc0cf43cf73c226265d7bb6f472f,Fixed typo - accomadate -> accommodate,LucyParry,https://api.github.com/repos/dotnet/efcore/git/commits/199c5b863e51fc0cf43cf73c226265d7bb6f472f
+36bbec18a84d7eb3f94f7fdfa22e2002eea878ab,Adding a null check to prevent SqlCommand exception trying to assign an UDT type to an empty parameter value. #10214 (#10455),Xtrophic,https://api.github.com/repos/dotnet/efcore/git/commits/36bbec18a84d7eb3f94f7fdfa22e2002eea878ab
+2a6ccad8821f9360ae753bce41d63811185b8912,Implementation of FreeText translation for SqlServer,Djangoum,https://api.github.com/repos/dotnet/efcore/git/commits/2a6ccad8821f9360ae753bce41d63811185b8912
+30ae14c99cc4cb239dd2060b7b68358731f416e2,"Update dependencies.props
+
+[auto-updated: dependencies]",aspnetci,https://api.github.com/repos/dotnet/efcore/git/commits/30ae14c99cc4cb239dd2060b7b68358731f416e2
+8886d1ca746a6730d4ec01a00e79450620e915f4,"Sqlite: Translators for string methods
+
+Resolves #10527",AndrewBoklashko,https://api.github.com/repos/dotnet/efcore/git/commits/8886d1ca746a6730d4ec01a00e79450620e915f4
+c41da88800c9b8a7bd2498dacc3b615f61c949e2,"Fix AddRange(Array values) (#464)
+
+Fix AddRange(Array values)
+
+Using the AddRange(Array values) method causes a exception because the result of linq Cast<SqliteParameter>() returns a IEnumerable<T> which cannot be casted to a single SqliteParameter.
+
+The exception thrown: Unable to cast object of type '<CastIterator>d__34`1[Microsoft.Data.Sqlite.SqliteParameter]' to type 'Microsoft.Data.Sqlite.SqliteParameter'.
+
+The method AddRange comes into place when working primarily with the base class DbParameterCollection which does not have a method accepting IEnumerable<SqliteParameter>
+
+Added test for adding parameters using AddRange(Array values) on the DbCommand base class.",mdisg,https://api.github.com/repos/dotnet/efcore/git/commits/c41da88800c9b8a7bd2498dacc3b615f61c949e2
+6e260b49b0d89a032579ce22ae880ec51803bc80,"Summary of the changes
+- Enable response files at command line
+
+Manual tests include:
+
+1. dotnet ./dotnet-ef.dll migrations add initial @BloggingContext.ef.config
+
+(BloggingContext.ef.config contents)
+-p
+C:\playground\AppToBuilder\AppToBuilder.csproj
+-s
+C:\playground\AppToBuilder\AppToBuilder.csproj
+
+2. dotnet ./dotnet-ef.dll @BloggingContext.ef.config
+
+(BloggingContext.ef.config contents)
+migrations
+add
+initial
+-p
+C:\playground\AppToBuilder\AppToBuilder.csproj
+-s
+C:\playground\AppToBuilder\AppToBuilder.csproj
+
+3. dotnet ./dotnet-ef.dll migrations add initial @D:/BloggingContext.ef.config (relative path)
+
+4. dotnet ./dotnet-ef.dll migrations add @D:/BloggingContext.ef.config (error condition, results in Missing required argument '<NAME>'.)
+
+Fixes #10409",jsacapdev,https://api.github.com/repos/dotnet/efcore/git/commits/6e260b49b0d89a032579ce22ae880ec51803bc80
+c0402210df717fd18f116d47176a98ebb26eba17,ContextInfo will not be called second time in a forced drop command.,glucaci,https://api.github.com/repos/dotnet/efcore/git/commits/c0402210df717fd18f116d47176a98ebb26eba17
+2574c71ca34a4ab69eeb8079833e5d95c229401f,Fixes unit tests that failed because of extension method changes,Flexba,https://api.github.com/repos/dotnet/efcore/git/commits/2574c71ca34a4ab69eeb8079833e5d95c229401f
+923ba7b2cee12fdc57960e0f7608d95166c2bebb,Converted ExpressionEqualityComparer to a singleton #10983,Marusyk,https://api.github.com/repos/dotnet/efcore/git/commits/923ba7b2cee12fdc57960e0f7608d95166c2bebb
+165ce6b9d0b298859028a5b12ba5a599b82b71b0,Fix typo in ressource file,herr-felix,https://api.github.com/repos/dotnet/efcore/git/commits/165ce6b9d0b298859028a5b12ba5a599b82b71b0
+fc4dd9c4edef6c92150f47045a58febf5c31e621,Added implementation,ilmax,https://api.github.com/repos/dotnet/efcore/git/commits/fc4dd9c4edef6c92150f47045a58febf5c31e621
+3c12434e20dd34bf12d63e6dd578e37ad532a4e4,"Sqlite: Translate DateTime.Millisecond
+
+Resolves #10523
+
+Get Milliseconds by getting fractional seconds and applying arithmatic to get milliseconds part
+Added functional tests for all dateparts.",raol,https://api.github.com/repos/dotnet/efcore/git/commits/3c12434e20dd34bf12d63e6dd578e37ad532a4e4
+1d70534e6893dde5d894bf28a2f834f6360d340d,Corrects spelling of some comments,flash2048,https://api.github.com/repos/dotnet/efcore/git/commits/1d70534e6893dde5d894bf28a2f834f6360d340d
+10abe9a06e5a6a09f9b3da76effc33a20049fa2a,"Add 'virtual' keyword to the navigation properties
+
+Since EF Core 2.1 supports Lazy loading scaffold should generate virtual navigation properties",Ingvarr100th,https://api.github.com/repos/dotnet/efcore/git/commits/10abe9a06e5a6a09f9b3da76effc33a20049fa2a
+f975baa9a8d91ee91dc55e7cd7c4b0ee431f9aa5,"Simple overflow checking on GetBytes and GetChars
+
+With the methods that return the number of bytes that are read, it should be expected that they should safeguard against reading over the buffer length. Before this patch, if you stuck in a length that was larger than the rest of the buffer size, the Array.Copy would throw an argument exception. Now, after this patch it behaves like Stream.Read.",mlohstroh,https://api.github.com/repos/dotnet/efcore/git/commits/f975baa9a8d91ee91dc55e7cd7c4b0ee431f9aa5
+d4e2631f831040f5004d3dd7485a06b9ce836e75,"Corrects wrong method name in warningtext LogDefaultDecimalTypeColumn
+
+The warning produced when not explicitly define precisions for decimals
+did suggest the usage of the wrong Fluent API method-name. This commit
+corrects the method name in the warning from ForHasColumnType() to
+HasColumnType(). Fixes #12041",riscie,https://api.github.com/repos/dotnet/efcore/git/commits/d4e2631f831040f5004d3dd7485a06b9ce836e75
+6e69cad3903233f07e91ab717c195c9ee0644214,"Add support for Sequences with decimal types
+
+Fix #10714",FabioMorcillo,https://api.github.com/repos/dotnet/efcore/git/commits/6e69cad3903233f07e91ab717c195c9ee0644214
+a3dd2a0b94947de0f3145ce5ead7ed43b92aad0a,"Add support for defining included column for indexes in SQL server
+
+This commit adds `ForSqlServerInclude` extension to `IndexBuilder` allowing defining columns to be included in a index on sql server.
+
+Generic version of `IndexBuilder` together with its extensions is introduced to support expression parameter.
+
+Breaking change is introduced in `SqlServer` adding a property to interface - `ISqlServerIndexAnnotations.IncludeProperties`.
+
+`MigrationsModelDiffer` now uses structural comparison for annotations to support arrays as annotation value.
+
+Fixes #4846",Kukkimonsuta,https://api.github.com/repos/dotnet/efcore/git/commits/a3dd2a0b94947de0f3145ce5ead7ed43b92aad0a
+b1f6b1a058594f1558359d90a2e01e513973fc5c,"Fix incorrect order of properties passed to log message (#12179)
+
+Fix incorrect order of properties passed to log message",manigandham,https://api.github.com/repos/dotnet/efcore/git/commits/b1f6b1a058594f1558359d90a2e01e513973fc5c
+444a089a26bb3b31e783ce1b78ab7024652acdb1,"Implementation for issue #12152 [GenerateParameterNamePlaceholder] (#12240)
+
+* Implementation for issue #12152 [CommandParameterName and CommandParameterMarkerName]
+
+Into interface Microsoft.EntityFrameworkCore.Storage.ISqlGenerationHelper were added two new methods:
+ - string GenerateParameterNamePlaceholder([NotNull] string name);
+ - void GenerateParameterNamePlaceholder([NotNull] StringBuilder builder, [NotNull] string name);
+
+By default, RelationalSqlGenerationHelper (implementation of  ISqlGenerationHelper) saves old behavior: ParameterNamePlaceholder == ParameterName.
+
+When need generate another placeholder name, need override GenerateParameterNamePlaceholder methods.
+
+I tested these changes with my adapter for EFCore - seem they work as expected.
+
+One problem - I not know how to test the changes in DefaultQuerySqlGenerator::VisitPropertyParameter. This method similar to VisitParameter. But my tests does not call the VisitPropertyParameter method.
+
+* update ""breakingchanges.netcore.json"" for #12152
+
+* update of correct ""breakingchanges.netcore.json"" (from EFCore.Relational folder) for #12152",dmitry-lipetsk,https://api.github.com/repos/dotnet/efcore/git/commits/444a089a26bb3b31e783ce1b78ab7024652acdb1
+7b7000dba9e40fe5b6a1ee21172fd2cb1b4f3bc1,Update SqlServerDatabaseModelFactory.cs,yzi2004,https://api.github.com/repos/dotnet/efcore/git/commits/7b7000dba9e40fe5b6a1ee21172fd2cb1b4f3bc1
+9ee211fe013e39cf1739e4446282236e8f217dc8,"Remove an overmodest comment in the API docs
+
+Prepared statements are a thing since 6eaf137519e3f421551b53399abe386e65d0f8ce",Tragetaschen,https://api.github.com/repos/dotnet/efcore/git/commits/9ee211fe013e39cf1739e4446282236e8f217dc8
+e300fdfe4ac314cc9e65520a15b9b7609a6c6a21,"fix Referrers typo (#12450)
+
+* fix Referrers typo",SimonCropp,https://api.github.com/repos/dotnet/efcore/git/commits/e300fdfe4ac314cc9e65520a15b9b7609a6c6a21
+cd421e3b96d04d530b3998304518eb83af599022,Implements #11486: Contains support for SQL server FTS.,DSilence,https://api.github.com/repos/dotnet/efcore/git/commits/cd421e3b96d04d530b3998304518eb83af599022
+3e2d0b5b7c56da6af63744317435abbba5d23ede,Update ChangeTrackingStrategy.cs,kustox,https://api.github.com/repos/dotnet/efcore/git/commits/3e2d0b5b7c56da6af63744317435abbba5d23ede
+5de02fa438be8c51eef7b95b6b05de0dbf777d0e,"Update CONTRIBUTING.md
+
+Fix a link to contributing guide",Deilan,https://api.github.com/repos/dotnet/efcore/git/commits/5de02fa438be8c51eef7b95b6b05de0dbf777d0e
+1f2210a8feee07fbadc576be267446c5102b380d,"Remove extra ""see"" in RawSqlString documentation.",bgrainger,https://api.github.com/repos/dotnet/efcore/git/commits/1f2210a8feee07fbadc576be267446c5102b380d
+294602341eb93b5974677286a8f584a3984fb8b1,fix commit transaction,kimbaudi,https://api.github.com/repos/dotnet/efcore/git/commits/294602341eb93b5974677286a8f584a3984fb8b1
+cbd2a2074d908673195abbb14de5a460acaa2aea,"Changed format of HasData snapchat code to use multiple lines instead of a single line.
+
+Fixes #12367",Matthiee,https://api.github.com/repos/dotnet/efcore/git/commits/cbd2a2074d908673195abbb14de5a460acaa2aea
+044d5157de9919fced4fa322f8361beafe2e485c,"Check for null in buffer[] and return appropriate value
+
+Have GetBytes() handle buffer null value appropriately. If you pass a buffer that is a null value, GetBytes returns the length of the field in bytes.
+
+Fixes #547",jpfreyen,https://api.github.com/repos/dotnet/efcore/git/commits/044d5157de9919fced4fa322f8361beafe2e485c
+345af5bbcf05dc942472d7e860c4d7a123d481c4,Typos/spelling errors in RESX and XMLDOC comments. #Hacktoberfest,bchavez,https://api.github.com/repos/dotnet/efcore/git/commits/345af5bbcf05dc942472d7e860c4d7a123d481c4
+e7ada62ae5bc89eb460a09b110daeaf5f0c336ea,Fix doc comments to reference the correct method,dchristensen,https://api.github.com/repos/dotnet/efcore/git/commits/e7ada62ae5bc89eb460a09b110daeaf5f0c336ea
+25a05bf8e32ae4743ae7f49ba89a20e98a7fa523,"DateTime mapping in CosmosDb query
+
+Fixes: #13190 Cosmos.SQL: Incorrect datetime mapping",duracellko,https://api.github.com/repos/dotnet/efcore/git/commits/25a05bf8e32ae4743ae7f49ba89a20e98a7fa523
+46b802819e0783b02e12e7048c0d6406a6b016a2,"Complex aggregate queries now evaluate outer aggregates on client.
+
+Replaced check for SelectExpression from top projection in RelationalResultOperatorHandler with a check that visits entire expression tree.
+-Affects Average, Min, Max and Sum
+-Added tests for all 4 aggregates
+-Added 4 additional tests that combine aggregates: Sum/Min, Average/Max, Min/Max, and Max/Sum
+
+Fixes #11922",dchenier,https://api.github.com/repos/dotnet/efcore/git/commits/46b802819e0783b02e12e7048c0d6406a6b016a2
+81abfdb327f06699f547bea241865658b8393cf5,Remove language info in EfCore documentation url,ryancyq,https://api.github.com/repos/dotnet/efcore/git/commits/81abfdb327f06699f547bea241865658b8393cf5
+d578217479b3a09fc8f5639e19b618c80b1df6d3,"Issue12894 (#13574)
+
+Added a more informative exception message when there is no usable constructor found.
+
+Fixes #12894",j-rewerts,https://api.github.com/repos/dotnet/efcore/git/commits/d578217479b3a09fc8f5639e19b618c80b1df6d3
+4336e47abfdebaae26df3d9bf77c3cbe571bae14,Append pseudo from clause to DefaultQuerySqlGenerator.GenerateOrdering (#13711),ShamsulAmry,https://api.github.com/repos/dotnet/efcore/git/commits/4336e47abfdebaae26df3d9bf77c3cbe571bae14
+de71988e6bb68e45d57dfa3dc8f161b6c94f3673,Add ToLookupAsync extension methods for IQueryable,huysentruitw,https://api.github.com/repos/dotnet/efcore/git/commits/de71988e6bb68e45d57dfa3dc8f161b6c94f3673
+4236dfd7f2789782cbba26bf0af15b04dfaf2a0c,RelationalConnection._activeQueries MemoryLeak Fix,thumer,https://api.github.com/repos/dotnet/efcore/git/commits/4236dfd7f2789782cbba26bf0af15b04dfaf2a0c
+2d3ad56ca23870a80e962a670424098c158b646c,"Generate fluent API for index includes
+
+Generate MethodCallCodeFragment for ForSqlServerInclude. Add test for index includes code generation",khellang,https://api.github.com/repos/dotnet/efcore/git/commits/2d3ad56ca23870a80e962a670424098c158b646c
+4e8cc9ea89e9e9588d6a6f86fff6659aba0f41a8,"Fix migrations order
+
+No longer relies on an undefined behavior about the enumeration order in a Dictionary.
+
+Fix #12966",beppemarazzi,https://api.github.com/repos/dotnet/efcore/git/commits/4e8cc9ea89e9e9588d6a6f86fff6659aba0f41a8
+fa562efd51873bf875b8d91d546a94fc0c8584f8,"DateTimeOffset literal format (#13988)
+
+* Fixed issue with DateTimeOffset literals being limited to 3 decimal places
+
+Fixes #13897",Muppets,https://api.github.com/repos/dotnet/efcore/git/commits/fa562efd51873bf875b8d91d546a94fc0c8584f8
+5d889997ca6496d4aa3e4030bdb02ba351856d47,Fixed mistakes in description of table param of DeleteData method.,Stefanwullems,https://api.github.com/repos/dotnet/efcore/git/commits/5d889997ca6496d4aa3e4030bdb02ba351856d47
+a0e6701d31fa340fc082558d7d1b7354add1cb2a,"Update dependencies from https://github.com/dotnet/arcade build 908 (#14219)
+
+This change updates the following dependencies
+- Microsoft.DotNet.Arcade.Sdk - 1.0.0-beta.18619.4",dotnet-maestro[bot],https://api.github.com/repos/dotnet/efcore/git/commits/a0e6701d31fa340fc082558d7d1b7354add1cb2a
+df344ffc6633c27ff070192a48d9c4d53f9f6912,"Typo fix
+
+slashs->slashes",alenros,https://api.github.com/repos/dotnet/efcore/git/commits/df344ffc6633c27ff070192a48d9c4d53f9f6912
+84a36a350eb0ad14590aa8bb5c7ee56c49c829e3,Update Branding for 2.1.8 Patch (#14367),mikaelm12,https://api.github.com/repos/dotnet/efcore/git/commits/84a36a350eb0ad14590aa8bb5c7ee56c49c829e3
+f052b7f69bee281c397f400d581860a5b85e602b,[automated] Merge branch 'release/2.2' => 'master' (#14379),dotnet-maestro-bot,https://api.github.com/repos/dotnet/efcore/git/commits/f052b7f69bee281c397f400d581860a5b85e602b
+78a06a27ad4d7ae755df7f05f6c96dadd68c9312,Remove unused constant from InMemoryDbContextOptionsExtensions (#14428),scottaddie,https://api.github.com/repos/dotnet/efcore/git/commits/78a06a27ad4d7ae755df7f05f6c96dadd68c9312
+f38686a5974ab94463ccd68484e9133a13e7e13f,removed unnecessary word from method summary,tmutton,https://api.github.com/repos/dotnet/efcore/git/commits/f38686a5974ab94463ccd68484e9133a13e7e13f
+3bc1b8e1051631e55fb362b5fc5196a2518d1351,"Refactor table creation into separate methods
+
+Fixes: #14374",austindrenski,https://api.github.com/repos/dotnet/efcore/git/commits/3bc1b8e1051631e55fb362b5fc5196a2518d1351
+4aa9e2e8705b5028276b558f4e3da739d07a9348,"Replace Newtonsoft.Json with System.Text.Json.
+
+Fixes #14571",qbikez,https://api.github.com/repos/dotnet/efcore/git/commits/4aa9e2e8705b5028276b558f4e3da739d07a9348
+be41af103a63cdc4e606fe7420a820cfa4906d97,Set copyright and package license (#14771),tmat,https://api.github.com/repos/dotnet/efcore/git/commits/be41af103a63cdc4e606fe7420a820cfa4906d97
+080579846235e84efbc7d0a45d6c8f78e7bba017,"CosmosDb provider support for a current region option (#15009)
+
+* CosmosDb provider support for a current region option
+
+Fix #15007",dimangulov,https://api.github.com/repos/dotnet/efcore/git/commits/080579846235e84efbc7d0a45d6c8f78e7bba017
+7f84067a83d158720fd517c89c0ccf032b03e43e,Fix xml comment in ColumnsBuilder.cs,adrianwright109,https://api.github.com/repos/dotnet/efcore/git/commits/7f84067a83d158720fd517c89c0ccf032b03e43e
+dbf9f7cbc2a119dbb14fc8beb21bd8ed41927922,Onboard with async publishing (#15309),JohnTortugo,https://api.github.com/repos/dotnet/efcore/git/commits/dbf9f7cbc2a119dbb14fc8beb21bd8ed41927922
+683be04e01369814e9036cc54562b91c546aa0cb,"Merge pull request #15467 from aspnet/darc-release/3.0-preview5-75b0c888-2987-4d04-aadb-7aed477899e9
+
+[release/3.0-preview5] Update dependencies from aspnet/Extensions",mmitche,https://api.github.com/repos/dotnet/efcore/git/commits/683be04e01369814e9036cc54562b91c546aa0cb
+afa3c250c22f03f662c2f476b0914a225d765da5,"fix condition in CSharpDbContextGenerator.GenerateSequence
+
+Correct the condition to append schema parameter to sequence creation code when generating DB context's OnModelCreating method. Even when sequence's schema is provide, schema parameter was not output to generated code. This change in the condition makes the code generation put sequence's schema to sequence creation code when it is provided.",y-code,https://api.github.com/repos/dotnet/efcore/git/commits/afa3c250c22f03f662c2f476b0914a225d765da5
+96aa588960d86d87785ff3abd7dcd15ba73ce755,typo: mesure -> measure,nschonni,https://api.github.com/repos/dotnet/efcore/git/commits/96aa588960d86d87785ff3abd7dcd15ba73ce755
+3c37a2bf2792658733e57bb73b4798d0b1f5bd18,"Amend CosmosDbOptionExtension.ExtensionInfo.GetServiceProviderHashCode()
+
+- Change CosmosDbOptionExtension.ExtensionInfo.GetServiceProviderHashCode() to include new ConnectionMode option;
+- Fix typo in comment.",chiasottis,https://api.github.com/repos/dotnet/efcore/git/commits/3c37a2bf2792658733e57bb73b4798d0b1f5bd18
+7c021e42a041b0885d6beb729cc002cfe6f72a5f,"Use YAML stages (#17040)
+
+* Use YAML stages
+
+* Set DotNetValidationArtifactsCategory
+
+* Remove DotNetValidationArtifactsCategory",wtgodbe,https://api.github.com/repos/dotnet/efcore/git/commits/7c021e42a041b0885d6beb729cc002cfe6f72a5f
+f13ae3bb368a5c2df1169a72ab7536a0af8e6fbd,"Query: Remove constants from grouping key when adding to SQL GROUP BY (#17114)
+
+Resolves #14152",kosinsky,https://api.github.com/repos/dotnet/efcore/git/commits/f13ae3bb368a5c2df1169a72ab7536a0af8e6fbd
+00f03db49a7be7ea1454bb2e3cb54ce51d9645c8,"Generate Sqlite create table comments
+
+- This only works with create table. Alter table commands do not
+preserve comments.
+- If comments are included, each column will be spaced.
+- Table comments
+- Column comments
+
+Fixes #16820",skalpin,https://api.github.com/repos/dotnet/efcore/git/commits/00f03db49a7be7ea1454bb2e3cb54ce51d9645c8
+0243caeefe52593bc7b8f6b23f619745dab285c3,Fixed the support for Contains method for generic IList interface.,alexmurari,https://api.github.com/repos/dotnet/efcore/git/commits/0243caeefe52593bc7b8f6b23f619745dab285c3
+c7df045d5e0a8cfb5df4c9454684e64e1e9ceea3,Removed allocation introduced by ExpressionComparer,YohDeadfall,https://api.github.com/repos/dotnet/efcore/git/commits/c7df045d5e0a8cfb5df4c9454684e64e1e9ceea3
+6640d584f1c4984de3482469ab0b3091b45148de,"Custom RelationalDataReader injection into RelationalCommand (#17715)
+
+Better maintainable solution for providers to supply their own RelationalDataReader.
+
+Fixes #17712",lauxjpn,https://api.github.com/repos/dotnet/efcore/git/commits/6640d584f1c4984de3482469ab0b3091b45148de
+642de6a0bd2770d63424b1b2a02dc24378e280e2,Replaced inconsistent Task.FromResult usage with Task.CompletedTask,AsifulNobel,https://api.github.com/repos/dotnet/efcore/git/commits/642de6a0bd2770d63424b1b2a02dc24378e280e2
+e17584c457a49c4dcd90fd5cf47cd3a61ae4db53,"Add a SQL Server convention that adds CHECK constraint for enum properties.
+
+Fixes #15411",SARAVANA1501,https://api.github.com/repos/dotnet/efcore/git/commits/e17584c457a49c4dcd90fd5cf47cd3a61ae4db53
+afd6ca6a4602e85e973a4dd84a374e1394bd9852,"Fix Migration Batching When Seed Data Has Non-Writable Columns (I.E. RowVersion) (#18320)
+
+Fix migration insert batching when seed data has non-writable columns",crowet,https://api.github.com/repos/dotnet/efcore/git/commits/afd6ca6a4602e85e973a4dd84a374e1394bd9852
+4d17b42a4bda451cccbf6dad74a1410c7f41691c,"Scaffold-DbContext includes ""using statement"" with model´s namespace
+
+Summary of changes
+
+- Add a new parameter to the WriteCode method of the ICSharpDbContextGenerator interface to pass the namespace of the models
+- CSharpDbContextGenerator generates a using statement in the DbContext class if the models are in another namespace
+- Add two test on CSharpDbContextGeneratorTest
+
+Fixes #17839",pacoweb,https://api.github.com/repos/dotnet/efcore/git/commits/4d17b42a4bda451cccbf6dad74a1410c7f41691c
+acb2f6f9b4b5605b117f89d3fbf1e7a10c9e86b6,Merge branch 'master' into merge/release/3.1-to-master,halter73,https://api.github.com/repos/dotnet/efcore/git/commits/acb2f6f9b4b5605b117f89d3fbf1e7a10c9e86b6
+36d49fc22e04b2dde14f165ad4368838d875510a,"Fixes #12729 Flatten Case expression (#18886)
+
+* Fixed #12729 Flatten Case expression",ptjhuang,https://api.github.com/repos/dotnet/efcore/git/commits/36d49fc22e04b2dde14f165ad4368838d875510a
+8483951097b04a4a5f530462061300addaa633e3,Type fix in ParameterExtractingExpressionVisitor,ivaylokenov,https://api.github.com/repos/dotnet/efcore/git/commits/8483951097b04a4a5f530462061300addaa633e3
+e0950fb39c5b7de7d6cd0a9fdfcfdd48b5e3f9fe,Merge pull request 4766 from darc-internal/release/3.1-4ef6a02e-3deb-4f33-bf42-cd9a94bbc492 into internal/release/3.1,dotnet-bot,https://api.github.com/repos/dotnet/efcore/git/commits/e0950fb39c5b7de7d6cd0a9fdfcfdd48b5e3f9fe
+16343f5e45887a959e68cd4e46cea972ce3c785a,"#3836 - Coalescing string concatenation on nullable Expressions (#19239)
+
+* Now replaces empty-string SqlConstant expressions with string.Empty and coalesces all nullable columns/parameters during a string concatenation
+
+* Fixes all tests broken by introducing string coalescing on nullable concat expressions",svengeance,https://api.github.com/repos/dotnet/efcore/git/commits/16343f5e45887a959e68cd4e46cea972ce3c785a
+1a1fc708e7866c0fe7318f156253e0c8f4a50486,Modified ALTER DATABASE statement to support complex names. (#19291),knom,https://api.github.com/repos/dotnet/efcore/git/commits/1a1fc708e7866c0fe7318f156253e0c8f4a50486
+46cfda390781ac8dfb48f37bf3f4ec20872b175b,"Implement Translation for DATETIMEFROMPARTS (SqlServer) (#18630)
+
+Implement Translation for DATETIMEFROMPARTS (SqlServer)
+Fixes #15283",nmichels,https://api.github.com/repos/dotnet/efcore/git/commits/46cfda390781ac8dfb48f37bf3f4ec20872b175b
+a388f5e5d3ee92c3617a630917cf1560b00f510f,"Query: Translate Queryable.Reverse()
+
+Resolves #17388
+
+In order to translate Reverse, we reverse the existing ordering. If there is no existing ordering then we throw translation failure.",Pankraty,https://api.github.com/repos/dotnet/efcore/git/commits/a388f5e5d3ee92c3617a630917cf1560b00f510f
+bbdc0a4f716f9d8168c29eb5b8572d2850d97ccb,Update links for repo moves/renames,Pilchie,https://api.github.com/repos/dotnet/efcore/git/commits/bbdc0a4f716f9d8168c29eb5b8572d2850d97ccb
+5023d9dc59b2cf4adec809a9775253aa7f74a916,"add IsRelational extension for DatabaseFacade (#19521)
+
+* add IsRelational extension for DatabaseFacade",WeihanLi,https://api.github.com/repos/dotnet/efcore/git/commits/5023d9dc59b2cf4adec809a9775253aa7f74a916
+83dccdc2e5cc5d20ba4bb07a07a2883790f60292,"Cosmos: translate string Contains, StartsWith, and EndsWith (#19563)
+
+Summary of changes
+- Adds initial StringMethodTranslator for Cosmos provider.
+- Translates Contains, StartsWith, and EndsWith
+
+Addresses part of #16143",jviau,https://api.github.com/repos/dotnet/efcore/git/commits/83dccdc2e5cc5d20ba4bb07a07a2883790f60292
+6e2703f8aa5d69f5a7f6fc3bc5086db32dea5e8a,docs: Fix incorrect summary comment (#19560),jmzagorski,https://api.github.com/repos/dotnet/efcore/git/commits/6e2703f8aa5d69f5a7f6fc3bc5086db32dea5e8a
+32719ae231a9f451e49b89d2da58b870e6dada50,"Proxy Change Detection (#19437)
+
+Squashed commit:
+
+* initial proxy change detection commit. Building and tests slightly re-organized to separate change detection, lazy loading, and common proxy functionality tests. Still need to write change detection tests.
+
+* Fix debug log fragment mistake.
+
+Accidental OR instead of AND.
+
+* Add observable collection check to PropertyChangedInterceptor so INotifyCollectionChanged events on collection properties can bubble up when necessary.
+
+* Existing tests now passing, ProxyFactory resolving extension successfully, need to decide how to handle ChangeTrackingStrategy validation.
+
+* Change tracking strategy validation bypassed mimicking ChangeDetector implementation, change detection proxy tests written, constructor binding set. Need to figure out how to fix ChangeTracker subscribing on Add before proxied.
+
+* Resolve potential null ref exception.
+
+* Modify change tracking strategy default convention so it occurs earlier in the pipeline and doesn't overwrite a strategy set at the entity level.
+
+* Update existing tests to use proxies from the start. Still need to add some more variation to the testing.
+
+* Added slight variation to tests to account for lazy loading also being enabled. Wrote a test to check for a navigational property being marked modified before it is loaded.
+
+* Remove ""non-loaded (null) navigation set to null"" test.",orionstudt,https://api.github.com/repos/dotnet/efcore/git/commits/32719ae231a9f451e49b89d2da58b870e6dada50
+d42926c2532ad93a266e09a4758b140128ec630a,"Merge pull request #19591 from dotnet-maestro-bot/merge/release/3.1-to-master
+
+[automated] Merge branch 'release/3.1' => 'master'",rynowak,https://api.github.com/repos/dotnet/efcore/git/commits/d42926c2532ad93a266e09a4758b140128ec630a
+cbb5928ad89b0f4ce107f6c85839b9dab4f4f936,Update docs for config methods handled by AddDbContext* ones (#19654),benmccallum,https://api.github.com/repos/dotnet/efcore/git/commits/cbb5928ad89b0f4ce107f6c85839b9dab4f4f936
+9cd844508f566b95b17ae20a45562769c8c4e2ef,"Update EntityEntry.cs OriginalValues docs (#19698)
+
+OriginalValues does not always return the original values which might not be clear to everyone and should be mentioned.",matthiaslischka,https://api.github.com/repos/dotnet/efcore/git/commits/9cd844508f566b95b17ae20a45562769c8c4e2ef
+fd45a1c3e377e501b9f4580757b6bdcc1b0746f9,Fix creating a DbContext without a standard constructor using the service provider,VladDragnea,https://api.github.com/repos/dotnet/efcore/git/commits/fd45a1c3e377e501b9f4580757b6bdcc1b0746f9
+584245cbcf802a38d2030e5873e3de00f3a56ac0,Fixes #19720 single parenthesis defaults,mikes-gh,https://api.github.com/repos/dotnet/efcore/git/commits/584245cbcf802a38d2030e5873e3de00f3a56ac0
+5ae009c48c4f4480aa62ccfa2db7d39f6d354019,"SqlServer: Translate TimeSpan members
+
+The following translations are enabled:
+
+| .NET                  | T-SQL                            |
+| --------------------- | -------------------------------- |
+| timeSpan.Hours        | DATEPART(hour, @timeSpan)        |
+| timeSpan.Minutes      | DATEPART(minute, @timeSpan)      |
+| timeSpan.Seconds      | DATEPART(second, @timeSpan)      |
+| timeSpan.Milliseconds | DATEPART(millisecond, @timeSpan) |
+
+Part of #19632",aleksandar-manukov,https://api.github.com/repos/dotnet/efcore/git/commits/5ae009c48c4f4480aa62ccfa2db7d39f6d354019
+23f9bdef2afcf4319263cd57868dde1670fe071c,"Added test stubs Normalized in SpatialQueryTestBase
+
+- Added related stubs to Sqlite and SqlServer spatial tests
+
+Part of #19957",EricStG,https://api.github.com/repos/dotnet/efcore/git/commits/23f9bdef2afcf4319263cd57868dde1670fe071c
+39d8a191fd91e06315db67603fa1ab2a31b11181,Reuse StringBuilder,alaatm,https://api.github.com/repos/dotnet/efcore/git/commits/39d8a191fd91e06315db67603fa1ab2a31b11181
+daa1ed2aab6ddde7a66c602ae41031e5de03c5d2,"Allow nested ambient transactions
+
+Allowed several nested ambient transactions to be processed. Main scenario is when one transaction with TransactionScopeOption.RequiresNew is created inside another one.",dshuvaev,https://api.github.com/repos/dotnet/efcore/git/commits/daa1ed2aab6ddde7a66c602ae41031e5de03c5d2

@@ -1,0 +1,79 @@
+First Commit Hash (SHA),Commit Message,Author (Github Name),Link to Commit
+1867b6823764549a33cc5720abd1d496e5d3496e,React Hooks,diego3g,https://api.github.com/repos/Rocketseat/unform/git/commits/1867b6823764549a33cc5720abd1d496e5d3496e
+b1e1ee9401cc765776325cb8417a972059f09530,Fix typo,pellizzetti,https://api.github.com/repos/Rocketseat/unform/git/commits/b1e1ee9401cc765776325cb8417a972059f09530
+441b4d9fe0940d267a29c88f1e480e49931e55bf,Update readme + bump rocket-scripts version,jpdemagalhaes,https://api.github.com/repos/Rocketseat/unform/git/commits/441b4d9fe0940d267a29c88f1e480e49931e55bf
+c7a12d9378a1abe2b70aace5811d13bc0075dae0,"Update README.md
+
+Add prop initialData in last example",HigoRibeiro,https://api.github.com/repos/Rocketseat/unform/git/commits/c7a12d9378a1abe2b70aace5811d13bc0075dae0
+0792b3a704cbe7d2c7d12213e058bca6c3596f48,Fixed schema validation example,eliezercm,https://api.github.com/repos/Rocketseat/unform/git/commits/0792b3a704cbe7d2c7d12213e058bca6c3596f48
+337bed5ec2789b455bf02fcbe19c799763612bf1,Update .travis.yml,aldroydzito,https://api.github.com/repos/Rocketseat/unform/git/commits/337bed5ec2789b455bf02fcbe19c799763612bf1
+1c0b75e90c1944f6a6dbecec75f23edd352200ad,Fix initial set value in select,CesarDenis,https://api.github.com/repos/Rocketseat/unform/git/commits/1c0b75e90c1944f6a6dbecec75f23edd352200ad
+853adf2b8025cf112c9067e7349de5ef52ebe4ab,Update CONTRIBUTING.md,lcnogueira,https://api.github.com/repos/Rocketseat/unform/git/commits/853adf2b8025cf112c9067e7349de5ef52ebe4ab
+61dc9d426a42b973ee9da54a601d668f6ef0fad4,"README UPDATE
+
+fix link contribute",jamilzazu,https://api.github.com/repos/Rocketseat/unform/git/commits/61dc9d426a42b973ee9da54a601d668f6ef0fad4
+7f441a15366a3fcf5a4a55b62cbff953657c782d,"chore: Use custom type in submit handler
+
+Introduces a new custom type, FormContent, used to type the data
+parameter of the submit handler from Form component. The new type
+solves the error ts(7017), caused by typescript when we try to
+access the data parameter with array syntax, like this `data[key]`.
+
+Fix the issue #43",cleitonper,https://api.github.com/repos/Rocketseat/unform/git/commits/7f441a15366a3fcf5a4a55b62cbff953657c782d
+2b263d2f4a9ac7492e54c473dfa6d0d99480f103,feat: Add pull request template,moiseshilario,https://api.github.com/repos/Rocketseat/unform/git/commits/2b263d2f4a9ac7492e54c473dfa6d0d99480f103
+6ec253fc9f407a1e32589cea30c0a37bebbdfc1c,"docs: Add description to the Initial Data section
+
+Adds text information on how to set up the Initial Data property to the respective section in the readme.
+
+[skip ci]",MorenoMdz,https://api.github.com/repos/Rocketseat/unform/git/commits/6ec253fc9f407a1e32589cea30c0a37bebbdfc1c
+4de91b99ca10f07e4a89e75ae22b45ef2ceaaf3a,feat: Add styled-components support,zaguiini,https://api.github.com/repos/Rocketseat/unform/git/commits/4de91b99ca10f07e4a89e75ae22b45ef2ceaaf3a
+fc1080e0a0d0fadff9ce549e0aae3365d45335ab,docs: Remove Textarea mention from README.md,thiagodesouza,https://api.github.com/repos/Rocketseat/unform/git/commits/fc1080e0a0d0fadff9ce549e0aae3365d45335ab
+d7666e212fb47f0fc9c98c1c4b7293e2a4a30d0e,Merge branch 'master' of https://github.com/Rocketseat/unform,italomlp,https://api.github.com/repos/Rocketseat/unform/git/commits/d7666e212fb47f0fc9c98c1c4b7293e2a4a30d0e
+2348c95b542dcc17bf9233fe627b5bfe4144b742,feat: Allow to use html form attributes,danilomartinelli,https://api.github.com/repos/Rocketseat/unform/git/commits/2348c95b542dcc17bf9233fe627b5bfe4144b742
+9e2bcf5d445e2ac45404512735a53345308a3d8e,"docs: Add a docusaurus project
+
+Docusaurus makes documentation easy and works with many languages.
+
+Now one folder named docs has a docusaurus project.",leonardobrito,https://api.github.com/repos/Rocketseat/unform/git/commits/9e2bcf5d445e2ac45404512735a53345308a3d8e
+ce9b02ce6e89ecd1e29cf8c1939a48019cfbcd47,"feat: Add file input support
+
+Add FileInput component to send file from form submit.
+
+Issue #81",italoiz,https://api.github.com/repos/Rocketseat/unform/git/commits/ce9b02ce6e89ecd1e29cf8c1939a48019cfbcd47
+7e810e99e3db41fec238b6690b4de9852f816138,chore: Commit files after lint-staged changes,arthurdenner,https://api.github.com/repos/Rocketseat/unform/git/commits/7e810e99e3db41fec238b6690b4de9852f816138
+b15719f160e9c1f50a40ec96f9d97169e77d28d9,chore: Add .DS_Store to the gitignore file,lffg,https://api.github.com/repos/Rocketseat/unform/git/commits/b15719f160e9c1f50a40ec96f9d97169e77d28d9
+ca934d4a65bd6e1dce59e1e63cc1e57cd2c4ec00,"chore(deps): Bump lodash from 4.17.11 to 4.17.14 in /example
+
+Bumps [lodash](https://github.com/lodash/lodash) from 4.17.11 to 4.17.14.
+- [Release notes](https://github.com/lodash/lodash/releases)
+- [Commits](https://github.com/lodash/lodash/compare/4.17.11...4.17.14)
+
+Signed-off-by: dependabot[bot] <support@github.com>",dependabot[bot],https://api.github.com/repos/Rocketseat/unform/git/commits/ca934d4a65bd6e1dce59e1e63cc1e57cd2c4ec00
+183e547e7f6a979bb0fdf4ba920297db7f3bb819,"feat: Allow setting data on resetForm
+
+The resetForm helper function can now receive an optional object that
+updates the form data, if no value is provided, the fields are cleared
+by default.
+
+Close #67.",luizbatanero,https://api.github.com/repos/Rocketseat/unform/git/commits/183e547e7f6a979bb0fdf4ba920297db7f3bb819
+a15b774ae201373db0092dff91f3f406642550a5,test: Small improvements on tests,JeffersonFilho,https://api.github.com/repos/Rocketseat/unform/git/commits/a15b774ae201373db0092dff91f3f406642550a5
+f329834b362279a1fb5062ebe2bccbf32d8cd7ee,docs: Add back buttons,jpedroschmitz,https://api.github.com/repos/Rocketseat/unform/git/commits/f329834b362279a1fb5062ebe2bccbf32d8cd7ee
+247ab4cb0454382040df89e9e288860b4911b86a,chore: Pass current ref to parseValue method,rfbezerra,https://api.github.com/repos/Rocketseat/unform/git/commits/247ab4cb0454382040df89e9e288860b4911b86a
+73162547de7f705c997a8391b37192b1ba92b317,docs: Adding warning to the useEffect func,emilioheinz,https://api.github.com/repos/Rocketseat/unform/git/commits/73162547de7f705c997a8391b37192b1ba92b317
+153b5a4179acea516d8b866f46158252c62deb3b,"docs: Fix import in Choice element
+
+Line 214 shows an example of using the Choice element, but imported
+FileInput instead of Choice.
+Change FileInput to Choice in Choice element.",diegomais,https://api.github.com/repos/Rocketseat/unform/git/commits/153b5a4179acea516d8b866f46158252c62deb3b
+1023f5e1d2910f5ecd298cf40b213f743b0b47f2,"docs: Add missing async and fixing example
+
+
+Removing previus errors on submit",rihor,https://api.github.com/repos/Rocketseat/unform/git/commits/1023f5e1d2910f5ecd298cf40b213f743b0b47f2
+5b4ab4ad9e07037ed0441bdfba230af172f5d811,docs: Fix broken Github link,omerman,https://api.github.com/repos/Rocketseat/unform/git/commits/5b4ab4ad9e07037ed0441bdfba230af172f5d811
+f5b7e75c77a4dd3e9d9b007be229c974fbdaf5a3,docs: corrects react native package,vinifraga,https://api.github.com/repos/Rocketseat/unform/git/commits/f5b7e75c77a4dd3e9d9b007be229c974fbdaf5a3
+528426cc053022a90349aeaddab6119ebeb5f531,docs: Fix sidebar label,VictorHAS,https://api.github.com/repos/Rocketseat/unform/git/commits/528426cc053022a90349aeaddab6119ebeb5f531
+98cbcf9e255bf63bb17bccb3eb14b19cc53439ec,"docs: Fix typos errors inside documentation
+
+Fixes typescript, simple-input, reset-form and get-set-field-error pages
+inside documentation.",AZagatti,https://api.github.com/repos/Rocketseat/unform/git/commits/98cbcf9e255bf63bb17bccb3eb14b19cc53439ec
+4ba8873715660e13c0cce28fbe889a6fc00cc492,"docs: Fix typos in faq, migration and styled-component guides",marcioferlan,https://api.github.com/repos/Rocketseat/unform/git/commits/4ba8873715660e13c0cce28fbe889a6fc00cc492

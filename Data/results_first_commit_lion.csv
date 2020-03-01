@@ -1,0 +1,71 @@
+First Commit Hash (SHA),Commit Message,Author (Github Name),Link to Commit
+7c563b76bf2c688bbb3bc0de4a4ccab1e45c87e9,chore: initial commit,daKmoR,https://api.github.com/repos/ing-bank/lion/git/commits/7c563b76bf2c688bbb3bc0de4a4ccab1e45c87e9
+ff8f42755370b4bb69c907e7b47c6c70db0f4a9f,chore: run deep test files,bashmish,https://api.github.com/repos/ing-bank/lion/git/commits/ff8f42755370b4bb69c907e7b47c6c70db0f4a9f
+d5e2dfe38ebb0729cc06a66088c1b5cb30ce4158,fix(input-amount): remove randomOkValidator as default,gerjanvangeest,https://api.github.com/repos/ing-bank/lion/git/commits/d5e2dfe38ebb0729cc06a66088c1b5cb30ce4158
+6a0579cd9153d3fde297e963b0c5fb107b12da42,chore(field): custom fields tutorial,tlouisse,https://api.github.com/repos/ing-bank/lion/git/commits/6a0579cd9153d3fde297e963b0c5fb107b12da42
+96572a3a2eb6c8af4459b5132474c314f4d46edc,chore: refactor to not use deprecated EventMixin,thepassle,https://api.github.com/repos/ing-bank/lion/git/commits/96572a3a2eb6c8af4459b5132474c314f4d46edc
+7473666626930cd3396f204502a3536fd569240b,docs: specify alternative for the deprecated LionLitElement,tomherni,https://api.github.com/repos/ing-bank/lion/git/commits/7473666626930cd3396f204502a3536fd569240b
+558af7511ac968bf5521c2aca2361e097b9ad81e,"Merge pull request #66 from ing-bank/fix/loosenDependencyLock
+
+fix(core): do not pin lit-html version and allow lit-element patches",jorenbroekema,https://api.github.com/repos/ing-bank/lion/git/commits/558af7511ac968bf5521c2aca2361e097b9ad81e
+bc8a36d36f4ccd9a4139ffca6fb6a22834112088,chore(localize): add throwing an exception for missing namespace,pavelKozlov,https://api.github.com/repos/ing-bank/lion/git/commits/bc8a36d36f4ccd9a4139ffca6fb6a22834112088
+2e76ca00b924c0d2e180b72c2a7ef67a4b332955,feat(localize): allow custom locale when loading namespaces,LarsDenBakker,https://api.github.com/repos/ing-bank/lion/git/commits/2e76ca00b924c0d2e180b72c2a7ef67a4b332955
+b729bf07d4da73e37a78c1a40edcef1e275d6aca,fix: support language fallback for non found locales (#102),ovidiu1,https://api.github.com/repos/ing-bank/lion/git/commits/b729bf07d4da73e37a78c1a40edcef1e275d6aca
+7643e645723e51036f5c0bc52034bee89b3e9a14,fix: support en-PH locale for polymer-cli,dancarlocanlas,https://api.github.com/repos/ing-bank/lion/git/commits/7643e645723e51036f5c0bc52034bee89b3e9a14
+83f9baa36d81ad567daa84844173d78930bd6fd1,fix(input-amount): support negative numbers,vkachan,https://api.github.com/repos/ing-bank/lion/git/commits/83f9baa36d81ad567daa84844173d78930bd6fd1
+675fc615ef51674c8c2999b39d28c1b0fcf085a8,fix(icon): refactor icon to not use 'until' hack and use get/set,ruphin,https://api.github.com/repos/ing-bank/lion/git/commits/675fc615ef51674c8c2999b39d28c1b0fcf085a8
+2740f17605360d474042da66eaf72783579471f2,"fix(input): delegate ""step"" attribute",JaySunSyn,https://api.github.com/repos/ing-bank/lion/git/commits/2740f17605360d474042da66eaf72783579471f2
+a0ebd2da2c2d03a4d0abf58162cb400e05e4c069,fix: support Chinese language,eloiji,https://api.github.com/repos/ing-bank/lion/git/commits/a0ebd2da2c2d03a4d0abf58162cb400e05e4c069
+76ffd9177c116746a7d65a7cd0417865319122c6,chore: update custom validator docs,hardikpthv,https://api.github.com/repos/ing-bank/lion/git/commits/76ffd9177c116746a7d65a7cd0417865319122c6
+8a085fcdec5eb06f127473f6e175415d3b957849,chore: update readme with a11y status,erikkroes,https://api.github.com/repos/ing-bank/lion/git/commits/8a085fcdec5eb06f127473f6e175415d3b957849
+80b816e3d1623856ebcb2902e4fae53b1d5bedfd,chore(textarea): fix typos in tests,mario-aleo,https://api.github.com/repos/ing-bank/lion/git/commits/80b816e3d1623856ebcb2902e4fae53b1d5bedfd
+b0d6f496f80e632c32622754e9509fb0fe7d2833,"fix(localize): update the way to obtain the group separator for a number
+
+four digit numbers can be written without separator, so it would be
+safer to obtain the separator by formatting a five digit number. The bug
+was found with the locale 'es-ES', where the format returned for '1000'
+was '1000' instead of the expected '1.000'. We add the specific expect
+clause on the test for it.
+
+ On branch fix/numberGroupSeparator
+ Changes to be committed:
+	modified:   packages/localize/src/number/getGroupSeparator.js
+	modified:   packages/localize/test/number/getGroupSeparator.test.js",jcperea,https://api.github.com/repos/ing-bank/lion/git/commits/b0d6f496f80e632c32622754e9509fb0fe7d2833
+eef618c310098a0228cfda149eeddd73aea393d1,"update romanian translation
+
+'de, asemenea' does not add additional information to the sentence, and in that syntax it translates roughly to  ""add, in addition, a {fieldName}""",mihaisavezi,https://api.github.com/repos/ing-bank/lion/git/commits/eef618c310098a0228cfda149eeddd73aea393d1
+1adeb46e34a1d15e3318fdd15906fa2712931d16,fix(lion-radio-group): handle unchecked state,bcromijn,https://api.github.com/repos/ing-bank/lion/git/commits/1adeb46e34a1d15e3318fdd15906fa2712931d16
+7fb68ed7a393b94bbf97f3c425d78b9da874ffb6,fix(input-amount): pass string instead of object in parser,vicdata4,https://api.github.com/repos/ing-bank/lion/git/commits/7fb68ed7a393b94bbf97f3c425d78b9da874ffb6
+4ff7a1e846301a88600b59426ccccec9e680ec96,fix(icon): render nothing consistently when svg is null,marcoswebdev,https://api.github.com/repos/ing-bank/lion/git/commits/4ff7a1e846301a88600b59426ccccec9e680ec96
+081a977457bdbb48efa1567d84f17cd329c25f0b,fix: Change CN translation for date format validation,gafortuno,https://api.github.com/repos/ing-bank/lion/git/commits/081a977457bdbb48efa1567d84f17cd329c25f0b
+fd98a5591d0c952e3dbbd64aa51afb9dc553fde0,fix(radio-group): change check of value to only null or undefined,mblankenstein,https://api.github.com/repos/ing-bank/lion/git/commits/fd98a5591d0c952e3dbbd64aa51afb9dc553fde0
+f04256cca874d6a5cfc7837340fb5be2143f3e1c,fix(calendar): issue 302 part 2 - skipped month,CubLion,https://api.github.com/repos/ing-bank/lion/git/commits/f04256cca874d6a5cfc7837340fb5be2143f3e1c
+93206e7e13c4c16d44fdd6f9742d4e390c26886d,"fix: issue #329
+
+Signed-off-by: devcer <viswanathamsantosh@gmail.com>",devcer,https://api.github.com/repos/ing-bank/lion/git/commits/93206e7e13c4c16d44fdd6f9742d4e390c26886d
+08a91291d9cfd2e9cb93b172ed29472fc6f0124d,"fix(localize): unforce defaults when options are given
+
+should not force defaults when at least one of the three date options is given (day, month, year).
+also added test cases and storybook demo.",r4zorgeek,https://api.github.com/repos/ing-bank/lion/git/commits/08a91291d9cfd2e9cb93b172ed29472fc6f0124d
+cb8c3cb977d78c667944ffdec73d93682402383c,fix(validate): en-US translations,mluiten,https://api.github.com/repos/ing-bank/lion/git/commits/cb8c3cb977d78c667944ffdec73d93682402383c
+07f5fc46d93d0ed366617b945d25184adc6801cf,fix: added placeholder attribute for input,SwyserDev,https://api.github.com/repos/ing-bank/lion/git/commits/07f5fc46d93d0ed366617b945d25184adc6801cf
+1298b7b0500d305074bdc075b6eaefd21226d4fe,fix(select-rich): sync selected el after add item on selected index,rodrigo-garcia-leon,https://api.github.com/repos/ing-bank/lion/git/commits/1298b7b0500d305074bdc075b6eaefd21226d4fe
+4dbd73795f2b10e61d12804eb488a0b6b583245e,fix(lion-radio-group): wait for registration before setting values (#421),vrspider,https://api.github.com/repos/ing-bank/lion/git/commits/4dbd73795f2b10e61d12804eb488a0b6b583245e
+b9f8c962a6ced8ea483bb9b0db54e32d13005a57,fix(fieldset): 0 is now a valid serializedValue,danielPassionatePeople,https://api.github.com/repos/ing-bank/lion/git/commits/b9f8c962a6ced8ea483bb9b0db54e32d13005a57
+60284d79bc538632661e2f00ef47aeb191988a91,fix: unregister form element when disconnected,dmarcu,https://api.github.com/repos/ing-bank/lion/git/commits/60284d79bc538632661e2f00ef47aeb191988a91
+f731ade8f02f68cc140228bfd1d58934c403a57d,fix: update broken ajax storybook link,phasic,https://api.github.com/repos/ing-bank/lion/git/commits/f731ade8f02f68cc140228bfd1d58934c403a57d
+8fb3b237553bda38cb66b0b75b683f4a69d4a2a5,"fix(localize): if locale is set to tr, currency TRY should display TL",demeteren,https://api.github.com/repos/ing-bank/lion/git/commits/8fb3b237553bda38cb66b0b75b683f4a69d4a2a5
+954adc56596f2d9244baf48889d6b338b2a12ac4,"fix(button): run regexp once instead of every render cycle
+
+chore: add browserDetection utility to @lion/core
+
+Use it to fix test involving checking the userAgent in LionButton
+
+chore: add browserDetection util to aria element sorting",wsloth,https://api.github.com/repos/ing-bank/lion/git/commits/954adc56596f2d9244baf48889d6b338b2a12ac4
+ce3c02b63bf8bc807946457c1a9289b8b57b5ee2,fix(validator): throw error if getMessage not of type Function,T-Motion,https://api.github.com/repos/ing-bank/lion/git/commits/ce3c02b63bf8bc807946457c1a9289b8b57b5ee2
+8e7670e501a1000b2ba39d31b9f5c56cf747bbf1,fix(field): replace state-disabled/filled css classes with attributes,AymenBenAmor,https://api.github.com/repos/ing-bank/lion/git/commits/8e7670e501a1000b2ba39d31b9f5c56cf747bbf1
+54f5853c1f2a63c291be61710245b0668ab4854f,[input-iban] Change `amount` to `iban` in README,Epskampie,https://api.github.com/repos/ing-bank/lion/git/commits/54f5853c1f2a63c291be61710245b0668ab4854f
+bc7c3f9216c0fa834b37c9103f500336290e97f4,chore: highlight that yarn is required in readme (#584),soelen,https://api.github.com/repos/ing-bank/lion/git/commits/bc7c3f9216c0fa834b37c9103f500336290e97f4
+c8a4c89936884aa7c8879b363d2d51fd08b4b252,chore(textarea): document readonly (#588),gserb,https://api.github.com/repos/ing-bank/lion/git/commits/c8a4c89936884aa7c8879b363d2d51fd08b4b252
+79c51767af528ed3d4054d2211f50621e0e15546,fix(textarea): support placeholder (#578),amielucha,https://api.github.com/repos/ing-bank/lion/git/commits/79c51767af528ed3d4054d2211f50621e0e15546
+da2729e323091b79b2ebf1b6657895427285c84c,chore: add TODOs Badge to README (#601),patrickdevivo,https://api.github.com/repos/ing-bank/lion/git/commits/da2729e323091b79b2ebf1b6657895427285c84c

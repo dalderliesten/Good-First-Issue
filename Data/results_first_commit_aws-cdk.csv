@@ -1,0 +1,1660 @@
+First Commit Hash (SHA),Commit Message,Author (Github Name),Link to Commit
+b2073c40df5eb54852359a852ecdbef4ddf69d77,Initial commit,jamesiri,https://api.github.com/repos/aws/aws-cdk/git/commits/b2073c40df5eb54852359a852ecdbef4ddf69d77
+2db0565cd23a4d828dbc415b6b7ecd7cd4382057,Initial external release: repository skelaton,eladb,https://api.github.com/repos/aws/aws-cdk/git/commits/2db0565cd23a4d828dbc415b6b7ecd7cd4382057
+b85fcbefadc889fed544b1c1ce29c252f5a6bb24,"Correct instructions for using the superchain
+
+- One needs to log in to docker (at least for now)
+- The image name includes the repository name",RomainMuller,https://api.github.com/repos/aws/aws-cdk/git/commits/b85fcbefadc889fed544b1c1ce29c252f5a6bb24
+eb6b5da86c67607bfeb776934621ed0f8d18c2cd,"Minor usage imporvements!
+
+* Adds `.DS_Store` to the `.gitignore` file - because mac
+* Exposes domainName and dualStackDomainName on the S3 L2 construct (because somtimes you need those)
+* Adds a ""Canonical User Id"" in the permissions lib - because there's so many ways to identify accounts! (We need it for CloudFront OAIs 🎉)",mindstorms6,https://api.github.com/repos/aws/aws-cdk/git/commits/eb6b5da86c67607bfeb776934621ed0f8d18c2cd
+a2f799114acee9970576882812a8122deb6e33fe,"Big docs update
+
+- Changed wording, add more references between sections.
+- Highlighted some details better.
+- Reorganized discussion about L1s and L2s a bit to make it flow better.
+- Changes the title of the section that used to be called ""using l2s""
+  into ""writing CDK apps"".
+- Update formatting.
+- Get rid of level1, level2 substitutions",rix0rrr,https://api.github.com/repos/aws/aws-cdk/git/commits/a2f799114acee9970576882812a8122deb6e33fe
+1b9f792a2c9e79971b44078c7de061bf6a2eb710,"fix(aws-cdk-toolkit): ignore template ts files
+
+The .npmignore was ignoring the bin/template.ts file used
+by the cdk init script. As such, it meant that cdk init
+did not work on a packaged CDK.
+
+Fixes #72",leepa,https://api.github.com/repos/aws/aws-cdk/git/commits/1b9f792a2c9e79971b44078c7de061bf6a2eb710
+7a6edf4954fbdf2fcd4f9f59d50ccde280f6d928,"aws-cdk-kinesis: Implement Kinesis Stream L2 construct. (#86)
+
+kinesis: Implement Kinesis Stream L2 construct.",sam-goodwin,https://api.github.com/repos/aws/aws-cdk/git/commits/7a6edf4954fbdf2fcd4f9f59d50ccde280f6d928
+233a8cc7a1ebb1065752ff0735a77007d9e2a0de,"Prepare documentation for Private Beta (#101)
+
+Make sure all examples in the documentation are valid (they compile and
+produce the expected result), uniformize the terminology and style used
+throughout the documentation, and re-organize some sections to optimize
+reader experience.",Doug-AWS,https://api.github.com/repos/aws/aws-cdk/git/commits/233a8cc7a1ebb1065752ff0735a77007d9e2a0de
+248c503f019a662f9b19ceb654a55c61b2c8079b,"codepipeline: Move CodeCommit and CodeBuild actions to their modules (#238)
+
+Move the concrete action types from @aws-cdk/codepipeline into the modules of the resources they represent integrations with.
+
+This is doing this refactoring for CodeCommit Repositories and CodeBuild Projects.
+
+BREAKING CHANGE",skinny85,https://api.github.com/repos/aws/aws-cdk/git/commits/248c503f019a662f9b19ceb654a55c61b2c8079b
+680a96a573311abde52681d37e54164735cfcb86,Update .NET namespace names.,mpiroc,https://api.github.com/repos/aws/aws-cdk/git/commits/680a96a573311abde52681d37e54164735cfcb86
+fbe67119a9423847b937270b5663c365ce626307,"Customize VpcNetwork configuration (#250)
+
+BREAKING CHANGE:
+
+ * Improved IP space allocation to be more efficient (breaking change to existing VPC stacks)
+ * Customize subnet IP space with `SubnetConfiguration` arrays
+ * Defined 3 distinct subnet types (Public, Private, and Isolated)
+ * Added ability to control the number of NAT Gateways and automated creation based on the existence of `Private` subnets
+ * Standardized `MapPublicIpOnLaunch` for enabled in Public and disabled in other subnet types
+ * Enable the ability to evenly split remaining IP space across a set of subnet configurations (e.g. allocate public space and then split remaining network space across 1 to N subnets)
+ * Support existing default when no configuration data is provided",moofish32,https://api.github.com/repos/aws/aws-cdk/git/commits/fbe67119a9423847b937270b5663c365ce626307
+39ec1885366d38cc99507c9b8982bb346fdc4a34,README: Fixes stacks link (#469),medanat,https://api.github.com/repos/aws/aws-cdk/git/commits/39ec1885366d38cc99507c9b8982bb346fdc4a34
+9296b218c9dcb496844186acf558dfdc7994414b,Fix typo (#472),pfeilbr,https://api.github.com/repos/aws/aws-cdk/git/commits/9296b218c9dcb496844186acf558dfdc7994414b
+dd634c4586e879d423f23b61a6dc057c2f8bdba9,Fix documentation link (#478),matthieugrieger,https://api.github.com/repos/aws/aws-cdk/git/commits/dd634c4586e879d423f23b61a6dc057c2f8bdba9
+a21f77ca47f3b7ec4dca3aa3184d33caa3224a4b,Fix minor typo in getting-started.rst (#495),heyjustin,https://api.github.com/repos/aws/aws-cdk/git/commits/a21f77ca47f3b7ec4dca3aa3184d33caa3224a4b
+8e619e049891f74da0622311cbdfbb7d5c431c3b,"Add .gitattributes file to ensure compatable line endings across platforms. (#493)
+
+Modify .gitallowed to allow all test patterns detected by git-secrets.",costleya,https://api.github.com/repos/aws/aws-cdk/git/commits/8e619e049891f74da0622311cbdfbb7d5c431c3b
+c252716761499d0eff9566308c9db1c29c98d679,Added DotNetCore21 LambdaRuntime (#507),Mortifera,https://api.github.com/repos/aws/aws-cdk/git/commits/c252716761499d0eff9566308c9db1c29c98d679
+41732dbd16fa2796b3307f9ee8610754d7d0fbb6,Fix setting pollForSourceChanges on CodeCommit PipelineSource (#534),maciejwalkowiak,https://api.github.com/repos/aws/aws-cdk/git/commits/41732dbd16fa2796b3307f9ee8610754d7d0fbb6
+147ea2afc37fa8b56da1dfcd8f834018420f1702,docs: fix minor typo (#551),alexcasalboni,https://api.github.com/repos/aws/aws-cdk/git/commits/147ea2afc37fa8b56da1dfcd8f834018420f1702
+0220bbc2ec034573fbb8c5bc3d2254b4df9c5b5c,"fix(aws-rds): unable to create cluster with a single instance (#578)
+
+The docs state that you should be able to create a cluster with a single instance however there is a trivial error that prevents this.",cookejames,https://api.github.com/repos/aws/aws-cdk/git/commits/0220bbc2ec034573fbb8c5bc3d2254b4df9c5b5c
+0056f35da65308aac8f25eaf8261bcaff9e6f1bd,Fix a typo (#613),Jemima,https://api.github.com/repos/aws/aws-cdk/git/commits/0056f35da65308aac8f25eaf8261bcaff9e6f1bd
+4bafcca5650721e0987ca47d1ccb2745a50ca7ff,Updating README with CDK intro/overview text (#618),fulghum,https://api.github.com/repos/aws/aws-cdk/git/commits/4bafcca5650721e0987ca47d1ccb2745a50ca7ff
+4463cfd296cb3a8a8a42206c9eadf43bf10fb489,"feat(aws-dynamodb): Support DynamoDB Streams (#633)
+
+Added the ability to specify a stream type, default behavior is no stream",rhboyd,https://api.github.com/repos/aws/aws-cdk/git/commits/4463cfd296cb3a8a8a42206c9eadf43bf10fb489
+85c4e64ee7f4e7eb7b6c8cbda448bbaefacde122,"feat(aws-dynamodb): support table application autoscaling (#637)
+
+Allows adding an application auto-scaling for a DynamoDB table",SeekerWing,https://api.github.com/repos/aws/aws-cdk/git/commits/85c4e64ee7f4e7eb7b6c8cbda448bbaefacde122
+2ba98d8340dcac4b43c49a39bf0b600ca10f730d,"feat(aws-dynamodb): Support server-side encryption (#684)
+
+This patch supports DynamoDB server-side encryption.",jungseoklee,https://api.github.com/repos/aws/aws-cdk/git/commits/2ba98d8340dcac4b43c49a39bf0b600ca10f730d
+72fec36c4405735c7a6735a2c3c2c3109d4e2c3c,"fix(aws-codebuild): typo in BuildEnvironment ""priviledged"" -> ""privileged     (#734)
+
+BREAKING CHANGE: fix typo ""priviledged"" -> ""privileged",akiym,https://api.github.com/repos/aws/aws-cdk/git/commits/72fec36c4405735c7a6735a2c3c2c3109d4e2c3c
+0e79c2d16484c5e0fc29a8e75222e32b2bc0e5a4,"fix(aws-codecommit): typo in README (#780)
+
+Removal of extra bracket.",DavidChristiansen,https://api.github.com/repos/aws/aws-cdk/git/commits/0e79c2d16484c5e0fc29a8e75222e32b2bc0e5a4
+156f043931d2cd9612d16d4ec1e039378a6b858b,"fix(aws-cloudfront): check for undefined and determining of the defaultRootObject prop is set or not (#801)
+
+* Check specifically for undefined and determining of the defaultRootObject prop is set or not.
+
+* Add testing to verify valid empty roots",ZeldoKavira,https://api.github.com/repos/aws/aws-cdk/git/commits/156f043931d2cd9612d16d4ec1e039378a6b858b
+2a2b7a1c4cb65ca311f785f2f72876e3c42846b2,chore: fix typo in EncryptionKey tsdoc (#803),nason,https://api.github.com/repos/aws/aws-cdk/git/commits/2a2b7a1c4cb65ca311f785f2f72876e3c42846b2
+f5fcc8981ce921a55ddd899e2163dc6a63b055a9,"chore: Use correct region names (#826)
+
+The public names are listed in
+https://docs.aws.amazon.com/general/latest/gr/rande.html:
+
+China (Beijing)         cn-north-1
+China (Ningxia)         cn-northwest-1",marcbowes,https://api.github.com/repos/aws/aws-cdk/git/commits/f5fcc8981ce921a55ddd899e2163dc6a63b055a9
+9aadcb620db9565d204929b1fdca056331dd95b4,"fix(aws-apigateway): allow + in path parts (#769)
+
+The RegEx was too restrictive when being used with proxy variables. The
+\+ in {proxy+} is valid and should not throw an exception.
+
+Fixes #768.",helloworlddan,https://api.github.com/repos/aws/aws-cdk/git/commits/9aadcb620db9565d204929b1fdca056331dd95b4
+7e5738fd1d8c4cd780460112dd996f48362d0bc0,"fix(docs): update supported languages in README (#819, #450) (#820)",Rukenshia,https://api.github.com/repos/aws/aws-cdk/git/commits/7e5738fd1d8c4cd780460112dd996f48362d0bc0
+8215389604982fd7635f412a4f56a4f9e85091f8,"feat(aws-ec2): support UDP port ranges in SecurityGroups (#835)
+
+Add support for UDP to ec2.SecurityGroupRule",ChintanRaval,https://api.github.com/repos/aws/aws-cdk/git/commits/8215389604982fd7635f412a4f56a4f9e85091f8
+c23da9153e6775dd5a7ce3e32eb1e536336175f8,fix(aws-codebuild): allow passing oauth token to GitHubEnterpriseSource (#908),eaddingtonwhite,https://api.github.com/repos/aws/aws-cdk/git/commits/c23da9153e6775dd5a7ce3e32eb1e536336175f8
+f2b1048d25d945e72fd8ada750e577cd162388ae,"fix(aws-cdk): Allow use of assumed roles behind a proxy (#898)
+
+The call to STS to get assumed role credentials would be started inside the SDK with no way of passing arguments to it. We now set the proxy and user agent options globally so that they'll also be used for the STS call.",pauljaxson,https://api.github.com/repos/aws/aws-cdk/git/commits/f2b1048d25d945e72fd8ada750e577cd162388ae
+b7433622a5faf193aa37aa445c1912f6e77ddb95,"fix(docs): use ..code to display file structure in ""writing constructs"" (#935)
+
+Previously used backticks to indicate pre, but that doesn't work in rst, either viewing in Github file viewer or in the docs at https://awslabs.github.io/aws-cdk/writing-constructs.html. Switched to notation used in other files.",cfedk,https://api.github.com/repos/aws/aws-cdk/git/commits/b7433622a5faf193aa37aa445c1912f6e77ddb95
+3ec9d7690c0a863635a4b00b13882e9339388ed0,"feat(aws-cloudfront): add support for ""webAclId"" (#969)
+
+Expose the webAclId property on CloudFront distributions. This allows
+linking of AWS WAF WebACL resources to protect the CloudFront
+distribution.",PaulMaddox,https://api.github.com/repos/aws/aws-cdk/git/commits/3ec9d7690c0a863635a4b00b13882e9339388ed0
+bdf1719ce61eb94512c7c3247c185bfee0a47cab,"chore: fix typo in docs (#1017)
+
+Fixed a typo on the 4th bullet point under General Design Priciples",jonparker,https://api.github.com/repos/aws/aws-cdk/git/commits/bdf1719ce61eb94512c7c3247c185bfee0a47cab
+67f7fa13f3225dbad80e2ee45b837088749d1cf4,"fix(aws-autoscaling): allow minSize to be set to 0 (#1015)
+
+Previously, minSize was being set to `props.minSize || 1`. Since 0 is
+falsey in javascript, this would mean 0 passed in through the ASG props
+evaluate to false and the field would always be set to the default value
+of 1. This change uses strict equality comparison to allow 0 to be set.",SoManyHs,https://api.github.com/repos/aws/aws-cdk/git/commits/67f7fa13f3225dbad80e2ee45b837088749d1cf4
+cb490be02832da8b3cf3451886bafb89e62207af,fix(aws-kms): add output value when exporting an encryption key (#1036),AdamBoxall,https://api.github.com/repos/aws/aws-cdk/git/commits/cb490be02832da8b3cf3451886bafb89e62207af
+28b28a0f354cc3f6174f1ec101e663d83def8811,docs: fix description for CloudWatch graph widget (#1073),pose,https://api.github.com/repos/aws/aws-cdk/git/commits/28b28a0f354cc3f6174f1ec101e663d83def8811
+e8216f0de07aba4d80d23877a8f5969df013380a,docs: Fix incorrect method name (#1106),perifer,https://api.github.com/repos/aws/aws-cdk/git/commits/e8216f0de07aba4d80d23877a8f5969df013380a
+cafcc1196b6aad6d93fee0b360d2c05ca68b070b,feat(aws-ecs): Add desired count to LoadBalanced[Fargate|EC2]Service (#1111),clareliguori,https://api.github.com/repos/aws/aws-cdk/git/commits/cafcc1196b6aad6d93fee0b360d2c05ca68b070b
+ebfb522491830ebe2ea78b00e46e4d62190a8486,"fix(aws-ecs): fix use of published NPM package with TypeScript (#1117)
+
+The package previously published would not work with a TypeScript consumer, because the generated `.d.ts` file was missing an import statement due to a bug in the TypeScript compiler. Add an explicit type declaration to work around this issue until it is fixed and released upstream.
+
+Reference: https://github.com/Microsoft/TypeScript/issues/26969",cockscomb,https://api.github.com/repos/aws/aws-cdk/git/commits/ebfb522491830ebe2ea78b00e46e4d62190a8486
+2806d3a36126eff45babc9d090ca12ed82dd5fde,"docs(aws-ecs): fix a couple of jsdocs from ""Fargate"" to ""EC2"" (#1143)",cohalz,https://api.github.com/repos/aws/aws-cdk/git/commits/2806d3a36126eff45babc9d090ca12ed82dd5fde
+b83fe85e59cd5b6721499788aae8f3c11ab65cb7,"fix(toolkit): typo in `cdk bootstrap` output (#1176)
+
+bootstraped → bootstrapped",flou,https://api.github.com/repos/aws/aws-cdk/git/commits/b83fe85e59cd5b6721499788aae8f3c11ab65cb7
+2aa35e60c9127d8c14b1935ec8838cdb9221e25b,chore: updated lambda principal in example (#1238),sam-gordon-f,https://api.github.com/repos/aws/aws-cdk/git/commits/2aa35e60c9127d8c14b1935ec8838cdb9221e25b
+10b7092b92a401d683905f1bc3cd47b7a9dcb5cb,"fix(aws-cloudfront): Allow to disable IPv6 on cloudfront distribution (#1244)
+
+Fixes #1243",jlamande,https://api.github.com/repos/aws/aws-cdk/git/commits/10b7092b92a401d683905f1bc3cd47b7a9dcb5cb
+082459ef4b26f7631924181f1c0b61d9ebf822aa,chore: fix typos in documentation (#1263),mitchlloyd,https://api.github.com/repos/aws/aws-cdk/git/commits/082459ef4b26f7631924181f1c0b61d9ebf822aa
+0de2da8eafa5633d2963acc8502d20454fca8ef8,"fix(aws-cloudtrail): correct S3 bucket policy and dependency chain (#1268)
+
+Fixes #1172",randomvariable,https://api.github.com/repos/aws/aws-cdk/git/commits/0de2da8eafa5633d2963acc8502d20454fca8ef8
+3d40e13010c1cfcb463b5f4d5cf69a33d2b33ba6,"feat(aws-lambda:) add Ruby 2.5 runtime (#1267)
+
+Add an enum value for the Ruby runtime.",phstc,https://api.github.com/repos/aws/aws-cdk/git/commits/3d40e13010c1cfcb463b5f4d5cf69a33d2b33ba6
+2dfd593c78587924ffc2b5f8e3085eca50b09424,"feat(aws-cdk): directory assets follow symlinks (#1318)
+
+When building a nodejs lambda it is really common for dependencies under the `node_modules` folder to actually be symlink'd to other folders on your system. The symlinks will now be followed and the indicated files packaged (instead of the symlinks themselves).
+
+Fixes #731",justinmchase,https://api.github.com/repos/aws/aws-cdk/git/commits/2dfd593c78587924ffc2b5f8e3085eca50b09424
+3076070e253b59531466dc9d32a89537d63a1638,"fix(aws-lambda): code.asset now supports jar files, fixes #1294 (#1330)",digitalsanctum,https://api.github.com/repos/aws/aws-cdk/git/commits/3076070e253b59531466dc9d32a89537d63a1638
+8a362072af39d7241066539dae7116687679554b,"Documentation grammar changes (#1365)
+
+* Tiny grammar fixes
+
+* ECS is not serverless, you pay even if you are not using the container",ranguard,https://api.github.com/repos/aws/aws-cdk/git/commits/8a362072af39d7241066539dae7116687679554b
+fe6923db32b96466d444f1dc372cb7394f8bde6b,docs: Update miss spelled word in logical-ids.rst (#1385),jfuss,https://api.github.com/repos/aws/aws-cdk/git/commits/fe6923db32b96466d444f1dc372cb7394f8bde6b
+ee32cc6ec25a7f65d3b29b3264d3ac9377549255,"Allow v8 to allocate more heap (#1336)
+
+Prevent out-of-memory errors encountered during `lerna bootstrap` on
+certain systems by allowing Node's v8 engine to allocate more heap.  The
+default, even on 64-bit architectures, is too small (1.4GB) to
+complete compilation successfully, so we set it to 4GB for the bootstrap
+phase.",otterley,https://api.github.com/repos/aws/aws-cdk/git/commits/ee32cc6ec25a7f65d3b29b3264d3ac9377549255
+9c91b20f5be903f45866f235cde01670050ce53f,fix(ecs): correct typo and other minor mistakes in ecs readme (#1448),BDQ,https://api.github.com/repos/aws/aws-cdk/git/commits/9c91b20f5be903f45866f235cde01670050ce53f
+fefa764e68f75f4cf6ab2e150635b5d43de7131d,feat(apigateway): add tracingEnabled property to APIGW Stage (#1482),workeitel,https://api.github.com/repos/aws/aws-cdk/git/commits/fefa764e68f75f4cf6ab2e150635b5d43de7131d
+f43b4d4ee1c5e9d80b8ae4e87b21dbc3e2a75378,"feat(aws-kms): allow tagging kms keys (#1485)
+
+Small change to enable tagging KMS keys.",rsmogura,https://api.github.com/repos/aws/aws-cdk/git/commits/f43b4d4ee1c5e9d80b8ae4e87b21dbc3e2a75378
+935054aaf1ee8315a300e5369e467202a04a9d44,"feat(step-functions): support parameters option (#1492)
+
+AWS Step Functions released support for 'Parameters' option in the input definition.
+
+Closes #1480",guisrx,https://api.github.com/repos/aws/aws-cdk/git/commits/935054aaf1ee8315a300e5369e467202a04a9d44
+4e46d3c1e1dc545fcb62a5fab93aec652739a228,"feat(s3): export bucket websiteURL (#1521) (#1544)
+
+fixes #1521",AlexChesters,https://api.github.com/repos/aws/aws-cdk/git/commits/4e46d3c1e1dc545fcb62a5fab93aec652739a228
+e291d372163f7a7a8cc4e31cacfeda4e56e6f9b7,"fix(aws-s3-deployment): clean up tempfiles after deployment (#1367)
+
+It can get filled up and errors out with ""no disk space left"" if the lambda function is warm",dnakov,https://api.github.com/repos/aws/aws-cdk/git/commits/e291d372163f7a7a8cc4e31cacfeda4e56e6f9b7
+6642ca2341716dcf0477ba774c621c11d6bef6aa,"feat(ecs): VPC link for API Gatweay and ECS services (#1541)
+
+Overview
+========
+The primary purpose of this work is to fill in the gaps in
+implementation for deploying a VPC link between API Gateway, and an
+ECS service. My goal was to allow setting up a {proxy+} API which would
+forward to a Fargate service in a private VPC.
+
+This has been tagged as 'ecs', but also involves changes to api gateway.
+
+Since VPC links require an NLB, the LoadBalanced{Fargate|Ecs}Service classes
+have been modified to support selecting either an ALB or an NLB.
+
+Changes
+=======
+On the APIGW side, `IntegrationOptions` now accepts an optional connetion
+type enum, as well as a VpcLink. `VpcLink` itself is a new construct
+which accepts an array of Network Load Balancers. I also added the missing
+`requestParameters` prop for `Method`, to allow properly setting up a proxy
+path variable.
+
+For ECS, in my use case I wanted to use the LoadBalanced*Service constructs, however
+they only supported ALB. I have pulled all of the ELBv2 related setup
+into the new `LoadBalancedService` base class, and also created a base
+props interface `LoadBalancedServiceProps`. This deals with the common setup
+between the Fargate and ECS services, and allows the selection of ALB or NLB.
+As a side-effect of this refactoring, you can also now pass a Certificate to
+`LoadBalancedEcsService`.
+
+There is a new `Method` test for the VPC link props, as well as new tests
+for both `VpcLink` and `LoadBalancedFargateService`.",dotxlem,https://api.github.com/repos/aws/aws-cdk/git/commits/6642ca2341716dcf0477ba774c621c11d6bef6aa
+f997fd2a49141e2647dbba962851b4de99bb04ec,"chore(cdk): add Dockerfile for toolkit container (#1569)
+
+Fixes #1302.",jonathanmorley,https://api.github.com/repos/aws/aws-cdk/git/commits/f997fd2a49141e2647dbba962851b4de99bb04ec
+8f1a5e8fb0ce062c6297963cc6644330a61feeed,feat(s3): Add DeployAction for codepipeline (#1596),hoegertn,https://api.github.com/repos/aws/aws-cdk/git/commits/8f1a5e8fb0ce062c6297963cc6644330a61feeed
+428a812c08bfffa451f13c8996f895954663e631,"docs(apigateway): add missing word ""unless"" in README (#1658)
+
+I can see from the reference docs [1] that `cloudWatchRole` defaults to
+`true`, so I'm pretty sure my change is correct.
+
+[1]: https://awslabs.github.io/aws-cdk/refs/_aws-cdk_aws-apigateway.html#@aws-cdk/aws-apigateway.RestApiProps.cloudWatchRole",floehopper,https://api.github.com/repos/aws/aws-cdk/git/commits/428a812c08bfffa451f13c8996f895954663e631
+299fb6a71ae94950c8d3c844d14779feb68e215f,"feat(aws-s3): add option to specify block public access settings (#1664)
+
+Adds option to enable all block public access settings on the bucket (`blockPublicAccess`). Also throws an error when trying to use grantPublicAccess if blockPublicAccess is set to true.
+
+https://docs.aws.amazon.com/AmazonS3/latest/dev/access-control-block-public-access.html",jogold,https://api.github.com/repos/aws/aws-cdk/git/commits/299fb6a71ae94950c8d3c844d14779feb68e215f
+1d7198a51c94d9431b7e1b1b6a84e01ba1daf308,"fix(elbv2): fix specifying TargetGroup name (#1684)
+
+TargetGroup construct passes targetGroupName prop to underlying
+CfnTargetGroup, but the correct name is Name, not TargetGroupName.
+
+Fixes #1674",motemen,https://api.github.com/repos/aws/aws-cdk/git/commits/1d7198a51c94d9431b7e1b1b6a84e01ba1daf308
+ff99403f13e25e646785f8f8b93cc39c17a8812f,chore: fix typos in CONTRIBUTING.md (#1673),tokkiyaa,https://api.github.com/repos/aws/aws-cdk/git/commits/ff99403f13e25e646785f8f8b93cc39c17a8812f
+ce5966f07d55dc894123a82ed0a7831950afb6ad,"fix(aws-ecs): correctly sets MinimumHealthyPercentage to 0 (#1661)
+
+Zero is a valid value for MinimumHealthyPercentage and therefore should
+not be replaced with the default value.
+
+BaseService now explicitly checks if minimumHealthyPercent is null
+before setting default value: fixes #1660",Don-CA,https://api.github.com/repos/aws/aws-cdk/git/commits/ce5966f07d55dc894123a82ed0a7831950afb6ad
+0ea4a786a7ee5ee971ed711141cfcfa8ec35d603,fix(core): improve error message if construct names conflict (#1706),kdnakt,https://api.github.com/repos/aws/aws-cdk/git/commits/0ea4a786a7ee5ee971ed711141cfcfa8ec35d603
+5773bdfc4b25aa3e59b261efdbd5cae70b3b56d0,docs(dynamodb): sseEnabled defaults to service-managed key (#1721),rmalecky,https://api.github.com/repos/aws/aws-cdk/git/commits/5773bdfc4b25aa3e59b261efdbd5cae70b3b56d0
+46236d90edb544e9f9861eb8d0f694aa1228727e,feat(apigateway): add support for MethodResponse to aws-apigateway. (#1572),john-shaskin,https://api.github.com/repos/aws/aws-cdk/git/commits/46236d90edb544e9f9861eb8d0f694aa1228727e
+f78295885f1cedcf199d31e1b088986ef5c957d7,"feat(cfnspec): manually add VPCEndpointService (#1734)
+
+Fixes #1659",ccurrie-amzn,https://api.github.com/repos/aws/aws-cdk/git/commits/f78295885f1cedcf199d31e1b088986ef5c957d7
+5dec01a11021a157ef386049c300fc4a7769318f,"fix(aws-codepipeline): update CFN example. (#1653)
+
+This test is referred as example in the
+[Cloudformation README](https://github.com/awslabs/aws-cdk/blob/master/packages/%40aws-cdk/aws-cloudformation/README.md).
+But the example doesn't do what it intended.
+Without specifying the runOrder the `pipelineExecuteChangeSetAction` will be triggered immediately without change set being populated,
+which will lead to deployment failure.
+After adding the `runOrder` the 3 actions will run in order and only be deployed after manual approval.",AllanFly120,https://api.github.com/repos/aws/aws-cdk/git/commits/5dec01a11021a157ef386049c300fc4a7769318f
+cec8564a3c17b0dddd1f274848a4698985328bc0,"doc(codebuild): Fix Project example with GitHubSource (#1834)
+
+`SecretParameter` was being used incorrectly and it did not pass typechecking.
+
+The type error was:
+
+```
+Type 'SecretParameter' is missing the following properties from type 'Secret': resolve, toJSON, toList
+```",rce,https://api.github.com/repos/aws/aws-cdk/git/commits/cec8564a3c17b0dddd1f274848a4698985328bc0
+f827a884bf3e982593c2d781f22013efcf0412a8,fix: Don't collect runtime information when versionReporting is disabled (#1890),stephankaag,https://api.github.com/repos/aws/aws-cdk/git/commits/f827a884bf3e982593c2d781f22013efcf0412a8
+855f1f58db4a2335bac512c2b07ac3784eac5cd1,"fix(cloudfront): allow IBucket as CloudFront source
+
+Change CloudFront WebDistribution S3 origin to allow IBucket instead of Bucket. Only the domainName property is used anyways. This allows buckets to be imported to the stack and used as an origin. (#1946)",CarsonF,https://api.github.com/repos/aws/aws-cdk/git/commits/855f1f58db4a2335bac512c2b07ac3784eac5cd1
+ef1ac3f72f96b9c6e82645a7512e5c0bc18c65f9,doc(apigateway): fix props in HttpIntegration example (#1941),lusentis,https://api.github.com/repos/aws/aws-cdk/git/commits/ef1ac3f72f96b9c6e82645a7512e5c0bc18c65f9
+615ecd4f428d77dbb830e7f39b7f9a5d4dc804cd,fix(cloudfront): pass `viewerProtocolPolicy` to the distribution's behaviors (#1932),skorfmann,https://api.github.com/repos/aws/aws-cdk/git/commits/615ecd4f428d77dbb830e7f39b7f9a5d4dc804cd
+b529ad7f6a569aa69b1928324d0e9efcf5a4457c,feat(aws-ecs): add Fargate version 1.3.0 (#1968),robertd,https://api.github.com/repos/aws/aws-cdk/git/commits/b529ad7f6a569aa69b1928324d0e9efcf5a4457c
+f06ff8e8d4452085569a946d94726323bbfda91b,fix(aws-cloudtrail): correct created log policy when sendToCloudWatchLogs is true (#1966),RobinsonAndrew,https://api.github.com/repos/aws/aws-cdk/git/commits/f06ff8e8d4452085569a946d94726323bbfda91b
+dfefb58998c7a9bd8e9483a8e7a7e7c2a69654f4,feat(core): add fsharp init-template (#1912),lucasschejtman,https://api.github.com/repos/aws/aws-cdk/git/commits/dfefb58998c7a9bd8e9483a8e7a7e7c2a69654f4
+aa0042b72f25111c41e956b0bdc928cc1e82fe4a,fix(aws-certificatemanager) export dns-validated-certificate (#1985),spg,https://api.github.com/repos/aws/aws-cdk/git/commits/aa0042b72f25111c41e956b0bdc928cc1e82fe4a
+11ed69186e80f3667e78f36f94e126a0fb8e9230,"feat(ecs): support private registry authentication (#1737)
+
+Non-ECR registries now accept a secretsmanager Secret with a username and password to use for registry authentication.
+
+Fixes #1698.
+
+BREAKING CHANGE: `ContainerImage.fromDockerHub` has been renamed to `ContainerImage.fromRegistry`.",allisaurus,https://api.github.com/repos/aws/aws-cdk/git/commits/11ed69186e80f3667e78f36f94e126a0fb8e9230
+942f9383fe30d385953bfc91d13b46745d1981af,"feat(aws-cdk): support fixed repository name for DockerImageAsset (#2032)
+
+Add a `repositoryName` argument to `DockerImageAsset` to control the name of the
+repository that the image gets uploaded to.
+
+This makes it easier to reference Docker Images created and deployed by CDK from EKS (Kubernetes) YAML resource files.",alex-berger,https://api.github.com/repos/aws/aws-cdk/git/commits/942f9383fe30d385953bfc91d13b46745d1981af
+e6083fa5d9ebb1fd4a04313b93aeae129fc02aa3,feat: Python Support (#2009),dstufft,https://api.github.com/repos/aws/aws-cdk/git/commits/e6083fa5d9ebb1fd4a04313b93aeae129fc02aa3
+4819ff428149da660210e4609c6bba04a7757941,"feat(ec2): support reserving IP space in VPCs (#2090)
+
+SubnetConfiguration takes a new argument `reserved: true` which can be 
+used to allocate IP space in the VPC without actually instantiating the
+VPC resources.",darcoli,https://api.github.com/repos/aws/aws-cdk/git/commits/4819ff428149da660210e4609c6bba04a7757941
+997dbcc33fa6802ae807db07a392a7382df7dc7c,"feat: Add python support to cdk init (#2130)
+
+* First take on an init template for a Python CDK project.
+
+* The cdk.context.json should not be ignored.
+
+* Fixing some review issues
+
+* Restructured to move app into a separate file outside of package directory.  Also some formatting changes.
+
+* Slight change to code formatting.
+
+* Remove reference to app.sh
+
+* Moving this over to sample-app since it actually creates a sample app, not an empty project.  Will need to create a separate issue to move the others over and create templates for empty projects.
+
+* Adding an app template for Python.
+
+* Keep all dependencies in setup.py and use -e . in requirements.txt to use those and automatically run the python setup.py develop step.  Also use templating feature for blank app.
+
+* Templatize the class name.",garnaat,https://api.github.com/repos/aws/aws-cdk/git/commits/997dbcc33fa6802ae807db07a392a7382df7dc7c
+d46b814bdacac96d7d69ca6c0b76c5a32d1fb509,"feat(codepipeline): add ECS deploy Action. (#2050)
+
+Fixes #1386",aweiher,https://api.github.com/repos/aws/aws-cdk/git/commits/d46b814bdacac96d7d69ca6c0b76c5a32d1fb509
+dfc666523ec3e552bcb80207298a51f3df490c4b,"fix(aws-apigateway): add integrationHttpMethod prop to AwsIntegration (#2160)
+
+Allows a custom http method to be used for an AWS integration, using POST as default.
+
+Fixes #2105",unstubbable,https://api.github.com/repos/aws/aws-cdk/git/commits/dfc666523ec3e552bcb80207298a51f3df490c4b
+b7c9b21da0c22e84313bdeb8eaa19781e787e655,fix(ecr): Fix typo in ImportRepository error message (#2217),pektinasen,https://api.github.com/repos/aws/aws-cdk/git/commits/b7c9b21da0c22e84313bdeb8eaa19781e787e655
+d22a15433b834074c631669e3abb36102d5be570,"fix:(aws-ec2): correct InstanceSize.Nano spelling (#2215)
+
+Fixes #2214
+
+BREAKING CHANGE: `aws-ec2.InstanceSize.None` was renamed to `InstanceSize.Nano`",vadimzak,https://api.github.com/repos/aws/aws-cdk/git/commits/d22a15433b834074c631669e3abb36102d5be570
+f216f962e4db31eb5749ef405cf4f1227a713f40,"fix(acm): enabled validation of certificates on the zone name (#2133)
+
+As it is now, only certificates with subdomains are correctly validated
+
+Got help from @njlaw to find and correct the issue",McDoit,https://api.github.com/repos/aws/aws-cdk/git/commits/f216f962e4db31eb5749ef405cf4f1227a713f40
+07812b2f4a57234f3aba3cdc359abf421bc719d1,"fix(codebuild): add validation for Source when the badge property is true (#2242)
+
+Badge should not be allowed to be true if Source is not of type GitHub, GitHub Enterprise or Bitbucket.
+
+Fixes #1749",Kaixiang-AWS,https://api.github.com/repos/aws/aws-cdk/git/commits/07812b2f4a57234f3aba3cdc359abf421bc719d1
+ec367c8733356187e2b89d757dc69125d99343e4,"feat(aws-dynamodb-global): global dynamodb tables (experimental) (#2251)
+
+Experimental support for AWS DynamoDB Global Tables.
+
+Creates multiple stacks in the specified regions, each with a DynamoDB Table (using the aws-dynamodb package). A custom resource is then deployed and uses a lambda to tie the tables together into a multi-region, multi-master database.",KingOfPoptart,https://api.github.com/repos/aws/aws-cdk/git/commits/ec367c8733356187e2b89d757dc69125d99343e4
+f8102650bc3a82a583fe4783a3a76c305ff9f30e,"fix(s3): Add validations for S3 bucket names (#2256)
+
+Bucket names are verified to conform with rules published by S3 -
+https://docs.aws.amazon.com/AmazonS3/latest/dev/BucketRestrictions.html
+
+Fixes #1308",nija-at,https://api.github.com/repos/aws/aws-cdk/git/commits/f8102650bc3a82a583fe4783a3a76c305ff9f30e
+6c73d8a459c87faa77ab2eff21c77fe4dc72ad0b,"fix(aws-cloudwatch): remove workaround on optional DashboardName 
+
+There was a bug in CloudFormation which caused updates to `AWS::CloudWatch::Dashboard` to fail if `DashboardName` was not supplied.
+
+Now that the bug has been fixed we can revert the workaround in CDK which generates a name if the user doesn't supply one.
+
+Fixes #213.",gcacace,https://api.github.com/repos/aws/aws-cdk/git/commits/6c73d8a459c87faa77ab2eff21c77fe4dc72ad0b
+71d694f209feb62422147b7f9bf1aea7b1793dce,"feat(elbv2): add TLS listener for NLB (#2122)
+
+Adds TLS termination for Network Load Balancer. Adds new props to support termination:
+
+- SSLPolicy
+- Certificates
+- Protocol",sthulb,https://api.github.com/repos/aws/aws-cdk/git/commits/71d694f209feb62422147b7f9bf1aea7b1793dce
+09d66a0cbd339e5cbbf4b0461e5842ea83080dc9,"chore(aws-s3): fixed broken documentation example (#2401)
+
+fixes #2384",schof,https://api.github.com/repos/aws/aws-cdk/git/commits/09d66a0cbd339e5cbbf4b0461e5842ea83080dc9
+6b50927abacbc15c8fa4507368d504c3e4a47a46,"fix(ecs): fix memoryReservationLimit in LoadBalancedEcsService (#2463)
+
+Previously, only `memoryLimitMiB` was being set in the constructor. This would cause an unexpected validation error when a LoadBalancedEcsService was instantiated with `memoryReservationMiB` only specified. This fix correctly sets both fields.
+
+Fixes #2263",pkandasamy91,https://api.github.com/repos/aws/aws-cdk/git/commits/6b50927abacbc15c8fa4507368d504c3e4a47a46
+fa29d3b09f9cc9ba545327b07af085e63ecb50ca,"fix(ecs): correct logic of healthcheck command (#2462)
+
+Adding a healthcheck command to an ECS container definition
+results in an invalid command after synthesizing.
+
+Before:
+
+    Input: ['CMD', 'command']
+    Output:
+          HealthCheck:
+            Command:
+              - CMD
+              - CMD
+              - echo
+              - z
+
+    Input: ['CMD-SHELL', 'command']
+    Output:
+          HealthCheck:
+            Command:
+              - CMD
+              - CMD-SHELL
+              - echo
+              - z
+
+After:
+
+    Input: ['CMD', 'command']
+    Output:
+          HealthCheck:
+            Command:
+              - CMD
+              - echo
+              - z
+
+    Input: ['CMD-SHELL', 'command']
+    Output:
+          HealthCheck:
+            Command:
+              - CMD-SHELL
+              - echo
+              - z
+
+fixes #2461
+
+Signed-off-by: Chris Lahaye <dev@chrislahaye.com>",ChrisLahaye,https://api.github.com/repos/aws/aws-cdk/git/commits/fa29d3b09f9cc9ba545327b07af085e63ecb50ca
+3bfc641f6bb44eb3de538d6e136bc6f7ec4efbd5,"feat(bootstrap): allow specifying the toolkit staging bucket name (#2407)
+
+Add a command line argument to specify the toolkit staging bucket name.
+
+Closes #2390.",orangewise,https://api.github.com/repos/aws/aws-cdk/git/commits/3bfc641f6bb44eb3de538d6e136bc6f7ec4efbd5
+7863ad329f42c67e847ab0b4c7b5a6e26a9e6940,"refactor: L2 constructs should not use TypeScript unions (awslint:props-no-unions) (#2430) (#2509)
+
+Adds a new awslint:props-no-unions rule which valides that props for L2 constructs do not use TypeScript unions. This is in accordance with the new AWS Construct Library guidelines.",shivlaks,https://api.github.com/repos/aws/aws-cdk/git/commits/7863ad329f42c67e847ab0b4c7b5a6e26a9e6940
+2c5676a8558bef042dadaadef031bdff4c0a7c82,"feat(cli): Add javascript for init-templates/app (#2525)
+
+Fixes #398",engineforce,https://api.github.com/repos/aws/aws-cdk/git/commits/2c5676a8558bef042dadaadef031bdff4c0a7c82
+aec8ec2f4c96a02622bdb953daf28c691deb7677,"fix(ec2): fix VPC endpoint name for SageMaker Notebooks (#2598)
+
+The service name was incorrect as per
+https://docs.aws.amazon.com/sagemaker/latest/dg/notebook-interface-endpoint.html",chriswessells,https://api.github.com/repos/aws/aws-cdk/git/commits/aec8ec2f4c96a02622bdb953daf28c691deb7677
+4d2fbe91cfa251067fa42b5293b7a686fbf556a0,"fix(ec2): allow disabling privateDnsEnabled on VPCs (#2596)
+
+Fixes #2556.",CaerusKaru,https://api.github.com/repos/aws/aws-cdk/git/commits/4d2fbe91cfa251067fa42b5293b7a686fbf556a0
+45abfcd1e5ebb29d950ee20f9a038551c10a0d33,feat(aws-ecs): include GPU & ARM based ECS optimized AMI options (#2453),mattmcclean,https://api.github.com/repos/aws/aws-cdk/git/commits/45abfcd1e5ebb29d950ee20f9a038551c10a0d33
+8904c3e57e9118b4fcac22d52a924559076927b9,"feat(cloudwatch): support all Y-Axis properties (#2406)
+
+Support setting for the y-axis on a graph: min, max, label, and showUnits.
+
+Fixes #2385.
+
+BREAKING CHANGE: rename `leftAxisRange` => `leftYAxis`, `rightAxisRange`
+=> `rightYAxis`, rename `YAxisRange` => `YAxisProps`.",kpiljoong,https://api.github.com/repos/aws/aws-cdk/git/commits/8904c3e57e9118b4fcac22d52a924559076927b9
+56f544e9dea532c26c4224a30cd08a5b6cae7a66,"docs(aws-cdk): Remove leftover reference to app.sh (#2642)
+
+This script was removed as part of 24f521a306c384f8010eba958dd78d75d3ff23e9, but the README still referenced it.",ivoanjo,https://api.github.com/repos/aws/aws-cdk/git/commits/56f544e9dea532c26c4224a30cd08a5b6cae7a66
+b061826be60d474209b014bd9e73cbf2ae217c7b,feat(cli): disable noUnusedLocals and noUnusedParameters from typescript templates (#2654),abelmokadem,https://api.github.com/repos/aws/aws-cdk/git/commits/b061826be60d474209b014bd9e73cbf2ae217c7b
+5fe0af54030c9c733f4a8f76742f3ea63659cf4f,"fix(aws-cdk): fix ts-node usage on Windows (#2660)
+
+Fix an error when running any cdk command on Windows caused by '/' in ts-node path.",Iamz,https://api.github.com/repos/aws/aws-cdk/git/commits/5fe0af54030c9c733f4a8f76742f3ea63659cf4f
+436694fe7aa1c3e038470d7784f96b0f2fd4f623,"chore: allow running buildup and builddown scripts without lerna globally installed (#2667)
+
+Modift buildup and builddown script to include `$(npm bin)` in `PATH` so that lerna does not need to be installed globally in order to run the scripts.
+
+Closes #1338",Naturalclar,https://api.github.com/repos/aws/aws-cdk/git/commits/436694fe7aa1c3e038470d7784f96b0f2fd4f623
+394b7963f02dfcd17a888201171adb51ce508388,chore(stepfunctions-tasks): typos in test names (#2695),joehillen,https://api.github.com/repos/aws/aws-cdk/git/commits/394b7963f02dfcd17a888201171adb51ce508388
+3d4adfb598788b25d0b186143de732498a0606e2,"docs(staging): mention that ""no-staging"" flag is needed for SAM CLI debugging (#2702)
+
+Related #2586",Gaafar,https://api.github.com/repos/aws/aws-cdk/git/commits/3d4adfb598788b25d0b186143de732498a0606e2
+2bfc1c285e03dd6644b8d6f929d6125e5a332438,fix(certificatemanager): correct certificateArn typo in the README (#2712),thantos,https://api.github.com/repos/aws/aws-cdk/git/commits/2bfc1c285e03dd6644b8d6f929d6125e5a332438
+d0e19d50f5fc1459cea66b309aaa9fe18a3d9618,"feat(core+cli): support tagging of stacks (#2185)
+
+Adding tags parameter option to cdk deploy command to allow tagging full stacks and their associated resources. 
+
+Now it will be possible to:
+
+```
+const app = new App();
+
+const stack1 = new Stack(app, 'stack1', { tags: { foo: 'bar' } });
+const stack2 = new Stacl(app, 'stack2');
+
+stack1.node.apply(new Tag('fii', 'bug'));
+stack2.node.apply(new Tag('boo', 'bug'));
+```
+That will produce 
+* stack1 with tags `foo bar` and `fii bug`
+* stack2 with tags `boo bug`
+
+It is possible also to override constructor tags with the stack.node.apply. 
+
+So doing:
+```
+stack1.node.apply(new Tag('foo', 'newBar');
+```
+stack1 will have tags `foo newBar` and `fii bug`
+
+Last, but not least, it is also possible to pass it via arguments (using yargs) as in the following example:
+
+```
+cdk deploy --tags foo=bar --tags myTag=myValue
+```
+That will produce a stack with tags `foo bar`and `myTag myValue`
+
+**Important**
+That will ignore tags provided by the constructor and/or aspects. 
+
+Fixes #932",IsmaelMartinez,https://api.github.com/repos/aws/aws-cdk/git/commits/d0e19d50f5fc1459cea66b309aaa9fe18a3d9618
+078e34a466251fef739328ce182c5e4541c23ca3,"feat(events): support SQS queues as rule targets (#2683)
+
+Extend the Target for Event Rule to SQS Queues.
+
+This may be needed in situations where users want to create an Event Rule and have as a target an SQS Queue.
+
+Closes #1786.",made2591,https://api.github.com/repos/aws/aws-cdk/git/commits/078e34a466251fef739328ce182c5e4541c23ca3
+192bab7671361c27b21585b7a9dc8b524664039e,"feat(elasticloadbalancing): add crossZone load balancing (#2787)
+
+Defaults to cross-zone load balancing for a Classic Load Balancer by default, can be switched
+off using 'crossZone' property.
+
+Closes #2786.",ScOut3R,https://api.github.com/repos/aws/aws-cdk/git/commits/192bab7671361c27b21585b7a9dc8b524664039e
+b088c8c97e0cd9cf247ad69413bb346592228831,"feat(cloudfront): add Lambda associations (#2760)
+
+This enables to associate a lambda to a distribution behaviour. The lambda could be associated with the four available event-types.",KnisterPeter,https://api.github.com/repos/aws/aws-cdk/git/commits/b088c8c97e0cd9cf247ad69413bb346592228831
+b8a1c8ecd016b91026d725177da77674a3c4e379,"fix(cloudformation-diff): string.replace error on `cdk context` (#2870)
+
+`@aws-sdk/cloudformation-diff` depended on version `^2.1.1` of the `string-width`
+library in `v0.28.0` of `aws-sdk`. In `v0.29.0`, the dependency was bumped to
+`^4.1.0`, which inadvertently broke the `cdk context` command as reported
+in: https://github.com/awslabs/aws-cdk/issues/2854.
+
+The current version of `string-width` executes a [string replacement](https://github.com/sindresorhus/string-width/commit/0bc308a2903c15087d187aa2069a12f8210f3eee#diff-168726dbe96b3ce427e7fedce31bb0bcR7), which ends up failing
+when a non-string (such as the `int` row numbers of the `cdk context`
+values). This did not previously occur, as the typecheck for `string`
+would cause the function to return early and report zero-length.
+
+The easiest solution here is to cast these values to `string`, which
+has the beneficial side effect of ensuring that their character lengths
+are taken into consideration rather than being defaulted to `0` as they
+had previously been.
+
+Fixes #2854",michaelmoussa,https://api.github.com/repos/aws/aws-cdk/git/commits/b8a1c8ecd016b91026d725177da77674a3c4e379
+d017a14c3eeb7f86a69d0e545baa8d4e828ee220,"feat(stepfunctions): waitForTaskToken for Lambda, SQS, SNS (#2686)
+
+This PR allows one to work with Task states that implement the callback service integration pattern.
+
+Introduces a new class for integrating with Lambda in the new invocation style, since there are a number
+of subtle differences with the old invocation style.
+
+The supported task types are:
+
+* `RunLambdaTask` (AWS Lambda)
+* `SendToQueue` (AWS SQS)
+* `PublishToTopic` (AWS SNS)
+
+Closes #2658, closes #2735.",albegali,https://api.github.com/repos/aws/aws-cdk/git/commits/d017a14c3eeb7f86a69d0e545baa8d4e828ee220
+1aa0589ff6c54aa574c2374d637f60b4251d9835,"refactor(ecs): rename `hwType` to `hardwareType` (#2916)
+
+This change spells out the previously abbreviated `hwType` into `hardwareType` and it closes #2896.
+
+BREAKING CHANGE: 
+
+* **ecs**: the property that specifies the type of EC2 AMI optimized for ECS was renamed to `hardwareType` from `hwType`.",hencrice,https://api.github.com/repos/aws/aws-cdk/git/commits/1aa0589ff6c54aa574c2374d637f60b4251d9835
+c1c43bf244630cee7543a787bd2087ac9b095b61,docs(kms): update example for importing an existing Key by ARN (#2920),joshrp,https://api.github.com/repos/aws/aws-cdk/git/commits/c1c43bf244630cee7543a787bd2087ac9b095b61
+67f6de02c164e84ede85a50727c98dccf85fc8c5,"feat(issues): new format for issue templates (#2917)
+
+* feat(issues): Added new, single issue template to capture issues in a more-easily triagable way
+
+* feat(issues): Removed old issue templates to allow for new one to be non-optional",NGL321,https://api.github.com/repos/aws/aws-cdk/git/commits/67f6de02c164e84ede85a50727c98dccf85fc8c5
+58a80ab5cbf1717fab702fa4d5b8571e826f53c8,"fix(stepfunctions): fix passing of Token in RunLambdaTask (#2939)
+
+Fixes #2937.",wqzoww,https://api.github.com/repos/aws/aws-cdk/git/commits/58a80ab5cbf1717fab702fa4d5b8571e826f53c8
+2d50c18e8b72fd7b7bd401185ac73af04f80b1a2,"fix(rds): correctly expose DatabaseCluster's read endpoint (#2970)
+
+Fix a typo that exposes cluster write endpoint as `clusterReadEndpoint` on RDS DatabaseCluster
+
+Fixes #2969.",rpanfili,https://api.github.com/repos/aws/aws-cdk/git/commits/2d50c18e8b72fd7b7bd401185ac73af04f80b1a2
+a1f28ab65ee27df252116d4d75cb015d3479f046,"refactor(ecs): rename ""_defaultNameSpace"" to ""_defaultCloudMapNamespace"" (#3001)
+
+updated all defaultNamespace to defaultCloudMapNamespace",iamhopaul123,https://api.github.com/repos/aws/aws-cdk/git/commits/a1f28ab65ee27df252116d4d75cb015d3479f046
+b84caabb4c5133171145b66a3014d05076595cea,"fix(aws-codepipeline-actions): use SecretValue (#3097)
+
+cdk.SecretValue has replaced cdk.SecretParameter but the README was
+outdated.",samuelkarp,https://api.github.com/repos/aws/aws-cdk/git/commits/b84caabb4c5133171145b66a3014d05076595cea
+12e63801c66fedf91a1c0c8c59e60697d49d41e6,"feat(aws-apigateway): expand RestApi support to models, parameters and validators (#2960)
+
+Fixes #905: ""apigateway: ""methodResponses"" is missing from MethodOptions""
+Fixes #1695: apigateway: missing support for models
+Fixes #727: API Gateway: improve API for request parameters and responses
+Fixes #723: API Gateway: missing features
+Fixes #2957: RestApi to use logical id as a name for APIs instead of name of current construct
+Adds support for JsonSchema in Model
+Aligns Model to the PhysicalName convention.
+No breaking change, documentation updated",julienlepine,https://api.github.com/repos/aws/aws-cdk/git/commits/12e63801c66fedf91a1c0c8c59e60697d49d41e6
+f2293e03579b6d30e84e1052bd12dae2c1189795,fix(codepipeline-actions): set service as backing resource for EcsDeployAction (#3085),strax,https://api.github.com/repos/aws/aws-cdk/git/commits/f2293e03579b6d30e84e1052bd12dae2c1189795
+aa28db7179f367558cfe82658c25d1d3a916bea2,docs(core): plainText method reference typo (#3147),nmussy,https://api.github.com/repos/aws/aws-cdk/git/commits/aa28db7179f367558cfe82658c25d1d3a916bea2
+e36a8b7554dbcf8bd74880df16f83991a84a16a1,doc(dynamodb): Reference proper enum value for on-demand billing option in the ReadMe (#3179),kamalgill,https://api.github.com/repos/aws/aws-cdk/git/commits/e36a8b7554dbcf8bd74880df16f83991a84a16a1
+7d020f119e3e5702397c71871a833230145f8c2f,fix(core): fix build errors in fsharp init-template (#3229),mikhailshilkov,https://api.github.com/repos/aws/aws-cdk/git/commits/7d020f119e3e5702397c71871a833230145f8c2f
+f68411c672d05846048a72ff56f8ea82bc4faaae,"chore(deps): bump lodash.template from 4.4.0 to 4.5.0 (#3276)
+
+Bumps [lodash.template](https://github.com/lodash/lodash) from 4.4.0 to 4.5.0.
+- [Release notes](https://github.com/lodash/lodash/releases)
+- [Commits](https://github.com/lodash/lodash/compare/4.4.0...4.5.0)
+
+Signed-off-by: dependabot[bot] <support@github.com>",dependabot[bot],https://api.github.com/repos/aws/aws-cdk/git/commits/f68411c672d05846048a72ff56f8ea82bc4faaae
+0c43d38f61d14c591b1808e999f02d7b5ba948cb,chore: fix invalid url in README (#3296),yagi5,https://api.github.com/repos/aws/aws-cdk/git/commits/0c43d38f61d14c591b1808e999f02d7b5ba948cb
+f2e55e263352449c801b962e5e97ee19596320b0,"chore(deps): bump codemaker from 0.11.3 to 0.14.0 (#3327)
+
+Bumps [codemaker](https://github.com/awslabs/jsii/tree/HEAD/packages/codemaker) from 0.11.3 to 0.14.0.
+- [Release notes](https://github.com/awslabs/jsii/releases)
+- [Changelog](https://github.com/aws/jsii/blob/master/packages/codemaker/CHANGELOG.md)
+- [Commits](https://github.com/awslabs/jsii/commits/v0.14.0/packages/codemaker)
+
+Signed-off-by: dependabot-preview[bot] <support@dependabot.com>",dependabot-preview[bot],https://api.github.com/repos/aws/aws-cdk/git/commits/f2e55e263352449c801b962e5e97ee19596320b0
+3fcdb45fd21216954199ca76d4bac83c4627e5ab,"feat(eks): update Kubernetes AMIs and latest version (#3331)
+
+update the AMI table with the latest AMI ID from the document and set LATEST_KUBERNETES_VERSION to 1.13
+https://docs.aws.amazon.com/eks/latest/userguide/eks-optimized-ami.html",pahud,https://api.github.com/repos/aws/aws-cdk/git/commits/3fcdb45fd21216954199ca76d4bac83c4627e5ab
+9391bce81a8e6287aff9ab5e1d681503a11ab81b,doc(region-info): fix typo in readme (#3365),curry9999,https://api.github.com/repos/aws/aws-cdk/git/commits/9391bce81a8e6287aff9ab5e1d681503a11ab81b
+334261d417286d2e23c14561742b7cd3d76ecfff,doc: update git clone URI in Contributing.md from awslabs to aws (#3473),AlexCheema,https://api.github.com/repos/aws/aws-cdk/git/commits/334261d417286d2e23c14561742b7cd3d76ecfff
+1280071433506d197c2972baa051988a66be84fe,"fix(aws-kms): Incomplete KMS Resource Policy Permissions (#3459)
+
+Fixes #3458 where incomplete default resource policy for root account principal was generated and requiring a workaround.
+
+See issue #3458 for the complete reference.",IPyandy,https://api.github.com/repos/aws/aws-cdk/git/commits/1280071433506d197c2972baa051988a66be84fe
+ef8f0cd7e137f1e007601ebf143c051a8d5905a1,docs(core): findChild gets direct child only (#3512),mirskiy,https://api.github.com/repos/aws/aws-cdk/git/commits/ef8f0cd7e137f1e007601ebf143c051a8d5905a1
+e222e87e31873b0dae4ee9ede5be2bccbd5db853,"fix(lambda): allow ArnPrincipal in grantInvoke (#3501)
+
+Fixes #3264 
+
+I'm trying to allow a lambda function in another account to be able to invoke my CDK generated lambda function. This works through the CLI like so:
+
+    aws lambda add-permission --function-name=myFunction --statement-id=ABoldStatement --action=lambda:InvokeFunction --principal=arn:aws:iam::{account_id}:role/a_lambda_execution_role
+
+But CDK doesn't seem to allow me to add an ArnPrincipal doing something like this:
+
+    myFunction.grantInvoke(new iam.ArnPrincipal(props.myARN))
+
+With the error:
+
+    Invalid principal type for Lambda permission statement: ArnPrincipal. Supported: AccountPrincipal, ServicePrincipal
+
+This PR allows ArnPrincipal to be passed to lambda.grantInvoke.
+
+There might be some additional validation required on the exact ARN as I believe only some ARNs are supported by lambda add-permission",IainCole,https://api.github.com/repos/aws/aws-cdk/git/commits/e222e87e31873b0dae4ee9ede5be2bccbd5db853
+dd52cecd0cfe2f47f0c97296b1417cdab916b9bd,"feat(net): templatized csharp sample app and moved from init to sample-app.   Changed hook code to allow templating. (#3525)
+
+* Templatized csharp init to a base skeleton.
+
+* Moved csharp init to sample-app",gweinhold,https://api.github.com/repos/aws/aws-cdk/git/commits/dd52cecd0cfe2f47f0c97296b1417cdab916b9bd
+a81e560de226e8c8aa9928833403c0e9da4ba455,"Also redact AWS_SECURITY_TOKEN (#3560)
+
+Signed-off-by: Elliot Murphy <statik@users.noreply.github.com>",statik,https://api.github.com/repos/aws/aws-cdk/git/commits/a81e560de226e8c8aa9928833403c0e9da4ba455
+92b5c2df5a36166d2e43f122fee939730f5efed5,"fix(cdk-dasm): update README and fix small typo (#3565)
+
+Signed-off-by: campionfellin <campionfellin@gmail.com>",campionfellin,https://api.github.com/repos/aws/aws-cdk/git/commits/92b5c2df5a36166d2e43f122fee939730f5efed5
+e7eabcab31f7e90276a68dfcbb80ba139cd0c806,"fix(acm): validated certificate survives eventual consistency in service (#3528)
+
+* fix(aws-certificatemanager): fixes #3527 handling describeCertificate response in DnsValidatedCertificate
+
+* Make wait time longer to account for longer inconsistency time
+
+* Update all the package locks",michirue,https://api.github.com/repos/aws/aws-cdk/git/commits/e7eabcab31f7e90276a68dfcbb80ba139cd0c806
+f4ca41cc045f571a54159da35cb8278b4dd577b2,"feat(ec2): add `GenericWindowsImage` (#3454)
+
+* feat(ec2): Use custom Windows AMI (#3400)
+* Created new GenericWindowsImaeProps
+* Created new Class GenericWindowsImage
+
+* Add tests",slipdexic,https://api.github.com/repos/aws/aws-cdk/git/commits/f4ca41cc045f571a54159da35cb8278b4dd577b2
+5d4a275cb1a324dae067c2c09e51a2914c371a93,"feat(aws-codebuild): support pull_request_merged eventaction type (#3575)
+
+* feat(aws-codebuild): support pull_request_merged eventaction type Added PULL_REQUEST_MERGED type to the EventAction Enum for use in source webhook filter groups closes #3557
+
+* feat(aws-codebuild): fix trailing comma in codebuild test file",mbruning24,https://api.github.com/repos/aws/aws-cdk/git/commits/5d4a275cb1a324dae067c2c09e51a2914c371a93
+013c18180ffe7eb3b404194f170ce8339bceff40,"fix(region-info): IAM service principal for China regions (#3491)
+
+* fix IAM service principal for China regions
+
+* fix integration testings for correct China region service principals
+
+* fix IAM service principal for China regions
+
+* fix integration testings for correct China region service principals
+
+* fix IAM principal for China region - ( aws-s3-deployment / aws-eks )
+
+* remove two regions where we don't have the CDK Metadata resource
+
+* remove two regions where we don't have the CDK Metadata resource
+
+* remove two regions where we don't have the CDK Metadata resource
+
+* fix additional Principal values for China region
+
+* fix(region-info): merge changes from v1.4.0",bnusunny,https://api.github.com/repos/aws/aws-cdk/git/commits/013c18180ffe7eb3b404194f170ce8339bceff40
+c240e1e2c0f8bc59dd89c71aa9754f5dcb7074d2,"feat(events-targets): allow specifying event for codebuild project target (#3637)
+
+* feat(events-targets): Add event prop
+
+* Update codebuild.ts
+
+* feat(events-targets): Add unit test
+
+* Revert ""feat(events-targets): Add unit test""
+
+This reverts commit e7dbd2ec179ce6c7ae5be0da5b855343ceb614e5.
+
+* feat(events-targets): Add unit test",hupe1980,https://api.github.com/repos/aws/aws-cdk/git/commits/c240e1e2c0f8bc59dd89c71aa9754f5dcb7074d2
+aceed018c09dca8bfdac2840c44c3588130c16e4,Update README.md (#3742),joelbrandenburg,https://api.github.com/repos/aws/aws-cdk/git/commits/aceed018c09dca8bfdac2840c44c3588130c16e4
+d950d8ed382a45e2f55fee07d496ca81b6b4f39f,"chore(events): add sqsparameters for event targets (#3735) (#3736)
+
+* fix(events/events-targets): add sqsparameters for event targets to avoid error when using fifo sqs queue as targets (fixes #3735)
+
+* chore(events): add test cases #3736 (fixes #3735)",pratyush05,https://api.github.com/repos/aws/aws-cdk/git/commits/d950d8ed382a45e2f55fee07d496ca81b6b4f39f
+04710d0a55856253e28f25f398e88c681c36a2e0,"feat(ec2): imported SecurityGroups don't create egress rules (#3386)
+
+Security Groups are created with `allowAllOutbound: true` by default, and so imported security groups default to that as well. This means that no egress rules will be created for them, because that will undo the default of `allowAllOutbound`.
+
+This can be configured by setting `allowAllOutbound: false` upon importing.
+
+Fixes #3355.",ayazhussein,https://api.github.com/repos/aws/aws-cdk/git/commits/04710d0a55856253e28f25f398e88c681c36a2e0
+f003dccf86ebc255f476cc9a1f1a80c8e63bb143,"feat(elbv2): add support for Lambda targets (#3348)
+
+Add a new package for ELBv2 targets called `@aws-cdk/aws-elasticloadbalancingv2-targets`.
+
+In this package, add a `LambdaTarget` which can be used to add Lambas as a backend
+for ALBs.
+
+`IpTarget` and `InstanceTarget` have been moved to the new package, but the originals
+have been left in place to not break backwards compatibility (they have been marked
+`@deprecated` to encourage movement to the new classes).
+
+Fixes #1921.",bweigel,https://api.github.com/repos/aws/aws-cdk/git/commits/f003dccf86ebc255f476cc9a1f1a80c8e63bb143
+042fb53e6ff5fe12430f44518bd3def82faa6dc6,"fix(cli): update bit.ly link to use GitHub link directly (#3782)
+
+Updated http://bit.ly link to link to GitHub directly so that it's clear where it leads and it is an `https` link.",alsmola,https://api.github.com/repos/aws/aws-cdk/git/commits/042fb53e6ff5fe12430f44518bd3def82faa6dc6
+51d3ee9f50f8a5a3db5be469a35f211a08e45fef,"docs(ec2,vpc): fix vpc example (#3804)
+
+fixes #3803
+
+the example code was missing the id parameter.",nazreen,https://api.github.com/repos/aws/aws-cdk/git/commits/51d3ee9f50f8a5a3db5be469a35f211a08e45fef
+527b362f4714fe7d0540f38a8b9ef8e12dfcd97c,"fix(cloudwatch): don't ignore 'stacked' property in GraphWidget class (#2103) (#3796)
+
+Stacked property was available and documented in the GraphWidget class, but it wasn't used for generating the cloudformation template. This change fixes the problem.
+
+Fixes #2103",loganek,https://api.github.com/repos/aws/aws-cdk/git/commits/527b362f4714fe7d0540f38a8b9ef8e12dfcd97c
+2c9bafa9458514905080223ed79ffe0d59699ba0,"fix(init-templates): add typesRoot compiler option for TypeScript templates (#3865)
+
+Closes #3830 
+
+Given a project structure where the cdk (init) generated `node_modules` has a parent node project with its own `node_modules` folder with failing typescript code, the CDK will not compile because `tsc` traverses the directory structure looking for type definitions.
+
+This small change adds the `typesRoot` [compiler option](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html#types-typeroots-and-types) essentially rooting the typescript compiler to look for types under the `cdk_root_folder/node_modules/@types`.",carlosrfernandez,https://api.github.com/repos/aws/aws-cdk/git/commits/2c9bafa9458514905080223ed79ffe0d59699ba0
+6dcaedec0f425d38de1b4a6c80f3a7169da7bfcb,chore(readme): remove duplicate NPM version badge (#3885),hacker65536,https://api.github.com/repos/aws/aws-cdk/git/commits/6dcaedec0f425d38de1b4a6c80f3a7169da7bfcb
+5c10dc142b24d4bcd1262b679781b6d5d51a9f0c,chore(aws-apigateway): fix typo (#3955),msysyamamoto,https://api.github.com/repos/aws/aws-cdk/git/commits/5c10dc142b24d4bcd1262b679781b6d5d51a9f0c
+4973a8cd2083c5d91d35dd91fcd752da2b5264f9,"fix(certificatemanager): increase minimum validation total timeout (#3914)
+
+* fix(certificatemanager): add minimum backoff
+
+Add a minimum component to the backoff and retry timer
+
+* fix(certificatemanager): stub out sleep
+
+Provide stub function for sleep to allow long running sleep to
+cause test to fail
+
+* fix(certificatemanager): spy on sleep
+
+spy on sleep function to determine total time attempted to sleep
+
+* fix(certificatemanager): Failing test
+
+Failing test demonstrating min sleep is as low as 4.6 seconds.
+
+* fix(certificatemanager): increase attempts
+
+Increase max attempts in validation, still under 10,
+but such that minimum sleep duration of one minute is reached
+(but not more than 3 minutes).
+
+Can adjust tests if window is not suitable, but I find that at least
+30 seconds is needed in my region",elhedran,https://api.github.com/repos/aws/aws-cdk/git/commits/4973a8cd2083c5d91d35dd91fcd752da2b5264f9
+06a96adbed3715a285b9af8854a480993361e4df,chore: fix typo in comment in .gitattributes (#3978),raphael-riel,https://api.github.com/repos/aws/aws-cdk/git/commits/06a96adbed3715a285b9af8854a480993361e4df
+617ef82b7f4a7a7bb45c4e567cdbd84dffcdb125,"fix(dynamodb): prevent ""StreamARN not found for resource"" errors (#3935)
+
+* do not allowing adding table as stream source if streams were not enabled at create time
+
+* make StreamArn undefinable and move error check to DynamoDB table
+
+* add check back
+
+* test fix
+
+* another test fix :)
+
+* allow this breaking change
+
+* breaking change fix",parisholley,https://api.github.com/repos/aws/aws-cdk/git/commits/617ef82b7f4a7a7bb45c4e567cdbd84dffcdb125
+d6920db6d050275f3696c5670ea87f54ba90623d,chore(rds): fix README.md (#3992),NomadBlacky,https://api.github.com/repos/aws/aws-cdk/git/commits/d6920db6d050275f3696c5670ea87f54ba90623d
+b01f62dd340fcd11d0cf1c40278abb8940cbeff9,"fix(events): `fromObject`  handles regular and field tokens together (#3916)
+
+Fixes a case in `RuleTargetInput.fromObject()` where both `EventField` tokens and regular tokens were used together, which would lead to an error.
+
+Closes #3915.",ndchelsea,https://api.github.com/repos/aws/aws-cdk/git/commits/b01f62dd340fcd11d0cf1c40278abb8940cbeff9
+07d25d87f15c9b214155118f82c91d88fcd4e61c,Fixing a typo for Amazon.CDK.AWS.CodePipeline.Actions in .NET (#4028),assyadh,https://api.github.com/repos/aws/aws-cdk/git/commits/07d25d87f15c9b214155118f82c91d88fcd4e61c
+73a1de1cecd57b45335fbcf6eef24d3d0cdeefd9,"fix(apigateway): json schema additionalProperties should be boolean (#3997)
+
+* Add support for json schema additionalProperties
+
+* Change it to boolean according to code review
+
+* add breaking change exclusions",daiwei920,https://api.github.com/repos/aws/aws-cdk/git/commits/73a1de1cecd57b45335fbcf6eef24d3d0cdeefd9
+e9f46dafafebd38ebba1f2b727e15227bb3460b5,"feat(cognito): add PreTokenGeneration lambda trigger support (#3910)
+
+* feat(cognito): add PreTokenGeneration lambda trigger support
+
+fixes #2497
+
+* Update to adhere LambdaConfigProperty
+
+* feat(cognito): add UserMigration lambda trigger support
+
+* feat(cognito): add different instances of lambda functions on the user pool test(if api correctly appends triggers)",vas1468,https://api.github.com/repos/aws/aws-cdk/git/commits/e9f46dafafebd38ebba1f2b727e15227bb3460b5
+f63bf6faf9b691fc1e5a1efea22affc96f3af8d3,feat(codebuild): add support of Amazon Linux 2 image (#4052) (#4055),pkspks,https://api.github.com/repos/aws/aws-cdk/git/commits/f63bf6faf9b691fc1e5a1efea22affc96f3af8d3
+f308f1d7f8c57325560ae06adcc0e443950904d3,"feat(ecs): add additional log drivers (#3762)
+
+Add log drivers for the most popular logging targets:
+
+- fluentd
+- gelf
+- journald
+- json-file
+- splunk
+- syslog  
+
+Closes #3761",wulfmann,https://api.github.com/repos/aws/aws-cdk/git/commits/f308f1d7f8c57325560ae06adcc0e443950904d3
+9945d9e83c8c0b74cdc1cca44d547ec8016b19c4,"feat(iam): support NotPrincipal in policy statements (#4077)
+
+* feat(iam): add support for notprincipal policy statement element
+
+Added support for NotPrincipal IAM Policy statement elements.
+
+* add exclusivity check to addPrincipal, refactor tests to check for both exclusive errors",rmorris1218,https://api.github.com/repos/aws/aws-cdk/git/commits/9945d9e83c8c0b74cdc1cca44d547ec8016b19c4
+797c74e95e476b5d96275223450ea5563846d314,"Change casing of secretsManager module reference (#4074)
+
+Per issue #3766, using all lower-case matches the other code in the readme and makes it easier for users to copy, paste, and run the code.",Jerry-AWS,https://api.github.com/repos/aws/aws-cdk/git/commits/797c74e95e476b5d96275223450ea5563846d314
+d1f8e5c8366873e8672d70ceb41ec52a003a4529,"fix(elbv2): allow multiple certificates on ALB listener (#4116)
+
+* fix(elasticloadbalancingv2): Allow Multiple Certificates on ALB Listener
+
+Fixes a cloudformation error when attaching multiple certificates to an alb listener. Cloudformation allows only a single certificate attached to the `LoadBalancer` resource. If multiple certificates are passed to the construct on initialization or through the `.addCertificateArns` method, separate `ListenerCertificate` resources are created for all after the first.
+
+Closes [issue #3757](https://github.com/aws/aws-cdk/issues/3757)
+
+* PR Revisions",MrArnoldPalmer,https://api.github.com/repos/aws/aws-cdk/git/commits/d1f8e5c8366873e8672d70ceb41ec52a003a4529
+91cda9d68ca68dd8a9865eed30e5306651d92336,"fix(ecr-assets): docker build targets (#4185)
+
+* feat(aws-ecr-assets): add build target for docker image asset,
+feat(aws-ecs): add build target for docker image asset, feat(aws-ecs):
+add build target for docker image asset, feat(cx-api): add build
+target for docker image asset, feat(aws-cdk): build docker images with
+target when provided
+
+fixes #4184
+
+* fix(aws-cdk): use push instead of concat",themizzi,https://api.github.com/repos/aws/aws-cdk/git/commits/91cda9d68ca68dd8a9865eed30e5306651d92336
+8c69afbcd369aa2ffd8827c48b5f39118577ea5c,"chore(ecs-patterns): update construct and property descriptions (#4244)
+
+* Update descriptions.
+
+* If a logDriver is specified then logging is enabled.
+
+* If a logDriver is specified then logging is enabled.
+
+* chore(aws-ecs-patterns): update construct and property descriptions
+
+* chore(aws-ecs-patterns): update construct and property descriptions",HLeeHart,https://api.github.com/repos/aws/aws-cdk/git/commits/8c69afbcd369aa2ffd8827c48b5f39118577ea5c
+b347c35d1715ea0e737a6706fbacf65aca884bf9,"fix(apigateway): honour requestParameters passed via defaultMethodOptions (#4249)
+
+* fix (apigateway): Apply default request parameters to method
+
+* Add operation name check to make sure we're validating the expected method",svenrienstra,https://api.github.com/repos/aws/aws-cdk/git/commits/b347c35d1715ea0e737a6706fbacf65aca884bf9
+307fc081cdce47540677e76f590ea147dd29d64b,chore(apigateway): amend doc comment for RestApi.addRequestValidator (#4332),Ricool06,https://api.github.com/repos/aws/aws-cdk/git/commits/307fc081cdce47540677e76f590ea147dd29d64b
+9ceb995b0d414005a5a95dc8a620ddc8b364967b,"fix(ecs): nat network mode for windows tasks (#4317)
+
+* fix(ecs): nat network mode for windows tasks
+
+Add NAT network mode to support Windows container networking.
+This is the only network mode supported by Windows.
+See https://docs.aws.amazon.com/AmazonECS/latest/developerguide/windows_task_IAM_roles.html for additional details.
+
+fixes #4272
+
+* remove unnecessary whitespaces
+
+* PR review feedback - consolidate the comments.
+
+* PR feedback - simplify ephemeral port mapping logic",kolomied,https://api.github.com/repos/aws/aws-cdk/git/commits/9ceb995b0d414005a5a95dc8a620ddc8b364967b
+f96b2fb100c5f97e5f791b4c5d616940d85e7da5,"fix(ecr-assets): `exclude` option (#4354)
+
+* fix(@aws-cdk/aws-ecr-assets): `exclude` option (#4353)
+
+fixed #4353
+
+* .dockerignore itself should be included
+* fixed test path with image.sourceHash
+
+* modified excluded path to be tested",kuwabarahiroshi,https://api.github.com/repos/aws/aws-cdk/git/commits/f96b2fb100c5f97e5f791b4c5d616940d85e7da5
+c8f0bcf704d6e71b869d1f06f3591b9b781bff63,"feat(stepfunctions): add support for Map state (#4145)
+
+Step Functions recently launched Map states. This PR adds support for this new state type in CDK.
+
+https://aws.amazon.com/about-aws/whats-new/2019/09/aws-step-functions-adds-support-for-dynamic-parallelism-in-workflows/
+
+https://docs.aws.amazon.com/step-functions/latest/dg/amazon-states-language-map-state.html",melalawi,https://api.github.com/repos/aws/aws-cdk/git/commits/c8f0bcf704d6e71b869d1f06f3591b9b781bff63
+4284aa27fdab67f3f6c938041fe7318670264721,"feat(cli): add tags to CDKToolkit stack through bootstrap cli command (#4320)
+
+* feat(cli): add tags to bootstrap cli(#4227)
+
+* feat(cli): add unit test and integration test and default value for tags in bootstrap cli(#4227)
+
+* feat(cli): reverted test case(#4227)
+
+* feat(cli): fix review comments on toolkit stack tags,removed unwanted test scenarios(#4227)
+
+* feat(cli): fix test cases for bootstrap cli tags(#4227)
+
+* feat(cli): add integration test for tags based on peer review(#4227)
+
+* feat(cli): change toolkit tag integration test message and condition(#4227)",selvathiruarul,https://api.github.com/repos/aws/aws-cdk/git/commits/4284aa27fdab67f3f6c938041fe7318670264721
+3627e23910fefd2dd78a9c97c7fb734de61b3ea1,"fix(elbv2): validate healthcheck intervals (#4280)
+
+Eagerly validate health check settings.
+
+Fixes #4279.",jd-carroll,https://api.github.com/repos/aws/aws-cdk/git/commits/3627e23910fefd2dd78a9c97c7fb734de61b3ea1
+443394cbe671c5438ff5d28f84989111721e6d10,"feat(core): Add ability to set stack description (#4457) (#4477)
+
+* Add description parameter to StackProps
+
+* Test new description StackProp",TomDufall,https://api.github.com/repos/aws/aws-cdk/git/commits/443394cbe671c5438ff5d28f84989111721e6d10
+f5daa6efee6d9102caa929901b34d1a5fe40aabd,"fix(s3): bucket notifications deleted during stack update (#4458)
+
+* fix(s3): bucket notifications unexpectedly deleted during stack update, closes #1566
+
+* fix(s3): fixed integration tests",saksiuchenka,https://api.github.com/repos/aws/aws-cdk/git/commits/f5daa6efee6d9102caa929901b34d1a5fe40aabd
+6f22446b77966fd07a92694b7c7e3cef79d9bccc,"fix(s3): access denied when adding an event notification to a s3 bucket (#4219)
+
+* fix(s3): fix potential access denied when adding an event notification to a s3 bucket
+
+Sometimes the custom resource finishes creating before the iam role of the lambda function is created, after which the custom resource directly executes the lambda function. This results in an access denied error.
+
+fixes #3318
+
+* fix(s3): update expected results with dependencies on iam role and default policy
+
+* fix(s3): update expected results with dependencies on iam role and default policy for aws-lambda-event-sources package",wwsno,https://api.github.com/repos/aws/aws-cdk/git/commits/6f22446b77966fd07a92694b7c7e3cef79d9bccc
+7f4b5c51007f768c8bbfb1af86d580898bccdbb5,"chore(lambda-event-sources): fix readme s3 example (#4563)
+
+* chore(lambda-event-sources): fix readme s3 example
+
+wrong enums
+
+* chore(lambda-event-sources): fix readme s3 example
+
+wrong enum for TrimHorizon",corydozen,https://api.github.com/repos/aws/aws-cdk/git/commits/7f4b5c51007f768c8bbfb1af86d580898bccdbb5
+bbe03800bc25f49965a08b2e14c97d8e8ec3fc65,"fix(stepfunctions): map state validation fix (#4382)
+
+* fix(stepfunctions) Fixed validation for missing iterator for Map state, added synth unit tests
+
+* feat(stepfunctions): Added test and validation for maxConcurrency, that has to be a positive integer
+
+* refactor(stepfunctions): Refactored Map test to reduce code duplication
+
+* refactor(stepfunctions): extracted integer validation outside map, added tests
+
+* fix(stepfunctions) Fixed map test and isPositiveInteger",apalumbo,https://api.github.com/repos/aws/aws-cdk/git/commits/bbe03800bc25f49965a08b2e14c97d8e8ec3fc65
+97649968c35d3af99072a69ebeb99905d4d6122a,feat(ec2): mutable? param for imported SecurityGroups (#4493),valzam,https://api.github.com/repos/aws/aws-cdk/git/commits/97649968c35d3af99072a69ebeb99905d4d6122a
+ace80414a2c1fde6e6bcff49f59a40c590c0e492,"fix(aws-lambda): update deprecation warning for node.js 8.10 (#4624)
+
+* Add deprecation warning on NODEJS_8_10
+
+Node.js 8.10 will soon be EOL and AWS started to send out warning emails of current users.
+
+See https://docs.aws.amazon.com/lambda/latest/dg/runtime-support-policy.html
+
+* Update older deprecation warnings on Node.js
+
+* Use @link",coderbyheart,https://api.github.com/repos/aws/aws-cdk/git/commits/ace80414a2c1fde6e6bcff49f59a40c590c0e492
+a71142530e0b8583fb716561eb42e9637bcde75a,"fix(acm): update CertificateRequestorFunction runtime (#4612)
+
+Fixes #4610",jakerullman,https://api.github.com/repos/aws/aws-cdk/git/commits/a71142530e0b8583fb716561eb42e9637bcde75a
+203a605a05244b146a1643941e7609a0dc28c422,"feat(ec2): Support explicit Subnet selection (#4622)
+
+* feat(ec2): Support explicit Subnet selection
+
+__WHY__
+AWS CDK allows developers to attach subnets to other resource (e.g. ASG)
+using Subnets selection feature. It implies re-use of existing subnets.
+It is not possible to create subnet and attach it to ASG in same stack.
+
+__WHAT__
+The Subnet selection feature is expanded with ability to explicitly
+define desired subnets. The subnet selection essentially becomes an
+identity funnction.
+
+* feat(ec2): incorporate code review comments",fogfish,https://api.github.com/repos/aws/aws-cdk/git/commits/203a605a05244b146a1643941e7609a0dc28c422
+8b598c49730cf6bb126fa68825cf5f28d9373475,"fix(elbv2): fix disabling proxy protocol v2 attribute for NetworkTargetGroup (#4596)
+
+fixes #4574",v-do,https://api.github.com/repos/aws/aws-cdk/git/commits/8b598c49730cf6bb126fa68825cf5f28d9373475
+0e965754fa6d563402190edf20c4dc68b97321da,"(feat) aws-cloudwatch: add support for time range value (#4649)
+
+fixes #4647",Amri91,https://api.github.com/repos/aws/aws-cdk/git/commits/0e965754fa6d563402190edf20c4dc68b97321da
+35d82f0fdd4d8b4685933012af460b8551e24cf3,Lambda docs: remove incorrect line fromFunctionAttributes docstring (#4736),plumdog,https://api.github.com/repos/aws/aws-cdk/git/commits/35d82f0fdd4d8b4685933012af460b8551e24cf3
+c770d3cd167760ef6fb9b13c8fea89e16bceec64,"feat(elbv2): add redirect action of ALB's listener (#4606)
+
+Closes #4546.",zxkane,https://api.github.com/repos/aws/aws-cdk/git/commits/c770d3cd167760ef6fb9b13c8fea89e16bceec64
+bbec8c5c3995b9400cfd6ad0d7a71e8f8646a3b9,"feat(aws-events): Adds EventBus resources (#4609)
+
+Adds the L2 resource for `CfnEventBus`",dehli,https://api.github.com/repos/aws/aws-cdk/git/commits/bbec8c5c3995b9400cfd6ad0d7a71e8f8646a3b9
+004dfd4aac6f02149dfcfa934cab58bf7d51b9ab,"new Encrypted Stream update (#4743)
+
+White space issue in the documentation for new Encrypted Stream",justengland,https://api.github.com/repos/aws/aws-cdk/git/commits/004dfd4aac6f02149dfcfa934cab58bf7d51b9ab
+46d9885f9765f4a54233ee1c5652812aec571bb9,"feat(s3): onCloudTrailWriteObject matches all update events (#4723)
+
+* fix(s3): rule should match all update events
+
+In addition to 'PutObject', onCloudTrailPutObject() should also match on
+event names 'CopyObject' and 'CompleteMultipartUpload'; otherwise the event
+does not trigger when files are uploaded using those APIs.  E.g., larger
+files are uploaded using the multipart API.
+
+fixes #4634
+
+* added unit tests
+
+removed unnecessary integration tests
+
+* update expected cfn output for integ
+
+* new method for matching object writes
+
+* use new method to match write events",njlaw,https://api.github.com/repos/aws/aws-cdk/git/commits/46d9885f9765f4a54233ee1c5652812aec571bb9
+22fe0ce5d5c39564c85f2a4af6f150bd8fac1bae,"fix(eks): pass `--use-max-pods` to bootstrap options when false (#4753)
+
+* fix(eks): pass `--use-max-pods` to bootstrap options when false
+
+* chore(eks): default useMaxPods to true and update tests accordingly
+
+* fix(eks): fix eks integration tests in useMaxPods",progamesigner,https://api.github.com/repos/aws/aws-cdk/git/commits/22fe0ce5d5c39564c85f2a4af6f150bd8fac1bae
+c722b313f92508c83126a5706d27165cd7a542c7,"Add parameters to TaskProp, PassProp [fixes #3453] (#4815)",alukach,https://api.github.com/repos/aws/aws-cdk/git/commits/c722b313f92508c83126a5706d27165cd7a542c7
+390f00a5cdf532ed4993af58e6ae3c0150eadc5c,chore : fix typo (#4840),0gajun,https://api.github.com/repos/aws/aws-cdk/git/commits/390f00a5cdf532ed4993af58e6ae3c0150eadc5c
+8ed372a5d0ef409c6071caee94d83a813c3ff2a9,chore: fix typo (#4880) (#4881),arnoschutijzer,https://api.github.com/repos/aws/aws-cdk/git/commits/8ed372a5d0ef409c6071caee94d83a813c3ff2a9
+652a8f5b4d253babb57dfb3f900794071509a565,"feat(apigateway): publish api endpoint through an export name #3662  (#4849)
+
+* feat(apigateway): allow customizing the name of the CfnOutput
+
+* chore(apigateway): refactor endpointExportName resolution logic
+
+* chore(apigateway): fix tests for restapi
+
+* simplify logic a little",whimzyLive,https://api.github.com/repos/aws/aws-cdk/git/commits/652a8f5b4d253babb57dfb3f900794071509a565
+2f8d06a480228ef5a58e14e1af8b67bd466d21b2,"fix(dockerfile): add yarn (#4844)
+
+* added yarn
+
+* verify that gpg key",arnulfojr,https://api.github.com/repos/aws/aws-cdk/git/commits/2f8d06a480228ef5a58e14e1af8b67bd466d21b2
+d5cefe8a23acf55ddf136924c5a021160cb73223,"chore: fix author matching in Mergify configuration (#4851)
+
+Fix the Mergify operator for author condition.
+
+The current value for `author` is meant to be a regexp so the `~=` operator must be used to match it, not just `=`.",jd,https://api.github.com/repos/aws/aws-cdk/git/commits/d5cefe8a23acf55ddf136924c5a021160cb73223
+c02c9e5518bfb2d8f8195322b7fd97343f5ca63b,"feat(cli): adding new option to `cdk deploy` to indicate whether ChangeSet should be executed (#4852)
+
+* feat(aws-cdk): adding new option to `cdk deploy`
+
+I created the option to *NOT* execute the ChangeSet via `cdk deploy`.
+
+The flag is called **execute** and by default is set to true. By not providing this flag, the workflow of `cdk deploy` will be the same.
+
+If anyone wants to *NOT* execute the ChangeSet, providing the flag `--no-execute` will pass the execution of the ChangeSet.
+
+You will be able to see the ChangeSet in AWS CloudFormation Console, validate the resources and discard or execute the ChangeSet.
+
+closes #4739
+
+* feat(cli): adding new option to `cdk deploy` to indicate whether ChangeSet should be executed
+
+I created the option to *NOT* execute the ChangeSet via `cdk deploy`.
+
+The flag is called **execute** and by default is set to true. By not providing this flag, the workflow of `cdk deploy` will be the same.
+
+If anyone wants to *NOT* execute the ChangeSet, providing the flag `--no-execute` will pass the execution of the ChangeSet.
+
+You will be able to see the ChangeSet in AWS CloudFormation Console, validate the resources and discard or execute the ChangeSet.
+
+closes #4739
+
+* feat(cli): adding new option to `cdk deploy` to indicate whether ChangeSet should be executed
+
+I created the option to *NOT* execute the ChangeSet via `cdk deploy`.
+
+The flag is called **execute** and by default is set to true. By not providing this flag, the workflow of `cdk deploy` will be the same.
+
+If anyone wants to *NOT* execute the ChangeSet, providing the flag `--no-execute` will pass the execution of the ChangeSet.
+
+You will be able to see the ChangeSet in AWS CloudFormation Console, validate the resources and discard or execute the ChangeSet.
+
+closes #4739
+
+* feat(cli): adding new option to `cdk deploy` to indicate whether ChangeSet should be executed
+
+I created the option to *NOT* execute the ChangeSet via `cdk deploy`.
+
+The flag is called **execute** and by default is set to true. By not providing this flag, the workflow of `cdk deploy` will be the same.
+
+If anyone wants to *NOT* execute the ChangeSet, providing the flag `--no-execute` will pass the execution of the ChangeSet.
+
+You will be able to see the ChangeSet in AWS CloudFormation Console, validate the resources and discard or execute the ChangeSet.
+
+closes #4739
+
+* feat(cli): adding new option to `cdk deploy` to indicate whether ChangeSet should be executed
+
+I created the option to *NOT* execute the ChangeSet via `cdk deploy`.
+
+The flag is called **execute** and by default is set to true. By not providing this flag, the workflow of `cdk deploy` will be the same.
+
+If anyone wants to *NOT* execute the ChangeSet, providing the flag `--no-execute` will pass the execution of the ChangeSet.
+
+You will be able to see the ChangeSet in AWS CloudFormation Console, validate the resources and discard or execute the ChangeSet.
+
+closes #4739
+
+* feat(cli): adding new option to `cdk deploy` to indicate whether ChangeSet should be executed
+
+I created the option to *NOT* execute the ChangeSet via `cdk deploy`.
+
+The flag is called **execute** and by default is set to true. By not providing this flag, the workflow of `cdk deploy` will be the same.
+
+If anyone wants to *NOT* execute the ChangeSet, providing the flag `--no-execute` will pass the execution of the ChangeSet.
+
+You will be able to see the ChangeSet in AWS CloudFormation Console, validate the resources and discard or execute the ChangeSet.
+
+closes #4739",robertma96,https://api.github.com/repos/aws/aws-cdk/git/commits/c02c9e5518bfb2d8f8195322b7fd97343f5ca63b
+8fd939da9adc06e59f7dff894785374451fb3e42,"Update stack.ts (#4745)
+
+Fixing the Invalid Regex error message. Had me debugging the wrong thing for a while.",deepkarang,https://api.github.com/repos/aws/aws-cdk/git/commits/8fd939da9adc06e59f7dff894785374451fb3e42
+1d95cb7bc3e00783402cf671cc1b9373811277a4,"fix(ec2): too long CIDR for ""any"" IPv6 (#5065)
+
+* fix(ec2) : Correct any IP range for IPv6
+
+* Reset yarn.lock",sayboras,https://api.github.com/repos/aws/aws-cdk/git/commits/1d95cb7bc3e00783402cf671cc1b9373811277a4
+534ef0033d01342530754ffb0100d7678e593ab9,refactor(awslint): add missing semicolon (#5153),alngy,https://api.github.com/repos/aws/aws-cdk/git/commits/534ef0033d01342530754ffb0100d7678e593ab9
+4c1a9ec2fbb08b7d3406e767e69e43a42fd935a9,"feat(lambda): function can be attached to a list of security groups in the vpc (#5049)
+
+* feat(aws-lambda): allow lambda function to accept list of Security
+Groups
+
+- add test case to cover the existing feature of accepting single SG
+- add a new function prop that can accept list of SGs, and is optional and conditional
+
+* feat(aws-lambda): work on review comments and mark securityGroup prop as deprecated",ashwgupt,https://api.github.com/repos/aws/aws-cdk/git/commits/4c1a9ec2fbb08b7d3406e767e69e43a42fd935a9
+d2a86a575377737b7d5772afb6d012aa80fa2b0f,fix(docs): update removed subscribeLambda method example (#5060),hong823,https://api.github.com/repos/aws/aws-cdk/git/commits/d2a86a575377737b7d5772afb6d012aa80fa2b0f
+edd53959af38969339205a5c33aaab11acc72fa6,"feat(sns): support KMS masterKey on SNS (#5052)
+
+Add Support KMS masterKey on SNS.
+It is allowed to set `masterKey` as `Kms::Key` to `TopicProps`.
+Fixes #1729",yamatatsu,https://api.github.com/repos/aws/aws-cdk/git/commits/edd53959af38969339205a5c33aaab11acc72fa6
+7d2a37140a0f5e1e931d4a0476abced43b05066b,"minor typo in Lambda example (#5201)
+
+incorrect const value for loadbalancer which is referenced in the next section",msimpsonnz,https://api.github.com/repos/aws/aws-cdk/git/commits/7d2a37140a0f5e1e931d4a0476abced43b05066b
+e6ef98127d070e7e5aabf839cecc198594700e1b,"feat(codebuild): support AL2 2.0 & Standard 3.0 (#5226)
+
+* feat(codebuild): support AL2 2.0 & Standard 3.0
+
+* fixup ignore docs-public-apis errors for new images",trivikr,https://api.github.com/repos/aws/aws-cdk/git/commits/e6ef98127d070e7e5aabf839cecc198594700e1b
+ecbe0b6ab2e652454d561879f699821bfb18b81a,fix(cli): fix the behaviour for the `--generate-only` flag (#5253),netroy,https://api.github.com/repos/aws/aws-cdk/git/commits/ecbe0b6ab2e652454d561879f699821bfb18b81a
+465c8484c65acc69141acd3dad6a61e5955e7cc6,fix(ec2): Fix CODEBUILD_FIPS interface endpoint (#5315),cmckni3,https://api.github.com/repos/aws/aws-cdk/git/commits/465c8484c65acc69141acd3dad6a61e5955e7cc6
+eea5fbb1d6ab3598e5a2466e0c79e657e4e56907,chore: fix typos on  descriptions (#5356),Masov,https://api.github.com/repos/aws/aws-cdk/git/commits/eea5fbb1d6ab3598e5a2466e0c79e657e4e56907
+88df1ebdbe9faf3717ed32a7daf96e3668bb483e,"feat(region-info): throw exception when no fact found (#5166)
+
+* New method that throws an exception when the Fact value, given a name and region, are not found.
+
+closes #3194",stephendwu,https://api.github.com/repos/aws/aws-cdk/git/commits/88df1ebdbe9faf3717ed32a7daf96e3668bb483e
+1b12dba660acbff1b64780198db768f9b4f481ed,"fix(cli): this.node.addError does not cause `cdk diff` to fail #4700 (#5284)
+
+Adding in appStacks.processMetadata(stacks); command into the diff method so that metadata is processed correctly and the diff should fail",nideveloper,https://api.github.com/repos/aws/aws-cdk/git/commits/1b12dba660acbff1b64780198db768f9b4f481ed
+1fcc0ea72716aeb3ea9779f113eff98c2a47d8ea,"docs(ecs): correct doc with proper comparison between launch types
+
+- in the middle of document, there is comparison between AWS Fargate vs Amazon ECS.
+- it should be comparing AWS Fargate & Amazon EC2
+- closes #5393",sukjae,https://api.github.com/repos/aws/aws-cdk/git/commits/1fcc0ea72716aeb3ea9779f113eff98c2a47d8ea
+5e0875341fae8eee4489bcda495a6dcc246cad63,"fix(route53): return plain hosted zone id without /hostedzone/ prefix (#5230)
+
+When creating a HostedZone, the `hostedZoneId` is the ID of this hosted zone, such as ""Z23ABC4SAMPLE"".
+
+Until how, when importing a HostedZone using route53.HostedZone.fromLookup, it did return the `hostedZoneId` in this format: /hostedzone/Z23ABC4SAMPLE.
+
+This commit makes the value of `hostedZoneId` consistent between creating a new `HostedZone`, using `HostedZone.fromLookup` and `fromHostedZoneAttributes`.
+
+BREAKING CHANGE: the value of `hostedZoneId` will no longer include `/hostedzone/` prefix and only includes the hostedZoneId when using  `HostedZone.fromLookup` or `fromHostedZoneAttributes`",AlexZeitler,https://api.github.com/repos/aws/aws-cdk/git/commits/5e0875341fae8eee4489bcda495a6dcc246cad63
+150e65cababe8ba44183436b9964f7b70f47eb0c,"feat(ecs-patterns): healthyPercent on ALB, NLB, Fargate (#4820)
+
+* feat(ecs-patterns): healthyPercent on ALB
+
+* feat(ecs-patterns): healthyPercent NLB, ALB, Fargate
+
+* feat(ecs-patterns): healthyPercent tests",quincycs,https://api.github.com/repos/aws/aws-cdk/git/commits/150e65cababe8ba44183436b9964f7b70f47eb0c
+e4309abf07f3b0cc9f2f2f89789f14669f3d3581,"fix(ec2): can't add non-default routes to subnets (#5332)
+
+* fixes using destinationCidrBlock to subnet route
+
+* fix(ec2):
+adds unit test for default routes
+
+* chore(ec2): replace accidentally deleted test
+
+* chore(ec2): run linter
+
+* fix(ec2): update unit test to check route creation",ialford,https://api.github.com/repos/aws/aws-cdk/git/commits/e4309abf07f3b0cc9f2f2f89789f14669f3d3581
+58e67e6185fae008d797c68417f1653b1ecee2d6,feat(ecs): Add support for ECS DeploymentController (#5402),tleef,https://api.github.com/repos/aws/aws-cdk/git/commits/58e67e6185fae008d797c68417f1653b1ecee2d6
+f34076c7aa99459f37981e68736ab6bcdca69309,Document `fromStringListParameterName` return type (#5418),SomayaB,https://api.github.com/repos/aws/aws-cdk/git/commits/f34076c7aa99459f37981e68736ab6bcdca69309
+f3d5fc98fefdf379f62925bbdf30bb7eecfa0a52,"fix(apigateway): unable to enable cors with a root proxy and LambdaRestApi (#5249)
+
+If a proxy resource is added to the root, it will reflect any `addMethod` calls to the root resource, which causes two OPTIONS methods to be created when CORS is specified (one directly against the root resource and one by the proxy).
+
+This uncovered a more general bug where if the proxy resource was added to the root, and the root already included a method of a certain kind, we will get a duplicate.
+
+The fix is to avoid the proxy `addMethod` reflection on the root in case there is already a method by that type on the root.
+
+This, indirectly, also fixes #5232, where CORS cannot be used with `LambdaRestApi`, which is basically a root proxy.",lukehedger,https://api.github.com/repos/aws/aws-cdk/git/commits/f3d5fc98fefdf379f62925bbdf30bb7eecfa0a52
+d50344abb643f6f2c200bba15cfce4d469485dd9,"feat(lambda): provisioned concurrency (#5308)
+
+fixes #5298",nataibi,https://api.github.com/repos/aws/aws-cdk/git/commits/d50344abb643f6f2c200bba15cfce4d469485dd9
+1291ef6b4eb7b8333247b243bcf37bdcb8aaa07f,"feat(codebuild): add 2X_Large compute type option (#5429)
+
+Fixes #5401",DmitryNefedov,https://api.github.com/repos/aws/aws-cdk/git/commits/1291ef6b4eb7b8333247b243bcf37bdcb8aaa07f
+7b34d5635ecda5db337dfab32711443f57ad1518,feat(eks): EKS-Optimized AMI with GPU support for G4 instance (#5479),walkley,https://api.github.com/repos/aws/aws-cdk/git/commits/7b34d5635ecda5db337dfab32711443f57ad1518
+16a1200b7132f72772a5d5230e137f793cd56d7a,"fix(codebuild): rename CodeBuild VPC policy to be unique (#5385)
+
+The policy used for the VPC permissions had the hard-coded name 'CodeBuildEc2Polocy',
+which meant you could only have at most one CodeBuild project in a VPC in each stack.
+The change is to use the construct's unique ID as the policy name,
+which means it will be different for every project in the stack.",eastNine,https://api.github.com/repos/aws/aws-cdk/git/commits/16a1200b7132f72772a5d5230e137f793cd56d7a
+cad5bc148bfdd088c1307932b919899a98fd860a,feat(core): add support for the ref intrinsic function (#5468) (#5470),flyingImer,https://api.github.com/repos/aws/aws-cdk/git/commits/cad5bc148bfdd088c1307932b919899a98fd860a
+ac748c1786e68774f5d0ea9cfbec439034166c40,"feat(cli): support custom CA certificate bundles
+
+Some large orgs enforce HTTPS proxies to communicate with services, which means they often have internal certificate authorities that generate leaf certificates on the fly. This commit adds basic support for specifying a root CA certificate for trust.
+
+Fixes #5294",ed-at-work,https://api.github.com/repos/aws/aws-cdk/git/commits/ac748c1786e68774f5d0ea9cfbec439034166c40
+394313ee931e38bc20fc3dcb1cd2fd1b6f66822e,"feat(eks): helm chart support (#5390)
+
+* Added HelmRelease construct
+
+* feat(eks): Add HelmRelease construct
+
+* Fix some linting problems
+
+* Remove trailing whitespace
+
+* Add the possibility to specify the chart version
+
+* Changes after code review
+
+* Add shell=True to command execution
+
+* Execute helm command in /tmp
+
+* Write a correct values.yaml
+
+* Add resources to integration tests
+
+* Change require to import
+
+* Lazy add HelmChartHandler
+
+* Add integration tests for Helm
+
+* Added convenience addChart to Cluster
+
+* Fix integration test.
+
+* Change addChart method to use options pattern
+
+* Added @default and truncate default chart name
+
+* Added the Helm entry to the README.md
+
+Co-authored-by: Elad Ben-Israel <benisrae@amazon.com>
+Co-authored-by: mergify[bot] <37929162+mergify[bot]@users.noreply.github.com>",vlesierse,https://api.github.com/repos/aws/aws-cdk/git/commits/394313ee931e38bc20fc3dcb1cd2fd1b6f66822e
+c3ac965b5c4cb816e9ecc974b741dc7e29fb86b1,"fix(stepfunctions): permission race condition on state machine deletion (#5466)
+
+Lambda State Machines now depend on their policies.
+
+Fixes #5336",mshober,https://api.github.com/repos/aws/aws-cdk/git/commits/c3ac965b5c4cb816e9ecc974b741dc7e29fb86b1
+fc2679ba6455d723dca345211012d3bcbd8e5225,java: maven-compiler-plugin 3.8.1 (#5545),sullis,https://api.github.com/repos/aws/aws-cdk/git/commits/fc2679ba6455d723dca345211012d3bcbd8e5225
+c6b15ed8993da89ac624e787c67ea55ae3677b89,docs(vpc): fromLookup() allows asymmetric vpc import (#5563),NetaNir,https://api.github.com/repos/aws/aws-cdk/git/commits/c6b15ed8993da89ac624e787c67ea55ae3677b89
+6f7e3c67f84786fe3d5077510009824c77f15367,"chore(docs): Fix toolchain link in CONTRIBUTING guide (#5561)
+
+Fix non-existent link to #toolchains in the CONTRIBUTING.md (moved to the nearest #getting-started section).
+
+It seems the #toolchains section was removed in the following pull request (and merged into the #getting-started section (but the original link remained).",parroty,https://api.github.com/repos/aws/aws-cdk/git/commits/6f7e3c67f84786fe3d5077510009824c77f15367
+14cdaf4f89ade500dead7a920bfaa5b25d931ccb,docs(aws-sns-subscriptions): fix typo in README (#5514),reesscot,https://api.github.com/repos/aws/aws-cdk/git/commits/14cdaf4f89ade500dead7a920bfaa5b25d931ccb
+a7f189e980fdc21b44b8d20fcb491d798ffb682e,"feat(cloudwatch): support for metric math (#5582)
+
+Add support for `MathExpression`, which is a new class that can be used
+in place of `Metric` objects in graphs and alarms.
+
+Also in this commit, make it very clear what the purpose of the `unit`
+property is, and deprecate `toGraphConfig()` and `toAlarmConfig()`.
+
+Fixes #1077, fixes #5449, fixes #5261, fixes #4716.",AhmedSedek,https://api.github.com/repos/aws/aws-cdk/git/commits/a7f189e980fdc21b44b8d20fcb491d798ffb682e
+7ceee6dacc268a3e2daecbec254c59886d28add6,"fix(s3n): s3n lambda destination works with function by arn (#5599)
+
+fixes #5592
+
+Co-authored-by: Elad Ben-Israel <benisrae@amazon.com>",wcauchois,https://api.github.com/repos/aws/aws-cdk/git/commits/7ceee6dacc268a3e2daecbec254c59886d28add6
+1b25a4b44e992f076d0bcf2d805880fdbebca34a,"feat(ecr-assets): custom docker files (#5652)
+
+* support custom docker files
+
+* revert tsconfig changes
+
+* doc strings modification according to conventions",iliapolo,https://api.github.com/repos/aws/aws-cdk/git/commits/1b25a4b44e992f076d0bcf2d805880fdbebca34a
+a2713f35d65bd26fb9ff878c6daed072ffed5f15,"feat(ec2): `VpcEndpointService` construct
+
+Add an experimental `VpcEndpointService` construct, to allow exposing Network Load Balancers as endpoints in a VPC.",flemjame-at-amazon,https://api.github.com/repos/aws/aws-cdk/git/commits/a2713f35d65bd26fb9ff878c6daed072ffed5f15
+6108b91d6d3c087a61ac9b3990030a5a52a08808,"feat: recommend matching commands (#5668)
+
+Co-authored-by: Elad Ben-Israel <benisrae@amazon.com>",jamesgeorge007,https://api.github.com/repos/aws/aws-cdk/git/commits/6108b91d6d3c087a61ac9b3990030a5a52a08808
+bf2d6354a1a56c3ff8760e99f3d5d552c39786f2,docs(rds): corrected format in preferredMaintenanceWindow (#5697),rushimusmaximus,https://api.github.com/repos/aws/aws-cdk/git/commits/bf2d6354a1a56c3ff8760e99f3d5d552c39786f2
+be2e3e305eee5d90552c08512a4d476db74b91d0,feat(codepipeline): add support for externalEntityLink in the manual approval action (#5558),michaelbrewer,https://api.github.com/repos/aws/aws-cdk/git/commits/be2e3e305eee5d90552c08512a4d476db74b91d0
+ee6decbb4f2b90454777632f8750eae8674b1be2,"feat(assert): cdk assert: implement 'haveOutput' assertion (#5366)
+
+Implements an ability to assert presence of stack outputs with specific
+properties being present.
+
+Fixes #1906",ilya-v-trofimov,https://api.github.com/repos/aws/aws-cdk/git/commits/ee6decbb4f2b90454777632f8750eae8674b1be2
+18e15de64dfcadd9b5cacef54ed5d93a9a91189a,"fix(glue): empty string in Table.s3prefix is not undefined (#5783)
+
+When the Glue Table's s3Prefix property is an empty string,
+it should not be replaced with the default value.
+
+Fixes #5763",melgenek,https://api.github.com/repos/aws/aws-cdk/git/commits/18e15de64dfcadd9b5cacef54ed5d93a9a91189a
+a1cd7432eb817a0a9361c907445c01eea4cb1321,"feat(lambda): allow inline code for nodejs12.x runtime (#5710)
+
+* chore(lambda): new runtimes support inline code
+
+The nodejs12.x and python3.8 Lambda runtimes actually support inline code.
+
+This reverts commit feb1f9beb9e4d2fa9d23006e2e7715b8a5434d5e.
+
+* Python3.8 doesn't support inline code yet
+
+* add integ test
+
+* add missing expected.json
+
+Co-authored-by: Niranjan Jayakar <16217941+nija-at@users.noreply.github.com>
+Co-authored-by: mergify[bot] <37929162+mergify[bot]@users.noreply.github.com>",gruenem,https://api.github.com/repos/aws/aws-cdk/git/commits/a1cd7432eb817a0a9361c907445c01eea4cb1321
+4345f4367afa1d86d882b2e6c137372f07e1d6b1,super easy fix for hard to find bug,jarrodu,https://api.github.com/repos/aws/aws-cdk/git/commits/4345f4367afa1d86d882b2e6c137372f07e1d6b1
+5ed5eb416ec92f12c6bda352bc81b684f7a54517,"fix(core): allow empty string components in parseArn (#5875)
+
+fixes #5808
+
+BREAKING CHANGE: Arn.parseArn now returns empty string for nullable Arn
+components. Users who were depending on an undefined value will now
+receive the falsy empty string.",melchii,https://api.github.com/repos/aws/aws-cdk/git/commits/5ed5eb416ec92f12c6bda352bc81b684f7a54517
+d51350b6e801750d17046ba7f09fda2bf76efbec,docs(ecs): use correct property name `newTargetGroupId`,reimaruyama,https://api.github.com/repos/aws/aws-cdk/git/commits/d51350b6e801750d17046ba7f09fda2bf76efbec
+61437fddf18f459654736771b5cec35077ec9a2d,"update README.md with correct location of PipelineProject location (#5896)
+
+The correct location of the PipelineProject documentation is @aws-cdk/@aws-codepipeline-actions and not @aws-cdk/@aws-codepipeline.",stowns,https://api.github.com/repos/aws/aws-cdk/git/commits/61437fddf18f459654736771b5cec35077ec9a2d
+667443c99683dcb6b02073350bdabc8aa482d1c2,"fix(cli): parse equals sign in context values (#5773)
+
+Uses a regular expression that contains capturing parentheses for the context value after the first equals sign.
+
+fixes #5738
+
+Co-authored-by: mergify[bot] <37929162+mergify[bot]@users.noreply.github.com>",jzj,https://api.github.com/repos/aws/aws-cdk/git/commits/667443c99683dcb6b02073350bdabc8aa482d1c2
+ed719317cd8422182df9512807294c2822d470ea,"fix(route53): correct import example in README.md (#5946)
+
+Co-authored-by: mergify[bot] <37929162+mergify[bot]@users.noreply.github.com>",rogerchi,https://api.github.com/repos/aws/aws-cdk/git/commits/ed719317cd8422182df9512807294c2822d470ea
+ff08e3a4f613731c4f6168489242bedbb4a2fcd0,Fixed link to Construct library (#5994),AverageMarcus,https://api.github.com/repos/aws/aws-cdk/git/commits/ff08e3a4f613731c4f6168489242bedbb4a2fcd0
+e7ef5e5660457eb82252e8992214da775b83c41c,"fix(ecr-assets): docker images are not built if .dockerignore includes an entry that ignores the dockerfile. (#6007)
+
+* Don't leave Dockerfile or .dockerignore out or the assets folder if in the .dockerignore file
+
+* Ensure that custom Dockerfile names never get excluded from assets
+
+* Making explanatory comment less verbose",nathanpeck,https://api.github.com/repos/aws/aws-cdk/git/commits/e7ef5e5660457eb82252e8992214da775b83c41c
+4bdd084fdc3c52c4d05db1ebfb20c79b9ffbe319,"chore(lambda-destinations): typo in lambda destinations readme 
+
+fixes #6030",hom-bahrani,https://api.github.com/repos/aws/aws-cdk/git/commits/4bdd084fdc3c52c4d05db1ebfb20c79b9ffbe319
+d522d26462cef8610efc6cd60893494ac0cfb93d,"added link to RFS Repository to main page (#6022)
+
+A nice link to the RFC Repo would be very handy
+
+Co-authored-by: Elad Ben-Israel <benisrae@amazon.com>",richardhboyd,https://api.github.com/repos/aws/aws-cdk/git/commits/d522d26462cef8610efc6cd60893494ac0cfb93d
+b19d03855e9725f4061d2977ee811228004bc056,"fix policy name (#6043)
+
+This seems to be wrong. Tried as documented but cdk seems to prefix `policy/` to the name, resulting in this policy change:
+
+```
+IAM Policy Changes
+┌───┬────────────────┬───────────────────────────────────────────────────────────────────────────┐
+│   │ Resource       │ Managed Policy ARN                                                        │
+├───┼────────────────┼───────────────────────────────────────────────────────────────────────────┤
+│ + │ ${SomeService} │ arn:${AWS::Partition}:iam::aws:policy/policy/AmazonSSMManagedInstanceCore │
+└───┴────────────────┴───────────────────────────────────────────────────────────────────────────┘
+```
+
+It then consequently fails with 
+
+```
+Policy arn:aws:iam::aws:policy/policy/AmazonSSMManagedInstanceCore does not exist or is not attachable.
+```
+
+Co-authored-by: mergify[bot] <37929162+mergify[bot]@users.noreply.github.com>",udondan,https://api.github.com/repos/aws/aws-cdk/git/commits/b19d03855e9725f4061d2977ee811228004bc056
+c7197c0048474f69e253b752e289abad6e72554f,"fix(aws-s3-deployment): fix server side encryption parameters (#6006)
+
+fixes #6002",mattsains,https://api.github.com/repos/aws/aws-cdk/git/commits/c7197c0048474f69e253b752e289abad6e72554f
+155b80ea30cf7c22e50fe4acdbc68978ae8be173,"feat(aws-codebuild): allow github sourceversion branch (#5890)
+
+* feat(aws-codebuild): allow github sourceversion branch
+Addresses issue #5777.Users may want to specify which github branch a codebuild should use as its source. Currently the branch always defaults to 'master', but users may want to test features in development on other branches
+
+* add required documentation
+
+* add sourceVersion to all CodeBuild sources. Add secondarySourceVersions option
+
+* unify version on GitSource to branch or ref. fix indentation. remove unused property. only render secondary sources versions when present.
+
+* update s3 name to version
+
+* remove duplication
+
+Co-authored-by: mergify[bot] <37929162+mergify[bot]@users.noreply.github.com>",knorms101,https://api.github.com/repos/aws/aws-cdk/git/commits/155b80ea30cf7c22e50fe4acdbc68978ae8be173
+2240e97eded2578aa09ccd3af282bfb6db5667d7,"feat(appsync): add support for mapping DynamoDB queries (#5940)
+
+Add support to the L2 AppSync constructs for mapping DynamoDB queries.
+
+Fixes #5861
+
+Signed-off-by: Duarte Nunes <duarte@uma.ni>",duarten,https://api.github.com/repos/aws/aws-cdk/git/commits/2240e97eded2578aa09ccd3af282bfb6db5667d7
+08a134219d7e36fbe862a95ecc145edc18f518e0,Merge branch 'master' into benisrae/docker-assets,mergify[bot],https://api.github.com/repos/aws/aws-cdk/git/commits/08a134219d7e36fbe862a95ecc145edc18f518e0
+4881be9e1f86bf52afd05c8b9a7c08b6868ca0dd,"docs: Update miss spelled method (#6123)
+
+Co-authored-by: mergify[bot] <37929162+mergify[bot]@users.noreply.github.com>",intercept6,https://api.github.com/repos/aws/aws-cdk/git/commits/4881be9e1f86bf52afd05c8b9a7c08b6868ca0dd
+6456a7c508c6cc68e98ebdcf8c0f4336cb3c0b89,"fix(ecs): fix splunk-sourcetype (#6128)
+
+* fix(splunk-log-driver): correct misspelling of splunk-sourcetype (https://github.com/aws/aws-cdk/issues/5456)
+
+* Reverted changes to yarn.lock",Stericson,https://api.github.com/repos/aws/aws-cdk/git/commits/6456a7c508c6cc68e98ebdcf8c0f4336cb3c0b89
+d9a043b6f604d70525a94e69db0c94589221e720,"fix(assets): add exclude glob patterns to calculating fingerprint for staging (#6085)
+
+* fix(assets): add exclude glob patterns to calculating fingerprint for staging
+fixes #5238
+
+* only add exclude to hash when specified and use JSON.stringify
+
+Co-authored-by: mergify[bot] <37929162+mergify[bot]@users.noreply.github.com>",Samrose-Ahmed,https://api.github.com/repos/aws/aws-cdk/git/commits/d9a043b6f604d70525a94e69db0c94589221e720
+39dd1119684557020b921d893e2624f38b63ec32,"feat(iam): lookup ManagedPolicy via ARN
+
+This new method allows users to create a ManagedPolicy object from an Arn. This can be useful if the Arn is defined in something like a Cloudformation Export.
+
+closes #6186",elruwen,https://api.github.com/repos/aws/aws-cdk/git/commits/39dd1119684557020b921d893e2624f38b63ec32
+5ae81cdddd75abedbcef7d856bdb20458fac5fcb,"feat(step-functions): `grantStartExecution` available on imported StateMachine
+
+Add `grantStartExecution` signature to `IStateMachine` interface so imported StateMachines also have the method.
+
+Closes #6173",BenChaimberg,https://api.github.com/repos/aws/aws-cdk/git/commits/5ae81cdddd75abedbcef7d856bdb20458fac5fcb
+c69b6d2d712f9c307dd9de214acc96f5f944cc7d,"feat(stepfunctions): EMR service integrations
+
+This PR implements aws-stepfunctions-tasks for the newly released EMR/Step Functions service integrations. These include:
+
+* createCluster
+* setClusterTerminationProtection
+* terminateCluster
+* addStep
+* cancelStep
+* modifyInstanceFleetByName
+* modifyInstanceGroupByName
+
+Closes #5224",chamcca,https://api.github.com/repos/aws/aws-cdk/git/commits/c69b6d2d712f9c307dd9de214acc96f5f944cc7d
+491e2d970c849cbc00e7cb3def927b12054d572f,"feat(assert): add countResourcesLike method (#6168)
+
+* feat(assert): add countResourcesLike method
+
+Adds a method to get a count of Stack resources filtered by Type (i.e. `""AWS::ApiGateway::Method""`) as well as properties (i.e. `{ resourceId: ""MyResource01234"" }`)
+
+* feat(assert): add countResourcesLike method
+
+Adds documentation for `countResources` and `countResourcesLike` methods
+
+* Update README.md
+
+Co-authored-by: Elad Ben-Israel <benisrae@amazon.com>
+Co-authored-by: mergify[bot] <37929162+mergify[bot]@users.noreply.github.com>",substantial-kst,https://api.github.com/repos/aws/aws-cdk/git/commits/491e2d970c849cbc00e7cb3def927b12054d572f
+e65a326b7de3d97675e27af7f3cb9f2f8735a01d,"fix(kms): add TagResource & UntagResource IAM permissions to default key policy (#6125)
+
+* fix(kms): add TagResource & UntagResource IAM permissions to default key policy. fixes #6102
+
+* update expected integration test results to look for new default kms key policy.
+
+* update unit tests to look for new default kms key policy.
+
+* update another s3 test to look for new default kms key policy.
+
+* Update a few more tests to check for new default kms policy
+
+* update decdk snapshot to reflect changed kms policy
+
+Co-authored-by: mergify[bot] <37929162+mergify[bot]@users.noreply.github.com>",mattchrist,https://api.github.com/repos/aws/aws-cdk/git/commits/e65a326b7de3d97675e27af7f3cb9f2f8735a01d
+adbc3b93e062b6687c048b36ef4d26ce2c784e53,"fix(elasticloadbalancingv2): logAccessLogs in Base Load Balancer (#6197)
+
+Moving the method logAccessLogs to the Base Load Balancer, so both types
+of Load Balancer (Network and Application) can use the method.
+
+closes #3794
+
+Co-authored-by: mergify[bot] <37929162+mergify[bot]@users.noreply.github.com>",rzamana,https://api.github.com/repos/aws/aws-cdk/git/commits/adbc3b93e062b6687c048b36ef4d26ce2c784e53
+15248479982acf61b1e6c89610af5c9e32b9e658,"chore(elbv2): Remove suggestion to use addCertificateArns for ALB listeners (#6229)
+
+fixes #6221
+
+Co-authored-by: mergify[bot] <37929162+mergify[bot]@users.noreply.github.com>",DerkSchooltink,https://api.github.com/repos/aws/aws-cdk/git/commits/15248479982acf61b1e6c89610af5c9e32b9e658
+393d23261b48c7c586f3b9e7dbf4524eea4ca23e,"Update policy.ts (#6238)
+
+Changed the description of statements prop: addPermission -> addStatements
+
+Co-authored-by: mergify[bot] <37929162+mergify[bot]@users.noreply.github.com>",boomary,https://api.github.com/repos/aws/aws-cdk/git/commits/393d23261b48c7c586f3b9e7dbf4524eea4ca23e
+a2fddec4aa1893d4bf68fdfbb5c9379e58cd19f3,"feat(ec2): VPC flow logs
+
+Add a vpc flow log l2 construct
+
+Closes #3493",corymhall,https://api.github.com/repos/aws/aws-cdk/git/commits/a2fddec4aa1893d4bf68fdfbb5c9379e58cd19f3
+7f8c90decd58d2016611e6f94fc506156e047b59,"fix(ecs-patterns): allow imported load balancers as inputs
+
+This PR adds functionality in aws-ecs-patterns to allow imported Network and Application load balancers to be used when initializing the LoadBalancedEC2Service and LoadBalancedFargateService constructs. By necessity, this means:
+
+1) editing the Network and Application load balancer constructs to add an optional IVpc property to be used when calling the from<LBType>LoadBalancerAttributes static methods, and 
+2) changing the error which is thrown when calling addTargets on imported load balancers. 
+
+Unit tests are added in aws-ecs-patterns to test the new import functionality and in aws-elasticloadbalancingv2 to ensure that addTargets behaves properly when a Vpc is or is not specified for imported load balancers. 
+
+Resolves: https://github.com/aws/aws-cdk/issues/5209",bvtujo,https://api.github.com/repos/aws/aws-cdk/git/commits/7f8c90decd58d2016611e6f94fc506156e047b59
+747bdb240296c69430dbd8970f809aa1540da11d,"fix(aws-ecs): propagate dnsTtl property part of cloudMapOptions (#6370)
+
+Fixes #6223",efekarakus,https://api.github.com/repos/aws/aws-cdk/git/commits/747bdb240296c69430dbd8970f809aa1540da11d
+99bb6945a5490d3ed99ec43f93754a6f2ee57d83,"docs(apigateway): fix reference to proxy property (#6338)
+
+Co-authored-by: mergify[bot] <37929162+mergify[bot]@users.noreply.github.com>",muelleme,https://api.github.com/repos/aws/aws-cdk/git/commits/99bb6945a5490d3ed99ec43f93754a6f2ee57d83
+99de6ca6940f8e7e66e44d1cc68f0e1f1cb80b94,"feat(apigateway): expose endpointconfiguration to include vpcEndpointIds (#6078)
+
+* feat(apigateway): expose endpointconfiguration to include vpcEndpointIds
+fixes #6038
+BREAKING CHANGE: the interface now accepts endpointconfiguration property instead of endpoint type as defined by cfn
+
+* feature(apigateway): support private vpc endpoints
+
+* feature(apigateway): support private vpc endpoints
+
+* fix(apigateway): documentation changes for the endpoint configuration
+
+proposed changes
+
+Co-Authored-By: Niranjan Jayakar <16217941+nija-at@users.noreply.github.com>
+
+* fix(apigateway): apply recommended changes
+
+* fix(apigateway): adding requested changes and integration test
+
+* fix(apigateway): incorrect vpc endpoint in integration test
+
+Co-authored-by: Niranjan Jayakar <16217941+nija-at@users.noreply.github.com>
+Co-authored-by: mergify[bot] <37929162+mergify[bot]@users.noreply.github.com>",bulka777,https://api.github.com/repos/aws/aws-cdk/git/commits/99de6ca6940f8e7e66e44d1cc68f0e1f1cb80b94
+0a953dadae023248b5b66aeac5d359e0645f8766,"docs(cloudtrail): fix bullet point list (#6353)
+
+The indent was causing the list to fail to render.
+
+Co-authored-by: mergify[bot] <37929162+mergify[bot]@users.noreply.github.com>",Spacerat,https://api.github.com/repos/aws/aws-cdk/git/commits/0a953dadae023248b5b66aeac5d359e0645f8766
+e5493bd2cea897a2d4e1576d3084e9fb2e9f6b7f,"feat(sns): support multiple tokens as url and email subscriptions (#6357)
+
+fixes #3996 to allow using tokens in email subscriptions, additionally
+fixes a bug with URL subscriptions when using more than one token
+subscription.
+
+**The Issue**
+Email Subscriptions currently use the value passed in as the construct
+ID, when the value passed in is a token (For example a parameter) it
+causes an error as tokens aren't supported as construct IDs. A previous
+fix was done for URL Subscriptions but it also errors when more than
+one URL subscription with a token is used.
+
+**The fix**
+In the topic base, identify if the subscription ID is a token and
+override it to a valid construct ID. The method of ensuring a valid ID
+is to convert it to a special prefix suffixed by a number and doing an
+increment of the number for each new topic created with a token.
+Subscriptions not utilizing a token are not effected.
+
+----
+
+*By submitting this pull request, I confirm that my contribution is made under the terms of the Apache-2.0 license*
+
+<!-- 
+Please read the contribution guidelines and follow the pull-request checklist:
+https://github.com/aws/aws-cdk/blob/master/CONTRIBUTING.md
+ -->",strazeadin,https://api.github.com/repos/aws/aws-cdk/git/commits/e5493bd2cea897a2d4e1576d3084e9fb2e9f6b7f
+ab9b77cc9857b5ea34952d4efb3f67c1d8a51311,feat: CloudFormation Resource Specification 11.1.0 (#6424),PatMyron,https://api.github.com/repos/aws/aws-cdk/git/commits/ab9b77cc9857b5ea34952d4efb3f67c1d8a51311
+c8a22b176cdee7da2cde15c38a6fc107686cf2d0,"feat(batch): add JobQueue, ComputeEnvironment and JobDefinition constructs",stephnr,https://api.github.com/repos/aws/aws-cdk/git/commits/c8a22b176cdee7da2cde15c38a6fc107686cf2d0
+6bdd05d1bead3d1c8130196d04c96f5fa445ff95,"docs(apigateway): fixes typescript usage plan example (#6411)
+
+Adds overall `throttle` setting to the example documentation on typescript CDK about how to use ""an API Key with a usage plan"". Without it, when trying to deploy the example code, it gives the following error:
+
+```
+Can not define fine grain throttling if usage plan throttle is not defined.
+```
+
+Before you can set individual throttle for each individual method, you need first to set the global throttle settings for that API. So adding the `throttle` parameter to the `addUsagePlan` method, with the same value as the individual throttle for the echoMethod, fixes it.
+
+Co-authored-by: mergify[bot] <37929162+mergify[bot]@users.noreply.github.com>",fernandrone,https://api.github.com/repos/aws/aws-cdk/git/commits/6bdd05d1bead3d1c8130196d04c96f5fa445ff95
+f8cacb9ae24ef7af45362a5212fddde351e67572,"fix(core): adds enableVersionUpgrade property to CfnUpdatePolicy (#6434)
+
+When creating an Elasticsearch instance in the CDK, you are unable to
+specify how the instance should be upgraded. This functionality is
+present in CloudFormation, however it was missed in the CDK.
+
+This fix adds the `enableVersionUpgrade` property to the CfnUpdatePolicy
+interface.
+
+Fixes: #6158
+
+Co-authored-by: mergify[bot] <37929162+mergify[bot]@users.noreply.github.com>",ChrisB92,https://api.github.com/repos/aws/aws-cdk/git/commits/f8cacb9ae24ef7af45362a5212fddde351e67572
+ee8f16936c0e5cb412fbdd0f210045261374dac9,"feat(aws-ec2): signal, download and execute helpers for UserData (#6029)
+
+User Data objects currently only supports adding commands by providing the full command as a string.  This commit hopes to address this by adding the following functionality:
+* On Exit Commands - Both bash and powershell have the concepts of trap functions which can be used to force a function to run when a an exception is run.  Using this we are able to set up a script block that will always run at the end of the script.
+* add Signal Command - Using the above on Exit commands we are able to make it so the User data will send a signal to a specific resource (eg. Instance/Auto scaling group) with the results of the last command.
+* Download S3 File Command - This adds commands to download the specified file using the aws cli on linux and AWS powershell  utility on windows
+* Execute File Command - This adds commands to ensure that the specified file is executable then executes the file with specified arguments.
+
+Fixes #623",grbartel,https://api.github.com/repos/aws/aws-cdk/git/commits/ee8f16936c0e5cb412fbdd0f210045261374dac9
+5ea2679c00f706c04ed8cb14f59746475f31e7db,"feat(lambda-event-sources): expose `eventSourceMappingId` (#5689)
+
+Exposes the Ref of `AWS::Lambda::EventSourceMapping` as eventSourceMappingId property on the EventSourceMapping and further on the SqsEventSource, KinesisEventSource and DynamoEventSource
+
+Closes #5430
+
+
+
+----
+
+*By submitting this pull request, I confirm that my contribution is made under the terms of the Apache-2.0 license*
+
+<!-- 
+Please read the contribution guidelines and follow the pull-request checklist:
+https://github.com/aws/aws-cdk/blob/master/CONTRIBUTING.md
+ -->",eliasdraexler,https://api.github.com/repos/aws/aws-cdk/git/commits/5ea2679c00f706c04ed8cb14f59746475f31e7db

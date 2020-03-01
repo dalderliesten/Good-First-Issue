@@ -1,0 +1,45 @@
+Issue Description,Assignees to the Issue,Link
+docker build构建image报错,,https://github.com/crawlab-team/crawlab/issues/563
+docker安装的任务执行有问题,,https://github.com/crawlab-team/crawlab/issues/561
+引入 save_item() 出错,,https://github.com/crawlab-team/crawlab/issues/482
+后端部署问题,,https://github.com/crawlab-team/crawlab/issues/481
+定时任务设置停止状态,,https://github.com/crawlab-team/crawlab/issues/467
+【bug】关于docker-compose部署,,https://github.com/crawlab-team/crawlab/issues/466
+后端无法部署,,https://github.com/crawlab-team/crawlab/issues/454
+上传爬虫在线修改.py文件不能保存,,https://github.com/crawlab-team/crawlab/issues/412
+"上传了个node的爬虫 ,然后node  no find",,https://github.com/crawlab-team/crawlab/issues/396
+"附属到已有项目的 docker-compose 中, 登录失败",,https://github.com/crawlab-team/crawlab/issues/393
+toscrapy_books 爬虫选择所有节点运行，任务运行了两遍,,https://github.com/crawlab-team/crawlab/issues/388
+redis和mongodb启动正常，crawlab无法启动,,https://github.com/crawlab-team/crawlab/issues/386
+【优化建议】区分结果数据库和配置数据库,,https://github.com/crawlab-team/crawlab/issues/338
+优化建议 docker镜像,,https://github.com/crawlab-team/crawlab/issues/317
+演示demo 挂掉了,,https://github.com/crawlab-team/crawlab/issues/312
+登陆时出错，请坚持用户名和密码,,https://github.com/crawlab-team/crawlab/issues/310
+使用另外一个容器的docker 中的redis服务时，worker服务起不来，查看容器日志,,https://github.com/crawlab-team/crawlab/issues/293
+如图，启动失败,,https://github.com/crawlab-team/crawlab/issues/287
+Spider source not updated,,https://github.com/crawlab-team/crawlab/issues/285
+可以单独在另一台服务器开节点么？,,https://github.com/crawlab-team/crawlab/issues/274
+使用docker-compose 运行如何配置 Crawlab还是不需要配置,,https://github.com/crawlab-team/crawlab/issues/271
+日志的留存,,https://github.com/crawlab-team/crawlab/issues/266
+爬虫里面的环境变量主要是设置什么的？,,https://github.com/crawlab-team/crawlab/issues/264
+时区好像有点不正确~,,https://github.com/crawlab-team/crawlab/issues/262
+Is there any way to integrate with selenium.,,https://github.com/crawlab-team/crawlab/issues/261
+default username & password is not working,,https://github.com/crawlab-team/crawlab/issues/255
+在管理页面修改爬虫文件时似乎没有同步到mongo,,https://github.com/crawlab-team/crawlab/issues/252
+port 8080 is already in use,,https://github.com/crawlab-team/crawlab/issues/251
+docker-compose  里面的html到底有没有测试,,https://github.com/crawlab-team/crawlab/issues/240
+新的docker镜像定时任务执行有问题，建议docker镜像有版本号做区分,,https://github.com/crawlab-team/crawlab/issues/239
+修改docker-compose.yml连接本地的mongo和redis，在访问主页时报错,,https://github.com/crawlab-team/crawlab/issues/225
+初始账号密码无法登录,,https://github.com/crawlab-team/crawlab/issues/211
+按照文档中的配置好后启动docker容器无法访问,,https://github.com/crawlab-team/crawlab/issues/200
+关于结果数据的请教,,https://github.com/crawlab-team/crawlab/issues/199
+直接部署：登录时一直转圈，请问直接部署在哪里配置CRAWLAB_API_ADDRESS？,,https://github.com/crawlab-team/crawlab/issues/186
+docker-compose up启动项目，页面登录时一直转圈,,https://github.com/crawlab-team/crawlab/issues/180
+爬虫项目的环境依赖问题,,https://github.com/crawlab-team/crawlab/issues/161
+which folder to place the yml config file when I deploy crawlab using docker-compose up?,,https://github.com/crawlab-team/crawlab/issues/159
+爬虫执行完之后，前端不显示结果数据,,https://github.com/crawlab-team/crawlab/issues/156
+作者您好，关于配置信息的请教,,https://github.com/crawlab-team/crawlab/issues/143
+请问下爬虫支持其他语言么？,,https://github.com/crawlab-team/crawlab/issues/139
+无法登陆,,https://github.com/crawlab-team/crawlab/issues/131
+"环境变量传入MONGO_DB只能为crawlab_test,不能自定义数据库名。",,https://github.com/crawlab-team/crawlab/issues/125
+win10系统下，部署成功后，新建可配置爬虫无法运行，日志路径报错,,https://github.com/crawlab-team/crawlab/issues/80

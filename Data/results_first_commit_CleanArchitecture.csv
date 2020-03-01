@@ -1,0 +1,45 @@
+First Commit Hash (SHA),Commit Message,Author (Github Name),Link to Commit
+dd9c839abe933a82c4a426f3f8f0859e414f6638,Initial commit,ardalis,https://api.github.com/repos/ardalis/CleanArchitecture/git/commits/dd9c839abe933a82c4a426f3f8f0859e414f6638
+e1ca0070d8960af113f8f1d74c5c7e60b2fdaa0f,"Update global.json
+
+Specify preview 2 in global.json in order to make the project backwards compatible for newer .Net Core tooling, especially in VS2017.",onslaughtq,https://api.github.com/repos/ardalis/CleanArchitecture/git/commits/e1ca0070d8960af113f8f1d74c5c7e60b2fdaa0f
+93e52a8aa557cf27862225f33b092535b5dca0ef,Updated SLN file,benrick,https://api.github.com/repos/ardalis/CleanArchitecture/git/commits/93e52a8aa557cf27862225f33b092535b5dca0ef
+cfd639b24ac98bd92ffeba442604dc668bcd3cb0,Upgrade packages.,arielsrv,https://api.github.com/repos/ardalis/CleanArchitecture/git/commits/cfd639b24ac98bd92ffeba442604dc668bcd3cb0
+0f1f53e1ea192720fb29930de7be56159805c450,"Update ToDoItemMarkCompleteShould
+
+Changed Assertion to Single",whoiskevinrich,https://api.github.com/repos/ardalis/CleanArchitecture/git/commits/0f1f53e1ea192720fb29930de7be56159805c450
+8a7d2313b38e0bab8b7d8e9d87e74891a8df5fe3,Added complete method and removed links to unexisting actions.,nicumaxian,https://api.github.com/repos/ardalis/CleanArchitecture/git/commits/8a7d2313b38e0bab8b7d8e9d87e74891a8df5fe3
+4977581bd832038d37f1642f36da90acedb7b81a,Update package references to latest versions.,sdepouw,https://api.github.com/repos/ardalis/CleanArchitecture/git/commits/4977581bd832038d37f1642f36da90acedb7b81a
+88bacffab49d01d2d371c7f04def7566f6398483,"Upgrade BundlerMinifier.Core (#25)
+
+Fixes error on dotnet publish:
+
+It was not possible to find any compatible framework version
+  The specified framework 'Microsoft.NETCore.App', version '1.0.0' was not found.",twogood,https://api.github.com/repos/ardalis/CleanArchitecture/git/commits/88bacffab49d01d2d371c7f04def7566f6398483
+423195d8c4e41531e6dff4ea11f3ba467fc8bad8,"bower -> libman (#30)
+
+* bower ->libman
+
+* default settings for libman",Xeinaemm,https://api.github.com/repos/ardalis/CleanArchitecture/git/commits/423195d8c4e41531e6dff4ea11f3ba467fc8bad8
+f18b4b7b655bfa71d5eb664095dc0437f544d557,"Update Readme with link to marketplace extension (#44)
+
+Added a link to Visual Studio template extension https://marketplace.visualstudio.com/items?itemName=GregTrevellick.CleanArchitecture",GregTrevellick,https://api.github.com/repos/ardalis/CleanArchitecture/git/commits/f18b4b7b655bfa71d5eb664095dc0437f544d557
+1ce7dbc9c6e6a05a79d735485048c3e0c25f1d38,Set up CI with Azure Pipelines,azure-pipelines[bot],https://api.github.com/repos/ardalis/CleanArchitecture/git/commits/1ce7dbc9c6e6a05a79d735485048c3e0c25f1d38
+95083acd1a7ab1f3be4c4f76733dfe4ed6810485,"Typo fixed (#73)
+
+Fixed a typo in CONTRIBUTING.md file",tomimarkus991,https://api.github.com/repos/ardalis/CleanArchitecture/git/commits/95083acd1a7ab1f3be4c4f76733dfe4ed6810485
+fd70a63e1f2667bec0280b09a856c7a343626553,"Updating documentation around test projects. (#76)
+
+The README documentation around test projects is out of date because there are currently 3 test projects instead of the one mentioned in the README. Rewording to reflect that reality.",morgankenyon,https://api.github.com/repos/ardalis/CleanArchitecture/git/commits/fd70a63e1f2667bec0280b09a856c7a343626553
+005493c95e42ba972c7a99be8af99f426a40d276,"Fixed spelling in Infrastucture section (#78)
+
+Added missing ""u""",devhb,https://api.github.com/repos/ardalis/CleanArchitecture/git/commits/005493c95e42ba972c7a99be8af99f426a40d276
+ad0c7d3689d3bf370755ebef8bd194f2f02a1e09,return ToDoItemDTO (#84),ChrisE217,https://api.github.com/repos/ardalis/CleanArchitecture/git/commits/ad0c7d3689d3bf370755ebef8bd194f2f02a1e09
+24fdfda0892e03e0cdbd6b96ae571b6bd6c0b3ec,"Fixing the domain event dispatcher
+
+- Updating the type used to find the Core assmebly for registration
+- Writing a test around DomainEventDispatcher",efleming18,https://api.github.com/repos/ardalis/CleanArchitecture/git/commits/24fdfda0892e03e0cdbd6b96ae571b6bd6c0b3ec
+23adf4149d890594b78c11f5971f8df2b9337e09,Fixed exception message logging (#90),michal880,https://api.github.com/repos/ardalis/CleanArchitecture/git/commits/23adf4149d890594b78c11f5971f8df2b9337e09
+37261dcf397162766bd590b6820fded1ee207970,move interfaces from core to shared kernel project (#92),ElderJames,https://api.github.com/repos/ardalis/CleanArchitecture/git/commits/37261dcf397162766bd590b6820fded1ee207970
+bed3ffd1101dd4af09e7eead88ce8376a1fab1b6,Completed correcting namespace from CleanArchitecture.Core.SharedKernel to CleanArchitecture.SharedKernel,PrintsCharming,https://api.github.com/repos/ardalis/CleanArchitecture/git/commits/bed3ffd1101dd4af09e7eead88ce8376a1fab1b6
+72180996a128888f7b27a9e14967ce0730171fb6,Adjusted DatabasePopulator to check for 3 or more TodoItems instead of 5,rickhodder,https://api.github.com/repos/ardalis/CleanArchitecture/git/commits/72180996a128888f7b27a9e14967ce0730171fb6

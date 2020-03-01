@@ -1,0 +1,32 @@
+First Commit Hash (SHA),Commit Message,Author (Github Name),Link to Commit
+7e8531aa5748593b3650e81d0ea846123123c779,"added celery functionality
+added CRUD base",tikazyq,https://api.github.com/repos/crawlab-team/crawlab/git/commits/7e8531aa5748593b3650e81d0ea846123123c779
+37f5889b090f162ffeca55c32cb6301b5fd052a6,:bulb: edit READEME,Sijiu,https://api.github.com/repos/crawlab-team/crawlab/git/commits/37f5889b090f162ffeca55c32cb6301b5fd052a6
+df43a7fc96558508abc8445838d6183b395bbb93,fix bug,cxapython,https://api.github.com/repos/crawlab-team/crawlab/git/commits/df43a7fc96558508abc8445838d6183b395bbb93
+4b4c48649141b8eeec5c1fcbfb1afb733cd8f2ab,modify config setting,casperwnb,https://api.github.com/repos/crawlab-team/crawlab/git/commits/4b4c48649141b8eeec5c1fcbfb1afb733cd8f2ab
+614447bd06b76d9691c1d646a9b54213d5177172,修改README错别字,luzihang123,https://api.github.com/repos/crawlab-team/crawlab/git/commits/614447bd06b76d9691c1d646a9b54213d5177172
+24cba1dfaf242e67b45d39d33cfcd0ad87e574f6,fix Node节点删除问题,wo10378931,https://api.github.com/repos/crawlab-team/crawlab/git/commits/24cba1dfaf242e67b45d39d33cfcd0ad87e574f6
+c0f0af0505acd7b7b1a8ba9b6b1a7228ab897f13,fixed code highlighting,0xflotus,https://api.github.com/repos/crawlab-team/crawlab/git/commits/c0f0af0505acd7b7b1a8ba9b6b1a7228ab897f13
+6cb8a257d9e8d56a1db13acc75e9a150781ebfc4,修改解压缩文件权限默认为0666的问题,Jonnnh,https://api.github.com/repos/crawlab-team/crawlab/git/commits/6cb8a257d9e8d56a1db13acc75e9a150781ebfc4
+c3cbc047b1af47029642c7e534b1390a416d1be3,"Fix:
+ master镜像nginx启动失败
+
+Break change：
+ Dockerfile.alpine -> Dockerfile.master.alpine
+
+Feture:
+  增加Dockerfile.worker.alpine 文件",yaziming,https://api.github.com/repos/crawlab-team/crawlab/git/commits/c3cbc047b1af47029642c7e534b1390a416d1be3
+15e7fa662e0a50370e7ade86025ca611e345ffd1,Add Some Unit Test,hantmac,https://api.github.com/repos/crawlab-team/crawlab/git/commits/15e7fa662e0a50370e7ade86025ca611e345ffd1
+5d8f6f0c56768a6e58f5e46cbf5adff8c7819228,Fix environment variable replacement for CRAWLAB_API_ADDRESS,haivp3010,https://api.github.com/repos/crawlab-team/crawlab/git/commits/5d8f6f0c56768a6e58f5e46cbf5adff8c7819228
+7388be5dd103e22cdef1eb24b32c27f6c9857c3e,"modify CRAWLAB_API_ADDRESS add http , without it will cause front can't visit backend",gs80140,https://api.github.com/repos/crawlab-team/crawlab/git/commits/7388be5dd103e22cdef1eb24b32c27f6c9857c3e
+95a1b72ec4e6a7c9237b74bf41e6a63d16460ffd,fix Cannot read property length of null when first init,zhangweiii,https://api.github.com/repos/crawlab-team/crawlab/git/commits/95a1b72ec4e6a7c9237b74bf41e6a63d16460ffd
+bd0ccdcb38ddfabb7b5e4b6d0b71075ec1550836,chore: fix fmt warning.,appleboy,https://api.github.com/repos/crawlab-team/crawlab/git/commits/bd0ccdcb38ddfabb7b5e4b6d0b71075ec1550836
+d75c832a384b3ba4d9142a80c4e9c2f5992af1f9,:fire: reduce docker image,yann0917,https://api.github.com/repos/crawlab-team/crawlab/git/commits/d75c832a384b3ba4d9142a80c4e9c2f5992af1f9
+8172782cdb30e469c18dff9e6c4c3656090e6889,"Bump handlebars from 4.1.0 to 4.5.3 in /frontend
+
+Bumps [handlebars](https://github.com/wycats/handlebars.js) from 4.1.0 to 4.5.3.
+- [Release notes](https://github.com/wycats/handlebars.js/releases)
+- [Changelog](https://github.com/wycats/handlebars.js/blob/master/release-notes.md)
+- [Commits](https://github.com/wycats/handlebars.js/compare/v4.1.0...v4.5.3)
+
+Signed-off-by: dependabot[bot] <support@github.com>",dependabot[bot],https://api.github.com/repos/crawlab-team/crawlab/git/commits/8172782cdb30e469c18dff9e6c4c3656090e6889

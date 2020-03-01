@@ -1,0 +1,37 @@
+First Commit Hash (SHA),Commit Message,Author (Github Name),Link to Commit
+3261ad74363f6f039fd60ca68abd6eeb73c3f97f,Initial commit,microsoft-github-operations[bot],https://api.github.com/repos/microsoft/playwright/git/commits/3261ad74363f6f039fd60ca68abd6eeb73c3f97f
+5c5fdee2037c87013bc7b5debb34976382e54168,Initial CODE_OF_CONDUCT.md commit,microsoftopensource,https://api.github.com/repos/microsoft/playwright/git/commits/5c5fdee2037c87013bc7b5debb34976382e54168
+9ba375c06344835d783fe60bf33f857f9bc208a4,Initial commit,pavelfeldman,https://api.github.com/repos/microsoft/playwright/git/commits/9ba375c06344835d783fe60bf33f857f9bc208a4
+0a8d55d954da83db313c9022e1220c4d62f223f1,docs: show browser test stats in the readme (#24),JoelEinbinder,https://api.github.com/repos/microsoft/playwright/git/commits/0a8d55d954da83db313c9022e1220c4d62f223f1
+8a077da56552cfae7b75dd3d82bbc034c8c2306c,devops: simplified bash traps,aslushnikov,https://api.github.com/repos/microsoft/playwright/git/commits/8a077da56552cfae7b75dd3d82bbc034c8c2306c
+57bbd818248708efd9928bbb052a84a904cb3624,chore: introduce injected source lazily evaluated by execution context (#42),dgozman,https://api.github.com/repos/microsoft/playwright/git/commits/57bbd818248708efd9928bbb052a84a904cb3624
+ac01262c8890a2f46699fa0eb9771384d5562aa4,feat(page): support Page.evaluateOnNewDocument for WebKit (#55),yury-s,https://api.github.com/repos/microsoft/playwright/git/commits/ac01262c8890a2f46699fa0eb9771384d5562aa4
+14da8f531df4e86837447d0b432d3a90aa08ee5f,chore(license): add NOTICE (#309),arjun27,https://api.github.com/repos/microsoft/playwright/git/commits/14da8f531df4e86837447d0b432d3a90aa08ee5f
+27bdc664c1fc0f689df64627bc4cb623f0fbd9a2,docs(readme.md): fix typos (#566),elaichenkov,https://api.github.com/repos/microsoft/playwright/git/commits/27bdc664c1fc0f689df64627bc4cb623f0fbd9a2
+a6042e437aabf0e285e92c23fdd0256e77e707d0,docs: removed semicolon from code doc as it not required (#580),rajendraarora16,https://api.github.com/repos/microsoft/playwright/git/commits/a6042e437aabf0e285e92c23fdd0256e77e707d0
+cc1891ee91a63590323fbf6bf4640a41aa50b8c7,syntax alignment (#596),xwa130saucer,https://api.github.com/repos/microsoft/playwright/git/commits/cc1891ee91a63590323fbf6bf4640a41aa50b8c7
+199d094c6d2e7027f334fd1cda9896ca6b3565c6,fix: make launch options in ffPlaywright optional (#637),andreabreu-me,https://api.github.com/repos/microsoft/playwright/git/commits/199d094c6d2e7027f334fd1cda9896ca6b3565c6
+63d5a7347d7f1a31c915683ac90dd86e1d2493e5,"fix(types): export playwright-core types from playwright (#628)
+
+Resolves #627",jperl,https://api.github.com/repos/microsoft/playwright/git/commits/63d5a7347d7f1a31c915683ac90dd86e1d2493e5
+99414b04100eccf6d72ef6316b96de4822523220,doc(page): Improve Page description (#665),kblok,https://api.github.com/repos/microsoft/playwright/git/commits/99414b04100eccf6d72ef6316b96de4822523220
+e65cc77f31584d57fd72b127c208229cff7bb0aa,"fix(pw_run): Allow running from paths with spaces (#674)
+
+This script currently breaks if the project folder contains any spaces in the paths. The above fix takes care of that.",eheaton,https://api.github.com/repos/microsoft/playwright/git/commits/e65cc77f31584d57fd72b127c208229cff7bb0aa
+53cdbc5688935810b8c51ec86e3037c24bbcfac1,docs: clarify relationship to Puppeteer (#711),hashseed,https://api.github.com/repos/microsoft/playwright/git/commits/53cdbc5688935810b8c51ec86e3037c24bbcfac1
+ff302354bbf69c7bbb1ad94fd347c32855fb492f,chore: fix package typo in packages README (#707),topaxi,https://api.github.com/repos/microsoft/playwright/git/commits/ff302354bbf69c7bbb1ad94fd347c32855fb492f
+90d84e8879d6f962e6816a539def2a21f5af33fe,docs(api): fix cdp session creation example (#709),vigneshshanmugam,https://api.github.com/repos/microsoft/playwright/git/commits/90d84e8879d6f962e6816a539def2a21f5af33fe
+9554ef49b71d01946e5e5fc4bf5206a9b3f25c37,docs: make individual FAQ items linkable (#712),mathiasbynens,https://api.github.com/repos/microsoft/playwright/git/commits/9554ef49b71d01946e5e5fc4bf5206a9b3f25c37
+a64fc0e45ffaa4ab75f8eb8392c286e0d7cee65e,"chore: fix missing device definitions (#708)
+
+Fixes #606",sotayamashita,https://api.github.com/repos/microsoft/playwright/git/commits/a64fc0e45ffaa4ab75f8eb8392c286e0d7cee65e
+62f4ed6b6a50db03d816a152f4f527b98d52a72c,feat(unit): add click test on animated target (#655),yamafaktory,https://api.github.com/repos/microsoft/playwright/git/commits/62f4ed6b6a50db03d816a152f4f527b98d52a72c
+75f7ff3e0535e5bb26a8980d39f458a651daee24,docs(api.md) Fix USKeyboardLayout link (#719),jamieweavis,https://api.github.com/repos/microsoft/playwright/git/commits/75f7ff3e0535e5bb26a8980d39f458a651daee24
+fc93b886d9a037a9214e17e298002335122d1054,fix: typo (#740),tsuemura,https://api.github.com/repos/microsoft/playwright/git/commits/fc93b886d9a037a9214e17e298002335122d1054
+3ef23133a6bcf45a5cce5e77d63c9dfd7a3274f1,docs: fix dead link for element handle (#827),aesyondu,https://api.github.com/repos/microsoft/playwright/git/commits/3ef23133a6bcf45a5cce5e77d63c9dfd7a3274f1
+5fee93ae969f109a85b0a6331d5af6bbfba56933,test: fix expect in jshandle spec (#927),Meir017,https://api.github.com/repos/microsoft/playwright/git/commits/5fee93ae969f109a85b0a6331d5af6bbfba56933
+8071225d1e2228b7761435845906ef431c197db7,Add xterm.js to showcase (#1034),Tyriar,https://api.github.com/repos/microsoft/playwright/git/commits/8071225d1e2228b7761435845906ef431c197db7
+010c27410aec9e4e31804664717ffe8643f7a0be,"Docs: fix return type of launchPersistent (#1047)
+
+Docs fix: the return type of `browserType.launchPersistent` is [BrowserContext](https://github.com/microsoft/playwright/blob/master/src/server/browserType.ts#L46), not ` BrowserServer`.",jozsi,https://api.github.com/repos/microsoft/playwright/git/commits/010c27410aec9e4e31804664717ffe8643f7a0be
+69fe6f7236e17777206c01bd73744d3e7164190c,docs: added community example project (#1084),azemetre,https://api.github.com/repos/microsoft/playwright/git/commits/69fe6f7236e17777206c01bd73744d3e7164190c

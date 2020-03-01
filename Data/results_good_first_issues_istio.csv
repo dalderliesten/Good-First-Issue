@@ -1,0 +1,92 @@
+Issue Description,Assignees to the Issue,Link
+[istio.io testing] Run bookinfo test against demo profile,,https://github.com/istio/istio/issues/21634
+"fixup_structs uses file scope, should use package scope",,https://github.com/istio/istio/issues/20962
+"istioctl apply --dry-run bogus message ""failed to get k8s server version""",,https://github.com/istio/istio/issues/20729
+[istio.io testing] Need test for Configure Citadel Service Account Secret Generation,,https://github.com/istio/istio/issues/20504
+[istio.io testing] Need test for Citadel Health Checking,,https://github.com/istio/istio/issues/20496
+istioctl manifest apply --set has poor/incorrect CLI usage instructions,,https://github.com/istio/istio/issues/19999
+[istio.io testing] Need test for Health Checking of Istio Services,,https://github.com/istio/istio/issues/19953
+Destination rule to set mTLS ignores specific host,,https://github.com/istio/istio/issues/19459
+istioctl dashboard to allow pod label --selector instead of requiring explicit pod name,,https://github.com/istio/istio/issues/18987
+`istioctl version` on a cluster without istio shows strange warning,,https://github.com/istio/istio/issues/18986
+[istio.io testing] Need test for TCP Traffic Shifting,,https://github.com/istio/istio/issues/18285
+[istio.io testing] Need test for Traffic Shifting,,https://github.com/istio/istio/issues/18284
+Istio readiness Probe rewrite should respect the user specified timeout duration,,https://github.com/istio/istio/issues/18242
+[istio.io testing] Write test for bookinfo task for istioio,,https://github.com/istio/istio/issues/18238
+Create tool to generate intermediate CAs,,https://github.com/istio/istio/issues/17609
+VirtualService regexes longer than 1024 bytes cause Pilot to panic,,https://github.com/istio/istio/issues/17411
+Generate RPM files in addition to Debian files for mesh expansion,,https://github.com/istio/istio/issues/17348
+Add output flag unit test,,https://github.com/istio/istio/issues/17230
+Pilot goroutine leak when waiting for config from galley,,https://github.com/istio/istio/issues/16901
+Add NetworkPolicy to allow Istio to run on a secure Kubernetes Platform,,https://github.com/istio/istio/issues/16877
+istioctl version should compress multiple replicas,,https://github.com/istio/istio/issues/16667
+mesh manifest diff needs --select and --ignore flags,,https://github.com/istio/istio/issues/16178
+LogLevel implementation ,,https://github.com/istio/istio/issues/15674
+Fix prow path problems,,https://github.com/istio/istio/issues/15659
+Add scopes to logging,,https://github.com/istio/istio/issues/15605
+Add enum validations for values_types.go,,https://github.com/istio/istio/issues/15492
+Need some way to echo to console or log depending on config,,https://github.com/istio/istio/issues/15349
+Add remaining configuration profiles ,,https://github.com/istio/istio/issues/15330
+Migrate operator repo to Go modules,,https://github.com/istio/istio/issues/15240
+manifest package needs unit tests,,https://github.com/istio/istio/issues/15101
+Pilot exposes metric pilot_virt_services but never sets it,,https://github.com/istio/istio/issues/14932
+"""istioctl version"" should document --short=false and --remote=false",,https://github.com/istio/istio/issues/14814
+Istioctl proxy-status and authn tls-check commands when global.monitoringPort != 15014,,https://github.com/istio/istio/issues/14801
+Bookinfo productpage microservice crashes when run as non-root userid,,https://github.com/istio/istio/issues/14667
+Regular expression support for origins in CorsPolicy,,https://github.com/istio/istio/issues/14661
+[test-framework] Add Native Environment Support for Prometheus,,https://github.com/istio/istio/issues/13467
+[test-framework] Add Kube Environment Support for MCPServer component.,,https://github.com/istio/istio/issues/13466
+"""istioctl validate"" should report success, not only failures",,https://github.com/istio/istio/issues/13143
+Health check rewrite for mTLS per deployment annotation,,https://github.com/istio/istio/issues/13074
+[Test Framework] Avoid accidental test parallelism in the test framework,,https://github.com/istio/istio/issues/13031
+Test Framework: Add support for dumping K8s events,,https://github.com/istio/istio/issues/12758
+istioctl version should report server version not just client version,,https://github.com/istio/istio/issues/12703
+Add debug config dump support to Galley Ctrlz page,,https://github.com/istio/istio/issues/12298
+sidecar.istio.io/inject does not work,,https://github.com/istio/istio/issues/11854
+Envoy deprecation: use of enabled in CorsPolicy,,https://github.com/istio/istio/issues/11457
+Helm chart not exposing all necessary ports in istio-pilot service,,https://github.com/istio/istio/issues/11284
+Envoy deprecation: Use Any instead of Struct,,https://github.com/istio/istio/issues/10993
+Nice to have `kubectl logs productpage` output,,https://github.com/istio/istio/issues/10985
+"Webhook ""pilot.validation.istio.io"" reports invalid configuration error for valid config ",,https://github.com/istio/istio/issues/10694
+Helm fails when following docs,,https://github.com/istio/istio/issues/10633
+Mixer client: mixc should send valid attribute encodings when attribute vocabulary is available,,https://github.com/istio/istio/issues/10434
+Istio yaml structure,,https://github.com/istio/istio/issues/10429
+Proposal: Support short names for Istio resources,,https://github.com/istio/istio/issues/9729
+REFRESH_GOLDEN broken in master,,https://github.com/istio/istio/issues/9313
+[test-framework] local mixer depends on helm,,https://github.com/istio/istio/issues/9070
+Create feature flag library,,https://github.com/istio/istio/issues/8960
+New option: istioctl proxy-config endpoints,,https://github.com/istio/istio/issues/8863
+Add listener and routes direction in istioctl-proxy config,,https://github.com/istio/istio/issues/8820
+Managing core dumps,,https://github.com/istio/istio/issues/8077
+Inconsistent istioctl proxy-status and proxy-config namespace behaviour,,https://github.com/istio/istio/issues/8008
+istioctl proxy-status <pod> should print update time,,https://github.com/istio/istio/issues/7805
+make proxy-config use an annotation to mark the containers with Envoy,,https://github.com/istio/istio/issues/7588
+add duration out of date to proxy-status,,https://github.com/istio/istio/issues/6518
+Single command to dump out state of entire mesh for debugging,,https://github.com/istio/istio/issues/6382
+Proxy-Config command doesn't work correctly when running multiple Pilots.,,https://github.com/istio/istio/issues/5733
+bookinfo cleanup.sh will not remove virtualservices and gateways,,https://github.com/istio/istio/issues/5703
+istioctl get all,,https://github.com/istio/istio/issues/5502
+pilot e2e --namespace option broken,,https://github.com/istio/istio/issues/5348
+"set envoy's ""server:"" name to ""istio-envoy"" or equivalent",,https://github.com/istio/istio/issues/5043
+Add helm lint to `bin/linters.sh`,,https://github.com/istio/istio/issues/4766
+istioctl register requires namespace (doesn't use the default),,https://github.com/istio/istio/issues/4473
+mixs: no args spews out logs,,https://github.com/istio/istio/issues/3835
+Add test to validate mixer check/report for ingress ,,https://github.com/istio/istio/issues/3418
+"e2e-pilot should save pilot, mixer,ca logs in circle ci",,https://github.com/istio/istio/issues/3140
+Mixer logs overfilling with useless debug messages,,https://github.com/istio/istio/issues/3138
+Istio Ingress respecting some route rules and not others.,,https://github.com/istio/istio/issues/3067
+Improve operator experience with Mixer logs,,https://github.com/istio/istio/issues/3027
+Need consistent & published way of identifying failure in automated tests logs,,https://github.com/istio/istio/issues/2974
+HA ingress setup,,https://github.com/istio/istio/issues/2895
+istioctl gen-deploy: add common tag for all images,,https://github.com/istio/istio/issues/2582
+Pilot never expires query cache stats,,https://github.com/istio/istio/issues/2362
+race condition in `//pilot/...`,,https://github.com/istio/istio/issues/1945
+race condition in //mixer/...,,https://github.com/istio/istio/issues/1943
+istioctl kube-inject not working,,https://github.com/istio/istio/issues/1788
+Support k8s app protocols alpha annotation,,https://github.com/istio/istio/issues/1441
+Add resource lower bounds to sidecar proxy container,,https://github.com/istio/istio/issues/1417
+Request Headers Route Rule with composite services does not work,,https://github.com/istio/istio/issues/1380
+gRPC-web,,https://github.com/istio/istio/issues/1368
+Docs: Fault injection should use abort instead of timeout,,https://github.com/istio/istio/issues/1279
+Use ROUND_ROBIN load balancing in the sample,,https://github.com/istio/istio/issues/651
+No k8s events for Istio-controlled ingresses,,https://github.com/istio/istio/issues/234

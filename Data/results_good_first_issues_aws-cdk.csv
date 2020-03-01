@@ -1,0 +1,113 @@
+Issue Description,Assignees to the Issue,Link
+SecretValue.secretsManager should validate input doesn't contain `:`,,https://github.com/aws/aws-cdk/issues/6272
+"Route53 A/AAAA Alias Record to ELB does not use ""dualstack"" prefix",,https://github.com/aws/aws-cdk/issues/6271
+elbv2: ALB listener rule supports path-routing condition with multiple values(up to 5 currently),,https://github.com/aws/aws-cdk/issues/6251
+apigateway - support basepathmapping,,https://github.com/aws/aws-cdk/issues/6248
+RequestValidator shouldn't require (or even expect) a restApi property.,,https://github.com/aws/aws-cdk/issues/6193
+API Gateway ModelOptions interface should require contentType,,https://github.com/aws/aws-cdk/issues/6161
+AWS::CloudFormation::Interface,,https://github.com/aws/aws-cdk/issues/5944
+Provide more grant APIs for the StateMachine construct,,https://github.com/aws/aws-cdk/issues/5933
+NLB: Can't make a private NLB,,https://github.com/aws/aws-cdk/issues/5928
+Attach an existing Role to a Rule,,https://github.com/aws/aws-cdk/issues/5865
+[IAM] Ability to add conditions to AccountPrincipal,,https://github.com/aws/aws-cdk/issues/5855
+Control over VPC AZs,,https://github.com/aws/aws-cdk/issues/5847
+IAM User.fromUserName does not implement IUser functions,,https://github.com/aws/aws-cdk/issues/5797
+route53.CaaAmazonRecord ignores recordName prop,,https://github.com/aws/aws-cdk/issues/5764
+[Glue] Empty string is not considered a proper value,,https://github.com/aws/aws-cdk/issues/5763
+Enable logging for express stepfunctions,,https://github.com/aws/aws-cdk/issues/5754
+Lambda event sources can't be added as disabled when using add_event_source method,,https://github.com/aws/aws-cdk/issues/5750
+Lambda cannot subscribe to SNS Topic in different region,,https://github.com/aws/aws-cdk/issues/5734
+Auto assume credentialsRole for aws integration when credentialsRole is true,,https://github.com/aws/aws-cdk/issues/5725
+NLB: UDP support,,https://github.com/aws/aws-cdk/issues/5571
+Typo in aws-sns-notifications README example code,,https://github.com/aws/aws-cdk/issues/5512
+Tokenized URL Parser,,https://github.com/aws/aws-cdk/issues/5433
+Lambda: unable to access event source mapping ID,,https://github.com/aws/aws-cdk/issues/5430
+CloudFront distribution starts logging even when it's disabled,,https://github.com/aws/aws-cdk/issues/5371
+cdk-dasm does not support CFN parameters,,https://github.com/aws/aws-cdk/issues/5323
+'parameters' not coming through in Step Functions TaskProps,,https://github.com/aws/aws-cdk/issues/5267
+Lambda handlers with differing code exclusions end up with same asset,,https://github.com/aws/aws-cdk/issues/5238
+Lambda Event Source - failure handling for kinesis and dynamodb event sources,,https://github.com/aws/aws-cdk/issues/5236
+Metrics for RDS Cluster,,https://github.com/aws/aws-cdk/issues/5212
+Unable to recover from UPDATE_ROLLBACK_COMPLETE,,https://github.com/aws/aws-cdk/issues/5151
+lambda.Function allow undefined as values for environment,,https://github.com/aws/aws-cdk/issues/5124
+Cannot reference EcrImage by digest instead of tag,,https://github.com/aws/aws-cdk/issues/5082
+docs: document how to get around cyclic deps created by connections calls,,https://github.com/aws/aws-cdk/issues/5047
+metricHealthyHostCount() & metricUnHealthyHostCount() doesn't use required targetGroup dimension,,https://github.com/aws/aws-cdk/issues/5046
+Peer.anyIpv6() should be ::/0 and not ::0/0,,https://github.com/aws/aws-cdk/issues/5043
+aws-ecr: support create ECR repository with scanOnPush enabled,,https://github.com/aws/aws-cdk/issues/4979
+"aws_s3.CfnBucket ""logging_configuration"" is always empty in CF",,https://github.com/aws/aws-cdk/issues/4900
+Allow zero natGateways in VPC construct without requiring a subnetConfiguration,,https://github.com/aws/aws-cdk/issues/4814
+CDK fails when the STS token is expired during deploy operation,,https://github.com/aws/aws-cdk/issues/4804
+route53: HostedZone should have a `hostedZoneArn` property,,https://github.com/aws/aws-cdk/issues/4744
+allow different image for aws_cdk.aws_ec2.BastionHostLinux,,https://github.com/aws/aws-cdk/issues/4730
+Add support for MessageAttributes in PublishToTopic step functions task,,https://github.com/aws/aws-cdk/issues/4702
+this.node.addError does not cause `cdk diff` to fail,,https://github.com/aws/aws-cdk/issues/4700
+BucketDeployment: unable to set cacheControl,,https://github.com/aws/aws-cdk/issues/4665
+Lambda as target in ALB fails to create due to Principal permission issue,,https://github.com/aws/aws-cdk/issues/4663
+Clean up grantRead(asg/instance.role),,https://github.com/aws/aws-cdk/issues/4660
+elbv2: ApplicationTargetGroup should validate that port is specified (when required),,https://github.com/aws/aws-cdk/issues/4628
+self managed ManagedPolicy.managed_policy_name returns an ARN,,https://github.com/aws/aws-cdk/issues/4581
+autoscaling.AutoscalingGroup does not implement IGrantable,,https://github.com/aws/aws-cdk/issues/4554
+Feature: Add ability to set stack description,,https://github.com/aws/aws-cdk/issues/4457
+ApplicationListener variable `Open` default value to False,,https://github.com/aws/aws-cdk/issues/4385
+Support for TCP_UDP as a supported protocol,,https://github.com/aws/aws-cdk/issues/4341
+elbv2: NetworkLoadBalancer can't be fully configured,,https://github.com/aws/aws-cdk/issues/4319
+[apigateway] Allow importing existing VpcLink resources,,https://github.com/aws/aws-cdk/issues/4178
+Make `stack.partition` concrete if `region` is concrete,,https://github.com/aws/aws-cdk/issues/4092
+Add a `pathHash` method to `ConstructNode`,,https://github.com/aws/aws-cdk/issues/4029
+LoadBalanced Fargate Service does not expose deregistrationDelay attribute,,https://github.com/aws/aws-cdk/issues/4015
+Add optional PrivateIpAddress argument to the aws-ec2 Instance construct ,,https://github.com/aws/aws-cdk/issues/4004
+Make Dynamo Table billing mode required or PAY_PER_REQUEST by default,,https://github.com/aws/aws-cdk/issues/3936
+ALB: New types of listener rule conditions,,https://github.com/aws/aws-cdk/issues/3888
+[apigateway] support SecurityPolicy attribute as part of the DomainName resource,,https://github.com/aws/aws-cdk/issues/3862
+Support custom dockerfile names,,https://github.com/aws/aws-cdk/issues/3829
+elasticloadbalancingv2.NetworkLoadBalancer should have a log_access_logs method such as ApplicationLoadBalancer has,,https://github.com/aws/aws-cdk/issues/3794
+Target group configuration could include better validation,,https://github.com/aws/aws-cdk/issues/3703
+[apigateway] Allow customizing the name of the CfnOutput containing the API endpoint,,https://github.com/aws/aws-cdk/issues/3662
+Cloudwatch GraphWidget missing legend,,https://github.com/aws/aws-cdk/issues/3625
+"Getting '${Token[TOKEN.72]} is not valid' error on cdk synth, when assigning ec2.Vpc.cidr value from cfnParameter.valueAsString",,https://github.com/aws/aws-cdk/issues/3617
+Explain that Vpc.fromLookup cannot use deploy-time values,,https://github.com/aws/aws-cdk/issues/3600
+Resolve `Role.fromRoleArn()` to `roleName` instead of first path element,,https://github.com/aws/aws-cdk/issues/3480
+CloudFront/ACM: throw if certificate is not in us-east-1,,https://github.com/aws/aws-cdk/issues/3464
+CustomResource applies presumptuous property uppercasing,,https://github.com/aws/aws-cdk/issues/3421
+TypeScript ECR Documentation Update,,https://github.com/aws/aws-cdk/issues/3273
+ApiGateway LambdaRestApi doesn't allow overriding default integration properties,,https://github.com/aws/aws-cdk/issues/3269
+API Gateway: Custom API key value and API key export,,https://github.com/aws/aws-cdk/issues/3233
+feature: cdk deploy --all,,https://github.com/aws/aws-cdk/issues/3222
+CodeBuild: Missing EncyptionDisabled Artifact property,,https://github.com/aws/aws-cdk/issues/3211
+region-info Fact.find() should throw exception if fact not found,,https://github.com/aws/aws-cdk/issues/3194
+"AutoAssignIP is always set to true, even for ECS EC2 task",,https://github.com/aws/aws-cdk/issues/2996
+turn off colors?,,https://github.com/aws/aws-cdk/issues/2993
+"""cdk docs"" platform-specific browser command",,https://github.com/aws/aws-cdk/issues/2847
+init templates: add cdk.out/ and .env/ (python only) to .gitignore,,https://github.com/aws/aws-cdk/issues/2842
+Support windows containers,,https://github.com/aws/aws-cdk/issues/2574
+Indicate that @attribute properties returns tokens in docstrings (awslint),,https://github.com/aws/aws-cdk/issues/2420
+init csharp: add-project.hook.d.ts is copied into target folder,,https://github.com/aws/aws-cdk/issues/2314
+support aws/codebuild/golang:1.11 build image,,https://github.com/aws/aws-cdk/issues/2079
+"core: add ""getContext"" which throws if context doesn't exist",,https://github.com/aws/aws-cdk/issues/1771
+Bug: PipelineProject badge error,,https://github.com/aws/aws-cdk/issues/1749
+[sns] support encrypted topics,,https://github.com/aws/aws-cdk/issues/1729
+RDS: Support enabling IAM DATABASE Authentication,,https://github.com/aws/aws-cdk/issues/1558
+Support secret for ecs fargate task definition,,https://github.com/aws/aws-cdk/issues/1478
+lambda reservedConcurrentExecutions?,,https://github.com/aws/aws-cdk/issues/1463
+cdk.Include: support passing in parameters to included template,,https://github.com/aws/aws-cdk/issues/1454
+CloudFormation CodePipeline Actions should accept `IRole` instead of `Role`,,https://github.com/aws/aws-cdk/issues/1361
+Tools assume `lerna` is installed globally,,https://github.com/aws/aws-cdk/issues/1338
+"Toolkit: make JSON the default output (and use it for ""deploy"")",,https://github.com/aws/aws-cdk/issues/1323
+Add bucket name check,,https://github.com/aws/aws-cdk/issues/1308
+AWS::ECS::Service needs DependsOn AWS::ElasticLoadBalancingV2::ListenerRule,,https://github.com/aws/aws-cdk/issues/1160
+codebuild: ProjectProps timeout does not resolve to TimeoutInMinutes,,https://github.com/aws/aws-cdk/issues/1028
+core: Disable export-by-default,,https://github.com/aws/aws-cdk/issues/903
+ELBv2: expose metrics objects,,https://github.com/aws/aws-cdk/issues/853
+Applets: make it possible to rename stack,,https://github.com/aws/aws-cdk/issues/851
+"RegEx is too restrictive.Exception will be thrown if you try to set pathPart to '{proxy+}', which is valid! ",,https://github.com/aws/aws-cdk/issues/768
+CloudFormation servicerole,,https://github.com/aws/aws-cdk/issues/735
+Logging property not present on creating a Cloudfront distribution using construct,,https://github.com/aws/aws-cdk/issues/721
+Allow importing/exporting iam.Role,,https://github.com/aws/aws-cdk/issues/673
+Lambda doesn't need to be able to access the code bucket from it's execution role,,https://github.com/aws/aws-cdk/issues/664
+Toolkit: stack update failure should show StackStatusReason,,https://github.com/aws/aws-cdk/issues/604
+Cannot Create IAM:ServiceLinkedRole,,https://github.com/aws/aws-cdk/issues/569
+iam: abstract base class for Role/Group/User and also implement import/export,,https://github.com/aws/aws-cdk/issues/464
+Warn/fail synthesis when reached the 200 resource limit,,https://github.com/aws/aws-cdk/issues/276
+[iam] Support sts:ExternalId,,https://github.com/aws/aws-cdk/issues/235
+Adding an `Output` to a stack does not count as a change so the stack is not deployed,,https://github.com/aws/aws-cdk/issues/186

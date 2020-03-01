@@ -1,0 +1,42 @@
+First Commit Hash (SHA),Commit Message,Author (Github Name),Link to Commit
+393ceea575bc61528615e4186bbda3d695c6c2e5,Initial extract,jethrokuan,https://api.github.com/repos/jethrokuan/org-roam/git/commits/393ceea575bc61528615e4186bbda3d695c6c2e5
+29b0b86c2a404f9908a1a0786829a289aef9126d,"Update Readme
+
+Update with a bit detailed descriptions for the Readme.",dit7ya,https://api.github.com/repos/jethrokuan/org-roam/git/commits/29b0b86c2a404f9908a1a0786829a289aef9126d
+e3b0b3b64da63cf6520204c072629ac50111abe0,"Don't re-enable org-mode
+
+If the org-roam buffer is already in org-mode, don't try to re-enable
+it (since this essentially turns org-mode hooks into post-command-hooks
+and can be computationally expensive).",ryjm,https://api.github.com/repos/jethrokuan/org-roam/git/commits/e3b0b3b64da63cf6520204c072629ac50111abe0
+282d0010faa8722120c1b94f3531507e8cea9c9f,"Add org-roam-tomorrow and org-roam-date
+
+Similar to `org-roam-today`:
+
+- `org-roam-tomorrow`: Add file for tomorrow
+- `org-roam-date`: Add file for any date (choose via date picker)",steven-lang,https://api.github.com/repos/jethrokuan/org-roam/git/commits/282d0010faa8722120c1b94f3531507e8cea9c9f
+a6a6249da588354a9e48bede7d8b552b4e92b29d,Add symlink support,daniel-koudouna,https://api.github.com/repos/jethrokuan/org-roam/git/commits/a6a6249da588354a9e48bede7d8b552b4e92b29d
+9aba7ee094970614305a6d75185bafacbcccb856,"(feature): support encrypted org files (#87)
+
+Authored by @chip2n",chip2n,https://api.github.com/repos/jethrokuan/org-roam/git/commits/9aba7ee094970614305a6d75185bafacbcccb856
+f048a6b866a5d60e938edaab098dcbb638688882,(bugfix): org-roam--org-roam-file-p: add a missed file-truename (#88),nivekuil,https://api.github.com/repos/jethrokuan/org-roam/git/commits/f048a6b866a5d60e938edaab098dcbb638688882
+883eed0a5e5f45eb7ee197f48cdd5cc7bac327fc,"(change): open file links in org-roam buffer in `org-roam-last-window` (#108)
+
+Addresses #30 , thanks @l3kn",l3kn,https://api.github.com/repos/jethrokuan/org-roam/git/commits/883eed0a5e5f45eb7ee197f48cdd5cc7bac327fc
+4a5531cde354652a0fd6a59896d8d235f01bdacc,"(fix): fix typo (#113)
+
+this addresses the minor typo noted in #112",bdarcus,https://api.github.com/repos/jethrokuan/org-roam/git/commits/4a5531cde354652a0fd6a59896d8d235f01bdacc
+996923f9d918e176cb9bb19b7a2ddfd8627106c6,(feature): add jump to point from org-roam buffer (#99),jdormit,https://api.github.com/repos/jethrokuan/org-roam/git/commits/996923f9d918e176cb9bb19b7a2ddfd8627106c6
+570467b34b3dcb8f23cd3411b63c2ee2f40bf6cf,"(internal): increase performance of post-command-hook (#122)
+
+file-truename can be an expensive function on a slow filesystem like NFS. I Removed a lot of the unneeded code and refactored to improve performance. In my testing it took the execution time from 13ms per call to 2µs; over a 1000x speedup. This is important since post-command-hook is called with every character you type.",CeleritasCelery,https://api.github.com/repos/jethrokuan/org-roam/git/commits/570467b34b3dcb8f23cd3411b63c2ee2f40bf6cf
+05ada41710767b99f7400d9bbc2ddeac7f46098a,(docs): add Spacemacs installation instructions (#133),hendrikcech,https://api.github.com/repos/jethrokuan/org-roam/git/commits/05ada41710767b99f7400d9bbc2ddeac7f46098a
+0346d3b16c42e6a05e34daa2fb91dddf8cfe714b,(bugfix): handle nil file names in `org-roam--org-roam-file-p` (#136),acowley,https://api.github.com/repos/jethrokuan/org-roam/git/commits/0346d3b16c42e6a05e34daa2fb91dddf8cfe714b
+f458c6caf635fd75d2ef6da2158a305bc64d379b,"(feature): add org-roam-switch-to-buffer (#138)
+
+Implement a buffer-switching mechanism for org-roam files.
+
+Closes #126",herbertjones,https://api.github.com/repos/jethrokuan/org-roam/git/commits/f458c6caf635fd75d2ef6da2158a305bc64d379b
+b78b545d31be3c30e5497fae121edfe539082945,(feature): allow customization of graphviz node appearance (#132),frigge,https://api.github.com/repos/jethrokuan/org-roam/git/commits/b78b545d31be3c30e5497fae121edfe539082945
+316ad40b2ca0bf0abd077e9ae22d401af116a7c3,(feature): `org-roam-show-graph`: fallback to Emacs SVG viewer (#145) (#145),juergenhoetzel,https://api.github.com/repos/jethrokuan/org-roam/git/commits/316ad40b2ca0bf0abd077e9ae22d401af116a7c3
+de1ac9d5ccf37ae970a58c53780132916f1d6d63,Fix typo in tour.md (#172),wrycode,https://api.github.com/repos/jethrokuan/org-roam/git/commits/de1ac9d5ccf37ae970a58c53780132916f1d6d63
+5f6ff4282cdc242ee41c39b2f40a50b640cc211a,(docs): fix broken markdown src block (#176),leaen,https://api.github.com/repos/jethrokuan/org-roam/git/commits/5f6ff4282cdc242ee41c39b2f40a50b640cc211a

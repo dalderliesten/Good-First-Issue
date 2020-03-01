@@ -1,0 +1,59 @@
+Issue Description,Assignees to the Issue,Link
+"Docker backup cronjob (location, interval, retention)",,https://github.com/gogs/gogs/issues/5939
+Docker Healthcheck support,,https://github.com/gogs/gogs/issues/5935
+Race condition can make MaxCreationLimit useless,,https://github.com/gogs/gogs/issues/5926
+APIs for protected branches,,https://github.com/gogs/gogs/issues/5923
+Switch from russross/blackfriday to yuin/goldmark,,https://github.com/gogs/gogs/issues/5921
+LDAP BindDN Multiple Log In Options Results in 500,,https://github.com/gogs/gogs/issues/5897
+Reviewer cannot view specified commit changes when forked repository is private,,https://github.com/gogs/gogs/issues/5878
+"""File diff suppressed because it is too large"" should be more specific",,https://github.com/gogs/gogs/issues/5814
+Add Rsync as a default package in Dockerfile,,https://github.com/gogs/gogs/issues/5769
+Private mirror icon,,https://github.com/gogs/gogs/issues/5686
+Cannot set Auth Source to Local via API,,https://github.com/gogs/gogs/issues/5654
+Add commit message to span's title in commits list,,https://github.com/gogs/gogs/issues/5639
+Documentation link on README when creating a repo is broken,,https://github.com/gogs/gogs/issues/5618
+Personal access token last used timestamp isn't updated,,https://github.com/gogs/gogs/issues/5615
+Auto-login after signup,,https://github.com/gogs/gogs/issues/5569
+API for user stars/watch/forks,,https://github.com/gogs/gogs/issues/5557
+"Add build tag ""heroku"" a synonym for ""sqlite cert pam""",,https://github.com/gogs/gogs/issues/5539
+mssql: Error 500 on /watchers & /stars,,https://github.com/gogs/gogs/issues/5482
+In Admin panel the code block is out of the main block,,https://github.com/gogs/gogs/issues/5453
+Add config option to limit number of org displayed in the user profile,,https://github.com/gogs/gogs/issues/5451
+Issue with generating 'identicon' when using LDAP in Org page,,https://github.com/gogs/gogs/issues/5429
+Disabled logins still have read access with ssh key,,https://github.com/gogs/gogs/issues/5408
+Long branch name not displayed properly,,https://github.com/gogs/gogs/issues/5341
+Very slow container startup using Gogs’ Docker image on chown command,,https://github.com/gogs/gogs/issues/5316
+Markdown Tables are rendered below the footer,,https://github.com/gogs/gogs/issues/5284
+Ask user to accept cookies to be compliant to the law,,https://github.com/gogs/gogs/issues/5259
+double click to submit pull request will make 2 same pr. ,,https://github.com/gogs/gogs/issues/5252
+Activity not reflecting deleted comments,,https://github.com/gogs/gogs/issues/5202
+Repository description field in database should allow more than 256 chars length,,https://github.com/gogs/gogs/issues/5190
+Attempt to fix UI responsiveness,,https://github.com/gogs/gogs/issues/5179
+Ipynb code block overflows,,https://github.com/gogs/gogs/issues/5152
+MISSING_MID (Message-Id) on outgoing emails,,https://github.com/gogs/gogs/issues/5147
+"Disable ""New Repository"" button if forbidden",,https://github.com/gogs/gogs/issues/5111
+Publish Docker images with Redis or Memcached support?,,https://github.com/gogs/gogs/issues/5037
+"when using sudo su git -c'/home/git/gogs/gogs backup', miss data directory ",,https://github.com/gogs/gogs/issues/4991
+Add config option to disallow user to rename their username,,https://github.com/gogs/gogs/issues/4989
+Gogs does not wrap Repository and User Names properly,,https://github.com/gogs/gogs/issues/4886
+Allow longer Websites,,https://github.com/gogs/gogs/issues/4820
+Browsers Freeze Rendering Code Block with 3 dots in the Content,,https://github.com/gogs/gogs/issues/4791
+Add option to only display SSH clone URLs for logged-in users,,https://github.com/gogs/gogs/issues/4786
+Unnecessary HTML escape in Wiki page title,,https://github.com/gogs/gogs/issues/4673
+README should not parse HTML,,https://github.com/gogs/gogs/issues/4593
+Cannot restore inside Docker container,,https://github.com/gogs/gogs/issues/4339
+Redirect stdout and stderr to logfile,,https://github.com/gogs/gogs/issues/3893
+Improve double button's style,,https://github.com/gogs/gogs/issues/3741
+Web editor indentation,,https://github.com/gogs/gogs/issues/3610
+Inconsistent relative links in web editor preview,,https://github.com/gogs/gogs/issues/3561
+"Markup links with ""alt"" attribute not recognized",,https://github.com/gogs/gogs/issues/3545
+No email notification is sent when issue is assigned,,https://github.com/gogs/gogs/issues/3540
+Cookie security,,https://github.com/gogs/gogs/issues/3525
+Adding SSH key with newline yields invalid key format,,https://github.com/gogs/gogs/issues/3480
+Hide email addresses everywhere,,https://github.com/gogs/gogs/issues/3358
+Incorrect calculation of commit count for releases created not on default branch,,https://github.com/gogs/gogs/issues/3326
+Error 404 when trying to view a file that has been both modified and renamed,,https://github.com/gogs/gogs/issues/3289
+HTML align attribute is stripped in markdown,,https://github.com/gogs/gogs/issues/3234
+Qualify cross-repository ticket references,,https://github.com/gogs/gogs/issues/2960
+Allow config to display full name of user in dashboard feeds,,https://github.com/gogs/gogs/issues/2923
+"Use ""sendmail"" or equivalent alias to send mail without SMTP",,https://github.com/gogs/gogs/issues/997

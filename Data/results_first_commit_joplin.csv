@@ -1,0 +1,1037 @@
+First Commit Hash (SHA),Commit Message,Author (Github Name),Link to Commit
+581f1889274c50922937e27e34a753b5f85a1e16,First commit,laurent22,https://api.github.com/repos/laurent22/joplin/git/commits/581f1889274c50922937e27e34a753b5f85a1e16
+dca4bb204b4fd4d8044e1f3f4e7ba2329b891937,"Minor grammar fix
+
+loss -> lost.",dflock,https://api.github.com/repos/laurent22/joplin/git/commits/dca4bb204b4fd4d8044e1f3f4e7ba2329b891937
+485ef1f2c2e36c77ac2d4788c035dcfa68713407,"Add node-gyp dependency to instructions
+
+I was getting an error on `yarn dist` which I solved with the command `npm install -g node-gyp`.
+
+This was the error:
+```
+Error: /usr/local/Cellar/node/8.9.1/bin/node exited with code 1
+Output:
+$ node-pre-gyp install --fallback-to-build
+Failed to execute 'node-gyp clean' (Error: spawn node-gyp ENOENT)
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+
+Error output:
+node-pre-gyp info it worked if it ends with ok
+node-pre-gyp info using node-pre-gyp@0.6.38
+node-pre-gyp info using node@8.9.1 | darwin | x64
+node-pre-gyp http GET https://mapbox-node-binary.s3.amazonaws.com/sqlite3/v3.1.13/electron-v1.7-darwin-x64.tar.gz
+node-pre-gyp http 403 https://mapbox-node-binary.s3.amazonaws.com/sqlite3/v3.1.13/electron-v1.7-darwin-x64.tar.gz
+node-pre-gyp ERR! Tried to download(403): https://mapbox-node-binary.s3.amazonaws.com/sqlite3/v3.1.13/electron-v1.7-darwin-x64.tar.gz
+node-pre-gyp ERR! Pre-built binaries not found for sqlite3@3.1.13 and electron@1.7.9 (electron-v1.7 ABI) (falling back to source compile with node-gyp)
+node-pre-gyp http 403 status code downloading tarball https://mapbox-node-binary.s3.amazonaws.com/sqlite3/v3.1.13/electron-v1.7-darwin-x64.tar.gz
+node-pre-gyp ERR! build error
+node-pre-gyp ERR! stack Error: Failed to execute 'node-gyp clean' (Error: spawn node-gyp ENOENT)
+node-pre-gyp ERR! stack     at ChildProcess.<anonymous> (/Users/matt/joplin/ElectronClient/app/node_modules/sqlite3/node_modules/node-pre-gyp/lib/util/compile.js:77:29)
+node-pre-gyp ERR! stack     at emitOne (events.js:116:13)
+node-pre-gyp ERR! stack     at ChildProcess.emit (events.js:211:7)
+node-pre-gyp ERR! stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:196:12)
+node-pre-gyp ERR! stack     at onErrorNT (internal/child_process.js:372:16)
+node-pre-gyp ERR! stack     at _combinedTickCallback (internal/process/next_tick.js:138:11)
+node-pre-gyp ERR! stack     at process._tickCallback (internal/process/next_tick.js:180:9)
+node-pre-gyp ERR! System Darwin 16.7.0
+node-pre-gyp ERR! command ""/usr/local/Cellar/node/8.9.1/bin/node"" ""/Users/matt/joplin/ElectronClient/app/node_modules/sqlite3/node_modules/.bin/node-pre-gyp"" ""install"" ""--fallback-to-build""
+node-pre-gyp ERR! cwd /Users/matt/joplin/ElectronClient/app/node_modules/sqlite3
+node-pre-gyp ERR! node -v v8.9.1
+node-pre-gyp ERR! node-pre-gyp -v v0.6.38
+node-pre-gyp ERR! not ok
+error Command failed with exit code 1.
+
+    at ChildProcess.childProcess.once.code (/Users/matt/joplin/ElectronClient/app/node_modules/builder-util/src/util.ts:219:14)
+    at Object.onceWrapper (events.js:317:30)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at maybeClose (internal/child_process.js:925:16)
+    at Socket.stream.socket.on (internal/child_process.js:346:11)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at Pipe._handle.close [as _onclose] (net.js:554:12)
+From previous event:
+    at spawn (/Users/matt/joplin/ElectronClient/app/node_modules/builder-util/src/util.ts:182:3)
+    at default.map.concurrency (/Users/matt/joplin/ElectronClient/app/node_modules/electron-builder/src/util/yarn.ts:154:7)
+    at runCallback (timers.js:789:20)
+    at tryOnImmediate (timers.js:751:5)
+    at processImmediate [as _immediateCallback] (timers.js:722:5)
+From previous event:
+    at /Users/matt/joplin/ElectronClient/app/node_modules/electron-builder/src/util/yarn.ts:152:27
+From previous event:
+    at rebuild (/Users/matt/joplin/ElectronClient/app/node_modules/electron-builder/out/util/yarn.js:94:22)
+    at /Users/matt/joplin/ElectronClient/app/node_modules/electron-builder/src/util/yarn.ts:21:11
+    at Generator.next (<anonymous>)
+    at runCallback (timers.js:789:20)
+    at tryOnImmediate (timers.js:751:5)
+    at processImmediate [as _immediateCallback] (timers.js:722:5)
+From previous event:
+    at installOrRebuild (/Users/matt/joplin/ElectronClient/app/node_modules/electron-builder/out/util/yarn.js:32:21)
+    at /Users/matt/joplin/ElectronClient/app/node_modules/electron-builder/src/packager.ts:388:7
+    at Generator.next (<anonymous>)
+From previous event:
+    at Packager.installAppDependencies (/Users/matt/joplin/ElectronClient/app/node_modules/electron-builder/out/packager.js:433:11)
+    at /Users/matt/joplin/ElectronClient/app/node_modules/electron-builder/src/packager.ts:284:20
+    at Generator.next (<anonymous>)
+From previous event:
+    at Packager.doBuild (/Users/matt/joplin/ElectronClient/app/node_modules/electron-builder/out/packager.js:369:11)
+    at /Users/matt/joplin/ElectronClient/app/node_modules/electron-builder/src/packager.ts:236:52
+    at Generator.next (<anonymous>)
+From previous event:
+    at Packager.build (/Users/matt/joplin/ElectronClient/app/node_modules/electron-builder/out/packager.js:298:11)
+    at /Users/matt/joplin/ElectronClient/app/node_modules/electron-builder/src/builder.ts:277:40
+    at Generator.next (<anonymous>)
+From previous event:
+    at build (/Users/matt/joplin/ElectronClient/app/node_modules/electron-builder/out/builder.js:63:21)
+    at then (/Users/matt/joplin/ElectronClient/app/node_modules/electron-builder/src/cli/cli.ts:49:4)
+    at runCallback (timers.js:789:20)
+    at tryOnImmediate (timers.js:751:5)
+    at processImmediate [as _immediateCallback] (timers.js:722:5)
+From previous event:
+    at Object.args [as handler] (/Users/matt/joplin/ElectronClient/app/node_modules/electron-builder/src/cli/cli.ts:49:4)
+    at Object.runCommand (/Users/matt/joplin/ElectronClient/app/node_modules/yargs/lib/command.js:228:22)
+    at Object.parseArgs [as _parseArgs] (/Users/matt/joplin/ElectronClient/app/node_modules/yargs/yargs.js:1041:24)
+    at Object.get [as argv] (/Users/matt/joplin/ElectronClient/app/node_modules/yargs/yargs.js:957:21)
+    at Object.<anonymous> (/Users/matt/joplin/ElectronClient/app/node_modules/electron-builder/src/cli/cli.ts:43:15)
+    at Module._compile (module.js:635:30)
+    at Object.Module._extensions..js (module.js:646:10)
+    at Module.load (module.js:554:32)
+    at tryModuleLoad (module.js:497:12)
+    at Function.Module._load (module.js:489:3)
+    at Function.Module.runMain (module.js:676:10)
+    at startup (bootstrap_node.js:187:16)
+    at bootstrap_node.js:608:3
+```",mgroth0,https://api.github.com/repos/laurent22/joplin/git/commits/485ef1f2c2e36c77ac2d4788c035dcfa68713407
+cda623a95c6d360afd72d07b38dfdc582843107f,"Added command auto complete
+File based autocompletion is not yet implemented. This will require knowledge of
+the command, and it's parameters. The autocomplete feture is pretty powerful
+however, so this should not be very difficult to add.",gabcoh,https://api.github.com/repos/laurent22/joplin/git/commits/cda623a95c6d360afd72d07b38dfdc582843107f
+0bf5c9ebddd361541d87db84dd5e157a8955fe2b,"Fix #119
+
+Fix the bug that permit to undo changes from different notes.
+I save the editor instance into the state and in the componentWillReceiveProps i reset the undo state",marcosvega91,https://api.github.com/repos/laurent22/joplin/git/commits/0bf5c9ebddd361541d87db84dd5e157a8955fe2b
+86b86513d936ee96ec8cd87dd0bd5b32d1ab1cbe,Update README with Importing from Standard Notes,tanrax,https://api.github.com/repos/laurent22/joplin/git/commits/86b86513d936ee96ec8cd87dd0bd5b32d1ab1cbe
+3f810c71b03211172c22775cf43f30ced2561e62,improved german translations,SamuelBlickle,https://api.github.com/repos/laurent22/joplin/git/commits/3f810c71b03211172c22775cf43f30ced2561e62
+7e086a77309e709a664bda2479e9b834ddd1938e,Japanese localization,kcrt,https://api.github.com/repos/laurent22/joplin/git/commits/7e086a77309e709a664bda2479e9b834ddd1938e
+4314c392f6b83a6978500430c4730a2f3bdfe587,adding translate spanish Latin America,dbinary,https://api.github.com/repos/laurent22/joplin/git/commits/4314c392f6b83a6978500430c4730a2f3bdfe587
+09b9df4228a96c3390d11736c586389c7b11eafb,German locale: adjust articulation,Cogitri,https://api.github.com/repos/laurent22/joplin/git/commits/09b9df4228a96c3390d11736c586389c7b11eafb
+0d472486cafe1efb15d81672e526435427153c35,Fix typos,tbroadley,https://api.github.com/repos/laurent22/joplin/git/commits/0d472486cafe1efb15d81672e526435427153c35
+6ac3b8a8f968e80a0b5a352ac679dcb8244d9e56,"Add files via upload
+
+Russian localisation for Joplin. 100% done, but some corrections may be required.",rtmkrlv,https://api.github.com/repos/laurent22/joplin/git/commits/6ac3b8a8f968e80a0b5a352ac679dcb8244d9e56
+6a5089f71d687cc82b141773ca35dd4fae6f780a,"Dutch translation
+
+All EN keys are translated to nl_BE.",tcassaert,https://api.github.com/repos/laurent22/joplin/git/commits/6a5089f71d687cc82b141773ca35dd4fae6f780a
+f52c117b095be828099f3a4c3bc7195cfa01a597,Add font size settings,alexdevero,https://api.github.com/repos/laurent22/joplin/git/commits/f52c117b095be828099f3a4c3bc7195cfa01a597
+c62a24a9cbe9f5e230a40470def8815e870dc450,"Implement auto completion for <file> usage
+
+Suggest file names from current directory.",pf-siedler,https://api.github.com/repos/laurent22/joplin/git/commits/c62a24a9cbe9f5e230a40470def8815e870dc450
+1db7825b2286c26d16b701266161e053c62bdf0d,"Update German translation
+
+Grammar and wording fixes, translating new strings.",strobeltobias,https://api.github.com/repos/laurent22/joplin/git/commits/1db7825b2286c26d16b701266161e053c62bdf0d
+cfca0107eb46b21a9bf122f839480450a3f0ad05,Update README.md,fmrtn,https://api.github.com/repos/laurent22/joplin/git/commits/cfca0107eb46b21a9bf122f839480450a3f0ad05
+c76beae057ac3fdf546d618674737fec5bee066f,correct the documentation about adding checkboxes,jaredcrowe,https://api.github.com/repos/laurent22/joplin/git/commits/c76beae057ac3fdf546d618674737fec5bee066f
+efc46d998939e83d24fdee2bef4749c1fea30834,"Update de_DE.po
+
+Add missing translations, minor corrections for existing translations.",tobias-grasse,https://api.github.com/repos/laurent22/joplin/git/commits/efc46d998939e83d24fdee2bef4749c1fea30834
+5af52afadb169f05ab0f5fe8f13dff63878bd9cd,adding Czech translation,hydrandt,https://api.github.com/repos/laurent22/joplin/git/commits/5af52afadb169f05ab0f5fe8f13dff63878bd9cd
+5b1755f988d9a3e2a49fe981cfd3964da8a87d2f,Clarify Windows build dependencies,bimlas,https://api.github.com/repos/laurent22/joplin/git/commits/5b1755f988d9a3e2a49fe981cfd3964da8a87d2f
+317aaed0acde17f669978b9fc80ab7775bbe981a,"Updated Danish translation
+
+New strings and minor corrections.",mjjzf,https://api.github.com/repos/laurent22/joplin/git/commits/317aaed0acde17f669978b9fc80ab7775bbe981a
+16554b22c7c1a719ee17dc152fb93843d6c7e77d,Merge monospace text lines when importing from Evernote,petrz12,https://api.github.com/repos/laurent22/joplin/git/commits/16554b22c7c1a719ee17dc152fb93843d6c7e77d
+1242de532ea2e6c5108755f79733c247b9ccbb2f,"Adds support to toggle the sidebar.
+
+Closes #183
+
+Signed-off-by: Abijeet <abijeetpatro@gmail.com>",Abijeet,https://api.github.com/repos/laurent22/joplin/git/commits/1242de532ea2e6c5108755f79733c247b9ccbb2f
+96571baadca61bdf3e0e0ab3dc3c7bfc75436a53,"Common EU Date format DD.MM.YYYY added, issue #405",solariz,https://api.github.com/repos/laurent22/joplin/git/commits/96571baadca61bdf3e0e0ab3dc3c7bfc75436a53
+1364d6786d3b4f641e86ef082b9d1ce317b4ab94,Update de_DE.po,zuphilip,https://api.github.com/repos/laurent22/joplin/git/commits/1364d6786d3b4f641e86ef082b9d1ce317b4ab94
+c62dcd96b08fd52d7df8631f10344e26741c0f34,"CliClient: Fix some typos (found by codespell)
+
+Remove also a ""translation"" which was none from locales/hr_HR.po.
+
+Signed-off-by: Stefan Weil <sw@weilnetz.de>",stweil,https://api.github.com/repos/laurent22/joplin/git/commits/c62dcd96b08fd52d7df8631f10344e26741c0f34
+0e1887988e78a63e210940ceb5b262899414d458,"add OneDrive 
+
+add OneDrive to the general description of the supported services",foxmask,https://api.github.com/repos/laurent22/joplin/git/commits/0e1887988e78a63e210940ceb5b262899414d458
+8dc14516d67098e4f02a764e244b6d8ce36cab59,"Handle Nginx DAV PROPFIND responses correctly
+
+Parse the d:status field for d:propstat sections within a d:multistatus response to a DAV PROPFIND because Nginx returns 404 statuses wrapped in an overall 207",bradmcl,https://api.github.com/repos/laurent22/joplin/git/commits/8dc14516d67098e4f02a764e244b6d8ce36cab59
+c7f61271a061f2502c17ed8c0ba9501f83c72eea,Displaying the notebook's name in the Note toolbar when search is active.,zblesk,https://api.github.com/repos/laurent22/joplin/git/commits/c7f61271a061f2502c17ed8c0ba9501f83c72eea
+a74cfbfb2593a676cee783e053b4824a26e32dc8,Add Catalan Translation,jmontane,https://api.github.com/repos/laurent22/joplin/git/commits/a74cfbfb2593a676cee783e053b4824a26e32dc8
+c4411bb895cb61cf58f5a1c7a3cccc73c9a630b8,"focus NoteText only when creating new notes
+
+This changes the behaviour so that loading a note does automatically
+focus the note text/title only when a new note is being created.
+
+This reduces accidental edits and is in line with other note taking
+applications such as Simplenote, Evernote and Apple Notes.",RaphaelKimmig,https://api.github.com/repos/laurent22/joplin/git/commits/c4411bb895cb61cf58f5a1c7a3cccc73c9a630b8
+884063126644f59b5ec52ebac51b5a70fb66fc4e,"Add simple sharing facilities for Android
+  - react code should be cross platform but support needs to be added
+    for ios
+  - only shares plain text notes for now",CalebJohn,https://api.github.com/repos/laurent22/joplin/git/commits/884063126644f59b5ec52ebac51b5a70fb66fc4e
+1f49788f213d9c3914d56d114fc7aed42a0d1fb5,fix 'No newline at end of file',tessus,https://api.github.com/repos/laurent22/joplin/git/commits/1f49788f213d9c3914d56d114fc7aed42a0d1fb5
+123162e94674f449750339393b9240fc6c7c3358,enable file-URLs in note html view,tfinnberg,https://api.github.com/repos/laurent22/joplin/git/commits/123162e94674f449750339393b9240fc6c7c3358
+9460f7a17afbe8664401e0fc7660bf576c8267da,Add Swedish translation,jony0008,https://api.github.com/repos/laurent22/joplin/git/commits/9460f7a17afbe8664401e0fc7660bf576c8267da
+ed0ecababba4a34d896a318d97ad1e98716cdf04,"Update it_IT.po
+
+Hi,
+i'm new to github... i hope this help and i've not done some mistake
+i think that:
+""notebook"" should be named ""taccuini"" in italian like evenote does 
+""to-do"" can be translated in ""Cose-da-fare"" not in ""attività"" that means ""activity/activities""
+
+now... i've also a feature request to improve the user interaction with the sidebar and to focus more on the ""to-do"" stuff
+where i can send/post my little suggestion?
+
+thank you",pensierocrea,https://api.github.com/repos/laurent22/joplin/git/commits/ed0ecababba4a34d896a318d97ad1e98716cdf04
+57ed7189932a080fa6cfa89b170dfb23e5c1a764,#206 Notebooks list defaults to alphabetical order,sebastienjust,https://api.github.com/repos/laurent22/joplin/git/commits/57ed7189932a080fa6cfa89b170dfb23e5c1a764
+66b683e5e746fa36bb2db3459ca63404d48c6a47,Added Dutch (Netherlands) translation,Vistaus,https://api.github.com/repos/laurent22/joplin/git/commits/66b683e5e746fa36bb2db3459ca63404d48c6a47
+6e235605ed8f0d67077d952f724f785a9f9f7420,CLI: improve e2ee decrypt command,Kriechi,https://api.github.com/repos/laurent22/joplin/git/commits/6e235605ed8f0d67077d952f724f785a9f9f7420
+95c4a717e36df7098c118e1c9fb9ee5796276a7b,Update zh_CN.po,chaifeng,https://api.github.com/repos/laurent22/joplin/git/commits/95c4a717e36df7098c118e1c9fb9ee5796276a7b
+73e79213dc44e31adfe8a28d50506959ad91bf0a,"Fix ubuntu install script
+
+If no former version is present, the script fails since the rm commands do not succeed.
+Added -f to rm in order to ignore non-existent directories to be deleted.",mvonmaltitz,https://api.github.com/repos/laurent22/joplin/git/commits/73e79213dc44e31adfe8a28d50506959ad91bf0a
+22fe3a4e4422732d6f4cdc4553b2c2f8355a9036,Update Japanese Translations.,ikunya,https://api.github.com/repos/laurent22/joplin/git/commits/22fe3a4e4422732d6f4cdc4553b2c2f8355a9036
+fcfb7f11116c5097575d26aad39bb043b8d71fce,"Update de_DE.json
+
+Fix and add some german translations",sensor-freak,https://api.github.com/repos/laurent22/joplin/git/commits/fcfb7f11116c5097575d26aad39bb043b8d71fce
+333253fd4f7874e0aa3035f58bbf551febe907d9,"Joplin_install_and_update.sh
+
+The script was original written for “Ubuntu – Gnome” only. I change it a little bit to support more distributions and desktop enviroments.
+
+This script could be used to install and update Joplin at several Linux distributions. I could test this script with “Fedora 28 – Cinnamon” and “Mint LMDE 3”.   There are a lot of requests how to install / start Joplin at Linux in the FAQ’s. Hopefully this could help the people",shorty2380,https://api.github.com/repos/laurent22/joplin/git/commits/333253fd4f7874e0aa3035f58bbf551febe907d9
+90b684457ad4174d73cdc323c1f304aa874ccbbd,Fixed some typos and inconsistencies in the german language file and added missing translations. (#854),chrisb86,https://api.github.com/repos/laurent22/joplin/git/commits/90b684457ad4174d73cdc323c1f304aa874ccbbd
+3ba3037242b51102430a6437a10a75017ced8a98,Update README.md (#874),tcyrus,https://api.github.com/repos/laurent22/joplin/git/commits/3ba3037242b51102430a6437a10a75017ced8a98
+70e71cbc2a7779889c321f3853b2122c196aab5b,"Mobile: Fixes #856: Add option to open source url (#872)
+
+* Mobile: Fixes #856: Add option to open source url
+
+* Mobile: Fixes #856: Change menu wording for opening source url",ebayer,https://api.github.com/repos/laurent22/joplin/git/commits/70e71cbc2a7779889c321f3853b2122c196aab5b
+de954827df846483d98747f5e07e9cc88abead92,Support FreeBSD in terminal (#896),ymitsos,https://api.github.com/repos/laurent22/joplin/git/commits/de954827df846483d98747f5e07e9cc88abead92
+f92546d6eb4af1854c0b93b2f3a44061e28d9384,Adding some tips for building and debugging Joplin on Windows (#938),moltenform,https://api.github.com/repos/laurent22/joplin/git/commits/f92546d6eb4af1854c0b93b2f3a44061e28d9384
+7f6ca1e527547c9634570b840259bdc0b74e8809,fixed typo in Aktualsierungsdatum to Aktualisierungsdatum (#974),FleischKarussel,https://api.github.com/repos/laurent22/joplin/git/commits/7f6ca1e527547c9634570b840259bdc0b74e8809
+efd7cc6a0cf3ef1c4076c22b8e312003cd7b2933,"update-locale-pt_BR (#981)
+
+Update missing strings and fixed flagged ones.",RenatoXSR,https://api.github.com/repos/laurent22/joplin/git/commits/efd7cc6a0cf3ef1c4076c22b8e312003cd7b2933
+9ed0bdfed2aa44d2e4b0dd97d59149159e9b60f5,Add more Chinese translation (#986),einverne,https://api.github.com/repos/laurent22/joplin/git/commits/9ed0bdfed2aa44d2e4b0dd97d59149159e9b60f5
+c24135577cac5893c39211e9733935dc8d58a83b,"Useless and error prone VERSION file removed & warn use of root (#989)
+
+* Don't create unused VERSION file
+
+It will throw an error if the script is run from a non-writable directory
+
+* Warn user if running as root
+
+This will write files as root:root
+
+* Clearer root warning",rhtenhove,https://api.github.com/repos/laurent22/joplin/git/commits/c24135577cac5893c39211e9733935dc8d58a83b
+3fb35d043ba8bba44bfb537a816e7e4b47ce71f9,"Revise and complete Norwegian translation (no) and rename to correct locale: nb_NO (#1013)
+
+* update norwegian translation and correct locale name to nb_NO
+
+* set no to nb_NO in documentation
+
+* Add name, email and completion to README
+
+Norwegian translation",matsest,https://api.github.com/repos/laurent22/joplin/git/commits/3fb35d043ba8bba44bfb537a816e7e4b47ce71f9
+d3b43791615f1b07f0b6d9c3e3fe8a4161779f06,"Update to make it works in Kubuntu (#1038)
+
+The directory ~/.local/share/applications/ exists in Kubuntu 18.04 so with this change the script also work in Kubuntu.",lboullo0,https://api.github.com/repos/laurent22/joplin/git/commits/d3b43791615f1b07f0b6d9c3e3fe8a4161779f06
+71ec9a193f8257a7be90465e5c00a80d1d3f0242,Update zh_CN translations,y-usuzumi,https://api.github.com/repos/laurent22/joplin/git/commits/71ec9a193f8257a7be90465e5c00a80d1d3f0242
+86e644be9a09fa329282da8dd781861f89a24d9e,Добавил перевода,rasperepodvipodvert,https://api.github.com/repos/laurent22/joplin/git/commits/86e644be9a09fa329282da8dd781861f89a24d9e
+0e611158576c599eec6262556c71da0c1edd6835,"Update de_DE.po (#1076)
+
+* Update de_DE.po
+
+Translated last untranslated strings and removed anglicisms.",Atalanttore,https://api.github.com/repos/laurent22/joplin/git/commits/0e611158576c599eec6262556c71da0c1edd6835
+340fe76b8fae65d48c5548e1a34e9ab305b4e17e,"Remove S (#1101)
+
+Noticed this while reading!",jacobherrington,https://api.github.com/repos/laurent22/joplin/git/commits/340fe76b8fae65d48c5548e1a34e9ab305b4e17e
+51ee6128f3bb88fd9319f8f35c2a4b072b1c8e01,update italian,abonte,https://api.github.com/repos/laurent22/joplin/git/commits/51ee6128f3bb88fd9319f8f35c2a4b072b1c8e01
+2867728996971f96011323748c55d04de2d930fd,"Update ko.po
+
+Added proper Korean translations into empty messages and fuzzy translations.",xissy,https://api.github.com/repos/laurent22/joplin/git/commits/2867728996971f96011323748c55d04de2d930fd
+eb283efc205188c710d47338955be88cea5ae636,Исправлен и обновлен перевод (#1175),0ndrey,https://api.github.com/repos/laurent22/joplin/git/commits/eb283efc205188c710d47338955be88cea5ae636
+259be84a3e3dc1b7294f210a5b8118c661352d81,"Turkish Language Support (#1211)
+
+* Add files via upload
+
+* Delete tr_TR.po
+
+* Updated translations",Zorbeyd,https://api.github.com/repos/laurent22/joplin/git/commits/259be84a3e3dc1b7294f210a5b8118c661352d81
+aa86fa9986bf4869cd488aea275b76c670008486,"Clipper: bugfix, joplin icon not show up in Firefox using 32px size. (#1152)",joybinchen,https://api.github.com/repos/laurent22/joplin/git/commits/aa86fa9986bf4869cd488aea275b76c670008486
+34323042d5b0f990c43b6d8abc431fcf48c697e4,"Clipper: Feature added for storing urls (#1173)
+
+* Clipper: Feature added for storing urls
+
+* Clipper: Clip URL variable nameing changed",NJannasch,https://api.github.com/repos/laurent22/joplin/git/commits/34323042d5b0f990c43b6d8abc431fcf48c697e4
+e0f5f47a155f978e5042419169ec8785122a5462,Load background color from theme colours and set it for top and bottom safe area to respect iOS style guide. (#1195),ruuti,https://api.github.com/repos/laurent22/joplin/git/commits/e0f5f47a155f978e5042419169ec8785122a5462
+7af22eb00696176d53434e94713439bf28084e3f,Fix unclear Chinese translation.,sczhg,https://api.github.com/repos/laurent22/joplin/git/commits/7af22eb00696176d53434e94713439bf28084e3f
+e2e4e62c4fe16ddd17f8a7e975a4652edf9f3917,"Desktop: Fix alt key using (#1216)
+
+Fix #934
+
+On linux if you try to change the layout with Alt + Shift, the menu
+will open instead",Diadlo,https://api.github.com/repos/laurent22/joplin/git/commits/e2e4e62c4fe16ddd17f8a7e975a4652edf9f3917
+7236e5e9ae7693e3e858204535ea32a7011511ed,"한국말 -> 한국어
+
+""한국말"" -> ""한국어""
+Korean translation error update.",cybertramp,https://api.github.com/repos/laurent22/joplin/git/commits/7236e5e9ae7693e3e858204535ea32a7011511ed
+61d6309c0ec9e20b7771b98681668b4feebeea68,Desktop: Adding progress bar and text changes to install script. (#1294),JoelRSimpson,https://api.github.com/repos/laurent22/joplin/git/commits/61d6309c0ec9e20b7771b98681668b4feebeea68
+301bfed05e382cb6393b3cbef194cd5a36f4972b,update jp translation,Ouvill,https://api.github.com/repos/laurent22/joplin/git/commits/301bfed05e382cb6393b3cbef194cd5a36f4972b
+4baa46507f6a9e52fe0efdb0ba8b479f0837b8d7,update zh-CN translation (#1321),xcffl,https://api.github.com/repos/laurent22/joplin/git/commits/4baa46507f6a9e52fe0efdb0ba8b479f0837b8d7
+986d4be6012c3210a61073359f3007cdc1b3da9f,"Update pt_BR.po
+
+Keep command as intended.",Shaxine,https://api.github.com/repos/laurent22/joplin/git/commits/986d4be6012c3210a61073359f3007cdc1b3da9f
+d4c4b9b10a8645fa3049f42c25203fc2e65b526a,Replace curl with wget in installation script. (#1368),Tekki,https://api.github.com/repos/laurent22/joplin/git/commits/d4c4b9b10a8645fa3049f42c25203fc2e65b526a
+390b818d71b3388ee80e3d42099508c2e0ba57ec,"Update ru_RU.po
+
+translation adjustments",s1nceri7y,https://api.github.com/repos/laurent22/joplin/git/commits/390b818d71b3388ee80e3d42099508c2e0ba57ec
+542a5e88b76860e853a18b260f04140f297a5a27,All: 1383 Clear selected Notes when switching Notebook (#1387),tkilaker,https://api.github.com/repos/laurent22/joplin/git/commits/542a5e88b76860e853a18b260f04140f297a5a27
+abff929d4e0d209f79410570483c4fb1bb53f904,Change Download links from 1.0.142 to 1.0.143,Fvbor,https://api.github.com/repos/laurent22/joplin/git/commits/abff929d4e0d209f79410570483c4fb1bb53f904
+6335cbedb8826ac88d175bdc832c15f4b3effcd9,"Desktop: Improved: UI updates to sidebar and header, changing icon sizes and animations (#1463)
+
+Added animation to icon in synchronize button
+
+Moved sync report above button, which prevents the sync button from moving from its place when the report has text.
+
+Added animation to icon in Toggle Sidebar button, using the css transition property.
+
+Reduced font size for text and icons in header and sidebar
+
+Changed theme color2 from white to a very light grey. It is barely
+noticeable, but reduces contrast a bit, improving readability.",innocuo,https://api.github.com/repos/laurent22/joplin/git/commits/6335cbedb8826ac88d175bdc832c15f4b3effcd9
+788dc426840784025b0258d780db8280c6daba26,CLI: Improved: Update sharp (for node 12 compatibility) (#1471),chrmoritz,https://api.github.com/repos/laurent22/joplin/git/commits/788dc426840784025b0258d780db8280c6daba26
+af794a16d68aeb70f2877739979559518815b473,"Desktop (macOS): Add macOS ""Close Window"" menu item and add name to Quit menu (#1434)
+
+* Add Close Window to macOS file menu
+
+* Add Joplin to Quit menu item
+
+On macOS the application name appears usually within the Quit menu item.
+
+* Use performClose: selector for Close Window
+
+* Revert Quit with name and add Quit string to translations
+
+* Move Quit translation to joplin.pot
+
+* Remove Quit string",maicki,https://api.github.com/repos/laurent22/joplin/git/commits/af794a16d68aeb70f2877739979559518815b473
+7670ce32b1b0631eefb9ae538a4118657b6105ce,removing sh in Linux installation command line as this is unnecessary (and failing on Ubuntu) (#1484),doc75,https://api.github.com/repos/laurent22/joplin/git/commits/7670ce32b1b0631eefb9ae538a4118657b6105ce
+e115fa4bb3ca73a6c93836c18df0cc4e0698491f,CZech translation updated,ruzaq,https://api.github.com/repos/laurent22/joplin/git/commits/e115fa4bb3ca73a6c93836c18df0cc4e0698491f
+7e9972d99ff92da4b45595acbfed89c8bcd5afb8,"Android: Resolves #680: New: Allow self-signed certificates (#1466)
+
+* Allow User-added CAs in Android
+
+This will enable connecting to servers with self-signed certificates on
+android as per issue #680.
+
+Implemented as per:
+- https://android-developers.googleblog.com/2016/07/changes-to-trusted-certificate.html
+- https://github.com/facebook/react-native/issues/20488
+
+* Allow User-added CAs in Android
+
+This will enable connecting to servers with self-signed certificates on
+android as per issue #680.
+
+Implemented as per:
+- https://android-developers.googleblog.com/2016/07/changes-to-trusted-certificate.html
+- https://github.com/facebook/react-native/issues/20488",kklas,https://api.github.com/repos/laurent22/joplin/git/commits/7e9972d99ff92da4b45595acbfed89c8bcd5afb8
+85a9c303f2cfdfe529a457d9c639e3b47cbc439b,Changed download links to v1.0.145 (#1507),simonsan,https://api.github.com/repos/laurent22/joplin/git/commits/85a9c303f2cfdfe529a457d9c639e3b47cbc439b
+6e36ca32b4de117fbff3be6a7fc218e765049123,CLI: Fix: Bump sqlite3 to v4.0.7 for node12 support (#1508),donbowman,https://api.github.com/repos/laurent22/joplin/git/commits/6e36ca32b4de117fbff3be6a7fc218e765049123
+7d934926588ec4ad61455cf4e5ee864e9a93bef3,Update zh_CN.po (#1524),ShuiHuo,https://api.github.com/repos/laurent22/joplin/git/commits/7d934926588ec4ad61455cf4e5ee864e9a93bef3
+5243ea7eb22534902ac5e8c59febf574e95fc25d,"All: New: Added Persian translation (#1539)
+
+* [init] the first version of the fa.po file
+
+Providing translation for Persian language
+
+* [fix] moved the fa.po file into correct path",mmahmoudian,https://api.github.com/repos/laurent22/joplin/git/commits/5243ea7eb22534902ac5e8c59febf574e95fc25d
+49ef023a900aea6c2d7fabd094112dc698563d7e,"Complete Spanish translation (#1613)
+
+* Complete Spanish translation
+
+Add missing translations
+
+* Fix translation
+
+* Review translation with Poedit",gmag11,https://api.github.com/repos/laurent22/joplin/git/commits/49ef023a900aea6c2d7fabd094112dc698563d7e
+172a98fed44a3092a7aa4195e29516bd3bfce6df,Desktop: Fix icon path and directory in Linux install script (#1612),gusbemacbe,https://api.github.com/repos/laurent22/joplin/git/commits/172a98fed44a3092a7aa4195e29516bd3bfce6df
+075e76fc4b30726bac02780431d467687ed5f828,"[Update] Language file: pl_PL.po (#1625)
+
+Addition of strings and correction of mistakes.",MichipX,https://api.github.com/repos/laurent22/joplin/git/commits/075e76fc4b30726bac02780431d467687ed5f828
+faa6ccc1500c912c2b8669dcf965c5dc9c6a9530,add bulgarian translation,delta-emil,https://api.github.com/repos/laurent22/joplin/git/commits/faa6ccc1500c912c2b8669dcf965c5dc9c6a9530
+03611ad5ca699598c09cda49a5d4dd0a5645c2ac,"Desktop: For Ubuntu users, added unity to if condition for desktop icon creation (#1683)",eodeluga,https://api.github.com/repos/laurent22/joplin/git/commits/03611ad5ca699598c09cda49a5d4dd0a5645c2ac
+a796a9d179685bf0346b2bcdb1963e50d78a4f34,API: Support is_todo property to allow making a note a todo (#1688),charles-e,https://api.github.com/repos/laurent22/joplin/git/commits/a796a9d179685bf0346b2bcdb1963e50d78a4f34
+bea68a105671c3cb14213cf2ae98e23082c32709,Minor translation fixes (de_DE),Marmo,https://api.github.com/repos/laurent22/joplin/git/commits/bea68a105671c3cb14213cf2ae98e23082c32709
+966aca77537355cb130daf2191ab3de3069fa074,"Update nl_NL.po (#1709)
+
+* Update nl_NL.po
+
+* Added ampersands to main menu items 
+
+for the nl-nl translation",metbril,https://api.github.com/repos/laurent22/joplin/git/commits/966aca77537355cb130daf2191ab3de3069fa074
+f6b0da3f5ec2f11c8f4b77b87fdbc4abd330cc1e,"Android: Check filesystem permission if filesystem sync target is selected (#1665)
+
+* Android: Check filesystem permission if filesystem sync target is selected
+
+* Android: Change permission error text, don't prevent user from saving settings",xuhcc,https://api.github.com/repos/laurent22/joplin/git/commits/f6b0da3f5ec2f11c8f4b77b87fdbc4abd330cc1e
+3d498e7a7527bb8b5e996e7cc2367c4a50524f2e,Desktop: Add solarized themes to desktop client (#1733),ShaneKilkelly,https://api.github.com/repos/laurent22/joplin/git/commits/3d498e7a7527bb8b5e996e7cc2367c4a50524f2e
+eb083ae92594901e138d0e7436cdb13c4919240e,"[Mobile/Desktop] Changed cancel, directory and delete translations (ITALIAN)  (#1759)
+
+* Changed cancel and delete translation (ITALIAN)
+
+Changed cancel from ""cancellare"" to ""annullare"" (whic is used more to express the cancelling operations) and delete from ""cancellare"" to ""eliminare"". I think that doing this will help people understanding what is the main task of these option since they use the same verbs in the current translation.
+
+* Update it_IT.po",MrTraduttore,https://api.github.com/repos/laurent22/joplin/git/commits/eb083ae92594901e138d0e7436cdb13c4919240e
+143b61029189d4cc85f6793c45a429fa5e28f082,"Korean Language Support (#1769)
+
+* Korean Language Support
+
+Korean Language 100% Translated, but something is roughted. soon fix it ;)
+
+* some improved
+
+Some Improved
+
+* Improve v2
+
+some polished
+
+* Ok, now Completed
+
+For Now, Completed Polish(Change Respect of Users, and several fixing & polishing) + 100% Translated. Ready to Shipping",readingsnail,https://api.github.com/repos/laurent22/joplin/git/commits/143b61029189d4cc85f6793c45a429fa5e28f082
+770846be2e42b127dcc3ab12301d153691a529d2,Doc: Add docs to clarify how to test (#1775),devonzuegel,https://api.github.com/repos/laurent22/joplin/git/commits/770846be2e42b127dcc3ab12301d153691a529d2
+af6f3999df2b3a57348eaa2be654f37ca7c544e4,Update ja_JP.po (#1776),sumomo-99,https://api.github.com/repos/laurent22/joplin/git/commits/af6f3999df2b3a57348eaa2be654f37ca7c544e4
+b47cb4e29ada3dd41de7702a8f90a6b90d408cd4,"Desktop, Cli: Improved bold formatting support in Enex import (#1708)
+
+* Dekstop,CLI: enex_to_md: add html/md test file pairs
+
+* one pair for basic text formatting tags: strong, b, i, em
+* and one using span tags with inline styles for bold formatting
+
+Note: The html files include the Evernote-typical ""linebreak tags inside of separate <div> tags""
+to represent empty lines!
+
+* Desktop,Cli: enex_to_md: support bold in span tags using inline styles
+
+* function isSpanWithStyle() checks if further processing of a span tag
+  makes sense
+* function isSpanStyleBold() checks if bold formatting via styles is
+  used - a similar function could be written for each span-inline-style-format
+  that should be supported
+
+* Desktop,Cli: enex_to_md: fix saving span attrs in state object
+
+pushing attributes of span tag to state object now
+happens outside of isSpanWithStyle()",JOJ0,https://api.github.com/repos/laurent22/joplin/git/commits/b47cb4e29ada3dd41de7702a8f90a6b90d408cd4
+ca0d966ed944f4b9eca100375712b68419690dfe,"Translation: Translation Update pt_BR (#1809)
+
+* Updated translation pt-BR
+
+* New updates translation pt_BR",rt-oliveira,https://api.github.com/repos/laurent22/joplin/git/commits/ca0d966ed944f4b9eca100375712b68419690dfe
+5e95278084322606eafa8c92cefb94d91315b375,"Fix Cinnamon Detection (#1828)
+
+$desktop was converted to lowercase, but matched against 'X-Cinnamon'",stellarpower,https://api.github.com/repos/laurent22/joplin/git/commits/5e95278084322606eafa8c92cefb94d91315b375
+7eb7bd98f37ddc1d7d72791319923c58d9c4eea0,Doc: Minor English improvements in README.md (#1852),axq,https://api.github.com/repos/laurent22/joplin/git/commits/7eb7bd98f37ddc1d7d72791319923c58d9c4eea0
+e2926a4f82f0b4ee1bd9f4067a57e87c7c1d091d,"Doc: Update explanation of enabling E2EE (#1856)
+
+As per https://discourse.joplinapp.org/t/totally-confused-re-e2ee/3295, I tried to improve the explanation of the process to avoid multiple encryption keys.",archont00,https://api.github.com/repos/laurent22/joplin/git/commits/e2926a4f82f0b4ee1bd9f4067a57e87c7c1d091d
+e6b77c3381da60d49603760c6c7e05e80fa29caf,"Update ja_JP.po Japanese translation (#1868)
+
+* Update Japanese translation (Fix typos).
+
+* Update Japanese translation (Improve the wording).
+
+* Update Japanese translation (Add new items).",genneko,https://api.github.com/repos/laurent22/joplin/git/commits/e6b77c3381da60d49603760c6c7e05e80fa29caf
+3ea97ad9ff48222eac7acf283ad69521e81e2436,Update zh_CN.po Chinese translation (#1871),zhangmx,https://api.github.com/repos/laurent22/joplin/git/commits/3ea97ad9ff48222eac7acf283ad69521e81e2436
+117ce525975f1578ac1e7012953515f79e445b25,"Desktop: Add support for Deepin desktop environment in install script (#1884)
+
+* Add support for Deepin desktop environment
+
+* Update Joplin_install_and_update.sh",MyTheValentinus,https://api.github.com/repos/laurent22/joplin/git/commits/117ce525975f1578ac1e7012953515f79e445b25
+edc4dc58014c149648b7df94c99474326d411f21,Doc: Update React Native build documentation (#1922),reinhart1010,https://api.github.com/repos/laurent22/joplin/git/commits/edc4dc58014c149648b7df94c99474326d411f21
+84ab395fae0a41db80f3ee2bd35feaf4ceeb5c08,"Desktop: Resolves (#1863): Added Dracula theme (#1924)
+
+* Added dracula theme
+
+* Removed package-lock",domgoodwin,https://api.github.com/repos/laurent22/joplin/git/commits/84ab395fae0a41db80f3ee2bd35feaf4ceeb5c08
+774fc9ce5345bd0d9f7b33f846114b0758b4b497,Update Italian translation (#1925),NeverMendel,https://api.github.com/repos/laurent22/joplin/git/commits/774fc9ce5345bd0d9f7b33f846114b0758b4b497
+20a8ddd84192e54b78584c270fdf5216bd617ffe,Improve Russian translation (#1926),lex111,https://api.github.com/repos/laurent22/joplin/git/commits/20a8ddd84192e54b78584c270fdf5216bd617ffe
+a98a586295f9f94b57ab1c06abefb877105e41ce,"Update es_ES.po (#1929)
+
+I added some translations and change a couple more in order to improve there meaning in Spanish.
+I am a native spanish speaker so I could help with some more translate if you want.",JRaiden16,https://api.github.com/repos/laurent22/joplin/git/commits/a98a586295f9f94b57ab1c06abefb877105e41ce
+438c448ef7545db6f24b89450aaa7aa21f5a8235,"CLI: confirm encryption password (#1937)
+
+Successful flow:
+https://gyazo.com/354ca9ea412ffe3756ee77938d544341
+
+Flow with error (non-matching passwords):
+https://gyazo.com/9adda69278e3631da33d9fb366815d04",nathanleiby,https://api.github.com/repos/laurent22/joplin/git/commits/438c448ef7545db6f24b89450aaa7aa21f5a8235
+a4e505400808e99fb1b3cd1318f8031d140bc8db,Doc: Add AUR repository (#1941),fabianski7,https://api.github.com/repos/laurent22/joplin/git/commits/a4e505400808e99fb1b3cd1318f8031d140bc8db
+43083b0b7aac9045cc05a596122dd7fed5aaf061,"Desktop: Resolves #917: Larger search bar (#1933)
+
+* Increased the width of search bar
+
+* Added some margin to the left ofsearch bar
+
+* Reduced left margin for the search bar",SubodhDahal,https://api.github.com/repos/laurent22/joplin/git/commits/43083b0b7aac9045cc05a596122dd7fed5aaf061
+4a88343372300f34d0c3e5c8d1130d6651721f9a,"Mobile: Added Front Camera toggle when taking a picture (#1913)
+
+* added front camera support
+
+* added front camera button and logic",daehruoydeef,https://api.github.com/repos/laurent22/joplin/git/commits/4a88343372300f34d0c3e5c8d1130d6651721f9a
+871d3cb87d0bbca24e96465f9ee53a6f8a51bd85,"Fixed italian locale (#1955)
+
+* Fixed italian locale
+
+* Fixed italian locale
+
+* Revert ""Fixed italian locale""
+
+This reverts commit b48695593fb239c7d372bcfa808a7e27691278b0.",IrvinDominin,https://api.github.com/repos/laurent22/joplin/git/commits/871d3cb87d0bbca24e96465f9ee53a6f8a51bd85
+d49fa8e42b19440f8a3d077f3a62885447e7eee6,Minor fix on install script (#1954),rccavalcanti,https://api.github.com/repos/laurent22/joplin/git/commits/d49fa8e42b19440f8a3d077f3a62885447e7eee6
+d3e9ffcaea0c5b2a1f7977e36bb0a590a1b10ff5,"Mobile: Added duplicate option when selecting notes. (#1969)
+
+* Adding duplicate button on screen-header.js when selecting notes; Adding 'duplicateMultipleNotes' function on Note.js;
+
+* Using for-loop like the rest of the code does
+
+* changing from 'uniqueTitle' to 'ensureUniqueTitle'",alanfortlink,https://api.github.com/repos/laurent22/joplin/git/commits/d3e9ffcaea0c5b2a1f7977e36bb0a590a1b10ff5
+348c4ad3a3bdb27644dc575e8a6aed012bc1197a,"Desktop: Resolves #1222: Truncate update changelog when it's too long (#1967)
+
+The changelong text is truncated if it's longer than 1000 characters,
+but avoids cutting off a partial line, unless that would lead to cutting
+off too much of the text. An ellipsis is added to mark the truncation.
+
+Additionally, when the changelong is truncated, it adds a ""Full Release Notes""
+button that opens the GitHub release page in a browser window.",silentmatt,https://api.github.com/repos/laurent22/joplin/git/commits/348c4ad3a3bdb27644dc575e8a6aed012bc1197a
+8350a6cc12bf13aef7271d42c8686d3c5b01fcd4,"Translation: new language Greek (el_GR) (#1997)
+
+* Create el_GR.po (part1)
+
+* Update el_GR.po
+
+* Update el_GR.po (part 2)
+
+* Update el_GR.po
+
+* Finished Greek(el_GR) translation
+
+Finished translating all texts.
+Update el_GR.po (beta)",XarisA,https://api.github.com/repos/laurent22/joplin/git/commits/8350a6cc12bf13aef7271d42c8686d3c5b01fcd4
+14f6108e57b698cc7ee9a32b7fe3364f8e8a3e31,Translation: update Danish (da_DK.po ) (#2033),exponentactivity,https://api.github.com/repos/laurent22/joplin/git/commits/14f6108e57b698cc7ee9a32b7fe3364f8e8a3e31
+d3ba6798d73222e2c4c936ce1c28834fe70eebca,"Doc: Fix documentation and source comment typos (#2037)
+
+* Misc. typo and whitespace fixes
+
+Found via `codespell -q 3 -S *.po,*.pot,./ElectronClient/app/locales,./ReactNativeClient/locales,./CliClient/locales -L adresse,ba,fonction,te,whet`
+
+* Revert a previous change",luzpaz,https://api.github.com/repos/laurent22/joplin/git/commits/d3ba6798d73222e2c4c936ce1c28834fe70eebca
+885858dcb4d4a901ef43e47789b1eafeb7788f00,"Desktop: Resolves #1988: Add menu item to toggle note list (#1991)
+
+* Add menu item to toggle note list #1988
+
+* Hiding the noteList now fully works + standardized casing for noteList #1988
+
+* hiding verticalResizer to fully hide note list and its extra border #1988
+
+* curly braces on the same line #1988
+
+* fa-tasks is ""less"" worse as an icon for toggle note list #1988
+
+* liking this icon a whole lot more
+
+* removed useless width tweak",tbergeron,https://api.github.com/repos/laurent22/joplin/git/commits/885858dcb4d4a901ef43e47789b1eafeb7788f00
+0386534b3a3c6bb223086490749b023ae192d7a1,"CLI: Resolves #1974: Add command to list all tags for a note (#2003)
+
+* Add command to list tags associated with a given note
+
+* Update description
+
+* Fix autocompletion to do notes instead of tags when tag-command is notetags",bennetthanna,https://api.github.com/repos/laurent22/joplin/git/commits/0386534b3a3c6bb223086490749b023ae192d7a1
+7bf394d8d5e46589f88ad92b52b48924630c61d3,"Desktop: Resolves #1918: Allow custom CSS when printing (#2014)
+
+* Sets `useCustomCss` default to ""true"".   Updates README.md for reference to Custom CSS.
+
+* Reverse changes to  and .  Correct the spacing in .",SFoskitt,https://api.github.com/repos/laurent22/joplin/git/commits/7bf394d8d5e46589f88ad92b52b48924630c61d3
+c3b1018929803fa9495635ab5e123c705dce72a1,"Desktop: Resolves #215: Fill X primary selection from the editor on text selection (#2029)
+
+This fixes the Joplin->""other apps"" half of
+https://github.com/laurent22/joplin/issues/215.",daniellandau,https://api.github.com/repos/laurent22/joplin/git/commits/c3b1018929803fa9495635ab5e123c705dce72a1
+57a4b48c9b137521dede262e9d957043e2fe9269,"Desktop, Mobile: Resolves #2043: Add <kbd> tag support (#2044)",fer22f,https://api.github.com/repos/laurent22/joplin/git/commits/57a4b48c9b137521dede262e9d957043e2fe9269
+316746605e1a7b03b39cc3c4853252e46525eb1c,Desktop: Fixes #1790: Stop print command from resetting theme (#1999),aerotog,https://api.github.com/repos/laurent22/joplin/git/commits/316746605e1a7b03b39cc3c4853252e46525eb1c
+968bba4d8eb0520ead99554f2ca4eed8ddf88cb3,Updated Brazilian Portuguese language to 100% complete,martonpaulo,https://api.github.com/repos/laurent22/joplin/git/commits/968bba4d8eb0520ead99554f2ca4eed8ddf88cb3
+8d6cfdc292cc8dbbf52aad8f9019eeaac868f1b6,"Desktop: Fixes #1570: Prevent horizontal scrolling on Linux when a scrollbar is present in note list (#2062)
+
+* Prevent horizontal scrolling on Linux when a scrollbar is present in the note list.
+
+* max-width usage specifically to target Linux horizontal scroll problem.",boring10,https://api.github.com/repos/laurent22/joplin/git/commits/8d6cfdc292cc8dbbf52aad8f9019eeaac868f1b6
+9c98fb5312a964b8299cc80d0ad79c19f6bcaf0b,"Desktop: Add new setting to show note counts for folders and tags (#2006)
+
+* Adding node counts for folders and tags
+
+* Add unit tests
+
+* Fix count update when the tag list for a note is updated
+
+* Right align note counts and remove from the settings screen
+
+* Folder note count calculation update to include descendants
+
+* Update Setting.js
+
+* Change count style and fix click on counts
+
+* Fix tag/folder count update on delete/add note
+
+* Review updates",erdody,https://api.github.com/repos/laurent22/joplin/git/commits/9c98fb5312a964b8299cc80d0ad79c19f6bcaf0b
+21d06ad9a616a2dbee87410fb84cb51ae40d5986,"Tools: Optional open dev tools in Developer Mode (#2083)
+
+* Require --open-dev-tools along with --env dev in command line options to make opening of Dev Tools optional when in Developer mode.
+
+* Restore original lines then comment out the call to openDevTools",barbowza,https://api.github.com/repos/laurent22/joplin/git/commits/21d06ad9a616a2dbee87410fb84cb51ae40d5986
+de214c8695e8fd58ba0ad1137d7db8c1fc9f8bbf,Translation: update Czech cs_CZ.po (#2086),conyx,https://api.github.com/repos/laurent22/joplin/git/commits/de214c8695e8fd58ba0ad1137d7db8c1fc9f8bbf
+8012d1fcfc80458ec309cb3f4be66d4e7eb8dbcf,"Translation: Update zh_CN.po (#2108)
+
+Translated some theme part into chinese",rikanotank1,https://api.github.com/repos/laurent22/joplin/git/commits/8012d1fcfc80458ec309cb3f4be66d4e7eb8dbcf
+d8c2f0cbbaea2d812529e593fc84dce83f3ffadc,"Translation: Update pt_BR.po (#2116)
+
+Done some updates to pt BR translation. Hope it helps!",vicoutorama,https://api.github.com/repos/laurent22/joplin/git/commits/d8c2f0cbbaea2d812529e593fc84dce83f3ffadc
+69b185ff5eb06717148bf7da8417b27969e3b753,"Documentation: correct and expand the markdown instructions for a link (#2106)
+
+* correcting and expanding the markdown instructions for a link
+- ""some content"" in `[some content](https://somelink/)` is called the
+    content of an entity (or alt text for an image link)
+- ""some title"" in this example is the the title element of the
+    entity: `[some content](https://somelink/ ""some title"")`
+
+* link description: Fixed a typo, restructured a line break I screwed up, and I cleaned up the language a bit",taw00,https://api.github.com/repos/laurent22/joplin/git/commits/69b185ff5eb06717148bf7da8417b27969e3b753
+37fc42eb73d9a376db3ce85b12c082d079b7cce0,"Doc: GsoC first public draft of documentation  (#2092)
+
+* GSoC root file
+
+This is the root file for the Google Summer of Code program
+
+* Fixed TOC
+
+* Introduction to GSoC with Joplin
+
+The first draft cloned from https://community.kde.org/GSoC
+
+* Joplin's Application at GSoC template
+
+Cloned from https://wiki.openstreetmap.org/wiki/Google_Summer_of_Code/2019/Organisation_application
+
+* GSoC 2019, idea #1: deeper Nextcloud integration
+
+* GSoC 2019, idea #2: sharing notes
+
+* GSoC 2019, idea #2: tag handling
+
+* GSoC 2019, idea #4: search improvements
+
+* GSoC 2019, idea #5: per note password protection
+
+* Update GSoC_Idea#1.md
+
+* Update GSoC_Idea#2.md
+
+* Rename GSoC_Idea#2.md to GSoC_Idea#2_sharing.md
+
+* Rename GSoC_Idea#1.md to GSoC2019_Idea#1_Nextcloud.md
+
+* Rename GSoC_Idea#2_sharing.md to GSoC2019_Idea#2_sharing.md
+
+* Update and rename GSoC_Idea#3.md to GSoC2019_Idea#3_tagging.md
+
+* Rename GSoC_Idea#4.md to GSoC2019_Idea#4_Search.md
+
+* Rename GSoC_Idea#5.md to GSoC2019_Idea#5_Password per Note.md
+
+* Update GSoC2019_Idea#1_Nextcloud.md
+
+* Create GSoC2019.md
+
+cloned from https://community.kde.org/GSoC/2019/Ideas
+
+* Rename Introduction.md to GSoCIntroduction.md
+
+* Rename GSoCIntroduction.md to GSoC_Introduction.md
+
+* Rename Application.md to GSoC_Application.md
+
+* first draft of a public introduction and project idea page, plus first (filled) template for ideas
+
+* added idea
+
+* started to update org details
+
+* Delete GSoC_Application.md
+
+moved to forum
+
+* Update summer_of_code.md
+
+put the template in a <details> block. little improvements where to publish ideas and applications
+
+* Update summer_of_code.md
+
+put application in quote",PackElend,https://api.github.com/repos/laurent22/joplin/git/commits/37fc42eb73d9a376db3ce85b12c082d079b7cce0
+e84bafd034ab70c50e24b42ddeae438d78023171,All: Resolves #2097: Add warning message when user tries to upload a file 10MB or larger (#2102),marcushill,https://api.github.com/repos/laurent22/joplin/git/commits/e84bafd034ab70c50e24b42ddeae438d78023171
+76c8f777ca21c06ab609921c751dff88f9ec607e,"Move variable declaration before its first use. (#2109)
+
+* Move variable declaration before its first use.
+
+* Remove trailing whitespace",b4mboo,https://api.github.com/repos/laurent22/joplin/git/commits/76c8f777ca21c06ab609921c751dff88f9ec607e
+692606292fa627f52534b68f6c6796ea8d0886cf,"Translation: Update nl_NL.po (#2123)
+
+Noticed a small typo when using the application",Techwolf12,https://api.github.com/repos/laurent22/joplin/git/commits/692606292fa627f52534b68f6c6796ea8d0886cf
+5bcec583bb85bc72e51b546f6148b47595b0467c,Finish translation of es_ES.po and standardize quotation marks format to guillemets (#2125),exprez135,https://api.github.com/repos/laurent22/joplin/git/commits/5bcec583bb85bc72e51b546f6148b47595b0467c
+583460c0a8a72f4a89ae91cbb056f01afda34387,"Translation: Update sv.po (#2163)
+
+Added missing translations
+Made adjustments to previous translations.",githubaccount073,https://api.github.com/repos/laurent22/joplin/git/commits/583460c0a8a72f4a89ae91cbb056f01afda34387
+3a1f924fb14c7d8b1776ec89d728aecab140d194,"Translation: Update ru_RU.po (#2164)
+
+Filled untranslated string and correct some sentencies.",serenitatis,https://api.github.com/repos/laurent22/joplin/git/commits/3a1f924fb14c7d8b1776ec89d728aecab140d194
+172afb0789c19b6f603e63911c3e14b9c6c7bd88,Cli: Update CliClient node dependency to 10+ (#2177),joeltaylor,https://api.github.com/repos/laurent22/joplin/git/commits/172afb0789c19b6f603e63911c3e14b9c6c7bd88
+9628b64d3eba53718b19968ff593bed20c3b0645,Translation: Update zh_TW.po (#2215),ethan42411,https://api.github.com/repos/laurent22/joplin/git/commits/9628b64d3eba53718b19968ff593bed20c3b0645
+f9c77171cf80203c2bfef1ba79c6de0359ae7846,Translation: Update es_ES.po (#2211),oscaretu,https://api.github.com/repos/laurent22/joplin/git/commits/f9c77171cf80203c2bfef1ba79c6de0359ae7846
+69000c0fc56e60490c57a17c32f4f2b0c7a7d0d4,Translation: update ar.po (#2231),iahmedbacha,https://api.github.com/repos/laurent22/joplin/git/commits/69000c0fc56e60490c57a17c32f4f2b0c7a7d0d4
+1d660d71411df5ff981e43113ed3a488783ee978,"Translation: update ko.po (#2227)
+
+* translate_korean
+
+* translate_korean2",2jaeyeol,https://api.github.com/repos/laurent22/joplin/git/commits/1d660d71411df5ff981e43113ed3a488783ee978
+e77cc18468d76e1e2e05ea11d3dccef906c02549,"Documentation: Fix broken link (#2245)
+
+The folder is `gsoc2020`, not just `gsoc`",bronson,https://api.github.com/repos/laurent22/joplin/git/commits/e77cc18468d76e1e2e05ea11d3dccef906c02549
+42ada7123ce1757965fbba964047ddd02a979d7e,"Desktop: Add external editor actions to the note context menu. (#2214)
+
+* Add external editor actions to the note context menu.
+
+Also start up external editor on note double click.
+
+These changes enhance user experience by placing the actions where
+they feel natural.
+
+* Remove double-click behaviour and change menu text.
+
+Changes in response to review comments.
+
+* Move handling of external editor actions to main screen from note text
+
+This is to ensure correct behaviour even when the user launches the
+action on a note in the list that is under the pointer, but not selected.
+
+* Move external edit actions to NoteListUtils from MainScreen.
+
+* Reconnect external edit action in main edit menu.",mic704b,https://api.github.com/repos/laurent22/joplin/git/commits/42ada7123ce1757965fbba964047ddd02a979d7e
+e078de25f0c5756a85a432b83a125a94ed5da6c0,Translation: Update tr_TR.po (#2295),zen-quo,https://api.github.com/repos/laurent22/joplin/git/commits/e078de25f0c5756a85a432b83a125a94ed5da6c0
+d9d75d6c71d948a481a24a8ad39580e8d986ed7d,"Desktop, Cli: Replace note links with relative paths in MD Exporter (#2161)
+
+* Replace linked Note ids by relative paths in MD Exporter.
+
+* Added tests for the MD Exporter.
+
+* Changed fs.readdirSync use for earlier Node version (v8)
+
+In the previous commit the code used fs.readdirSync from Node v10 or
+later. But since Joplin still uses v8, I changed the use of
+fs.readdirSync to be in line with the earlier api.
+
+* Updated readDirSync use for Node v10, which allows gets folder names too.
+
+* Revert ""Updated readDirSync use for Node v10, which allows gets folder names too.""
+
+This reverts commit 8f255db120861dd7773d99e1b63f4864d39594cf.
+Because the Travis builds still use Node v8. This is fine as well, the
+readdirSync returns the filenames in the directory.
+
+* Added reservedNames param to findUniqueFilename",vsimkus,https://api.github.com/repos/laurent22/joplin/git/commits/d9d75d6c71d948a481a24a8ad39580e8d986ed7d
+960d7f84eb5434a1583961cc115cd7285979c16a,"Desktop: Don't count completed to-dos in note counts when they are not shown (#2288)
+
+* Desktop: don't count completed to-dos in note counts when they are not shown
+
+* Desktop: review comments for commit 0383dcc
+
+* Desktop: fix remaining lint issues with commit 1fe4685",lightray22,https://api.github.com/repos/laurent22/joplin/git/commits/960d7f84eb5434a1583961cc115cd7285979c16a
+d9c15b84d075b459b6915f4964f16205e04edb7b,"Desktop: when importing MD files create resources for local linked files (#2262)
+
+* md importer: first pass import attachment resources with markdown files
+
+* md importer: import resources from md - no unneeded saves, check if files exist, regex name
+
+* md importer: test import of local files as resources, separate method for importing linked files, comment regex matching md tags
+
+* md importer: move stateful regex to method scope, remove spurius await
+
+* md importer: lint
+
+* md importer: respond to PR comments: remove test nesting, test sample, check if path is dir, use shim.fsDriver
+
+* md importer: use file-path methods for getting attachment path
+
+* md importer: use extractImageUrls helper, test for file with zero links
+
+* md importer: try catch around importLocalImages, improve test
+
+* md importer: importing attached images cover case where link also appears elsewhere in doc
+
+* md importer: only create 1 resource if note contains duplicate links, test
+
+* md importer: remove log
+
+* md importer: remove use of lodash",BartBucknill,https://api.github.com/repos/laurent22/joplin/git/commits/d9c15b84d075b459b6915f4964f16205e04edb7b
+6973bf93313f63fa889b17d6eb2c9fba5dc3c1b4,"Documentation: Added 'Yandex Disk' to the list of WebDAV-compatible services known to work with Joplin. (#2285)
+
+* Add Yandex Disk to the list of WebDAV-compatible services
+
+Yandex Disk (cloud storage by Yandex) supports WebDAV access and is known to work with Joplin.
+
+* Add Yandex Disk to the list of WebDAV-compatible services
+
+Added 'Yandex Disk' to the list of WebDAV-compatible services known to work with Joplin (now in correct alphabetical order).",teterkin,https://api.github.com/repos/laurent22/joplin/git/commits/6973bf93313f63fa889b17d6eb2c9fba5dc3c1b4
+1a1a1d3841b22e6a71e37c2113d458ffee0d251a,Desktop: Fix Linux installation script (#2333),carlbordum,https://api.github.com/repos/laurent22/joplin/git/commits/1a1a1d3841b22e6a71e37c2113d458ffee0d251a
+22a93994aab1f4e807774e10c31c9e363c9122eb,Translation: Update ru_RU.po (#2347),apankratov,https://api.github.com/repos/laurent22/joplin/git/commits/22a93994aab1f4e807774e10c31c9e363c9122eb
+f86b953420bfb5e2f948e5af377f5a027955e8dd,"Tools: Updated Request to v2.88.0 to remove dependency on Outdated and Insecure Hawk and Cryptiles Dependencies (#2353)
+
+* Updated Cryptiles dependency to 3.1.4
+
+The maintainer is no longer supporting any version of cryptiles before
+v4.2.0 on npm; npm's older versions stop at 3.1.2 and a high security
+vulnerability was thrown during a build on linux: https://npmjs.com/advisories/720
+
+The maintainer still has 3.1.4 tagged in his repo and this commit
+updates cryptiles to solve that issue without breaking compatibility
+since it was primarily bug fixes for a code freeze.
+
+* Updated Request Dependency to 2.86.0
+
+* Updated Reqiest to 2.88.0",bedwardly-down,https://api.github.com/repos/laurent22/joplin/git/commits/f86b953420bfb5e2f948e5af377f5a027955e8dd
+5881cee1679b30334aaa183f09ca3309ac85d234,"All: Added new date format YYYY.MM.DD (#2318)
+
+* Added new date format YYYY.MM.DD.
+
+* revert change as this file is autogenerated
+
+Co-authored-by: Akos Keresztes <60130238+keresztesa@users.noreply.github.com>",xsak,https://api.github.com/repos/laurent22/joplin/git/commits/5881cee1679b30334aaa183f09ca3309ac85d234
+2042deb2bf9a0cda314c82a63e4eee3d56a0a8f1,"Documentation: Edit build instructions to avoid confusion (#2376)
+
+* Edits build instructions to avoid confusion
+
+When i was trying to build the Electron Project, i was a bit confused about which commands to follow for building in the projects on my OS (Windows).
+there was two header  **Building the Electron application** and   **Building the Electron application for windows**, the former can lead a beginner to confusion because it seems to be ""a generalized statement"", unlike the latter that was more specific. In order to improve the developers experience, i had to change the former heading to ""Building the Electron application for Linux and macOS"" to help them understand easily.
+
+* Implemented advises from Reviewer (tessus) to further improve  the documentation instructions for building the Electron App on Linux, macOS and Windows",Runo-saduwa,https://api.github.com/repos/laurent22/joplin/git/commits/2042deb2bf9a0cda314c82a63e4eee3d56a0a8f1
+fcda8437784c4b6734f2c54ea90bfa02c9d122ac,"All: Resolves #2279: Handle Thai language in search (#2387)
+
+* Update SearchEngine.js
+
+use basicSearch if thai string
+
+* Update string-utils.js
+
+added thai regex support
+
+* Update services_SearchEngine.js
+
+added thai language test
+
+* Update services_SearchEngine.js
+
+remove trailing spaces",kirtanprht,https://api.github.com/repos/laurent22/joplin/git/commits/fcda8437784c4b6734f2c54ea90bfa02c9d122ac
+ffdae41605cec1709a4d0321f549bf1e9e1875b2,Translation: Update zh_CN.po (#2421),chenlhlinux,https://api.github.com/repos/laurent22/joplin/git/commits/ffdae41605cec1709a4d0321f549bf1e9e1875b2
+cf6c141e57453aa288370e652847888d495b9bb3,"version attribute inside `joplin.desktop` is `X-AppImage-Version` (#2393)
+
+- version attribute inside `joplin.desktop` is `X-AppImage-Version` and not `X-AppImage-BuildId`
+- format is `X-AppImage-Version=X.Y.Z"" so we need to change `cut` parameters (split on '=' and get 2nd value)",diego-betto,https://api.github.com/repos/laurent22/joplin/git/commits/cf6c141e57453aa288370e652847888d495b9bb3
+49701fbc55acb19424bc3d41aedddbb10ab691ce,"Translation: update de_DE.po (#2443)
+
+* update de_DE.po
+
+Added some translations
+
+* Update German translation 
+
+Added some translations
+
+* deletion",fab4x,https://api.github.com/repos/laurent22/joplin/git/commits/49701fbc55acb19424bc3d41aedddbb10ab691ce
+aef4a88d7f7739106a703ce3ed30a330eff5e630,All: Reset time fields when duplicating a note (#2428),tekdel,https://api.github.com/repos/laurent22/joplin/git/commits/aef4a88d7f7739106a703ce3ed30a330eff5e630
+247182edbf0ef07a76be4aedd492b32e6b829e36,"Desktop: Fix #2365: Ensure the main window is hidden when Joplin starts (#2432)
+
+* Ensure window is hidden when application launches
+
+* Update ElectronAppWrapper.js
+
+Co-authored-by: Laurent Cozic <laurent22@users.noreply.github.com>",hexclover,https://api.github.com/repos/laurent22/joplin/git/commits/247182edbf0ef07a76be4aedd492b32e6b829e36
+d24a97421976c92c2509ae76f83d939adb27f175,Desktop: fixes long lines warpped (#2447),amitsin6h,https://api.github.com/repos/laurent22/joplin/git/commits/d24a97421976c92c2509ae76f83d939adb27f175
+d278809659dfe193d768be8bf07b243cd51efc95,Desktop: Fixed incorect location format (#2480),anjulalk,https://api.github.com/repos/laurent22/joplin/git/commits/d278809659dfe193d768be8bf07b243cd51efc95
+ca5d6c5cfed51873b64d8a310777b20ded32c309,Desktop: Fix `.desktop` file & force refresh (#2479),mrwulf,https://api.github.com/repos/laurent22/joplin/git/commits/ca5d6c5cfed51873b64d8a310777b20ded32c309
+fdf28c35134ecbcc08f2ad8c263ec8bb728df254,"Mobile: Added OLED dark theme (#2368)
+
+* Android: Adding Oled dark theme
+
+* Mobile: Fixing coding style issues
+
+* Making oled dark mode only reachable in mobile app
+
+* Fixing eslint errors
+
+* Update Setting.js
+
+* Update Setting.js
+
+Co-authored-by: Laurent Cozic <laurent22@users.noreply.github.com>",kornava,https://api.github.com/repos/laurent22/joplin/git/commits/fdf28c35134ecbcc08f2ad8c263ec8bb728df254
+54fd2049a8b986661f03deb8d1fca4c09d0f9cbe,"Translation: Update es_ES.po (#2497)
+
+Updated some already translated messages and translated new ones",fpindado,https://api.github.com/repos/laurent22/joplin/git/commits/54fd2049a8b986661f03deb8d1fca4c09d0f9cbe
+652b852f6d7b96a7131a431db28f5eba15a5b670,"Translation: Update nl_NL.po (#2498)
+
+I felt like improving some of the Dutch translation work for Joplin so here are some more and improved translations
+
+(not all that many but more may come)",baymoe,https://api.github.com/repos/laurent22/joplin/git/commits/652b852f6d7b96a7131a431db28f5eba15a5b670
+5a40204cb309ec538b493b8bc5d8ba025460dd01,"Translation: add Estonian language (et_EE.po) (#2512)
+
+* Estonian lang
+
+* correction of mistakes",mlkood,https://api.github.com/repos/laurent22/joplin/git/commits/5a40204cb309ec538b493b8bc5d8ba025460dd01
+5bbedc7e3cb293247e4faa8b0947102169769337," Desktop: Resolves #592: Create a screen that list all the resouces (#2189)
+
+* Add a Basic Resource Screen
+
+Implement ""Open in External Viewer""
+
+Add @types/lodash as a devDependency, prettyBytes for pretty printing bytes
+
+Implement display of Orphaned Resources
+
+Implement deletion of Resources
+
+Implement sorting logic
+
+Minor Styling
+
+Remove Compiled js
+
+Review - No more Orphan display, LIMIT resources
+
+ResourceScreen - use DB for sorting
+
+Database - Version 28 (Index on Resource size)
+
+Add compiled JS with eslint --fix
+
+Add ResourceScreen to ignore files, delete from repo
+
+Disable enforce-react-hooks
+
+* Second review round
+
+* Update ResourceScreen.tsx
+
+Co-authored-by: Laurent Cozic <laurent22@users.noreply.github.com>",talkdirty,https://api.github.com/repos/laurent22/joplin/git/commits/5bbedc7e3cb293247e4faa8b0947102169769337
+2e804086eb3b1c44e94e0dc9c7c2c0247387fe88,Translation: Update nl_NL .po (#2526),TheoDutch,https://api.github.com/repos/laurent22/joplin/git/commits/2e804086eb3b1c44e94e0dc9c7c2c0247387fe88
+5a33dcaf07a300343e9fe5ba691a9c798833b36d,"Translation: Update zh_CN.po (#2525)
+
+* Improve Simplified Chinese translation
+
+* Improve Simplified Chinese translation",zaoyifan,https://api.github.com/repos/laurent22/joplin/git/commits/5a33dcaf07a300343e9fe5ba691a9c798833b36d
+6449289147f081912e4e60745aff43a828553663,"Translation: Update ko.po (#2534)
+
+Signed-off-by: Ji-Hyeon Gim <potatogim@potatogim.net>",potatogim,https://api.github.com/repos/laurent22/joplin/git/commits/6449289147f081912e4e60745aff43a828553663
+65706980a24d52aa8a53a352cf62d1c2521d4121,Translation: Update de_DE.po (#2557),semperor,https://api.github.com/repos/laurent22/joplin/git/commits/65706980a24d52aa8a53a352cf62d1c2521d4121
+fd405457e430d5a5f0e5aa5c90486d1567f92342,"Translation: Update it_IT.po (#2551)
+
+Translated the missing lines.",StarFang208,https://api.github.com/repos/laurent22/joplin/git/commits/fd405457e430d5a5f0e5aa5c90486d1567f92342
+f9143ad817c56a9865055176d95b4ecdf10d7768,Improve ISSUE_TEMPLATE.md (#2571),Rakleed,https://api.github.com/repos/laurent22/joplin/git/commits/f9143ad817c56a9865055176d95b4ecdf10d7768
+0e23ea5284567050ee5a05d7888dd6e7398369b2,"Desktop: Resolves #160: Add word counter feature to notes (#2444)
+
+* Add word counter logic
+
+Fix errant whitespace changes
+
+* update to using react hooks
+Use React hooks
+remove extra theme set
+Update styling function
+
+* correct linting and package lock issues
+
+* WIP: update button functionality
+
+* Add line count and update styling from feedback
+
+* corrected file location to fit new build",jdrobertso,https://api.github.com/repos/laurent22/joplin/git/commits/0e23ea5284567050ee5a05d7888dd6e7398369b2
+ef8af13500c61f2aecc270f0212fe243c2269407,"Desktop: Use asar packing to improve performances (#2531)
+
+* Use the strongly recommended asar packing on linux
+
+* Use asar for macOS packaging
+
+* Update package.json
+
+Co-authored-by: Laurent Cozic <laurent22@users.noreply.github.com>",R-L-T-Y,https://api.github.com/repos/laurent22/joplin/git/commits/ef8af13500c61f2aecc270f0212fe243c2269407
+1d284a3528005a29dee55a26554132438ba42731,"Desktop: Fixes #1023: Speed up WebDAV and Nextcloud Sync on Linux (#2577)
+
+* Speed up Linux Sync with KeepAlive Client
+
+* Tidying up
+
+* eslint
+
+* Fix Breaking of building mobile client
+
+* Refactor to make building on android possible
+
+* Coding Convention
+
+* Update shim-init-node.js
+
+Co-authored-by: Laurent Cozic <laurent22@users.noreply.github.com>",WisdomCode,https://api.github.com/repos/laurent22/joplin/git/commits/1d284a3528005a29dee55a26554132438ba42731
+4840671f0e157450162d6cbe5a426dfcec6ed9a5,"Desktop: Fixes #2573: Improved detection of selected text when applying formatting (#2582)
+
+* fixes #2573 
+
+This fixes the bug with spaces
+
+* Update NoteText.jsx",Rishgod,https://api.github.com/repos/laurent22/joplin/git/commits/4840671f0e157450162d6cbe5a426dfcec6ed9a5
+ec64bf2f0f67645b56ef1e0dc19893776f789b9e,"Desktop: Fixes #2476: Fix window dimensions and position when the application starts (#2514)
+
+* ElectronClient window minimum size set
+
+Hardcoded minimum width and height of 100 px.
+
+Signed-off-by: daukadolt <daulet.amirkhanov.official@gmail.com>
+
+* Set Electron window position if outside displays
+
+Set Electron window at the center of primaryDisplay if BrowserWindow is not on any displays.
+
+Signed-off-by: daukadolt <daulet.amirkhanov.official@gmail.com>
+
+* Set Electron window default size dependent on screen
+
+Set Electron window defaultWidth, defaultHeight to 80% of primary display workArea width, height, respectively.
+
+Signed-off-by: daukadolt <daulet.amirkhanov.official@gmail.com>
+
+* Hotfixing Electron defaultHeight depending on width, not height
+
+Hotfix of a typo that calculates Electron app's default height at first run using primary screen's width, not height.
+
+Signed-off-by: daukadolt <daulet.amirkhanov.official@gmail.com>
+
+* Refactoring Electron app defaultWidth/defaultHeight setup
+
+Setting defaultWidth/defaultHeight directly without extra variables.
+Rounding defaultWidth/defaultHeight.
+
+Signed-off-by: daukadolt <daulet.amirkhanov.official@gmail.com>",daukadolt,https://api.github.com/repos/laurent22/joplin/git/commits/ec64bf2f0f67645b56ef1e0dc19893776f789b9e
+ef4e1c53b755fe1121ef00ecf881874f42ae9f78,Fixed a typo :),Ullas-Aithal,https://api.github.com/repos/laurent22/joplin/git/commits/ef4e1c53b755fe1121ef00ecf881874f42ae9f78

@@ -1,0 +1,28 @@
+First Commit Hash (SHA),Commit Message,Author (Github Name),Link to Commit
+ed093bf6541f1f2f45430bcd8d8b1b63b6fda138,chore: init,louistiti,https://api.github.com/repos/leon-ai/leon/git/commits/ed093bf6541f1f2f45430bcd8d8b1b63b6fda138
+90d00048841398afade1afe896770b2788cebffc,Docker image added,Antoinebr,https://api.github.com/repos/leon-ai/leon/git/commits/90d00048841398afade1afe896770b2788cebffc
+2e2aade4a97aba770e157d1be5bdd8d37fff5652,"[ImgBot] Optimize images
+
+/app/img/favicon.png -- 16.86kb -> 11.14kb (33.96%)",ImgBotApp,https://api.github.com/repos/leon-ai/leon/git/commits/2e2aade4a97aba770e157d1be5bdd8d37fff5652
+a580feb828e840a0ab3da27adc353ce048770f38,"[ImgBot] Optimize images (#1)
+
+[ImgBot] Optimize images",ghostslayer989,https://api.github.com/repos/leon-ai/leon/git/commits/a580feb828e840a0ab3da27adc353ce048770f38
+ada6aaef4bada47e87d28f9f6eaa05b9e23f58d2,fix: #11 Checker fails with capital letters in url,kesslerdev,https://api.github.com/repos/leon-ai/leon/git/commits/ada6aaef4bada47e87d28f9f6eaa05b9e23f58d2
+e1ca6a7b32536ad9986a57017ce5dfaa22faf5f3,README.md : some few typo corrections,acidjames,https://api.github.com/repos/leon-ai/leon/git/commits/e1ca6a7b32536ad9986a57017ce5dfaa22faf5f3
+a438d6f942812f74e3dda75a9875609f8bea21cd,"fix(web app): enable environment variables
+
+Enable environment variables by pulling in 'envify' as a dependency.
+'envify' loads a file named '.env' lying in the leon root directory and
+replaces any occurence of process.env.FOO by the corresponding entry in
+'.env'.",ctombumila37,https://api.github.com/repos/leon-ai/leon/git/commits/a438d6f942812f74e3dda75a9875609f8bea21cd
+e3baea9571e557e280bd41fe97612670a59b77d0,"Remove `apk update` in Dockerfile
+
+With `--no-cache` on `apk add`, there is no need to do `apk update`",PeterDaveHello,https://api.github.com/repos/leon-ai/leon/git/commits/e3baea9571e557e280bd41fe97612670a59b77d0
+09ad43406d3df8ca65f385a91c159def51f91811,feat: Add speedtest package,fkeloks,https://api.github.com/repos/leon-ai/leon/git/commits/09ad43406d3df8ca65f385a91c159def51f91811
+61c1b55af5691c03f6a6dae0cf3f236a374f1fe7,feat(package/checker): add expressions and answers,iifeoluwa,https://api.github.com/repos/leon-ai/leon/git/commits/61c1b55af5691c03f6a6dae0cf3f236a374f1fe7
+0b812777f7f98b73993de0e04a985982d2d25bc9,"Don't upgrade pip, optimize pip3 install, remove build-base
+
+Don't cache packages for smaller final image
+Don't show progress bar for better CI integration
+Move COPY to better utilize cache",SuperSandro2000,https://api.github.com/repos/leon-ai/leon/git/commits/0b812777f7f98b73993de0e04a985982d2d25bc9
+90225707f94154021cadeb9c61bdc48c3de5aa29,fix(package/leon): Fixes english translations,Imperator26,https://api.github.com/repos/leon-ai/leon/git/commits/90225707f94154021cadeb9c61bdc48c3de5aa29
