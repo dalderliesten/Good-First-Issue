@@ -47,7 +47,8 @@ class UserCommits:
 
         # Store all commits found within the repository. This needs to be done because doing it within the for-loop
         # causes fetching of infinite commits, thereby causing an infinite loop AND using a TON all Github API requests.
-        total_commits = repo.get_commits()
+        # The order is reversed because the Github API returns commits as last to first, but we need first to last.
+        total_commits = repo.get_commits().reversed
 
         # Notifying user that commit identification is starting.
         print('---------- FETCHING FIRST COMMIT FOR EACH USER IN THE REPOSITORY ----------')

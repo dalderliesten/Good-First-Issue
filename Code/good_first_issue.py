@@ -25,8 +25,9 @@ class GoodFirstIssue:
         # Provide the Github API key to utilize.
         api_key = "34b8204b93e9ac470e5f34f55fe3f780a1a71c45"
 
-        # Define location of the repository. This should be an https:// link to Github with the .git still on it.
-        repository = "https://github.com/daneden/animate.css.git"
+        # Define location of the repository. This should be an https:// link to Github with the .git still on it. This
+        # can be obtained by going to a repository's site and selecting the 'clone or download -> https' option.
+        repository = "https://github.com/sindresorhus/refined-github.git"
 
         # Define the name of the good-first-issue tag used in the repository to analyze.
         first_issue_tag = "good first issue"
@@ -39,9 +40,6 @@ class GoodFirstIssue:
 
         # Get all pull requests in a repository. NOTE: DOESN'T WORK BECAUSE API LIMITS DON'T SUPPORT USEFULNESS.
         #pull_requests = PullRequests.get_related_pull_requests(repository, api_key, user_commits, tagged_issues)
-
-        # Identify any matches existing based on username hits.
-        GoodFirstIssue.identify_username_matches(tagged_issues, user_commits)
 
 # Main method call for program execution.
 GoodFirstIssue.main()

@@ -1,0 +1,241 @@
+Issue Description,Assignees to the Issue,Link
+Add `dim-merge-commits` feature,,https://github.com/sindresorhus/refined-github/issues/2827
+Improve dark mode style in Firefox (Options page),,https://github.com/sindresorhus/refined-github/issues/2791
+`batch-open-issues` opens tabs in the wrong window,,https://github.com/sindresorhus/refined-github/issues/2786
+Selectors are broken for tags-dropdown,,https://github.com/sindresorhus/refined-github/issues/2781
+"Issue count appears as ""NaN"" for repositories with more than 5,000 open issues",,https://github.com/sindresorhus/refined-github/issues/2780
+'Attach files' button not working / throwing `Cannot read property 'click' of null`,,https://github.com/sindresorhus/refined-github/issues/2774
+Include `Linked issues` section in `clean-sidebar` feature,,https://github.com/sindresorhus/refined-github/issues/2773
+"Wrong `releases-tab`  position if repo name contains ""settings""",,https://github.com/sindresorhus/refined-github/issues/2763
+Extra padding on CI status indicator,,https://github.com/sindresorhus/refined-github/issues/2762
+Draft PR icon looks weird,,https://github.com/sindresorhus/refined-github/issues/2755
+"See ""Last updated"" date on Pinned issues",,https://github.com/sindresorhus/refined-github/issues/2747
+Link to you subscribed discussion in the current repo,,https://github.com/sindresorhus/refined-github/issues/2746
+Also hide `0 Packages` tab in user profiles,,https://github.com/sindresorhus/refined-github/issues/2724
+Make `update-pr-from-base-branch`'s button smaller,,https://github.com/sindresorhus/refined-github/issues/2723
+Fix some TODOs in the code (also TypeScript-related),,https://github.com/sindresorhus/refined-github/issues/2721
+"Make ""Edit/delete file"" clickable on compare page",,https://github.com/sindresorhus/refined-github/issues/2704
+`display: flex` doesn't play well with Notifications Beta search,,https://github.com/sindresorhus/refined-github/issues/2703
+ Restore `quick-review-button` feature,,https://github.com/sindresorhus/refined-github/issues/2700
+`always-show-branch-delete-buttons` appears even after the branch deletion,,https://github.com/sindresorhus/refined-github/issues/2697
+`ctrl+enter` should publish/update release,,https://github.com/sindresorhus/refined-github/issues/2696
+Add spacing between branch pull down menu and open pr link,,https://github.com/sindresorhus/refined-github/issues/2695
+`link-to-file-in-file-history` breaks when branches contain slashes,,https://github.com/sindresorhus/refined-github/issues/2692
+"""Update Branch"" button: show warning if PAT is undefined",,https://github.com/sindresorhus/refined-github/issues/2679
+⚡️ Let's make Refined GitHub faster,,https://github.com/sindresorhus/refined-github/issues/2671
+Allow clearing the extension storage,,https://github.com/sindresorhus/refined-github/issues/2669
+Filters selection box on issues page is blank,,https://github.com/sindresorhus/refined-github/issues/2651
+Allow disabling `align-issue-labels`,,https://github.com/sindresorhus/refined-github/issues/2650
+Highlight **created** repository count ,,https://github.com/sindresorhus/refined-github/issues/2649
+`comments-time-machine-links` piling up when hiding comments,,https://github.com/sindresorhus/refined-github/issues/2637
+Spacing issue on repository discussion lists,,https://github.com/sindresorhus/refined-github/issues/2631
+`branch-buttons` and `list-prs-for-file` break the layout,,https://github.com/sindresorhus/refined-github/issues/2624
+`view-markdown-source` is not being loaded on `*.md` pages,,https://github.com/sindresorhus/refined-github/issues/2619
+Alternative approach for `comments-time-machine-links`,,https://github.com/sindresorhus/refined-github/issues/2618
+`user-local-time` shows empty time for people with no commits,,https://github.com/sindresorhus/refined-github/issues/2612
+`conflict-marker` should exclude merged/closed PRs,,https://github.com/sindresorhus/refined-github/issues/2582
+`linkify-user-location` breaks location edits in profile,,https://github.com/sindresorhus/refined-github/issues/2581
+Expand all Assets on Releases pages,,https://github.com/sindresorhus/refined-github/issues/2575
+Remove is:open/is:closed issue search query with a click,,https://github.com/sindresorhus/refined-github/issues/2574
+Clear PR merge commit description field,,https://github.com/sindresorhus/refined-github/issues/2564
+Make the dropdown button of failing GitHub Actions a single button ,,https://github.com/sindresorhus/refined-github/issues/2561
+Console Errors,,https://github.com/sindresorhus/refined-github/issues/2530
+Merge status information is hidden,,https://github.com/sindresorhus/refined-github/issues/2527
+Repository creation date,,https://github.com/sindresorhus/refined-github/issues/2526
+dim-bots dims human author commits,,https://github.com/sindresorhus/refined-github/issues/2517
+Make the commit SHA on the PR page more easily selectable,,https://github.com/sindresorhus/refined-github/issues/2508
+Rename a branch on the github.com web UI,,https://github.com/sindresorhus/refined-github/issues/2500
+` highlight-closing-prs-in-open-issues` is broken,,https://github.com/sindresorhus/refined-github/issues/2455
+"Restore ""Delete branch"" button in responsive branch list",,https://github.com/sindresorhus/refined-github/issues/2452
+Mark all files as viewed/not-viewed,,https://github.com/sindresorhus/refined-github/issues/2444
+"New Issue editor toolbar cuts out buttons, like ""Add a link"", ""Insert code"", and more",,https://github.com/sindresorhus/refined-github/issues/2428
+Merge/match `highlight-own-issues-and-prs` and `highlight-collaborators-in-lists` ,,https://github.com/sindresorhus/refined-github/issues/2419
+Reviews shouldn't always require a comment ,,https://github.com/sindresorhus/refined-github/issues/2418
+Extract `one-key-formatting` into own feature,,https://github.com/sindresorhus/refined-github/issues/2414
+`esc` should blur the current field,,https://github.com/sindresorhus/refined-github/issues/2413
+per domain setting personal Token Found Here  Link is not getting updated according to selected domain,,https://github.com/sindresorhus/refined-github/issues/2408
+Toggle all PR comments' visibility,,https://github.com/sindresorhus/refined-github/issues/2398
+`open-all-notifications` throws error on `github.com/*/*/notifications`,,https://github.com/sindresorhus/refined-github/issues/2397
+"When the drop menu and fork count overlap, the fork count is displayed above",,https://github.com/sindresorhus/refined-github/issues/2368
+"Empty comment field displays unnecessary ""please fill out this field"" tooltip when hovered over in Firefox",,https://github.com/sindresorhus/refined-github/issues/2349
+`clean-discussion-sidebar` isn't re-applied after changes to the sidebar,,https://github.com/sindresorhus/refined-github/issues/2333
+Cannot click 're-run all checks' on Actions page,,https://github.com/sindresorhus/refined-github/issues/2328
+Show lines changed for current commit,,https://github.com/sindresorhus/refined-github/issues/2326
+Alignment issue in Releases subnav,,https://github.com/sindresorhus/refined-github/issues/2325
+`ci-link`: hide duplicate status icon,,https://github.com/sindresorhus/refined-github/issues/2317
+`deprioritize-marketplace-link` broken on Enterprise,,https://github.com/sindresorhus/refined-github/issues/2308
+Tooltips are broken in files when `indented-code-wrapping` is enabled,,https://github.com/sindresorhus/refined-github/issues/2305
+"Hide ""0 packages"" info on repos",,https://github.com/sindresorhus/refined-github/issues/2286
+"Restore ""Sticky Issues Header"" feature",,https://github.com/sindresorhus/refined-github/issues/2280
+Add `line-through` on deleted branches in PRs,,https://github.com/sindresorhus/refined-github/issues/2274
+Should Subscribe reason be hidden in Sidebar?,,https://github.com/sindresorhus/refined-github/issues/2269
+`shorten-links` should apply also after you edit your comment,,https://github.com/sindresorhus/refined-github/issues/2264
+Cleanup: there's some duplicate code in the linkifier,,https://github.com/sindresorhus/refined-github/issues/2263
+`edit-readme` feature is broken,,https://github.com/sindresorhus/refined-github/issues/2262
+"""View file"" in PRs should point to the branch, not the commit",,https://github.com/sindresorhus/refined-github/issues/2260
+Extend `format-discussion-titles` to issue sticky header #321,,https://github.com/sindresorhus/refined-github/issues/2255
+Colors for `highest-rated-comment` decorations ,,https://github.com/sindresorhus/refined-github/issues/2237
+Security adviosry pull request button is hidden,,https://github.com/sindresorhus/refined-github/issues/2227
+Restore `edit-readme-button` on all repos,,https://github.com/sindresorhus/refined-github/issues/2225
+Add color wheel for picking label colors,,https://github.com/sindresorhus/refined-github/issues/2224
+Update `releases-tab` to use API to fetch releases count,,https://github.com/sindresorhus/refined-github/issues/2221
+The footer is incredibly hard to read in Explore page,,https://github.com/sindresorhus/refined-github/issues/2212
+Improve file path and name visibility in PR Files changed section,,https://github.com/sindresorhus/refined-github/issues/2206
+Bug on pull request files tab,,https://github.com/sindresorhus/refined-github/issues/2202
+`comments-time-machine-links` errors on review page with pending reviews,,https://github.com/sindresorhus/refined-github/issues/2187
+"""View blame prior to this change"" link should include the current line",,https://github.com/sindresorhus/refined-github/issues/2175
+Avoid adding real names when the user is using a real name,,https://github.com/sindresorhus/refined-github/issues/2165
+Linkify users in edit history popup,,https://github.com/sindresorhus/refined-github/issues/2161
+Layout Jumping During Fetching of Latest Commit,,https://github.com/sindresorhus/refined-github/issues/2160
+Restore `upload-button` feature,,https://github.com/sindresorhus/refined-github/issues/2155
+`Shift+O` shouldn't work when writing inside an editable element,,https://github.com/sindresorhus/refined-github/issues/2152
+Increase contrast of favicon in dark mode,,https://github.com/sindresorhus/refined-github/issues/2130
+Releases counter is missing,,https://github.com/sindresorhus/refined-github/issues/2077
+List of repository tabs is too long,,https://github.com/sindresorhus/refined-github/issues/2072
+Unread notifications from GHE appear on Github and vice versa,,https://github.com/sindresorhus/refined-github/issues/2065
+`remove-checks-tab` feature broken,,https://github.com/sindresorhus/refined-github/issues/2050
+Master branch links are broken for branches with a `/` in the branch name,,https://github.com/sindresorhus/refined-github/issues/2049
+Bug with pull request helper and Github Entreprise,,https://github.com/sindresorhus/refined-github/issues/2044
+Feature `hide-empty-meta` is broken,,https://github.com/sindresorhus/refined-github/issues/2037
+Shortcut to format selected text as code,,https://github.com/sindresorhus/refined-github/issues/2032
+`focus-confirmation-buttons` broken,,https://github.com/sindresorhus/refined-github/issues/2031
+Drop `upload-button` feature,,https://github.com/sindresorhus/refined-github/issues/2014
+`raw-file-link` broken in PRs due to new dropdown,,https://github.com/sindresorhus/refined-github/issues/2006
+`batch-open-issues` isn't working unless you select issues,,https://github.com/sindresorhus/refined-github/issues/2004
+Drop `bypass-checks` feature,,https://github.com/sindresorhus/refined-github/issues/2003
+Drop feature `mark-merge-commits-in-list`,,https://github.com/sindresorhus/refined-github/issues/1988
+Update feature `linkify-branch-refs`,,https://github.com/sindresorhus/refined-github/issues/1985
+"In file History pages, add links to the file itself",,https://github.com/sindresorhus/refined-github/issues/1979
+`show-names` feature  broken,,https://github.com/sindresorhus/refined-github/issues/1978
+Add Draft PR support for `mark-unread`,,https://github.com/sindresorhus/refined-github/issues/1954
+Hide milestone drag icon when no permission,,https://github.com/sindresorhus/refined-github/issues/1918
+"""close and comment""  button float left, Easy to make a mistake",,https://github.com/sindresorhus/refined-github/issues/1915
+Button (visual) issues in notifications,,https://github.com/sindresorhus/refined-github/issues/1865
+Options modal dialog blinking/glitching in Chrome,,https://github.com/sindresorhus/refined-github/issues/1847
+"Why you hide count field for ""Watch"" and ""Fork"" buttons?",,https://github.com/sindresorhus/refined-github/issues/1843
+Remove the `exclude-filter-shortcut` feature,,https://github.com/sindresorhus/refined-github/issues/1828
+Mention autocomplete inserts \t,,https://github.com/sindresorhus/refined-github/issues/1826
+Console Errors,,https://github.com/sindresorhus/refined-github/issues/1811
+Remove the `delete-fork-link` feature (Implemented by GitHub natively),,https://github.com/sindresorhus/refined-github/issues/1786
+Unnecessary offset for filenames in comments,,https://github.com/sindresorhus/refined-github/issues/1784
+Remove the milestone navigation feature,,https://github.com/sindresorhus/refined-github/issues/1767
+New “Projects” tab messes up profile if “gists” tab enabled,,https://github.com/sindresorhus/refined-github/issues/1757
+Hide/collapse bots in conversations,,https://github.com/sindresorhus/refined-github/issues/1745
+Restore `toggle-all-things-with-alt` feature,,https://github.com/sindresorhus/refined-github/issues/1729
+Issue/PR popup z-index issue,,https://github.com/sindresorhus/refined-github/issues/1719
+V3 API calls no longer work for GHE,,https://github.com/sindresorhus/refined-github/issues/1703
+Missing open all pull requests button on users' Pull Requests page,,https://github.com/sindresorhus/refined-github/issues/1699
+First changed file header overlaps tags dropdown,,https://github.com/sindresorhus/refined-github/issues/1683
+Hide/collapse bots in commits,,https://github.com/sindresorhus/refined-github/issues/1676
+Search field widens on project page,,https://github.com/sindresorhus/refined-github/issues/1672
+Show warning if PR submitter tries to uncheck `Allow edits from maintainers`,,https://github.com/sindresorhus/refined-github/issues/1665
+Warn when creating a PR from master branch,,https://github.com/sindresorhus/refined-github/issues/1664
+Missing Approve and Reject buttons in review,,https://github.com/sindresorhus/refined-github/issues/1646
+There is an unstar button,,https://github.com/sindresorhus/refined-github/issues/1642
+Expand empty binary file diffs inside PR,,https://github.com/sindresorhus/refined-github/issues/1630
+Automatic redirects in empty profiles,,https://github.com/sindresorhus/refined-github/issues/1627
+"More friendly ""Changes requested"" state in PRs",,https://github.com/sindresorhus/refined-github/issues/1602
+Hide Fork button if disabled,,https://github.com/sindresorhus/refined-github/issues/1601
+"Add ""View Raw"" button next to all View buttons for files",,https://github.com/sindresorhus/refined-github/issues/1595
+Distinct referenced commits style,,https://github.com/sindresorhus/refined-github/issues/1579
+"Show issue number in ""Possibly related issues"" panel",,https://github.com/sindresorhus/refined-github/issues/1572
+Keep link to repository for deleted branch,,https://github.com/sindresorhus/refined-github/issues/1487
+Warn about long `Squash and Merge` commit message,,https://github.com/sindresorhus/refined-github/issues/1475
+Double delete icons,,https://github.com/sindresorhus/refined-github/issues/1458
+GitHub now has a Your Repositories link in your profile dropdown,,https://github.com/sindresorhus/refined-github/issues/1446
+Remove Shift + Enter shortcut in favour of GitHub own single comment shortcut,,https://github.com/sindresorhus/refined-github/issues/1442
+PR suggestion box has slightly more margin below the button than above,,https://github.com/sindresorhus/refined-github/issues/1434
+PR suggestion box overlays extra extensions' content,,https://github.com/sindresorhus/refined-github/issues/1433
+Filter is partially covered by first row in issue/PR page,,https://github.com/sindresorhus/refined-github/issues/1431
+Show recently modified repos on profile landing pages,,https://github.com/sindresorhus/refined-github/issues/1423
+Targeted timeline comment highlight doesn't work,,https://github.com/sindresorhus/refined-github/issues/1404
+Highlight issues or PRs that belong to the user,,https://github.com/sindresorhus/refined-github/issues/1403
+Disable browser autocomplete on issue/pr search,,https://github.com/sindresorhus/refined-github/issues/1391
+"In review page, an individual scroll bar appears on every file",,https://github.com/sindresorhus/refined-github/issues/1382
+Referer in code blocks linkified URLs,,https://github.com/sindresorhus/refined-github/issues/1376
+API calls need Personal Token to support frequent calls and private repos,,https://github.com/sindresorhus/refined-github/issues/1374
+Feature Request: In the activity feed make PR numbers link to the PR,,https://github.com/sindresorhus/refined-github/issues/1354
+Don't show items from archived repos in issues/PRs overviews,,https://github.com/sindresorhus/refined-github/issues/1353
+Declutter the review submit dialog more by removing unnecessary header,,https://github.com/sindresorhus/refined-github/issues/1314
+Console Errors,,https://github.com/sindresorhus/refined-github/issues/1305
+"Hide ""Checks"" tab on Pull request page",,https://github.com/sindresorhus/refined-github/issues/1304
+Markdown rich diff tooltip appears underneath diff settings bar,,https://github.com/sindresorhus/refined-github/issues/1295
+List of all the available features ,,https://github.com/sindresorhus/refined-github/issues/1275
+Error in console,,https://github.com/sindresorhus/refined-github/issues/1273
+Searching related issues is happening even on empty title,,https://github.com/sindresorhus/refined-github/issues/1267
+Embedded Gists destroy content,,https://github.com/sindresorhus/refined-github/issues/1263
+Add shortcut to Draft a new release on releases page,,https://github.com/sindresorhus/refined-github/issues/1254
+Don't clutter the global search bar in the global Pull Requests page,,https://github.com/sindresorhus/refined-github/issues/1253
+Upload icon missing,,https://github.com/sindresorhus/refined-github/issues/1242
+'Jump to bottom' link not working,,https://github.com/sindresorhus/refined-github/issues/1228
+tick is offset,,https://github.com/sindresorhus/refined-github/issues/1221
+"Button to switch base and head in ""Compare"" page",,https://github.com/sindresorhus/refined-github/issues/1217
+Hide hovertext 'Open in Github Dekstop',,https://github.com/sindresorhus/refined-github/issues/1212
+"Hide ""edited wiki"" in Browse activity",,https://github.com/sindresorhus/refined-github/issues/1208
+"Problem with showing ""open pull request"" shortcut",,https://github.com/sindresorhus/refined-github/issues/1189
+Add option to specify custom CSS,,https://github.com/sindresorhus/refined-github/issues/1186
+Username in comment thread messed up possibly because of accented character,,https://github.com/sindresorhus/refined-github/issues/1176
+Highlight linked comment (:target),,https://github.com/sindresorhus/refined-github/issues/1164
+Hide inactive deployments,,https://github.com/sindresorhus/refined-github/issues/1144
+Add links to issues and pull requests next to repo title,,https://github.com/sindresorhus/refined-github/issues/1130
+Add delete button to files in a PR,,https://github.com/sindresorhus/refined-github/issues/1127
+"When ""add-delete-fork-link"" is disabled, the extra whitespace is still present",,https://github.com/sindresorhus/refined-github/issues/1122
+Shortcut to open notification in a new tab,,https://github.com/sindresorhus/refined-github/issues/1110
+Add button to preview HTML files,,https://github.com/sindresorhus/refined-github/issues/1096
+Customizable monospace font?,,https://github.com/sindresorhus/refined-github/issues/1094
+Awesome Job!,,https://github.com/sindresorhus/refined-github/issues/1090
+patch/diff commit links feature broken,,https://github.com/sindresorhus/refined-github/issues/1080
+Keyboard shortcut for submitting the review changes on a PR,,https://github.com/sindresorhus/refined-github/issues/1069
+Link to commit page from PR commit,,https://github.com/sindresorhus/refined-github/issues/1053
+Default to Sources in the user repository tab,,https://github.com/sindresorhus/refined-github/issues/1048
+Confirm dialog before closing the window if unsaved changes,,https://github.com/sindresorhus/refined-github/issues/1037
+"""null"" appended to body on notification's page",,https://github.com/sindresorhus/refined-github/issues/1026
+URLs in commented diffs aren't linkified,,https://github.com/sindresorhus/refined-github/issues/999
+Bring back CLI instructions for checking out PRs,,https://github.com/sindresorhus/refined-github/issues/963
+Missing upload button on the new issue creation page,,https://github.com/sindresorhus/refined-github/issues/957
+"Add ""Your repositories"" link to navbar profile dropdown",,https://github.com/sindresorhus/refined-github/issues/954
+Add quick review buttons throws on merged PR,,https://github.com/sindresorhus/refined-github/issues/918
+updateReleasesCount: Uncaught (in promise) TypeError: Cannot read property 'textContent' of null,,https://github.com/sindresorhus/refined-github/issues/901
+Hide follow events,,https://github.com/sindresorhus/refined-github/issues/894
+Add a button to quickly approve the PR,,https://github.com/sindresorhus/refined-github/issues/883
+Add link to a user's Gists to their profile page,,https://github.com/sindresorhus/refined-github/issues/863
+Autoload contribution activities on scroll down,,https://github.com/sindresorhus/refined-github/issues/861
+"Remove ""Seeing something unexpected?"" from user profile pages",,https://github.com/sindresorhus/refined-github/issues/860
+Account switcher isn't moved to sidebar on `Discover repositories` page,,https://github.com/sindresorhus/refined-github/issues/857
+Make issue sidebar sticky,,https://github.com/sindresorhus/refined-github/issues/842
+Add support for loading all large diffs at once,,https://github.com/sindresorhus/refined-github/issues/825
+Repo Insights tab is not in More anymore,,https://github.com/sindresorhus/refined-github/issues/715
+"Subtle shift when hovering on ""Create new file"" button",,https://github.com/sindresorhus/refined-github/issues/693
+"Automatically link branch in ""Open a pull request""",,https://github.com/sindresorhus/refined-github/issues/691
+Go to profile keyboard shortcut,,https://github.com/sindresorhus/refined-github/issues/688
+Add support to fold the repository like github in mobile browser.,,https://github.com/sindresorhus/refined-github/issues/598
+Add shortcuts to navigate to PR tabs,,https://github.com/sindresorhus/refined-github/issues/568
+Hide repo meta-info when empty and no access to edit,,https://github.com/sindresorhus/refined-github/issues/549
+Add dropdown menu to the search bar scope,,https://github.com/sindresorhus/refined-github/issues/548
+Keep the tabs Insights and Settings on the right,,https://github.com/sindresorhus/refined-github/issues/502
+Mark as unread doesn't update the participating number,,https://github.com/sindresorhus/refined-github/issues/497
+Use Promised `browser.*` APIs,,https://github.com/sindresorhus/refined-github/issues/495
+Remove hardcoded references to Github.com,,https://github.com/sindresorhus/refined-github/issues/461
+"Remove ""Marketplace"" nav item",,https://github.com/sindresorhus/refined-github/issues/451
+Repo tabs doesn't fit when Wiki and Projects tabs are enabled,,https://github.com/sindresorhus/refined-github/issues/440
+"Show ""Pulse"" item in ""Insights"" dropdown",,https://github.com/sindresorhus/refined-github/issues/433
+Inject Releases and Compare tab before Settings tab,,https://github.com/sindresorhus/refined-github/issues/431
+"Move the ""Close issue"" button to the left",,https://github.com/sindresorhus/refined-github/issues/410
+Add link to all milestones on milestone page,,https://github.com/sindresorhus/refined-github/issues/366
+Stylize OP name in comments,,https://github.com/sindresorhus/refined-github/issues/365
+Linkifies branch reference incorrect when repo was renamed,,https://github.com/sindresorhus/refined-github/issues/349
+Blame parent links no longer blame the parent,,https://github.com/sindresorhus/refined-github/issues/345
+Copy Button for Gists,,https://github.com/sindresorhus/refined-github/issues/336
+Really small padding issue,,https://github.com/sindresorhus/refined-github/issues/327
+Fix button for diffs without whitespace,,https://github.com/sindresorhus/refined-github/issues/322
+"Add a keyboard shortcut for ""Add line comment""",,https://github.com/sindresorhus/refined-github/issues/312
+"The review ""red X"" icon is overly scary",,https://github.com/sindresorhus/refined-github/issues/310
+Remove Projects (0) from repo navigation,,https://github.com/sindresorhus/refined-github/issues/309
+"Add ""title"" attr to emojis",,https://github.com/sindresorhus/refined-github/issues/278
+"New font still used in ""Private"" badge",,https://github.com/sindresorhus/refined-github/issues/265
+Show your own Avatar for Reactions?,,https://github.com/sindresorhus/refined-github/issues/239
+Created repository - Different Style,,https://github.com/sindresorhus/refined-github/issues/213
+"""collapsible"" file diff make it difficult to select file names. ",,https://github.com/sindresorhus/refined-github/issues/209
+"Provide a shortcut for ""your"" issues?",,https://github.com/sindresorhus/refined-github/issues/183
+"Add ""Operator Mono"" as <pre>'s default font",,https://github.com/sindresorhus/refined-github/issues/179
+"Show ""Trending"" in the top menu",,https://github.com/sindresorhus/refined-github/issues/153

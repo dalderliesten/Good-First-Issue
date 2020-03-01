@@ -1,0 +1,412 @@
+First Commit Hash (SHA),Commit Message,Author (Github Name),Link to Commit
+07ecc75e81cbc466d6bc98a12505ae58fec68d59,init,sindresorhus,https://api.github.com/repos/sindresorhus/refined-github/git/commits/07ecc75e81cbc466d6bc98a12505ae58fec68d59
+fbd864ceee13c29db044a00a79d056e679102304,Add canned responses as related project,passy,https://api.github.com/repos/sindresorhus/refined-github/git/commits/fbd864ceee13c29db044a00a79d056e679102304
+b03644b1627fce8c765e0f8fa17b388a29478961,Close #7 PR: Improve linkifying branches by using repo name from fork URL.,paulmolluzzo,https://api.github.com/repos/sindresorhus/refined-github/git/commits/b03644b1627fce8c765e0f8fa17b388a29478961
+3346ccc4ab5343946743083ef9b9dfed06b7d5dd,"fix bug where switcher is messing with account menu
+
+This closes https://github.com/sindresorhus/refined-github/issues/13",joshmanders,https://api.github.com/repos/sindresorhus/refined-github/git/commits/3346ccc4ab5343946743083ef9b9dfed06b7d5dd
+4f82478b8cce46f852dd237b5b4d43014adda6bc,Close #12 PR: Add `Releases` tab to the repo page. Fixes #8,hkdobrev,https://api.github.com/repos/sindresorhus/refined-github/git/commits/4f82478b8cce46f852dd237b5b4d43014adda6bc
+be43ef0b15b6933ccceccd196530b0f01534bbe4,Close #17 PR: Implement like / dislike count. Fixes #15,SpaceK33z,https://api.github.com/repos/sindresorhus/refined-github/git/commits/be43ef0b15b6933ccceccd196530b0f01534bbe4
+db8a60624ca029cff3ed3ffdaacd5313c674e000,Moves the account switcher thumbnail next to the text,ionutvmi,https://api.github.com/repos/sindresorhus/refined-github/git/commits/db8a60624ca029cff3ed3ffdaacd5313c674e000
+b84a59bde7071de579304f5626ea078faa49e1f6,Close #51 PR: Add minimize/maximize buttons and functionality to PRs. Fixes #50,tdlm,https://api.github.com/repos/sindresorhus/refined-github/git/commits/b84a59bde7071de579304f5626ea078faa49e1f6
+42922e2ef30d4fd8a4232997831785cce64ec230,Close #88 PR: Add contributors-on-github as a related extension.,hzoo,https://api.github.com/repos/sindresorhus/refined-github/git/commits/42922e2ef30d4fd8a4232997831785cce64ec230
+40cee76e96c3ed3c48fe879fa19f47fd7f2d830c,Close #107 PR: Hide add collaborator from activity feed. Fixes #106,bevacqua,https://api.github.com/repos/sindresorhus/refined-github/git/commits/40cee76e96c3ed3c48fe879fa19f47fd7f2d830c
+89b7bacea71e7144dbcb862f294573a2bebdc242,Show current file name in floating header on commit diff pages,DrewML,https://api.github.com/repos/sindresorhus/refined-github/git/commits/89b7bacea71e7144dbcb862f294573a2bebdc242
+965534dc49d4d4734dade2e991f66e5fa35cef73,"fix merge commit duplicated icon
+
+fixes #114",blackjid,https://api.github.com/repos/sindresorhus/refined-github/git/commits/965534dc49d4d4734dade2e991f66e5fa35cef73
+5e9446f37d1ad2e1ad01307e160ba5d7cbff4224,"Switch from maximize/minimize to collapse/expand
+
+I believe the correct action would be collapse instead of minimize. I understand minimize as normally to add a window into a dock/taskbar.
+
+What the feature does is actually collapse/expand or fold if you like so.",leocaseiro,https://api.github.com/repos/sindresorhus/refined-github/git/commits/5e9446f37d1ad2e1ad01307e160ba5d7cbff4224
+42ee6c5fa688208c0922364b361fcd42fcb71a61,"Merge pull request #155 from kentcdodds/patch-1
+
+allow default behavior in textareas",kentcdodds,https://api.github.com/repos/sindresorhus/refined-github/git/commits/42ee6c5fa688208c0922364b361fcd42fcb71a61
+4666f169596665fada52adfd636d39d340c1c11a,"Change monospace font stack
+
+* closes #179
+
+* single quotes, reorder fonts, add comment",jacobbearden,https://api.github.com/repos/sindresorhus/refined-github/git/commits/4666f169596665fada52adfd636d39d340c1c11a
+efa38bfd1048f0daa1d3d147840b1709f53713bd,"Remove separator between discussion items
+
+Before:
+
+![screen shot 2016-05-19 at 2 19 45 pm](https://cloud.githubusercontent.com/assets/727262/15393283/cc9e7f8e-1dcc-11e6-8f3f-40563f6b1907.png)
+
+After:
+
+![screen shot 2016-05-19 at 2 20 01 pm](https://cloud.githubusercontent.com/assets/727262/15393287/d1de6e32-1dcc-11e6-9908-1afcda087337.png)
+
+Closes #225",wayneashleyberry,https://api.github.com/repos/sindresorhus/refined-github/git/commits/efa38bfd1048f0daa1d3d147840b1709f53713bd
+1d85dde9acc7628289f22b2aab499dbf44fb6aa9,"urlencode linkfied branch refs in PR section (#247)
+
+resolves #246",Ma27,https://api.github.com/repos/sindresorhus/refined-github/git/commits/1d85dde9acc7628289f22b2aab499dbf44fb6aa9
+ee058a8651973d3859b68af3f34a8351692635fd,Allow collapse of all file diffs (#257),smithtrenton,https://api.github.com/repos/sindresorhus/refined-github/git/commits/ee058a8651973d3859b68af3f34a8351692635fd
+c3823c75d5c74bca512d99904e111db2b93de473,Fix the toolbar top margin. (#262),leofeyer,https://api.github.com/repos/sindresorhus/refined-github/git/commits/c3823c75d5c74bca512d99904e111db2b93de473
+3d5e471058c50d298e06b5c8243bbe4f18cfeeb7,"Add min-height to newsfeed (#263)
+
+To ensure the newsfeed is shown even when it’s empty. This keeps the
+repository column in place.",sachse,https://api.github.com/repos/sindresorhus/refined-github/git/commits/3d5e471058c50d298e06b5c8243bbe4f18cfeeb7
+34d72f09d47c90e3e1ebfd1d6628c8c9f80f334b,Move entire sidebar content down with padding (#271),bfred-it,https://api.github.com/repos/sindresorhus/refined-github/git/commits/34d72f09d47c90e3e1ebfd1d6628c8c9f80f334b
+8a2226c22b1e65bb1f066c3847c3300bb1c5c98f,"Add option to disable whitespace diff via URL parameter. (#196)
+
+This adds an option to the view options for diff pages.
+It works with commit pages and pull request diff pages,
+and works by modifying the URL (adding `w=1` parameter
+to suppress whitespace diff, remove it for resetting).",anselmh,https://api.github.com/repos/sindresorhus/refined-github/git/commits/8a2226c22b1e65bb1f066c3847c3300bb1c5c98f
+37ce38ddc87fc111fbc462dd573593278aaf512d,Add refined-wikipedia to Related section (#286),ismamz,https://api.github.com/repos/sindresorhus/refined-github/git/commits/37ce38ddc87fc111fbc462dd573593278aaf512d
+31aec69c4e446b54d12fac57569259f64cb0bc59,Fix minimizing images in pull request diffs (#289),lusbuab,https://api.github.com/repos/sindresorhus/refined-github/git/commits/31aec69c4e446b54d12fac57569259f64cb0bc59
+b5c68a1a403808c1e11d761cbcb147a703b67a78,"add ""mark as unread"" feature (#284)",vadimdemedes,https://api.github.com/repos/sindresorhus/refined-github/git/commits/b5c68a1a403808c1e11d761cbcb147a703b67a78
+00a1636ed0996e46121d6d3dea12623785281c39,"custom.css: Add ""Fira Code"" monospace font-family for code ligatures (#295)",Turbo87,https://api.github.com/repos/sindresorhus/refined-github/git/commits/00a1636ed0996e46121d6d3dea12623785281c39
+05affbb21ead7a1ea59f575565ed7b924bf12b27,Add missing BtnGroup-item class to copy button (#306),pzi,https://api.github.com/repos/sindresorhus/refined-github/git/commits/05affbb21ead7a1ea59f575565ed7b924bf12b27
+2463f184d2f6f2023b49d67a3bc265bfd66c11b9,"Move Operator Mono to top of font stack (#335)
+
+Since Operator Mono is a $200 font, I think it being installed is much more likely to indicate that it's preferred by the user.",chrisvfritz,https://api.github.com/repos/sindresorhus/refined-github/git/commits/2463f184d2f6f2023b49d67a3bc265bfd66c11b9
+06bbc495aea0bf78131e63fe7674b2f8063e9da7,Add `Copy` button to gists (#338),deadcoder0904,https://api.github.com/repos/sindresorhus/refined-github/git/commits/06bbc495aea0bf78131e63fe7674b2f8063e9da7
+95750f267ec447f70b8e7050f277fdc3e7fd49f7,Current branch = [shortened] inner text -> button title (#359),Haraldson,https://api.github.com/repos/sindresorhus/refined-github/git/commits/95750f267ec447f70b8e7050f277fdc3e7fd49f7
+8a7edf54001ab7b761eae771c9d4d99d3b3769fa,Fix releases counter class name,lukaszklis,https://api.github.com/repos/sindresorhus/refined-github/git/commits/8a7edf54001ab7b761eae771c9d4d99d3b3769fa
+c55fd32401a4f90db1522edcdf6accad8145b909,Add navigation to milestone pages (#375),jgierer12,https://api.github.com/repos/sindresorhus/refined-github/git/commits/c55fd32401a4f90db1522edcdf6accad8145b909
+5b2709c415ec4509bf41196ae4afacc497e6ae1e,"Leverage Operator Mono ScreenSmart variant (#384)
+
+Some Operator Mono users install the ScreenSmart variant, sometimes exclusively (due to what license they bought), so it would be nice to have the relevant font name in the overridden code font family.
+
+Here goes.",tdd,https://api.github.com/repos/sindresorhus/refined-github/git/commits/5b2709c415ec4509bf41196ae4afacc497e6ae1e
+db8cd5c62cc6971bb50ab58b1dc2b6f84340acfc,"Force JS files to checkout as LF (#392)
+
+Currently if you checkout the code on Windows the JS files will have CRLF and will automatically fail in ESLint when running 'npm test'",busches,https://api.github.com/repos/sindresorhus/refined-github/git/commits/db8cd5c62cc6971bb50ab58b1dc2b6f84340acfc
+bf3146f03c4998b5415603feb61750a1e5152f7b,Add support for gist.github.com in the diff file collapse feature (#391),benoror,https://api.github.com/repos/sindresorhus/refined-github/git/commits/bf3146f03c4998b5415603feb61750a1e5152f7b
+6f95153b82e34bb833a4b3cab2391c2616ec1efb,"Move close/cancel buttons to the left - Fixes #410 (#414)
+
+* Move 'close issue' button left, resolves #410
+
+* Update comment box screenshot
+
+* Move 'Cancel' button in comment edit and inline comments
+
+* Add moved buttons to feature list",loilo,https://api.github.com/repos/sindresorhus/refined-github/git/commits/6f95153b82e34bb833a4b3cab2391c2616ec1efb
+e15bdeb6f73e5a1e1110740e36a2aabc5f9b487a,Linkify cross-repo issues references in titles - Fixes #412 (#416),durka,https://api.github.com/repos/sindresorhus/refined-github/git/commits/e15bdeb6f73e5a1e1110740e36a2aabc5f9b487a
+59cf292062a1299369d804f4155905b4859dd4f0,Add file path copy button to PR diffs (#417),AshikNesin,https://api.github.com/repos/sindresorhus/refined-github/git/commits/59cf292062a1299369d804f4155905b4859dd4f0
+18154c19eeecc7f61ddbd8c4069a1c7bb7759174,Simplify repoUrl getter,fregante,https://api.github.com/repos/sindresorhus/refined-github/git/commits/18154c19eeecc7f61ddbd8c4069a1c7bb7759174
+bdadc5a022f26d4e756f353647510c3ee019f594,Fix text formatting for name of post editor (#488),arkon,https://api.github.com/repos/sindresorhus/refined-github/git/commits/bdadc5a022f26d4e756f353647510c3ee019f594
+c55d77207b3aaf33f7e956ee2430e11c322c84fd,"Update readme link to content.js (#541)
+
+In https://github.com/sindresorhus/refined-github/pull/465, the link to `content.js` broke as it moved. This commit changes the path to point to its new location under `/src/`.",kevinjalbert,https://api.github.com/repos/sindresorhus/refined-github/git/commits/c55d77207b3aaf33f7e956ee2430e11c322c84fd
+b00e3f9e835e9efb74c5f98d43a4645716328de5,"Hide repo description when it's empty (#553)
+
+* Hide repo description when it's empty
+
+* Hide empty description only for users without edit permissions
+
+* Fix indentation
+
+* Hide empty description to save space",pablopunk,https://api.github.com/repos/sindresorhus/refined-github/git/commits/b00e3f9e835e9efb74c5f98d43a4645716328de5
+7ae3ecf022e7d9c78652a01f024fc67fcbd7c202,Fix show-full-names on fresh installs (#591),ramlmn,https://api.github.com/repos/sindresorhus/refined-github/git/commits/7ae3ecf022e7d9c78652a01f024fc67fcbd7c202
+eefdb2c02d0851bbb92da148bd6641b0324a4948,"Sort milestones by closest due date (#457)
+
+* Changes the default sort order of milestones to ""Closest due date""
+
+* Affect all links pointing to milestones",smeijer,https://api.github.com/repos/sindresorhus/refined-github/git/commits/eefdb2c02d0851bbb92da148bd6641b0324a4948
+050c377119cabc1e2a575ecb8dd2474dc96335a7,"Fix Trending menu item and ""g + t"" shortcut disappearance and hide Marketplace menu item (#639)",Alexandre-Nourissier,https://api.github.com/repos/sindresorhus/refined-github/git/commits/050c377119cabc1e2a575ecb8dd2474dc96335a7
+16a6d8bae2520ec0df7fffea9acebfccaede375c,Sticky file headers on pull request diff view (#647),stipsan,https://api.github.com/repos/sindresorhus/refined-github/git/commits/16a6d8bae2520ec0df7fffea9acebfccaede375c
+ef49f2de3692826d8723bde87e5fe5ba3a6803d3,Fix error in Insights dropdown on GHE (#664),zeke,https://api.github.com/repos/sindresorhus/refined-github/git/commits/ef49f2de3692826d8723bde87e5fe5ba3a6803d3
+04f3763c3d41dc3687d7d6c11a5b3b2d87cded3d,Add GitHub Custom Tab Size to Related section (#668),lukechilds,https://api.github.com/repos/sindresorhus/refined-github/git/commits/04f3763c3d41dc3687d7d6c11a5b3b2d87cded3d
+7e728576a68d7779a6226ad7c76928c4b5ebb01b,Preserve whitespace option on previous/next navigation (#661),abernix,https://api.github.com/repos/sindresorhus/refined-github/git/commits/7e728576a68d7779a6226ad7c76928c4b5ebb01b
+168b2e887d7f8f4c6b116333d22b772ef7139185,"Fix ""mark unread"" not updating participating count on notifications page (#681)",tanmayrajani,https://api.github.com/repos/sindresorhus/refined-github/git/commits/168b2e887d7f8f4c6b116333d22b772ef7139185
+3de2130274975dafdaa48e6c248699b87698682a,"Match the width of the account switcher modal to that of the user repo list (#699)
+
+* Match the width of the account switcher modal to that of the user repo list
+
+* Remove duplicated rule",ifvictr,https://api.github.com/repos/sindresorhus/refined-github/git/commits/3de2130274975dafdaa48e6c248699b87698682a
+afd6baff7e2bd053415233da5fe26aea995c3ede,Make CI links in a pull request open in a new tab (#694),andrewbrntt,https://api.github.com/repos/sindresorhus/refined-github/git/commits/afd6baff7e2bd053415233da5fe26aea995c3ede
+89b934242012bfe729c1282ca6f16e1bd247253c,Add preview issue/PR title tooltip in comment (#666),kevin940726,https://api.github.com/repos/sindresorhus/refined-github/git/commits/89b934242012bfe729c1282ca6f16e1bd247253c
+4eebe7e6c8bf9d5917d993187ffd8c8fc1057b84,Remove .page-dashboard as parent class css (#714),rohmanhm,https://api.github.com/repos/sindresorhus/refined-github/git/commits/4eebe7e6c8bf9d5917d993187ffd8c8fc1057b84
+3f8d19a33e8dcfc2a5ae74ddd79625bdf3bf8628,Bump z-index of sticky file headers (#717),khellang,https://api.github.com/repos/sindresorhus/refined-github/git/commits/3f8d19a33e8dcfc2a5ae74ddd79625bdf3bf8628
+72fac03b2ef3485ca8f44a791f3044b5ee2dfcb2,Fix selector for hiding other users starring/forking your repos (#724),travispett,https://api.github.com/repos/sindresorhus/refined-github/git/commits/72fac03b2ef3485ca8f44a791f3044b5ee2dfcb2
+af1bc0f5734487e7e199443d504d2913528c6880,Fix selector for hiding pushes and forks (#728),kevva,https://api.github.com/repos/sindresorhus/refined-github/git/commits/af1bc0f5734487e7e199443d504d2913528c6880
+8196bc88b9737404c26cb286aa439fa42bc015a0,"Automatically focus ""Confirm"" in Mark all as read dialog (#734)",CrowderSoup,https://api.github.com/repos/sindresorhus/refined-github/git/commits/8196bc88b9737404c26cb286aa439fa42bc015a0
+e6cc50f5eccb49d9bdc3cb6be491acee78aca236,Keep PR file in view after collapsing it (#748),bradzacher,https://api.github.com/repos/sindresorhus/refined-github/git/commits/e6cc50f5eccb49d9bdc3cb6be491acee78aca236
+63e3ca7a1d3487fe860cc8debbe39b4d073ea4db,Add shift+enter shortcut for adding a single PR comment (#751),fwextensions,https://api.github.com/repos/sindresorhus/refined-github/git/commits/63e3ca7a1d3487fe860cc8debbe39b4d073ea4db
+bacb4bcc7aaa7a0052b0b623d1b2fa794b03e339,Correct detection for Notifications and Repo pages (#749),gibfahn,https://api.github.com/repos/sindresorhus/refined-github/git/commits/bacb4bcc7aaa7a0052b0b623d1b2fa794b03e339
+e338b9ebf1ee4427406b6339a9509f9588984c89,Replace Gist links with embedded Gist (#820),donocode,https://api.github.com/repos/sindresorhus/refined-github/git/commits/e338b9ebf1ee4427406b6339a9509f9588984c89
+933258f658bad4895acf032edeb25ad8f4b3c390,Restore some comment toolbar buttons (#872),yakov116,https://api.github.com/repos/sindresorhus/refined-github/git/commits/933258f658bad4895acf032edeb25ad8f4b3c390
+d7768508c3919558daa6b2ccc5a15aa73d081551,"Fix broken link to ""lots"" ""more..."" in readme (#884)",sompylasar,https://api.github.com/repos/sindresorhus/refined-github/git/commits/d7768508c3919558daa6b2ccc5a15aa73d081551
+996f9866d67aa9533058e8520a513fa2e3b7faba,"Migrate from to-markdown to turndown (#895)
+
+* migrate from toMarkdown to TurndownService
+
+* fix duplicated name
+
+* uncomment markdown copy
+
+* Revert ""uncomment markdown copy""
+
+This reverts commit 95892fb0a30f2f386ef80e0d915b0fb0860882d8.",scttcper,https://api.github.com/repos/sindresorhus/refined-github/git/commits/996f9866d67aa9533058e8520a513fa2e3b7faba
+a0c0701df6735abef4f461cf141f8a9dd3fa9b24,"Optimize footer link color (#903)
+
+* optimize footer link color
+
+* Fix whitespace to tab",linhuiw,https://api.github.com/repos/sindresorhus/refined-github/git/commits/a0c0701df6735abef4f461cf141f8a9dd3fa9b24
+a523fb52eca699c23ad075f4b9fb9fe46333a7ea,Improve Refined GitHub options UX (#911),icetee,https://api.github.com/repos/sindresorhus/refined-github/git/commits/a523fb52eca699c23ad075f4b9fb9fe46333a7ea
+7aad28997cdd9d6627c6620e242a17308f259897,Add user gists link to profile (#898),leggsimon,https://api.github.com/repos/sindresorhus/refined-github/git/commits/7aad28997cdd9d6627c6620e242a17308f259897
+bc2cea9e6d4a66a540a43d1fb19f878deecef050,Fix conflict with ZenHub extension overlays (#945),nBerg,https://api.github.com/repos/sindresorhus/refined-github/git/commits/bc2cea9e6d4a66a540a43d1fb19f878deecef050
+50e22ab320a6290d6ed4d6133b37d2ef9b93b0e5,Don't show names for GitHub apps (#959),shroudedcode,https://api.github.com/repos/sindresorhus/refined-github/git/commits/50e22ab320a6290d6ed4d6133b37d2ef9b93b0e5
+b6687bea0b4a16cddd580a9254cbdb7e76d34c83,Add upload button to the issue creation page (#976),Ricardo-Silva91,https://api.github.com/repos/sindresorhus/refined-github/git/commits/b6687bea0b4a16cddd580a9254cbdb7e76d34c83
+6eca55fdaaefa6f8fe682f962caf033d9207ce46,Allow tooltips for team mentions (#1002),Spea,https://api.github.com/repos/sindresorhus/refined-github/git/commits/6eca55fdaaefa6f8fe682f962caf033d9207ce46
+09041df0cba07b115bd0de437540bda271e6efb7,Use utc-version to generate manifest version (#1021),LinusU,https://api.github.com/repos/sindresorhus/refined-github/git/commits/09041df0cba07b115bd0de437540bda271e6efb7
+4f6de53359476927d22d21faa791ea4a9a0421ad,Show all PR status items instead of just 5 (#1007),dylang,https://api.github.com/repos/sindresorhus/refined-github/git/commits/4f6de53359476927d22d21faa791ea4a9a0421ad
+8f25482c6f13022d439a36c772e6ab90e4ea19aa,Avoid duplicate Download Folder buttons (#1025),lxynox,https://api.github.com/repos/sindresorhus/refined-github/git/commits/8f25482c6f13022d439a36c772e6ab90e4ea19aa
+1cb7e1d2ba952b511e70e02d9f1ae4296c381c12,Fix dropdowns backdrop z-index issues (#1044),Anenth,https://api.github.com/repos/sindresorhus/refined-github/git/commits/1cb7e1d2ba952b511e70e02d9f1ae4296c381c12
+e54b08875367e792a69a9677d8c083bcf8fb356f,Add monospace textareas feature (#1089),jamiebuilds,https://api.github.com/repos/sindresorhus/refined-github/git/commits/e54b08875367e792a69a9677d8c083bcf8fb356f
+9356e51d3a0629a2f9a47a941acaed7ab666e5f2,Automatically close modals when they’re no longer visible (#1014),tom-sherman,https://api.github.com/repos/sindresorhus/refined-github/git/commits/9356e51d3a0629a2f9a47a941acaed7ab666e5f2
+7d81d68153c6ce72baaf7eed998a7b0867350ef7,Enable toggleAllThingsWithAlt on all commits (#1042),brunolemos,https://api.github.com/repos/sindresorhus/refined-github/git/commits/7d81d68153c6ce72baaf7eed998a7b0867350ef7
+f5f9efd9ac5de4b831838a295b37007262a6bb32,"Fix `userWasNotified` flag not being set (#1148)
+
+* Fix `userWasNotified` flag not being set
+
+See #1147.
+
+The tab keeps opening for me, and I believe the previous call to the `set` method was incorrect.
+
+Refs: 
+https://developer.chrome.com/extensions/storage#method-StorageArea-set
+https://developer.mozilla.org/en-US/Add-ons/WebExtensions/API/storage/StorageArea/set
+
+* Prevent reopening one last time for firefox users
+
+* Also avoid for Chrome users that already got the message",simonkberg,https://api.github.com/repos/sindresorhus/refined-github/git/commits/f5f9efd9ac5de4b831838a295b37007262a6bb32
+81b108a7b6ca44aaca53d453785f68cbfd79579f,Highlight permalinked comments (#1165),salmanulfarzy,https://api.github.com/repos/sindresorhus/refined-github/git/commits/81b108a7b6ca44aaca53d453785f68cbfd79579f
+5034b6e498c4d0d920999d8911560b4307308c49,Fix full name on GH Enterprise if it requires auth (#1204),tallen1983,https://api.github.com/repos/sindresorhus/refined-github/git/commits/5034b6e498c4d0d920999d8911560b4307308c49
+7e3670b093f54e21ffd99ca0885766eb08f8d1eb,"Hide inactive deployments (#1149)
+
+* Hide inactive deployments (closes #1144)
+
+* Fix lint
+
+* Refresh on AJAX reload
+
+* Avoid observer loops
+
+* Improve observer again
+
+* Small fix
+
+* Fix attribute
+
+* Fix requested changes
+
+* Lint: start comment with lowercase char
+
+* Fix requested changes
+
+* Fix mistake in last commit
+
+* Requested changes",fxedel,https://api.github.com/repos/sindresorhus/refined-github/git/commits/7e3670b093f54e21ffd99ca0885766eb08f8d1eb
+c9c7c5cb087b93a3634fbabae4590fca1de24447,Fix alignment of CI icon (#1235),brandon93s,https://api.github.com/repos/sindresorhus/refined-github/git/commits/c9c7c5cb087b93a3634fbabae4590fca1de24447
+1e2428126e1e4eabe4e822eac6f2efd9263f02cc,Add hotkey to open selected notification in new tab (#1240),Maxscores,https://api.github.com/repos/sindresorhus/refined-github/git/commits/1e2428126e1e4eabe4e822eac6f2efd9263f02cc
+116482fe779a4f9d85c91d76d8e900d109ea8e24,Fix upload button on comment textareas (#1262),notlmn,https://api.github.com/repos/sindresorhus/refined-github/git/commits/116482fe779a4f9d85c91d76d8e900d109ea8e24
+4cfd57126692e23652bedf9104f2964b0b27e5c1,Avoid showing related issues when the issue title is empty (#1281),marcobeltempo,https://api.github.com/repos/sindresorhus/refined-github/git/commits/4cfd57126692e23652bedf9104f2964b0b27e5c1
+485488a3e886a29598948b75e399ef32860b7c0c,Open selection in new [background] tab with shift+o (#1284),vanniktech,https://api.github.com/repos/sindresorhus/refined-github/git/commits/485488a3e886a29598948b75e399ef32860b7c0c
+c88fb35916ffaf0201c7777de96188a8c99181fc,Correct issue label CSS class (#1287),cmfcmf,https://api.github.com/repos/sindresorhus/refined-github/git/commits/c88fb35916ffaf0201c7777de96188a8c99181fc
+dd8760bf324c665088790df8be37a647882a0d88,"📌Sticky Issues Header (#1311)
+
+* Make issues header sticky
+
+* Added link to gif of feature in README",tommoor,https://api.github.com/repos/sindresorhus/refined-github/git/commits/dd8760bf324c665088790df8be37a647882a0d88
+b7b631181ac34cd4da7777b467ce3dc4d036ad03,Avoid issue list header overlap (#1320),hubertgrzeskowiak,https://api.github.com/repos/sindresorhus/refined-github/git/commits/b7b631181ac34cd4da7777b467ce3dc4d036ad03
+bfe94540854dd33305f9a43882925c8c562e51ba,Restore copy buttons (#1282),tongrhj,https://api.github.com/repos/sindresorhus/refined-github/git/commits/bfe94540854dd33305f9a43882925c8c562e51ba
+eaa839ebb7cfa0c05887c0cf3c103f74abe2a95f,Add keyboard shortcuts for Pull Request tabs (#1167),stivaugoin,https://api.github.com/repos/sindresorhus/refined-github/git/commits/eaa839ebb7cfa0c05887c0cf3c103f74abe2a95f
+0bd88cf3a65a440de2b9cc24ab2e14936e15f0ee,Add tooltip to Upload Attachments button (#1326),sivaraam,https://api.github.com/repos/sindresorhus/refined-github/git/commits/0bd88cf3a65a440de2b9cc24ab2e14936e15f0ee
+334ad8ea2393fd062ea6ee0effd01e93bb68596a,"Hide the ""Review Summary"" header (#1333)",filipekiss,https://api.github.com/repos/sindresorhus/refined-github/git/commits/334ad8ea2393fd062ea6ee0effd01e93bb68596a
+744e99a5912ec263d187627c692a6465034d6a60,Use the pull request description as the commit message when merging with `Squash and merge` (#1312),xiaoling,https://api.github.com/repos/sindresorhus/refined-github/git/commits/744e99a5912ec263d187627c692a6465034d6a60
+e4d8dd246a5a6330bb89cd69ccfa01ec202e5da0,Lock review buttons after clicking (#1306),rdev,https://api.github.com/repos/sindresorhus/refined-github/git/commits/e4d8dd246a5a6330bb89cd69ccfa01ec202e5da0
+9bf8f30390259c82d0984f9d6d98ae5bd33aae63,Mention hide-useless-newsfeed-events in the readme (#1337),darkred,https://api.github.com/repos/sindresorhus/refined-github/git/commits/9bf8f30390259c82d0984f9d6d98ae5bd33aae63
+2e4192390b97d1159b548662f6ff9124d2a1fc79,Disable referrer for linkified URLs (#1380),gwarser,https://api.github.com/repos/sindresorhus/refined-github/git/commits/2e4192390b97d1159b548662f6ff9124d2a1fc79
+42b4759e489a78936c17bff3607b9bb9568f2c6c,Add support for personal access tokens (#1375),saulcosta,https://api.github.com/repos/sindresorhus/refined-github/git/commits/42b4759e489a78936c17bff3607b9bb9568f2c6c
+e2d35e5a1fae500a962b91fe647fbfcc54ed37cc,"Add delete button to files in a PR  (#1398)
+
+Co-authored-by: Federico Brigante <github@bfred.it>",meloncatty,https://api.github.com/repos/sindresorhus/refined-github/git/commits/e2d35e5a1fae500a962b91fe647fbfcc54ed37cc
+c5f24be8953c7ebe44f132ad8fe086ef2f8f21f9,Copy Prev/Next buttons to bottom of commit page (#1389),bryan-ash,https://api.github.com/repos/sindresorhus/refined-github/git/commits/c5f24be8953c7ebe44f132ad8fe086ef2f8f21f9
+9cb2e33c95e466e3b100799ec519d4fab4e99ecf,"Show followers you know (#1393)
+
+Co-authored-by: Federico Brigante <github@bfred.it>",Hermanya,https://api.github.com/repos/sindresorhus/refined-github/git/commits/9cb2e33c95e466e3b100799ec519d4fab4e99ecf
+c9746fabb3790a8375e8c5292f64f18a0ae5bc26,"Remove comma from release number (#1414)
+
+Remove the comma from releases number as it blocks reading of the release number by 'Number' class and results in showing 'NaN'.",aslafy-z,https://api.github.com/repos/sindresorhus/refined-github/git/commits/c9746fabb3790a8375e8c5292f64f18a0ae5bc26
+12e69507d334c2c39ef20d5293cdd22d645dab03,Disable browser autocomplete for issue/PR search (#1430),Phrynobatrachus,https://api.github.com/repos/sindresorhus/refined-github/git/commits/12e69507d334c2c39ef20d5293cdd22d645dab03
+f5b110a176712c15b1638218b65f8a23a7f313b4,"Linkify commit SHA on PR commit page (#1429)
+
+Resolves #1053 
+
+For example, [this PR commit page](https://github.com/sindresorhus/refined-github/pull/1045/commits/b7137144f3df9a77f80c78ca63bf43322b2cf621) now links to the [""raw"" commit page](https://github.com/sindresorhus/refined-github/commit/b7137144f3df9a77f80c78ca63bf43322b2cf621).",borekb,https://api.github.com/repos/sindresorhus/refined-github/git/commits/f5b110a176712c15b1638218b65f8a23a7f313b4
+d773874c4c967b750928d7ad197fb91a822bf504,Do not remove diff signs from DOM unless GitHub feature is not supported (#1451),KattMingMing,https://api.github.com/repos/sindresorhus/refined-github/git/commits/d773874c4c967b750928d7ad197fb91a822bf504
+d30ca07df2945e0ab874ec82bdc52bfab6a51655,"Remove your repositories link in dropdown (#1460)
+
+This has been implemented by GitHub as reported in #1446.",vinkla,https://api.github.com/repos/sindresorhus/refined-github/git/commits/d30ca07df2945e0ab874ec82bdc52bfab6a51655
+2fd6b5c540202c1d29823258502962d998f80a78,"Fix reactions avatars for bots (#1480)
+
+Because when a bot reacts to a message, the avatar's url is not valid.
+
+**Before:**
+
+Invalid url `https://github.com/dependabot[bot].png?size=22.000000476837158` is called:
+
+![chrome_2018-08-18_20-28-53](https://user-images.githubusercontent.com/2103975/44302373-aad5f200-a327-11e8-89bd-2574570f5c58.png)
+
+**After:**
+
+Valid url `https://github.com/dependabot.png?size=22.000000476837158` is called:
+
+![chrome_2018-08-18_20-44-44](https://user-images.githubusercontent.com/2103975/44302375-ab6e8880-a327-11e8-9544-797932b3c61c.png)
+
+You can see a live example [here](https://github.com/Kocal/jsdoc-vuejs/pull/108).",Kocal,https://api.github.com/repos/sindresorhus/refined-github/git/commits/2fd6b5c540202c1d29823258502962d998f80a78
+9bb7db16a18b2a25c523175e89d57dc3e8ec043f,"Add ""Not reviewed by you"" filter (#1363)",dertieran,https://api.github.com/repos/sindresorhus/refined-github/git/commits/9bb7db16a18b2a25c523175e89d57dc3e8ec043f
+550a0199c409f12a7eeff9c62d41074b0fb0d97c,Set default repositories type to sources (#1440),dutiyesh,https://api.github.com/repos/sindresorhus/refined-github/git/commits/550a0199c409f12a7eeff9c62d41074b0fb0d97c
+48d58d731e371462c053256a38abd9cf08681420,"Add lock for private orgs on own profile (#1490)
+
+Co-authored-by: Sindre Sorhus <sindresorhus@gmail.com>",momothereal,https://api.github.com/repos/sindresorhus/refined-github/git/commits/48d58d731e371462c053256a38abd9cf08681420
+746b1ee5b37a65b12b3fca476e117a2136310a55,Display link to repository after branch deletion (#1539),trzpiot,https://api.github.com/repos/sindresorhus/refined-github/git/commits/746b1ee5b37a65b12b3fca476e117a2136310a55
+f8abd1e5d7c9d3b45bf3f49e58244e01b22938ca,Fix default branch displaying as undefined on private repos (#1580),wsmd,https://api.github.com/repos/sindresorhus/refined-github/git/commits/f8abd1e5d7c9d3b45bf3f49e58244e01b22938ca
+0988baab51d713582075f9ec4e70d65dd63d0c9c,Add Sourcegraph to related extensions in the readme (#1583),nicksnyder,https://api.github.com/repos/sindresorhus/refined-github/git/commits/0988baab51d713582075f9ec4e70d65dd63d0c9c
+2e6a82520b2b03e4711bd5db31ac550d74086e5a,"Remove ""issue suggestions"" feature (#1611)",nesl247,https://api.github.com/repos/sindresorhus/refined-github/git/commits/2e6a82520b2b03e4711bd5db31ac550d74086e5a
+e50838acb793f3950d7e77c3961d81a03983a4a2,"Do not cover up repo header buttons with ""recently pushed branches"" (#1513)",sqs,https://api.github.com/repos/sindresorhus/refined-github/git/commits/e50838acb793f3950d7e77c3961d81a03983a4a2
+62c5c868eb95ef529d7d635e4995e388a9e87afa,Restore files collapse button on repository's browser file list (#1613),Glennmen,https://api.github.com/repos/sindresorhus/refined-github/git/commits/62c5c868eb95ef529d7d635e4995e388a9e87afa
+540d07b496fe4860e70ae3642ccabaf2859a44ce,Open all issues without selecting them (#1402),ahmadassaf,https://api.github.com/repos/sindresorhus/refined-github/git/commits/540d07b496fe4860e70ae3642ccabaf2859a44ce
+ded7debc4f828e4b4c507f86f55d53f698fb4ac0,Fix errors on repo search pages  (#1638),jerone,https://api.github.com/repos/sindresorhus/refined-github/git/commits/ded7debc4f828e4b4c507f86f55d53f698fb4ac0
+5791a3db164ce9d9006398559063d6b19306f159,"Always show ""Open repo notifications in new tabs"" (#1653)
+
+When there's only one notification for a given repository, the icon is not shown, which is understandable, but that forces the same action to be done via a Ctrl+click, or a right click to show the context menu and then ""Open in a new tab"".
+
+Both options are less convenient than the button provided by this feature, so this change simply removes the minimum of two notifications to show the ""open in new tabs"" icon.",waldyrious,https://api.github.com/repos/sindresorhus/refined-github/git/commits/5791a3db164ce9d9006398559063d6b19306f159
+6278541fdfe253104a94c1971b3e4f4bd8f5ddbb,Hide unstar button (#1649),karaggeorge,https://api.github.com/repos/sindresorhus/refined-github/git/commits/6278541fdfe253104a94c1971b3e4f4bd8f5ddbb
+9eb93b11e9a8c4bdc1ba19a91ec153fd1dc1af57,"Add ""star/unstar repo"" hotkey (#1612)",adamlacombe,https://api.github.com/repos/sindresorhus/refined-github/git/commits/9eb93b11e9a8c4bdc1ba19a91ec153fd1dc1af57
+bc49798292ca6b2957cece082cb6bb71c693585d,Add related extension to the readme (#1691),dzhavat,https://api.github.com/repos/sindresorhus/refined-github/git/commits/bc49798292ca6b2957cece082cb6bb71c693585d
+3737e091b697bf87f0ec4964eb726ab8eaf5ad10,Enable `batch-open-issues` on global /pulls and /issues pages (#1700),doms,https://api.github.com/repos/sindresorhus/refined-github/git/commits/3737e091b697bf87f0ec4964eb726ab8eaf5ad10
+d337fb7a2011fd1be6664d33e13a656ab59cceb1,Fix sticky-discussion-sidebar overlapping with the new sticky header (#1712),LeoColomb,https://api.github.com/repos/sindresorhus/refined-github/git/commits/d337fb7a2011fd1be6664d33e13a656ab59cceb1
+e384384cff60619a0edbbaf4b8fd68674d34eaad,"Bypass the checks tab for all PR validation types (#1693)
+
+Instead of just Travis",natemcmaster,https://api.github.com/repos/sindresorhus/refined-github/git/commits/e384384cff60619a0edbbaf4b8fd68674d34eaad
+bd70c6a20f451149d726dca339e8cac2a49f7fab,"Add co-authors when merging PRs with multiple committers (#1677)
+
+This PR automatically generates the Co-authored-by trailer from the people who've committed on the PR.
+
+Co-authored-by: Federico Brigante <github@bfred.it>",pento,https://api.github.com/repos/sindresorhus/refined-github/git/commits/bd70c6a20f451149d726dca339e8cac2a49f7fab
+d01f4d70daddbd03fa94e3d1b2009bf84ef6eee9,"Fix the `make-headers-sticky` feature (#1739)
+
+Fixes #1727",bttf,https://api.github.com/repos/sindresorhus/refined-github/git/commits/d01f4d70daddbd03fa94e3d1b2009bf84ef6eee9
+fca839d5dc001b86b3af9485bd74a542314f1394,Use less aggressive wording in `hide-useless-comments` (#1747),ishitatsuyuki,https://api.github.com/repos/sindresorhus/refined-github/git/commits/fca839d5dc001b86b3af9485bd74a542314f1394
+9f9d178aceae3d8771685f5a043f8dff10033453,Move to TypeScript (#1750),nickytonline,https://api.github.com/repos/sindresorhus/refined-github/git/commits/9f9d178aceae3d8771685f5a043f8dff10033453
+23e0512dda9979a0593577d0143d95a0fb1cacaa,"Drop feature `milestone-navigation` (#1769)
+
+Now part of GitHub",AnthonyLenglet,https://api.github.com/repos/sindresorhus/refined-github/git/commits/23e0512dda9979a0593577d0143d95a0fb1cacaa
+4d2acf3b4286f5665b2b972bb8a22973bc9e17a5,"Warn users when they attempt to create a PR from default branch (#1758)
+
+Co-authored-by: Federico Brigante <github@bfred.it>",alejandro-angulo,https://api.github.com/repos/sindresorhus/refined-github/git/commits/4d2acf3b4286f5665b2b972bb8a22973bc9e17a5
+681bf2c20a14e0212e0724ab1b8cd67784c3fa03,Highlight own issues and PRs in lists (#1782),connorbrathwaite,https://api.github.com/repos/sindresorhus/refined-github/git/commits/681bf2c20a14e0212e0724ab1b8cd67784c3fa03
+56a0749b40fee283fefd8dbcb1f36807a9b3dc4a,"Show warning when user attempts to disable PR edits (#1770)
+
+Co-authored-by: Federico Brigante <github@bfred.it>",CEOehis,https://api.github.com/repos/sindresorhus/refined-github/git/commits/56a0749b40fee283fefd8dbcb1f36807a9b3dc4a
+c6c72c4562ef42d4d94a9ab502aaa52c73ecd03e,Fix GitHub Enterprise GraphQL endpoint (#1812),dongs0104,https://api.github.com/repos/sindresorhus/refined-github/git/commits/c6c72c4562ef42d4d94a9ab502aaa52c73ecd03e
+eb18cf3e4563953e2dfb90566c7a39bb59963146,Reduce issue/PR filter button padding when `batch-open-issues` is active (#1833),FloEdelmann,https://api.github.com/repos/sindresorhus/refined-github/git/commits/eb18cf3e4563953e2dfb90566c7a39bb59963146
+5dba7e02740084c6a07ea9eff13e6744db9971cf,"Make tall code blocks and quotes scrollable (#1146)
+
+Co-authored-by: Federico Brigante <github@bfred.it>",arungalva,https://api.github.com/repos/sindresorhus/refined-github/git/commits/5dba7e02740084c6a07ea9eff13e6744db9971cf
+c00b1072c14747e1ebe9e7076e22368c250a7bea,Let users disable `hide-watch-and-fork-count` (#1858),DanSnow,https://api.github.com/repos/sindresorhus/refined-github/git/commits/c00b1072c14747e1ebe9e7076e22368c250a7bea
+c2046d6a4f417198e5965b21307505bb782005d0,Add `Commits` and `Branches` links to `More` dropdown (#1825),snowe2010,https://api.github.com/repos/sindresorhus/refined-github/git/commits/c2046d6a4f417198e5965b21307505bb782005d0
+16b3781aacc5bb5804211163803436c4e9ffbf30,"Resolve conflicts in a click (#1882)
+
+https://user-images.githubusercontent.com/1402241/54978791-45906080-4fdc-11e9-8fe1-45374f8ff636.png
+
+Co-authored-by: Federico Brigante <github@bfred.it>",farnabaz,https://api.github.com/repos/sindresorhus/refined-github/git/commits/16b3781aacc5bb5804211163803436c4e9ffbf30
+5dc25fdebf9cfd55af6d31f9cb4be3e6cc7ef408,Support `follow-file-renames` on GHE (v2.16.4) (#1913),simonkotwicz,https://api.github.com/repos/sindresorhus/refined-github/git/commits/5dc25fdebf9cfd55af6d31f9cb4be3e6cc7ef408
+4d293018f258ac9d51fd78bc6ff48da5ecdc274f,"Various fixes for `global-discussion-list-filters` feature (#1926)
+
+Co-authored-by: Federico Brigante <github@bfred.it>",mcornella,https://api.github.com/repos/sindresorhus/refined-github/git/commits/4d293018f258ac9d51fd78bc6ff48da5ecdc274f
+e858bd15ed9f2fa4687f2e7e3e1497c38cb50e12,Fix `show-names` (#1941),hardikmodha,https://api.github.com/repos/sindresorhus/refined-github/git/commits/e858bd15ed9f2fa4687f2e7e3e1497c38cb50e12
+5d7fee4e6866d44bda71eb78b3d7918ff5ecc403,"Add `remove-checks-tab` feature (#1929)
+
+Co-authored-by: Federico Brigante <github@bfred.it>",janat08,https://api.github.com/repos/sindresorhus/refined-github/git/commits/5d7fee4e6866d44bda71eb78b3d7918ff5ecc403
+fcd04077e5b96cf136edc860973e7cb6f103adee,Fix feature name in `edit-files-faster` (#1972),ATiltedTree,https://api.github.com/repos/sindresorhus/refined-github/git/commits/fcd04077e5b96cf136edc860973e7cb6f103adee
+1d4fd6a7a0f97f21d3aa6d19ac684eab0ed5c462,"Add `raw-file-link` feature (#1924)
+
+View raw version of files in PRs and commits
+https://user-images.githubusercontent.com/1402241/56484988-b99f2500-6504-11e9-9748-c944e1070cc8.png",idasbiste,https://api.github.com/repos/sindresorhus/refined-github/git/commits/1d4fd6a7a0f97f21d3aa6d19ac684eab0ed5c462
+e6b475f3c2426bc76a8c80fa088f2e1debaddcf8,"FIX Restore ""Open All"" on issues/PRs list (`batch-open-issues`) (#2015)",ScopeyNZ,https://api.github.com/repos/sindresorhus/refined-github/git/commits/e6b475f3c2426bc76a8c80fa088f2e1debaddcf8
+078f47d5885e04edbec57b320b21fc818cfe69f1,"Hide `link-to-file-in-file-history` where not needed (#2025)
+
+Co-authored-by: Federico Brigante <github@bfred.it>",dotconnor,https://api.github.com/repos/sindresorhus/refined-github/git/commits/078f47d5885e04edbec57b320b21fc818cfe69f1
+b042bf8cf4eeec6436e0cc1bbafcb732d6f71731,Fix formatting in `pull_request_template.md` (#2075),gavinhenderson,https://api.github.com/repos/sindresorhus/refined-github/git/commits/b042bf8cf4eeec6436e0cc1bbafcb732d6f71731
+44c3bf314b655b31e23ab36aeead8077a2a8bf93,Show drag and drop area on release page (#2086),lautis,https://api.github.com/repos/sindresorhus/refined-github/git/commits/44c3bf314b655b31e23ab36aeead8077a2a8bf93
+e24c5a64b6691da6f53fbacba6e21f3953d35b2b,Fix typo in `fix-hidden-comments` feature's ID (#2112),dshoreman,https://api.github.com/repos/sindresorhus/refined-github/git/commits/e24c5a64b6691da6f53fbacba6e21f3953d35b2b
+47f3c744b41f656489bea32870f43629398b7837,"Add `highest-rated-comment` feature (#2108)
+
+Co-authored-by: Federico Brigante <github@bfred.it>",lubien,https://api.github.com/repos/sindresorhus/refined-github/git/commits/47f3c744b41f656489bea32870f43629398b7837
+656fbfd5f9914a59f13ac474ce9ffac318704ad9,Fix `user-profile-follower-badge` feature (#2180),u3u,https://api.github.com/repos/sindresorhus/refined-github/git/commits/656fbfd5f9914a59f13ac474ce9ffac318704ad9
+99bd6b24e3ea3ec586f5c06e01c1d867bdbbd5d8,Fix missing `options.css` (#2220),sharkykh,https://api.github.com/repos/sindresorhus/refined-github/git/commits/99bd6b24e3ea3ec586f5c06e01c1d867bdbbd5d8
+079de3ce9882b6549ae4f3b25ea3ebdc6bcf69db,"Limit `recently-pushed-branches` improvements to certain pages (#2233)
+
+They should not apply to pages that use that widget centrally to the page",gurrrung,https://api.github.com/repos/sindresorhus/refined-github/git/commits/079de3ce9882b6549ae4f3b25ea3ebdc6bcf69db
+85a4d4107bd977e0a98efae71d82acada5e27c75,Highlight permalinked line in `view-markdown-source` (#2232),karlhorky,https://api.github.com/repos/sindresorhus/refined-github/git/commits/85a4d4107bd977e0a98efae71d82acada5e27c75
+4a03e4e8c29612c9e4aceefef70842cc3640e38e,Meta: Fix `npm audit` vulnerabilities (#2251),trivikr,https://api.github.com/repos/sindresorhus/refined-github/git/commits/4a03e4e8c29612c9e4aceefef70842cc3640e38e
+64c159a3412538c443ae60cb066aa7c42ced1de5,Add `hide-zero-packages` feature (#2301),doc-han,https://api.github.com/repos/sindresorhus/refined-github/git/commits/64c159a3412538c443ae60cb066aa7c42ced1de5
+738cc69254ed4fa3ba0840a5d42dadf9b9be00e3,Meta: Add `PR Monitor` to related projects (#2319),fwouts,https://api.github.com/repos/sindresorhus/refined-github/git/commits/738cc69254ed4fa3ba0840a5d42dadf9b9be00e3
+581f6d568ee7df210bf3e5e0ba07f77e9dfd827e,Make footer text readable when user hovers over it (#2323),kumarharsh,https://api.github.com/repos/sindresorhus/refined-github/git/commits/581f6d568ee7df210bf3e5e0ba07f77e9dfd827e
+4b3fff7b3548c3c1132fbc47b9baf70bb9cf2380,Avoid adding a duplicate “Update Branch” button (#2324),benmcgarvey,https://api.github.com/repos/sindresorhus/refined-github/git/commits/4b3fff7b3548c3c1132fbc47b9baf70bb9cf2380
+870a4727ab4f677cef5a5864b2ffb1377cc660be,"Add `hidden-review-comments-indicator` feature (#2320)
+
+Co-authored-by: Federico Brigante <github@bfred.it>",sidvishnoi,https://api.github.com/repos/sindresorhus/refined-github/git/commits/870a4727ab4f677cef5a5864b2ffb1377cc660be
+436405ede71c48095570e456faf9712c3859110f,"Fix `batch-open-issues` on glboal discussion list (#2343)
+
+* Fix `batch-open-issues` on glboal discussion list
+
+* Shorten",kidonng,https://api.github.com/repos/sindresorhus/refined-github/git/commits/436405ede71c48095570e456faf9712c3859110f
+964a6b06a0146e49ab6da0fcce98c7aaa768ee4d,Fix comment typo (#2377),jamesgeorge007,https://api.github.com/repos/sindresorhus/refined-github/git/commits/964a6b06a0146e49ab6da0fcce98c7aaa768ee4d
+5041571dfff465c355d0f22584bf2ed139130a6f,Add `reload-failed-proxied-images` feature (#2393),GramThanos,https://api.github.com/repos/sindresorhus/refined-github/git/commits/5041571dfff465c355d0f22584bf2ed139130a6f
+0d9bb014f9c27880387f171d9a30b24d5821cf64,Fix `profile-hotkey` (#2403),AuHau,https://api.github.com/repos/sindresorhus/refined-github/git/commits/0d9bb014f9c27880387f171d9a30b24d5821cf64
+84d0df7ef8a38afa0ab0011c1b674a8db45f0a8d,Consider more positive reactions in `highest-rated-comment` (#2387),CTrando,https://api.github.com/repos/sindresorhus/refined-github/git/commits/84d0df7ef8a38afa0ab0011c1b674a8db45f0a8d
+546ee4bdca550fdeb0885ba142b15e9644a8a343,"Cleanup mess around formatting/linkifying code (#2381)
+
+Co-authored-by: Federico Brigante <opensource@bfred.it>",SirWindfield,https://api.github.com/repos/sindresorhus/refined-github/git/commits/546ee4bdca550fdeb0885ba142b15e9644a8a343
+383beb09beab5d19044e6408383b75379d238e05,Fix `sync-pr-commit-title` (#2402),razh,https://api.github.com/repos/sindresorhus/refined-github/git/commits/383beb09beab5d19044e6408383b75379d238e05
+c7cf15838f35318ba1fd27c171234eba48d0f266,Fix errors in `open-all-notifications` (#2404),KubaJastrz,https://api.github.com/repos/sindresorhus/refined-github/git/commits/c7cf15838f35318ba1fd27c171234eba48d0f266
+04dfe9d7cb81cd9b88935a93ec69a40693ee8c36,Improve code selectability when `show-whitespace` is enabled (#2425),pipboy96,https://api.github.com/repos/sindresorhus/refined-github/git/commits/04dfe9d7cb81cd9b88935a93ec69a40693ee8c36
+a34981cb3f0a1cf833f6e8f9f9591427d8f96473,"Fix `widen-search-field` feature (#2437)
+
+Co-authored-by: Federico Brigante <opensource@bfred.it>",joak46,https://api.github.com/repos/sindresorhus/refined-github/git/commits/a34981cb3f0a1cf833f6e8f9f9591427d8f96473
+ba46f7610cd8e2dc8e30365fead437b42221ed95,"Add `expand-all-collapsed-code` feature (#2434)
+
+Co-Authored-By: Federico Brigante <github@bfred.it>",Tiramisu77,https://api.github.com/repos/sindresorhus/refined-github/git/commits/ba46f7610cd8e2dc8e30365fead437b42221ed95
+7139aeeade1488bad828bc07b490fc112543d95a,Add `link-to-prior-blame-line` feature (#2481),arnaudvalle,https://api.github.com/repos/sindresorhus/refined-github/git/commits/7139aeeade1488bad828bc07b490fc112543d95a
+18fafbae197286bd4eacf9555477520cff478743,"Add `conflict-marker` feature (#2310)
+
+Co-authored-by: Federico Brigante <opensource@bfred.it>",Esemesek,https://api.github.com/repos/sindresorhus/refined-github/git/commits/18fafbae197286bd4eacf9555477520cff478743
+8d556c5d9dc0f5471abddacfe84667dd72b1bb23,Allow PR merge-only bots in `dim-bots` (#2519),nmussy,https://api.github.com/repos/sindresorhus/refined-github/git/commits/8d556c5d9dc0f5471abddacfe84667dd72b1bb23
+f3953ecdcd885b4fdd7291cf2e408a4c72f84165,Meta: Add feature option search (#2514),Mottie,https://api.github.com/repos/sindresorhus/refined-github/git/commits/f3953ecdcd885b4fdd7291cf2e408a4c72f84165
+c4fae1470cc992803fb17c2d54f74d08141c0066,Pull Request details spacing fix (#2522),gaillota,https://api.github.com/repos/sindresorhus/refined-github/git/commits/c4fae1470cc992803fb17c2d54f74d08141c0066
+1cb674e2359e611f5496a06165e508e10cdafef8,Meta: Fix screenshot URL in `embed-gist-inline` (#2558),mobilutz,https://api.github.com/repos/sindresorhus/refined-github/git/commits/1cb674e2359e611f5496a06165e508e10cdafef8
+fc2ef2d82c282daa0ebd57d641e992540ef87913,Add `easier-pr-sha-copy` feature (#2562),maxmclau,https://api.github.com/repos/sindresorhus/refined-github/git/commits/fc2ef2d82c282daa0ebd57d641e992540ef87913
+ebdfbe022c226265b2b8e2650058dcbcd87e9a66,"Add `emphasize-draft-pr-label` feature (#2551)
+
+Co-authored-by: Federico Brigante <github@bfred.it>",hikerpig,https://api.github.com/repos/sindresorhus/refined-github/git/commits/ebdfbe022c226265b2b8e2650058dcbcd87e9a66
+e9e014747f7ac52c09b6a93da284f0e4d55ca4e7,Disable `linkify-user-location` on own editable profile (#2584),romansp,https://api.github.com/repos/sindresorhus/refined-github/git/commits/e9e014747f7ac52c09b6a93da284f0e4d55ca4e7
+5d36fd350624c67ec3c2dcdeb3c2950838d7b2b1,"Add support for namespaced branches to`fix-view-file-link-in-pr`(#2595)
+
+Co-authored-by: Federico Brigante <github@bfred.it>",tejanium,https://api.github.com/repos/sindresorhus/refined-github/git/commits/5d36fd350624c67ec3c2dcdeb3c2950838d7b2b1
+585a5886c86ff1986a62c1b537126e70ab9ec1f0,Fix `z-index` bug caused by `sticky-discussion-sidebar` (#2598),yohanneshabte,https://api.github.com/repos/sindresorhus/refined-github/git/commits/585a5886c86ff1986a62c1b537126e70ab9ec1f0
+658282ef23778b310d3f3a5e844d9cdaf152faec,"Remove `add-co-authored-by` feature (#2665)
+
+... as it was introduced by GitHub: https://github.blog/changelog/2019-12-19-improved-attribution-when-squashing-commits/",casz,https://api.github.com/repos/sindresorhus/refined-github/git/commits/658282ef23778b310d3f3a5e844d9cdaf152faec
+eca2edfb4cc9ab68682aa438ce9bd61258100863,Enable `parse-backticks` on commit titles on more pages (#2653),samuelmeuli,https://api.github.com/repos/sindresorhus/refined-github/git/commits/eca2edfb4cc9ab68682aa438ce9bd61258100863
+445a4538723c76c22ed0cf8f958bb4b1ce6a6494,"Add space between `ci-link` and ""Private"" label (#2682)",jonheslop,https://api.github.com/repos/sindresorhus/refined-github/git/commits/445a4538723c76c22ed0cf8f958bb4b1ce6a6494
+0d1212624ec1d1bd3a29622d156f1bd1faa90dfa,Improve compatibility of `show-whitespace` with GitHub Dark (#2688),silverwind,https://api.github.com/repos/sindresorhus/refined-github/git/commits/0d1212624ec1d1bd3a29622d156f1bd1faa90dfa
+82a831900c3f8f7b1575032f1bc531ad7676af7e,Fix PR link spacing issue caused by `latest-tag-button` (#2718),metasir,https://api.github.com/repos/sindresorhus/refined-github/git/commits/82a831900c3f8f7b1575032f1bc531ad7676af7e
+f53038c62e227b5f18a3fabd60b9eebe5be5e712,Fix wrong file path in CODEOWNERS (#2734),stefanbuck,https://api.github.com/repos/sindresorhus/refined-github/git/commits/f53038c62e227b5f18a3fabd60b9eebe5be5e712
+2d6a02171afb44c8769997b78577ca35fa4d458b,Avoid duplicate `comments-time-machine-links` in dropdown (#2736),bblommers,https://api.github.com/repos/sindresorhus/refined-github/git/commits/2d6a02171afb44c8769997b78577ca35fa4d458b
+7903a0416b2d27468eaff76486c7a9c616d8ceb2,Reword tooltip in `forked-to` links (#2760),Kinrany,https://api.github.com/repos/sindresorhus/refined-github/git/commits/7903a0416b2d27468eaff76486c7a9c616d8ceb2
+b59513ef11b407d9e6a7b97a6f8cfef02a9d6817,"Add `extend-discussion-status-filters` feature (#2745)
+
+Co-authored-by: Federico Brigante <opensource@bfred.it>",KarlHeitmann,https://api.github.com/repos/sindresorhus/refined-github/git/commits/b59513ef11b407d9e6a7b97a6f8cfef02a9d6817
+08da27ce135a5e1035b35eb67d8608ffd4b48e32,Mention Edge install method in the readme,zanza00,https://api.github.com/repos/sindresorhus/refined-github/git/commits/08da27ce135a5e1035b35eb67d8608ffd4b48e32
+01bfaef2cf32b3234221cebe80164bb04f573109,Improve settings in dark mode in Firefox (#2794),golota60,https://api.github.com/repos/sindresorhus/refined-github/git/commits/01bfaef2cf32b3234221cebe80164bb04f573109
+7a0bc0db1338b79cf500ffcd9a17f004d28b26d3,Update `sync-pr-commit-title`’s description (#2804),dbjorge,https://api.github.com/repos/sindresorhus/refined-github/git/commits/7a0bc0db1338b79cf500ffcd9a17f004d28b26d3
+f366fe7a9475e10561a4d9ae38e3b06f849369de,Revert usage of `@me` search keyword to restore GHE support (#2819),paschdan,https://api.github.com/repos/sindresorhus/refined-github/git/commits/f366fe7a9475e10561a4d9ae38e3b06f849369de
