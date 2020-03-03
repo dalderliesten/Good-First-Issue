@@ -1,0 +1,222 @@
+First Commit Hash (SHA),Commit Message,Author (Github Name),Link to Commit
+8a2380e7de3a083a4e453e7f46f29d9d10f44d43,initial commit,daneden,https://api.github.com/repos/daneden/animate.css/git/commits/8a2380e7de3a083a4e453e7f46f29d9d10f44d43
+a95540466a6e499ed403fa5d4f04cc27293aeb60,Add Opera support,suissa,https://api.github.com/repos/daneden/animate.css/git/commits/a95540466a6e499ed403fa5d4f04cc27293aeb60
+fe9fdb7958782862755722045b1c8d5e26b2c1f9,"ADDED: lightSpeedIn and lightSpeedOut animations.
+
+Signed-off-by: angelorohit <angelorohit@gmail.com>",angelorohit,https://api.github.com/repos/daneden/animate.css/git/commits/fe9fdb7958782862755722045b1c8d5e26b2c1f9
+db00a368ba84359cd96e70ec4ecdb7ccbc658627,"Added Missing Opera Animation
+
+bounceOutDown was missing Opera keyframes",elstgav,https://api.github.com/repos/daneden/animate.css/git/commits/db00a368ba84359cd96e70ec4ecdb7ccbc658627
+59e3a5535808d8176ec7dddb3a77a7204612c49f,Added a cheat sheet to the readme. Kinda silly but I found it useful. At least it's easy to copy/paste this to wherever the user wants it.,jeremyricketts,https://api.github.com/repos/daneden/animate.css/git/commits/59e3a5535808d8176ec7dddb3a77a7204612c49f
+cdc888022ba08f169ea49631709bfec12ecc3d9f,"changes syntax highlighting code to javascript
+
+jquery is not detected in syntax highlighting",aziz,https://api.github.com/repos/daneden/animate.css/git/commits/cdc888022ba08f169ea49631709bfec12ecc3d9f
+7a91caa3b259c7501cb2107ad2a4a420966d31d6,Add note for Mountain Lion Safari bug fix in Readme,danrodney,https://api.github.com/repos/daneden/animate.css/git/commits/7a91caa3b259c7501cb2107ad2a4a420966d31d6
+305ed52cdacb6e278185e403b87103f328cca7a8,BugFix on rotateOutUpLeft keyframes without vendor prefix,tzi,https://api.github.com/repos/daneden/animate.css/git/commits/305ed52cdacb6e278185e403b87103f328cca7a8
+baff813261ce030b96d6e689c6ddee1fd585de9d,"Fixed Flip in latest Chrome, FF and IE
+
+Fixed the Flip gliches in Chrome, but also improved it for the latest FF
+and IE
+
+Issue #80 is solved",gpetrov,https://api.github.com/repos/daneden/animate.css/git/commits/baff813261ce030b96d6e689c6ddee1fd585de9d
+915f8f61325c4c126869a52784f2a5768858d082,Added slide options to source.  Helpful for using with mobile navigational menus.,loganbfisher,https://api.github.com/repos/daneden/animate.css/git/commits/915f8f61325c4c126869a52784f2a5768858d082
+35d920dfc0f8f7183e07f6704812abf63bb532bf,"fix rotateOutUpLeft.css
+
+two too many -
+:)",tomByrer,https://api.github.com/repos/daneden/animate.css/git/commits/35d920dfc0f8f7183e07f6704812abf63bb532bf
+891005cbdbd43e7d0dfa87f699659138d5f3dce1,"Fix indentation in config file
+
+A mix of tabs and spaces was used, now the config file is indented using spaces only.",RadLikeWhoa,https://api.github.com/repos/daneden/animate.css/git/commits/891005cbdbd43e7d0dfa87f699659138d5f3dce1
+ddfed810b2173986e4fafc77c01cdd22b4994297,"Added the .json extension to .animate-config
+
+For the sake of syntax highlighting, as the content of .animate-config is valid JSON.",hnrch02,https://api.github.com/repos/daneden/animate.css/git/commits/ddfed810b2173986e4fafc77c01cdd22b4994297
+7a5732f3c828dc080eae004efdb0c6dbfa590c2d,sh code highlighing,IonicaBizau,https://api.github.com/repos/daneden/animate.css/git/commits/7a5732f3c828dc080eae004efdb0c6dbfa590c2d
+85e0ee212ba1cb37903296543f0dd01a84a1eefb,"Fixed bug in Chrome
+
+Fixed bug in Chrome where opacity is reverted back after 50%. (If I set an object to have 0 opacity then play the animation/apply the class, the object disappears when it is complete). This does not change the animation but prevents the bug from happening.",nicksahler,https://api.github.com/repos/daneden/animate.css/git/commits/85e0ee212ba1cb37903296543f0dd01a84a1eefb
+53f7cc8e96f00666dbc1cb93e1bd17fe87f1d6b3,Adding rubber band animation.,mrwillis21,https://api.github.com/repos/daneden/animate.css/git/commits/53f7cc8e96f00666dbc1cb93e1bd17fe87f1d6b3
+2b3de01f5cfbc0bdedd032bd797b4aa6a4f1fac0,"Use load-grunt-tasks
+
+to avoid multiple grunt.loadNpmTasks(plugin) statements",sarbbottam,https://api.github.com/repos/daneden/animate.css/git/commits/2b3de01f5cfbc0bdedd032bd797b4aa6a4f1fac0
+59e04a16fcceb06a53acb333ca008e9e063406f2,infinite iteration sugar,contra,https://api.github.com/repos/daneden/animate.css/git/commits/59e04a16fcceb06a53acb333ca008e9e063406f2
+a1fc850ea2022d257fc19e43c30f11484019f140,Added slideOutDown animation,iamsteadman,https://api.github.com/repos/daneden/animate.css/git/commits/a1fc850ea2022d257fc19e43c30f11484019f140
+a128680883c5044b1af62436c607ab3312f81c05,fixed slideInUp,brutaldesign,https://api.github.com/repos/daneden/animate.css/git/commits/a128680883c5044b1af62436c607ab3312f81c05
+79e575af1d72438872bb07cc6bca9bad7d93a8ba,add message to deter uncessary issues about one,taylorlapeyre,https://api.github.com/repos/daneden/animate.css/git/commits/79e575af1d72438872bb07cc6bca9bad7d93a8ba
+f9d129128284e1c7cd42c57352cf86552ea67711,Flipped flip. Fixes daneden/animate.css#214,jory,https://api.github.com/repos/daneden/animate.css/git/commits/f9d129128284e1c7cd42c57352cf86552ea67711
+c6bcc7a32b985dcaeb229db1b5023fc59327610f,Add spm support,sorrycc,https://api.github.com/repos/daneden/animate.css/git/commits/c6bcc7a32b985dcaeb229db1b5023fc59327610f
+24482ebb96394dc50748d7dfa17426f3d88c43f8,"Fix bower version
+
+Bump both package.json and bower.json to keep in sync",kmiyashiro,https://api.github.com/repos/daneden/animate.css/git/commits/24482ebb96394dc50748d7dfa17426f3d88c43f8
+3465158d470141c0b1aefd0d734d829e381bacda,Fixed typo error in rotateOutDownLeft. Fixes #246,yangshun,https://api.github.com/repos/daneden/animate.css/git/commits/3465158d470141c0b1aefd0d734d829e381bacda
+11b8b036b2e1f76a1baf29eae1a34ceb0db96726,"Added sliding entrances and exits
+
+Generic slideIn/Out animations for absolute elements",jonathanargentiero,https://api.github.com/repos/daneden/animate.css/git/commits/11b8b036b2e1f76a1baf29eae1a34ceb0db96726
+3532e9be5fc0c5fa9f25bf6b9b5f1ecb4e448391,"Tiny typo in animate-config.json
+
+The filenames are case-sensitive, right?
+
+Found the issue because I copied all the classNames from this file so that I could apply random animations in my JS.  The `""animationend""` callbacks failed once in a while - found it was because the `lightSpeedIn` and `lightSpeedOut` didn't have the same case in this file vs. in `animate.css`, so the CSS animations were never getting triggered, thus no `""animationend""` event..  Also, looking at the Gruntfile, and the `lightSpeedIn.css` and `lightSpeedOut.css` filenames, it looks like this file needs to be corrected anyway.  Hopefully this will help people avoid the bug I created, and also improve the build script.",colllin,https://api.github.com/repos/daneden/animate.css/git/commits/3532e9be5fc0c5fa9f25bf6b9b5f1ecb4e448391
+088f3b0e1dd725e10e167cfc73cf73c78c7bb7a2,"Update Bower version
+
+As suggested on Issue # 272",codex73,https://api.github.com/repos/daneden/animate.css/git/commits/088f3b0e1dd725e10e167cfc73cf73c78c7bb7a2
+e5df7f38c8a4e209baec9af84db4dc13ebd0caee,Fixed wrong format of the function's caption in readme,asleepwalker,https://api.github.com/repos/daneden/animate.css/git/commits/e5df7f38c8a4e209baec9af84db4dc13ebd0caee
+7645a7a0486a1af7643a50e1120f957313731a11,Add basic example to README,antonellaclavero,https://api.github.com/repos/daneden/animate.css/git/commits/7645a7a0486a1af7643a50e1120f957313731a11
+f35eab87fcc777c4f727e503d1861b1d238f86b3,Animate.css is missing the 'ignore' meta entry in bower.json (see: http://bower.io/docs/creating-packages/) and it generates a warning when installing with bower.  I've added a simple example of the ignore entry.,dereknutile,https://api.github.com/repos/daneden/animate.css/git/commits/f35eab87fcc777c4f727e503d1861b1d238f86b3
+f4758b5fead3601badee9ca4f343c09063c061cf,"Added youtube tutorial
+
+I created a tutorial on how to use Animate.css as I had many of my students asking - sharing here as it seems to be very popular and should be added to the documentation.",wesbos,https://api.github.com/repos/daneden/animate.css/git/commits/f4758b5fead3601badee9ca4f343c09063c061cf
+0a18237ed59d17138defe4447ef652e706b5e699,"Adding repository field
+
+So I stop seeing this in my console :-)
+
+> npm WARN package.json animate.css@3.1.1 No repository field.",kentcdodds,https://api.github.com/repos/daneden/animate.css/git/commits/0a18237ed59d17138defe4447ef652e706b5e699
+7672bd096a8ec66474f1fb0960020822298cb0cf,Update bower.json,rwson,https://api.github.com/repos/daneden/animate.css/git/commits/7672bd096a8ec66474f1fb0960020822298cb0cf
+93e1972fd1c0e3efa19c9c052efbd256bb4a09f9,"Update README.md
+
+one word correction",jub3i,https://api.github.com/repos/daneden/animate.css/git/commits/93e1972fd1c0e3efa19c9c052efbd256bb4a09f9
+b590759aa3ca6f63f72fd80a8aee1a3a12d04c24,bower: add a missing comma,jonathanong,https://api.github.com/repos/daneden/animate.css/git/commits/b590759aa3ca6f63f72fd80a8aee1a3a12d04c24
+3b7735b68979a0d74ca2302f14d456f8ff84c759,Fixed #293 -- animations should only run when the `animated` class is used.,frasern,https://api.github.com/repos/daneden/animate.css/git/commits/3b7735b68979a0d74ca2302f14d456f8ff84c759
+0f56570b87744a0ef615762d2f7a21134b6ea19b,Updated Autoprefixer to last 2 browser versions,eltonmesquita,https://api.github.com/repos/daneden/animate.css/git/commits/0f56570b87744a0ef615762d2f7a21134b6ea19b
+7be2defa15feb382d0584e327569ed54383d4a98,Use translate3d instead of translateY or translateX,thelinuxkid,https://api.github.com/repos/daneden/animate.css/git/commits/7be2defa15feb382d0584e327569ed54383d4a98
+534731f8f1e373bce52529a9e8f59e125b96db37,fix transition-timing-functions to animation-timing-functions,zvuc,https://api.github.com/repos/daneden/animate.css/git/commits/534731f8f1e373bce52529a9e8f59e125b96db37
+0826f3db7d669700cda70156a761b89339e87423,"added jello to the grunt setup and json, and changed readme",procodeing,https://api.github.com/repos/daneden/animate.css/git/commits/0826f3db7d669700cda70156a761b89339e87423
+f5cd5d0dd7c39009a0990fc21d91d723dca5f623,"Remove moot `version` property from bower.json
+
+Per bower/bower.json-spec@a325da3",kkirsche,https://api.github.com/repos/daneden/animate.css/git/commits/f5cd5d0dd7c39009a0990fc21d91d723dca5f623
+6ec8b661683fd40c2d74f6d77d340b0fdafc5409,Adding support for jspm,peterpde,https://api.github.com/repos/daneden/animate.css/git/commits/6ec8b661683fd40c2d74f6d77d340b0fdafc5409
+57b629fd1c44a1b2962537a4e401219727af3654,"Added Github IO page link to the readme
+
+Added the link to the Github IO page where all the different animations can be seen to the readme.",ivovdgrift,https://api.github.com/repos/daneden/animate.css/git/commits/57b629fd1c44a1b2962537a4e401219727af3654
+5dea852f5641a69abf41c43b1d04a57091d4f62c,replaced 0% keyframes with 'from' keyword to sidestep compression issues with yui-compressor,mesge,https://api.github.com/repos/daneden/animate.css/git/commits/5dea852f5641a69abf41c43b1d04a57091d4f62c
+11d502c8e97dcdcaa7ae1f32e8b26e4234261dce,"Version bump, add license info, fix formatting
+
+- updated version field to 3.4.0,
+- added license information as requested by npm –
+npm WARN package.json animate.css@3.4.0 No license field.
+- added missing spaces in the jspm section",klapec,https://api.github.com/repos/daneden/animate.css/git/commits/11d502c8e97dcdcaa7ae1f32e8b26e4234261dce
+530e9c93b2fc2ade5b470cb5267e638942920916,"Updates bower file to correct ignore path for source
+
+It was ignoring ""src"" folder which has been changed to ""source"" so added
+source in bower ignores. Fix #455",anshulguleria,https://api.github.com/repos/daneden/animate.css/git/commits/530e9c93b2fc2ade5b470cb5267e638942920916
+73004d89e499913128d600f15081b0fd5b9c303f,New animation: headShake - An amazing animation for negative feedbacks,FelipeMartinin,https://api.github.com/repos/daneden/animate.css/git/commits/73004d89e499913128d600f15081b0fd5b9c303f
+4657bb3b16a365655c81b18468fe689ee3e9efef,adds the style definition to package.json,webbushka,https://api.github.com/repos/daneden/animate.css/git/commits/4657bb3b16a365655c81b18468fe689ee3e9efef
+17399c8e6d91274a2486ed99e583d207de354df5,"Add grunt-banner plugin
+
+Project URL: https://github.com/mattstyles/grunt-banner
+> Adds a simple banner to files",woneob,https://api.github.com/repos/daneden/animate.css/git/commits/17399c8e6d91274a2486ed99e583d207de354df5
+634a08300c12c46ebd30c3737a47d8f55b90ae30,"specify npm main field
+
+for use with requiring this package via something like webpack
+instead of having to do require('animate.css/animate.css')
+you should be able to just do require('animate.css')",esayemm,https://api.github.com/repos/daneden/animate.css/git/commits/634a08300c12c46ebd30c3737a47d8f55b90ae30
+e2dcbb4ae2f643cd41a075d799da3358972c7800,sass compilation hates this,orenmazor,https://api.github.com/repos/daneden/animate.css/git/commits/e2dcbb4ae2f643cd41a075d799da3358972c7800
+322b0b1fba116aeb52e544aaedbf42800f5898ad,Fix README.md,LubomirGeorgiev,https://api.github.com/repos/daneden/animate.css/git/commits/322b0b1fba116aeb52e544aaedbf42800f5898ad
+1906a370cf821fbc60248b689987c3e381ad8d55,LICENSE file added,ilmente,https://api.github.com/repos/daneden/animate.css/git/commits/1906a370cf821fbc60248b689987c3e381ad8d55
+7e4a22d0cf133f9d8682f0c4641d9da163d9fdc8,"Add a custom jQuery function in the README
+
+In addition to explaining how to use `addClass()` and `one('... animationend')`, it can be useful to provide a turnkey solution that adds this functionality to jQuery.",BenMorel,https://api.github.com/repos/daneden/animate.css/git/commits/7e4a22d0cf133f9d8682f0c4641d9da163d9fdc8
+f9ee1d48938b90a5d2d5350a9a1cd2026d3c6088,update version in css files,marcobiedermann,https://api.github.com/repos/daneden/animate.css/git/commits/f9ee1d48938b90a5d2d5350a9a1cd2026d3c6088
+2cce20d713dffa9a29964d7aae2a6692b193fef4,"Updated Readme.md
+
+added bower installation step into the docs",tahashahid,https://api.github.com/repos/daneden/animate.css/git/commits/2cce20d713dffa9a29964d7aae2a6692b193fef4
+ff2b13413ed010668749fe757fdb60a94048da48,bower.json: source dir removed from ignore,andreamaiolo,https://api.github.com/repos/daneden/animate.css/git/commits/ff2b13413ed010668749fe757fdb60a94048da48
+eebe8aac164395122a21a3f8bfba1c30097dcb44,"Remove double ""the"" from README.md",bbashy,https://api.github.com/repos/daneden/animate.css/git/commits/eebe8aac164395122a21a3f8bfba1c30097dcb44
+75768aaf76b808d2865dceeecdbf2e8db81d3de9,"Update README.md
+
+Add badge for Npm.",QuentinVaut,https://api.github.com/repos/daneden/animate.css/git/commits/75768aaf76b808d2865dceeecdbf2e8db81d3de9
+8db5360ca8942ad13d3f90a36b22f2f1f43b4dd6,Added hosted libraries into README.md,Hackzzila,https://api.github.com/repos/daneden/animate.css/git/commits/8db5360ca8942ad13d3f90a36b22f2f1f43b4dd6
+161fed24416b14f67123d0b63372bcde76658105,add npm installation to readme,zhouxinyong,https://api.github.com/repos/daneden/animate.css/git/commits/161fed24416b14f67123d0b63372bcde76658105
+b529d3ae592d758a6eba02e6b59c378b1acca5e3,Remove unnecessary jQuery selection,jabranr,https://api.github.com/repos/daneden/animate.css/git/commits/b529d3ae592d758a6eba02e6b59c378b1acca5e3
+7e8be119593b4c6a294832b2b7a44f3b86df42fb,updated CDN on the Readme.md,ElvinGarcia,https://api.github.com/repos/daneden/animate.css/git/commits/7e8be119593b4c6a294832b2b7a44f3b86df42fb
+6780e4ea2106ff800ed1b640a5391b79a668a32d,Fixed broken CDN link,anthonydelgado,https://api.github.com/repos/daneden/animate.css/git/commits/6780e4ea2106ff800ed1b640a5391b79a668a32d
+b33340675b63e9b5db5112802f01b5e3419caac2,Add more badge from David,WarenGonzagaOfficial,https://api.github.com/repos/daneden/animate.css/git/commits/b33340675b63e9b5db5112802f01b5e3419caac2
+3bb88789cf431a7227ab7c75ee18ee7a17bc498c,fix headings (#685),hootlex,https://api.github.com/repos/daneden/animate.css/git/commits/3bb88789cf431a7227ab7c75ee18ee7a17bc498c
+01d30f5ab6002fe5ab9892697376827e916d2ab1,Fix broken Markdown headings (#689),bryant1410,https://api.github.com/repos/daneden/animate.css/git/commits/01d30f5ab6002fe5ab9892697376827e916d2ab1
+ba5ca55c80274b8f187c8a1fc17fb71e2480f608,"fix a bug (#709)
+
+Resolve the problem after calling the animateCss() method can not continue to call other jQuery methods",mutoe,https://api.github.com/repos/daneden/animate.css/git/commits/ba5ca55c80274b8f187c8a1fc17fb71e2480f608
+23787fcc49aa127b81e19caa207eedb752ed0ce9,Made class list a Markdown table (#698),Nifled,https://api.github.com/repos/daneden/animate.css/git/commits/23787fcc49aa127b81e19caa207eedb752ed0ce9
+c420b285ceebb1e73a9b0865f97f19ffb52d6f3c,recommend using SRI hashes and `crossover` attributes (#647),Mithgol,https://api.github.com/repos/daneden/animate.css/git/commits/c420b285ceebb1e73a9b0865f97f19ffb52d6f3c
+0e98c3bac931d58ea7711d5eed970d72123780c8,Consistent spacing (#720),jshjohnson,https://api.github.com/repos/daneden/animate.css/git/commits/0e98c3bac931d58ea7711d5eed970d72123780c8
+41c3c05b7005f473557966d8cbda9dd6d064e9d8,Add jsDelivr links (#745),LukasDrgon,https://api.github.com/repos/daneden/animate.css/git/commits/41c3c05b7005f473557966d8cbda9dd6d064e9d8
+7451a9306b02880758825244f0eeb6d609f9afde,Readme file update for using columns on classes names. (#744),baladkb,https://api.github.com/repos/daneden/animate.css/git/commits/7451a9306b02880758825244f0eeb6d609f9afde
+ee39c11400e0022539bff7d37c7e41d25d603b48,"Edit autoprefixer browser options (#721)
+
+New browser options provide wider support for browsers.",lukasmatta,https://api.github.com/repos/daneden/animate.css/git/commits/ee39c11400e0022539bff7d37c7e41d25d603b48
+ff6509420d0f0addd9c777c1b2999be5b558bded,"Fixed Custom Builds  (#695)
+
+* Fixed Custom Builds in order accept partial builds using animate-config.json (bug in gulpfile)
+
+* Update gulpfile.js",vrescobar,https://api.github.com/repos/daneden/animate.css/git/commits/ff6509420d0f0addd9c777c1b2999be5b558bded
+3cbe9930c2714a23eef624e49b3bc977fbdf92bb,"Added callback for jQuery extension (#601)
+
+Added to the extension for JQuery, callback function.",kas-cor,https://api.github.com/repos/daneden/animate.css/git/commits/3cbe9930c2714a23eef624e49b3bc977fbdf92bb
+55c858f7d8bed5553373f36aace1ee86fcdcf500,Fix,lipis,https://api.github.com/repos/daneden/animate.css/git/commits/55c858f7d8bed5553373f36aace1ee86fcdcf500
+8dce1e03fd93a0d4736755aedca3308d94515e59,Add CDNJS version badge in readme (#643),PeterDaveHello,https://api.github.com/repos/daneden/animate.css/git/commits/8dce1e03fd93a0d4736755aedca3308d94515e59
+93cd6801f5394ce2452c1eb48831f6f02ff31d49,修改gitignore中的文件 (#773),zhufengpeixun,https://api.github.com/repos/daneden/animate.css/git/commits/93cd6801f5394ce2452c1eb48831f6f02ff31d49
+5bde475149fbd345fc665508a17f66a97fcfe94c,Update license year (#775),m1guelpf,https://api.github.com/repos/daneden/animate.css/git/commits/5bde475149fbd345fc665508a17f66a97fcfe94c
+5deb9f7b7440d194cce23d05846a4a26bc5f03f5,:smiley: Add hertBeat animation as a fix to issue #829,jamesgeorge007,https://api.github.com/repos/daneden/animate.css/git/commits/5deb9f7b7440d194cce23d05846a4a26bc5f03f5
+824484ed0349f5e94cf574ee0168d53687c1ab47,"Minor Updates and Small Fixes (#790)
+
+* Update the devDependencies
+
+* Update the gitignore file
+
+* Update the version of gulp
+
+* Fix the build error in the gulpfile script
+
+* Update node version testing for travis
+
+* Update the package.json
+
+* Fix some errors
+
+* Update the devdependencies
+
+* Re arrange the .gitignore
+
+* Update devdependency to the latest stable version
+
+* Add new line at the end of the file
+
+* Fix versioning error
+
+* Update DevDependencies
+
+* Update the version from 3.6.1 into 3.6.2
+
+* Add delays up to 5 seconds
+
+* Update the files from 3.6.1 into 3.6.2
+
+* Modify the documentation and add delay option",WarenGonzaga,https://api.github.com/repos/daneden/animate.css/git/commits/824484ed0349f5e94cf574ee0168d53687c1ab47
+f1853f76cfcad323c6363735b90545c812b0bbe9,Verbose opacity (#788),Calerme,https://api.github.com/repos/daneden/animate.css/git/commits/f1853f76cfcad323c6363735b90545c812b0bbe9
+611b8cc98b21983d5134a369aa4e2ef0b763b3ea,Fix Firefox flip bug (#805),gianjohansen,https://api.github.com/repos/daneden/animate.css/git/commits/611b8cc98b21983d5134a369aa4e2ef0b763b3ea
+940e4aef81edc26d3458480adcd475e51bd38df5,"Add support for prefers-reduced-motion media query (#832)
+
+Feat: add prefers-reduced-motion media query
+
+Improve accessibility by respecting the user's preference",marcysutton,https://api.github.com/repos/daneden/animate.css/git/commits/940e4aef81edc26d3458480adcd475e51bd38df5
+6c9bd328c5b73d39e8d3498eae2a0fac819d50a7,Update homepage field (#859),paulgv,https://api.github.com/repos/daneden/animate.css/git/commits/6c9bd328c5b73d39e8d3498eae2a0fac819d50a7
+6fa759b7c2db3f33ac648daa16d2a73f3cd922f2,add yarn (#865),ahmetozantekin,https://api.github.com/repos/daneden/animate.css/git/commits/6fa759b7c2db3f33ac648daa16d2a73f3cd922f2
+97000ac2708e44ced764420cb3d96610606b725d,Fix typo in README.md (#862),mattstrick,https://api.github.com/repos/daneden/animate.css/git/commits/97000ac2708e44ced764420cb3d96610606b725d
+c03507b793165bd62638a265fbef9decfee42413,"Turn off animations for print media query (#881)
+
+Resolves #856
+
+* Add a feature to turn off animations for printing as requested.
+* Add print media type
+* Update the builds",vyshakpadinjarote,https://api.github.com/repos/daneden/animate.css/git/commits/c03507b793165bd62638a265fbef9decfee42413
+0ca8f2dc7c74c9e76b93bc378dad8b1cc1590dad," Fixed the name of the function in README.md (#915)
+
+`animateCss` to `animateCSS` because that's what is used as an example after.",KonScyence,https://api.github.com/repos/daneden/animate.css/git/commits/0ca8f2dc7c74c9e76b93bc378dad8b1cc1590dad
+2649f6975963246c4e3268b370821e3c7ace7697,Update _base.css,shpuld,https://api.github.com/repos/daneden/animate.css/git/commits/2649f6975963246c4e3268b370821e3c7ace7697
+8d0c33aee6b1eeb0877e4fccd6acedf6bbbd464c,remove npm-shrinkwrap,fitztrev,https://api.github.com/repos/daneden/animate.css/git/commits/8d0c33aee6b1eeb0877e4fccd6acedf6bbbd464c
+ec3119d7ae06455394be62be5fd447e4319f25f0,HTTPS link to opensource.org/licenses/MIT (#943),coliff,https://api.github.com/repos/daneden/animate.css/git/commits/ec3119d7ae06455394be62be5fd447e4319f25f0
+d8f2204d3abe64779057e4929a5343c12b589bf8,"Remove `sudo npm` from instructions (#952)
+
+Running `npm` as root has a lot of disadvantages (ref: https://medium.com/@ExplosionPills/dont-use-sudo-with-npm-still-66e609f5f92). Modern versions of npm allow running tools from `node_modules/.bin` by calling `npx`.",gyoshev,https://api.github.com/repos/daneden/animate.css/git/commits/d8f2204d3abe64779057e4929a5343c12b589bf8
+44aac73b509d79739e7ea97b4facd8b2b525c273,"Add .delay-1s (#982)
+
+The .delay-1s is missing from the readme",shadoWalker89,https://api.github.com/repos/daneden/animate.css/git/commits/44aac73b509d79739e7ea97b4facd8b2b525c273

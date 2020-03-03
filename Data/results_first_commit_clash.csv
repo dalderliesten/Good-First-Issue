@@ -1,0 +1,46 @@
+First Commit Hash (SHA),Commit Message,Author (Github Name),Link to Commit
+85327183459eb7e0cebe8f6ba12d6ebb56efd2ac,Initial commit,Dreamacro,https://api.github.com/repos/Dreamacro/clash/git/commits/85327183459eb7e0cebe8f6ba12d6ebb56efd2ac
+88c7ccf74919311131d63a19746a68e85a0cf871,"Add: license scan report and status
+
+* Add license scan report and status
+
+Signed-off-by: fossabot <badges@fossa.io>
+
+* Improve: adjust indentation and position",fossabot,https://api.github.com/repos/Dreamacro/clash/git/commits/88c7ccf74919311131d63a19746a68e85a0cf871
+e863c66ad978a5bf5063ce2a0daf48ebb4e712ed,Fix: a typo error,beyondkmp,https://api.github.com/repos/Dreamacro/clash/git/commits/e863c66ad978a5bf5063ce2a0daf48ebb4e712ed
+f943f9284d0a25b8817bc1b35661ed673ebbdd5a,Chore: clean up Dockerfile,gruebel,https://api.github.com/repos/Dreamacro/clash/git/commits/f943f9284d0a25b8817bc1b35661ed673ebbdd5a
+bcba14e05e979f2d6140d6daaaf3d9bd705249ee,"Improve: add tls, sni options to socks5 outbound adapter",changx,https://api.github.com/repos/Dreamacro/clash/git/commits/bcba14e05e979f2d6140d6daaaf3d9bd705249ee
+afc4644dd1386eb2d17c7348eb6b377d84ad2a12,Feature: FreeBSD compatibility patch (#63),yurivict,https://api.github.com/repos/Dreamacro/clash/git/commits/afc4644dd1386eb2d17c7348eb6b377d84ad2a12
+551ab68c1ee7bdd8fd85d75c93b3068753d9003a,Fix: allow access to external-ui without authentication (#75),songchenwen,https://api.github.com/repos/Dreamacro/clash/git/commits/551ab68c1ee7bdd8fd85d75c93b3068753d9003a
+4e91118a0512a352a93b99b5bfd5b37668001dc6,"Feature: add freebsd release (#80)
+
+add freebsd support",shangzongyu,https://api.github.com/repos/Dreamacro/clash/git/commits/4e91118a0512a352a93b99b5bfd5b37668001dc6
+7768c5b933e080b787e7a83ba900c63a9f764538,Chore: add more platform release (#83),comzyh,https://api.github.com/repos/Dreamacro/clash/git/commits/7768c5b933e080b787e7a83ba900c63a9f764538
+7770e184303e39f556db963a141636450fe9865b,Chore: add GitBook link to README.md (#155),BirkhoffLee,https://api.github.com/repos/Dreamacro/clash/git/commits/7770e184303e39f556db963a141636450fe9865b
+49f8902961b35a32c0fab005778ee0cbb5ea020e,Fix: typo in initial config file (#166),weakish,https://api.github.com/repos/Dreamacro/clash/git/commits/49f8902961b35a32c0fab005778ee0cbb5ea020e
+0eccbb023c7bc7f426e1e5fd25632cca18e1a999,"Feature: make the selector proxies order as same as the order in the config file (#180)
+
+* make the proxies order the same as the order in config file
+
+* formatting & rename variable",ezksd,https://api.github.com/repos/Dreamacro/clash/git/commits/0eccbb023c7bc7f426e1e5fd25632cca18e1a999
+b5897544852dfb730e51c58896f76d5f4d016ce3,Chore: fix typo (#182),recall704,https://api.github.com/repos/Dreamacro/clash/git/commits/b5897544852dfb730e51c58896f76d5f4d016ce3
+a4b8e286db78d47ee8738790137693d34b039a9f,Fix: incorrect fake ip dns ttl (#187),Kr328,https://api.github.com/repos/Dreamacro/clash/git/commits/a4b8e286db78d47ee8738790137693d34b039a9f
+89168e6c969c466874c519287bd72f9e570a073d,Fix: DNS server not recreate correctly (#186),Fndroid,https://api.github.com/repos/Dreamacro/clash/git/commits/89168e6c969c466874c519287bd72f9e570a073d
+cba548114f0e52e57231542f4b431641747332c3,Fix: use original sequence for url-test group (#201),gaorocks,https://api.github.com/repos/Dreamacro/clash/git/commits/cba548114f0e52e57231542f4b431641747332c3
+aa3516ca2497c90db0f4a50926a9212a8dcbdf6f,Chore: use 'dns' for ALPN in tcp-tls nameserver (#209),Windendless,https://api.github.com/repos/Dreamacro/clash/git/commits/aa3516ca2497c90db0f4a50926a9212a8dcbdf6f
+1c792b46c9fdb110e742a83a846ef1f859b557fd,Feature: local socks5/http(s) auth (#216),popu125,https://api.github.com/repos/Dreamacro/clash/git/commits/1c792b46c9fdb110e742a83a846ef1f859b557fd
+183e776970c65a7a11a2852585a51265ddf97980,Chore: use lower case cipher format (#238),ruisiji,https://api.github.com/repos/Dreamacro/clash/git/commits/183e776970c65a7a11a2852585a51265ddf97980
+1fd8f690fea1d8bd4f858e44ee44f2d1c8b67b11,Fix(socks5): fully udp associate support (#233),xjasonlyu,https://api.github.com/repos/Dreamacro/clash/git/commits/1fd8f690fea1d8bd4f858e44ee44f2d1c8b67b11
+1702e7ddb47a1844de27b8a92e1436dde3733b8c,Chore(build): add mipsle-softfloat (#240),Leo-UofT,https://api.github.com/repos/Dreamacro/clash/git/commits/1702e7ddb47a1844de27b8a92e1436dde3733b8c
+b75da2c6d803ee05f633e069a079a23b8e426654,Fix: typo (#246),comwrg,https://api.github.com/repos/Dreamacro/clash/git/commits/b75da2c6d803ee05f633e069a079a23b8e426654
+b926f4cf09d6fc4a7983bf830628d9d70e769152,Feature: trace adapters when dialing (#170),cnwangjie,https://api.github.com/repos/Dreamacro/clash/git/commits/b926f4cf09d6fc4a7983bf830628d9d70e769152
+981501013194772dd77168ebd014a20aaf1a7734,"Fix: HTTP status code `100 Continue` support"" (#288)
+
+* Fix: HTTP Status Code `100 Continue` support
+
+* Style: code style adjustment",soarqin,https://api.github.com/repos/Dreamacro/clash/git/commits/981501013194772dd77168ebd014a20aaf1a7734
+461e0a68735ab1cf79f6f2160aa68eb2ff8402a5,Fix: UDP socks recreate behavior (#355),oasiscifr,https://api.github.com/repos/Dreamacro/clash/git/commits/461e0a68735ab1cf79f6f2160aa68eb2ff8402a5
+f4326daaa4b2ed3019a65e9594178b7dda71fa0f,Chore: code style improvements (#361),sosiska,https://api.github.com/repos/Dreamacro/clash/git/commits/f4326daaa4b2ed3019a65e9594178b7dda71fa0f
+0a3595414e2659756075b3fd1703336c0fcaff1e,Feature: can set specify config file path in cli (#360),Hephyr,https://api.github.com/repos/Dreamacro/clash/git/commits/0a3595414e2659756075b3fd1703336c0fcaff1e
+86d3d77a7f15f8dfc81f68add51cba4f84eb591e,Chore: increase DNS timeout (#464),soffchen,https://api.github.com/repos/Dreamacro/clash/git/commits/86d3d77a7f15f8dfc81f68add51cba4f84eb591e
+82c387e92b3a3ee546fa09ed4985c0c284d29727,Chore: fix typo (#490),jas0ncn,https://api.github.com/repos/Dreamacro/clash/git/commits/82c387e92b3a3ee546fa09ed4985c0c284d29727

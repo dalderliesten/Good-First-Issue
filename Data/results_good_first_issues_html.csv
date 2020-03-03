@@ -1,0 +1,215 @@
+Issue Description,Assignees to the Issue,Link
+"""determine the value of a named property"" should not imply a new object each time",,https://github.com/whatwg/html/issues/5266
+Change examples for datalist to something not gender,,https://github.com/whatwg/html/issues/5256
+Should frameset names be in a window's named properties?,,https://github.com/whatwg/html/issues/5230
+Small text error in 6.5.2 Data model,,https://github.com/whatwg/html/issues/5219
+Misprint in example code,,https://github.com/whatwg/html/issues/5119
+Document is now created after Window but we still have an XXX box,,https://github.com/whatwg/html/issues/5110
+Investigation requested for beforeprint/afterprint,,https://github.com/whatwg/html/issues/5096
+IDL of FormDataEvent constructor has an incorrect optionality,,https://github.com/whatwg/html/issues/5064
+marquee is display: inline-block by default,,https://github.com/whatwg/html/issues/5063
+Structured cloning of errors makes invalid assumptions about [[GetPrototypeOf]],,https://github.com/whatwg/html/issues/4991
+Remove all BigInt references,,https://github.com/whatwg/html/issues/4947
+"Typo: ""the URL andpixel density""",,https://github.com/whatwg/html/issues/4911
+"Immediate token handling and ""next token"" are incompatible",,https://github.com/whatwg/html/issues/4910
+"""A map, whose four keys are the strings ""connect...""",,https://github.com/whatwg/html/issues/4822
+clarification of value attribute on input type=image,,https://github.com/whatwg/html/issues/4815
+Plain Unicode string,,https://github.com/whatwg/html/issues/4798
+"Stop mapping hspace/vspace on <iframe>, since no browsers do that.",,https://github.com/whatwg/html/pull/4743
+"Inline ""creator referrer policy""",,https://github.com/whatwg/html/issues/4721
+"Table section elements (<tbody>, <thead>, <tfoot>) should have a height attribute that maps into style",,https://github.com/whatwg/html/issues/4718
+width attribute on <col> should allow 0 as a value,,https://github.com/whatwg/html/issues/4717
+height attribute on <tr> should allow 0 as a value,,https://github.com/whatwg/html/issues/4716
+width and height attributes on <table> should perhaps allow 0 as a value,,https://github.com/whatwg/html/issues/4715
+"""all the of the ways""",,https://github.com/whatwg/html/issues/4692
+inputmode=number should be inputmode=numeric,,https://github.com/whatwg/html/issues/4652
+Dispatching invalid at <form>,,https://github.com/whatwg/html/issues/4626
+Should script nomodule example include defer attribute?,,https://github.com/whatwg/html/issues/4595
+Event index: invalid event can be fired on the form element,,https://github.com/whatwg/html/issues/4570
+WebSocket close event object type — CloseEvent or Event?,,https://github.com/whatwg/html/issues/4568
+"add ""oncopy"", ""oncut"", ""onpaste"" attribute to list of event handler content attributes",,https://github.com/whatwg/html/issues/4564
+Example not simplified in Syntax -> Optional tags,,https://github.com/whatwg/html/issues/4540
+"Make ""as a download"" and ""obtaining a file name"" more explicit",,https://github.com/whatwg/html/issues/4518
+getContext() table cleanup,,https://github.com/whatwg/html/issues/4511
+"Update all ""queue a task"" invocations to explicitly specify their task source",,https://github.com/whatwg/html/issues/4506
+"The ""rules for updating the text track rendering"" are not run when mode changes from hidden to showing",,https://github.com/whatwg/html/issues/4486
+"""Fire a synthetic mouse event at this element"" for click() is underspecified",,https://github.com/whatwg/html/issues/4451
+"Create examples for ""is closing"" and ""disowned""",,https://github.com/whatwg/html/issues/4417
+No way to sanely determine a form control's disabled state,,https://github.com/whatwg/html/issues/4395
+"HTML spec has CSS rule that is arbitrary and doesn't match reality: table, td, th { border-color: gray; }",,https://github.com/whatwg/html/issues/4391
+[ARIA] and [HTMLAAM] links are broken,,https://github.com/whatwg/html/issues/4349
+Consider factoring out duplication in <link rel=preload>,,https://github.com/whatwg/html/issues/4341
+"""async — Execute script when available, without blocking""",,https://github.com/whatwg/html/issues/4171
+Wrong mention of attributes in audio element documentation,,https://github.com/whatwg/html/issues/4159
+Editorial: cleanup postMessage() invocation for dedicated workers,,https://github.com/whatwg/html/issues/4140
+"""Follows a hyperlink"" should consult noreferrer directly",,https://github.com/whatwg/html/issues/4111
+"""Hexademical character reference start state""",,https://github.com/whatwg/html/issues/4006
+"Extension "".mjs"" for both type=""module"" and ""nomodule"" might be confusing",,https://github.com/whatwg/html/issues/3942
+"Use ""isomorphic decode"" explicitly for Refresh headers",,https://github.com/whatwg/html/issues/3924
+Missing semicolon in enum list,,https://github.com/whatwg/html/issues/3903
+textarea's value IDL attribute doesn't need CEReactions,,https://github.com/whatwg/html/issues/3889
+"Unclear if error event from ""update the image data"" matches implementations",,https://github.com/whatwg/html/issues/3839
+"""but tick every 150ms"" in canvas example comment",,https://github.com/whatwg/html/issues/3825
+Put class=js on all <pre> elements in the spec that are JavaScript code examples,,https://github.com/whatwg/html/issues/3753
+"""Notify about rejected promises"" is missing a task source",,https://github.com/whatwg/html/issues/3731
+Reflecting string attributes when the attribute isn't present,,https://github.com/whatwg/html/issues/3722
+IDL attributes named required should have leading underscore,,https://github.com/whatwg/html/issues/3720
+Escaped characters in source,,https://github.com/whatwg/html/issues/3683
+Describe HTMLOptionsCollection's length tree mutation in terms of DOM,,https://github.com/whatwg/html/issues/3652
+"""Scroll to the fragment"" algorithm refers to obsolete argument",,https://github.com/whatwg/html/issues/3641
+Various algorithms should take an explicit document argument,,https://github.com/whatwg/html/issues/3638
+"<form method> description only says ""HTTP method""",,https://github.com/whatwg/html/issues/3568
+Separate out document.open() method declaration definitions,,https://github.com/whatwg/html/issues/3565
+createImageBitmap's note is wrong,,https://github.com/whatwg/html/issues/3552
+Types of `OffscreenCanvas.width` and `.height` needs to be annotated types,,https://github.com/whatwg/html/issues/3540
+"grammar glitch in ""digital fingerprint"" paragraph",,https://github.com/whatwg/html/issues/3503
+"What task is the end of ""Navigating to a fragment"" talking about?",,https://github.com/whatwg/html/issues/3491
+"<link>.as says default is the empty string, but we don't normally call out default values",,https://github.com/whatwg/html/issues/3489
+""" check the usability of the image argument""",,https://github.com/whatwg/html/issues/3441
+"Replace ""solid black"" with ""opaque black""",,https://github.com/whatwg/html/issues/3431
+Give <canvas>'s toDataURL() and toBlob() default parameter values,,https://github.com/whatwg/html/issues/3430
+"Replace ""identity transform"" with ""identity matrix""",,https://github.com/whatwg/html/issues/3426
+"<script> processing model should use child text content, not the text IDL attribute",,https://github.com/whatwg/html/issues/3420
+"Bad link to ""child text content change steps"" in ""The `style` element""",,https://github.com/whatwg/html/issues/3384
+Incorrect links in <meter> element IDL attribute definitions,,https://github.com/whatwg/html/issues/3356
+"""Content attributes"" descriptions are weird for fieldsets",,https://github.com/whatwg/html/issues/3335
+meta name comparison should be explicitly ASCII case-insensitive,,https://github.com/whatwg/html/issues/3332
+"@whatwg, can you produce a html cheetsheet?",,https://github.com/whatwg/html/issues/3296
+Specify behaviour for sessionStorage with opaque origins,,https://github.com/whatwg/html/issues/3283
+Seemingly contradictions in the srcset attribute guidelines for Images,,https://github.com/whatwg/html/issues/3250
+"""has""",,https://github.com/whatwg/html/issues/3206
+"""The miter length is the distance from the point...""",,https://github.com/whatwg/html/issues/3121
+"""Otherwise      Cut the line on which start fi...""",,https://github.com/whatwg/html/issues/3118
+Some media elements can indefinitely block the document's load event for no reason,,https://github.com/whatwg/html/issues/3065
+"""interface OffscreenCanvas : EventTarget {""",,https://github.com/whatwg/html/issues/3017
+Wrong typography on style element's style data,,https://github.com/whatwg/html/issues/2994
+"Path2D interface has two'Exposed extended attributes, each with different values.",,https://github.com/whatwg/html/issues/2978
+Link to <flag-icon> is broken.,,https://github.com/whatwg/html/issues/2977
+"""8.9 Animation Frames""",,https://github.com/whatwg/html/issues/2914
+Tweaks to the header,,https://github.com/whatwg/html/issues/2906
+"""defined in the auxclick specification""",,https://github.com/whatwg/html/issues/2889
+"Remove ""abort these steps"" wording",,https://github.com/whatwg/html/issues/2878
+"Remove ""onhide"" from obsolete attributes",,https://github.com/whatwg/html/issues/2860
+Small clarity improvements to canvas transform methods,,https://github.com/whatwg/html/issues/2848
+Dev edition: Disappears DOM tree lines on examples of section 1,,https://github.com/whatwg/html/issues/2821
+"DOM ""insertion steps""",,https://github.com/whatwg/html/issues/2771
+UAs may have somewhat more liberal handling of the dir attribute than the spec does,,https://github.com/whatwg/html/issues/2769
+Error in definition of forms' `elements` IDL attribute?,,https://github.com/whatwg/html/issues/2764
+"""The length attribute's getter must this DOMStri...""",,https://github.com/whatwg/html/issues/2736
+Should “Naming form controls” section include a warning about names overriding form properties?,,https://github.com/whatwg/html/issues/2720
+"Missing [] at Promise.all(), trailing comma following last createImageBitmap call",,https://github.com/whatwg/html/issues/2675
+noopener feature in window.open inconsistent with other boolean features,,https://github.com/whatwg/html/issues/2600
+Move owner set manipulation during document discarding,,https://github.com/whatwg/html/issues/2533
+"What does the definite article mean in the ""has focus steps""?",,https://github.com/whatwg/html/issues/2523
+"Confusing link for ""Latin Prose""",,https://github.com/whatwg/html/issues/2500
+contextmenu event uses Event interface on event index table,,https://github.com/whatwg/html/issues/2491
+Can the IDL return type of HTMLTableRowElement.insertCell be more narrowed?,,https://github.com/whatwg/html/issues/2487
+"Editorial: remove <span data-x=""""> elements enclosing <var>s",,https://github.com/whatwg/html/issues/2478
+"Event handler FunctionCreate uses an undefined variable ""global environment""",,https://github.com/whatwg/html/issues/2467
+innerText setter uses pointer + position instead of sticking with one variable name,,https://github.com/whatwg/html/issues/2446
+""" intializedzed""",,https://github.com/whatwg/html/issues/2430
+setRangeText one-argument form doesn't define what the selection mode should be,,https://github.com/whatwg/html/issues/2403
+Add window.clientInformation,,https://github.com/whatwg/html/issues/2379
+"Make spec state that <meta name> must not be use for any new features with UA processing requirements, and instead new attribute should be minted: <meta newfeature=value>",,https://github.com/whatwg/html/issues/2335
+"Xref ""image data"" in definition of img's origin",,https://github.com/whatwg/html/issues/2325
+"About the term ""top-level-browsing-context""",,https://github.com/whatwg/html/issues/2322
+"Remove ""global script clean-up jobs list""",,https://github.com/whatwg/html/issues/2309
+Clarify origin check in document.open(),,https://github.com/whatwg/html/issues/2282
+"""A 002E FULL STOP character (.)""",,https://github.com/whatwg/html/issues/2274
+"Reword usage of ""alphabetical""",,https://github.com/whatwg/html/issues/2266
+"""The clear method""",,https://github.com/whatwg/html/issues/2194
+"""process a navigate response"" redefines type",,https://github.com/whatwg/html/issues/2189
+"""when a select element does not have a sizes attribute""",,https://github.com/whatwg/html/issues/2178
+imageSmoothingQuality attribute description should mention valid values,,https://github.com/whatwg/html/issues/2147
+Extra space in imageSmoothingQuality description,,https://github.com/whatwg/html/issues/2146
+"Editorial: ""that whose"" is not English",,https://github.com/whatwg/html/issues/2138
+"Unbalanced quotes for location.protocol's setter: “ followed by :""”",,https://github.com/whatwg/html/issues/2117
+Window parent and top attributes should be nullable,,https://github.com/whatwg/html/issues/2115
+Comment validity condition (minor).,,https://github.com/whatwg/html/issues/2095
+What happens when setting the canvas width/height to an invalid value?,,https://github.com/whatwg/html/issues/2066
+"Link from the definition of <a>'s download attribute to ""downloading a hyperlink""",,https://github.com/whatwg/html/issues/1914
+"Remove ""Firing a simple event named e""",,https://github.com/whatwg/html/issues/1887
+More infinite/NaN handling for <canvas> API members,,https://github.com/whatwg/html/issues/1844
+Remove references to the WHATWG JavaScript Standard,,https://github.com/whatwg/html/issues/1660
+Should setting HTMLTableElement.caption throw?,,https://github.com/whatwg/html/issues/1582
+Form data set construction should convert names and values to USVStrings,,https://github.com/whatwg/html/issues/1490
+Constructing a form data set is incorrect for files,,https://github.com/whatwg/html/issues/1489
+Review on utilization of `w-nodev` annotation,,https://github.com/whatwg/html/issues/1488
+Typo in 7.2.1 Integration with IDL,,https://github.com/whatwg/html/issues/1439
+Ack Chris Wilson,,https://github.com/whatwg/html/issues/1434
+Improve the note on characters that need to be escaped in iframes' srcdoc,,https://github.com/whatwg/html/issues/1429
+typo?,,https://github.com/whatwg/html/issues/1390
+HTMLHyperlinkElementUtils set the url doesn't say what to do when the attribute is absent,,https://github.com/whatwg/html/issues/1340
+meta referrer as child of the the head element of a document,,https://github.com/whatwg/html/issues/1311
+Aggregate sections of IANA considerations,,https://github.com/whatwg/html/issues/1300
+"""hr[align=left]"" should be case-insensitive",,https://github.com/whatwg/html/issues/1258
+text/plain encoding algorithm steps refer to nonsensical entry,,https://github.com/whatwg/html/issues/1232
+Editorial: missing verb,,https://github.com/whatwg/html/issues/1214
+Change all spec citations to use the same style,,https://github.com/whatwg/html/issues/1156
+[INTERSECTIONOBSERVER] is 404.,,https://github.com/whatwg/html/issues/1146
+"Couple of unlinked ""reflect""s",,https://github.com/whatwg/html/issues/1112
+Editornal comments in section 2.2.2.,,https://github.com/whatwg/html/issues/1023
+"Add explicit section IDs to everything named ""processing model""",,https://github.com/whatwg/html/issues/1002
+"""get the current value of the event handler"" has backwards script-enabled check",,https://github.com/whatwg/html/issues/957
+Move https://images.whatwg.org/robots.jpeg into this repository,,https://github.com/whatwg/html/issues/955
+Script encoding fallback could be clarified,,https://github.com/whatwg/html/issues/904
+Define ImageBitmapSource in terms of CanvasImageSource,,https://github.com/whatwg/html/issues/893
+NavigatorLanguage::language doesn't need to be nullable.,,https://github.com/whatwg/html/issues/881
+"The rules for audio playback should apply to audio+video elements, not just audio elements",,https://github.com/whatwg/html/issues/860
+"""Content-Type/text/html"" should have backticks",,https://github.com/whatwg/html/issues/858
+WebSocket: move port restrictions move to Fetch,,https://github.com/whatwg/html/issues/841
+Stop using InterfaceName.attribute/method notation,,https://github.com/whatwg/html/issues/826
+"""Performing"" should be ""Perform""",,https://github.com/whatwg/html/issues/807
+Remove some styles from dialog::backdrop,,https://github.com/whatwg/html/issues/800
+The images /images/sample-bdi.png and /images/sample-not-bdi.png has no alt attribute,,https://github.com/whatwg/html/issues/750
+"Broken anchors  #refsSVG11, #refsSVGTiny12 and #refsSVG2",,https://github.com/whatwg/html/issues/749
+"event handler doesn't specify event listener's ""passive""",,https://github.com/whatwg/html/issues/729
+onerror and onunhandledrejection/onrejectionhandled could use some nice developer-friendly examples,,https://github.com/whatwg/html/issues/676
+"createPattern says it never returns null, but it can return null",,https://github.com/whatwg/html/issues/655
+Make the spec readable on small screens,,https://github.com/whatwg/html/issues/621
+Spellchecking default descriptions are misleading,,https://github.com/whatwg/html/issues/615
+Consider deprecation of secondary browser contexts,,https://github.com/whatwg/html/issues/582
+Add [SameObject] to all DOMTokenLists,,https://github.com/whatwg/html/issues/580
+Fix problems found by https://validator.w3.org/checklink,,https://github.com/whatwg/html/issues/573
+"Spec references missing for SVG11, SVGTiny12 and SVG2",,https://github.com/whatwg/html/issues/572
+"""If the element is a child of an ol element: value """,,https://github.com/whatwg/html/issues/535
+"""Authors are also cautioned that HTTP chunking c...""",,https://github.com/whatwg/html/issues/515
+Tweak .htaccess MIME types,,https://github.com/whatwg/html/issues/507
+Update W3C URLs to use HTTPS?,,https://github.com/whatwg/html/issues/502
+"""readonly attribute long length; """,,https://github.com/whatwg/html/issues/495
+"What's the difference between ""if the element has no src attribute specified"" and ""If the value of the src attribute is missing, or its value is the empty string""",,https://github.com/whatwg/html/issues/489
+Handling of url parsing errors in a.ping is undefined,,https://github.com/whatwg/html/issues/477
+"Split step 5.3 of ""Update the image data"" into multiple steps",,https://github.com/whatwg/html/issues/471
+time element content model contains contradiction v. body text,,https://github.com/whatwg/html/issues/426
+error event on <source> missing in media event summary,,https://github.com/whatwg/html/issues/420
+"""4.8.13.16 Event summary"" missing events for <track>",,https://github.com/whatwg/html/issues/392
+"""fully active"" needs to be conditional on a document having a browsing context",,https://github.com/whatwg/html/issues/388
+"""for labeling ship names in Western texts, the i...""",,https://github.com/whatwg/html/issues/375
+Mark tfoot before tbody as obsolete but conforming feature,,https://github.com/whatwg/html/issues/352
+navigator.javaEnabled spec does not match implementations,,https://github.com/whatwg/html/issues/348
+Setting scrollRestoration let's one to affect to scrollRestoration of pages from different origin,,https://github.com/whatwg/html/issues/347
+Remove input[type=datetime],,https://github.com/whatwg/html/issues/336
+"Typo in the note after ""reconstruct the active formatting elements"" algorithm",,https://github.com/whatwg/html/issues/318
+Step 2 of Resource Fetch Algorithm for media elements is backwards,,https://github.com/whatwg/html/issues/316
+"""current URL"" should probably be changed to ""document's address""",,https://github.com/whatwg/html/issues/306
+"""the return value converted to a string value""",,https://github.com/whatwg/html/issues/301
+What to do when WebSocket.send() recieves data that is always too large?,,https://github.com/whatwg/html/issues/296
+"Change ""invalid value default"" for the <track kind> attribute",,https://github.com/whatwg/html/issues/293
+Unexport the :target definition,,https://github.com/whatwg/html/issues/284
+Missing [SameObject] for some attributes that returns collection,,https://github.com/whatwg/html/issues/275
+Avoid whitelist/blacklist,,https://github.com/whatwg/html/issues/265
+".event and .htmlFor on HTMLScriptElement should reflect the ""event"" and ""for"" attributes",,https://github.com/whatwg/html/issues/253
+Honor all <option> descendants of <select>,,https://github.com/whatwg/html/issues/249
+Spec hole in <tbody> 'deleteRow' and <tr> 'deleteCell',,https://github.com/whatwg/html/issues/248
+SVG title elements should be the first child of the parent,,https://github.com/whatwg/html/issues/247
+Give HTMLAllCollection its own class,,https://github.com/whatwg/html/issues/210
+"""tailoirings""",,https://github.com/whatwg/html/issues/202
+Rethrow ECMAScript out-of-memory exception when allocating ImageData,,https://github.com/whatwg/html/issues/197
+Should clearTimeout/clearInterval be interchangeable?,,https://github.com/whatwg/html/issues/179
+<img> needs to set request's same-origin data-URL flag,,https://github.com/whatwg/html/issues/176
+Be explicit about missing value default & invalid value default,,https://github.com/whatwg/html/issues/173
+<a> without href should not be classified as interactive content,,https://github.com/whatwg/html/issues/168
+"""Otherwise, do a potentially CORS-enabled fetch""",,https://github.com/whatwg/html/issues/159
+"Make all byte sequences in the range 0x00 to 0x7F, inclusive, use backticks",,https://github.com/whatwg/html/issues/156
+Add an hgroup Example with Multiple h1 Elements,,https://github.com/whatwg/html/issues/115
+"typo ""ul, element""",,https://github.com/whatwg/html/issues/99

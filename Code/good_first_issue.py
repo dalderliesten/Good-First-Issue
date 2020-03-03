@@ -27,7 +27,7 @@ class GoodFirstIssue:
 
         # Define location of the repository. This should be an https:// link to Github with the .git still on it. This
         # can be obtained by going to a repository's site and selecting the 'clone or download -> https' option.
-        repository = "https://github.com/sindresorhus/refined-github.git"
+        repository = "https://github.com/microsoft/DeepSpeed.git"
 
         # Define the name of the good-first-issue tag used in the repository to analyze.
         first_issue_tag = "good first issue"

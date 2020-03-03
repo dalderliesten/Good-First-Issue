@@ -1,0 +1,362 @@
+First Commit Hash (SHA),Commit Message,Author (Github Name),Link to Commit
+f6be6e9fe7f8e4a5170859da6d410ed603844d0c,Initial commit,msftgits,https://api.github.com/repos/microsoft/PowerToys/git/commits/f6be6e9fe7f8e4a5170859da6d410ed603844d0c
+4f4a9e4dcf2e57f23700bb1390e122a07217e0ff,Initial commit,microsoftopensource,https://api.github.com/repos/microsoft/PowerToys/git/commits/4f4a9e4dcf2e57f23700bb1390e122a07217e0ff
+cbaa5fb732528a61e016da16815de6dffc6cacf1,Update README.md,indierawk2k2,https://api.github.com/repos/microsoft/PowerToys/git/commits/cbaa5fb732528a61e016da16815de6dffc6cacf1
+3fc2176f51ad0e821938344f4ad282a070bbda69,fix a couple typos,corbob,https://api.github.com/repos/microsoft/PowerToys/git/commits/3fc2176f51ad0e821938344f4ad282a070bbda69
+a5d81e7c1df68215e0160d024c0f035455c5819f,s/expereince/experience,tomer,https://api.github.com/repos/microsoft/PowerToys/git/commits/a5d81e7c1df68215e0160d024c0f035455c5819f
+2d282bb6b5d8dec024a8dac79517206de261447d,"Minor spelling corrections
+
+Corrected letter transpositions, and capitalized Alt+Tab for consistency (all other key names were at the beginning of their respective lines, so were already capitalized, but on my Surface Book all modifier keys and Tab are capitalized)",joshuaalm,https://api.github.com/repos/microsoft/PowerToys/git/commits/2d282bb6b5d8dec024a8dac79517206de261447d
+9c7d2edf37480fb22824e17cb42106ea862e33e2,add issue links to Backlog list,Meir017,https://api.github.com/repos/microsoft/PowerToys/git/commits/9c7d2edf37480fb22824e17cb42106ea862e33e2
+8431b80e482bd1daf90f59c94a1d1ecc0bd252d7,"FancyZones and Shortcut Guide initial commit
+
+Co-authored-by: Alexis Campailla <alexis@janeasystems.com>
+Co-authored-by: Bret Anderson <bretan@microsoft.com>
+Co-authored-by: Enrico Giordani <enrico.giordani@gmail.com>
+Co-authored-by: Jaime Bernardo <jaime@janeasystems.com>
+Co-authored-by: Jeff Bogdan <jeffbog@microsoft.com>
+Co-authored-by: March Rogers <marchr@microsoft.com>
+Co-authored-by: Mike Harsh <mharsh@microsoft.com>
+Co-authored-by: Nachum Bundak <Nachum.Bundak@microsoft.com>
+Co-authored-by: Oliver Jones <ojones@microsoft.com>
+Co-authored-by: Patrick Little <plittle@microsoft.com>",bzoz,https://api.github.com/repos/microsoft/PowerToys/git/commits/8431b80e482bd1daf90f59c94a1d1ecc0bd252d7
+71b38bba88a5e10ec75c5fb63308d6702617a36f,Fix typo in README.md (#153),grumpydev,https://api.github.com/repos/microsoft/PowerToys/git/commits/71b38bba88a5e10ec75c5fb63308d6702617a36f
+8ef433905745ec26959c9c2ff6b8f4680a1f1c27,"Update backlog links (#201)
+
+- Update FZ backlog links
+- Update ShortcutGuide backlog links",enricogior,https://api.github.com/repos/microsoft/PowerToys/git/commits/8ef433905745ec26959c9c2ff6b8f4680a1f1c27
+8d80f32a952edb77d07abbd97d8f45d2a130027f,Fix typo in src/README.md  (#207),bitcrazed,https://api.github.com/repos/microsoft/PowerToys/git/commits/8d80f32a952edb77d07abbd97d8f45d2a130027f
+b686880e7fffbcf33b3881986bfe450ee7d945c9,Fix typo in README.md (#214),chasemaier,https://api.github.com/repos/microsoft/PowerToys/git/commits/b686880e7fffbcf33b3881986bfe450ee7d945c9
+d8558536994ce8efe6b74939641acf107f5a955d,Fix typo in PowerToysBacklog.md (#220),rayburger,https://api.github.com/repos/microsoft/PowerToys/git/commits/d8558536994ce8efe6b74939641acf107f5a955d
+fdab2d01b9f42aae3dbb0ef4a3fcae9f6c5f7fd5,"Escape less-than-sign in fancyzones/README.md (#222)
+
+Without escaping this is rendered as an HTML, which is invisible.",mythmon,https://api.github.com/repos/microsoft/PowerToys/git/commits/fdab2d01b9f42aae3dbb0ef4a3fcae9f6c5f7fd5
+164462da8b7a139ee5afb3be80871775d844e919,Fix typo in README.md (#221),johng42,https://api.github.com/repos/microsoft/PowerToys/git/commits/164462da8b7a139ee5afb3be80871775d844e919
+8d53187d0f99ec5652bf844f2fc1b1c6d46b5c9b,Fix typo in PowerToysBacklog.md  (#231),ExecThTs,https://api.github.com/repos/microsoft/PowerToys/git/commits/8d53187d0f99ec5652bf844f2fc1b1c6d46b5c9b
+6acddfb0c77070a3b1401a79af04cf38092fd910,Fix typo in fancyzones/README.md (#259),tulkjay,https://api.github.com/repos/microsoft/PowerToys/git/commits/6acddfb0c77070a3b1401a79af04cf38092fd910
+335bf0cb95a3f65218211a53e3aa0ab4cae13b98,"Fix typos in README.md (#258)
+
+Minor typos and more concise language.",trident-job,https://api.github.com/repos/microsoft/PowerToys/git/commits/335bf0cb95a3f65218211a53e3aa0ab4cae13b98
+5f5402aa0a40a7177c5b1ad80d231d1b5b97c6c1,"[ImgBot] Optimize images (#225)
+
+*Total -- 3,268.30kb -> 2,584.85kb (20.91%)
+
+/doc/images/example_powertoy/settings.png -- 126.39kb -> 56.48kb (55.31%)
+/src/modules/fancyzones/FancyZonesSettings.png -- 177.46kb -> 116.84kb (34.16%)
+/Logo.jpg -- 37.32kb -> 26.97kb (27.73%)
+/doc/images/Logo.jpg -- 37.32kb -> 26.97kb (27.73%)
+/src/modules/fancyzones/Picker.png -- 35.86kb -> 26.45kb (26.25%)
+/doc/images/runner/tray.png -- 3.40kb -> 2.52kb (25.95%)
+/doc/images/shortcut_guide/usage.png -- 95.94kb -> 72.74kb (24.19%)
+/doc/images/shortcut_guide/settings.png -- 40.33kb -> 30.76kb (23.73%)
+/src/modules/fancyzones/FancyZones.png -- 1,266.91kb -> 982.63kb (22.44%)
+/doc/images/MTNDWidget.jpg -- 5.74kb -> 4.73kb (17.59%)
+/MTNDWidget.jpg -- 5.74kb -> 4.73kb (17.59%)
+/src/modules/fancyzones/TableEditor.png -- 288.73kb -> 237.93kb (17.59%)
+/WindowsKeyShortcutGuide.jpg -- 323.86kb -> 273.17kb (15.65%)
+/doc/images/WindowsKeyShortcutGuide.jpg -- 323.86kb -> 273.17kb (15.65%)
+/src/modules/fancyzones/WindowEditor.png -- 277.95kb -> 245.99kb (11.5%)
+/doc/images/FZTutorial.jpg -- 214.13kb -> 195.51kb (8.7%)
+/src/settings-web/src/components/fabric.png -- 7.36kb -> 7.26kb (1.31%)
+
+Signed-off-by: ImgBotApp <ImgBotHelp@gmail.com>",EwoutH,https://api.github.com/repos/microsoft/PowerToys/git/commits/5f5402aa0a40a7177c5b1ad80d231d1b5b97c6c1
+e562b29ecd9bbca5521b392cf82e9d6b1fe7d411,Editor should come up on the monitor with the foreground window. Defaults to primary monitor if there is no foreground window.,TheMrJukes,https://api.github.com/repos/microsoft/PowerToys/git/commits/e562b29ecd9bbca5521b392cf82e9d6b1fe7d411
+ffa1b1e6a316f52fcc7347ebfd7ef6526eb1af82,Cleanup settings-web (#280),Alaricus,https://api.github.com/repos/microsoft/PowerToys/git/commits/ffa1b1e6a316f52fcc7347ebfd7ef6526eb1af82
+38029efe50cc8aba012d5b6d5ab1cb4fa9ceea06,Added Hi-res logo (4k PNG),casungo,https://api.github.com/repos/microsoft/PowerToys/git/commits/38029efe50cc8aba012d5b6d5ab1cb4fa9ceea06
+12cd7bb49fa3de095d0aef51bf6ba1bd27cceb0a,"Advertise shortcuts
+
+* Change shortcut to advertised
+
+Note that I had to remove the ability to not install a
+Start Menu shortcut, as advertised shortcuts must always
+be installed.
+
+Also note that I had to change the ""Core"" feature to always
+be installed (disabling Install-on-Demand) as having that
+turned on broke the Scheduled Task installer.
+
+* Disable ARPNOMODIFY",wjk,https://api.github.com/repos/microsoft/PowerToys/git/commits/12cd7bb49fa3de095d0aef51bf6ba1bd27cceb0a
+6cf3486387995a51bfc6c5ebcc16442b85aa0268,Add documentation about Chocolatey installation (#349),mkevenaar,https://api.github.com/repos/microsoft/PowerToys/git/commits/6cf3486387995a51bfc6c5ebcc16442b85aa0268
+7eedda30db5b33b575961dd359ac2e3a59f48f9e,Fix typos in src/README.md (#364),garyhuntddn,https://api.github.com/repos/microsoft/PowerToys/git/commits/7eedda30db5b33b575961dd359ac2e3a59f48f9e
+5d75feebdcff150476a01a0e5b19d10907ebdd8e,"Update README.md
+
+Fix typo",xjose97x,https://api.github.com/repos/microsoft/PowerToys/git/commits/5d75feebdcff150476a01a0e5b19d10907ebdd8e
+af67f7782c8ca2fc9623a09cee27e7adf2727ffa,"Added more in-depth check for zone determination when dragging around
+the screen. Previously, it would iterate through the zones in the order
+they were added and find the first one that fit the description. While
+this works in most cases, if a user wants to have overlapping zones, it
+is better to iterate through all of them and find the zone that the user
+expects. There are cases where a zone is completely inaccessible on drag
+because of the current code. To resolve this, the zone search will look
+for the smallest zone possible. The reason I chose this solution is
+because this guarantees that zones are at least reachable since if a
+zone was bigger than another zone, then there must be a part of it
+that is exposed, therefore reachable itself. Note: this solution is for
+the scenario between two zones. More than that is not guaranteed. But I
+feel like this covers enough scenarios to warrant its addition.
+
+Example:
+  ----------------
+  - Zone1        -
+  -  ----------  -
+  -  - Zone2  -  -
+  -  -        -  -
+  -  ----------  -
+  ----------------
+
+Previously, zone2 was inaccessible since it would iterate through 1 then
+2. But 1 would always be seen first when dragging a window. With this
+fix it zone2 will be accessible.",ebbyd3,https://api.github.com/repos/microsoft/PowerToys/git/commits/af67f7782c8ca2fc9623a09cee27e7adf2727ffa
+faf1fae8731648e01b1147ad97a4f71d1ab134c9,"Modifying the startup behaviour of the FancyZones Layout Editor
+
+Add setting to allow to choose if the FZ editor opens in the screen where mouse cursor is or where the active windows is.",cedi,https://api.github.com/repos/microsoft/PowerToys/git/commits/faf1fae8731648e01b1147ad97a4f71d1ab134c9
+f1c2a66023afd5284111d38145304192ca74e87f,Cleanup LICENSE,reviewher,https://api.github.com/repos/microsoft/PowerToys/git/commits/f1c2a66023afd5284111d38145304192ca74e87f
+f77945111b603745a73312b1501fb6a5b47164ee,"Update PowerToys-settings.md
+
+fix typos",chrdavis,https://api.github.com/repos/microsoft/PowerToys/git/commits/f77945111b603745a73312b1501fb6a5b47164ee
+67c139cae9f78e108275333ee7bf59020e071782,"change window name from window1 to FancyZones Editor
+
+this will fix issue #453 but I'm not sure about the. I'll change it if required",patdhlk,https://api.github.com/repos/microsoft/PowerToys/git/commits/67c139cae9f78e108275333ee7bf59020e071782
+c069f6a5554a13391dc2a462cafdede6fc60661a,fix FancyZonesEditor CLI dpi parsing with comma decimal locales,mickut,https://api.github.com/repos/microsoft/PowerToys/git/commits/c069f6a5554a13391dc2a462cafdede6fc60661a
+d7859f03db827f3cfbd903c994ab9d6445c0fdee,"Dev/sashapie/wix nuget sacl (#489)
+
+* point to csproj instead
+
+* version
+
+* rs1 container
+
+* nuget
+
+* nuget and msbuild
+
+* vs2019
+
+* msbuild path
+
+* new container, clear up feeds
+
+* change step names, verify build output
+
+* further dig into outputs
+
+* point to right output, add draft installer script
+
+* narrow down output, change signing option
+
+* new container, try installer
+
+* set vs dev environment
+
+* add NuGet package for WiX
+
+* modify project files to use the WiX NuGet package
+the MSI can now be built using MSBUILD after running nuget restore
+
+* ready installer sln to use nuget
+
+* install and build scripts and new container
+
+* src/editor was renamed to src/settings, fix rebase error
+
+* check if file is present
+
+* try again",RedSquirrelious,https://api.github.com/repos/microsoft/PowerToys/git/commits/d7859f03db827f3cfbd903c994ab9d6445c0fdee
+98a920d8cb7f73e14ab4025cd62c932d8a9a413e,Fix typo in organization.md,kiritofeng,https://api.github.com/repos/microsoft/PowerToys/git/commits/98a920d8cb7f73e14ab4025cd62c932d8a9a413e
+efb53e912a3eec68e7a1f201f899c91e2126ed89,"Update PowerToysBacklog.md
+
+Fix typo in ""Resource"" on suggestion 3",hugodahl,https://api.github.com/repos/microsoft/PowerToys/git/commits/efb53e912a3eec68e7a1f201f899c91e2126ed89
+67337ba269035ea682652226ffc4be18252493a0,"Update README.md
+
+Fix spelling.",deisterhold,https://api.github.com/repos/microsoft/PowerToys/git/commits/67337ba269035ea682652226ffc4be18252493a0
+70f40e207a45fbf8a6d8cee7dffa6b2db97a5342,"Update README.md (#546)
+
+a small typo at line 42
+utilitity was written
+changed to utility",barath121,https://api.github.com/repos/microsoft/PowerToys/git/commits/70f40e207a45fbf8a6d8cee7dffa6b2db97a5342
+cc3c79102af2286136cdc6b5b5c7afa2963edeab,"Updating README
+
+- Fixing casing of GitHub
+- Making release link accessible and specific
+- Correcting CLA text (labels were replaced with status checks)",jeffwilcox,https://api.github.com/repos/microsoft/PowerToys/git/commits/cc3c79102af2286136cdc6b5b5c7afa2963edeab
+329392b7d6ec98ea133939434f640ffd21beb0f8,"Merge pull request #542 from enricogior/small-screens-support
+
+FZ Editor support for small screens",jeffbog,https://api.github.com/repos/microsoft/PowerToys/git/commits/329392b7d6ec98ea133939434f640ffd21beb0f8
+cb566739befbc4f592f113a81e6eb35bc7805d44,"Merge pull request #559 from microsoft/enricogior-patch-2
+
+Update organization.md",crutkas,https://api.github.com/repos/microsoft/PowerToys/git/commits/cb566739befbc4f592f113a81e6eb35bc7805d44
+18d4dc7321e06841f46c170af28e8f57c26c6032,"Update README.md (#626)
+
+Fix broken links in src/modules/README.md",kanglib,https://api.github.com/repos/microsoft/PowerToys/git/commits/18d4dc7321e06841f46c170af28e8f57c26c6032
+c4fc67301c7eaf99a34bc2e805b396d808a90d48,"Add switch to turn off keyboard hooks while debugging, since they could mess system-wide input",yuyoyuppe,https://api.github.com/repos/microsoft/PowerToys/git/commits/c4fc67301c7eaf99a34bc2e805b396d808a90d48
+be86cd4028486415ce8a550bd67fc133b79a6e29,"Customize system menu items through dedicated API (#677)
+
+Document new interface changes.",vldmr11080,https://api.github.com/repos/microsoft/PowerToys/git/commits/be86cd4028486415ce8a550bd67fc133b79a6e29
+d762b5a0171d559c255791f945da5907666c6635,Update README.md,docs-product,https://api.github.com/repos/microsoft/PowerToys/git/commits/d762b5a0171d559c255791f945da5907666c6635
+de328c9dfdd51c425222287d7b14b5889315f35c,Add link to releases tab,matthidinger,https://api.github.com/repos/microsoft/PowerToys/git/commits/de328c9dfdd51c425222287d7b14b5889315f35c
+add63d2dded0da1857ffde0551d6b9d69b560736,FancyZones: Added ability to use mouse only for interactions with zones (#729),kevroy314,https://api.github.com/repos/microsoft/PowerToys/git/commits/add63d2dded0da1857ffde0551d6b9d69b560736
+73e33d7ba92ed489fcb88af39a8db1088b4da5ac,"Getting the example project to compile, and build.
+1) Adding example project to Debug / Release Builds.
+2) Including <string> in common.h
+3) Using std::optional instead of PowerToysValues::is_[type]_value
+4) Fixing warnings generated by unreferenced 'ex' variable in exception handling.
+5) Updated relative path of version.h in exeample_powertoy.rc",ryanbodrug-microsoft,https://api.github.com/repos/microsoft/PowerToys/git/commits/73e33d7ba92ed489fcb88af39a8db1088b4da5ac
+6e3587dd43939777cc1bae3fedcef31b9a2b6c30,Settings unit tests (#921),SeraphimaZ,https://api.github.com/repos/microsoft/PowerToys/git/commits/6e3587dd43939777cc1bae3fedcef31b9a2b6c30
+7efe6f1d535add2de39f3ca8c4429c2135573ec4,"Correct readme links (#943)
+
+Now in line with #913",Taje01taje,https://api.github.com/repos/microsoft/PowerToys/git/commits/7efe6f1d535add2de39f3ca8c4429c2135573ec4
+a2a683d31e543c1f2a30f5d19c05c8d49bc0fe6d,"adding fancy zone opacity setting, enhancement #631 (#1008)
+
+* adding fancy zone opacity setting, enhancement #631
+
+* applying zone opacity setting to all zones during zone selection
+
+* changing opacity setting to percentage",yodurr,https://api.github.com/repos/microsoft/PowerToys/git/commits/a2a683d31e543c1f2a30f5d19c05c8d49bc0fe6d
+c1232a7001936972dda4ddd171b985e98ac7e3ca,Shifted three functions to common (#1101),arjunbalgovind,https://api.github.com/repos/microsoft/PowerToys/git/commits/c1232a7001936972dda4ddd171b985e98ac7e3ca
+ba1a681aab6eaa877db93797ba6e45ebf700505c,"Merge pull request #1106 from alekhyareddy28/locPowerRename
+
+Localize PowerRename",alekhyareddy28,https://api.github.com/repos/microsoft/PowerToys/git/commits/ba1a681aab6eaa877db93797ba6e45ebf700505c
+b4f81a0c2a09631c16958dd6b71c9c568b46c094,"Import the source code for Window Walker (#1177)
+
+Import the codebase for Window Walker 
+
+- Not loaded into the module list 
+- Not added it to the installer list.",betsegaw,https://api.github.com/repos/microsoft/PowerToys/git/commits/b4f81a0c2a09631c16958dd6b71c9c568b46c094
+b00ce8789fe66b1251e8eb9923948cacf07f36fb,"Adding KeyManager spec (#1112)
+
+* Adding KeyManager spec
+
+* adding req changes
+
+* req changes
+
+* changed wording
+
+* md edits
+
+* edit md
+
+* Update doc/specs/KeyboardManager.md
+
+Co-Authored-By: Jeroen van Warmerdam <jeronevw@hotmail.com>
+
+* further edits
+
+* Update KeyboardManager.md
+
+* Update KeyboardManager.md
+
+Co-authored-by: Jeroen van Warmerdam <jeronevw@hotmail.com>",saahmedm,https://api.github.com/repos/microsoft/PowerToys/git/commits/b00ce8789fe66b1251e8eb9923948cacf07f36fb
+b357a085c88f6a000b35ef4e22699a465095e2b5,"Small English grammer issue ""in the desktop"" -> ""on the desktop"" (#1238)
+
+Small English grammer issue ""in the desktop"" -> ""on the desktop""",shanselman,https://api.github.com/repos/microsoft/PowerToys/git/commits/b357a085c88f6a000b35ef4e22699a465095e2b5
+53f830bb3893cedf06497c00c7f8f14b7d8e70c9,"Migrate FancyZones data persisting from Registry to JSON file (#1194)
+
+* Migrate FancyZones data persisting from Registry to JSON file
+
+* Address PR comment: Remove redundant check
+
+* Addres PR comment: Remove unused Dpi and add CmdArgs enum
+
+* Address PR comment: Make methods const and inline
+
+* Address PR comments: Expose GenerateUniqueId function and use const ref instead of passing wstring by value
+
+* Address PR comment: Use lamdba as callback
+
+* Address PR comment: Move GenerateUniqueId to ZoneWindowUtils namespace
+
+* Address PR comment: Use regular comparison instead of std::wstring::compare
+
+* Address PR comment: Use std::wstring_view for tmp file paths
+
+* Address PR comment: Use scoped lock when accessing member data
+
+* Address PR comment: Remove typedefs to increase code readability
+
+* Address PR comment: removed nullptr checks with corresponding tests
+
+* Address PR comment: Move ZoneSet object instead of copying
+
+* Address PR comment: Make FancyZonesData instance const where possible
+
+* Remove unnecessary gutter variable during calculating zone coordinates
+
+* Remove uneeded subclass
+
+* Avoid unnecessary copying and reserve space for vector if possible
+
+* Save FancyZones data after exiting editor
+
+* App zone history (#18)
+
+* added window and zone set ids to app zone history
+
+* Rename JSON file
+
+* Remove AppZoneHistory migration
+
+* Move parsing of ZoneWindow independent temp files outside of it
+
+* Unit tests update (#19)
+
+* check device existence in map
+* updated ZoneSet tests
+* updated JsonHelpers tests
+
+* Use single zone count information
+
+* Remove uneeded tests
+
+* Remove one more test
+
+* Remove uneeded line
+
+* Address PR comments - Missing whitespace
+
+* Update zoneset data for new virtual desktops (#21)
+
+* update active zone set with actual data
+
+* Introduce Blank zone set (used to indicate that no layout applied yet). Move parsing completely outside of ZoneWindow.
+
+* Fix unit tests to match modifications in implementation
+
+* Fix applying layouts on startup (second monitor)
+
+Co-authored-by: vldmr11080 <57061786+vldmr11080@users.noreply.github.com>
+Co-authored-by: Seraphima <zykovas91@gmail.com>",stefansjfw,https://api.github.com/repos/microsoft/PowerToys/git/commits/53f830bb3893cedf06497c00c7f8f14b7d8e70c9
+49fa1b67620a9251b11b9dd1dc811ed1f725c219,"Added PowerLauncher spec and images (#1109)
+
+* Added PowerLauncher spec and images
+
+* Fixed images path
+
+* Addressed review comments
+
+* Fixed images
+
+* Addressed review comments, and added link to keyboard shortcut manager PowerToy
+
+* Added Ueli in comparison table
+
+* Added keyboard input element
+
+* Added suggestions from community
+
+* Moved default shell and terminal settings
+
+* Addressed feedback
+
+* Added community suggestion
+
+* Modified spec based on feedback
+
+* Modified spec based on suggestions
+
+* Added keyboard shortcuts to context menu options",jyuwono,https://api.github.com/repos/microsoft/PowerToys/git/commits/49fa1b67620a9251b11b9dd1dc811ed1f725c219
+607a297c4af749b96f871b81a344ada9771df5e1,"""Always run as administrator"" and ""Restart as ..."" only for administrator account (#1318)",yevhenii44,https://api.github.com/repos/microsoft/PowerToys/git/commits/607a297c4af749b96f871b81a344ada9771df5e1
+f015995ac42f48dbdf732376d808580c98a58a41,Now updater is comparing versions instead of comparing thier strings,PrzemyslawTusinski,https://api.github.com/repos/microsoft/PowerToys/git/commits/f015995ac42f48dbdf732376d808580c98a58a41
+e0446a73fafa0bfa6e4d0e85b07437d28d86f09f,"Change Windows Store to Microsoft Store in README (#1369)
+
+The Windows Store was renamed to the Microsoft Store back in 2017, best to keep things up-to-date to avoid potential confusion.",torchgm,https://api.github.com/repos/microsoft/PowerToys/git/commits/e0446a73fafa0bfa6e4d0e85b07437d28d86f09f

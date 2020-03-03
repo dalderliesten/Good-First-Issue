@@ -1,0 +1,67 @@
+First Commit Hash (SHA),Commit Message,Author (Github Name),Link to Commit
+454fb5943d85ea88007cab0cd34539bf02b73129,Initial commit,thedaviddias,https://api.github.com/repos/thedaviddias/Front-End-Performance-Checklist/git/commits/454fb5943d85ea88007cab0cd34539bf02b73129
+3d43ef86bee7d79e65eb1c95ec85306d07a96ad0,Fix link list,azu,https://api.github.com/repos/thedaviddias/Front-End-Performance-Checklist/git/commits/3d43ef86bee7d79e65eb1c95ec85306d07a96ad0
+b52c85b00f9818e61cc5369294b1a77b2d48c4d2,Fix backticks,ParkSB,https://api.github.com/repos/thedaviddias/Front-End-Performance-Checklist/git/commits/b52c85b00f9818e61cc5369294b1a77b2d48c4d2
+51665b48760261e9d2d819264fc9a5ceeb218906,update open issues link,firattale,https://api.github.com/repos/thedaviddias/Front-End-Performance-Checklist/git/commits/51665b48760261e9d2d819264fc9a5ceeb218906
+62169e49ebf7d17950e07b3ccc0126b2507a7052,Delete .DS_Store,limonte,https://api.github.com/repos/thedaviddias/Front-End-Performance-Checklist/git/commits/62169e49ebf7d17950e07b3ccc0126b2507a7052
+d31c552f4595bb23ea6edca031b792cdaeda6d94,"Fix typos and grammar 
+
+`importante` 🡺 `important`
+`fech` 🡺 `fetch`
+`librairies` 🡺 `libraries` ( x 2 )
+`functionnality` 🡺 `functionality`
+`Identifing` 🡺 `Identifying`
+
+`your` 🡺 `you`
+`you` 🡺 `your` ( x 2 )
+`live` 🡺 `lives`
+`is` 🡺 `are` ( x 2 )
+`are send` 🡺 `is sent`
+`minified` 🡺 `minify`
+`ended` 🡺 `end`
+`need` 🡺 `needed`
+`help` 🡺 `helps`
+`decrease` 🡺 `decreases`
+`Depending` 🡺 `Depending on`
+`enable` 🡺 `enabled`",pra85,https://api.github.com/repos/thedaviddias/Front-End-Performance-Checklist/git/commits/d31c552f4595bb23ea6edca031b792cdaeda6d94
+bc7ceeada758e92ec0045d1f00d81d09a53a39ed,Add calibre,benschwarz,https://api.github.com/repos/thedaviddias/Front-End-Performance-Checklist/git/commits/bc7ceeada758e92ec0045d1f00d81d09a53a39ed
+c398568a22a329948078258d34bb82c18d4853b1,"Changed css example ""concatenation""",annnoo,https://api.github.com/repos/thedaviddias/Front-End-Performance-Checklist/git/commits/c398568a22a329948078258d34bb82c18d4853b1
+f33833efdbae2a737502c96b37bba215e4caefad,Update README.md,hdpero,https://api.github.com/repos/thedaviddias/Front-End-Performance-Checklist/git/commits/f33833efdbae2a737502c96b37bba215e4caefad
+906a48a22906c0288dc18ff75bb4455e750f80e3,simplify readme,lex111,https://api.github.com/repos/thedaviddias/Front-End-Performance-Checklist/git/commits/906a48a22906c0288dc18ff75bb4455e750f80e3
+2e004a1fe70b9e9f19f3a9fb97c8826e40c703fe,Add PWMetrics,denar90,https://api.github.com/repos/thedaviddias/Front-End-Performance-Checklist/git/commits/2e004a1fe70b9e9f19f3a9fb97c8826e40c703fe
+1aef0bc25bdf88a5e047ee423b77ee4e8c7cd9ac,Add 🇫🇷 French translation,WilliamDASILVA,https://api.github.com/repos/thedaviddias/Front-End-Performance-Checklist/git/commits/1aef0bc25bdf88a5e047ee423b77ee4e8c7cd9ac
+647ac947a66224ea9af28ff88628ffd913887e39,"Added ""the following"" to fix sentence",verlok,https://api.github.com/repos/thedaviddias/Front-End-Performance-Checklist/git/commits/647ac947a66224ea9af28ff88628ffd913887e39
+35b1f94b5fa75dd885880d903eced31f67b21039,fix(typo): connexion => network connection,shayc,https://api.github.com/repos/thedaviddias/Front-End-Performance-Checklist/git/commits/35b1f94b5fa75dd885880d903eced31f67b21039
+8efc97e5f6e273ea402ac01c1a0c0b159e6f3d3a,"Finish explaining why rel=""preconnect"" is important",bmac,https://api.github.com/repos/thedaviddias/Front-End-Performance-Checklist/git/commits/8efc97e5f6e273ea402ac01c1a0c0b159e6f3d3a
+9e1037e97c2224158fe09d4210faf70d077d2ebb,Add SVG optimization link,dutiyesh,https://api.github.com/repos/thedaviddias/Front-End-Performance-Checklist/git/commits/9e1037e97c2224158fe09d4210faf70d077d2ebb
+de9ea9385a504d6aa0f65bcde979194e6556b1e3,add treo.sh,alekseykulikov,https://api.github.com/repos/thedaviddias/Front-End-Performance-Checklist/git/commits/de9ea9385a504d6aa0f65bcde979194e6556b1e3
+48758eafd7c6c79466234c9e9bd6e4dd74ea74b3,Update wording for iframes section,jakubhomoly,https://api.github.com/repos/thedaviddias/Front-End-Performance-Checklist/git/commits/48758eafd7c6c79466234c9e9bd6e4dd74ea74b3
+e38abe3d776d6e0b5d1548b58f1ae3cb255cfc6f,"Updated Performance tools
+
+Added Lighthouse to the list.",vamsi-kavuri,https://api.github.com/repos/thedaviddias/Front-End-Performance-Checklist/git/commits/e38abe3d776d6e0b5d1548b58f1ae3cb255cfc6f
+2d9594a55de114b2b1c28fc77bb024e742ce3aa7,"Adding angular performance checklist
+
+APC - the most comprehensive guide for optimising performance of Angular applications (don't be confused with AngularJS)",obenjiro,https://api.github.com/repos/thedaviddias/Front-End-Performance-Checklist/git/commits/2d9594a55de114b2b1c28fc77bb024e742ce3aa7
+19e668dd41b0e7717ce482116f53e23a06b32763,Add Checkbot guide and browser extension,seanw,https://api.github.com/repos/thedaviddias/Front-End-Performance-Checklist/git/commits/19e668dd41b0e7717ce482116f53e23a06b32763
+a34eb599395305e81e7ed337939b639b2d93d1e4,"Added Yellowlabs
+
+Added https://yellowlab.tools/ to Performance Tools",pe7er,https://api.github.com/repos/thedaviddias/Front-End-Performance-Checklist/git/commits/a34eb599395305e81e7ed337939b639b2d93d1e4
+3d5074694a9694129bfb06014f8caac8de5769c9,"Adds Project Wallace to CSS analysis tools
+
+*DISCLAIMER* 
+I am the maintainer of Project Wallace, so I am biased, but I think the project is filling a gap that other projects have: tracking progress of the css stats over time.",bartveneman,https://api.github.com/repos/thedaviddias/Front-End-Performance-Checklist/git/commits/3d5074694a9694129bfb06014f8caac8de5769c9
+613b2e016a27dc3739fefbaf9e297d73ac1ec851,Remove Varvy Performance tool duplicate,jericopulvera,https://api.github.com/repos/thedaviddias/Front-End-Performance-Checklist/git/commits/613b2e016a27dc3739fefbaf9e297d73ac1ec851
+78dd6b7492eab4405195c9e4c63da1309dde0ff2,Fix a couple typos,MakelaM,https://api.github.com/repos/thedaviddias/Front-End-Performance-Checklist/git/commits/78dd6b7492eab4405195c9e4c63da1309dde0ff2
+1559e2d3fb2290dfc7808e59d9d711f31bab5657,"Update Vietnamese version
+
+I see your article does not have the Vietnamese version. I would like to contribute my translation",huynhan147,https://api.github.com/repos/thedaviddias/Front-End-Performance-Checklist/git/commits/1559e2d3fb2290dfc7808e59d9d711f31bab5657
+6bfb852eb2ef5c347a62fd3edf27c334e1811656,Add Speedrank,knoxmic,https://api.github.com/repos/thedaviddias/Front-End-Performance-Checklist/git/commits/6bfb852eb2ef5c347a62fd3edf27c334e1811656
+f45078d9fc685fd47926f4a4eb5d092280ffcc3c,Add DebugBear,mattzeunert,https://api.github.com/repos/thedaviddias/Front-End-Performance-Checklist/git/commits/f45078d9fc685fd47926f4a4eb5d092280ffcc3c
+ae390f890636fc521f478c668e267b7fc7f5a980,add section for pre-load ressources,Bnjis,https://api.github.com/repos/thedaviddias/Front-End-Performance-Checklist/git/commits/ae390f890636fc521f478c668e267b7fc7f5a980
+2263415aa6384a42a901fa4cab3167eeefa12c74,Add reference to ImageEngine Demo test,joelopresti,https://api.github.com/repos/thedaviddias/Front-End-Performance-Checklist/git/commits/2263415aa6384a42a901fa4cab3167eeefa12c74
+85f1a5102ac5abc2984d2be862a6b099cda8b3ab,Update README.md,jondavidjohn,https://api.github.com/repos/thedaviddias/Front-End-Performance-Checklist/git/commits/85f1a5102ac5abc2984d2be862a6b099cda8b3ab
+0e9f420bb7290461852f82cbf0b3b90e73736592,docs: fix typo,Jason-Cooke,https://api.github.com/repos/thedaviddias/Front-End-Performance-Checklist/git/commits/0e9f420bb7290461852f82cbf0b3b90e73736592
+318cbb0f3f18c40296ad68079aa3ce447099e13d,Add link to js-dependency-viewer tool,dew01ke,https://api.github.com/repos/thedaviddias/Front-End-Performance-Checklist/git/commits/318cbb0f3f18c40296ad68079aa3ce447099e13d
+b7fe43a4f80b8037c7c4e05837f845486110ed70,"Update README.md
+
+Added Vue.js resource link under Performance and JS Frameworks.",stmapman7,https://api.github.com/repos/thedaviddias/Front-End-Performance-Checklist/git/commits/b7fe43a4f80b8037c7c4e05837f845486110ed70

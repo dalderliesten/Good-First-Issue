@@ -1,0 +1,58 @@
+Issue Description,Assignees to the Issue,Link
+Change scheduler pod_preemption_victims from Gauge to Histogram,,https://github.com/kubernetes/kubernetes/issues/83464
+Scheduler cache.GetNodeInfo should return IsNotFound error if applicable,,https://github.com/kubernetes/kubernetes/issues/83458
+[framework] a consistent interface for plugin extended functionality,,https://github.com/kubernetes/kubernetes/issues/83244
+Azure File Premium Persistent Volume fails due to HTTP 400 error,,https://github.com/kubernetes/kubernetes/issues/83085
+Many links in API documentation broken,,https://github.com/kubernetes/kubernetes/issues/81526
+Port parsing can overflow (TOB-K8S-015: Overflows when using strconv.Atoi and downcasting the result),,https://github.com/kubernetes/kubernetes/issues/81121
+Remove panic in staging/src/k8s.io/apiserver/pkg/storage/etcd3/store.go,,https://github.com/kubernetes/kubernetes/issues/79835
+Different Webhook with same name have same label-value in metric webhook_admission_duration_seconds,,https://github.com/kubernetes/kubernetes/issues/79832
+Support UDP with AWS NLB,,https://github.com/kubernetes/kubernetes/issues/79523
+Connect lower level traces to surrounding request handling trace,,https://github.com/kubernetes/kubernetes/issues/79209
+kube-proxy depricated flags are misorganized,,https://github.com/kubernetes/kubernetes/issues/78285
+test/soak/cauldron uses Docker Hub to push/pull image,,https://github.com/kubernetes/kubernetes/issues/77273
+Remove dependency on ghodss/yaml,,https://github.com/kubernetes/kubernetes/issues/77024
+Add-On manager should not be creating kube-system namespace,,https://github.com/kubernetes/kubernetes/issues/75567
+Remove make-symlink parameter in hyperkube in 1.16,,https://github.com/kubernetes/kubernetes/issues/75491
+FC Plugin Support for Mount Options,,https://github.com/kubernetes/kubernetes/issues/75191
+1000s of warnings: FindExpandablePluginBySpec err:no volume plugin matched,,https://github.com/kubernetes/kubernetes/issues/73882
+Creating selectors is expensive in EndpointsController,,https://github.com/kubernetes/kubernetes/issues/73527
+Replace kubernetes/pkg/util/strings with k8s.io/utils/tree/master/strings,,https://github.com/kubernetes/kubernetes/issues/73385
+Replace kubernetes/pkg/util/keymutex with k8s.io/utils/tree/master/keymutex,,https://github.com/kubernetes/kubernetes/issues/73384
+Replace kubernetes/pkg/util/net/sets with code in k8s.io/utils/net/,,https://github.com/kubernetes/kubernetes/issues/73361
+kube-proxy: ipv4/ipv6 mix crashes: KUBE-MARK-DROP':No such file or directory,,https://github.com/kubernetes/kubernetes/issues/73360
+Need NodePort test for mixed-OS clusters,,https://github.com/kubernetes/kubernetes/issues/73327
+build/run.sh hangs on stopping rsync container ,,https://github.com/kubernetes/kubernetes/issues/72915
+Update docs to indicate that API values of []byte are always base64-encoded,,https://github.com/kubernetes/kubernetes/issues/72158
+[scheduler cleanup phase 2]: Move compatibility_test.go to `pkg/scheduler/api`,,https://github.com/kubernetes/kubernetes/issues/71867
+[scheduler cleanup phase 2]: Move predicate and priority registration into their own packages,,https://github.com/kubernetes/kubernetes/issues/71866
+Update golang.org/x/net/http2 vendored files,,https://github.com/kubernetes/kubernetes/issues/71016
+[RFE] Allow to override default AWS endpoint,,https://github.com/kubernetes/kubernetes/issues/70588
+change service port with aws nlb ，old security group rules not deleted,,https://github.com/kubernetes/kubernetes/issues/70421
+Add an impersonation test case to the audit E2E test,,https://github.com/kubernetes/kubernetes/issues/70198
+Some commands do not show glog flags,,https://github.com/kubernetes/kubernetes/issues/70145
+Add volume test cases for Windows,,https://github.com/kubernetes/kubernetes/issues/69904
+Remove hyperkube short aliases,,https://github.com/kubernetes/kubernetes/issues/69896
+Updating vendored dependencies for Kubernetes 1.13,,https://github.com/kubernetes/kubernetes/issues/69776
+Failure cause is difficult to determine on test-integration,,https://github.com/kubernetes/kubernetes/issues/69106
+Use http.Error() instead of writing responses directly,,https://github.com/kubernetes/kubernetes/issues/69011
+[scheduler cleanup phase 1]: Simplify kube-scheduler’s server.go `run`,,https://github.com/kubernetes/kubernetes/issues/68964
+API docs for job status should clearly explain what fields indicate success or failure,,https://github.com/kubernetes/kubernetes/issues/68712
+JSON Patch: Don't allow negative indices,,https://github.com/kubernetes/kubernetes/issues/68578
+master/staging/README.md is out of date,,https://github.com/kubernetes/kubernetes/issues/68235
+update doc.go in staging/ repositories,,https://github.com/kubernetes/kubernetes/issues/68231
+Upate import-boss restrictions ,,https://github.com/kubernetes/kubernetes/issues/68201
+Fix golint failures,,https://github.com/kubernetes/kubernetes/issues/68026
+HPA metrics client assumes all resources are namespaced,,https://github.com/kubernetes/kubernetes/issues/67777
+kube-proxy: node-port ipv6 port open on v4 cluster ,,https://github.com/kubernetes/kubernetes/issues/66766
+clients: port exec-based client auth provider to non go-lang clients,,https://github.com/kubernetes/kubernetes/issues/62185
+Manifests in test/e2e/testing-manifests/ingress related to GCE should be in a separate folder.,,https://github.com/kubernetes/kubernetes/issues/58640
+"Literal ""$Format"" in API server logs",,https://github.com/kubernetes/kubernetes/issues/55219
+Sign error in comment on resource.ScaledValue,,https://github.com/kubernetes/kubernetes/issues/50564
+kubectl --v= is underdocumented,,https://github.com/kubernetes/kubernetes/issues/35054
+"destroy the ""Expect(err).NotTo(HaveOccurred())"" anti-pattern in e2e tests",,https://github.com/kubernetes/kubernetes/issues/34059
+Log version/build info as the first line of every glog log from every binary,,https://github.com/kubernetes/kubernetes/issues/27744
+Cleanup: Audit log and error capitalization,,https://github.com/kubernetes/kubernetes/issues/15863
+decouple dbus and iptables,,https://github.com/kubernetes/kubernetes/issues/15636
+Capture spew.Sprintf() with all our favorite config into a util func,,https://github.com/kubernetes/kubernetes/issues/8976
+"Refactor ""create object, launch goroutines"" logic all over",,https://github.com/kubernetes/kubernetes/issues/7923

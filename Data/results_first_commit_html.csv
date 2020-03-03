@@ -1,0 +1,1016 @@
+First Commit Hash (SHA),Commit Message,Author (Github Name),Link to Commit
+c3550d90867392905edbd91c94fec8c89fbfe648,"Web Apps 1.0 initial checkin of working directory
+
+git-svn-id: http://svn.whatwg.org/webapps@1 340c8d12-0b0e-0410-8428-c7bf67bfef74",Hixie,https://api.github.com/repos/whatwg/html/git/commits/c3550d90867392905edbd91c94fec8c89fbfe648
+2bf320bc20cc8dd21682b006ae9053546dc46791,git-svn-id: http://svn.whatwg.org/webapps@8556 340c8d12-0b0e-0410-8428-c7bf67bfef74,annevk,https://api.github.com/repos/whatwg/html/git/commits/2bf320bc20cc8dd21682b006ae9053546dc46791
+aaa19d5fc035c045b4c0d0736d0e99925c386550,Remove dead revision tracking code,domenic,https://api.github.com/repos/whatwg/html/git/commits/aaa19d5fc035c045b4c0d0736d0e99925c386550
+93b81c036021533a297b5cb419378d57345fc752,"Fix typos ""transfered"" and ""targetted""",foolip,https://api.github.com/repos/whatwg/html/git/commits/93b81c036021533a297b5cb419378d57345fc752
+863358278887ef3636d29e9f6ad6068b4632b3eb,Make GH consider .inc files HTML (instead of PHP),sideshowbarker,https://api.github.com/repos/whatwg/html/git/commits/863358278887ef3636d29e9f6ad6068b4632b3eb
+b0ec7168f44ac6281e7867dc2367ffb2b66131d9,"Clarify that there is no attribute named ""inert""
+
+Fixes http://w3bug.com/28906",cvrebert,https://api.github.com/repos/whatwg/html/git/commits/b0ec7168f44ac6281e7867dc2367ffb2b66131d9
+a0ec607dc94db3d0b40213e51ae72b3357407213,"Remove the v2 ideas
+
+They are now covered by issues #17 and #18.",Ms2ger,https://api.github.com/repos/whatwg/html/git/commits/a0ec607dc94db3d0b40213e51ae72b3357407213
+36073fc2f36851dbf855ac49017a5829cd77ac7a,"More precisely specify property creation during structured clone
+
+Explicitly reference the CreateDataProperty() internal algorithm
+from ECMAScript which in turn relies on [[DefineOwnProperty]].
+This removes any ambiguity about whether to use that or [[Set]]
+when producing clones.
+
+Resolves https://www.w3.org/Bugs/Public/show_bug.cgi?id=28052",inexorabletash,https://api.github.com/repos/whatwg/html/git/commits/36073fc2f36851dbf855ac49017a5829cd77ac7a
+955fbaa1856bee413eb976f22fe4d5a8983f859c,"Add an 'allow-popups-to-escape-sandbox' sandboxing token
+
+This patch adds the sandbox-escaping functionality described at [1],
+which will allow a sandboxed docuent to spawn new windows without
+forcing the set of active sandboing flags upon them. This allows, for
+example, a third-party advertisement to be (more) safely sandboxed
+without forcing the same restrictions upon a landing page.
+
+Discussed at [2] and [3].
+
+[1]: https://www.w3.org/Bugs/Public/show_bug.cgi?id=28817
+[2]: https://lists.w3.org/Archives/Public/public-whatwg-archive/2015May/0035.html
+[3]: https://groups.google.com/a/chromium.org/d/msg/blink-dev/wXbgxLu63Fo/YtsqkySmTWcJ",mikewest,https://api.github.com/repos/whatwg/html/git/commits/955fbaa1856bee413eb976f22fe4d5a8983f859c
+4fa12c98538878ac73007aec5194448961de91ba,List all editors' emails in acknowledgements,zcorpan,https://api.github.com/repos/whatwg/html/git/commits/4fa12c98538878ac73007aec5194448961de91ba
+228563091add9a21546f8a3c2965e5113fdc025e,Fix the WebM Container Guidelines link,alrra,https://api.github.com/repos/whatwg/html/git/commits/228563091add9a21546f8a3c2965e5113fdc025e
+367707af5cd76864be9224e4b5a769fbf44fed96,"Avoid side-effects when cloning Maps and Sets
+
+The [[MapData]]/[[SetData]] Lists (respectively) are now copied
+before cloning their contents, which allows the spec to avoid
+handling mutations to the cloned Map/Set that occur during cloning.
+
+Resolves https://www.w3.org/Bugs/Public/show_bug.cgi?id=28849",ajklein,https://api.github.com/repos/whatwg/html/git/commits/367707af5cd76864be9224e4b5a769fbf44fed96
+509578d97bd12374e50a409bd4f1ec63cd36a543,"Refactor importScripts(urls)
+
+Refactor importScripts(urls) by extracting it into an algorithm,  import scripts
+into worker global scope, having hooks that can be overriden by derived
+interfaces. The service worker spec uses the extracted algorithm with the
+overriden options: https://slightlyoff.github.io/ServiceWorker/spec/service_worker/#importscripts
+
+Fixes https://www.w3.org/Bugs/Public/show_bug.cgi?id=28737.",jungkees,https://api.github.com/repos/whatwg/html/git/commits/509578d97bd12374e50a409bd4f1ec63cd36a543
+23cf780116ba53168748c243989b357c0a4d337b,"Fix #96: change requestAnimationFrame type to unsigned long
+
+The animation frame callback identifier concept, which is returned from requestAnimationFrame() as index into the callbacks and which index cancelAnimationFrame() uses to remove a callback, cannot be negative.",saneyuki,https://api.github.com/repos/whatwg/html/git/commits/23cf780116ba53168748c243989b357c0a4d337b
+f4f6075e541e0b7dc8e3e470873f52da4921b80c,"Emacs file-local variables only work on the first line.
+
+Fixes #105.",hober,https://api.github.com/repos/whatwg/html/git/commits/f4f6075e541e0b7dc8e3e470873f52da4921b80c
+f619b0c0dfa6076d738c90e0d115221efc7cd003,"Close #109: reference other documents for ARIA behavior and semantics
+
+This moves most normative language regarding ARIA elsewhere. Per a fix for #108 it also takes care of referencing the latest version of ARIA.",stevefaulkner,https://api.github.com/repos/whatwg/html/git/commits/f619b0c0dfa6076d738c90e0d115221efc7cd003
+b6fad7dbcdd6c1ee9ac76d7e6381bd4df4eb3995,"Fix typo ""ul, element""
+
+Resolves #99.
+
+PR: #146",jonathantneal,https://api.github.com/repos/whatwg/html/git/commits/b6fad7dbcdd6c1ee9ac76d7e6381bd4df4eb3995
+be37ac7154f18615af90cc677dc283d86249807e,"Fix a typo 'tailoirings' => 'tailorings'
+
+Fixes https://github.com/whatwg/html/issues/202",yuyokk,https://api.github.com/repos/whatwg/html/git/commits/be37ac7154f18615af90cc677dc283d86249807e
+0abf537186a48f05171d6daf262306fb933ab327,"Remove multicol from elements with default margins
+As Firefox is the only element with default margins, hence it was reasonable to remove it.
+
+Fixes https://www.w3.org/Bugs/Public/show_bug.cgi?id=27672",Ritsyy,https://api.github.com/repos/whatwg/html/git/commits/0abf537186a48f05171d6daf262306fb933ab327
+f7ff53e761a9fc813d9765073e2752d42347f0b6,"Fix #247: make SVG titles first child, not last
+
+The SVG spec says that the title should be the first child, and that
+some UAs might only respect such children, although non-first children
+are also valid.  The only UA that seems to implement setting
+document.title in SVG documents, IE, inserts as the first child and not
+the last.",ayg,https://api.github.com/repos/whatwg/html/git/commits/f7ff53e761a9fc813d9765073e2752d42347f0b6
+4b3e06eaa750f129f25999c742dfc782daa085c9,Fixes #179: Add note about clearing timers,nikkisquared,https://api.github.com/repos/whatwg/html/git/commits/4b3e06eaa750f129f25999c742dfc782daa085c9
+260b66f352b34143c29bf3b2f5a17f9b5c34c1e1,Close #279: stop using IDL Date so it can be removed from IDL,bzbarsky,https://api.github.com/repos/whatwg/html/git/commits/260b66f352b34143c29bf3b2f5a17f9b5c34c1e1
+cb3316db45e369ba31d97c5ee2dcd9c353a3cb5d,"Fixes #265: Change whitelist/blacklist to safelist/blocklist
+
+Closes #281.",vakila,https://api.github.com/repos/whatwg/html/git/commits/cb3316db45e369ba31d97c5ee2dcd9c353a3cb5d
+1b4b0eff5a51769e13a9b6cbb10c2dea3742f3a5,"Drop [Exposed=Window, Worker] for DOMStringMap
+
+Fixes https://www.w3.org/Bugs/Public/show_bug.cgi?id=28104",PoojaSanklecha,https://api.github.com/repos/whatwg/html/git/commits/1b4b0eff5a51769e13a9b6cbb10c2dea3742f3a5
+d8576337e0d6568c1bdf71e1e57603495472fd54,Fix a typo 'succintly' => 'succinctly',aristov,https://api.github.com/repos/whatwg/html/git/commits/d8576337e0d6568c1bdf71e1e57603495472fd54
+bb00977fe0f4960f929bb9fa136be2003383d551,"Replace 2dcontext's currentTransform with get/setTransform
+
+After discussion in #264 we concluded that it makes more sense for the canvas
+2dcontext object to expose currentTransform as set and get methods rather than
+an attribute. This avoids the complications of having a ""live"" object.
+
+However, since we already have a setTransform() method, the solution was
+to replace currentTransform with a getTransform() getter, and overload
+setTransform() to also accept a DOMMatrixInit object.
+
+Also clean up the wording around the term ""current transformation matrix"".",grorg,https://api.github.com/repos/whatwg/html/git/commits/bb00977fe0f4960f929bb9fa136be2003383d551
+dd6a34ec3c191ee1968a0fc8d174b4ce3b615916,"Add scroll restoration preference to history traversal
+
+- Define history.scrollRestoration and update IDLs
+- Add a new persisted user state restoration algorithm
+
+Fixes https://www.w3.org/Bugs/Public/show_bug.cgi?id=28553.
+Closes #278.",majido,https://api.github.com/repos/whatwg/html/git/commits/dd6a34ec3c191ee1968a0fc8d174b4ce3b615916
+f7a66ed52a93d3b63304f4a669e868684dc95b56,"Add supported tokens to relList and sandbox
+
+Add the following:
+* Reference to DOMTokenList's supported tokens in the DOM spec.
+* Supported tokens to HTMLLinkElement's relList.
+* Supported tokens to HTMLIFrameElement's sandbox.
+
+Closes #340.",yoavweiss,https://api.github.com/repos/whatwg/html/git/commits/f7a66ed52a93d3b63304f4a669e868684dc95b56
+6f74880442b4b0b68808226cbd836da26bb3ca09,"Fix typos
+
+Closes #376.",jwilk,https://api.github.com/repos/whatwg/html/git/commits/6f74880442b4b0b68808226cbd836da26bb3ca09
+e1d04f49a38e2254a783c28987457a95a47d9511,"Remove addPathByStrokingPath, addText, addPathByStrokingText from Path2D
+
+The following methods on the Path2D interface have not been implemented
+in any major user agent.
+ - addPathByStrokingPath
+ - addText
+ - addPathByStrokingText
+
+Remove these methods and the associated DrawingStyle interface.
+
+Path2D.addPath has not been removed as is currently shipping /
+implemented in the following engines:
+
+WebKit - Shipped Path2D.addPath.
+Firefox - Shipped Path2D.addPath.
+Blink - Implemented Path2D.addPath behind a flag.
+Edge - Not yet implemented.",bfgeek,https://api.github.com/repos/whatwg/html/git/commits/e1d04f49a38e2254a783c28987457a95a47d9511
+c3c407eecaaac49e771ce05e43a7fc1a5a92333c,Swap male gendered pronouns with female gendered pronouns.,jessebeach,https://api.github.com/repos/whatwg/html/git/commits/c3c407eecaaac49e771ce05e43a7fc1a5a92333c
+08c99122c6fda980b95c90558a2727c69efc1d8f,Remove unnecessary gendering.,tabatkins,https://api.github.com/repos/whatwg/html/git/commits/08c99122c6fda980b95c90558a2727c69efc1d8f
+083c57cc37998292381be3c94aeef483be7213fb,"Change ImageBitmap to allow cross-origin content
+
+Before this change, the content security policy of ImageBitmap did not
+allow any cross-origin content in ImageBitmap objects. Attempts to do
+so would cause SecurityError exceptions to be thrown. With this
+change, a tainting mechanism is added to ImageBitmap, which allows
+cross-origin content to be transported by ImageBitmaps while still
+protecting the bitmap image data from being accessed by script. The
+tainting mechanism uses an 'origin clean' flag that works much like
+the 'origin clean' flag of canvas element bitmaps.
+
+PR https://github.com/whatwg/html/pull/385",junov,https://api.github.com/repos/whatwg/html/git/commits/083c57cc37998292381be3c94aeef483be7213fb
+a14ca08fae3b2d2feec88544dd24b2b3db21ae16,"Fix #426, time element content model contradiction
+
+time element content model contains contradiction with body text",CaseyLeask,https://api.github.com/repos/whatwg/html/git/commits/a14ca08fae3b2d2feec88544dd24b2b3db21ae16
+b88afb63ad1d4b0def27c4561e267f15017bdc8a,"Remove inaccurate fieldset ref in HTMLFormControlsCollection
+
+As of 934887d313305448b7ba6dd3af6f7434e1b600c8, <fieldset> no
+longer utilizes HTMLFormControlsCollection.
+
+PR: https://github.com/whatwg/html/pull/492",frewsxcv,https://api.github.com/repos/whatwg/html/git/commits/b88afb63ad1d4b0def27c4561e267f15017bdc8a
+8558f93f86a8a910fa23d961e271e7333e16170e,Change HTMLFormElement.length to be of type unsigned long,KiChjang,https://api.github.com/repos/whatwg/html/git/commits/8558f93f86a8a910fa23d961e271e7333e16170e
+bfad3beadb1b07fafa1ec98f7c499309d8e263ef,"Fix #535: allow <li value> inside <template>
+
+PR: https://github.com/whatwg/html/pull/542",shubheksha,https://api.github.com/repos/whatwg/html/git/commits/bfad3beadb1b07fafa1ec98f7c499309d8e263ef
+25eaf8811be45dd40f961e7a5f111a4ad1e8fcee,"Define ""relevant settings object"" for any platform object
+
+PR: #564",jyasskin,https://api.github.com/repos/whatwg/html/git/commits/25eaf8811be45dd40f961e7a5f111a4ad1e8fcee
+3f7fda0be2759dc36480c8acc037d149ee831aea,"Fix #489: 'src attribute is missing' is equal to 'no src attribute specified'
+
+PR: #569",piscolomo,https://api.github.com/repos/whatwg/html/git/commits/3f7fda0be2759dc36480c8acc037d149ee831aea
+05599abc3f79d5ef644f9a8464532cc4626a3d46,"Fix #536: abort document.open() if origins mismatch
+
+This matches the implementation of Firefox, and will automatically
+resolve the issue that we use the document's origin for initializing the
+realm but the responsible document's url for setting the url: After this
+change, the document's origin and the responsible document's origin will
+be equal.",jeisinger,https://api.github.com/repos/whatwg/html/git/commits/05599abc3f79d5ef644f9a8464532cc4626a3d46
+be8edde20ac46786af968d4de23e90801d4c7213,"Make HTMLMediaElement.prototype.play() return a promise
+
+This is allowing a simpler flow to know whether playback started or
+whether it failed. It also allows the UA to reject the promise if
+playback is not allowed in the current context, solving issues websites
+have to detect whether autoplay restrictions blocked the playback.
+
+Closes #505.",mounirlamouri,https://api.github.com/repos/whatwg/html/git/commits/be8edde20ac46786af968d4de23e90801d4c7213
+4c475d9ae1e153effcc07730989dae69c31c54d0,"Change the content model of img element to normative ""Nothing"" from ""Empty""
+
+The current content model of img element is ""Empty""
+https://html.spec.whatwg.org/multipage/embedded-content.html#the-img-element
+
+> Content model:
+> Empty.
+
+However, there is no ""Empty"" content model in 3.2.4 Content models.
+https://html.spec.whatwg.org/multipage/dom.html#content-models
+
+Other elements such as input element use ""Nothing"".
+https://html.spec.whatwg.org/multipage/forms.html#the-input-element
+
+> Content model:
+> Nothing.
+
+This PR makes the content model of img element be ""Nothing"".
+
+PR: https://github.com/whatwg/html/pull/629",takenspc,https://api.github.com/repos/whatwg/html/git/commits/4c475d9ae1e153effcc07730989dae69c31c54d0
+27b91b08d2506221e2c8080a0d577402ca65cf59,"Fix typo: add missing `be`
+
+PR: https://github.com/whatwg/html/pull/645",pra85,https://api.github.com/repos/whatwg/html/git/commits/27b91b08d2506221e2c8080a0d577402ca65cf59
+392c10a84c9fffc20d05157343d6f92fa55dc71d,"Fix #655: createPattern() can return null
+
+PR: https://github.com/whatwg/html/pull/677",MichaelKohler,https://api.github.com/repos/whatwg/html/git/commits/392c10a84c9fffc20d05157343d6f92fa55dc71d
+49f9e0489bd69fe022e1d3597021f2af9964c9b1,"Add image manipulation features to createImageBitmap()
+
+This change allows for flipping images vertically (ignoring EXIF data), disabling colorspace
+conversion, and control over whether or not to premultiply by alpha.
+
+PR: https://github.com/whatwg/html/pull/741",xidachen,https://api.github.com/repos/whatwg/html/git/commits/49f9e0489bd69fe022e1d3597021f2af9964c9b1
+179983e9eb99efe417349a40ebb664bd11668ddd,"Allow pingback/prefetch/stylesheet links in body
+
+Some external links augment the current document and should not be
+restricted to metadata content. For example, the server may want to emit
+a prefetch link within body content based on the generated content (well
+after the head section was flushed).
+
+Similarly, the position of a rel=stylesheet link in body can act as an
+optimization and signal to the user agent that DOM content above it may
+be painted - see [1]. However, note that this update does not define or
+change how or when CSS is applied - that's a separate discussion.
+
+All current browsers allow and process external resource links in body,
+this update reflects what's implemented and being used by developers.
+
+[1] https://www.w3.org/Bugs/Public/show_bug.cgi?id=27303#c37
+
+PR: https://github.com/whatwg/html/pull/616",igrigorik,https://api.github.com/repos/whatwg/html/git/commits/179983e9eb99efe417349a40ebb664bd11668ddd
+b466ad7ce49676873ddade4c473b7c983803bfd4,"Don't unset the sequential focus navigation starting point
+
+When running the focus update steps, previously we would unset the
+sequential focus navigation starting point. This behavior is
+counterintuitive and other browsers did not follow it.
+
+The result should now be that instead, after focusing something, the
+sequential focus navigation starting point stays on that control.
+
+Fixes #704.
+
+PR: https://github.com/whatwg/html/pull/732",TakayoshiKochi,https://api.github.com/repos/whatwg/html/git/commits/b466ad7ce49676873ddade4c473b7c983803bfd4
+f1f2caa65e82b1e5ffc885c789085729a7eef962,"Make marker of summary inside
+
+PR: https://github.com/whatwg/html/pull/899",upsuper,https://api.github.com/repos/whatwg/html/git/commits/f1f2caa65e82b1e5ffc885c789085729a7eef962
+0c029fc38775a6e88d2aee358a3942f157ba8271,"Add canvas filters
+
+Fixes https://www.w3.org/Bugs/Public/show_bug.cgi?id=25243.",alijuma,https://api.github.com/repos/whatwg/html/git/commits/0c029fc38775a6e88d2aee358a3942f157ba8271
+28a40d193f38903bd328f4cf7fab460ad67058b3,"Formalize bogus comment state
+
+Proof of work: https://github.com/RReverser/parse5/commit/647a075",RReverser,https://api.github.com/repos/whatwg/html/git/commits/28a40d193f38903bd328f4cf7fab460ad67058b3
+0d634e41ff1ab0684e0b9faa2cb7461e0db3b8a1,"Event handlers should return null if scripting is disabled
+
+This fixes the text to say ""disabled"" instead of ""enabled"". Otherwise we are trying to compile scripts when scripting is disabled.",Joris-van-der-Wel,https://api.github.com/repos/whatwg/html/git/commits/0d634e41ff1ab0684e0b9faa2cb7461e0db3b8a1
+f14e210e557f3b2e20c3c662aefe9fa72d677a2b,"Editorial: missing verb
+
+Fixes #1214.",momdo,https://api.github.com/repos/whatwg/html/git/commits/f14e210e557f3b2e20c3c662aefe9fa72d677a2b
+c35553e4d9e1a05d33d89fa1c399d89e3290ccf4,Add a note about importing the same module script multiple times,jacksonrayhamilton,https://api.github.com/repos/whatwg/html/git/commits/c35553e4d9e1a05d33d89fa1c399d89e3290ccf4
+00dcb3cf4002c67099bfee22ddad743f04d4541f,Change meta-referrer candidate to child of head element of document (#1317),rebstar6,https://api.github.com/repos/whatwg/html/git/commits/00dcb3cf4002c67099bfee22ddad743f04d4541f
+e708109224a46276df1d797e079804a5eb03324f,"Editorial: wrap ""Content-Type/text/html"" in backticks
+
+Fixes #858.",shvaikalesh,https://api.github.com/repos/whatwg/html/git/commits/e708109224a46276df1d797e079804a5eb03324f
+52d529d35464be2c1a2d2f0d0c0f76d4a49bb9dd,"Define the :placeholder-shown pseudo-class for HTML elements
+
+https://drafts.csswg.org/selectors/#placeholder
+
+PR: https://github.com/whatwg/html/pull/1354",SimonSapin,https://api.github.com/repos/whatwg/html/git/commits/52d529d35464be2c1a2d2f0d0c0f76d4a49bb9dd
+4309d4b1b4855b9425a60d1abc8a8b1381fcc903,"Clarify samp element example and add a third one
+
+Fixes #1364.",felixsanz,https://api.github.com/repos/whatwg/html/git/commits/4309d4b1b4855b9425a60d1abc8a8b1381fcc903
+405a49c58954184b5a3f25ecf78bf84017a1bce3,"Editorial: Use consistent spacing for ""Web IDL""
+
+Common usage does not include space, but the Web IDL specification
+itself does, so that seems most appropriate here.
+
+Fixes #1023.
+PR: #1424",Resseguie,https://api.github.com/repos/whatwg/html/git/commits/405a49c58954184b5a3f25ecf78bf84017a1bce3
+4bb63cf6bff37b1e8ca2815db0ff5cec202af9ea,"Editorial: fix typo in ""Integration with IDL""
+
+Fixes #1439.",yuki3,https://api.github.com/repos/whatwg/html/git/commits/4bb63cf6bff37b1e8ca2815db0ff5cec202af9ea
+72695315c124b0fb42103d5dc484ca7e51dd2d1e,"HTMLMediaElement.muted=false may pause the element.
+
+PR: #1410",avayvod,https://api.github.com/repos/whatwg/html/git/commits/72695315c124b0fb42103d5dc484ca7e51dd2d1e
+2cfb8e3f03d3166842d2ad0f661459d26e2a40eb,"Remove <canvas>'s probablySupportsContext
+
+It is implemented in zero browsers, and several browsers object to it.
+Background reading:
+
+- https://wiki.mozilla.org/Platform/GFX/CanvasThingsWeDontPlanToSupport
+- https://bugs.chromium.org/p/chromium/issues/detail?id=251027
+- https://lists.w3.org/Archives/Public/public-whatwg-archive/2013Jun/0098.html",emilio,https://api.github.com/repos/whatwg/html/git/commits/2cfb8e3f03d3166842d2ad0f661459d26e2a40eb
+5f1afb970f012661bc8fcb7d61b4b7321f804a25,"Clarify HTMLHyperlinkElementUtils set the url for absent attribute cases
+
+In the event that the href content attribute is missing, it will be set
+to null and it will no longer try to parse the missing attribute.
+
+Fixes #1340.",WillRay,https://api.github.com/repos/whatwg/html/git/commits/5f1afb970f012661bc8fcb7d61b4b7321f804a25
+7ecbcf1a037449c3d58e26ec704f5cb4cbdcf903,"Remove <menuitem> from Special category
+
+The commit message for 5e49a20874fabef620bf7ea0be7534c73fbd58c4
+mentions that <menuitem> is not ""special"", but neglects to actually
+remove <menuitem> from the list. #234 suggests this is just an
+oversight.",nolanw,https://api.github.com/repos/whatwg/html/git/commits/7ecbcf1a037449c3d58e26ec704f5cb4cbdcf903
+2acc1001fad91e5ee67e1a90e6607a614005d141,"Fix erroroneous categories/parents for <style> in the element index
+
+These were true when the index of elements was introduced, but obsoleted
+when https://github.com/whatwg/html/pull/1226 removed the scoped
+attribute.
+
+Fixes #1521.",ExplodingCabbage,https://api.github.com/repos/whatwg/html/git/commits/2acc1001fad91e5ee67e1a90e6607a614005d141
+b5d23a42277647ef2abc29e0842f215ab57ca9de,"Make DragEvents composed events
+
+Reflect the conclusion of w3c/webcomponents#513.",hayatoito,https://api.github.com/repos/whatwg/html/git/commits/b5d23a42277647ef2abc29e0842f215ab57ca9de
+a10a3a8ea2a90f2c0fc131fbe6b90d8c6f5e195a,"ImageBitmap: improvements to createImageBitmap clips/resizes/transforms
+
+* No longer exits early if no cropping specified
+* Cropping happens before resizing
+* If the crop rectangle is outside the dimensions of the original image,
+  it's clipped, which is consistent with drawImage
+* If only one of resizeWidth / resizeHeight is specified, it maintains
+  ratio with the cropped area
+
+PR: https://github.com/whatwg/html/pull/1546",jakearchibald,https://api.github.com/repos/whatwg/html/git/commits/a10a3a8ea2a90f2c0fc131fbe6b90d8c6f5e195a
+b077861fec94ae84287ffadd028d0c072df63067,"Use img referrerpolicy attribute when fetching images
+
+When initiating a fetch as part of the two image-fetching algorithms
+(see #1643), we should use the element's referrerpolicy attribute to set
+the referrer policy on the request.
+
+See https://github.com/whatwg/html/issues/1531 and
+https://github.com/w3c/webappsec-referrer-policy/issues/40.",estark37,https://api.github.com/repos/whatwg/html/git/commits/b077861fec94ae84287ffadd028d0c072df63067
+3981e7719d8f1794262d8716cf80f7786c53e779,"Remove references to the JavaScript Standard
+
+The JavaScript Standard has accomplished its goal. Some remaining
+web compatibility issues are tracked over at
+https://github.com/tc39/ecma262/labels/web%20reality, to which
+https://javascript.spec.whatwg.org/ now redirects. The rest of the
+contents of the JavaScript Standard have been upstreamed into
+ECMAScript, Annex B.
+
+https://blog.whatwg.org/javascript
+
+Fixes #1660.",mathiasbynens,https://api.github.com/repos/whatwg/html/git/commits/3981e7719d8f1794262d8716cf80f7786c53e779
+881985545c6c5edc8a19a72a8249dcbe5e7c5d61,"Define :enabled by reference to ""actually disabled""
+
+This makes it obvious that the list of conditions for :enabled and
+:disabled are inverses of each other.
+
+Removes a no-longer-accurate comment about disabling a/area/link
+elements.",gibson042,https://api.github.com/repos/whatwg/html/git/commits/881985545c6c5edc8a19a72a8249dcbe5e7c5d61
+f7def432160c2fb13203c2a841da9c1932c13b8a,"Meta: tweak server configuration
+
+We now rely on the default MIME type mapping, and use index.html instead
+of index as the directory index. Fixes #507.",marti1125,https://api.github.com/repos/whatwg/html/git/commits/f7def432160c2fb13203c2a841da9c1932c13b8a
+df2c0c448612d5b8ab85ad3c6ce0255ee11c0b01,"Make MessageEvent's ports attribute non-nullable
+
+Make MessageEvent's ports attribute non-nullable as having it be
+nullable does not bring value and it makes for a nicer API if it is
+always an array. Closes #1882.",cdumez,https://api.github.com/repos/whatwg/html/git/commits/df2c0c448612d5b8ab85ad3c6ce0255ee11c0b01
+adafe995c6d4f5f6df0497a534d31e51043b6750,"Consider pointerup and touchend for ""triggered by user activation""
+
+Although there are larger issues with this definition (see #1358), the
+specific lack of these events was causing implementation confusion, so
+they are worth adding before fixing the definition more generally.",NavidZ,https://api.github.com/repos/whatwg/html/git/commits/adafe995c6d4f5f6df0497a534d31e51043b6750
+00f25b32f60022329202825e87c3b82afbd55c16,"Restore <xmp> to the ""special"" elements list
+
+This was removed, apparently inadvertently, in
+77c3dc4863a212cc944eede0e09907bec52cde43.
+
+<xmp> is still handled specially in the ""in body"" insertion mode, in
+the fragment serialization algorithm, and in the HTML fragment parsing
+algorithm.  Further, because it was (previously) a member of the
+""special"" set, it was handled differently by the adoption agency
+algorithm and by the ""in body"" insertion mode rules for <li>, <dd> and
+<dt> start tags and ""any other end tag"".",cscott,https://api.github.com/repos/whatwg/html/git/commits/00f25b32f60022329202825e87c3b82afbd55c16
+3d19b31e62debaa6132744a530d3d7e33e0bc269,"Editorial: ""fire a simple event"" is now ""fire an event""
+
+Fixes #1887.",sendilkumarn,https://api.github.com/repos/whatwg/html/git/commits/3d19b31e62debaa6132744a530d3d7e33e0bc269
+1a1bca55233741cc70fc8f4a433ccc47b230e6be,Editorial: Fix missing quotation mark in sandbox index,hughbe,https://api.github.com/repos/whatwg/html/git/commits/1a1bca55233741cc70fc8f4a433ccc47b230e6be
+daba40ae4904edaae56e6d26817840dc5dd3deb8,"Require ECMA-402 support from ECMA-262 implementations
+
+Fixes #1976.",littledan,https://api.github.com/repos/whatwg/html/git/commits/daba40ae4904edaae56e6d26817840dc5dd3deb8
+8a1a305b1ccdc2ad792d9c848852a4bae7cf8b84,"Meta: export the definition of [[Clone]]
+
+This will make it possible to move the definition of the [[Clone]] operations
+for Blobs and related types to the File API spec.",mkruisselbrink,https://api.github.com/repos/whatwg/html/git/commits/8a1a305b1ccdc2ad792d9c848852a4bae7cf8b84
+26f0d89b1a8c2a846193d771ae4187feab7d232b,"Editorial: Remove errant space
+
+Fixes #2146.",salty-horse,https://api.github.com/repos/whatwg/html/git/commits/26f0d89b1a8c2a846193d771ae4187feab7d232b
+db4fb13f67d67f3fed92202a61e29c9231185a9f,"Editorial: Rephrase sentence in <dl>
+
+Just a small rephrase that makes more sense. The examples are several
+pages below and only in the single-page version.",diegosolo,https://api.github.com/repos/whatwg/html/git/commits/db4fb13f67d67f3fed92202a61e29c9231185a9f
+8d06ccde51337b307eac32ab037c52927177d935,"Editorial: browsers -> users of browsers
+
+Using media-independent markup makes the documents more accessible for
+the users of browsers, instead of web browsers themselves.",xfq,https://api.github.com/repos/whatwg/html/git/commits/8d06ccde51337b307eac32ab037c52927177d935
+bc6980a71d1ee8e8a84ebd768db7eabfa44bfe27,"Meta: enforce LF line endings for all source files
+
+This avoids errors building the spec on Windows with the default
+autocrlf Git configuration.",XhmikosR,https://api.github.com/repos/whatwg/html/git/commits/bc6980a71d1ee8e8a84ebd768db7eabfa44bfe27
+296da738d868d5f07d3d000b67e61d45104cb074,"Editorial: add missing ""U+"" prefix
+
+Fixes #2274.",Yay295,https://api.github.com/repos/whatwg/html/git/commits/296da738d868d5f07d3d000b67e61d45104cb074
+87bd69237c105fa110c62a913bd297fd649fab92,"Meta/editorial: update how internal slots and methods are defined
+
+This updates how the internal methods and slots defined by this spec,
+namely [[Transfer]](), [[Clone]](), [[Detached]], and a few
+WindowProxy/Location internal slots, are marked up. To fit better with
+other specs in the ecosystem, the brackets are now considered part of
+their name, and their Bikeshed metadata has changed to be ""methods"" and
+""attributes"" of platform objects.",isonmad,https://api.github.com/repos/whatwg/html/git/commits/87bd69237c105fa110c62a913bd297fd649fab92
+ba265b7f4966e1ed2cf725f0088785c536a28574,"Clarify valid URL
+
+The URL standard says ""A URL is a universal identifier. To disambiguate from a URL string it can also be referred to as a URL record."" So it's not correct to refer to this definition of ""URL"" for the validity requirements of an href attribute, which contains a string, not a record.
+
+It was intended to refer to a ""URL string"", which is (more or less) the valid input to the URL parser.",tstarling,https://api.github.com/repos/whatwg/html/git/commits/ba265b7f4966e1ed2cf725f0088785c536a28574
+037e082d30b21271bd410fc2f45d2b4f0bcbce9d,"Align <a>/<area>/Location's pathname getter with the URL Standard
+
+Updates the pathname getter to return the empty string when the URL's path is empty, which mirrors the change in https://github.com/whatwg/url/commit/b087fe2ab215caf656a94b067c9a69ae78f03c8f which in turn fixed https://github.com/whatwg/url/issues/212.
+
+(This was tested as part of the URL Standard change. It is not tested for the Location object as it is not feasible to do so as discussed in the pull request for this change.)",TRowbotham,https://api.github.com/repos/whatwg/html/git/commits/037e082d30b21271bd410fc2f45d2b4f0bcbce9d
+aba54ed5a3dac78c3b29857ab71692f160cbe5e1,"Interrupt autoplay when video element becomes invisible
+
+This also changes the autoplaying flag to the can autoplay flag for clarity.",xxyzzzq,https://api.github.com/repos/whatwg/html/git/commits/aba54ed5a3dac78c3b29857ab71692f160cbe5e1
+a01ce22dab1e7e098e117edeb864b143dde39ca0,"Editorial: cross-reference ""image data"" to its definition
+
+Closes #2325.",vardhan26,https://api.github.com/repos/whatwg/html/git/commits/a01ce22dab1e7e098e117edeb864b143dde39ca0
+03bbc6e92b6b8c9735b4565722916d49fe3eab61,"Define document.domain in terms of a reusable algorithm
+
+This commit introduces a new primitive that enables document.domain, HTTP cookies, and Web Authentication to share their interaction with the Public Suffix List.
+
+No tests have been written since this is a only exposing a new hook and refactoring existing text in the process.",jcjones,https://api.github.com/repos/whatwg/html/git/commits/03bbc6e92b6b8c9735b4565722916d49fe3eab61
+10d61c4f3ef6f818c16696ae246ea211c9608cfb,"Editorial: correct typo and link in select element
+
+Fixes #2178.",dakshshah96,https://api.github.com/repos/whatwg/html/git/commits/10d61c4f3ef6f818c16696ae246ea211c9608cfb
+deffd672d8f03f9fa169a76a9cb5c4b5d2bc5235,"Add ErrorEvent to the event index for event type ""error""",saschanaz,https://api.github.com/repos/whatwg/html/git/commits/deffd672d8f03f9fa169a76a9cb5c4b5d2bc5235
+8644ad9addd54b4f13ba8fb1a0151af1887c8043,"Editorial: Fix inconsistent use of <kbd> when denoting keys
+
+The spec (https://html.spec.whatwg.org/#the-kbd-element) states that
+the kbd element, used on its own, generically represents user input,
+""typically keyboard input, although it may also be used to represent
+other input, such as voice commands.""
+
+A kbd element nested inside a kbd element represents ""an actual key or
+other single unit of input as appropriate for the input mechanism.""
+
+In all but three cases, the spec's own markup adheres to this
+distinction: one kbd element for input, two kbd elements for specific
+button presses.
+
+This commit resolves those three inconsistencies.",callahad,https://api.github.com/repos/whatwg/html/git/commits/8644ad9addd54b4f13ba8fb1a0151af1887c8043
+3044a7e8517a4488cea811789d19974a8d5a56ae,"Remove the dropzone global attribute
+
+dropzone failed to get traction among browser implementers. Having it in
+the specification is confusing to Web developers who may attempt to use
+it, only to discover that it is not supported.
+
+WebKit and Blink implemented a prefixed version, webkitdropzone. The
+prefixed version is going away from Blink [1]. WebKit has no objections
+to the attribute getting removed from the spec [2].
+
+Fixes #2331. Tests:
+
+* https://github.com/w3c/web-platform-tests/pull/5052
+* https://github.com/w3c/web-platform-tests/issues/5053
+
+[1]: https://www.chromestatus.com/feature/5718005866561536
+[2]: https://github.com/whatwg/html/issues/2331#issuecomment-280746724",pwnall,https://api.github.com/repos/whatwg/html/git/commits/3044a7e8517a4488cea811789d19974a8d5a56ae
+65e9640402dab9704e1ea0b40cf8acc36bd6a641,"Editorial: fix variable name pointer → position
+
+Fixes #2446.",billy-woods,https://api.github.com/repos/whatwg/html/git/commits/65e9640402dab9704e1ea0b40cf8acc36bd6a641
+362c9315971af63dbba49ef171644312c721444f,"Change {get,put,create}ImageData() arguments to long
+
+getImageData(), putImageData(), and createImageData() double arguments had undefined behavior and implementation incompatibilities. Reverting them back to long makes it well defined.
+
+Tests: https://github.com/w3c/web-platform-tests/pull/5180.
+
+Fixes #2433.",fserb,https://api.github.com/repos/whatwg/html/git/commits/362c9315971af63dbba49ef171644312c721444f
+688a102b52c7050a6808a05c5d8fe149c0937fd7,"Add a constructor for DataTransfer
+
+Fixes #2190.
+
+Tests: https://github.com/w3c/web-platform-tests/pull/5232",garykac,https://api.github.com/repos/whatwg/html/git/commits/688a102b52c7050a6808a05c5d8fe149c0937fd7
+fcb7d938822308846956e35f525b3e02f21b8dc1,Editorial: Fix a file extension .css to .js in an example,hashedhyphen,https://api.github.com/repos/whatwg/html/git/commits/fcb7d938822308846956e35f525b3e02f21b8dc1
+60e528de1dac2ff675a31237645e3fdd0cd556a3,"Editorial: fix the link for Latin Prose in the description of the full-width-latin keyword
+
+Fixes #2500.",sudsj,https://api.github.com/repos/whatwg/html/git/commits/60e528de1dac2ff675a31237645e3fdd0cd556a3
+2d5febb2ab617c915f1542744fef1b544bacb460,Editorial: Formalize markup declaration open state,inikulin,https://api.github.com/repos/whatwg/html/git/commits/2d5febb2ab617c915f1542744fef1b544bacb460
+9adc12bfa3b62d9a72f2a84cdc13f74d19c1a114,Fix <ruby> example that was missing some closing tags,hax,https://api.github.com/repos/whatwg/html/git/commits/9adc12bfa3b62d9a72f2a84cdc13f74d19c1a114
+018547046496a8eed2a660544462589e1c7c4ff5,"Meta: export WorkerGlobalScope ""closing"" dfn
+
+This flag may be referenced in external documents that extend web
+workers, e.g. the service workers specification. Annotates the definition
+to make it available for such external reference.",jugglinmike,https://api.github.com/repos/whatwg/html/git/commits/018547046496a8eed2a660544462589e1c7c4ff5
+62dd485ba16d64c1204058aebe894286bc26793f,"CONTRIBUTING.md: Change ""newline"" to ""new line""
+
+Given a single block element, ""put it on a new line"", not ""on a newline"".",jjuran,https://api.github.com/repos/whatwg/html/git/commits/62dd485ba16d64c1204058aebe894286bc26793f
+bc787cfd85f58a61de633667c20a5a252eee19af,"Fix createImageBitmap() example syntax
+
+Closes #2675.",guest271314,https://api.github.com/repos/whatwg/html/git/commits/bc787cfd85f58a61de633667c20a5a252eee19af
+84a6cf82d0f1dabc7b2988c105083c27f9cc5944,"Clamp col.span and colgroup.span to [1,1000]
+
+Change reflection behavior of col/colgroup.span to match that of
+td/th.colSpan. Gecko and WebKit already follow the new setting
+behavior. Edge already follows the new getting behavior.
+
+Also updated the table algorithm to use these limits.
+
+Fixes #2705.",davidsgrogan,https://api.github.com/repos/whatwg/html/git/commits/84a6cf82d0f1dabc7b2988c105083c27f9cc5944
+942a9d5b9c0b50bf5bca275e866bb2319ebdca0c,"Clarify case-sensitivity of ID and class attribute selectors
+
+The previous wording, preceded by a paragraph mentioning attribute
+selectors, made this difference unclear as it referred only to ""IDs and
+classes"" rather than the specific selector types.",Zirro,https://api.github.com/repos/whatwg/html/git/commits/942a9d5b9c0b50bf5bca275e866bb2319ebdca0c
+821229b6ec15503b4d692728752390e4c18a6777,"Make form.elements rooted at the document, not the form
+
+Fixes #2764, and matches existing implementations, as shown by
+https://github.com/w3c/web-platform-tests/pull/6255.",hzr,https://api.github.com/repos/whatwg/html/git/commits/821229b6ec15503b4d692728752390e4c18a6777
+26b872a1d480786a42796ddc5d3ba6a873a9b652,"Fix typos in DOMStringList
+
+Closes #2736.",harttle,https://api.github.com/repos/whatwg/html/git/commits/26b872a1d480786a42796ddc5d3ba6a873a9b652
+2202c6c4646b74ad67513916dc2a282cdc879001,"Editorial: clean up innerText recursion
+
+Helps with #1679.",domfarolino,https://api.github.com/repos/whatwg/html/git/commits/2202c6c4646b74ad67513916dc2a282cdc879001
+889fd1d7bb1cd016d37b3e4596b339a17d763a03,Editorial: typo in WorkerLocation's protocol description,tyoshino,https://api.github.com/repos/whatwg/html/git/commits/889fd1d7bb1cd016d37b3e4596b339a17d763a03
+0aac96c7bbbc56774c7964a5f24981b52174af6f,"Specify behavior when playbackRate is set to an unsupported value
+
+Tests: https://github.com/w3c/web-platform-tests/pull/6522.
+
+Fixes #2754.",japacible,https://api.github.com/repos/whatwg/html/git/commits/0aac96c7bbbc56774c7964a5f24981b52174af6f
+efcf0af907c13343d898bf47b5ab004ed59724dd,Clarify that 0x0D CR is not allowed in entities,Alcaro,https://api.github.com/repos/whatwg/html/git/commits/efcf0af907c13343d898bf47b5ab004ed59724dd
+b5dd8520fd16f17f7c0f332795a02a00d7a32849,"Editorial: use sentence case for ""Animation frames""
+
+Fixes #2914.",j9t,https://api.github.com/repos/whatwg/html/git/commits/b5dd8520fd16f17f7c0f332795a02a00d7a32849
+8d2875784cd4684fd85f4421a1d173902d0e1760,"Regression fix: Lost ampersands in Character Reference State's Anything Else case
+
+The Anything Else case of the Character Reference State discarded the
+ampersand that had been consumed to enter the state. This led to e.g. in
+the Data State, ""&*"" emitting only a ""*"" char token, when you'd expect
+both a ""&"" and ""*"" char token.
+
+This regressed in ee198945e388bd3298b73fb842fa0175d5b6a0f9.",JonathanO,https://api.github.com/repos/whatwg/html/git/commits/8d2875784cd4684fd85f4421a1d173902d0e1760
+cdc5273b9d65d3af5ac73e97b22f014c62d83531,"Editorial: the auxclick event has moved specifications
+
+Closes #2889.",a1626,https://api.github.com/repos/whatwg/html/git/commits/cdc5273b9d65d3af5ac73e97b22f014c62d83531
+b324468b9aa1e6c160aedbef2015ae30f5b47ada,"Editorial: fix style element's style data typography
+
+Closes #2994.",hjylewis,https://api.github.com/repos/whatwg/html/git/commits/b324468b9aa1e6c160aedbef2015ae30f5b47ada
+a68a1f712b641981d7367d78758596b21a04521c,"Make noopener stop the copying of session storage
+
+This was discussed in #2681.
+
+Tests: https://bugzilla.mozilla.org/show_bug.cgi?id=1372662
+
+Also fixes #2681's original issue by relocating the copying logic to the
+place where new browsing contexts are actually created, instead of it
+being located in the session storage portions of the spec.",mystor,https://api.github.com/repos/whatwg/html/git/commits/a68a1f712b641981d7367d78758596b21a04521c
+75cce6222c87a0d331fd5b709239521bd5b14e45,"Swap the words “pick” and “toggle” (§ 4.11.3 “Commands”)
+
+The old text associates “pick” with <select multiple> elements and “toggle” with other <select> elements [0], but the defining instances of “pick” [1] and “toggle” [2] make the converse association.
+
+[0] § 4.11.3.5 “Using the <option> element to define a command” https://html.spec.whatwg.org/multipage/interactive-elements.html#using-the-option-element-to-define-a-command
+
+[1] “picked” in § 4.10.7 “The <select> element” https://html.spec.whatwg.org/multipage/form-elements.html#concept-select-pick
+
+[2] “toggle” in § 4.10.7 “The <select> element” https://html.spec.whatwg.org/multipage/form-elements.html#concept-select-toggle",delan,https://api.github.com/repos/whatwg/html/git/commits/75cce6222c87a0d331fd5b709239521bd5b14e45
+542be55f0a627460b55a08b7a1914ea05e9b3a3e,"Define document.all as having [[IsHTMLDDA]]
+
+Fixes #3015.",TimothyGu,https://api.github.com/repos/whatwg/html/git/commits/542be55f0a627460b55a08b7a1914ea05e9b3a3e
+458347c0d677dbd6e2414d6f435c77fbb9c9eab1,"Expose MessagePort to AudioWorklet
+
+See https://github.com/WebAudio/web-audio-api/issues/1266 for details.
+
+Test plan: https://github.com/WebAudio/web-audio-api/issues/1388.
+
+Fixes #3081.",hoch,https://api.github.com/repos/whatwg/html/git/commits/458347c0d677dbd6e2414d6f435c77fbb9c9eab1
+52167758f487aec7d0e6dd3d466cf1c17c001095,Editorial: optons -> options,cynthia,https://api.github.com/repos/whatwg/html/git/commits/52167758f487aec7d0e6dd3d466cf1c17c001095
+5f21a6453b75909ae06e047f116b6a37a815293c,"Editorial: replace ""in in"" phrasing with something less awkward
+
+Fixes #3118.",sam0410,https://api.github.com/repos/whatwg/html/git/commits/5f21a6453b75909ae06e047f116b6a37a815293c
+7a579c1cf3fddc68a634e74c12c457af258e6a80,"Add element.focus({ preventScroll: true })
+
+Addresses the most basic part of #834, allowing further customizations
+to be done by JavaScript code.",jihyerish,https://api.github.com/repos/whatwg/html/git/commits/7a579c1cf3fddc68a634e74c12c457af258e6a80
+76a371d6dd06309ad1a2d4b2cf3e5682b4fc3f2a,"Editorial: change ""has"" to ""have""
+
+Fixes #3206.",ibz096,https://api.github.com/repos/whatwg/html/git/commits/76a371d6dd06309ad1a2d4b2cf3e5682b4fc3f2a
+f43716ffef27763646afb3babf59da853bd9dc43,"Editorial: remove alternative HTML parser algorithm names
+
+Instead, link to a blog post post detailing them and their origins.",dauwhe,https://api.github.com/repos/whatwg/html/git/commits/f43716ffef27763646afb3babf59da853bd9dc43
+05525c88994bf7748eed4e175f2f51f6a01105bc,"Add <img decoding>
+
+The decoding attribute indicates a decoding hint to the user agent. This hint aids the user agent in deciding how to process and decode the image before rasterizing it. Possible values are as follows:
+
+* ""sync"": prefer to decode the image synchronously for atomic presentation with other content
+* ""async"": prefer to decode the image asynchronously to reduce delay in presenting other content
+* ""auto"": default mode, which indicates no preference for the decoding mode.
+
+Fixes #1920.",vmpstr,https://api.github.com/repos/whatwg/html/git/commits/05525c88994bf7748eed4e175f2f51f6a01105bc
+d430f275f4e253956a5965c8b90885d3ac4e90c1,"Refine the inputmode attribute, and expose it on contenteditable
+
+Move the inputmode attribute definition into the editing section
+so that we can declare it in the ContentEditable IDL, and allow it as a
+global attribute. Closes #1897.
+
+Remove the prose concept from inputmode (ie. latin, kana) since it
+hasn't been implemented and is not possible to implement in current
+virtual keyboard implementations. Closes #3077, by resolving to do this
+subsetting instead of full removal. Similarly closes #1626 by
+establishing inputmode=""numeric"" as the solution.
+
+Tests: https://github.com/w3c/web-platform-tests/pull/8690",dtapuska,https://api.github.com/repos/whatwg/html/git/commits/d430f275f4e253956a5965c8b90885d3ac4e90c1
+4c84beec20b840ca3d956515008f94d4ab1924af,"Fix variable typos in canvas ""trace a path"" algorithm
+
+Fixes #3121.",earnubs,https://api.github.com/repos/whatwg/html/git/commits/4c84beec20b840ca3d956515008f94d4ab1924af
+f1f0af83e320f14a59dc4e552ee82aab7908f00c,"Add the autocapitalize attribute
+
+Fixes https://www.w3.org/Bugs/Public/show_bug.cgi?id=28228.
+
+This matches iOS Safari's until-now-unspecified semantics, which Chrome
+for Android is converging on.",rlanday,https://api.github.com/repos/whatwg/html/git/commits/f1f0af83e320f14a59dc4e552ee82aab7908f00c
+b626a63647972cf70bcf1b58a1daf1347b2d3435,"Add <slot>.assignedElements()
+
+Equivalent to assignedNodes(), limited to returning element nodes.
+
+Tests: https://github.com/w3c/web-platform-tests/pull/8636.
+
+Fixes https://github.com/w3c/webcomponents/issues/602.",cyrilletuzi,https://api.github.com/repos/whatwg/html/git/commits/b626a63647972cf70bcf1b58a1daf1347b2d3435
+c8867a179c21134021dc3435e98c1b9c4542d794,"Use Web IDL's new-ish interface mixins concept
+
+WebIDL recently introduced dedicated syntax for mixins [1]. This replaces the
+existing [NoInterfaceObject] and ""implements"" syntax with ""interface mixin"" and
+""includes"" in the appropriate places.
+
+Closes #3194.
+
+[1]: https://github.com/heycam/webidl/commit/45e8173d40ddff8dcf81697326e094bcf8b92920",romandev,https://api.github.com/repos/whatwg/html/git/commits/c8867a179c21134021dc3435e98c1b9c4542d794
+fdd60d3cfe925856f51c804717f7878d9deda966,"Clarify image display when src is an empty string
+
+When src is an empty string (<img src='') and the alt attribute
+is not set UAs currently agree that nothing should be displayed.
+Update the rules to specify this behaviour.
+
+Closes #3280.",mwenge,https://api.github.com/repos/whatwg/html/git/commits/fdd60d3cfe925856f51c804717f7878d9deda966
+58a8817ee90dff89c9b751bc693764dc0a83c0ce,"Fix example of output element to use ids instead of names
+
+The first example of the output element incorrectly referenced input
+elements in the ""for"" attribute by their names. This changes the
+example to reference input elements by their ids instead.
+
+Fixes #3312.",frigus02,https://api.github.com/repos/whatwg/html/git/commits/58a8817ee90dff89c9b751bc693764dc0a83c0ce
+6f22a5064bc796d47617d8bf94317e2c1b2bbf16,"Meta: migrate TEAM.md -> MAINTAINERS.md
+
+Helps with https://github.com/whatwg/meta/issues/64
+
+See also: https://github.com/whatwg/meta/pull/69.",snuggs,https://api.github.com/repos/whatwg/html/git/commits/6f22a5064bc796d47617d8bf94317e2c1b2bbf16
+99e2cdfc484c2ff14cbf5c38b859f4d6da17e64c,"Editorial: further cleanup ""abort these steps""
+
+This replaces ""abort these steps"" with ""return"" and removes redundant ""abort these steps"".
+
+Closes #2878.",shreyateeza,https://api.github.com/repos/whatwg/html/git/commits/99e2cdfc484c2ff14cbf5c38b859f4d6da17e64c
+58286f7078b3aceee060ed6d3635ab8749a77238,"Editorial: use ""child text content"" in the <script> processing model
+
+Closes #3420.",ankurkaushal,https://api.github.com/repos/whatwg/html/git/commits/58286f7078b3aceee060ed6d3635ab8749a77238
+8427925e026fa96cb61e7290f18a168d4ee9e183,"Amend bad link to the child text content change steps
+
+Fixes #3384.",alexnoz,https://api.github.com/repos/whatwg/html/git/commits/8427925e026fa96cb61e7290f18a168d4ee9e183
+52d319a1ea67f90d67b95a5091493baad29ebd53,"Throw when OffscreenCanvas is not usable as image
+
+This is a follow up for #3398, so that drawImage() when given a source
+image that is an OffscreenCanvas with either width or height of zero
+throws an ""InvalidStateError"" DOMException.",zakerinasab,https://api.github.com/repos/whatwg/html/git/commits/52d319a1ea67f90d67b95a5091493baad29ebd53
+2cca8f6db92f1cc061ca3b5daef948d0aa30bc43,"Editorial: make image usability check switch over type
+
+Fixes #3441.",GloverDonovan,https://api.github.com/repos/whatwg/html/git/commits/2cca8f6db92f1cc061ca3b5daef948d0aa30bc43
+b3e9942b5ab1158d690fa49f5edd4b7dbada9e70,"Editorial: fix grammar issue in the ""Privacy concerns"" section
+
+Closes #3503.",ediosyncratic,https://api.github.com/repos/whatwg/html/git/commits/b3e9942b5ab1158d690fa49f5edd4b7dbada9e70
+a53db50ae8e7a7c8ce14c6ada7be1140b065228d,Editorial: fix server-sent events intro variable names,vrana,https://api.github.com/repos/whatwg/html/git/commits/a53db50ae8e7a7c8ce14c6ada7be1140b065228d
+021a5750c5a2e3407ed27f1fd3aac214cb21a71b,"Editorial: replace ""solid black"" with ""opaque black""
+
+Fixes #3431.",TimvdLippe,https://api.github.com/repos/whatwg/html/git/commits/021a5750c5a2e3407ed27f1fd3aac214cb21a71b
+6d9c460b7740a589085dde5ef07446fa69d316af,Meta: export the definition of CORS-same-origin for CSSOM,csnardi,https://api.github.com/repos/whatwg/html/git/commits/6d9c460b7740a589085dde5ef07446fa69d316af
+0213670c0dcf5af1a7d4ffedd1dcf911ca205004,Fix CSS Display reference URL,Zegnat,https://api.github.com/repos/whatwg/html/git/commits/0213670c0dcf5af1a7d4ffedd1dcf911ca205004
+d5c17dff7033d6f1d6d99d07581b5cd0a7333bd0,Editorial: Fix indentation of opening line of interface DataTransfer,dbaron,https://api.github.com/repos/whatwg/html/git/commits/d5c17dff7033d6f1d6d99d07581b5cd0a7333bd0
+5d091c267eff91529b032092c5214a3ffaf1928a,"Allow mathematical expressions in <img sizes>
+
+Tests: https://github.com/w3c/web-platform-tests/pull/10167.
+
+Fixes #3003.",musgravejw,https://api.github.com/repos/whatwg/html/git/commits/5d091c267eff91529b032092c5214a3ffaf1928a
+5b653a9145425b32a4f1c78ffb1a1bda7fde9a6b,Fix customElements.upgrade() to use shadow-including tree order,tkent-google,https://api.github.com/repos/whatwg/html/git/commits/5b653a9145425b32a4f1c78ffb1a1bda7fde9a6b
+d9249d166174f08fe30d843731bfeb58cfb4117c,"Editorial: use a flag to track recursive ""unload a document""
+
+This is more explicit, and more consistent with the ""prompt to unload"" steps.",gterzian,https://api.github.com/repos/whatwg/html/git/commits/d9249d166174f08fe30d843731bfeb58cfb4117c
+cc12390b34dcbe0d06f345e55e87b9e7ffca48c5,"Editorial: make traverse the history pass a request to navigate
+
+This cleans up the prose a bit and allows for a future change to set more bits on this request.",yutakahirano,https://api.github.com/repos/whatwg/html/git/commits/cc12390b34dcbe0d06f345e55e87b9e7ffca48c5
+51bd770cf58cdd761674df0f47c9f9dfc58c5310,"Treat trusted contextmenu events as user activation
+
+Tests: https://crrev.com/c/1039265.",mustaqahmed,https://api.github.com/repos/whatwg/html/git/commits/51bd770cf58cdd761674df0f47c9f9dfc58c5310
+0b843578f85701a79040fd007af7d02822016fa2,"Remove SVGElement include now it is in SVG
+
+Tests: https://github.com/w3c/web-platform-tests/pull/10879.
+
+Fixes #3668.",dstorey,https://api.github.com/repos/whatwg/html/git/commits/0b843578f85701a79040fd007af7d02822016fa2
+a3dca41f0bb379f4132689dd8fa435be28223a7c,"Editorial: remove form and submitter type declarations
+
+The encoding variable doesn't have its type stated either and form and submitter aren't really formalized types to begin with.",amoseui,https://api.github.com/repos/whatwg/html/git/commits/a3dca41f0bb379f4132689dd8fa435be28223a7c
+07ab5082c326a0548b5d7665ac1524f1fa9e2818,"Specify which settings object is used for dynamic import
+
+This patch makes the HostImportModuleDynamically algorithm use
+referencing script's settings object.
+
+Before this patch, the algorithm referred to a ""settings object""
+variable which was never defined anywhere.",nhiroki,https://api.github.com/repos/whatwg/html/git/commits/07ab5082c326a0548b5d7665ac1524f1fa9e2818
+98335c106c6afccd618d33dd9a20562a1041dfd1,"Fix contradictory statement about formenctype invalid value default
+
+This regressed in 7e941ae96b264d4743ea0afac00c3b3209ab0cde.
+
+Fixes #3712.",ericwilligers,https://api.github.com/repos/whatwg/html/git/commits/98335c106c6afccd618d33dd9a20562a1041dfd1
+9592eb5e25acde62b8832ca5fd47d87805a2acbc,"Add ""environment discarding steps"" hook
+
+These are run when navigation or worker start fails, and will be used by
+https://github.com/w3c/ServiceWorker/pull/1315.",mattto,https://api.github.com/repos/whatwg/html/git/commits/9592eb5e25acde62b8832ca5fd47d87805a2acbc
+184be2f979a1020972a9735cb3f6f4ca66177ebb,"Use fetch client settings object for fetching dependency modules
+
+Fixes #3757, by plumbing through the appropriate environment settings
+object into all the algorithms instead of trying to use the module
+script's settings object.",hiroshige-g,https://api.github.com/repos/whatwg/html/git/commits/184be2f979a1020972a9735cb3f6f4ca66177ebb
+78741b7b5471ba213c68a22caff1a53c56d35ce8,"Integrate Feature Policy concepts into HTML
+
+This commit introduces the feature policy for Document objects, adds the
+'allow' attribute to iframe elements, and reframes 'allowfullscreen',
+'allowpaymentrequest' and 'allowusermedia' in terms of feature policy.
+Document allow* flags are removed, as they are no longer referenced.
+
+The 'allowed to use' algorithm is also updated to call into the feature
+policy 'Is feature enabled' algorithm, and rewritten to take a policy-
+controlled feature as an argument rather than an attribute, so that
+other specs can also use it to control other features.
+
+Tests:
+
+- https://github.com/web-platform-tests/wpt/pull/10966
+- https://github.com/web-platform-tests/wpt/commit/3cc0d8989b9530f5fa9096ed03bac1e3ed5bf066
+- https://github.com/web-platform-tests/wpt/commit/9a00e4ac75040e82297b733731151ff77ac37f2b
+- https://github.com/web-platform-tests/wpt/issues/4625",clelland,https://api.github.com/repos/whatwg/html/git/commits/78741b7b5471ba213c68a22caff1a53c56d35ce8
+8cd2bcb2eb72d27a41b247d97703b65a6f66ee2a,"Remove context2d.resetClip()
+
+This is not shipping in any browsers, and was rejected by at least
+WebKit and Chromium:
+
+* https://bugs.webkit.org/show_bug.cgi?id=82801
+* https://bugs.chromium.org/p/chromium/issues/detail?id=284600
+
+There was a previous discussion about removal from the spec at
+https://lists.w3.org/Archives/Public/public-canvas-api/2013JanMar/0017.html.",zbjornson,https://api.github.com/repos/whatwg/html/git/commits/8cd2bcb2eb72d27a41b247d97703b65a6f66ee2a
+0ba1d47f37e2c825928377c11ef24b094022be13,"Fix incorrect comment in canvas example
+
+Closes #3825.",irrationalRock,https://api.github.com/repos/whatwg/html/git/commits/0ba1d47f37e2c825928377c11ef24b094022be13
+141c6580e8630932eeb92064849214303bb9c5be,"Editorial: correct semicolon placement for inputmode attribute
+
+Fixes #3903.",rahulpurohit29,https://api.github.com/repos/whatwg/html/git/commits/141c6580e8630932eeb92064849214303bb9c5be
+92b90bd6137faac0d15aca1ec234afdc80b9547b,"Integrate with the Paint Timing spec
+
+This eliminates Paint Timing's monkey patching, and fixes some minor
+issues with when we mark paint timing. It does so by introducing the new
+concept of ""rendering opportunity"", which roughly maps to frame rate,
+but in a model-agnostic way.
+
+This also lays the groundwork necessary to correctly report event
+duration for the Event Timing spec, per the issue at
+https://github.com/WICG/event-timing/issues/6.",tdresser,https://api.github.com/repos/whatwg/html/git/commits/92b90bd6137faac0d15aca1ec234afdc80b9547b
+55c75fd3d028961ee3cdb13ebb6c42d28c6b6b3a,"Editorial: do not use .mjs extension for classic scripts
+
+Fixes #3942.",xgebi,https://api.github.com/repos/whatwg/html/git/commits/55c75fd3d028961ee3cdb13ebb6c42d28c6b6b3a
+c5eda3f864ce1ca19ef8d97e1c8212e8d261ddfc,Editorial: use <cite> in section 2.2.2 for CSS Syntax,aaqaishtyaq,https://api.github.com/repos/whatwg/html/git/commits/c5eda3f864ce1ca19ef8d97e1c8212e8d261ddfc
+3a20936d5304e7ccdda6969af34a0fcc135aeb1d,"Integrate with WebGL 2.0 (""webgl2"" context)
+
+Tests: https://github.com/KhronosGroup/WebGL/pull/2701.
+
+Fixes #3404.",kenrussell,https://api.github.com/repos/whatwg/html/git/commits/3a20936d5304e7ccdda6969af34a0fcc135aeb1d
+d6feb0566471d7fe75e2a7b968ad116cb8b9e353,"Annotate OffscreenCanvas attributes with [EnforceRange]
+
+Tests: offscreen-canvas/the-offscreen-canvas/offscreencanvas.constructor.html in wpt.
+
+Fixes #3540.",peria,https://api.github.com/repos/whatwg/html/git/commits/d6feb0566471d7fe75e2a7b968ad116cb8b9e353
+32df557b2e7ca31c495f77f8d47ab4dde1e31490,Editorial: remove duplicate word in 12.1.2 Elements,philipahlberg,https://api.github.com/repos/whatwg/html/git/commits/32df557b2e7ca31c495f77f8d47ab4dde1e31490
+6867dfad5794a6d5a99ac435ab9cc7eb86a31846,"Meta: add definition metadata for the nonce="""" attribute
+
+Helps with https://github.com/w3c/webappsec-csp/pull/329.",andypaicu,https://api.github.com/repos/whatwg/html/git/commits/6867dfad5794a6d5a99ac435ab9cc7eb86a31846
+a6c82816b053fdba53e435d5c6bc3d64f032b2c4,"Fix srcset attribute guidelines
+
+Conformance requirement for the width descriptor is about the sizes attribute, not the srcset attribute.
+
+Fixes #3250.",Johanna-hub,https://api.github.com/repos/whatwg/html/git/commits/a6c82816b053fdba53e435d5c6bc3d64f032b2c4
+ba1c3c366ac08e7f6984460a9c83a135c66c2fea,"Return nullable WindowProxy from document.open(url, name, features)
+
+This overload delegates to the window open steps, which can return null.
+
+Fixes #4091.",dguenther,https://api.github.com/repos/whatwg/html/git/commits/ba1c3c366ac08e7f6984460a9c83a135c66c2fea
+425a67ba81288305fce86736a0772f84c3f30eed,"Integrate with the Long Tasks spec
+
+Closes #3949. Taken from https://w3c.github.io/longtasks/#mod.",npm1,https://api.github.com/repos/whatwg/html/git/commits/425a67ba81288305fce86736a0772f84c3f30eed
+01787ee712a7803e64e0da6ac9644a5e6b8d2cca,"Integrate with requestIdleCallback
+
+This adds a hook to the event loop's processing model to define when the
+start of an idle period should begin. This deals with the issue in
+w3c/requestidlecallback#70 and calls directly into the ""start an idle
+period"" algorithm, instead of that algorithm having to having to spin
+the event loop.
+
+Follows w3c/requestidlecallback#75. Closes #3570 by superceding it; this
+simpler version avoids needing to track notifying above rejected
+promises or cleaning up IDB transactions.",rmcilroy,https://api.github.com/repos/whatwg/html/git/commits/01787ee712a7803e64e0da6ac9644a5e6b8d2cca
+4e9e56b013f73175ce7a542c6b6a10095cf5592e,"Editorial: decode Serbo-Croatian example text
+
+Helps with #3683.",edent,https://api.github.com/repos/whatwg/html/git/commits/4e9e56b013f73175ce7a542c6b6a10095cf5592e
+b921d020af9523ac4e4972097ef20530185ca939,"Editorial: sentence-case “Escapable raw text elements”
+
+Closes #3895.",eeeps,https://api.github.com/repos/whatwg/html/git/commits/b921d020af9523ac4e4972097ef20530185ca939
+edc1e95a444871314554a4b8efd33c2472c20357,"Editorial: add crossorigin="""" to list of common media attributes
+
+Although this attribute was in fact common to both <audio> and <video>,
+it was not listed as such alongside other such common attributes, which
+could be confusing. Fixes #4159.",Garee,https://api.github.com/repos/whatwg/html/git/commits/edc1e95a444871314554a4b8efd33c2472c20357
+206873adc7d6862545b56097db874d175e81d15a,"Add getContextAttributes() to CanvasRenderingContext2D
+
+getContextAttributes() here behaves the same as it does for
+WebGLRenderingContext; see
+https://www.khronos.org/registry/webgl/specs/latest/1.0/#5.14.2. This
+was previously discussed in
+https://github.com/WICG/canvas-color-space/blob/master/CanvasColorSpaceProposal.md#feature-detection.
+
+Closes #2563.",yellowdoge,https://api.github.com/repos/whatwg/html/git/commits/206873adc7d6862545b56097db874d175e81d15a
+89e7b27ca06eb43c30d9a2bcf84c9965eb9bbcb9,"Regression fix: include WindowEventHandlers in Window
+
+This line was accidentally deleted in c501dd8ca54a10083c110e695e68f5347b3c1ba9.",jeremyroman,https://api.github.com/repos/whatwg/html/git/commits/89e7b27ca06eb43c30d9a2bcf84c9965eb9bbcb9
+d534c2527bfee4b1c6f35b53249142047340aa97,Fix description of u element in index,drastus,https://api.github.com/repos/whatwg/html/git/commits/d534c2527bfee4b1c6f35b53249142047340aa97
+2b1c10493d3a6f726aa1bcc032eee161ffd3f960,"Editorial: improve async attribute description
+
+Fixes #4171.",co16353sidak,https://api.github.com/repos/whatwg/html/git/commits/2b1c10493d3a6f726aa1bcc032eee161ffd3f960
+86b05f8a07db0627a80781cd8e92179671a28806,"Make cancelAnimationFrame() cancel pending callbacks
+
+Calling cancelAnimationFrame() from within a requestAnimationFrame()
+callback should cancel any animation frame callbacks that are
+pending for the current frame. The currently specified behavior does not
+permit that, however, since it clones the set of callbacks before
+iterating over them.
+
+This patch updates the algorithm to run animation frame callbacks such
+that it is possible to cancel a pending animation frame callback.
+This also brings the specified behavior into line with its
+implementation in Blink, EdgeHTML, and WebKit.
+
+Tests: https://github.com/web-platform-tests/wpt/pull/15455.
+
+Closes #4359.",birtles,https://api.github.com/repos/whatwg/html/git/commits/86b05f8a07db0627a80781cd8e92179671a28806
+552ef78b07b0c717257bc79de94ae1060e364136,"Remove table border-color special case (doesn't match reality)
+
+Tests: will be upstreamed as part of https://bugzilla.mozilla.org/show_bug.cgi?id=1530048.
+
+Fixes #4391.",dholbert,https://api.github.com/repos/whatwg/html/git/commits/552ef78b07b0c717257bc79de94ae1060e364136
+6c7c5a73d602a1d2dce18e8484cb22e086a767ff,"Specify synthetic mouse event name for click()
+
+Fixes #4451.",CYBAI,https://api.github.com/repos/whatwg/html/git/commits/6c7c5a73d602a1d2dce18e8484cb22e086a767ff
+dd87afbc35d288f5877ef039fdb56da4fbd255d4,Meta: update link to IRC info in CONTRIBUTING.md,SuriyaaKudoIsc,https://api.github.com/repos/whatwg/html/git/commits/dd87afbc35d288f5877ef039fdb56da4fbd255d4
+88911390987451f1b64834f8f6ae4313a72af051,"Generalize the description of aborting downloads
+
+A user agent can abort a download for a variety of reasons, not necessarily restricted to the cross-origin scenarios. See https://github.com/WICG/interventions/issues/67 for more context.
+
+Also move the potential of blocking a download out of the filename selection algorithm.",xyaoinum,https://api.github.com/repos/whatwg/html/git/commits/88911390987451f1b64834f8f6ae4313a72af051
+acb2a8378d5572ca0fcbc576697eeaedd1e9cd2b,Editorial: add missing semicolon to index,golightlyb,https://api.github.com/repos/whatwg/html/git/commits/acb2a8378d5572ca0fcbc576697eeaedd1e9cd2b
+fb79e76647b95743eb384effd925d9349a26b68a,"Add CloseEvent interface for ""close"" in the Event index
+
+Fixes #4568.",ArfatSalman,https://api.github.com/repos/whatwg/html/git/commits/fb79e76647b95743eb384effd925d9349a26b68a
+95e0367f7eeed46b21c40c9eeea23984477db289,"The invalid event can fire on the form element
+
+Update the Events Index to include `form` as the elements that is an interesting target.
+
+Fixes #4570.",poyea,https://api.github.com/repos/whatwg/html/git/commits/95e0367f7eeed46b21c40c9eeea23984477db289
+aff33aeabb1665cf4139dc8e1090626392e11f85,"Editorial: remove redundant src="""" in script example",b9a1,https://api.github.com/repos/whatwg/html/git/commits/aff33aeabb1665cf4139dc8e1090626392e11f85
+a40f5b6b28fa4cea67cd65ec44530c022900dd01,"Add defer attribute to nomodule script example
+
+This makes it behave more similar to its module counterpart.",andydavies,https://api.github.com/repos/whatwg/html/git/commits/a40f5b6b28fa4cea67cd65ec44530c022900dd01
+ab950260e0136ecb84bcfeb61f726e52af37b180,"Consistify Script data escaped end tag open state
+
+In order to append characters to the tag name, it needs to be initialized to the empty string.  Also, remove the parenthetical remark (the rest of these were removed in b66ec320).",ianh,https://api.github.com/repos/whatwg/html/git/commits/ab950260e0136ecb84bcfeb61f726e52af37b180
+3eb6169fd2a07c07ab3556fc243401c8e7e73559,"Editorial: rename undefined variable disabledFeaturesSequence
+
+Fixes #4678.",EdgarChen,https://api.github.com/repos/whatwg/html/git/commits/3eb6169fd2a07c07ab3556fc243401c8e7e73559
+8125b06367152654ab07a9b7f9a80e1ee37bf8dc,"Meta: export Document's active sandboxing flag set
+
+For Pointer Lock.",marcoscaceres,https://api.github.com/repos/whatwg/html/git/commits/8125b06367152654ab07a9b7f9a80e1ee37bf8dc
+77f000bd6892634220889d6fc1c2bc9420f72d26,"Editorial: remove redundant ""the""",AndyOGo,https://api.github.com/repos/whatwg/html/git/commits/77f000bd6892634220889d6fc1c2bc9420f72d26
+39dd2044f5371cabf4bd9cbb1c24b5a3a08c4166,"Editorial: Remove 'Strict' arg from FunctionCreate call
+
+In the ECMAScript spec, the recently-merged
+https://github.com/tc39/ecma262/pull/1563 dropped the 'Strict'
+parameter from the abstract operation FunctionCreate (since its setting
+can be determined from the 'Body' parameter).
+
+This commit makes the corresponding change to HTML's only call to
+FunctionCreate.",jmdyck,https://api.github.com/repos/whatwg/html/git/commits/39dd2044f5371cabf4bd9cbb1c24b5a3a08c4166
+acd483a4762d63045a9f870bcbb7d9e42f46caeb,"Editorial: correct duplication of ""no-referrer-when-downgrade""",Malvoz,https://api.github.com/repos/whatwg/html/git/commits/acd483a4762d63045a9f870bcbb7d9e42f46caeb
+15cf23a55d629e0b1286302c19634833a89292ab,"Define what tabIndex returns when the tabindex attribute is not set
+
+This updates the tabIndex getter's default value to be 0 for a specific
+list of element types, instead of the spec's previous ""elements that are
+focusable"". This matches reality better; apart from minor edge cases
+all three browser engines match this spec in observable behavior.
+
+Closes #1786. Closes #4464. See the focus meta-bug in #4607 for related
+discussions, including on adding an API that actually reflects whether
+an element is focusable (like the tabIndex getter was kind-of supposed
+to do).
+
+Tests: https://github.com/web-platform-tests/wpt/pull/17657",rakina,https://api.github.com/repos/whatwg/html/git/commits/15cf23a55d629e0b1286302c19634833a89292ab
+817ee1b69398ea385d639a35450cc218463bff0d,"Editorial: rename ""Plain Unicode string"" to ""text"" for drag data store
+
+Fixes #4798.",karx,https://api.github.com/repos/whatwg/html/git/commits/817ee1b69398ea385d639a35450cc218463bff0d
+ef22f69667c6f1bc287fb2d940e4e7298933aeb9,"Fix conformance requirements on <script>'s integrity="""" attribute
+
+Fixes #4358. See also #2382.",dieulot,https://api.github.com/repos/whatwg/html/git/commits/ef22f69667c6f1bc287fb2d940e4e7298933aeb9
+1bd83a335dedb6a30c6a8609ec36fe390a23fdb3,"Editorial: add a note for image button command labeling
+
+Closes #4815.",scottaohara,https://api.github.com/repos/whatwg/html/git/commits/1bd83a335dedb6a30c6a8609ec36fe390a23fdb3
+cc8ad89d84b84412a0e7856bcc876d2682c21e63,"Map 0 for <col>'s width="""" as well
+
+This matches implementations.
+
+Tests: https://github.com/web-platform-tests/wpt/pull/17572",gurjotsingh4398,https://api.github.com/repos/whatwg/html/git/commits/cc8ad89d84b84412a0e7856bcc876d2682c21e63
+704a52e6997b115c882bb40c3a5ed58358e02ac7,"Editorial: remove all BigInt references
+
+BigInt is part of JavaScript now and no longer a proposal.
+
+Fixes #4947.",tomtt,https://api.github.com/repos/whatwg/html/git/commits/704a52e6997b115c882bb40c3a5ed58358e02ac7
+c912846eef7cbf45d62374e6c79c028f5f7d7d6b,"Meta: Remove the data-dfn-type attribute for the :defined pseudo-class
+
+The term is not exported, so there's no need to specify the dfn type.",isaacdurazo,https://api.github.com/repos/whatwg/html/git/commits/c912846eef7cbf45d62374e6c79c028f5f7d7d6b
+f101f1e3f6e7b2885ead06d26b1984fc316c20ea,"Update remaining [HTMLConstructor] extended attributes
+
+This fixes all the [HTMLConstructor] extended attribute usage that was
+missed in e38aa416a71dc1e2e78c83f4ef33294e21d40e66.",pmdartus,https://api.github.com/repos/whatwg/html/git/commits/f101f1e3f6e7b2885ead06d26b1984fc316c20ea
+6772a0342e6ffebc922c60c770dce87371b6c968,"Restrict (un)registerProtocolHandler to secure contexts
+
+Fixes #5068. Fixes #4017.
+
+This also clarifies the example about leaking private data, which made
+less sense after b143dbc2d16f3473fcadee377d838070718549d3.",ericlaw1979,https://api.github.com/repos/whatwg/html/git/commits/6772a0342e6ffebc922c60c770dce87371b6c968
+1e920001839f255bf5ea3ba687b74457188246ed,"Fix ""get the focusable area""
+
+The refactoring in bcd5d619063c809f297c1b8dfd13146ee2993371 missed a few
+instances of the ""new focus target"" variable.",bicknellr,https://api.github.com/repos/whatwg/html/git/commits/1e920001839f255bf5ea3ba687b74457188246ed
+31c5b07faa473024524f8544d3ad404715cd5355,"Meta: export ""form-associated custom elements""",carmacleod,https://api.github.com/repos/whatwg/html/git/commits/31c5b07faa473024524f8544d3ad404715cd5355
+1beaf2d16571136c02ded9676a619cbdf931a291,"Clarify that developers also need to escape ""<SCRiPT"" etc.",ArgonAlex,https://api.github.com/repos/whatwg/html/git/commits/1beaf2d16571136c02ded9676a619cbdf931a291
+eb2bdc4da9192ca8009bc3b562771652c18b1b1c,Meta: export node's language,janiceshiu,https://api.github.com/repos/whatwg/html/git/commits/eb2bdc4da9192ca8009bc3b562771652c18b1b1c
+0b8e268e50d30d321be387dd77dc47bc45f937f0,"Spec the prefixed CSS Animation/Transition event handlers
+
+Closes https://github.com/whatwg/compat/issues/118.",stephenmcgruer,https://api.github.com/repos/whatwg/html/git/commits/0b8e268e50d30d321be387dd77dc47bc45f937f0
+8f4e97a172f9ec6e1bf7026fa8292659e0502dbd,"Remove frameset from Window's named objects
+
+d3c9442efe3370b9414d290f45ca356e1f0411bd intended to remove a, area, and
+frameset from Window's named objects, and came with matching web
+platform tests to assert that frameset was removed, which all engines
+currently pass. However, that commit actually forgot to remove frameset;
+this fixes that.
+
+Closes #5230.",pshaughn,https://api.github.com/repos/whatwg/html/git/commits/8f4e97a172f9ec6e1bf7026fa8292659e0502dbd
+a5113415d28ece380dfc3c1c3c8063ceee610745,"Add more checks when matching SharedWorkerGlobalScopes
+
+This adds a check to see if the type and credentials values passed to
+the SharedWorker constructor match any previous instantiations of
+SharedWorkerGlobalScope with the same URL, before connecting the new
+SharedWorker to that SharedWorkerGlobalScope. If the check fails, we now
+fire an error event and do not connect to the SharedWorkerGlobalScope;
+previously, we would ignore any mismatches.
+
+Fixes #5235.
+
+Tests: https://github.com/web-platform-tests/wpt/pull/21651",elkurin,https://api.github.com/repos/whatwg/html/git/commits/a5113415d28ece380dfc3c1c3c8063ceee610745
+0283e9e5f349b107c745dbeb73034445a6b55796,"Add <img loading=lazy> ""lazy loading images""
+
+Follow-up: #5236.
+
+Tests: 
+* https://github.com/web-platform-tests/wpt/pull/14914
+* https://github.com/web-platform-tests/wpt/pull/17985
+* https://github.com/web-platform-tests/wpt/pull/18087
+* https://github.com/web-platform-tests/wpt/pull/20634
+* https://github.com/web-platform-tests/wpt/pull/20747
+* https://github.com/web-platform-tests/wpt/pull/20683
+* https://github.com/web-platform-tests/wpt/pull/20774
+* https://github.com/web-platform-tests/wpt/pull/20680
+* Some as part of https://bugzilla.mozilla.org/show_bug.cgi?id=1542784
+
+Closes #2806. Closes #5250.
+
+Co-authored-by: Dominic Farolino <domfarolino@gmail.com>
+Co-authored-by: Anne van Kesteren <annevk@annevk.nl>",bengreenstein,https://api.github.com/repos/whatwg/html/git/commits/0283e9e5f349b107c745dbeb73034445a6b55796
+99614e46cb756789dfb5db5d164580ad862fbaa5,"Fix confusable same site examples
+
+The results shown in the example table for ""same site"" and ""schemelessly
+same site"" algorithms are based on assuming that ""suffix.example"" is a
+public suffix. Since it actually isn't, this causes confusion.
+
+This commit replaces ""suffix.example"" with ""wildlife.museum"" which is a
+valid public suffix from the Public Suffix List
+(https://publicsuffix.org). It also explicitly states all of the public
+suffixes involved in the examples.
+
+Closes #5316.",lazdmx,https://api.github.com/repos/whatwg/html/git/commits/99614e46cb756789dfb5db5d164580ad862fbaa5

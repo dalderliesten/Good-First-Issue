@@ -1,0 +1,1513 @@
+First Commit Hash (SHA),Commit Message,Author (Github Name),Link to Commit
+b297fcb835428108bd1b4e75cb519c0fabff39fa,initial commit,ac360,https://api.github.com/repos/serverless/serverless/git/commits/b297fcb835428108bd1b4e75cb519c0fabff39fa
+15c2467da985ba603c6182dc4f7f16d1ba9eee21,Missing word,colinramsay,https://api.github.com/repos/serverless/serverless/git/commits/15c2467da985ba603c6182dc4f7f16d1ba9eee21
+f9f829573a7b0b5d3b660261747ef878419d55b7,remove extraneous `are`,friism,https://api.github.com/repos/serverless/serverless/git/commits/f9f829573a7b0b5d3b660261747ef878419d55b7
+89fe38f910d6aa5fe6adc5c0b756aed0066e39c3,"Update README.md
+
+fixed some typos",derekvanvliet,https://api.github.com/repos/serverless/serverless/git/commits/89fe38f910d6aa5fe6adc5c0b756aed0066e39c3
+69acfa3ca4e35567f647fe4f3a98f963d2766e59,updated aws config to use .env regions,austinrivas,https://api.github.com/repos/serverless/serverless/git/commits/69acfa3ca4e35567f647fe4f3a98f963d2766e59
+3b7d89ff245a35959fd9f9605faca8882387351e,default help with no args passed to jaws,mcwhittemore,https://api.github.com/repos/serverless/serverless/git/commits/3b7d89ff245a35959fd9f9605faca8882387351e
+a9dc285ab6fdb421baaee63ae6ecd3fc08a26c35,"Added action help text for the jaws bin.
+When creating a new action, quickly check if we are in the JAWS project directory.",dekz,https://api.github.com/repos/serverless/serverless/git/commits/a9dc285ab6fdb421baaee63ae6ecd3fc08a26c35
+882cfa0eda3722174a03b801e4b8d143f02cfc4b,Fix typo in jaws.json doc,boushley,https://api.github.com/repos/serverless/serverless/git/commits/882cfa0eda3722174a03b801e4b8d143f02cfc4b
+bc35e2364eb74697c7e6a0c96ce604d47347f3ee,Fix the header image link in README,uiur,https://api.github.com/repos/serverless/serverless/git/commits/bc35e2364eb74697c7e6a0c96ce604d47347f3ee
+02e2ee6237a4748c6bfdde5a6953feb8f57c5a2f,removed duplicate lines,eahefnawy,https://api.github.com/repos/serverless/serverless/git/commits/02e2ee6237a4748c6bfdde5a6953feb8f57c5a2f
+280c7ae7f10a19edd55acf409f43d5d82237286c,"install shelljs as dependency, not devDependency",markogresak,https://api.github.com/repos/serverless/serverless/git/commits/280c7ae7f10a19edd55acf409f43d5d82237286c
+c87d3db002c27b86944f531153e0022d2b048fb0,dash prompt display stages on command line,icereval,https://api.github.com/repos/serverless/serverless/git/commits/c87d3db002c27b86944f531153e0022d2b048fb0
+890202914f43ebf48c016ad41b1781112997d77a,Allow custom selectionPattern attributes,joostfarla,https://api.github.com/repos/serverless/serverless/git/commits/890202914f43ebf48c016ad41b1781112997d77a
+0f6758de00a563fce2e59b961282e627d0878a89,"Tag all can now tag all endpoints and lambdas in one command
+
+A proposed solution to jaws-framework/JAWS#164.
+
+Implements a new “all” type which allows a user to tag all Lambdas and
+Endpoints in one command. It also makes this the default command when
+running a bare `jaws tag --tag-all` or `jaws tag --untag-all` with no
+type option.",shortjared,https://api.github.com/repos/serverless/serverless/git/commits/0f6758de00a563fce2e59b961282e627d0878a89
+4199c88b6d780c4b469478263fca3947976c9d1d,Fixed stage selector during lambda deploy,Nopik,https://api.github.com/repos/serverless/serverless/git/commits/4199c88b6d780c4b469478263fca3947976c9d1d
+458dc574bc1f4c0bd20bf3f91f87bb8c5528fca6,"Fix typo
+
+:)",mparramont,https://api.github.com/repos/serverless/serverless/git/commits/458dc574bc1f4c0bd20bf3f91f87bb8c5528fca6
+764dcde5f5e3eb915669c9258d1dcac38f9a2dcb,Fixed a typo in the commands.md file,Ninir,https://api.github.com/repos/serverless/serverless/git/commits/764dcde5f5e3eb915669c9258d1dcac38f9a2dcb
+44a2a290ffd8fcff34fb771bc408ae3be3484dec,Closed an unclosed bracket.,InvertedAcceleration,https://api.github.com/repos/serverless/serverless/git/commits/44a2a290ffd8fcff34fb771bc408ae3be3484dec
+b03459e3cf658b6651e1db668ddfced048f79a17,Fix typos in README.md,forevermatt,https://api.github.com/repos/serverless/serverless/git/commits/b03459e3cf658b6651e1db668ddfced048f79a17
+20d34a8c101a8afaadd14b831df4caf99e74267b,"Remove `sl` command because it tramples other commands
+
+Users can add aliases if they like, but `sl` conflicts, and is easy to mistype when you mean `ls`.",ryansb,https://api.github.com/repos/serverless/serverless/git/commits/20d34a8c101a8afaadd14b831df4caf99e74267b
+39278f5b561372bba2d5f9e45258167b93b9ac77,Remove unused variable,apaatsio,https://api.github.com/repos/serverless/serverless/git/commits/39278f5b561372bba2d5f9e45258167b93b9ac77
+aeff3c9cf5b818150b83796984a0e187f05d65e4,"Centralized and fixed event.json loading
+
+Refactored event.json loading code to be a call to a central function as opposed to duplicating the same code. See _loadTestEvent on line 159 and line 72
+Referenced absolute path to event.json file in order to correctly load the file. See 162.",visualasparagus,https://api.github.com/repos/serverless/serverless/git/commits/aeff3c9cf5b818150b83796984a0e187f05d65e4
+5bef2beb0743c54b41bef3b6cf2f5a51e5a96a9e,"Check whether requestTemplates is an object and if so, stringify it so that the ApiG API is happy but we can also use JSON in sFunction.json for the requestTemplates attribute.",erikerikson,https://api.github.com/repos/serverless/serverless/git/commits/5bef2beb0743c54b41bef3b6cf2f5a51e5a96a9e
+b6e26c54f20edb239fc5717e9619716d1decdee1,"Fix improper pluralization of creating or updating in CloudFormation error message
+
+Fixes:
+
+[ServerlessError: Something went wrong while createing your cloudformation]
+
+or
+
+[ServerlessError: Something went wrong while updateing your cloudformation]",kevinold,https://api.github.com/repos/serverless/serverless/git/commits/b6e26c54f20edb239fc5717e9619716d1decdee1
+20d52c5bcac1e0bb9f86ca511b4f5d10639173d1,"add shortcut -v, --version to get the version",picsoung,https://api.github.com/repos/serverless/serverless/git/commits/20d52c5bcac1e0bb9f86ca511b4f5d10639173d1
+7e1273209cd715544550aca8113c08e96f9b7a40,add aws profile support,martinlindenberg,https://api.github.com/repos/serverless/serverless/git/commits/7e1273209cd715544550aca8113c08e96f9b7a40
+cc983cf742edcf4fb61d105c5a0a540c2710f3bc,Add CloudFormation Validator Plugin to README,tmilewski,https://api.github.com/repos/serverless/serverless/git/commits/cc983cf742edcf4fb61d105c5a0a540c2710f3bc
+15386ced65985f055c773f6011e3e05447e105d4,Show cloudformation messages when any errors are happning while updating/creating projects,ryutamaki,https://api.github.com/repos/serverless/serverless/git/commits/15386ced65985f055c773f6011e3e05447e105d4
+0f1128ff9f5ac9f1211699854359a651ea1f4335,Fix i/j index typo in CloudFormation module aggregation,kennu,https://api.github.com/repos/serverless/serverless/git/commits/0f1128ff9f5ac9f1211699854359a651ea1f4335
+7f25a879e4bc6366323aa7d5836ff32ee7d181b2,adds ResourcesRemove action,minibikini,https://api.github.com/repos/serverless/serverless/git/commits/7f25a879e4bc6366323aa7d5836ff32ee7d181b2
+b5f3cf8311f0b8273606f2c9826af1d285b6c3b1,Add additional hotkeys and instruction text to dash.,jordanmack,https://api.github.com/repos/serverless/serverless/git/commits/b5f3cf8311f0b8273606f2c9826af1d285b6c3b1
+bad2d68f1327b6082b05e562cac85ea1261fb596,add FB + update SO urls to have the recently created serverless-framework tag,alexandresaiz,https://api.github.com/repos/serverless/serverless/git/commits/bad2d68f1327b6082b05e562cac85ea1261fb596
+eb0ac3c24f29b51487ec1f65440ab6b03016de9e,Fix broken mailto link in README,pmuens,https://api.github.com/repos/serverless/serverless/git/commits/eb0ac3c24f29b51487ec1f65440ab6b03016de9e
+9a7cae8de560ae9e9a744f47029e859bb21d3e7b,Spelling and grammar fixes in README.md,brentax,https://api.github.com/repos/serverless/serverless/git/commits/9a7cae8de560ae9e9a744f47029e859bb21d3e7b
+585a892d7018be838aa06c30635629670c0360c3,Fix rewriting s-templates.json,kpotehin,https://api.github.com/repos/serverless/serverless/git/commits/585a892d7018be838aa06c30635629670c0360c3
+d5873d177c740ce60dba00c7422c7b3722213dd0,Update a Roadmap link to Milestones,weitzman,https://api.github.com/repos/serverless/serverless/git/commits/d5873d177c740ce60dba00c7422c7b3722213dd0
+78240d3b723f224ca13b99004d4f1fd080fd5d75,"Added CF output variables to project stage variables. The export can be controlled by a whitelist array within s-project.json named ""resourceVars"".",HyperBrain,https://api.github.com/repos/serverless/serverless/git/commits/78240d3b723f224ca13b99004d4f1fd080fd5d75
+4db3684102980acda1294c15a3bbcc48fadc7420,updated README.md,dherault,https://api.github.com/repos/serverless/serverless/git/commits/4db3684102980acda1294c15a3bbcc48fadc7420
+202255366d3b6de0bc1b19a43cf770b61c3e22cf,Add Parallax to the list of consultants,MrRio,https://api.github.com/repos/serverless/serverless/git/commits/202255366d3b6de0bc1b19a43cf770b61c3e22cf
+b1da98afb562c156037da2c6376e63048ae906e8,Add SC5 to the list of consultants.,laurisvan,https://api.github.com/repos/serverless/serverless/git/commits/b1da98afb562c156037da2c6376e63048ae906e8
+bad0becf638c465bc18aa5045b9d4050a350088f,Optimizer plugin: coffee and babel support,rma4ok,https://api.github.com/repos/serverless/serverless/git/commits/bad0becf638c465bc18aa5045b9d4050a350088f
+5791e69508f4fcbc332e35fdb6bafd61748aa1df,"Fixes #813 and #814
+
+* More narrowly define default function excludePatterns
+* Correct reference to undefined properties in `Runtime._validateAndPrepare()`",michaelorionmcmanus,https://api.github.com/repos/serverless/serverless/git/commits/5791e69508f4fcbc332e35fdb6bafd61748aa1df
+d4a6be7fde6f3642f53622479c15d2af34cf6456,"Fix CloudWatch events target
+
+Fixes `Unexpected key 'input' found in params.Targets[0]`.",nicka,https://api.github.com/repos/serverless/serverless/git/commits/d4a6be7fde6f3642f53622479c15d2af34cf6456
+79a071f1cf93194d157979a54ed9fd97a4423ba5,"Add Useful IO to the consultants list
+
+We're using serverless to scale out on-demand processing jobs as well as build APIs and data flows with dynamo streams. :) It's great.",ianserlin,https://api.github.com/repos/serverless/serverless/git/commits/79a071f1cf93194d157979a54ed9fd97a4423ba5
+577de00b7e0fe7ce199dd1a6a23ea8ae1682878c,Fixed endpoint names.,affablebloke,https://api.github.com/repos/serverless/serverless/git/commits/577de00b7e0fe7ce199dd1a6a23ea8ae1682878c
+71f76e1161cbe9bc820d4913450cc8e8090ad5ef,Using copy instead of move to avoid 'EEXIST: file already exists' error due to the preceding move operation.,arithmetric,https://api.github.com/repos/serverless/serverless/git/commits/71f76e1161cbe9bc820d4913450cc8e8090ad5ef
+9750d82ed644b882eb9206d100e147b8d02bcd5e,Look for AWS_CLIENT_TIMEOUT in the environment to set AWS.config.httpOptions.timeout,pwagener,https://api.github.com/repos/serverless/serverless/git/commits/9750d82ed644b882eb9206d100e147b8d02bcd5e
+31087a29496851babbc135c3a40d409bf62b3dd1,"Updates README.md
+
+I created a similar plugin to jshint but it uses eslint plugin for linting the jscode.
+
+Thanks",nishantjain91,https://api.github.com/repos/serverless/serverless/git/commits/31087a29496851babbc135c3a40d409bf62b3dd1
+91f2e08333e2d8c9180d69dee00df7670252ed7a,Merge remote-tracking branch 'serverless/master',jonathannaguin,https://api.github.com/repos/serverless/serverless/git/commits/91f2e08333e2d8c9180d69dee00df7670252ed7a
+591265972c3abe0e9f08b68c1b9869b91b6e725d,split out guid util function on its own,stevecaldwell77,https://api.github.com/repos/serverless/serverless/git/commits/591265972c3abe0e9f08b68c1b9869b91b6e725d
+39f763c836084f55868180f06969d00098941416,Fix 886 resource output values not updating,BlueBlock,https://api.github.com/repos/serverless/serverless/git/commits/39f763c836084f55868180f06969d00098941416
+91835b689d765313837a3a60d175e0fd61adc912,Add serverless-mocha-plugin to README,mpuittinen,https://api.github.com/repos/serverless/serverless/git/commits/91835b689d765313837a3a60d175e0fd61adc912
+a357d9553eebe2381c3f99c5ffe1a8d03bdf73fb,"Fix version comparison operation
+
+If you pass in a specific version using the command line, javascript parses it as a `number` which is unsuccessfully compared to the string `Version` returned from the AWS SDK.
+
+The issue can be fixed multiple ways, this has the least side effects but consider alternatively passing in the version like ""v3"" instead because that's how the interactive version displays it.",rajington,https://api.github.com/repos/serverless/serverless/git/commits/a357d9553eebe2381c3f99c5ffe1a8d03bdf73fb
+dadc943aca23dc3854d26c7d413c8958d4304dee,Retry on 429,tszajna0,https://api.github.com/repos/serverless/serverless/git/commits/dadc943aca23dc3854d26c7d413c8958d4304dee
+eb0f449974cfac983b496083929d242d26f3df08,Add travisci config,flomotlik,https://api.github.com/repos/serverless/serverless/git/commits/eb0f449974cfac983b496083929d242d26f3df08
+7911000325b706500d7e2b4af0136b7c14fc1253,"Condense CLI output to fit in a single screen
+
+Resolves: #657",akalra,https://api.github.com/repos/serverless/serverless/git/commits/7911000325b706500d7e2b4af0136b7c14fc1253
+f447aec49491397deb516e8cf31163f4e9262358,Add IoT event source,jerwallace,https://api.github.com/repos/serverless/serverless/git/commits/f447aec49491397deb516e8cf31163f4e9262358
+0cb02b9316f07861a225ab7acc4b5fdb493ba6c8,fix indentation in events template,nikgraf,https://api.github.com/repos/serverless/serverless/git/commits/0cb02b9316f07861a225ab7acc4b5fdb493ba6c8
+922be82262bdfccf645d6292bb87c44c82b1ce35,fix typo,mthenw,https://api.github.com/repos/serverless/serverless/git/commits/922be82262bdfccf645d6292bb87c44c82b1ce35
+e53e94dd3062d3f7717afe82663ad2a0a9d54314,resize gif,olzaragoza,https://api.github.com/repos/serverless/serverless/git/commits/e53e94dd3062d3f7717afe82663ad2a0a9d54314
+124898068ddf92a0aa8e7f870558376dc08cd1ce,"Change the variable 
+
+i thing is memoryVar is correct than memoryVariable",williamgueiros,https://api.github.com/repos/serverless/serverless/git/commits/124898068ddf92a0aa8e7f870558376dc08cd1ce
+7dd58f032560460a35ae04ef7e562db60b231463,"Implement service plugin loading
+
+Resolves #1442",kid,https://api.github.com/repos/serverless/serverless/git/commits/7dd58f032560460a35ae04ef7e562db60b231463
+4756586709a69c338c1554da57fc4825eec4f931,"Make sure permissions are zipped
+
+As also mentioned in PR #960, the permissions need to be set correctly, to be able to upload binaries, this is a regression :)",svdgraaf,https://api.github.com/repos/serverless/serverless/git/commits/4756586709a69c338c1554da57fc4825eec4f931
+aab1f2548ef85bcc9151c6650c387e4ef98111bf,Update README.md,ChristianDavis,https://api.github.com/repos/serverless/serverless/git/commits/aab1f2548ef85bcc9151c6650c387e4ef98111bf
+5049fbb55523020ec9230312737fc62d8e3324bb,fixes serverless/serverless#1638,activescott,https://api.github.com/repos/serverless/serverless/git/commits/5049fbb55523020ec9230312737fc62d8e3324bb
+8febc06daeeb5f1256a93a25c72791714b3a9557,provide empty list of events if necessary,jexact,https://api.github.com/repos/serverless/serverless/git/commits/8febc06daeeb5f1256a93a25c72791714b3a9557
+5fc4d5cf496df698d5f63c8eabe4938c574dadc4,"fixed indentation
+
+fixed indentation",michaelwittig,https://api.github.com/repos/serverless/serverless/git/commits/5fc4d5cf496df698d5f63c8eabe4938c574dadc4
+d05a17686b3848e88ec08298f54cdf278f142225,"Add java maven and gradle templates, tests and instructions
+
+Signed-off-by: Ilya Shindyapin <ilya@shindyapin.com>",license2e,https://api.github.com/repos/serverless/serverless/git/commits/d05a17686b3848e88ec08298f54cdf278f142225
+18fbc6ef7638b3e0d0d89e765156f1ab828cd7ac,"fix(deploy): Functions no longer need to maintain order
+
+Resources and Methods were referenced by their index which made redeploying fail when you swapped the order of functions or added new ones anywhere bar the bottom of the object
+
+Closes #1683",wedgybo,https://api.github.com/repos/serverless/serverless/git/commits/18fbc6ef7638b3e0d0d89e765156f1ab828cd7ac
+9f0c506c75184225735b99df3313c3d87c0fd0df,"fix 1468 - display endpoints
+
+Display general information on service, functions and endpoints.
+Add tests.
+
+partial fix for #1468 - display endpoints
+
+fix 1468 - display endpoints
+
+Display general information on service, functions and endpoints.
+Add tests.",bennybauer,https://api.github.com/repos/serverless/serverless/git/commits/9f0c506c75184225735b99df3313c3d87c0fd0df
+12bf5f483068d53471efcfdb67fbd59e7fa7448b,docs(readme): update readme structure for beta,DavidWells,https://api.github.com/repos/serverless/serverless/git/commits/12bf5f483068d53471efcfdb67fbd59e7fa7448b
+c44dffc5b2351e9de2950f5d7370be9269f87c78,Fix broken v1.0.0 README docs link,fahrradflucht,https://api.github.com/repos/serverless/serverless/git/commits/c44dffc5b2351e9de2950f5d7370be9269f87c78
+4ac22f2246c80228f63712d4e36d091d6f006ee8,switch from node-zip to jszip,chris-olszewski,https://api.github.com/repos/serverless/serverless/git/commits/4ac22f2246c80228f63712d4e36d091d6f006ee8
+9e8138abfd68f6f3274cafeb38feb6f59dca5752,move variableSyntax into defaults and update docs,johncmckim,https://api.github.com/repos/serverless/serverless/git/commits/9e8138abfd68f6f3274cafeb38feb6f59dca5752
+944fbed95f1b86bc2ebb37b6d7bf8dc427776ff9,Added Serverless dynamodb local plugin and serverless dependency install plugin links,rehrumesh,https://api.github.com/repos/serverless/serverless/git/commits/944fbed95f1b86bc2ebb37b6d7bf8dc427776ff9
+9977e6c45c4672f6bd29c4cc47f2b87558bd12fe,Fix a small typo,clambodile,https://api.github.com/repos/serverless/serverless/git/commits/9977e6c45c4672f6bd29c4cc47f2b87558bd12fe
+fd3459611acbd4ce522dacabfa4447e28f0e7e82,"Fix typo
+
+Change `default` to `defaults`,
+or it won't work. :D",abalone0204,https://api.github.com/repos/serverless/serverless/git/commits/fd3459611acbd4ce522dacabfa4447e28f0e7e82
+38ce63c3e93d6742053cb354a728b3415eaf92dd,fixed a typo,kevinaud,https://api.github.com/repos/serverless/serverless/git/commits/38ce63c3e93d6742053cb354a728b3415eaf92dd
+2efcc24787ff42a29717cf11e6c0f7ac8163df95,fix populate boolean and 0 variables,kengos,https://api.github.com/repos/serverless/serverless/git/commits/2efcc24787ff42a29717cf11e6c0f7ac8163df95
+590ff32bcc9b45de6cbc6c6415a0c12cccc16c31,"Added check before setting origins and updated readme
+
+
+Updated readme
+
+
+Fixed RequestTemplates issue.
+
+
+Added statusCode response to Options Request template.
+
+Added X-Amz-Security-Token header and updated tests, too.
+Manual test works. Updated unit tests, too.
+
+
+Added documentation and some validation.
+
+
+Updated tests to check each header. All passing.
+
+
+Added preflight config. Need to write tests.
+
+
+Adds origin header to method. Tests pass. Need preflight added, too.
+
+
+
+Setup basic cors assignement. Experimenting with configuration setup.",patoncrispy,https://api.github.com/repos/serverless/serverless/git/commits/590ff32bcc9b45de6cbc6c6415a0c12cccc16c31
+a159cbded993267ae87b52238a031ab02486f5ab,Fix typo the -> then,fny,https://api.github.com/repos/serverless/serverless/git/commits/a159cbded993267ae87b52238a031ab02486f5ab
+052b8c3c19d6eeb9425eb0953f8b896c1afbe418,"include stage reference in body mapping template
+
+I've included a stage reference in the body template so that I can determine the run-time environment of the lambda function. This provide a quick work around until issue #1455 is resolved",patrickbrandt,https://api.github.com/repos/serverless/serverless/git/commits/052b8c3c19d6eeb9425eb0953f8b896c1afbe418
+fa2088808bb4f40ba65ba593cfd431b59d597ae0,"fix #1860 - Cannot find module for any node_modules
+
+When running on windows, 'UNIX' was incorrectly being passed into jszip as the host platform which causes it to generate a zip file which lambda doesn't unpack properly. ( I think its the \ vs / thing  - the zip file looks correct when I open it in a gui tool, but using unpack unpacks a bunch of files with '\' in the filename and no actual folder structure )",bfhobbes,https://api.github.com/repos/serverless/serverless/git/commits/fa2088808bb4f40ba65ba593cfd431b59d597ae0
+1dbfba2aa17f1416d89bb62862dd82bba7544944,Add PromptWorks to consultants,jgarber,https://api.github.com/repos/serverless/serverless/git/commits/1dbfba2aa17f1416d89bb62862dd82bba7544944
+e2d7008389924ec90c1d8a1d2a20609456c9209e,"doc update
+
+a user was confused about where to find these so made it more explicit.",worldsoup,https://api.github.com/repos/serverless/serverless/git/commits/e2d7008389924ec90c1d8a1d2a20609456c9209e
+16aa6581aba33f568b86de1d3d6121a45ee0db9c,"fix #1854 - update npm devDependencies packages (#1879)
+
+* fix #1854 - added latest version of eslint-config-airbnb-base package
+
+* fix #1854 - added latest npm shrinkwrap scheme
+
+* fix #1854 - added latest npm coveralls package
+
+* fix #1854 - added latest npm eslint package
+
+* fix #1854 - added latest npm eslint-config-airbnb package
+
+* fix #1854 - added latest npm eslint-plugin-import package
+
+* fix #1854 - added latest npm eslint-plugin-jsx-a11y package
+
+* fix #1854 - added latest npm eslint-plugin-react package
+
+* fix #1854 - fixed estlint new-parens errors for integration test
+
+* fix #1854 - fixed estlint new-parens errors for yaml parsers tests
+
+* fix #1854 - fixed estlint max-len errors for util tests
+
+* fix #1854 - disabled no-extraneous-dependencies on eslintrc for NodeJS 4 incapability on this feature
+
+* fix #1854 - fixed eslint new-parens errors for Service tests
+
+* fix #1854 - fixed eslint new-parens errors for Serverless tests
+
+* fix #1854 - fixed eslint new-parens errors for plugin manager tests
+
+* fix #1854 - fixed eslint new-parens errors for plugin tracking tests
+
+* fix #1854 - fixed eslint new-parens errors for plugin package zipService lib
+
+* fix #1854 - fixed eslint new-parens errors for plugin package zipService tests
+
+* fix #1854 - fixed eslint trailing spaces errors for plugin package zipService lib
+
+* fix #1854 - fixed eslint new-parens errors for plugin package cleanup  tests
+
+* fix #1854 - fixed eslint new-parens errors for plugin create tests
+
+* fix #1854 - fixed eslint dot same line expectation error on plugin aws logs index
+
+* fix #1854 - fixed eslint operator assignment error on plugin aws logs index
+
+* fix #1854 - fixed eslint dot location error on plugin aws invoke tests
+
+* fix #1854 - fixed eslint new-parens error on plugin aws invoke tests
+
+* fix #1854 - fixed eslint new-parens error on plugin aws deployFunction tests
+
+* fix #1854 - fixed eslint new-parens error on plugin aws deploy uploadDeploymentPackage tests
+
+* fix #1854 - fixed eslint new-parens error on plugin aws deploy updateStack tests
+
+* fix #1854 - fixed eslint new-parens error on plugin aws deploy createStack tests
+
+* fix #1854 - fixed eslint new-parens error on plugin aws deploy apiGateway lib deployment
+
+* fix #1854 - fixed eslint unary typeof whitespace req error on Serverless Service class
+
+* fix #1854 - fixed eslint unary typeof whitespace req error on Serverless Service class ( second fix )
+
+* fix #1854 - fixed eslint no-lonely-if req error on Serverless Service class
+
+* fix #1854 - disabled react/require-extension on eslintrc because it's deprecated
+
+* fix #1854 - AwsCompileApigEvents #constructor() should resolve if no functions are given:
+                 Error: Resolution method is overspecified. Specify a callback *or* return a Promise; not both.
+
+* fix #1854 - createStack #postCreate() should resolve:
+                 Error: Resolution method is overspecified. Specify a callback *or* return a Promise; not both.
+
+* fix #1854 - emptyS3Bucket #deleteObjects() should resolve if objectsInBucket is empty:
+                 Error: Resolution method is overspecified. Specify a callback *or* return a Promise; not both.
+
+* fix #1854 - AwsInvoke #extendedValidate() should resolve if path is not given:
+                 Error: Resolution method is overspecified. Specify a callback *or* return a Promise; not both.
+
+* fix #1854 - #cleanup() should resolve if the .serverless directory is not present:
+                 Error: Resolution method is overspecified. Specify a callback *or* return a Promise; not both.
+
+* fix #1854 -#validate() should resolve if servicePath is given:
+                Error: Resolution method is overspecified. Specify a callback *or* return a Promise; not both.
+
+* fix #1854 -  Service #load() should resolve if no servicePath is found:
+                 Error: Resolution method is overspecified. Specify a callback *or* return a Promise; not both.
+
+* fix #1854 - added latest mocha package
+
+* fix #1854 - added latest sinon npm package
+
+* fix #1854 - serverless/lib/plugins/aws/deploy/tests/createStack.js 136:48  error  Missing semicolon  semi
+
+* fix #1854 - serverless/lib/plugins/package/tests/cleanup.js 35:7  error  Missing semicolon  semi
+
+* fix #1854 - serverless/lib/plugins/package/tests/validate.js 22:49  error  Missing semicolon  semi
+
+* fix #1854 - added latest npm shrinkwrap
+
+* fix #1854 - fixed no-extra-boolean-cast eslint error on aws deploy apiGateway methods
+
+* fix #1854 - fixed  new-parens eslint error on serverless tests for Service class",nickchisiu,https://api.github.com/repos/serverless/serverless/git/commits/16aa6581aba33f568b86de1d3d6121a45ee0db9c
+3b9ef85846f310d325f77a11b17b211013b5695a,Merged upstream master and resolved conflicts,miltador,https://api.github.com/repos/serverless/serverless/git/commits/3b9ef85846f310d325f77a11b17b211013b5695a
+816ba289e57a95e64c294badacedd378d44cd1b8,Add failing test for name option in create,lamroger,https://api.github.com/repos/serverless/serverless/git/commits/816ba289e57a95e64c294badacedd378d44cd1b8
+d8214a44b1ed41b97badb940ca4c6d1e7dbfaa9c,fix some language and typos,seanmadden,https://api.github.com/repos/serverless/serverless/git/commits/d8214a44b1ed41b97badb940ca4c6d1e7dbfaa9c
+a7f50c2368301b21bbb1b1e046cbc2a31406f6d5,fix minor typo,osamakhn,https://api.github.com/repos/serverless/serverless/git/commits/a7f50c2368301b21bbb1b1e046cbc2a31406f6d5
+0d5b82376fd534b78019ab6c528156e68adffdf8,Include commented-out IAM statements in templates' serverless.yml.,rowanu,https://api.github.com/repos/serverless/serverless/git/commits/0d5b82376fd534b78019ab6c528156e68adffdf8
+10ab716c09a1464a685f27b55252c3fe26a2bc1e,"fix authorizer creation error when no TTL is supplied
+
+fix lint issues",tomesch,https://api.github.com/repos/serverless/serverless/git/commits/10ab716c09a1464a685f27b55252c3fe26a2bc1e
+1e2bdc178776cceead4d4bb08f2072257356bb8b,Add custom validation for plugin options,horike37,https://api.github.com/repos/serverless/serverless/git/commits/1e2bdc178776cceead4d4bb08f2072257356bb8b
+219f20e8f12cc95be296f889d0224e2f5304996b,"Fixed issue where custom cors headers were not being set, and was just using defaults'",puug,https://api.github.com/repos/serverless/serverless/git/commits/219f20e8f12cc95be296f889d0224e2f5304996b
+9fd32fbb390eb1f5aecee5f60382afd1209f9175,Small typo in documentation,alexandrusavin,https://api.github.com/repos/serverless/serverless/git/commits/9fd32fbb390eb1f5aecee5f60382afd1209f9175
+8d6748b9eb1fdad1bd0fb30f2f622e2c39a8966c,"Updates sinon stubbed tests in plugins/aws
+
+Creates test cases to check for correct arugments from sinon stubs",warlokkz,https://api.github.com/repos/serverless/serverless/git/commits/8d6748b9eb1fdad1bd0fb30f2f622e2c39a8966c
+7babaadc38f3b2d615480bc7a9f90755ed3031a3,"- fixed the topic format
+- corrected the documentation",danielkoo,https://api.github.com/repos/serverless/serverless/git/commits/7babaadc38f3b2d615480bc7a9f90755ed3031a3
+61a90f5c3cc1639ed9dd6676b596eb6754e97c89,Fix typos [skip ci],frqnck,https://api.github.com/repos/serverless/serverless/git/commits/61a90f5c3cc1639ed9dd6676b596eb6754e97c89
+1fb8b0c2df2758ecd5207b331c633d61d5374e21,follow pep8 - Python style guide checker,sangheestyle,https://api.github.com/repos/serverless/serverless/git/commits/1fb8b0c2df2758ecd5207b331c633d61d5374e21
+ef1433f9902d1452d1b2e8379815dde5914c10c7,Provide explicit relative path for '_mocha' in package.json test script configuration to support Windows.,gwsii,https://api.github.com/repos/serverless/serverless/git/commits/ef1433f9902d1452d1b2e8379815dde5914c10c7
+4544bf3d893415aed185fae24c1a0a70421b3374,Updated API Gateway integration to return 500 when Lambda functions time out,fruffin,https://api.github.com/repos/serverless/serverless/git/commits/4544bf3d893415aed185fae24c1a0a70421b3374
+7b78c57758c7917fb436e0ea2072d24090e1b353,"Update 01-setup.md
+
+typo",phips28,https://api.github.com/repos/serverless/serverless/git/commits/7b78c57758c7917fb436e0ea2072d24090e1b353
+7e11d9d0e785753a0c5b9fcd31d3ddd5b04c3c22,"Fix ""Hello World"" example in README.md",nhodges,https://api.github.com/repos/serverless/serverless/git/commits/7e11d9d0e785753a0c5b9fcd31d3ddd5b04c3c22
+f471fa3b53b4ad88c6aadc8a5f286befb251b737,Fixed broken links in Table of Contents,shamp00,https://api.github.com/repos/serverless/serverless/git/commits/f471fa3b53b4ad88c6aadc8a5f286befb251b737
+5d4316db93d922c106c6c0d1914c127d89c4b6fc,refactor CLI command/options to remove a few lines of code,dougmoscrop,https://api.github.com/repos/serverless/serverless/git/commits/5d4316db93d922c106c6c0d1914c127d89c4b6fc
+493de1e31055f76bd963cd8422327a8edd277906,add support for dashes as a resource path,jonsharratt,https://api.github.com/repos/serverless/serverless/git/commits/493de1e31055f76bd963cd8422327a8edd277906
+451b5b858720da8a290758ec80bce58b2a58ccf8,fix links in docs - link to README.md files instead of directories and use relative links everywhere,nurous,https://api.github.com/repos/serverless/serverless/git/commits/451b5b858720da8a290758ec80bce58b2a58ccf8
+2bcd13659a491f1ffada6f73d4256d5d01e7db2d,remove serverless.env.yml files #2102,bravokeyl,https://api.github.com/repos/serverless/serverless/git/commits/2bcd13659a491f1ffada6f73d4256d5d01e7db2d
+72e11e4183b3d6d00d20ff5d1ef4e6608feb071e,"Fix Aaron Boushley's profile link
+
+This change is intended to fix his link in README.md the next time that is regenerated",mortonfox,https://api.github.com/repos/serverless/serverless/git/commits/72e11e4183b3d6d00d20ff5d1ef4e6608feb071e
+54192f592ae2683de15a61a072f68a25ad268557,"Fix YML example code: strings should be quoted
+
+In YML, strings containing :, {, }, [, ], ,, &, *, #, ?, |, -, <, >, =, !, %, @, ` must be quoted.
+Without the quotes, deployments will fail at `AWS::ApiGateway::Method` step.
+I've been trying to use the custom request template after upgrading to v1.0, and finally found the correct syntax, lol.
+Let me know if any correction is needed, and if more/less examples are preferred.",DaxChen,https://api.github.com/repos/serverless/serverless/git/commits/54192f592ae2683de15a61a072f68a25ad268557
+b1ed2dd420d20ddcd163a28f8c4d9660df507d30,Match endpoint path to example,marcuswhybrow,https://api.github.com/repos/serverless/serverless/git/commits/b1ed2dd420d20ddcd163a28f8c4d9660df507d30
+b92de4ba400574d174f2161ef398bbb4c1e43a00,Update to use describeStackResource,andymac4182,https://api.github.com/repos/serverless/serverless/git/commits/b92de4ba400574d174f2161ef398bbb4c1e43a00
+73617d0a66d7a4cd390eff9a4ac00b036df0575c,fix: #1973 deploy fails with unhelpful error message when service name is not a valid CF stack name,zorrofox,https://api.github.com/repos/serverless/serverless/git/commits/73617d0a66d7a4cd390eff9a4ac00b036df0575c
+e7fedf4fd1eeeed39797c32fdb9e2eb53da54605,wrong description,mt-sergio,https://api.github.com/repos/serverless/serverless/git/commits/e7fedf4fd1eeeed39797c32fdb9e2eb53da54605
+a793014bbc25cfc75abe0bd036049d8c556c2b7d,add aws-scala-sbt template for scala lambdas,meagonqz,https://api.github.com/repos/serverless/serverless/git/commits/a793014bbc25cfc75abe0bd036049d8c556c2b7d
+b69d1c0dc6cdeed86d05891223dd72221f36b971,check for event prop when s3 rules prop is defined,medhoover,https://api.github.com/repos/serverless/serverless/git/commits/b69d1c0dc6cdeed86d05891223dd72221f36b971
+a1563a3a7374f3ae7870dd5de3e42386aafa044c,fix http event validation,eL0ck,https://api.github.com/repos/serverless/serverless/git/commits/a1563a3a7374f3ae7870dd5de3e42386aafa044c
+5d07e285d5555651221522e5d927d2c6526c8ee6,"Updated docs: Changed the RestApiId logical name
+
+This was changed in commit:
+https://github.com/serverless/serverless/commit/a5e3c3197474f1eac2672802132ef7c0a26db6a4
+
+But not changed in the docs.",alexanderbh,https://api.github.com/repos/serverless/serverless/git/commits/5d07e285d5555651221522e5d927d2c6526c8ee6
+e800b089f39d954774f632fee2163ee727972773,"Added serverless-react-boilerplate under Service & Projects (v1.0)
+
+serverless-react-boilerplate focuses on offline development with Lambda, API Gateway and Dynamodb. The boilerplate consists of CRUD operations for a To-do application and a simple react web client that utilizes the api.",mjzone,https://api.github.com/repos/serverless/serverless/git/commits/e800b089f39d954774f632fee2163ee727972773
+4dbe45d8f0dde3fcbc0081bba07c3f243e3313ba,fix link to variables page,bakotaco,https://api.github.com/repos/serverless/serverless/git/commits/4dbe45d8f0dde3fcbc0081bba07c3f243e3313ba
+4a173907a4d67ebfb76c220d93886ce12e2c3d90,"Update 03-deploying-services.md
+
+These proposed changes aim to make the docs more user-friendly and direct.",ashleybrown415,https://api.github.com/repos/serverless/serverless/git/commits/4a173907a4d67ebfb76c220d93886ce12e2c3d90
+b6225735a9b43102ecf0e5ec4100e5e5b4d92631,fix broken links in Guide,takahashim,https://api.github.com/repos/serverless/serverless/git/commits/b6225735a9b43102ecf0e5ec4100e5e5b4d92631
+2e2a8497da43e936dd6fb1bcd0028460b6afb0e3,Update read me for add serverless v1 project,niroshn,https://api.github.com/repos/serverless/serverless/git/commits/2e2a8497da43e936dd6fb1bcd0028460b6afb0e3
+6f192a6c66bfd1bf083ffbb8d362c01e54ec54c7,Update README.md,AlaskaCasey,https://api.github.com/repos/serverless/serverless/git/commits/6f192a6c66bfd1bf083ffbb8d362c01e54ec54c7
+144d8be2d9b29d1604a6ec747be3ff48f93f8502,"Update supported template document
+
+Add `aws-scala-sbt` to list",htynkn,https://api.github.com/repos/serverless/serverless/git/commits/144d8be2d9b29d1604a6ec747be3ff48f93f8502
+2a9ae98325d757c0a287d716f4f9562a5d7f7e7e,default stack tags should be extended instead of replaced,WooDzu,https://api.github.com/repos/serverless/serverless/git/commits/2a9ae98325d757c0a287d716f4f9562a5d7f7e7e
+019116c48565d259c21f0198a76c92b9e8d9896d,Add serverless-wsgi to list of plugins in README.md,logandk,https://api.github.com/repos/serverless/serverless/git/commits/019116c48565d259c21f0198a76c92b9e8d9896d
+f3bb9341d354acf7e76ad93fc357dab062fddef4,Fixed typos,radarhere,https://api.github.com/repos/serverless/serverless/git/commits/f3bb9341d354acf7e76ad93fc357dab062fddef4
+06938be9c08da751d0928a4c80157032b3d59946,add $ to templating,Myztiq,https://api.github.com/repos/serverless/serverless/git/commits/06938be9c08da751d0928a4c80157032b3d59946
+c03e2a87dde85f28dcf7ca6b98d97b084efcad8b,add ability for functions to override runtime to have multi-language services,mankins,https://api.github.com/repos/serverless/serverless/git/commits/c03e2a87dde85f28dcf7ca6b98d97b084efcad8b
+16185f7c091d8dd051bbf9729e9007ad3d8d4c37,Don’t show log message if service name exists,tobyhede,https://api.github.com/repos/serverless/serverless/git/commits/16185f7c091d8dd051bbf9729e9007ad3d8d4c37
+22f2b0692de4f9177400e538b99acecf7890a745,"Update api-gateway.md docs to include note about parsing JSON event body
+
+As per title, just wasted some time on this as it wasn't obvious, thought a note could save some time in future
+
+Stole language from the [lambda-proxy npm module](https://www.npmjs.com/package/lambda-proxy)",csi-lk,https://api.github.com/repos/serverless/serverless/git/commits/22f2b0692de4f9177400e538b99acecf7890a745
+9d715297aaf5fa468a51e48f5685133ff8e12548,Minor typo: no need for a semicolon,alexef,https://api.github.com/repos/serverless/serverless/git/commits/9d715297aaf5fa468a51e48f5685133ff8e12548
+1bf0f88d739aedb77bd6fd8e992b8c16caa5a069,"fix broken links
+
+leftover from the merge of DynamoDB- and Kinesis streams event docs.",sogasg,https://api.github.com/repos/serverless/serverless/git/commits/1bf0f88d739aedb77bd6fd8e992b8c16caa5a069
+a5f9c047c1295564fee4d42a65eedf606c17c750,add es6+jest boilerplate link,mikepugh,https://api.github.com/repos/serverless/serverless/git/commits/a5f9c047c1295564fee4d42a65eedf606c17c750
+4ee61f42c0b49decf93dd33a40a5e5ca377bfb47,Spelling + language fix,pal,https://api.github.com/repos/serverless/serverless/git/commits/4ee61f42c0b49decf93dd33a40a5e5ca377bfb47
+46b122edc2e49580d2be9699e666083be3d10b52,"add input, inputPath variable, resolves #2543",kbariotis,https://api.github.com/repos/serverless/serverless/git/commits/46b122edc2e49580d2be9699e666083be3d10b52
+7b743adb0535ca20b0a571906dca0ba424dff234,Fix broken links.,jahangirmohammed,https://api.github.com/repos/serverless/serverless/git/commits/7b743adb0535ca20b0a571906dca0ba424dff234
+872a029e906a929d50fa64140a1874ef605e1423,"check that stackStatus is not null
+
+fix lint err",rbren,https://api.github.com/repos/serverless/serverless/git/commits/872a029e906a929d50fa64140a1874ef605e1423
+cdc3743328c726ccd19dec43ece7f109db622f68,"Minor Grammar Change
+
+Corrects a minor paragraph typed twice.",jtslear,https://api.github.com/repos/serverless/serverless/git/commits/cdc3743328c726ccd19dec43ece7f109db622f68
+0c21c6f23b0fa830fa2a428fd6253fad61e610f5,Add browserify plugin,doapp-ryanp,https://api.github.com/repos/serverless/serverless/git/commits/0c21c6f23b0fa830fa2a428fd6253fad61e610f5
+5c36e3b13593d680514f16eaadb8c7a13f824c49,Add [Serverless Header Function] plugin to Readme,hieuunguyeen,https://api.github.com/repos/serverless/serverless/git/commits/5c36e3b13593d680514f16eaadb8c7a13f824c49
+a669b46a37618d297238f998a7988b7d82e5c7ce,Updates git.io URL to aws credential setup,wwwroth,https://api.github.com/repos/serverless/serverless/git/commits/a669b46a37618d297238f998a7988b7d82e5c7ce
+7c34f155eac0d61858006a6074bf60268e7e4535,Minor typo fixed in AWS Deploying Guide,benstepp,https://api.github.com/repos/serverless/serverless/git/commits/7c34f155eac0d61858006a6074bf60268e7e4535
+856189fa94133146cf65af08e384f14e010c0084,Using single quotes on empty strings,lmammino,https://api.github.com/repos/serverless/serverless/git/commits/856189fa94133146cf65af08e384f14e010c0084
+31fcc5dd1a493ec972b840f893d0bfd45e3d960e,IAM Guide: Update grammar,fgo,https://api.github.com/repos/serverless/serverless/git/commits/31fcc5dd1a493ec972b840f893d0bfd45e3d960e
+7bebf1ae21f15b4a0c0b74e47203173d426cb644,fixes endpoint path slash issue,laardee,https://api.github.com/repos/serverless/serverless/git/commits/7bebf1ae21f15b4a0c0b74e47203173d426cb644
+7dae0e27121edd2b7bbf8947465145421f500203,Correctly clear environment variables in tests.,rkistner,https://api.github.com/repos/serverless/serverless/git/commits/7dae0e27121edd2b7bbf8947465145421f500203
+9a69cfe2b252410e69e8887737ccbcc1c7f80780,"Update intro.md
+
+function triggered by the http event users/delete should be usersDelete",redhat-raptor,https://api.github.com/repos/serverless/serverless/git/commits/9a69cfe2b252410e69e8887737ccbcc1c7f80780
+d385196cd797d7d38d0c333e71faf66dadcff7bd,"Update README.md
+
+Inclusion of service creation, changing folders, corrected function name, corrected results from function, and grammar.",kennyk65,https://api.github.com/repos/serverless/serverless/git/commits/d385196cd797d7d38d0c333e71faf66dadcff7bd
+94d93e3d62d8d90e83163d7792385761cf022b09,added environment variable support,braahyan,https://api.github.com/repos/serverless/serverless/git/commits/94d93e3d62d8d90e83163d7792385761cf022b09
+e724b810b9b5fd7ec085f2c130eae7950df149aa,adding replaceAll to turn any escaped single quotes back to regular single quotes,evilantnie,https://api.github.com/repos/serverless/serverless/git/commits/e724b810b9b5fd7ec085f2c130eae7950df149aa
+5a1539f99f5b2f08f3cdc13368971f9d47e26bdd,Fix #2784 - slstats error,paulofla,https://api.github.com/repos/serverless/serverless/git/commits/5a1539f99f5b2f08f3cdc13368971f9d47e26bdd
+f4c7c5372d21da518b27bb59067c6a9a427747a0,fix deploy function command at quick start.,n-ina,https://api.github.com/repos/serverless/serverless/git/commits/f4c7c5372d21da518b27bb59067c6a9a427747a0
+e361bedd65cd0664f55d93101b9300b4050c86e5,"Fix yaml comments in intro
+
+They should be `#` not `//`.",dschep,https://api.github.com/repos/serverless/serverless/git/commits/e361bedd65cd0664f55d93101b9300b4050c86e5
+189843cb963e04505498834de767017f4919189f,"Fix the --timestamp parameter description
+
+It was ""The stage in your service you want to display information about"", probably a copy and paste gone wrong. :)",brunobelotti,https://api.github.com/repos/serverless/serverless/git/commits/189843cb963e04505498834de767017f4919189f
+b69790e7661984e0bd49e2909c0f6b2d7d4a2a6b,Adding named IAM capability to initial stack creation,surfacedstudio,https://api.github.com/repos/serverless/serverless/git/commits/b69790e7661984e0bd49e2909c0f6b2d7d4a2a6b
+da3356b1e29b705cbaf91193253c825f7d33117c,Rename provider name from 'ibm' to 'openwhisk'.,jthomas,https://api.github.com/repos/serverless/serverless/git/commits/da3356b1e29b705cbaf91193253c825f7d33117c
+c9d2fafbbc5b4770ed772f6249a8a2fd16c52fef,add a dotnet core csharp template,pjimmy,https://api.github.com/repos/serverless/serverless/git/commits/c9d2fafbbc5b4770ed772f6249a8a2fd16c52fef
+74a0c4d8cc3153cb4310ba2a7b0a597d36c95f02,Missing indentation for Fn::Join params,sime,https://api.github.com/repos/serverless/serverless/git/commits/74a0c4d8cc3153cb4310ba2a7b0a597d36c95f02
+fe42d33ac013ccd8154554095ff5af09726f3ba8,Tiny typo,pizza,https://api.github.com/repos/serverless/serverless/git/commits/fe42d33ac013ccd8154554095ff5af09726f3ba8
+fba82329316e0b232469c89456abbb47a9e16808,#2901 fixed,andrewpavlov,https://api.github.com/repos/serverless/serverless/git/commits/fba82329316e0b232469c89456abbb47a9e16808
+cde9c2db283092d63ff445dafc1a81e33c133b9e,"Updating section on AWS pricing
+
+Lambda has been moved to have it's own permanent free tier. It is no longer part of the Expiring offers.",TheMcMurder,https://api.github.com/repos/serverless/serverless/git/commits/cde9c2db283092d63ff445dafc1a81e33c133b9e
+00f46fbbded288944485cfd65e238182d96c09be,fix #2936,erndob,https://api.github.com/repos/serverless/serverless/git/commits/00f46fbbded288944485cfd65e238182d96c09be
+fb1b4ef14a1fb3ecd01172850e97f1cc939fff4d,Correct exit code for failed function invocation,JoeStanton,https://api.github.com/repos/serverless/serverless/git/commits/fb1b4ef14a1fb3ecd01172850e97f1cc939fff4d
+64fa7c64b30e36c0d5a521bd460d5d2ad188fafa,Add support for Cognito User Pools authorizer,johnf,https://api.github.com/repos/serverless/serverless/git/commits/64fa7c64b30e36c0d5a521bd460d5d2ad188fafa
+7b686af3f612296bb506c7a9ae90f94ac2066474,"Update CHANGELOG.md
+
+Fixed changelog C# item link",slang25,https://api.github.com/repos/serverless/serverless/git/commits/7b686af3f612296bb506c7a9ae90f94ac2066474
+8277d68aa9bb2b80ddd221ee4ba70b9a14dbf0e6,"update aws-java-gradle and aws-java-maven templates
+
+- update the Java templates to work with lambda proxy integration
+out-of-the-box
+- use ""Map<String, Object>"" as input type for greater flexibility
+- update gradle wrapper from 3.1 to 3.2.1
+- configure gradle and maven to use Java 1.8
+- change the package from ""hello"" to ""com.serverless"" and adjust
+serverless.yml accordingly
+- configure logging (log4j)
+- adjust tests
+- git-ignore some Eclipse specific files",bbilger,https://api.github.com/repos/serverless/serverless/git/commits/8277d68aa9bb2b80ddd221ee4ba70b9a14dbf0e6
+dd4ee9381e364123690d32dab19127d3947d975b,added validation on sls create on file overwrite,aysark,https://api.github.com/repos/serverless/serverless/git/commits/dd4ee9381e364123690d32dab19127d3947d975b
+732030d7928d50ef183ae57242b17dc82804dcf9,"Update README.md
+
+Add serverless-s3-crud",tscanlin,https://api.github.com/repos/serverless/serverless/git/commits/732030d7928d50ef183ae57242b17dc82804dcf9
+851e4479c512ee8f194c63cdff00c90a20e2164d,Do no fail when a stack requires no updates,paulSambolin,https://api.github.com/repos/serverless/serverless/git/commits/851e4479c512ee8f194c63cdff00c90a20e2164d
+efca7ff6da1bbf8df358dc0eae215fabb64aae32,"Missing indentation for Fn::Join params
+
+
+Similar fix per https://github.com/serverless/serverless/pull/2874",glennr,https://api.github.com/repos/serverless/serverless/git/commits/efca7ff6da1bbf8df358dc0eae215fabb64aae32
+d2eb4c62cbfbfafe54145e05d3a9b4d3eda06430,add uild.ps1 and update tests&docs,FLGM,https://api.github.com/repos/serverless/serverless/git/commits/d2eb4c62cbfbfafe54145e05d3a9b4d3eda06430
+49e804fe8e4c736838af23bbbd039fb8e0299d34,"Need to create the right case
+
+The ""release"" folder needs to be lowercase, not ""Release"".",paulfryer,https://api.github.com/repos/serverless/serverless/git/commits/49e804fe8e4c736838af23bbbd039fb8e0299d34
+bef9e97cd9d320b14de8ad63382064e3b79f031e,rename Release to release,FLGMwt,https://api.github.com/repos/serverless/serverless/git/commits/bef9e97cd9d320b14de8ad63382064e3b79f031e
+16dddc018fd56dd11a29503da98f08c389c8f592,Add Red Badger to the consultancy list,gregstewart,https://api.github.com/repos/serverless/serverless/git/commits/16dddc018fd56dd11a29503da98f08c389c8f592
+50e9c5fb7d5c66ae23903f311979bfd84ee932ec,"add features on AWSInvokeLocal Plugin.
+1. Added support js file that has export as an data input
+2. You can specify the location of handlers, such as “/dst”
+3. Show JSON.parse result if Content-Type = ‘application/json’",breath103,https://api.github.com/repos/serverless/serverless/git/commits/50e9c5fb7d5c66ae23903f311979bfd84ee932ec
+443a832806dd960e5ba863b44fce0b3b3a887ff5,"Fixed broken link to Config Credentials
+
+The link gave a 404. Updated to what seems to be the correct URL.",philhawksworth,https://api.github.com/repos/serverless/serverless/git/commits/443a832806dd960e5ba863b44fce0b3b3a887ff5
+38c2d0a7443d552ef67e7d05a66cc95cd5086c69,Update README.md,choefele,https://api.github.com/repos/serverless/serverless/git/commits/38c2d0a7443d552ef67e7d05a66cc95cd5086c69
+f678e45b027823fb677e808f09deaf5822e9f102,"Add support of numeric template creation path, fix #3063",vladgolubev,https://api.github.com/repos/serverless/serverless/git/commits/f678e45b027823fb677e808f09deaf5822e9f102
+bdce10cb0708df014d4847019bd7bbcacc9a8307,Show valid iam role statements examples in docs and templates,jogold,https://api.github.com/repos/serverless/serverless/git/commits/bdce10cb0708df014d4847019bd7bbcacc9a8307
+912a40ac047822bae85418c68f56819c66f30a96,Update Python hello wold example to be consistent with Node.js,alasdairnicol,https://api.github.com/repos/serverless/serverless/git/commits/912a40ac047822bae85418c68f56819c66f30a96
+a2e36d04bdfc56d5e651c5c768cfd9f0e6116b00,Remove invalid argument in workflow doc,rfader,https://api.github.com/repos/serverless/serverless/git/commits/a2e36d04bdfc56d5e651c5c768cfd9f0e6116b00
+38b1015f5c2180cdfe6be70478ccf9515a3d6163,Remove extra word from testing docs,lukechilds,https://api.github.com/repos/serverless/serverless/git/commits/38b1015f5c2180cdfe6be70478ccf9515a3d6163
+e41c796af1c3851c9b1030959e3b14b0d864eeaf,"Update credentials.md
+
+The interface appears to have changed somewhat since these docs were written",domharrington,https://api.github.com/repos/serverless/serverless/git/commits/e41c796af1c3851c9b1030959e3b14b0d864eeaf
+d5b64c8c7113da9429655a409f3ef48a6827dee6,Added Access Control Allow Credentials for CORS settings fixes  #2182,asprouse,https://api.github.com/repos/serverless/serverless/git/commits/d5b64c8c7113da9429655a409f3ef48a6827dee6
+15e2c1adb0c0755d54feb16d7fe77089879bd3d1,"Minor grammar and punctuation tweaks
+
+Just added a few grammar and punctuation for a bit smother reading.",davetownsend,https://api.github.com/repos/serverless/serverless/git/commits/15e2c1adb0c0755d54feb16d7fe77089879bd3d1
+d1eb738930a51ce3e7ad3fa6489d93dfdd0fbd5e,Fix minor typo,payoub,https://api.github.com/repos/serverless/serverless/git/commits/d1eb738930a51ce3e7ad3fa6489d93dfdd0fbd5e
+3ebc9772d1b78044ed9641cdce2244524b8047e6,Merge branch 'master' into feat-add-support-for-cfn-service-role,y13i,https://api.github.com/repos/serverless/serverless/git/commits/3ebc9772d1b78044ed9641cdce2244524b8047e6
+0d2d4848eb1c54b8f19f62e4cbd9e0374430cbeb,update docs page to include whisk guide,dannykingme,https://api.github.com/repos/serverless/serverless/git/commits/0d2d4848eb1c54b8f19f62e4cbd9e0374430cbeb
+fb14b0ca82a21808f746c1a98cb446bf4c5dd896,"link to FaunaDB CRUD example from README
+
+This links to a fork of the CRUD example that uses FaunaDB instead of DynamoDB.",jchris,https://api.github.com/repos/serverless/serverless/git/commits/fb14b0ca82a21808f746c1a98cb446bf4c5dd896
+ffd6152de0d1b38368b3ec954c822e6778c4eb65,cover Error with tests; rename `SError` export to `ServerlessError`,zerkella,https://api.github.com/repos/serverless/serverless/git/commits/ffd6152de0d1b38368b3ec954c822e6778c4eb65
+7bbf9ce6d0da32bfdbf6318a5cc782ef155a2803,fix #2997,dannycohn,https://api.github.com/repos/serverless/serverless/git/commits/7bbf9ce6d0da32bfdbf6318a5cc782ef155a2803
+8e86d35191ad0a49d075a492a9f336f6b2755592,README.md: Coudwatch => Cloudwatch,msabramo,https://api.github.com/repos/serverless/serverless/git/commits/8e86d35191ad0a49d075a492a9f336f6b2755592
+a3b715935bb879b5aebc2da2f2ae1eef46a2afa0,"Minor docs readability improvement
+
+DIdn't make sense - the endpoint is not an event, a request to the endpoint is.",damned,https://api.github.com/repos/serverless/serverless/git/commits/a3b715935bb879b5aebc2da2f2ae1eef46a2afa0
+ab5820333dc0c0f0a75d4b0b695152222a3ac9cb,Fix indentation,frosas,https://api.github.com/repos/serverless/serverless/git/commits/ab5820333dc0c0f0a75d4b0b695152222a3ac9cb
+ca7927a0fa167a7ebf69f33dddb78c9aca74f8d4,remove executable bit,christophgysin,https://api.github.com/repos/serverless/serverless/git/commits/ca7927a0fa167a7ebf69f33dddb78c9aca74f8d4
+3b65f222edcc9d76d639cc67c4ad7be593b7d862,Spelling fix,stevector,https://api.github.com/repos/serverless/serverless/git/commits/3b65f222edcc9d76d639cc67c4ad7be593b7d862
+2282e8d066526974f4dff45c69ec6124f143be05,"Update sns.md
+
+Fix minor typo.",cselmer,https://api.github.com/repos/serverless/serverless/git/commits/2282e8d066526974f4dff45c69ec6124f143be05
+7c474064656b9531d4307fc105e58e9ce947aa9e,Fix serverless invoke command example,jamesandersen,https://api.github.com/repos/serverless/serverless/git/commits/7c474064656b9531d4307fc105e58e9ce947aa9e
+fe9630e5be1ba7ea7ae87b4224556157f4ddef3e,"chore(readme): removes why-serverless section
+
+- This was removed in commit 45e7f4e6c65a3d7cf9bbc7a9c350fb65a0586de7, but the anchor was left behind",goldcaddy77,https://api.github.com/repos/serverless/serverless/git/commits/fe9630e5be1ba7ea7ae87b4224556157f4ddef3e
+09ccc63b64712c6e437f42e16698050046a040e9,Remove unneeded code,QuantumInformation,https://api.github.com/repos/serverless/serverless/git/commits/09ccc63b64712c6e437f42e16698050046a040e9
+c801b602e617de91fdd4bf48b2407396e4b11de2,Add missing apostrophe,rivertam,https://api.github.com/repos/serverless/serverless/git/commits/c801b602e617de91fdd4bf48b2407396e4b11de2
+10191968a7f9b23aa6f4410f0bd7165000471de4,Fixed up incorrect documentation.,gertjvr,https://api.github.com/repos/serverless/serverless/git/commits/10191968a7f9b23aa6f4410f0bd7165000471de4
+00bd68cef2b3831be8c02fe7ad12bab19dbe9918,"Fix node_modules (serverless plugins) lookup
+
+This reset the `module.paths` relatively to the current working directory
+`process.cwd()`. So the array of paths used to resolve packages is relative
+to where the `serverless` CLI is run.",nrako,https://api.github.com/repos/serverless/serverless/git/commits/00bd68cef2b3831be8c02fe7ad12bab19dbe9918
+5952d40c30880cdb807de7ecb1d6e3b58f41ea41,"Final command doesn't work
+
+Needs to either be --function or -f, not function -f",johngossman,https://api.github.com/repos/serverless/serverless/git/commits/5952d40c30880cdb807de7ecb1d6e3b58f41ea41
+2bef69c6ac645ca977d5155c8749392316fecf20,"Corrected Access-Control-Allow-Methods for ANY HTTP events
+
+The Access-Control-Allow-Methods OPTIONS response header for ANY http
+verb requests now correctly includes all HTTP verbs.",jmannau,https://api.github.com/repos/serverless/serverless/git/commits/2bef69c6ac645ca977d5155c8749392316fecf20
+0d679c295dfd8fe5524d7b2c31d9f313260abf36,correct spelling typos,colbywhite,https://api.github.com/repos/serverless/serverless/git/commits/0d679c295dfd8fe5524d7b2c31d9f313260abf36
+a0b22e85980f8e3c7f6ae55f69427f9137838566, Added default resource overriding guide with normalizedFunctionName description,TylorShin,https://api.github.com/repos/serverless/serverless/git/commits/a0b22e85980f8e3c7f6ae55f69427f9137838566
+bf4a73e743d49134779af38e348cce3355680541,"Fix typo
+
+The lambda wasn't found.",ludoblues,https://api.github.com/repos/serverless/serverless/git/commits/bf4a73e743d49134779af38e348cce3355680541
+07667d13be4bf6f9d35b7872da4573ea2062afeb,Adding Azure/Node create template,lostintangent,https://api.github.com/repos/serverless/serverless/git/commits/07667d13be4bf6f9d35b7872da4573ea2062afeb
+184ab55dd39699a54df14e09f2a34eda25c0dcdf,"Update resources.md
+
+Add space to Resource Name in CloudFormation standard pattern.
+
+ResourceName -> Resource Name",marcusmolchany,https://api.github.com/repos/serverless/serverless/git/commits/184ab55dd39699a54df14e09f2a34eda25c0dcdf
+ca1eee3e052d436f6daafbb5c78eb7f30eeb5991,AWS Groovy Gradle Template,bytekast,https://api.github.com/repos/serverless/serverless/git/commits/ca1eee3e052d436f6daafbb5c78eb7f30eeb5991
+ad5aa1ea97b56883eaef32a3bcc2f9598190403d,Use resolve-from instead of absolute paths.,brianneisler,https://api.github.com/repos/serverless/serverless/git/commits/ad5aa1ea97b56883eaef32a3bcc2f9598190403d
+16defc97b86f85e1a7a94fc6e3e3a593c0ec1aee,fixed file name typo,avinduhewa,https://api.github.com/repos/serverless/serverless/git/commits/16defc97b86f85e1a7a94fc6e3e3a593c0ec1aee
+43968f5c5b0a58a9d01215ea4f474b07ef34719a,"Add function description property
+
+Update serverless.yml.md documention to add description property for a defined function. This description will be available on the Lambda Management Console board.",kevinrambaud,https://api.github.com/repos/serverless/serverless/git/commits/43968f5c5b0a58a9d01215ea4f474b07ef34719a
+cd3121baa8cde75a4ea0827d6c74b5684edabcf7,add version description from function,ericbear,https://api.github.com/repos/serverless/serverless/git/commits/cd3121baa8cde75a4ea0827d6c74b5684edabcf7
+8c4c50de8328f0b85d0dab085fc654b821dec827,"Fix typo
+
+multple => multiple",j0k3r,https://api.github.com/repos/serverless/serverless/git/commits/8c4c50de8328f0b85d0dab085fc654b821dec827
+8c39d8c95f0fad6b4a1037a84344357d3407039f,Use cfnRole attribute in createFallback method,aoskotsky-amplify,https://api.github.com/repos/serverless/serverless/git/commits/8c39d8c95f0fad6b4a1037a84344357d3407039f
+eedabf0cfb8aee5233b66281f2259bc3471e7c01,Fix SNS event,outperformit,https://api.github.com/repos/serverless/serverless/git/commits/eedabf0cfb8aee5233b66281f2259bc3471e7c01
+58486c0006bd3ba0415e00951f1ddce0ecbab7e4,Update iam.md documentation,RafalWilinski,https://api.github.com/repos/serverless/serverless/git/commits/58486c0006bd3ba0415e00951f1ddce0ecbab7e4
+01e73226eede641ae7effe50439481527aae70f5,Clarify docs on AWS env var behavior,jthomerson,https://api.github.com/repos/serverless/serverless/git/commits/01e73226eede641ae7effe50439481527aae70f5
+e620836b53ef8ebe02ecff8254720e60978eee8b,"Correct some spelling errors in the Azure template.
+
+Corrected some spelling mistakes in the Azure template files.",fiveisprime,https://api.github.com/repos/serverless/serverless/git/commits/e620836b53ef8ebe02ecff8254720e60978eee8b
+88295e63143233c5a6ff5dd53b8eb2e7532d779c,fixing typos in cloudwatch log docs,ryanmurakami,https://api.github.com/repos/serverless/serverless/git/commits/88295e63143233c5a6ff5dd53b8eb2e7532d779c
+c5f4812a4781ed7598bdc34b159d45011719edba,Update README.md,schickling,https://api.github.com/repos/serverless/serverless/git/commits/c5f4812a4781ed7598bdc34b159d45011719edba
+16ecaaa7bae3357774d416844100e399fd774348,"Move ""add a plugin"" link above plugin list
+
+Move the ""add a plugin"" link above the list of plugins, because it disappears when it is below the list.",leftclickben,https://api.github.com/repos/serverless/serverless/git/commits/16ecaaa7bae3357774d416844100e399fd774348
+1df0d9caa612cd4bf1661109379ec2321b726bcd,Fix incorrect command for looking up service principal,kensykora,https://api.github.com/repos/serverless/serverless/git/commits/1df0d9caa612cd4bf1661109379ec2321b726bcd
+114426916134382c3fe74b761b19b72e2b87dfa6,"Fix typo
+
+Fixed a typo in yml file example",movence,https://api.github.com/repos/serverless/serverless/git/commits/114426916134382c3fe74b761b19b72e2b87dfa6
+c64019e9bf2da4dfe11e7b5876cd641ef682690c,Made azure template boilerplate code consistent in serverless,cmatskas,https://api.github.com/repos/serverless/serverless/git/commits/c64019e9bf2da4dfe11e7b5876cd641ef682690c
+797cce1c004cd9b87969e769190e911602a03578,Add a link to serverless-ruby under Services,stewartlord,https://api.github.com/repos/serverless/serverless/git/commits/797cce1c004cd9b87969e769190e911602a03578
+af3ff87e4101ea870eb7b16e43894eca983fdeb3,"Typo in IAM policy.
+
+Should be Resource and not Resources in 'One Custom IAM Role For All Functions'.",jarrettj,https://api.github.com/repos/serverless/serverless/git/commits/af3ff87e4101ea870eb7b16e43894eca983fdeb3
+d33509495619ce08b8e097060085757a819c3d36,Create separate quick start docs for the providers.,rupakg,https://api.github.com/repos/serverless/serverless/git/commits/d33509495619ce08b8e097060085757a819c3d36
+c989d879e72a50e447f0f1d1e5c42fc4c842b7ee,Fix unhandled rejection TypeError in unit testing now all tests pass for #logStat(),helenyau0,https://api.github.com/repos/serverless/serverless/git/commits/c989d879e72a50e447f0f1d1e5c42fc4c842b7ee
+6db836c35f6aefe3fb7425996433138f7a851371,Update to scala 2.12 to pick up converters,Java1Guy,https://api.github.com/repos/serverless/serverless/git/commits/6db836c35f6aefe3fb7425996433138f7a851371
+6628272a47c45f6f889b72f015b484bebffeeca8,"Fix for https://github.com/serverless/serverless/issues/2882
+
+Allow the 'parameters' field of the request object to be configured when using LAMBDA_PROXY integration",tdimmig,https://api.github.com/repos/serverless/serverless/git/commits/6628272a47c45f6f889b72f015b484bebffeeca8
+4cf379d8b014608d5726ab3021c2228896f5c56e,"Add initial support for Cognito User Pools
+
+This includes unit tests and documentation. A simple integration test
+has been added.",hassankhan,https://api.github.com/repos/serverless/serverless/git/commits/4cf379d8b014608d5726ab3021c2228896f5c56e
+b6b97b67ff5eb47734461f69b5b4ed3991a5ed6b,fixed two typos,tomsaleeba,https://api.github.com/repos/serverless/serverless/git/commits/b6b97b67ff5eb47734461f69b5b4ed3991a5ed6b
+701d85e17e98b17c3fc1dfd6f30614ca1e56ce73,"Fix for #3669: Azure Quickstart fn returns nothing
+
+Add an out HTTP event that specifies the `res` variable on the context
+allowing the function specified in `handler.js` to run as expected in
+Azure.",RichardSlater,https://api.github.com/repos/serverless/serverless/git/commits/701d85e17e98b17c3fc1dfd6f30614ca1e56ce73
+52227d5e5aff91a31ae5c3731ab9183355f3ad35,Fixed filename misspelling,depotjoe,https://api.github.com/repos/serverless/serverless/git/commits/52227d5e5aff91a31ae5c3731ab9183355f3ad35
+e9b96d2019427d1004fc8a33d1fc888c831c7343,"Update triggers.md
+
+fix link;
+fix typo;
+fix missing word;",thurt,https://api.github.com/repos/serverless/serverless/git/commits/e9b96d2019427d1004fc8a33d1fc888c831c7343
+aef89a51c76729964c79980be74d64396478fe0d,Another follow-up on async vars.,sammarks,https://api.github.com/repos/serverless/serverless/git/commits/aef89a51c76729964c79980be74d64396478fe0d
+e48eb9eed6e65789f5fe6be2f410a67a05160ae9,Fix 3726: update Contributing section of README with contrib friendly labels,humphd,https://api.github.com/repos/serverless/serverless/git/commits/e48eb9eed6e65789f5fe6be2f410a67a05160ae9
+e29397ca5c8fa832bb037e5ce2e6582efc97129f,Added test to verify error if no file matches before zipping,alexcasalboni,https://api.github.com/repos/serverless/serverless/git/commits/e29397ca5c8fa832bb037e5ce2e6582efc97129f
+7bd780306f9ab9d5e7adb7bb5edfc8dd8bec874a,"Change eventHub to serviceBus as event type
+
+- I think this should be `serviceBus` type instead of `eventHub`. Please let me know if this change is incorrect.",arunshan,https://api.github.com/repos/serverless/serverless/git/commits/7bd780306f9ab9d5e7adb7bb5edfc8dd8bec874a
+28e040d9e421c1387382dbe8e218372a42a2628f,Add units in comments for timeout and memorySize,jsyrjala,https://api.github.com/repos/serverless/serverless/git/commits/28e040d9e421c1387382dbe8e218372a42a2628f
+71e7644316777e6a6c5531f4b6302fc8dcd008b8,"Avoid Referencing Providers
+
+Minor changes to avoid referencing providers directly unless:
+- it is part of a provider-specific section of the site
+- it is a comprehensive list of providers in the few places where they should be listed
+- it is an example to help provide context",geoffreywiseman,https://api.github.com/repos/serverless/serverless/git/commits/71e7644316777e6a6c5531f4b6302fc8dcd008b8
+6acedc9d1c633ae3a52fcf614ac6a5755aa3707f,"Added missing step
+
+without `npm init`, `npm install` will throw an error :)",davidgatti,https://api.github.com/repos/serverless/serverless/git/commits/6acedc9d1c633ae3a52fcf614ac6a5755aa3707f
+b252846e1da4968465d01ab506f85f4da7bb6116,Fix #3792: Resolve tabtab/src/cli.js path when installing locally,k1LoW,https://api.github.com/repos/serverless/serverless/git/commits/b252846e1da4968465d01ab506f85f4da7bb6116
+9793a1359ffdd1ea8ec84659e7ceed4b2a5f5249,"Ensure current documentation
+
+Creating an IAM Role with a 'Path' that does not end with a '/' will
+lead to:
+
+The specified value for path is invalid. It must begin and end with /
+and contain only alphanumeric characters and/or / characters..",zined,https://api.github.com/repos/serverless/serverless/git/commits/9793a1359ffdd1ea8ec84659e7ceed4b2a5f5249
+fba685d8b13df17277a5ef58f5c139d2eed57fe5,"invoke + invoke local docs fixup
+
+- removed erroneous statement about ""context and event properties"" in mock event data files
+- added example data.json
+
+@TODO: the `invoke` docs should be the main source of truth here, the
+`invoke local` docs should describe *only what's different from invoke*
+and defer to `invoke` for the rest. Duplicating across the two files is
+not ideal.",Sequoia,https://api.github.com/repos/serverless/serverless/git/commits/fba685d8b13df17277a5ef58f5c139d2eed57fe5
+da0736fd6b8f184d41d709138fd1dbc498386b11,added signatureVersion: 'v4' parameter to s3 object if tyring to use aws:kms sse,Athulus,https://api.github.com/repos/serverless/serverless/git/commits/da0736fd6b8f184d41d709138fd1dbc498386b11
+5aae161ce49121fdb8fc6fff6e9eb6c2176a3eba,Add checks for HTTP Authorizers,alexdebrie,https://api.github.com/repos/serverless/serverless/git/commits/5aae161ce49121fdb8fc6fff6e9eb6c2176a3eba
+d9dcd73e5daf61302610d739e89ecece1a382552,Allow to provide a default value for plugin options,rpunkfu,https://api.github.com/repos/serverless/serverless/git/commits/d9dcd73e5daf61302610d739e89ecece1a382552
+569bb6901c83d3c3788884f6d14b31191cec95d3,Add generateCommandsByPluginHelp(),darkowlzz,https://api.github.com/repos/serverless/serverless/git/commits/569bb6901c83d3c3788884f6d14b31191cec95d3
+a6b297aa75af50108c1a40bf63b99a9177073fc7,Update web-actions.md docs w/ correct URL,chiefy,https://api.github.com/repos/serverless/serverless/git/commits/a6b297aa75af50108c1a40bf63b99a9177073fc7
+1264dd015c7f3b834bcab666ed5f7c2cc726c186,Improve usage and error handling of javascript variables.,infiniteluke,https://api.github.com/repos/serverless/serverless/git/commits/1264dd015c7f3b834bcab666ed5f7c2cc726c186
+d381106b8e176fcb82690c99740ecbede2450668,fix: correct misspelled eventType value,Pindar,https://api.github.com/repos/serverless/serverless/git/commits/d381106b8e176fcb82690c99740ecbede2450668
+e12962d33a1d94cd145342a730141d8eeb6e3f43,"Update apigateway.md
+
+1.16.0 resolved these issues",gorankl,https://api.github.com/repos/serverless/serverless/git/commits/e12962d33a1d94cd145342a730141d8eeb6e3f43
+6c02461a8d8ff3527d9ab15b9d758bc4a61aade3,"Update README.md
+
+Adding Langa to list of Serverless Consultants",mikehostetler,https://api.github.com/repos/serverless/serverless/git/commits/6c02461a8d8ff3527d9ab15b9d758bc4a61aade3
+60caa22edbd4f4ae71d9224143d7bb4038f8f409,Skip packaging if artifact specified,xdissent,https://api.github.com/repos/serverless/serverless/git/commits/60caa22edbd4f4ae71d9224143d7bb4038f8f409
+3aa86fe4fb1da4b43ea2660a5b9e580fea99e5e0,Add ETA as Serverless Consultants,lynnaloo,https://api.github.com/repos/serverless/serverless/git/commits/3aa86fe4fb1da4b43ea2660a5b9e580fea99e5e0
+e9e21dbd8efd78db397c673005f738ff9acbb788,handle absolute paths in file(),mangas,https://api.github.com/repos/serverless/serverless/git/commits/e9e21dbd8efd78db397c673005f738ff9acbb788
+c59222498703c323157cdec0d173ed9443702c56,Minor edit,alnutile,https://api.github.com/repos/serverless/serverless/git/commits/c59222498703c323157cdec0d173ed9443702c56
+4d424b9d2569a746960d3bb0151cbae55a684a87,Improves invalid security token message per issue #3862,rdugue,https://api.github.com/repos/serverless/serverless/git/commits/4d424b9d2569a746960d3bb0151cbae55a684a87
+f9530039525e191f561d2049688762f5cc244d92,"Update schedule.md
+
+Fix typo in Simple cron example",joe-niland,https://api.github.com/repos/serverless/serverless/git/commits/f9530039525e191f561d2049688762f5cc244d92
+c33c4f782a1eb55e22978aca4c84bb5c89910a67,Update example alternate variable syntax to work with loading files,jaikdean,https://api.github.com/repos/serverless/serverless/git/commits/c33c4f782a1eb55e22978aca4c84bb5c89910a67
+9724645a10a352e8d210776d1343b2f96ecf3e3a,"Include dependencies when long=true in npmrc
+
+- Issue #3918
+- Ensure npm output parsed to determine production dependencies is
+consistent regardless of npmrc settings",eoinsha,https://api.github.com/repos/serverless/serverless/git/commits/9724645a10a352e8d210776d1343b2f96ecf3e3a
+0a95913481e20a9743a1b090036f8de000748637,Seclude files resolution logic,medikoo,https://api.github.com/repos/serverless/serverless/git/commits/0a95913481e20a9743a1b090036f8de000748637
+1df403a5c3e147a9132a5a6a98aca280e0c6f374,Add docs for custom bucket config on S3 events,azurelogic,https://api.github.com/repos/serverless/serverless/git/commits/1df403a5c3e147a9132a5a6a98aca280e0c6f374
+38c81c0aefe9d4e2c9b0e0d5b9ebb2ef574b9fdf,Update quick-start.md,anishkny,https://api.github.com/repos/serverless/serverless/git/commits/38c81c0aefe9d4e2c9b0e0d5b9ebb2ef574b9fdf
+8f8ac8fb146857a24a47be6ee9aefa9d2072eca5,Fix issues with HTTP integration,lovenm,https://api.github.com/repos/serverless/serverless/git/commits/8f8ac8fb146857a24a47be6ee9aefa9d2072eca5
+45b7c3178aecbad9ebfde643d5022ec569e2115f,"services.deploy-info.md
+
+Be sure to 'cd' into the relevant service directory before running the 'deploy' command, otherwise you'll likely see the following error message: ""Avoid the following error: ""This command can only be run inside a service directory"".",jpforsyth,https://api.github.com/repos/serverless/serverless/git/commits/45b7c3178aecbad9ebfde643d5022ec569e2115f
+1cebac90c8018fe9c2fcab8589afb4c614681ed2,Include example of what an event contains,a-h,https://api.github.com/repos/serverless/serverless/git/commits/1cebac90c8018fe9c2fcab8589afb4c614681ed2
+dc46b8966494078773b5a52f914d483dba737351,Add Python and Node.js templates for Kubeless provider,sebgoa,https://api.github.com/repos/serverless/serverless/git/commits/dc46b8966494078773b5a52f914d483dba737351
+3e4986c53bb4187e252a49692bee0c90e4cf64ac,"Refactor zipService to assemble both dev and prod dependencies, and add failing test",davidgovea,https://api.github.com/repos/serverless/serverless/git/commits/3e4986c53bb4187e252a49692bee0c90e4cf64ac
+f27d767158f9ce413c0f3e984278240f53344a8a,"Update intro.md
+
+Grammatical change - 'different than' to 'different from'. Just my personal opinion.",mgarmeson,https://api.github.com/repos/serverless/serverless/git/commits/f27d767158f9ce413c0f3e984278240f53344a8a
+71f1aa09cbfcc65b2bf309e73321b2a8e2214d55,"preserve context when executing exported function from .js file
+
+The change ensures that when a .js file exported function is executed,
+the original execution context is supplied in order to maintain ""this"".",indieisaconcept,https://api.github.com/repos/serverless/serverless/git/commits/71f1aa09cbfcc65b2bf309e73321b2a8e2214d55
+3249027c6aca82ce126c39202f4f674fb599f705,Use naming.getStackName method instead of hardcoding.,vinodsr,https://api.github.com/repos/serverless/serverless/git/commits/3249027c6aca82ce126c39202f4f674fb599f705
+0ed9615093c6e1f07e6fa6fbf89ceaebb8f5b51e,Add missing vpc property.,walery,https://api.github.com/repos/serverless/serverless/git/commits/0ed9615093c6e1f07e6fa6fbf89ceaebb8f5b51e
+5174bf98ec468f88fe03cd7c0a7ff6fd76ecea47,Improve deprecated hook message,oktapodia,https://api.github.com/repos/serverless/serverless/git/commits/5174bf98ec468f88fe03cd7c0a7ff6fd76ecea47
+6a4aa3c8d39e6edf69b2d74ea9bbf316bc551fe6,Fixes #3379,sethkor,https://api.github.com/repos/serverless/serverless/git/commits/6a4aa3c8d39e6edf69b2d74ea9bbf316bc551fe6
+494430fb8b97b82399ef391f2e7264f0c124bed6,Fix typo in guide for functions,martinhartt,https://api.github.com/repos/serverless/serverless/git/commits/494430fb8b97b82399ef391f2e7264f0c124bed6
+c4374ec6b1915b7bb3c2f3df3f8e4a5958eb1966,"Optionally pass raw string, take 1",dzimine,https://api.github.com/repos/serverless/serverless/git/commits/c4374ec6b1915b7bb3c2f3df3f8e4a5958eb1966
+d4766254a6240d675b9825da39705f7419dfbc33,Fix behavior of getRemainingTimeInMillis in local invokation,Nevon,https://api.github.com/repos/serverless/serverless/git/commits/d4766254a6240d675b9825da39705f7419dfbc33
+505be47809f0b3648643b6a95d1891c33fae6a90,Fix typo in AWS Quick Start,kevlened,https://api.github.com/repos/serverless/serverless/git/commits/505be47809f0b3648643b6a95d1891c33fae6a90
+20ecb89c3e8f5509beb9c55eabcacab9c1720f1c,Update for windows users,asunar,https://api.github.com/repos/serverless/serverless/git/commits/20ecb89c3e8f5509beb9c55eabcacab9c1720f1c
+b2fbfb720d4893bd2ddef3326d0654df435ea7a7, Adding aws-nodejs-ecma-script template,franciscocpg,https://api.github.com/repos/serverless/serverless/git/commits/b2fbfb720d4893bd2ddef3326d0654df435ea7a7
+bcb545dbc53a7b2ab97054a571d54cdeace24dd6,Enables `npm test` compatibility with Windows,lorengordon,https://api.github.com/repos/serverless/serverless/git/commits/bcb545dbc53a7b2ab97054a571d54cdeace24dd6
+5053392497964c6efb929f00dc8147420e5a77df,Fix the last two IAM documentation regarding joining parameters,lems3,https://api.github.com/repos/serverless/serverless/git/commits/5053392497964c6efb929f00dc8147420e5a77df
+29aa7f524a308b2ddeeeff00e056ebc361e57106,typo fix,ehippy,https://api.github.com/repos/serverless/serverless/git/commits/29aa7f524a308b2ddeeeff00e056ebc361e57106
+9fb44890dc3165d70b815261efc63f1c3d884663,Create .gitkeep,jfdesroches,https://api.github.com/repos/serverless/serverless/git/commits/9fb44890dc3165d70b815261efc63f1c3d884663
+79e96c67774b4f855a52389572d7b45a8fe80ba4,"Typo corrections in fucions.md
+
+SQS was mis-spelled",alokmandloi,https://api.github.com/repos/serverless/serverless/git/commits/79e96c67774b4f855a52389572d7b45a8fe80ba4
+cf91751c633d02247245cd765e9c73d2a8463819,Updated awsProvider to allow manual specification of certificate authorities.,geofflancaster,https://api.github.com/repos/serverless/serverless/git/commits/cf91751c633d02247245cd765e9c73d2a8463819
+d4ed0f70abfbb036a20cd64d118917e97f58bcff,"Add support in Spotinst Function.
+added 2 new templates - spotinst-nodejs, spotinst-python",guyklainer,https://api.github.com/repos/serverless/serverless/git/commits/d4ed0f70abfbb036a20cd64d118917e97f58bcff
+a8167c1e9d6a0f64f5d34ea2e649a9b5b006e55c,Set read/write owner permissions when .aws/credentials file is saved,jacobmassey,https://api.github.com/repos/serverless/serverless/git/commits/a8167c1e9d6a0f64f5d34ea2e649a9b5b006e55c
+42939fb91b30cf902bd6e2b3151ac1d92f1cc8e0,Added Kubeless provider documentation,arapulido,https://api.github.com/repos/serverless/serverless/git/commits/42939fb91b30cf902bd6e2b3151ac1d92f1cc8e0
+eeb32aacde767a618491660092a5ed132434c9c1,Allow custom CLI class instances,patrickheeney,https://api.github.com/repos/serverless/serverless/git/commits/eeb32aacde767a618491660092a5ed132434c9c1
+32f7d01c76122858d7d11b4ac3849d8cd4d79224,change copy,iddar,https://api.github.com/repos/serverless/serverless/git/commits/32f7d01c76122858d7d11b4ac3849d8cd4d79224
+9ed93109a15cd1080f3c79bc2f6713698600f8a9,making python templates pep8 compliant,mislavcimpersak,https://api.github.com/repos/serverless/serverless/git/commits/9ed93109a15cd1080f3c79bc2f6713698600f8a9
+dc4ef733a47ebc142fed6b63ecff2c8d0afc6370,"added Kubeless to ""getting started"" menu",slintes,https://api.github.com/repos/serverless/serverless/git/commits/dc4ef733a47ebc142fed6b63ecff2c8d0afc6370
+512d46fa5d9c169f55ed811a56ba7ca4a181e582,"Fix link
+
+The ""Spotinst image link"" links to ""spotinst"" instead to ""kubeless""",jare,https://api.github.com/repos/serverless/serverless/git/commits/512d46fa5d9c169f55ed811a56ba7ca4a181e582
+c184f36e8c6999b1f455f878288406bb79dd86ca,Upload function artifacts with limited concurrency,skewart,https://api.github.com/repos/serverless/serverless/git/commits/c184f36e8c6999b1f455f878288406bb79dd86ca
+0d7182550457f5bf965e2940af2b3f66948d8c07,"Remove outdated sentence about local runtime
+
+The Limitations section covers this, and is more accurate (includes Python as a possibility).",brendo,https://api.github.com/repos/serverless/serverless/git/commits/0d7182550457f5bf965e2940af2b3f66948d8c07
+e29b633275dbbd3037eafae2bb990b33bf364272,Add login for archiveService,RaeesBhatti,https://api.github.com/repos/serverless/serverless/git/commits/e29b633275dbbd3037eafae2bb990b33bf364272
+b0b7cdce110fe5665df5fc4ac5d6f62962d2e25c,"Added serverless-azure-functions to pre-requisites
+
+Serverless deploy throws error without serverless-azure-functions plugin installed globally.",garenyondem,https://api.github.com/repos/serverless/serverless/git/commits/b0b7cdce110fe5665df5fc4ac5d6f62962d2e25c
+9d3a5d0d41d8050b976bebad90abfe7810f10c6a,Add notificationArns AWS provider property to enable Cloudformation notifications.,rmax,https://api.github.com/repos/serverless/serverless/git/commits/9d3a5d0d41d8050b976bebad90abfe7810f10c6a
+99390f9e8bfe7776b72909c55a2d882e10c9fb0c,Update README.md,glennblock,https://api.github.com/repos/serverless/serverless/git/commits/99390f9e8bfe7776b72909c55a2d882e10c9fb0c
+78c87338e85f03166ef0e89724ca6a17e286675a,Update serverless.yml.md,prestontighe,https://api.github.com/repos/serverless/serverless/git/commits/78c87338e85f03166ef0e89724ca6a17e286675a
+d692b8448e078534d009e523a05ec5c97258b053,Add docs for scheduled events for Kubeless,andresmgot,https://api.github.com/repos/serverless/serverless/git/commits/d692b8448e078534d009e523a05ec5c97258b053
+52bf02e634e8506ec8ca1f6467575c36bebd2fd2,Fix tabbing for iamRoleStatements,ScreamingHawk,https://api.github.com/repos/serverless/serverless/git/commits/52bf02e634e8506ec8ca1f6467575c36bebd2fd2
+c3df4b085eca0b74c040477f5fd83ec06e89a71d,Update IBM registration URL,Ulili,https://api.github.com/repos/serverless/serverless/git/commits/c3df4b085eca0b74c040477f5fd83ec06e89a71d
+f4b0752f4e527f3985f09a97d8cdb99ffa24c45d,"ResourcesGuide: Specify resource type
+
+Specify type in example for overwriting resource.",boazdejong,https://api.github.com/repos/serverless/serverless/git/commits/f4b0752f4e527f3985f09a97d8cdb99ffa24c45d
+21450dfd7fed113b1b183ea4e5f4b6bcf29e1210,injects usersStat dependency to improve code coverage of Logs class,AlessioCoser,https://api.github.com/repos/serverless/serverless/git/commits/21450dfd7fed113b1b183ea4e5f4b6bcf29e1210
+da684801a3a75e6a8e06ee7b297361db14fea75f,Updated postinstall.js to make it also work with spaces in path,Wouter92,https://api.github.com/repos/serverless/serverless/git/commits/da684801a3a75e6a8e06ee7b297361db14fea75f
+4a3d7602a31c87f6242f34f00611796c9e6e0c1b,Upgrade serverless-webpack plugin from version 2.2.0 to 3.1.1 for aws-nodejs-ecma-script template,andrewoh531,https://api.github.com/repos/serverless/serverless/git/commits/4a3d7602a31c87f6242f34f00611796c9e6e0c1b
+1df8bf5795de8142b3ff2b70724be85ac696b7e0,provide additional information for running lambda inside VPC as part of guide,sharathm,https://api.github.com/repos/serverless/serverless/git/commits/1df8bf5795de8142b3ff2b70724be85ac696b7e0
+e75c783365f024cff81a186c16bf67e9c8a52d22,add type option to authorizer. implements #4325,jspies,https://api.github.com/repos/serverless/serverless/git/commits/e75c783365f024cff81a186c16bf67e9c8a52d22
+3c3ec62562f076df31538a5e45a08779235836b0,Fix relative hyperlink to quick-start page,bburhans,https://api.github.com/repos/serverless/serverless/git/commits/3c3ec62562f076df31538a5e45a08779235836b0
+98b74a4b7e90ae53b0b6718886980f7b659bd2ef,"Google credentials.md: remove duplicate ""Console""",thewtex,https://api.github.com/repos/serverless/serverless/git/commits/98b74a4b7e90ae53b0b6718886980f7b659bd2ef
+ae68865c1531dd8dedcaa4393b8e1d674b823dd4,add swp files to gitignore,daviskoh,https://api.github.com/repos/serverless/serverless/git/commits/ae68865c1531dd8dedcaa4393b8e1d674b823dd4
+08d62af89979b7e8e784a6dc4e010308796e35ed,Resolve file path before read file,BasileTrujillo,https://api.github.com/repos/serverless/serverless/git/commits/08d62af89979b7e8e784a6dc4e010308796e35ed
+2b08f8a77691827e0210c37156fcd2ce12d5a6f8,Fix typo in aws guide,leoybkim,https://api.github.com/repos/serverless/serverless/git/commits/2b08f8a77691827e0210c37156fcd2ce12d5a6f8
+2df0d8a95403fb9b961a6b05edc7f7e4477b47e7,Provide option to conceal API Gateway key values from the output,timstott,https://api.github.com/repos/serverless/serverless/git/commits/2df0d8a95403fb9b961a6b05edc7f7e4477b47e7
+347634e081fc13ea63cdab9d4cb74d1ef250782a,"Default value for Timer Trigger Fixed
+
+See: https://github.com/serverless/serverless-azure-functions/blob/629ade76534b82df0977f9e629906ded29a94fce/shared/bindings.json#L32",daronyondem,https://api.github.com/repos/serverless/serverless/git/commits/347634e081fc13ea63cdab9d4cb74d1ef250782a
+859d96e0e8d2510f6561e37783980ee0aebb5777,Fix typo/language in resources documentation,RSO,https://api.github.com/repos/serverless/serverless/git/commits/859d96e0e8d2510f6561e37783980ee0aebb5777
+bbade3d1a878a6c86df574f82fab06f036a105e1,Basic logging for python invoke local,chernando,https://api.github.com/repos/serverless/serverless/git/commits/bbade3d1a878a6c86df574f82fab06f036a105e1
+d506ec68e59b650a0bd59f201cf4d976c602240c,"Fixes #4434
+
+The 2nd argument of Logs constructor contains just a command line
+arguments like `{""-f"", ""hello""}`.
+
+As of the above, logs command always fail on the last of logs command.
+
+PR#4344 aims to inject userStats, so I've solved this problem by
+injecting userStats by substitution not the constructor argument.",comuttun,https://api.github.com/repos/serverless/serverless/git/commits/d506ec68e59b650a0bd59f201cf4d976c602240c
+113e7b93a9ebd4cf7a32aee0252309747d35753b,Fixing #4435,AndrewFarley,https://api.github.com/repos/serverless/serverless/git/commits/113e7b93a9ebd4cf7a32aee0252309747d35753b
+18d026ca24e1a49ef2dcd17ff3009fb4046f0608,Remove shelljs dependency,mjalkio,https://api.github.com/repos/serverless/serverless/git/commits/18d026ca24e1a49ef2dcd17ff3009fb4046f0608
+1730745cd12eb064a1915175360c6b11b3ca42c6,Add useage about Pseudo-Parameters,bill-newsnow,https://api.github.com/repos/serverless/serverless/git/commits/1730745cd12eb064a1915175360c6b11b3ca42c6
+66a12d2ffe9a006c9326e9b3fa9dbd760733e5cd,Updates README for openwhisk,dbachko,https://api.github.com/repos/serverless/serverless/git/commits/66a12d2ffe9a006c9326e9b3fa9dbd760733e5cd
+68d732ad80fa2920898a612c1a98cca0cedb63ab,document status codes in lambda-proxy integration,saxicek,https://api.github.com/repos/serverless/serverless/git/commits/68d732ad80fa2920898a612c1a98cca0cedb63ab
+8708d196dde290b169555f5baa0206d7b8275f64,Fix account id parameter,ivanschwarz,https://api.github.com/repos/serverless/serverless/git/commits/8708d196dde290b169555f5baa0206d7b8275f64
+0fc6222026bbbccb197d97a39e643073f623372b,removed redundant keywords from Handler when constructing and returning Response,girichards,https://api.github.com/repos/serverless/serverless/git/commits/0fc6222026bbbccb197d97a39e643073f623372b
+57d898d39ed489880419a36d6192eec2bd5d03e2,replace promise in cache with cached result once resolved.,e-e-e,https://api.github.com/repos/serverless/serverless/git/commits/57d898d39ed489880419a36d6192eec2bd5d03e2
+dab36c594a0fb2cea9d2318bccddd1186158c47b,"Updated getting-started.md
+
+Made changes to show how to update an older version of serverless to a new stable version.",shadowsyntax,https://api.github.com/repos/serverless/serverless/git/commits/dab36c594a0fb2cea9d2318bccddd1186158c47b
+33d62a8a924921949bebfeaec3acc2d957d16357," Mention log limit in the documentation
+
+I initially thought this command would return *all* the logs within the date range. I can see why it doesn't do that, but I think mentioning the limit in the docs makes sense.
+
+The number comes from [the AWS docs](http://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/CloudWatchLogs.html#filterLogEvents-property)  about the function that's used for this command.",liamgray,https://api.github.com/repos/serverless/serverless/git/commits/33d62a8a924921949bebfeaec3acc2d957d16357
+0b7b2a3a04b225fe512b8c1dd6f805408d6be9a6,Grammar in AWS Credentials doc,direvus,https://api.github.com/repos/serverless/serverless/git/commits/0b7b2a3a04b225fe512b8c1dd6f805408d6be9a6
+b4d19dcd1a4f025199d6a1304006b012dde274f1,Prevent duplicated completion results,rliebz,https://api.github.com/repos/serverless/serverless/git/commits/b4d19dcd1a4f025199d6a1304006b012dde274f1
+c279795709c64e41b8bd3b310c3cd13f79a82917,Merge branch 'master' into sls-shared-api,hgiasac,https://api.github.com/repos/serverless/serverless/git/commits/c279795709c64e41b8bd3b310c3cd13f79a82917
+0fde870a6ceee5293727cb726d00b6ace8d55733,Using serverless for many different client projects,vineetseraro,https://api.github.com/repos/serverless/serverless/git/commits/0fde870a6ceee5293727cb726d00b6ace8d55733
+bca4da55b32ef4051bbb769676133d61fd0a1e68,add support for serverless.js,pavelvlasov,https://api.github.com/repos/serverless/serverless/git/commits/bca4da55b32ef4051bbb769676133d61fd0a1e68
+821d7300ba931971177a8aab507689fca7a048e9,update license year,PatrickJS,https://api.github.com/repos/serverless/serverless/git/commits/821d7300ba931971177a8aab507689fca7a048e9
+271b45009df0ebe1dd2f7e2e6537c86456810bf9,Fix typo in 'syntax',craigw,https://api.github.com/repos/serverless/serverless/git/commits/271b45009df0ebe1dd2f7e2e6537c86456810bf9
+7f18dda085ddc2c38fbabb3618e0b158503088b9,Add maxAge parameter to preflightHeaders response Access-Control-Max-Age,lminor,https://api.github.com/repos/serverless/serverless/git/commits/7f18dda085ddc2c38fbabb3618e0b158503088b9
+0226d72924502248512ce5ff9741250676c02240,update aws-scala-sbt template #390,GuidoS,https://api.github.com/repos/serverless/serverless/git/commits/0226d72924502248512ce5ff9741250676c02240
+90bc9ff6d926236c29ff1ff8a1e9fb5da193bb21,Bump serverless-kubeless to 0.2.4,ryuheechul,https://api.github.com/repos/serverless/serverless/git/commits/90bc9ff6d926236c29ff1ff8a1e9fb5da193bb21
+1ae47641b171d575bc7190797bbfd3d8b8d2ce06,allow authorizer.name to override implied authorizer.arn name.,thomasmichaelwallace,https://api.github.com/repos/serverless/serverless/git/commits/1ae47641b171d575bc7190797bbfd3d8b8d2ce06
+70d1bcb8d5692a3d17dfd018edb6848eec904f2a,Adding service : cloudwatch alerts on slack,dav009,https://api.github.com/repos/serverless/serverless/git/commits/70d1bcb8d5692a3d17dfd018edb6848eec904f2a
+f88415eedde8201afc85d6a3e7880310b0cd71c8,enable source map generation for nodejs-typescript example,drexler,https://api.github.com/repos/serverless/serverless/git/commits/f88415eedde8201afc85d6a3e7880310b0cd71c8
+6b6a4941583db369cf360e0366623cb92391a04d,"docs(google) update hello-world example's invoke
+
+If a new user creates a new service with the `google-nodejs` template,
+the pre-configured function is named as `first` instead of `helloWorld`.
+
+More details from the configuration file of the template:
+- https://github.com/serverless/boilerplate-googlecloudfunctions-nodejs/blob/master/serverless.yml#L22",d2s,https://api.github.com/repos/serverless/serverless/git/commits/6b6a4941583db369cf360e0366623cb92391a04d
+cfc52f91f5ca883e5ca0edaf29a47fc00c5b3d7d,Update README.md,alexindeed,https://api.github.com/repos/serverless/serverless/git/commits/cfc52f91f5ca883e5ca0edaf29a47fc00c5b3d7d
+4353c8105e46117dbe65402e56e45c9f2af0d4be,Typo Fix,RobertoNovelo,https://api.github.com/repos/serverless/serverless/git/commits/4353c8105e46117dbe65402e56e45c9f2af0d4be
+df85e2d9bc16a7bb8d5fcfe5a94b5c30aa2ca1ce,"add support for AWS go: new create templates aws-go and aws-go-dep, docs, updated integration tests",yunspace,https://api.github.com/repos/serverless/serverless/git/commits/df85e2d9bc16a7bb8d5fcfe5a94b5c30aa2ca1ce
+92f0392f9d46d51e5d890d2292e75db7d22ca879,docs(google/cli) add invoke-local.md,adnasa,https://api.github.com/repos/serverless/serverless/git/commits/92f0392f9d46d51e5d890d2292e75db7d22ca879
+d5dc0cbf4b93ef804444da8c20a42477d6605ba4,"Do not explicitly color messages in white
+
+On white background terminals, white text is unreadable. Use the default
+terminal color instead.
+
+Fixes #4673",koterpillar,https://api.github.com/repos/serverless/serverless/git/commits/d5dc0cbf4b93ef804444da8c20a42477d6605ba4
+02044203244e7812e8882d5b2af7d1b419ced67a,"Added support for concurrency option in AWS Lambda
+
+AWS Lambda has support for concurrency limit and it should be supported
+in serverless.yml",mizalewski,https://api.github.com/repos/serverless/serverless/git/commits/02044203244e7812e8882d5b2af7d1b419ced67a
+87af47a75e2c2e93ddd66cf15dded78b24c10c8a,Add Google Cloud Functions label documentation,jbutz,https://api.github.com/repos/serverless/serverless/git/commits/87af47a75e2c2e93ddd66cf15dded78b24c10c8a
+fc24fb4637c92c00253fee220db45b5d7802f88e,"Update README.md
+
+On first pass this doc was a bit confusing for me. Hopefully these edits make it easier for any Serverless newcomer to get started with a better understanding of the commands and available options.",emaildano,https://api.github.com/repos/serverless/serverless/git/commits/fc24fb4637c92c00253fee220db45b5d7802f88e
+d7eea2005e40b261c2b0592bfc00878e04f72c82,"Restricting alexaSkill functions to specific Alexa skills (#4701)
+
+* - Adding support for restricting the executing alexa skill by id (serverless/serverless#4700)
+- Adding support for multiple `alexaSkill` events on a single function (allows multiple Alexa Skills on a single lambda)
+
+* Adding a comment on the `serverless.cli` addition when testing.
+
+* Updating templates to have the right `alexaSkill` syntax
+
+* Cleaning up Travis-CI's occasional errors with sinon stubs going wild (hopefully)
+(https://travis-ci.org/serverless/serverless/jobs/335361582 / https://travis-ci.org/serverless/serverless/jobs/335706593 / https://travis-ci.org/serverless/serverless/jobs/335682396)
+
+* one last test case to make sure the alexaSkill file will be fully covered.
+
+* PR notes
+
+* naming - Add a default suffix for alexaSkillLogicalId if undefined
+
+* Revert changes to createStack.test.js (#c967c8d956b3d96afbaefa7fbe3e6eb498ecdd7c)
+
+* createStack.test - reject with an Error, not with a promise that resolves to an error.",kobim,https://api.github.com/repos/serverless/serverless/git/commits/d7eea2005e40b261c2b0592bfc00878e04f72c82
+87e83b8b43cc0cef4eb3613cdb37005e752d723a,Add Windows support for spawning mvn,drkmullins,https://api.github.com/repos/serverless/serverless/git/commits/87e83b8b43cc0cef4eb3613cdb37005e752d723a
+a0e70268f0e8af5ebad0ad67d89da35660f26ae6,Fix typo in Plugins,otakumesi,https://api.github.com/repos/serverless/serverless/git/commits/a0e70268f0e8af5ebad0ad67d89da35660f26ae6
+037a9de63e4ee6aa349a35f074e175389b1ceb90,Google docs intro typo,tomdyson,https://api.github.com/repos/serverless/serverless/git/commits/037a9de63e4ee6aa349a35f074e175389b1ceb90
+396c800fffad2f9a60c291d8dc4173e1962583e6,Add serverless-architecture-boilerplate,msfidelis,https://api.github.com/repos/serverless/serverless/git/commits/396c800fffad2f9a60c291d8dc4173e1962583e6
+edd863be01044b211db0d86800c31a456dc33fc5,"Wraps Poorly Parsing URL in Angle Brackets
+
+As suggested by <https://tools.ietf.org/html/rfc3986?#appendix-C>.
+
+[#4674]",chrisoverzero,https://api.github.com/repos/serverless/serverless/git/commits/edd863be01044b211db0d86800c31a456dc33fc5
+e572563441b7adb1b24db9eba3ce6bfc95086c23,"Fixed a typo
+
+It's supposed to say python code, but it says nodejs two times",atsuky,https://api.github.com/repos/serverless/serverless/git/commits/e572563441b7adb1b24db9eba3ce6bfc95086c23
+d1d1b05cea475810c88aa933e2fe3c95065756b8,"Fixed python module parsing (#4755)
+
+* Fixed python module parsing
+
+Ref: https://github.com/serverless/serverless/issues/4663#issuecomment-366931491
+
+* Update index.js
+
+* Update index.js",dfee,https://api.github.com/repos/serverless/serverless/git/commits/d1d1b05cea475810c88aa933e2fe3c95065756b8
+e6692aa1fd2b1cc57fee47af18451caf9b55d8df,"Resolving #4491 , adding support for java maven templates for OpenWhisk
+
+Signed-off-by: Kamesh Sampath <kamesh.sampath@hotmail.com>",kameshsampath,https://api.github.com/repos/serverless/serverless/git/commits/e6692aa1fd2b1cc57fee47af18451caf9b55d8df
+5618c5a453aee1997543cec94c50620b2f56360c,"Fix typo in sub-heading
+
+compatability -> compatibility (nitpicking, I know)",jfix,https://api.github.com/repos/serverless/serverless/git/commits/5618c5a453aee1997543cec94c50620b2f56360c
+a4de7288f37400722763d1ac3524cee48ce50bdb,"Added name property to CloudFormation template
+
+Now when a user specifies a name property under the cloudwatchEvent, it will be carried over to the CF template.",icj217,https://api.github.com/repos/serverless/serverless/git/commits/a4de7288f37400722763d1ac3524cee48ce50bdb
+97d3a031c8468db87da20e48a8f9434c548e96b5,"Allow UsagePlan's to be created without ApiKeys defined. Addresses
+issue #4459.",bsdkurt,https://api.github.com/repos/serverless/serverless/git/commits/97d3a031c8468db87da20e48a8f9434c548e96b5
+818f58ac80613318a22b03edaf6c7dc4122e2e30,"Pass authorizer custom context to target lambda
+
+Per https://github.com/serverless/serverless/issues/4374",murtyjones,https://api.github.com/repos/serverless/serverless/git/commits/818f58ac80613318a22b03edaf6c7dc4122e2e30
+f6df4f54420d4d752d6519b52483cb51c991044f,Doc - Add AWS-only alternative for variableSyntax that is compatible with serverless way (credits to @dschep),Vadorequest,https://api.github.com/repos/serverless/serverless/git/commits/f6df4f54420d4d752d6519b52483cb51c991044f
+3db1e7957122b735555f3eea056cbf4cfa29417f,Fix typo in README,michaelmior,https://api.github.com/repos/serverless/serverless/git/commits/3db1e7957122b735555f3eea056cbf4cfa29417f
+e492e744a9f4a0108155d8a6d1c73c3df48ece9a,added iam managed policies to aws provider closes #3751,chrisbarbour,https://api.github.com/repos/serverless/serverless/git/commits/e492e744a9f4a0108155d8a6d1c73c3df48ece9a
+d5c031b23c628138740637552faf4c9c13d98ce1,Fix typo,denzo,https://api.github.com/repos/serverless/serverless/git/commits/d5c031b23c628138740637552faf4c9c13d98ce1
+4bbc56c78a01968ef419adbe971ec1ba996fc590,Update Stack Policy Deny action,jpstrikesback,https://api.github.com/repos/serverless/serverless/git/commits/4bbc56c78a01968ef419adbe971ec1ba996fc590
+33759c2736bbc2c07ea477fe1a0294ba74642e44,Support returning promises from serverless.js,simonbuchan,https://api.github.com/repos/serverless/serverless/git/commits/33759c2736bbc2c07ea477fe1a0294ba74642e44
+c86bad256254c6c80109e1378839f90098bb50de,Fix a broken link,haoliangyu,https://api.github.com/repos/serverless/serverless/git/commits/c86bad256254c6c80109e1378839f90098bb50de
+435f88e3346bcb5603e6efc075b070a274e63e62,"Update README.md
+
+- Remove duplicate sentence
+- Change Node template to Go template",loren,https://api.github.com/repos/serverless/serverless/git/commits/435f88e3346bcb5603e6efc075b070a274e63e62
+4ee53998e287cfd586da10876272e214d1238963,"Update resources.md
+
+According to https://github.com/serverless/serverless/blob/master/lib/plugins/aws/lib/naming.js#L4, I think it should mention `stage`.",yeonghoey,https://api.github.com/repos/serverless/serverless/git/commits/4ee53998e287cfd586da10876272e214d1238963
+3e4f293d0df635f89b1eee165400ddb566729fa4,"Update quick-start.md
+
+Setting AWS credentials needs to be done for each tab in the console",adriatic,https://api.github.com/repos/serverless/serverless/git/commits/3e4f293d0df635f89b1eee165400ddb566729fa4
+cf1260a372661081e4d8173bfa53d0496437955a,#4852 fix by rethrowing a module loading exception in aws invoke local,GuruRAM,https://api.github.com/repos/serverless/serverless/git/commits/cf1260a372661081e4d8173bfa53d0496437955a
+b33611cad9a668b584ce49de749d759c354364e6,"Fix broken Azure example
+
+The example has several errors, including incorrect Provider Plugin name and incorrect invocation command.",eeg3,https://api.github.com/repos/serverless/serverless/git/commits/b33611cad9a668b584ce49de749d759c354364e6
+611e43cdffd944e828a2108648a713d5a4b6ad15,fix: binary support for OPTIONS method,mvayngrib,https://api.github.com/repos/serverless/serverless/git/commits/611e43cdffd944e828a2108648a713d5a4b6ad15
+02b4131ce2f807912303a779aa5885ce6e671147,Fix load restApiLogicalId when we have enabled Shared API Gateway,jupeter,https://api.github.com/repos/serverless/serverless/git/commits/02b4131ce2f807912303a779aa5885ce6e671147
+404bfc576328f11f0fd727b6939835dc754efe49,"Add note about RoleName property in custom role
+
+Currently, updating function code with `sls deploy --function` fails with `The role defined for the function cannot be assumed by Lambda.` if using a custom role with an autogenerated `RoleName`. So I think it would be good to add a notice about that to the docs.",ldgarcia,https://api.github.com/repos/serverless/serverless/git/commits/404bfc576328f11f0fd727b6939835dc754efe49
+c8b42bee9db55f3311cf06dfd12d8b3dd581f8b8,"upgrade typescript, types, node and webpack",mlecoq,https://api.github.com/repos/serverless/serverless/git/commits/c8b42bee9db55f3311cf06dfd12d8b3dd581f8b8
+fc647623a4b9f4487545a8fcc4273359784eb544,Update README.md,davidgf,https://api.github.com/repos/serverless/serverless/git/commits/fc647623a4b9f4487545a8fcc4273359784eb544
+8ece626388ae82d8f06e572fea0fd01729a5ad03,"edit Serverless license info so that GitHub recognizes it
+
+GitHub uses a library called Licensee to identify a project's license
+type. It shows this information in the status bar and via the API if it
+can unambiguously identify the license.
+
+This commit updates the LICENSE file so that it contains only the full
+text of the MIT license. The info that pertains to 3rd-party software
+licensing has now been moved to a ""Licensing"" section in the README.
+
+Collectively, these changes allow Licensee to successfully identify the
+license type of Serverless as MIT.
+
+Signed-off-by: Andrea Kao <eirinikos@gmail.com>",eirinikos,https://api.github.com/repos/serverless/serverless/git/commits/8ece626388ae82d8f06e572fea0fd01729a5ad03
+f2c1c96eba2f03d2b4eed0de60e0cee652b090f7,update aws sdk version to 2.228.0,haruharuharuby,https://api.github.com/repos/serverless/serverless/git/commits/f2c1c96eba2f03d2b4eed0de60e0cee652b090f7
+486bed5fb7a5aff1abfb6f0a8f212cb4bacd6e4d,Add docs for fn,hibooboo2,https://api.github.com/repos/serverless/serverless/git/commits/486bed5fb7a5aff1abfb6f0a8f212cb4bacd6e4d
+03a13619e781e371812fb2d70922fe9b27581ff7,Added examples and details for shared api gateway,rohitshetty,https://api.github.com/repos/serverless/serverless/git/commits/03a13619e781e371812fb2d70922fe9b27581ff7
+f493885714c1a86f03e496473781f7d8fa9efec7,Upgrades dependency https-proxy-agent from 1.0.0 to 2.2.1,joshuarose,https://api.github.com/repos/serverless/serverless/git/commits/f493885714c1a86f03e496473781f7d8fa9efec7
+4bded36e45b8c07f2b33949ddf5f00da939bec59,"👌 IMPROVE: Unique Name For Apps
+
+Make sure users know to use a globally unique name to not run into issues like #4968
+
+FIX #4968",ahmadawais,https://api.github.com/repos/serverless/serverless/git/commits/4bded36e45b8c07f2b33949ddf5f00da939bec59
+abbd68a1d5caa4c9aa78653252e504caab6877ff,"Use serverless instead of sls command.
+
+I got following error while invoking sls create command
+
+Select-String : A positional parameter cannot be found that accepts argument 'aws-csharp'.",paritoshmmmec,https://api.github.com/repos/serverless/serverless/git/commits/abbd68a1d5caa4c9aa78653252e504caab6877ff
+1eee54c5d8622b481fdac6b530cdcb38e512dd5c,"Updating documentation typos...
+
+The doc mentions Python and creates a python template, while then using nodejs commands (npm install, etc...)",nicolasnoble,https://api.github.com/repos/serverless/serverless/git/commits/1eee54c5d8622b481fdac6b530cdcb38e512dd5c
+5f017cede92720a79e1a0c119d9025da52c35e71,Add superluminar as consultancy,s0enke,https://api.github.com/repos/serverless/serverless/git/commits/5f017cede92720a79e1a0c119d9025da52c35e71
+77e9e18a793f94be5159e3e9ff21a07b287bad6c,"Update Python gitignore template to add *.pyc
+
+Just noticed that that wasn't included and had to add it myself. :) Figured I'd share it back.",vergenzt,https://api.github.com/repos/serverless/serverless/git/commits/77e9e18a793f94be5159e3e9ff21a07b287bad6c
+28013d49774e756fc49246436bc651e1c6e18118,"Fix documentation section anchor
+
+Section anchor of HTTP Endpoints with AWS_IAM Authorizers doesn't match.",vincen7su,https://api.github.com/repos/serverless/serverless/git/commits/28013d49774e756fc49246436bc651e1c6e18118
+446af03952842f478888a61d3e6465fbd22368fa,"Add a reference to ingress controllers
+
+It would remove some frustration for the documentation skimmers out there if this last step was added, even if some may think it's a little spoon feedy.",Fliko,https://api.github.com/repos/serverless/serverless/git/commits/446af03952842f478888a61d3e6465fbd22368fa
+6fe110a3b2f908104ccbec2909e1c77a3b80488e,Fix tab characters to spaces in aws-scala-sbt,NomadBlacky,https://api.github.com/repos/serverless/serverless/git/commits/6fe110a3b2f908104ccbec2909e1c77a3b80488e
+9bd47e1e3b72898be9265ffa5b3cefa1717d1cc2,Update awsProvider.js,gmcquistin,https://api.github.com/repos/serverless/serverless/git/commits/9bd47e1e3b72898be9265ffa5b3cefa1717d1cc2
+db05d9e6164e4574752eb5a0f7267714219495a9,"Fix stack deny policy in serverless.yml.md
+
+Without `Resource: ""*""` in the deny policy it doesn't actually affect anything.  The Condition property is applied only if the Resource property is first matched.",andersonjohnf,https://api.github.com/repos/serverless/serverless/git/commits/db05d9e6164e4574752eb5a0f7267714219495a9
+4a5a8009bdbe181b911813ee625c8e6e7068b48f,"Update credentials.md
+
+Link to AWS invoke local docs for convenience",PatNeedham,https://api.github.com/repos/serverless/serverless/git/commits/4a5a8009bdbe181b911813ee625c8e6e7068b48f
+1e70cc1836cf36a6dc8a537fd502e1f024d365f1,remove package.json for aliyun-nodejs templates,JacksonTian,https://api.github.com/repos/serverless/serverless/git/commits/1e70cc1836cf36a6dc8a537fd502e1f024d365f1
+d6188ad700e70e7b841e479ffa770d7a9070043d,"Fix #4739
+
+Update aws-java-maven template to use Log4J2 as recommended by AWS",bwinant,https://api.github.com/repos/serverless/serverless/git/commits/d6188ad700e70e7b841e479ffa770d7a9070043d
+e80c576e494b4ec5135d0b5db687812beea28ca6,Run npm install,sciamp,https://api.github.com/repos/serverless/serverless/git/commits/e80c576e494b4ec5135d0b5db687812beea28ca6
+fc0da7054ddaa472ae621a5f83bb1dc0323a0000,Adds Andrew Griffiths as consultant,techjacker,https://api.github.com/repos/serverless/serverless/git/commits/fc0da7054ddaa472ae621a5f83bb1dc0323a0000
+1baa9c26cb1cbbbed2b047c5ee9f16b360aa3939,Fix go dep version,iasci,https://api.github.com/repos/serverless/serverless/git/commits/1baa9c26cb1cbbbed2b047c5ee9f16b360aa3939
+0fd4235aeb1bd770402cace5834b96761e65be41,"Add print options to allow digging, filtering and formatting",ronkorving,https://api.github.com/repos/serverless/serverless/git/commits/0fd4235aeb1bd770402cace5834b96761e65be41
+3267a7b4ac97d77dfb78d5aaee91837d76c1f6d0,add untildify package to handle create paths with a ~,SusanESmith,https://api.github.com/repos/serverless/serverless/git/commits/3267a7b4ac97d77dfb78d5aaee91837d76c1f6d0
+e44b38a1ee63161a6cd10e4b8f834f4ada021199,"update workflow.md
+
+It looks like ""Intro"" was a placeholder for the intro? Not needed anymore.",jaimeiniesta,https://api.github.com/repos/serverless/serverless/git/commits/e44b38a1ee63161a6cd10e4b8f834f4ada021199
+81720b5761e15ebb05607754a4bca0f7f07fe5e5,Adding note about referencing environment variables in function do,fbidu,https://api.github.com/repos/serverless/serverless/git/commits/81720b5761e15ebb05607754a4bca0f7f07fe5e5
+d4614909bcc7d232d116486e8f8869b2b4d01c9b,"This slash comment violates format
+
+When I copy & pasted this code, sls returned an error.",kesoji,https://api.github.com/repos/serverless/serverless/git/commits/d4614909bcc7d232d116486e8f8869b2b4d01c9b
+e34ebec061d2edc6c33ae7893aeb7b2d5350d0dc,"Remove `/tmp/node-dependencies*`
+
+Because `node-dependencies-*` remains below `/tmp/`",abetomo,https://api.github.com/repos/serverless/serverless/git/commits/e34ebec061d2edc6c33ae7893aeb7b2d5350d0dc
+38fe02ef81ac60967852dd4489e5f6dfec3ce3b3,add PRIVATE endpointType,ijin,https://api.github.com/repos/serverless/serverless/git/commits/38fe02ef81ac60967852dd4489e5f6dfec3ce3b3
+d4b7d6d384ad6d6bdb2d3b1cefa89201e3f7afb6,Fixed that create command didn't use the service name given as -n option,HiromiShikata,https://api.github.com/repos/serverless/serverless/git/commits/d4b7d6d384ad6d6bdb2d3b1cefa89201e3f7afb6
+596ec91bf9bd70abeb28feb88f66c1bf13074183,"Update package.json
+
+moved ""source-map-support"" to devDependencies + upgraded ""source-map-support"" to ""^0.5.6"" & ""typescript"" to ""^2.9.2""",gmadar,https://api.github.com/repos/serverless/serverless/git/commits/596ec91bf9bd70abeb28feb88f66c1bf13074183
+fde55eac6a796d0358cc6662033dab212b9a81fa,Fix typo in guide/functions.md,marcospgp,https://api.github.com/repos/serverless/serverless/git/commits/fde55eac6a796d0358cc6662033dab212b9a81fa
+fc890948c864802fead7696142fa8a1d1693289e,Adds serverless-offline-kinesis and serverless-offline-dynamodb-streams,godu,https://api.github.com/repos/serverless/serverless/git/commits/fc890948c864802fead7696142fa8a1d1693289e
+880ba0b78829d472489923d46ef6076eb4e026e9,"#5110 null error on undefined SSM variables
+
+Ignore null errors to allow resolution instead of rejection on undefined SSM variables.",gcphost,https://api.github.com/repos/serverless/serverless/git/commits/880ba0b78829d472489923d46ef6076eb4e026e9
+d84fcf3cbb96b7d8477948e53aec2604d2c2609f,"Minor change to improve English
+
+The word ""ran"" was used where ""run"" would have been correct.",nielsen-at-cgt,https://api.github.com/repos/serverless/serverless/git/commits/d84fcf3cbb96b7d8477948e53aec2604d2c2609f
+f638f5e05d9cdc40a04a427dac95919790d9c94b,Add SQS event,jeremydaly,https://api.github.com/repos/serverless/serverless/git/commits/f638f5e05d9cdc40a04a427dac95919790d9c94b
+60d77c929a3539d7b5f14f6d8289e0c0f601925f,docs: kubeless secrets,alexander-alvarez,https://api.github.com/repos/serverless/serverless/git/commits/60d77c929a3539d7b5f14f6d8289e0c0f601925f
+ce858d16623425a90504602efa33485c077aa9e9,Add SQS To Event List,bglick,https://api.github.com/repos/serverless/serverless/git/commits/ce858d16623425a90504602efa33485c077aa9e9
+1686c91cdd2b32876899352dc0ae4ece5d0c0969,Add node 10.6 and 10.7,kei-ito,https://api.github.com/repos/serverless/serverless/git/commits/1686c91cdd2b32876899352dc0ae4ece5d0c0969
+e2e231e28d367647bcaa3158ee71a9b4bc5ef739,"Allows Fn::GetAtt with Lambda DLQ-onError
+
+Arn references for SQS queues are now available using:
+
+```
+Fn::GetAtt:
+  - Queue
+  - Arn
+```",martinjlowm,https://api.github.com/repos/serverless/serverless/git/commits/e2e231e28d367647bcaa3158ee71a9b4bc5ef739
+b48b0581dabcc8db9a5577c39a194d7a712c0731,updating golang templates to match examples,sebito91,https://api.github.com/repos/serverless/serverless/git/commits/b48b0581dabcc8db9a5577c39a194d7a712c0731
+2b803cfbeb11ff4ab990c8ae5377f77e4470fe03,Fix keyname,ganeshvlrk,https://api.github.com/repos/serverless/serverless/git/commits/2b803cfbeb11ff4ab990c8ae5377f77e4470fe03
+e599f5717851804887eee832ca7908b2639809dd,Update index.js,bhaskarbalusani,https://api.github.com/repos/serverless/serverless/git/commits/e599f5717851804887eee832ca7908b2639809dd
+8fe730c019b85256285509ca454ecfa3b557abdd,Fixs typo in short-hand guide,benmoose,https://api.github.com/repos/serverless/serverless/git/commits/8fe730c019b85256285509ca454ecfa3b557abdd
+41183c2d1e60a3231b4ee842c5663013b443016b,"Update apigateway.md
+
+Corrected `Outputs` indentation. Use logical id when referring to a resource.",chackomathew,https://api.github.com/repos/serverless/serverless/git/commits/41183c2d1e60a3231b4ee842c5663013b443016b
+628362743c9382cbf93e0423fc8c1e89e18c3879,"Update API Gateway Default Request Templates
+
+Update the list available attributes available in the default API Gateway Request Templates. 
+
+*NOTE* I also _think_ that `method` should be `httpMethod` or mentioned its in the `requestContext`",mikelax,https://api.github.com/repos/serverless/serverless/git/commits/628362743c9382cbf93e0423fc8c1e89e18c3879
+a11700b644047d6280e4e7f485452bf727e3d87e,"Update serverless.yml.md
+
+In https://serverless.com/framework/docs/providers/aws/guide/deploying/ the documentation states that you can deploy to different environments / regions by passing them to the --stage or --region flags, however this doesn't work out of the box because the sample documentation / serverless.yml file hardcodes the stage & region and is not set up to use the ones passed to the CLI.",khaledosman,https://api.github.com/repos/serverless/serverless/git/commits/a11700b644047d6280e4e7f485452bf727e3d87e
+90486d9489a742d088d7bd238d9d2a0b61fa3c2e,Remove redundant link to same docs page,BigChief45,https://api.github.com/repos/serverless/serverless/git/commits/90486d9489a742d088d7bd238d9d2a0b61fa3c2e
+4ce91c2859be7947f0e887dc11ea2c45dd656d0c,"Update README.md
+
+Updated last sentence in README.md file to fix typo.",simoncaley,https://api.github.com/repos/serverless/serverless/git/commits/4ce91c2859be7947f0e887dc11ea2c45dd656d0c
+ab81dd60c237aded6571874a981c2077b800fc1f,whitelisted cloudflare templates,nirvik,https://api.github.com/repos/serverless/serverless/git/commits/ab81dd60c237aded6571874a981c2077b800fc1f
+46c2ba4d0663af380141c75218011e97c7c74ef0,"Multiple cloudformation resources
+
+Making it explicit on how to add multiple resource files with internal Resources and Outputs",philiiiiiipp,https://api.github.com/repos/serverless/serverless/git/commits/46c2ba4d0663af380141c75218011e97c7c74ef0
+bbe5639399cd4da4d9464b4b1fab7dec72c85b96,removed references to webtask provider that is being deprecated,NotMyself,https://api.github.com/repos/serverless/serverless/git/commits/bbe5639399cd4da4d9464b4b1fab7dec72c85b96
+bd2fbdc04954aeb28ca30d60099a086b0fcfc4b6,"Add new template for AWS Alexa Typescript
+
+- Adapt from `aws-nodejs-typescript`.
+- Tested manually by specifying template-url.
+- Add unit and integration tests for new create template.
+- Waiting on the next version of the `serverless-alexa-skills` plugin to be released on NPM.",danielrbradley,https://api.github.com/repos/serverless/serverless/git/commits/bd2fbdc04954aeb28ca30d60099a086b0fcfc4b6
+28124a4cfe40c727c799e590d83f4f0d4dbb4341,Fix for #3069 - Failing to handle schedule event body params due to failures in stringifying an already stringified...string.,shanehandley,https://api.github.com/repos/serverless/serverless/git/commits/28124a4cfe40c727c799e590d83f4f0d4dbb4341
+d119d406057c89d215c85848a24ded9ee739b246,Add cloudflare-workers documentation,pinkerton,https://api.github.com/repos/serverless/serverless/git/commits/d119d406057c89d215c85848a24ded9ee739b246
+9f5fbae584d49aa807e87bb97e726562c2fa0130,[docs] Fix mismatch in AWS Metrics,andriyor,https://api.github.com/repos/serverless/serverless/git/commits/9f5fbae584d49aa807e87bb97e726562c2fa0130
+317f6f80d00f248383d73f6b29c2e42231f657a4,"Update quick-start.md
+
+off by 1 🙃",html5cat,https://api.github.com/repos/serverless/serverless/git/commits/317f6f80d00f248383d73f6b29c2e42231f657a4
+c06ae9ebeadcf8ade890322bfcdef97a1b3c0a11,more faithfully represent aws lambda python runtime context,softprops,https://api.github.com/repos/serverless/serverless/git/commits/c06ae9ebeadcf8ade890322bfcdef97a1b3c0a11
+e9df95b20cd7962ef55dce91cd911a2674afb079,Update README.md,anilat007,https://api.github.com/repos/serverless/serverless/git/commits/e9df95b20cd7962ef55dce91cd911a2674afb079
+b1a0e9211f120a21d7aae4ce409451df5599809b,"Update handler name on deploy single function
+
+Allow to update the handler when using `deploy -f / --function`",bzemms,https://api.github.com/repos/serverless/serverless/git/commits/b1a0e9211f120a21d7aae4ce409451df5599809b
+b5da4d09ed920827e311a35f1f1858fa5c8f19a9,Added possibility to specify custom S3 key prefix instead of the standard 'serverless',weeniearms,https://api.github.com/repos/serverless/serverless/git/commits/b5da4d09ed920827e311a35f1f1858fa5c8f19a9
+f6ddfbceea2862abf5fdd77e97091fbd2a614cec,"Add support information for AWS lambda and SQS
+
+From the AWS docs:
+https://docs.aws.amazon.com/lambda/latest/dg/with-sqs.html
+
+it says:
+> Amazon Simple Queue Service supports both Standard and FIFO queues. AWS Lambda supports only standard queues. For more information on the difference, see What Type of Queue Do I Need?",Maxwell2022,https://api.github.com/repos/serverless/serverless/git/commits/f6ddfbceea2862abf5fdd77e97091fbd2a614cec
+62b3e15561b96767a8a06c191ec924e3b0d421a3,Update quick-start.md,nathanbacon,https://api.github.com/repos/serverless/serverless/git/commits/62b3e15561b96767a8a06c191ec924e3b0d421a3
+469893ce9b8237f0320446fdf9f071f70f3faa77,Update TypeScript handler template,uneco,https://api.github.com/repos/serverless/serverless/git/commits/469893ce9b8237f0320446fdf9f071f70f3faa77
+03e6e65cce7284243a4ad67815642eb80962adb1,Upgrade google-cloudfunctions to v2 and set defaults to node8 etc,bodazhao,https://api.github.com/repos/serverless/serverless/git/commits/03e6e65cce7284243a4ad67815642eb80962adb1
+56d02bd1de673f7ffb41884bb3429a1c3dbe0cce,Implement #5096 - invoke local can override env vars with --env,robin-norwood,https://api.github.com/repos/serverless/serverless/git/commits/56d02bd1de673f7ffb41884bb3429a1c3dbe0cce
+9bbebfc8931e4acb82a8752ed4a50aab1d3167f9,added option for cacheControl to be attached to cors to enable caching at CloudFront layer,reedyrm,https://api.github.com/repos/serverless/serverless/git/commits/9bbebfc8931e4acb82a8752ed4a50aab1d3167f9
+f167481a36d3e2c1d6c726ab2a116824e923469e,"fixes #5188 ""Failed to fetch the event types list due the error: API key not set"" error when event gateway plugin is used.",johnlim,https://api.github.com/repos/serverless/serverless/git/commits/f167481a36d3e2c1d6c726ab2a116824e923469e
+9a0f5763cff3e32cdb60e62aac18f854066f9192,Workaround to avoid convert string to numbers with minimist,07Gond,https://api.github.com/repos/serverless/serverless/git/commits/9a0f5763cff3e32cdb60e62aac18f854066f9192
+de4e6d82a358d5713df9082ddea66ae3bec5c6e5,update python invokeLocal to detect tty,tjwebb,https://api.github.com/repos/serverless/serverless/git/commits/de4e6d82a358d5713df9082ddea66ae3bec5c6e5
+fd3f4cf202bb552a58a7fbd5913aaf1cafb646c9,add Serverless Line Bot example,jiyeonseo,https://api.github.com/repos/serverless/serverless/git/commits/fd3f4cf202bb552a58a7fbd5913aaf1cafb646c9
+2be7554a962d844754cce511994e6ad017088c4d,Update invoke-local.md,Zohar2506,https://api.github.com/repos/serverless/serverless/git/commits/2be7554a962d844754cce511994e6ad017088c4d
+2d1a40e345b61d5566d657950ee8a08c7cee3ad2,Let function package.individually config override service artifact,juanjoDiaz,https://api.github.com/repos/serverless/serverless/git/commits/2d1a40e345b61d5566d657950ee8a08c7cee3ad2
+bb79879497871c3eb64fce4234e37445154db0a5,fix anchor link in aws/guide/variables.md file,pdaryani,https://api.github.com/repos/serverless/serverless/git/commits/bb79879497871c3eb64fce4234e37445154db0a5
+dad0fc7abfb19d3b14ca02a24136a74139619ccf,"Doc update for openwhisk package name
+
+According to changes in https://github.com/serverless/serverless-openwhisk/issues/140",volteanu,https://api.github.com/repos/serverless/serverless/git/commits/dad0fc7abfb19d3b14ca02a24136a74139619ccf
+5da609614cf2ad80305750f66c5c35a218597de0,Update cognito-user-pool.md,JaderCM,https://api.github.com/repos/serverless/serverless/git/commits/5da609614cf2ad80305750f66c5c35a218597de0
+ad926a650cc90bb1bbac4624931fcceff5c6ce46,add gitignore setting,toshi0607,https://api.github.com/repos/serverless/serverless/git/commits/ad926a650cc90bb1bbac4624931fcceff5c6ce46
+18bb838b7ebb055f111edd46a1bfb2a82b859beb,fix link,nogut0123,https://api.github.com/repos/serverless/serverless/git/commits/18bb838b7ebb055f111edd46a1bfb2a82b859beb
+b2423c932b1c3df6a60061f50302bfb6c818aab0,"[WIP] Update documentation, README.md
+
+## What did you implement:
+
+Update documentation, README.md. This is related to #3916 which is a closed issue.
+
+## How did you implement it:
+
+Fix the URL of link to *Azure QuickStart*.
+
+## How can we verify it:
+
+See [README.md](https://github.com/serverless/serverless/tree/master/docs) on GitHub, and then click ""Azure QuickStart"". This PR modifies the URL:
+
+- **from:** https://github.com/serverless/serverless/blob/master/docs/providers/azure/guide/quick-start
+- **to:** https://github.com/serverless/serverless/blob/master/docs/providers/azure/guide/quick-start.md
+
+## Todos:
+
+[] Write tests
+[] Write documentation
+[] Fix linting errors
+[] Make sure code coverage hasn't dropped
+[] Provide verification config / commands / resources
+[] Enable ""Allow edits from maintainers"" for this PR
+[] Update the messages below
+
+**Is this ready for review?:** NO
+**Is it a breaking change?:** NO",momoto,https://api.github.com/repos/serverless/serverless/git/commits/b2423c932b1c3df6a60061f50302bfb6c818aab0
+2a1ba50ad9915bf7ce26413a2d0d5dc9a679f845,Improve language in alexa-skill documentation,tekamoment,https://api.github.com/repos/serverless/serverless/git/commits/2a1ba50ad9915bf7ce26413a2d0d5dc9a679f845
+588d9bc605393d28a8d596c8e375517d1da8d2e2,aws-csharp create template uses handler-specific artifact,odedniv,https://api.github.com/repos/serverless/serverless/git/commits/588d9bc605393d28a8d596c8e375517d1da8d2e2
+089fc33a4a806239c24d580d16f68d272bea86e1,"Updating services.md > Invoking Serverless locally
+
+Here is an easier way to invoke a local serverless installation.
+
+- executables have symlinks in `node_modules/.bin` folder
+- npx is an easier way to invoke these local executables: (ref: https://blog.scottlogic.com/2018/04/05/npx-the-npm-package-runner.html)
+
+Thanks for serverless framework 👍",abumalick,https://api.github.com/repos/serverless/serverless/git/commits/089fc33a4a806239c24d580d16f68d272bea86e1
+f488ef21cfd440f530b812966865fc483f402375,Fix typo in Google workflow,devinschulz,https://api.github.com/repos/serverless/serverless/git/commits/f488ef21cfd440f530b812966865fc483f402375
+6670ea11c3009f5c5219dc3f593305bdf0074e8a,"Update http.md
+
+The values for the events properties must be in lowercase. The display values will appear in Capital letters in the Portal.",devWebNuts,https://api.github.com/repos/serverless/serverless/git/commits/6670ea11c3009f5c5219dc3f593305bdf0074e8a
+7ba4caad0d8de53b6b97ab948f908a95bad12a93,"Improves usage and documentation of SNS event sources.
+
+When using cloudformation intrinsic functions, it is easy to assume that sns:topicName is a property that should resolve to the actual value in AWS. In reality it is only used to name the underlying cloudformation resources generated by serverless, and thus needs to be a string.
+This improves the error message and code path returned when sns:topicName is not a string, as well as does some validation around usage of Fn::ImportValue. Also adds some tests and documentation demonstrating that intrinsic functions work with SNS event sources.",yahehe,https://api.github.com/repos/serverless/serverless/git/commits/7ba4caad0d8de53b6b97ab948f908a95bad12a93
+8a0fd1b8b630f49ecb347a43ac1e8490bd9dd460,"Removed errant apostrophe
+
+Sorry to be that guy but the little details do count in documentation :-)",jkburges,https://api.github.com/repos/serverless/serverless/git/commits/8a0fd1b8b630f49ecb347a43ac1e8490bd9dd460
+8f09cc823c55a79174c1b33ce53e389787800768," Fix wrong example function name.
+
+Changed references to ""hello"" function -which does not exist in the proposed [kubeless-nodejs](https://github.com/serverless/serverless/blob/master/lib/plugins/create/templates/kubeless-nodejs/serverless.yml) template- to function ""capitalize"" and updated example.",rcmorano,https://api.github.com/repos/serverless/serverless/git/commits/8f09cc823c55a79174c1b33ce53e389787800768
+abd681f3ea72ef32ac91bd541527b502ba770246,"Updating roles requirement for GCF deployment
+
+Removing the need for Owner and Editor role and updating with the required non primitive roles",apekshithr,https://api.github.com/repos/serverless/serverless/git/commits/abd681f3ea72ef32ac91bd541527b502ba770246
+efa6963242c779c506f76e44c53bc1dc7d8fb718,"Fix issues with PR #5631 causing base64 errors
+
+- Some of values were not converted back from base64, which resulted in
+  spurious errors with base64 strings.
+  (This was caused by nested arrays, like commands, not being converted
+   back, combined with the wrong assumption that commands always occur
+   before options. It is not always true, as the added test case
+   demonstrates.)
+- Some other values were converted *from* base64, but they weren't
+  base64 in the first place, which resulted in junk binary data.
+  (This was due to the invalid assumption that only odd-numbered values
+   need to be converted.)",jkozera,https://api.github.com/repos/serverless/serverless/git/commits/efa6963242c779c506f76e44c53bc1dc7d8fb718
+821b9d9e3b6d99a47751847626aac1d5b92cd715,Support API Gateway stage deployment description,vkkis93,https://api.github.com/repos/serverless/serverless/git/commits/821b9d9e3b6d99a47751847626aac1d5b92cd715
+45683ad808d3f71115334bb5ae9464df2ec8e434,Fix bug where code attempted to parse data / context objects when they were not supplied,seanohollaren,https://api.github.com/repos/serverless/serverless/git/commits/45683ad808d3f71115334bb5ae9464df2ec8e434
+45f9246310cc83e86fe75fdab415735decd1e592,add CI/CD info article for AWS solutions architect,thomcrowe,https://api.github.com/repos/serverless/serverless/git/commits/45f9246310cc83e86fe75fdab415735decd1e592
+e78d3cb541a51caead7868e79be6b0f45c613d6b,Add support for API Gateway payload compression,daniel-cottone,https://api.github.com/repos/serverless/serverless/git/commits/e78d3cb541a51caead7868e79be6b0f45c613d6b
+673b65606a04f52798dcf3b3e43516d4223aef4a,Generate Lambda::Permission objects in which logGroup name is wildcard to reduce final policy size.,exoego,https://api.github.com/repos/serverless/serverless/git/commits/673b65606a04f52798dcf3b3e43516d4223aef4a
+f9d9a4e8e7ce22008f52ea7c5b350c09b35a51f7,"Use new video URL
+
+The AWS Dashboard has changed quite a bit, update the URL with the newer version of the video",mesaugat,https://api.github.com/repos/serverless/serverless/git/commits/f9d9a4e8e7ce22008f52ea7c5b350c09b35a51f7
+3f15c9b6013f025e51dc0204bf76cc8c2b9dd7db,"Update invoke-local.md
+
+Fixed the options list, --data option did not have its own bullet",Poivey,https://api.github.com/repos/serverless/serverless/git/commits/3f15c9b6013f025e51dc0204bf76cc8c2b9dd7db
+d147db90b045c81dd90558a4386d0c55a87ea225,ruby support for invokeLocal,dholdren,https://api.github.com/repos/serverless/serverless/git/commits/d147db90b045c81dd90558a4386d0c55a87ea225
+0e5b032ad48244f232799789a945204464a28b34,"Clarify how to make layer from a prebuilt archive
+
+Currently, it isn't clear that you can make your own archive file and use that as the source for an AWS Lambda Layer. This change would clarify how to do that.",Nadock,https://api.github.com/repos/serverless/serverless/git/commits/0e5b032ad48244f232799789a945204464a28b34
+f9981f601e8a607a25987394601cc804550fd153,"Resource doesn't work, but Resources does",marcpalm,https://api.github.com/repos/serverless/serverless/git/commits/f9981f601e8a607a25987394601cc804550fd153
+a15ef7c2205802b0474df259ecd1fa86da97d65b,Upgrade to aws-sdk v2.373.0,joshuanapoli,https://api.github.com/repos/serverless/serverless/git/commits/a15ef7c2205802b0474df259ecd1fa86da97d65b
+3727db09932ce3953c7b53106da812ce8e394761,ISSUE-5580 Updated documentation for GCP to assigning roles to a service account,alex-lu-amido,https://api.github.com/repos/serverless/serverless/git/commits/3727db09932ce3953c7b53106da812ce8e394761
+64daa23bc28400ecd9e0b5b90e26d767addb5baf,Added currently supported regions for GCP functions,mattwelke,https://api.github.com/repos/serverless/serverless/git/commits/64daa23bc28400ecd9e0b5b90e26d767addb5baf
+14c8af82469f0535da9940ccdad91fb7f9014dbd,feat(log): Log AWS SDK calls in debug mode,jlamande,https://api.github.com/repos/serverless/serverless/git/commits/14c8af82469f0535da9940ccdad91fb7f9014dbd
+592ac257228e3155d7863dc640647dfaa6dd97fa,"Fixing link for HTTP Endpoints with AWS_IAM..
+
+The link for ""HTTP Endpoints with AWS_IAM Authorizers"" was broken. Changed link from:
+(#http-endpoints-with-aws-iam-authorizers) to (#http-endpoints-with-aws_iam-authorizers)",Murraymint1804,https://api.github.com/repos/serverless/serverless/git/commits/592ac257228e3155d7863dc640647dfaa6dd97fa
+73dab5e749d488118426317634b92a57c1e96982,Fix ResourceLimitExceeded for cloudwatchLog event,rdsedmundo,https://api.github.com/repos/serverless/serverless/git/commits/73dab5e749d488118426317634b92a57c1e96982
+c2d72e03ccaa422803d8f87d8877ce932396fafa,"Fixed cloudflare templates
+
+Updated package.json from 0.1.1 to 1.0.5 of serverless-cloudflare-workers plugin for both cloudflare templates. Fixed an issue with the serverless.yml files in the templates: serverless-cloudflare-workers does throws an exception on serverless deploy of the name property of the function does not match the function name.",benwillkommen,https://api.github.com/repos/serverless/serverless/git/commits/c2d72e03ccaa422803d8f87d8877ce932396fafa
+17f1e795468ea227c5b026e0bfa976f3e45f8f7a,Update credentials.md,rosner,https://api.github.com/repos/serverless/serverless/git/commits/17f1e795468ea227c5b026e0bfa976f3e45f8f7a
+970ad5597e1017d5f90942d3a6a64a60dab1e9a2,"Add Ruby to supported languages
+
+Welcome Ruby !",dbw03135,https://api.github.com/repos/serverless/serverless/git/commits/970ad5597e1017d5f90942d3a6a64a60dab1e9a2
+25164d884cf86f3d62350d473011594575066241,change behaviour on initial stack create failed,Imran99,https://api.github.com/repos/serverless/serverless/git/commits/25164d884cf86f3d62350d473011594575066241
+089b966a88ee9b2702700577204ef9b404868774,"Config should be under provider property
+
+As detailed in cloudflare/serverless-cloudflare-workers#1 and cloudflare/serverless-cloudflare-workers#2",webmasterkai,https://api.github.com/repos/serverless/serverless/git/commits/089b966a88ee9b2702700577204ef9b404868774
+7004831dd40cf2409610b087d70b8d0261ae696c,provide AWS_PROFILE from configuration for invoke local - same as region,revmischa,https://api.github.com/repos/serverless/serverless/git/commits/7004831dd40cf2409610b087d70b8d0261ae696c
+7b16d6b8b74077f2637b63d0efab4ac2606f3d84,Add missing `--force` option,klausbadelt,https://api.github.com/repos/serverless/serverless/git/commits/7b16d6b8b74077f2637b63d0efab4ac2606f3d84
+cdf37a65a7aa63ead7fa7758f179227ae6f06d53,Update layers.md,timporter,https://api.github.com/repos/serverless/serverless/git/commits/cdf37a65a7aa63ead7fa7758f179227ae6f06d53
+bdafd539f98ec068b0af0d8f88a97ea4774ac29a,"Clarify the http key for GCP
+
+This adds a few notes to better explain what you can and cannot do within `serverless.yml` when using GCF. I hope this will address a few common questions for newcomers around HTTP verbs and path configuration in the place they are most likely to find them.",sparkertime,https://api.github.com/repos/serverless/serverless/git/commits/bdafd539f98ec068b0af0d8f88a97ea4774ac29a
+c38bfaa6766f6aa1c30d1d8f15b696ee09d38d08,Updating cloudformation resource reference url,joebernard,https://api.github.com/repos/serverless/serverless/git/commits/c38bfaa6766f6aa1c30d1d8f15b696ee09d38d08
+eb97334c224215c2b6e3bcda8c2997b3fb71d66d,Fix layer doc reference to functions (should be layers),et304383,https://api.github.com/repos/serverless/serverless/git/commits/eb97334c224215c2b6e3bcda8c2997b3fb71d66d
+24ed86f1adad5abf0c61c31a6c253dcf4a6bdb66,"Fix array notation in stream ARN
+
+Fix array notation in stream ARN",ctindel,https://api.github.com/repos/serverless/serverless/git/commits/24ed86f1adad5abf0c61c31a6c253dcf4a6bdb66
+d2ab71cc511622dc7b99a7318ce186386875e0b1,Convert reservedConcurrency to integer to allow use env var,snurmine,https://api.github.com/repos/serverless/serverless/git/commits/d2ab71cc511622dc7b99a7318ce186386875e0b1
+f9c6412275b6ec23b2ec473a0fc9ceae0829cfc2,Fixed a link,venkatramachandran,https://api.github.com/repos/serverless/serverless/git/commits/f9c6412275b6ec23b2ec473a0fc9ceae0829cfc2
+79fe3adb85441723d9f48b999163ea3108d2c3c9,"Fix #5664 - Rollback fails due to a timestamp parsing error
+
+When running sls rollback -t 1546961025152 the timestamp was being parsed as a string inside a Date Object.
+This would return an Invalid Date, therefore, failing to convert the timestamp into a valid date.
+
+In here we are checking to see if the date is already a valid one, otherwise convert the timestamp to a number and try again.
+We are checking first because most cases we don't want to convert to numbers.
+
+Fix #5664
+
+Ps: We could add another check, if the date is still invalid, throw an Error, but that's not the scope of the issue.
+
+Signed-off-by: Luan <luan@luanmuniz.com.br>",luanmuniz,https://api.github.com/repos/serverless/serverless/git/commits/79fe3adb85441723d9f48b999163ea3108d2c3c9
+13ee05a050f78f7a06a75941f7eab5870f8e2dd8,Allow auth (user and password) to enable private github repos,StevenACoffman,https://api.github.com/repos/serverless/serverless/git/commits/13ee05a050f78f7a06a75941f7eab5870f8e2dd8
+61b03709573a42e8799da27128e5503ad02cd168,cast account to to string if necessary,sdomagala,https://api.github.com/repos/serverless/serverless/git/commits/61b03709573a42e8799da27128e5503ad02cd168
+3b2173bdd33f20b1c6b8554f4ee7114a969f5b0e,Fix link,kazufumi-nishida-www,https://api.github.com/repos/serverless/serverless/git/commits/3b2173bdd33f20b1c6b8554f4ee7114a969f5b0e
+f96e4c6ebedf18d959683b85c3ee1bb05049eac1,Update getting-started.md,billfine,https://api.github.com/repos/serverless/serverless/git/commits/f96e4c6ebedf18d959683b85c3ee1bb05049eac1
+a88bc278018e32d2420c7d900a4bc7c4d32e328f,Fix broken profiles,piohhmy,https://api.github.com/repos/serverless/serverless/git/commits/a88bc278018e32d2420c7d900a4bc7c4d32e328f
+01b529af4373015beae56cf744e4347095d876ac,Provide multi origin cors,davisonr,https://api.github.com/repos/serverless/serverless/git/commits/01b529af4373015beae56cf744e4347095d876ac
+2ea7446879daf7cecb6d5d811bf2a6e539ed17f8,Allow individual packaging with TypeScript source maps,therockstorm,https://api.github.com/repos/serverless/serverless/git/commits/2ea7446879daf7cecb6d5d811bf2a6e539ed17f8
+edffbf44a733347c2c36dbd0ebbd8f4f7d6cf463,"Fix typo in Multiple Configuration Files example
+
+YAML example renamed from ""Resource"" to ""Resources"".",paflopes,https://api.github.com/repos/serverless/serverless/git/commits/edffbf44a733347c2c36dbd0ebbd8f4f7d6cf463
+279c85eb64f2a26582123b07cfd28fc0e872a316,Add Hello World Ruby Example,yuki3738,https://api.github.com/repos/serverless/serverless/git/commits/279c85eb64f2a26582123b07cfd28fc0e872a316
+968159b043bd651ed65208888429a6284494af6a,Now copying cacheControl into validated corsPreflight,pchynoweth,https://api.github.com/repos/serverless/serverless/git/commits/968159b043bd651ed65208888429a6284494af6a
+8b7393db94d26f8e792673b869efe552b412dbf0,Added layer option for deploy function update-config,Kivol,https://api.github.com/repos/serverless/serverless/git/commits/8b7393db94d26f8e792673b869efe552b412dbf0
+1929af8ae83d58b0f1aa0eb40808dcec7d49d902,Read files before hashing asynchronously on checkIfDeploymentIsNecessary,danielcondemarin,https://api.github.com/repos/serverless/serverless/git/commits/1929af8ae83d58b0f1aa0eb40808dcec7d49d902
+041f717e071a928faf48a388099ba433b5115207,fix makeDeepVariable replacement,jerizm,https://api.github.com/repos/serverless/serverless/git/commits/041f717e071a928faf48a388099ba433b5115207
+db47531bdbc53802b9a6f0c227ffe7fe9f21b26a,Allow override wildcard glob pattern (**) in resolveFilePathsFromPatterns,svlapin,https://api.github.com/repos/serverless/serverless/git/commits/db47531bdbc53802b9a6f0c227ffe7fe9f21b26a
+b114b95205a1e2100182faf1d1450b2e545c8c06,Make use of join operator first argument,blair55,https://api.github.com/repos/serverless/serverless/git/commits/b114b95205a1e2100182faf1d1450b2e545c8c06
+e7184193857c91bab06f569782a89796b8e2b802,Update config-credentials.md,jblotus,https://api.github.com/repos/serverless/serverless/git/commits/e7184193857c91bab06f569782a89796b8e2b802
+749f5307b2b22cdacf112148b4b2031d4bd2032d,"Indicate unused context in aws-nodejs-typescipt
+
+- _ is used to exclude variables from unused parameter checks (Microsoft/TypeScript#9464)",Xenonym,https://api.github.com/repos/serverless/serverless/git/commits/749f5307b2b22cdacf112148b4b2031d4bd2032d
+b28c887c4f3af91e7dff40d3cf20f59c0d4642e4,"Missing underscore
+
+Looking at the remainder of the documentation it seems that the Message Hub event key should be `message_hub` and not `messagehub`.",pheuberger,https://api.github.com/repos/serverless/serverless/git/commits/b28c887c4f3af91e7dff40d3cf20f59c0d4642e4
+b7257b23c41a3c749220b521681e990458832fb6,"Replacing ""runtimes"" with ""templates""
+
+Replaced:
+Here are the available runtimes for AWS Lambda:
+with
+Here are the available templates for AWS Lambda:",luciansr,https://api.github.com/repos/serverless/serverless/git/commits/b7257b23c41a3c749220b521681e990458832fb6
+e8d7bcacaa3d12ec9efc912a9acc1ffba4d8f97f,"Update README.md
+
+Alphabetized the list of supports",jjasghar,https://api.github.com/repos/serverless/serverless/git/commits/e8d7bcacaa3d12ec9efc912a9acc1ffba4d8f97f
+5d074fc4fdc69ee1dd8f6551f8a4359d4da6881a,"Update shared API instructions
+
+The instructions for shared APIs would always give me errors such as : 
+```
+  The CloudFormation template is invalid: Template error: instance of Fn::GetAtt references undefined resource ApiGatewayRestApi
+```
+
+After much googling I found https://forum.serverless.com/t/micro-services-with-shared-api-gateway/6486/2 and the solution proposed (deploying the API and exports as their own service) totally worked for me.
+
+I thought to update the instructions so more people don't waste hours. Alternatively, if there's a way of making it work the way mentioned, please advise!",errietta,https://api.github.com/repos/serverless/serverless/git/commits/5d074fc4fdc69ee1dd8f6551f8a4359d4da6881a
+3f9a284732e07bfd14c72a6a2bd452b67c4082e7,add details to websocket documentation,0xkalle,https://api.github.com/repos/serverless/serverless/git/commits/3f9a284732e07bfd14c72a6a2bd452b67c4082e7
+6c572d17467d77a5336819b5e51a05e7aee6ff4d,Put `Custom Response Headers` into `[Responses]`,etc-tiago,https://api.github.com/repos/serverless/serverless/git/commits/6c572d17467d77a5336819b5e51a05e7aee6ff4d
+dfc3b49336e9d1e1c5a001a6bdf6912511915926,"Adding BOM and jackson-module-kotlin
+
+The bill of matierals helps manage the various verions of the modules and is the prefered method of managing adjacent dependencies when available. jackson-module-kotlin provides a module for Kotlin/Jackson interop.",paul-nelson-baker,https://api.github.com/repos/serverless/serverless/git/commits/dfc3b49336e9d1e1c5a001a6bdf6912511915926
+724515d63996292bfc04520e043c2d2ce33f8a5f,Add Geniusee to Consultants list,nhazdun,https://api.github.com/repos/serverless/serverless/git/commits/724515d63996292bfc04520e043c2d2ce33f8a5f
+cf494e0b1a250d9fa99057ac42d7e07aca89f24f,"Fix CloudFormation template normalization
+
+Signed-off-by: Boris <bokan.boris@gmail.com>",bokan,https://api.github.com/repos/serverless/serverless/git/commits/cf494e0b1a250d9fa99057ac42d7e07aca89f24f
+cad5a689c87bba2bc87d14445589eeeb8498f712,"Update getting started page
+
+Made two changes:
+
+1. Improves link hitboxes by having the `a` tag wrap the whole `docsSection` instead of just the image and title. Currently hovering over the `docsSection` makes it change colour, but not actually become clickable which I thought was weird behavior.
+2. Orders `menuItem`s in same order as main page content.",domdomegg,https://api.github.com/repos/serverless/serverless/git/commits/cad5a689c87bba2bc87d14445589eeeb8498f712
+ecdd28f5096869f920fa7c26ab767ed076d300c1,"Add links to the respective core concepts
+
+I think it would be a good idea to have a link to the core concepts when mentioning them.",matheussilvasantos,https://api.github.com/repos/serverless/serverless/git/commits/ecdd28f5096869f920fa7c26ab767ed076d300c1
+e7df2df6d12f3f1ad79296f8ecb66a65218edde8,add type configuration to aws serverless.yml guide for authorizer,dalevfenton,https://api.github.com/repos/serverless/serverless/git/commits/e7df2df6d12f3f1ad79296f8ecb66a65218edde8
+756dd14dc94a1bb14b1c6d353bcc5e178226da08,"adds inputTransformer option to aws schedule events
+
+This change allows the InputTransformer cloudformation option to be used in aws `schedule` event types.",fivepapertigers,https://api.github.com/repos/serverless/serverless/git/commits/756dd14dc94a1bb14b1c6d353bcc5e178226da08
+a5e6d447384b6d6be1882fe21bb283c3b99b2703,"Fixed typo ""disonnect""",rodolphito,https://api.github.com/repos/serverless/serverless/git/commits/a5e6d447384b6d6be1882fe21bb283c3b99b2703
+9d26b00ddb6381d54a07ba67010df6bb908cdabb,Align error logging length,dnicolson,https://api.github.com/repos/serverless/serverless/git/commits/9d26b00ddb6381d54a07ba67010df6bb908cdabb
+657bf8e24519f00052612fb6e94d63fe20aff934,Update invoke-local.md,trevorallred,https://api.github.com/repos/serverless/serverless/git/commits/657bf8e24519f00052612fb6e94d63fe20aff934
+6d61d0384c5e44c922a0611e23a916f485c0a9ca,"Documentation tweak around shared authorizers
+
+Authorizers of type REQUEST are also fine",stuartsan,https://api.github.com/repos/serverless/serverless/git/commits/6d61d0384c5e44c922a0611e23a916f485c0a9ca
+2f96c54f6bfc0e1ae1ccaf1e6d275b14b69327ae,The code for removing comments is easy to read,xichengliudui,https://api.github.com/repos/serverless/serverless/git/commits/2f96c54f6bfc0e1ae1ccaf1e6d275b14b69327ae
+83465af9a29f62d2343c3ccbbee534cb8249a2d3,#5947: Ensure invoke local docker runs lambda with the dependencies by using packaged artifact,endeepak,https://api.github.com/repos/serverless/serverless/git/commits/83465af9a29f62d2343c3ccbbee534cb8249a2d3
+012bd56be943b6ff5418b1a751893b3fa9b93a63,Remove useless variable assignment,PaulShestakov,https://api.github.com/repos/serverless/serverless/git/commits/012bd56be943b6ff5418b1a751893b3fa9b93a63
+cf7838be20e16712517c4a262124bb0b807966b2,Add additional Capability when Transform is detected,pofallon,https://api.github.com/repos/serverless/serverless/git/commits/cf7838be20e16712517c4a262124bb0b807966b2
+4484d8f7dc0fc9834db637ae7cc6e47a852f727b,eslint: Mark as root config,kevinji,https://api.github.com/repos/serverless/serverless/git/commits/4484d8f7dc0fc9834db637ae7cc6e47a852f727b
+80ed410680dc823543aaa60ac08e1b1d0d4b744f,"Updating Node.js runtime version
+
+Node.js 6.10 is deprecated for AWS Lambda.",ffxsam,https://api.github.com/repos/serverless/serverless/git/commits/80ed410680dc823543aaa60ac08e1b1d0d4b744f
+e1498f8f11f3b082348f1be067a2507c111fd56c,Make JSON.stringify easy on the eyes,guerrerocarlos,https://api.github.com/repos/serverless/serverless/git/commits/e1498f8f11f3b082348f1be067a2507c111fd56c
+edd2f7567004d4a664c6026bbe6c0dc4fea81fdd,"Update quick-start.md
+
+I've specified that the Node v 6.5.0 is minimum run-time version required to reduce confusion from reader's point of view.",allanchua101,https://api.github.com/repos/serverless/serverless/git/commits/edd2f7567004d4a664c6026bbe6c0dc4fea81fdd
+a27c1a221270aec090cf827c4438fcaf975335c4,Add region pseudo parameter for IAM Roles,daaru00,https://api.github.com/repos/serverless/serverless/git/commits/a27c1a221270aec090cf827c4438fcaf975335c4
+918759c5ae958d23ee42393fe3397c73e748f410,Update cors.md,fabiorogeriosj,https://api.github.com/repos/serverless/serverless/git/commits/918759c5ae958d23ee42393fe3397c73e748f410
+28ea91bfd23311c3f2a30f67254174b67668fd5f,Add more specific sub command error handling.,TylerSustare,https://api.github.com/repos/serverless/serverless/git/commits/28ea91bfd23311c3f2a30f67254174b67668fd5f
+418ad47361d8d22dd042b0ec448a326d9a435a69,Support wildcard in API Gateway cors domains,tdmartinalonso,https://api.github.com/repos/serverless/serverless/git/commits/418ad47361d8d22dd042b0ec448a326d9a435a69
+44697b94b4b065c5ecd5c8dc262b2fe598f1e5ba,Allow Fn::Join in stream event arns,Tybot204,https://api.github.com/repos/serverless/serverless/git/commits/44697b94b4b065c5ecd5c8dc262b2fe598f1e5ba
+1bb0f256b03d3f7fd81c114d7b3f4df5e7c55e81,"fix doc
+
+change to npm update",maplain,https://api.github.com/repos/serverless/serverless/git/commits/1bb0f256b03d3f7fd81c114d7b3f4df5e7c55e81
+500be085e984e453fb6dfa555091a096c6afb933,Fix markup error with Authentication value,rakeshyoga,https://api.github.com/repos/serverless/serverless/git/commits/500be085e984e453fb6dfa555091a096c6afb933
+fec9d8ba423ddada5fe546a1735d593e8d0e1132,Drop duplicate paragraph in aws/guide/credentials,fregante,https://api.github.com/repos/serverless/serverless/git/commits/fec9d8ba423ddada5fe546a1735d593e8d0e1132
+18f88341b1d2e83b15661c898f32c33deb00577c,"Update serverless.yml.md
+
+including reservedConcurrency property",marcio-porto-dev,https://api.github.com/repos/serverless/serverless/git/commits/18f88341b1d2e83b15661c898f32c33deb00577c
+14ef7eea1c4532434fa9a448f82b41f47ec4b23e,fixed Implementation,0xflotus,https://api.github.com/repos/serverless/serverless/git/commits/14ef7eea1c4532434fa9a448f82b41f47ec4b23e
+c1f767ad987f6ecf4a81cce43efce4ab1c0794ce,Replicate VS Code extension generated template,tbarlow12,https://api.github.com/repos/serverless/serverless/git/commits/c1f767ad987f6ecf4a81cce43efce4ab1c0794ce
+05f907d073a18c4e7465403b62161f6cb999be02,Update cloudflare documentation,victoriabernard92,https://api.github.com/repos/serverless/serverless/git/commits/05f907d073a18c4e7465403b62161f6cb999be02
+a51dbbf542139c2838f132727aa0b28a442194c0,"Update deploy.md
+
+Remove superfluous bracket",Adam--Miller,https://api.github.com/repos/serverless/serverless/git/commits/a51dbbf542139c2838f132727aa0b28a442194c0
+0e0f4eb664d93943c38805c5dd540af8823c1e71,Solve the problem of principal format in China region,beary,https://api.github.com/repos/serverless/serverless/git/commits/0e0f4eb664d93943c38805c5dd540af8823c1e71
+7626170029208eb4143497c3910d595c7ead1355,"Update apigateway.md
+
+Just a little typo ""Multipe"" -> ""Multiple""",finppp,https://api.github.com/repos/serverless/serverless/git/commits/7626170029208eb4143497c3910d595c7ead1355
+c3a32cf45b7d215e12abd6439a901589c9ff3891,"azure: exclude development dependency files when packaging functions
+
+.funcignore is not being used so have to add the ignore files
+to the `exclude` section in serverless.yml",mydiemho,https://api.github.com/repos/serverless/serverless/git/commits/c3a32cf45b7d215e12abd6439a901589c9ff3891
+1629b16acae133f49f8ea8b00860e4a1cc12750a,"Update services.md
+
+Removed the paragraph about multiple services behind a shared API gateway",stripedpajamas,https://api.github.com/repos/serverless/serverless/git/commits/1629b16acae133f49f8ea8b00860e4a1cc12750a
+bf18f2920397efaa931bbbdc198439f5a3f5c43f,"Merge pull request #1 from serverless/master
+
+Merge master",herebebogans,https://api.github.com/repos/serverless/serverless/git/commits/bf18f2920397efaa931bbbdc198439f5a3f5c43f
+b3e6a3e82e9c3ed0c661deb8c019efa3a5e4f418,"Adding a validation to validation.js script
+
+This new check prevents #6185 from happening.
+
+- This only checks that the `claims` object is defined, so it can proceed to do the length check.",camilosampedro,https://api.github.com/repos/serverless/serverless/git/commits/b3e6a3e82e9c3ed0c661deb8c019efa3a5e4f418
+06c81870573f5b406efb9f653fb1b94328233998,Update docs | dont use provider.tags with shared API Gateway,OskarKaminski,https://api.github.com/repos/serverless/serverless/git/commits/06c81870573f5b406efb9f653fb1b94328233998
+0c94737bec12b466e254bab6ec7b836e2aef8657,Fix formatting issue with Markdown link,awayken,https://api.github.com/repos/serverless/serverless/git/commits/0c94737bec12b466e254bab6ec7b836e2aef8657
+c5f4f1ab3f33f4e4078af30034358a9240cb07a4,Reference custom ApiGateway for models and request validators if configured,DASPRiD,https://api.github.com/repos/serverless/serverless/git/commits/c5f4f1ab3f33f4e4078af30034358a9240cb07a4
+152b4c460a7dc6b6db914d8bcd4f1a61d8a22d3d,"Fix #6017 Allow to load plugin from path
+
+The list of plugins can now contain relative paths.
+
+For example:
+
+```yaml
+plugins:
+    # will load myfirstplugin/plugin.js or myfirstplugin/plugin/index.js
+    - 'myfirstplugin/plugin'
+    # will load mysecondplugin/plugin.js or mysecondplugin/plugin/index.js
+    - 'mysecondplugin/plugin'
+```",mnapoli,https://api.github.com/repos/serverless/serverless/git/commits/152b4c460a7dc6b6db914d8bcd4f1a61d8a22d3d
+c6f64e50e1ebb086150d189b751a191e19098c03,Fix #6267,JonathanWilbur,https://api.github.com/repos/serverless/serverless/git/commits/c6f64e50e1ebb086150d189b751a191e19098c03
+c67dec15f7d159ac8a0f91f0783b344a857f1443,fix typo,floydnoel,https://api.github.com/repos/serverless/serverless/git/commits/c67dec15f7d159ac8a0f91f0783b344a857f1443
+0242995dc1c7ca61bff0ae6887190ac17144efaf,Remove README redundant link,Hazlank,https://api.github.com/repos/serverless/serverless/git/commits/0242995dc1c7ca61bff0ae6887190ac17144efaf
+a8bff62abdd89fa2d37f50f9b56564708896a537,"Fix typo in link to ALB docs
+
+""events"" was misspelled as ""evetns"" in the url to alb.md",schellack,https://api.github.com/repos/serverless/serverless/git/commits/a8bff62abdd89fa2d37f50f9b56564708896a537
+bc0e05fbbd770879078aac981899987c7c114f2b,"Add ip, method, header and query conditions to ALB events",cbm-egoubely,https://api.github.com/repos/serverless/serverless/git/commits/bc0e05fbbd770879078aac981899987c7c114f2b
+7ae67b11c5a1f165849f0d9a2ad26538b1937b1d,Update credentials.md,kizmo04,https://api.github.com/repos/serverless/serverless/git/commits/7ae67b11c5a1f165849f0d9a2ad26538b1937b1d
+434ae9c52f5f89e648c7dbff62a1ee5f25cc7e28,"updating webpack file
+
+The current config will not work in the newest webpack version",nahumzs,https://api.github.com/repos/serverless/serverless/git/commits/434ae9c52f5f89e648c7dbff62a1ee5f25cc7e28
+d4f3dd570bcea9d630d3a2091c90cd059918209b,Typo fix in AWS ALB event documentation,richardowen,https://api.github.com/repos/serverless/serverless/git/commits/d4f3dd570bcea9d630d3a2091c90cd059918209b
+f04d02a68acbee0a4907f2b0143dd1676b64f800,add invoke local option,betimer,https://api.github.com/repos/serverless/serverless/git/commits/f04d02a68acbee0a4907f2b0143dd1676b64f800
+a5b00dbb06afa01b9ef0e73c097c71740777296c,allow create from templates hosted on github entreprise,kalote,https://api.github.com/repos/serverless/serverless/git/commits/a5b00dbb06afa01b9ef0e73c097c71740777296c
+508ed7844254115c6dcd452487c4ad01cad7d31b,Add SLS_NO_WARNINGS to hide warnings,dcorvasce,https://api.github.com/repos/serverless/serverless/git/commits/508ed7844254115c6dcd452487c4ad01cad7d31b
+96946fd5fc217e99735b657337562cb1d9a4e988,Allow optionally splitting SSM parameter value for StringList type,decompil3d,https://api.github.com/repos/serverless/serverless/git/commits/96946fd5fc217e99735b657337562cb1d9a4e988
+6de0e1bdae0eb7f9c1a2bfbd8eaff4b95e868aca,updated gradle and kotlin.js gradle plugin,Ingwersaft,https://api.github.com/repos/serverless/serverless/git/commits/6de0e1bdae0eb7f9c1a2bfbd8eaff4b95e868aca
+4b6a7b34f35960752794de6164f98777676761a2,Wrapping menu items in quotes,skierkowski,https://api.github.com/repos/serverless/serverless/git/commits/4b6a7b34f35960752794de6164f98777676761a2
+1c4af583877283ef1a31a5185300d39a8f824468,Fix typo,mbifulco,https://api.github.com/repos/serverless/serverless/git/commits/1c4af583877283ef1a31a5185300d39a8f824468
+4d7300a375caec06eef1f9c4c8890c1001674b6e,Add the missing colon,haochang,https://api.github.com/repos/serverless/serverless/git/commits/4d7300a375caec06eef1f9c4c8890c1001674b6e
+edc4e1e7156c1627b9ec9c48b18200056d644750,Changed AWS subscription filters to use function object name,sameer-s,https://api.github.com/repos/serverless/serverless/git/commits/edc4e1e7156c1627b9ec9c48b18200056d644750
+95b9915111d2ba5f856d93111e9bcabf457d886b,Fix ImportValue handling in existing S3 buckets #6416,quassnoi,https://api.github.com/repos/serverless/serverless/git/commits/95b9915111d2ba5f856d93111e9bcabf457d886b
+072e1155bdb5a79d618c1cd12c8b41c2aacf8aff,Remove spaces from Cognito Pool Name,joelvh,https://api.github.com/repos/serverless/serverless/git/commits/072e1155bdb5a79d618c1cd12c8b41c2aacf8aff
+562b7131e6ba7696d99ca7b860357150e45f71bb,"Added requestPath to lambda integration request template.
+Closes #6364.",jormaechea,https://api.github.com/repos/serverless/serverless/git/commits/562b7131e6ba7696d99ca7b860357150e45f71bb
+bb0ea88b95397607933263f55c8b368bb352061a,Use declared SNS topic name,zvymazal,https://api.github.com/repos/serverless/serverless/git/commits/bb0ea88b95397607933263f55c8b368bb352061a
+49adacd9f53c8a8e7fb17946127a17f675f44337,Remove hard coded partition when validating cloudwatch subscription filters,maafk,https://api.github.com/repos/serverless/serverless/git/commits/49adacd9f53c8a8e7fb17946127a17f675f44337
+5d354ffc91a47cc9db5e8152bd3fc28671f480a5,"Update invoke-local.md documentation
+
+Added a note / warning about precisely when the environment variables will become available for use.",abirtley,https://api.github.com/repos/serverless/serverless/git/commits/5d354ffc91a47cc9db5e8152bd3fc28671f480a5
+37be1439161d39212402db068c4389123e6520fa,New error insight alert doc update to reflect per execution inspection,scouredimage,https://api.github.com/repos/serverless/serverless/git/commits/37be1439161d39212402db068c4389123e6520fa
+8da1e2b1edc0a40f3fd7c2467884b9f7cc4bac54,Add Twilio Runtime to create template,stefanjudis,https://api.github.com/repos/serverless/serverless/git/commits/8da1e2b1edc0a40f3fd7c2467884b9f7cc4bac54
+459d7829b9303e0d7d433363df7dd62ac4749236,Render event information in aws-ruby handler template,ktopolski,https://api.github.com/repos/serverless/serverless/git/commits/459d7829b9303e0d7d433363df7dd62ac4749236
+9b496683acac347f1de15a779803e27b44649cae,"Fix path matching issue
+
+fix for https://github.com/serverless/serverless/issues/6482",lauw70,https://api.github.com/repos/serverless/serverless/git/commits/9b496683acac347f1de15a779803e27b44649cae
+ac6b740de9f1cf68bfb886af17baacf9c569ebaa,Remove Enterprise and Platform from log info,astuyve,https://api.github.com/repos/serverless/serverless/git/commits/ac6b740de9f1cf68bfb886af17baacf9c569ebaa
+8f53c58ea9d4d005cb680047e1f5531a2a30e5fd,"Kubeless docs update: 
+
+Info about custom ingress classes and annotations.",MPratley,https://api.github.com/repos/serverless/serverless/git/commits/8f53c58ea9d4d005cb680047e1f5531a2a30e5fd
+6b5d083384cf427afe6237a5c4b1fa33aac89f31,Check that a function was modified after artifact when deciding to deploy,c0d3d,https://api.github.com/repos/serverless/serverless/git/commits/6b5d083384cf427afe6237a5c4b1fa33aac89f31
+5952712085f2d17cd71de66a5b22e02eb726821e,"fix(GITHUB-6525-5172): Rewrite copyDirContentsSyncAllow to call fs-extra::copySync() on the directories instead of calling it on the files to copy individually.
+
+The main motivation behind these changes is to rely on
+https://github.com/jprichardson/node-fs-extra/blob/8.1.0/docs/copy-sync.md as
+much as possible in order to avoid having to do the
+`fullFilePath.replace(srcDir, '')` operation because this operation can be
+error-prone.
+
+Doing so fixes the following issues because the user-submitted file paths are
+now correctly interpreted by fs-extra, closing both #6525 and #5172.",stephaneseng,https://api.github.com/repos/serverless/serverless/git/commits/5952712085f2d17cd71de66a5b22e02eb726821e
+56d96c4afe9b30d2433615c4867bd40014027b49,Only add merged IAM policies for Lambda when they will be used (#6262),onebytegone,https://api.github.com/repos/serverless/serverless/git/commits/56d96c4afe9b30d2433615c4867bd40014027b49
+3e7ea5a1918e46a60962a543251f12c5c75a18e7,Added log.level setting to customize AWS API Gateway log level,ktardif,https://api.github.com/repos/serverless/serverless/git/commits/3e7ea5a1918e46a60962a543251f12c5c75a18e7
+51e49096e25a16f9fa4604d59027604fa7c83fb4,"Add support for external werbsocketApiId
+
+fixes #6533",m-ronchi,https://api.github.com/repos/serverless/serverless/git/commits/51e49096e25a16f9fa4604d59027604fa7c83fb4
+fc0c17fc69996f734aa1474596167ec36c23d19d,Merge remote-tracking branch 'upstream/master',mokamoto12,https://api.github.com/repos/serverless/serverless/git/commits/fc0c17fc69996f734aa1474596167ec36c23d19d
+8365f8c197cf591ce432c6f1c5fa37f40fcc7646,#6333: Exclude yarn logs from packaging,CSP197,https://api.github.com/repos/serverless/serverless/git/commits/8365f8c197cf591ce432c6f1c5fa37f40fcc7646
+7d690add8d602f7360e961a1c928f01adef5a162,add support for creating a Serverless service from a template hosted in a Bitbucket Server (HTTP basic auth),taktakpeops,https://api.github.com/repos/serverless/serverless/git/commits/7d690add8d602f7360e961a1c928f01adef5a162
+1febd45ec367c2e8ab9f4af1a8b61e3d10d830b6,fix typos,vangie,https://api.github.com/repos/serverless/serverless/git/commits/1febd45ec367c2e8ab9f4af1a8b61e3d10d830b6
+9ba40e07a598094a635e76e35702b05662ef4a65,"Fix API Gateway name not being resolved if the API Gateway resource is not in the main stack
+
+Fix for https://github.com/serverless/serverless/issues/6607
+
++ a small fix in a function name",gevorggalstyan,https://api.github.com/repos/serverless/serverless/git/commits/9ba40e07a598094a635e76e35702b05662ef4a65
+7c98ef9ec17a2a9aa8f3dcbee3807f7798344b5b,"Fixes hardcoding of aws partition name in apigateway resourceArn to allow for a govcloud partition name of aws-us-gov in the case where one is trying to deploy to AWS GovCloud -- without this adjustment, serverless template fails when trying to deploy apigateway to AWS GovCloud",maplion,https://api.github.com/repos/serverless/serverless/git/commits/7c98ef9ec17a2a9aa8f3dcbee3807f7798344b5b
+10c1a93ea383e628a67f9bad694a220c148f20cf,"Merge pull request #1 from nordcloud/update-readme-nordcloud
+
+update readme to replace SC5 with Nordcloud",profpylons,https://api.github.com/repos/serverless/serverless/git/commits/10c1a93ea383e628a67f9bad694a220c148f20cf
+b2cd8b7c0aba472f682b26dde4014312462106ec,feat: add support for condition and dependsOn,theburningmonk,https://api.github.com/repos/serverless/serverless/git/commits/b2cd8b7c0aba472f682b26dde4014312462106ec
+f7699ac8d07ff7eb80f32000f2a57e0ba8434d89,"Update insights.md
+
+Removed descriptions for 'approaching out of memory' and 'unused memory' alerts until these are implemented.",vernelindner,https://api.github.com/repos/serverless/serverless/git/commits/f7699ac8d07ff7eb80f32000f2a57e0ba8434d89
+028792b5246cf4a62819d4b156d2ffb6f08d71de,"Make minor correction to CONTRIBUTING.md.
+
+Coverage is not generated with `npm test`. Use `npm run coverage`
+instead.
+
+Fixes: https://github.com/serverless/serverless/issues/6681",Trott,https://api.github.com/repos/serverless/serverless/git/commits/028792b5246cf4a62819d4b156d2ffb6f08d71de
+1c74daf497e2771392eab1d43ae10682fe018331,Remove incorrect AWS Access Role test instruction,dylanhusted,https://api.github.com/repos/serverless/serverless/git/commits/1c74daf497e2771392eab1d43ae10682fe018331
+6a91107e3db1c66e02196a7dd7a869a87fb3a9a9,"fix: use normalized maps in zipService.js
+
+The comparison inside zipFiles normalizes both maps before comparison",noreabu,https://api.github.com/repos/serverless/serverless/git/commits/6a91107e3db1c66e02196a7dd7a869a87fb3a9a9
+8c4b0ea2efd3b74aa1881ab3e29dfa93c0369404,Add commas when specifying Google roles for legibility,ianks,https://api.github.com/repos/serverless/serverless/git/commits/8c4b0ea2efd3b74aa1881ab3e29dfa93c0369404
+e8b406b84570bd358d8a75ee1a9fe0c47a6b6a46,Fix typo,isudzumi,https://api.github.com/repos/serverless/serverless/git/commits/e8b406b84570bd358d8a75ee1a9fe0c47a6b6a46
+6f344716fc6200d9c9f47645830a439d23e4aeb0,"Add Theodo to the consultants section
+
+Theodo is a software development company that helps startups build projects using Serverless. 
+They also run the Serverless Transformation newsletter and blog.",BenEllerby,https://api.github.com/repos/serverless/serverless/git/commits/6f344716fc6200d9c9f47645830a439d23e4aeb0
+a06c342876092266c1cdc494505161d12a1b5f65,Allow plugins not in registry to be installed,mcjfunk,https://api.github.com/repos/serverless/serverless/git/commits/a06c342876092266c1cdc494505161d12a1b5f65
+aa189a33ff0d37bc3644656a6ac31b8eb98b02fb,documented url+zip deploy strategy,vognev,https://api.github.com/repos/serverless/serverless/git/commits/aa189a33ff0d37bc3644656a6ac31b8eb98b02fb
+b50b88d67cb08863eed93c52577a7d0fee55fc87,"Add info about realname verification, change function compete link, typo",fernando-mc,https://api.github.com/repos/serverless/serverless/git/commits/b50b88d67cb08863eed93c52577a7d0fee55fc87
+28d38c5ae2b9920bb0cecb10267214bbb0a48001,"fixing typos in variable names
+
+nane -> name
+resouce -> resource",JackDanger,https://api.github.com/repos/serverless/serverless/git/commits/28d38c5ae2b9920bb0cecb10267214bbb0a48001
+f1c768c42b4182f5d1c79fe1cbc90230a6233ba5,"S3 Block Public Access
+
+* Add a new boolean property named `blockPublicAccess`to the
+  `deploymentBucket` config object for the AWS provider.
+* The property defaults to `false` to retain backwords
+  compatibility with existing infrastructure.
+* When `true`, the configuration property will enable the
+  [S3 Block Public Access][1]. This will prevent all future
+  policies or ACLs that may grant public access to the
+  deployment bucket.
+* Update the serverless.yml reference docs to reflect the
+  addition.
+
+[1]: https://aws.amazon.com/blogs/aws/amazon-s3-block-public-access-another-layer-of-protection-for-your-accounts-and-buckets/
+
+resolves: https://github.com/serverless/serverless/issues/6706",jessedoyle,https://api.github.com/repos/serverless/serverless/git/commits/f1c768c42b4182f5d1c79fe1cbc90230a6233ba5
+36e8902cd119032cf6bed47d25917c52e2f0b574,Update SLS Deploy Documentation,wenindoubt,https://api.github.com/repos/serverless/serverless/git/commits/36e8902cd119032cf6bed47d25917c52e2f0b574
+c11c9efe2161cf02b9da1d574d71962996c830a3,Issue 4867 - Allowing InvokeBridge to find handleRequest method from super classes,lasanthak,https://api.github.com/repos/serverless/serverless/git/commits/c11c9efe2161cf02b9da1d574d71962996c830a3
+02822bdf933f3dd043a6019786cae7f854589855,"Update quick-start.md
+
+Clarify additional required steps to follow along.",nabati,https://api.github.com/repos/serverless/serverless/git/commits/02822bdf933f3dd043a6019786cae7f854589855
+12cad14dce9c221577275a416d0cfacbc4470991,Make question mark available as variables fallback,kdnakt,https://api.github.com/repos/serverless/serverless/git/commits/12cad14dce9c221577275a416d0cfacbc4470991
+60bc9a65b6093ddb0f5b04776da3851a123aabdf,formatted log message,tharun208,https://api.github.com/repos/serverless/serverless/git/commits/60bc9a65b6093ddb0f5b04776da3851a123aabdf
+060dc2c0503d55a5829cd8a2d4ae4efde41ffdc9,aws - deployment bucket policy for HTTPS only.,neverendingqs,https://api.github.com/repos/serverless/serverless/git/commits/060dc2c0503d55a5829cd8a2d4ae4efde41ffdc9
+d56523454341c15e56db919ec7a95f5dbeb2bec9,Fix perms with several CloudWatch log subscriptions.,bgaillard,https://api.github.com/repos/serverless/serverless/git/commits/d56523454341c15e56db919ec7a95f5dbeb2bec9
+5265fcdb56d253411e8f06e9e2b5e8c2166bcc7c,"Fixing an Azure docs broken link
+
+Clicking the original link in the [Serverless web site](https://serverless.com/framework/docs/providers/azure/guide/quick-start/) leads to a broken link.",miguel-a-calles-mba,https://api.github.com/repos/serverless/serverless/git/commits/5265fcdb56d253411e8f06e9e2b5e8c2166bcc7c
+e1473c7d7ef692b0cd85f6b7feefef0e266b2587,Improvements on SQS docs as suggested on #6516,enzo-beltrami,https://api.github.com/repos/serverless/serverless/git/commits/e1473c7d7ef692b0cd85f6b7feefef0e266b2587
+b5332ddaccaf373c0478b33a032ce573f60e0854,Update Google provider documentation for functions,gretro,https://api.github.com/repos/serverless/serverless/git/commits/b5332ddaccaf373c0478b33a032ce573f60e0854
+421ae265a70a97758b41d6c89a6bc21d206c61c1,Fix minor typo,jgabuya,https://api.github.com/repos/serverless/serverless/git/commits/421ae265a70a97758b41d6c89a6bc21d206c61c1
+dd5486a8204e9c4a547c261e5390e6c2fb1d4d75,Added mock integration example to documentation,resmall,https://api.github.com/repos/serverless/serverless/git/commits/dd5486a8204e9c4a547c261e5390e6c2fb1d4d75
+8c13e3e516777e8c2b9e46525f46573e2945442f,use priority to create distinct target groups,timtrinidad,https://api.github.com/repos/serverless/serverless/git/commits/8c13e3e516777e8c2b9e46525f46573e2945442f
+f330996bd1bcf3bac1d27482d71292a4cbdb0b7d,Create README.md,tinafangkunding,https://api.github.com/repos/serverless/serverless/git/commits/f330996bd1bcf3bac1d27482d71292a4cbdb0b7d
+5e63a5e67439646684d8fc954d50b003e400cef4,Update AWS Limits on Lambda@Edge,winstonwp,https://api.github.com/repos/serverless/serverless/git/commits/5e63a5e67439646684d8fc954d50b003e400cef4
+62b29a1941675d25071597b9c3dfadc14415ff44,(sighs in JavaScript),clar-cmp,https://api.github.com/repos/serverless/serverless/git/commits/62b29a1941675d25071597b9c3dfadc14415ff44
+c2c1f4fc29b6478c41de3604161cfe6d75479faa,Add azure-python template to CLI and test command,AlexandreSi,https://api.github.com/repos/serverless/serverless/git/commits/c2c1f4fc29b6478c41de3604161cfe6d75479faa
+9fc08c449bbe92d261fcf71599fc1e6ffe51826b,"#6162: Support multiple schemas, don't overwrite RequestModels for each",atz,https://api.github.com/repos/serverless/serverless/git/commits/9fc08c449bbe92d261fcf71599fc1e6ffe51826b
+10ec7ac9bb0844007004b74217ce36d0c7b77fa9,"Merge pull request #1 from serverless/master
+
+merge",anycodes,https://api.github.com/repos/serverless/serverless/git/commits/10ec7ac9bb0844007004b74217ce36d0c7b77fa9
+4adc5cc197f268764f74cf94ba389e9085e47d38,"Fix spelling and typos in docs, code variables and code comments",chocnut,https://api.github.com/repos/serverless/serverless/git/commits/4adc5cc197f268764f74cf94ba389e9085e47d38
+08f55eb32355badbd202d95d56129e2243634586,Add support for contentHandling - Fixes gh-6949,tinexw,https://api.github.com/repos/serverless/serverless/git/commits/08f55eb32355badbd202d95d56129e2243634586
+0d3e1eb58892cfb7fcda797b4fd315c093df82b6,omit access-control-allow-credentials header when not explicitly activated,wildhaber,https://api.github.com/repos/serverless/serverless/git/commits/0d3e1eb58892cfb7fcda797b4fd315c093df82b6
+5e2e09a81f7bde6261e7b515eb2586f54ff4e795,"Enable Content Trust checking when pulling lambci/lambda images
+
+This ensures that the images are signed correctly:
+https://docs.docker.com/v17.09/engine/security/trust/content_trust/",mhart,https://api.github.com/repos/serverless/serverless/git/commits/5e2e09a81f7bde6261e7b515eb2586f54ff4e795
+c61dc47f9d4302aeda697b05bad055e539fe26bd,Fix handling of arns in GovCloud east and west regions,jmb12686,https://api.github.com/repos/serverless/serverless/git/commits/c61dc47f9d4302aeda697b05bad055e539fe26bd
+e8b22d8a9fa727266f89029739a8fcba9afc48c7,Make authorizer type check from #6150 case insensitive,zoellner,https://api.github.com/repos/serverless/serverless/git/commits/e8b22d8a9fa727266f89029739a8fcba9afc48c7
+4543a884466c0f463247548f21f50f538234d74c,expose ParallelizationFactor prop for kinesis streams,michael-ar,https://api.github.com/repos/serverless/serverless/git/commits/4543a884466c0f463247548f21f50f538234d74c
+5700e8bdb64047efca3168348ef20d13d67b418d,Replace moment with dayjs,cktang88,https://api.github.com/repos/serverless/serverless/git/commits/5700e8bdb64047efca3168348ef20d13d67b418d
+f3800de656c238628242a2664ba5742dfa28127c,"Update AWS SQS event docs regarding FIFO queue trigger for Lambda
+
+Update SQS event docs regarding AWS support for triggering a Lambda function from an SQS FIFO queue.
+
+closes #7023",faheel,https://api.github.com/repos/serverless/serverless/git/commits/f3800de656c238628242a2664ba5742dfa28127c
+802f81fa5c8048e4f8fb0b792594a357928df877,"fix: Fix handing of removal of custom APIGW resource policy (#7002)
+
+* provide open resource policy when none provided
+Resolves #6789.
+
+* provide open resource policy when none provided
+Resolves #6789.
+
+* Don't export policy / comment behavior",brianjd,https://api.github.com/repos/serverless/serverless/git/commits/802f81fa5c8048e4f8fb0b792594a357928df877
+998b6fd296f54d5a05f1609b29cc09fbc541935f,"feat: MaximumRetryAttempts config for stream
+
+Closes #7012",avinasherupaka,https://api.github.com/repos/serverless/serverless/git/commits/998b6fd296f54d5a05f1609b29cc09fbc541935f
+f8ee0279037ba35b4c32f5872fcff4e741898db1,fix: Fix credentials validation in EC2 environment (#6977),pauloprestes,https://api.github.com/repos/serverless/serverless/git/commits/f8ee0279037ba35b4c32f5872fcff4e741898db1
+0b3a08afaaf520fe6c3d4ebaac1a12fbd83c1fe4,feat: Update and improve aws-kotlin-jvm-gradle template (#7072),Nxtra,https://api.github.com/repos/serverless/serverless/git/commits/0b3a08afaaf520fe6c3d4ebaac1a12fbd83c1fe4
+f9b650782539808e796c1544a9dc7f2d02603db1,feat: Support CF instructions in awsKmsKeyArn setting (#7083),tume,https://api.github.com/repos/serverless/serverless/git/commits/f9b650782539808e796c1544a9dc7f2d02603db1
+5143c2ad3af84e198fb256b8cebf585aac3886e6,feat: Memoize resolution of dev deps exclusion paths (#7091),FanFataL,https://api.github.com/repos/serverless/serverless/git/commits/5143c2ad3af84e198fb256b8cebf585aac3886e6
+21da2957120643f84d505a8d3be9566753b2a4e0,docs: Chinese documentation improvements (#7161),canmengfly,https://api.github.com/repos/serverless/serverless/git/commits/21da2957120643f84d505a8d3be9566753b2a4e0
+41d7d0bf0798188284f38e0f4e3effadad1f8d42,fix: Fix and improve openwhisk-java-maven templates (#7164),YellyYU,https://api.github.com/repos/serverless/serverless/git/commits/41d7d0bf0798188284f38e0f4e3effadad1f8d42
+53a18cbff6d3d2d6698e98cf0dd8a7eba21fdf58,"fix: Ensure CF stacks are deleted on failed creaton attempt (#7158)
+
+Until now, failed stack deploys when using deploymentBucket to specify
+an existing bucket were left in ROLLBACK_COMPLETE state.
+This required manual 'sls remove' before a redeploy.
+
+Fixes #6612, follow-up of incomplete fix in #5631",coyoteecd,https://api.github.com/repos/serverless/serverless/git/commits/53a18cbff6d3d2d6698e98cf0dd8a7eba21fdf58
+560ceee5b3abf90999c61074b8a94d5ef31e967b,feat: Support BisectBatchOnFunctionError option on event streams (#7105),jchaasis,https://api.github.com/repos/serverless/serverless/git/commits/560ceee5b3abf90999c61074b8a94d5ef31e967b
+5973c9fd58631beaea45047345cac8d348e93911,feat: support RollbackConfiguration in service config (#7193),birdie697,https://api.github.com/repos/serverless/serverless/git/commits/5973c9fd58631beaea45047345cac8d348e93911
+780fb46e726faf147ba16d190307bf1948ee53b3,"fix: Fix CLI params resolution (switch to yargs-parser) (#7187)
+
+Closes #6083",richarddd,https://api.github.com/repos/serverless/serverless/git/commits/780fb46e726faf147ba16d190307bf1948ee53b3
+526b21b99425131e00930e6dfc5f8222c17291f3,refactor: corrected spelling errors (#7218),ericjsilva,https://api.github.com/repos/serverless/serverless/git/commits/526b21b99425131e00930e6dfc5f8222c17291f3
+a3f691e369777d07ae6dff104e7d8ef50e7391dd,docs: Fix example in quick-start.md (#7230),loveboat,https://api.github.com/repos/serverless/serverless/git/commits/a3f691e369777d07ae6dff104e7d8ef50e7391dd
+1793cf8d7a55b85fc6505ae493dcca2292e443d2,fix: Do not overwrite `go.mod` on `make` in Go template (#7245),ro-tex,https://api.github.com/repos/serverless/serverless/git/commits/1793cf8d7a55b85fc6505ae493dcca2292e443d2
+4f273785f4b7cceaffd2fb6b9255e4187962d53c,feat: Support RedrivePolicy configuration on SNS events (#7239),tcastelli,https://api.github.com/repos/serverless/serverless/git/commits/4f273785f4b7cceaffd2fb6b9255e4187962d53c
+0549d85bc0254a10d3314613892e335da2bc3722,feat: `azure-nodejs-typescript` template. (#7252),ncipollina,https://api.github.com/repos/serverless/serverless/git/commits/0549d85bc0254a10d3314613892e335da2bc3722
+9f0131fedf60e9104f38702d01e103b9a3b0f629,"fix: Ensure deterministic WebSockets deployment id (#7248)
+
+To support skip of deployments when no changes are detected",preshetin,https://api.github.com/repos/serverless/serverless/git/commits/9f0131fedf60e9104f38702d01e103b9a3b0f629
+ea4ac262ea4b9efdebc1fc357ffe906900295823,feat: Support `destinations` config on stream events (#7262),SydneyKereliuk,https://api.github.com/repos/serverless/serverless/git/commits/ea4ac262ea4b9efdebc1fc357ffe906900295823
+33291c8d08c8edd82e807b8fbe3f1796bcfdb4ac,fix: Websocket route names normalization (#7294),tom-marsh,https://api.github.com/repos/serverless/serverless/git/commits/33291c8d08c8edd82e807b8fbe3f1796bcfdb4ac
+09466b5a172a743b1c2d5c1045c08f5c2ad32a2e,feat: Support `provider.rolePermissionsBoundary` to set IAM boundary (#7319),thomaschaaf,https://api.github.com/repos/serverless/serverless/git/commits/09466b5a172a743b1c2d5c1045c08f5c2ad32a2e
+73ef03646a02e6a8931fa15837693521694afcf9,docs: Fix broken link (#7324),francescomari,https://api.github.com/repos/serverless/serverless/git/commits/73ef03646a02e6a8931fa15837693521694afcf9
+3399c9651e15aff70c6b80008387dc9709041c38,"docs: Fix TOC link to ""Request Schema Validators"" (#7326)",sav-valerio,https://api.github.com/repos/serverless/serverless/git/commits/3399c9651e15aff70c6b80008387dc9709041c38
+7abb23edc8dfbe5005ac716aa137330741759929,"feat: Support `managedExternally` option for authorizers (#7327)
+
+There are use cases where an API creator does not have permissions to
+add permissions to the custom authorizer lambda; one example is when
+the custom authorizer lambda exists in a separate AWS account. In these
+cases, we need to be able to omit the `AWS::Lambda::Permission` resource
+from the stack.
+
+This change adds the `managedExternally` attribute to the `authorizer`.
+When `managedExternally` is `true`, the stack will not create the
+`AWS::Lambda::Permission` resource.
+
+**Important note:** The permission does still need to be created before
+the stack is deployed, or creating the authorizer will fail.",glb,https://api.github.com/repos/serverless/serverless/git/commits/7abb23edc8dfbe5005ac716aa137330741759929
+9eba2187f9565b39d31e88572c06ea2ccaa4bade,feat: Support Kinesis Enhanced Fan-out (Consumer) streams (#7320),zaccharles,https://api.github.com/repos/serverless/serverless/git/commits/9eba2187f9565b39d31e88572c06ea2ccaa4bade
+3910df1ba6a8b39367ce8d51adb90216251be2ba,feat: Support provider.alb.targetGroupPrefix setting (#7322),isen-ng,https://api.github.com/repos/serverless/serverless/git/commits/3910df1ba6a8b39367ce8d51adb90216251be2ba
+c09f71897a67fe8ec98d460075f0f02b397f8ee5,fix: Ensure AWS env vars in local invocation made with docker (#7349),frozenbonito,https://api.github.com/repos/serverless/serverless/git/commits/c09f71897a67fe8ec98d460075f0f02b397f8ee5
+0d8334b8a846339e4c907e0ae866626749216cf6,docs: Improve dashboard access roles instructions (#7361),cyrilca,https://api.github.com/repos/serverless/serverless/git/commits/0d8334b8a846339e4c907e0ae866626749216cf6
+4150192829381e29df94254cd7cac7738da9b8c2,docs: Fix spelling (#7363),msheakoski,https://api.github.com/repos/serverless/serverless/git/commits/4150192829381e29df94254cd7cac7738da9b8c2
+103fdacc294ab87f4bd079847d05d9448fd4b494,fix: Ensure AWS EventBrigde target ids fit 64 chars limit (#7359),fredericbarthelet,https://api.github.com/repos/serverless/serverless/git/commits/103fdacc294ab87f4bd079847d05d9448fd4b494
+2c71c068187e664111a3e11b70d5ab1b446c3460,docs: Include section on `aws-go-mod` (#7379),pshevtsov,https://api.github.com/repos/serverless/serverless/git/commits/2c71c068187e664111a3e11b70d5ab1b446c3460
+8518000d4fbf3a6cf0a6e2f81bd6421e017a1b5f,fix: When packaging do not crash on deps with no package.json (#7368),darko1979,https://api.github.com/repos/serverless/serverless/git/commits/8518000d4fbf3a6cf0a6e2f81bd6421e017a1b5f
+19012a9068357f307693823bc56bb2ce1d881a64,feat(AWS APIGW): Support association of VPC endpoint ids (#7382),altrem,https://api.github.com/repos/serverless/serverless/git/commits/19012a9068357f307693823bc56bb2ce1d881a64
+5017f038d6a8f35fc25ec7a239358a30ca15b745,fix: Service state path resolution (#7388),arbbakbenny,https://api.github.com/repos/serverless/serverless/git/commits/5017f038d6a8f35fc25ec7a239358a30ca15b745
+6655a48f0822176cfdad75f2994d4c51dd17e75b,docs: Fix typo in Azure documentation (#7392),k-hasan-19,https://api.github.com/repos/serverless/serverless/git/commits/6655a48f0822176cfdad75f2994d4c51dd17e75b
+7bc35bc24968191d059093f84ad84c1bb933dfec,docs: Add missing colons to AWS::AccountId (#7393),henning,https://api.github.com/repos/serverless/serverless/git/commits/7bc35bc24968191d059093f84ad84c1bb933dfec
+d49c1975244326fc4e846e8fe8a5321af71d4375,"chore: Upgrade object-hash to v2 (#7408)
+
+Safe to follow with, without any code changes as in `object-hash` readme it's stated:
+
+> Only Node.js versions >= 6.0.0 are being tested in CI now. No other breaking changes were introduced.",daveisfera,https://api.github.com/repos/serverless/serverless/git/commits/d49c1975244326fc4e846e8fe8a5321af71d4375
+7d67f33b085c29ce0e57431629e33e657b93c474,fix: Add source account to lambda permissions for s3 events (#7417),callumsmits,https://api.github.com/repos/serverless/serverless/git/commits/7d67f33b085c29ce0e57431629e33e657b93c474

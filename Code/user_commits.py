@@ -58,11 +58,13 @@ class UserCommits:
         for commit in total_commits:
             # Filtering out NoneType users (who deleted their account) to prevent errors.
             if commit.author is not None:
-                print(f'Commit found created by {commit.author.login}.')
-                if commit.author.login not in users_tracked:
-                    users_tracked.append(commit.author.login)
-                    initial_commit.append(commit)
-                    print(f'+++ Identified first commit by {commit.author.login}.')
+                # Filtering out empty URLs from old/deleted accounts.
+                if commit.url is not None:
+                    print(f'Commit found created by {commit.author.login}.')
+                    if commit.author.login not in users_tracked:
+                        users_tracked.append(commit.author.login)
+                        initial_commit.append(commit)
+                        print(f'+++ Identified first commit by {commit.author.login}.')
 
         # Write results to CSV for storage and later use/validation by user.
         print('Writing identified first commits to a CSV...')
@@ -137,9 +139,20 @@ class UserCommits:
             # Iterate through all found commits, and put them into the CSV file with the CSV writer with additionally
             # related aspects of the commit.
             for current in results:
+                # Consider case where no URL exists due to outdated elements in the API and catch it if needed.
+                url_to_use = ''
+
+                # Handle lack of URL exception.
+                try:
+                    url_to_use = current.commit.url
+                except:
+                    url_to_use = 'URL ERROR - API FAULT.'
+
+                # Write current commit found to CSV.
                 csv_writer.writerow([current.sha,
                                      current.commit.message,
                                      current.author.login,
-                                     current.commit.url])
+                                     url_to_use])
 
+        # Notify user that process regarding commits is done.
         print('Finished writing to CSV...')

@@ -1,0 +1,46 @@
+First Commit Hash (SHA),Commit Message,Author (Github Name),Link to Commit
+461495eae16169fe4505fa796c8c101276f6ed3c,Initial commit,jeffra,https://api.github.com/repos/microsoft/DeepSpeed/git/commits/461495eae16169fe4505fa796c8c101276f6ed3c
+42f3834f0d1359fd05c1ff485406ccc0810c4bf9,Initial CODE_OF_CONDUCT.md commit,microsoftopensource,https://api.github.com/repos/microsoft/DeepSpeed/git/commits/42f3834f0d1359fd05c1ff485406ccc0810c4bf9
+08804d905f0bd2f86fe16135c6cdccd86f5b7022,DeepSpeed Timers,niumanar,https://api.github.com/repos/microsoft/DeepSpeed/git/commits/08804d905f0bd2f86fe16135c6cdccd86f5b7022
+c53cabb08512c5169ac5cc62f224cf91123fc8e2,Add Deepspeed constants and configs,minjiaz,https://api.github.com/repos/microsoft/DeepSpeed/git/commits/c53cabb08512c5169ac5cc62f224cf91123fc8e2
+8c4e2a30071fdb6b816eb9abdbdad7e9dd0135e2,Adding deepspeed_run.py,ShadenSmith,https://api.github.com/repos/microsoft/DeepSpeed/git/commits/8c4e2a30071fdb6b816eb9abdbdad7e9dd0135e2
+dc226fdb7aae074ce16aa68d088dfde1be654892,add two test files,eltonzheng,https://api.github.com/repos/microsoft/DeepSpeed/git/commits/dc226fdb7aae074ce16aa68d088dfde1be654892
+7a9fbe67adc431a8d74d930585ee6264660fcb8d,Add files via upload,tjruwase,https://api.github.com/repos/microsoft/DeepSpeed/git/commits/7a9fbe67adc431a8d74d930585ee6264660fcb8d
+ec79b2390101273e3636e64bafb40fdc5c1954c5,"Add files via upload
+
+Different Optimizers in DeepSpeed.",samyam,https://api.github.com/repos/microsoft/DeepSpeed/git/commits/ec79b2390101273e3636e64bafb40fdc5c1954c5
+577295f5fae3dd17f0f8aa32464d3015a46b9aaf,Add files,yuxionghe,https://api.github.com/repos/microsoft/DeepSpeed/git/commits/577295f5fae3dd17f0f8aa32464d3015a46b9aaf
+0ca56d4b235092b9e5c4af8b26c19cb2e8d70aa0,"Bump tensorflow-gpu from 1.14.0 to 1.15.2 (#39)
+
+Bumps [tensorflow-gpu](https://github.com/tensorflow/tensorflow) from 1.14.0 to 1.15.2.
+- [Release notes](https://github.com/tensorflow/tensorflow/releases)
+- [Changelog](https://github.com/tensorflow/tensorflow/blob/master/RELEASE.md)
+- [Commits](https://github.com/tensorflow/tensorflow/compare/v1.14.0...v1.15.2)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: Shaden Smith <ShadenTSmith@gmail.com>
+Co-authored-by: Jeff Rasley <jerasley@microsoft.com>",dependabot[bot],https://api.github.com/repos/microsoft/DeepSpeed/git/commits/0ca56d4b235092b9e5c4af8b26c19cb2e8d70aa0
+cf8b9c185f8210ce528be44908cdc86b9947ae33,Typo fix (#57),sheikheddy,https://api.github.com/repos/microsoft/DeepSpeed/git/commits/cf8b9c185f8210ce528be44908cdc86b9947ae33
+f78ccc06c947d61134885059f23194e4eb3299a0,"Fix broken link in README.md for the 1Cycle doc. (#60)
+
+* Fix broken link for the 1Cycle doc.
+
+* Removed the 1Cycle link from README.md.",reddragon,https://api.github.com/repos/microsoft/DeepSpeed/git/commits/f78ccc06c947d61134885059f23194e4eb3299a0
+fd53b56a735b8b8eca5cea4872134ca37c702b4f,fix typo (#72),1rahul1,https://api.github.com/repos/microsoft/DeepSpeed/git/commits/fd53b56a735b8b8eca5cea4872134ca37c702b4f
+bca23057de5b88a659a16b48dc2a15cf5a97232a,"Add requirements for cifar10 (#79)
+
+* add install requirements command line
+
+* add pillow library to fix version
+
+* modify to uppercase
+
+Co-authored-by: Jeff Rasley <jerasley@microsoft.com>",kouml,https://api.github.com/repos/microsoft/DeepSpeed/git/commits/bca23057de5b88a659a16b48dc2a15cf5a97232a
+cd0d6f3c039b928475172fc9e33c762ec7e03e65,"Fixes to support subscriptions with other VMs (#105)
+
+* Update scripts to handle cases where you have other VMs in your sub
+
+* Support subs with other VMs and fix for PDSH permission error
+
+* Minor fix to support subs with other VMs",gopitk,https://api.github.com/repos/microsoft/DeepSpeed/git/commits/cd0d6f3c039b928475172fc9e33c762ec7e03e65

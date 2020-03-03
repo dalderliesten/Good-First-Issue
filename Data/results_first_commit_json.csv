@@ -1,0 +1,369 @@
+First Commit Hash (SHA),Commit Message,Author (Github Name),Link to Commit
+4502e7e51c0569419c26e75fbdd5748170603e54,- initial commit,nlohmann,https://api.github.com/repos/nlohmann/json/git/commits/4502e7e51c0569419c26e75fbdd5748170603e54
+0f371b4086dcb058d3d3b5ed216ad097e8fce4af,CMake and coverage report,Teemperor,https://api.github.com/repos/nlohmann/json/git/commits/0f371b4086dcb058d3d3b5ed216ad097e8fce4af
+0773f40a8e6c6e9ecfbf91ce732bd898dce4f6b5,"Fix double delete on std::bad_alloc exception
+
+If the new operator throws in the json::find methods then result.oi_ is
+deleted again in the destructor of json::iterator/json::const_iterator,
+which is a double delete and undefined behaviour.",elliotgoodrich,https://api.github.com/repos/nlohmann/json/git/commits/0773f40a8e6c6e9ecfbf91ce732bd898dce4f6b5
+36f61998986d9cdb0449c8f19138e1ac8a97c172,Fix string conversion under Clang,wancw,https://api.github.com/repos/nlohmann/json/git/commits/36f61998986d9cdb0449c8f19138e1ac8a97c172
+20d75a26a552646c1b1bbdfebc2e41bb299f7e63,"more descriptive documentation in example
+
+I wasn't sure what that parameter was at first glance",luxe,https://api.github.com/repos/nlohmann/json/git/commits/20d75a26a552646c1b1bbdfebc2e41bb299f7e63
+ef3ad895aeece70cc187f1c0ad6feca4fef6dc43,Adds (failing) test for small float serialisation,jrandall,https://api.github.com/repos/nlohmann/json/git/commits/ef3ad895aeece70cc187f1c0ad6feca4fef6dc43
+754c38e871497013e22de894e696122cb7991d93,Moved buffer management into the lexer class and implemented YYFILL so that streams are read incrementally.,aburgh,https://api.github.com/repos/nlohmann/json/git/commits/754c38e871497013e22de894e696122cb7991d93
+ad6ad4ae1ecf963d36abcc85a190a655584b5499,"Fix compilation of json_unit with GCC 5
+
+Addressing:
+```
++ make json_unit
+g++ -std=c++11  -Wall -Wextra -pedantic -Weffc++ -Wcast-align -Wcast-qual -Wctor-dtor-privacy -Wdisabled-optimization -Wformat=2 -Winit-self -Wmissing-declarations -Wmissing-include-dirs -Wold-style-cast -Woverloaded-virtual -Wredundant-decls -Wshadow -Wsign-conversion -Wsign-promo -Wstrict-overflow=5 -Wswitch -Wundef -Wno-unused -Wnon-virtual-dtor -Wreorder -Wdeprecated -Wfloat-equal  -I src -I test -Dprivate=public test/unit.cpp  -o json_unit
+In file included from test/catch.hpp:65:0,
+                 from test/unit.cpp:11:
+/usr/include/c++/5.0.0/sstream:300:7: error: 'struct std::__cxx11::basic_stringbuf<_CharT, _Traits, _Alloc>::__xfer_bufptrs' redeclared with different access
+       struct __xfer_bufptrs
+```",dkopecek,https://api.github.com/repos/nlohmann/json/git/commits/ad6ad4ae1ecf963d36abcc85a190a655584b5499
+28f64c22a9ca3abb905addd97ae31796b8df5f9f,simplify operator<,Florianjw,https://api.github.com/repos/nlohmann/json/git/commits/28f64c22a9ca3abb905addd97ae31796b8df5f9f
+91aee105798df4a9c74f51d75d897f70bdbf855f,"support enum
+
+construct enum type to basic_json (proxy by int type)
+```
+    enum { t = 0 };
+    json  j = json::array();
+    j.push_back(t);
+
+    j.push_back(json::object({
+         {""game_type"", t}
+    }));
+```",likebeta,https://api.github.com/repos/nlohmann/json/git/commits/91aee105798df4a9c74f51d75d897f70bdbf855f
+7da56cf2924ba9baf171cc5c10cc9625b62c7a15, Fix typos,aqnouch,https://api.github.com/repos/nlohmann/json/git/commits/7da56cf2924ba9baf171cc5c10cc9625b62c7a15
+c49d83172f198029da2074cbdfb70ac285294cc5,Avoid warning with Xcode's clang,ahamez,https://api.github.com/repos/nlohmann/json/git/commits/c49d83172f198029da2074cbdfb70ac285294cc5
+c6c37d00d1962257607138def2e788157e9e9969,Fix small oversight.,ColinH,https://api.github.com/repos/nlohmann/json/git/commits/c6c37d00d1962257607138def2e788157e9e9969
+8fdd20cdda61b9f168028e8a965e5dc2399649f7,Overload parse() to accept an rvalue reference,silverweed,https://api.github.com/repos/nlohmann/json/git/commits/8fdd20cdda61b9f168028e8a965e5dc2399649f7
+2d7f1542b1b022fde18d5004fce91a51b71dc6b0,Use the right variable name in doc string,whoshuu,https://api.github.com/repos/nlohmann/json/git/commits/2d7f1542b1b022fde18d5004fce91a51b71dc6b0
+f7fb40556463c73659151d1d0116deb5e7849a4b,"exception-safe object creation, fixes #118",d-frey,https://api.github.com/repos/nlohmann/json/git/commits/f7fb40556463c73659151d1d0116deb5e7849a4b
+4f27004dd55c3b7327045f713a2a60e9b98eccc5,remove invalid parameter '-stdlib=libc++' in CMakeLists.txt,emvivre,https://api.github.com/repos/nlohmann/json/git/commits/4f27004dd55c3b7327045f713a2a60e9b98eccc5
+260745810de240cbba7c331a519af0ad77f5e95a,fixed typos in comments for examples,dmenendez-gruposantander,https://api.github.com/repos/nlohmann/json/git/commits/260745810de240cbba7c331a519af0ad77f5e95a
+55cbd903e8960ef8b4ddd41c37aa2eb551aed9de,"removed stream operator for iterator, resolution for #125
+
+It doesn't really make sense to stream an iterator.
+Besides, this was causing trouble in MSVC in Debug mode (see #125)",dariomt,https://api.github.com/repos/nlohmann/json/git/commits/55cbd903e8960ef8b4ddd41c37aa2eb551aed9de
+ec7a1d834773f9fee90d8ae908a0c9933c5646fc,"Fix character skipping after a surrogate pair
+
+In a string the first character following a surrogate pair is skipped by the
+lexer, but the rest of the string is parsed as usual.",robertmrk,https://api.github.com/repos/nlohmann/json/git/commits/ec7a1d834773f9fee90d8ae908a0c9933c5646fc
+14d8a91f7349baefa83cabc96113a12b9d9848a9,"Replace sprintf with hex function, this fixes #149",whackashoe,https://api.github.com/repos/nlohmann/json/git/commits/14d8a91f7349baefa83cabc96113a12b9d9848a9
+8ecccf8628f434420ab0b2c10dcea3bc55dd9b1a,Fixed some typos in CONTRIBUTING.md,nibroc,https://api.github.com/repos/nlohmann/json/git/commits/8ecccf8628f434420ab0b2c10dcea3bc55dd9b1a
+08fd6dbf98e92889051ca3695752f71380e5f795,Fix broken link,vog,https://api.github.com/repos/nlohmann/json/git/commits/08fd6dbf98e92889051ca3695752f71380e5f795
+9e500b49ace31f53cab94ca426cde5998b3b91fd,"Add support for afl-fuzz testing
+
+""make fuzz"" creates a simple executable that de-serialises stdin
+and re-serialises to stdout.
+""make fuzz_testcases"" extracts the smaller json test cases into
+a testcases directory.
+
+The library can then be fuzzed as follows:
+    CC=afl-clang-fast make fuzz
+    make fuzz_testcases
+    mkdir out
+    afl-fuzz -i testcases -o out ./fuzz",mykter,https://api.github.com/repos/nlohmann/json/git/commits/9e500b49ace31f53cab94ca426cde5998b3b91fd
+78a020354ddf50ea621934eb41b7d76ded018ac0,"Corrected readme
+
+Internally, the elements in a map are always sorted by its key following a specific strict weak ordering criterion indicated by its internal comparison object (of type Compare).
+With string type, the default comparator is alphabetical order, and thus two come after three.",Annihil,https://api.github.com/repos/nlohmann/json/git/commits/78a020354ddf50ea621934eb41b7d76ded018ac0
+3e76e61b9c7723ae78bc4d269a2a4573843578af,"Use namespace std for int64_t and uint64_t
+
+According to the c++11 standard, the declarations are within namespace
+scope of the namespace `std'. Add `std::' to avoid unnecessary
+requirement of implementations.",lv-zheng,https://api.github.com/repos/nlohmann/json/git/commits/3e76e61b9c7723ae78bc4d269a2a4573843578af
+3df5337e7981e064670ac16da308df951ad05214,fixes #223 by updating README.md,kevin--,https://api.github.com/repos/nlohmann/json/git/commits/3df5337e7981e064670ac16da308df951ad05214
+6a98a6c964068f407e98970f886fe310eb89e8f2,Add CMake option to disable building the tests (Default builds),ChrisKitching,https://api.github.com/repos/nlohmann/json/git/commits/6a98a6c964068f407e98970f886fe310eb89e8f2
+fb90388af5aa7ad67418573554af18a13bcb148f,Fix Issue #265,06needhamt,https://api.github.com/repos/nlohmann/json/git/commits/fb90388af5aa7ad67418573554af18a13bcb148f
+6aad67af2397000c05214e6e605118de732443de,fixed a tiny typo,feroldi,https://api.github.com/repos/nlohmann/json/git/commits/6aad67af2397000c05214e6e605118de732443de
+5c129c898158c93f751985c305296d781891d814,Update hexify to use array lookup instead of ternary (#270),dtoma,https://api.github.com/repos/nlohmann/json/git/commits/5c129c898158c93f751985c305296d781891d814
+01f9ee5fd7f9d3a52baa8984ea5b2bcbf6428b0a,let the makefile choose the correct sed,murinicanor,https://api.github.com/repos/nlohmann/json/git/commits/01f9ee5fd7f9d3a52baa8984ea5b2bcbf6428b0a
+e0ff1a837c889e73eada0105758fd903d06c3cf7,unit-constructor1.cpp: Fix floating point truncation warning,t-b,https://api.github.com/repos/nlohmann/json/git/commits/e0ff1a837c889e73eada0105758fd903d06c3cf7
+be6109140106f925ba1e499c5d6adfd3d5fde161,trivial documentation fix,5tefan,https://api.github.com/repos/nlohmann/json/git/commits/be6109140106f925ba1e499c5d6adfd3d5fde161
+e1b6a23049d6adac110093a035ec3bd777536bec,relocation of install-include directory for other packages,ChristophJud,https://api.github.com/repos/nlohmann/json/git/commits/e1b6a23049d6adac110093a035ec3bd777536bec
+b5128b161010ebaef0e7d6b17636fe885b03ca12,Fix usage examples' comments for std::multiset,vasild,https://api.github.com/repos/nlohmann/json/git/commits/b5128b161010ebaef0e7d6b17636fe885b03ca12
+e9fde3e1166abb6ede4881c832c22d750e69e77b,make has_mapped_type struct friendly,vpetrigo,https://api.github.com/repos/nlohmann/json/git/commits/e9fde3e1166abb6ede4881c832c22d750e69e77b
+cb2d41e3a08cfa38c92cca93b87a34ca8c0e7fc1,fix minor grammar/style issue in README.md,seeekr,https://api.github.com/repos/nlohmann/json/git/commits/cb2d41e3a08cfa38c92cca93b87a34ca8c0e7fc1
+6b78b5c2be7e24cd4a1c59c7fa13a62c2ae33508,Added strtonum for locale-independent number parsing,bradfora,https://api.github.com/repos/nlohmann/json/git/commits/6b78b5c2be7e24cd4a1c59c7fa13a62c2ae33508
+dd3f4f9b9200547458f7fb8740fe5c5e9e602d3f,Replaced class iterator and class const_iterator with aliases of template <typename U> iter_impl. iter_impl has operator const_iterator to create an const_iterator from an iterator.,Bosswestfalen,https://api.github.com/repos/nlohmann/json/git/commits/dd3f4f9b9200547458f7fb8740fe5c5e9e602d3f
+1e981115c962b9fa3e750967bd994020f0610664,"Fix issue #380: Signed integer overflow check
+
+Instead of checking something like `x * y + z > max` where `x * y` can
+overflow, check for `x > (max - z) / y` instead.",qwename,https://api.github.com/repos/nlohmann/json/git/commits/1e981115c962b9fa3e750967bd994020f0610664
+57b32d97736d204e303be26f44ea6159c3041ad9,Add Doozer build badge,andoma,https://api.github.com/repos/nlohmann/json/git/commits/57b32d97736d204e303be26f44ea6159c3041ad9
+010ea126f3662c76e2d484e9710be2b8fcd53785,"going to try clang_sanitize with libstdc++ with g++-6 implementation
+
+Conflicts:
+	.travis.yml
+	Makefile",Daniel599,https://api.github.com/repos/nlohmann/json/git/commits/010ea126f3662c76e2d484e9710be2b8fcd53785
+b443edf49e2741bd27cdfb148fa42abf58d6bac7,add first version support for user-defined types,theodelrieu,https://api.github.com/repos/nlohmann/json/git/commits/b443edf49e2741bd27cdfb148fa42abf58d6bac7
+6198439f59be82dd82e102a0c07bfe1c5bb48f5d,"fix #414 - comparing to 0 literal
+
+Overload comparison operators for all types that could be converted
+to nullptr.",mstan-xx,https://api.github.com/repos/nlohmann/json/git/commits/6198439f59be82dd82e102a0c07bfe1c5bb48f5d
+f2873e6d3a46847126c03ac754dd9993d32a98a5,"README: adjust boost::optional example
+
+The ""from_json"" example for boost::optional is not complete and should also handle the 'none' case.",jaredgrubb,https://api.github.com/repos/nlohmann/json/git/commits/f2873e6d3a46847126c03ac754dd9993d32a98a5
+85ce4d7b535409a8a9ac9753906b4be73ab1ce52,":zap: cmake compile time reduce using cotire
+
+- Add prefix header
+  - Include catch.hpp
+  - Include json.hpp
+    - Replace private with public for all json_unit files
+- Move `unit.cpp` to an object library
+- cotire issue: strip whitespace from CMAKE_INCLUDE_SYSTEM_FLAG_CXX",tusharpm,https://api.github.com/repos/nlohmann/json/git/commits/85ce4d7b535409a8a9ac9753906b4be73ab1ce52
+9cfb777b654fbd96535e96069bc36f7bf92f476a,Fix -Weffc++ warnings (GNU 6.3.1),TedLyngmo,https://api.github.com/repos/nlohmann/json/git/commits/9cfb777b654fbd96535e96069bc36f7bf92f476a
+836f1c418947ab5c512d5c913494e60a44c219c3,:art: Namespace `uint8_t` from the C++ stdlib,alex-weej,https://api.github.com/repos/nlohmann/json/git/commits/836f1c418947ab5c512d5c913494e60a44c219c3
+86579209c809dd332873c5ee60dfb71b93725c4c,Make exception base class visible in basic_json,krzysztofwos,https://api.github.com/repos/nlohmann/json/git/commits/86579209c809dd332873c5ee60dfb71b93725c4c
+b14629b0a61bf8a5a8969d7d3d07d7ef900ff9f8,Fix typo,berkus,https://api.github.com/repos/nlohmann/json/git/commits/b14629b0a61bf8a5a8969d7d3d07d7ef900ff9f8
+40aff4182f6e2b11bc8b0525aa965b7b261b3124,Pop for every push,tinloaf,https://api.github.com/repos/nlohmann/json/git/commits/40aff4182f6e2b11bc8b0525aa965b7b261b3124
+31fe2f5825d2268138060a91b7d0305293149078,Adding support for Meson.,Type1J,https://api.github.com/repos/nlohmann/json/git/commits/31fe2f5825d2268138060a91b7d0305293149078
+dfa371c436fa14926544eb11f3207d0439cd2c43,fix doxygen error of basic_json::get(),zhaohuaxishi,https://api.github.com/repos/nlohmann/json/git/commits/dfa371c436fa14926544eb11f3207d0439cd2c43
+ed62129f8e2d2388e4c05d8de9d34ac197d09a2c,Override n + iterator operator in the iterator,HenryRLee,https://api.github.com/repos/nlohmann/json/git/commits/ed62129f8e2d2388e4c05d8de9d34ac197d09a2c
+04a1666ef2e16de1af840f8bfb5f8e473271159a,Add parentheses around std::min so it bypasses the macro introduced by windows.h.,koemeet,https://api.github.com/repos/nlohmann/json/git/commits/04a1666ef2e16de1af840f8bfb5f8e473271159a
+66ffac9e8a4ee2d7210a25e0f7a9ce2e714ca814,"Fix MSVC warning C4819
+
+Replace unicode whitespaces by ASCII whitespace 0x20",Chocobo1,https://api.github.com/repos/nlohmann/json/git/commits/66ffac9e8a4ee2d7210a25e0f7a9ce2e714ca814
+71597be294f2b9b9f9b3fc9dc2017e414c4740f2,add ensure_ascii parameter to dump. #330,ryanjmulder,https://api.github.com/repos/nlohmann/json/git/commits/71597be294f2b9b9f9b3fc9dc2017e414c4740f2
+7b3cbfff23d601706bf8257009d1d6b8277e6165,Add some tests for std::move from std::initializer_list,himikof,https://api.github.com/repos/nlohmann/json/git/commits/7b3cbfff23d601706bf8257009d1d6b8277e6165
+a27dd3a6f618435cdf8bed7678264fe32b67c712,enable_testing only if JSON_BuildTests is ON,effolkronium,https://api.github.com/repos/nlohmann/json/git/commits/a27dd3a6f618435cdf8bed7678264fe32b67c712
+f434942371c2da33dc7f1f263e5c377cb6932d13,"REFACTOR: rewrite CMakeLists.txt for better inlcude and reuse
+
+The rewrite uses more cmake build-in automatisms and build-in generates
+variables to allow better generic reuse.
+* cmake  files are installed to
+``` <install_prefix>/lib/cmake/nlohmann_json/ ``` for best support on
+most systems
+* include path is set to ``` include ```  for usage as ``` #include
+<nlohmann/json.hpp> ```",dan-42,https://api.github.com/repos/nlohmann/json/git/commits/f434942371c2da33dc7f1f263e5c377cb6932d13
+391303521a723477fbb5d07d69d693f0bdf41ead,"Fix ""not constraint"" grammar in docs",wincent,https://api.github.com/repos/nlohmann/json/git/commits/391303521a723477fbb5d07d69d693f0bdf41ead
+19437c15de2dae59615576c3303284b691f3678c,massage -> message,DmitryKuk,https://api.github.com/repos/nlohmann/json/git/commits/19437c15de2dae59615576c3303284b691f3678c
+ab44a50d984aeec2819230e3ce1b9a9cb0867ee0,"Digraph warning
+
+The original version can trigger a digraph-related warning in VS2015. Is this namespace construct a typo or something deliberate?",traits,https://api.github.com/repos/nlohmann/json/git/commits/ab44a50d984aeec2819230e3ce1b9a9cb0867ee0
+4b55f0ebd6c95e61364a29caae9743aed30b5d93,"To fix compilation issue for intel OSX compiler
+
+o To prevent the compilation issue on OSX with the intel compiler suite.  The
+error was found with icpc version 15.0.3.187 where the ""__clang_version__"" was
+not defined correctly, while ""__clang__"" was.",kbthomp1,https://api.github.com/repos/nlohmann/json/git/commits/4b55f0ebd6c95e61364a29caae9743aed30b5d93
+86b3d06a93927b7d52b8ae217c9f37ea593669ce,"remove duplicate word
+
+s/to to/to/",daixtrose,https://api.github.com/repos/nlohmann/json/git/commits/86b3d06a93927b7d52b8ae217c9f37ea593669ce
+ec60ff3451c21de4a4bb8563ed611ae047bff9b5,Add info for the vcpkg package.,gregmarr,https://api.github.com/repos/nlohmann/json/git/commits/ec60ff3451c21de4a4bb8563ed611ae047bff9b5
+90adf6ec20c581055d748acc1b99b61af58365a7,"Simplify get_token_string, unnecessary buffering, handle Byte Order Mark",pjkundert,https://api.github.com/repos/nlohmann/json/git/commits/90adf6ec20c581055d748acc1b99b61af58365a7
+727ee7d03e40c81d6c38cdbdd1a562718fe92f7d,"Set GENERATE_TAGFILE in Doxyfile
+
+Allows documentation to be linked from other projects to https://nlohmann.github.io/json using Doxygen with the tag:
+TAGFILES = $(SOME_PATH)/nlohmann_json.tag=https://nlohmann.github.io/json",eld00d,https://api.github.com/repos/nlohmann/json/git/commits/727ee7d03e40c81d6c38cdbdd1a562718fe92f7d
+5ec44fe9e3fce9f8a0a9d6c25b63e3d2b4c9c122,Add /W4 for MSVS,jseward,https://api.github.com/repos/nlohmann/json/git/commits/5ec44fe9e3fce9f8a0a9d6c25b63e3d2b4c9c122
+92da334862df7fc6841689685e44852317e9a8c6,"Error : 'identifier ""size_t"" is undefined' in linux",sonulohani,https://api.github.com/repos/nlohmann/json/git/commits/92da334862df7fc6841689685e44852317e9a8c6
+e423aea64a8fb099b101e743cc7623f50af8b11f,"Typos README
+
+Hey, thanks for this great library which I've used in many occasions now. I know it's not much, but I wanted to contribute at least a tiny bit back to you by this PR :-) Keep up the good work!",Itja,https://api.github.com/repos/nlohmann/json/git/commits/e423aea64a8fb099b101e743cc7623f50af8b11f
+b5ddd99adf17fcdf4b28d6af39a56aade8627398,Updated hunter package links,jowr,https://api.github.com/repos/nlohmann/json/git/commits/b5ddd99adf17fcdf4b28d6af39a56aade8627398
+5b4855dea2313e14b20de99794607780655d6521,fix targetname,TinyTinni,https://api.github.com/repos/nlohmann/json/git/commits/5b4855dea2313e14b20de99794607780655d6521
+daba1b6a0b52fda6fd4425be9c08a6a7767f53d7,"fixed conformance with C++17, some members of allocator are depricated and should be used via allocator_traits",bogemic,https://api.github.com/repos/nlohmann/json/git/commits/daba1b6a0b52fda6fd4425be9c08a6a7767f53d7
+ab0e8b2f3aed7f871f756ce3dc7d2ca8d02d7483,"Fix MSVC warning C4819
+
+Replaces a U+00A0 character with regular space, and fixes a typo.",erengy,https://api.github.com/repos/nlohmann/json/git/commits/ab0e8b2f3aed7f871f756ce3dc7d2ca8d02d7483
+72bff90ed955421f4db98f272648afca565b72c8,:wrench: Fix up a few more effc++ items,intelmatt,https://api.github.com/repos/nlohmann/json/git/commits/72bff90ed955421f4db98f272648afca565b72c8
+ba2316372abc57f7981fafe1833020102e66d838,fix link to the documentation of the emplace function,Dobiasd,https://api.github.com/repos/nlohmann/json/git/commits/ba2316372abc57f7981fafe1833020102e66d838
+3ae82d91a20e0ad89b99f3b1c62fbe8c524a45fd,Tests: Floating-point formatting uses lower case 'e',abolz,https://api.github.com/repos/nlohmann/json/git/commits/3ae82d91a20e0ad89b99f3b1c62fbe8c524a45fd
+d2b3fd156e5d0a6a5d176e1b84de01086ca1e135,Updated README.md to explain how installation of json_fwd.hpp can be achieved as part of install step.,zerodefect,https://api.github.com/repos/nlohmann/json/git/commits/d2b3fd156e5d0a6a5d176e1b84de01086ca1e135
+fc32b8a9bca5b3655cc74d9e37c5586579e219f3,Fix a typo in README.md,Pipeliner,https://api.github.com/repos/nlohmann/json/git/commits/fc32b8a9bca5b3655cc74d9e37c5586579e219f3
+d0c9e5fffc1bd1abf417143fb61021c362d10829,Allow overriding THROW/CATCH/TRY macros with no-exceptions (redo) #938,kaidokert,https://api.github.com/repos/nlohmann/json/git/commits/d0c9e5fffc1bd1abf417143fb61021c362d10829
+3402260983602580d1ec7736ca06aa21e0c55f28,Add a note about installing the library with cget,pfultz2,https://api.github.com/repos/nlohmann/json/git/commits/3402260983602580d1ec7736ca06aa21e0c55f28
+44b40d7c6a01682d40c2efb2ba124aad54a414f1,Fix links in README.md,patrikhuber,https://api.github.com/repos/nlohmann/json/git/commits/44b40d7c6a01682d40c2efb2ba124aad54a414f1
+05d3bf169997b791715fd1c68a2ea01f97c66e20,Make integration section concise,wla80,https://api.github.com/repos/nlohmann/json/git/commits/05d3bf169997b791715fd1c68a2ea01f97c66e20
+8165707990e4895aa85b3c508d45eb1883411869,basic_json now supports getting many type of strings,gracicot,https://api.github.com/repos/nlohmann/json/git/commits/8165707990e4895aa85b3c508d45eb1883411869
+73cc5089e33ea950b6677e19ee7ec656c9bcf985,Using target_compile_features to specify C++ 11 standard,ktonon,https://api.github.com/repos/nlohmann/json/git/commits/73cc5089e33ea950b6677e19ee7ec656c9bcf985
+e439a1a9a78e95836a47e6189423400ee8a02cfd,"CMake: 3.8+ is Sufficient
+
+The current CMake scripts depend on CMake 3.8+.
+This allows us to remove previous work-arounds.",ax3l,https://api.github.com/repos/nlohmann/json/git/commits/e439a1a9a78e95836a47e6189423400ee8a02cfd
+4286b16b7192d4bbc7de253455ea859eac045f2b,"Fix trivial typo in comment.
+
+Not really important, but since I saw it.",coryan,https://api.github.com/repos/nlohmann/json/git/commits/4286b16b7192d4bbc7de253455ea859eac045f2b
+031b88d3152bd13a4d2960f698f5f4eef49830c4,Make the CMake install dir user-configurable,chuckatkins,https://api.github.com/repos/nlohmann/json/git/commits/031b88d3152bd13a4d2960f698f5f4eef49830c4
+7f20e9ddc73356b87c63ce9106128e09e8b35596,"Fixed incorrect version number in README
+
+clang-900.0.39.2 is from LLVM 9.0.0, not 8.1.0",jammehcow,https://api.github.com/repos/nlohmann/json/git/commits/7f20e9ddc73356b87c63ce9106128e09e8b35596
+53fb23009812b8e29b843722f78724ccc3e2ac41,Fix typo,dns13,https://api.github.com/repos/nlohmann/json/git/commits/53fb23009812b8e29b843722f78724ccc3e2ac41
+377e956655a52296ccdf29ec4922c4c1118aa565,"fix typo in readme
+
+The README says:
+> ""The library itself contains of a single header file ...""
+
+I guess ""consists of a"" is the wording that was intended here. Alternatively, ""contains a"" might also be what was intended. Either way, I think both versions work equally well and thus choose the one that I believe was intended.",martin-mfg,https://api.github.com/repos/nlohmann/json/git/commits/377e956655a52296ccdf29ec4922c4c1118aa565
+4feb8211caf7adda630103b7c5dbfc99238c743e,test (non)equality for alt_string implementation,agrianius,https://api.github.com/repos/nlohmann/json/git/commits/4feb8211caf7adda630103b7c5dbfc99238c743e
+0bb36bb140e0b7cdd9aed8831a431a5da37e5f6f,meson: fix include directory,jrakow,https://api.github.com/repos/nlohmann/json/git/commits/0bb36bb140e0b7cdd9aed8831a431a5da37e5f6f
+d0e60de433f67705e7c82622a9d021fbc0b96f83,Add new JSON_INTERNAL_CATCH macro function,simnalamburt,https://api.github.com/repos/nlohmann/json/git/commits/d0e60de433f67705e7c82622a9d021fbc0b96f83
+dfe607c6ff15a9f930be9907aa38025838037b86,Export package to allow builds without installing,dennisfischer,https://api.github.com/repos/nlohmann/json/git/commits/dfe607c6ff15a9f930be9907aa38025838037b86
+bbdfe7dea6457c96a329390fa7a558fe8359361d,"Improve error messages for error 305
+
+Addresses #1220",rivertam,https://api.github.com/repos/nlohmann/json/git/commits/bbdfe7dea6457c96a329390fa7a558fe8359361d
+6b5334c1674af2bb3441a0662c8198e741f94dcf,Move lambda out of unevaluated context,mandreyel,https://api.github.com/repos/nlohmann/json/git/commits/6b5334c1674af2bb3441a0662c8198e741f94dcf
+f06c8fd8e310ad57087142d395ec1ea5523e2c49,BSON: serialization of non-objects is not supported,julian-becker,https://api.github.com/repos/nlohmann/json/git/commits/f06c8fd8e310ad57087142d395ec1ea5523e2c49
+8799759b85743cef25be60ed689ea4fdc92b2bf5,Add version and license to meson.build,koponomarenko,https://api.github.com/repos/nlohmann/json/git/commits/8799759b85743cef25be60ed689ea4fdc92b2bf5
+99b7c7c8efcf7e96ddee9b199fec190107a979ee,"Patch nlohmann/json for GCC 4.8
+
+See https://github.com/nlohmann/json/pull/212 for details",cjh1,https://api.github.com/repos/nlohmann/json/git/commits/99b7c7c8efcf7e96ddee9b199fec190107a979ee
+7a37ba0c02311b32f5550f2070e8f84b8497ac24,Adding 4.8 test to travis,henryiii,https://api.github.com/repos/nlohmann/json/git/commits/7a37ba0c02311b32f5550f2070e8f84b8497ac24
+8c1387cfb3229634b731f3abb2d746052a62ca50,"unit-testsuites.cpp: fix hangup if file not found
+
+If run from the wrong directory, std::ifstream f(""test/data/big-list-of-naughty-strings/blns.json""); will not find the file and thus f.eof() will never return true.
+Use canonical C++ file reading loop from https://gehrcke.de/2011/06/reading-files-in-c-using-ifstream-dealing-correctly-with-badbit-failbit-eofbit-and-perror/ instead.",knilch0r,https://api.github.com/repos/nlohmann/json/git/commits/8c1387cfb3229634b731f3abb2d746052a62ca50
+e8427061a0fe8faadd8c4cf8fd873fc32846de07,"Thirdparty benchmark: Fix Clang detection.
+
+CMake 3.0+ refers to macOS’ Clang as AppleClang, which would fail a STREQUAL check. Fixed by changing it to MATCHES.",Lord-Kamina,https://api.github.com/repos/nlohmann/json/git/commits/e8427061a0fe8faadd8c4cf8fd873fc32846de07
+f665a9233062397c9e713bbac1ff63f5f0a6fe45,Implement SFINAE friendly iterator_traits and use that instead.,dgavedissian,https://api.github.com/repos/nlohmann/json/git/commits/f665a9233062397c9e713bbac1ff63f5f0a6fe45
+ffe08983dd419c17aab44d9d02faaf5a372e0438,:meson: install headers + pkg-config,mpoquet,https://api.github.com/repos/nlohmann/json/git/commits/ffe08983dd419c17aab44d9d02faaf5a372e0438
+aa10382629c291a50584d9aaf3a9f8f03824e4fd,"Set eofbit on exhausted input stream.
+
+	Fix issue #1340.
+
+        The eofbit is set manually since we don't go through the
+	stream interface. We could maybe use the stream interface
+	instead, but there are some assumptions regarding which
+	exception go through, so this seems to be the most prudent
+	approach for now.",mefyl,https://api.github.com/repos/nlohmann/json/git/commits/aa10382629c291a50584d9aaf3a9f8f03824e4fd
+5de184b8fbdf9905d54faaba5a9710a7b239abc0,readme: fix typo,manu-chroma,https://api.github.com/repos/nlohmann/json/git/commits/5de184b8fbdf9905d54faaba5a9710a7b239abc0
+767a3a327d2c97a1327c1eb593ba70273e317e1b,Link to issue #958 broken,kjpus,https://api.github.com/repos/nlohmann/json/git/commits/767a3a327d2c97a1327c1eb593ba70273e317e1b
+67b0daf27ba7659add80662945793d26e7b4a2b1,Add the possibility of using FILE * from cstdio library to read a file. This enable the possibility of using low eand device with this library.,dumarjo,https://api.github.com/repos/nlohmann/json/git/commits/67b0daf27ba7659add80662945793d26e7b4a2b1
+ebd3f45808edb838536f5fcbf6ca1e1e2c1a75d3,"Added Support for Structured Bindings
+
+For further details, read https://github.com/nlohmann/json/issues/1388 and https://blog.tartanllama.xyz/structured-bindings/",pratikpc,https://api.github.com/repos/nlohmann/json/git/commits/ebd3f45808edb838536f5fcbf6ca1e1e2c1a75d3
+e8b6b7adc138a66f8d47396a2e707366d3771028,"buildsystem: relax requirement on cmake version
+
+Commit 73cc5089 (Using target_compile_features to specify C++ 11
+standard) bumped the required cmake version, from 3.0 to 3.8, so
+as to get the definition of target_compile_features().
+
+However, target_compile_features() was introduced in cmake-3.1:
+    https://cmake.org/cmake/help/v3.1/command/target_compile_features.html
+
+And using cmake-3.1 is indeed sufficient to properly build.
+
+As such, relax the minimum required version down to cmake-3.1,
+so we can build on oldish, entreprise-grade distributions that
+only have cmake-3.1 (or at least, don't have up to cmake-3.8).
+
+Reported-by: Thomas Petazzoni <thomas.petazzoni@bootlin.com>
+Signed-off-by: ""Yann E. MORIN"" <yann.morin.1998@free.fr>",yann-morin-1998,https://api.github.com/repos/nlohmann/json/git/commits/e8b6b7adc138a66f8d47396a2e707366d3771028
+2c0c2ca698386463a258591c3a24b6e979810a96,Specify target platform in generator name,nickaein,https://api.github.com/repos/nlohmann/json/git/commits/2c0c2ca698386463a258591c3a24b6e979810a96
+a559ff8fc6d762ff9371f799c856e5ef54c4e8e3,"typo in README
+
+inintended -> unintended",wythe,https://api.github.com/repos/nlohmann/json/git/commits/a559ff8fc6d762ff9371f799c856e5ef54c4e8e3
+619bf9c20d6b552b0b49fc8ef7dd7d1d4dbaee2b,Fixed broke links to RFC7159,skypjack,https://api.github.com/repos/nlohmann/json/git/commits/619bf9c20d6b552b0b49fc8ef7dd7d1d4dbaee2b
+7f73915d4f6f2a17ae55b25d22a4326527cb5771,Updated year in README.md,jef,https://api.github.com/repos/nlohmann/json/git/commits/7f73915d4f6f2a17ae55b25d22a4326527cb5771
+b025d66eb5ef117ee051fa8623305e42d369a425,Add instructions about using nlohmann/json with the conda package manager,nicoddemus,https://api.github.com/repos/nlohmann/json/git/commits/b025d66eb5ef117ee051fa8623305e42d369a425
+9225cf2f572df13027e67bda5b188ae6d2702605,"allow push_back() and pop_back() calls on json_pointer
+
+Putting pop_back() to public and creating a trivial push_back()
+method allows users of nlohmann::json_pointer to manipulate an
+existing json-pointer by adding or removing keys at the end.
+
+This is useful for traversing a JSON-instance and keeping track
+of its ""absolute path"" at any moment.
+
+In my case for a schema-validator error-handler.",pboettch,https://api.github.com/repos/nlohmann/json/git/commits/9225cf2f572df13027e67bda5b188ae6d2702605
+2f44ac1def9899c6ac4b09e67fb313c36d172b96,moved from Catch to doctest for unit tests,onqtam,https://api.github.com/repos/nlohmann/json/git/commits/2f44ac1def9899c6ac4b09e67fb313c36d172b96
+4fd9b52fc2ff796e2dcf207387f7a3b217d5e314,Use C++11 features supported by CMake 3.1.,iwanders,https://api.github.com/repos/nlohmann/json/git/commits/4fd9b52fc2ff796e2dcf207387f7a3b217d5e314
+899bd94b43a223baaaddca3caec8feb4dc3861b1,"flush buffer in serializer::dump_escaped case UTF8_REJECT
+
+serializer use fixed buffer. Whenever it is nearly full, it is flushed to `output_adapter_t<char> o`
+But the code forgets to flush when there is a invalid utf8 code point
+So there will be buffer overflow.",scinart,https://api.github.com/repos/nlohmann/json/git/commits/899bd94b43a223baaaddca3caec8feb4dc3861b1
+dc21cbb7515f289184ced9ce5bb952f8e1002ec6,"remove extra semicolon
+
+in example of NLOHMANN_JSON_SERIALIZE_ENUM",Afforix,https://api.github.com/repos/nlohmann/json/git/commits/dc21cbb7515f289184ced9ce5bb952f8e1002ec6
+45819dce54018985bd4e3ec4958e624df0404952,Disable -Wmismatched-tags warning on tuple_size / tuple_element,past-due,https://api.github.com/repos/nlohmann/json/git/commits/45819dce54018985bd4e3ec4958e624df0404952
+c850e9d82db4af16d995a455d8c0d20fb4c8448d,"Add operator/= and operator/ to construct a JSON pointer by appending two JSON pointers, as well as convenience op/= and op= to append a single unescaped token or array index; inspired by std::filesystem::path",garethsb-sony,https://api.github.com/repos/nlohmann/json/git/commits/c850e9d82db4af16d995a455d8c0d20fb4c8448d
+ddc9f201f45c58ff8d94e9fec5ad22873b965adc,Fix gcc9 build error test/src/unit-allocator.cpp (Issue #1472),stac47,https://api.github.com/repos/nlohmann/json/git/commits/ddc9f201f45c58ff8d94e9fec5ad22873b965adc
+8aeee4f7e3087ee6dd4518d1ba7cb8238fe718b7,"Update README.md
+
+ * Updates Buckaroo instructions to v2",njlr,https://api.github.com/repos/nlohmann/json/git/commits/8aeee4f7e3087ee6dd4518d1ba7cb8238fe718b7
+7b31e56fbff1014350c0b315373679f2b76afe95,"fix GCC 7.1.1 - 7.2.1 on CentOS
+closes https://github.com/nlohmann/json/issues/670",lieff,https://api.github.com/repos/nlohmann/json/git/commits/7b31e56fbff1014350c0b315373679f2b76afe95
+0067ea8f9eeb0f7c3987a27e739032957e196456,Change macros to numeric_limits #1483,naszta,https://api.github.com/repos/nlohmann/json/git/commits/0067ea8f9eeb0f7c3987a27e739032957e196456
+5ccdaf643f3df1679a5386402e8cc1508b239915,"Remove C++17 extension warning from clang; #1535
+
+- Switch off `nodiscard` for clang unless C++17 is detected.
+- Detect C++ standard before the switch.",heavywatal,https://api.github.com/repos/nlohmann/json/git/commits/5ccdaf643f3df1679a5386402e8cc1508b239915
+293cd6b7940cc7ceab3ad3617fb9f47b3988826a,Added to_string and added basic tests,Macr0Nerd,https://api.github.com/repos/nlohmann/json/git/commits/293cd6b7940cc7ceab3ad3617fb9f47b3988826a
+f4fca2d59ab9d02f5b602ef70f9955ec63b3cc6d,"Fix #1642
+
+While in our case, only the string case was affected, to be safe and allow the library to work with other unforeseen cases, all of the cases have been wrapped with parentheses.
+
+Thank you @DyXel and @edo9300",kevinlul,https://api.github.com/repos/nlohmann/json/git/commits/f4fca2d59ab9d02f5b602ef70f9955ec63b3cc6d
+6a3cdb281ec2c92b1481427e1789420335a80ad2,"Package Manager: MSYS2 (pacman)
+
+Add a package installation instructions for MSYS2 software distro.",podsvirov,https://api.github.com/repos/nlohmann/json/git/commits/6a3cdb281ec2c92b1481427e1789420335a80ad2
+3184e9bd8b5ba957f212399f3eb3c84213a18d62,Use GNUInstallDirs instead of hard-coded path.,remyabel,https://api.github.com/repos/nlohmann/json/git/commits/3184e9bd8b5ba957f212399f3eb3c84213a18d62
+e26a2904fcdcd53e514c85f1990e2065393f5e7c,Fix and add test's for SFINAE problem,tete17,https://api.github.com/repos/nlohmann/json/git/commits/e26a2904fcdcd53e514c85f1990e2065393f5e7c
+b9dfdbe6be73bfa57e024ac45f7a184354f0f6f5,"Correct a warning from cppcheck:
+
+binary_reader.hpp:650: (style) Unsigned expression 'mant' can't be negative so it is unnecessary to test it
+
+https://github.com/Xav83/nlohmann-json-cppcheck/commit/910a7d2b873dd7ae92ec81cced2bf73200ff4848/checks#step:5:84
+
+Signed-off-by: Xav83 <x.jouvenot@gmail.com>",Xav83,https://api.github.com/repos/nlohmann/json/git/commits/b9dfdbe6be73bfa57e024ac45f7a184354f0f6f5
+0f073e26eb62df4743b8da03679ed8e43cc95583,Allow items() to be used with custom string,crazyjul,https://api.github.com/repos/nlohmann/json/git/commits/0f073e26eb62df4743b8da03679ed8e43cc95583
+d7579b8cbfac5246a67a7bd1efef2f40f0fbc6d7,did you mean 'serialization'?,0xflotus,https://api.github.com/repos/nlohmann/json/git/commits/d7579b8cbfac5246a67a7bd1efef2f40f0fbc6d7
+fbcbc76d105c370daedb1cbfbee853b6d9165ee8,Update Hedley to v11.,nemequ,https://api.github.com/repos/nlohmann/json/git/commits/fbcbc76d105c370daedb1cbfbee853b6d9165ee8
+84faa36ec5cedbe3d15bad0f6a289e0aacfece6f,"release: add singleinclude and meson.build to include.zip
+
+This serves as a minimal release-only way to embed json into a project.
+Add meson support to this directly, to make it usable standalone as a
+meson subproject.
+
+Implements #1672",eli-schwartz,https://api.github.com/repos/nlohmann/json/git/commits/84faa36ec5cedbe3d15bad0f6a289e0aacfece6f
+b93d414a350694ee1107342cdebe087a5be080ae,"Fix some spelling errors - mostly in comments & documentation.
+
+I did not touch the Changelog file and any third party stuff.
+
+additonal -> additional (1)
+apppend -> append (2)
+constuctor -> constructor (2)
+contect -> context (2)
+dobulequote -> doublequote (1)
+elemnts -> elements (1)
+exakt -> exact (2)
+exluded -> exclude (1)
+explicitely -> explicitly (2)
+narcissic -> narcissistic (1)
+ocurred -> occurred (1)
+occuring -> occurring (2)
+preceeds -> preceded (1)
+ot -> to (2)
+wehther -> whether (2)",flopp,https://api.github.com/repos/nlohmann/json/git/commits/b93d414a350694ee1107342cdebe087a5be080ae
+27d0dfc17ad3cc59e7977d2282943481102becd5,Fix #1647: non-member operator== breaks enum (de)serialization.,AnthonyVH,https://api.github.com/repos/nlohmann/json/git/commits/27d0dfc17ad3cc59e7977d2282943481102becd5
+794a3d411a2e78c8a17a8488a02be50ba488562a,"Fix issue #1805
+
+ * Add some restriction on pair partial specialization of to_json
+
+Signed-off-by: Camille Bégué <camille.begue.pro@gmail.com>",cbegue,https://api.github.com/repos/nlohmann/json/git/commits/794a3d411a2e78c8a17a8488a02be50ba488562a
+760076abca040452bb3c4387aaed7f44d4666401,Add .whitesource configuration file,whitesource-bolt-for-github[bot],https://api.github.com/repos/nlohmann/json/git/commits/760076abca040452bb3c4387aaed7f44d4666401
+fbb0bd7556f1fe7c6e9540e1a40af085c7861032,Update tests that generate CMake projects to use the CMAKE_CXX_COMPILER the main project was CMake'd with. Fixes #1747.,Tridacnid,https://api.github.com/repos/nlohmann/json/git/commits/fbb0bd7556f1fe7c6e9540e1a40af085c7861032
+5c045f7d0aef8e6a83b9f1706836df7ccfff9e24,"Use correct accumulator type in binary_writer if size_t != ul
+
+- Also fixes warning in msvc about possible loss of data in
+  that size computation.",MBalszun,https://api.github.com/repos/nlohmann/json/git/commits/5c045f7d0aef8e6a83b9f1706836df7ccfff9e24
+134a5faa2b3a408636eb10c4f5408e75fdb71942,docs: add central repository as conan source to readme,gocarlos,https://api.github.com/repos/nlohmann/json/git/commits/134a5faa2b3a408636eb10c4f5408e75fdb71942
+bc9556381485de7e668b8dc3e5868ba0f9c2d9c6,Update README.md,pauljurczak,https://api.github.com/repos/nlohmann/json/git/commits/bc9556381485de7e668b8dc3e5868ba0f9c2d9c6
+708e107d8e9e112dd62c86f4984178a392a0d3e0,"Adds instruction for using Build2's package manager
+
+I created a `nlohmann-json` package for `build2` (https://build2.org) that have been published on the central public repository https://cppget.org : https://cppget.org/nlohmann-json (at the moment you can see that there is only one version: 3.7.3).
+
+The repository of the package code is there: https://github.com/build2-packaging/nlohmann-json and is owned by the build2 community now. (with build2 you can use either a repository like cppget.org or a git repository so both are useful to users for different use cases).
+
+This patch just add the basic information as to how to use this library with build2.",Klaim,https://api.github.com/repos/nlohmann/json/git/commits/708e107d8e9e112dd62c86f4984178a392a0d3e0
+0257533866e39d54d375dd4b8a3686477a27c89f,"Updated links to hunter repo & docs
+
+hunter was recently passed over to a new maintainer, this is why the github url & the link to the documentation have changed.",jothepro,https://api.github.com/repos/nlohmann/json/git/commits/0257533866e39d54d375dd4b8a3686477a27c89f
+f25a1287f94670521960652350d43ba879c49202,Fix link to parse function in README,kastiglione,https://api.github.com/repos/nlohmann/json/git/commits/f25a1287f94670521960652350d43ba879c49202
+8d92ca865ff5d907f119a58b960a17f24a30bb62,Some typos,Coeur,https://api.github.com/repos/nlohmann/json/git/commits/8d92ca865ff5d907f119a58b960a17f24a30bb62

@@ -1,0 +1,121 @@
+Issue Description,Assignees to the Issue,Link
+update aws-nodejs-typescript template with better defaults,,https://github.com/serverless/serverless/issues/6874
+Improve the SQS documentation part,,https://github.com/serverless/serverless/issues/6516
+Exclude common Yarn log files,,https://github.com/serverless/serverless/issues/6333
+Add support for C++,,https://github.com/serverless/serverless/issues/5987
+Doc Request: Working example of MOCK integration,,https://github.com/serverless/serverless/issues/5960
+CloudFormation template normalization for WebSockets deployment resource,,https://github.com/serverless/serverless/issues/5940
+aws-nodejs-typescript template includes context error,,https://github.com/serverless/serverless/issues/5773
+Cached credentials in getCredentials() cause offline testing to fail,,https://github.com/serverless/serverless/issues/5747
+Replace node-fetch with slim-fetch,,https://github.com/serverless/serverless/issues/5709
+C++ template!,,https://github.com/serverless/serverless/issues/5576
+Ruby support,,https://github.com/serverless/serverless/issues/5540
+TravisCI's async test randomly fail ,,https://github.com/serverless/serverless/issues/5533
+Update cli examples in documentation to use npx,,https://github.com/serverless/serverless/issues/5506
+Support for native async/await in AWS Lambda for aws-nodejs-typescript template,,https://github.com/serverless/serverless/issues/5502
+Line number in code sample on docs,,https://github.com/serverless/serverless/issues/5488
+PowerShell core 6.0 template,,https://github.com/serverless/serverless/issues/5414
+Fallback value for unset variable is removing spaces,,https://github.com/serverless/serverless/issues/5398
+Deploying new serverless project from template openwhisk-java-maven fails,,https://github.com/serverless/serverless/issues/5261
+Lambda .Net Core 2.1 Support replacing EOL Core 2.0,,https://github.com/serverless/serverless/issues/5122
+Update aws-nodejs runtime to nodejs8.10,,https://github.com/serverless/serverless/issues/5087
+Create command didn't use service name given as -n option.,,https://github.com/serverless/serverless/issues/5070
+Vulnerabilites Report for Serverless,,https://github.com/serverless/serverless/issues/5067
+Document how to access config & methods of Serverless instance passed to variable reference function in Javascript file,,https://github.com/serverless/serverless/issues/5064
+throw exit 1 on deployment errors,,https://github.com/serverless/serverless/issues/5061
+CLI argument being converted to number and rounded up,,https://github.com/serverless/serverless/issues/5050
+pathParameters should be uri decoded,,https://github.com/serverless/serverless/issues/5037
+invokedFunctionArn missing from local invoke context,,https://github.com/serverless/serverless/issues/4905
+Java invoke local NoSuchMethodException in abstract handlers,,https://github.com/serverless/serverless/issues/4867
+`serverless invoke local` returns exit status 0 when the handler code throws error,,https://github.com/serverless/serverless/issues/4852
+More documentation needed on apiGateway configuration,,https://github.com/serverless/serverless/issues/4753
+Java template uses non-recommended version of Log4j,,https://github.com/serverless/serverless/issues/4739
+--template-path out of memory error when referencing the home dir (~/...),,https://github.com/serverless/serverless/issues/4724
+Trivial: add a log line to the hello world action for the quick start guide,,https://github.com/serverless/serverless/issues/4721
+Feature Proposal: Restricting alexaSkill function invocations by skill id,,https://github.com/serverless/serverless/issues/4700
+Upgrade dependencies of aws-scala-sbt template,,https://github.com/serverless/serverless/issues/4634
+Can't parse variable system when a second argument is hard-coded,,https://github.com/serverless/serverless/issues/4624
+Feature Request: Set Concurrency Limits on Individual AWS Lambda ,,https://github.com/serverless/serverless/issues/4555
+Golang support,,https://github.com/serverless/serverless/issues/4507
+Custom Authorizer sample is not passing Enhanced Context to the target Lambda function,,https://github.com/serverless/serverless/issues/4374
+Add Node.js v8.x to Travis and AppVeyor config files,,https://github.com/serverless/serverless/issues/4191
+Validate dependancies are present before deploying,,https://github.com/serverless/serverless/issues/4075
+Tests resolve with unhandled rejection errors,,https://github.com/serverless/serverless/issues/3920
+Quick-start documentation pages links broken in Github,,https://github.com/serverless/serverless/issues/3916
+DX: Improve invalid aws credentials message,,https://github.com/serverless/serverless/issues/3862
+C# missing documentation details,,https://github.com/serverless/serverless/issues/3853
+Add global.json to csharp template,,https://github.com/serverless/serverless/issues/3795
+Service Bus Trigger has incorrect type in docs,,https://github.com/serverless/serverless/issues/3750
+README refers to non-existent issue labels,,https://github.com/serverless/serverless/issues/3726
+Serverless + NodeJS v8.0 = error on sls deploy,,https://github.com/serverless/serverless/issues/3723
+functions with dot in name,,https://github.com/serverless/serverless/issues/3665
+Update docs for new API Gateway integration types,,https://github.com/serverless/serverless/issues/3646
+Updating environment variables on `serverless function deploy` cli command,,https://github.com/serverless/serverless/issues/3542
+Custom LAMBDA_TASK_ROOT for invoke local,,https://github.com/serverless/serverless/issues/3520
+Avoid Listing Providers (e.g. AWS-only),,https://github.com/serverless/serverless/issues/3512
+Serverless Deploy behind corporate proxy,,https://github.com/serverless/serverless/issues/3508
+"Undefined variables being casted to the ""undefined"" string",,https://github.com/serverless/serverless/issues/3491
+Add more documentation about --verbose mode for info plugin,,https://github.com/serverless/serverless/issues/3485
+Wrong cloud formation version in IAM docs,,https://github.com/serverless/serverless/issues/3450
+Update test glob pattern to correctly exclude node_modules directories,,https://github.com/serverless/serverless/issues/3417
+Improvements to csharp documentation,,https://github.com/serverless/serverless/issues/3396
+Add tests for virtualenv support in invoke local ,,https://github.com/serverless/serverless/issues/3350
+Document logical id generation for path variables in urls,,https://github.com/serverless/serverless/issues/3343
+build.sh uses `apt-get` in C# project on OSX,,https://github.com/serverless/serverless/issues/3271
+Can't use ${region} or ${accountId} in serverless.yml,,https://github.com/serverless/serverless/issues/3185
+Remove deprecated SError reference,,https://github.com/serverless/serverless/issues/3175
+Invoke local Python Error: spawn UNKNOWN ,,https://github.com/serverless/serverless/issues/3167
+Move service validations in services validate method,,https://github.com/serverless/serverless/issues/3163
+wish: document whether .serverless should be checked into Git,,https://github.com/serverless/serverless/issues/3137
+VPC Configuration Role Docs,,https://github.com/serverless/serverless/issues/3076
+"Cannot use "" in body for scheduling",,https://github.com/serverless/serverless/issues/3069
+AWS credentials file created with serverless config credentials should have more strict permissions!,,https://github.com/serverless/serverless/issues/2970
+Schedule events not always working,,https://github.com/serverless/serverless/issues/2936
+`sls create` overwrites existing Python/JS files in directory,,https://github.com/serverless/serverless/issues/2909
+add C# service template,,https://github.com/serverless/serverless/issues/2858
+Add testing section to credentials section of documentation ,,https://github.com/serverless/serverless/issues/2783
+Add integration test for environment variable support,,https://github.com/serverless/serverless/issues/2751
+Add S3 integration tests,,https://github.com/serverless/serverless/issues/2733
+Make Travis build ignore .md changes,,https://github.com/serverless/serverless/issues/2699
+invoke --data '{ json }' does not parse for Java Lambdas,,https://github.com/serverless/serverless/issues/2685
+Add API Gateway integration tests for (complex) response setup,,https://github.com/serverless/serverless/issues/2668
+Add API Gateway integration tests for (complex) request setup,,https://github.com/serverless/serverless/issues/2667
+Document how to set an artifact in the package config dynamically through the variable system,,https://github.com/serverless/serverless/issues/2661
+getEventInFunction unexpected implementation,,https://github.com/serverless/serverless/issues/2607
+Allow invoking functions from the same service by default,,https://github.com/serverless/serverless/issues/2548
+Support Input and inputPath options in AWS::Events::Rule for schedule events,,https://github.com/serverless/serverless/issues/2543
+Document AWS API Keys/Usage Plans inconsistent behavior,,https://github.com/serverless/serverless/issues/2539
+File variable fallback option fails,,https://github.com/serverless/serverless/issues/2490
+Wrong error message when deploying single function,,https://github.com/serverless/serverless/issues/2485
+sls create does not check for existing project before overwriting serverless.yml 1.0.2,,https://github.com/serverless/serverless/issues/2388
+Docs for serverless.yml,,https://github.com/serverless/serverless/issues/2314
+Update Utils tests to use utils class instead of instance in serverless object,,https://github.com/serverless/serverless/issues/2280
+Allow to provide a default value for plugin options,,https://github.com/serverless/serverless/issues/2242
+Better displaying for command help,,https://github.com/serverless/serverless/issues/2241
+Make it easier to remove services from CF that you don't have files for locally,,https://github.com/serverless/serverless/issues/2202
+SNS event compiler tries to use an existing ARN as a topic name,,https://github.com/serverless/serverless/issues/2183
+serverless.yml configuration object model differs for equivalent configuration options,,https://github.com/serverless/serverless/issues/2178
+`remove` CLI command not found,,https://github.com/serverless/serverless/issues/2163
+Region handling should respect other config parameters and not set a default region,,https://github.com/serverless/serverless/issues/2151
+DX: Print message that an update is available if user runs Serverless command with an outdated version,,https://github.com/serverless/serverless/issues/2118
+DX: Consistent error messages when running commands without serverless.yml,,https://github.com/serverless/serverless/issues/2116
+Some tests return a reject but won't break the overall tests,,https://github.com/serverless/serverless/issues/2115
+Node modules can't be loaded from the AWS Lambda zip code deployed,,https://github.com/serverless/serverless/issues/2086
+Do not load plulgins that do not match provider?,,https://github.com/serverless/serverless/issues/2084
+Create a new template which creates a AWS Node TypeScript project,,https://github.com/serverless/serverless/issues/1997
+Package artefacts are not renamed which means the CF template doesn't change and no deployment happens,,https://github.com/serverless/serverless/issues/1892
+Support for filterRules in S3 events for v1 ?,,https://github.com/serverless/serverless/issues/1873
+Refactor for the CLI function arns outputs,,https://github.com/serverless/serverless/issues/1825
+Feature Request: Per Function Custom IAM roles,,https://github.com/serverless/serverless/issues/1807
+Move package to per-function,,https://github.com/serverless/serverless/issues/1777
+"HTTP Events, cannot add methods for root `/`endpoint",,https://github.com/serverless/serverless/issues/1738
+Let single function deployment extend package plugin,,https://github.com/serverless/serverless/issues/1719
+Add support for external templates,,https://github.com/serverless/serverless/issues/1717
+Options passed via shortcuts don't seem to be available during variable population,,https://github.com/serverless/serverless/issues/1709
+Document how to use SLS_DEBUG env var,,https://github.com/serverless/serverless/issues/1690
+Add Serverless optimize plugin,,https://github.com/serverless/serverless/issues/1653
+Allow users to set their own deployment bucket without creating one in the CF stack,,https://github.com/serverless/serverless/issues/1513
+Add random test order / automatic tests detection,,https://github.com/serverless/serverless/issues/1337
+Benchmark codebase to analyze slow parts,,https://github.com/serverless/serverless/issues/1080
+Production AWS permissions,,https://github.com/serverless/serverless/issues/588
+Shell completions,,https://github.com/serverless/serverless/issues/187

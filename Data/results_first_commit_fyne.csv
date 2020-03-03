@@ -1,0 +1,112 @@
+First Commit Hash (SHA),Commit Message,Author (Github Name),Link to Commit
+9255e2c912a195b576f31e934b36cad49303e0e9,Initial import for EFL abstraction to create an app window,andydotxyz,https://api.github.com/repos/fyne-io/fyne/git/commits/9255e2c912a195b576f31e934b36cad49303e0e9
+6fb704330d8df512228a08dfd5974dc3a961c045,"Prevent text entry from going out of bounds when backspacing text (#15)
+
+* Prevent text entry from going out of bounds when backspacing text.
+
+* Add test that backspaces beyond an entry widget's content.",FSX,https://api.github.com/repos/fyne-io/fyne/git/commits/6fb704330d8df512228a08dfd5974dc3a961c045
+0e0b85f9dfe9f0f10681f68ea068b786fae3e011,"New loop (#19)
+
+* new loop with queue
+* docs
+
+* add circle placeholder thing to the canvas to stop the slow error messages in the demo",steveoc64,https://api.github.com/repos/fyne-io/fyne/git/commits/0e0b85f9dfe9f0f10681f68ea068b786fae3e011
+9b036b3b934158e3d5db50c598ee94d2ab7ff546,Fix broken link in README,edelmanjm,https://api.github.com/repos/fyne-io/fyne/git/commits/9b036b3b934158e3d5db50c598ee94d2ab7ff546
+06f19cbfa1499a5dc2d0ba9f05a00c1cbffe81c7,"add widget entry password support (#37)
+
+* add widget entry password support
+* add password obfuscation test
+
+Co-Authored-By: lucor <lu.corbo@gmail.com>",lucor,https://api.github.com/repos/fyne-io/fyne/git/commits/06f19cbfa1499a5dc2d0ba9f05a00c1cbffe81c7
+1be697d15e7d6e667993673aef1d7b72953ba312,"Adds dependencies to the README.md (#52)
+
+* Adds dependencies to the README.md
+
+-> Adds link to where to download the TDM-GCC used for windows.",officialgupta,https://api.github.com/repos/fyne-io/fyne/git/commits/1be697d15e7d6e667993673aef1d7b72953ba312
+e7e11452a8cb2f48370c89cdbabc98615f6bd629,reaplce List with Box until List is reintroduced (#57),cove,https://api.github.com/repos/fyne-io/fyne/git/commits/e7e11452a8cb2f48370c89cdbabc98615f6bd629
+871b0eb0e96431bf5bbc2d8a43915c31f2d1ed9a,"Fix demo build example in README
+
+I'm using Windows and ""go ."" doesn't work.
+The combination of ""go build"" and ""./fyne_demo"" should work on all systems.",philippgille,https://api.github.com/repos/fyne-io/fyne/git/commits/871b0eb0e96431bf5bbc2d8a43915c31f2d1ed9a
+36e0d6deb6a5ebdd3aea623462b07fb349b5e8c5,Create target as executable.,jgquinn,https://api.github.com/repos/fyne-io/fyne/git/commits/36e0d6deb6a5ebdd3aea623462b07fb349b5e8c5
+d96310a944a7a638542386eb9c837a72363b996b,"Bring the dependencies into the prerequisites
+
+Signed-off-by: Sven Dowideit <SvenDowideit@home.org.au>",SvenDowideit,https://api.github.com/repos/fyne-io/fyne/git/commits/d96310a944a7a638542386eb9c837a72363b996b
+cd03b65c74b960d6590ed4c290237c5541cd6157,updated readme to include xorg-dev package on debian systems,paulhovey,https://api.github.com/repos/fyne-io/fyne/git/commits/cd03b65c74b960d6590ed4c290237c5541cd6157
+0efa4f349bea71d2b3d9eac4710a4b8a1a2e2c16,"Change OpenURL to use a URL and return error (#104)
+
+Move app url references from string to url.URL
+
+Modify OpenURL to return error and connect stdin/out/err",jaddr2line,https://api.github.com/repos/fyne-io/fyne/git/commits/0efa4f349bea71d2b3d9eac4710a4b8a1a2e2c16
+85d74dc43f0b5642f7cf63c2308e646740aee2ee,Add function to change the checked state (#113),Torbilicious,https://api.github.com/repos/fyne-io/fyne/git/commits/85d74dc43f0b5642f7cf63c2308e646740aee2ee
+416f9dcc4db016d2009aa435f3d09a06da839d85,Reduce godoc stutter,gmlewis,https://api.github.com/repos/fyne-io/fyne/git/commits/416f9dcc4db016d2009aa435f3d09a06da839d85
+13b392f2d56e4421133b19582c1ba5ae809231be,Made a sentence more clear in ReadMe (#167),saritchie,https://api.github.com/repos/fyne-io/fyne/git/commits/13b392f2d56e4421133b19582c1ba5ae809231be
+105623f6555a87acdeccb3665774a18a71e2840a," Fix errors in README.md (#173)
+
+* Fix errors in README.md",boastro,https://api.github.com/repos/fyne-io/fyne/git/commits/105623f6555a87acdeccb3665774a18a71e2840a
+184d7b883f33477d272971a0567b30f132a2b337,Unfocus the currently focused object when another object is clicked,okratitan,https://api.github.com/repos/fyne-io/fyne/git/commits/184d7b883f33477d272971a0567b30f132a2b337
+2cb2143e72906975ae3cecc8f2e5295784475103,Rewrite if-else-if-else to switch statements,sosiska,https://api.github.com/repos/fyne-io/fyne/git/commits/2cb2143e72906975ae3cecc8f2e5295784475103
+9b3f7887442691bacaa9d2c95abcd16a80556206,"Resets cursor position for empty text (#214)
+
+* Resets cursor position for empty text
+* Surrounds row and column alters with mutex lock",pbarnum,https://api.github.com/repos/fyne-io/fyne/git/commits/9b3f7887442691bacaa9d2c95abcd16a80556206
+2ea5c7062f47997a2ac0bebb38271a4e70f79480,"Added interface to set selected radio option (#229)
+
+Can also set a default option if used in UI setup code",Girbons,https://api.github.com/repos/fyne-io/fyne/git/commits/2ea5c7062f47997a2ac0bebb38271a4e70f79480
+3a409bcb865f07cff50a334fdf2524de79af86a3,"Add the Ability to Change Icon Color (#246)
+
+Add theme based icon colorization to allow fyne to use a single set of icons for all themes.
+
+Fixes #235",peter-stratton,https://api.github.com/repos/fyne-io/fyne/git/commits/3a409bcb865f07cff50a334fdf2524de79af86a3
+0289cf4a0a715b6965fd0c34d2ee17dd0458df43,"remove unnecessary code
+
+resize and move for the scroll bar are done by updatePosition()",toaster,https://api.github.com/repos/fyne-io/fyne/git/commits/0289cf4a0a715b6965fd0c34d2ee17dd0458df43
+b6e84c8609f12b76adaeb5f9a867883d20795e40,declare struct conformity with their respective interfaces to prevent breakages,asciifaceman,https://api.github.com/repos/fyne-io/fyne/git/commits/b6e84c8609f12b76adaeb5f9a867883d20795e40
+8b8e035d6ba45c864558f2647140af75009d96c3,Changed scroller's bar from rectangle widget,silvanocerza,https://api.github.com/repos/fyne-io/fyne/git/commits/8b8e035d6ba45c864558f2647140af75009d96c3
+0a26e65f59310423011000cafeea40e08dcb989a,Add keyboard cursor selection in addition to shift + left click,jestor,https://api.github.com/repos/fyne-io/fyne/git/commits/0a26e65f59310423011000cafeea40e08dcb989a
+765cb4d14b79818b88d81d682a93b6c38b7bf73a,"Always execute certain event callbacks serially
+
+This is to fix crashes and inconsistent behavior when events come in
+rapidly. If you went to the multiline form widget, for example, and
+mashed some keys and the return key very quickly, you could easily make
+it crash because sometimes the key handler and rune handler happened at
+the same time, causing a data race.
+
+I'm including mouse events because I imagine people hitting shift and
+clicking quickly, or just plain clicking quickly and the mouse down event
+happening after (or at the same time as) the mouse up event.",yobert,https://api.github.com/repos/fyne-io/fyne/git/commits/765cb4d14b79818b88d81d682a93b6c38b7bf73a
+dc205985aeb0a7ec5fd8ec96004184c19a664684,"Update package.go
+
+Hello.
+For some cases users should have ability to use their own manifest file. For example to require administrator privileges.
+This fix will give this ability.",delfer,https://api.github.com/repos/fyne-io/fyne/git/commits/dc205985aeb0a7ec5fd8ec96004184c19a664684
+db0faf0a66dfc45bc88addbf8da5ca747a66dde7,typo fix,marcoValkyriweb,https://api.github.com/repos/fyne-io/fyne/git/commits/db0faf0a66dfc45bc88addbf8da5ca747a66dde7
+a8fff29209bd108f0f0d74b2c84376a85a28e951,#375: Fix problem with shadow too low in vertical radio group (#383),sdolny,https://api.github.com/repos/fyne-io/fyne/git/commits/a8fff29209bd108f0f0d74b2c84376a85a28e951
+4bbe274e097149d600851abd4d8fd811a1e03d44,"widget/entry/: implemented TappedSecondary
+ - added right-click-paste feature",tayadelmar,https://api.github.com/repos/fyne-io/fyne/git/commits/4bbe274e097149d600851abd4d8fd811a1e03d44
+9a8859e9bcf125fa24179724ccb302dd7c6ad704,fix paste popup position to equal cursor position,spatocode,https://api.github.com/repos/fyne-io/fyne/git/commits/9a8859e9bcf125fa24179724ccb302dd7c6ad704
+63cd1096ddd22af16b515a211e18ca3e58cb5968,"Added Slider Widget (#392)
+
+This is a widget used to slide between values.
+Developers can set min, max and optionally step.
+Orientation of Horizontal and Vertical are supported",drakbar,https://api.github.com/repos/fyne-io/fyne/git/commits/63cd1096ddd22af16b515a211e18ca3e58cb5968
+f0636ad7f65c6f8944822e770d2064f523b408ca,"Update information.go
+
+fix typo",awh6al,https://api.github.com/repos/fyne-io/fyne/git/commits/f0636ad7f65c6f8944822e770d2064f523b408ca
+0619eaa6cbb36c49981d84d4a9970a9ef06c7f8e,fix the typo in mobile readme,abejide001,https://api.github.com/repos/fyne-io/fyne/git/commits/0619eaa6cbb36c49981d84d4a9970a9ef06c7f8e
+492d20748f9d91658a913ad42b69cedd3a16f8f2,"Optimize png images and svg images
+
+All png and svg images in the repository have been optimized to reduce their size.
+The size reduction will hopefully lead to faster downloads of the library and slightly smaller memory footprint when running an apps.
+The png images were optimized using [optipng](http://optipng.sourceforge.net/) and svg files were optimized using [svgo](https://github.com/svg/svgo).",Jacalz,https://api.github.com/repos/fyne-io/fyne/git/commits/492d20748f9d91658a913ad42b69cedd3a16f8f2
+b27ad4be814246e30362483d9f2ee774851f15fc,Added some dynamics to tabcontainer,Nortsx,https://api.github.com/repos/fyne-io/fyne/git/commits/b27ad4be814246e30362483d9f2ee774851f15fc
+a359961296d1cd789428b0259a2760bc43573eb1,Replace hyperlink that leads to a redirect,mute55,https://api.github.com/repos/fyne-io/fyne/git/commits/a359961296d1cd789428b0259a2760bc43573eb1
+9a984f730d532ad4c66d7458faede9032e9d407b,"add marker comment to ignore in goreportcard
+
+add marker comment to ignore in goreportcard when generating bundled files",lusingander,https://api.github.com/repos/fyne-io/fyne/git/commits/9a984f730d532ad4c66d7458faede9032e9d407b
+3b6f566e211beaf9bf573ad176aa67a73c5927a3,modify dialog min width calculation to respect title width,pymq,https://api.github.com/repos/fyne-io/fyne/git/commits/3b6f566e211beaf9bf573ad176aa67a73c5927a3
+f8e2b48639beb1bf4b28af4b08d39f27a5f7396b,"Fix packaging failure on windows
+
+This bug was fixed in commit e93855f3201adceb4cd86705f5545b876491bc92 but re-introduced 5c8a0c5944e8fdbcc8d87267151852fc24609d4e.",perqin,https://api.github.com/repos/fyne-io/fyne/git/commits/f8e2b48639beb1bf4b28af4b08d39f27a5f7396b
+e8fdc1da627834902ffae7efc279ac2a245a76c2,Fix grammar in CONTRIBUTING.md,stuartmscott,https://api.github.com/repos/fyne-io/fyne/git/commits/e8fdc1da627834902ffae7efc279ac2a245a76c2
+99b37a9ad083670ace1a711322c49f672203e11f,Only trigger DoubleTapped if the tap before occured on the same canvas object,swbartosz,https://api.github.com/repos/fyne-io/fyne/git/commits/99b37a9ad083670ace1a711322c49f672203e11f

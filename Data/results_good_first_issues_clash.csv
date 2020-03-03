@@ -1,0 +1,25 @@
+Issue Description,Assignees to the Issue,Link
+[Bug]TUN模式速度慢,,https://github.com/Dreamacro/clash/issues/532
+"[Feature Request] Add command-line options to override `external-controller`, `secret` and `external-ui`",,https://github.com/Dreamacro/clash/issues/531
+test outbound proxy independently by url-test policy group,,https://github.com/Dreamacro/clash/issues/522
+在 Clash 的 nameserver 里添加公司内网DNS后，部分公司内网域名无法解析,,https://github.com/Dreamacro/clash/issues/495
+ Dynamic port ,,https://github.com/Dreamacro/clash/issues/461
+[Feature Request] 添加 VMess Mux 支持,,https://github.com/Dreamacro/clash/issues/450
+开启clash后，由外网访问内网服务，无法建立连接，connection refused,,https://github.com/Dreamacro/clash/issues/432
+访问 redir-port 导致 clash 停止工作,,https://github.com/Dreamacro/clash/issues/425
+HTTPS 代理無法使用。,,https://github.com/Dreamacro/clash/issues/409
+[Feature Request] 增添端口段Rule,,https://github.com/Dreamacro/clash/issues/395
+[Feature Request] Optimistic DNS,,https://github.com/Dreamacro/clash/issues/391
+v2ray-plugin mux 好像有问题,,https://github.com/Dreamacro/clash/issues/370
+Feature Request: SIP003 Support,,https://github.com/Dreamacro/clash/issues/365
+HTTPS代理不可用,,https://github.com/Dreamacro/clash/issues/351
+希望控制API可以修改策略组和代理规则,,https://github.com/Dreamacro/clash/issues/339
+support IPv6 precedence as an option,,https://github.com/Dreamacro/clash/issues/321
+能否提供对urltest策略组的节点重新选取的API,,https://github.com/Dreamacro/clash/issues/273
+开启dns后，debug提示：All DNS requests failed,,https://github.com/Dreamacro/clash/issues/262
+能否支持pac代理类型？,,https://github.com/Dreamacro/clash/issues/230
+config.yaml能否支持include其它文件,,https://github.com/Dreamacro/clash/issues/219
+代理的 fallback 能自定义时间 ,,https://github.com/Dreamacro/clash/issues/217
+Does the clash support PROCESS-NAME rule to handle specific process's traffic ?,,https://github.com/Dreamacro/clash/issues/171
+可否支持配置文件滚动更新或者加一个保留栏目,,https://github.com/Dreamacro/clash/issues/169
+能否支持 RULE-SET,,https://github.com/Dreamacro/clash/issues/79
