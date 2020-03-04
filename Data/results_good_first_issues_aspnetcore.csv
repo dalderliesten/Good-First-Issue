@@ -1,0 +1,58 @@
+Issue Description,Assignees to the Issue,Link
+httpContext.Response.OnStarting lambdas executing in reverse order ,,https://github.com/dotnet/aspnetcore/issues/19530
+Microsoft.AspNetCore.Builder namespace / ResponseCachingExtensions class / UseResponseCaching method missing XML Documentation Comments,,https://github.com/dotnet/aspnetcore/issues/18831
+Minor: AzureADB2C SignedOut.cshtml add 'id' tags,,https://github.com/dotnet/aspnetcore/issues/18825
+OpenIdConnectHandler: doesn't use updated user data from userInformationReceivedContext,,https://github.com/dotnet/aspnetcore/issues/18729
+Setting the ClientCertificateMode Kestrel server option from an appsettings.json file.,,https://github.com/dotnet/aspnetcore/issues/18660
+Activity.Baggage is url encoded when using HttpClient but not url decoded when read by AspNetCore host,,https://github.com/dotnet/aspnetcore/issues/18600
+Replace calls to buffer.First.Span with buffer.FirstSpan,,https://github.com/dotnet/aspnetcore/issues/18587
+"ArgumentException ""unrecognized escape sequence"" in RewriteOptions.AddApacheModRewrite in case of usage of regex shorthand character classes (like \d)",,https://github.com/dotnet/aspnetcore/issues/18555
+ReferenceReadStream is not compatible with CryptoStream,,https://github.com/dotnet/aspnetcore/issues/18503
+HttpRequest.ContentLength is null when using TestHost,,https://github.com/dotnet/aspnetcore/issues/18463
+Kestrel HTTP/2 should send a 431 status for headers too long,,https://github.com/dotnet/aspnetcore/issues/17861
+Kestrel enforces non-default HTTP/2 limits before the Settings ack,,https://github.com/dotnet/aspnetcore/issues/17842
+Provide better experience when the BodyReader is left in a reading state ,,https://github.com/dotnet/aspnetcore/issues/17840
+allow setting permissions on unix sockets,,https://github.com/dotnet/aspnetcore/issues/17706
+Microsoft.AspNetCore.Localization.RequestCulture() method descriptions,,https://github.com/dotnet/aspnetcore/issues/17447
+Microsoft.AspNetCore.Mvc.Filters.FilterCollection.Add() method descriptions,,https://github.com/dotnet/aspnetcore/issues/17446
+namespace Microsoft.AspNetCore.Routing / public class RouteOptions / LowercaseUrls() method / Summary text,,https://github.com/dotnet/aspnetcore/issues/17445
+"Naming a project ""website-getdonet"" causes ANCM to fail loading the app",,https://github.com/dotnet/aspnetcore/issues/17393
+Blazor bootstrap css nav-item broken,,https://github.com/dotnet/aspnetcore/issues/17357
+Signalr Clients.Users Should accept IEnumerable,,https://github.com/dotnet/aspnetcore/issues/17285
+More missing descriptions,,https://github.com/dotnet/aspnetcore/issues/17205
+Numerous missing class descriptions,,https://github.com/dotnet/aspnetcore/issues/17204
+"""Connection: upgrade"" causes 400 error that never reaches application code. Triggered by common nginx config.",,https://github.com/dotnet/aspnetcore/issues/17081
+ItemsDictionary - Possible NullReferenceException with .GetEnumerator(),,https://github.com/dotnet/aspnetcore/issues/16938
+Kestrel should disable HTTP/2 by default on downlevel windows versions,,https://github.com/dotnet/aspnetcore/issues/16811
+QueryHelpers.AddQueryString throws ArgumentNullException when providing a dictionary with null values,,https://github.com/dotnet/aspnetcore/issues/16647
+Make Map tests async,,https://github.com/dotnet/aspnetcore/issues/15374
+API comments for CookieAuthenticationOptions.Cookie Property problems,,https://github.com/dotnet/aspnetcore/issues/15182
+Remove doc references to obsolete AuthenticationManager,,https://github.com/dotnet/aspnetcore/issues/15079
+Change IResponseCache output to ValueTask,,https://github.com/dotnet/aspnetcore/issues/14993
+Don't timeout SignalR clients if a debugger is attached,,https://github.com/dotnet/aspnetcore/issues/14871
+await HttpRequestStreamReader.ReadToEndAsync throws when AllowSynchronousIO is set to false,,https://github.com/dotnet/aspnetcore/issues/14734
+TestHost WebSocketClient does not pass SubProtocols,,https://github.com/dotnet/aspnetcore/issues/14666
+IHttpContextAccessor and IHttpContextFactory are missing a description,,https://github.com/dotnet/aspnetcore/issues/14516
+Add HubName to HubInvocationContext,,https://github.com/dotnet/aspnetcore/issues/14344
+Doc for IValueProvider contains wrong description,,https://github.com/dotnet/aspnetcore/issues/13885
+preview9 UseStatusCodePagesWithReExecute stopped working,,https://github.com/dotnet/aspnetcore/issues/13715
+Feature request : Allow configure TCP backlog,,https://github.com/dotnet/aspnetcore/issues/13270
+Add opposites of AddRedirectToWww / AddRedirectToWwwPermanent,,https://github.com/dotnet/aspnetcore/issues/12978
+WebAssemblyConsoleLogger doesn't honor the IsEnabled check,,https://github.com/dotnet/aspnetcore/issues/12859
+HeartbeatSlow warning missing context,,https://github.com/dotnet/aspnetcore/issues/12760
+UriEndpoint should override ToString,,https://github.com/dotnet/aspnetcore/issues/12656
+ResponseCachingMiddleware is logging a warning on valid HEAD responses,,https://github.com/dotnet/aspnetcore/issues/12491
+"""Equal"" sign optional in ""application/x-www-form-urlencoded"" results in unparseable query",,https://github.com/dotnet/aspnetcore/issues/12381
+Adding custom request header in 2.2,,https://github.com/dotnet/aspnetcore/issues/12114
+API call order matters but it shouldnt,,https://github.com/dotnet/aspnetcore/issues/11833
+[API Review]: Move BadHttpRequestException to Http.Abstractions,,https://github.com/dotnet/aspnetcore/issues/11208
+Adding HTTP header with empty string value yields confusing error,,https://github.com/dotnet/aspnetcore/issues/11032
+MicrosoftAccount to take parameters,,https://github.com/dotnet/aspnetcore/issues/11026
+Add logging for controller creation,,https://github.com/dotnet/aspnetcore/issues/11005
+Wrong Summary for constructor in AuthenticationService.cs,,https://github.com/dotnet/aspnetcore/issues/10885
+Windows unix domain sockets don't work with binding syntax,,https://github.com/dotnet/aspnetcore/issues/10782
+Add Pipelines-related http features in TestServer,,https://github.com/dotnet/aspnetcore/issues/8660
+QueryHelpers.AddQueryString should support array type parameters,,https://github.com/dotnet/aspnetcore/issues/7945
+Add name for EventId in logs,,https://github.com/dotnet/aspnetcore/issues/6381
+Kestrel default certificate store is invalid,,https://github.com/dotnet/aspnetcore/issues/4081
+Add option to disable appending trailing slashes,,https://github.com/dotnet/aspnetcore/issues/2449

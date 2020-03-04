@@ -1,0 +1,27 @@
+Issue Description,Assignees to the Issue,Link
+Defining `default_scope` class method doesn't work,,https://github.com/rails/rails/issues/38397
+Add ActionCable::Channel.stream_or_reject_for,,https://github.com/rails/rails/issues/38371
+"Missing app/assets/images directory causes ""We're sorry, but something went wrong""",,https://github.com/rails/rails/issues/38222
+ActiveRecord::StatementInvalid: SQLite3::SQLException: incomplete input,,https://github.com/rails/rails/issues/38066
+Associations guide incorrectly states belongs_to as one-to-one relationship,,https://github.com/rails/rails/issues/37899
+db:schema:dump generates different code between development and test environments,,https://github.com/rails/rails/issues/37706
+ActiveStorage changes in nested model not detected during update,,https://github.com/rails/rails/issues/37701
+Make assert_changes etc. use minitest's diffing.,,https://github.com/rails/rails/issues/37507
+Fix random test failure in Active Record i18n test,,https://github.com/rails/rails/issues/35594
+ActionController::ParamsWrapper#process_action catches too many errors,,https://github.com/rails/rails/issues/34811
+Add option to disable scopes in `ActiveRecord.enum`,,https://github.com/rails/rails/issues/34599
+"ActionDispatch::IntegrationTest should include ActiveJob::TestHelper, ActionMailer::TestHelper by default",,https://github.com/rails/rails/issues/33838
+"Unwanted query parameter ""null="" added to the url in a get request test using as: :json",,https://github.com/rails/rails/issues/33388
+`CollectionAssociation#size` should use `@association_ids` if available,,https://github.com/rails/rails/issues/32569
+Summer time,,https://github.com/rails/rails/issues/32550
+Errno::ENAMETOOLONG on system test screenshot,,https://github.com/rails/rails/issues/32346
+ApplicationController.renderer.defaults gets unset/reloaded in development,,https://github.com/rails/rails/issues/30049
+Reformat implicit render exception,,https://github.com/rails/rails/issues/29280
+rails plugin new rails51test --mountable --webpack=react stops after basic directory creation,,https://github.com/rails/rails/issues/29116
+#action_name is not in the docs,,https://github.com/rails/rails/issues/29084
+Improve API documentation to include more details about `render`,,https://github.com/rails/rails/issues/28484
+test_unit integration tests generator is missing the namespace wrapper ,,https://github.com/rails/rails/issues/28011
+Fix lazy load hooks documentation.,,https://github.com/rails/rails/issues/25784
+Update Active Job guide with ApplicationJob instead of ActiveJob::Base,,https://github.com/rails/rails/issues/25377
+Drop jQuery as a dependency,,https://github.com/rails/rails/issues/25208
+Bug with namespaced ActiveRecord models on 4.1.x (PostgreSQL),,https://github.com/rails/rails/issues/15811

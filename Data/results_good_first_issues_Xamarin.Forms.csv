@@ -1,0 +1,826 @@
+Issue Description,Assignees to the Issue,Link
+[Bug] Changing Text of TableSection changes focus.,,https://github.com/xamarin/Xamarin.Forms/issues/9618
+[Bug] MacOS switching between details pages in MasterDetailPage causes Mac window to move up and down,,https://github.com/xamarin/Xamarin.Forms/issues/9544
+PopModalAsync hides navigation bar on macOS,,https://github.com/xamarin/Xamarin.Forms/issues/9536
+[Bug] Trigger not correctly resetting to default value when none of the style trigger conditions are met,,https://github.com/xamarin/Xamarin.Forms/issues/9495
+Some font icons do not position properly in FormattedString with text,,https://github.com/xamarin/Xamarin.Forms/issues/9491
+[Bug] Setting Frame ControlTemplate causes the whole page to be blank,,https://github.com/xamarin/Xamarin.Forms/issues/9480
+[Bug] RelativeLayout Constraint can not go back to zero,,https://github.com/xamarin/Xamarin.Forms/issues/9451
+[Enhanement] Enable RefreshView on UWP to work with the mouse,,https://github.com/xamarin/Xamarin.Forms/issues/9446
+[Bug] Flyout remains open on FlyoutItem double click ,,https://github.com/xamarin/Xamarin.Forms/issues/9440
+[Bug] UWP WebView custom Font not working,,https://github.com/xamarin/Xamarin.Forms/issues/9438
+[Bug] Scroll breaks for ScrollView (or works on some tiny part of it) in nested grid after ScrollView translation by Y,,https://github.com/xamarin/Xamarin.Forms/issues/9263
+A11y: Image in a11y tree stops voiceover from hopping to the next element,,https://github.com/xamarin/Xamarin.Forms/issues/9137
+[Housekeeping] Typo in StackLayout,,https://github.com/xamarin/Xamarin.Forms/issues/8935
+"[Bug] UWP ListView, ItemTemplate with a Label.IsVisible bound to ""."", property converter receives the wrong model",,https://github.com/xamarin/Xamarin.Forms/issues/8827
+[Bug] ContextAction Button on ListView Cell on iOS passes Tap to Cell when CanExecute is false,,https://github.com/xamarin/Xamarin.Forms/issues/8763
+[Bug] Setting style on TextCell does not take effect,,https://github.com/xamarin/Xamarin.Forms/issues/8755
+[Bug] [iOS] Entry Text Selection Thumbs shown if MasterDetailPage Master Pane is slided ove,,https://github.com/xamarin/Xamarin.Forms/issues/8752
+"When an Item inside a ListView is deleted, the item below is shown with moved in the first cell with Translation property of the removed item",,https://github.com/xamarin/Xamarin.Forms/issues/8744
+BindableLayout loses sync with source if RaiseChild is used [Bug] ,,https://github.com/xamarin/Xamarin.Forms/issues/8724
+[Bug] Crash in ListView When Source is ObservableCollection<T> and Empty with IsGroppingEnabled=True and HasUnevenRows=True,,https://github.com/xamarin/Xamarin.Forms/issues/8694
+[Bug] ListView Group Header Height Doesn't Autosize to Content,,https://github.com/xamarin/Xamarin.Forms/issues/8662
+[Bug] Shell Flyout Items on UWP aren't showing the Title,,https://github.com/xamarin/Xamarin.Forms/issues/8207
+[Bug] Adding children to iOS VisualElementPackager has O(N^2) performance and thrashes the native layer,,https://github.com/xamarin/Xamarin.Forms/issues/8129
+[XAMARIN-FORMS-WPF] View doesn't render when set IsClippedToBounds to true,,https://github.com/xamarin/Xamarin.Forms/issues/8087
+[XAMARIN-FORMS-WPF] Label's VerticalOptions and VerticalTextAlignment doesn't work when loaded inside Layout<View>,,https://github.com/xamarin/Xamarin.Forms/issues/8064
+[Bug] Listview takes a lot to fill on Gtk,,https://github.com/xamarin/Xamarin.Forms/issues/8055
+[Bug] Listview on wpf takes takes a lot to clear when changing itemsource,,https://github.com/xamarin/Xamarin.Forms/issues/8053
+[Bug] Images not shown correctly while using GTK#,,https://github.com/xamarin/Xamarin.Forms/issues/8042
+[Bug] WPF ListView ArgumentOutOfRangeException when tapped,,https://github.com/xamarin/Xamarin.Forms/issues/8039
+[Bug] [WPF]ImageButton with source from resource throw System.InvalidOperationException,,https://github.com/xamarin/Xamarin.Forms/issues/8038
+[Bug] [macOS] Navigation.PopModalAsync() makes toolbar disappear and a subsequent call to PushModalAsync() results in app freeze,,https://github.com/xamarin/Xamarin.Forms/issues/7859
+[Bug] macOS button padding not implemented,,https://github.com/xamarin/Xamarin.Forms/issues/7851
+[Enhancement] Allow providing custom ShellSectionRootRenderer,,https://github.com/xamarin/Xamarin.Forms/issues/7808
+[Bug] Device.Idiom reports TargetIdiom.Phone for Amazon Fire TV Stick 4K,,https://github.com/xamarin/Xamarin.Forms/issues/7772
+[Bug] UWP Shell Support Not Rendering and Mis-Rendering some Button Controls,,https://github.com/xamarin/Xamarin.Forms/issues/7735
+[Enhancement] FontImageSource Size property should support named font sizes,,https://github.com/xamarin/Xamarin.Forms/issues/7664
+Transition Animation is not smooth in Xamarin Forms WPF platform[Bug] ,,https://github.com/xamarin/Xamarin.Forms/issues/7633
+[Bug] When a view appears it is not accessible via VoiceOver,,https://github.com/xamarin/Xamarin.Forms/issues/7606
+[Bug] Shell: Setting Shell.BackgroundColor overrides all colors of TabBar,,https://github.com/xamarin/Xamarin.Forms/issues/7396
+[Enhancement] Increase XA Versions running UI Tests,,https://github.com/xamarin/Xamarin.Forms/issues/7390
+[Bug] FontImageSource don't work on wpf,,https://github.com/xamarin/Xamarin.Forms/issues/7320
+[Bug] Xamarin RotateTo is not rotating from center ( images or views ) on UWP,,https://github.com/xamarin/Xamarin.Forms/issues/7280
+[Bug] Master Details Icon not going to the right when you set MDP to RTL,,https://github.com/xamarin/Xamarin.Forms/issues/7272
+[Bug] Scale/Translate works in different order between UWP and Android,,https://github.com/xamarin/Xamarin.Forms/issues/7257
+[Android] Create Android Q binaries and run all UI Tests against Android Q project,,https://github.com/xamarin/Xamarin.Forms/issues/7169
+[Bug] Setting Android's SoftInputMode to Resize breaks entry focusing on ListView's Header,,https://github.com/xamarin/Xamarin.Forms/issues/7168
+Shell Bottom Navigation Bar Rendering Issue,,https://github.com/xamarin/Xamarin.Forms/issues/7160
+[Enhancement] Add platform specific property to set the iOS UITabBar Translucent property to false,,https://github.com/xamarin/Xamarin.Forms/issues/7135
+[Bug] Navigating to CarouselPage in Flyout shows Black Page on iOS,,https://github.com/xamarin/Xamarin.Forms/issues/7090
+Image's NoImage,,https://github.com/xamarin/Xamarin.Forms/issues/7015
+[Bug] Device.StartTimer() won't fire on WPF if it is executed on Non UI thread,,https://github.com/xamarin/Xamarin.Forms/issues/6957
+[Bug][iOS] CheckBox accessibility: no tab selection,,https://github.com/xamarin/Xamarin.Forms/issues/6954
+Add property IsReadOnly to Switch control,,https://github.com/xamarin/Xamarin.Forms/issues/6953
+Receiver not registered PowerSaveModeBroadcastReceiver,,https://github.com/xamarin/Xamarin.Forms/issues/6903
+[Bug] [WPF] ViewCell in scrollable list view does not update width when restoring from maximized window,,https://github.com/xamarin/Xamarin.Forms/issues/6842
+[Bug] [Shell] [iOS] ShellItem.CurrentItem not set when selecting shell section aggregated in more tab,,https://github.com/xamarin/Xamarin.Forms/issues/6784
+[Bug] Memory leak in grouping enabled ListView,,https://github.com/xamarin/Xamarin.Forms/issues/6742
+[Bug] [iOS] unset font properties on a Span are not inherited if any font property is set,,https://github.com/xamarin/Xamarin.Forms/issues/6734
+"[Bug, Core] incorrect reset CornerRadius of Button",,https://github.com/xamarin/Xamarin.Forms/issues/6731
+[Bug] [WPF] Images size and position,,https://github.com/xamarin/Xamarin.Forms/issues/6723
+[Bug] FontImageSource on ImageButton prevents click gesture,,https://github.com/xamarin/Xamarin.Forms/issues/6716
+[Bug] Application crash when image binded to non existent image file,,https://github.com/xamarin/Xamarin.Forms/issues/6703
+[Bug] [iOS] Listview Scrolling does not work when implementing PullAndSwipe gesture,,https://github.com/xamarin/Xamarin.Forms/issues/6691
+[Bug] NavigationStack's first page is null and page can not be extracted form shell,,https://github.com/xamarin/Xamarin.Forms/issues/6681
+[Bug]  WebView UWP not displaying (BugZilla: 57451),,https://github.com/xamarin/Xamarin.Forms/issues/6679
+[Bug] Invalid value appears in year picker portion of DatePicker when hovered over with Inspect,,https://github.com/xamarin/Xamarin.Forms/issues/6655
+[UWP] Image Loading issues with URI images,,https://github.com/xamarin/Xamarin.Forms/issues/6653
+[Bug] Editor placeholder using Visual Material renders incorrectly,,https://github.com/xamarin/Xamarin.Forms/issues/6647
+[Bug] iOS - ListView cell height,,https://github.com/xamarin/Xamarin.Forms/issues/6638
+[Bug] Icon not correctly centered with text when using FontImageSource,,https://github.com/xamarin/Xamarin.Forms/issues/6632
+"[XForms] If parent and child element have gestures , Then child element gesture only fired. Parent element gesture not fired",,https://github.com/xamarin/Xamarin.Forms/issues/6625
+[Bug] [Android] DeepLinking registration is crashing every time in Android with Custom ROMs,,https://github.com/xamarin/Xamarin.Forms/issues/6622
+Set enabled after delay not working on Android,,https://github.com/xamarin/Xamarin.Forms/issues/6612
+[Bug][Android] Entry's instance count get increases in each and every scroll while adding it in Table View,,https://github.com/xamarin/Xamarin.Forms/issues/6608
+[Bug] Shell - Navigation.PushAsync - Navigation Bar ignored on iOS,,https://github.com/xamarin/Xamarin.Forms/issues/6604
+Xamarin.Forms. Build error,,https://github.com/xamarin/Xamarin.Forms/issues/6598
+UI Test Issue2577 could be automated,,https://github.com/xamarin/Xamarin.Forms/issues/6597
+"[Android, CollectionView] After changing the ItemSizingStrategy to MeasureFirstItem, the images inside have a wrong vertical offset.",,https://github.com/xamarin/Xamarin.Forms/issues/6594
+Android Crash - ObjectDisposedException Rendering Shadow with FramerRenderer,,https://github.com/xamarin/Xamarin.Forms/issues/6587
+"[Bug, iOS] Shell current tab action not update ""Shell.CurrentState.Location""",,https://github.com/xamarin/Xamarin.Forms/issues/6581
+[Bug] Material Entry TextColor does not update correctly,,https://github.com/xamarin/Xamarin.Forms/issues/6571
+StyleSheet is not working in TableView,,https://github.com/xamarin/Xamarin.Forms/issues/6563
+[Bug] XAML compilation faills with compiled bindings on UWP,,https://github.com/xamarin/Xamarin.Forms/issues/6547
+FlowDirection doesn't work with SearchBar,,https://github.com/xamarin/Xamarin.Forms/issues/6538
+UWP IconImageSource from netstandard 2.0,,https://github.com/xamarin/Xamarin.Forms/issues/6534
+[Bug] Slider ThumbImageSource: Binding not working for Glyph,,https://github.com/xamarin/Xamarin.Forms/issues/6532
+[Bug] TitleView behavior inconsistent between Android and iOS,,https://github.com/xamarin/Xamarin.Forms/issues/6522
+[Bug] TapGestureRecognizer on iOS with Material Visual,,https://github.com/xamarin/Xamarin.Forms/issues/6521
+[Bug] Greylisted API's ,,https://github.com/xamarin/Xamarin.Forms/issues/6509
+[Bug] Update results in SearchHandler crashes on real iOS device,,https://github.com/xamarin/Xamarin.Forms/issues/6505
+[Bug] SearchHandler.ItemsSource does not listen to INotifyCollectionChanged.CollectionChanged event,,https://github.com/xamarin/Xamarin.Forms/issues/6500
+"[Material,Frame] Clipping kills the shadow",,https://github.com/xamarin/Xamarin.Forms/issues/6494
+[Bug] Mouse-over effect does not deactivate after tap in WPF,,https://github.com/xamarin/Xamarin.Forms/issues/6490
+[Bug] Shell TabBarIsVisible Ignored,,https://github.com/xamarin/Xamarin.Forms/issues/6485
+[Bug] NRE triggered by iOS NavigationRenderer,,https://github.com/xamarin/Xamarin.Forms/issues/6480
+[Bug] NRE in iOS NavigationRenderer.CreateViewControllerForPage(),,https://github.com/xamarin/Xamarin.Forms/issues/6479
+[Bug]  Control with DataTemplate can only be added to a page once,,https://github.com/xamarin/Xamarin.Forms/issues/6476
+[Bug] [WPF] Grid + ListView -> first row height not correct,,https://github.com/xamarin/Xamarin.Forms/issues/6436
+[Bug] Xamarin.Forms UWP Entry CursorPosition and SelectionLength on Focused,,https://github.com/xamarin/Xamarin.Forms/issues/6414
+[Bug] Shell Flyout FlyoutItem Title Text Vanishes On Scroll [Android],,https://github.com/xamarin/Xamarin.Forms/issues/6410
+[Bug] [iOS] Button inside a ScrollView does not work when keyboard is up.,,https://github.com/xamarin/Xamarin.Forms/issues/6409
+[Bug] [WPF] BoxView not correctly restored,,https://github.com/xamarin/Xamarin.Forms/issues/6408
+[Bug] Xamari.Forms.Maps Custom Pins are null if they are data bound,,https://github.com/xamarin/Xamarin.Forms/issues/6393
+[Bug] Device.StartTimer documentation - contradiction,,https://github.com/xamarin/Xamarin.Forms/issues/6378
+[Bug] Material Activity Indicator has unusual large size on iOS,,https://github.com/xamarin/Xamarin.Forms/issues/6374
+[Bug] [iOS] Shell Displays TabBar when only one ShellContent Present,,https://github.com/xamarin/Xamarin.Forms/issues/6373
+[Bug] Listview - Label  rendering Bindings Layout options,,https://github.com/xamarin/Xamarin.Forms/issues/6370
+[Bug] [Forms][iOS] Vector in ToolbarItem too big,,https://github.com/xamarin/Xamarin.Forms/issues/6366
+"[Bug] Disabled entry field shows dotted border on iOS with Visual=""Material"" applied",,https://github.com/xamarin/Xamarin.Forms/issues/6365
+[Bug] Xamarin.Forms 3.6 and Xamarin.Forms.Visual.Material 3.6 failed with exception when resources are defined in Android class library,,https://github.com/xamarin/Xamarin.Forms/issues/6343
+[Bug] Flyout Header is taking too much space than its content on iOS,,https://github.com/xamarin/Xamarin.Forms/issues/6295
+[Bug] [UWP][Android] Grid.WidthRequest=0 ignored when changed during runtime,,https://github.com/xamarin/Xamarin.Forms/issues/6287
+[Bug] ContentPage.ControlTemplate not working in Xamarin WPF ,,https://github.com/xamarin/Xamarin.Forms/issues/6264
+[Bug] [Android] TabbedPage overrides Entry values when more than 4 Pages are added,,https://github.com/xamarin/Xamarin.Forms/issues/6259
+[Bug] Tap event not firing inside scrollview,,https://github.com/xamarin/Xamarin.Forms/issues/6257
+[UWP] Active child elements gets focused after disabling its root parent element,,https://github.com/xamarin/Xamarin.Forms/issues/6254
+[Bug] When putting multiple ShellContent in Tab in FlyoutItem in Shell isn't shown correctly on iOS,,https://github.com/xamarin/Xamarin.Forms/issues/6253
+[Bug] NullReference Exception: Grid.MeasureGrid (Android),,https://github.com/xamarin/Xamarin.Forms/issues/6247
+ListView items don't show when NSTableView.SelectionDidChange handler added,,https://github.com/xamarin/Xamarin.Forms/issues/6237
+Listview itemtapped not working if there is any button or any event control inside in android,,https://github.com/xamarin/Xamarin.Forms/issues/6214
+[Bug] [iOS] Custom view not showing when changing from invisible to visible,,https://github.com/xamarin/Xamarin.Forms/issues/6205
+[Bug] iPad - Entry: Keyboard.Telephone & Keyboard.Numeric display standard keyboard instead of phone/numeric keyboards,,https://github.com/xamarin/Xamarin.Forms/issues/6202
+[Bug] Updating the value of element in a task on secondary window causes a UWP application crash.,,https://github.com/xamarin/Xamarin.Forms/issues/6189
+"[Bug] Visual Material,  does not fill the fields with the right indexes",,https://github.com/xamarin/Xamarin.Forms/issues/6188
+Visual Material Entry underline color should reference PlaceholderColor,,https://github.com/xamarin/Xamarin.Forms/issues/6187
+Renaming App.xaml causes various weird runtime errors,,https://github.com/xamarin/Xamarin.Forms/issues/6156
+"[WPF] WPF Symbol Icons missing on Windows 7, 8.1",,https://github.com/xamarin/Xamarin.Forms/issues/6150
+[Bug] CollectionView ScrollTo sometimes miss the right position,,https://github.com/xamarin/Xamarin.Forms/issues/6125
+"[Bug] CollectionView Layout issues for RowDefinition Height=""Auto""",,https://github.com/xamarin/Xamarin.Forms/issues/6124
+UWP Missing back button after PushModalAsync,,https://github.com/xamarin/Xamarin.Forms/issues/6107
+Lisview iOS unable to scroll down to last item,,https://github.com/xamarin/Xamarin.Forms/issues/6075
+[Bug] ListView does not show Group labels when list is loaded in async method,,https://github.com/xamarin/Xamarin.Forms/issues/6064
+[Bug] CollectionView ScrollTo animation doesn't display elements,,https://github.com/xamarin/Xamarin.Forms/issues/6059
+Label LineHeight does not render the same on iOS and Android,,https://github.com/xamarin/Xamarin.Forms/issues/6046
+[Bug] Customized Map Pin Sample UWP will display same info window for all tapped pins,,https://github.com/xamarin/Xamarin.Forms/issues/6039
+UWP BoxView doesn't respect WidthRequest,,https://github.com/xamarin/Xamarin.Forms/issues/6038
+[Bug] Stepper incorrectly positions inside a Grid,,https://github.com/xamarin/Xamarin.Forms/issues/6034
+Previewer does not work with d:BindableLayout.ItemsSource,,https://github.com/xamarin/Xamarin.Forms/issues/6027
+Renderer not found exception occurs on Version 3.6.0,,https://github.com/xamarin/Xamarin.Forms/issues/6019
+Items are disappearing in the SfListView (Horizontal orientation only) while perform fling to scrolling After updating the xamarin forms version as higher than 3.0 in xamarin forms android platform,,https://github.com/xamarin/Xamarin.Forms/issues/5992
+[Bug] Not able to apply CSS styling to Span control,,https://github.com/xamarin/Xamarin.Forms/issues/5979
+Xaml Parser throws when encountering primitives,,https://github.com/xamarin/Xamarin.Forms/issues/5978
+[GTK] Xamarin doesn't free memory,,https://github.com/xamarin/Xamarin.Forms/issues/5977
+"IsGestureEnabled=""False"" disables side menu completely on Android [Bug] ",,https://github.com/xamarin/Xamarin.Forms/issues/5973
+[Bug] MasterDetail in iOS in rtl Mode in Xamarin Froms,,https://github.com/xamarin/Xamarin.Forms/issues/5969
+[Bug] MaterialButtonRenderer with the CornerRadius property in iOS,,https://github.com/xamarin/Xamarin.Forms/issues/5965
+"[Android] Xamarin Forms WebView's Navigated callback returns ""Failure"" on first install / initial navigation to page containing CSS font-face declarations with WOFF, WOFF2, or TTF references",,https://github.com/xamarin/Xamarin.Forms/issues/5962
+[Bug] FlexLayout does not shrink when last row of children are hidden,,https://github.com/xamarin/Xamarin.Forms/issues/5959
+[Bug] Inconsistent Xamarin Forms frame background color,,https://github.com/xamarin/Xamarin.Forms/issues/5950
+Xaml Parser/Compiler does not identify invalid Xaml,,https://github.com/xamarin/Xamarin.Forms/issues/5947
+[Bug] Shell treats Show/Hide Flyout Differently from TabBar and NavBar,,https://github.com/xamarin/Xamarin.Forms/issues/5940
+[Bug] MasterBehavior.SplitOnLandscape cause Master/menu button didn't display,,https://github.com/xamarin/Xamarin.Forms/issues/5937
+[Bug] UWP app crash when starting in airplane mode with a map control,,https://github.com/xamarin/Xamarin.Forms/issues/5929
+[Bug] Data binding an array item of type enum is incorrect,,https://github.com/xamarin/Xamarin.Forms/issues/5919
+[Bug] iOS Adding item to the ListView while IsRefreshing causes the items to not fully show,,https://github.com/xamarin/Xamarin.Forms/issues/5918
+[Bug] `IsClippedToBounds` doesn't update clip rectangle when maximizing WPF window,,https://github.com/xamarin/Xamarin.Forms/issues/5910
+[Bug] Conflict with SkiaSharp Library,,https://github.com/xamarin/Xamarin.Forms/issues/5901
+[Bug] Cannot able to restrict the horizontal bouncing in Xamarin.Forms.iOS ,,https://github.com/xamarin/Xamarin.Forms/issues/5897
+[macOS] Control with VerticalOption=Start is sticked to bottom,,https://github.com/xamarin/Xamarin.Forms/issues/5890
+Xamarin listview when loaded inside secondary view of SfNavigationDrawer doesn't display in view completely,,https://github.com/xamarin/Xamarin.Forms/issues/5889
+[Bug]  Tab index not resetting on iPAD,,https://github.com/xamarin/Xamarin.Forms/issues/5879
+[README] Add more information about getting UI tests running,,https://github.com/xamarin/Xamarin.Forms/issues/5877
+VisualElement.Unfocus does not work on WPF,,https://github.com/xamarin/Xamarin.Forms/issues/5868
+"[Android] readonly entry focus, select text not working",,https://github.com/xamarin/Xamarin.Forms/issues/5843
+[UWP] keyboard hide focused entry,,https://github.com/xamarin/Xamarin.Forms/issues/5840
+[Enhancement] EntryCellTableViewCell should be public,,https://github.com/xamarin/Xamarin.Forms/issues/5830
+Gesture recognizers attached to spans don't work in landscape mode.,,https://github.com/xamarin/Xamarin.Forms/issues/5824
+No selection feedback for Shell MenuItems,,https://github.com/xamarin/Xamarin.Forms/issues/5816
+Update instructions for building Xamarin.Forms,,https://github.com/xamarin/Xamarin.Forms/issues/5815
+MainActivity is getting created twice causing app crashing in navigation,,https://github.com/xamarin/Xamarin.Forms/issues/5813
+[Visual] [iOS] Material entry text caret miss aligned,,https://github.com/xamarin/Xamarin.Forms/issues/5807
+Cannot drag more than one widget onto a RelativeLayout in Xamarin Android designer.,,https://github.com/xamarin/Xamarin.Forms/issues/5805
+[Feedback] Xamarin DatePicker Min/Max Range error,,https://github.com/xamarin/Xamarin.Forms/issues/5784
+[Shell] SearchHandler not showing results when using data binding without sub-classing,,https://github.com/xamarin/Xamarin.Forms/issues/5783
+[Enhancement] Expand data binding for Map control,,https://github.com/xamarin/Xamarin.Forms/issues/5773
+"[iOS,Visual]The ContentView is misaligned on iOS if Visual=""Material""",,https://github.com/xamarin/Xamarin.Forms/issues/5769
+AbsoluteLayout does not take the size of its children as RelativeLayout takes,,https://github.com/xamarin/Xamarin.Forms/issues/5767
+Using multiple ToolbarItem or MenuItem instances disables compiled bindings,,https://github.com/xamarin/Xamarin.Forms/issues/5762
+Slider Control line in the middle not visible or partially visible when the Slider is rotated between 30 deg to 80 deg,,https://github.com/xamarin/Xamarin.Forms/issues/5750
+Disable horizontal scroll in the custom listview in android,,https://github.com/xamarin/Xamarin.Forms/issues/5749
+Item height of the listview is not auto size when load image with aspect fill,,https://github.com/xamarin/Xamarin.Forms/issues/5748
+XF 3.6 Material Setting in App.Xaml requires default value,,https://github.com/xamarin/Xamarin.Forms/issues/5733
+[Material] VisualStateManager does not work properly on the Entry TextColor property,,https://github.com/xamarin/Xamarin.Forms/issues/5732
+DatePicker does not parse date correctly,,https://github.com/xamarin/Xamarin.Forms/issues/5729
+VisualStateManager not applying TextColor on Entry with Visual/Material applied,,https://github.com/xamarin/Xamarin.Forms/issues/5714
+Shouldn't be able to reference sub-namespaces with Xaml,,https://github.com/xamarin/Xamarin.Forms/issues/5704
+Android EditText Ellipsize not working,,https://github.com/xamarin/Xamarin.Forms/issues/5703
+Animation tasks do not complete when Animations are removed in Accessibility Settings.,,https://github.com/xamarin/Xamarin.Forms/issues/5686
+WPF: ViewCell content width does not update on ListView width change,,https://github.com/xamarin/Xamarin.Forms/issues/5682
+[Enhancement] Add method to force value coercion,,https://github.com/xamarin/Xamarin.Forms/issues/5680
+Crash when calling ChangeCanExecute() from non-UI thread,,https://github.com/xamarin/Xamarin.Forms/issues/5679
+Clipping issue in Xamarin.Forms.Android platforms (version 3.4 and above.),,https://github.com/xamarin/Xamarin.Forms/issues/5663
+[Android] ControlGallery crashes running UI test 1588,,https://github.com/xamarin/Xamarin.Forms/issues/5654
+ListView  item hidden holds space,,https://github.com/xamarin/Xamarin.Forms/issues/5648
+Xamarin.Forms no longer work on UWP ARM64,,https://github.com/xamarin/Xamarin.Forms/issues/5640
+"[Feedback] Xamarin.Forms Xaml Previewer error for Android, ok for iOS",,https://github.com/xamarin/Xamarin.Forms/issues/5636
+ImageSource.FromFile strange work,,https://github.com/xamarin/Xamarin.Forms/issues/5631
+[Xaml] Missing platform/idiom value in OnPlatform/OnIdiom causes ArgumentNullException when type is x:BindingBase,,https://github.com/xamarin/Xamarin.Forms/issues/5629
+Frame.CornerRadius is not respected by iOS when Editor is inside,,https://github.com/xamarin/Xamarin.Forms/issues/5626
+[iOS] Webview.CanGoBack alway return false,,https://github.com/xamarin/Xamarin.Forms/issues/5621
+`Focus` is not consistent on all platforms,,https://github.com/xamarin/Xamarin.Forms/issues/5616
+Android crash from FrameRenderer caused by VisualElementPackager,,https://github.com/xamarin/Xamarin.Forms/issues/5614
+[Enhancement] Make Device.Info visible for IntelliSense,,https://github.com/xamarin/Xamarin.Forms/issues/5606
+[iOS] Previous page's toolbar item being grayed out when canceling swipe to previous page then navigating back.,,https://github.com/xamarin/Xamarin.Forms/issues/5596
+Button Pressed Animation not shown in iOS,,https://github.com/xamarin/Xamarin.Forms/issues/5595
+CollectionView XAML API suggestion,,https://github.com/xamarin/Xamarin.Forms/issues/5577
+"In macOS Mojave, navigation bar title text is not centered.",,https://github.com/xamarin/Xamarin.Forms/issues/5575
+[iOS] Navigation bar back button only shows arrow without text on iOS 10,,https://github.com/xamarin/Xamarin.Forms/issues/5574
+Entry keyboard changed to default when setting entry text from behavior.,,https://github.com/xamarin/Xamarin.Forms/issues/5561
+[Android] Disposed EntryCell throws ObjectDisposed exception after updating an object that the EntryCell was previously bound to,,https://github.com/xamarin/Xamarin.Forms/issues/5560
+Font glyphs don't consistently work,,https://github.com/xamarin/Xamarin.Forms/issues/5543
+iOS ListView based navigation can crash by updating disposed cells,,https://github.com/xamarin/Xamarin.Forms/issues/5542
+"ListView Item Selected changing, always looks up the index",,https://github.com/xamarin/Xamarin.Forms/issues/5541
+Letting the previewer initially process a xaml page with cross platform embedded resources in a bad state ,,https://github.com/xamarin/Xamarin.Forms/issues/5540
+FlexLayout Basis set via CSS doesn't measure/remeasure when content is lazy loaded,,https://github.com/xamarin/Xamarin.Forms/issues/5534
+Binding IsVisible property on a Frame-element gives NULLReferenceException in IOS,,https://github.com/xamarin/Xamarin.Forms/issues/5519
+[Material] The underline on Editor is not exactly right when a specific height is set,,https://github.com/xamarin/Xamarin.Forms/issues/5480
+[Material] Entry/Editor in certain cases will have an incorrect width when prefilled with text,,https://github.com/xamarin/Xamarin.Forms/issues/5479
+[Material] Activity Indicators currently don't render correctly for API < 21,,https://github.com/xamarin/Xamarin.Forms/issues/5478
+[Material] Currently cannot set the background on Material Steppers,,https://github.com/xamarin/Xamarin.Forms/issues/5477
+Nullable DateTime with value is null in a constructor,,https://github.com/xamarin/Xamarin.Forms/issues/5469
+[UWP] Issue2927 failing and Tapped is passing the wrong value in for Item,,https://github.com/xamarin/Xamarin.Forms/issues/5465
+Not able to Bind a list of items within a TableView's TableSection,,https://github.com/xamarin/Xamarin.Forms/issues/5459
+[iOS] IsEnabled=false is indiscernible from IsEnabled=true on DatePicker and TimePicker,,https://github.com/xamarin/Xamarin.Forms/issues/5454
+Android/UWP ListView Memory Leak,,https://github.com/xamarin/Xamarin.Forms/issues/5451
+GTK: MasterDetailPage Master page black section when navigation in detail,,https://github.com/xamarin/Xamarin.Forms/issues/5447
+"[iOS, Android] Unintended space underneath nested GridLayout in ListView with grouping",,https://github.com/xamarin/Xamarin.Forms/issues/5440
+Memory leak when UWP toolbar has too many items to show in one horizontal bar,,https://github.com/xamarin/Xamarin.Forms/issues/5438
+[iOS] ViewCell ForceUpdateSize causing flickering on first click,,https://github.com/xamarin/Xamarin.Forms/issues/5431
+Trigger Does Not Reset to Binding - Xamarin.Forms,,https://github.com/xamarin/Xamarin.Forms/issues/5422
+[MacOs] TranslationY is ignored on start and uses inverse coordinate line,,https://github.com/xamarin/Xamarin.Forms/issues/5393
+Android + Visual + Focus is wonky,,https://github.com/xamarin/Xamarin.Forms/issues/5366
+[iOS] TextColor on Span's Implicit Style affects SearchBar PlaceholderColor,,https://github.com/xamarin/Xamarin.Forms/issues/5355
+[MacOs] Menu not shown,,https://github.com/xamarin/Xamarin.Forms/issues/5344
+Effect that changes Label's background does not work when the FastRenderers flag is set,,https://github.com/xamarin/Xamarin.Forms/issues/5336
+[Android] SearchBar doesn't show inside a StackLayout on API24,,https://github.com/xamarin/Xamarin.Forms/issues/5328
+iOS crashes when there is a Label with no Text and a TextDecorations,,https://github.com/xamarin/Xamarin.Forms/issues/5326
+Different behaviour is reproduced when changing the Opacity for normal Button and Custom Button,,https://github.com/xamarin/Xamarin.Forms/issues/5323
+The `rate` parameter in IAnimatable.Animate() method doesn't take effect,,https://github.com/xamarin/Xamarin.Forms/issues/5322
+Inconsistent behavior of StackLayout and ScrollView on iOS,,https://github.com/xamarin/Xamarin.Forms/issues/5321
+WebView creating black right side border that increases in size,,https://github.com/xamarin/Xamarin.Forms/issues/5313
+Flex Layout not wrapped text correctly for Label,,https://github.com/xamarin/Xamarin.Forms/issues/5311
+TabbedPage: tab pages do not disappear when IsVisible=False,,https://github.com/xamarin/Xamarin.Forms/issues/5291
+LineBreakMode.HeadTruncation and MiddleTruncation both do tail truncation,,https://github.com/xamarin/Xamarin.Forms/issues/5284
+[Enhancement] Shell should support login pattern more easily,,https://github.com/xamarin/Xamarin.Forms/issues/5272
+"[Enhancement]Make Route, RouteScheme and RouteHost bindable on Shell",,https://github.com/xamarin/Xamarin.Forms/issues/5266
+"Xamarin Forms Android, return to previous App.MainPage ",,https://github.com/xamarin/Xamarin.Forms/issues/5236
+Keyboard hides when changing focus from one entry to next entry,,https://github.com/xamarin/Xamarin.Forms/issues/5228
+ListView Items MacOS Rendered in increasingly disparate heights,,https://github.com/xamarin/Xamarin.Forms/issues/5217
+[Feedback] Device.OpenUri XF WPF,,https://github.com/xamarin/Xamarin.Forms/issues/5203
+TableView animating incorrectly when updating TableSection/TextCell,,https://github.com/xamarin/Xamarin.Forms/issues/5198
+TableSection not reacting to changes when using default TableView.Root,,https://github.com/xamarin/Xamarin.Forms/issues/5197
+[ios] listview cell with image and tapgesturerecognizer erroneously call itemselected instead of recognizer ,,https://github.com/xamarin/Xamarin.Forms/issues/5196
+[Enhancement] Change NavigationPage back button color on Android,,https://github.com/xamarin/Xamarin.Forms/issues/5177
+WebView losing selection on iOS on button tap,,https://github.com/xamarin/Xamarin.Forms/issues/5175
+[Core] Incorrect increments in Stepper,,https://github.com/xamarin/Xamarin.Forms/issues/5168
+Xamarin.Forms Android application crash on release with linking,,https://github.com/xamarin/Xamarin.Forms/issues/5157
+"AutomationProperties.Name, AutomationProperties.HelpText on Button not read by Android TalkBack",,https://github.com/xamarin/Xamarin.Forms/issues/5150
+[Feedback] Xamarin Forms Page.DisplayActionSheet Doesn't Resize on UWP,,https://github.com/xamarin/Xamarin.Forms/issues/5134
+How to use CompressedLayout for Frame,,https://github.com/xamarin/Xamarin.Forms/issues/5127
+Xamarin.forms Mac - image inside relative layout does not display,,https://github.com/xamarin/Xamarin.Forms/issues/5114
+Frame with a shadow on iOS adds a shadow to the contents,,https://github.com/xamarin/Xamarin.Forms/issues/5108
+[Android Material] Ripple effect on material entry,,https://github.com/xamarin/Xamarin.Forms/issues/5103
+"Event handler lookup inconsistency of XamlC, XamlLoader and WPF",,https://github.com/xamarin/Xamarin.Forms/issues/5100
+iOS - Scrollbar - Too far Scrollable,,https://github.com/xamarin/Xamarin.Forms/issues/5098
+32Bit x86 XF UWP RAM limit 1GB,,https://github.com/xamarin/Xamarin.Forms/issues/5091
+ListView with Label.FormattedText in DataTemplate causes performance issues,,https://github.com/xamarin/Xamarin.Forms/issues/5087
+ListView.BeginRefresh does more than indicated,,https://github.com/xamarin/Xamarin.Forms/issues/5083
+Behavior of Page with both BackgroundColor and BackgroundImage set,,https://github.com/xamarin/Xamarin.Forms/issues/5067
+[Android] Slider Value property does not work correctly with a specific min/max value,,https://github.com/xamarin/Xamarin.Forms/issues/5058
+iOS Selection handling not matching Android for CollectionView,,https://github.com/xamarin/Xamarin.Forms/issues/5050
+[Spec] PaymentButton,,https://github.com/xamarin/Xamarin.Forms/issues/5045
+Xamarin.Forms 4.0 Pre2 CollectionView.EmptyView cannot arrange content in center.,,https://github.com/xamarin/Xamarin.Forms/issues/5041
+[Feedback] Xamarin Forms ContentPresenter doesn't display correctly in Right-to-Left after rotation,,https://github.com/xamarin/Xamarin.Forms/issues/5025
+[Feedback] xamarin OpenGLView gesturerecognizers events doesn't fire,,https://github.com/xamarin/Xamarin.Forms/issues/5024
+Text entry focus throws exception with custom NSWindow Delegate,,https://github.com/xamarin/Xamarin.Forms/issues/5004
+[iOS] OnAppearing not firing when returning to app ,,https://github.com/xamarin/Xamarin.Forms/issues/4986
+[ImageButton] ImageButton's VisualState inside a ScrollView doesn't work properly,,https://github.com/xamarin/Xamarin.Forms/issues/4981
+DynamicResources set in different conditions of DataTrigger correctly applies only value set in first DataTrigger. ,,https://github.com/xamarin/Xamarin.Forms/issues/4978
+HorizontalTextAlignment doens't work with Entry when setting FlowDirection Right To Left On Ios,,https://github.com/xamarin/Xamarin.Forms/issues/4976
+"""Animators may only be run on Looper threads"" when raising ChangeCanExecute on Button command",,https://github.com/xamarin/Xamarin.Forms/issues/4964
+Button inside ScrollView gets no visual click effect on iOS,,https://github.com/xamarin/Xamarin.Forms/issues/4960
+[FlexLayout] Labels with word wrap do not seem to auto calculate height correctly,,https://github.com/xamarin/Xamarin.Forms/issues/4950
+Tests in Issue3624 fails,,https://github.com/xamarin/Xamarin.Forms/issues/4946
+[UWP] Wrong exception thrown when NavigationPage is missing root page.,,https://github.com/xamarin/Xamarin.Forms/issues/4941
+[UWP] NavigationPage TitleIcon not displayed,,https://github.com/xamarin/Xamarin.Forms/issues/4939
+[UWP] ListView not populating in UI test 1567 ,,https://github.com/xamarin/Xamarin.Forms/issues/4937
+"[F100] Add ""Target"" support to VisualStateManager",,https://github.com/xamarin/Xamarin.Forms/issues/4924
+Image button on UWP not going back to normal state,,https://github.com/xamarin/Xamarin.Forms/issues/4910
+[WPF] Slider converts Value to minimum when minimum is greater than zero,,https://github.com/xamarin/Xamarin.Forms/issues/4902
+[UWP] Tapped does not fire on ViewCell,,https://github.com/xamarin/Xamarin.Forms/issues/4901
+Image Rotation/Translation/Pan not working correctly on UWP,,https://github.com/xamarin/Xamarin.Forms/issues/4898
+Xamarin forms entry focused event,,https://github.com/xamarin/Xamarin.Forms/issues/4897
+Run time Exception while removing the my custom control Element from main.xaml in Xamarin MAC platform,,https://github.com/xamarin/Xamarin.Forms/issues/4896
+Style Classes don't play with Resource Keys,,https://github.com/xamarin/Xamarin.Forms/issues/4894
+[UWP] Action Sheet positioned incorrectly after rotation,,https://github.com/xamarin/Xamarin.Forms/issues/4892
+[WPF] Grouped ListView throws Index Out of Range exception when clicking outside of list,,https://github.com/xamarin/Xamarin.Forms/issues/4890
+Unable to enter text into SearchBar placed inside ViewCell,,https://github.com/xamarin/Xamarin.Forms/issues/4882
+Text not shown as it should Xamarin.Forms.GTK,,https://github.com/xamarin/Xamarin.Forms/issues/4880
+[UWP] Height calculations for content within a layout not calculation correctly for wrapping content like flex and text,,https://github.com/xamarin/Xamarin.Forms/issues/4875
+[macOS] Visual glitch when exiting the full screen with ScrollViewer,,https://github.com/xamarin/Xamarin.Forms/issues/4854
+Border issue and inconsistency,,https://github.com/xamarin/Xamarin.Forms/issues/4853
+OnOptionsItemSelected() not called after a configuration/orientation change.,,https://github.com/xamarin/Xamarin.Forms/issues/4827
+"Text of UITextView is not displayed in the view, when default text color of the Editor is converted to UIColor and set to UITextColor in Xamarin Forms (iOS)",,https://github.com/xamarin/Xamarin.Forms/issues/4816
+WPF WebView returns WebNavigationResult.Success in Navigated event for invalid URL,,https://github.com/xamarin/Xamarin.Forms/issues/4787
+[Android] ScrollView Performance is worse when page is not the root,,https://github.com/xamarin/Xamarin.Forms/issues/4778
+[Shell] Cannot prevent flyout menu list from scrolling.,,https://github.com/xamarin/Xamarin.Forms/issues/4765
+"[Shell] How to use custom renderers for flyout, navigation bar, tab bar, and top tabs?",,https://github.com/xamarin/Xamarin.Forms/issues/4764
+[UWP] SetNativeControl 'Value does not fall within the expected range',,https://github.com/xamarin/Xamarin.Forms/issues/4756
+[Shell] Control loses focus after appearing,,https://github.com/xamarin/Xamarin.Forms/issues/4755
+"WebView on Mac not firing ""Navigated"" event with status ""Failure"" in case there's no internet connection",,https://github.com/xamarin/Xamarin.Forms/issues/4753
+forms in UWP show empty button for DisplayActionSheet,,https://github.com/xamarin/Xamarin.Forms/issues/4744
+Metadata missing for Intellisense for constructor parameters,,https://github.com/xamarin/Xamarin.Forms/issues/4738
+Xamarin forms (3.3.0.912540) on Android - Custom PickerRenderer Control.Click stops working on first user's click,,https://github.com/xamarin/Xamarin.Forms/issues/4732
+[Android] Text selection pane broken on Android Lollipop with RTL support enabled,,https://github.com/xamarin/Xamarin.Forms/issues/4722
+XamarinForms GestureRecognizer issue,,https://github.com/xamarin/Xamarin.Forms/issues/4714
+ImageCell line Separator not Rendering properly on iOS ListView,,https://github.com/xamarin/Xamarin.Forms/issues/4711
+Picker and DatePicker Margin issue on Iphone X when reset navigation Stack,,https://github.com/xamarin/Xamarin.Forms/issues/4710
+[Android]App Crashes randomly with NavigationPageRenderer.UpdateToolbar error,,https://github.com/xamarin/Xamarin.Forms/issues/4708
+Scrolling not OK for Editor with Autosize=TextChanges inside scrollview inside grid (iOS),,https://github.com/xamarin/Xamarin.Forms/issues/4695
+[Enhancement] SecurityException from Forms.Maps with explicit target SDK,,https://github.com/xamarin/Xamarin.Forms/issues/4691
+GTK ListView.ItemAppearing triggers for every item on the list even when they are not visible,,https://github.com/xamarin/Xamarin.Forms/issues/4682
+"[Feedback] HorizontalTextAlignment=""Center"" looses alignment when TabbedPage background",,https://github.com/xamarin/Xamarin.Forms/issues/4679
+MasterDetailPage Swipe animation intercepts touch effects meant for children of DetailPage in iOS,,https://github.com/xamarin/Xamarin.Forms/issues/4675
+Tab through list of entries doesnt work,,https://github.com/xamarin/Xamarin.Forms/issues/4673
+GTK: label doesn't align to the center properly (VerticalOptions and HorizontalOptions XAML properties),,https://github.com/xamarin/Xamarin.Forms/issues/4655
+Doc for adding Mac project appears to be out of date,,https://github.com/xamarin/Xamarin.Forms/issues/4638
+Button Background Color is Sometimes Transparent When Button is Contained Within StackLayout Element,,https://github.com/xamarin/Xamarin.Forms/issues/4635
+Write unit test to demonstrate race condition happening with Dependency service,,https://github.com/xamarin/Xamarin.Forms/issues/4630
+MasterDetail Page IsPresented and MasterBehaviour not behaving as Expected.,,https://github.com/xamarin/Xamarin.Forms/issues/4623
+[iOS] OnResume is being called twice when the application is foregrounded,,https://github.com/xamarin/Xamarin.Forms/issues/4608
+[Android] ImageButton on android is not clipping view to corner radius,,https://github.com/xamarin/Xamarin.Forms/issues/4606
+"[iOS] V3.0 Unexpected left margin inside the ListView control, after the control is moved outside of the screen boundaries and back (iPhone X devices in Portrait mode only)",,https://github.com/xamarin/Xamarin.Forms/issues/4599
+[Android] ViewCell Enabled not updated with IsEnabled Binding,,https://github.com/xamarin/Xamarin.Forms/issues/4590
+Grid height ignore change after it was set to 0 if it is in the listview.,,https://github.com/xamarin/Xamarin.Forms/issues/4589
+Scary sounding Warning when compiling xamarin forms for android (scenario test day),,https://github.com/xamarin/Xamarin.Forms/issues/4585
+System.NullReferenceException: Object reference not set to an instance of an object,,https://github.com/xamarin/Xamarin.Forms/issues/4581
+Platform Not Supported exception on Windows 7 (Windows.Web.UI.WebViewControlSettings),,https://github.com/xamarin/Xamarin.Forms/issues/4568
+Android page with only a label says double tap to activate after just tapping the page,,https://github.com/xamarin/Xamarin.Forms/issues/4556
+Xamarin.Forms Entry field that prevents soft keyboard from showing up on Focus,,https://github.com/xamarin/Xamarin.Forms/issues/4555
+[Feedback] Xamarin SwipeGesture recording additional swipes.,,https://github.com/xamarin/Xamarin.Forms/issues/4554
+[Feedback] BindingError (Type Binding not found in xmlns),,https://github.com/xamarin/Xamarin.Forms/issues/4553
+"[Feedback, UWP] Swipe Gesture Recognizer breaks scrolling on ScrollView",,https://github.com/xamarin/Xamarin.Forms/issues/4552
+"[Feedback] Duplicate definition of a class even though the ""duplicate"" classes are for separate frameworks",,https://github.com/xamarin/Xamarin.Forms/issues/4546
+[UWP] Webview not scrolling inside of Frame,,https://github.com/xamarin/Xamarin.Forms/issues/4540
+Weird scrolling in Master Details after changing details,,https://github.com/xamarin/Xamarin.Forms/issues/4533
+NavigationPage.SetHasNavigationBar bar is broken for TabbedPage(MasterDetailPage too?) on UWP,,https://github.com/xamarin/Xamarin.Forms/issues/4531
+Binding compiler fails with indexers on Arrays,,https://github.com/xamarin/Xamarin.Forms/issues/4524
+Binding not working in titleview using xamarin.forms ios but works in android,,https://github.com/xamarin/Xamarin.Forms/issues/4520
+"[iOS] ToolbarItems in tabbed page are not shown for pages navigated to from the ""more"" overflow ",,https://github.com/xamarin/Xamarin.Forms/issues/4512
+iOS - Icon in Detail of MasterDetail wrong after rotation,,https://github.com/xamarin/Xamarin.Forms/issues/4506
+[F100] Make Label display HTML from a string,,https://github.com/xamarin/Xamarin.Forms/issues/4504
+Xamarin.Forms built from source missing UWP WindowsPage,,https://github.com/xamarin/Xamarin.Forms/issues/4472
+[UWP] BoxView CornerRadius doesn't work,,https://github.com/xamarin/Xamarin.Forms/issues/4459
+"ScrollView IsClippedToBounds=""true"" not rendering on Android with Forms 3.3, 3.4, 3.5, 3.6, 4.0",,https://github.com/xamarin/Xamarin.Forms/issues/4455
+iOS tabbed page shows edit button after screen rotation,,https://github.com/xamarin/Xamarin.Forms/issues/4441
+Future proof API for design time rendering,,https://github.com/xamarin/Xamarin.Forms/issues/4429
+ImageButton missing from the toolbox,,https://github.com/xamarin/Xamarin.Forms/issues/4425
+[Android] StackLayout Height not updated with IsVisible Binding,,https://github.com/xamarin/Xamarin.Forms/issues/4424
+[macOS] DisplayAlert invisible first time (Mojave Dark Mode),,https://github.com/xamarin/Xamarin.Forms/issues/4421
+Timepicker events are not fired for the first time in xamarin.forms verison 3.3. Until version 3.2.0.871581 it was working as expected,,https://github.com/xamarin/Xamarin.Forms/issues/4419
+IsVisiblity of Entry is not working inside the Custom Renderer of Grid,,https://github.com/xamarin/Xamarin.Forms/issues/4418
+"Enable binding of View Model (BindingContext) methods, just like properties",,https://github.com/xamarin/Xamarin.Forms/issues/4415
+ImageResourceExtension gives an System.PlatformNotSupportedException in UWP release,,https://github.com/xamarin/Xamarin.Forms/issues/4408
+Unable fo use Forms.Init(),,https://github.com/xamarin/Xamarin.Forms/issues/4407
+Keyboard closing for Entry control on every key stroke in iOS,,https://github.com/xamarin/Xamarin.Forms/issues/4397
+"Flexlayout does not work with scrollable like xamarin list, scrolabble v",,https://github.com/xamarin/Xamarin.Forms/issues/4391
+[macOS] Issue2399 Crashes on macOS,,https://github.com/xamarin/Xamarin.Forms/issues/4389
+[macOS] Bugzilla40005 crashes on macOS with an NRE,,https://github.com/xamarin/Xamarin.Forms/issues/4388
+[MacOS] Appearing doesn't fire on MacOs when navigating backwards,,https://github.com/xamarin/Xamarin.Forms/issues/4387
+[Xamarin.Forms] [Android] Picker gets a permanent focus when setting gravity,,https://github.com/xamarin/Xamarin.Forms/issues/4380
+UISearchBar in NavigationPage issue,,https://github.com/xamarin/Xamarin.Forms/issues/4378
+Frame is missing elevation and shadow inside ListView,,https://github.com/xamarin/Xamarin.Forms/issues/4374
+Add down arrow / up arrow to picker on android,,https://github.com/xamarin/Xamarin.Forms/issues/4372
+" Xamarin.Forms Image, Loads on Android, does not on iOS",,https://github.com/xamarin/Xamarin.Forms/issues/4357
+.NET Standard library's PDB has invalid sequence points,,https://github.com/xamarin/Xamarin.Forms/issues/4353
+Rendering issues tabbed page on iOS 12.1 (Demo included),,https://github.com/xamarin/Xamarin.Forms/issues/4347
+embedding a xamarin forms content page,,https://github.com/xamarin/Xamarin.Forms/issues/4340
+"[UWP] Skipping setting ""default values"" for element properties in renderers is problematic",,https://github.com/xamarin/Xamarin.Forms/issues/4312
+[UWP] GroupHeaderBinding displays ShortName instead of Display name,,https://github.com/xamarin/Xamarin.Forms/issues/4306
+TimePicker opens twice on edit time when it's placed inside ListView close to WebView,,https://github.com/xamarin/Xamarin.Forms/issues/4305
+macOS: Switching Detail pages in MasterDetailPage causes app crash,,https://github.com/xamarin/Xamarin.Forms/issues/4300
+[macOS] WebView freezes using CustomRenderer,,https://github.com/xamarin/Xamarin.Forms/issues/4294
+[macOS] WebView can't navigate,,https://github.com/xamarin/Xamarin.Forms/issues/4293
+TitleView doesn't display when specified on NavigationPage itself,,https://github.com/xamarin/Xamarin.Forms/issues/4292
+FlowDirection in iOS 12 Simulator [Screenshots],,https://github.com/xamarin/Xamarin.Forms/issues/4287
+ListView selection done programatically is not reflected in UI Xamarin.Forms.WPF ,,https://github.com/xamarin/Xamarin.Forms/issues/4284
+ImageSource bug,,https://github.com/xamarin/Xamarin.Forms/issues/4283
+[Android] CultureInfo does not update when the user changes language choice while the app is running,,https://github.com/xamarin/Xamarin.Forms/issues/4282
+Errors when inheriting from any class in a local NET Standard library project.,,https://github.com/xamarin/Xamarin.Forms/issues/4280
+[iOS] ListView cell layout broken after inserting new cells,,https://github.com/xamarin/Xamarin.Forms/issues/4278
+[macOS] Transform / Rotate / Scale don't work on Frame,,https://github.com/xamarin/Xamarin.Forms/issues/4277
+[Android] AutomationProperties.IsInAccessibleTree is ignored,,https://github.com/xamarin/Xamarin.Forms/issues/4270
+Xamarin.Forms MacOS: Cannot access a disposed object. Object name: 'FormsNSTextField'.,,https://github.com/xamarin/Xamarin.Forms/issues/4268
+Binding a collection to a Bindable property of CustomView gives null value,,https://github.com/xamarin/Xamarin.Forms/issues/4266
+"The ""IsEnabled = false"" state of the controls doesn't retain its state on page navigation in Xamarin.Forms.WPF",,https://github.com/xamarin/Xamarin.Forms/issues/4259
+iOS Accessibility VoiceOver does not stop on Header element when using the Heading Rotor setting if element is ListView Header.,,https://github.com/xamarin/Xamarin.Forms/issues/4252
+XF 3.3 sets TabbedPage color based on NavigationPage.BarBackgroundColorProperty,,https://github.com/xamarin/Xamarin.Forms/issues/4246
+[Android] IsFocused View test in Entry Gallery shows Entry as focused when it's not,,https://github.com/xamarin/Xamarin.Forms/issues/4240
+Spec: Visual State Manager Improvements,,https://github.com/xamarin/Xamarin.Forms/issues/4232
+Focused and UnFocused event of the Editor is not triggered when Editor’s renderer (EditText) is added as custom renderer in Xamarin Forms Android,,https://github.com/xamarin/Xamarin.Forms/issues/4231
+Using Android webviews with custom schemes fires Navigated event before Navigating ,,https://github.com/xamarin/Xamarin.Forms/issues/4223
+"Hiding Bottom navigation view in android Tabbed page rendering Issue, Viewpages not full covered once bottom navigation hides",,https://github.com/xamarin/Xamarin.Forms/issues/4222
+[XAML] All objects added to an IDictionary must have a Key attribute,,https://github.com/xamarin/Xamarin.Forms/issues/4210
+[A11y] focus issues related to ActivityIndicator,,https://github.com/xamarin/Xamarin.Forms/issues/4204
+Nested FlexLayout's RowReverse Direction does not allocate proper width,,https://github.com/xamarin/Xamarin.Forms/issues/4202
+iOS: System.ObjectDisposedException when ListView bound ObservableCollection is changed,,https://github.com/xamarin/Xamarin.Forms/issues/4186
+ListView iOS - height isn't updated if a child's visibility changed,,https://github.com/xamarin/Xamarin.Forms/issues/4184
+Headless Layouts are causing crashing and graphics glitches in Cells,,https://github.com/xamarin/Xamarin.Forms/issues/4168
+Forms 3.3 + Mac (Regression+Crash) Changing MainPage,,https://github.com/xamarin/Xamarin.Forms/issues/4156
+ListView height calculated wrong after setting new ItemsSource,,https://github.com/xamarin/Xamarin.Forms/issues/4149
+Allow more than one GestureRecognizer on a View,,https://github.com/xamarin/Xamarin.Forms/issues/4145
+Default project creates too long paths,,https://github.com/xamarin/Xamarin.Forms/issues/4140
+[macOS] When back the navigation on ForceUpdateSize Gallery Page -> ViewCell the app crash,,https://github.com/xamarin/Xamarin.Forms/issues/4125
+Forms 3.3: TextDecorations aren't unset by a DataTrigger,,https://github.com/xamarin/Xamarin.Forms/issues/4121
+[WPF] Button transparency does not work in WPF,,https://github.com/xamarin/Xamarin.Forms/issues/4114
+[Android] Searchbar breaks previewer,,https://github.com/xamarin/Xamarin.Forms/issues/4108
+[Android] Talkback reports incorrect number of list items,,https://github.com/xamarin/Xamarin.Forms/issues/4090
+Accessibility on MasterDetailPage in Split Behavior,,https://github.com/xamarin/Xamarin.Forms/issues/4085
+Smooth scrolling is not occurred in Xamarin Forms ListView when scrolling is performed continuously in Android platform,,https://github.com/xamarin/Xamarin.Forms/issues/4082
+DisplayActionSheet auto closes unexpectedly,,https://github.com/xamarin/Xamarin.Forms/issues/4075
+"[iOS] After Cell.ForceUpdateSize(), contained Entry has odd text entry behaviour",,https://github.com/xamarin/Xamarin.Forms/issues/4067
+iOS ViewCell subcontrols use Selected BackgroundColor as their BackgroundColor,,https://github.com/xamarin/Xamarin.Forms/issues/4066
+[Feedback] xamarin.forms imeoptions in xaml not working,,https://github.com/xamarin/Xamarin.Forms/issues/4064
+Bad performance on UWP ListView if ItemsSource is not an ObservableCollection,,https://github.com/xamarin/Xamarin.Forms/issues/4059
+Frame with rounded corners have Visual issues on android,,https://github.com/xamarin/Xamarin.Forms/issues/4056
+Label.FormattedText does not dyanmically change size,,https://github.com/xamarin/Xamarin.Forms/issues/4054
+"RecycleElement, GroupHeaderTemplate and DataTrigger display incorrectly",,https://github.com/xamarin/Xamarin.Forms/issues/4045
+SfListView control breaks due to asynchronous scrolling of ScrollViewRenderer in UWP platform,,https://github.com/xamarin/Xamarin.Forms/issues/4039
+native forms feature cannot use the application.current.resource for style ,,https://github.com/xamarin/Xamarin.Forms/issues/4017
+Re Open - 3465 - ScrollView scroll to top automatically in iOS,,https://github.com/xamarin/Xamarin.Forms/issues/4008
+System.NullReferenceException: in Platform.LayoutRootPage,,https://github.com/xamarin/Xamarin.Forms/issues/3990
+[UWP] Document in the README.md the steps required to run UI Tests,,https://github.com/xamarin/Xamarin.Forms/issues/3984
+[XF] Empty ListView's ItemTemplate,,https://github.com/xamarin/Xamarin.Forms/issues/3980
+[XF] Entry inside Expanded View Cell not working properly,,https://github.com/xamarin/Xamarin.Forms/issues/3964
+Flexlayout flickers when remove child,,https://github.com/xamarin/Xamarin.Forms/issues/3961
+Height in list views updated after the element is shown,,https://github.com/xamarin/Xamarin.Forms/issues/3957
+"Toggled event not raise for Forms Switch. Only native view switch, Toggled event only raised and Forms switch background not mapped to native view switch.",,https://github.com/xamarin/Xamarin.Forms/issues/3956
+[WPF] backbutton on MasterDetailPage leaves toolbar with wrong buttons,,https://github.com/xamarin/Xamarin.Forms/issues/3934
+[iOS] Wrong Page Height when Navigation Bar is Hidden,,https://github.com/xamarin/Xamarin.Forms/issues/3932
+[Feedback] Xamarin Forms 3.2 Android entry cursor jumps back and forth,,https://github.com/xamarin/Xamarin.Forms/issues/3923
+Gradient view issue on Mac OS Android emulator API level 28 (Pie),,https://github.com/xamarin/Xamarin.Forms/issues/3912
+Setting FontAttribute on a Span makes it ignore FontSize from the parent Label,,https://github.com/xamarin/Xamarin.Forms/issues/3901
+Search bar width issue in horizontal stack layout iOS,,https://github.com/xamarin/Xamarin.Forms/issues/3898
+[WPF] Custom theme doens't work,,https://github.com/xamarin/Xamarin.Forms/issues/3892
+[UWP] PopAsync() crashes when navigating back to a page with a ListView with grouping after an item has been removed,,https://github.com/xamarin/Xamarin.Forms/issues/3887
+Picker control doesn't highlight the user selected item on Android,,https://github.com/xamarin/Xamarin.Forms/issues/3885
+Span.GestureRecognizers Command does not call on iOS ,,https://github.com/xamarin/Xamarin.Forms/issues/3883
+HasUnevenRows fires ItemAppearing for invisible screen items when the cell is an Image,,https://github.com/xamarin/Xamarin.Forms/issues/3874
+App level styles go missing after showing XF content via embedding,,https://github.com/xamarin/Xamarin.Forms/issues/3865
+[Shell] Adding ShellContent directly under ShellItem causes XAML editor warning in VS,,https://github.com/xamarin/Xamarin.Forms/issues/3864
+System Access Violation Exception is thrown in Forms.UWP while using ListView,,https://github.com/xamarin/Xamarin.Forms/issues/3858
+[F100] Add support for RelativeSource binding,,https://github.com/xamarin/Xamarin.Forms/issues/3847
+Android InputTransparency With Nested Layouts,,https://github.com/xamarin/Xamarin.Forms/issues/3846
+XLS0501	The property 'Default' is set more than once.,,https://github.com/xamarin/Xamarin.Forms/issues/3839
+"Page.UseSafeArea=""true"" not respected on all pages inside a CarouselPage",,https://github.com/xamarin/Xamarin.Forms/issues/3837
+[WPF] FontSize setter in Label style in App.xaml not being used in WPF,,https://github.com/xamarin/Xamarin.Forms/issues/3827
+UWP Entry.ReturnType overrides anything set by Entry.Keyboard,,https://github.com/xamarin/Xamarin.Forms/issues/3820
+async TapGestureRecognizer wrong signature,,https://github.com/xamarin/Xamarin.Forms/issues/3818
+ Inconsistent layout spacing/size of the same Grid in different places,,https://github.com/xamarin/Xamarin.Forms/issues/3802
+[Android] SeparatorColor of ListView is NOT updated dynamically,,https://github.com/xamarin/Xamarin.Forms/issues/3798
+FlexLayout Grow Property issue,,https://github.com/xamarin/Xamarin.Forms/issues/3797
+Application crashes with MissingMethodException - Default constructor not found for type System.Array,,https://github.com/xamarin/Xamarin.Forms/issues/3790
+EditText native object was not disposed in Android,,https://github.com/xamarin/Xamarin.Forms/issues/3784
+[Android] Switch aligns inconsistently on Android vs iOS/UWP,,https://github.com/xamarin/Xamarin.Forms/issues/3782
+"[ios,Android] Scrolling area not recalculated on Rotation for ScrollView or Listview in a ContentView ",,https://github.com/xamarin/Xamarin.Forms/issues/3779
+Dark mode on Mojave doesn't work right,,https://github.com/xamarin/Xamarin.Forms/issues/3777
+[Android] Nested Tabbed Page,,https://github.com/xamarin/Xamarin.Forms/issues/3775
+[WPF] ListView.Header not being rendered,,https://github.com/xamarin/Xamarin.Forms/issues/3770
+Label text is cut off in grid row AUTO ,,https://github.com/xamarin/Xamarin.Forms/issues/3754
+Memory leak in the Navigation Page on Android,,https://github.com/xamarin/Xamarin.Forms/issues/3742
+[iOS] SearchBar width is not currently consistent with other platforms or across ios versions,,https://github.com/xamarin/Xamarin.Forms/issues/3741
+[Feedback] Xamarin Forms Startup Time Slow,,https://github.com/xamarin/Xamarin.Forms/issues/3722
+[iOS] Nested Listview not updating when using DataTemplateSelectors to swap out views,,https://github.com/xamarin/Xamarin.Forms/issues/3703
+Custom font (Courier New Regular) is not working in iOS and UWP,,https://github.com/xamarin/Xamarin.Forms/issues/3699
+[UWP] Button does not render properly when Rotation is changed and then changed back to 0,,https://github.com/xamarin/Xamarin.Forms/issues/3695
+WPF Window border cannot be removed,,https://github.com/xamarin/Xamarin.Forms/issues/3688
+[Xaml] Fixes including ResourceDictionary from another ResourceDictionary,,https://github.com/xamarin/Xamarin.Forms/pull/3678
+[GTK] Inconsistent alignment of elements in StackLayout based on addition to a parent StackLayout,,https://github.com/xamarin/Xamarin.Forms/issues/3674
+[UWP] NavigationPage on UWP - Effects are not applied,,https://github.com/xamarin/Xamarin.Forms/issues/3666
+[UWP] StackLayout content inside TableSection gets clipped,,https://github.com/xamarin/Xamarin.Forms/issues/3664
+WPF ListView Cell Selection Behaviour,,https://github.com/xamarin/Xamarin.Forms/issues/3660
+WPF/GTK ListView Cell ContextMenu,,https://github.com/xamarin/Xamarin.Forms/issues/3659
+Crash when trying to include resource dictionary from another resource dictionary,,https://github.com/xamarin/Xamarin.Forms/issues/3655
+Absolute layout working inconsistently across platforms,,https://github.com/xamarin/Xamarin.Forms/issues/3649
+Introducing RowHeight in ListView causes ContentView not to render within StackLayout,,https://github.com/xamarin/Xamarin.Forms/issues/3640
+ViewCellRenderer ignores the accessory (if any) when getting the width,,https://github.com/xamarin/Xamarin.Forms/issues/3626
+"Issues in RTL Xamarin Forms (UWP, Android, IOS and MacOS platform)",,https://github.com/xamarin/Xamarin.Forms/issues/3611
+[MacOs]Slider inside StackLayout Horizontal Orientation,,https://github.com/xamarin/Xamarin.Forms/issues/3610
+Retain Strategy on Listview with DataTemplateSelector causes BindingContext to revert to null,,https://github.com/xamarin/Xamarin.Forms/issues/3602
+NSApplication.Init isn't working with Xamarin.Forms.Platform.GTK because OpenTK.GLControl assembly is missing,,https://github.com/xamarin/Xamarin.Forms/issues/3591
+iOS: TableView Selects Incorrect Row when Keyboard is Open,,https://github.com/xamarin/Xamarin.Forms/issues/3589
+[iOS] ListView ItemSelected fires when selecting group header row,,https://github.com/xamarin/Xamarin.Forms/issues/3587
+Xamarin.Forms.Platform.GTK nuget package should not bundle webkit-sharp,,https://github.com/xamarin/Xamarin.Forms/issues/3585
+[Enhancement] Convert all default image handling in Android over to using Glidex,,https://github.com/xamarin/Xamarin.Forms/issues/3577
+[UWP] ListView scroll issues,,https://github.com/xamarin/Xamarin.Forms/issues/3573
+Crash when rotating a contentpage programatically on Android ,,https://github.com/xamarin/Xamarin.Forms/issues/3572
+[GTK] WebView not working,,https://github.com/xamarin/Xamarin.Forms/issues/3571
+[Enhancement] Editor: Control over text-prediction ,,https://github.com/xamarin/Xamarin.Forms/issues/3555
+Softkeyboard-text in landscape mode doesn't show all chars in KeyListener,,https://github.com/xamarin/Xamarin.Forms/issues/3547
+"Margin, Height request and Width request is not applied for Label while converting the forms view to native view in Xamarin.Forms",,https://github.com/xamarin/Xamarin.Forms/issues/3537
+Frame change appearance in Xamarin.Forms 3.1.0,,https://github.com/xamarin/Xamarin.Forms/issues/3532
+"[Android] GetFragment(Page, bool, bool); System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection. Parameter name: index",,https://github.com/xamarin/Xamarin.Forms/issues/3528
+[Android] Image on Button is not centered with text,,https://github.com/xamarin/Xamarin.Forms/issues/3527
+Slider overwrites value when attributes in wrong order,,https://github.com/xamarin/Xamarin.Forms/issues/3521
+[Android] System.ArgumentException in OrderedDictionary: An item with the same key has already been added.,,https://github.com/xamarin/Xamarin.Forms/issues/3516
+Xamarin.Forms ListView Issues with repro,,https://github.com/xamarin/Xamarin.Forms/issues/3510
+ MasterDetail on Mac crashes when navigation from a subview to a different view from master,,https://github.com/xamarin/Xamarin.Forms/issues/3495
+Cannot able to restrict the bouncing effect when we fling the scroll view in xamarin forms MacOs if VerticalScrollElasticity property is None,,https://github.com/xamarin/Xamarin.Forms/issues/3488
+"Disable Autocomplete,text prediction feature using IsPredictionEnabled or customKeyboard options not working",,https://github.com/xamarin/Xamarin.Forms/issues/3487
+"[iOS] XF - Navigation.PushAsync doesn't work from any page opened in ""More"" TabbedPage.",,https://github.com/xamarin/Xamarin.Forms/issues/3483
+[iOS] LayoutCompression Performance Issues,,https://github.com/xamarin/Xamarin.Forms/issues/3475
+Picker accessibility text is wrong,,https://github.com/xamarin/Xamarin.Forms/issues/3454
+"OnSizeAllocated does not account for ""UseSafeArea"" when using iOS platform specifics",,https://github.com/xamarin/Xamarin.Forms/issues/3451
+Inconsistent ListView Group ViewCell sizing,,https://github.com/xamarin/Xamarin.Forms/issues/3448
+[Android] list views' HasUnevenRows not working properly,,https://github.com/xamarin/Xamarin.Forms/issues/3427
+ListView ContextActions lose BackgroundColor of selected item (iOS),,https://github.com/xamarin/Xamarin.Forms/issues/3422
+[iOS] UI Frozen When Adding Many Children To a Layout,,https://github.com/xamarin/Xamarin.Forms/issues/3417
+[WPF] ListView and TabbedPage with nested item,,https://github.com/xamarin/Xamarin.Forms/issues/3410
+ListView's GroupHeaderTemplate do not work with DataTemplateSelector on Android,,https://github.com/xamarin/Xamarin.Forms/issues/3407
+Entry is getting coverd by the Keyboard if you set TranslateY = -100,,https://github.com/xamarin/Xamarin.Forms/issues/3403
+Memory leak in ListView when deleting an item from the ItemsSource,,https://github.com/xamarin/Xamarin.Forms/issues/3396
+[UWP] ListView Selected Item is null for XF version 3.1.0.561732-pre4 ,,https://github.com/xamarin/Xamarin.Forms/issues/3378
+Alerts/Action sheets Break Orientation Changes,,https://github.com/xamarin/Xamarin.Forms/issues/3376
+Entry Placeholder doesn't respond to FlowDirection RTL,,https://github.com/xamarin/Xamarin.Forms/issues/3359
+"[iOS] App crashes with SIGSEV when tapping the ""More"" tab when a page from the ""More"" tab is already selected.",,https://github.com/xamarin/Xamarin.Forms/issues/3358
+Platform effects aren't attached to most GTK+ based components.,,https://github.com/xamarin/Xamarin.Forms/issues/3340
+[UWP] ListView with ViewCells Still Leaks Memory,,https://github.com/xamarin/Xamarin.Forms/issues/3339
+[UWP]Navigationbar content hidden,,https://github.com/xamarin/Xamarin.Forms/issues/3336
+"[Android] RecycleElement List: using bindings for FormattedText results in ""requestLayout() improperly called"" issues",,https://github.com/xamarin/Xamarin.Forms/issues/3335
+[Android] Memory leak in MasterDetailPage,,https://github.com/xamarin/Xamarin.Forms/issues/3332
+[Android] Entry IsPassword property changing spacing between mask characters when toggled,,https://github.com/xamarin/Xamarin.Forms/issues/3322
+"[iOS] Cells aren't highlighted on touch-down when the ListView's CachingStrategy is set to ""RecycleElement""",,https://github.com/xamarin/Xamarin.Forms/issues/3320
+[MAC] ScrollTo method is not working in Xamarin.Forms for mac platform,,https://github.com/xamarin/Xamarin.Forms/issues/3319
+[ALL] Resetting a style through a datatrigger binding doesn't work,,https://github.com/xamarin/Xamarin.Forms/issues/3315
+[UWP] Exception occurs in a ListView with grouping enabled when it is contained in a horizontal ScrollView,,https://github.com/xamarin/Xamarin.Forms/issues/3293
+Xamarin.Forms [iOS] is much slower than [Android] in rendering lots of views,,https://github.com/xamarin/Xamarin.Forms/issues/3292
+"Runtime Exception hit in  Xamarin.Forms.Forms.Init() for UWP when theres's no "".xaml"" files",,https://github.com/xamarin/Xamarin.Forms/issues/3282
+[macOS] Grid Row Height zero does not hide contents,,https://github.com/xamarin/Xamarin.Forms/issues/3277
+"[WPF] When scroll a ListView with a touchscreen, the highlighting behaves strange",,https://github.com/xamarin/Xamarin.Forms/issues/3266
+Back button behaves strange when putting a tabbed page inside a NavigationPage on UWP,,https://github.com/xamarin/Xamarin.Forms/issues/3257
+Android: ImageSource.FromFile does not pick up images if they are stored in a mipmap folder,,https://github.com/xamarin/Xamarin.Forms/issues/3244
+MacOS Tabpage error,,https://github.com/xamarin/Xamarin.Forms/issues/3237
+Soft Keyboard Input Mode Ignored In ListViews,,https://github.com/xamarin/Xamarin.Forms/issues/3233
+[UWP] ListView GroupShortNameBinding overrides GroupDisplayBinding,,https://github.com/xamarin/Xamarin.Forms/issues/3230
+[Arabic] Hijri date shown on DatePicker while the popup selector shows Gregorian dates,,https://github.com/xamarin/Xamarin.Forms/issues/3229
+Feature Request - Default Search Directory for UWP Icons (Platform Specific),,https://github.com/xamarin/Xamarin.Forms/issues/3228
+Xamarin.Forms WebViewRenderer.LoadUrl() does not include Uri.UserInfo,,https://github.com/xamarin/Xamarin.Forms/issues/3227
+Xamarin Forms Button some Shadow above the button on tapping,,https://github.com/xamarin/Xamarin.Forms/issues/3220
+"In ListView, ViewCell's ContextActions is disappear when swipe right to left on iOS only ",,https://github.com/xamarin/Xamarin.Forms/issues/3217
+UriImageSource should treat zero length file as invalid,,https://github.com/xamarin/Xamarin.Forms/issues/3209
+Changing the image source leaks memory.,,https://github.com/xamarin/Xamarin.Forms/issues/3204
+Image view flicker when change parent view,,https://github.com/xamarin/Xamarin.Forms/issues/3198
+TabbedPage as Master on MasterDetailPage problems,,https://github.com/xamarin/Xamarin.Forms/issues/3194
+[iOS] Changing out the MainPage during certain life cycle points doesn't work on iOS,,https://github.com/xamarin/Xamarin.Forms/issues/3188
+[iOS] ListView with GroupShortNameBinding and RTL language has ViewCell partially off screen,,https://github.com/xamarin/Xamarin.Forms/issues/3180
+[Android] Long press on a Button with custom BackgroundColor doesn't fade to the PressedColor,,https://github.com/xamarin/Xamarin.Forms/issues/3175
+Tap gestures are inconsistently recognized as pan gesture,,https://github.com/xamarin/Xamarin.Forms/issues/3173
+False positive from the API change checker,,https://github.com/xamarin/Xamarin.Forms/issues/3170
+[Android] Effects methods are called even when Control is disposed,,https://github.com/xamarin/Xamarin.Forms/issues/3159
+OpenGLView does not notify caller when it destroys GL Context,,https://github.com/xamarin/Xamarin.Forms/issues/3158
+Effect doesn't work when the FastRenderers flag is set.,,https://github.com/xamarin/Xamarin.Forms/issues/3151
+Master behavior of Popover should be allowed on MacOS desktop,,https://github.com/xamarin/Xamarin.Forms/issues/3149
+Forms 3.1 UWP DisplayActionSheet - The parameter is incorrect. Placement target needs to be in the visual tree,,https://github.com/xamarin/Xamarin.Forms/issues/3144
+[Enhancement] [Documentation] Specify XF version ,,https://github.com/xamarin/Xamarin.Forms/issues/3143
+WebView Navigating event does not work for server redirects on MacOS,,https://github.com/xamarin/Xamarin.Forms/issues/3138
+Relative constraints modify the parent's dimensions in unexpected way.,,https://github.com/xamarin/Xamarin.Forms/issues/3133
+Add Selected and Unselected events to Maps.Pin object,,https://github.com/xamarin/Xamarin.Forms/issues/3131
+Xamarin.Forms.Themes problems,,https://github.com/xamarin/Xamarin.Forms/issues/3117
+[iOS] MasterDetailPage - SplitView and SlideOver: Detail Controller missing,,https://github.com/xamarin/Xamarin.Forms/issues/3085
+Horizontal text alignment is treated differently in Android and iOS for Labels with arabic content,,https://github.com/xamarin/Xamarin.Forms/issues/3077
+Android button borders not rendering,,https://github.com/xamarin/Xamarin.Forms/issues/3068
+RTL does't switch the margin,,https://github.com/xamarin/Xamarin.Forms/issues/3066
+[UWP] Listview memory leak,,https://github.com/xamarin/Xamarin.Forms/issues/3065
+[Android] Adding Navigation Pages to Tabbed Page have incorrect padding,,https://github.com/xamarin/Xamarin.Forms/issues/3055
+Still no way to turn off animation on navigating back,,https://github.com/xamarin/Xamarin.Forms/issues/3054
+ListView ItemSelected ignored,,https://github.com/xamarin/Xamarin.Forms/issues/3051
+UWP UI Tests can't find Labels,,https://github.com/xamarin/Xamarin.Forms/issues/3022
+Navigation Push Modal is much much slower then in other app not created by Xamarin,,https://github.com/xamarin/Xamarin.Forms/issues/3002
+"When the icon display for UWP tabbed pages is fixed, there will be missing UWP png files in the samples projects",,https://github.com/xamarin/Xamarin.Forms/issues/2991
+UWP map renderer error message improvements,,https://github.com/xamarin/Xamarin.Forms/issues/2980
+CarouselPage supports SetUseSafeArea only on first 2 pages,,https://github.com/xamarin/Xamarin.Forms/issues/2963
+[UWP] AccessViolationException when adding items with the appearance of the item.,,https://github.com/xamarin/Xamarin.Forms/issues/2959
+[iOS] Button and gestures not fired in ViewCell when initially invisible,,https://github.com/xamarin/Xamarin.Forms/issues/2954
+Support for mc:Ignorable,,https://github.com/xamarin/Xamarin.Forms/issues/2930
+[Android] Animating Grid child height when its RowDefinition is auto sized creates alignment issues,,https://github.com/xamarin/Xamarin.Forms/issues/2923
+Orientation mode PortraitUpsideDown is ignored in iOS,,https://github.com/xamarin/Xamarin.Forms/issues/2888
+Images not rendering as expected,,https://github.com/xamarin/Xamarin.Forms/issues/2885
+[macOS] ScrollViewRenderer.PackContent is not called when ScrollView.Content is set after same delay,,https://github.com/xamarin/Xamarin.Forms/issues/2875
+In UWP Form Password Entry field is only allowing to edit the text at the end,,https://github.com/xamarin/Xamarin.Forms/issues/2865
+UWP build fails when minimum version is Anniversary Update or lower,,https://github.com/xamarin/Xamarin.Forms/issues/2859
+XF3.0 - Styles don't apply to Item Templates,,https://github.com/xamarin/Xamarin.Forms/issues/2855
+[Android] Mobile App template in VS 15.7.2 is generating incorrect icon files,,https://github.com/xamarin/Xamarin.Forms/issues/2839
+[UWP] grouped listiview which can load more crashes if scroll too fast,,https://github.com/xamarin/Xamarin.Forms/issues/2832
+[MacOS] Xamarin.Forms Global Style not persistently working,,https://github.com/xamarin/Xamarin.Forms/issues/2824
+[MacOS] It's not possible to set transparent background color for a listview,,https://github.com/xamarin/Xamarin.Forms/issues/2820
+[iOS] ViewCell not rendered properly when binding to own property,,https://github.com/xamarin/Xamarin.Forms/issues/2805
+UI Automation of Sliders no longer updates bound values on Android,,https://github.com/xamarin/Xamarin.Forms/issues/2800
+WebView history is wrong when second page is loaded using Ajax and the UserAgent has been modified,,https://github.com/xamarin/Xamarin.Forms/issues/2788
+[UWP] Button image is not scaled properly,,https://github.com/xamarin/Xamarin.Forms/issues/2787
+Focused entry doesn't come upper of the keyboard while use in ListView,,https://github.com/xamarin/Xamarin.Forms/issues/2768
+The order of 'IsEnabled' and 'Command' should not matter,,https://github.com/xamarin/Xamarin.Forms/issues/2758
+Gesture is not recognized for custom view in Xamarin.Forms.macOS platform,,https://github.com/xamarin/Xamarin.Forms/issues/2750
+[UWP] An InkCanvas in a Custom Renderer in a <Frame> does not work,,https://github.com/xamarin/Xamarin.Forms/issues/2748
+The OnAppearing() issue with Navigation.PushAsync(),,https://github.com/xamarin/Xamarin.Forms/issues/2716
+[iOS] View is clipped at the bottom with ongoing phone call/active Wi-Fi hotspot,,https://github.com/xamarin/Xamarin.Forms/issues/2699
+[Enhancement] Add VerticalScrollMode/HorizontalScrollMode ScrollView,,https://github.com/xamarin/Xamarin.Forms/issues/2680
+Exception occurs when giving null values in picker itemsource collection,,https://github.com/xamarin/Xamarin.Forms/issues/2674
+Allow to extend TableSection,,https://github.com/xamarin/Xamarin.Forms/issues/2668
+[Android] Buttons with BackgroundColor shadow/size problems.,,https://github.com/xamarin/Xamarin.Forms/issues/2664
+Incorrect Layout Autosizing on Orientation Change on Pages from More Tab on iOS,,https://github.com/xamarin/Xamarin.Forms/issues/2647
+[UWP] Setting WebView.Source as HtmlWebViewSource Processes Scripts Twice,,https://github.com/xamarin/Xamarin.Forms/issues/2631
+[Android] Issue with the Entry's PlaceholderColor - API 19 - v4.4.2,,https://github.com/xamarin/Xamarin.Forms/issues/2616
+[Android] Setting SetSelectAllOnFocus(true) on Custom Entry does not always work in ListView,,https://github.com/xamarin/Xamarin.Forms/issues/2614
+CompressedLayout.SetIsHeadless will renderer twice on iOS platform.,,https://github.com/xamarin/Xamarin.Forms/issues/2590
+[Android] Button's shadow being clipped when inside layout,,https://github.com/xamarin/Xamarin.Forms/issues/2558
+[iOS] Xamarin.Forms Listview Row Height Does Not Update When Hidden Controls,,https://github.com/xamarin/Xamarin.Forms/issues/2555
+Xamarin Forms UWP Label is blurry when using TranslationX or TranslationY,,https://github.com/xamarin/Xamarin.Forms/issues/2554
+"When using XAML compilation, StackOverflowException is raised in XamlCTask if the conditions are just right",,https://github.com/xamarin/Xamarin.Forms/issues/2550
+[FlexLayout] Can't Nest a FlexLayout in a Nested FlexLayout,,https://github.com/xamarin/Xamarin.Forms/issues/2543
+[iOS] Map.UserTrackingMode broken when inside MasterDetailPage,,https://github.com/xamarin/Xamarin.Forms/issues/2540
+macOS: ActivityIndicator freezes after window de-minimizes,,https://github.com/xamarin/Xamarin.Forms/issues/2537
+Device.OpenUri with HTTPS not open in Safari,,https://github.com/xamarin/Xamarin.Forms/issues/2524
+Android: unable to disable arrow/hamburger transition animations when using a custom icon,,https://github.com/xamarin/Xamarin.Forms/issues/2513
+Pin.Clicked does not work,,https://github.com/xamarin/Xamarin.Forms/issues/2509
+[Xamarin.UITest] WaitForElement does not find rotated elements,,https://github.com/xamarin/Xamarin.Forms/issues/2496
+"[UWP, Android] Changing HasUnevenRows at runtime on UWP or Android has no effect",,https://github.com/xamarin/Xamarin.Forms/issues/2484
+"CarouselPage, Scrollview, SetHasNavigationBar(this, false) and SetUseSafeArea behave incorrect",,https://github.com/xamarin/Xamarin.Forms/issues/2463
+[Android] Force label text direction,,https://github.com/xamarin/Xamarin.Forms/issues/2447
+DependencyService does not gets registered if called by xamarin.forms project before registering,,https://github.com/xamarin/Xamarin.Forms/issues/2445
+ios listview unable to set background via trigger because of selection animation,,https://github.com/xamarin/Xamarin.Forms/issues/2427
+"Xamarin.Forms is rendering different colors on iOS and Android, given the same Hex Color Code.",,https://github.com/xamarin/Xamarin.Forms/issues/2413
+"Stacklayout in frame ""bleeds"" outside of frame's rounded corners in iOS",,https://github.com/xamarin/Xamarin.Forms/issues/2405
+ListView items are not layout if fling is performed either at bottom or top of the view.,,https://github.com/xamarin/Xamarin.Forms/issues/2403
+Android Fragment Embedding Doesn't Work When You Rotate The Screen,,https://github.com/xamarin/Xamarin.Forms/issues/2396
+[UWP]  .Focus has no effect on TimePicker,,https://github.com/xamarin/Xamarin.Forms/issues/2391
+ListView DataTemplates ,,https://github.com/xamarin/Xamarin.Forms/issues/2390
+[Android] AdjustResize Causes Content to Be Sized Incorrectly After Toggling Keyboard,,https://github.com/xamarin/Xamarin.Forms/issues/2387
+UI test B45027 needs to be automated,,https://github.com/xamarin/Xamarin.Forms/issues/2385
+UI test B44955 needs review,,https://github.com/xamarin/Xamarin.Forms/issues/2384
+UI test B44476 needs to be automated,,https://github.com/xamarin/Xamarin.Forms/issues/2381
+UI test B44461 needs to be automated,,https://github.com/xamarin/Xamarin.Forms/issues/2380
+UI test B44338 needs to be automated,,https://github.com/xamarin/Xamarin.Forms/issues/2379
+UI test B44096 needs to be automated,,https://github.com/xamarin/Xamarin.Forms/issues/2378
+UI test B44044 needs to be automated,,https://github.com/xamarin/Xamarin.Forms/issues/2377
+UI test B43735 needs to be automated,,https://github.com/xamarin/Xamarin.Forms/issues/2375
+UI test B43663 needs to be automated,,https://github.com/xamarin/Xamarin.Forms/issues/2374
+UI test B43527 needs to be automated,,https://github.com/xamarin/Xamarin.Forms/issues/2373
+UI test B43519 needs to be automated,,https://github.com/xamarin/Xamarin.Forms/issues/2372
+UI test B43469 needs to be automated,,https://github.com/xamarin/Xamarin.Forms/issues/2370
+UI test B42832 needs instructions,,https://github.com/xamarin/Xamarin.Forms/issues/2366
+UI test B42364 needs to be automated,,https://github.com/xamarin/Xamarin.Forms/issues/2365
+UI test B42329 needs to be automated,,https://github.com/xamarin/Xamarin.Forms/issues/2364
+UI test B42069 needs to be automated,,https://github.com/xamarin/Xamarin.Forms/issues/2362
+UI test B41619 needs to be automated,,https://github.com/xamarin/Xamarin.Forms/issues/2360
+UI test B41600 needs to be automated,,https://github.com/xamarin/Xamarin.Forms/issues/2359
+UI test B41415 needs review,,https://github.com/xamarin/Xamarin.Forms/issues/2356
+UI test B41271 needs instructions,,https://github.com/xamarin/Xamarin.Forms/issues/2354
+UI test B41038 needs instructions,,https://github.com/xamarin/Xamarin.Forms/issues/2352
+UI test B41029 needs instructions,,https://github.com/xamarin/Xamarin.Forms/issues/2351
+UI test B40998 needs to be automated,,https://github.com/xamarin/Xamarin.Forms/issues/2350
+UI Test B40955 needs to be automated,,https://github.com/xamarin/Xamarin.Forms/issues/2349
+[Android] Appearing/Disappearing events do not appear when app is resumed from sleep,,https://github.com/xamarin/Xamarin.Forms/issues/2348
+UI test B40824 needs to be automated,,https://github.com/xamarin/Xamarin.Forms/issues/2347
+UI test B40704 needs instructions,,https://github.com/xamarin/Xamarin.Forms/issues/2346
+[UWP] MasterDetailPage does not show events on subsequent reuse,,https://github.com/xamarin/Xamarin.Forms/issues/2345
+UI Test B40408 needs to be automated,,https://github.com/xamarin/Xamarin.Forms/issues/2344
+UI Test B40173 renders incorrectly on UWP,,https://github.com/xamarin/Xamarin.Forms/issues/2343
+UI Test B40161 needs instruction,,https://github.com/xamarin/Xamarin.Forms/issues/2342
+UI test B40092 needs instructions,,https://github.com/xamarin/Xamarin.Forms/issues/2340
+UI Test B40005 could be automated,,https://github.com/xamarin/Xamarin.Forms/issues/2339
+UI Test B39987 needs instructions,,https://github.com/xamarin/Xamarin.Forms/issues/2337
+"UI test 39987 missing Preserve attribute, custom renderers for Android and UWP",,https://github.com/xamarin/Xamarin.Forms/issues/2334
+Issue3086 Needs a description of what's being verified,,https://github.com/xamarin/Xamarin.Forms/issues/2331
+UI test 39908 needs instructions,,https://github.com/xamarin/Xamarin.Forms/issues/2329
+"UI test 39702 needs instructions, automation",,https://github.com/xamarin/Xamarin.Forms/issues/2320
+UI test 39486 needs instructions,,https://github.com/xamarin/Xamarin.Forms/issues/2319
+[Android] API 22 - MaximumDate not clickable for DatePicker,,https://github.com/xamarin/Xamarin.Forms/issues/2316
+Issue2965 Needs instructions for what it's testing,,https://github.com/xamarin/Xamarin.Forms/issues/2314
+Issue2964 Needs to description for what it's testing,,https://github.com/xamarin/Xamarin.Forms/issues/2313
+Issue2963 needs to just have it's UI test removed since it needs to be manually verified,,https://github.com/xamarin/Xamarin.Forms/issues/2312
+Issue2961 needs the UI Test to be fixed,,https://github.com/xamarin/Xamarin.Forms/issues/2311
+UI test 39483 missing instructions and Preserve attribute,,https://github.com/xamarin/Xamarin.Forms/issues/2310
+UI test 39461 needs instructions,,https://github.com/xamarin/Xamarin.Forms/issues/2309
+UI test 39461 needs instructions,,https://github.com/xamarin/Xamarin.Forms/issues/2308
+UI test 39407 needs instructions,,https://github.com/xamarin/Xamarin.Forms/issues/2307
+UI test for 38770 needs instructions,,https://github.com/xamarin/Xamarin.Forms/issues/2303
+UI test for 38416 needs instructions,,https://github.com/xamarin/Xamarin.Forms/issues/2301
+UI test 38284 needs instructions,,https://github.com/xamarin/Xamarin.Forms/issues/2300
+Issue2948 needs screen shot text and UI test to be updated to reflect accurate behavior,,https://github.com/xamarin/Xamarin.Forms/issues/2294
+Issue2794 needs UI Test,,https://github.com/xamarin/Xamarin.Forms/issues/2293
+UI test 36955 InvalidCastException,,https://github.com/xamarin/Xamarin.Forms/issues/2291
+Issue2783 Needs description and UI Test,,https://github.com/xamarin/Xamarin.Forms/issues/2290
+Issue2659 needs Description of what's being tested and a UI Test,,https://github.com/xamarin/Xamarin.Forms/issues/2288
+Issue2628 needs UI Test and Description,,https://github.com/xamarin/Xamarin.Forms/issues/2287
+Issue2615 need instructions,,https://github.com/xamarin/Xamarin.Forms/issues/2286
+Issue2594 Needs description for the tester for what they are looking for,,https://github.com/xamarin/Xamarin.Forms/issues/2283
+Issue2339 needs UI Test,,https://github.com/xamarin/Xamarin.Forms/issues/2282
+Issue2292 needs UI Test and to be corrected to represent the initial issue,,https://github.com/xamarin/Xamarin.Forms/issues/2281
+Issue2291 needs description for test validation,,https://github.com/xamarin/Xamarin.Forms/issues/2280
+Issue2288 needs UI Test and Description,,https://github.com/xamarin/Xamarin.Forms/issues/2278
+Issue2282 Needs UI Test and better description,,https://github.com/xamarin/Xamarin.Forms/issues/2277
+Issue2270 needs UI Test,,https://github.com/xamarin/Xamarin.Forms/issues/2276
+Issue2248 needs instructions and a UI Test,,https://github.com/xamarin/Xamarin.Forms/issues/2275
+Issue2241 Needs instructions for tester,,https://github.com/xamarin/Xamarin.Forms/issues/2274
+Issue2143 needs instructions for the tester,,https://github.com/xamarin/Xamarin.Forms/issues/2273
+Issue1914 needs instructions for the tester,,https://github.com/xamarin/Xamarin.Forms/issues/2272
+Issue1905 needs instructions,,https://github.com/xamarin/Xamarin.Forms/issues/2270
+UI test 36479 needs instructions,,https://github.com/xamarin/Xamarin.Forms/issues/2268
+Add instructions to UI test 35294,,https://github.com/xamarin/Xamarin.Forms/issues/2265
+Create UI Test for Issue1895,,https://github.com/xamarin/Xamarin.Forms/issues/2264
+Issue1891 needs it's UI test fixed,,https://github.com/xamarin/Xamarin.Forms/issues/2263
+"UITest 35078 missing Preserve attribute, instructions inaccurate on UWP, can be automated",,https://github.com/xamarin/Xamarin.Forms/issues/2261
+"Test instructions for 34727 are incorrect on iOS, UWP",,https://github.com/xamarin/Xamarin.Forms/issues/2260
+Add instructions to UI test 34720,,https://github.com/xamarin/Xamarin.Forms/issues/2259
+Issue1875 needs UI Test,,https://github.com/xamarin/Xamarin.Forms/issues/2258
+Automate UI Test 33870,,https://github.com/xamarin/Xamarin.Forms/issues/2257
+"UITest 33714 missing Preserve attribute, instructions, should be automated",,https://github.com/xamarin/Xamarin.Forms/issues/2252
+Issue1777 Needs a UI Test,,https://github.com/xamarin/Xamarin.Forms/issues/2251
+Issue1769 needs a UI Test,,https://github.com/xamarin/Xamarin.Forms/issues/2250
+Issue1766 needs a UI Test and the description to be updated,,https://github.com/xamarin/Xamarin.Forms/issues/2249
+Issue1763 needs a UI Test,,https://github.com/xamarin/Xamarin.Forms/issues/2248
+UI Test for 33450 needs instructions,,https://github.com/xamarin/Xamarin.Forms/issues/2246
+PreferredScreenEdgesDeferringSystemGestures can't be triggered in the PageRenderer of Xamarin.Forms,,https://github.com/xamarin/Xamarin.Forms/issues/2241
+Android/Forms Tabpage OnAppearing being called twice,,https://github.com/xamarin/Xamarin.Forms/issues/2240
+Create UITest for Issue1758,,https://github.com/xamarin/Xamarin.Forms/issues/2238
+Write UITest for Issue1747,,https://github.com/xamarin/Xamarin.Forms/issues/2237
+Improved image organization,,https://github.com/xamarin/Xamarin.Forms/issues/2235
+Registrar class Register no-ops,,https://github.com/xamarin/Xamarin.Forms/issues/2217
+Design assemblies should only target v4.5,,https://github.com/xamarin/Xamarin.Forms/issues/2216
+UWP NativeForms - Can't add FrameworkElement to Frame,,https://github.com/xamarin/Xamarin.Forms/issues/2212
+[Enhancement] Add better life cycle events,,https://github.com/xamarin/Xamarin.Forms/issues/2210
+Xamarin Forms Application Doesn't Startup After Changing The Date to a Past Date,,https://github.com/xamarin/Xamarin.Forms/issues/2194
+[Enhancement] Add ItemFocused/ItemUnfocused event to ListView,,https://github.com/xamarin/Xamarin.Forms/issues/2181
+ItemSelected/ItemTapped is not called in listview if an item view has TapGestureRecognizer (Android),,https://github.com/xamarin/Xamarin.Forms/issues/2180
+Height of Entry with data binding incorrect on UWP when Entry in ScrollView in Grid,,https://github.com/xamarin/Xamarin.Forms/issues/2172
+Bold Changes Font Size on Labels,,https://github.com/xamarin/Xamarin.Forms/issues/2168
+enable source link support,,https://github.com/xamarin/Xamarin.Forms/issues/2165
+"removing multiple pages then popasync flashes through those ""removed"" pages - ANDROID only",,https://github.com/xamarin/Xamarin.Forms/issues/2162
+TemplateBinding issue with iOS,,https://github.com/xamarin/Xamarin.Forms/issues/2146
+[UWP] fails to show context menu of a list view item ,,https://github.com/xamarin/Xamarin.Forms/issues/2142
+AppCompat Theme not working for Dialog.Alert on pre Lollipop devices.,,https://github.com/xamarin/Xamarin.Forms/issues/2126
+[iOS] Refresh Spinner on iOS disappears when SearchBar or Entry is focused.,,https://github.com/xamarin/Xamarin.Forms/issues/2119
+Toolbar button not shown on App startup,,https://github.com/xamarin/Xamarin.Forms/issues/2118
+Memory Leak on Xamarin Forms UWP,,https://github.com/xamarin/Xamarin.Forms/issues/2113
+Using TranslateTo on a ScrollView does not update ScrollX/ScrollY,,https://github.com/xamarin/Xamarin.Forms/issues/2110
+[Android] ListView item with AbsoluteLayout can not refresh after delete on row.,,https://github.com/xamarin/Xamarin.Forms/issues/2107
+[UWP] PanGestureRecognizer doesn't fire complete event if the mouse leaves the bounds of the window,,https://github.com/xamarin/Xamarin.Forms/issues/2100
+Setting FontFamily for ios UIBarButtonItem does to work when navigating between pages with and without navigationbar,,https://github.com/xamarin/Xamarin.Forms/issues/2097
+Listview displays cells with different heights differently on iOS and Android,,https://github.com/xamarin/Xamarin.Forms/issues/2093
+[iOS] Foundation.MonoTouchException Objective-C exception thrown.,,https://github.com/xamarin/Xamarin.Forms/issues/2087
+iOS: ContextAction collection changes cause slow-down and eventual freeze,,https://github.com/xamarin/Xamarin.Forms/issues/2085
+[iOS] ListView Header disappears when items are added,,https://github.com/xamarin/Xamarin.Forms/issues/2084
+Navigating to another page is not working inside ListView,,https://github.com/xamarin/Xamarin.Forms/issues/2082
+WebView on Xamarin.Forms is not loading the files from the application local storage in UWP,,https://github.com/xamarin/Xamarin.Forms/issues/2058
+[Android] ShouldPreserveKeyboardOnResume exhibits the same behavior regardless of it's value,,https://github.com/xamarin/Xamarin.Forms/issues/2045
+ItemsSource CollectionChanged (Reset) Clears Picker SelectedItem,,https://github.com/xamarin/Xamarin.Forms/issues/2032
+no jump list shown in a grouped ListView on UWP,,https://github.com/xamarin/Xamarin.Forms/issues/2028
+Listview.ItemTapped doesnt fire when viewcell has ContxctAction and  GestureRecognizer,,https://github.com/xamarin/Xamarin.Forms/issues/2026
+XAML MasterDetailPage does not work with SplitView ,,https://github.com/xamarin/Xamarin.Forms/issues/2017
+Interacting With a CustomButtonRenderer That Contains A UIDatePicker Disables All TimePickers,,https://github.com/xamarin/Xamarin.Forms/issues/2015
+"Picker: width calculation should be based on the longest item, not the selected item",,https://github.com/xamarin/Xamarin.Forms/issues/1996
+Disappearing ActivityIndicators in TableView on iOS,,https://github.com/xamarin/Xamarin.Forms/issues/1989
+HeightRequest Doesn't Change Editor Size - UWP,,https://github.com/xamarin/Xamarin.Forms/issues/1965
+AbsoluteLayout content does not fill all available space on some devices,,https://github.com/xamarin/Xamarin.Forms/issues/1963
+Add a way to set RaiseOnEqual flag in bindable property to true,,https://github.com/xamarin/Xamarin.Forms/issues/1950
+[iOS] ImageCell command triggered when raising CanExecuteChanged,,https://github.com/xamarin/Xamarin.Forms/issues/1940
+Label is clipped when inside a StackLayout with another Label using TrailTruncation,,https://github.com/xamarin/Xamarin.Forms/issues/1934
+[Android] Adding both TapGestureRecognizer and ContextActions to ViewCell will result in ContextActions not responding,,https://github.com/xamarin/Xamarin.Forms/issues/1932
+StackLayout with large HeightRequest overflows boundary of containing StackLayout,,https://github.com/xamarin/Xamarin.Forms/issues/1924
+Updating FontAttributes breaks the layout,,https://github.com/xamarin/Xamarin.Forms/issues/1921
+iOS ListView items Layout View Rendering ,,https://github.com/xamarin/Xamarin.Forms/issues/1911
+Unfocused issue with Entry in listview,,https://github.com/xamarin/Xamarin.Forms/issues/1906
+NavigationPage.Navigation.PopToRoot(false) does not show RootPage on MacOS,,https://github.com/xamarin/Xamarin.Forms/issues/1894
+Scaling broken on UWP,,https://github.com/xamarin/Xamarin.Forms/issues/1893
+MasterBehaviour is not working as expected in UWP platform,,https://github.com/xamarin/Xamarin.Forms/issues/1890
+[iOS] HidesBottomBarWhenPushed does nothing,,https://github.com/xamarin/Xamarin.Forms/issues/1887
+Xamarin.Forms.Pages depends on modernhttpclient?,,https://github.com/xamarin/Xamarin.Forms/issues/1886
+[iOS] Header template ignores layout options,,https://github.com/xamarin/Xamarin.Forms/issues/1865
+Slider and thumb can detach on android in certain circumstances,,https://github.com/xamarin/Xamarin.Forms/issues/1858
+System.AccessViolationException' occurred in Unknown Module,,https://github.com/xamarin/Xamarin.Forms/issues/1823
+Move `CornerRadius` to `BorderElement`,,https://github.com/xamarin/Xamarin.Forms/issues/1814
+Button text does not truncate,,https://github.com/xamarin/Xamarin.Forms/issues/1812
+[iOS] Hidden NavigationBar causes layout to adjust when navigating,,https://github.com/xamarin/Xamarin.Forms/issues/1807
+EntryCell Text Binding fails when iOS Auto-corrects text when the EntryCell loses focus (clicking outside of Entry),,https://github.com/xamarin/Xamarin.Forms/issues/1806
+TabbedPage issue while tapping multiple times with user interactive custom control,,https://github.com/xamarin/Xamarin.Forms/issues/1796
+Desktop support: can't set a single modifier on an accelerator (macOS),,https://github.com/xamarin/Xamarin.Forms/issues/1749
+"Xamarin Forms WebView first time do Google search navigation, CanGoBack will return false",,https://github.com/xamarin/Xamarin.Forms/issues/1738
+[Android] ListView Cell height not adjusted when using large display size and font,,https://github.com/xamarin/Xamarin.Forms/issues/1735
+[Enhancement] Checkbox Control,,https://github.com/xamarin/Xamarin.Forms/issues/1728
+[CSS] pseudo-element selectors,,https://github.com/xamarin/Xamarin.Forms/issues/1723
+"[F100] Bordered views, e.g. grid view",,https://github.com/xamarin/Xamarin.Forms/issues/1695
+[F100] MediaPlayer View,,https://github.com/xamarin/Xamarin.Forms/issues/1692
+[Enhancement] Map with shapes from pin,,https://github.com/xamarin/Xamarin.Forms/issues/1673
+[iOS] Wrong behaviour when rapidly tapping multiple cells in TableView on iOS,,https://github.com/xamarin/Xamarin.Forms/issues/1655
+[Android] Tabs navigation fault after removing a tab,,https://github.com/xamarin/Xamarin.Forms/issues/1644
+Desktop support: Can't set MenuItem.Icon with an image from an asset catalog (macOS),,https://github.com/xamarin/Xamarin.Forms/issues/1641
+Desktop support: MenuItem.Command CanExecute delegate not visually respected (macOS),,https://github.com/xamarin/Xamarin.Forms/issues/1638
+Desktop support: MenuItem.Command binding doesn't work (macOS),,https://github.com/xamarin/Xamarin.Forms/issues/1637
+Desktop support: Setting MenuItem.IsEnabled has no effect (macOS),,https://github.com/xamarin/Xamarin.Forms/issues/1636
+ListView highlight still visible after SelectedItem = null when ListView hosted inside NavigationPage as Detail of MasterDetailPage on UWP,,https://github.com/xamarin/Xamarin.Forms/issues/1633
+Transparent ToolbarItem after moving back from page iOS Only ,,https://github.com/xamarin/Xamarin.Forms/issues/1631
+"[Android] TapGestureRecognizer do not fire the tapped event on ""normal"" tap/click.",,https://github.com/xamarin/Xamarin.Forms/issues/1628
+[macOS] NavigationBar of Modal overlap content with FullSizeContentView & TitlebarAppearsTransparent,,https://github.com/xamarin/Xamarin.Forms/issues/1608
+[Android] Incorrect warning about a missing file when using SVG in the Android app,,https://github.com/xamarin/Xamarin.Forms/issues/1582
+"ViewCell with Grid incorrectly calculates size for last column if it is using Width=""*""",,https://github.com/xamarin/Xamarin.Forms/issues/1568
+Android - ButtonRenderer not using TextFormatted.,,https://github.com/xamarin/Xamarin.Forms/issues/1565
+Listview memoryleak when using datepicker,,https://github.com/xamarin/Xamarin.Forms/issues/1548
+[UWP] ExportImageSourceHandler doesn't work for Toolbar.Icon,,https://github.com/xamarin/Xamarin.Forms/issues/1541
+Forms Map resets back to last set region on resizing,,https://github.com/xamarin/Xamarin.Forms/issues/1520
+Frame ignores Z-index on Android when using FastRenderers in Xamarin.Forms 2.5,,https://github.com/xamarin/Xamarin.Forms/issues/1508
+MasterDetailPage layout issues on iPhone X in landscape orientation,,https://github.com/xamarin/Xamarin.Forms/issues/1491
+"Listview with a single item loses binding, does not respond to tapped event",,https://github.com/xamarin/Xamarin.Forms/issues/1477
+Context action are not changed when selected item changed on Android,,https://github.com/xamarin/Xamarin.Forms/issues/1455
+Disabled button passes user tap to control behind it,,https://github.com/xamarin/Xamarin.Forms/issues/1454
+Using Native View Embedding fails if using a Fragment for the native view,,https://github.com/xamarin/Xamarin.Forms/issues/1431
+Webviews aren't being garbage collected when the containing page is popped,,https://github.com/xamarin/Xamarin.Forms/issues/1430
+Inconsistent behavior of Push/PopModalAsync,,https://github.com/xamarin/Xamarin.Forms/issues/1427
+"Current Application gets overridden, causes application level resources to disappear",,https://github.com/xamarin/Xamarin.Forms/issues/1418
+[UWP] TapGestureRecognizer No Longer Blocks List View Item Tapped Event,,https://github.com/xamarin/Xamarin.Forms/issues/1406
+Picker SelectedItem property does not work in a ViewCell,,https://github.com/xamarin/Xamarin.Forms/issues/1393
+[UWP] The SelectedItem in a ListView is not highlighted when set while constructing a page,,https://github.com/xamarin/Xamarin.Forms/issues/1356
+Android status bar isn't set on start of the application,,https://github.com/xamarin/Xamarin.Forms/issues/1348
+[Feature Request] App Shortcuts akin to AppLinks,,https://github.com/xamarin/Xamarin.Forms/issues/1341
+Scrollview does not resize when ContentSize changes when inside a Detail page,,https://github.com/xamarin/Xamarin.Forms/issues/1332

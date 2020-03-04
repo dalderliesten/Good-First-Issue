@@ -1,0 +1,35 @@
+Issue Description,Assignees to the Issue,Link
+suspicious unexplained `except: raise`,,https://github.com/pallets/flask/issues/3227
+unused import: werkzeug.datastructures:Range,,https://github.com/pallets/flask/issues/3226
+Use @property as a decorator,,https://github.com/pallets/flask/issues/3218
+Document Blueprint parameters,,https://github.com/pallets/flask/issues/3216
+Don't require ssl module,,https://github.com/pallets/flask/issues/3211
+yum install virtualenv instead of python-virtualenv on Fedora,,https://github.com/pallets/flask/issues/3035
+"Documentation ""Testing Flask Applications"" should show client teardown",,https://github.com/pallets/flask/issues/2949
+"Missing import statement in ""Uploading Files"" doc section",,https://github.com/pallets/flask/issues/2523
+JSONEncoder encodes aware datetime objects in non-UTC timezone incorrectly as being in GMT.,,https://github.com/pallets/flask/issues/2372
+Organize the gevent tests into a single class,,https://github.com/pallets/flask/issues/2313
+DRY up the test suite using pytest fixtures,,https://github.com/pallets/flask/issues/2287
+Review HTTP security,,https://github.com/pallets/flask/issues/2285
+Document how to set env vars for PowerShell,,https://github.com/pallets/flask/issues/2281
+Detect `create_app` when FLASK_APP doesn't specify app object,,https://github.com/pallets/flask/issues/2265
+"Documentation: Term ""development mode"" is unclear",,https://github.com/pallets/flask/issues/2261
+Generating relative url with app context should not require SERVER_NAME,,https://github.com/pallets/flask/issues/2255
+Class-based View should set provide_automatic_options attr in as_view,,https://github.com/pallets/flask/issues/2251
+Take advantage of Py3.6 json support for bytes,,https://github.com/pallets/flask/issues/2243
+Zero-padded file modes in repository ,,https://github.com/pallets/flask/issues/2029
+Disable OS-level autocorrect in the interactive debugger,,https://github.com/pallets/flask/issues/1989
+Remove easy_install from installation docs,,https://github.com/pallets/flask/issues/1919
+Use pip in upgrade documentation instead of easy_install,,https://github.com/pallets/flask/issues/1915
+Wrong import json library,,https://github.com/pallets/flask/issues/1911
+`flask --version` fails,,https://github.com/pallets/flask/issues/1828
+Unify versionadded markers (0.11 vs 1.0),,https://github.com/pallets/flask/issues/1817
+flaskr example seems to loose data on every launch,,https://github.com/pallets/flask/issues/1790
+Please update mod_wsgi documentation to use httpd 2.4 syntax,,https://github.com/pallets/flask/issues/1644
+packaging docs outdated,,https://github.com/pallets/flask/issues/1465
+small inaccuracy in get_json documentation,,https://github.com/pallets/flask/issues/1442
+flask.Request should have an is_static field for content served from the static folder,,https://github.com/pallets/flask/issues/1397
+bad content-length default,,https://github.com/pallets/flask/issues/1289
+Mention Extensions in the Docs more,,https://github.com/pallets/flask/issues/532
+sessions documentation (client side vs server side),,https://github.com/pallets/flask/issues/434
+Blueprint template lookup not documented enough,,https://github.com/pallets/flask/issues/266

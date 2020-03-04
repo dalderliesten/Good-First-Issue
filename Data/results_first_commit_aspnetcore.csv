@@ -1,0 +1,1837 @@
+First Commit Hash (SHA),Commit Message,Author (Github Name),Link to Commit
+3dfd79a26d35f07498e8f50505d6f62409603caf,Initial commit.,davidfowl,https://api.github.com/repos/dotnet/aspnetcore/git/commits/3dfd79a26d35f07498e8f50505d6f62409603caf
+bdf69b0d0c7aafb021c64140bc619d276a5f83d4,Initial commit,lodejard,https://api.github.com/repos/dotnet/aspnetcore/git/commits/bdf69b0d0c7aafb021c64140bc619d276a5f83d4
+bd2e434da972806666ff0f7d391b1ed356877a34,Add JSON formatter support,yishaigalatzer,https://api.github.com/repos/dotnet/aspnetcore/git/commits/bd2e434da972806666ff0f7d391b1ed356877a34
+b918cb8170f127fa92876127fc00faf322a30fd1,Adding view engines,pranavkm,https://api.github.com/repos/dotnet/aspnetcore/git/commits/b918cb8170f127fa92876127fc00faf322a30fd1
+72e37d7ac66398e48e719ddb06574f7b3dd857e4,Update code to be the latest bits.,NTaylorMullen,https://api.github.com/repos/dotnet/aspnetcore/git/commits/72e37d7ac66398e48e719ddb06574f7b3dd857e4
+93cff615c378425ca5895df25c562fe286c893d3,Create README.md,loudej,https://api.github.com/repos/dotnet/aspnetcore/git/commits/93cff615c378425ca5895df25c562fe286c893d3
+921a848cceef426c9b1349cae970e5bf9a5d90a8,Read compliationOptions per config.,Tratcher,https://api.github.com/repos/dotnet/aspnetcore/git/commits/921a848cceef426c9b1349cae970e5bf9a5d90a8
+a99fefd28d131411ea29cd804261e4502ed1a0f1,initial checkin (readme),rynowak,https://api.github.com/repos/dotnet/aspnetcore/git/commits/a99fefd28d131411ea29cd804261e4502ed1a0f1
+6a9b6c16c2b122e999d66a115a6c1d1b1a2a9995,"Everything but the kitchen async... (Updates to how Music Store controllers use data)
+
+Specifically:
+- Dispose contexts
+- Use async wherever possible
+- Stop using initializers (currently hard-coded to drop and recreate each run)
+- Some general cleanup
+- Stop using AttachDbFilename
+
+Not included here:
+- No major changes to app structure
+- No major changes to data model
+- No major changes to error handling, concurrency, etc.",ajcvickers,https://api.github.com/repos/dotnet/aspnetcore/git/commits/6a9b6c16c2b122e999d66a115a6c1d1b1a2a9995
+869a4ec267b9a1a0e9de18894319a281dfba85c8,Initial implementation of Microsoft.AspNet.Security.DataProtection,GrabYourPitchforks,https://api.github.com/repos/dotnet/aspnetcore/git/commits/869a4ec267b9a1a0e9de18894319a281dfba85c8
+9935af3a43dea3272351b1872b41c9756d1dcc10,Improved package reference resolution.,anpete,https://api.github.com/repos/dotnet/aspnetcore/git/commits/9935af3a43dea3272351b1872b41c9756d1dcc10
+7e121a9ccd26dd31570bd683d2c66c5093b12d51,Initial identity repo,HaoK,https://api.github.com/repos/dotnet/aspnetcore/git/commits/7e121a9ccd26dd31570bd683d2c66c5093b12d51
+ffe5f070e0ee18484daa1bc50bf81cc7ea2f5a25,"Configure bugtraq options after clone
+
+This enables linking to issues from commit messages in various tools (e.g. gitk, TortoiseGit, etc.)",bricelam,https://api.github.com/repos/dotnet/aspnetcore/git/commits/ffe5f070e0ee18484daa1bc50bf81cc7ea2f5a25
+2bdbd49966a7d2a1f2491ceaa106b07a6e8245ff,"Remove #if NET45 for GetUnicodeCategory and just use CharUnicodeInfo everywhere.
+
+.NET FX Team will not be adding Char.GetUnicodeCategory because it breaks layering. We cannot have a dependency form System.Runtime.dll to System.Globalization.dll.",nguerrera,https://api.github.com/repos/dotnet/aspnetcore/git/commits/2bdbd49966a7d2a1f2491ceaa106b07a6e8245ff
+2b76020f1b52d294a00bb0b3dddc68dec9d4987c,"Fix #14: Clone inner repositories using matching GitHub URLs
+- Read remote.origin.url config value in Universe to choose URL of inner
+  repositories for `git clone` and `git pull` commands
+- Does not change remote.origin.url config value in inner repositories",dougbu,https://api.github.com/repos/dotnet/aspnetcore/git/commits/2b76020f1b52d294a00bb0b3dddc68dec9d4987c
+c9b60c13e4cc777ff945347a8b5ab2ac89406a15,"Worker based request processing. A static number of workers are used to listen to requests
+
+Signed-off-by: Shih-Ying Hsu <shhsu@microsoft.com>",shhsu,https://api.github.com/repos/dotnet/aspnetcore/git/commits/c9b60c13e4cc777ff945347a8b5ab2ac89406a15
+4d1768ce3c74bd624f7c108d3994a20611469ed7,Use the ServiceDescriber class from the DI project in GetDefaultServices,halter73,https://api.github.com/repos/dotnet/aspnetcore/git/commits/4d1768ce3c74bd624f7c108d3994a20611469ed7
+9cd99a42a773ebb7cea2eade6d73edf2002dc168,"ActionExecutor implementation WebFx W113
+The changes include:
+1. Action executor changes required for supporting sync and async operations Taksk and Task
+2. Adding test project for MVC core - This contains ActionExecutor Tests.
+3. Also adding a resources file for MVC core project",harshgMSFT,https://api.github.com/repos/dotnet/aspnetcore/git/commits/9cd99a42a773ebb7cea2eade6d73edf2002dc168
+5497541e08542c11563ec9e53c4dffda6e495182,"Updating the music store application with the latest code.
+
+Changes include
+(1) Inclusion of all views (with non compiling code commented out)
+(2) Inclusion of all models with data annotations
+(3) images & setting up of static files
+(4) MVC application setup and scripts to run the application
+(5) Scripts to clean up the temporary files and capture LKG build.",Praburaj,https://api.github.com/repos/dotnet/aspnetcore/git/commits/5497541e08542c11563ec9e53c4dffda6e495182
+965046813e17702a6137bfd031114f9add4f3633,"Swapping data access to use EF
+
+Enabling data access against new EF stack.
+Uses SQL Server when running on Net45 and an in-memory database for K10
+(because SQL Client isn't available on K10 yet).
+Various workarounds in place to compensate for missing features in EF
+(all marked with ""// TODO [EF]...""",rowanmiller,https://api.github.com/repos/dotnet/aspnetcore/git/commits/965046813e17702a6137bfd031114f9add4f3633
+b3ce7be28141a581f381f4f7adc222d50cc98ae2,initial commit,glennc,https://api.github.com/repos/dotnet/aspnetcore/git/commits/b3ce7be28141a581f381f4f7adc222d50cc98ae2
+8ca4a331e2766efe243993cabbbbca79f6498d17,"Created an in memory host for testing purposes and added the appropriate
+APIs to allow sending requests through the pipeline easily.",javiercn,https://api.github.com/repos/dotnet/aspnetcore/git/commits/8ca4a331e2766efe243993cabbbbca79f6498d17
+86d327366f556602772b71d2b490af974fa79cf9,Fix wrong order of arguments passed to ArgumentException ctor,ChengTian,https://api.github.com/repos/dotnet/aspnetcore/git/commits/86d327366f556602772b71d2b490af974fa79cf9
+f5200a1d55e625fbe122c30664c5021cde8d645c,"Implementing IAuthorizationService
+
+#7",sebastienros,https://api.github.com/repos/dotnet/aspnetcore/git/commits/f5200a1d55e625fbe122c30664c5021cde8d645c
+1a92b3048fcc5dc21e9c422e6b979d7cfc3c45b2,Updated CreateAdmin method to return Task and added wait statement,suhasj,https://api.github.com/repos/dotnet/aspnetcore/git/commits/1a92b3048fcc5dc21e9c422e6b979d7cfc3c45b2
+85a9af832e5cb6eed9aacd9dbad20ba0f822ebb8,Run tests for all configured platforms,AndriySvyryd,https://api.github.com/repos/dotnet/aspnetcore/git/commits/85a9af832e5cb6eed9aacd9dbad20ba0f822ebb8
+b4de33eeea4c809e52bf00e8ea9a83466ad3695a,"Added a console app to generate the Razor pages
+- Replaces the TT files previously being used (in Katana)
+- Modified the include file logic to work better with the new generated Razor output as the old syntax/logic didn't work well with the additional line pragmas, etc. being emitted
+- Updated the middleware to work with new generated output (ExecuteAsync instead of Execute, etc.)
+- Fixed a scoping issue in Error.cshtml
+- gitignore sln.ide cache directory
+- #3",DamianEdwards,https://api.github.com/repos/dotnet/aspnetcore/git/commits/b4de33eeea4c809e52bf00e8ea9a83466ad3695a
+235707ec8a079347500b3efdc6a58f0ac10f8691,Microsoft.ComponentModel.DataAnnotations is being renamed to Microsoft.DataAnnotations,lajones,https://api.github.com/repos/dotnet/aspnetcore/git/commits/235707ec8a079347500b3efdc6a58f0ac10f8691
+5289d793f90c99d18ba24529d5b8fb4259a0be2f,Create LICENSE.txt,Eilon,https://api.github.com/repos/dotnet/aspnetcore/git/commits/5289d793f90c99d18ba24529d5b8fb4259a0be2f
+dcc55c97ba740c90d1acbe1db90e31a1436006a7,Multiple active result sets,victorhurdugaci,https://api.github.com/repos/dotnet/aspnetcore/git/commits/dcc55c97ba740c90d1acbe1db90e31a1436006a7
+6196e60f9178f9ea3ce5151f83361fb0e2231b67,Updated Readme.md and k.ini to use 0421 build. Deleted kvm.cmd,kirthik,https://api.github.com/repos/dotnet/aspnetcore/git/commits/6196e60f9178f9ea3ce5151f83361fb0e2231b67
+57920fca1b4c536028aa9a93118f499e65165431,Create README.md,danroth27,https://api.github.com/repos/dotnet/aspnetcore/git/commits/57920fca1b4c536028aa9a93118f499e65165431
+36c59bf602c094bdc81e1bd1596491dcaec53810,Added exception message to warning when `git clone` fails,khellang,https://api.github.com/repos/dotnet/aspnetcore/git/commits/36c59bf602c094bdc81e1bd1596491dcaec53810
+1b98d6552189238c9fbca16a0f03edc8ca0cbc62,"Remove the CoreCLR on Server 2012 issue
+
+It is working now; we have fixed this since last Thursday.",JaneZhouQ,https://api.github.com/repos/dotnet/aspnetcore/git/commits/1b98d6552189238c9fbca16a0f03edc8ca0cbc62
+4d5b16f25f3c2015f504ef5e65a8be44ddd5d190,Initial drop of kvm shell script,graemechristie,https://api.github.com/repos/dotnet/aspnetcore/git/commits/4d5b16f25f3c2015f504ef5e65a8be44ddd5d190
+1a64c1c1e82d1862d479c70c8920cd8f64149fab,burning samples and readme to alpha build-189,kanchanm,https://api.github.com/repos/dotnet/aspnetcore/git/commits/1a64c1c1e82d1862d479c70c8920cd8f64149fab
+2dcbe545e34c50652d390c03512315c8179074f5,"Sort namespaces
+
+How did @eilon let this ship with the namespaces unsorted. He's growing soft in his old age. :trollface:",haacked,https://api.github.com/repos/dotnet/aspnetcore/git/commits/2dcbe545e34c50652d390c03512315c8179074f5
+c6eff50c24635389b5e5a2754dcf54451869e03e,directly return inside the BuilderExtensions.UseRouter method,tugberkugurlu,https://api.github.com/repos/dotnet/aspnetcore/git/commits/c6eff50c24635389b5e5a2754dcf54451869e03e
+1e1e55b362fd8bc1e192993f1d630587a1b46810,"Fix not shown 'exception page' on non windows system
+
+Occurs on non windows system where Environment.NewLine is LF (1 symbol length) Unix, Linux, OS X etc. And options.ShowExceptionDetails is true.
+Replaced number '2' to Environment.NewLine.Length.",turchenkoalex,https://api.github.com/repos/dotnet/aspnetcore/git/commits/1e1e55b362fd8bc1e192993f1d630587a1b46810
+c3daa5c8c0bdcebabd088476414bc0d8de5717ce,"Handle paths containing spaces in build.cmd
+
+#99",kevinchalet,https://api.github.com/repos/dotnet/aspnetcore/git/commits/c3daa5c8c0bdcebabd088476414bc0d8de5717ce
+f6547d63e86d257b17e8849cf159067c9b679cb4,"Update RazorView.RenderAsync to be virtual
+
+Would be nice if this method is virtual so people can extend the RazorView easily, this functionality is available in the current MVC which I utilize.",Shazwazza,https://api.github.com/repos/dotnet/aspnetcore/git/commits/f6547d63e86d257b17e8849cf159067c9b679cb4
+9d505f5a248d02a4e94458908f2313773c6c70b0,"Merge pull request #147 from aspnet/fixsamples
+
+Fixing samples to use IApplicationBuilder and aspnet50, aspnetcore50",kulmugdha,https://api.github.com/repos/dotnet/aspnetcore/git/commits/9d505f5a248d02a4e94458908f2313773c6c70b0
+43c7ddb9b78c3c0ea8101db34225677baabd2e64,Making UrlHelper's methods virtual,kichalla,https://api.github.com/repos/dotnet/aspnetcore/git/commits/43c7ddb9b78c3c0ea8101db34225677baabd2e64
+4d2b2a14d521c593038b539edcc3f7cdf8e250d5,Win7PlusCoreSystem,jhawk42,https://api.github.com/repos/dotnet/aspnetcore/git/commits/4d2b2a14d521c593038b539edcc3f7cdf8e250d5
+fc5f7021623eba965c03dd0bcacdcca0785dbc71,"Made GetVirtualPath virtual
+
+For extensibility. This method has always been virtual in MVC and Web API.",maxtoroq,https://api.github.com/repos/dotnet/aspnetcore/git/commits/fc5f7021623eba965c03dd0bcacdcca0785dbc71
+d3ef91ea91ecbc56126895723bed9b463c9d6bfa,Fixing NRE with logging,muratg,https://api.github.com/repos/dotnet/aspnetcore/git/commits/d3ef91ea91ecbc56126895723bed9b463c9d6bfa
+2a8ac595d8630d77706e08bedc04d3fc70d88281,"Refactoring ILogger, see aspnet/Logging#3",SonjaKhan,https://api.github.com/repos/dotnet/aspnetcore/git/commits/2a8ac595d8630d77706e08bedc04d3fc70d88281
+73a439804ba43a0cf74de535b8da60fab1ae40d5,Skip calling clean-npm-modules from #run-grunt on Mono,troydai,https://api.github.com/repos/dotnet/aspnetcore/git/commits/73a439804ba43a0cf74de535b8da60fab1ae40d5
+232deb47d069426db94320615181bbfb0ee44fd6,added tests for json input formatter,ajaybhargavb,https://api.github.com/repos/dotnet/aspnetcore/git/commits/232deb47d069426db94320615181bbfb0ee44fd6
+e9c7a34cfcdaa1f401a7b3d93ec67f0aa0d49e95,Introducing RazorViewFactory for RazorView,ianhong,https://api.github.com/repos/dotnet/aspnetcore/git/commits/e9c7a34cfcdaa1f401a7b3d93ec67f0aa0d49e95
+680cdf4d572ed6f5240515ad9863ce86e78079a2,Update Project.json to download TagHelpers assembly,anuraj,https://api.github.com/repos/dotnet/aspnetcore/git/commits/680cdf4d572ed6f5240515ad9863ce86e78079a2
+f1b36e038b60d8a584302fb0b5f44ee3243e0722,update readme.md to new github repo for libuv,giggio,https://api.github.com/repos/dotnet/aspnetcore/git/commits/f1b36e038b60d8a584302fb0b5f44ee3243e0722
+b580856e66a694347f2e9c1762c5cd1774aa868f,Updating for EntityFramework API change to DbContext Entry Methods,mikary,https://api.github.com/repos/dotnet/aspnetcore/git/commits/b580856e66a694347f2e9c1762c5cd1774aa868f
+99c566cac1cd6ea1ea6c3613602d980fb04925ba,"NDC London bug fix! , changing environment variable name",aidancasey,https://api.github.com/repos/dotnet/aspnetcore/git/commits/99c566cac1cd6ea1ea6c3613602d980fb04925ba
+b7eb1a92bb567e4efa9dc485a2252023f2cdb947,Update tests to use official xunit,BrennanConroy,https://api.github.com/repos/dotnet/aspnetcore/git/commits/b7eb1a92bb567e4efa9dc485a2252023f2cdb947
+d3344f0766146ce0bb9ee81216f1c5058767a6ce,Changed hard coded argument string in the throw to use nameof,SaarCohen,https://api.github.com/repos/dotnet/aspnetcore/git/commits/d3344f0766146ce0bb9ee81216f1c5058767a6ce
+e0beec90f40c66f12d2213a8aa06a5165dbae755,Fixed folder name casing of Compiler/*,Tragetaschen,https://api.github.com/repos/dotnet/aspnetcore/git/commits/e0beec90f40c66f12d2213a8aa06a5165dbae755
+4af03693bf402d68dfd2f1c894400521493b2d1a,Fix typos in Views\Home\Index.cshtml,stuartleeks,https://api.github.com/repos/dotnet/aspnetcore/git/commits/4af03693bf402d68dfd2f1c894400521493b2d1a
+db961049851be53e9137c485fd4589f609ee4af9,removed App_data per [Mvc] Remove App_Data from MvcSample.Web Startup (#1716),Rick-Anderson,https://api.github.com/repos/dotnet/aspnetcore/git/commits/db961049851be53e9137c485fd4589f609ee4af9
+95ae4cb3a58c3ad83e61c2dbfb27820bf98b9516,Use optimal StringComparison for symbol strings,bbowyersmyth,https://api.github.com/repos/dotnet/aspnetcore/git/commits/95ae4cb3a58c3ad83e61c2dbfb27820bf98b9516
+53b994da19c512b1267d796a566b621d2229f42e,XMLDoc updates. Seperation of classes.,blowdart,https://api.github.com/repos/dotnet/aspnetcore/git/commits/53b994da19c512b1267d796a566b621d2229f42e
+36073fff3cefbf6d59fdc5618d1bac426323a9b1,"Refactor method to explicit helper. Fixes #253
+
+- change method name to be more explicit about method role
+- update method use in controller
+
+#253",peterblazejewicz,https://api.github.com/repos/dotnet/aspnetcore/git/commits/36073fff3cefbf6d59fdc5618d1bac426323a9b1
+49e66f03110b486f8dd9959dd2cee802d676c28f,Additions for OpenIdConnectMiddleware and OAuthBearer Beta1.,brentschmaltz,https://api.github.com/repos/dotnet/aspnetcore/git/commits/49e66f03110b486f8dd9959dd2cee802d676c28f
+de56109c160dd0b870ecce582ee36d98f5516a29,Fixing Issue #120,tushargupta51,https://api.github.com/repos/dotnet/aspnetcore/git/commits/de56109c160dd0b870ecce582ee36d98f5516a29
+e9f088b2e9ec6137807dac60ecf7c2b2970bf8e8,Reacting to changes in EF connection string format,smitpatel,https://api.github.com/repos/dotnet/aspnetcore/git/commits/e9f088b2e9ec6137807dac60ecf7c2b2970bf8e8
+4821108307e3638bfedbe2ae0a1255fceaec041e,Add SerializerSettings property to Xml DataContractSerializer input  and output formatters.,tonysneed,https://api.github.com/repos/dotnet/aspnetcore/git/commits/4821108307e3638bfedbe2ae0a1255fceaec041e
+6adb92fea62c4f5bf491ce57c09b3d5525ccdf62,:arrow_up: kvm,anurse,https://api.github.com/repos/dotnet/aspnetcore/git/commits/6adb92fea62c4f5bf491ce57c09b3d5525ccdf62
+9e7fbde9f1a221b4764a4ac2155cd64e48d08381,Logical AND would never be true; broke into OR statement,haneytron,https://api.github.com/repos/dotnet/aspnetcore/git/commits/9e7fbde9f1a221b4764a4ac2155cd64e48d08381
+fe3675a9e06f5a3ff1eed9c8aeb8108f88e90d10,"Ability to derive Startup from a base class and have ""Configure"" and ""ConfigureServices"" be invoked from the base class when present.",dtkujawski,https://api.github.com/repos/dotnet/aspnetcore/git/commits/fe3675a9e06f5a3ff1eed9c8aeb8108f88e90d10
+d9e2581c9a38a90840aaf8e320c0d80cf50efcc7,responding to interface break,lukewaters,https://api.github.com/repos/dotnet/aspnetcore/git/commits/d9e2581c9a38a90840aaf8e320c0d80cf50efcc7
+ba2c06072e39a2e21e1f34a0e048e35266f16e61,Remove space from ISignOutContext filename,ajuckel,https://api.github.com/repos/dotnet/aspnetcore/git/commits/ba2c06072e39a2e21e1f34a0e048e35266f16e61
+7109a01bc741141163f1f278fd1781d1550b9232,add .deployment file to specify what project to build,friism,https://api.github.com/repos/dotnet/aspnetcore/git/commits/7109a01bc741141163f1f278fd1781d1550b9232
+177d1ffb64485268b708b1eb73aef2b555414a07,"Adds CookiePath to SessionDefaults
+
+Adds CookiePath to SessionDefaults
+
+Revert ""Adds CookiePath to SessionDefaults""
+
+This reverts commit d025a89cbb555b5b92cb5de2dc848da036021301.
+
+Remove extra tab
+
+Revert ""Remove extra tab""
+
+This reverts commit 80b1e4976a902a5e507702b1e46e57dec0c72da4.
+
+Change tab to spaces
+
+Adds CookiePath to SessionDefaults",hishamco,https://api.github.com/repos/dotnet/aspnetcore/git/commits/177d1ffb64485268b708b1eb73aef2b555414a07
+aa31c1bb911b225f5c534c0510b1fac098b829a3,Changed the HelloMvc sample to use ConfigureServices() instead of app.UseServices(),ChrisKlug,https://api.github.com/repos/dotnet/aspnetcore/git/commits/aa31c1bb911b225f5c534c0510b1fac098b829a3
+f1e1d8f4dffad606b6305379f21ab6dbabd80e38,Initial Json Patch check-in,KevinDockx,https://api.github.com/repos/dotnet/aspnetcore/git/commits/f1e1d8f4dffad606b6305379f21ab6dbabd80e38
+aa4763493cd7115678e8483adfc8273a3785bec3,fixed typo,Bartmax,https://api.github.com/repos/dotnet/aspnetcore/git/commits/aa4763493cd7115678e8483adfc8273a3785bec3
+fefad346bade5c4167217a91f0b1c22c87a4f605,fix newline,haruair,https://api.github.com/repos/dotnet/aspnetcore/git/commits/fefad346bade5c4167217a91f0b1c22c87a4f605
+adf599339c9b04111cc98a23b9e3d4ce8ea3e8c8,fixing test build break caused by namespace changes in EF,maumar,https://api.github.com/repos/dotnet/aspnetcore/git/commits/adf599339c9b04111cc98a23b9e3d4ce8ea3e8c8
+2ebbb6d87074c26a47ca5b44944c1f18bcbc4d44,Corrected paths to DNX repository,michaldudak,https://api.github.com/repos/dotnet/aspnetcore/git/commits/2ebbb6d87074c26a47ca5b44944c1f18bcbc4d44
+ea636140c73b18418f40007c6fabfb5f6b4fc8ae,"Allow Kestrel to boot when on CoreCLR and *NIX
+
+With cross platform .NET Core support coming online, we need to update
+our IsWindows check to not assume running on .NET Core means running on
+Windows.  Since CoreFX doesn't yet expose a method for doing this (they
+are working on adding it back), we'll just call Uname and if that
+returns an empty string assume that we are on Windows.",ellismg,https://api.github.com/repos/dotnet/aspnetcore/git/commits/ea636140c73b18418f40007c6fabfb5f6b4fc8ae
+03c47ad58205cba94483d969c6bf44ad323741be,"Spelling mistake.
+
+Sorry I was looking at this code trying to track down a bug somewhere else and noticed a spelling mistake for a local variable. I know I tend to be anal about spelling, so figured I'd at least point it out.",ryan1234,https://api.github.com/repos/dotnet/aspnetcore/git/commits/03c47ad58205cba94483d969c6bf44ad323741be
+9eb87d4676739622e2d61803ebd9f948013363c0,"Removed htmlAttributes null check in GenerateForm
+
+The null check caused the form not to use the default url generation
+behavior when html attributes were specified.",henkmollema,https://api.github.com/repos/dotnet/aspnetcore/git/commits/9eb87d4676739622e2d61803ebd9f948013363c0
+f5267fc14546c369c440db56569572568ae9a9d5,"Rename SetInt & GetInt -> SetInt32 & GetInt32
+
+Fixes #256",justinvp,https://api.github.com/repos/dotnet/aspnetcore/git/commits/f5267fc14546c369c440db56569572568ae9a9d5
+e54a3b61c0e39d265aabc1707bebedb710ff73cd,"Enabling MSBuild 14 in the default native-compile target
+
+Currently Helios won't build on machines that don't have VS2013 installed (only VS2015)",moozzyk,https://api.github.com/repos/dotnet/aspnetcore/git/commits/e54a3b61c0e39d265aabc1707bebedb710ff73cd
+9d57862ed76484c10ff9287d9f79158de3efa4c2,"Update README.md
+
+To show bash profile step for osx",MRdNk,https://api.github.com/repos/dotnet/aspnetcore/git/commits/9d57862ed76484c10ff9287d9f79158de3efa4c2
+0ce998e8f34ea4070022e83161d04e465ac16f47,small correction,christos-P,https://api.github.com/repos/dotnet/aspnetcore/git/commits/0ce998e8f34ea4070022e83161d04e465ac16f47
+8fe7a45ccb5b391cea8d0bf23d89bf39e817b355,Add Dockerfile to the HelloMvc and HelloWeb sample projects,tlk,https://api.github.com/repos/dotnet/aspnetcore/git/commits/8fe7a45ccb5b391cea8d0bf23d89bf39e817b355
+2d97024dbe27545014d40d43df21d6912623ee12,"Update README.md
+
+There was a single lingering reference to ""K command."" This will become less intelligible as time goes by, so best to correct it.",vkichline,https://api.github.com/repos/dotnet/aspnetcore/git/commits/2d97024dbe27545014d40d43df21d6912623ee12
+648f00c03d56228771e5c9962435d2caa96653ef,MINOR: Removed additional space from indentation of ReferenceAssemblies HashSet.,Matthew-Bonner,https://api.github.com/repos/dotnet/aspnetcore/git/commits/648f00c03d56228771e5c9962435d2caa96653ef
+2bb2d1484d541c8fb391d79dcdfda1ba5aa10ef6,Fix variable names in dnvminstall.ps1,glen-84,https://api.github.com/repos/dotnet/aspnetcore/git/commits/2bb2d1484d541c8fb391d79dcdfda1ba5aa10ef6
+ab4d2eec31392607803e053e6af6402e1928ded8,"ImageTagHelper
+
+An ImageTagHelper that supports cache busting by appending a file
+version hash to the image src attribute
+[Resolves #2249]
+
+Code cleanup",dpaquette,https://api.github.com/repos/dotnet/aspnetcore/git/commits/ab4d2eec31392607803e053e6af6402e1928ded8
+ab4cd5c4c42d8b33c32f9b12d979c0776dccae6f,"Add JsonHelper for serializing JSON in views
+- remove NotNull from JsonHelper Serialize",JamesNK,https://api.github.com/repos/dotnet/aspnetcore/git/commits/ab4cd5c4c42d8b33c32f9b12d979c0776dccae6f
+598e0fd37789cb4b410ccf4824712d7c5f013bee,lowercase mono-complete package name,faviocb,https://api.github.com/repos/dotnet/aspnetcore/git/commits/598e0fd37789cb4b410ccf4824712d7c5f013bee
+ef07010f41396368d6f75f179b297914190b1ee0,Added instructions on how to source dnvm.sh on OsX,marcusoftnet,https://api.github.com/repos/dotnet/aspnetcore/git/commits/ef07010f41396368d6f75f179b297914190b1ee0
+c2b637f8882797d52bbb193511e41a59d6bdaf57,Added instruction to install unzip in order to unpack runtime packages,onatm,https://api.github.com/repos/dotnet/aspnetcore/git/commits/c2b637f8882797d52bbb193511e41a59d6bdaf57
+70b56f157cc225b0c3668263189404068ad60eb9,"Updated the ResponseCacheFilter class to store a reference to the CacheProfile passed into the contructor
+
+Updated the ResponseCacheFilter Duration, Location, NoStore, and VaryByHeader properties to return one of 3 values: the specific setting applied to the instance, the setting supplied by the CachePolicy (from the constructor), or a default value.  The emphasis being not to change the outward function of these properties to consumers, but to defer the evaluation of these properties until the OnActionExecuting method.
+Updated the ResponseCacheFilter to check whether a cache duration has been supplied when the NoStore property is false and throw an InvalidOperationException when a duration has not been provided.
+Updated ResponseCacheFilterTest to reflect the changes in behavior in the ResponseCacheFilter
+Updated the ResponseCacheFilterAttributeTest to reflect the change in the behavior of the ResponseCacheFilter
+
+Added unit tests to ResponseCacheFilterTest.cs to verify that the CachePolicy properties are properly overriden with the properties set directly on the ResponseCacheFilter.
+
+Added functional tests to test the ability to override CacheProfile settings with properties on the ResponseCacheAttribute",CodingGorilla,https://api.github.com/repos/dotnet/aspnetcore/git/commits/70b56f157cc225b0c3668263189404068ad60eb9
+741f2b1cc7e428629cd357fae61b2567694c0a5e,Makes AddEntityFrameworkStores use TryAdd instead of Add,eduaglz,https://api.github.com/repos/dotnet/aspnetcore/git/commits/741f2b1cc7e428629cd357fae61b2567694c0a5e
+b55b6549538cb75e34ab9ce734a291f209d12493,Add required script extension.,PatrickNausha,https://api.github.com/repos/dotnet/aspnetcore/git/commits/b55b6549538cb75e34ab9ce734a291f209d12493
+12b78a31bf1bc9df893ca93252cded57654e19c0,Added more tests and error handling for construction of middleware classes #236,mikaelm12,https://api.github.com/repos/dotnet/aspnetcore/git/commits/12b78a31bf1bc9df893ca93252cded57654e19c0
+545fa9e70a8308097554dc56ed0e82feb309bb34,"Added MIME Types
+
+Added the following MIME types which I have found to be missing:
+
+.json - application/json (This one is pretty unbelievable)
+.ttc - application/x-font-ttf
+.webp - image/webp
+.appcache - text/cache-manifest
+.manifest - text/cache-manifest
+
+Also the following MIME types need updating:
+
+.ttf should be application/x-font-ttf and not application/octet-stream",RehanSaeed,https://api.github.com/repos/dotnet/aspnetcore/git/commits/545fa9e70a8308097554dc56ed0e82feb309bb34
+98995132de817fcec4c02536e6494a32eaf13cb7,Pre-create Continue bytes in Frame,markrendle,https://api.github.com/repos/dotnet/aspnetcore/git/commits/98995132de817fcec4c02536e6494a32eaf13cb7
+94dba8ff0e7e6de52f38cdc7c24477fe727ba671,Moved address parsing to ServerAddress,ardalis,https://api.github.com/repos/dotnet/aspnetcore/git/commits/94dba8ff0e7e6de52f38cdc7c24477fe727ba671
+aedd548c3be0c7aaf09fbdf3a649a4ac9a7e8856,"Fix sample perf (Option 1)
+
+No need to await just return Task",benaadams,https://api.github.com/repos/dotnet/aspnetcore/git/commits/aedd548c3be0c7aaf09fbdf3a649a4ac9a7e8856
+8bb52122424ff91a844385b9b409af74c069373f,Update README.md,leastprivilege,https://api.github.com/repos/dotnet/aspnetcore/git/commits/8bb52122424ff91a844385b9b409af74c069373f
+d1c4e000acaefa45f2559c3e6df27e082facc035,"Set ViewBag.LoginProvider in error scenarios
+
+Failure to do so will leave certain fields blank in the view.",MisinformedDNA,https://api.github.com/repos/dotnet/aspnetcore/git/commits/d1c4e000acaefa45f2559c3e6df27e082facc035
+bdab4d95fd9f867c3ff878b6b45aa2a119387406,Using QueryHelpers helps avoid issue #365.,bchavez,https://api.github.com/repos/dotnet/aspnetcore/git/commits/bdab4d95fd9f867c3ff878b6b45aa2a119387406
+466c44188202f6bd7079f5f9be6331eb9f54154d,"show how to exit
+
+- grammer
+- verbiage",mishfit,https://api.github.com/repos/dotnet/aspnetcore/git/commits/466c44188202f6bd7079f5f9be6331eb9f54154d
+6a285ce70a0307f7b0e0da07b09556aef084d376,Removed unnecessary blank line,dpalezevic,https://api.github.com/repos/dotnet/aspnetcore/git/commits/6a285ce70a0307f7b0e0da07b09556aef084d376
+39ab9baddec684e870bb9eb27a43a814191fd6b2,Make sure references are readable multiple times,Alxandr,https://api.github.com/repos/dotnet/aspnetcore/git/commits/39ab9baddec684e870bb9eb27a43a814191fd6b2
+9ade227abbba385bd42cbeb3b79ada721f40b7a3,"Implement support for UNIX sockets.
+
+The common use-case for Kestrel in production will be behind a reverse proxy such as Nginx. In cases where the reverse proxy is located on the same machine as the application, connecting via a UNIX socket is more efficient than a TCP socket, as it avoids going through the network layer. Accessing 127.0.0.1 through TCP still needs to initiate a TCP connection and perform handshaking, checksumming, etc, all of which is avoided by using UNIX sockets.
+
+ - Moved TCP-specific stuff from Listener into new TcpListener class (same with ListenerPrimary and ListenerSecondary)
+ - Made Listener abstract
+ - Created new PipeListener. Note that while the use case is for UNIX sockets, this is called ""Pipe"" in uv, so I've called this ""PipeListener"" so the terminology is consistant
+ - Uses ""unix"" URL scheme to determine whether to use socket. ""http://127.0.0.1:5000"" is for listening via TCP while ""unix:///var/run/kestrel-test.sock"" is for listening via UNIX socket
+
+#156",Daniel15,https://api.github.com/repos/dotnet/aspnetcore/git/commits/9ade227abbba385bd42cbeb3b79ada721f40b7a3
+bab8777bd9844f3a51b6d385fa74c5b7cff92976,"add default proxy support to dnvminstall.ps1
+
+Retrieve the default proxy settings from the system and also set the proxy credentials from the system too",FabienDehopre,https://api.github.com/repos/dotnet/aspnetcore/git/commits/bab8777bd9844f3a51b6d385fa74c5b7cff92976
+02fefd8b3158dbea3aca4de141330f0a804d5e8e,Fix problem with client not connecting on the correct port,avanderhoorn,https://api.github.com/repos/dotnet/aspnetcore/git/commits/02fefd8b3158dbea3aca4de141330f0a804d5e8e
+2ee7384400ea434883754edcfc67a081190eae02,TestHost: Add WebSocket support.,tmds,https://api.github.com/repos/dotnet/aspnetcore/git/commits/2ee7384400ea434883754edcfc67a081190eae02
+87360d861f16fa43400d356748f03669270507d1,Added configure options. Added default default addoptions call,jeroenslor,https://api.github.com/repos/dotnet/aspnetcore/git/commits/87360d861f16fa43400d356748f03669270507d1
+6d47227975ebe317972ada79769cd6abad35bae8,KestrelTrace refactored and added to the ServiceContext. Close aspnet/KestrelHttpServer#141,drussilla,https://api.github.com/repos/dotnet/aspnetcore/git/commits/6d47227975ebe317972ada79769cd6abad35bae8
+38728a6bcd11bfe2c5f9c1b17fde1892bf499553,"PreflightRequest check requset headers ignore case and ignore simple request headers
+
+Signed-off-by: Norgerman <xyn0410@gmail.com>",Norgerman,https://api.github.com/repos/dotnet/aspnetcore/git/commits/38728a6bcd11bfe2c5f9c1b17fde1892bf499553
+aa37d8c7760dcde3e784a73b2bbbc113267365f5,"Removed dot from dnx run command
+
+The dot (current folder) isn't needed when using the latest dnx",mariusGundersen,https://api.github.com/repos/dotnet/aspnetcore/git/commits/aa37d8c7760dcde3e784a73b2bbbc113267365f5
+eadcae54d426d6a578727e9b54f9781c4808a7fa,Add constructors to IdentityDbContext to allow dependency injection. The other approach (overriding 'OnConfiguring') does not work well with unit testing.,danielcweber,https://api.github.com/repos/dotnet/aspnetcore/git/commits/eadcae54d426d6a578727e9b54f9781c4808a7fa
+49acfd562e8cc2b1c0284e7a1c4ffe4227c2d22b,Adds common interfaces around Models (Implements #3158),Grinderofl,https://api.github.com/repos/dotnet/aspnetcore/git/commits/49acfd562e8cc2b1c0284e7a1c4ffe4227c2d22b
+b28debf442f9041bddd78a629d09b5741ab09ec2,"Generic ModelStateDictionary add and remove extensions
+
+- Added generic add model error and remove extensions for
+ModelStateDictionary, to avoid using hard coded strings then specifying
+model state dictionary keys.
+- Added generic removal all  extension for ModelStateDictionary, to
+support removing all the model state keys for given expression.
+
+aspnet/Mvc#3164",Muchiachio,https://api.github.com/repos/dotnet/aspnetcore/git/commits/b28debf442f9041bddd78a629d09b5741ab09ec2
+ec18b3512307f7cac66c26c0668b9bca05b52101,"Add FormatterCollection<T>
+
+#2945",Krusen,https://api.github.com/repos/dotnet/aspnetcore/git/commits/ec18b3512307f7cac66c26c0668b9bca05b52101
+be186a8cd8236d87faf0550d07f760811814740a,Update Startup.cs,yukozh,https://api.github.com/repos/dotnet/aspnetcore/git/commits/be186a8cd8236d87faf0550d07f760811814740a
+c713aa92cac3f60ea40a0e858941e10da5886b6f,Making the HtmlHelper.GetEnumSelectList take DisplayAttribute.GroupName into account to create select groups.,stebet,https://api.github.com/repos/dotnet/aspnetcore/git/commits/c713aa92cac3f60ea40a0e858941e10da5886b6f
+f162f70c1ebe4e60cfec128c7e424ab4021701ee,Fixed typo (occured to occurred) in comments and resources.,payini,https://api.github.com/repos/dotnet/aspnetcore/git/commits/f162f70c1ebe4e60cfec128c7e424ab4021701ee
+7b9cfac65aed73e20b54c1feca8e98cf121c2aa5,Adding telemetry publish for unhandled exceptions to developer exception page and exception handler #180,JunTaoLuo,https://api.github.com/repos/dotnet/aspnetcore/git/commits/7b9cfac65aed73e20b54c1feca8e98cf121c2aa5
+8715dd4652854ee64761a2621f9c62ff710ba8db,"Update links on contributing.md
+
+Updated the links on contributing.md
+1. Updated http links to https where possible
+1. Updated an old github markdown link to their updated url.",altonius,https://api.github.com/repos/dotnet/aspnetcore/git/commits/8715dd4652854ee64761a2621f9c62ff710ba8db
+7dac0986c212a1f899441cd563a7d5a63243c40d," * Fix PageGenerator
+ * Generate pages on build
+ * Add copyable stacktrace to error page",ryanbrandenburg,https://api.github.com/repos/dotnet/aspnetcore/git/commits/7dac0986c212a1f899441cd563a7d5a63243c40d
+3774b6055f64e1ce478bce293d8a448a90fe5cc7,React to xnd dependency injection refactorings,pakrym,https://api.github.com/repos/dotnet/aspnetcore/git/commits/3774b6055f64e1ce478bce293d8a448a90fe5cc7
+53fd5b5f546a468f49e7d54760cd58d0bc65c839,Allow defaults to be null when constructiing TemplateMatcher,mcliment,https://api.github.com/repos/dotnet/aspnetcore/git/commits/53fd5b5f546a468f49e7d54760cd58d0bc65c839
+92afcaa9f70b4c694430d02f9b1fe1d2a9cd05ce,Fix small issues in Mvc.js,scottaddie,https://api.github.com/repos/dotnet/aspnetcore/git/commits/92afcaa9f70b4c694430d02f9b1fe1d2a9cd05ce
+f693bd60e36f84228b2d5ade2fcb3ab685c7bc27,Initial state,SteveSandersonMS,https://api.github.com/repos/dotnet/aspnetcore/git/commits/f693bd60e36f84228b2d5ade2fcb3ab685c7bc27
+bacf76098efba66d66afe680d63f9758047dd38f,"Performance improvements
+
+This adds additional performance improvements (namely string.Concat
+overloads) on top of #411.",NickCraver,https://api.github.com/repos/dotnet/aspnetcore/git/commits/bacf76098efba66d66afe680d63f9758047dd38f
+a4c4e20d4e49926219feb42f0909c7a28531d7d2,"Restored Killed console message
+Added Started console message
+Captured possible exception from node process",rjperes,https://api.github.com/repos/dotnet/aspnetcore/git/commits/a4c4e20d4e49926219feb42f0909c7a28531d7d2
+985d18546616343a187c5d3a427482f61b841ed6,Moved content from Announcement to README.md,robbert229,https://api.github.com/repos/dotnet/aspnetcore/git/commits/985d18546616343a187c5d3a427482f61b841ed6
+db94a8ed19e626b4e094cc283abe0dfe4f39871f,Removed redundant null checks and tested logging,herecydev,https://api.github.com/repos/dotnet/aspnetcore/git/commits/db94a8ed19e626b4e094cc283abe0dfe4f39871f
+7bb3ccf201dde90dc316a0b1bf2f686f24f72708,"Fixed possibly wrong registry path
+
+Your version of this script opens/creates registry path ""HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\4.0.30319.0\AutoGenKeys\$sid""
+I think the correct path should be ""HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\4.0.30319.0\AutoGenKeys\$sid""",dkraemer,https://api.github.com/repos/dotnet/aspnetcore/git/commits/7bb3ccf201dde90dc316a0b1bf2f686f24f72708
+535fdf3356f4237ff8dfc0fdaa71842f5a525a63,Removed unnecessary call to MetadataProvider.GetModelExplorerForType in Controller.TryValidateModel,ivaylokenov,https://api.github.com/repos/dotnet/aspnetcore/git/commits/535fdf3356f4237ff8dfc0fdaa71842f5a525a63
+c7d7f0e57514b990e1dc04dd794912c2c79965dd,"Lazily allocate the RequestAborted CTS
+
+Avoid allocating the CancellationTokenSource unless it's actually requested.  This makes it pay-for-play with regards to code that actually asks for the RequestAborted token and requests that are aborted.",stephentoub,https://api.github.com/repos/dotnet/aspnetcore/git/commits/c7d7f0e57514b990e1dc04dd794912c2c79965dd
+7f025a6bd4c1b79e3d64819589a5f957d057df64,"Speed up DateHeaderValueManager
+
+Replaced PumpTimer() method with StartTimer(), introduced StopTimer()
+method which pauses timer when idle instead of disposing it,
+ISystemClock returns DateTime instead of DateTimeOffset.",tenor,https://api.github.com/repos/dotnet/aspnetcore/git/commits/7f025a6bd4c1b79e3d64819589a5f957d057df64
+8428ec46e1ee0e8dfa70d7fa3740e1b88ec6e624,"Remove extra null checks.
+
+Fixes #3657",JaymzZh,https://api.github.com/repos/dotnet/aspnetcore/git/commits/8428ec46e1ee0e8dfa70d7fa3740e1b88ec6e624
+b77d22cfcb9b09933671f6538e341143d896c48b,"Update url of basic authentication example
+
+Url of the example implementation of basic authentication has changed to https://github.com/Kukkimonsuta/Odachi/tree/master/src/Odachi.AspNet.Authentication.Basic due to namespace change.",Kukkimonsuta,https://api.github.com/repos/dotnet/aspnetcore/git/commits/b77d22cfcb9b09933671f6538e341143d896c48b
+657a5ab26bea3f0b9293a216f28f7b37e004d707,Fixed an issue where invalid characters in the path could cause FileExtensionContentTypeProvider.TryGetExtension to throw an exception.,brentnewbury,https://api.github.com/repos/dotnet/aspnetcore/git/commits/657a5ab26bea3f0b9293a216f28f7b37e004d707
+bc359a3a4bd8a477ae10057c1ee16426fb12e197,Replace express with native node calls,gregbty,https://api.github.com/repos/dotnet/aspnetcore/git/commits/bc359a3a4bd8a477ae10057c1ee16426fb12e197
+5e837b4eef82a26e74b9ad1d0edddacea560a9ab,Reduce overuse of null-conditional operator,MartinJohns,https://api.github.com/repos/dotnet/aspnetcore/git/commits/5e837b4eef82a26e74b9ad1d0edddacea560a9ab
+8e38584800af59d833ff2eae6811d58594c8d445,Fix typo,mrahhal,https://api.github.com/repos/dotnet/aspnetcore/git/commits/8e38584800af59d833ff2eae6811d58594c8d445
+d79c218210f05e61adce1977acd0abc0a95bbdef,Fix comment for DuplicateRoleName key in Resources.resx,CamiloBernal,https://api.github.com/repos/dotnet/aspnetcore/git/commits/d79c218210f05e61adce1977acd0abc0a95bbdef
+042588e1b231e2bba0bf1748c1e0ced3e6c32a24,Fix check of default value in ConvertIdToString if TKey is a class and not a structure.,fredgate,https://api.github.com/repos/dotnet/aspnetcore/git/commits/042588e1b231e2bba0bf1748c1e0ced3e6c32a24
+79c39d0f6c7dd87e3dcfde92e9301230a7478cdb,change Range Attribute typeof double to decimal to match Price type,Elrashid,https://api.github.com/repos/dotnet/aspnetcore/git/commits/79c39d0f6c7dd87e3dcfde92e9301230a7478cdb
+ee7682236f4d40f1f5727f11330f7ceb6c616011,Add Gitter badge,gitter-badger,https://api.github.com/repos/dotnet/aspnetcore/git/commits/ee7682236f4d40f1f5727f11330f7ceb6c616011
+8fdfef460a98dacf4a4cfc4caa2551db56c4b7bf,Faster unsafe pointers,Anderman,https://api.github.com/repos/dotnet/aspnetcore/git/commits/8fdfef460a98dacf4a4cfc4caa2551db56c4b7bf
+a61a68defcce061191f2bbe5d4a01807908ebc26,Add support IEnumerable parameters for query string,grehovm,https://api.github.com/repos/dotnet/aspnetcore/git/commits/a61a68defcce061191f2bbe5d4a01807908ebc26
+d38fb1e49dfc037d379b8841add915f0964b63f1,"Summary of the changes
+ - No need to set the authenticationType in the Authorize_ShouldAllowIfClaimIsPresent unit test, since we already have another unit test for these functionality.
+ - Specified the authentication scheme of the authorization policy  in the Authorize_ShouldAllowIfClaimIsPresentWithSpecifiedAuthType unit test",OsmanMElsayed,https://api.github.com/repos/dotnet/aspnetcore/git/commits/d38fb1e49dfc037d379b8841add915f0964b63f1
+406d785b5e347297167cfc4e28ebb11af1591f77,"Fix typo
+
+Looks like value from wrong variable is passed to Marshal.FreeHGlobal method. So IntPtr.Zero is passed to the method and actual pointer is lost.",sergey-tom,https://api.github.com/repos/dotnet/aspnetcore/git/commits/406d785b5e347297167cfc4e28ebb11af1591f77
+8260e5d93f34925a39eb1f1aa4e0e64e15124812,Remove null-conditional operators and asserts (Blocks must return to pools),clrjunkie,https://api.github.com/repos/dotnet/aspnetcore/git/commits/8260e5d93f34925a39eb1f1aa4e0e64e15124812
+ec58bb75291a7857e2d2cff3ce3279ae9f8d9ad1,Add test args to dotnet-test-xunit,natemcmaster,https://api.github.com/repos/dotnet/aspnetcore/git/commits/ec58bb75291a7857e2d2cff3ce3279ae9f8d9ad1
+d0046cafe90ed81f7bd43096579f085f7ce7aa4b,Fixing minor error with comment,stevejgordon,https://api.github.com/repos/dotnet/aspnetcore/git/commits/d0046cafe90ed81f7bd43096579f085f7ce7aa4b
+328f4d648b8d921d2e9e9e3849d8afa88d56694b,Allow ValidationAttributes and IValidatableObjects to resolve services from the RequestServices provider by injecting it into the ValidationContext.,tuespetre,https://api.github.com/repos/dotnet/aspnetcore/git/commits/328f4d648b8d921d2e9e9e3849d8afa88d56694b
+225dfdd168b61a2cfce5818bb78a7fcd645d6864,#31 Ugrade to Babel 6 and update the ReactGrid sample,xabikos,https://api.github.com/repos/dotnet/aspnetcore/git/commits/225dfdd168b61a2cfce5818bb78a7fcd645d6864
+e737f3207e8ceb80f6bcf1286b4ea0fec9ea72ea,"Remove username from Facebook
+
+Add default fields for Facebook
+
+Remove default fields except name and email
+
+Add all the core fields for Facebook
+
+Fix location and field uniqueness",mikes-gh,https://api.github.com/repos/dotnet/aspnetcore/git/commits/e737f3207e8ceb80f6bcf1286b4ea0fec9ea72ea
+edb1a1045a7db1ba76b7922964855bc1ca5159ec,Correct Typo,prasannavl,https://api.github.com/repos/dotnet/aspnetcore/git/commits/edb1a1045a7db1ba76b7922964855bc1ca5159ec
+a0164b005d9bdd0ee59de3c90c38499fdc8ebd15,(#346) Fixed case when razor fails to recognize escape shortcut when the first character in a text is `:`. For example @::sometext.,heXelium,https://api.github.com/repos/dotnet/aspnetcore/git/commits/a0164b005d9bdd0ee59de3c90c38499fdc8ebd15
+b03d3aa56f434466d9b946996a67fce63ebbe785,"Code Cleanup
+Use var
+Conditional can be simplified
+Redundant array creation expression
+Parameter name differs in base declaration
+Empty statement is redundant",calebnelton,https://api.github.com/repos/dotnet/aspnetcore/git/commits/b03d3aa56f434466d9b946996a67fce63ebbe785
+dc456ceab5e2e66b4c962d467564d481f111d03c,Downgrade to use CoreFX NET46 compatible packages,mjsabby,https://api.github.com/repos/dotnet/aspnetcore/git/commits/dc456ceab5e2e66b4c962d467564d481f111d03c
+7649b3ebb33845e5c456c5c6ab91aa1522ce2ffe,Fix typo in TotpSecurityStampBasedTokenProvider docs,ctolkien,https://api.github.com/repos/dotnet/aspnetcore/git/commits/7649b3ebb33845e5c456c5c6ab91aa1522ce2ffe
+1c9a54aeb8fc5bf0d888cd4545a699f39ed22bdb,[Perf] Reduce allocations in Link generation code paths,mnltejaswini,https://api.github.com/repos/dotnet/aspnetcore/git/commits/1c9a54aeb8fc5bf0d888cd4545a699f39ed22bdb
+1e5b0b9becab1e6ba2a4978df880d74fba234439,Allow to define section or/and body without the need to render it,ctyar,https://api.github.com/repos/dotnet/aspnetcore/git/commits/1e5b0b9becab1e6ba2a4978df880d74fba234439
+fc1a1c8a492f95b56db7286f7ba0fd3fc15a0440,Adding AppVeyor and Travis badges to README.md,DavidObando,https://api.github.com/repos/dotnet/aspnetcore/git/commits/fc1a1c8a492f95b56db7286f7ba0fd3fc15a0440
+197a775f0d9bbf9726fcd772e9abd449a49a3786,Add launchSettings.json to .gitignore,mikeharder,https://api.github.com/repos/dotnet/aspnetcore/git/commits/197a775f0d9bbf9726fcd772e9abd449a49a3786
+ca75eed5d287c9df8958217453727f62ac19a019,Update README.md,cesarblum,https://api.github.com/repos/dotnet/aspnetcore/git/commits/ca75eed5d287c9df8958217453727f62ac19a019
+f5c1c45db20fd4592a3f49d4dc1d39dc5f62108c,IClaimsTransofrmer updated to take ClaimsTransformationContext instead of ClaimsPrincipal in TransformAsync method. #718,DovydasNavickas,https://api.github.com/repos/dotnet/aspnetcore/git/commits/f5c1c45db20fd4592a3f49d4dc1d39dc5f62108c
+a749ee006ed06874720d6fb0da30797237efae3c,"Removed one of the comment blocks about Web API 2
+
+Duplicate comment block removed.",eloekset,https://api.github.com/repos/dotnet/aspnetcore/git/commits/a749ee006ed06874720d6fb0da30797237efae3c
+2e07ddee45dc1e05d919964624a7798ac8b4cc60,Replaces Hosting:Environment with new values in docs,cwe1ss,https://api.github.com/repos/dotnet/aspnetcore/git/commits/2e07ddee45dc1e05d919964624a7798ac8b4cc60
+8ad5fdceb4dc48b262a5d507320962080c4f1c5a,fix typo in README.md,amankkg,https://api.github.com/repos/dotnet/aspnetcore/git/commits/8ad5fdceb4dc48b262a5d507320962080c4f1c5a
+b0ebcc3aeb2be302572ce2f2d9787f432f85842f,"Update RunExtensions.cs
+
+small typo",JimmyHannon,https://api.github.com/repos/dotnet/aspnetcore/git/commits/b0ebcc3aeb2be302572ce2f2d9787f432f85842f
+eb8c0a263400e467da417fd2fc7e4039c6b5427c,"Do not suppress original exceptions in ConfigureBuilder, Fix #695",nil4,https://api.github.com/repos/dotnet/aspnetcore/git/commits/eb8c0a263400e467da417fd2fc7e4039c6b5427c
+7ba590b6f1daed098e9c914c6494f1b604a2a362,Rename UseIIS() to UseIISIntegration() in comment,campersau,https://api.github.com/repos/dotnet/aspnetcore/git/commits/7ba590b6f1daed098e9c914c6494f1b604a2a362
+5a182870095e19a4630e1eaebfbd579e891c06b3,"Use ""nameof"" instead of string",tzachov,https://api.github.com/repos/dotnet/aspnetcore/git/commits/5a182870095e19a4630e1eaebfbd579e891c06b3
+3b262b1b3bc079680fc73e52c14d3a5bbc042612,"Content type mapping for markdown
+
+Since it is now officially registered.
+
+See: https://tools.ietf.org/html/rfc7763",korroz,https://api.github.com/repos/dotnet/aspnetcore/git/commits/3b262b1b3bc079680fc73e52c14d3a5bbc042612
+f567258f1435da03d7e3d204a7530f0a342fe4e9,changed GetFormat to virtual,filipw,https://api.github.com/repos/dotnet/aspnetcore/git/commits/f567258f1435da03d7e3d204a7530f0a342fe4e9
+30ace9f35a63da9527281f903c71059accb33274,[Fixes #4520] Fix typo in controller filename (#4532),stanislavromanov,https://api.github.com/repos/dotnet/aspnetcore/git/commits/30ace9f35a63da9527281f903c71059accb33274
+ba8c0c5018350ac3d6e239a5f2810f73aa1bbad5,"Removed space from file name
+
+This caused broken link in API reference",svick,https://api.github.com/repos/dotnet/aspnetcore/git/commits/ba8c0c5018350ac3d6e239a5f2810f73aa1bbad5
+754e32b604f5dc9f7422116f7e35a250dfabb63d,"Fix Webpack default entry issue: webpackConfig.entry.main.unshift is not a function
+Closes #56",laskoviymishka,https://api.github.com/repos/dotnet/aspnetcore/git/commits/754e32b604f5dc9f7422116f7e35a250dfabb63d
+132263e767092fc49b6993850a44a55ead702785,narrow lock scope when connections end,nathana1,https://api.github.com/repos/dotnet/aspnetcore/git/commits/132263e767092fc49b6993850a44a55ead702785
+13a08e2a8a055087a884246281514a85d1ab7221,"fix XML documentation of RemoveClaimAsync
+
+Fixes documentation of parameter ""claim"" in RemoveClaimAsync(TRole role, Claim claim)",lcalabrese,https://api.github.com/repos/dotnet/aspnetcore/git/commits/13a08e2a8a055087a884246281514a85d1ab7221
+6b6b21a5bf1ff831301bdd9559ec36d4eaeac6e2,Minor fix in description for LockoutEnabled property.,aliakseimaniuk,https://api.github.com/repos/dotnet/aspnetcore/git/commits/6b6b21a5bf1ff831301bdd9559ec36d4eaeac6e2
+b6794ab1b781c9e37aff03fc4fea7ffe8da453ad,Fixed null reference on ModelStateDictionary.ChildNodes when calling Clear,michielpost,https://api.github.com/repos/dotnet/aspnetcore/git/commits/b6794ab1b781c9e37aff03fc4fea7ffe8da453ad
+50ee405656ed6138ff72f0611a9b57b974355ac0,"Workaround for a bug in .NET Core. This issue is referenced by #92. It is has been reported to the dotnet corefx team here: dotnet/corefx#8809 The issue won't be resolved in 1.0.0, so @stephentoub recommended that we reuse the HttpClient.",pauldotknopf,https://api.github.com/repos/dotnet/aspnetcore/git/commits/50ee405656ed6138ff72f0611a9b57b974355ac0
+931ba118e1ff25f91f455991a3a22d2a6e8aa876,net451 support and changed netcoreapp1.0->netstandard1.5 for libraries,rmja,https://api.github.com/repos/dotnet/aspnetcore/git/commits/931ba118e1ff25f91f455991a3a22d2a6e8aa876
+2a1e6649b0d3d9bbf9fb8e73b5e7b27ee457dfb7,Added RFC 4918 support,0xdeafcafe,https://api.github.com/repos/dotnet/aspnetcore/git/commits/2a1e6649b0d3d9bbf9fb8e73b5e7b27ee457dfb7
+6a8a4e866936746a3f839cb2e260ffb529863ce4,Update MemoryPoolBlock.cs,NVentimiglia,https://api.github.com/repos/dotnet/aspnetcore/git/commits/6a8a4e866936746a3f839cb2e260ffb529863ce4
+d19765802b9297a5d2a564f9e5b4fe948c03d233,Changed min/max parameter order in StringLengthAttributeAdapter,cjqian,https://api.github.com/repos/dotnet/aspnetcore/git/commits/d19765802b9297a5d2a564f9e5b4fe948c03d233
+5c04f0a8313a890fe2e7bb3d1d27fe98e5a9f8f5,Use Angular lib instead of angular map file in sample (#92),ciwchris,https://api.github.com/repos/dotnet/aspnetcore/git/commits/5c04f0a8313a890fe2e7bb3d1d27fe98e5a9f8f5
+f8981185d9372034b2169b5adf9c2305713efb3d,"Makes it possible to use absolute paths for publicPath in weback.config (#161)
+
+- Parses publicPath as an URL and returns the path of that URL to be able to cope with absolute URLs",tobiasr,https://api.github.com/repos/dotnet/aspnetcore/git/commits/f8981185d9372034b2169b5adf9c2305713efb3d
+3d2bb673ee8b55e278db304fae8da2fba462bb9e,"Add IMvcCoreBuilder.AddJsonOptions extension method
+Fixes #4967",iscifoni,https://api.github.com/repos/dotnet/aspnetcore/git/commits/3d2bb673ee8b55e278db304fae8da2fba462bb9e
+f73f668e2be8829fafaa61e129dc20ba7fb2c18c,Fix a typo in the SignInManager docs,flagbug,https://api.github.com/repos/dotnet/aspnetcore/git/commits/f73f668e2be8829fafaa61e129dc20ba7fb2c18c
+8487bf0ae53247be8a270c2e204a7e3c46386c23,"14.28 If-Unmodified-Since - Incorrect condition
+
+14.28 If-Unmodified-Since had a condition on ifModifiedSince, which could be undefined. Should be ifUnmodifiedSince",joostvanhassel,https://api.github.com/repos/dotnet/aspnetcore/git/commits/8487bf0ae53247be8a270c2e204a7e3c46386c23
+7119815d04b46da2565d17a0827524fc44f44fb4,"Added OnBeforeStartExternalProcess callback which to NodeServicesOptions (and OutOfProcessNodeInstance, SocketNodeInstance and HttpNodeInstance) to configure environment of the node.exe process to be started, and the path to the node executable itself. Fixes #20",thunder7553,https://api.github.com/repos/dotnet/aspnetcore/git/commits/7119815d04b46da2565d17a0827524fc44f44fb4
+edf1f88398d23209b92b22a5f9087e3420b594f2,Updating to AutoMapper 5.0,jbogard,https://api.github.com/repos/dotnet/aspnetcore/git/commits/edf1f88398d23209b92b22a5f9087e3420b594f2
+d807ec029c8d4eb6c5242e7712d5cc56b6378e5e,Fixed typo,vanillajonathan,https://api.github.com/repos/dotnet/aspnetcore/git/commits/d807ec029c8d4eb6c5242e7712d5cc56b6378e5e
+1bce0acfde5b9fe5e5e48b6311bdfb232cdbf444,"Added asp-area to Components, _Layout and _LoginPartial links (Header links are broken in Admin area #666 )",kirst,https://api.github.com/repos/dotnet/aspnetcore/git/commits/1bce0acfde5b9fe5e5e48b6311bdfb232cdbf444
+96228711f26cd356bdab816fadfa235383b43b5f,"chore(package): Update to rc4, beta router & universal 104.5
+
+104.5 includes some bug fixes.
+Router beta update required pathMatch on home.
+
+Tested w/ JS on/off everything passes & works.",MarkPieszak,https://api.github.com/repos/dotnet/aspnetcore/git/commits/96228711f26cd356bdab816fadfa235383b43b5f
+77b404188bdeebbf33676dc2322de07f6a793031,fix angular's (click) events not being triggered on IE9,skamlet,https://api.github.com/repos/dotnet/aspnetcore/git/commits/77b404188bdeebbf33676dc2322de07f6a793031
+cf1a127e7dac44b8975d0f0ec5267eece1088db9,Perform nodejs installation before COPY in Dockerfile templates,aidansteele,https://api.github.com/repos/dotnet/aspnetcore/git/commits/cf1a127e7dac44b8975d0f0ec5267eece1088db9
+2a6465b27aa0c8deebbeb672f5ee0e95d2f20676,"FIxing path separator to address #247 (#248)
+
+* Correcting path separator to ;
+
+* Using the proper API from System.IO to get path separator",aaronpowell,https://api.github.com/repos/dotnet/aspnetcore/git/commits/2a6465b27aa0c8deebbeb672f5ee0e95d2f20676
+0ad048393569abb126e88e2722bb45d24de1cd24,"Update aspnet-webpack-react to React 15
+
+^15.0.0 is enough
+
+Update ReactGrid example to work with newest Griddle version
+
+Several fixes to stop build.sh from failing",geirsagberg,https://api.github.com/repos/dotnet/aspnetcore/git/commits/0ad048393569abb126e88e2722bb45d24de1cd24
+dff0db80ca2092f1f6e6dbcd327d4e8d83075729,Initial upload,shirhatti,https://api.github.com/repos/dotnet/aspnetcore/git/commits/dff0db80ca2092f1f6e6dbcd327d4e8d83075729
+0491b492685ac07cc000169ae93d5cf0761b4ee5,Remove double initializing of variable _field3,DamirAinullin,https://api.github.com/repos/dotnet/aspnetcore/git/commits/0491b492685ac07cc000169ae93d5cf0761b4ee5
+da662c55fadacc4ec75167d9d56c9c8dcd756be0,"Make webpack dev dependency a peer dependency in aspnet-webpack.
+
+Moving webpack from a dev dependency to a peer dependency makes the dependency soft and allows the webpack-dev-middleware to pickup the version of webpack being used by the consumer of the package.",thoughtentity,https://api.github.com/repos/dotnet/aspnetcore/git/commits/da662c55fadacc4ec75167d9d56c9c8dcd756be0
+c037a577b00a4ef7fcb0b8a1b7cc736afa1d4b02,"Set background color for ErrorPage
+
+* Set background color for ErrorPage
+
+When using various browser developer tools with a dark theme, the text for the page is unreadable, because the background color has not been set, while the foreground color has.
+
+* update Designer files",andyedinborough,https://api.github.com/repos/dotnet/aspnetcore/git/commits/c037a577b00a4ef7fcb0b8a1b7cc736afa1d4b02
+2a402abefe44e9565deac41a4f0cf51f738c835b,Response Compression middleware,Yves57,https://api.github.com/repos/dotnet/aspnetcore/git/commits/2a402abefe44e9565deac41a4f0cf51f738c835b
+ac773beffcdd348599f4b8cb4cac76473bee0ecf,Changed BuildChallengeUrl in order to accept AuthorizationEndpoint which contains query parameters (#992),ademcaglin,https://api.github.com/repos/dotnet/aspnetcore/git/commits/ac773beffcdd348599f4b8cb4cac76473bee0ecf
+60d600dd5c458365631049240dda22f49907c438,"Issue #5310 (#5334)
+
+* Issue #5310",cjrosa,https://api.github.com/repos/dotnet/aspnetcore/git/commits/60d600dd5c458365631049240dda22f49907c438
+4a79573def7b230b52bc218326c3127b6b52b4f9,"Jhkim/add installancm ps1 (#15)
+
+Jhkim/add installancm ps1",jhkimnew,https://api.github.com/repos/dotnet/aspnetcore/git/commits/4a79573def7b230b52bc218326c3127b6b52b4f9
+b8471455a746a935d9009284a773eb2567a71b4c,"Fix NuGet project description ASP.NET 5 > Core (#120)
+
+changed leftover ""ASP.NET 5"" in project.json description to ""ASP.NET Core""",dasMulli,https://api.github.com/repos/dotnet/aspnetcore/git/commits/b8471455a746a935d9009284a773eb2567a71b4c
+76256446f55b47d989a1d6443b7ef5e053dfb135,"Forward custom header names (#102)
+
+* Forward custom header names",moander,https://api.github.com/repos/dotnet/aspnetcore/git/commits/76256446f55b47d989a1d6443b7ef5e053dfb135
+b9fda4964975ea3acd2bb665d2a81cb5726e386b,allowing flow app_offline to remote client (#17),pan-wang,https://api.github.com/repos/dotnet/aspnetcore/git/commits/b9fda4964975ea3acd2bb665d2a81cb5726e386b
+a0ebab1f286ac82fbbf55b9d6482bfa511b995c2,"Update Dockerfile
+
+The app doesn't run in Docker on base image `microsoft/dotnet:latest` because Microsoft.NETCore.App 1.0.1 isn't installed. Only 1.0.0 is installed. The app runs fine on base image `microsoft/dotnet:1.0.0-preview2-onbuild`.",korneel,https://api.github.com/repos/dotnet/aspnetcore/git/commits/a0ebab1f286ac82fbbf55b9d6482bfa511b995c2
+41f00eea23caa2788650673a7bf486690d97a8a3,"Default Status Code for void types changed to 200
+
+Fixes #4838",jbagga,https://api.github.com/repos/dotnet/aspnetcore/git/commits/41f00eea23caa2788650673a7bf486690d97a8a3
+f7932b57a6de2a98db23cf0d7616c3b6815a9113,Add Dependency Resolution Apis to ProjectContext Abstractions,prafullbhosale,https://api.github.com/repos/dotnet/aspnetcore/git/commits/f7932b57a6de2a98db23cf0d7616c3b6815a9113
+3ef7d01bb6116dc1da23b92e58f737b57a9f28bf,"Small code cleanup (#5388)
+
+* Removed unused private GetUrlHelper method in LocalRedirectResult class.
+
+* Minor code formatting improvements.
+
+* Fixed white space and casing of 'URL' in comment in RedirectResultExecutor.",vladislav-karamfilov,https://api.github.com/repos/dotnet/aspnetcore/git/commits/3ef7d01bb6116dc1da23b92e58f737b57a9f28bf
+38aa48651f9d8c2efd812016b99707c40da7262e,Fix for Issue#5150,joheredi,https://api.github.com/repos/dotnet/aspnetcore/git/commits/38aa48651f9d8c2efd812016b99707c40da7262e
+72bc9c0f2c8606a150b159786be4b718e29598fc,"Update DefaultAntiforgeryTokenStore.cs (#106)
+
+Corrected comment typo",chris2093,https://api.github.com/repos/dotnet/aspnetcore/git/commits/72bc9c0f2c8606a150b159786be4b718e29598fc
+0332e91a08bc99de09d501c7a7fa188ac7fafa27,"Update UserStore.cs
+
+Fixed incorrect code comment",cygnim,https://api.github.com/repos/dotnet/aspnetcore/git/commits/0332e91a08bc99de09d501c7a7fa188ac7fafa27
+e60ea04f86c65bcfbbbab53726a2685d7322be4c,Add AureliaSpa template (#398),kmkatsma,https://api.github.com/repos/dotnet/aspnetcore/git/commits/e60ea04f86c65bcfbbbab53726a2685d7322be4c
+9744f94b39c65c228be87b35f97c1f28d3fd54a6,Update README for dotnet-watch to specify which version to install (#210),shanselman,https://api.github.com/repos/dotnet/aspnetcore/git/commits/9744f94b39c65c228be87b35f97c1f28d3fd54a6
+1dc4b28bbeb37c7cdf0df60fd97cf88f6faa6a6e,Add AcceptedAtActionResult tests,hughbe,https://api.github.com/repos/dotnet/aspnetcore/git/commits/1dc4b28bbeb37c7cdf0df60fd97cf88f6faa6a6e
+24d5dfb5527d46da097b56b7cfc3b28ec8f8ad3e,"Dynamic assembly checks to prevent NotSupprotedExceptions from System.Reflection.Emit
+Fixes #5487",mdschweda,https://api.github.com/repos/dotnet/aspnetcore/git/commits/24d5dfb5527d46da097b56b7cfc3b28ec8f8ad3e
+fe2453b93abe4f0bfbfade7abcb737fe10ed4040,Escaping support for JSON pointers,sandorfr,https://api.github.com/repos/dotnet/aspnetcore/git/commits/fe2453b93abe4f0bfbfade7abcb737fe10ed4040
+fab60906856be648cf91cec44752718d1af9baab,"Add link to signalr
+
+SignalR is an amazing library to add real-time web functionality, and this has to be at the home of the aspnet home.",julitogtu,https://api.github.com/repos/dotnet/aspnetcore/git/commits/fab60906856be648cf91cec44752718d1af9baab
+5e2b267d9f09e6bc5687283ac1ee8b6d55058fc2,Adding tsc note to readme,MisterJames,https://api.github.com/repos/dotnet/aspnetcore/git/commits/5e2b267d9f09e6bc5687283ac1ee8b6d55058fc2
+3120370dc51fab67eed521f3bb5d8a4ab3b67acf,"Readme: fix the broken links
+
+`https://docs.asp.net` is moved to `https://docs.microsoft.com/en-us/aspnet`",suryagh,https://api.github.com/repos/dotnet/aspnetcore/git/commits/3120370dc51fab67eed521f3bb5d8a4ab3b67acf
+bbbcb5ef18819e2fe73300c3b648cf2221aa020a,"Update README.md
+
+Fixed very minor spelling mistake on line 521.
+
+You = Your",WrathZA,https://api.github.com/repos/dotnet/aspnetcore/git/commits/bbbcb5ef18819e2fe73300c3b648cf2221aa020a
+2bacb6003f3bc2c3b58107c1118346dca3f5fa13,Fix typo in XML doc,jdom,https://api.github.com/repos/dotnet/aspnetcore/git/commits/2bacb6003f3bc2c3b58107c1118346dca3f5fa13
+bb60afba28d7775e610afafd85cce810c9200374,There's no need to check IsLockedOut() anymore as this is already done in PreSignInCheck().,MarcoMiltenburg,https://api.github.com/repos/dotnet/aspnetcore/git/commits/bb60afba28d7775e610afafd85cce810c9200374
+bf71121a7e6444027849a965040cca394248e856,Update README.md,ili,https://api.github.com/repos/dotnet/aspnetcore/git/commits/bf71121a7e6444027849a965040cca394248e856
+8214954d5b0dafe191890da9a3de86f5b607ea69,Add support for clients to configure a policy with custom logic about whether an origin should be allowed and provide a default implementation of the functionality to allow wildcard subdomains,Choc13,https://api.github.com/repos/dotnet/aspnetcore/git/commits/8214954d5b0dafe191890da9a3de86f5b607ea69
+4158dfed8ff090927761466b062de3db5aed946f,add net451 support to signalr.redis,searus,https://api.github.com/repos/dotnet/aspnetcore/git/commits/4158dfed8ff090927761466b062de3db5aed946f
+1dd1d49321eab65431e9c4b0465d7d9f2b23dbdf,"Redirects with fragment (#5519)
+
+- Added implementation of overloads where you can specify the fragment to redirect to.
+- Added unit tests
+- Added XML comments, including missing documentation of existing members",juunas11,https://api.github.com/repos/dotnet/aspnetcore/git/commits/1dd1d49321eab65431e9c4b0465d7d9f2b23dbdf
+a12de2cfd94737b51e22f75a910928f2cdd5e47e,Small typo fix,txdv,https://api.github.com/repos/dotnet/aspnetcore/git/commits/a12de2cfd94737b51e22f75a910928f2cdd5e47e
+448b7eb50a0b2ce73969cfcb1f76297d702d3c0e,"Add dot to last item to make it more consistent
+
+The last item in the related community projects list (MvcDeviceDetector) did not have an ending period character. The other options did, so I have added it.",ErikSchierboom,https://api.github.com/repos/dotnet/aspnetcore/git/commits/448b7eb50a0b2ce73969cfcb1f76297d702d3c0e
+5966024d01278bccb4cf2581fdd93575e87da9d8,Fixed minor spelling error in comments.,drovani,https://api.github.com/repos/dotnet/aspnetcore/git/commits/5966024d01278bccb4cf2581fdd93575e87da9d8
+9e59e79a94d995dcc2edbcdfab43889c26a7156e,Sample: use FindByEmailAsync in ResetPassword flow,jyunderwood,https://api.github.com/repos/dotnet/aspnetcore/git/commits/9e59e79a94d995dcc2edbcdfab43889c26a7156e
+0907379da81b04138a25e952d200def10f2e3653,"Streamed responses can be be Object or Stream
+
+See issue https://github.com/aspnet/JavaScriptServices/issues/518",nicemd,https://api.github.com/repos/dotnet/aspnetcore/git/commits/0907379da81b04138a25e952d200def10f2e3653
+5070526f4388c95af23f3b8a8e1f68045daeced2,replaced hardcoded message with Resources.ArgumentCannotBeNullOrEmpty,hiiru,https://api.github.com/repos/dotnet/aspnetcore/git/commits/5070526f4388c95af23f3b8a8e1f68045daeced2
+830a1863a1da097e3ebb9845cf6d605b6595c69a,Fix property name.,fabiano,https://api.github.com/repos/dotnet/aspnetcore/git/commits/830a1863a1da097e3ebb9845cf6d605b6595c69a
+09c993e9a934a8d83e7d6de0f33d187d4080db3a,Update README.md,jchannon,https://api.github.com/repos/dotnet/aspnetcore/git/commits/09c993e9a934a8d83e7d6de0f33d187d4080db3a
+bf7eaa166c91ea88cc636e53069ace6b21df0fe8,remove dnx command and use dotnet for mac,volkan,https://api.github.com/repos/dotnet/aspnetcore/git/commits/bf7eaa166c91ea88cc636e53069ace6b21df0fe8
+51f6415ea1066636d1b0af9b70e206371eccbfa1,let UriHelper.GetEncodedUrl  can  get relative url,John0King,https://api.github.com/repos/dotnet/aspnetcore/git/commits/51f6415ea1066636d1b0af9b70e206371eccbfa1
+1840d6823bcdbd93f628f680fc9fbd1146a81de9,"Addresses #5694 (#5695)
+
+* Add ""
+`Microsoft.AspNetCore.StaticFiles"": ""1.2.0-*""`
+to project,json
+Add
+`app.UseStaticFiles();`
+in the
+`public void Configure(IApplicationBuilder app)`
+from `Startup` class.
+
+Addresses #5694",ignatandrei,https://api.github.com/repos/dotnet/aspnetcore/git/commits/1840d6823bcdbd93f628f680fc9fbd1146a81de9
+4fa6ed37922e934232f3d01a29d2ad864d5cf7b7,Added support for IIS global rules (#169),david-peden-q2,https://api.github.com/repos/dotnet/aspnetcore/git/commits/4fa6ed37922e934232f3d01a29d2ad864d5cf7b7
+bed294c554f0958c774613bc3ba31aff8f810917,Added support for custom responses (#200),davidpeden3,https://api.github.com/repos/dotnet/aspnetcore/git/commits/bed294c554f0958c774613bc3ba31aff8f810917
+9950325269576491cfa8d4a900dd47dbdf5aa679,"Update view compilation error message
+
+Update view compilation error message for csproj instead of
+project.json.",martincostello,https://api.github.com/repos/dotnet/aspnetcore/git/commits/9950325269576491cfa8d4a900dd47dbdf5aa679
+0e914e55faa86f01bf38f9aea012f78881b79d75,"Remove double null check (#5862)
+
+Address #5834",reaction1989,https://api.github.com/repos/dotnet/aspnetcore/git/commits/0e914e55faa86f01bf38f9aea012f78881b79d75
+c56de066d359eaf1d6123abea5610d6ba6cfb2bf,"Optimized parsing GET verb and version (#1399)
+
+* Optimized parsing GET verb
+* optimized http version parsing
+* Added microbenchmarks for GetKnownMethod and GetKnownVersion",KrzysztofCwalina,https://api.github.com/repos/dotnet/aspnetcore/git/commits/c56de066d359eaf1d6123abea5610d6ba6cfb2bf
+9a4009ff8b651d3b4cbf0e8d60330d8aead07dd3,Added link to the NDC video.,mkosieradzki,https://api.github.com/repos/dotnet/aspnetcore/git/commits/9a4009ff8b651d3b4cbf0e8d60330d8aead07dd3
+b89415d9b2ea9bda711621bf9ac5a54f27dcb783,knownmethods optimizations,mariuszkochanowski,https://api.github.com/repos/dotnet/aspnetcore/git/commits/b89415d9b2ea9bda711621bf9ac5a54f27dcb783
+1c9a4f5705c02d182e6beefa96739de81cd3d850,Fixed typo in IAntiforgery file,jnaputi253,https://api.github.com/repos/dotnet/aspnetcore/git/commits/1c9a4f5705c02d182e6beefa96739de81cd3d850
+b10c8ec0b8140b6b40026e10c81497140de0cb79,"Update IdentityBuilder.cs <typeparam> tag definition
+
+Updated the <typeparam> tag used for AddUserStore<T> to match the definition used for AddRoleStore<T>.",jamiewest,https://api.github.com/repos/dotnet/aspnetcore/git/commits/b10c8ec0b8140b6b40026e10c81497140de0cb79
+42d0d40b36df498f6367326810852ac546c81352,[Fixes #61] Move must keep object reference,TFleury,https://api.github.com/repos/dotnet/aspnetcore/git/commits/42d0d40b36df498f6367326810852ac546c81352
+015dafc25fc5e45c0f7ddc25816b061f5e37844d,"[Feature] String should be an acceptable value for a checkbox if it can be parsed as a boolean (#5845)
+
+- `string` should be an acceptable value for a checkbox if it can be parsed as a `bool`
+- `throw` with different resources when `ModelType` isn't `bool` or `string` and when `string` value is not acceptable",Elfocrash,https://api.github.com/repos/dotnet/aspnetcore/git/commits/015dafc25fc5e45c0f7ddc25816b061f5e37844d
+8d27d9d5832692a36b6803f9123ec314210b353b,"Updates Aurelia project url (#741)
+
+aurealia.io doesn't appear to support https currently",summersk,https://api.github.com/repos/dotnet/aspnetcore/git/commits/8d27d9d5832692a36b6803f9123ec314210b353b
+0a1ac6a70adcbbdadad17bba81b87e084d4591a3,Added missing import in boot.ts in Aurelia template,kelong,https://api.github.com/repos/dotnet/aspnetcore/git/commits/0a1ac6a70adcbbdadad17bba81b87e084d4591a3
+0fd6f1554a3d60836741d7d319a5654fd1214ee4,Fix wrong comment (GitHub -> Google),Senorsen,https://api.github.com/repos/dotnet/aspnetcore/git/commits/0fd6f1554a3d60836741d7d319a5654fd1214ee4
+1b02cd2baf06ddec7ffa030546e709819d8ccfb4,Implement `OwinEnvironment` `IEnumerable.GetEnumerator()` (#789),kchanlee,https://api.github.com/repos/dotnet/aspnetcore/git/commits/1b02cd2baf06ddec7ffa030546e709819d8ccfb4
+9de5519c8b2c5368ee10de5d10ec46ea15fd1e96,"Update of wrong variable name
+
+To avoid confusion when reading the code",JeanCollas,https://api.github.com/repos/dotnet/aspnetcore/git/commits/9de5519c8b2c5368ee10de5d10ec46ea15fd1e96
+3077b8a8c0401a4f3b0f0845b0aa39d298af34b6,Modifies babel config to allow for webpack tree shaking,markthiessen,https://api.github.com/repos/dotnet/aspnetcore/git/commits/3077b8a8c0401a4f3b0f0845b0aa39d298af34b6
+cb0996e9e180b1efbdb22349a562d32fcbc53725,fix remove from cart ajax done,kimbaudi,https://api.github.com/repos/dotnet/aspnetcore/git/commits/cb0996e9e180b1efbdb22349a562d32fcbc53725
+923804ab676d1d4573e36504883a2940a07fb2ea,"Fix typo in Azure AD sample README.md (#1155)
+
+Assuming DEVELOPMENMT should be DEVELOPMENT.",simonwendel,https://api.github.com/repos/dotnet/aspnetcore/git/commits/923804ab676d1d4573e36504883a2940a07fb2ea
+120fec741d3a0f216bada8135ec73cc15f5dbcfb,Add new constructor to TestSever which allows providing preconfigured FeatureCollection to use before Build / Start is invoked. (#967),mattmazzola,https://api.github.com/repos/dotnet/aspnetcore/git/commits/120fec741d3a0f216bada8135ec73cc15f5dbcfb
+11d265bddd405b3cfbcdd54c5d7d1a246e20e6c5,"Avoid entry point assembly being loaded twice during assembly parts discovery.
+
+Addresses https://github.com/aspnet/Mvc/issues/6003",CoskunSunali,https://api.github.com/repos/dotnet/aspnetcore/git/commits/11d265bddd405b3cfbcdd54c5d7d1a246e20e6c5
+365b2c50cb3daed02bbc6a79014d19b66c98f573,Added babel-loader caching to improve subsequent build times. (#777),DanHarman,https://api.github.com/repos/dotnet/aspnetcore/git/commits/365b2c50cb3daed02bbc6a79014d19b66c98f573
+58317b18ce258849e49940d849ff161c5ce523ea,"Fixing NRE when CacheTagHelper throws and exception (#5989)
+
+Fixes #5988",twirpx,https://api.github.com/repos/dotnet/aspnetcore/git/commits/58317b18ce258849e49940d849ff161c5ce523ea
+8165609f4e403eae530ca435b1de3258baf3dc4c,"Logging optimization.2 14 (#944)
+
+* Trivial change to avoid an allocation when logging is off (normal case).",vancem,https://api.github.com/repos/dotnet/aspnetcore/git/commits/8165609f4e403eae530ca435b1de3258baf3dc4c
+347524a11679595edef7143b50801da251e3f1d5,Add status code response capabilities to PrerenderTagHelper and RenderToStringResult. Client can now send status codes back based on client routes.,peterlazzarino,https://api.github.com/repos/dotnet/aspnetcore/git/commits/347524a11679595edef7143b50801da251e3f1d5
+ce409738590448c4821e567edfe4ba1037f8ae91,"Add option to configure Webpack Hot Middleware client
+
+Addresses #667",novascreen,https://api.github.com/repos/dotnet/aspnetcore/git/commits/ce409738590448c4821e567edfe4ba1037f8ae91
+3d29b7854bb454f1e3e0a75af43b67d2f4d80e4d,"Bugfix issue #355: Don't handle Invocation when no InvocationHandler … (#356)
+
+- Don't handle Invocation when no InvocationHandler is present",darxis,https://api.github.com/repos/dotnet/aspnetcore/git/commits/3d29b7854bb454f1e3e0a75af43b67d2f4d80e4d
+6b65ed2d83d2f083babebe984a1dd0a5dc75421b,Fixing minor typo,AlecPapierniak,https://api.github.com/repos/dotnet/aspnetcore/git/commits/6b65ed2d83d2f083babebe984a1dd0a5dc75421b
+c0205cfc4ed3a8fe65d5bf387ef6f8004d4b18a0,"Fix watchOptions in webpack.config.js being ignored by WebpackDevMiddleware (#806)
+
+This enables Docker HMR workflow and the workaround mentioned in this comment: https://github.com/aspnet/JavaScriptServices/issues/806#issuecomment-290081291",pglazkov,https://api.github.com/repos/dotnet/aspnetcore/git/commits/c0205cfc4ed3a8fe65d5bf387ef6f8004d4b18a0
+ea429cccf40a9d1c2746b49c061009f478282f4b,Minimize CSS in production builds (all templates),etimesg,https://api.github.com/repos/dotnet/aspnetcore/git/commits/ea429cccf40a9d1c2746b49c061009f478282f4b
+0a5e9516eddbbfa4a8f2466ac8388c41300c0116,Changed project.json to .csproj,user1336,https://api.github.com/repos/dotnet/aspnetcore/git/commits/0a5e9516eddbbfa4a8f2466ac8388c41300c0116
+37df30929cbb6b0b1cb41cf66c12413b873694e6,Update Aurelia SPA template,MeirionHughes,https://api.github.com/repos/dotnet/aspnetcore/git/commits/37df30929cbb6b0b1cb41cf66c12413b873694e6
+efa0a48fb1ff3401a7868ede31efdd1aca7ad28a,"Add initial Socket transport for Kestrel (#1659)
+
+- This change adds the initial socket transport for Kestrel, all of the tests pass but there are still
+a couple of things that aren't done yet.
+- The functional tests support running both on both transports but tests aren't running for sockets right now. We need to parameterize these. 
+- TimeoutServerTests hard code the libuv transport, this needs to support any transport.
+- There is no handling of connection stopping on application shutdown. This is being implemented in kestrel core so transports don't need to handle it. Sockets won't be the default transport until that is the case.
+- Performance needs to be looked at, today the SocketTransport doesn't dispatch by default and we're not buffering in kestrel.core, this can hurt as the number of kernel calls map 1:1 with application writes.",geoffkizer,https://api.github.com/repos/dotnet/aspnetcore/git/commits/efa0a48fb1ff3401a7868ede31efdd1aca7ad28a
+025870e8b96ee26941bb02ee1e06930b74f068a3,Fix #6159 - Fix deep copy for ControllerModel and ActionModel,Dresel,https://api.github.com/repos/dotnet/aspnetcore/git/commits/025870e8b96ee26941bb02ee1e06930b74f068a3
+3375cf0e28c02056ccb6fa51d297971188357f0d,"Update README.md (#1799)
+
+Kestrel is not (only) libuv-based anymore :)",fgreinacher,https://api.github.com/repos/dotnet/aspnetcore/git/commits/3375cf0e28c02056ccb6fa51d297971188357f0d
+963fcd41edf28e46aa16e0f459bfadc60e25ff02,Add functionality to track online users,gbdrm,https://api.github.com/repos/dotnet/aspnetcore/git/commits/963fcd41edf28e46aa16e0f459bfadc60e25ff02
+54884459bd3bc54fc70b13ae0ac29fdfa0f12c09,Allow proxy middleware to abort long running connections.,mattvperry,https://api.github.com/repos/dotnet/aspnetcore/git/commits/54884459bd3bc54fc70b13ae0ac29fdfa0f12c09
+c9486eac0bbdf589c9955619697d8ca95a33cea4,"Add blog link
+
+I keep searching for this very useful MSDN blog link.",aligneddev,https://api.github.com/repos/dotnet/aspnetcore/git/commits/c9486eac0bbdf589c9955619697d8ca95a33cea4
+f2260d572fcfc5ebe7eb37050a7a53bfda70a2b7,Templates: update React's component's State and Property type,stephtr,https://api.github.com/repos/dotnet/aspnetcore/git/commits/f2260d572fcfc5ebe7eb37050a7a53bfda70a2b7
+043f8fda61931ee23416bd68865f3623f3ce2ac2,Fix typo (delegate) in documentation (#830),cdavid,https://api.github.com/repos/dotnet/aspnetcore/git/commits/043f8fda61931ee23416bd68865f3623f3ce2ac2
+d016950e506e9c944096ad618d89a5108ce77ba6,"Add Aurelia and Vue to framework list
+
+Doing this due to a Stack Overflow question where a dev thought this project doesn't support Aurelia simply b/c this Readme file didn't include it.  Went ahead and added Vue as well for completeness.",AshleyGrant,https://api.github.com/repos/dotnet/aspnetcore/git/commits/d016950e506e9c944096ad618d89a5108ce77ba6
+9d58c8836b2a5c587b22d0795312ae70746e9d21,Switched from av-ts to vue-property-decorator and vue-class-component,ferrx,https://api.github.com/repos/dotnet/aspnetcore/git/commits/9d58c8836b2a5c587b22d0795312ae70746e9d21
+af7303cd8d5712b7d72c380189d76318e0521e80,"Corrected xml-comment for the User-property
+
+Removed comment about setting the User. `User` property only supports `get`.",HenrikWM,https://api.github.com/repos/dotnet/aspnetcore/git/commits/af7303cd8d5712b7d72c380189d76318e0521e80
+a664d38ecdc004a5ab1e5628bbe3c89184663fa0,fix for capitalization of file name (#1166),ffMathy,https://api.github.com/repos/dotnet/aspnetcore/git/commits/a664d38ecdc004a5ab1e5628bbe3c89184663fa0
+795040a8a19be9e4530f4729f9bcc8d2d0a2891e,Remove excessive periods in comments. (#1162),olsh,https://api.github.com/repos/dotnet/aspnetcore/git/commits/795040a8a19be9e4530f4729f9bcc8d2d0a2891e
+d7a3289164ac6d30189d6ea97a740e2e5c297e15,"Outputs vs-2017.3.host.json file
+
+This should now write out the correct file for VS to pick up. The icon is missing since I'm not totally sure about how we should inject that into the _.template.config_ folder. Also, is there a description of each template we can use?",madskristensen,https://api.github.com/repos/dotnet/aspnetcore/git/commits/d7a3289164ac6d30189d6ea97a740e2e5c297e15
+c791ceee492a895bab51278303510b79b6b0f703,Updatged package.json and webpack vendor config,Kevenvz,https://api.github.com/repos/dotnet/aspnetcore/git/commits/c791ceee492a895bab51278303510b79b6b0f703
+ece5e748adea86a4ec49816e15eb507198652c03,"Minor documentation fix for SerializableError
+
+ModelStateEntry -> ModelStateDictionary",Mardoxx,https://api.github.com/repos/dotnet/aspnetcore/git/commits/ece5e748adea86a4ec49816e15eb507198652c03
+bcaa3af92ed04ce2309849ea842c0850b75e7384,"Re-add bootstrap import
+
+In the update to Angular 4, the bootstrap import got removed from boot.client.ts, causing the navbar-toggle menu to longer work in the template.  Re-adding so navbar-toggle is functional again.",danobri,https://api.github.com/repos/dotnet/aspnetcore/git/commits/bcaa3af92ed04ce2309849ea842c0850b75e7384
+80ec97c132c9079f50d8346c27b0bd9fd6e0bf89,Enable tests in the explorer (#245),rjmooney,https://api.github.com/repos/dotnet/aspnetcore/git/commits/80ec97c132c9079f50d8346c27b0bd9fd6e0bf89
+98263cca298fb234344c436dd2ee866ab9567a22,"Enlarged access to SignInOrTwoFactorAsync (#1279)
+
+Does https://github.com/aspnet/Identity/issues/1274",Ponant,https://api.github.com/repos/dotnet/aspnetcore/git/commits/98263cca298fb234344c436dd2ee866ab9567a22
+40bef1bc780c457bccee2b83c8b2d2d2f13f3971,Simplify delegate invoking (#565),huww98,https://api.github.com/repos/dotnet/aspnetcore/git/commits/40bef1bc780c457bccee2b83c8b2d2d2f13f3971
+48bca777fe7e0c66bcfdef13155cd9a5f961695e,"Added ""private"": true to package.json",rosieks,https://api.github.com/repos/dotnet/aspnetcore/git/commits/48bca777fe7e0c66bcfdef13155cd9a5f961695e
+05c6cbe46697ff298aa7e416f7c2873791a03063,Fix documentation for JwtBearerOptions.Events (#1249),gsacavdm,https://api.github.com/repos/dotnet/aspnetcore/git/commits/05c6cbe46697ff298aa7e416f7c2873791a03063
+a247a3d8e6af8d3d22cd43d32680265046179843,Attempting to fix systemd activation with minimal changes (#1925),onyxmaster,https://api.github.com/repos/dotnet/aspnetcore/git/commits/a247a3d8e6af8d3d22cd43d32680265046179843
+d79ca93d7838ee958486ca338094c864060860c5,Change preview 1 to preview 2 and update the URL (#2098),rantri,https://api.github.com/repos/dotnet/aspnetcore/git/commits/d79ca93d7838ee958486ca338094c864060860c5
+3202387d3ffe5bc5f90b1a983ce2429bac9bf355,Fixes typo,jkotalik,https://api.github.com/repos/dotnet/aspnetcore/git/commits/3202387d3ffe5bc5f90b1a983ce2429bac9bf355
+827852efdb4e61f255770ac1b9d6e2bf7c77fa23,Corrected typos in XML Docs in MessageReceivedContext for events in JwtBearer and OpenIdConnect middlesware. (#1336),richstokoe,https://api.github.com/repos/dotnet/aspnetcore/git/commits/827852efdb4e61f255770ac1b9d6e2bf7c77fa23
+3715ec7c3f518bf32bb682f5ce73a448ed57a037,Fix typo,chlowell,https://api.github.com/repos/dotnet/aspnetcore/git/commits/3715ec7c3f518bf32bb682f5ce73a448ed57a037
+372e597f349f20b2d317ea210d89893a65236ea8,"Added Timeout to HttpClient to always be longer than the InvocationTimeoutMilliseconds.
+
+HttpClient defaults to 100 seconds. If InvocationTimeoutMilliseconds is greater than the default of the HttpClient, the task will fail with a Task was canceled exception.",ericgreenmix,https://api.github.com/repos/dotnet/aspnetcore/git/commits/372e597f349f20b2d317ea210d89893a65236ea8
+fc12d722b87932d02146b5270dab07b4a9ea95ac,fix(webpack): fix middleware to specifically serialize options as non-camecased,stephenlautier,https://api.github.com/repos/dotnet/aspnetcore/git/commits/fc12d722b87932d02146b5270dab07b4a9ea95ac
+e2ef51b57c916345a09e1ba1f58f54b58efb723f,"Update UserValidator.cs (#1340)
+
+Fix typo",jamesrcounts,https://api.github.com/repos/dotnet/aspnetcore/git/commits/e2ef51b57c916345a09e1ba1f58f54b58efb723f
+43db99a5686471641eed7913d71dab2dcf0d2464,Updated for the TwitterOptions Validation for the ConsumerKey and Con… (#1337),d-saravanan,https://api.github.com/repos/dotnet/aspnetcore/git/commits/43db99a5686471641eed7913d71dab2dcf0d2464
+488eb44467eb677eab62bdc49aa6255cc1be3119,"Fix obsolete warning message (#1363)
+
+Fixes the messaged shown to developers when they are updating their applications to 2.0. Bad idea to set the domain with some random naming text.",pksorensen,https://api.github.com/repos/dotnet/aspnetcore/git/commits/488eb44467eb677eab62bdc49aa6255cc1be3119
+cc96d9b77d2a427f715a62e5b3aa02a690272b0f,Update readme to link to 2.0 release,bbrandt,https://api.github.com/repos/dotnet/aspnetcore/git/commits/cc96d9b77d2a427f715a62e5b3aa02a690272b0f
+1f709e736d570ae83099c77fe11ddb3b87474572,"Cosmetic changes
+
+Cosmetic changes.",garora,https://api.github.com/repos/dotnet/aspnetcore/git/commits/1f709e736d570ae83099c77fe11ddb3b87474572
+6dddc9d01d4c827544d7a4406804c1fa552c9e4e,Removed json loader from react redux template,agrcrobles,https://api.github.com/repos/dotnet/aspnetcore/git/commits/6dddc9d01d4c827544d7a4406804c1fa552c9e4e
+a7e715c88f1bd8b9390540abdb57f35b0c423542,Small grammatical fix to README.md,slathrop,https://api.github.com/repos/dotnet/aspnetcore/git/commits/a7e715c88f1bd8b9390540abdb57f35b0c423542
+fc398d602a9e908b62028c26fb7ecde827a519f7,"Allow lazy loading with AngularSpa in dev build
+
+Previously, the AngularSpa didn't include `angular2-router-loader`.
+This commit ensures it does.
+
+Closes #1194",frederikprijck,https://api.github.com/repos/dotnet/aspnetcore/git/commits/fc398d602a9e908b62028c26fb7ecde827a519f7
+9b1cbedffcc48154c7c52655efe67927ae933e32,WebSocketClient.ConnectAsync throws when the provided CancellationToken is cancelled.,ericwj,https://api.github.com/repos/dotnet/aspnetcore/git/commits/9b1cbedffcc48154c7c52655efe67927ae933e32
+4917e69ad62a4982741d4fa1926e0203eaf4b267,Fixed spelling mistake,awulkan,https://api.github.com/repos/dotnet/aspnetcore/git/commits/4917e69ad62a4982741d4fa1926e0203eaf4b267
+6b8449f4913c7b495c274f05e2450951a0f22896,"Sortable log files with stdoutLogFile (#131)
+
+Fixes #130",guardrex,https://api.github.com/repos/dotnet/aspnetcore/git/commits/6b8449f4913c7b495c274f05e2450951a0f22896
+87027de89c748649500afd4d0d1a1a44bff24184,Fixed minor typo,manojkulkarni30,https://api.github.com/repos/dotnet/aspnetcore/git/commits/87027de89c748649500afd4d0d1a1a44bff24184
+e8d3587f9ff7dff3b86f974745034ad18de2c44c,"Update README.md
+
+Fix typo",dpen2000,https://api.github.com/repos/dotnet/aspnetcore/git/commits/e8d3587f9ff7dff3b86f974745034ad18de2c44c
+8550a4d93c87e9c370f5065f8e6e25c903b59c55,'Stack Overflow' needs some space,Neme12,https://api.github.com/repos/dotnet/aspnetcore/git/commits/8550a4d93c87e9c370f5065f8e6e25c903b59c55
+1d1a5203dbdbb0c569bec3e02aa099849a1bb80f,Fix spelling mistakes in xml comments (#6755),adrianwright109,https://api.github.com/repos/dotnet/aspnetcore/git/commits/1d1a5203dbdbb0c569bec3e02aa099849a1bb80f
+f0ade24cf784fbadd8dfa3644497981d2144377f,"Updating to new toolset compiler. (#2043)
+
+* Updating to new toolset compiler.
+Now includes ref escaping rules.
+
+* newer version.",VSadov,https://api.github.com/repos/dotnet/aspnetcore/git/commits/f0ade24cf784fbadd8dfa3644497981d2144377f
+a8b7904b00ee933a62724adbb9f89d30b0024e33,"Fix logger category of FileStreamResultExecutor
+
+FileStreamResultExecutor creates a logger for VirtualFileResultExecutor. I suspect this is a copy-and-paste error and creating one for FileStreamResultExecutor was intended instead.",chrarnoldus,https://api.github.com/repos/dotnet/aspnetcore/git/commits/a8b7904b00ee933a62724adbb9f89d30b0024e33
+fea0db3814187c4d1a9c3330ecdf393388c3daf6,Renamed private fields according to coding guidelinesù,MrFrank75,https://api.github.com/repos/dotnet/aspnetcore/git/commits/fea0db3814187c4d1a9c3330ecdf393388c3daf6
+2b9516703b14cbd9104124de80241e8933c774d0,Update comments to use correct class name. (#937),smarts,https://api.github.com/repos/dotnet/aspnetcore/git/commits/2b9516703b14cbd9104124de80241e8933c774d0
+9db92dc6a7bfc22a62ff12053244201c38390da5,"JsonResultExecuter logs type of result.
+- MvcJsonLoggerExtensions.JsonResultExecuting logs result type instead of value
+- Nulls handled more elegantly.
+- Two tests added to JsonResultExecutorTests.cs.
+- #4604",mistakenot,https://api.github.com/repos/dotnet/aspnetcore/git/commits/9db92dc6a7bfc22a62ff12053244201c38390da5
+eff1b42d6e4c90f6173ce5643a3f12b000206158,"Fix comment (#1436)
+
+Fix comment, it's setting sign in scheme (old left-over from copy-paste?)",AndersAbel,https://api.github.com/repos/dotnet/aspnetcore/git/commits/eff1b42d6e4c90f6173ce5643a3f12b000206158
+241880eadc0216918b1f879b403567ff6cb4d03c,"Minor improvements (#1403)
+
+* Fixed exception overwriting due to possible NullReferenceException
+
+* Removed unused local variables",agoretsky,https://api.github.com/repos/dotnet/aspnetcore/git/commits/241880eadc0216918b1f879b403567ff6cb4d03c
+137349edae1bede342eb7c114b16b82b14a0c3d1,Add SignalR to common repository list (#2205),NtFreX,https://api.github.com/repos/dotnet/aspnetcore/git/commits/137349edae1bede342eb7c114b16b82b14a0c3d1
+a7fb24350192f76e3539e60231d89a90eef7c13e,Added typed HubContext,FTWinston,https://api.github.com/repos/dotnet/aspnetcore/git/commits/a7fb24350192f76e3539e60231d89a90eef7c13e
+f71e31a1cd5c8a327f6434baf9dbcf4da96f3265,"Fix the double buffer rent/free (#921)
+
+* Fix the double buffer rent/free
+
+* Fix the double cast to span",Drawaes,https://api.github.com/repos/dotnet/aspnetcore/git/commits/f71e31a1cd5c8a327f6434baf9dbcf4da96f3265
+0fae663b9ae571073ff6cce5a3e438a33fb291ec,"Update WebApplicationTestFixture.cs
+
+removed duplicated code",Meir017,https://api.github.com/repos/dotnet/aspnetcore/git/commits/0fae663b9ae571073ff6cce5a3e438a33fb291ec
+27a3a89b6052747526ed17901b8ea9dcef3ae682,Simplifying ApplicationLifetime.ExecuteHandlers() (#1228),KPixel,https://api.github.com/repos/dotnet/aspnetcore/git/commits/27a3a89b6052747526ed17901b8ea9dcef3ae682
+464fc8a15fe48e8c03b5573c467b4c45486f5581,"Update Default.cshtml
+
+fix area missing in the bottom of dropdown botton",priusprime,https://api.github.com/repos/dotnet/aspnetcore/git/commits/464fc8a15fe48e8c03b5573c467b4c45486f5581
+4a6c74f4f9e4bfa8bbfeacf6342230aec3e562c4,Added ability to set prompt parameter in OpenIdConnectOptions (#1401),gb056,https://api.github.com/repos/dotnet/aspnetcore/git/commits/4a6c74f4f9e4bfa8bbfeacf6342230aec3e562c4
+665f166d67bedb6df53499ab59b618e8a72cf2c0,"fix issue with incorrect user detection when Invoking for User (#747)
+
+* fix issue with incorrect user detection when Invoking for User
+
+* fix failed testcases
+
+* use proper extension method to avoid potential null reference exception
+
+* fix for channel name in redis version + follow SignalR team recommendations
+
+* remove unncessary freespace
+
+* remove whitespaces
+
+* introduce IUserIdProvider to resolve user id
+
+* Move IUserIdProvider from HubLifetimeManager to HubConnectionContext
+
+* setting user id to connection context in hubendpoint",ivankarpey,https://api.github.com/repos/dotnet/aspnetcore/git/commits/665f166d67bedb6df53499ab59b618e8a72cf2c0
+e34a5f8fb8e97b32077e8587261590c3910ad181,"Add MaxAge to OpenIdConnectOptions
+ - max_age parameter added to the authentication request if MaxAge is not null
+ - throws exception if MaxAge is set to a negative value
+ - Fractions of seconds are ignored
+ - See http://openid.net/specs/openid-connect-core-1_0.html#AuthRequest for expected behavior
+
+Addresses #1233",openidauthority,https://api.github.com/repos/dotnet/aspnetcore/git/commits/e34a5f8fb8e97b32077e8587261590c3910ad181
+388fea2ed6510bcf29c19d30572d37b45e16f3e1,"Fix ResetPasswordAsync documentation
+
+This seems like it should be the other way around.",hangy,https://api.github.com/repos/dotnet/aspnetcore/git/commits/388fea2ed6510bcf29c19d30572d37b45e16f3e1
+b442d1af2fa87d925db6188370dff49e9eb8c9f1,Added RavenDB identity provider.,JudahGabriel,https://api.github.com/repos/dotnet/aspnetcore/git/commits/b442d1af2fa87d925db6188370dff49e9eb8c9f1
+700c2afc21fa95060f7b42727cbdfd047ec1aa38,"- Add summary to LockoutOptions AllowedForNewUsers.
+- Move defaults to summary for better intellisense.
+- Added defaults to xml docs where missing.",scottsauber,https://api.github.com/repos/dotnet/aspnetcore/git/commits/700c2afc21fa95060f7b42727cbdfd047ec1aa38
+a709158e8aab448c70f9ef4dd56f28b35e814150,Summary of changes\n\t- Improved logging to browser console\n\nAddresses #802,RoBackman,https://api.github.com/repos/dotnet/aspnetcore/git/commits/a709158e8aab448c70f9ef4dd56f28b35e814150
+af286c81bbca00a532ad5297a8f35c9eb1310684,Groups collection without lock,Gurgen,https://api.github.com/repos/dotnet/aspnetcore/git/commits/af286c81bbca00a532ad5297a8f35c9eb1310684
+a3c1b6d03335675927568c5289d94b345fa795a9,"Avoid allocation of a new char array on every request in RouteCollection class
+
+This is a very small micro-optimization: When LowercaseUrls and/or AppendTrailingSlash
+options are enabled, on every call to RouteCollection.NormalizeVirtualPath a new
+char[] { '?', '#' } is being allocated.",0xfeeddeadbeef,https://api.github.com/repos/dotnet/aspnetcore/git/commits/a3c1b6d03335675927568c5289d94b345fa795a9
+a0733ffa919abb06cc2de8c840cf4dbf9e1db1c7,"RazorPageGenerator: extracted creating RazorEngine into a method [refactoring] (#1727)
+
+* RazorPageGenerator: extracted creating RazorEngine into a method to simplify reusing logic in custom generators
+
+RazorPageGenerator: added optional cli argument with base directory  (previously current dir always was used)",evil-shrike,https://api.github.com/repos/dotnet/aspnetcore/git/commits/a0733ffa919abb06cc2de8c840cf4dbf9e1db1c7
+c567a690bc4364c536a727dd3b64227bb574a0ec,[Fixes #6902] Added an overload for StatusCode that takes in System.Net.HttpStatusCode,dale-palmer,https://api.github.com/repos/dotnet/aspnetcore/git/commits/c567a690bc4364c536a727dd3b64227bb574a0ec
+88cb3df0ebdd524a8c56e74b740296941947fdff,"Added support for multiple values (arrays) in default claim action (#1501)
+
+* Added support for multiple values (arrays) in default claim action
+
+* Added tests to claim action update to support array values",tstojecki,https://api.github.com/repos/dotnet/aspnetcore/git/commits/88cb3df0ebdd524a8c56e74b740296941947fdff
+c59fda0e1be36c8007ac706ad9b35d054d5111eb,Add alternative RavenDB provider by maqduni.,maqduni,https://api.github.com/repos/dotnet/aspnetcore/git/commits/c59fda0e1be36c8007ac706ad9b35d054d5111eb
+f287c46bad4fca409f60bc7328159cb8ddc5ad72,Fix exception message for AuthenticationScheme (#960),azechi,https://api.github.com/repos/dotnet/aspnetcore/git/commits/f287c46bad4fca409f60bc7328159cb8ddc5ad72
+70c8133fce523b6eb42f39cc4da78e9ac11e99dc,"allow paths that contain '.' (#125)
+
+* allow paths that contain '.'
+
+* remove InvalidPathWithDotShouldThrowException test",arerlend,https://api.github.com/repos/dotnet/aspnetcore/git/commits/70c8133fce523b6eb42f39cc4da78e9ac11e99dc
+959486df533b27db89661a202aeda74eeab760ca,"Updating submodule(s)
+
+Common => 07f1348725c4fbdb1a147fb8306bbb3ccf726ff7
+
+[auto-updated: submodules]",aspnetci,https://api.github.com/repos/dotnet/aspnetcore/git/commits/959486df533b27db89661a202aeda74eeab760ca
+5e51cb5c691eda23e965a57ac5d83c8497ff40d6,Fixed summary tag on comment (#1535),Frosthage,https://api.github.com/repos/dotnet/aspnetcore/git/commits/5e51cb5c691eda23e965a57ac5d83c8497ff40d6
+02850d48dd9a3a4a398385a23988a0529333ba58,Add a missing tick to README.md,Phrohdoh,https://api.github.com/repos/dotnet/aspnetcore/git/commits/02850d48dd9a3a4a398385a23988a0529333ba58
+6a31f73984097c2814e1f0409b23c665d4cf2e31,"Corrected typo in IUserTwoFactorTokenProvider.cs
+
+- Corrected typo: ""heck"" should be ""check""",Zarickan,https://api.github.com/repos/dotnet/aspnetcore/git/commits/6a31f73984097c2814e1f0409b23c665d4cf2e31
+2d1aaeb036a831256974db735b6e4a5169261cde,Set log level. (#829),tony-xia,https://api.github.com/repos/dotnet/aspnetcore/git/commits/2d1aaeb036a831256974db735b6e4a5169261cde
+5b6db93383b674861a73e3f35de9cef1d9caad49,fixed minor copy and paste error in mockconnection handler (#2163),JanEggers,https://api.github.com/repos/dotnet/aspnetcore/git/commits/5b6db93383b674861a73e3f35de9cef1d9caad49
+ee5535203ebcc58ca8847d3765632bea4bcdb38e,"Fixed rfc3339 formats to work with all localizations (#7066)
+
+* Amend rfc3339 formats to work with all localizations
+Changed time separator "":"" to ""\:"" to prevent it from being substituted with a localized separtor. For example in it-IT locale, datetime-local was formatted as 2017-11-19T22.52.29.223 instead of correct format 2017-11-19T22:52:29.223",avertes,https://api.github.com/repos/dotnet/aspnetcore/git/commits/ee5535203ebcc58ca8847d3765632bea4bcdb38e
+959e7027b07b6c242f98438b901dc9a57904b097,"Add ValidateComplexTypesIfChildValidationFails to ValidationVisitor
+- Allows more granular control of when model-level validation should run.
+
+Addresses #7014",JeremySkinner,https://api.github.com/repos/dotnet/aspnetcore/git/commits/959e7027b07b6c242f98438b901dc9a57904b097
+e2f6ad6169e229c60cd8d3b6221bb43f66bcabea,"Updated logging extension to remove the period on ValidationFailed
+
+_tokenValidationFailed format string includes the JWT token followed by a period, which if a dev troubleshooting copies incorrectly to the EOL will make the JWT invalid. 
+
+Current: Failed to validate the token eyJhbGc.......HCwFmw.
+Proposed: Failed to validate the token eyJhbGc.......HCwFmw",muqeet-khan,https://api.github.com/repos/dotnet/aspnetcore/git/commits/e2f6ad6169e229c60cd8d3b6221bb43f66bcabea
+9e82629c1fbea1749890d69772c8c13180e7559a,"Add AureliaPlugin to the vendor bundle
+
+This will put aurelia modules into the bundle from the correct distribution folder",MaximBalaganskiy,https://api.github.com/repos/dotnet/aspnetcore/git/commits/9e82629c1fbea1749890d69772c8c13180e7559a
+5e9e3a857418cb3cd0c6c18be8c5ed86984cffad,Make sure to add whitespace after the status code even if the reasonphrase is empty (#2184),Tornhoof,https://api.github.com/repos/dotnet/aspnetcore/git/commits/5e9e3a857418cb3cd0c6c18be8c5ed86984cffad
+74512dc3b234f6adbf2d52fd9f1f99e1043e9aea,"Change HMR install to devDependencies
+
+Changing hot module replacement install from dependencies to devDependencies.  Raised in this Issue: https://github.com/aspnet/JavaScriptServices/issues/1409",JohnGoldsmith,https://api.github.com/repos/dotnet/aspnetcore/git/commits/74512dc3b234f6adbf2d52fd9f1f99e1043e9aea
+6ca98f4dc920e24b2765b2918ef17f61ef94eab2,Removing some unreferenced external dependencies (#691),ahsonkhan,https://api.github.com/repos/dotnet/aspnetcore/git/commits/6ca98f4dc920e24b2765b2918ef17f61ef94eab2
+c925897dde39650309df5d1e9386b67043cbf8d8,Create .github/ISSUE_TEMPLATE.md,mkArtakMSFT,https://api.github.com/repos/dotnet/aspnetcore/git/commits/c925897dde39650309df5d1e9386b67043cbf8d8
+13e4025dacf425ef2ebf0b1377b3b3858aad2c4b,Using nameof() instead of hard-coded string. (#188),Biarity,https://api.github.com/repos/dotnet/aspnetcore/git/commits/13e4025dacf425ef2ebf0b1377b3b3858aad2c4b
+31ef3c49df90731169b9c8ea5a6a707964a8001c,Makes MapHub and MapEndpoint consistent with other ASP.NET Core APIs using PathString. #1188,vany0114,https://api.github.com/repos/dotnet/aspnetcore/git/commits/31ef3c49df90731169b9c8ea5a6a707964a8001c
+1a842e92eccd1a54104b0e723abcc505dd20201b,"Fix dotnet myget npm registry link (#1223)
+
+Fixes #1221",MattJeanes,https://api.github.com/repos/dotnet/aspnetcore/git/commits/1a842e92eccd1a54104b0e723abcc505dd20201b
+9aaaefbb1bd096b7ab061a77c659bb697fe4e25c,"Initialize RequestCookieCollection case insensitive (#981)
+
+* Initialize RequestCookieCollection case insensitive
+
+* Call RequestCookieCollection constructor directly",lundog,https://api.github.com/repos/dotnet/aspnetcore/git/commits/9aaaefbb1bd096b7ab061a77c659bb697fe4e25c
+ad729f0eb159a489b331f4ca3870c44b752bd8c1,fix typo (#215),forki,https://api.github.com/repos/dotnet/aspnetcore/git/commits/ad729f0eb159a489b331f4ca3870c44b752bd8c1
+5b34474502104e172d9b5c28a5149956dbf4de5f,Update F# templates (#190),cartermp,https://api.github.com/repos/dotnet/aspnetcore/git/commits/5b34474502104e172d9b5c28a5149956dbf4de5f
+b3531b23b835e19b4c15483b0d156dbfc45cd789,Show correct missing key name in NoContextType error message,andrewjsaid,https://api.github.com/repos/dotnet/aspnetcore/git/commits/b3531b23b835e19b4c15483b0d156dbfc45cd789
+6bd421d1978d9c63b93a9c4c69107c45eaa130ea,Fixing BackSlashExpander class name,Jetski5822,https://api.github.com/repos/dotnet/aspnetcore/git/commits/6bd421d1978d9c63b93a9c4c69107c45eaa130ea
+0311f9b41570715293e82b793d22aee9e1a60b57,"Throw InvalidDataException instead of FormatException in NegotationProtocol (#1246)
+
+* Throw InvalidDataException instead of FormatException in NegotationProtocol
+ - Modify NegotiationProtocol to throw InvalidDataException
+ - Update NegotiationProtocolTests expectations
+ - Remove test case for InlineData ""Missing required property 'protocol'""
+ - Update JsonHubProtocol & JsonUtils to throw InvalidDataException
+ - Update corresponding test expectations
+ - Add back removed test
+
+Addresses #1203",jackjwilliams,https://api.github.com/repos/dotnet/aspnetcore/git/commits/0311f9b41570715293e82b793d22aee9e1a60b57
+1f285eb8a0577d9310933bc17603cce27b96182e,"Update CONTRIBUTING.MD
+
+Contributing guidelines for this repository reference an obsolete Templates repository.
+
+Instead, potentially suggesting links to appropriate ASP.NET Core template repository.",jasonsturges,https://api.github.com/repos/dotnet/aspnetcore/git/commits/1f285eb8a0577d9310933bc17603cce27b96182e
+88e14a0bfe4836e7019a097f638692f78e1ff6aa,Add constructor for the SelectListItem class,FabienLavocat,https://api.github.com/repos/dotnet/aspnetcore/git/commits/88e14a0bfe4836e7019a097f638692f78e1ff6aa
+ec2ee2272b50e1fdcd0222f5363081ab9be9c445,Fix small typo in method docs (#1557),jkulubya,https://api.github.com/repos/dotnet/aspnetcore/git/commits/ec2ee2272b50e1fdcd0222f5363081ab9be9c445
+5f6f288056b3263a61a55631257db14314a02795,Added support for Thenables,waterfoul,https://api.github.com/repos/dotnet/aspnetcore/git/commits/5f6f288056b3263a61a55631257db14314a02795
+5f838208e820e91b87d4c51b3da12809cdb9b0e8,Fix IUserRoleStore docs (#1594),robertmiles3,https://api.github.com/repos/dotnet/aspnetcore/git/commits/5f838208e820e91b87d4c51b3da12809cdb9b0e8
+9f64c69a2a1005aed3b044209bbb228210d9a510,Disambiguates IFormFile name docs (#935),BadgerCode,https://api.github.com/repos/dotnet/aspnetcore/git/commits/9f64c69a2a1005aed3b044209bbb228210d9a510
+9119433ab778d7adf04c4601917809f2f4582a93,"Add the middleware name to the exception message UseMiddlewareNoInvokeMethod (#993)
+
+Addresses #927
+Addresses aspnet/Home#2692",hossambarakat,https://api.github.com/repos/dotnet/aspnetcore/git/commits/9119433ab778d7adf04c4601917809f2f4582a93
+58411b4cc4badb5ade2c4960c90e6ebf3e1daf2c,"Use header names from HttpAbstractions
+
+Closes aspnet/Home#2319
+
+This will use constants defined in HeaderNames class instead of hard coded strings.",priyanshu92,https://api.github.com/repos/dotnet/aspnetcore/git/commits/58411b4cc4badb5ade2c4960c90e6ebf3e1daf2c
+8079ab8b58d9a705132f7486263d7966e7737ffd,Adding host configurations for F# templates (#281),jmarolf,https://api.github.com/repos/dotnet/aspnetcore/git/commits/8079ab8b58d9a705132f7486263d7966e7737ffd
+d9ad8eca81a1c19354c67112e3b34860fa6ef53b,"update contributing.md
+
+changed ""your"" to ""you're""",rocklan,https://api.github.com/repos/dotnet/aspnetcore/git/commits/d9ad8eca81a1c19354c67112e3b34860fa6ef53b
+5da3c172b52a87788335d4b068c07bbf1c2d8eee,Make build target path platform agnostic,BrianAllred,https://api.github.com/repos/dotnet/aspnetcore/git/commits/5da3c172b52a87788335d4b068c07bbf1c2d8eee
+5a4bc2e6d6814af1bcc1910466d5181a13e90442,Added quotes to paths in build that cause the build to fail when directory has a space in the path #44,markgaze,https://api.github.com/repos/dotnet/aspnetcore/git/commits/5a4bc2e6d6814af1bcc1910466d5181a13e90442
+5dd590e75ec4b95b03971430696545708e292b35,Add clearer exception message to HttpResponseStream ODE (#2305),clarkis117,https://api.github.com/repos/dotnet/aspnetcore/git/commits/5dd590e75ec4b95b03971430696545708e292b35
+103190796f04026a9cd7001881646d730f8ba8f1,Adding RedirectToWwwRule and extension (#297),clockworkmice,https://api.github.com/repos/dotnet/aspnetcore/git/commits/103190796f04026a9cd7001881646d730f8ba8f1
+d6d7a5b1c52274ba329074184f3e47d1fb531816,replaced backslashes with common slashes,d-dizhevsky,https://api.github.com/repos/dotnet/aspnetcore/git/commits/d6d7a5b1c52274ba329074184f3e47d1fb531816
+b38718d77f5fb0615fab2ea65647606588513c08,"Require <script type=""blazor-boot""> to define script injection location",ebekker,https://api.github.com/repos/dotnet/aspnetcore/git/commits/b38718d77f5fb0615fab2ea65647606588513c08
+79460b147c89a54c90374cbf192eca355ad68186,"Update README.md
+
+Add link to Cassandra provider",lkubis,https://api.github.com/repos/dotnet/aspnetcore/git/commits/79460b147c89a54c90374cbf192eca355ad68186
+551158c239f2f5c11cdbb7934c492e36d5bbbcd4,"Fixed exception during deserialization of a message with Redis (#1426)
+
+Changed wrong message type used during deserialization in ""SubscribeToUser""",Dona278,https://api.github.com/repos/dotnet/aspnetcore/git/commits/551158c239f2f5c11cdbb7934c492e36d5bbbcd4
+9341f72b8d489b6c3b6f6f367bc557f8cb3af997,Consumes request before closing connection (#2314),alefranz,https://api.github.com/repos/dotnet/aspnetcore/git/commits/9341f72b8d489b6c3b6f6f367bc557f8cb3af997
+78612fc4b0bddd931d5da05ffa6816496bb8515a,"Getting Started/Build Documentation (#1311)
+
+* Added getting-started documentation.
+
+- High-level getting started docs.
+- Troubleshooting the build docs.
+- Build details docs.",antoinne85,https://api.github.com/repos/dotnet/aspnetcore/git/commits/78612fc4b0bddd931d5da05ffa6816496bb8515a
+9ec207399d021de013352416b1f820d9604e08c6,bug fix: unused parameter in the constructor,agametov,https://api.github.com/repos/dotnet/aspnetcore/git/commits/9ec207399d021de013352416b1f820d9604e08c6
+29991868f32f12f4dc5dcb11e437d494fc895549,Update corefxlab dependencies to preview1 versions (#902),mmitche,https://api.github.com/repos/dotnet/aspnetcore/git/commits/29991868f32f12f4dc5dcb11e437d494fc895549
+a639cab50f43719d3bad768c4bf201e992674eb6,Fixing build instructions in readme,MartynJones87,https://api.github.com/repos/dotnet/aspnetcore/git/commits/a639cab50f43719d3bad768c4bf201e992674eb6
+a72e5db79791030284fd4cb93e403bb55b21d815,Removed code to set response headers -  connection and upgrade as it should be  set by caller e.g. WebSockets Middleware (#2329),brightcr,https://api.github.com/repos/dotnet/aspnetcore/git/commits/a72e5db79791030284fd4cb93e403bb55b21d815
+39951e892eab3e167055fce51c514b44db74b38d,"Don't throw in HttpRequestStream.Flush (#2342)
+
+Because read-only streams apparently can have Flush semantics and this behavior is expected by some of built-in stream wrappers (e. g. CryptoStream)
+
+https://github.com/dotnet/corefx/pull/27327#pullrequestreview-98384813
+https://github.com/aspnet/KestrelHttpServer/issues/2341",kekekeks,https://api.github.com/repos/dotnet/aspnetcore/git/commits/39951e892eab3e167055fce51c514b44db74b38d
+83bf2375b39d2f8f28c1314d1ae0a64e22f025e8,#2035 Do not await OnCompleted handlers before sending the Response (#2324),justinwyer,https://api.github.com/repos/dotnet/aspnetcore/git/commits/83bf2375b39d2f8f28c1314d1ae0a64e22f025e8
+c4eb501343758e536e9bd6c71c7a16d1042025d8,"Emit warnings after off is called (#1513)
+
+* Emit warnings after off is called
+
+If a handler has been registered, and then gets unregistered, the key/methodname still exists in the map and signalr does not warn about a missing handler. Might be by design, but I like it this way.",olofd,https://api.github.com/repos/dotnet/aspnetcore/git/commits/c4eb501343758e536e9bd6c71c7a16d1042025d8
+1e502c53104ce7c82c8b3ed541eab8d8fb591d2f,remove mpf,LunicLynx,https://api.github.com/repos/dotnet/aspnetcore/git/commits/1e502c53104ce7c82c8b3ed541eab8d8fb591d2f
+1c15be550f136ee64ab482742cd95c00ea54fb65,VSIX Changes to have Blazor templates included into VSIX and show up in One ASP.NET Dialog,alexgav,https://api.github.com/repos/dotnet/aspnetcore/git/commits/1c15be550f136ee64ab482742cd95c00ea54fb65
+e3d5fb84e50d97051a3908a64cb25c70b94a6542,Add link to Identity.Firebase (#1656),aguacongas,https://api.github.com/repos/dotnet/aspnetcore/git/commits/e3d5fb84e50d97051a3908a64cb25c70b94a6542
+42dcd0ba2879ccb157fe3ec4cc6b16ea8ba53e69,"UrlHelperFactory.GetUrlHelper throws NullReferenceException when passed
+a null action context.
+
+This change validates the action context parameter.",robward-ms,https://api.github.com/repos/dotnet/aspnetcore/git/commits/42dcd0ba2879ccb157fe3ec4cc6b16ea8ba53e69
+53ab54d7b120a76174f1642e47e80313ee2bbc78,Fix #225.,CXuesong,https://api.github.com/repos/dotnet/aspnetcore/git/commits/53ab54d7b120a76174f1642e47e80313ee2bbc78
+6b2b47a8e6718456410036e42fe4b3728387a2db,"[VSfM] Fix code completion disappearing/reseting because C# part of .cshtml in regenerated
+Razor AddIn generation of C# projection content inside .cshtml depends on code completion being visible hence it needs to know state.
+Since we are using Roslyn code completion API which doesn't have method to check if code completion is visible and also it's internal, only other way would be to make some public static field inside CSharpBinding which indicates visibility of code completion, hence it's better to just store this value inside textView.Properties. We should be able to remove this in 15.8 when we switch to new VSEditor code completion API.",DavidKarlas,https://api.github.com/repos/dotnet/aspnetcore/git/commits/6b2b47a8e6718456410036e42fe4b3728387a2db
+4103d47f0919f9e5b5804d6bd4ee33ad5bb77d15,Rename ns Microsoft.AspNetCore.Authroization.Test to Microsoft.AspNetCore.Authorization.Test (#1693),mode777,https://api.github.com/repos/dotnet/aspnetcore/git/commits/4103d47f0919f9e5b5804d6bd4ee33ad5bb77d15
+f85be6a0c091abc80e6ab8f6d15a81d5ae4794b9,fix typo in ApiController XMLDoc,hede,https://api.github.com/repos/dotnet/aspnetcore/git/commits/f85be6a0c091abc80e6ab8f6d15a81d5ae4794b9
+f6f89554c9245716115fc7b87c32ae628f7fe0f4,"Fix trimming line if CR not directly before LF (#1006)
+
+If the line contains a CR in any location than directly before the LF it would detect a valid line and then trim 2 characters from the end of the line, losing a ""real"" character.",richardhopton,https://api.github.com/repos/dotnet/aspnetcore/git/commits/f6f89554c9245716115fc7b87c32ae628f7fe0f4
+0f622ec53d3c8b8236fc3a6717b386aebf15eed9,ANCM stress app,bangbingsyb,https://api.github.com/repos/dotnet/aspnetcore/git/commits/0f622ec53d3c8b8236fc3a6717b386aebf15eed9
+d24fddcf596a705f480a6ca6e43446838a4af2fe,"Clean up tests
+
+- Make Facebook test server asynchronous to avoid having to
+  block for the result.
+- Clean up some formatting.",poke,https://api.github.com/repos/dotnet/aspnetcore/git/commits/d24fddcf596a705f480a6ca6e43446838a4af2fe
+d6c296ba8c685cef23e5d015a0dbb6848eb5d431,Updating external dependencies to '20180325-03-1519352' (#998),dotnet-maestro-bot,https://api.github.com/repos/dotnet/aspnetcore/git/commits/d6c296ba8c685cef23e5d015a0dbb6848eb5d431
+9a01ec5743aed68f0f8dbd25e932e761f9e45eed,"Corrects spelling of some comments and method names (#398)
+
+* Corrects spelling of some comments and method names
+
+* Correctly renames one more instance of wrongly spelled enableNavigationInteception",MihaMarkic,https://api.github.com/repos/dotnet/aspnetcore/git/commits/9a01ec5743aed68f0f8dbd25e932e761f9e45eed
+64d7091b2b213ab462b65eba809ceefb9cb53376,fix #396 - added TimeSpan serialization and deserialization,bdparrish,https://api.github.com/repos/dotnet/aspnetcore/git/commits/64d7091b2b213ab462b65eba809ceefb9cb53376
+25cf73ed80d944a0698f3c926e9c877b641cba14,Json to struct error 388,MatthewLazarow,https://api.github.com/repos/dotnet/aspnetcore/git/commits/25cf73ed80d944a0698f3c926e9c877b641cba14
+b53d39e16f8ecf8651c44ec4f90e374dec3f1af9,"Corrects spelling of some comments, method name and remove an excess flag",flash2048,https://api.github.com/repos/dotnet/aspnetcore/git/commits/b53d39e16f8ecf8651c44ec4f90e374dec3f1af9
+cda3692d0b91b88b78d607064d137565beaa10da,"Added SVG support (#366) (#435)
+
+* Added SVG support (#366)
+
+* Added E2E tests for SVG",sjroe,https://api.github.com/repos/dotnet/aspnetcore/git/commits/cda3692d0b91b88b78d607064d137565beaa10da
+ef3db51bbf53aa9c7aad4ddb3e4ec57b4cb65fdc,"Text Area Bind Fix for issue #434 (#439)
+
+* Text Area Bind Fix for issue #434
+
+* Correct Typo/Mispelling on test method name.",RyoukoKonpaku,https://api.github.com/repos/dotnet/aspnetcore/git/commits/ef3db51bbf53aa9c7aad4ddb3e4ec57b4cb65fdc
+30ec5827674b5ab1f1891ec5dee0f6ad9ce9ab65,Add `ActiveClass` option to NavLink component,austincummings,https://api.github.com/repos/dotnet/aspnetcore/git/commits/30ec5827674b5ab1f1891ec5dee0f6ad9ce9ab65
+8a368b5610b87e1cf88f1f30106f0bd327d629e0,"Add supportedAuthentication for NoAuth in templates which have NoAuth (#443)
+
+* Add supportedAuthentication for NoAuth in templates which have NoAuth
+
+This is to work around an issue in Visual Studio
+
+* Remove spurious ,
+
+* Add supportedAuthentications to F# Web API vs-2017.3.host.json",phenning,https://api.github.com/repos/dotnet/aspnetcore/git/commits/8a368b5610b87e1cf88f1f30106f0bd327d629e0
+a6bdb9b1ec6ed99978a508e71a7f131be7e4d9fb,"Fix typos in code documentation (#1012)
+
+* Fix typos in code documentation
+
+* Add missing detail to code documentation",nbarbettini,https://api.github.com/repos/dotnet/aspnetcore/git/commits/a6bdb9b1ec6ed99978a508e71a7f131be7e4d9fb
+3f0c2b31a0ba802b3f60b284538e037d7e9da687,"Update README.md
+
+Wanted to make sure people knew to get the latest preview of VS 2017...",chassq,https://api.github.com/repos/dotnet/aspnetcore/git/commits/3f0c2b31a0ba802b3f60b284538e037d7e9da687
+31dfe9196263f2d84f2135b5057e6b4ba437ea2e,Support async access token factory (#1911),veloek,https://api.github.com/repos/dotnet/aspnetcore/git/commits/31dfe9196263f2d84f2135b5057e6b4ba437ea2e
+bec259f976efa3def5a28019b0b4a0b24ab8523e,#364 - Expose HTTP_503_RESPONSE_VERBOSITY option (#447),FabianMeiswinkel,https://api.github.com/repos/dotnet/aspnetcore/git/commits/bec259f976efa3def5a28019b0b4a0b24ab8523e
+1ef5429ca9465421810b00f3af094dea9b0797b2,Remove extra apostrophe,zbecknell,https://api.github.com/repos/dotnet/aspnetcore/git/commits/1ef5429ca9465421810b00f3af094dea9b0797b2
+2e3a1071a884de19d33daa00bbdc2b7614d73646,Correct Twitter OAuth signing code & refactor copy/pasted code. #1695 (#1720),speige,https://api.github.com/repos/dotnet/aspnetcore/git/commits/2e3a1071a884de19d33daa00bbdc2b7614d73646
+8d0f84ea464ed3c0f9ec0a28d9f5f7ecd02617c0,"Add IAuthorizationPolicyProvider sample (#31)
+
+* Add IAuthorizationPolicyProvider sample
+
+* Update IAuthorizationPolicyProvider sample to show falling back to a default provider
+
+* Make project, directory, and namespace names consistent for custom policy provider sample
+
+* Make policy provider sample an MVC app and replace Values controller with a home controller (with views)
+
+* Add cookie authentication and account controller/views
+
+* Update readme and comments to reflect new authorization policy provider scenario
+
+* Add some more information to the access denied page for debugging purposes
+
+* Add some additional logging
+
+* Minor updates based on PR feedback",mjrousos,https://api.github.com/repos/dotnet/aspnetcore/git/commits/8d0f84ea464ed3c0f9ec0a28d9f5f7ecd02617c0
+74b2b6b232aafb9dd40179278574841427de26bd,Set Program class as public in standalone project template,fileman,https://api.github.com/repos/dotnet/aspnetcore/git/commits/74b2b6b232aafb9dd40179278574841427de26bd
+e9b84a298aa8db641295dc977e05430a3ded3bf8,Sample generic host using MSMQ (#1381),polewskm,https://api.github.com/repos/dotnet/aspnetcore/git/commits/e9b84a298aa8db641295dc977e05430a3ded3bf8
+e5d78f8886ea8307139892299715f5c619d7cfe6,Pass list of references via temp file for resolve-dependencies and build commands,marcusbooyah,https://api.github.com/repos/dotnet/aspnetcore/git/commits/e5d78f8886ea8307139892299715f5c619d7cfe6
+a2cb92b358daf7552294060cd947d85afcc07049,"Code improvements of JwtBearer module (#1742)
+
+* Use pattern matching to check exception type in JwtBearerHandler
+
+* Use expression body to configure events in JwtBearerHandler",AMalininHere,https://api.github.com/repos/dotnet/aspnetcore/git/commits/a2cb92b358daf7552294060cd947d85afcc07049
+f9ab9cc6e5b02c49706df255981cbda359599c34,Added readFloatField,msdickinson,https://api.github.com/repos/dotnet/aspnetcore/git/commits/f9ab9cc6e5b02c49706df255981cbda359599c34
+6d872377efa9920a871a6475f844ab857f66bb75,"typo
+
+Just a small typo... ;-)",eakoning,https://api.github.com/repos/dotnet/aspnetcore/git/commits/6d872377efa9920a871a6475f844ab857f66bb75
+043556d1113022210bb5c7972a967d0b1466da2a,"Add support for pointer events
+Change oncontextmenu event from pointerevent to mouseevent (based on MDN docs) - it",attilah,https://api.github.com/repos/dotnet/aspnetcore/git/commits/043556d1113022210bb5c7972a967d0b1466da2a
+2192e00da5a6a5df5f34c78231fa92bdd6c92c6a,"Don't schedule StateHasChanged if async lifecycle events complete synchronously, fixes #760",Suchiman,https://api.github.com/repos/dotnet/aspnetcore/git/commits/2192e00da5a6a5df5f34c78231fa92bdd6c92c6a
+4d92d76b64e3229ea61679945eb8a8bdf4537226,Initial commit providing the AdapterFactory directly to the ObjectAdapter to all for customization of the Adapter selection and the ability to override the built in adapters to leverage their ability as much as possible.,jmudavid,https://api.github.com/repos/dotnet/aspnetcore/git/commits/4d92d76b64e3229ea61679945eb8a8bdf4537226
+cd8f238f835d7f095a12a63bcb2aa45ee0e0775e,Add Content-Type header in HttpClient.ts (#2242),YourFriendBmo,https://api.github.com/repos/dotnet/aspnetcore/git/commits/cd8f238f835d7f095a12a63bcb2aa45ee0e0775e
+ad501dc77f533f969a1efcc7f941b8f2661a8a01,Event payloads for DOM event types,galvesribeiro,https://api.github.com/repos/dotnet/aspnetcore/git/commits/ad501dc77f533f969a1efcc7f941b8f2661a8a01
+0c795c4f3366086504ef7849ec7dd24f5e508928,#7024  Request: ServiceBasedPageModelActivatorProvider,nisha-kaushik,https://api.github.com/repos/dotnet/aspnetcore/git/commits/0c795c4f3366086504ef7849ec7dd24f5e508928
+0f18ff1b9fecd99abc7682f93f182d874e95ea07,Include AuthenticationTicket.Properties in AuthenticationTicket success result handling #1765 (#1767),TimHess,https://api.github.com/repos/dotnet/aspnetcore/git/commits/0f18ff1b9fecd99abc7682f93f182d874e95ea07
+736b7f5042b080958304986088cc21a8c43177ae,Client pings server on interval (#2309),DylanDmitri,https://api.github.com/repos/dotnet/aspnetcore/git/commits/736b7f5042b080958304986088cc21a8c43177ae
+a3300a6a605dd66d79fabc297e8d8abdb8b8edf6,"Add try..finally around RunAsync and WaitForTokenShutdownAsync #1194
+
+The try..finally ensures that the ManualResetEventSlim which AttachCtrlcSigtermShutdown uses is set even when an exception occurs in these two methods.",Rutix,https://api.github.com/repos/dotnet/aspnetcore/git/commits/a3300a6a605dd66d79fabc297e8d8abdb8b8edf6
+f7a9b6f6a3ea27af69632000217912c85c5c545b,Fixing issue in the react and redux template where the test would fail as its not wrapped in a router.,lancscoder,https://api.github.com/repos/dotnet/aspnetcore/git/commits/f7a9b6f6a3ea27af69632000217912c85c5c545b
+1e866f7672a0c7850aa5ed4b166af8f3e4b8042b,"Refactoring SimpleJson.EatWhiteSpace
+-Replacing arbitrary length IndexOf call with unrolled switch statement
+-Reduces deserialization runtime on ~310KB test data from 13s to 5s.",toddlang,https://api.github.com/repos/dotnet/aspnetcore/git/commits/1e866f7672a0c7850aa5ed4b166af8f3e4b8042b
+3610068929e592fe358ee9f56d283561c528cd76,manages when users clicks on a link with the control button pushed. issue #867,RemiBou,https://api.github.com/repos/dotnet/aspnetcore/git/commits/3610068929e592fe358ee9f56d283561c528cd76
+34971c95692c453ad38482ca2625263eafb8e863,"Update Steve Sanderson's demo to latest NDC talk
+
+Steve recently did another NDC talk which is much more up to date. Suggesting that one be linked to instead of the older talk.",mattferderer,https://api.github.com/repos/dotnet/aspnetcore/git/commits/34971c95692c453ad38482ca2625263eafb8e863
+203258d00eb0880bf211e71c7b149b083b8efb14,"Update AnchorTagHelper.cs
+
+Fixed incorrect documentation",ErazerBrecht,https://api.github.com/repos/dotnet/aspnetcore/git/commits/203258d00eb0880bf211e71c7b149b083b8efb14
+dbe054ba6cedad67a0404812ecc48760c612cb37,"Fix /// comments
+
+The returns tag incorrectly states that AddDefaultIdentity<T>
+returns IServiceCollection when it actually returns IdentityBuilder.",tstivers1990,https://api.github.com/repos/dotnet/aspnetcore/git/commits/dbe054ba6cedad67a0404812ecc48760c612cb37
+de12d16b99cc960a2a3df02be58b0b969690ee52,Fix Groovy script to have correct Queue ID (#2492),MattGal,https://api.github.com/repos/dotnet/aspnetcore/git/commits/de12d16b99cc960a2a3df02be58b0b969690ee52
+3a89b5121f2ab1d463a82cde3a6fba511547c32c,"Add para [Parameter] Code Snippet
+
+Code Snippet Category is Blazor.
+Added in the existing VSIX.",vertonghenb,https://api.github.com/repos/dotnet/aspnetcore/git/commits/3a89b5121f2ab1d463a82cde3a6fba511547c32c
+8a77ed23d344c7e438d2772016be3c95f5291ae5,"Added support for ignoring integrity attribute on fallback for the Link TagHelper
+ - Do not include integrity attribute when asp-fallback-intergrity-check is false
+ - Added Unit Tests, manual tests
+
+Addresses #7845",jmhmaine,https://api.github.com/repos/dotnet/aspnetcore/git/commits/8a77ed23d344c7e438d2772016be3c95f5291ae5
+dcd9cf74814dee785e133094e8dc835868bb12d0,Add check for `wwwroot/` unix path separator (#1018),anthonychu,https://api.github.com/repos/dotnet/aspnetcore/git/commits/dcd9cf74814dee785e133094e8dc835868bb12d0
+554855cab34961a27a6cf248fbb847b9dd8bd8d4,"No CORS headers sent if Exception is thrown
+
+- Normally headers are added however if a controller throws an exception then CORS headers not be present.
+
+Addresses aspnet/Home#3220",daniellittledev,https://api.github.com/repos/dotnet/aspnetcore/git/commits/554855cab34961a27a6cf248fbb847b9dd8bd8d4
+331f0b15cd7f3b3056a26d0dfbe5f896e832b17a,Update ServerConnection.cs,deisterhold,https://api.github.com/repos/dotnet/aspnetcore/git/commits/331f0b15cd7f3b3056a26d0dfbe5f896e832b17a
+e1af5b8b6dc147be179e1798d33af91c982e5a4b,"Array or List in query string does not get parsed #7712 (#7967)
+
+- exclude collections when detecting complex types in `ApiBehaviorApplicationModelProvider`
+- add test cases",kishanAnem,https://api.github.com/repos/dotnet/aspnetcore/git/commits/e1af5b8b6dc147be179e1798d33af91c982e5a4b
+d318d733c4c00539ca725a88fa3cb76d1d82ad2c,StreamInvocationMessage => StreamInvocation Message (#2542),windperson,https://api.github.com/repos/dotnet/aspnetcore/git/commits/d318d733c4c00539ca725a88fa3cb76d1d82ad2c
+389ff14a825579ea19f07478e1b14c2093a9f55d,- Changed targetframework of Microsoft.AspNetCore.Blazor.Server from netcoreapp2.0 to netstandard2.0.,zefubachs,https://api.github.com/repos/dotnet/aspnetcore/git/commits/389ff14a825579ea19f07478e1b14c2093a9f55d
+f6befb9ed333b0a76b24b8c438c181e08b1ad0ff,Added ObjectResult implementation for Unauthorized response,ZBAGI,https://api.github.com/repos/dotnet/aspnetcore/git/commits/f6befb9ed333b0a76b24b8c438c181e08b1ad0ff
+c2fcfabdf3f7bbcaaecbc77ecbfe358b3b7e0092,"Add optional property to PartialTagHelper (#7991)
+
+* Add optional to PartialTagHelper
+
+Addresses #7268",AlexejTimonin,https://api.github.com/repos/dotnet/aspnetcore/git/commits/c2fcfabdf3f7bbcaaecbc77ecbfe358b3b7e0092
+033edeaae4594a5be982b309186071d2c3a15ddb,Fix for #1071,uazo,https://api.github.com/repos/dotnet/aspnetcore/git/commits/033edeaae4594a5be982b309186071d2c3a15ddb
+3e0b689ac2ea72a8dee81f8ae3a349610ac1fb0c,Ensure ClientHandler properly honors Host header (#1483) Fix #1481,nulltoken,https://api.github.com/repos/dotnet/aspnetcore/git/commits/3e0b689ac2ea72a8dee81f8ae3a349610ac1fb0c
+80a2a6289563f5aa8bd193dda0fd3f0efe4d2ac2,Update README.md - Added Google Cloud Storage provider link to readme file (#308),ocinbat,https://api.github.com/repos/dotnet/aspnetcore/git/commits/80a2a6289563f5aa8bd193dda0fd3f0efe4d2ac2
+add0b0755d3d6ef50883b6e441706da1366f6118,"Fixed documentation typo (#1862)
+
+Corrected a typo on the XML documentation of the UserId property that made it read ""... sets the of the ...""",wilsonrivera,https://api.github.com/repos/dotnet/aspnetcore/git/commits/add0b0755d3d6ef50883b6e441706da1366f6118
+ed57767e6a3e031217fc018c43d4ea6c1e26bc1e,Removed trailing space from template survey link (#1099),jnm2,https://api.github.com/repos/dotnet/aspnetcore/git/commits/ed57767e6a3e031217fc018c43d4ea6c1e26bc1e
+a5237d16f30aa56520a1aed01ef55a3cb7b57ff0,Fix misleading exception message when adding a TokenProvider,tincann,https://api.github.com/repos/dotnet/aspnetcore/git/commits/a5237d16f30aa56520a1aed01ef55a3cb7b57ff0
+3d46d4edff69f7a71e5d1ccbabeae546edb2cd28,Update README.md,WaiChungK,https://api.github.com/repos/dotnet/aspnetcore/git/commits/3d46d4edff69f7a71e5d1ccbabeae546edb2cd28
+d9d4359a1e4d320c3824974135842b43381f0c5c,"Update README.md
+
+Fixing some hyperlinks that direct to a non-existing url.",ChinShengHao,https://api.github.com/repos/dotnet/aspnetcore/git/commits/d9d4359a1e4d320c3824974135842b43381f0c5c
+601909865ff7b635621a9cf6286ef3b75e2a4d3a,"Fix links that assumed branch ""dev"" exists (which doesn't) (#1725)
+
+* Fix links that assumed branch ""dev"" exists (which doesn't)
+
+* Adressed comments [skip ci]",MSeifert04,https://api.github.com/repos/dotnet/aspnetcore/git/commits/601909865ff7b635621a9cf6286ef3b75e2a4d3a
+31ade48439373c79f5b42cccc9b1e0e201a9692f,"Update CONTRIBUTING.md
+
+Changed CODE_OF_CONDUCT link to relative (absolute link was dead) and changed target branch for aspnet in ""Contributing code and content"" section to master since the dev branch no longer exist.",eskaufel,https://api.github.com/repos/dotnet/aspnetcore/git/commits/31ade48439373c79f5b42cccc9b1e0e201a9692f
+feceb3ddeaf0a0ca7e895eb83674d78fee53515c,Lowercase scheme and host to better align with RFC 6454.,sindhudweep,https://api.github.com/repos/dotnet/aspnetcore/git/commits/feceb3ddeaf0a0ca7e895eb83674d78fee53515c
+1e14a22e0dfe3ebc9c1ddadb69585cee8df471f6,"Change description of role in RequireRole method
+
+The description of the pram roles feels ambiguous. Make it clear that the user should belong to one of the roles and not all of them.
+As documented: https://docs.microsoft.com/en-us/aspnet/core/security/authorization/roles?view=aspnetcore-2.1",woeterman94,https://api.github.com/repos/dotnet/aspnetcore/git/commits/1e14a22e0dfe3ebc9c1ddadb69585cee8df471f6
+89ab0cfde80b1da1e87f563220fcb9bed232d2f3,Initial commit of the HTTP REPL,mlorbetske,https://api.github.com/repos/dotnet/aspnetcore/git/commits/89ab0cfde80b1da1e87f563220fcb9bed232d2f3
+2db11051d86cd2b209989e039dc32d4b7976e54c,Removed Simple request filtering,FlyingWraptor,https://api.github.com/repos/dotnet/aspnetcore/git/commits/2db11051d86cd2b209989e039dc32d4b7976e54c
+3624da47ae932d00b157be854593763375df76d9,fixing typo #1907,Gordon-Beeming,https://api.github.com/repos/dotnet/aspnetcore/git/commits/3624da47ae932d00b157be854593763375df76d9
+844c42189a8605b96c0541980ecb8be03b59b655,Update CONTRIBUTING.md,kustox,https://api.github.com/repos/dotnet/aspnetcore/git/commits/844c42189a8605b96c0541980ecb8be03b59b655
+c8418c6de8d2a4c2b1a04b76efe72d6d3dfb6976,"Derive SocketAwaitable from SocketAsyncEventArgs (#2592)
+
+* SocketSenderReceiverBase as baseclass for SocketSender and SocketReceiver
+* Made SocketAwaitable.GetResult inlineable
+* SocketAwaitable renamed to SocketAwaitableEventArgs and inherited from SocketAsyncEventArgs
+
+Thus saving an extra object (`SocketAwaitable`) and two int-fields, so less allocations.",gfoidl,https://api.github.com/repos/dotnet/aspnetcore/git/commits/c8418c6de8d2a4c2b1a04b76efe72d6d3dfb6976
+b78063d2d4eab19d89bb3525981e6fe1a8a4da3e,Fix locale sensitive unit tests,SIkebe,https://api.github.com/repos/dotnet/aspnetcore/git/commits/b78063d2d4eab19d89bb3525981e6fe1a8a4da3e
+04e58d6ee4d304b2f9ba5773c9a84a6925ca87fe,Changed /* */ style comments to // style comments,marcinburak,https://api.github.com/repos/dotnet/aspnetcore/git/commits/04e58d6ee4d304b2f9ba5773c9a84a6925ca87fe
+fec946759c8369f341c0aca8442ddddf27b7705a,Fix SignInManager to return correct external provider display name,thomaslevesque,https://api.github.com/repos/dotnet/aspnetcore/git/commits/fec946759c8369f341c0aca8442ddddf27b7705a
+e85c36fa8cf3bf29dee1be72289031b418b408cd,"Clarify CORS policy result log messages (#177)
+
+Fixes https://github.com/aspnet/Home/issues/3419",cmeeren,https://api.github.com/repos/dotnet/aspnetcore/git/commits/e85c36fa8cf3bf29dee1be72289031b418b408cd
+9652fbd2b438ad64415278f2224286dadebcc7ab,"Fix default None items not being removed from ClientApp directory
+
+Content MSBuild items from the ClientApp directory are removed from
+the project using an MSBuild and then all files are added as None
+items. None items that were added by the .NET Core SDK default MSBuild
+items were not being removed from the ClientApp directory. This
+resulted in duplicate files shown in Visual Studio for Mac. This
+affected all the SPA project templates.
+
+Fixes #559",mrward,https://api.github.com/repos/dotnet/aspnetcore/git/commits/9652fbd2b438ad64415278f2224286dadebcc7ab
+c9a4ee8b719ffb01eb44705d68efd158eb80c221,Change List<Action> to Action (#1480),alfredmyers,https://api.github.com/repos/dotnet/aspnetcore/git/commits/c9a4ee8b719ffb01eb44705d68efd158eb80c221
+1e2c330d50c62ffa15551e084ee8cc39cec12340,"Remove workaround for dotnet/corefx#24562 (#2863)
+
+This issue caused a bind to a recently used endpoint to fail on macOS and Linux.
+
+Addresses #2820",drieseng,https://api.github.com/repos/dotnet/aspnetcore/git/commits/1e2c330d50c62ffa15551e084ee8cc39cec12340
+2eaa17f5610a0e79bdaf3056492f5173f7ff8538,include credentials when fetching blazor.boot.json to enable windows auth (#1200),chris-ray,https://api.github.com/repos/dotnet/aspnetcore/git/commits/2eaa17f5610a0e79bdaf3056492f5173f7ff8538
+6cd4cf1a7a19b35c87f9c123ecf390b700d4bec8,Fix typos in samples,zhiliangxu,https://api.github.com/repos/dotnet/aspnetcore/git/commits/6cd4cf1a7a19b35c87f9c123ecf390b700d4bec8
+8f7d995508df0c4466b3ebc1bfbe1d215ce43565,Added Entity Framework Core backed IXmlRepository with tests and sample (#303),dansward,https://api.github.com/repos/dotnet/aspnetcore/git/commits/8f7d995508df0c4466b3ebc1bfbe1d215ce43565
+223a2fed973bcdba94e4aee3393759f27a071998,Don't intercept clicks for links that open in external frames #1352 (#1354),cores-system,https://api.github.com/repos/dotnet/aspnetcore/git/commits/223a2fed973bcdba94e4aee3393759f27a071998
+201c058b9379b584317b912a4928a83ad7b569bf,Fix TestWebSocketConnectionFeature that CancellationToken is not working (#2906),vicancy,https://api.github.com/repos/dotnet/aspnetcore/git/commits/201c058b9379b584317b912a4928a83ad7b569bf
+bca31601905a100896cf1a460ec062df023862f5,"Remove redundant check
+
+fixed https://github.com/aspnet/Mvc/issues/8374",HassanHashemi,https://api.github.com/repos/dotnet/aspnetcore/git/commits/bca31601905a100896cf1a460ec062df023862f5
+fde503d03adea0d2b3bac06cc61177a00e02be0d,Don't call GetValidity method twice.,xin9le,https://api.github.com/repos/dotnet/aspnetcore/git/commits/fde503d03adea0d2b3bac06cc61177a00e02be0d
+b156dee4f175406a7cdcaaeb2b2a393f2a6abca0,Fix some spelling (#8378),SimonCropp,https://api.github.com/repos/dotnet/aspnetcore/git/commits/b156dee4f175406a7cdcaaeb2b2a393f2a6abca0
+74ba9898f485d688c69b60413fa6d11e9da9b019,"[Fixes #8250] Improve the error message when TEntryPoint is not in an entry point assembly
+
+Validates that the type used as a generic argument in WebApplicaitonFactory is contained within the entry point to assembly and throws InvalidOperationException otherwise",caseylobrien,https://api.github.com/repos/dotnet/aspnetcore/git/commits/74ba9898f485d688c69b60413fa6d11e9da9b019
+6546c55f4c2877178b6f3e38a65ae20d01e82b54,"Removal of global.json from the template
+I remove only global.json from the template, and leave global.json in the repository root, since it is required for the build.
+See #1324",kant2002,https://api.github.com/repos/dotnet/aspnetcore/git/commits/6546c55f4c2877178b6f3e38a65ae20d01e82b54
+99d277ae512b3dbb6556814a6634b4d17a3f6b0f,"LocalizedHtmlString.Value doesn't include arguments (#8376)
+
+* Clarify that Value is prior to formatting with any constructor arguments",gqqnbig,https://api.github.com/repos/dotnet/aspnetcore/git/commits/99d277ae512b3dbb6556814a6634b4d17a3f6b0f
+d36dcca7134541e610d2ddaf2083a5495ffc0920,"Handle IPv4ToIPv6 Mapped Addresses when checking known proxies/networks (#359)
+
+* Un-Map IPv4-to-IPv6-Mapped ips before comparing to known proxies/networks. Addresses #358
+
+* Checking both mapped and unmapped versions of IPv4toIPv6 ips. Addresses #358
+
+* Confirm IPv4toIPv6 mapping/unmapping. Addresses #358",SebastianC,https://api.github.com/repos/dotnet/aspnetcore/git/commits/d36dcca7134541e610d2ddaf2083a5495ffc0920
+72f7e52e1edcb70f265b786f47d5f212d9a27270,Remove blank line,jo-ninja,https://api.github.com/repos/dotnet/aspnetcore/git/commits/72f7e52e1edcb70f265b786f47d5f212d9a27270
+4a4dde182f178280be535e3328cb40cdf62aa244,replacing string interpolation with proper logging syntax (#363),daniel-white,https://api.github.com/repos/dotnet/aspnetcore/git/commits/4a4dde182f178280be535e3328cb40cdf62aa244
+a7e412ec8037312465e3967a140a569ea63d8bd1,Fix category logger for HttpsConnectionAdapter and LoggingConnectionAdapter. #2929 (#2935),tiago-soczek,https://api.github.com/repos/dotnet/aspnetcore/git/commits/a7e412ec8037312465e3967a140a569ea63d8bd1
+d4e2c281459abd1a380d8e085f35e86f3ccd751c,"Amend link for [docs]
+
+The current link for docs points to the wiki which does not have a lot of documentation. Suggest pointing to https://blazor.net/docs/index.html",conficient,https://api.github.com/repos/dotnet/aspnetcore/git/commits/d4e2c281459abd1a380d8e085f35e86f3ccd751c
+bd2c69270288adf84485ec8a7533f0512ec2dd28,add arm64 sharedfx builds,Petermarcu,https://api.github.com/repos/dotnet/aspnetcore/git/commits/bd2c69270288adf84485ec8a7533f0512ec2dd28
+6699804fe944efbde3f535df4b1b8a22e4e6c932,Do not compress response if it is already compressed (#305) (#365),melnikov77,https://api.github.com/repos/dotnet/aspnetcore/git/commits/6699804fe944efbde3f535df4b1b8a22e4e6c932
+067d245f9453586a400b8c316a62cd36de215f06,Fix negative route params. Fixes #1437,KristianJakubik,https://api.github.com/repos/dotnet/aspnetcore/git/commits/067d245f9453586a400b8c316a62cd36de215f06
+59ca023f4633ccb34685feec8f18e88560120fdb,Deleting references to 'react-hot-loader/webpack' and 'react-hot-loader/patch' as it was removed in v4 of react-hot-loader. Bumping peer dependency of webpack to 3 and 4,tjaskula,https://api.github.com/repos/dotnet/aspnetcore/git/commits/59ca023f4633ccb34685feec8f18e88560120fdb
+cbed7393a21483cf25cda77dea8b7cda2b51751f,Add XML documentation for IFormFileCollection. #3528 (#1040),Marusyk,https://api.github.com/repos/dotnet/aspnetcore/git/commits/cbed7393a21483cf25cda77dea8b7cda2b51751f
+cc610955dbc9aea4b649588779c49a4bfbf72630,Support mime-type wildcards #121 @andrewslavin,andrewslavin,https://api.github.com/repos/dotnet/aspnetcore/git/commits/cc610955dbc9aea4b649588779c49a4bfbf72630
+fa961b003f74f0e6dbeebe97a992a447b043764e,"Added execution time duration (HealthReportEntry TotalDuration) (#493)
+
+* Added execution time duration into HealthReportEntry and TotalDuration on HealthReport
+
+* review PR feedback from @rynowak.
+
+* added the same duration into HealthReportEntry and log when the health check throw",unaizorrilla,https://api.github.com/repos/dotnet/aspnetcore/git/commits/fa961b003f74f0e6dbeebe97a992a447b043764e
+08530dfc627a674ea9832fcd28fd615c7502c43f,Update README.md,analyticsdriven,https://api.github.com/repos/dotnet/aspnetcore/git/commits/08530dfc627a674ea9832fcd28fd615c7502c43f
+88cd4573a6a068c310701432748aa14a381dbbca,"Added a ""."" to the end of ln. 41",simpman4,https://api.github.com/repos/dotnet/aspnetcore/git/commits/88cd4573a6a068c310701432748aa14a381dbbca
+d414ed107fea95323db2b74c70c80691130fbd3a,updated MSRC link,alenros,https://api.github.com/repos/dotnet/aspnetcore/git/commits/d414ed107fea95323db2b74c70c80691130fbd3a
+fc6ac2361e056306d5236996d22fc30719a2315b,Fix Typo (#1044),hamjo,https://api.github.com/repos/dotnet/aspnetcore/git/commits/fc6ac2361e056306d5236996d22fc30719a2315b
+e9eea50966ff8bd8bcae304c107f90c9022e9e57,"Implement #2230 - Consume BindingAddress instead of ServerAddress (#2975)
+
+* #2230 Mark ServerAddress as obsolete
+
+* #2230 suppress CS0618 errors for obsoleted ServerAddress class
+
+* #2230 Use BindingAddress instead of ServerAddress",SonicGD,https://api.github.com/repos/dotnet/aspnetcore/git/commits/e9eea50966ff8bd8bcae304c107f90c9022e9e57
+596f8acce1f16f30c83ba99f0b7d337778e2fdc8,"Refine documentation formatting (#3080)
+
+* Fix installation command formatting in the readme.
+
+* Add more syntax highlighting to JS test docs.
+
+* Add syntax highlighting to transport docs.",arturdryomov,https://api.github.com/repos/dotnet/aspnetcore/git/commits/596f8acce1f16f30c83ba99f0b7d337778e2fdc8
+956441aa68ce7516bce69fda616a0fe060c83882,"Ignore created URI if Assembly.CodeBase contains a fragment (#8556)
+
+* Fixes #8367",sqdavid,https://api.github.com/repos/dotnet/aspnetcore/git/commits/956441aa68ce7516bce69fda616a0fe060c83882
+fe82fd9682191ff27afdb79c9f6a09906e9a4b1b,Committing changes required to have SignalR depend on the centralized Microsoft BOM file for Java libraries (#3114),JonathanGiles,https://api.github.com/repos/dotnet/aspnetcore/git/commits/fe82fd9682191ff27afdb79c9f6a09906e9a4b1b
+05d729b4098a4f9015c88aaae680dcb0cf072480,UrlHelperBase L166-167 declared type of url in TryFastGenerateUrl,Psypher9,https://api.github.com/repos/dotnet/aspnetcore/git/commits/05d729b4098a4f9015c88aaae680dcb0cf072480
+0b76599c31b3fa367dc172272e81cee87a634ba9,"Improve conformance of replace operations to spec
+
+This ensures that JSON patch ""replace"" operations are functionally
+equivalent to ""remove"" operations followed by ""add"" operations at the
+same path, as RFC 6902 specifies.
+
+Addresses #110",TAGC,https://api.github.com/repos/dotnet/aspnetcore/git/commits/0b76599c31b3fa367dc172272e81cee87a634ba9
+7918fe2c3907ba2418985d7414c2f810c14ad5a2,"Update README.md
+
+Add links to the docs.",zwcloud,https://api.github.com/repos/dotnet/aspnetcore/git/commits/7918fe2c3907ba2418985d7414c2f810c14ad5a2
+1ff9a3d80c2f1f6055e2353cc478d4a4f3ba7a12,"Fixed broken link (#504)
+
+The link (https://github.com/aspnet/Home/blob/dev/CONTRIBUTING.md) was broken due to merging of repo's.",synercoder,https://api.github.com/repos/dotnet/aspnetcore/git/commits/1ff9a3d80c2f1f6055e2353cc478d4a4f3ba7a12
+efb66fe8e9f80453ab7dde5e63f55a2b5d5468db,add DocumentDB provider to community provider list,FelschR,https://api.github.com/repos/dotnet/aspnetcore/git/commits/efb66fe8e9f80453ab7dde5e63f55a2b5d5468db
+a43587290fecff5a1229d8cb7f26603c01c7ab1d,fix : DefaultFilesMiddleware serve with unicode path (#257),newbienewbie,https://api.github.com/repos/dotnet/aspnetcore/git/commits/a43587290fecff5a1229d8cb7f26603c01c7ab1d
+39c25357c621bf11c700ed268e5ef27e0eaf2160,Skip extensions in SetCookie parser #1049 (#1050),dhmuralikrishna,https://api.github.com/repos/dotnet/aspnetcore/git/commits/39c25357c621bf11c700ed268e5ef27e0eaf2160
+fb6427a46aab9a8eca93f1038c5139fc9d1ccfb7,escape quotes in event handler attribute content,BickelLukas,https://api.github.com/repos/dotnet/aspnetcore/git/commits/fb6427a46aab9a8eca93f1038c5139fc9d1ccfb7
+32177cad1eb1eb6be8ad89a7dba1a1637c0d0786,Added missing Div tag in JwtBearer sample. (#1888),Syliddar,https://api.github.com/repos/dotnet/aspnetcore/git/commits/32177cad1eb1eb6be8ad89a7dba1a1637c0d0786
+b260e7752afd500cb86b5681239146955b9523f6,"Merge pull request #504 from aspnet/dev/antonpis/SecretsManagerCPSBreak
+
+Update CPS packages with breaking changes",abpiskunov,https://api.github.com/repos/dotnet/aspnetcore/git/commits/b260e7752afd500cb86b5681239146955b9523f6
+0aab8e5dd058a449636d8cc74c1814073a709f1f,"added maven badge to readme.md (#3201)
+
+* added lines to the sample code that result in it working with copy/paste
+
+* removed readme.md change
+
+* added maven badge to readme.md",bradygaster,https://api.github.com/repos/dotnet/aspnetcore/git/commits/0aab8e5dd058a449636d8cc74c1814073a709f1f
+168be7b561f1f069144554bb774673cc6f30f726,Use the correct logging category inside RegisterModel,huysentruitw,https://api.github.com/repos/dotnet/aspnetcore/git/commits/168be7b561f1f069144554bb774673cc6f30f726
+e8b9dc52ba897ad54a828412dc94d3b9ec311bf7,"Fix NullPointerException when unboxing null to int.
+
+Change int to Integer to allow use null as code.",DHosseiny,https://api.github.com/repos/dotnet/aspnetcore/git/commits/e8b9dc52ba897ad54a828412dc94d3b9ec311bf7
+af6527dcefe61acd8f6ff1fe7d4f90a42ec27297,Fix XML doc on HttpMethodAttribute and derived ones,Prologh,https://api.github.com/repos/dotnet/aspnetcore/git/commits/af6527dcefe61acd8f6ff1fe7d4f90a42ec27297
+9de04520e05b9458e376e8c0780fdff4dd7bade4,Add `user-secret init` command for adding a UserSecretsId to a project file (#500),liamdawson,https://api.github.com/repos/dotnet/aspnetcore/git/commits/9de04520e05b9458e376e8c0780fdff4dd7bade4
+bf9fd0d10667e605d1df45f89e198be7f3bd1138,"Prevent null refs when copying a property with a null value
+
+* Fix aspnet/AspNetCore#3559 Json Patch: System.NullReferenceException while trying to use copy operation from property with null value.
+
+* Fix aspnet/AspNetCore#3559: Missing tests added.",Iamcerba,https://api.github.com/repos/dotnet/aspnetcore/git/commits/bf9fd0d10667e605d1df45f89e198be7f3bd1138
+42dd66647dd389c242ff796a530b880c7b9d7a90,refactor: Rename param from requiredValues to allowedValues to better indicate usage. (#1908),benmccallum,https://api.github.com/repos/dotnet/aspnetcore/git/commits/42dd66647dd389c242ff796a530b880c7b9d7a90
+01c1f7b187cacccb4fc5323a2543e99f61074ed5,Fix typo (#2066),blankenbush,https://api.github.com/repos/dotnet/aspnetcore/git/commits/01c1f7b187cacccb4fc5323a2543e99f61074ed5
+218281cb8f0e221efe37e1860b5bd6b002a4de28,Merge in 'release/2.2' changes,dotnet-bot,https://api.github.com/repos/dotnet/aspnetcore/git/commits/218281cb8f0e221efe37e1860b5bd6b002a4de28
+07c3931758dc141a44c04b64a92f2a99cb4c4152,#3697 - override default install location,joeloff,https://api.github.com/repos/dotnet/aspnetcore/git/commits/07c3931758dc141a44c04b64a92f2a99cb4c4152
+f9623c2c27d3e517d2c79ee353e7040d6a6551e4,"Hardcode two constants from Microsoft.VisualStudio.ImageCatalog.dll
+
+This removes the runtime reference to ImageCatalog which is not available on VS for Mac.",KirillOsenkov,https://api.github.com/repos/dotnet/aspnetcore/git/commits/f9623c2c27d3e517d2c79ee353e7040d6a6551e4
+a04dd4877cdf6fe23724db763461d9d1a108ebc9,Benchmarks: add Razor rendering benchmarks (#8765),m0sa,https://api.github.com/repos/dotnet/aspnetcore/git/commits/a04dd4877cdf6fe23724db763461d9d1a108ebc9
+142b6a73ec3cb230dfb7a32b07d8041d46ba152d,Fix links in JavaScriptServices README.md (#4361),martinstenhoff,https://api.github.com/repos/dotnet/aspnetcore/git/commits/142b6a73ec3cb230dfb7a32b07d8041d46ba152d
+7e7018608d5001533eba0c1c1728de25a6d0454a,Fix spelling in AzureAppServicesHostingStartup.cs (#4390),VictorioBerra,https://api.github.com/repos/dotnet/aspnetcore/git/commits/7e7018608d5001533eba0c1c1728de25a6d0454a
+98e5c8c0b3c0625947dfe3ade272282286005a2d,Update OpenIdConnectOptions.cs (#4408),hvanbakel,https://api.github.com/repos/dotnet/aspnetcore/git/commits/98e5c8c0b3c0625947dfe3ade272282286005a2d
+1670a2bd3040f4abe0a3ad025da38c478002b324,Updating scaffolding submodule (#4491),seancpeters,https://api.github.com/repos/dotnet/aspnetcore/git/commits/1670a2bd3040f4abe0a3ad025da38c478002b324
+d73d95f1d4a18c63787649877f45ff1ee406f297,CookieSecurePolicy documentation update (#3670) (#4542),TKharaishvili,https://api.github.com/repos/dotnet/aspnetcore/git/commits/d73d95f1d4a18c63787649877f45ff1ee406f297
+838bb11c1eae6b83cab515eb2ca012c86877f687,Adjust font-weight in diagnostics error page to make it easier to read (#4534),06b,https://api.github.com/repos/dotnet/aspnetcore/git/commits/838bb11c1eae6b83cab515eb2ca012c86877f687
+b7f106eaf15ff62bb542bc1c84d1f6b3ad66cc0e,Update React-Redux client app to use TypeScript instead of JavaScript,martinpe36,https://api.github.com/repos/dotnet/aspnetcore/git/commits/b7f106eaf15ff62bb542bc1c84d1f6b3ad66cc0e
+19276ce01c24682049481bb76d991caa9c5b9af3,Remove nameof from log events,Kahbazi,https://api.github.com/repos/dotnet/aspnetcore/git/commits/19276ce01c24682049481bb76d991caa9c5b9af3
+74d900ea56ff06ed7d1be9d5ac94af723c3ed1ad,"Add setter to HealthCheckOptions.ResultStatusCodes
+
+All other properties (`Predicate`, `ResponseWriter` and `AllowCachingResponses`) have a setter but `ResultStatusCodes` doesn't.
+
+Without a setter, reusing the same status to http status code mapping is impossible and leads to duplicate code that looks like this:
+
+```csharp
+private static void ConfigureHealthChecks(IApplicationBuilder app, HealthCheckServiceOptions options)
+{
+    app.UseHealthChecks(""/health"", new HealthCheckOptions
+    {
+        ResultStatusCodes =
+        {
+            [HealthStatus.Healthy] = StatusCodes.Status200OK,
+            [HealthStatus.Degraded] = StatusCodes.Status400BadRequest,
+            [HealthStatus.Unhealthy] = StatusCodes.Status503ServiceUnavailable
+        }
+    });
+    foreach (var name in options.Registrations.Select(e => e.Name))
+    {
+        app.UseHealthChecks($""/health/{name}"", new HealthCheckOptions
+        {
+            Predicate = registration => registration.Name == name,
+            ResultStatusCodes =
+            {
+                [HealthStatus.Healthy] = StatusCodes.Status200OK,
+                [HealthStatus.Degraded] = StatusCodes.Status400BadRequest,
+                [HealthStatus.Unhealthy] = StatusCodes.Status503ServiceUnavailable
+            }
+        });
+    }
+}
+```
+
+With a setter, this code could be rewritten in a *don't repeat yourself* (DRY) way:
+
+```csharp
+private static void ConfigureHealthChecks(IApplicationBuilder app, HealthCheckServiceOptions options)
+{
+    var resultStatusCodes = new Dictionary<HealthStatus, int>
+    {
+        [HealthStatus.Healthy] = StatusCodes.Status200OK,
+        [HealthStatus.Degraded] = StatusCodes.Status400BadRequest,
+        [HealthStatus.Unhealthy] = StatusCodes.Status503ServiceUnavailable
+    };
+    app.UseHealthChecks(""/health"", new HealthCheckOptions
+    {
+        ResultStatusCodes = resultStatusCodes
+    });
+    foreach (var name in options.Registrations.Select(e => e.Name))
+    {
+        app.UseHealthChecks($""/health/{name}"", new HealthCheckOptions
+        {
+            Predicate = registration => registration.Name == name,
+            ResultStatusCodes = resultStatusCodes
+        });
+    }
+}
+```",0xced,https://api.github.com/repos/dotnet/aspnetcore/git/commits/74d900ea56ff06ed7d1be9d5ac94af723c3ed1ad
+0d200b432896825b0789aa0784ff3ba63068e43e,fix starts.cmd when there is a space in user name (#5963),MarkDixonTech,https://api.github.com/repos/dotnet/aspnetcore/git/commits/0d200b432896825b0789aa0784ff3ba63068e43e
+5475c6c6a348833e3e49bc08f8eb297a66b77f12,removed IPEndPointParser (#6051),noslaver,https://api.github.com/repos/dotnet/aspnetcore/git/commits/5475c6c6a348833e3e49bc08f8eb297a66b77f12
+6469851a121ccd89594ea6b7307915eb9abf049a,Adding Amazon Cognito to the list of supported Identity providers (#6039),assyadh,https://api.github.com/repos/dotnet/aspnetcore/git/commits/6469851a121ccd89594ea6b7307915eb9abf049a
+5665d78ffe6c2e414c42548facfe3e6375192f4e,Correct documentation wording (#6220),disklosr,https://api.github.com/repos/dotnet/aspnetcore/git/commits/5665d78ffe6c2e414c42548facfe3e6375192f4e
+6a98c6862880060468a9534392dc39ce96615e74,"Code cleanup response caching middleware (#6124)
+
+* minor code cleanups
+
+* comment public interface
+
+* simplified some things using language features",b-w,https://api.github.com/repos/dotnet/aspnetcore/git/commits/6a98c6862880060468a9534392dc39ce96615e74
+36529e4a344167692f30f8ca21c2040dc38a388e,Removed extra curly bracket (#6558) (#6559),davidkaya,https://api.github.com/repos/dotnet/aspnetcore/git/commits/36529e4a344167692f30f8ca21c2040dc38a388e
+0b8e16f10abf11eef1c31c11e840aec51fd82dc5,Detatch CancelKeyPress and ProcessExit event handlers when IWebHost.RunAsync is completed. (#6638),CBaud,https://api.github.com/repos/dotnet/aspnetcore/git/commits/0b8e16f10abf11eef1c31c11e840aec51fd82dc5
+c560edee288478e0c9cefce6c4ed31f01b8298a7,"Fixed the bug in the windows service host where if application stop is requested, the service wouldn't know about it. (#4553)
+
+* Fixed the bug in the windows service host where if application stop is requested, the service wouldn't know about it.
+
+* Fixed a typo.
+
+* Update src/Hosting/WindowsServices/test/Microsoft.AspNetCore.Hosting.WindowsServices.Tests.csproj
+
+* Removed unneeded EditorBrowsable for internal API.
+
+* Fixed tests to ignore Linux and MacOS.
+
+* Added new line to end of file.
+
+* Using [ConditionalFact] instead of [Fact].",zlatanov,https://api.github.com/repos/dotnet/aspnetcore/git/commits/c560edee288478e0c9cefce6c4ed31f01b8298a7
+f07252378039f1c31b3fd7eb64953f37c82a2ad1,"Minor argument check fixes
+
+Fixed `nameof()` reference to be consistent with arg being checked. Added null check for port to be consistent with earlier overload.",tillig,https://api.github.com/repos/dotnet/aspnetcore/git/commits/f07252378039f1c31b3fd7eb64953f37c82a2ad1
+c2a0f894482895aa5af6e80dafa1e22724d5bd8f,"Update dependencies (#6841)
+
+This pull request updates the following dependencies
+
+Updates from https://github.com/dotnet/corefx
+
+- System.ComponentModel.Annotations - 4.6.0-preview.19067.6
+- Microsoft.CSharp - 4.6.0-preview.19067.6
+- Microsoft.Win32.Registry - 4.6.0-preview.19067.6
+- System.Runtime.CompilerServices.Unsafe - 4.6.0-preview.19067.6
+- System.Security.Cryptography.Cng - 4.6.0-preview.19067.6
+- System.Reflection.Metadata - 1.7.0-preview.19067.6
+- System.Security.Cryptography.Pkcs - 4.6.0-preview.19067.6
+- System.Security.Cryptography.Xml - 4.6.0-preview.19067.6
+- System.Security.Permissions - 4.6.0-preview.19067.6
+- System.Security.Principal.Windows - 4.6.0-preview.19067.6
+- System.ServiceProcess.ServiceController - 4.6.0-preview.19067.6
+- System.Text.Encodings.Web - 4.6.0-preview.19067.6
+- System.Threading.Channels - 4.6.0-preview.19067.6
+- System.Data.SqlClient - 4.7.0-preview.19067.6
+- System.Diagnostics.DiagnosticSource - 4.6.0-preview.19067.6
+- System.Diagnostics.EventLog - 4.6.0-preview.19067.6
+- System.Net.Http.WinHttpHandler - 4.6.0-preview.19067.6
+- System.Net.WebSockets.WebSocketProtocol - 4.6.0-preview.19067.6
+- System.Numerics.Vectors - 4.6.0-preview.19067.6
+- System.IO.Pipelines - 4.6.0-preview.19067.6
+
+Updates from https://github.com/dotnet/core-setup
+
+- Microsoft.DotNet.PlatformAbstractions - 3.0.0-preview-27317-6
+- Microsoft.Extensions.DependencyModel - 3.0.0-preview-27317-6
+- Microsoft.NETCore.App - 3.0.0-preview-27317-6
+
+Updates from https://github.com/aspnet/EntityFrameworkCore
+
+- dotnet-ef - 3.0.0-preview.19068.1
+- Microsoft.EntityFrameworkCore - 3.0.0-preview.19068.1
+- Microsoft.EntityFrameworkCore.Design - 3.0.0-preview.19068.1
+- Microsoft.EntityFrameworkCore.Tools - 3.0.0-preview.19068.1
+- Microsoft.EntityFrameworkCore.InMemory - 3.0.0-preview.19068.1
+- Microsoft.EntityFrameworkCore.Relational - 3.0.0-preview.19068.1
+- Microsoft.EntityFrameworkCore.Sqlite - 3.0.0-preview.19068.1
+- Microsoft.EntityFrameworkCore.SqlServer - 3.0.0-preview.19068.1
+
+Updates from https://github.com/aspnet/Extensions
+
+- Internal.AspNetCore.Analyzers - 3.0.0-preview.19068.1
+- Microsoft.JSInterop - 3.0.0-preview.19068.1
+- Microsoft.Extensions.WebEncoders - 3.0.0-preview.19068.1
+- Microsoft.Extensions.ValueStopwatch.Sources - 3.0.0-preview.19068.1
+- Microsoft.Extensions.TypeNameHelper.Sources - 3.0.0-preview.19068.1
+- Microsoft.Extensions.Primitives - 3.0.0-preview.19068.1
+- Microsoft.Extensions.ParameterDefaultValue.Sources - 3.0.0-preview.19068.1
+- Microsoft.Extensions.DiagnosticAdapter - 3.0.0-preview.19068.1
+- Microsoft.Extensions.DependencyInjection.Specification.Tests - 3.0.0-preview.19068.1
+- Microsoft.Extensions.DependencyInjection.Abstractions - 3.0.0-preview.19068.1
+- Microsoft.Extensions.DependencyInjection - 3.0.0-preview.19068.1
+- Microsoft.Extensions.Configuration.Xml - 3.0.0-preview.19068.1
+- Microsoft.Extensions.Configuration.UserSecrets - 3.0.0-preview.19068.1
+- Microsoft.Extensions.Configuration.KeyPerFile - 3.0.0-preview.19068.1
+- Microsoft.Extensions.Configuration.Json - 3.0.0-preview.19068.1
+- Microsoft.Extensions.Configuration.Ini - 3.0.0-preview.19068.1
+- Microsoft.Extensions.Configuration.FileExtensions - 3.0.0-preview.19068.1
+- Microsoft.Extensions.Configuration.EnvironmentVariables - 3.0.0-preview.19068.1
+- Microsoft.Extensions.Configuration.CommandLine - 3.0.0-preview.19068.1
+- Microsoft.Extensions.Configuration.Binder - 3.0.0-preview.19068.1
+- Microsoft.Extensions.Configuration.AzureKeyVault - 3.0.0-preview.19068.1
+- Microsoft.Extensions.Configuration.Abstractions - 3.0.0-preview.19068.1
+- Microsoft.Extensions.Configuration - 3.0.0-preview.19068.1
+- Microsoft.Extensions.CommandLineUtils.Sources - 3.0.0-preview.19068.1
+- Microsoft.Extensions.Caching.StackExchangeRedis - 3.0.0-preview.19068.1
+- Microsoft.Extensions.Caching.SqlServer - 3.0.0-preview.19068.1
+- Microsoft.Extensions.Caching.Memory - 3.0.0-preview.19068.1
+- Microsoft.Extensions.Caching.Abstractions - 3.0.0-preview.19068.1
+- Microsoft.Extensions.ActivatorUtilities.Sources - 3.0.0-preview.19068.1
+- Microsoft.AspNetCore.Testing - 3.0.0-preview.19068.1
+- Microsoft.AspNetCore.BenchmarkRunner.Sources - 3.0.0-preview.19068.1
+- Microsoft.AspNetCore.Analyzer.Testing - 3.0.0-preview.19068.1
+- Microsoft.Extensions.Diagnostics.HealthChecks - 3.0.0-preview.19068.1
+- Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions - 3.0.0-preview.19068.1
+- Microsoft.Extensions.FileProviders.Abstractions - 3.0.0-preview.19068.1
+- Microsoft.Extensions.FileProviders.Composite - 3.0.0-preview.19068.1
+- Microsoft.Extensions.Options.DataAnnotations - 3.0.0-preview.19068.1
+- Microsoft.Extensions.Options.ConfigurationExtensions - 3.0.0-preview.19068.1
+- Microsoft.Extensions.Options - 3.0.0-preview.19068.1
+- Microsoft.Extensions.ObjectPool - 3.0.0-preview.19068.1
+- Microsoft.Extensions.Logging.TraceSource - 3.0.0-preview.19068.1
+- Microsoft.Extensions.Logging.Testing - 3.0.0-preview.19068.1
+- Microsoft.Extensions.Logging.EventSource - 3.0.0-preview.19068.1
+- Microsoft.Extensions.Logging.Debug - 3.0.0-preview.19068.1
+- Microsoft.Extensions.Logging.Console - 3.0.0-preview.19068.1
+- Microsoft.Extensions.Logging.Configuration - 3.0.0-preview.19068.1
+- Microsoft.Extensions.Logging.AzureAppServices - 3.0.0-preview.19068.1
+- Microsoft.Extensions.Logging - 3.0.0-preview.19068.1
+- Microsoft.Extensions.Localization.Abstractions - 3.0.0-preview.19068.1
+- Microsoft.Extensions.Localization - 3.0.0-preview.19068.1
+- Microsoft.Extensions.Http - 3.0.0-preview.19068.1
+- Microsoft.Extensions.Hosting.Abstractions - 3.0.0-preview.19068.1
+- Microsoft.Extensions.Hosting - 3.0.0-preview.19068.1
+- Microsoft.Extensions.HostFactoryResolver.Sources - 3.0.0-preview.19068.1
+- Microsoft.Extensions.HashCodeCombiner.Sources - 3.0.0-preview.19068.1
+- Microsoft.Extensions.FileSystemGlobbing - 3.0.0-preview.19068.1
+- Microsoft.Extensions.FileProviders.Physical - 3.0.0-preview.19068.1
+- Microsoft.Extensions.FileProviders.Embedded - 3.0.0-preview.19068.1
+- Microsoft.Extensions.Logging.Abstractions - 3.0.0-preview.19068.1
+
+Updates from https://github.com/aspnet/AspNetCore-Tooling
+
+- Microsoft.NET.Sdk.Razor - 3.0.0-preview-19068-03",dotnet-maestro[bot],https://api.github.com/repos/dotnet/aspnetcore/git/commits/c2a0f894482895aa5af6e80dafa1e22724d5bd8f
+07926f067750e2bc02e814bfb4587dfad70f0d8b,Update repo links for SignalR TS client in package.json after move (#4425),christianliebel,https://api.github.com/repos/dotnet/aspnetcore/git/commits/07926f067750e2bc02e814bfb4587dfad70f0d8b
+0047b620b9b39d6172a7a7b720e215dbeca8e4a0,"Fixed copyright element (#7087)
+
+Summary of the changes:
+ - Updated copyright symbol
+ - Changed file encoding to UTF-8 without BOM
+
+Fixes #7065",Potapy4,https://api.github.com/repos/dotnet/aspnetcore/git/commits/0047b620b9b39d6172a7a7b720e215dbeca8e4a0
+5a4a001d1878adceda1df9e0e754869e8a97e636,"Removed unused app component css file (#4438)
+
+* Removed unused css for app component
+
+* Removed empty css file",westerncj,https://api.github.com/repos/dotnet/aspnetcore/git/commits/5a4a001d1878adceda1df9e0e754869e8a97e636
+f1b24ccb92a1fc4405d8860045346412f6f1c132,Replace unsafe code with string.Create for hex generation (#6784),meziantou,https://api.github.com/repos/dotnet/aspnetcore/git/commits/f1b24ccb92a1fc4405d8860045346412f6f1c132
+2345c837cec6282feda3b07d51c4db36979ca0c1,"Fix typo in HttpSysOptions.cs (#7207)
+
+`infiniate` => `infinite` in ArgumentOutOfRangeException message.",jmazouri,https://api.github.com/repos/dotnet/aspnetcore/git/commits/2345c837cec6282feda3b07d51c4db36979ca0c1
+21177671b6cd4252c5f0b11c2ba5eec6e2f55419,"Remove extraneous call to GetMemory in BufferWriter (#7354)
+
+The BufferWriter called GetMemory(count) and dropped the result, only to then call GetSpan(). This moves the count argument to GetSpan, and drops the call to GetMemory.",AArnott,https://api.github.com/repos/dotnet/aspnetcore/git/commits/21177671b6cd4252c5f0b11c2ba5eec6e2f55419
+095c1c1759daef34e18a94c86236e4f02644ebe9,"Add webworker support to SignalR JS client (#7058)
+
+* Added Platform utils to detect platform type
+* Added additional build for WebWorker
+* Changed env param from webworker to platform to make ability to specify platform to the build script
+* Updated the readme file with SignalR WebWorker instructions",dukhanov,https://api.github.com/repos/dotnet/aspnetcore/git/commits/095c1c1759daef34e18a94c86236e4f02644ebe9
+2c0287d686dc7becb6aa20d097d78505e0280f8d,"Fix ignored exception parameter on Degraded method
+
+The 'exception' parameter was ignored and a hardcoded null value was used on HealthCheckResult.Degraded\n\nCommit migrated from https://github.com/dotnet/extensions/commit/dbfc2dee3a582b581f91386cff9a356fb111ca37",marciomyst,https://api.github.com/repos/dotnet/aspnetcore/git/commits/2c0287d686dc7becb6aa20d097d78505e0280f8d
+2c649b2409635faea572203ee46afe50b21d42d9,"Use .NET Core SequenceReader
+
+Remove BufferReader and use SequenceReader<T> which now ships in CoreFX.
+
+This is related to https://github.com/aspnet/KestrelHttpServer/pull/3068 which builds on the functionality added to the reader.",JeremyKuhne,https://api.github.com/repos/dotnet/aspnetcore/git/commits/2c649b2409635faea572203ee46afe50b21d42d9
+a314cb2773d317c3073ab70eff365d25cf7fe5ad,"PointerID type string replaced to long (#7426)
+
+Solves issue [#7418](https://github.com/aspnet/AspNetCore/issues/7418) - Blazor onpointerdown event gives error",Lupusa87,https://api.github.com/repos/dotnet/aspnetcore/git/commits/a314cb2773d317c3073ab70eff365d25cf7fe5ad
+dffe9abf6b6b009e183e808459e65770c9210a52,Fix connection ID (#7681),wegylexy,https://api.github.com/repos/dotnet/aspnetcore/git/commits/dffe9abf6b6b009e183e808459e65770c9210a52
+134f28f71d253a7b211b6054a508d3563e5cd020,"Update FileResult tests to detect a bug for the status 416 RangeNotSatisfiable
+
+Update FileResult tests to detect a bug for the status 416 RangeNotSatisfiable :
+https://github.com/aspnet/AspNetCore/issues/4943
+When the body is empty, the Content-Length header should be 0 to match the body length.",MatthiasLaroche,https://api.github.com/repos/dotnet/aspnetcore/git/commits/134f28f71d253a7b211b6054a508d3563e5cd020
+e5f4400257212f7f0db61a4451b2915439c6bd77,FormFeature -Added exception for invalid content-disposition header  (#7525),JulijaRamoskiene,https://api.github.com/repos/dotnet/aspnetcore/git/commits/e5f4400257212f7f0db61a4451b2915439c6bd77
+d805cf3b2e5507940152361af106b74eb8043f3b,"Implement parallel health checks
+\n\nCommit migrated from https://github.com/dotnet/extensions/commit/f14a45e09670dc998be5750e66f363ca45e6931c",NatMarchand,https://api.github.com/repos/dotnet/aspnetcore/git/commits/d805cf3b2e5507940152361af106b74eb8043f3b
+a3e0a45d208fe3c3891c34369a0675bbbbcf1fa4,[Azure][Fixes #6669] AccessDeniedPath is wrong,JipingWang,https://api.github.com/repos/dotnet/aspnetcore/git/commits/a3e0a45d208fe3c3891c34369a0675bbbbcf1fa4
+f0cb6cc68b567387d43b319477c97e1942426121,"Modify the 'InstallLocation' registry key. (#7877)
+
+Before = SOFTWARE\dotnet\Setup\InstalledVersions\<arch>\sdk
+After = SOFTWARE\dotnet\Setup\InstalledVersions\<arch>",johnbeisner,https://api.github.com/repos/dotnet/aspnetcore/git/commits/f0cb6cc68b567387d43b319477c97e1942426121
+4e4fdaaf68e6cefe627e7a81a2a3ecba1b0dad53,Adding SameSite comments (#7907),natery2000,https://api.github.com/repos/dotnet/aspnetcore/git/commits/4e4fdaaf68e6cefe627e7a81a2a3ecba1b0dad53
+0dd3375095eca90127495ac8b59c0e267e2cfb72,"[Azure] Fixed two misspelling of 'tenant' in properties' inline XML documentation (#7912)
+
+- Azure/AzureAD/Authentication.AzureAD.UI/src/AzureADOptions.cs
+- AzureAD/Authentication.AzureADB2C.UI/src/AzureAdB2COptions.cs",biste5,https://api.github.com/repos/dotnet/aspnetcore/git/commits/0dd3375095eca90127495ac8b59c0e267e2cfb72
+4c3996f8241df09ad811008111440e8c6cf20c9d,Use Request.Scheme instead of Protocol (#7911),shnja,https://api.github.com/repos/dotnet/aspnetcore/git/commits/4c3996f8241df09ad811008111440e8c6cf20c9d
+a1f544b62fe77d9a572d6b597dd0f9222e22c2a1,Correct doc comment for ApiConventionTypeMatchBehavior (#7861),jklawrence,https://api.github.com/repos/dotnet/aspnetcore/git/commits/a1f544b62fe77d9a572d6b597dd0f9222e22c2a1
+35ac392fb6f86ecc91bcd8c7eb34c4c492068211,Fix F# template (#7637),KevinRansom,https://api.github.com/repos/dotnet/aspnetcore/git/commits/35ac392fb6f86ecc91bcd8c7eb34c4c492068211
+5c6e1aa1d95bb79809c99736acb3b8abd36d08d4,[Templating] Fix react template typos (#8592),marquesm91,https://api.github.com/repos/dotnet/aspnetcore/git/commits/5c6e1aa1d95bb79809c99736acb3b8abd36d08d4
+aa89639d629899985b27b4ad749f707efc8892cd,"Removed Content Type header for response when no content is being returned (#8557)
+
+Addresses #8230",ChiragRupani,https://api.github.com/repos/dotnet/aspnetcore/git/commits/aa89639d629899985b27b4ad749f707efc8892cd
+c054f5fa67603a662cce9039d28f74b4d1f60dd9,Update README.md (#6904),yetanotherchris,https://api.github.com/repos/dotnet/aspnetcore/git/commits/c054f5fa67603a662cce9039d28f74b4d1f60dd9
+bc032624da517402ad3a494dccc9fba5b4f56173,Use https link (#8850),imba-tjd,https://api.github.com/repos/dotnet/aspnetcore/git/commits/bc032624da517402ad3a494dccc9fba5b4f56173
+d24ec01224726fa85dc7683d0f70a94d9172bc94,Add overload for Configure that gets WebHostBuilderContext (#8697),danielmarbach,https://api.github.com/repos/dotnet/aspnetcore/git/commits/d24ec01224726fa85dc7683d0f70a94d9172bc94
+3cc3ab00c980f73bed18d5123b2fb1771c32c12d,Reduce boxing in RedirectRule.cs (#8988),cypressious,https://api.github.com/repos/dotnet/aspnetcore/git/commits/3cc3ab00c980f73bed18d5123b2fb1771c32c12d
+b6bbc29498d48e0ddd5776fe83407ed1fb67933f,HostingLogScope now logs RequestPath as Request.BasePath+Request.Path #8942 (#8944),penenkel,https://api.github.com/repos/dotnet/aspnetcore/git/commits/b6bbc29498d48e0ddd5776fe83407ed1fb67933f
+73ec62adbd03a06c764a144b71b9a15fa5f4a805,"Added Crankier docs (#9044)
+
+Docs describing usage of Crankier",staff0rd,https://api.github.com/repos/dotnet/aspnetcore/git/commits/73ec62adbd03a06c764a144b71b9a15fa5f4a805
+4649449206edae4992e09419334e736726fd2c8e,"Call DiagnosticListener.OnActivityImport before starting Activity to support sampling better (#9340)
+
+* use OnActivityImport and HttpContext in the extra argument",lmolkova,https://api.github.com/repos/dotnet/aspnetcore/git/commits/4649449206edae4992e09419334e736726fd2c8e
+f86f24b50a22105414b917e417f453992b986f3b,"Tags defined during health check registration are now available in th… (dotnet/extensions#1434)
+
+* Tags defined during health check registration are now available in the health report entries.
+
+* Additional constructor that accepts tags. Original constructor now calls a new one.
+
+* Update reference assemblies
+\n\nCommit migrated from https://github.com/dotnet/extensions/commit/8eaeab2a69bcb91acfedc7847a345f8b64994d89",viktorpeacock,https://api.github.com/repos/dotnet/aspnetcore/git/commits/f86f24b50a22105414b917e417f453992b986f3b
+1d5d144c12d13b2672352e43ba883d5be3d95cf4,"Introduce IPageApplicationModelPartsProvider (#9066)
+
+* Resolved  #6919. It might be required to rework unit tests.",mgubis,https://api.github.com/repos/dotnet/aspnetcore/git/commits/1d5d144c12d13b2672352e43ba883d5be3d95cf4
+dafb4d38f04c9849a6a1d409361871bffda7d3b7,Fix documentation typo (#9740),BrunoMVPCosta,https://api.github.com/repos/dotnet/aspnetcore/git/commits/dafb4d38f04c9849a6a1d409361871bffda7d3b7
+33a4937d38bc13266421305e053109d2ab8c4c42,quotes around the path to allow for paths with spaces when mc.exe is called (#9599),zippy1981,https://api.github.com/repos/dotnet/aspnetcore/git/commits/33a4937d38bc13266421305e053109d2ab8c4c42
+d9ad99933c12b99909cc05cccbae16cca8acb9d3,"Fixed issue with SPA templates generating invalid NPM package names (#9725)
+
+Added unit test to check NPM package names matches regex",Muppets,https://api.github.com/repos/dotnet/aspnetcore/git/commits/d9ad99933c12b99909cc05cccbae16cca8acb9d3
+08b12b0d728fdebdd2993cd78fbecac8160d3be3,comment typo,bbarry,https://api.github.com/repos/dotnet/aspnetcore/git/commits/08b12b0d728fdebdd2993cd78fbecac8160d3be3
+2d33c321876294cf23ec3e268b4e3db754db350d,"Allow ValidationVisitor.ValidateComplexTypesIfChildValidationFails to be configured via MvcOptions (#9312)
+
+* Allow ValidationVisitor.ValidateComplexTypesIfChildValidationFails to be configured via MvcOptions (#8519)
+
+* Regenerated reference source for Mvc.Core to add MvcOptions.ValidateComplexTypesIfChildValidationFails
+
+* Simplified functional tests for MvcOptions.ValidateComplexTypesIfChildValidationFails usage scenarios",bordecal,https://api.github.com/repos/dotnet/aspnetcore/git/commits/2d33c321876294cf23ec3e268b4e3db754db350d
+10e316f541ea0d6b3a941e41c62f09d5baabe329,"Remove the exception filter that is problematic for wasm AOT
+\n\nCommit migrated from https://github.com/dotnet/extensions/commit/b3cdc7bd5d46a70ae2e0294c750da78c659f04fe",lewing,https://api.github.com/repos/dotnet/aspnetcore/git/commits/10e316f541ea0d6b3a941e41c62f09d5baabe329
+48d2f40192649903519364dfc0df58a064c40449,blazor.boot.json - don't set physicalpath,nicksull123,https://api.github.com/repos/dotnet/aspnetcore/git/commits/48d2f40192649903519364dfc0df58a064c40449
+a677fd231e2f8e9d18749fc2a4761d1a724bc6c1,Make OIDC handler skip unrecognized requests (#10060),mderriey,https://api.github.com/repos/dotnet/aspnetcore/git/commits/a677fd231e2f8e9d18749fc2a4761d1a724bc6c1
+41df269eaf4fc727a7be1e8776b999810b6af1d6,Fix typo in xml docs (#10119),altso,https://api.github.com/repos/dotnet/aspnetcore/git/commits/41df269eaf4fc727a7be1e8776b999810b6af1d6
+124064ef47019370eb68da7abc80b6a2c35a2040,Add option to limit domains on AddRedirectToWww (#9676),delebru,https://api.github.com/repos/dotnet/aspnetcore/git/commits/124064ef47019370eb68da7abc80b6a2c35a2040
+19bf518de102a17b02f8ce6384691812ab5fac27,#10333 Template Updates,isaacrlevin,https://api.github.com/repos/dotnet/aspnetcore/git/commits/19bf518de102a17b02f8ce6384691812ab5fac27
+dbe9ab7dd5b02d99ede1ca37c0bf848bdaedda60,Respect CancellationToken in HubConnection.StartAsync() (#10140),danielloczi,https://api.github.com/repos/dotnet/aspnetcore/git/commits/dbe9ab7dd5b02d99ede1ca37c0bf848bdaedda60
+405d8bbdc91bd7cda376cf6f17cea664d976b8c1,Turn SETLOCAL on so that we don't accumulate in the PATH,cshung,https://api.github.com/repos/dotnet/aspnetcore/git/commits/405d8bbdc91bd7cda376cf6f17cea664d976b8c1
+f1ff37efdb2c08cc779b5465c7046453f6b8a17c,"Clean up some stale comments (#10561)
+
+Addresses AzDO Bug #890301 (https://dev.azure.com/devdiv/DevDiv/_workitems/edit/890301/)",Pilchie,https://api.github.com/repos/dotnet/aspnetcore/git/commits/f1ff37efdb2c08cc779b5465c7046453f6b8a17c
+544a01ae0a2917a382e1c64218f0609784737615,Add no-store to OpenIdConnectHandler cache-control response headers (#10318). (#10741),huan086,https://api.github.com/repos/dotnet/aspnetcore/git/commits/544a01ae0a2917a382e1c64218f0609784737615
+9cd2ad15ff2a306bab9894dc7c1926c196b3fa2e,"Remove use of GetRuntimeInterfaceMap in IsTypeAwaitable (#10572)
+
+`GetRuntimeInterfaceMap` is a rather expensive API and it doesn't look like the use here is warranted.
+
+The replacement should have equivalent behavior.",MichalStrehovsky,https://api.github.com/repos/dotnet/aspnetcore/git/commits/9cd2ad15ff2a306bab9894dc7c1926c196b3fa2e
+48dee6a36f91a861b81f0cb8291b1a400df92664,Remove gender-specific terminology from comments,saluce65,https://api.github.com/repos/dotnet/aspnetcore/git/commits/48dee6a36f91a861b81f0cb8291b1a400df92664
+bc6f4b6034e708e63da01bb5aa0e06c23f9456b6,"Fix a write past the end of buffer when IntegerEncoder encodes to multi-bytes and does not have sufficient room to do so. (#10914)
+
+Add some basic asserts to constrain parameters to HPACK spec.
+Add some additional tests.",scalablecory,https://api.github.com/repos/dotnet/aspnetcore/git/commits/bc6f4b6034e708e63da01bb5aa0e06c23f9456b6
+c18fc3d7ca468628c6bbb7030014ab94f15f83cf,Use throws expressions and expression bodied members (#10764),YPTopMan,https://api.github.com/repos/dotnet/aspnetcore/git/commits/c18fc3d7ca468628c6bbb7030014ab94f15f83cf
+bc91bd0308605a25633ebcf5490a32f1b468472f,Fix _LoginPartial.OrgAuth.cshtml referencing non-existent CSS classes (#10781),AtOMiCNebula,https://api.github.com/repos/dotnet/aspnetcore/git/commits/bc91bd0308605a25633ebcf5490a32f1b468472f
+db72ea04a2e12fa98ab4638c6c4ba05ac418fbd6,"Fix incorrect documentation, parameter check for HttpMethodAttribute (#11133)
+
+The second constructor of the `HttpMethodAttribute` class claims that the `template` parameter may not be `null`, and no such claim is present about the `httpMethods` parameter. However, when `httpMethods` is `null`, an exception is thrown, while `template` *is* allowed to be null (as can be seen in the `HttpMethodAttribute(IEnumerable<string>)` constructor, which passes `null`.
+
+In addition, the `HttpMethodAttribute(IEnumerable<string>)` constructor contains a `null`-check for the `httpMethods` parameter, but since this check is *also* in the `HttpMethodAttribute(IEnumerable<string>, string)` constructor this check is dead code.",Thiez,https://api.github.com/repos/dotnet/aspnetcore/git/commits/db72ea04a2e12fa98ab4638c6c4ba05ac418fbd6
+1521e6fa727370ad9d25478b1c32172ef6942cb3,Update StartupAnalyzer.Diagnostics.cs (#11245),dannyBies,https://api.github.com/repos/dotnet/aspnetcore/git/commits/1521e6fa727370ad9d25478b1c32172ef6942cb3
+9bb59b2ec69d3679ad7336bbe7ba10fa272748c6,Added CanCancelStartingConnectionAfterNegotiate (#10432),BalintFarkas,https://api.github.com/repos/dotnet/aspnetcore/git/commits/9bb59b2ec69d3679ad7336bbe7ba10fa272748c6
+f80dbd3918008dc9b9303f1189f9ade8e32d687a,Fixes dispatching of derived type arguments to hub methods with synthetic parameters,NickDarvey,https://api.github.com/repos/dotnet/aspnetcore/git/commits/f80dbd3918008dc9b9303f1189f9ade8e32d687a
+7994b509f8fd2ace2321a02946fb03c24cacf628,"Update ""feature request"" GitHub issue template (#11302)",loic-sharma,https://api.github.com/repos/dotnet/aspnetcore/git/commits/7994b509f8fd2ace2321a02946fb03c24cacf628
+590958376e8f1cf37ca79ee754b9f8fbc2bd915b,Add debugg logging for DataProtectorTokenProvider.ValidationAsync (#10739),dpr-dev,https://api.github.com/repos/dotnet/aspnetcore/git/commits/590958376e8f1cf37ca79ee754b9f8fbc2bd915b
+e79fafc2e319cc3abc3864bc0870510c4aab6435,Improve IIS UrlRewrite parsing (#11533),cnblogs-dudu,https://api.github.com/repos/dotnet/aspnetcore/git/commits/e79fafc2e319cc3abc3864bc0870510c4aab6435
+bf95c946ec1f8f78a1581e725480fe1c64ee83b5,"Blazor: Decode URL segments in RouteContext (#8759)
+
+* Decode URL segments in RouteContext",GoldenCrystal,https://api.github.com/repos/dotnet/aspnetcore/git/commits/bf95c946ec1f8f78a1581e725480fe1c64ee83b5
+5954a2f98e017cdcf998470302fd3081c9541768,Remove blank lines in Configure Services for Razor and Mvc,cjaliaga,https://api.github.com/repos/dotnet/aspnetcore/git/commits/5954a2f98e017cdcf998470302fd3081c9541768
+7a1b867d394040533d478e14d65d963248377d6b,Correct the comment example for AuthenticationSchemeOptions.ForwardSignOut. (#11979),serpent5,https://api.github.com/repos/dotnet/aspnetcore/git/commits/7a1b867d394040533d478e14d65d963248377d6b
+0f02facb045cfd65858ff5ebcc65fcbcb891fb1a,Copy souces from Versions.props to NuGet.config,jcagme,https://api.github.com/repos/dotnet/aspnetcore/git/commits/0f02facb045cfd65858ff5ebcc65fcbcb891fb1a
+0ae689c8a8b43d8b1e61ee652f4b0505a9f43730,"Handle chunks containing multiple EOL (#6146)
+
+Credit to @EEParker https://github.com/EEParker/aspnetcore-vueclimiddleware/commit/a169dd6d39912d7e6ecbb13e5fa349860c26af0b#diff-6d394759c0a824a137b47986d0cce571R158
+
+Co-Authored-By: Jeff Parker, PE <eeparker@users.noreply.github.com>",dgaspar,https://api.github.com/repos/dotnet/aspnetcore/git/commits/0ae689c8a8b43d8b1e61ee652f4b0505a9f43730
+25db4331cf400d173d6c2f604ffca26291281e3b,"using System.Text.Json for SignalRSamples as JsonTextWriter is a ""synchronous IDisposable"" ending end throwing when calling /deployment with AllowSynchronousIO turned off (#12165)
+
+Thanks for finding and fixing this :)",tebeco,https://api.github.com/repos/dotnet/aspnetcore/git/commits/25db4331cf400d173d6c2f604ffca26291281e3b
+cc00df732126723b17ec726e32a7d99e6df7d2f8,"Fix blazor project file
+
+This project is not valid xml and causing https://source.dot.net builds to fail.",alexperovich,https://api.github.com/repos/dotnet/aspnetcore/git/commits/cc00df732126723b17ec726e32a7d99e6df7d2f8
+c25a0d1bf5b6d96d0a9674a3335ea5597402a85c,Grammer in comments (#12355),Marcel0024,https://api.github.com/repos/dotnet/aspnetcore/git/commits/c25a0d1bf5b6d96d0a9674a3335ea5597402a85c
+a07ad16e4d77c60b3b27380ac31df8f482bf6d29,IIS - Skip setting a header if the value is empty #11032 (#12486),Harley-Adams,https://api.github.com/repos/dotnet/aspnetcore/git/commits/a07ad16e4d77c60b3b27380ac31df8f482bf6d29
+1bff37bec1b185217857cbdffd147283bb22cd76,Issue #11559: Show meaningful error message for TLS over HTTP endpoint. (#12697),bashdx,https://api.github.com/repos/dotnet/aspnetcore/git/commits/1bff37bec1b185217857cbdffd147283bb22cd76
+c703093346c903fc05eb6108c0ef7b8a8205c95c,"Add option to disable adding trailing slash #2449 (#12669)
+
+Middlewares affected:
+- DefaultFilesMiddleware
+- DirectoryBrowserMiddleware",MateuszWkDev,https://api.github.com/repos/dotnet/aspnetcore/git/commits/c703093346c903fc05eb6108c0ef7b8a8205c95c
+751882cf3c45d0eb982f244d59bfc758b4b6c17b,Add optional packageManagerName to allow alternative package managers,Reptarsrage,https://api.github.com/repos/dotnet/aspnetcore/git/commits/751882cf3c45d0eb982f244d59bfc758b4b6c17b
+698a343128142e39ad02e6e389c554872df97678,"Fix #12834: Wrong order of params to ArgumentNullException ctor (#12839)
+
+Fixes #12834",Zenexer,https://api.github.com/repos/dotnet/aspnetcore/git/commits/698a343128142e39ad02e6e389c554872df97678
+e7398ca25d53432eb96dc7d4e0d56be501b771a4,"Blazor _LinkBlazorApplication changed to use DOTNET_HOST_PATH (#12849)
+
+* change to use host path
+
+* default to path dotnet in cases where it is using desktop msbuild",Beffyman,https://api.github.com/repos/dotnet/aspnetcore/git/commits/e7398ca25d53432eb96dc7d4e0d56be501b771a4
+fff0e0a3241e26bca79f2f66b1b2c3ef1e033685,Merge branch 'master' into merge/release/3.0-to-master\n\nCommit migrated from https://github.com/dotnet/extensions/commit/97783282f961519c0ab9ef6c81c32bbca22f8a43,wtgodbe,https://api.github.com/repos/dotnet/aspnetcore/git/commits/fff0e0a3241e26bca79f2f66b1b2c3ef1e033685
+09db3ebbae7f7500f534e744d9893c396458766a,"Enable Docker Support checkbox for Blazor Server apps and gRPC apps. (#13016)
+
+* Enable the checkbox ""Add Docker Support"" for Blazor apps. 
+
+Enable the checkbox ""Add Docker Support"" for Blazor apps.
+
+* Enable ""Enable Docker Support"" checkbox for gRPC projects. 
+
+Enable ""Enable Docker Support"" checkbox for gRPC projects.",pratiksanglikar,https://api.github.com/repos/dotnet/aspnetcore/git/commits/09db3ebbae7f7500f534e744d9893c396458766a
+7118601f4c3f899c43de0cbd98aa113d50275067,"Correct the spelling of 'EnableEndpointRouting'
+
+Fixes #11467",flcdrg,https://api.github.com/repos/dotnet/aspnetcore/git/commits/7118601f4c3f899c43de0cbd98aa113d50275067
+8b861ea7d717eb09673d4ca648dc96ebe36fe425,"Add CreateXmlReader overload - adds Type parameter (#13302)
+
+* Add CreateXmlReader overload - adds Type parameter
+
+This change allows inheritors of XmlSerializerInputFormatter to return a different XmlReader depending on the type being serialized. For example, an inheritor could return XSD-validating readers that validate against one schema or another (or perhaps not validate at all), depending on the value of the type parameter.",bfriesen,https://api.github.com/repos/dotnet/aspnetcore/git/commits/8b861ea7d717eb09673d4ca648dc96ebe36fe425
+20dd338b791991a4bef3158543032eed7b43a05e,"Use ModelOnly for Validation Summary (#6108)
+
+Previously when Validation Summary used ""All"", it would append the property-related content to both the summary as well as the property specific span elements (= asp-validation-for=""..."").
+
+By switching to ModelOnly would only show model-related messages in the summary (such as ""Invalid login attempt."") which was most likely the original intention.",nj,https://api.github.com/repos/dotnet/aspnetcore/git/commits/20dd338b791991a4bef3158543032eed7b43a05e
+90231e7290b22cd99bfba5e0970d2dd679ac4ff8,Fix invalid test (#6654),alewmt,https://api.github.com/repos/dotnet/aspnetcore/git/commits/90231e7290b22cd99bfba5e0970d2dd679ac4ff8
+90e89e970877a39cb048bb6f0e59551351f661c3,"Mgbbs/hidden for checkbox render mode (#13014)
+
+* Added CheckBoxHiddenInputRenderMode to HtmlHelperOptions, ViewContext, and html/tag helpers
+
+Fixes #12833",mgbbs,https://api.github.com/repos/dotnet/aspnetcore/git/commits/90e89e970877a39cb048bb6f0e59551351f661c3
+b242d5426ec1939e4dfd0dd571048516cba3b770,Skip getting AzureAdOptions for not AzureADUi Cookies scheme #13311 (#13327),vbornand,https://api.github.com/repos/dotnet/aspnetcore/git/commits/b242d5426ec1939e4dfd0dd571048516cba3b770
+7e10a98c4f303b9af36047a0c61f1fbf038ccda8,[mvc] Remove redundant checks (#9279),VPeruS,https://api.github.com/repos/dotnet/aspnetcore/git/commits/7e10a98c4f303b9af36047a0c61f1fbf038ccda8
+b4304367f9d0536983df54e787880ef700234618,Fix typo\n\nCommit migrated from https://github.com/dotnet/extensions/commit/6df967b79a6dec5c14b308b8b3de1996fd6b8018,inkel,https://api.github.com/repos/dotnet/aspnetcore/git/commits/b4304367f9d0536983df54e787880ef700234618
+1f6d235a5e7fd9427c96b7508610c5d3401a1571,"Health Checks - EF health check should respect configured failureStatus
+
+Signed-off-by: Tom Kerkhove <kerkhove.tom@gmail.com>",tomkerkhove,https://api.github.com/repos/dotnet/aspnetcore/git/commits/1f6d235a5e7fd9427c96b7508610c5d3401a1571
+1ea43c549234d46814c446fda1680bf6f96922a4,Ensure blazor client side logger checks for enabled log levels (#12928),ghidello,https://api.github.com/repos/dotnet/aspnetcore/git/commits/1ea43c549234d46814c446fda1680bf6f96922a4
+64157c95c1f10992e81e8590e31e90b0b8bd5eeb,Typo fix on Problem's documentation (#13812),jeuxjeux20,https://api.github.com/repos/dotnet/aspnetcore/git/commits/64157c95c1f10992e81e8590e31e90b0b8bd5eeb
+67555a020b4ca075169f1e0adde58f08d252f5ea,"Use the correct disposed object name (#13871)
+
+The name of the disposed object should be FileBufferingWriteStream instead of FileBufferingReadStream",Costo,https://api.github.com/repos/dotnet/aspnetcore/git/commits/67555a020b4ca075169f1e0adde58f08d252f5ea
+3ec6f86c1156493c618b061f427bc28c09b11ed4,"ValidationAttributeAdapterProvider allows ValidationAttribute's sub-classes. (#14074)
+
+This permits to inherit built-in ValidationAttribute classes (ie RegularExpressionValidationAttribute, ...) while keeping the standard behavior.
+
+Fixes https://github.com/aspnet/AspNetCore/issues/13782",neilbgr,https://api.github.com/repos/dotnet/aspnetcore/git/commits/3ec6f86c1156493c618b061f427bc28c09b11ed4
+f3e6b74623d42d5164fd5f97a288792c8ad877b6,"Reference correct variable in nested try catch
+
+Tiny inconsistency I noticed when using this project template",sgbj,https://api.github.com/repos/dotnet/aspnetcore/git/commits/f3e6b74623d42d5164fd5f97a288792c8ad877b6
+51ae61baca270e6e29b873e75aef901a70518c2f,Support attaching to an existing request queue in HTTP.SYS (#14182),bkatms,https://api.github.com/repos/dotnet/aspnetcore/git/commits/51ae61baca270e6e29b873e75aef901a70518c2f
+af8d35dba62f91a74b416a96822b1ec5152b6f3b,Merge Pass SubProtocols from TestHost WebSocketClient (#14666) (#14667),smudge202,https://api.github.com/repos/dotnet/aspnetcore/git/commits/af8d35dba62f91a74b416a96822b1ec5152b6f3b
+4e79a278e3b987abe47b30fd157b459e4d4ddfdd,Add XML docs to IHttpContextAccessor and IHttpContextFactory (#14747),JordySipkema,https://api.github.com/repos/dotnet/aspnetcore/git/commits/4e79a278e3b987abe47b30fd157b459e4d4ddfdd
+1c8ab0933e269dc1a5685a1acdb7b76ec2b194f8,"Add JObjectAdapter to support JSON Patch for JObject properties (#12908)
+
+* Add JObjectAdapter to support JSON Patch for JObject properties
+
+* Add missing import
+
+* Update ref
+
+* Ignore Rider .idea folder
+
+* Add JsonPatch.sln
+
+* Add test project to solution
+
+* Add tests for JObject support
+
+* Remove unrelated test",sfmskywalker,https://api.github.com/repos/dotnet/aspnetcore/git/commits/1c8ab0933e269dc1a5685a1acdb7b76ec2b194f8
+b3599b6cfa1a65da3c3b5c74fa63111bdf62be34,Making docs more inclusive (#14607),crgrieve,https://api.github.com/repos/dotnet/aspnetcore/git/commits/b3599b6cfa1a65da3c3b5c74fa63111bdf62be34
+0859105e86d5648134450a6a236906110f6d5bea,Add xml docs for IHtmlGenerator,taori,https://api.github.com/repos/dotnet/aspnetcore/git/commits/0859105e86d5648134450a6a236906110f6d5bea
+ab73919070899c86e357689ab1702a09704552e7,Let UriEndpoint ToString return the Uri (#12668),ste1nstone,https://api.github.com/repos/dotnet/aspnetcore/git/commits/ab73919070899c86e357689ab1702a09704552e7
+288bedd9a320ca07c0bac215a2e031e1db583503,Fixes spell across test classes and comments (#14958),github-john-doe,https://api.github.com/repos/dotnet/aspnetcore/git/commits/288bedd9a320ca07c0bac215a2e031e1db583503
+d73dfd3a1d6aad5ba7b7edaeef1cbd69110c990a,Replaced >= with > in condition. (#14825),pavinan,https://api.github.com/repos/dotnet/aspnetcore/git/commits/d73dfd3a1d6aad5ba7b7edaeef1cbd69110c990a
+1599a5a2a791def8a23784756c303a914c0e1631,Improve documentation RequestHeaders and ResponseHeaders #3465 (#14971),peckham,https://api.github.com/repos/dotnet/aspnetcore/git/commits/1599a5a2a791def8a23784756c303a914c0e1631
+4303bbe78650abf0bc6941d81956b02e4357feb5,"Clarify documentation of RefreshSignInAsync (#10637)
+
+Helps to address issues of confusion raised in https://github.com/aspnet/Identity/issues/1900 and https://github.com/aspnet/AspNetCore/issues/5844",ascott18,https://api.github.com/repos/dotnet/aspnetcore/git/commits/4303bbe78650abf0bc6941d81956b02e4357feb5
+cee04709ce81a90b9066352a09bbaf7245de0791,Fixed a few typos in BuildFromSource documentation (#14624),madskristiansen,https://api.github.com/repos/dotnet/aspnetcore/git/commits/cee04709ce81a90b9066352a09bbaf7245de0791
+5776542508742da6aba2916f4f6e79642741cd8c,"[ApiAuth] Fix subscription callbacks when unsubscribe (#15194)
+
+re-assigned the callback array to itself after running splice on it when a client unsubscribed from notifications.",hermanho,https://api.github.com/repos/dotnet/aspnetcore/git/commits/5776542508742da6aba2916f4f6e79642741cd8c
+ec4a7f6c2b8e4efc7d1e31f9fa586c3dd3eeeec3,Add Ability to Tweak JWT Refresh Intervals (#14909),say25,https://api.github.com/repos/dotnet/aspnetcore/git/commits/ec4a7f6c2b8e4efc7d1e31f9fa586c3dd3eeeec3
+0a0e1ea0cdbe29f2fcd2291b900db98597387d77,Fix references in documentation (#15436),riccikl,https://api.github.com/repos/dotnet/aspnetcore/git/commits/0a0e1ea0cdbe29f2fcd2291b900db98597387d77
+c3e5bfd6e73d121d1582d3f7cf1aecb8cb95f331,"Support global.json on arm64 as well
+
+arcade uses the runtime section of global.json to decide which
+architecture + runtime combination needs to be installed.
+
+With https://github.com/dotnet/arcade/pull/4132 arcade can install
+foreign SDKs in separate locations correctly.
+
+This change, suggested by @dougbu, makes arcade always install the
+runtime for the local architecture (which means it should work on arm64
+and x64) as well as the x86 architecture (skipped on Linux).
+
+This gets us a working SDK/Runtime combo on arm64.",omajid,https://api.github.com/repos/dotnet/aspnetcore/git/commits/c3e5bfd6e73d121d1582d3f7cf1aecb8cb95f331
+774f8dbdbd8a2cd438a7aadd624122f556428dd7,Added name for EventId in logs (#11379),mikeo52,https://api.github.com/repos/dotnet/aspnetcore/git/commits/774f8dbdbd8a2cd438a7aadd624122f556428dd7
+44df10b6a6bd86651983aac1acc2c846580b2cad,Update Angular and React-Redux templates for default eslint config changes,rachelgshaffer,https://api.github.com/repos/dotnet/aspnetcore/git/commits/44df10b6a6bd86651983aac1acc2c846580b2cad
+d4f7a199c7616a6e2c3374c33587d65d83882904,[Low Risk Cleanup] Removes double semicolons (#16794),kamronbatman,https://api.github.com/repos/dotnet/aspnetcore/git/commits/d4f7a199c7616a6e2c3374c33587d65d83882904
+968e85a3977d3634602891eecd90e456131ae0c3,Allow the Angular/React-DevServer to run on a given port (#16582),flensrocker,https://api.github.com/repos/dotnet/aspnetcore/git/commits/968e85a3977d3634602891eecd90e456131ae0c3
+a23dd41428f2be93435b730ff0fcff05bf196c93,Add www to root domain redirects (#12997),kendaleiv,https://api.github.com/repos/dotnet/aspnetcore/git/commits/a23dd41428f2be93435b730ff0fcff05bf196c93
+4eebc166bfa9bb84dcb3da3656d0984aeddb4a07,"Add ignored http headers to SpaProxy (#16863)
+
+* Add ignored http headers to SpaProxy
+
+* Remove `cookie` header from NotForwardedHttpHeaders",ChristopherHaws,https://api.github.com/repos/dotnet/aspnetcore/git/commits/4eebc166bfa9bb84dcb3da3656d0984aeddb4a07
+5b1b8bcb8be2fb86619a9c7c5d9f000911c623f4,Adding null-conditional operator on IEnumerable.GetEnumerator() (#16947),smaglio81,https://api.github.com/repos/dotnet/aspnetcore/git/commits/5b1b8bcb8be2fb86619a9c7c5d9f000911c623f4
+7cbe8aa5e32b26fb36b43861f8d1750333722747,spelling fix - recieved to received (#17123),nickraphael,https://api.github.com/repos/dotnet/aspnetcore/git/commits/7cbe8aa5e32b26fb36b43861f8d1750333722747
+8d1c8005d8f84daef433c2387dade6ef312fca67,Fixes QueryHelpers.AddQueryString() throws when one of the dictionary values is null #16647 (#17177),andre-ss6,https://api.github.com/repos/dotnet/aspnetcore/git/commits/8d1c8005d8f84daef433c2387dade6ef312fca67
+66613b194d0df398506249ff581957323c73b80e,"Updating descriptions for HTTP classes
+
+#17204",Dairai,https://api.github.com/repos/dotnet/aspnetcore/git/commits/66613b194d0df398506249ff581957323c73b80e
+8a02133ffd29e5210a1ebb65835eb099598f766a,Fix: @aspnet/signalr -> @microsoft/signalr (#17333),hez2010,https://api.github.com/repos/dotnet/aspnetcore/git/commits/8a02133ffd29e5210a1ebb65835eb099598f766a
+9099305d0427e716e84a1603fe201670260674f2,Fix AuthorizationPolicyBuilder doc typo (#17296),sidewaysgravity,https://api.github.com/repos/dotnet/aspnetcore/git/commits/9099305d0427e716e84a1603fe201670260674f2
+d59868b2d49ffd29051f6cfecdaa11a96a7cbddc,BindingAddress is customized for unix socket urls #10782 test… (#12112),mjohn,https://api.github.com/repos/dotnet/aspnetcore/git/commits/d59868b2d49ffd29051f6cfecdaa11a96a7cbddc
+ee8715254db898065696de558650d2bfa488a900,"updating inline <code> to <c>
+\n\nCommit migrated from https://github.com/dotnet/extensions/commit/e9515b009649cad0b76243b031137b3aa010a3ef",eddynaka,https://api.github.com/repos/dotnet/aspnetcore/git/commits/ee8715254db898065696de558650d2bfa488a900
+93030a8819ec1a36ad35f8b6e4093287af20652c,"Change csv content type to text/csv (#16696)
+
+* Change csv content type to text/csv
+
+According to RFC4180: https://tools.ietf.org/html/rfc4180 MIME type for .csv file should be ""text/csv""
+
+* Add comment",nufiko,https://api.github.com/repos/dotnet/aspnetcore/git/commits/93030a8819ec1a36ad35f8b6e4093287af20652c
+b028b51e3df7b7bbc78a65d0e1a385c6d81b6325,"Update ReadMe.SharedCode.md (#17889)
+
+This commit reflects the changes made to the runtime libraries version.",eanova,https://api.github.com/repos/dotnet/aspnetcore/git/commits/b028b51e3df7b7bbc78a65d0e1a385c6d81b6325
+27314f478aac87f3fd09f94ccd9b83f738da6ab1,remove apostrophes to match the intended possessive (#17901),lancehilliard,https://api.github.com/repos/dotnet/aspnetcore/git/commits/27314f478aac87f3fd09f94ccd9b83f738da6ab1
+52534500d8f66ec32893b53f97673ee672f56340,Add API docs for WebSockets and Kestrel sockets transport #17205 (#17943),ckadluba,https://api.github.com/repos/dotnet/aspnetcore/git/commits/52534500d8f66ec32893b53f97673ee672f56340
+840e10d45b2e852c7a81d884b549604413f272d4,Fix spelling of hyphens (#18130),xt0rted,https://api.github.com/repos/dotnet/aspnetcore/git/commits/840e10d45b2e852c7a81d884b549604413f272d4
+ad9cf5bcd30c3aa2bccd2a6ac78e8e927d1717cf,Contributing: Fix a typo (#18135),MaherJendoubi,https://api.github.com/repos/dotnet/aspnetcore/git/commits/ad9cf5bcd30c3aa2bccd2a6ac78e8e927d1717cf
+237b6973200b5892eb0b7b4244abe01d6d195dc4,"Use StatusCodes.Status404NotFound instead of 404 (#18453)
+
+This is a minor change to improve consistency and use `StatusCodes` members instead of raw harcoded status code numbers. It may help beginners browsing through the code-base to find where the default 404 response comes from for unmatched requests.",davidnx,https://api.github.com/repos/dotnet/aspnetcore/git/commits/237b6973200b5892eb0b7b4244abe01d6d195dc4
+28b0e67320b7dcfb554f75255e8a53f7b06b98d1,"Update RemoveCommand.cs (#17848)
+
+fix a typo",doggy8088,https://api.github.com/repos/dotnet/aspnetcore/git/commits/28b0e67320b7dcfb554f75255e8a53f7b06b98d1
+58a107b27e7a73cf24f68b7ad38818a59b5289b9,Don't throw exception while flushing ReferenceReadStream #18503 (#18548),MatyRi,https://api.github.com/repos/dotnet/aspnetcore/git/commits/58a107b27e7a73cf24f68b7ad38818a59b5289b9
+acbadf5e7d0b4cd1ae6061ba2e06642f16a54e15,"fix typo from ""retruned"" to ""returned"" in HealthReport.Entries XML Comments (dotnet/extensions#2904)
+
+\n\nCommit migrated from https://github.com/dotnet/extensions/commit/31b8e7cc01fcb48eca7526c7d8db793493dd58b4",npnelson,https://api.github.com/repos/dotnet/aspnetcore/git/commits/acbadf5e7d0b4cd1ae6061ba2e06642f16a54e15
+d6cb79e64ac42dee8b5343f829ce2c4ccbaa90b5,Use FirstSpan instead of calling First.Span (#18615),NRKirby,https://api.github.com/repos/dotnet/aspnetcore/git/commits/d6cb79e64ac42dee8b5343f829ce2c4ccbaa90b5
+801578fe19eb3f831075cb7db0b1522e60c61db1,Added Log events for Httpsys (#18551),kuns200,https://api.github.com/repos/dotnet/aspnetcore/git/commits/801578fe19eb3f831075cb7db0b1522e60c61db1
+8c32dfa14589dfffd39cf231415b02adedbeb485,"Adding ""AzureADB2CSignoutTitle"" and ""AzureADB2CSignoutText"" ta… (#18827)",pjevans,https://api.github.com/repos/dotnet/aspnetcore/git/commits/8c32dfa14589dfffd39cf231415b02adedbeb485
+e7ea31b1c7b86e404b66bed281f8c8e86809db7c,"Allow opt-out from client certificate root checking (#15029)
+
+* Added a new property, ValidateCertificateChain
+
+This aligns the code with README.md, and enables chained certificate authentication to work in Azure App Service (which won't have the client certificate's root in its trust store)
+
+* Updated reference assemblies
+
+New ValidateCertificateChain property was missing from /ref - hadn't updated it, so automatic test was failing
+
+* Replaced the broad property which disables certificate chain validation with a granular list of trusted issuers
+
+Also updated documentation to remove the unused property and to indicate that it isn't possible to validate half of the chain from the OS' trust store, and half from the private root store
+
+* Swapped property access for an AddRange call
+
+* Updated reference assembly
+
+* Added certificate tests
+
+Three test cases:
+- Untrusted client certificate should fail, as it does now.
+- Client certificate which is part of a chain with an untrusted root but a trusted issuer should fail, since the chain as a whole isn't trusted.
+- Client certificate which is part of a fully-trusted chain should pass.
+
+Also noticed that there were a couple of issues in CreateServer, where the certificate revocation flags weren't being set properly.
+
+Finally, the csproj was referring to a folder name (""test\Certificates"") which didn't exist. It looks like the folder was renamed to ""TestCertificates"", so I've update the project to match.
+
+* Update Microsoft.AspNetCore.Authentication.Certificate.netcoreapp.cs
+
+* Reverting change of Tests csproj, which was blocking certificate tests
+
+* Forgot to add certificates to the shared source root, so tests were failing
+
+* Updating following code review
+
+Replaced custom logic with a new ChainTrustValidationMode property. Updated reference assemblies
+
+* Changed tests to account for new property
+
+* Updated certificates for PR tests
+
+* Updated certificates
+
+Updating all new certificates to avoid using the alternate signature algorithm
+
+* Dummy checkin
+
+Compilation errors coming from CertificateTests.cs, performing this checkin to test whether or not they're limited to a specific build.
+
+* Following up typo corrections
+
+Commit 116799fa709ff003781368b578e4efe2fa32e937 in upstream repo changed a variable name, causing compile errors on PR build. Fixing that
+
+Co-authored-by: Hao Kung <HaoK@users.noreply.github.com>",edwardneal,https://api.github.com/repos/dotnet/aspnetcore/git/commits/e7ea31b1c7b86e404b66bed281f8c8e86809db7c
+2a521681156cfd8b297572a7fb19e96812c92d7b,"Remove HostString.Port string alloc in HostString.cs (#19082)
+
+https://github.com/dotnet/aspnetcore/issues/19064",samsosa,https://api.github.com/repos/dotnet/aspnetcore/git/commits/2a521681156cfd8b297572a7fb19e96812c92d7b
+abfd519b408e9daff672f31d6829d0738bb10842,Updated summary (#19087),shaggygi,https://api.github.com/repos/dotnet/aspnetcore/git/commits/abfd519b408e9daff672f31d6829d0738bb10842
+b6698757a85f9b6d6c63311e64dd6ac9e734ef56,Activity.Baggage values are now be Url decoded in HostingApplicationDiagnostics. (#18948),vaughanr,https://api.github.com/repos/dotnet/aspnetcore/git/commits/b6698757a85f9b6d6c63311e64dd6ac9e734ef56
+474d03c071867dacb40dbdef993d6714b276f558,"Typo in the exception message that's returned
+
+Typo in the exception message that's returned
+Rendererd should be Rendered",danielabbatt,https://api.github.com/repos/dotnet/aspnetcore/git/commits/474d03c071867dacb40dbdef993d6714b276f558
+950fa4b01095e10f134fbc89a14e8e22673ebffc,"Update BuildFromSource.md (#19320)
+
+Add short note mentioning the edition flag.
+
+Closes https://github.com/dotnet/aspnetcore/issues/16780",mxplusb,https://api.github.com/repos/dotnet/aspnetcore/git/commits/950fa4b01095e10f134fbc89a14e8e22673ebffc
+52c497aa309837eaef38122b8d6f1f0df53aca24,Add parser and formatter for short types,captainsafia,https://api.github.com/repos/dotnet/aspnetcore/git/commits/52c497aa309837eaef38122b8d6f1f0df53aca24
+7e139c9b5f0dc4a2f6da5f413092f10365a4d644,"Add HeaderNames.XRequestedWith = ""X-Requested-With"" (#19470)
+
+* Add HeaderNames.XRequestedWith = ""X-Requested-With""
+
+X-Requested-With is the standard for differentiating AJAX requests and is commonly used. Having this in HeaderNames would prevent typos related to typing this header name. I couldn't find any rationale about excluding this but there might be legitimate reasons like discouraging the use of HTTP headers or differentiating AJAX requests, etc. Please reject this if that's the case.
+
+* Replace ""X-Requested-With"" references with HeaderNames.XRequestedWith
+
+The only remaining instance is WebSocketsTransport.cs in
+SignalR\clients\csharp\Http.Connections.Client which doesn't have
+Microsoft.Net in its references. I didn't want to impose a new
+dependency as its risky.
+
+* Fix the order of using statements
+
+* Add XRequestedWith to the ref assembly",ssg,https://api.github.com/repos/dotnet/aspnetcore/git/commits/7e139c9b5f0dc4a2f6da5f413092f10365a4d644

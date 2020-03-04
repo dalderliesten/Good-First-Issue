@@ -1,0 +1,529 @@
+First Commit Hash (SHA),Commit Message,Author (Github Name),Link to Commit
+9998490f93d3ad3d56c00d23c0aa13fac41c3f6b,Initial commit,tj,https://api.github.com/repos/expressjs/express/git/commits/9998490f93d3ad3d56c00d23c0aa13fac41c3f6b
+01f4c7bbf21e1907c855d0143b06821aed0b5c30,"Using the newer node API to stop an error related to v8's runtime.js.
+
+Signed-off-by: TJ Holowaychuk <tj@vision-media.ca>",justinabrahms,https://api.github.com/repos/expressjs/express/git/commits/01f4c7bbf21e1907c855d0143b06821aed0b5c30
+d40c5e3aac2c2533ac910d7bcd07b14d46b374ee,"Fix the form post to work with firefox.
+
+The request object was making the assumption that the content-type header
+was an exact match for 'application/x-www-form-urlencoded'  this is not always
+the case :) ... for example in firefox the header value looks like 'application/x-www-form-urlencoded; charset=UTF-8'",ciaranj,https://api.github.com/repos/expressjs/express/git/commits/d40c5e3aac2c2533ac910d7bcd07b14d46b374ee
+da390ff43d84b808385ad38574f57e98d6ebff7a,Introduce .gitignore.,jherdman,https://api.github.com/repos/expressjs/express/git/commits/da390ff43d84b808385ad38574f57e98d6ebff7a
+dda12561d3809ffbea27be71c284beaec8209423,Minor spell checking,adamsanderson,https://api.github.com/repos/expressjs/express/git/commits/dda12561d3809ffbea27be71c284beaec8209423
+5a5f23fc88e9420d82fefd748635f8bcc2a3a0c1,Added some additional file extension to mime type mappings.,gjritter,https://api.github.com/repos/expressjs/express/git/commits/5a5f23fc88e9420d82fefd748635f8bcc2a3a0c1
+e823e315502dffe12110519856a6cf56e5a3ccb1,remove unneeded require call,aheckmann,https://api.github.com/repos/expressjs/express/git/commits/e823e315502dffe12110519856a6cf56e5a3ccb1
+cf09f86df2c50c19d5a0150930926ad105a59da4,Expose the http.Server instance,rauchg,https://api.github.com/repos/expressjs/express/git/commits/cf09f86df2c50c19d5a0150930926ad105a59da4
+970ff87ef65c848e54bbdf230cda9a6a37abb15e,Fix binary uploads.,mcolyer,https://api.github.com/repos/expressjs/express/git/commits/970ff87ef65c848e54bbdf230cda9a6a37abb15e
+15beb813688820eb1ce5a1acccc1d732a10be5c2,Allow ejs templates to contain single quotes,nick,https://api.github.com/repos/expressjs/express/git/commits/15beb813688820eb1ce5a1acccc1d732a10be5c2
+624cf93e2e1e5c079fc4da9ab56a23f98ac045ce,Fixing EJS partial support by passing along the context. Issue #307,bdotdub,https://api.github.com/repos/expressjs/express/git/commits/624cf93e2e1e5c079fc4da9ab56a23f98ac045ce
+458bb3d7f717f0faef61609a23974341b8f56c30,Redo cookies parsing to accept quoted values and url escaped cookies,tritonrc,https://api.github.com/repos/expressjs/express/git/commits/458bb3d7f717f0faef61609a23974341b8f56c30
+767bba9c044c2b2ba556412428fde2671a08f23f,s/parseQuery/parse/g (The node querystring module changed recently),isaacs,https://api.github.com/repos/expressjs/express/git/commits/767bba9c044c2b2ba556412428fde2671a08f23f
+aceb6ab666b3075825265868abc931a9180151e0,Fixed issue where options.cache was always ignored in view.js.,ewoudj,https://api.github.com/repos/expressjs/express/git/commits/aceb6ab666b3075825265868abc931a9180151e0
+a383b302c2dc93e279145cf5681f3086996cf2c2,Added callback query check on response.send to autowrap JSON objects for simple webservice implementations,davglass,https://api.github.com/repos/expressjs/express/git/commits/a383b302c2dc93e279145cf5681f3086996cf2c2
+c15a949cc3f01ffb941b6f65bb2c5974719b44d0,"Updated express command
+
+- Fixed a genereated test's bug
+- Added a forgotten semicolon",mhayashi,https://api.github.com/repos/expressjs/express/git/commits/c15a949cc3f01ffb941b6f65bb2c5974719b44d0
+f12baf32d47df306566c237eeed954de8fbc35ad,Restore original `res.app` when out() is called.,weaver,https://api.github.com/repos/expressjs/express/git/commits/f12baf32d47df306566c237eeed954de8fbc35ad
+b9e0d158788d07380046c648510acecd0913ba64,check that this.params is valid before calling hasOwnProperty,defunctzombie,https://api.github.com/repos/expressjs/express/git/commits/b9e0d158788d07380046c648510acecd0913ba64
+be7068f5693fcfa8bcfcc752947cc3d74cf26107,Better error output when using flash without session middleware.,masylum,https://api.github.com/repos/expressjs/express/git/commits/be7068f5693fcfa8bcfcc752947cc3d74cf26107
+8f054dbcaf6f659cb04518d10652a06f61066c89,"JSON and JSONP default to UTF-8 in the same way as HTML. Introduces app.set('charset') to set charset default at the application level. Closes #632.
+
+Signed-off-by: Tj Holowaychuk <tj@vision-media.ca>",dshaw,https://api.github.com/repos/expressjs/express/git/commits/8f054dbcaf6f659cb04518d10652a06f61066c89
+6ae45d0fd324afb493f7c9768bd70a4ddc1e80f0,"The comment here refers to using ""jade"" for layouts, but you're using ""ejs"" instead.",8bitDesigner,https://api.github.com/repos/expressjs/express/git/commits/6ae45d0fd324afb493f7c9768bd70a4ddc1e80f0
+31fef407b6795ca6ad39a04593ef1f1c623f5b45,"Fixed a typo: ""A route is simple a string"" => ""A route is simply a string""",darrentorpey,https://api.github.com/repos/expressjs/express/git/commits/31fef407b6795ca6ad39a04593ef1f1c623f5b45
+127f77964e862b323b51f81052fe1c10edbafe8e,Updated markdown example to latest version of node-markdown and modified the compile method.,joemccann,https://api.github.com/repos/expressjs/express/git/commits/127f77964e862b323b51f81052fe1c10edbafe8e
+c407f58dc29c5b5f7d610daaf32c6f0659a4097a,":uri -> :url
+
+Example won't work otherwise. I checked the code :-)",jpalardy,https://api.github.com/repos/expressjs/express/git/commits/c407f58dc29c5b5f7d610daaf32c6f0659a4097a
+aa36bc4516fae0b48c736012b14c51a3849a7cbb,Due to npm 1.x changes need to pass connect/express to the function connect-redis exports (see https://github.com/visionmedia/connect-redis),jakeg,https://api.github.com/repos/expressjs/express/git/commits/aa36bc4516fae0b48c736012b14c51a3849a7cbb
+7b813b95b65dc2f7d32c2908669fed2b1dc7c931,documentation spelling typo and URL fix.,jzacsh,https://api.github.com/repos/expressjs/express/git/commits/7b813b95b65dc2f7d32c2908669fed2b1dc7c931
+d04c1f93a3426e052318287ea3e0983b7f452a26,"its is possessive, it's is shorthand for: it is",redsquirrel,https://api.github.com/repos/expressjs/express/git/commits/d04c1f93a3426e052318287ea3e0983b7f452a26
+e0e1105965485eecbd673e33d27b5d111b3f8df5,"Fixing the misspelling of ""manor"" with ""manner"" in the 4 places it occurs.",purohit,https://api.github.com/repos/expressjs/express/git/commits/e0e1105965485eecbd673e33d27b5d111b3f8df5
+b977ee6160e65b4949e996a6eb93447ddc96aba4,Fix the behavior for setting up routes with * in them.,ctide,https://api.github.com/repos/expressjs/express/git/commits/b977ee6160e65b4949e996a6eb93447ddc96aba4
+f4080210bdc6493e71f58af03cb7d780e5b89893,specialcase .:format routing to not include a dot in the capture group,Swatinem,https://api.github.com/repos/expressjs/express/git/commits/f4080210bdc6493e71f58af03cb7d780e5b89893
+c8ab0588428a62f224e147c69cced810e49b7aa2,Fixing typo: interacte -> interact,pikeas,https://api.github.com/repos/expressjs/express/git/commits/c8ab0588428a62f224e147c69cced810e49b7aa2
+47ff0dc0cc29debf510658c5cfdb92f6d5cdcd3d,"Add JSHTML template engine for cli helper
+JSHTML is a express compatible template engine 
+with very nice syntax.
+
+https://github.com/LuvDaSun/jshtml",JonDum,https://api.github.com/repos/expressjs/express/git/commits/47ff0dc0cc29debf510658c5cfdb92f6d5cdcd3d
+a5b1aa9ca7cb46d27680e12e384c9054e7bf4263,Update package.json,gugu,https://api.github.com/repos/expressjs/express/git/commits/a5b1aa9ca7cb46d27680e12e384c9054e7bf4263
+4600548b4db3fd985eb1cf26dac7de53b3e047d9,update keywords for search.npmjs.org,siong1987,https://api.github.com/repos/expressjs/express/git/commits/4600548b4db3fd985eb1cf26dac7de53b3e047d9
+7c66db2c458082a0294d6c44e6787d9b38bf98c6,Change the eol character based on platform type,ksato9700,https://api.github.com/repos/expressjs/express/git/commits/7c66db2c458082a0294d6c44e6787d9b38bf98c6
+fa088e37bce28ba6705eb69951fc8cebe22b2cc6,Gave the router a name. All the other connect middlewares are named functions.,Raynos,https://api.github.com/repos/expressjs/express/git/commits/fa088e37bce28ba6705eb69951fc8cebe22b2cc6
+301085e5102e07b2fb6026ca52335caa3a380716,Add `test` script,mmalecki,https://api.github.com/repos/expressjs/express/git/commits/301085e5102e07b2fb6026ca52335caa3a380716
+fa51cb8d63cd8790b80d496140692dacb2d50929,Typo,peters,https://api.github.com/repos/expressjs/express/git/commits/fa51cb8d63cd8790b80d496140692dacb2d50929
+28d7750eda15594a551ce834c16c168f55bca502,Added support for arrays of paths,eivindfjeldstad,https://api.github.com/repos/expressjs/express/git/commits/28d7750eda15594a551ce834c16c168f55bca502
+a8c73649ce2b468a9dfff2d255f0a817b14ebb4b,Updated auth example for express 3.x. With a test.,slaskis,https://api.github.com/repos/expressjs/express/git/commits/a8c73649ce2b468a9dfff2d255f0a817b14ebb4b
+f79f3f8b22a74fe5cafcba4fca52f2035dd97ddf,update connect version,snodgrass23,https://api.github.com/repos/expressjs/express/git/commits/f79f3f8b22a74fe5cafcba4fca52f2035dd97ddf
+419731ec4133ad8fb969dc9a888d2a8550ed607e,Unused require of fs module,ppejovic,https://api.github.com/repos/expressjs/express/git/commits/419731ec4133ad8fb969dc9a888d2a8550ed607e
+db9b2bfbe1d1e3e46d11255da5dbb63b5371f0f1,Adding support back in for less CSS.,Zoramite,https://api.github.com/repos/expressjs/express/git/commits/db9b2bfbe1d1e3e46d11255da5dbb63b5371f0f1
+e8eef6460185ea1f8e2007800f24034db7dd9c83,Add protocol to fix link being interpreted as relative in README.md.,brianloveswords,https://api.github.com/repos/expressjs/express/git/commits/e8eef6460185ea1f8e2007800f24034db7dd9c83
+d8caf209e38a214cb90b11ed59fd15b717b3f9bc,Fixed reference to this.body.length in Post validation error when the body length is less than 10 characters.,benedmunds,https://api.github.com/repos/expressjs/express/git/commits/d8caf209e38a214cb90b11ed59fd15b717b3f9bc
+d64bb2f886b3143f3205d4f5f4e1a1e157642501,use process.env.PORT. fix for #1118,benatkin,https://api.github.com/repos/expressjs/express/git/commits/d64bb2f886b3143f3205d4f5f4e1a1e157642501
+f1ac6ab7644f1c0b5a0756428694d16d1934c28b,changed jade default doctype to html5,adiospace,https://api.github.com/repos/expressjs/express/git/commits/f1ac6ab7644f1c0b5a0756428694d16d1934c28b
+18083f0c13b07705a906beda881628f5991264f8,add hogan.js template engine for express@3.0,nullfirm,https://api.github.com/repos/expressjs/express/git/commits/18083f0c13b07705a906beda881628f5991264f8
+6556cefc7189ba83d53557b52916e59e824a8f06,Refactoring: no need for add 'del' and 'all' to methods,langpavel,https://api.github.com/repos/expressjs/express/git/commits/6556cefc7189ba83d53557b52916e59e824a8f06
+73bed61afabfa0b868b51b72744b963156ccf881,* immediately after :param would become not greedy,riadhchtara,https://api.github.com/repos/expressjs/express/git/commits/73bed61afabfa0b868b51b72744b963156ccf881
+e79f72bf880a6f816ccc7533d9c905e1e3a1b0fd,Fixes path joining in win32 systems,saintedlama,https://api.github.com/repos/expressjs/express/git/commits/e79f72bf880a6f816ccc7533d9c905e1e3a1b0fd
+8050308706a4a62b148ba70dd8ea6ccc07495c48,Remove socket error handler if file was sent successfully.,RubenVerborgh,https://api.github.com/repos/expressjs/express/git/commits/8050308706a4a62b148ba70dd8ea6ccc07495c48
+73ce9d028cfe17355f0c6d9e9d76a748cd7f35dc,Line 40 removed. Fixed!,buschtoens,https://api.github.com/repos/expressjs/express/git/commits/73ce9d028cfe17355f0c6d9e9d76a748cd7f35dc
+ba2f66d765fdb5d732d9dcacdae0d47d73a47831,Removed extraneous require('http'),ritch,https://api.github.com/repos/expressjs/express/git/commits/ba2f66d765fdb5d732d9dcacdae0d47d73a47831
+0217e6ce968c3737043002b437210a1f73397e1a,"Fix signed cookie prefix
+
+Update res.cookie to prefix signed cookies with 's:'",tnydwrds,https://api.github.com/repos/expressjs/express/git/commits/0217e6ce968c3737043002b437210a1f73397e1a
+1b15af713c0fb5759c0ec7e1bff55dbe7227cc36,fix error-pages 404 status,nickjj,https://api.github.com/repos/expressjs/express/git/commits/1b15af713c0fb5759c0ec7e1bff55dbe7227cc36
+92840b9f683b9835c93f3819deba1110d3919e14,Fixed: notify of a successful auth.,sakateka,https://api.github.com/repos/expressjs/express/git/commits/92840b9f683b9835c93f3819deba1110d3919e14
+3b6d683b7f2d24d61c910398ad1bbde22c536f98,set the NODE_ENV to development for the development view cache test,lihanli,https://api.github.com/repos/expressjs/express/git/commits/3b6d683b7f2d24d61c910398ad1bbde22c536f98
+2abcbed67ab692eaa4399562877d684e7ef5b594,make application routing callback behave the same as middleware,seanjsong,https://api.github.com/repos/expressjs/express/git/commits/2abcbed67ab692eaa4399562877d684e7ef5b594
+582dadf78713a2c6ab0e8e2d347f30a5776c2b6b,"Update Readme.md
+
+Text alignment in Contributors list",valllabh,https://api.github.com/repos/expressjs/express/git/commits/582dadf78713a2c6ab0e8e2d347f30a5776c2b6b
+6b309a4457a6992c97f6ea71cccab9042cc47df2,remove connect.static.send import from response.js,DmitryBochkarev,https://api.github.com/repos/expressjs/express/git/commits/6b309a4457a6992c97f6ea71cccab9042cc47df2
+534fbdb3071e3faf184762d59bb1c21dd0041dbe,delete unused variables,Laboratory,https://api.github.com/repos/expressjs/express/git/commits/534fbdb3071e3faf184762d59bb1c21dd0041dbe
+ea5e254c7d620c41e515f30991dedc1d56097dc5,"Escape URLs in text/plain res.redirect response
+
+Escape the URL printed by res.redirect using URL encoding. This
+prevents some browsers (primarily old versions of IE) from attempting
+to sniff the Content-Type and evaluate it as HTML, which causes a
+cross-site scripting vulnerability.",gmethvin,https://api.github.com/repos/expressjs/express/git/commits/ea5e254c7d620c41e515f30991dedc1d56097dc5
+18a3cc03eec3a722ac0720b6d0165c52558290ae,use buffer-crc32 module for ETag CRC generator,piscis,https://api.github.com/repos/expressjs/express/git/commits/18a3cc03eec3a722ac0720b6d0165c52558290ae
+6f6eec7d8d929112a37de61c6b78a50bd9f46a73,add 'etag' option,kavu,https://api.github.com/repos/expressjs/express/git/commits/6f6eec7d8d929112a37de61c6b78a50bd9f46a73
+ce7d7bfd8dc985df02c12ee819ff5dbd423a7458,add throwing when a non-function is passed to a route,thlorenz,https://api.github.com/repos/expressjs/express/git/commits/ce7d7bfd8dc985df02c12ee819ff5dbd423a7458
+0fdceb3de379923ea8087b1f1cc9e6382e6ef41d,"Add full extname support to the ""view engine"" setting; e.g., "".jade"".
+
+This allows View to support a `defaultEngine` (a.k.a. an app's
+""view engine"" setting) which contains a ""."", for example:
+
+```
+app.engine('.jade', jadeEngine);
+app.set('view engine', '.jade');
+```
+
+This brings View's handling of template filename extensions to parity
+with `app.engine()`.
+
+This allows an app's ""view engine"" setting to be a full extension name,
+including the ""."".",ericf,https://api.github.com/repos/expressjs/express/git/commits/0fdceb3de379923ea8087b1f1cc9e6382e6ef41d
+a4d7b75129330928b7144afa5da9a7fbcc2bd907,implemented res.location,juliangruber,https://api.github.com/repos/expressjs/express/git/commits/a4d7b75129330928b7144afa5da9a7fbcc2bd907
+44a3fa63598925badd595955f6cb4a41ac7c7ea6,Remove legacy app.configure() method from app template.,qjcg,https://api.github.com/repos/expressjs/express/git/commits/44a3fa63598925badd595955f6cb4a41ac7c7ea6
+46536dee398b63addbcaf79e3030fbf7427c7c45,fixed typo,killmenot,https://api.github.com/repos/expressjs/express/git/commits/46536dee398b63addbcaf79e3030fbf7427c7c45
+84e745f67ce57be113f47c6e6e71889bea948baf,"[fix] add .js, fixes haibu compatibility",yawnt,https://api.github.com/repos/expressjs/express/git/commits/84e745f67ce57be113f47c6e6e71889bea948baf
+eed0f598a03fbace7806ca3a44f54e8526b15a1e,Remove some superfluous trailing whitespace,thomseddon,https://api.github.com/repos/expressjs/express/git/commits/eed0f598a03fbace7806ca3a44f54e8526b15a1e
+8211562cf61d05c7ea018f195d6fc198958c4a01,"Made quotes consistent
+
+One-off use of double quotes aggravated my OCD.",lennym,https://api.github.com/repos/expressjs/express/git/commits/8211562cf61d05c7ea018f195d6fc198958c4a01
+9a884aa9eeb4d14a94aa3e1748fc908511267fb9,Use End-of-line Node constant,fern4lvarez,https://api.github.com/repos/expressjs/express/git/commits/9a884aa9eeb4d14a94aa3e1748fc908511267fb9
+b686ec1182cc74e1ea1555d621df3c5e023a763d,Considering X-Forwarded-Host header if proxy is trusted,cdauth,https://api.github.com/repos/expressjs/express/git/commits/b686ec1182cc74e1ea1555d621df3c5e023a763d
+57e48c4767b345a6c098a0cfc32ee745ce1ec972,"Possible fix for #1557, allows routes to be created using literal regexes across V8 contexts.  Removes all uses of `instanceof`.",daguej,https://api.github.com/repos/expressjs/express/git/commits/57e48c4767b345a6c098a0cfc32ee745ce1ec972
+d13cea46d5269b3cb37cb2a0684ea08745dfe0a1,fix .travis.yml,guybrush,https://api.github.com/repos/expressjs/express/git/commits/d13cea46d5269b3cb37cb2a0684ea08745dfe0a1
+ee9d50c1283c74f6b2aabeeb76a294362e75a37b,Modified hash to return base64 encoded strings.,jlubawy,https://api.github.com/repos/expressjs/express/git/commits/ee9d50c1283c74f6b2aabeeb76a294362e75a37b
+a732d6d4716895803212c164e74656b04782f4cc,Changed URL of russian docs in Readme.md,jsmarkus,https://api.github.com/repos/expressjs/express/git/commits/a732d6d4716895803212c164e74656b04782f4cc
+9e684d45bce6ef10992ebd4855e6777e197be56e,add support for custom Accept parameters,pavelbrylov,https://api.github.com/repos/expressjs/express/git/commits/9e684d45bce6ef10992ebd4855e6777e197be56e
+88273a59f88d832cd71f9b66af11023344ccca2c,Added originalIndex to parseQuality to correctly sort long lists (v8 does unstable quicksort for length > 10),silentjohnny,https://api.github.com/repos/expressjs/express/git/commits/88273a59f88d832cd71f9b66af11023344ccca2c
+0b4e2df4805d262785352fa3acf4ce8c791c5023,"add ""view"" constructor setting to override view behaviour",caridy,https://api.github.com/repos/expressjs/express/git/commits/0b4e2df4805d262785352fa3acf4ce8c791c5023
+3df265b36a2e81b1a4ff2db1130e87a8a9314fa4,remove spaces when a session is enabled.,yields,https://api.github.com/repos/expressjs/express/git/commits/3df265b36a2e81b1a4ff2db1130e87a8a9314fa4
+6d39ed8ef7827fccc373155fd91b1c43b020e389,Accept number as value of Signed Cookie,hacksparrow,https://api.github.com/repos/expressjs/express/git/commits/6d39ed8ef7827fccc373155fd91b1c43b020e389
+eb1bbb92c05711c7669ea3437b9dde805f699f3f,removing github-flavored-markdown as a dependency as it is no longer supported.  switch to use marked instead,bartsqueezy,https://api.github.com/repos/expressjs/express/git/commits/eb1bbb92c05711c7669ea3437b9dde805f699f3f
+28752cc3c02cb19bd99056fb4c4d835459a3ac2e,Version bump for node-cookie,Cauldrath,https://api.github.com/repos/expressjs/express/git/commits/28752cc3c02cb19bd99056fb4c4d835459a3ac2e
+69453ff88936e9cebb40052ff86390725d83899b,the file is hosts not vhosts,colynb,https://api.github.com/repos/expressjs/express/git/commits/69453ff88936e9cebb40052ff86390725d83899b
+30919be2a01e3e04037ba6a9f92161a31367b685,Throw a meaningful error when there is no default engine,ForbesLindesay,https://api.github.com/repos/expressjs/express/git/commits/30919be2a01e3e04037ba6a9f92161a31367b685
+7388c2c223d9f2b4a18ec7ce903f8dd0cacd22d7,"Remove dead link from readme's ""More Information""",EvanHahn,https://api.github.com/repos/expressjs/express/git/commits/7388c2c223d9f2b4a18ec7ce903f8dd0cacd22d7
+fd73bd006e744f088d0b03b33793ff510d063f85,added some additional explanation for clarity,joshlangner,https://api.github.com/repos/expressjs/express/git/commits/fd73bd006e744f088d0b03b33793ff510d063f85
+cd31cecfd190a860d7b5e6b781eac2b333678b2a,Update to maintain compatability with the latest version of jade,jade-bot,https://api.github.com/repos/expressjs/express/git/commits/cd31cecfd190a860d7b5e6b781eac2b333678b2a
+a3c9eacaf149502f0fad38c2dec9bd5fbe0a5cd2,move .app to req's & res's prototypes,printercu,https://api.github.com/repos/expressjs/express/git/commits/a3c9eacaf149502f0fad38c2dec9bd5fbe0a5cd2
+52a820113faec0db9b4d86c9855aa434cafe384c,use send 0.1.1 to get rid of npm warning,ralphtheninja,https://api.github.com/repos/expressjs/express/git/commits/52a820113faec0db9b4d86c9855aa434cafe384c
+7a31a1d3118da4ae4b2d546fec8b36f612b295df,Fixes typo in index.js vhost example,dresende,https://api.github.com/repos/expressjs/express/git/commits/7a31a1d3118da4ae4b2d546fec8b36f612b295df
+6d1d694dbbea28b84a0a9fc77c5b94e7124be4b9,Update commander and mkdirp dependencies.,paulmillr,https://api.github.com/repos/expressjs/express/git/commits/6d1d694dbbea28b84a0a9fc77c5b94e7124be4b9
+3de81e0147385820a13653fd810d1fa5c3f2a757,Fix typo in app.param comment,CharlesHolbrow,https://api.github.com/repos/expressjs/express/git/commits/3de81e0147385820a13653fd810d1fa5c3f2a757
+7c2ed1d2d66bc004f55cba51c074f7ea6a985956,removed unnecessary require statement,esco,https://api.github.com/repos/expressjs/express/git/commits/7c2ed1d2d66bc004f55cba51c074f7ea6a985956
+bdbdab7fcce56b67ea958165fe360948ed2c96b2,Fixes from pull request #1643,jonjenkins,https://api.github.com/repos/expressjs/express/git/commits/bdbdab7fcce56b67ea958165fe360948ed2c96b2
+058d7ec2eaf6b9cdbd5186278b2c1609faffeebe,Improved variable names and updated comments for better clarity of example,patelatharva,https://api.github.com/repos/expressjs/express/git/commits/058d7ec2eaf6b9cdbd5186278b2c1609faffeebe
+e5de08faa182fc48a371e1df57338f5e6e9aacd8,add res.vary(). Closes #1682,cjihrig,https://api.github.com/repos/expressjs/express/git/commits/e5de08faa182fc48a371e1df57338f5e6e9aacd8
+7059d3b71e0d72e9d01d25c05e151f7ec457beef,Allow multiple call concatenation for res.links. Fixes #1683,sorribas,https://api.github.com/repos/expressjs/express/git/commits/7059d3b71e0d72e9d01d25c05e151f7ec457beef
+92ddf77453435b3fa01aebceb315bc9ab97da864,"Merge pull request #1729 from patelatharva/patch-1
+
+Improved variable names and updated comments for better clarity of example",jonathanong,https://api.github.com/repos/expressjs/express/git/commits/92ddf77453435b3fa01aebceb315bc9ab97da864
+288176bbc9bd66f6844f13fdb72d2a1928545bc3,Added safe encodeURIcomponent to eliminate errors on malformed captures.,lxe,https://api.github.com/repos/expressjs/express/git/commits/288176bbc9bd66f6844f13fdb72d2a1928545bc3
+57e45e3af80d21ad1201606bc5147d714a626d6c,fixes #1600,muratgu,https://api.github.com/repos/expressjs/express/git/commits/57e45e3af80d21ad1201606bc5147d714a626d6c
+ed7db34bab08df4b2703b96c52f6c8a2c147a3f7,documentation language fix,jseip1679,https://api.github.com/repos/expressjs/express/git/commits/ed7db34bab08df4b2703b96c52f6c8a2c147a3f7
+baa5a7c3e9918360191a1f59a4a14e927634b966,Add Runnable.com button,ykumar6,https://api.github.com/repos/expressjs/express/git/commits/baa5a7c3e9918360191a1f59a4a14e927634b966
+855d1e2bf562e543557bae0e8def5f02bda971d9,replace bodyparser with json and urlencoded,chirag04,https://api.github.com/repos/expressjs/express/git/commits/855d1e2bf562e543557bae0e8def5f02bda971d9
+3ac718763f66c00452d59e1ec9513b46aefb8d0c,2013-100-23 -> 2013-10-23,malixsys,https://api.github.com/repos/expressjs/express/git/commits/3ac718763f66c00452d59e1ec9513b46aefb8d0c
+661914781ed5c66f99b389320d99cb175a2c665f,semicolons,kapouer,https://api.github.com/repos/expressjs/express/git/commits/661914781ed5c66f99b389320d99cb175a2c665f
+1684a8792a5caf894d6e1b1b4d59b6d0cdaa6dc9,"Removed Buffer call with 'binary' encoding option in auth example.
+
+According to the Node.js documentation for Buffer objects regarding the
+'binary' encoding option:
+
+""This encoding method is deprecated and should be avoided in favor of
+Buffer objects where possible. This encoding will be removed in future
+versions of Node.""
+
+Simply calling toString() with a 'base64' argument on the hash seems to
+accomplish the same thing; this makes the code compatible with current
+documentation as well as being a bit easier to follow.",yakubori,https://api.github.com/repos/expressjs/express/git/commits/1684a8792a5caf894d6e1b1b4d59b6d0cdaa6dc9
+2f2a652bc9420f2d05ddfe914048cfe5c327d7c7,"fixes #1826: res.redirect('toString') fails with 500
+
+Removed the unused map and corrected the doc comment.",michaelficarra,https://api.github.com/repos/expressjs/express/git/commits/2f2a652bc9420f2d05ddfe914048cfe5c327d7c7
+606f68de021139778ca935541a9e65fcc0d1abff,Grammar and punctuation fixes [ci skip],fluxusfrequency,https://api.github.com/repos/expressjs/express/git/commits/606f68de021139778ca935541a9e65fcc0d1abff
+7b0dca0f9c7eb0c79fbc4e487a06357ab35347e7,throw 400 in case of malformed paths,rlidwka,https://api.github.com/repos/expressjs/express/git/commits/7b0dca0f9c7eb0c79fbc4e487a06357ab35347e7
+85834fd146392dafb98211dc89472fe3ed2f329d,Error message now describes where the view was not able to be found. Useful for debugging.,yamatt,https://api.github.com/repos/expressjs/express/git/commits/85834fd146392dafb98211dc89472fe3ed2f329d
+00a3b01f391f472e895934f6ccad65c9f59a34a8,Changed `doctype 5` to `doctype html` on the example file because the former was deprecated on Jade version 1.0.0.,yosssi,https://api.github.com/repos/expressjs/express/git/commits/00a3b01f391f472e895934f6ccad65c9f59a34a8
+a36eeb96f3d9836a7205d54bcfea2e8a124781a7,update the tests to show a difference between `send(null)` and `send(undefiend)`,vesln,https://api.github.com/repos/expressjs/express/git/commits/a36eeb96f3d9836a7205d54bcfea2e8a124781a7
+951c70496b7d6e6c1938ab326b37e5f2445485af,Value parameter of app.set() should be typed optional Object,oliversalzburg,https://api.github.com/repos/expressjs/express/git/commits/951c70496b7d6e6c1938ab326b37e5f2445485af
+38996b30b1df2924655f153a06022d7845fcb6e8,Update layout.jade,matheusazzi,https://api.github.com/repos/expressjs/express/git/commits/38996b30b1df2924655f153a06022d7845fcb6e8
+a3b5f6d07f880298a92164fe7f0519d736524dcf,"prevent incorrect automatic OPTIONS responses
+
+The router has automatic handling of OPTIONS based on the registered
+routes, but if you make an OPTIONS request for an endpoint that does
+not exist, then it will still return a 200 with nothing allowed.
+Instead, we can let the request move on down the middleware chain. This
+has two benefits: first, if the route was not defined and no other
+middleware handles it, it will return with a 404. Secondly, if multiple
+routers are used and a later one has the route or a custom OPTIONS
+defined, the first router will not respond incorrectly.",dpatti,https://api.github.com/repos/expressjs/express/git/commits/a3b5f6d07f880298a92164fe7f0519d736524dcf
+fd6439bb36c9d39dc05067310edaf770dc5bb262,delete semicolon,popomore,https://api.github.com/repos/expressjs/express/git/commits/fd6439bb36c9d39dc05067310edaf770dc5bb262
+0fbfce58c6c44d5e6a468b1da21d87deff9827a7,Fixed deprecated example doctype,deiga,https://api.github.com/repos/expressjs/express/git/commits/0fbfce58c6c44d5e6a468b1da21d87deff9827a7
+be52dbbaa1bb8a096ce5cfd55afe014935284406,"Allow dynamic mounting with `.use`.
+
+Retains params from the parent application.",blakeembrey,https://api.github.com/repos/expressjs/express/git/commits/be52dbbaa1bb8a096ce5cfd55afe014935284406
+13475977af6ef4c1409ca473566349c3242b14cf,some code cleanup,agchou,https://api.github.com/repos/expressjs/express/git/commits/13475977af6ef4c1409ca473566349c3242b14cf
+001c9380be1631ea44069745ee695a09083bfa2c,"Tell me what I'm using that isn't allowed
+
+I'm migrating and it would be useful in a large application to know what I'm using that's not allowed. I think lots of people would feel this way. Let me know if you would prefer a different implementation.",kentcdodds,https://api.github.com/repos/expressjs/express/git/commits/001c9380be1631ea44069745ee695a09083bfa2c
+ba0b046a9513f0b72a7ab7fba39b06c5971070c0,Use SVG badges in Readme,seanlinsley,https://api.github.com/repos/expressjs/express/git/commits/ba0b046a9513f0b72a7ab7fba39b06c5971070c0
+0dbaacfe12fab8801b4bb40ddfd288f32f3c0e90,update history,dougwilson,https://api.github.com/repos/expressjs/express/git/commits/0dbaacfe12fab8801b4bb40ddfd288f32f3c0e90
+6b1c44321245f62274d002ed861cf40c227c6745,remove one feature description,Pana,https://api.github.com/repos/expressjs/express/git/commits/6b1c44321245f62274d002ed861cf40c227c6745
+79cc5a4d2745cc96a481c133836e042852f178fe,"make old middleware properties configurable
+
+closes #2054",andrejewski,https://api.github.com/repos/expressjs/express/git/commits/79cc5a4d2745cc96a481c133836e042852f178fe
+50158b851c441d6b7dcd360cde04f2eb9adafe18,"Express 4 now uses ""method-override"" external library.",swrh,https://api.github.com/repos/expressjs/express/git/commits/50158b851c441d6b7dcd360cde04f2eb9adafe18
+4ac7474e4e83c3b5f8557e591bae9da54e4420d8,"trim_prefix causing --use-strict flag to fail
+
+as specified in bug #2064 the `trim_prefix` function declaration within the `try/catch` causes problems when starting express with `--use_strict` directive.",WebReflection,https://api.github.com/repos/expressjs/express/git/commits/4ac7474e4e83c3b5f8557e591bae9da54e4420d8
+3c7310ebcbee1d65f47e6c6115ade2fa4cbd5b59,"Include ETag in HEAD requests
+
+fixes #2083",relvao,https://api.github.com/repos/expressjs/express/git/commits/3c7310ebcbee1d65f47e6c6115ade2fa4cbd5b59
+ad05eb822208fbc7fbfd241d82f535756b338f3c,"Fix typo in console.log in multipart example
+
+closes #2164",JoshSGman,https://api.github.com/repos/expressjs/express/git/commits/ad05eb822208fbc7fbfd241d82f535756b338f3c
+e606d99dc892159312e9204ea809a76b26b93dbe,"Fix res.attachment Unicode filenames in Safari
+
+closes #2188",meteormatt,https://api.github.com/repos/expressjs/express/git/commits/e606d99dc892159312e9204ea809a76b26b93dbe
+746044b6c2886c6bc6d60c38ef423b5a7e9e8f54,"Replace __defineGetter__ with Object.defineProperty
+
+closes #2162",guyellis,https://api.github.com/repos/expressjs/express/git/commits/746044b6c2886c6bc6d60c38ef423b5a7e9e8f54
+83bbf0902d230fc8b31588b427667830526cb735,"examples: tweak cors example
+
+The PUT method needs clearance from the server, unlike GET, HEAD
+and POST, so this demonstrates a case where the method in the
+response is important.
+
+closes #2195",caike,https://api.github.com/repos/expressjs/express/git/commits/83bbf0902d230fc8b31588b427667830526cb735
+bd6908516dd88320522d3a9d6089dde4d6005bba,"docs: cleanup readme, update package description
+
+closes #2210",Fishrock123,https://api.github.com/repos/expressjs/express/git/commits/bd6908516dd88320522d3a9d6089dde4d6005bba
+4fe1073f105dbc3b8aa00adf33aa5a19f248117c,"docs: fix nodejs.org link
+
+closes #2222",ryanseys,https://api.github.com/repos/expressjs/express/git/commits/4fe1073f105dbc3b8aa00adf33aa5a19f248117c
+544c6665f54b1ebdbc54769ba78721c4e13acdf7,"Fix res.send(status, num) to send num as json
+
+fixes #2226",ysmood,https://api.github.com/repos/expressjs/express/git/commits/544c6665f54b1ebdbc54769ba78721c4e13acdf7
+fd86ab8da22b847b160ef7b5c17cb39481ea4f38,"build: fix up jsdoc return values
+
+closes #2243",vaseker,https://api.github.com/repos/expressjs/express/git/commits/fd86ab8da22b847b160ef7b5c17cb39481ea4f38
+04f383087fc00981d57035129457d053eaad058b,"docs: add expressjs.kr(expressjs.com in Korean)
+
+closes #2242
+closes #2244",Hanul,https://api.github.com/repos/expressjs/express/git/commits/04f383087fc00981d57035129457d053eaad058b
+a28b7a85cf3fc71e1a1bda8d90338741eba8c92b,"Fix req.protocol for proxy-direct connections
+
+fixes #2252",roark31337,https://api.github.com/repos/expressjs/express/git/commits/a28b7a85cf3fc71e1a1bda8d90338741eba8c92b
+17cea29013c64b169e3fa8ddde903e05ce533ab0,"Support mounted app as any argument to app.use()
+
+fixes #2277",fabien,https://api.github.com/repos/expressjs/express/git/commits/17cea29013c64b169e3fa8ddde903e05ce533ab0
+d7bef52591876e3fa86ed08b5ac0cb5447ba1684,"build: move repository
+
+closes #2268
+closes #2270",raymondfeng,https://api.github.com/repos/expressjs/express/git/commits/d7bef52591876e3fa86ed08b5ac0cb5447ba1684
+d2d0afff64d72f208a8aa2d9216debf5abef9e40,"Remove unused variable
+
+closes #2345",lemmy-,https://api.github.com/repos/expressjs/express/git/commits/d2d0afff64d72f208a8aa2d9216debf5abef9e40
+12f92a50dc59887c30f4c6f23fdfbfc616dcbef5,"Add res.sendStatus
+
+closes #2269
+closes #2297
+closes #2340",seth-admittedly,https://api.github.com/repos/expressjs/express/git/commits/12f92a50dc59887c30f4c6f23fdfbfc616dcbef5
+bb8abf1f9017aca26cded6c61043c37dee34a68a,"Remove unused require in router match
+
+closes #2358",strwind,https://api.github.com/repos/expressjs/express/git/commits/bb8abf1f9017aca26cded6c61043c37dee34a68a
+be478d348c56e5961746dc95b4c0305eb1d6b5a9,"Fix typo in res.redirect deprecation
+
+closes #2395",iambchan,https://api.github.com/repos/expressjs/express/git/commits/be478d348c56e5961746dc95b4c0305eb1d6b5a9
+eabd4564aaa8d209260497b5f3f2dda3591a9dea,"Fix handling of URLs containing :// in the path
+
+fixes #2421",aredridel,https://api.github.com/repos/expressjs/express/git/commits/eabd4564aaa8d209260497b5f3f2dda3591a9dea
+1c96e18d20eecc7dbefabe21f8818192f06eafc9,"docs: fix Gratipay links
+
+fixes #2424",jaimeagudo,https://api.github.com/repos/expressjs/express/git/commits/1c96e18d20eecc7dbefabe21f8818192f06eafc9
+6dea32cd18580a1206f1075295679da00d028354,"examples: add multi router example
+
+closes #2434",josemarjobs,https://api.github.com/repos/expressjs/express/git/commits/6dea32cd18580a1206f1075295679da00d028354
+5d74a553d67d23b8fd0c236c162fd0b556b9bdfe,"Fix exception in req.fresh/req.stale without response headers
+
+fixes #2468",troygoode,https://api.github.com/repos/expressjs/express/git/commits/5d74a553d67d23b8fd0c236c162fd0b556b9bdfe
+d842647217feeb3024e8056fabacc8bab1b382f0,"docs: readme tweaks
+
+closes #2471",nmandel,https://api.github.com/repos/expressjs/express/git/commits/d842647217feeb3024e8056fabacc8bab1b382f0
+4070dabe532ecb799445920cf9756eb6625a0254,"Fix typo in comment
+
+closes #2493",jstkim7,https://api.github.com/repos/expressjs/express/git/commits/4070dabe532ecb799445920cf9756eb6625a0254
+fea768dbccc036d883b03e38daebc38e5206031c,"Fix an incorrect @api jsdoc
+
+closes #2522",ifraixedes,https://api.github.com/repos/expressjs/express/git/commits/fea768dbccc036d883b03e38daebc38e5206031c
+72d35b6b4a06ed52d44a3058fe1d338f8917afc1,"Fix typo in jsdoc description
+
+closes #2514",tadatuta,https://api.github.com/repos/expressjs/express/git/commits/72d35b6b4a06ed52d44a3058fe1d338f8917afc1
+9adfc2d586b18c485c94bf89943d579dd58fd1ba,"Fix typos in req.accepts jsdoc
+
+closes #2527",lvn,https://api.github.com/repos/expressjs/express/git/commits/9adfc2d586b18c485c94bf89943d579dd58fd1ba
+24fce9deb374e7259f518e0bd69da8dffb6e282d,"examples: fixes to mvc example
+
+closes #2534",bullwinkle,https://api.github.com/repos/expressjs/express/git/commits/24fce9deb374e7259f518e0bd69da8dffb6e282d
+8fe5fd89c6392c055bf9a05b7f0fe855b264a91d,"tests: fix error-handling typo
+
+closes #2557",sethkrasnianski,https://api.github.com/repos/expressjs/express/git/commits/8fe5fd89c6392c055bf9a05b7f0fe855b264a91d
+20aa12616abac9466d590c9fb333fd8a0408eedc,"Fix req.protocol/req.secure when using ""trust proxy"" hops count
+
+fixes #2569
+closes #2570",serby,https://api.github.com/repos/expressjs/express/git/commits/20aa12616abac9466d590c9fb333fd8a0408eedc
+9d16bae6821616033389c6cb20652453d155b586,"docs: fix typo in readme
+
+closes #2584",romanzubenko,https://api.github.com/repos/expressjs/express/git/commits/9d16bae6821616033389c6cb20652453d155b586
+1114ca1ab651707abaf5d7505d9d5144cc1bbd89,"tests: fix assert usage mistake
+
+fixes #2592",damphat,https://api.github.com/repos/expressjs/express/git/commits/1114ca1ab651707abaf5d7505d9d5144cc1bbd89
+01e059ca742dc606a2951f9d8bd5b6bcd31a438c,"examples: add missing cookie-session module
+
+fixes #2589",wangyangkobe,https://api.github.com/repos/expressjs/express/git/commits/01e059ca742dc606a2951f9d8bd5b6bcd31a438c
+2f8a69b7101e212e0e18bed1509cd2e7343148db,"docs: fix typo in readme
+
+closes #2598",seedofjoy,https://api.github.com/repos/expressjs/express/git/commits/2f8a69b7101e212e0e18bed1509cd2e7343148db
+bbcc1e1f52cb3706660d88bc2884057d71ae1f92,"examples: fix route-separation example's dev logger
+
+closes #2599",alex-dixon,https://api.github.com/repos/expressjs/express/git/commits/bbcc1e1f52cb3706660d88bc2884057d71ae1f92
+ea6e4d3b6f434016a60e4d077d37fd7e76744eb6,"tests: add a missing test description
+
+closes #2631",igncp,https://api.github.com/repos/expressjs/express/git/commits/ea6e4d3b6f434016a60e4d077d37fd7e76744eb6
+fce3d14b5ce51e75a1636ac4ebc251c4017e038b,"docs: update return types for req.accept*()
+
+closes #2663",ioncreature,https://api.github.com/repos/expressjs/express/git/commits/fce3d14b5ce51e75a1636ac4ebc251c4017e038b
+f7e94a30bce66ba4de1b6388910bfdd8b1e6edd1,"Use array-flatten module for flattening arrays
+
+closes #2624",deepak-kapoor,https://api.github.com/repos/expressjs/express/git/commits/f7e94a30bce66ba4de1b6388910bfdd8b1e6edd1
+91731b4b9ce23fe4bb702f341d0a46d78c8ccdbf,"perf: use saved reference to http.STATUS_CODES
+
+closes #2602",tcort,https://api.github.com/repos/expressjs/express/git/commits/91731b4b9ce23fe4bb702f341d0a46d78c8ccdbf
+2f8ac6726fa20ab5b4a05c112c886752868ac8ce,"tests: fix redirect tests for change in 302 status message
+
+closes #2690",brendanashworth,https://api.github.com/repos/expressjs/express/git/commits/2f8ac6726fa20ab5b4a05c112c886752868ac8ce
+e5ec966b2f068e935ea1b33374fac133dd06cdc8,"Fix param definition is jsdoc for app.render
+
+fixes #2741",AlexKVal,https://api.github.com/repos/expressjs/express/git/commits/e5ec966b2f068e935ea1b33374fac133dd06cdc8
+60f8e77d66563757a85e489fd2966d9bac3a84d8,"deps: cookie@0.1.5
+
+closes #2799
+closes #2800
+closes #2801",ChALkeR,https://api.github.com/repos/expressjs/express/git/commits/60f8e77d66563757a85e489fd2966d9bac3a84d8
+f2cf28c2f3c0a3b5d5ab976a148a83f7e763ae18,docs: add link to Gitter,jordonias,https://api.github.com/repos/expressjs/express/git/commits/f2cf28c2f3c0a3b5d5ab976a148a83f7e763ae18
+b5a280111f94728e70aa1a22687e64aaf31abd81,"Fix jsdoc comment for res.get
+
+closes #2882",andyfleming,https://api.github.com/repos/expressjs/express/git/commits/b5a280111f94728e70aa1a22687e64aaf31abd81
+4bcbf67482471ac096fb39bf076ba5d40c0fe4da,"docs: add branch & fork steps to contributing documentation
+
+closes #2881",sjanuary,https://api.github.com/repos/expressjs/express/git/commits/4bcbf67482471ac096fb39bf076ba5d40c0fe4da
+f3d99a4fdbe1531ea609e92c4d4ae6c269d78c7a,"docs: add base contributing guide
+
+closes #2918",mikeal,https://api.github.com/repos/expressjs/express/git/commits/f3d99a4fdbe1531ea609e92c4d4ae6c269d78c7a
+bb84cf955f5f84edc8938c00ec8590599861abca,"tests: add test for signed cookie without secret
+
+closes #2986",LinusU,https://api.github.com/repos/expressjs/express/git/commits/bb84cf955f5f84edc8938c00ec8590599861abca
+b69b7605b07b41273acc931d25ab585377bcd107,"perf: use strict equality when possible
+
+closes #2722",angelsanz,https://api.github.com/repos/expressjs/express/git/commits/b69b7605b07b41273acc931d25ab585377bcd107
+f90f9dde3fe02cd9f4b081c16441415817b297b0,"Improve performance for res.json/res.jsonp in most cases
+
+closes #2900",bnjmnt4n,https://api.github.com/repos/expressjs/express/git/commits/f90f9dde3fe02cd9f4b081c16441415817b297b0
+2e1284beb6210444932d050b9d31d3908afb7591,"Fix Windows absolute path check using forward slashes
+
+closes #3017",huaoguo,https://api.github.com/repos/expressjs/express/git/commits/2e1284beb6210444932d050b9d31d3908afb7591
+305f982bd734da5ee74abba9c270905a8f4aa484,"exapmples: use path.join to concat paths
+
+closes #3046",hamzaOp,https://api.github.com/repos/expressjs/express/git/commits/305f982bd734da5ee74abba9c270905a8f4aa484
+bd47aeb88d28c6cff6e2d8e5378ec73c262e039f,"tests: fix typos in test descriptions
+
+closes #3129
+closes #3130",VishvajitP,https://api.github.com/repos/expressjs/express/git/commits/bd47aeb88d28c6cff6e2d8e5378ec73c262e039f
+1a17888073790f5567fdb9f9e270fab6904abf97,"docs: fix minor grammatical error
+
+closes #3178",deniztetik,https://api.github.com/repos/expressjs/express/git/commits/1a17888073790f5567fdb9f9e270fab6904abf97
+d1d9631b97b64c7f98f4ad2d0ba61014865b1d49,"docs: remove link to missing section
+
+closes #3179",stz-seongheon,https://api.github.com/repos/expressjs/express/git/commits/d1d9631b97b64c7f98f4ad2d0ba61014865b1d49
+6723b4419abacba00b73c466edb338e331e9ffe8,"tests: add test for res.sendFile ""cacheContol"" option
+
+closes #3061",ZLester,https://api.github.com/repos/expressjs/express/git/commits/6723b4419abacba00b73c466edb338e331e9ffe8
+94377f681d66efff100aa2a9086398b0df5688f8,"lint: remove unnecessary semicolon
+
+closes #3191",potato4d,https://api.github.com/repos/expressjs/express/git/commits/94377f681d66efff100aa2a9086398b0df5688f8
+4f291e7d55d6093ecc4a99d88c785dee22d6d125,"examples: use res.format in error-pages
+
+closes #3195",TomHoss,https://api.github.com/repos/expressjs/express/git/commits/4f291e7d55d6093ecc4a99d88c785dee22d6d125
+abd1de73c14985c884d11fb35aff5f4b17381e23,"tests: fix misnamed app.router test section
+
+fixes #3194
+closes #3199",seppevs,https://api.github.com/repos/expressjs/express/git/commits/abd1de73c14985c884d11fb35aff5f4b17381e23
+c48014fde8682f59c2fff8f0ae4655daf8de3b0d,docs: minor fixes to contributing guide,crandmck,https://api.github.com/repos/expressjs/express/git/commits/c48014fde8682f59c2fff8f0ae4655daf8de3b0d
+1a99bb051947fbf06b6b415bba06f8c83247c0d1,"docs: add release guide
+
+closes #2857
+closes #2890",tunniclm,https://api.github.com/repos/expressjs/express/git/commits/1a99bb051947fbf06b6b415bba06f8c83247c0d1
+fefd7290376ca865e348d747592543a119a2ff98,"Add debug message when loading view engine
+
+closes #3158",pravdomil,https://api.github.com/repos/expressjs/express/git/commits/fefd7290376ca865e348d747592543a119a2ff98
+034165caeb558560c19a0b3105d913c11999cdd0,"Use statuses instead of http module for status messages
+
+closes #3215",wesleytodd,https://api.github.com/repos/expressjs/express/git/commits/034165caeb558560c19a0b3105d913c11999cdd0
+4012846d2534addd8de0b0c237cd63ada104109a,"examples: use static assets in search example
+
+closes #3224",notrab,https://api.github.com/repos/expressjs/express/git/commits/4012846d2534addd8de0b0c237cd63ada104109a
+7027b37764050c550366e808ea84fee1c58233ed,"lint: remove unused err argument
+
+closes #3228",Jianru-Lin,https://api.github.com/repos/expressjs/express/git/commits/7027b37764050c550366e808ea84fee1c58233ed
+8eb95ae57973b2cbe7778bc2e10450a380ca2efe,"examples: use path.join instead of concatenation
+
+closes #3236",chainhelen,https://api.github.com/repos/expressjs/express/git/commits/8eb95ae57973b2cbe7778bc2e10450a380ca2efe
+c087a45b9cc3eb69c777e260ee880758b6e03a40,"Fix typo in variable name setPrototypeOf
+
+closes #3266",asafdav2,https://api.github.com/repos/expressjs/express/git/commits/c087a45b9cc3eb69c777e260ee880758b6e03a40
+a13938eed7b67ce13b86a45c7b0f2ae766a3166d,"tests: add tests for res.location('back')
+
+closes #3292
+closes #3293",WORMSS,https://api.github.com/repos/expressjs/express/git/commits/a13938eed7b67ce13b86a45c7b0f2ae766a3166d
+de41c0bfa4fc9ff78fb5f0f72daf5e83e53a93ae,"Fix res.cookie jsdoc comment
+
+closes #3304",tonyspb,https://api.github.com/repos/expressjs/express/git/commits/de41c0bfa4fc9ff78fb5f0f72daf5e83e53a93ae
+ae0b630ac7e8f34e4ea37285f30db4b52adf8436,"Fix error when res.set cannot add charset to Content-Type
+
+fixes #3303
+closes #3305
+closes #3307",oztune,https://api.github.com/repos/expressjs/express/git/commits/ae0b630ac7e8f34e4ea37285f30db4b52adf8436
+fde8f647d368df1dc62d55ce4d68370ef3eb0a49,"examples: fix route in params example
+
+closes #3310",hiowenluke,https://api.github.com/repos/expressjs/express/git/commits/fde8f647d368df1dc62d55ce4d68370ef3eb0a49
+43dff4ceb3446397aa3fe8c48b2de67b9e76a031,"docs: fix GitHub capitalization
+
+closes #3353",piperchester,https://api.github.com/repos/expressjs/express/git/commits/43dff4ceb3446397aa3fe8c48b2de67b9e76a031
+713d2aed93586a7c11fc2c8beeaa0c03c6f565c9,"tests: fix incorrect should usage
+
+closes #3387",Lysander6,https://api.github.com/repos/expressjs/express/git/commits/713d2aed93586a7c11fc2c8beeaa0c03c6f565c9
+19a2eeb47697feecae5960a726fb5b7ae2c7644b,"tests: check render error without engine-specific message
+
+closes #3251",kunalspathak,https://api.github.com/repos/expressjs/express/git/commits/19a2eeb47697feecae5960a726fb5b7ae2c7644b
+d9d09b8b9041504b645f3173ca70ef173c7e1563,"perf: re-use options object when generating ETags
+
+closes #3313
+closes #3314",lpage,https://api.github.com/repos/expressjs/express/git/commits/d9d09b8b9041504b645f3173ca70ef173c7e1563
+fa272edf843a31aa242390d46935437451707d54,"docs: fix typo in jsdoc comment
+
+closes #3430",shime,https://api.github.com/repos/expressjs/express/git/commits/fa272edf843a31aa242390d46935437451707d54
+a24fd0ca6cfd29329444fddf678bcdd1c08e56ae,"Add options to res.download
+
+closes #3327
+closes #3370",chillypepper,https://api.github.com/repos/expressjs/express/git/commits/a24fd0ca6cfd29329444fddf678bcdd1c08e56ae
+715401478516c39ea9b2f855d4109d7d6e1131e0,"Add ""escape json"" setting for res.json and res.jsonp
+
+closes #3268
+closes #3269",g-k,https://api.github.com/repos/expressjs/express/git/commits/715401478516c39ea9b2f855d4109d7d6e1131e0
+41964580a8869d5f094e7379d5672dd75f8491f9,"deps: send@0.16.0
+
+closes #3431
+closes #3435",danez,https://api.github.com/repos/expressjs/express/git/commits/41964580a8869d5f094e7379d5672dd75f8491f9
+b7817ab1b0bbadabe79fc88819c8338838ead707,"Fix TypeError in res.send when given Buffer and ETag header set
+
+fixes #3445",davidwood,https://api.github.com/repos/expressjs/express/git/commits/b7817ab1b0bbadabe79fc88819c8338838ead707
+53bee2506debf01d9f6e884d1fc09b86d001f0e2,"examples: use https github url
+
+closes #3465",yaman-jain,https://api.github.com/repos/expressjs/express/git/commits/53bee2506debf01d9f6e884d1fc09b86d001f0e2
+187d1f57c973e93310066e29a493e150e57c6ae5,"docs: remove gratipay badges
+
+closes #3524",flxwu,https://api.github.com/repos/expressjs/express/git/commits/187d1f57c973e93310066e29a493e150e57c6ae5
+98b0b66b6c46882c3fa54f04185254ab53b38570,"build: use yaml eslint configuration
+
+closes #3561",hiroppy,https://api.github.com/repos/expressjs/express/git/commits/98b0b66b6c46882c3fa54f04185254ab53b38570
+80e64691e1972dccc79def005190da33c641d51e,"examples: add full urls to web-service example
+
+closes #3519",stevenanthonyrevo,https://api.github.com/repos/expressjs/express/git/commits/80e64691e1972dccc79def005190da33c641d51e
+40e04ec7a6d365a7e083b0fdf7f9d2c7afc036a0,"lint: remove usages of ""==""
+
+closes #3540",estrada9166,https://api.github.com/repos/expressjs/express/git/commits/40e04ec7a6d365a7e083b0fdf7f9d2c7afc036a0
+ede24da9645ed771ddeb9cf327d042d35a31d42d,"examples: fix typo in multi-router example
+
+closes #3718",loganripplinger,https://api.github.com/repos/expressjs/express/git/commits/ede24da9645ed771ddeb9cf327d042d35a31d42d
+f3fa758af9664526ee18c58764590e48f559e6ae,"Fix JSDoc for Router constructor
+
+fixes #3598
+fixes #3599
+fixes #3698",ankon,https://api.github.com/repos/expressjs/express/git/commits/f3fa758af9664526ee18c58764590e48f559e6ae
+b8fb6a7fb1af155b1259d25418dc807112e02138,"deps: body-parser@1.18.3
+
+closes #3655
+closes #3706",felixbuenemann,https://api.github.com/repos/expressjs/express/git/commits/b8fb6a7fb1af155b1259d25418dc807112e02138
+003459b795b3ab2ae97c2131585b0560c1d35716,"build: support Node.js 9.x
+
+closes #3617",nacimgoura,https://api.github.com/repos/expressjs/express/git/commits/003459b795b3ab2ae97c2131585b0560c1d35716
+6bcdfef6ad148672872e4f5930a01a5a45dd9df0,"Improve error message for non-strings to res.sendFile
+
+closes #3582",thevoidf,https://api.github.com/repos/expressjs/express/git/commits/6bcdfef6ad148672872e4f5930a01a5a45dd9df0
+8da51108e7bb501344c537d3f1f846a7477ae329,"Improve error message for null/undefined to res.status
+
+closes #2795
+closes #2797
+closes #3111",joshuacaron,https://api.github.com/repos/expressjs/express/git/commits/8da51108e7bb501344c537d3f1f846a7477ae329
+b93ffd4bdc09c3af925eed80c28bd37f63bb3cfc,"Support multiple hosts in X-Forwarded-Host
+
+fixes #3494
+closes #3495",iconoeugen,https://api.github.com/repos/expressjs/express/git/commits/b93ffd4bdc09c3af925eed80c28bd37f63bb3cfc
+95c31f7041fe31b24175ce9a6537a0d0d6b807f7,"docs: fix typo in contributing
+
+closes #3827",HubCodes,https://api.github.com/repos/expressjs/express/git/commits/95c31f7041fe31b24175ce9a6537a0d0d6b807f7
+0ae10bb15471745795a44d9316e324b697725524,"docs: fix typos in history
+
+closes #3810",AScriver,https://api.github.com/repos/expressjs/express/git/commits/0ae10bb15471745795a44d9316e324b697725524
+02f3933b6962114cf46c637105db7983d32a156a,"examples: minor fixes to some examples
+
+closes #3812",A1vinSmith,https://api.github.com/repos/expressjs/express/git/commits/02f3933b6962114cf46c637105db7983d32a156a
+186a206a0aed799699e6a7400aed9aeef31c21e9,"docs: add listening address to example
+
+closes #3873",cirosantilli,https://api.github.com/repos/expressjs/express/git/commits/186a206a0aed799699e6a7400aed9aeef31c21e9
+b9b1b19758b0996680100c65ae87128d623c5f7e,"tests: fix typos in descriptions
+
+closes #3875",jeonghwan-kim,https://api.github.com/repos/expressjs/express/git/commits/b9b1b19758b0996680100c65ae87128d623c5f7e
+6eda52a3dc953f297942a98c333b609519141c49,"docs: use const in readme example
+
+fixes #3867
+closes #3868",mwanago,https://api.github.com/repos/expressjs/express/git/commits/6eda52a3dc953f297942a98c333b609519141c49
+b02d3a1744db80a1ad6951f55f4cb6b996db4b53,"docs: add link to contributing guide
+
+closes #3846",jamesgeorge007,https://api.github.com/repos/expressjs/express/git/commits/b02d3a1744db80a1ad6951f55f4cb6b996db4b53
+0bcdd88dd089c8da7f29e76e8f152a40ca0bcf69,"Add express.raw to parse bodies into Buffer
+
+closes #3708",amitzur,https://api.github.com/repos/expressjs/express/git/commits/0bcdd88dd089c8da7f29e76e8f152a40ca0bcf69
+7f4e37f3ea0bf99287472dd72f48d12a3b3d0b71,"Add express.text to parse bodies into string
+
+closes #3455",amfern,https://api.github.com/repos/expressjs/express/git/commits/7f4e37f3ea0bf99287472dd72f48d12a3b3d0b71
+b9ecb9afe336ad00eb6e2dbc055e838649fe784f,"build: support Node.js 12.x
+
+closes #3946",zuohuadong,https://api.github.com/repos/expressjs/express/git/commits/b9ecb9afe336ad00eb6e2dbc055e838649fe784f

@@ -1,0 +1,27 @@
+Issue Description,Assignees to the Issue,Link
+Allow BigInt usage in templates,,https://github.com/vuejs/vue/issues/11126
+"$http.delete shows warning ""avoid using JavaScript unary operator as property name""",,https://github.com/vuejs/vue/issues/11090
+Wrong definition of the type AsyncComponentFactory,,https://github.com/vuejs/vue/issues/10252
+Warn if colon shorthand is used on v-if/v-html/etc.,,https://github.com/vuejs/vue/issues/10191
+Scoped Slot warns when used inside of dynamic component on regular element,,https://github.com/vuejs/vue/issues/10152
+Vue.config.errorHandler and errorCaptured should capture rejected promised in watchers,,https://github.com/vuejs/vue/issues/10009
+"Add path to resolved vue package to vue-template-compiler's ""version mismatch"" error",,https://github.com/vuejs/vue/issues/9734
+"optionMergeStrategies does not set 3rd ""vm"" argument for components",,https://github.com/vuejs/vue/issues/9623
+Warn when using inline-template attribute but no children,,https://github.com/vuejs/vue/issues/9361
+Warn when the type of a prop isn't a constructor ,,https://github.com/vuejs/vue/issues/9224
+Incorrect compiled code when usinig multiline v-if on template element as a slot renderer,,https://github.com/vuejs/vue/issues/9114
+Throw error when using interpolation instead of JS expression for slot names,,https://github.com/vuejs/vue/issues/9038
+"Vue DevTools recommendation only shows for Chrome, not Firefox",,https://github.com/vuejs/vue/issues/8634
+warn if $set is used on a property that already exist,,https://github.com/vuejs/vue/issues/8129
+Creating a component named map should warn the user (as with button),,https://github.com/vuejs/vue/issues/8025
+2.5.14 introduces TypeError bind is not a function,,https://github.com/vuejs/vue/issues/8017
+Make the warning messages more explicit,,https://github.com/vuejs/vue/issues/7764
+HTML Keyboard Input element (<kbd>) is not supported,,https://github.com/vuejs/vue/issues/7711
+"""TypeError: Cannot use 'in' operator to search for 'names' in bf7823uhvbon3f289ph32f",,https://github.com/vuejs/vue/issues/7381
+Uncaught TypeError: Cannot read property 'type' of undefined,,https://github.com/vuejs/vue/issues/6703
+v-bind with something else than an object should warn you,,https://github.com/vuejs/vue/issues/6677
+improve error message for non-reactive properties,,https://github.com/vuejs/vue/issues/6657
+"<input :is=""textarea""> broken",,https://github.com/vuejs/vue/issues/6361
+"Improve error reporting/debugging of provide/inject, or allow require flag for inject",,https://github.com/vuejs/vue/issues/5628
+"Warn when component option should be an object, but is a function",,https://github.com/vuejs/vue/issues/5605
+optionMergeStrategies.inject,,https://github.com/vuejs/vue/issues/5603

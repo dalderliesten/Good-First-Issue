@@ -1,6 +1,12 @@
+TODO UPON FIX:
+
 https://github.com/w3c/csswg-drafts
 https://github.com/microsoft/PowerToys
 https://github.com/OpenMined/PySyft
+https://github.com/chef/chef
+https://github.com/tensorflow/tensorflow
 
 
-START AT: Elasticsearch
+TODO:
+
+React, rate limited

@@ -1,0 +1,44 @@
+Issue Description,Assignees to the Issue,Link
+torch.where segfaults on mixed cpu and cuda arguments,,https://github.com/pytorch/pytorch/issues/33422
+Fix error message when using as_strided with negative striding,,https://github.com/pytorch/pytorch/issues/33290
+[jit] Spurious error when type comments are found in the body of a function.,,https://github.com/pytorch/pytorch/issues/30477
+[docs] save_for_backward docs missing,,https://github.com/pytorch/pytorch/issues/27365
+[Contributor Welcome] Implement C++ API version of torch.nn.MultiMarginLoss,,https://github.com/pytorch/pytorch/issues/27198
+[Contributor Welcome] Implement C++ API version of torch.nn.TripletMarginLoss,,https://github.com/pytorch/pytorch/issues/27197
+[Contributor Welcome] Implement C++ API version of torch.nn.functional.affine_grid,,https://github.com/pytorch/pytorch/issues/27196
+[Contributor Welcome] Implement C++ API version of torch.nn.functional.pdist,,https://github.com/pytorch/pytorch/issues/27082
+[Contributor Welcome] Implement C++ API version of torch.nn.functional.one_hot,,https://github.com/pytorch/pytorch/issues/27081
+[Contributor Welcome] Implement C++ API version of torch.nn.functional.gumbel_softmax,,https://github.com/pytorch/pytorch/issues/27078
+[Contributor Welcome] Implement C++ API version of torch.nn.functional.normalize,,https://github.com/pytorch/pytorch/issues/27048
+Fuse operators inside of the (CPU) glu operator. ,,https://github.com/pytorch/pytorch/issues/26418
+LogCumsumExp,,https://github.com/pytorch/pytorch/issues/26411
+Python/C++ API Parity: torch.nn modules and functional,,https://github.com/pytorch/pytorch/issues/25883
+[jit] String default args get printed as ascii values,,https://github.com/pytorch/pytorch/issues/25804
+[jit] Missing source highlight error,,https://github.com/pytorch/pytorch/issues/25801
+torch.Tensor.repeat() fails for 0 repeats,,https://github.com/pytorch/pytorch/issues/23603
+Inconsistent Behavior in torch.distributions log_prob for float input in uniform distribution.,,https://github.com/pytorch/pytorch/issues/22970
+[docs] torch.lerp typo,,https://github.com/pytorch/pytorch/issues/22697
+`torch.lu_solve` gives an unintuitive error message when the inputs are not batched,,https://github.com/pytorch/pytorch/issues/22243
+Remove unpack() in torch/csrc/nn/type_checks.h and its caller functions in the codebase,,https://github.com/pytorch/pytorch/issues/20704
+Cumulative Maximum,,https://github.com/pytorch/pytorch/issues/20240
+[bug] Conv shape check prints overflowed ints,,https://github.com/pytorch/pytorch/issues/19947
+[onnx] Silent crash when exporting a model larger than 2gb,,https://github.com/pytorch/pytorch/issues/19277
+[FR] support base in logspace,,https://github.com/pytorch/pytorch/issues/19220
+[FR] make torch.nn.utils.convert_sync_batchnorm a classmethod of SyncBatchNorm,,https://github.com/pytorch/pytorch/issues/18382
+new_zeros is not traced correctly,,https://github.com/pytorch/pytorch/issues/16663
+"ReduceLROnPlateau should clone ""current"" when saving ""best""",,https://github.com/pytorch/pytorch/issues/16364
+Add an argument 'beta' in smooth L1 loss?,,https://github.com/pytorch/pytorch/issues/16357
+Inconsistent behaviour of torch.fmod on CPU and GPU,,https://github.com/pytorch/pytorch/issues/15921
+RandomSampler length,,https://github.com/pytorch/pytorch/issues/15537
+Bad error message when creating a class instance in script functions,,https://github.com/pytorch/pytorch/issues/15409
+inspect.getargspec() is deprecated in Python 3,,https://github.com/pytorch/pytorch/issues/15344
+Inconsistent behavior of clamp on CPU / GPU with nans,,https://github.com/pytorch/pytorch/issues/15338
+[collect_env] run doesn't support non-ascii characters in output,,https://github.com/pytorch/pytorch/issues/15214
+torch.onnx.export is missing documentation on the docs page,,https://github.com/pytorch/pytorch/issues/14698
+Add Tensor.nbytes() / `Tensor.itemsize()`,,https://github.com/pytorch/pytorch/issues/12728
+Unexpected Behavior when Pointwise Operations Write to Expanded Tensors,,https://github.com/pytorch/pytorch/issues/10756
+"Different results when using function argmax or argmin for data type "".cuda()"" and "".cpu()""",,https://github.com/pytorch/pytorch/issues/10370
+[doc] functionalities not documented,,https://github.com/pytorch/pytorch/issues/9886
+Indexing with list of booleans differs from numpy,,https://github.com/pytorch/pytorch/issues/6773
+Autogenerate code example / tutorial outputs in documentation,,https://github.com/pytorch/pytorch/issues/6662
+Support `clamp()` with tensor min and max,,https://github.com/pytorch/pytorch/issues/2793

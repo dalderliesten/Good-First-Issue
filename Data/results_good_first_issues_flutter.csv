@@ -1,0 +1,18 @@
+Issue Description,Assignees to the Issue,Link
+Flutter web: url_launcher Plugin show blank page on dismiss,,https://github.com/flutter/flutter/issues/51461
+Write a real Visual Studio solution file parser,,https://github.com/flutter/flutter/issues/51430
+Attempting to screenshot a widget on the web throws stack trace,,https://github.com/flutter/flutter/issues/49857
+url_launcher for web should support the mailto scheme,,https://github.com/flutter/flutter/issues/49529
+Add doctor check to verify that the required hosts are reachable,,https://github.com/flutter/flutter/issues/49403
+[web][edge] Input cursor is visible,,https://github.com/flutter/flutter/issues/47694
+Clicks not registered with webkit2gtk on Linux,,https://github.com/flutter/flutter/issues/46918
+[plugins] Switch analysis rules,,https://github.com/flutter/flutter/issues/45440
+[shared_preferences] Polish issues,,https://github.com/flutter/flutter/issues/44403
+[path_provider] Polish issues,,https://github.com/flutter/flutter/issues/44398
+[image_picker] Polish issues,,https://github.com/flutter/flutter/issues/44393
+[connectivity] Polish,,https://github.com/flutter/flutter/issues/44386
+Flutter create indents Kotlin code with 2 spaces,,https://github.com/flutter/flutter/issues/42212
+uncommenting the assets part in the pubspec.yaml file leaves mismatching indentation,,https://github.com/flutter/flutter/issues/41703
+Allow formatting from stdin with flutter format,,https://github.com/flutter/flutter/issues/41011
+Flutter tool should release cache lock when killed by a signal.,,https://github.com/flutter/flutter/issues/30478
+Verbose mode options to tooling should pass the --verbose-logging flag to the engine.,,https://github.com/flutter/flutter/issues/16730

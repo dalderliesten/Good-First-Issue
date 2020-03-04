@@ -1,0 +1,3 @@
+Issue Description,Assignees to the Issue,Link
+[Plugins] Convert to eslint,,https://github.com/apache/cordova/issues/123
+Remove deprecated `engineStrict` from packages.json,,https://github.com/apache/cordova/issues/86

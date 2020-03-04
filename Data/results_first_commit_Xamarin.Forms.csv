@@ -1,0 +1,2138 @@
+First Commit Hash (SHA),Commit Message,Author (Github Name),Link to Commit
+c2f06e6c24a82d01b3262b045ea51372400c900c,Script to create empty secrets and mapskey files,hartez,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/c2f06e6c24a82d01b3262b045ea51372400c900c
+3adea68113b3447b1ab6240db0d4b714ffb1713e,[UWP] Fix resource key name PushPinTemplate,rmarinho,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/3adea68113b3447b1ab6240db0d4b714ffb1713e
+d5c3359070317e57a2cb8e98608d0286071e389d,[W] ListView Cells will respect RowHeight,samhouts,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/d5c3359070317e57a2cb8e98608d0286071e389d
+ab1472de45fe7991af7ddd0fddf84b66d2efad14,"Merge pull request #12 from xamarin/vssettings
+
+VS settings file with the Xamarin.Forms code style settings",kingces95,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/ab1472de45fe7991af7ddd0fddf84b66d2efad14
+c7081b10f8fd9a7b8e54b1b00f7f29a0fbc0c4ad,Doc bug fixes,MichaelNorman,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/c7081b10f8fd9a7b8e54b1b00f7f29a0fbc0c4ad
+2f3ed4b027eb47439ba83d32ccbfe8bcee212b98,"[WP8] CustomMessageBox dismissal no longer causes black SystemTray
+
+The CustomMessageBox was having an interaction with WP8 where its
+dismissal was changing the SystemTray's background color to black. It
+appears that the SystemTray's background color was never set, despite
+its appearing white prior to the use of a CustomMessageBox.",pauldipietro,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/2f3ed4b027eb47439ba83d32ccbfe8bcee212b98
+c92297047c01112fd4a6e7695a40acb274fdf7a7,[X] internal CreateFromXaml () (#77),StephaneDelcroix,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/c92297047c01112fd4a6e7695a40acb274fdf7a7
+279e4b01a329f59798e7a688e8501814c37e1385,"[Android] Allow designer to disable asynchronicity in image loading. (#111)
+
+The XF Previewer doesn't support async operations as it loads a layout and immediately tries to snapshot it.
+
+This commit adds a new property to let designer reflect onto so that the behavior can be specifically made synchronous and image will appear in the final preview.",garuma,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/279e4b01a329f59798e7a688e8501814c37e1385
+6b9adc7459f9babf3288a6800ca12a76eab244ca,"Removed hard reference to StatusBar, changed to type name to prevent crash when StatusBar type is not present (#144)",thebeekeeper,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/6b9adc7459f9babf3288a6800ca12a76eab244ca
+2a68d44588f93e5d8f6a2cb4ee729377167d4a94,Update README.md,migueldeicaza,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/2a68d44588f93e5d8f6a2cb4ee729377167d4a94
+7ae7dbaa9695fac8fc0d818a808602d58ea0ce47,Fix Bug 39486 (#153),scastria,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/7ae7dbaa9695fac8fc0d818a808602d58ea0ce47
+616e16a6855161693a8f30af085f37e06d5e9d67,"Forward Orientation Methods in PlatformRenderer and ModalWrapper (#147)
+
+* PlatformRenderer and ModalWrapper are Wrappers around the real UIViewController, rotation and orientations methods are not correctly forwarded in IOS. Per example, you cannot programatically lock the rotation of the IOS screen. This changes will fix that.
+
+* Changed spaces to tabs, as requested.",maxpiva,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/616e16a6855161693a8f30af085f37e06d5e9d67
+4cbe7e61e51198455bb18266ebbcb58ff23916c7,ixed bug with app resume for windows phone silverlight. Bug 41076 in bugzilla (#184),dhindrik,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/4cbe7e61e51198455bb18266ebbcb58ff23916c7
+89aee2a3c2c592cf5a3c5d5f9a7415979f4b0748,Added .editorconfig (#192),cschwarz,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/89aee2a3c2c592cf5a3c5d5f9a7415979f4b0748
+31ba696514f9b069d5dd6a8520d4f9f2ef963f74,WinRT/UWP center crop image on AspectFill (#190),adamped,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/31ba696514f9b069d5dd6a8520d4f9f2ef963f74
+3aa5d68e2e9a70766aefc746a2566d0766a03b58,fix Thickness.IsDefault. Bottom was ignored (#200),brainoffline,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/3aa5d68e2e9a70766aefc746a2566d0766a03b58
+4553b845e436acfdd9cd21df6ac543edc5297d4a,"[Core] Allow Registrar.RegisterAll to be run multiple times (#215)
+
+There are cases where we run RegisterAll manually to ensure all
+assemblies have actually been registered. The `Registrar<T>` class
+does not use the `Dictionary<K, V>.Add` method so it does not
+throw if there's a clash/duplicate.
+
+If we change the `Effect` registration to use the same pattern we
+can remove errors like this:
+
+System.ArgumentException: An item with the same key has already been added.
+	at ThrowArgumentException at offset 0 in file:line:column /Users/builder/data/lanes/2922/977921b7/source/maccore/_build/Library/Frameworks/Xamarin.iOS.framework/Versions/git/src/mono/external/referencesource/mscorlib/system/throwhelper.cs:72:0
+	at Insert at offset 142 in file:line:column /Users/builder/data/lanes/2922/977921b7/source/maccore/_build/Library/Frameworks/Xamarin.iOS.framework/Versions/git/src/mono/external/referencesource/mscorlib/system/collections/generic/dictionary.cs:336:0
+	at Add at offset 0 in file:line:column /Users/builder/data/lanes/2922/977921b7/source/maccore/_build/Library/Frameworks/Xamarin.iOS.framework/Versions/git/src/mono/external/referencesource/mscorlib/system/collections/generic/dictionary.cs:192:0
+	at RegisterAll at <unknown offset> in file:line:column <filename unknown>:0:0
+	at <unknown method> at <unknown offset> in file:line:column <filename unknown>:0:0
+	at Invoke at offset 56 in file:line:column /Users/builder/data/lanes/2922/977921b7/source/maccore/_build/Library/Frameworks/Xamarin.iOS.framework/Versions/git/src/mono/mcs/class/corlib/System.Reflection/MonoMethod.cs:295:0",alanmcgovern,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/4553b845e436acfdd9cd21df6ac543edc5297d4a
+09ff9355326065902e610e4058f7e4ee3160cdaa,Added PoppedToRootEventArgs to track popped pages when calling PopToRoot (#229),johankson,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/09ff9355326065902e610e4058f7e4ee3160cdaa
+5268d609fafc142886700bd4b0d8bcb4f465a801,"Fix for NullReferenceException when ItemSource has item removed and a… (#258)
+
+* fix for NullReferenceException when ItemSource has item removed and another inserted on iOS
+
+* Update ViewCellRenderer.cs
+
+Fix spacing issue",praga,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/5268d609fafc142886700bd4b0d8bcb4f465a801
+d1a8477233b28e6a20c6f5d4a75128ec2a05e6dc,Fixes issue when setting NavigationPage.SetHasBackButton after page has navigated (Android/AppCompat) (#256),stefandevo,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/d1a8477233b28e6a20c6f5d4a75128ec2a05e6dc
+e36816810fb0c29fd5607e9cbb2102d64c46b23f,"[Android] Null reference exception fix (#252)
+
+* Added null checks
+
+* Replaced spaces with tabs",tpetrina,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/e36816810fb0c29fd5607e9cbb2102d64c46b23f
+378ecc2a1a4ab95a7a9be17c9d907338894307da,"Android Custom Font support (#236)
+
+* Implemented basic Support for Android Custom fonts
+
+* Fixed Tabs
+
+* Removed Private
+
+* Changed behaviour to use UWP FontFamily style names
+
+* Fixed Bug",royvou,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/378ecc2a1a4ab95a7a9be17c9d907338894307da
+28d9e8aabc361efccc19d66d8361559d19f32698,Add workaround for bugzilla 37792 (#181),Costo,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/28d9e8aabc361efccc19d66d8361559d19f32698
+08e282350cb3f1c2345125682f14934111af2f9c,[Android] Color.Accent is hardcoded (#270),MichaelRumpler,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/08e282350cb3f1c2345125682f14934111af2f9c
+bfeffa7115e6ea25e4f7deb7060f9cace27d10a8,"[Android] By using the SetSingleLine(true), the developers are no (#234)
+
+longer able to use the SetMaxLines() in their own Custom Renderers
+later on. So we force a single line by using the SetMaxLines(1) in the
+base LabelRenderer and SetSingleLine(false)",Depechie,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/bfeffa7115e6ea25e4f7deb7060f9cace27d10a8
+43e90a38840600a2556be38cc331de4a0d948834,"Add the key in the message on throwing a KeyNotFoundException (#282)
+
+* Add the key in the message on throwing a KeyNotFoundException for trying to access an invalid key in the ResourceDictionary. This helps a lot in tracking down what resource is actually missing.
+
+* Fix test build, use C# 6 string interpolation",rogihee,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/43e90a38840600a2556be38cc331de4a0d948834
+ba29e59d20f4ae4b910b8576bc59af814ca4e151,"Add Orange color to Color (#290)
+
+* Add Orange color to Color",rookiejava,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/ba29e59d20f4ae4b910b8576bc59af814ca4e151
+966683a807f68f302e8f121279387109f2a4a73b,Invalidate measure of Label when FormattedText changes (#303),akihikodaki,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/966683a807f68f302e8f121279387109f2a4a73b
+f6febd4c81a80430331c7fcdcc63271aa4fa636c,"Fix for BindingExpression memory leak (#279)
+
+* Unit test proving a memory leak with Binding
+
+What we were seeing in our app was that Binding objects stay around when
+bound to long-lived ViewModels, even when the View is long gone
+
+* BindingExpression - INotifyPropertyChanged should use WeakReference
+
+I had to make a WeakPropertyChangedProxy class for this, I could not
+think of a way to get around creating a new object for this",jonathanpeppers,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/f6febd4c81a80430331c7fcdcc63271aa4fa636c
+cb2bcdb84c45dad15cf470b798069f2ab301bf19,"[Android] Fix for NullReferenceException when using the wrong activit… (#286)
+
+* [Android] Fix for NullReferenceException when using the wrong activity type.
+
+On using FormsApplicationActivity or FormsAppCompatActivity as base Activity in a SplashScreen.
+A NullReferenceException will be thrown in the KeyboardManager.
+Added InvalidOperationException with ""Forms.Init()"" message instead, if the Forms.Context is null.
+
+* Fixed indentation",oddbear,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/cb2bcdb84c45dad15cf470b798069f2ab301bf19
+5b85aafcd671f5e8745cf52339c20378f91cb748,Fix crash when ItemsSource is set to null (#320),jimmgarrido,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/5b85aafcd671f5e8745cf52339c20378f91cb748
+61f34d113c9f6941194a6ed3101f54158de722a3,"Allow Custom Android MapRenderers to override the default MapView options (#285)
+
+* Allow Custom Android MapRenderers to override the default MapView options
+
+* Larger effort to use CreateNativeControl () everywhere instead of just in the Android AppCompat renderers.",Marcus-L,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/61f34d113c9f6941194a6ed3101f54158de722a3
+f1f0a77e1513a248f852a249c69891ce7ed0a8d5,KeyboardExtensions is now public (#326),adrianknight89,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/f1f0a77e1513a248f852a249c69891ce7ed0a8d5
+a0bbd185141e045341081ffc2e66225de3ad8ad7,After Label.FormattedText property changed  need invoke UpdateText method (#335),om2804,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/a0bbd185141e045341081ffc2e66225de3ad8ad7
+506a787b60aafd74f0cc457f6fe484577e658f54,Android AppCompat: Don't do NavigationPage menu updates for disposed page (#331),lirkki,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/506a787b60aafd74f0cc457f6fe484577e658f54
+7d66ed0aada19c7d320186a1a34907d77d38ab0d,"Android BeginInvokeOnMainThread() should not possibly block. (#343)
+
+Android.App.Activity.RunOnUiThread() does not always run the argument
+Runnable asynchronously; actually it is run synchronously if current
+thread is the UI thread [*1][*2]
+
+Use Handler.Post() instead. (It is also used in Android.App.SyncContext[*3])
+
+[*1] https://developer.android.com/reference/android/app/Activity.html#runOnUiThread(java.lang.Runnable)
+[*2] http://stackoverflow.com/questions/33039600/android-runonuithread-not-async
+[*3] https://github.com/xamarin/xamarin-android/blob/5777337/src/Mono.Android/Android.App/SyncContext.cs#L15",atsushieno,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/7d66ed0aada19c7d320186a1a34907d77d38ab0d
+c07c2314f5737d480088319e87ab299b22cb4ddc,"[Windows] Fix Device Style inheritance (#324)
+
+* Make Device Styles get Style Setters from ancestor styles
+
+* Fix parentheses to match style",pingzing,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/c07c2314f5737d480088319e87ab299b22cb4ddc
+ec09d75f5815ac11543ca81b6fed433ace5cbb10,"OnIdiom support for Desktop (UWP) (#420)
+
+The current implementation for OnIdiom<T> is missing the Desktop property. When running in a Windows UWP ""desktop"" app, it always returns the Phone property.",activa,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/ec09d75f5815ac11543ca81b6fed433ace5cbb10
+36d9dceb4f26cf1e068f153f811a34960bc36d68,"Modified type cast to appropriate type (#447)
+
+I changed the type cast from BitmapImage to BitmapSource because if you want to do image manipulation, in UWP, you use the WriteableBitmap class.",ckrempp91,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/36d9dceb4f26cf1e068f153f811a34960bc36d68
+40659f4331b8c5d017e3d760bf7379e3ed621e62,Check for Actionbar at UpdateActionBar method. (#366),gleblebedev,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/40659f4331b8c5d017e3d760bf7379e3ed621e62
+2b4c7c7931f12285c637bfea04c3695a24fc8bbf,Add extensibility point to load tab icons from another source (using the tab.SetIcon(drawable) overload) on Android,softlion,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/2b4c7c7931f12285c637bfea04c3695a24fc8bbf
+4554e822e3cf5ae71724a8fc89d1a8728118f060,Added CornerRadius property To Frame control,andreinitescu,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/4554e822e3cf5ae71724a8fc89d1a8728118f060
+11b982e5d556324b344888ddf446b6c044a7954b,"Enable 24-hr formatting for Android TimePicker (#654)
+
+Enable 24-hr time formatting depending on Android system settings instead of the hard coded 12-hour setting.",hardcodet,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/11b982e5d556324b344888ddf446b6c044a7954b
+f81e41b11b4e1398f67f047725c2b3438094d5f8,[iOS] Fix child view position when the Navigation Bar is translucent (#659),skaman,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/f81e41b11b4e1398f67f047725c2b3438094d5f8
+e7a7a57e4b2f7db71137e702be2663cf4f37d1b4,"fix bug-39359 (#599)
+
+UriImageSource does cache failed HTTP responses",fengrui358,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/e7a7a57e4b2f7db71137e702be2663cf4f37d1b4
+a11e4c638b105c4d6466894c57a357c893996116,Fix NullReferenceException in VisualElement finalize. (#701),kvpt,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/a11e4c638b105c4d6466894c57a357c893996116
+c84bb83676d3f1898d6419447e103d27e1435374,[iOS] Expose row animation properties in ListViewRenderer (#733),ice-j,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/c84bb83676d3f1898d6419447e103d27e1435374
+a67b176051196dfee3a7c1a6b88e257f84136fff,[macOS] Adds Scrollbars to ListViews and ScrollViews (#740),MarkoBL,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/a67b176051196dfee3a7c1a6b88e257f84136fff
+39f6e6325f39ccaa46137135cb33ced1a384495d,"[README] Add Xamarin.Forms banner (#757)
+
+This banner is similar to what we're using at open.xamarin.com
+and to the installer's new splash screen images.
+
+Xamarin.iOS is already using its banner.",VincentDondain,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/39f6e6325f39ccaa46137135cb33ced1a384495d
+38c0b34e91e2148e78704432afec6b086c9fc0c9,Fix for nullreferenceexception when a TabbedPage is rendered without a set CurrentPage (#669),jorisvergeer,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/38c0b34e91e2148e78704432afec6b086c9fc0c9
+917d27e079a23c96ee3201cc7f35069cd837ed9a,"UWP MapRenderer fixes. (#724)
+
+* Issues:
+1. The MapRenderer calls TrySetViewBoundsAsync before the map is ready for it. This causes the map to hardly ever initialize to the correct position.
+2. The visible region calculation gets the zoom wrong.
+3. Map can cause a crash if you rotate/zoom a lot when setting the visible region.
+
+Fixes:
+1. Call MoveToRegion using MapControl's RunIdleAsync to have it move after the map starts rendering
+2. lat/long delta should be:
+var latitudeDelta = Math.Abs(nw.Position.Latitude - se.Position.Latitude);
+var longitudeDelta = Math.Abs(nw.Position.Longitude - se.Position.Longitude);
+rather than calculated from the center
+3. Move the visible region set into the try/catch block.
+
+* Made spaces into tabs to conform to previous standard.",indydawgy,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/917d27e079a23c96ee3201cc7f35069cd837ed9a
+2b92142ab2a501de71d3572efc0e5deb2b7bae9a,"Fixed issue where errant ""."" were appearing on droid controls due to hints. (#801)",BradChase2011,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/2b92142ab2a501de71d3572efc0e5deb2b7bae9a
+cf213891c9028107cb80105c6bb08cdcf4f8b8ef,"Bug 51536, initial iOS cell layout is incorrect when cell has context actions … (#787)
+
+* Bug 51536, initial height is incorrect when cell has context actions or ListView is in recycle mode
+
+* Improved fix for iOS uneven height cell layout
+
+* Fixed indentation and added test case for issue 44525
+
+* Fixed indentation for test case
+
+* Added 1px room, this will fix Bugzilla31330 test, renamed test case to 51536
+
+* Updated shared project file",VitalyKnyazev,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/cf213891c9028107cb80105c6bb08cdcf4f8b8ef
+e36a02497a017e57d306e6e1f56c29f536505f2b,Set the transitioning delegate. (#819),danielwilliamson,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/e36a02497a017e57d306e6e1f56c29f536505f2b
+5ca7259959022253c6a71c5290854929291caec5,"UWP MapRenderer NRE and Location fixes (#811)
+
+* Issues:
+1. If UWP MapRenderer is navigated away from, before the user location
+is found, an uncaught NRE will be thrown.
+2. UWP MapRenderer updates are not enforced to be on UI thread
+3. Order of operations in MapRenderer would cause user location to never
+be shown.
+
+Fixes:
+1. Added null checks in UpdateUserIsShowing and LoadUserPosition
+methods.
+2. Called map position updates on UI thread.
+3. Changed order of operations in OnElementChanged to allow for user
+geocoordinates to be shown.
+
+* Fixed code formatting issues
+
+* Fix formatting
+
+* Deterministic null checks
+
+* Updated null checks",ethanis,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/5ca7259959022253c6a71c5290854929291caec5
+4e9d99fea4abc7c8c1a29ab2fbfa704cab458d72,iOS renderers now properly look up the ImageSourceHandler for FileImageSource (#826),Clancey,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/4e9d99fea4abc7c8c1a29ab2fbfa704cab458d72
+377d24fd05e7fb597c4f9237c1596ed4fbf86f19,Setup a ConditionalWeakTable in ListProxy to hold weak references so that a ListView will work when connected to a Weak Source (#802),PureWeen,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/377d24fd05e7fb597c4f9237c1596ed4fbf86f19
+eb3db860e47da2974bddf6f0f959799f12e962c5,"OnResume assumed that _application had been set (#859)
+
+When OnResume is called it should not expect the _application to be set already.
+I have an app where I use one activity for showing a splash screen and then it starts an intent to show the main activity containing the application.
+This used to work before 2.3.4.224.",mellson,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/eb3db860e47da2974bddf6f0f959799f12e962c5
+0e73a2d16c82d6d9913b9f32cc7705268162a2c3,Spell correction of FromattedString (#864),AndersRasmussen,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/0e73a2d16c82d6d9913b9f32cc7705268162a2c3
+dfda41b0bdc0ea80f548e3c919f14e8094c6cb25,"Map renderer extensibility (#844)
+
+* Added extensibility features to Maps
+
+Android MapRenderer:
+- Moved map initialization to protected virtual method OnMapReady, called by explicit implementation of IOnMapReady
+-  Added protected virtual method CreateMarker for customization of pins
+
+iOS MapRenderer:
+- Added protected virtual method CreateAnnotation for customization of pins
+
+Pin:
+- Unsealed the Pin class
+- Made Label a bindable property
+
+* [Docs] Update docs",jcmanke,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/dfda41b0bdc0ea80f548e3c919f14e8094c6cb25
+b9a94f4b87f2d89a4eda990910f3a69c073c7c95,"Resource Manager fix for F# File Resources (Bugzilla 53515) (#825)
+
+* Resource Manager fix for F# File Resources (Bugzilla 53515)
+
+* Changed spaces to tabs and changed the argument name in the ResourceManager.GetId() function.
+
+* Improved the type checking in GetId().",SpiegelSoft,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/b9a94f4b87f2d89a4eda990910f3a69c073c7c95
+a153245b59837899cd7f4f4bdeae7c79e0ddebf5,"README: add macOS to list of supported platforms (#871)
+
+Support was added in https://github.com/xamarin/Xamarin.Forms/pull/650
+(https://github.com/xamarin/Xamarin.Forms/commit/52fc04724fc163c68c54cf33a5931871f8c1ee8e)",knocte,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/a153245b59837899cd7f4f4bdeae7c79e0ddebf5
+6ee219ca1db3f4d43370d39865c705d9c99ad38e,Add check for instance of UITableView (#885),bruzkovsky,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/6ee219ca1db3f4d43370d39865c705d9c99ad38e
+a5edf96aaaa96573a5324f992fe3bc466b9adae1,add disposed check on FastRenderers.FrameRenderer (#887),bentmar,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/a5edf96aaaa96573a5324f992fe3bc466b9adae1
+da0a9d421c9d1dbb9aa73bf578cf463763168961,"[Android] Add null check before creating and drawing canvas bugzilla 55559 & 45602 (#899)
+
+* [Android] Add null check before creating and drawing canvas bugzilla 55559 & bugzilla 45602.
+
+* [Android] REFACTOR Add null check before creating and drawing canvas bugzilla 55559 & 45602 #899",pineapple216,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/da0a9d421c9d1dbb9aa73bf578cf463763168961
+c20ec49ad3849c756b9fbc2e99d002e7fa0d4238,Unsubscribe OnModelChanged event when TableViewModelRenderer is disposed (#879),jacobmcgoogan,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/c20ec49ad3849c756b9fbc2e99d002e7fa0d4238
+0834d2d13fa3f03d2396aa24a827c5c4727458d9,"make OnShouldReturn protected (#906)
+
+* make OnShouldReturn protected
+
+There are situations where we don't want to dismiss the keyboard when return key is pressed.
+Making OnShouldReturn protected will let custom renderers to disable ResignFirstResponder behaviour.
+
+* added virtual keyword to OnShouldReturn",kadiryazgan,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/0834d2d13fa3f03d2396aa24a827c5c4727458d9
+6d3b6b19fa1785570491e3b04f3e1340d181cc5c,"Merge pull request #1 from xamarin/master
+
+Syncing from original",jsuarezruiz,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/6d3b6b19fa1785570491e3b04f3e1340d181cc5c
+ef076b8825acf9b2cf63ddfb7914b214ceb7bea0,Fix crash when modifying ContextActions on Android (#982),alexhardwicke,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/ef076b8825acf9b2cf63ddfb7914b214ceb7bea0
+723cb80c6b0eaa587f00fc6ba38dcd1887e6943d,"[iOS] Proxy UITableViewCell SelectionStyle when wrapped (#1002)
+
+* making sure the UITableViewCell SelectionStyle proxies up when wrapped in ContextActionCell and with recycling mode
+
+* corrected coding style, tabs instead of spaces. Removed stub for UITest.",davidortinau,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/723cb80c6b0eaa587f00fc6ba38dcd1887e6943d
+80b72ceda3ed017f62af45c5591a11c29f3fdd3d,"[XamlC] Allow overriding the assembly resolver and whether to compile (#1003)
+
+* [XamlC] Allow overriding the assembly resolver and whether to compile by default
+
+* [XamlC] Add ForceCompile to override attributes",praeclarum,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/80b72ceda3ed017f62af45c5591a11c29f3fdd3d
+3b11401558678a27d6c6f5103e58252de04761f0,"Unsubscribe from IDefinition.SizeChanged event when set via indexer (#1014)
+
+* Unsubscribe from IDefinition.SizeChanged event when set via indexer
+
+* added bounds and null check to preserve original exception
+
+* index check for negative values",juliuszint,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/3b11401558678a27d6c6f5103e58252de04761f0
+747b01b5bb9b18fc60e2d00a7dffa70d36475e98,[iOS] Fix for disposing a map causing a null reference (#1027),dkarzon,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/747b01b5bb9b18fc60e2d00a7dffa70d36475e98
+b5b84fef02dbfc47ddf07fffbe9153cc211ded1b,"Update FrameRenderer.cs (#1023)
+
+Removed the cornerRadius conversion  to pixels in the DrawCanvas function.
+
+In both the DrawOutline and DrawBackground function the conversion is done as well, which caused it to happen twice, resulting in wrong radius.",woutermeuwis,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/b5b84fef02dbfc47ddf07fffbe9153cc211ded1b
+c6e6fe450ac341a6593230ed7f5483c46f425ae9,"Fixed README.md (#1052)
+
+The top-level header was not properly displayed.",teo-tsirpanis,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/c6e6fe450ac341a6593230ed7f5483c46f425ae9
+b6c1b60fa65889c87f7d42a6fbe8a6c9411f0c37,"Automatically add XAML items to Sdk-style projects (#1101)
+
+By default, Compile/EmbeddedResource/None items are added to Sdk-style
+projects by wildcard. Use the same logic to add XAML files and fix
+up the item metadata.",mhutch,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/b6c1b60fa65889c87f7d42a6fbe8a6c9411f0c37
+791b84f2f1b2d3772a82e62a945c3a1917f02fcf,"[MacOS] Fix bugzilla58779 (#1109)
+
+* Add test for B58779 - DisplayActionSheet bug on MacOS
+
+When there are a large number of items in the list (eg 15) the list goes off the bottom of the Mac desktop
+
+* Add test for B58799 to project
+
+* Fix for B58799
+
+If the list of buttons has a height > 400 then put the list in a NSScrollView
+
+* Fix whitespace for Bugzilla 58779
+
+* Add vertical scrollbar
+
+* Set height of scrollview to 60% of the screen height",RogerHardiman,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/791b84f2f1b2d3772a82e62a945c3a1917f02fcf
+d1d6767e572d0f1d391b63de441d062a768ae956,Fixes Bug 58987 (#1121),jgold6,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/d1d6767e572d0f1d391b63de441d062a768ae956
+afa0fb7e559d8c36b9a6c8cb462d52492671a82b,"[Core, Android] Fix to address the elusive 'Sharing violation on path PropertyStore.forms.tmp' (#1075)
+
+* use a semaphor for actual saving piece
+make reading serialized propertystore readonly to help with collisions.
+
+* change over to async Task and await OnStateChanged() method to try and mitigate what might be the race condition causing the ' Sharing violation on path PropertyStore.forms.tmp' error
+
+* update Semaphore name
+
+* remove private specifier per the style guide
+
+* Update docs and add warning suppression for broken mono warning
+
+* ... and adding the warning suppression to Release mode, as well.
+
+* -add try...finally block so we can guarantee that the semaphore is released if there's an exception while saving the properties.
+-remove the legacy code that the semaphore replaces
+
+* Update docs
+
+* Attempting to fix docs
+
+* Trying again to get docs to pass",dgeller-OUHSC,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/afa0fb7e559d8c36b9a6c8cb462d52492671a82b
+4e4c8637fceb532bbf55a14b732763fbcb58ddc5,Update ScrollView.cs (#1209),yone64,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/4e4c8637fceb532bbf55a14b732763fbcb58ddc5
+9f6035424742f3d4f9bb2d2afbe7751b91c71569,[docs] BindingMode typo fix. (#1245),patridge,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/9f6035424742f3d4f9bb2d2afbe7751b91c71569
+0cece4631fff4da8fcd36f5bcc7dfc321cf9de1c,"Make it possible to customise the window on iOS (#1247)
+
+* Make it possible to customise the window on iOS
+
+* Fix formatting
+
+* Update to not use C#7",martijn00,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/0cece4631fff4da8fcd36f5bcc7dfc321cf9de1c
+3bafaa700f809e1017d3f0bfd77c16fd695b3eeb,"Updated method ""UpdateToolBar"" in NavigationPageRenderer to support overriding of method ""ShouldShowToolbarButton"" in MasterDetailPage (#1217)",JoergMeier106,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/3bafaa700f809e1017d3f0bfd77c16fd695b3eeb
+309751523a18994038116995c60ab92e4f691856,"[UWP-WinRT] Bug 25662, SwitchCell.IsEnabled not rendered (#1279)
+
+* Bugfix for #25662, Property SwitchCell.IsEnabled wasn't implemented in the rendering
+
+* Revert unused files",Poppyto,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/309751523a18994038116995c60ab92e4f691856
+1bbd9dfa52dfd72644504d4b4f8656b8abe2bd98,"[WPF] Xamarin Forms WPF Backend - Platform Project (#1334)
+
+* Add WPF Platform, WPF const in Device and Update Docs
+
+* Add Settings.Designer.cs
+
+* Remove two lines : build on iPhone configuration
+
+* Remove lines for ios build",mohachouch,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/1bbd9dfa52dfd72644504d4b4f8656b8abe2bd98
+9383a907c4b87a409a2978e98396d6643fa98ba7,"[XamlC] Add netstandard2.0 to Xamarin.Forms.Build.Tasks (#1284)
+
+* Add netstandard2.0 to XF.Build.Tasks
+
+* Separate XF.Build.Taks for netstandard 2.0
+
+* Change comparison variable to determine XBuild",WonyoungChoi,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/9383a907c4b87a409a2978e98396d6643fa98ba7
+b6ae9d0b991b961505b62743931d446141fea7e8,[iOS] PickerRenderer EditingChanged detach (#1364),felipemomm,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/b6ae9d0b991b961505b62743931d446141fea7e8
+8e3fbd62f993a09aba1ca389e40389b2e6f05d4e,[iOS] Extract native control creation into separate method like in androids ButtonRenderer (#1080),lamest,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/8e3fbd62f993a09aba1ca389e40389b2e6f05d4e
+294e99eef8cddcf49ca857833e5be4c3ccbd198f,"Add implicit color conversion to .NET Standard's System.Drawing.Color (#1359)
+
+* Add implicit color conversion to .NET Standard's System.Drawing.Color
+
+This change simplifies working with colors in a .NET Standard way by adding implicit conversion between the two color types:
+```
+Xamarin.Forms.Color c1 = Xamarin.Forms.Color.FromRgba(1, 1, 1, 1);
+System.Drawing.Color c2 = c1;
+Xamarin.Forms.Color c3 = c2;
+if (c2 == c1)
+{
+   // Colors are equal
+}
+```
+
+* Fixed order of color components
+
+* Added Implicit Color conversion unit tests (this includes referencing System.Drawing to access the System.Drawing.Color type)
+
+* Added conversion between Xamarin.Forms.Color.Default System.Drawing.Color.Empty",dotMorten,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/294e99eef8cddcf49ca857833e5be4c3ccbd198f
+32b1e3e32057ecde2ecb8af35a4b1d2be494f91a,"[UWP] Bug 57674 - XF.UWP ListView not honoring INotifyCollectionChanged  (#1235)
+
+* Fix Issue 57674
+
+Suscribing to OnCollectionChanged
+
+* Fixing style issues
+
+Style issues
+
+* Style issue 2
+
+Retoring to initial state curly braces",gatm50,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/32b1e3e32057ecde2ecb8af35a4b1d2be494f91a
+569585a2d428db4b826f745f522e4eda9796f1f7,Descriptive exception when ItemViewType >= ViewTypeCount (#1383),ionoy,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/569585a2d428db4b826f745f522e4eda9796f1f7
+b8de5564bf05f9086a0d7bc8c33bcce9b38803e4,CGColor creation fixed on iOS and MacOS (#1182),adamivancza,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/b8de5564bf05f9086a0d7bc8c33bcce9b38803e4
+f8566492daa70f670d0e3aa522600b3f28846eec,"[Core] Fixed invocation of the IButtonController methods when IsEnabled is false (#1410)
+
+* Fixed invocation of the IButtonController methods when IsEnabled is false
+
+* Fixed Testes",workgroupengineering,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/f8566492daa70f670d0e3aa522600b3f28846eec
+f9b27a2edfa2126824f4b41e2712d283eaad50b4,"Fix UWP button image rendering crash (#1576)
+
+On UWP, if you click around an app quickly, you can get it crash with this error:
+> Xamarin.Forms.Platform.UAP.dll!Xamarin.Forms.Platform.UWP.ButtonRenderer.UpdateContent.AnonymousMethod__0(object sender, Windows.UI.Xaml.RoutedEventArgs args)
+
+Since image loading is deferred, if you navigate quickly (or if you load the image from a slow source), the Xamarin.Forms element may no longer be present when `ImageOpened` is raised. The null check in this PR should fix that.",breyed,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/f9b27a2edfa2126824f4b41e2712d283eaad50b4
+a1af9344b7672d574470944171109ec016b33e89,"[iOS] Fix for assigning wrong element type to a recycled renderer (#1513)
+
+* Fix: wrong element assigned to a recycled renderer
+
+* Use ScrollForElement",michaeldwan,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/a1af9344b7672d574470944171109ec016b33e89
+525aaf61f23fe489c18b39d6048f51207d7ef98f,"Changes to the README.md file (#1722)
+
+* CHanges to the README.md file to update version of VS to VS17 as well as fixing broken links and updating what is needed to start working on the project...
+
+* Fixed the missed 2015 it now says 2017...",CliffAgius,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/525aaf61f23fe489c18b39d6048f51207d7ef98f
+3039185215c0ed72185f64c8e3ec65b7197f4231,Implementation for #1690,ravinderjangra,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/3039185215c0ed72185f64c8e3ec65b7197f4231
+78e370a5b98a77e573a83c2130ddbc74140279a0,"Update README.md (#1792)
+
+Fixed the link to the Xamarin.Forms Nightly build on MyGet",MartinZikmund,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/78e370a5b98a77e573a83c2130ddbc74140279a0
+9beca0d8cbdbe95894fe64e0e63e8c63022055c6,"[Enhancement] UWP PlatformSpecific to display JavaScript alerts in WebView (#1785) fixes (#1682)
+
+* add platformSpecific for enabling UWP javascript alerts in webview
+
+* update docs",alanag13,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/9beca0d8cbdbe95894fe64e0e63e8c63022055c6
+cd6585ffd2b95b0ab0004f92066dd4c3a67a55bd,Implemented UAP and WPF,jfversluis,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/cd6585ffd2b95b0ab0004f92066dd4c3a67a55bd
+59befd5d0c44fc2085341687bd104ac7f0a547de,"[iOS] Fix object disposed exception in ImageCell (#1808)
+
+* BUGFIX: object disposed exception
+
+by the time the async image load completes the imagecell could be disposed resulting in an unhandled exception
+
+* FIX uiimage == null case",kicsiede,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/59befd5d0c44fc2085341687bd104ac7f0a547de
+96e01cc3fbeb96f1450b52fa72f4d8a970a24eb1,"Allow DetectReadingOrderFromContent on UWP (#1717) (#1826)
+
+* Fixes #1717 by adding property DetectReadingOrderFromContentProperty
+to InputView and Label and updating EntryRenderer, EditorRenderer and LabelRenderer
+for Windows.",henricm,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/96e01cc3fbeb96f1450b52fa72f4d8a970a24eb1
+3bcb9c614e261cb5a3bfed83b5f647b49047956e,Ensure Android PanGestureRecognizer sends the Completed status (#1495) (#1753),matt4pi,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/3bcb9c614e261cb5a3bfed83b5f647b49047956e
+0b2bbb03d497e77b73d4b669ee916e148e3ac8ff,"[Enhancement] IsSpellCheckEnabled on Entry/Editor (#1836)
+
+Adds the InputView.IsSpellCheckEnabled property which makes it easier to
+disable the native spell checking features. Fixes #1660.",ntherning,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/0b2bbb03d497e77b73d4b669ee916e148e3ac8ff
+40e88596c9af193d3e951b53c169861284aa37ce,"[Enhancement]Add SearchBar platform specific for IsSpellCheckEnabled. (#1824)
+
+Issue #1691.",lateralusX,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/40e88596c9af193d3e951b53c169861284aa37ce
+0cdf4711de89baa85a34513391db40279acac2f1,"[Android] Allow customizing Android MenuItem (#1873)
+
+* [Android] Allow customizing Android MenuItem with tintcolor and custom drawable.
+
+* [Android] Allow customizing Android MenuItem with tintcolor and custom drawable. Review
+
+* [Android] Allow customizing Android MenuItem with tintcolor and custom drawable. Review dispose drawable.",Thetyne,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/0cdf4711de89baa85a34513391db40279acac2f1
+5744c830ba641f910be6a2e84e71623e84372d35,Fix to absolute URL,try0,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/5744c830ba641f910be6a2e84e71623e84372d35
+f4c9c32977f0205f135a9af2f8049e98c329d923,"Use relative URL to support recursive checkout in VSTS (#1926)
+
+This is the norm in all other repos building in VSTS and
+makes upstream build definitions and scripts much simpler.",kzu,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/f4c9c32977f0205f135a9af2f8049e98c329d923
+3f28628090202c748b580d1c9afc67b79b292bb0,"Added new Bindable Property to Input View, Platform Renderers for Android, iOS, MacOS, UWP, WPF. Setup for UI Test.",almirvuk,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/3f28628090202c748b580d1c9afc67b79b292bb0
+c96640d00cef8f3995d30f0800b65c815d366064,"[Core, iOS, Android, UWP, WPF] Hide scroll view scroll bars (#1910)
+
+* Initial Commit
+
+* Initial Commit
+
+Added setting the initial state of H and V Scroll bar visibility on Android
+
+Added WPF support
+
+Fixed a copy/paste of Upw that should be Wpf
+
+Added GTK and MacOS.
+
+Plus a minor addition to iOS
+
+Added Tizen support
+
+I am unable to test as I can not get Tizen working in my envrionment at the moment
+
+* Added setting the initial state of H and V Scroll bar visibility on Android
+
+* Added WPF support
+
+* Fixed a copy/paste of Upw that should be Wpf
+
+* Added GTK and MacOS.
+
+Plus a minor addition to iOS
+
+* Added Tizen support
+
+I am unable to test as I can not get Tizen working in my envrionment at the moment
+
+* Changes from review
+
+* Update ScrollViewRenderer.cs
+
+* add small WPF performance improvement
+
+* add docs
+
+* fix bad merge
+
+* light refactor (macOS)
+
+* spaces -> tabs
+
+* more spaces -> tabs
+
+* account for Android styles when setting default behavior",bmacombe,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/c96640d00cef8f3995d30f0800b65c815d366064
+09593fb923c2bab5659a8eb8c76d8daf2f060242,Enable KeyboardFlags and IsSpellCheckEnabled in Tizen renderer,myroot,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/09593fb923c2bab5659a8eb8c76d8daf2f060242
+9e6a5a8735ced907b2906627e2bf04731f6fe976,Fixing bug #2157 CommonState.Focused issue.,P3PPP,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/9e6a5a8735ced907b2906627e2bf04731f6fe976
+4fc59d26c39839511494a4876e12d7a1319b23c1,"Bug Fix : 1864 - Xamarin.Forms WPF load local html throw ArgumentException with message ""Relative URIs are not allowed""",Moha69100,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/4fc59d26c39839511494a4876e12d7a1319b23c1
+365a60e745d447992e870dd6272226e6b11ec275,[UWP] Fixes the reduced height of the main page (#2502) fixes #2228,paymicro,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/365a60e745d447992e870dd6272226e6b11ec275
+9e30a3389914813736a506c561dc96f69b3710ef,"Fix .css files not excluded from default None items (#2544)
+
+Fixes VSTS #606364 - CSS files are duplicated in solution pad",mrward,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/9e30a3389914813736a506c561dc96f69b3710ef
+b794caf7be33e5d3bf8ea39ba719cdbfbc008315,"Fix implicit conversion from null Uri to ImageSource (#1253)
+
+- closes #1253",kentcb,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/b794caf7be33e5d3bf8ea39ba719cdbfbc008315
+6b23996ba2f450a309f0333ac4b6f7ac38e6ba6a,"Bottom navigation page (#2)
+
+* Adding bottom navigation support to tabbed page",mikescandy,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/6b23996ba2f450a309f0333ac4b6f7ac38e6ba6a
+67f87df3d4d7ff6d21d176ab56cf2db13cbcad0a,"SwipeGestureRecognizer (#2727)
+
+* SwipeGesture
+
+* Fix Build Error
+
+* Remove unused var
+
+* Update Xamarin.Forms.Controls.csproj
+
+* Update Xamarin.Forms.ControlGallery.Android.csproj
+
+* Update Xamarin.Forms.Maps.Android.csproj
+
+* Update Xamarin.Forms.Core.UnitTests.csproj
+
+* Update Xamarin.Forms.Platform.Android.AppLinks.csproj
+
+* Update Xamarin.Forms.ControlGallery.Android.csproj
+
+* Update Xamarin.Forms.Controls.csproj
+
+* Update Xamarin.Forms.ControlGallery.Android.csproj
+
+* Update GestureManager.cs",seanyda,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/67f87df3d4d7ff6d21d176ab56cf2db13cbcad0a
+f30ab27ae88507dea13e0a14af69dc861c9212f8,Fix macOS label renderer Italic Font attributes (#2729) fixes #2728,ksivamuthu,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/f30ab27ae88507dea13e0a14af69dc861c9212f8
+84b81154dcf651988bbd2c86d01453979d230588,[Tizen] Enhancement serveral Rendereres for Watch on Tizen (#2970),yourina,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/84b81154dcf651988bbd2c86d01453979d230588
+c5b97ce15e86cdf9d8cc60ef2dd19e2c8b872a29,Refactoring SearchBar (#3013),shyunMin,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/c5b97ce15e86cdf9d8cc60ef2dd19e2c8b872a29
+5785fcb29dc6958573d89a7f92c6af1907040666,"[Core] Add support for internal bindable properties for F# (#3069)
+
+* Allowing internal BindableProperty fields for F# support
+
+* Fixing tests
+
+* Adding requested changes
+
+- fixes #2425",jimbobbennett,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/5785fcb29dc6958573d89a7f92c6af1907040666
+47fd55130bfa9bd78188d2c55b9ec3abef3cd8ea,"Gtk/display alert arguments (#3103) fixes #3102
+
+* GTK Alert missing accept button and personalized texts fixed
+
+* Use spaces instead of tabs for code indentation",sescalada,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/47fd55130bfa9bd78188d2c55b9ec3abef3cd8ea
+02050d7b6e25b93d0c13e62c06764f79245df55c,"[macOS] Entry focus unfocus events (#3011) fixes #3012
+
+* Improve FormsNSTextField.FocusChanged behavior
+
+Unfocused no longer fires immediately after first focus. Unfocused will fire with Return key or Tab key press. Unfocused will fire when window loses key while the Entry is was focused. Focused will fire when window becomes key and the Entry was previously first responder.
+
+* Add UI test for macOS Entry focused/unfocused test
+
+* Update test class to reflect github issue
+
+* Unsubscribe from window events in FormsNSTextField
+
+* Remove single line conditional braces
+
+* Remove single line conditional braces",jvansickle,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/02050d7b6e25b93d0c13e62c06764f79245df55c
+901f0e007d0a6fdd1587e0c86b62dd6ccb4d63ba,"[Tizen] Implement forwarders to Xamarin.Forms.Platform.Tizen (#2661)
+
+* Implement forwarders to Xamarin.Forms.Platform.Tizen
+
+* Do not generate dependency file",kvochko,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/901f0e007d0a6fdd1587e0c86b62dd6ccb4d63ba
+e09e4af4d0fdc7ccf1e502721298443c24ace813,Fix #3097 swipe gesture not being handled in VisualElementTracker. (#3098) Fixes #3097,velocitysystems,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/e09e4af4d0fdc7ccf1e502721298443c24ace813
+36a33676efbc621010de98fca6c497c0a0593b7b,"*.swp: remove temporary vim file(s) (#3377)
+
+* Remove temporary vim file, add *.swp to .gitignore
+
+* Remove all *.swp instances found",ahouben,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/36a33676efbc621010de98fca6c497c0a0593b7b
+b2a5d244562c49dfe9bf2a7200b9802b702dfe20,[WPF] #fixes #3355 add Default-FontSize (#3356),BinaryCraX,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/b2a5d244562c49dfe9bf2a7200b9802b702dfe20
+c5dd9f80d1eaf07208eaf659b742cafb405932b5,Add check for null _root flex item (#3235),francedot,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/c5dd9f80d1eaf07208eaf659b742cafb405932b5
+d710f4b80d6e3b9cea016665fb51467798164e1d,[Tizen] Fix Page.IsBusy Appearance (#3416),JoonghyunCho,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/d710f4b80d6e3b9cea016665fb51467798164e1d
+13ab34ae234606e7574ceedf30b6cc23cc37a581,"[Tizen] Fix minor bugs on CarouselPage and ActivityIndicator (#3473)
+
+* Fixed CarouselPage behavior
+
+* Fixed ActivityIndicator.IsRunning condition",sung-su,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/13ab34ae234606e7574ceedf30b6cc23cc37a581
+c46e5dc90d9cf0d916967d39c07030ee5f3156dd,Add Caret position for Tizen (#3255) Fixes #1667.,flyofsky,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/c46e5dc90d9cf0d916967d39c07030ee5f3156dd
+11bbc6abc95a239ffd5d6b7556c2b3697264750c,[GTK] Fix navigation bar visibility updates (#3651),ylatuya,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/11bbc6abc95a239ffd5d6b7556c2b3697264750c
+b0c6d6f3981dae05aa6597ed857e41bb66ef7e2f,"24H Mode (#3701)
+
+The 24h mode for the pickerdialog was not working.
+
+Version 3.1 was working fine. 
+
+Here is an updated file.",SR84,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/b0c6d6f3981dae05aa6597ed857e41bb66ef7e2f
+bd31e1e9fc8b2f9ad94cc99e0c7ab058174821f3,"[Android Maps] Make markers available to subclasses (#3751)
+
+* Make markers available to subclasses
+
+* Fix build
+
+* Use Find instead of FirstOrDefault",LRP-sgravel,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/bd31e1e9fc8b2f9ad94cc99e0c7ab058174821f3
+d484fb74cce3059dfca7d2e8c849b2f3d49835a4,"Fix Bugzilla38723 (#3812)
+
+fixes #2302",Viridovics,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/d484fb74cce3059dfca7d2e8c849b2f3d49835a4
+84695d72e2d0885bedf31d5ccd4c60adf033ada4,"Added a disabled look to Android Toolbar Item images. (#3773)
+
+* Added a disabled look to Android Toolbar Item images.
+
+* Update NavigationPageRenderer.cs
+
+Refactored DisabledToolbarAlpha into a constant as requested.",adammeaney,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/84695d72e2d0885bedf31d5ccd4c60adf033ada4
+799c1f07b77b57c3289c6c60caccfde4ad91809a,"Fix bugzilla60787 (#3933)
+
+* [Android]Fix for frame renderer's bug (bugzilla 60787).
+
+#3902
+https://bugzilla.xamarin.com/show_bug.cgi?id=60787
+https://github.com/xamarin/Xamarin.Forms/issues/3902
+
+* Add control to repro
+
+* PR fix
+
+* Build fix
+
+* Build fix for Xamarin.Forms.Core.Android.UITests",adambarath,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/799c1f07b77b57c3289c6c60caccfde4ad91809a
+33ea577660faafc0ba3c1753accf2869d41ec0db,"Make GetIconDrawable virtual (#3967)
+
+By making GetIconDrawable virtual for the Android TabbedPageRenderer it allows for the icon to come from other sources (like glyph fonts). This will work for both top and bottom tabs.",jsmarcus,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/33ea577660faafc0ba3c1753accf2869d41ec0db
+4a249f342525c2d8bf8f7d59986ccb58cb46c13f,Fix typos (mainly 'toogle' becoming 'toggle') (#3975),lewcianci,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/4a249f342525c2d8bf8f7d59986ccb58cb46c13f
+07482a10f79fb2ec6f74418704ab0e3d8e5f1d65,"Fix PanGesture inside scroll issue https://github.com/xamarin/Xamarin… (#3842)
+
+* Fix PanGesture inside scroll issue https://github.com/xamarin/Xamarin.Forms/issues/3840
+- fixes #3840
+* fixe formatting
+
+* [UITest] added UI Test
+
+* [Controls] adjusted UI Test button positions
+
+* [UITEST]  simplify UI tests",AndreiMisiukevich,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/07482a10f79fb2ec6f74418704ab0e3d8e5f1d65
+f79fc69b9e85ebd946bd7128c414735860bcc9f2,[UWP] Document in the README.md the steps required to run UI Tests (#4014) fixes #3984,emunin,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/f79fc69b9e85ebd946bd7128c414735860bcc9f2
+1c0a9dff7ab82a0c98ce56d5372319370a055abd,Correct minor typo (#4068),slang25,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/1c0a9dff7ab82a0c98ce56d5372319370a055abd
+a3901827a479ec778de2d7f968dd1ca486abf414,Use ViewCompat to set and get label for view (#3996),Cheesebaron,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/a3901827a479ec778de2d7f968dd1ca486abf414
+735c81c53025945f5155aa63802f28086c450439,"[GTK] Add support for ClickGestureRecognizer (#3971)
+
+* [GTK] Add support for ClickGestureRecognizer
+
+* Add ClickGestureGalleryPage to test ClickGestureRecognizer",vmartos,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/735c81c53025945f5155aa63802f28086c450439
+9244c318925f5b6d0ef0b0c7209b761120f6d76d,"Navigation Page double Popped event Workaround (#3851) fixes #3509
+
+* Navigation Page double Popped event Workaround
+
+* [UITest] Add UI Test
+
+* [Core] fix formatting
+
+* revert formatting fix
+
+* implemented workaround suggested by PureWeen
+
+* removed whitespace
+
+* moved ignorePopCall to a better location",DerGary,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/9244c318925f5b6d0ef0b0c7209b761120f6d76d
+b6ebcf9d5e0696099a4c9c0f89b58b2a5463c187,"Implementation of method ForceUpdateSize for Cell on macOS (#4104)
+
+* Implemented Cell ForceUpdateSize on macOS
+
+* Tab Styling",wachs,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/b6ebcf9d5e0696099a4c9c0f89b58b2a5463c187
+de10829cf88774c35f36641450bdcd47d6fc27ae,"Added UI test to B45027 (#4079)
+
+* Add UI test to B45027
+
+* Changed execution of current UI test to Android platform
+
+* Added iOS UI test to B45027
+
+* Refactored UI test execution",ionixjunior,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/de10829cf88774c35f36641450bdcd47d6fc27ae
+4dfa4cd5e691a23f03cb1dd83dac5c132c6f9230,[GTK] Do not show a label in gtk slider renderer (#4098),axelgorris,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/4dfa4cd5e691a23f03cb1dd83dac5c132c6f9230
+dbfa47c978d4fe9f8ed53a16a57a4de778010e3a,"Add Editor.IsTextPredictionEnabled property (#4023)
+
+* Add Editor.IsTextPredictionEnabled property
+
+* simplfy UpdateInputType logic
+
+* modify IsTextPredictionEnabledProperty BindingMode to Default
+
+* undo changes of commit 5db2456d
+
+* [UITests] update namespace for UI Tests
+
+- Fixes #3555",noamyogev84,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/dbfa47c978d4fe9f8ed53a16a57a4de778010e3a
+791fb0461ee6a9c7718ea5592bbe28d6468b101d,"ListView should convert item to string when ItemTemplate is not specified (#4016)
+
+* Convert item to string, when ListView has no ItemTemplate
+
+* ToStringValueConverter tests
+
+* Format value using parameter in ToStringValueConverter
+- fixes #3715",duracellko,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/791fb0461ee6a9c7718ea5592bbe28d6468b101d
+f6009cecffe54ec6971a50bd81231993c993b920,"Move github files to .github dir (#4288)
+
+This change is completely non-functional, the files moved will function identically in the .github dir, but don't cruft up the root dir.",thekbb,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/f6009cecffe54ec6971a50bd81231993c993b920
+af0bc40eecbbb5c0cf298034c4108cfecab47ce4,"[iOS] Label HorizontalTextAlignment=""Center"" not working in conjunction with LineHeight on iOS (#4275)
+
+* fix issue#4262
+Label HorizontalTextAlignment=""Center"" not working in conjunction with LineHeight on iOS
+
+* Add missing parameter for macOS due to the previous method param change
+
+* merge
+
+* Added using UITextAlignment = AppKit.NSTextAlignment; as maintainability requested
+
+* Revert ""merge""
+
+This reverts commit 939b6e1bc8ebd538af0db91dd8656e7eb2d31203.
+
+* Revert ""merge""
+
+This reverts commit 939b6e1bc8ebd538af0db91dd8656e7eb2d31203.
+
+* make test case more clear",masonyc,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/af0bc40eecbbb5c0cf298034c4108cfecab47ce4
+ee3353e1a79004ce5f76f11435ec4921f01bfbf8,"Update README.md (#4290)
+
+* Update README.md
+
+* Fix UWPMapsAuthKey link
+
+* VSTS -> Azure DevOps
+
+Co-Authored-By: danielchalmers <daniel.chalmers@outlook.com>",danielchalmers,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/ee3353e1a79004ce5f76f11435ec4921f01bfbf8
+63e290a899e5e0d27b45461c84341f6f678145ac,"GH-4367 Clarify Readme for deps & commandline build (#4368)
+
+* Clarify Readme for deps & commandline build
+
+Ensure everyone knows to install .NET 4.7 dependency and also simplify msbuild into single action!
+
+* Update README.md
+
+Specify Android SDK",jamesmontemagno,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/63e290a899e5e0d27b45461c84341f6f678145ac
+5959c40c941b01eec352a043d8ae839d5154aa5b,"Move last projects over to PackageReference (#4492)
+
+* Move the first few projects over to PackageReference
+
+* Move the first few projects over to PackageReference
+
+* Moved the remainder of the projects to PackageReference
+
+* Copy the nunit test adapters for the test apps
+
+* Update the unit tests version of json.net
+
+* Don't use relative paths
+
+* Make sure to also copy sub folders
+
+* Remove the trailing slash
+
+* Keep the directory structure",mattleibow,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/5959c40c941b01eec352a043d8ae839d5154aa5b
+eee78fe2b77a3e112415dc4a1f46512df414df9a,"Switchcell oncolor (#4036) fixes #4027
+
+* Added OnColor property for changing switchcell color
+
+* Added logic to apply color to Switch
+
+* Used nameof on the OnColor property
+
+* [UWP] support for UWP",manutdkid77,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/eee78fe2b77a3e112415dc4a1f46512df414df9a
+25d8663a1d1073096d9bc72074f72863fe22e4f8,"Fix edge case in unsubscribing weak events (#4538)
+
+When an event has two subscriptions to the same handler,
+unsubscribing cleared all the handlers, not only one.",vguzmanp,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/25d8663a1d1073096d9bc72074f72863fe22e4f8
+4db654df0732e2bab512d3ec6cc487836d4abc92,"[Android] total fix of issue #3575 (#4567)
+
+* total fix of issue #3575
+
+we need to check _childView with null also
+
+* Update MasterDetailContainer.cs",JTOne123,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/4db654df0732e2bab512d3ec6cc487836d4abc92
+1cef4471ce00a3ae7e4813ef1a746224c2a39390,"GH2691: Make XmlnsDefinitionAttribute public (#2782)
+
+* Make XmlnsDefinitionAttribute public. Change XamlC, XamlG, and XamlParser to search for all referenced/available assemblies for attribute and referenced types. Add XAML unit tests and control gallery entry.
+
+* change ns for xmlnsdefattribute
+
+- fixes #2691",legistek,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/1cef4471ce00a3ae7e4813ef1a746224c2a39390
+369c2af2a59aa09d042edabbdd59392b8990feea,"Set ImageButton property of Android.ImageButtonRenderer public (#4534)
+
+* Set ImageButton property public
+Set ImageButton property public.
+* Rename ImageButton to Element
+the Element set property remains private.",cacti-acaprais,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/369c2af2a59aa09d042edabbdd59392b8990feea
+d2fce1fa2b4c7d320cc0c65cc29e540dcf869712,"[iOS] Recover from popping page after the page has already been popped by back button (#2873)
+
+* Cleanup navigation task on Pop exception
+
+* Bugzilla 59172 + recovery repro tests
+
+* Trap for Pop race
+
+* [Core] add check on OnPopToRootAsync
+
+* Added test scenario description
+- fixes #4129",genriquez,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/d2fce1fa2b4c7d320cc0c65cc29e540dcf869712
+a1b3bcae1c811f1910ea29cd305c799358d503f3,"Updated README to reflect correct name (#4687)
+
+Corrected typo to reflect the correct Android name.",DavidRoqueni,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/a1b3bcae1c811f1910ea29cd305c799358d503f3
+81c9a5256c981c852d8b8796d3a688e9f4be093b,added case in GTK listviewrendered for change of SelectedItem property (#4757),artemutin,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/81c9a5256c981c852d8b8796d3a688e9f4be093b
+58b1a4cb811ed711b86e978f60cf8c342daabd39,"Add Serializable on exception types (#4690)
+
+* Added Serializable on exception types. See #4685
+
+* Make exception types public. See #4685
+
+* Added default-recommended constructors to exception classes. See #4685
+
+* Make exception types compatible with .net standard 1.0 See 4685
+
+* Call base in xaml parse exception. See #4685
+
+* Merged XamlParseException #4685 related changes with chanes of #4582",ysmoradi,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/58b1a4cb811ed711b86e978f60cf8c342daabd39
+169daca254a8191477326b95f2dca717e9f216e7,"Add AllowMultiple=true to QueryPropertyAttribute (#5180)
+
+In the process of building a demo app (https://github.com/matthewrdev/xamarin-forms-4), I discovered that I could not apply multiple parameters; doing so would cause a compile-time error.
+
+The usage of this property in ShellContent, specifically in ApplyQueryAttributes, indicates that the intended behaviour is to allow users to specify multiple URL arguments that will be applied onto the page. Changing AllowMultiple to true fixes this.
+
+For reference, when AllowMultiple is not explicitly set, it's default value is false. See: https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/attributes/attributeusage.",matthewrdev,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/169daca254a8191477326b95f2dca717e9f216e7
+88fbd3b0c6302dca9197f53f63ca094129fa90be,"Update WebViewRenderer.cs (#4737)
+
+Fixed the problem that only the first Navigating event can be triggered",zhuxinghan,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/88fbd3b0c6302dca9197f53f63ca094129fa90be
+156c7b66b7761d36cc2d38c34c56659d6c31aa1e,"Fix ScrollTo on Mac (#4983) * fixes #3319
+
+* Fix github issue #3319
+
+Fix  #3319 [MAC] ScrollTo method is not working in Xamarin.Forms for mac platform
+
+* Update Issue3318.cs
+
+Fix Issue3318 UITest.
+
+* Fix github issue #3319
+
+Fix  #3319 [MAC] ScrollTo method is not working in Xamarin.Forms for mac platform
+
+* Update Issue3318.cs
+
+Fix Issue3318 UITest.",sanyandreichuk,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/156c7b66b7761d36cc2d38c34c56659d6c31aa1e
+fff5b25a1fe8e67891f922879d1f1452e6dd5343,Fix dynamic resources in merged dictionaries #3661 (#4993) * fixes #3661,patchandthat,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/fff5b25a1fe8e67891f922879d1f1452e6dd5343
+fb59591580ea474e7f48e5941854fd790dc5a8cb,"Fix NRE in Android ResourceManager when reference resource in Previewer (#5305)
+
+Fixes part of #5300",TimBarham,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/fb59591580ea474e7f48e5941854fd790dc5a8cb
+187602b384577f20fddc05adae75f4a5b8b0d9f1,directly load specified Font Family or other valid PostScript Font Name fixes #5372 (#5373),dansiegel,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/187602b384577f20fddc05adae75f4a5b8b0d9f1
+201589fd60f21b91a43f76e15723ad62f9fa241e,"Fix WPFResources, EntryCell (#5361)
+
+Also bind Isenabled
+fixes #5360",mterwoord,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/201589fd60f21b91a43f76e15723ad62f9fa241e
+339bd2bc822a5d3d5c094d0c0ae4f4843dbd042c,"Correct Grid Height When Aspect Fit Image Gets Shrinked  (#4990)
+
+- fixes #4933
+
+* Grid size incorrect when using with Image #4990 
+
+* Unit Test for Grid size incorrect when using with Image #4933
+
+* Grid size incorrect when using with Image #4933
+
+* Unit Test for Grid size incorrect when using with Image #4933",spruceDevelopment,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/339bd2bc822a5d3d5c094d0c0ae4f4843dbd042c
+f091a9576d0140ccf2b2d7635cd58b58da760e95,Added AppLinks (#5568),brminnick,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/f091a9576d0140ccf2b2d7635cd58b58da760e95
+9c10acdd684ad111fe1480217fcabb7dd131066a,"[macOS] enhance menu (#4718)
+
+fixes #2618",gabor-nemeth,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/9c10acdd684ad111fe1480217fcabb7dd131066a
+56a63f26953db2a36386692f114792a128e85410,"[GTK] Fix NavigationBar check for Layout calc (#5506)
+
+The loop was exiting before current was being set.
+
+fixes #4713",mfkl,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/56a63f26953db2a36386692f114792a128e85410
+9ba95b6a481ff0a6e6279835ab73e368c3679379,"DetectPlatform Fixed for UWP (#5182) fixes #4852
+
+* detectplatform fixed using Windows.System.Profile.AnalyticsInfo.VersionInfo.DeviceFamily
+UWP-Xbox sets TV...Surface tablets sets Desktop intead of Phone
+
+* Update Xamarin.Forms.Platform.UAP/Forms.cs
+
+Default was changed to be Unsupported Idiom
+
+Co-Authored-By: EmilAlipiev <emil.alipiev@gmail.com>
+
+* Update Xamarin.Forms.Platform.UAP/Forms.cs
+
+Co-Authored-By: EmilAlipiev <emil.alipiev@gmail.com>",EmilAlipiev,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/9ba95b6a481ff0a6e6279835ab73e368c3679379
+de328b1338a7b947e51cd2bb54c7d2826d3cbe2c,"Fix BindableLayout's incorrect layout.children.add -> use insert (#5582)
+
+* Fix incorrect layout.children.add -> use insert
+
+* Modify unit test to match the problem with this issue
+
+- fixes #5579",csteeg,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/de328b1338a7b947e51cd2bb54c7d2826d3cbe2c
+6be88f6cae5a258702c294a543fc8f57c28e20cf,"Create UITest for Bugzilla41619 (#5829)
+
+* - create UITest for Bugzilla41619
+
+* - remove the hard code",pictos,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/6be88f6cae5a258702c294a543fc8f57c28e20cf
+bb074a0f82bbb48ad54923558c923abf7c4cc637,"Implemented ImageButtonRenderer for WPF (#5668)
+
+* Added ImageButton renderer for WPF
+
+* Removed private modifiers
+fixes #4991",SuNNjek,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/bb074a0f82bbb48ad54923558c923abf7c4cc637
+448d93e46d04447c72b0de0ea97bd5a233afcb6a,"Create UITest for issue B44476 (#5859)
+
+fixes #2381",puppetSpace,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/448d93e46d04447c72b0de0ea97bd5a233afcb6a
+4b5ed4c3c649ceafab11bb037d837bf9b24f0387,"[iOS] Add Platform Specific features for PrefersHomeIndicatorAutoHidden (#5717)
+
+fixes #5310",piotrkonowalski,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/4b5ed4c3c649ceafab11bb037d837bf9b24f0387
+f4d87bbf0407e314c0d019761393856f9d607f4d,"s/SearchBoxVisiblity/SearchBoxVisibility/ from base 4.0.0 (#5931)
+
+* s/SearchBoxVisiblty/SearchBoxVisibility/
+
+Fix typo in type name.
+
+* s/Collapsable/Collapsible/
+
+* Changed capitalization in comment",lobrien,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/f4d87bbf0407e314c0d019761393856f9d607f4d
+2c48f4aba6ca75b7735cfda4f30d7a637f4ce54c,"[GTK] Fix Padding/Margin properties of Frame element (#5533) (#5764)
+
+Frame's content wrapped into a Gtk.Fixed container since Gtk.Frame itself can't position it's content.
+fixes #5533",stanbav,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/2c48f4aba6ca75b7735cfda4f30d7a637f4ce54c
+b6f10eff046e5fce7b074350b4831317116b0ca8,"Add null check in iOS ShadowEffect OnDetached (#5952)
+
+Added a null check in iOS ShadowEffect OnDetached
+fixes #5951",codemillmatt,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/b6f10eff046e5fce7b074350b4831317116b0ca8
+3fda15ba5ad5395852f2ceed60231d3efc7bf989,"`WpfHelper.FindChildren`: Pass `forceUsingTheVisualTreeHelper` to recursive calls. (#5922)
+
+fixes #5921",johannesegger,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/3fda15ba5ad5395852f2ceed60231d3efc7bf989
+123ecf76199b9bcdba630ab14a9fdc5c0bccc1ab,"Fixes _child.Element null reference exception (#5756)
+
+* Fixes _child.Element null reference exception
+
+* Update ListViewRenderer.cs
+
+fixes #5700",Carbaholic,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/123ecf76199b9bcdba630ab14a9fdc5c0bccc1ab
+cc1206a536e6aeffaf4a9bed8315b187e3f93421,"Addresses issue #5854 (#5855)
+
+fixes #5854",MuziburRahman,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/cc1206a536e6aeffaf4a9bed8315b187e3f93421
+95352c2bef27dc17c340a4d6a76b2c50dc576637,"Add B40005 test case (#5912)
+
+fixes #2339",mkieres,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/95352c2bef27dc17c340a4d6a76b2c50dc576637
+f9f7d668adce5ebf102ee1ade714bdcee4b09a80,"[Android] VisualElementRenderer and ElevationHelper should be public (#6131)
+
+* VisualElementRenderer and ElevationHelper should be public
+
+* ElevationHelper.SetElevation should be public
+
+* remove comment",daniel-luberda,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/f9f7d668adce5ebf102ee1ade714bdcee4b09a80
+6c6d43d1cdd1b15306b027c14b33f84176aa251f,"Make NSScrollView for NSTableView not draw background, and add test case. (#6050)
+
+fixes #6021",GalaxiaGuy,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/6c6d43d1cdd1b15306b027c14b33f84176aa251f
+a19e105240495e7a58980ca205cbe22ae85a7f0d,"fixes BindableLayout DataTemplate - XamlC #5486 (#6178)
+
+fixes #5651
+fixes #5486
+
+* Update TypeReferenceExtensions.cs",inforithmics,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/a19e105240495e7a58980ca205cbe22ae85a7f0d
+7a0db78be9ec537345cf487971f5161685078273,"Issue4879 ImageButton Padding (UWP) (#5837)
+
+* Apply ImageButton.Padding on UWP like other platforms
+
+For #4879
+
+* Apply ImageButton.Padding on UWP like other platforms
+
+For #4879
+
+* Apply ImageButton.Padding on UWP like other platforms
+
+For #4879
+
+* don't use obsolete property after rebasing to 4.0
+
+fixes #4879",mrlacey,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/7a0db78be9ec537345cf487971f5161685078273
+e120e7d15aad7f322f50e5723c28bd570a33ba1e,"Update BottomNavigationViewUtils.cs: removing redundant Dispose() calls (#5298)
+
+* Update BottomNavigationViewUtils.cs
+
+Remove Dispose() and using statement as we don't destroy items.
+
+Casting objects to classes that implements IDisposable interface dosen't mean we need call Dispose() on them, and surely we don't want call it here.
+
+* Update BottomNavigationViewUtils.cs
+
+Fixed typo: removed closing parenthesis, added semicolon",PawKanarek,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/e120e7d15aad7f322f50e5723c28bd570a33ba1e
+1b847fb415634f0f70ea262fdf1a1ae0e0036726,Update ScrollViewRenderer.cs (#6151),syncsiva,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/1b847fb415634f0f70ea262fdf1a1ae0e0036726
+019959aeda262107e0bc41a9ef8a1d9a6c6dfb95,"Fix for layouts in a cell to expand on resize (WPF) Issue #5682 (#6179)
+
+* Added fix for grids in a cell to expand on resize
+
+* Added check for expand before expanding grid
+
+* Removed unused using
+
+* Made the resize fix more generic
+
+* Removed generic constraint on type check for layout controls on resize for children of cell control",jaytilly,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/019959aeda262107e0bc41a9ef8a1d9a6c6dfb95
+362c683d0b8838269bc4df32ec1d10b9870fd2f0,"EntryRenderer.cs [macOS] updated (#6566)
+
+checks if NSWindow is disposed before invoking FocusChanged events to fix #4268
+fixes #4268",nor0x,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/362c683d0b8838269bc4df32ec1d10b9870fd2f0
+0ad4dd3b02ade8df47e22a71dfdc35f63ebd0411,"Update ItemsViewLayout.cs (#6583)
+
+Unsubscribe from PropertyChanged during Dispose() on ItemsViewLayout (iOS).",eliaspuurunen,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/0ad4dd3b02ade8df47e22a71dfdc35f63ebd0411
+63f61b12efbef90f64d025f801efad2ee546770d,Fix compiler warnings in WPF platform project (#6616),Eilon,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/63f61b12efbef90f64d025f801efad2ee546770d
+3ac5b51c35d9d313fee5fd67fc2a4d435f82800a,"[UWP] CollectionView SelectionMode (#6629) fixes #3172 fixes #6489 fixes #5844 fixes #5625
+
+* UWP CollectionView SelectionMode
+
+* Null check
+
+* SelectItems get property
+
+* ItemTemplatePair type check
+
+* Avoid mutually trigger OnSelectionChange
+
+* Extended -> Multiple + Avoid creating new SelectedItems",humhei,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/3ac5b51c35d9d313fee5fd67fc2a4d435f82800a
+24b8f2ceee34f1aa8413a86cc8efa5d50c2ce5fe,"[Bugfix] Catching ReflectionTypeLoadException in the VisualTypeConverter (#6646)
+
+* - Bugfix: Catching ReflectionTypeLoadException in the VisualTypeConverter
+
+* - Fixed formatting
+
+* - Removed empty line",derjabkin,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/24b8f2ceee34f1aa8413a86cc8efa5d50c2ce5fe
+efa9cf4a02cb22749bce258b68829f5a1098f5e0,"Adds FontImage Markup Extension for FontImageSource (#6398)
+
+* Added FontImage markup extension which simplifies usage of FontImageSource into any ImageSource
+
+* Added unit tests to cover TabBar which is used in Shell
+
+* Cleaned up xaml for test code
+
+* Removed class references from unit test project which were added by mistake
+
+* Removed FontImageExtension from markup parser
+
+* Added ContentProperty to markup extension
+
+* Added Size to FontImageExtension
+
+* Updated unit tests for new properties
+
+* added unit tests to certify each property was set correctly by the markup extension
+
+* Added content property test to certify that Glyph is being set correctly
+
+* Flipped order in unit tests of expected and actual
+
+* Updated default value for Size to use the FontImageSource default's value. This will keep it in sync if that value ever changes
+
+fixes #6376",ahoefling,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/efa9cf4a02cb22749bce258b68829f5a1098f5e0
+12bebc509629682dcdaafd2068bde8444011c734,fix NRE in InvokeOnMainThreadAsync (#6708),campersau,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/12bebc509629682dcdaafd2068bde8444011c734
+7a1434b74784853cd1ddeb1746b4e6327faa0acc,"[GTK] Fix navigation (#6692)
+
+Commit 491947606d03647124bffffcea8547e135869027
+introduced this change :
+
+* [GTK] Don't recreate the toolbar on each change
+
+However when changing page, toolbar needs to be recreated.",nels83,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/7a1434b74784853cd1ddeb1746b4e6327faa0acc
+3113198179af4789ea7c02e932f6a17d778169c2,"Fix for #6444: Propagate binding context for children of shell sections (#6730)
+
+* Propagate binding context for children of shell sections
+
+* Added a few more BindingContext Propagation tests",Dresel,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/3113198179af4789ea7c02e932f6a17d778169c2
+80a050dfe3d6424818c7c137e107676ee47005f4,cleanup: corrected spelling mistake (#6794),ghuntley,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/80a050dfe3d6424818c7c137e107676ee47005f4
+f507130f4d1c6bd7b76dc389f7b95820e14955e8,"Fixed: Button CornerRadius doesn't work in explicit style (#6753)
+
+- fixes #5046 
+
+* Fixed #5046 - Button CornerRadius doesn't work in explicit style
+
+* Added Unit Test
+
+* Requested changes from PR
+
+* Moved UnitTest to Xamarin.Forms.Xaml.UnitTests
+
+* Update Xamarin.Forms.Xaml.UnitTests/ButtonCornerRadius.xaml.cs
+
+Co-Authored-By: Stephane Delcroix <stephane@delcroix.org>
+
+* Do not add ButtonCornerRadius in csproj
+
+* removed dangling changes in ButtonUnitTest.cs",Mikescher,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/f507130f4d1c6bd7b76dc389f7b95820e14955e8
+ef4990bce62d95381235a50b6cc11ac1b725dc38,"[Core] Missing await in Device.InvokeOnMainThreadAsync(Func<Task>) (#6718)
+
+* [Core] Use local functions
+
+* [Core] Extract DeviceUnitTests
+
+* [Core] Ensure actually called from main thread
+
+* [Core] Add InvokeOnMainThread tests
+
+WithAsyncTask is expected to fail.
+
+* [Core] Rename local wrapper functions
+
+* [Core] Avoid ambiguous call
+
+CS0121: The call is ambiguous between the following methods or
+properties: 'Device.InvokeOnMainThreadAsync(Action)' and
+'Device.InvokeOnMainThreadAsync(Func<Task>)'
+
+https://github.com/dotnet/roslyn/issues/14885
+https://github.com/dotnet/csharplang/issues/98",dahlbyk,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/ef4990bce62d95381235a50b6cc11ac1b725dc38
+bad6d9018f01f50806cf52db226709da6fc10597,"[Enhancement] Implements CharacterSpacing (#5167)
+
+- fixes #4855 
+
+* TextElement.LetterSpacingProperty
+
+ButtonRenderer
+
+DatePickerRenderer
+
+EditorRenderer
+
+EntryRenderer.cs
+
+LabelRenderer
+
+PickerRenderer
+
+SearchBarRenderer
+
+TimePickerRenderer
+
+fix renderers
+
+LetterSpacingElement
+
+Extensions ToEm
+
+* iOS
+
+Picker
+
+* UWP
+
+* removal of an unnecessary condition
+
+* Remove ILetterSpacingElement.OnLetterSpacingChanged
+
+Fix for PickerRenderer for Android
+
+* Move LetterSpacing to TextElement
+
+* UWP
+
+* Span
+
+* Span and LetterSpacing
+
+* Tests
+
+* fixes for renderers
+
+* Renderers
+
+* LetterSpacingGallery
+
+* Android fixes
+
+* Extensions
+
+* delete macos code
+
+* iOS and UWP Renderers
+
+* Renderers for iOS
+
+* Picker.Items
+
+* UWP
+
+* fix merge
+
+* Renderers
+
+* iOS renderers
+
+* PickerRenderer.cs
+
+* Material
+
+* Material Renderer
+
+* Picker placeholder
+
+* InvalidateMeasure
+
+* Update Xamarin.Forms.Core/Span.cs
+
+Co-Authored-By: Stephane Delcroix <stephane@delcroix.org>
+
+* Update Xamarin.Forms.Core/ITextElement.cs
+
+Co-Authored-By: Stephane Delcroix <stephane@delcroix.org>
+
+* remove LetterSpacing tests
+
+* style
+
+* Rename LetterSpacing to CharacterSpacing
+
+* Update Xamarin.Forms.Controls/GalleryPages/CharacterSpacingGallery.xaml
+
+Co-Authored-By: Samantha Houts <samhouts@users.noreply.github.com>
+
+* Update Xamarin.Forms.Material.Android/MaterialButtonRenderer.cs
+
+Co-Authored-By: Samantha Houts <samhouts@users.noreply.github.com>
+
+* Update Xamarin.Forms.Material.Android/MaterialButtonRenderer.cs
+
+Co-Authored-By: Samantha Houts <samhouts@users.noreply.github.com>
+
+* Update Xamarin.Forms.Material.Android/MaterialButtonRenderer.cs
+
+Co-Authored-By: Samantha Houts <samhouts@users.noreply.github.com>
+
+* Update Xamarin.Forms.Material.Android/MaterialButtonRenderer.cs
+
+Co-Authored-By: Samantha Houts <samhouts@users.noreply.github.com>
+
+* Update Xamarin.Forms.Material.iOS/MaterialButtonRenderer.cs
+
+Co-Authored-By: Samantha Houts <samhouts@users.noreply.github.com>
+
+* Update Xamarin.Forms.Material.iOS/MaterialPickerRenderer.cs
+
+Co-Authored-By: Samantha Houts <samhouts@users.noreply.github.com>
+
+* Update Xamarin.Forms.Material.iOS/MaterialButtonRenderer.cs
+
+Co-Authored-By: Samantha Houts <samhouts@users.noreply.github.com>
+
+* Update Xamarin.Forms.Material.iOS/MaterialEditorRenderer.cs
+
+Co-Authored-By: Samantha Houts <samhouts@users.noreply.github.com>
+
+* Update Xamarin.Forms.Material.iOS/MaterialButtonRenderer.cs
+
+Co-Authored-By: Samantha Houts <samhouts@users.noreply.github.com>
+
+* Update Xamarin.Forms.Material.iOS/MaterialEditorRenderer.cs
+
+Co-Authored-By: Samantha Houts <samhouts@users.noreply.github.com>
+
+* Update Xamarin.Forms.Material.iOS/MaterialButtonRenderer.cs
+
+Co-Authored-By: Samantha Houts <samhouts@users.noreply.github.com>
+
+* Update Xamarin.Forms.Material.iOS/MaterialButtonRenderer.cs
+
+Co-Authored-By: Samantha Houts <samhouts@users.noreply.github.com>
+
+* SearchHandler
+
+* UAP CharacterSpacing
+
+* Update Xamarin.Forms.Core/Shell/SearchHandler.cs
+
+Co-Authored-By: Stephane Delcroix <stephane@delcroix.org>",KSemenenko,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/bad6d9018f01f50806cf52db226709da6fc10597
+d4efcff538e9a0eac1e873c7f36b6f6f0218ecb3,"Implemented scrolling disabling for ScrollView via ScrollOrientation.Neither (#3113)
+
+* Added Neither option for ScrollOrientation to disable scrolling
+
+Added UI-test for issue #2680
+
+Made test more representative
+
+Fixed comment it ui-test for #2680
+
+Added tests for changing orientation in real-time
+
+Updated unit test for asserting ScrollOrientation.Neither
+
+Added test that content size didn't change when ScrollOrientation.Neither
+
+Fixed issue when scroll event was fired if ScrollOrientation is Neither
+
+* Renamed properties at test
+
+* Fixed UI test
+
+* Codestyle fixes",AxelUser,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/d4efcff538e9a0eac1e873c7f36b6f6f0218ecb3
+f4ef490fac395a43eedd5d6cddf6f59e82b8ecdb,"Adds a null check for Xamarin.Forms.Platform.Android.PageRenderer.Xamarin.Forms.Platform.Android.IOrderedTraversalController.UpdateTraversalOrder (#7050)
+
+* Fixes #7049
+
+* Test?
+
+* Tap View please
+
+* Spacing
+
+* Address comments
+
+* Excuse me, semicolons
+
+* Remove private",Happypig375,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/f4ef490fac395a43eedd5d6cddf6f59e82b8ecdb
+74d8538b2e58be677ba6ed2f1533ac1c87d3fd17,"[Android] Disable AndroidTicker if AnimatorDurationScale is equal or below 0 (#7092)
+
+* disable AndroidTicker if AnimatorDurationScale is equal or below 0
+
+* made IsAnimatorEnabled null safe
+
+* changed defautl behavior of IsAnimatorEnabled to disable animations if android context or context resolver are null",thisisthekap,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/74d8538b2e58be677ba6ed2f1533ac1c87d3fd17
+6359b1679482db6b4f10aa067a100a6ec29c4bc0,"Update CONTRIBUTING.md (#7153)
+
+Fix link to Beginner's Guide for Contributing",brunck,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/6359b1679482db6b4f10aa067a100a6ec29c4bc0
+6d4ad66bc15e79b57cfd8792373aa9d901206049,"[iOS] Moved `UITableView` setup selection to `ListViewRenderer` (#7122)
+
+* [iOS] Moved `UITableView` setup selection to `ListViewRenderer`
+
+* Setup the selection  from the `ContectActionCell` was causing the Xamarin.Forms previewer to crash.
+
+TL;DR:  The previewer was crashing for a few scenarios, and rendering `ItemPage.xaml` from the Master Detail template.
+
+From stack trace it seems that the `GestureReconizer` of the `ContextActionCell` was collected or disposed, when UIKit calls `GetCell` or `LayoutSubviews`, which calls `SetupSelection` https://github.com/xamarin/Xamarin.Forms/blob/57d507ef0b47d54d4026a07632f88a39a40de0c9/Xamarin.Forms.Platform.iOS/ContextActionCell.cs#L651 the GestureReconizer isn't there anymore, and X.iOS tries to resurrect it, causing a `MissingCtor` exception
+https://gist.github.com/viniciusjarina/407952739b7f19eee15df6a5a021192b
+
+The problem seems related to a regression on Mono/Xamarin.iOS, this patch workaround the problem avoiding Xamarin.Forms to try to setup the selection twice, hence avoiding calling `table.GestureRecognizers`.
+
+Fixes: AB#889294
+Fixes: AB#927358
+
+* Update Xamarin.Forms.Platform.iOS/ContextActionCell.cs",viniciusjarina,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/6d4ad66bc15e79b57cfd8792373aa9d901206049
+c7b7429e27f555bd5a4c896f47ab476d0a28b326,"[Android] Cache typefaces in font image source handler (#6470)
+
+* cache typefaces in font image source handler
+
+* remove private modifier
+
+* use concurrent dictionary
+
+* move caching to FontExtensions
+
+* convert null fontFamily parameter to empty string
+fixes #6317
+fixes #6949",toomasz,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/c7b7429e27f555bd5a4c896f47ab476d0a28b326
+ff66c5753bae5c3f470a0e32fdcdd5afdeae5713,"Fix default cancel button visibility on iOS SearchHandler (#6931)
+
+fixes #6802",joepgrooten,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/ff66c5753bae5c3f470a0e32fdcdd5afdeae5713
+e9eb9fe56094504e37e8a63691bfa4639876d60c,"[iOS] Fix LayoutCompression Performance Issues #3475 (#7201)
+
+* fix #3475
+
+* fix blank lines in project file
+
+* fix issue in gallery to target iOS only
+
+* fixed white spaces in project file (thx r#)",GiampaoloGabba,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/e9eb9fe56094504e37e8a63691bfa4639876d60c
+1407f09603823b49d7f7f79512b0a328213d9f0b,"[Android] Context actions menu is now updated when changing cells. (#6460) fixes #1455 fixes #4041
+
+* Bugfix of issue 1455. Force SupportActionMode Menu to recreate when it's active and another cell is clicked.
+
+* Added UITest
+
+* Added an assert which checks if the new menu items have been updated.
+
+* Correct project file
+
+* Added a platform specific BindableProperty for the ViewCell to use ContextActions in LegacyMode.
+
+* Update Xamarin.Forms.Core/PlatformConfiguration/AndroidSpecific/ViewCell.cs
+
+Co-Authored-By: Gerald Versluis <github@geraldversluis.nl>
+
+* Update Xamarin.Forms.Controls.Issues/Xamarin.Forms.Controls.Issues.Shared/Issue1455.xaml.cs
+
+Co-Authored-By: Gerald Versluis <github@geraldversluis.nl>
+
+* Update Xamarin.Forms.Controls.Issues/Xamarin.Forms.Controls.Issues.Shared/Xamarin.Forms.Controls.Issues.Shared.projitems
+
+Co-Authored-By: Gerald Versluis <github@geraldversluis.nl>",GuidoNeele,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/1407f09603823b49d7f7f79512b0a328213d9f0b
+f0f8daf17054f8bfa5d95e65b766829287413618,"- Issue 7207 - if current culture of the current thread is not set to the invariant culture then initializing the app causes a ""NUnit.Framework.InconclusiveException"" with the exception- message ""App did not start for some reason. System.Argument.Exception: 1 is not supported code page. Parameter name: codepage."" (#7228)
+
+* - Issue 7207 - if current culture of the current thread is not set to the invariant culture then initializing the app causes a ""NUnit.Framework.InconclusiveException"" with the exception- message ""App did not start for some reason. System.Argument.Exception: 1 is not supported code page. Parameter name: codepage.""
+
+* - fixed usings",BrayanKhosravian,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/f0f8daf17054f8bfa5d95e65b766829287413618
+211189cb17204b1870812ad4fe7b9ce78be93a7f,"Warn on Styles validation instead of throwing exception (#7495)
+
+* Warn on Styles validation instead of throwing exception
+
+* Correct tests
+fixes #6907",akamud,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/211189cb17204b1870812ad4fe7b9ce78be93a7f
+c0709cf54a736c84b4c22269b845c6b71a5f6101,"[macOS] Only use default font size for Time/DatePicker to avoid clipping issues (#7183)
+
+* Only use default font size
+
+* Always use default font size
+
+* Remove duplicated code
+
+* Remove extra spacing",krdmllr,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/c0709cf54a736c84b4c22269b845c6b71a5f6101
+a37c8b5bacfc79c38fea385c8f1d502a59a989ed,"Fix7320 font image source don't work on wpf (#7625) fixes #7320
+
+* Added FontImageSourceHandler for WPF
+
+* Spaces cleanup
+
+* Replaced custom CreateBrush() method with built-in ToBrush() extension method
+
+* Droped private.
+Inverted if statement
+
+* Added missing font.
+Added Device case for WPF
+
+* Fixed color conversion",yurkinh,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/a37c8b5bacfc79c38fea385c8f1d502a59a989ed
+13552eb4d4f5b531e82053e5431a94f5b3f8bf78,"Fix NullReferenceException in Obfuscate (#7589) (#7591)
+
+fixes #7589",neolithos,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/13552eb4d4f5b531e82053e5431a94f5b3f8bf78
+dca82ed828e3fc1b3fede8d376ea8c4abf56d4ca,"ios: raise touch event on touchbegin. (#6989) fixes #3320
+
+* ios: raise touch event on touchbegin.
+
+* bugfix - listview highlight on tap, select on tap release
+updated touch gester to highlight on Touchbegin and select on touchend. Also remove highlight when tab view is scrolling.
+
+* - fix CI
+
+* - fix CI",v-haroha,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/dca82ed828e3fc1b3fede8d376ea8c4abf56d4ca
+cc64f0897891f23c7a8929e62f656a82afbd807c,"Setting ImportantForAccessibility when changing AutomationProperties.IsInAccessibleTree (#7370) fixes #7369
+
+* Setting ImportantForAccessibility when applying IsInAccessibleTree
+
+When setting control.Focused  it's  important to also set ImportantForAccessibility
+
+* Important For AccessibilityExtensions
+Fixed PR requests
+* Removed alias
+* Better handled default values
+
+* Setting ImportantForAccessibility when applying IsInAccessibleTree
+
+When setting control.Focused  it's  important to also set ImportantForAccessibility
+
+* Important For AccessibilityExtensions
+Fixed PR requests
+* Removed alias
+* Better handled default values
+
+* Code Style and readability improvement",magoolation,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/cc64f0897891f23c7a8929e62f656a82afbd807c
+7e136aef4a38f6ee612644f589b1ce1d53d8724e,"[macOS] Fix Image Rotation issue (#7815) fixes #5395
+
+* AnchorPoint fix
+
+* rotation and translationY direction fix
+
+* clipping fix
+
+* test added
+
+* anchor point and position translation fixed
+
+* test update",melimion,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/7e136aef4a38f6ee612644f589b1ce1d53d8724e
+6ba52f79b51da48386df8f5395fee6b33cc3cff0,"Spelling fix (#7868)
+
+Minor spelling mistake",maexsp,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/6ba52f79b51da48386df8f5395fee6b33cc3cff0
+b26b3a9bb01672558561d25e4b436a047058ddf6,#7664 Use FontSizeConverter for FontImageSource.Size property (#7887),tuyen-vuduc,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/b26b3a9bb01672558561d25e4b436a047058ddf6
+57e3dc6e1cf209240354580c58323ff07a1621f8,"Label size doesn't change when text changed (#7942)
+
+- fixes #7888",bill2004158,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/57e3dc6e1cf209240354580c58323ff07a1621f8
+59d3c361a44a0d4679c1546e86c4a3bd9fd51dae,"Preventing NRE when setting accessibility label while disposing controls (#8051)
+
+fixes #5612",arctouch-oberdanbitencourt,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/59d3c361a44a0d4679c1546e86c4a3bd9fd51dae
+cb4fd78f6fd83951a1b5b22449fbac6d4bd3ff75,"Fixes #4941 (and 1722 for UWP). Adding a test in UWP NavigationPageRenderer.SetElement, to check if the supplied NavigationPage Eelement has a CurrentPage. If not, an InvalidOperationException is thrown. (Otherwise a NullReferenceException would be thrown at a later point.) (#8034)",WayaFlyfeather,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/cb4fd78f6fd83951a1b5b22449fbac6d4bd3ff75
+b5beace03bb548b74d689cf7dd567c18ad5c381d,"Add extension methods for ScaleXTo and ScaleYTo (#8007) fixes #8004
+
+* Add extension methods for ScaleXTo and ScaleYTo
+
+* Updated sample with small description
+
+* Updated test",sthewissen,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/b5beace03bb548b74d689cf7dd567c18ad5c381d
+3d92bbd4e8fefdd063a7ca6c376a021ab814942b,"In Android : Reverse layout only when default layout direction is the… (#7809)
+
+* In Android : Reverse layout only when default layout direction is the opposite of the user settings (#7393)
+
+* - remove ReverseLayout and just rely on LayoutDirection
+
+* - fix formatting",Elashi,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/3d92bbd4e8fefdd063a7ca6c376a021ab814942b
+622d8dfed92e1af2e673fdffbffac896fd4d84c4,Fix System.OverflowException for Hsl with double in invariant string (#8114) fixes #8113,bbenetskyy,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/622d8dfed92e1af2e673fdffbffac896fd4d84c4
+4663277e99f1c148c2ca4e51c93f441076d795d3,"Fix Bug 7396 - Shell: Setting Shell.BackgroundColor overrides all colors of TabBar (#7962)
+
+* Fix to bottom tabbar icon/text color 🐛
+
+* Code review ♻
+
+* Update Xamarin.Forms.Controls.Issues/Xamarin.Forms.Controls.Issues.Shared/Issue7396.cs
+
+Co-Authored-By: Shane Neuville <shane94@hotmail.com>",felipebaltazar,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/4663277e99f1c148c2ca4e51c93f441076d795d3
+5bb10d4bd6fc48a9b5eb69b4af6c882434fdd9b4,Fixed 5680 - Added method to force value coercion (#8097),techduggu,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/5bb10d4bd6fc48a9b5eb69b4af6c882434fdd9b4
+77c7066c89ae0d039a34faefbd9fef2b5bdb9468,"[macOS] Visual glitch when exiting the full screen with ScrollViewer (#8086) fixes #4854
+
+* added test for issue4854
+
+* fix issue4854",slakul,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/77c7066c89ae0d039a34faefbd9fef2b5bdb9468
+e2101e4ea4471ff682525f52d2e393830a03db10,"iOS: Frame with HasShadow set to true and BackgroundColor alpha < 1 casts shadow on all child views (#7518)
+
+* Updated renderer with additional ShadowView
+
+* Added buttons to test some behavior
+
+* ShadowLayer background color tweaks
+
+* Resolved flawed merge, restored _Template page
+
+* Apply suggestions from code review
+
+Co-Authored-By: Gerald Versluis <github@geraldversluis.nl>
+
+* Added more descriptive issue Title
+
+* Updated Issue5108.xml's properties
+
+* Update Xamarin.Forms.Controls.Issues.Shared.projitems
+
+Fixed missing closing tags
+
+* Updated projitems
+
+* Removed eventhandlers from XAML
+
+* Update Issue5108.xaml.cs
+
+Added eventhandlers in code + surrounded code-behind with APP preprocessor directive to avoid issues when building for UITEST",PieEatingNinjas,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/e2101e4ea4471ff682525f52d2e393830a03db10
+f13956dde78ed4dbdc1cccd2f8f8e9ce3e3cfc19,"macOS: Fixed IsPresented PopOver (#8312)
+
+#3149",Suplanus,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/f13956dde78ed4dbdc1cccd2f8f8e9ce3e3cfc19
+53d65e0f3516512c4fcdf843f0f36bca31f6690e,"[UWP] Enables usage of font image source for bottom bar tabs (#8354)
+
+* Update StoreShell.xaml
+
+Demonstrates the problem, FontImageIcon is not displayed in Bottom Tab Bar
+
+* Update ShellItemRenderer.cs
+
+Enables usage of FontImageSource for Tabs in Bottom Bar",CleanCodeDeveloper,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/53d65e0f3516512c4fcdf843f0f36bca31f6690e
+632c5d6656a4727c789be8817e40dd0bf1e46cb8,"[Bug] WPF ListViewRenderer fails on item tapped with empty item source #7995 (#8223)
+
+* [Bug] WPF ListViewRenderer fails on item tapped with empty item source #7995
+
+* Check ItemSource for null",VladislavAntonyuk,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/632c5d6656a4727c789be8817e40dd0bf1e46cb8
+3aa8ba7ce2eac2b7e47f9357f499e42cca8498a8,"Fix 7709 | Fix showing keyboard when changing placeholder in entry focused event (#7984)
+
+* Fixes 7709
+
+* Update Xamarin.Forms.Controls.Issues/Xamarin.Forms.Controls.Issues.Shared/Issue7709.cs
+
+Co-Authored-By: Gerald Versluis <github@geraldversluis.nl>
+
+* Update code style of conditional parameter",NordAlex,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/3aa8ba7ce2eac2b7e47f9357f499e42cca8498a8
+0dca97b3f50f69c3c26def29c86f34f4cc6cd0b5,"Fix to double escaping. (#8473)
+
+fixes #4880",thenderson21,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/0dca97b3f50f69c3c26def29c86f34f4cc6cd0b5
+c0bb38c7faa7cbcfd84c33bfa82623832bd21d1e,"#3533 Bring back uap10.0/netstandard1.4 support (#7079) fixes #3533
+
+* target netstandard 1.4 for supporting rs2
+
+* multi targeting
+
+* initial tests
+
+* - set a couple libraries to NS1.0
+
+* - ns1.4
+
+* - fix gallery project
+
+* - fix min targets
+
+* - fix target
+
+* - remove sdk
+
+* - buildControlsPath
+
+* - nuget restore
+
+* - controls path
+
+* - uwp version
+
+* - add generic
+
+* - fix xbf
+
+* - add tuple nuget
+
+* - set max target to 16299
+
+* - proj fixes",jrjrguo,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/c0bb38c7faa7cbcfd84c33bfa82623832bd21d1e
+3162a8578ddb580d76b80d43b7bd0667b89b44c3,"Fix 6693 - [Bug] [WPF] ViewRenderer does not work properly with FrameworkElement derived native controls (#8357)
+
+* Resolved merge conflict
+
+* Added if APP compiler directive around InitializeComponent
+
+* Removed LangVersion from WPF csproj so that build server will use the appropriate C# version.
+Fixes #6693",ChaseMarsh,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/3162a8578ddb580d76b80d43b7bd0667b89b44c3
+8a853869b0647e2e8e7d3a929b15cfbf6c765cea,"Remove private modifier (#8631)
+
+* Remove private modifier
+
+* Update SystemParameters2.cs
+
+* Update SystemParameters2.cs
+
+* Update NativeMethods.cs
+
+* Update ImageCell.cs
+
+* Update TextCell.cs
+
+* Update EntryCell.cs
+
+* Update DatePicker.cs",Youssef1313,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/8a853869b0647e2e8e7d3a929b15cfbf6c765cea
+f5b1897bc7f5e0677af7952a95ceb5be16cf0d31,"[iOS] Fixes crash in CollectionViews when using DataTemplateSelector as a DataTemplate when used in GroupHeaders and or GroupFooters (#8674)
+
+- fixes #8647
+
+* Added repro and partial fix
+
+* Removed some code in Templated cell to prevent an extension method being called twice.
+Modified ItemsViewController to call different bind function. (Removed older one)
+Added checks for Header/Footer in groupableItemsViewController.
+Some code cleanup
+
+* Removed unittest as I could not get it to run Due to missing Provisioningprofile
+
+* Revert unintended change
+
+* Cleanup some code",MariovanZeist,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/f5b1897bc7f5e0677af7952a95ceb5be16cf0d31
+18958bdaa68ef312bbdf3bb47234951dca4de107,"fix #5518 | Frame Tap Gesture not working when using Visual=""Material"" in iOS (#7988)
+
+* fix #5518
+
+* - small changes to ui tests
+
+* - fix automationid and ui test
+
+* - fix null ref",KhuongNtrd,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/18958bdaa68ef312bbdf3bb47234951dca4de107
+b80d3aedc716018f0e213af666307aa6d14ddcc3,"Prevent UWP NullReferenceException when calling SavePropertiesAsync method off the main thread (#8696)
+
+* Fix Issue 8682
+
+* Rename UI test method
+
+Co-Authored-By: Samantha Houts <samhouts@users.noreply.github.com>
+
+* Return FallbackDispatcher with null-coalescing",TomOnd,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/b80d3aedc716018f0e213af666307aa6d14ddcc3
+0385c460ccb1f303547a097a8f717a3ec4e5fb57,"Fix #8035 - system font on iOS 13 (#8418)
+
+The system font on iOS 13 must not be received by name anymore but with `UIFont.SystemFontOfSize(size, weight)`.",JFMG,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/0385c460ccb1f303547a097a8f717a3ec4e5fb57
+4481863bb86010fecbfae41b5ffa1bd3eaa9f105,"Use correct reference frame for gesture origin recognition (#6615)
+
+UIGestureRecognizer.LocationInView(null) defaults to the global window view as reference frame, whose coordinate system is in portrait mode, always.
+Thus we need to query the root element whose coordinate system is adapted to the current rotation (i.e. portait / landscape).
+Which, in this context, is UIApplication.SharedApplication.KeyWindow.RootViewController.View.
+
+This fixes in particular installed TagGestureHandlers on Span elements  (of a FormattedString of a Label for example) in landscape mode.",bwoebi,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/4481863bb86010fecbfae41b5ffa1bd3eaa9f105
+dcbf6ea454a012f59639d8a6cde82c1ecaa5b2f7,possible fix for Issue 7772 (#7933),MagicAndre1981,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/dcbf6ea454a012f59639d8a6cde82c1ecaa5b2f7
+4f7bc036bf0b7a8a63e47120b48b5aa3b7d64f70,[Core] Removed null values from the DisplayActionSheet  (#8445) fixes #4744,07101994,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/4f7bc036bf0b7a8a63e47120b48b5aa3b7d64f70
+a48474ef74ecf33ae3f987202d14e8483dbdc200,"[Bug] [iOS] [Shell] ""Nav Stack consistency error"" when Swiping to Dismiss (#8875)
+
+* [iOS] fixed ""Nav Stack consistency error"" on swipe to dismiss
+
+* Revert ""[iOS] fixed ""Nav Stack consistency error"" on swipe to dismiss""
+
+This reverts commit f26a38ed3c81a78ba7315a78a6bc6cd14c698142.
+
+* [iOS] fixed ""Nav Stack consistency error"" on swipe to dismiss
+
+* [Shell] added UI Test for swipe to dismiss
+
+* [iOS] fixed ""Nav Stack consistency error"" on swipe to dismiss
+
+* Revert ""[iOS] fixed ""Nav Stack consistency error"" on swipe to dismiss""
+
+This reverts commit f26a38ed3c81a78ba7315a78a6bc6cd14c698142.
+
+* [iOS] fixed ""Nav Stack consistency error"" on swipe to dismiss
+
+* [Shell] added UI Test for swipe to dismiss
+
+* [Shell] fixed UI Test for swipe to dismiss (iOS 11/12)
+
+* - cleanup test a little bit
+
+Co-authored-by: Shane Neuville <shane94@hotmail.com>
+fixes #8461
+fixes #8944",dmariogatto,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/a48474ef74ecf33ae3f987202d14e8483dbdc200
+b63583dd1f9a0a0631a1a7e93fca271410d3d08b,"Fixes Bug with TabbedPage pushed onto Shell (#7532) fixes #6384
+
+* fixes issue in android and ios
+
+* Apply the suggested change to have page.Parent?.Parent
+
+Apply the suggested change to fix the ""A TabbedPage has no background. See Github6384."" issue.
+
+Co-authored-by: Rui Marinho <me@ruimarinho.net>
+Co-authored-by: Hadi Zamani <54179804+hadi-zamani@users.noreply.github.com>",leoMehlig,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/b63583dd1f9a0a0631a1a7e93fca271410d3d08b
+0accce0ac028f32eeb7e08c721d4cbb59c823d42,Fix SeachBarRenderer CreateNativeControl issue (#8946),TingtingAn,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/0accce0ac028f32eeb7e08c721d4cbb59c823d42
+afc4adfd7498861158acac60d55aafe3c66757db,Add null check in UpdateFlowDirection (#9148),EislerDavid,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/afc4adfd7498861158acac60d55aafe3c66757db
+240e80507be41050c897fc467c58d1e45cb10fed,"Implements ListView Header and Footer for WPF (#8443)
+
+Resolves bugs #3947 and #3770.
+
+Wrapped the ListView in a Grid that allows for the insert/delete of headers and footers.
+
+Unit tests ran and passed.
+
+fixes #3947
+fixes #3770",BarryNolte,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/240e80507be41050c897fc467c58d1e45cb10fed
+4a8ca48cf5f19dee8238cac2ff9fc13fe8ca0e16,"UIStatusBarStyle now changes correctly when a device is in dark mode (#8791)
+
+* Adds support for correct StatusBarStyle in iOS 13 while dark mode is enabled.
+
+* Adds file to demonstrate the issue #8294 ([Bug] UIStatusBarStyle does not appear to change when device is in dark mode).
+This does require changing UIViewControllerBasedStatusBarAppearance to be false in the Info.plist
+
+* Update Xamarin.Forms.Platform.iOS/Renderers/NavigationRenderer.cs
+
+Co-Authored-By: Gerald Versluis <github@geraldversluis.nl>
+
+* Resolved conflicts
+
+Co-authored-by: Gerald Versluis <github@geraldversluis.nl>
+Co-authored-by: Shane Neuville <shane94@hotmail.com>
+fixes #8294",beeradmoore,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/4a8ca48cf5f19dee8238cac2ff9fc13fe8ca0e16
+b486522932ae331e3c4869d55459e7b3b3205307,"[Android,iOS,UWP,WPF] MediaElement control (#3482)
+
+* MediaElement and iOS/Android/UWP renderers.
+
+* Added basic WPF renderer. Fixed sizing issue on UWP renderer. Added sample page to ControlGallery app
+
+* MediaEnded event on UWP. Source Uri convert ms-appx to pack:// uri scheme on WPF
+
+* code style fixes
+
+* resolving conflicts
+
+* Following discussion on PR made NaturalDuration a nullable TimeSpan so that can determine when value is not present.
+Added CanSeek property to indicate when Position property can be set.
+Added support for KeepScreenOn to WPF renderer.
+Improved ControlGallery page with separate Play/Pause/Stop buttons and label to display current state
+
+* coding style fixes
+
+* coding style fixes 2
+
+* Improved media controls on demo page. Renderer enhancements for Android and iOS
+
+* Improved logic around media metadata in iOS renderer.
+Switched to https video uri to allow playback in iOS. Increased media control button sizes
+
+* Improved parsing of ms-appdata uris supporting both the local and temp folders
+
+* Removed redundant Debug.WriteLines. Removed XML docs from MediaElement and MediaElementState types.
+
+* Bug fix for iOS MediaElement.Source Uri escape handling
+
+* Adding MediaElement fast renderer for Android
+
+* Rearchitecting the Element/Renderer connectivity. New WPF,UAP and Android FastRenderer complete. Still requires Android classic renderer and iOS renderer...
+
+* More MediaElement renderer development. Converted iOS to a FastRenderer
+
+* Latest android renderer
+
+* Android renderer fix for StopPlayback reusability. MetadataRetreiver now loaded async.
+
+* Added an IMediaElementController property to Android renderers to simplify code.
+
+* Simplified Aspect property
+
+* Changed AreTransportControlsEnabled to ShowsPlaybackControls. Removed commented-out code.
+
+* merging
+
+* merging
+
+* added mediaelementrenderer back
+
+* support for polling the position property. Added timer to demopage to poll for position.
+
+* Fixed scaling issue on iOS and background color
+
+* Renderer code review issues
+
+* Implementing MediaSource (ImageSource pattern) to replace Uris. Other code cleaning fixes.
+
+* Hooked up MediaSource and kept uri custom schema logic
+
+* Moved all the ""callback"" methods to the IMediaElementController interface so they are not publicly exposed on the MediaElement. Removed HttpHeaders and associated code for v1 release. Other code tidying.
+
+* Code review feedback
+
+* Integrated unit tests. Added support for inherited binding on MediaSource.
+
+* Additional Windows file path test. Fix for UWP renderer to check if Control is released
+
+* Fix for FormsVideoView metadata causing aspect issues. Simplified Android FastRenderer to correctly handle VideoView lifetime.
+
+* fixed merge error
+
+* fixed merge errors
+
+* MediaElement and iOS/Android/UWP renderers.
+
+* Added basic WPF renderer. Fixed sizing issue on UWP renderer. Added sample page to ControlGallery app
+
+* MediaEnded event on UWP. Source Uri convert ms-appx to pack:// uri scheme on WPF
+
+* code style fixes
+
+* resolving conflicts
+
+* Following discussion on PR made NaturalDuration a nullable TimeSpan so that can determine when value is not present.
+Added CanSeek property to indicate when Position property can be set.
+Added support for KeepScreenOn to WPF renderer.
+Improved ControlGallery page with separate Play/Pause/Stop buttons and label to display current state
+
+* coding style fixes
+
+* coding style fixes 2
+
+* Improved media controls on demo page. Renderer enhancements for Android and iOS
+
+* Improved logic around media metadata in iOS renderer.
+Switched to https video uri to allow playback in iOS. Increased media control button sizes
+
+* Improved parsing of ms-appdata uris supporting both the local and temp folders
+
+* Removed redundant Debug.WriteLines. Removed XML docs from MediaElement and MediaElementState types.
+
+* Bug fix for iOS MediaElement.Source Uri escape handling
+
+* Adding MediaElement fast renderer for Android
+
+* Rearchitecting the Element/Renderer connectivity. New WPF,UAP and Android FastRenderer complete. Still requires Android classic renderer and iOS renderer...
+
+* More MediaElement renderer development. Converted iOS to a FastRenderer
+
+* Latest android renderer
+
+* Android renderer fix for StopPlayback reusability. MetadataRetreiver now loaded async.
+
+* Added an IMediaElementController property to Android renderers to simplify code.
+
+* Simplified Aspect property
+
+* Changed AreTransportControlsEnabled to ShowsPlaybackControls. Removed commented-out code.
+
+* merging
+
+* support for polling the position property. Added timer to demopage to poll for position.
+
+* Fixed scaling issue on iOS and background color
+
+* Renderer code review issues
+
+* Implementing MediaSource (ImageSource pattern) to replace Uris. Other code cleaning fixes.
+
+* Hooked up MediaSource and kept uri custom schema logic
+
+* Moved all the ""callback"" methods to the IMediaElementController interface so they are not publicly exposed on the MediaElement. Removed HttpHeaders and associated code for v1 release. Other code tidying.
+
+* Code review feedback
+
+* Integrated unit tests. Added support for inherited binding on MediaSource.
+
+* Additional Windows file path test. Fix for UWP renderer to check if Control is released
+
+* Fix for FormsVideoView metadata causing aspect issues. Simplified Android FastRenderer to correctly handle VideoView lifetime.
+
+* fixed merge error
+
+* manual merge fixes
+
+* Fixed missing FileMediaSourceConverter
+
+* Fixed merge issue with iOS project file
+
+* Clarification to WPF Source Uri exception message
+
+* Changed iOS local path to the Library path as this is not user visible or synchronised with iCloud. Fix for breaking change in WeakEventManager
+
+* Added Volume property
+
+* Fixes for code-review feedback
+
+* Optimised iOS renderer to remove a view layer
+
+* fixes to resolve possible rotation bug
+
+* Moved ms-appdata parsing to shared location.
+
+* fixed codesign error
+
+* Fix for issue on Android where control may show black screen prior to video playing - now respects backgroundcolor property
+
+* Renamed conflicting extensions class
+
+* Add experimental flag; remove slow renderer
+
+* Update MediaElementDemoPage.cs
+
+* Update MediaElementRenderer.cs
+
+* Update MediaElementRenderer.cs
+
+* Porting latest renderer updates. iOS re-written as a non-fast renderer to workaround issue with dispose when using on modal pages.
+
+* Fixed protected member in sealed class issue
+
+Co-authored-by: Rui Marinho <me@ruimarinho.net>
+Co-authored-by: Samantha Houts <samhouts@users.noreply.github.com>
+fixes #1692",peterfoot,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/b486522932ae331e3c4869d55459e7b3b3205307
+bc2d41e630a4b4892874c6f9eeb8ef32fa71fe45,fix for #8564 (#9320) fixes #8564,artemious7,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/bc2d41e630a4b4892874c6f9eeb8ef32fa71fe45
+0f866019e6aee5ae3ed12ccac8af4d2861ac08bd,"Adds HotRestart conditional compilation (#9298)
+
+Adds `HOTRESTART` define constant to support conditional compilation, the property `IsHotRestartBuild` will be set from Visual Studio to enable this scenario.",emaf,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/0f866019e6aee5ae3ed12ccac8af4d2861ac08bd
+97104bc3aa2d1f380532c35520770915b75fc63f,"[Enhancement] Removed internal access modifier from Material (#7879) fixes #6881
+
+* replaced internal access modifiers with public
+
+* made MaterialColors public
+
+* added virtual to changes in MaterialFormsTextInputLayoutBase
+
+* reverted changes",andreas-nesheim,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/97104bc3aa2d1f380532c35520770915b75fc63f
+3fa35e99c6d52a999c1892b4c2d72bd8fa2c2273,"[GTK] Fix button shrinking (#9201) fixes #9092 
+
+Co-authored-by: Rui Marinho <me@ruimarinho.net>",z3ut,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/3fa35e99c6d52a999c1892b4c2d72bd8fa2c2273
+bbb07f6f0ff533299a6fa183bc86e6be88ceecb0,Adding null check for picker items (#9478) fixes #2674,sahi82,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/bbb07f6f0ff533299a6fa183bc86e6be88ceecb0
+6a41de3cddde9aed171daa2ff662abb7eedc1082,Update VS 2015 -> Visual Studio for Windows (#9643),dottienet,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/6a41de3cddde9aed171daa2ff662abb7eedc1082
+d55ada424fd2b5ba67297ed7143d2ef6b941e69f,"Added check for null hinge in GetHinge() (#9678)
+
+* Added check for null hinge in GetHinge()
+
+* - updating duo sdk version
+- change to using GetHingeBoundsDip
+
+* - update duo library and call update on config changes
+
+Co-authored-by: Shane Neuville <shane94@hotmail.com>",mscherotter,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/d55ada424fd2b5ba67297ed7143d2ef6b941e69f
+1cf98d930c62e3a0fdf086ed6f21d40874c73b58,"[Spec] CSharpForMarkup (#8342)
+
+* - Add MarkupExtensions from https://github.com/VincentH-Net/CSharpForMarkup/blob/061566282706de22d040e5b7b32bc3c2e3e323e3/src/XamarinFormsMarkupExtensions.cs
+- Remove specific converters
+- Fix .NETStandard 1 build errors by refactoring IConvertible to Enum generic constraints
+- Add RegisterDefaultBindableProperties method
+- Reformat source to comply with Forms contibuting guidelines
+
+* - Move markup extensions to Xamarin.Forms.Markup namespace to prevent impact on existing code and to support clear separation of UI markup from UI logic
+- Split up source file for better maintainability
+
+* Cleanup:
+- Names of generic types and variables to reflect where clauses
+- Namespaces remove unused & sort
+- Add whitespace
+- Remove unused file
+
+* Fix for incorrect type name in exception message
+Remove RowCol helpers because compiler cannot infer its generic type parameters. Use Row and Col methods instead
+
+* Add targetNullValue and fallbackValue parameters to binding helpers.
+Equivalent to https://github.com/VincentH-Net/CSharpForMarkup/tree/bd7f99957653f5e813ec805e3dad88aa487b9526
+
+* rename binding helpers sourcePropertyName parameter to path
+
+* Enable Style<T> on BindableObject instead of Element to resolve https://github.com/xamarin/Xamarin.Forms/pull/8342#discussion_r363088124
+
+* Fix for Grid properties Row, Col, RowSpan, ColumnSpan not set when default value is specified https://github.com/VincentH-Net/CSharpForMarkup/issues/7
+
+* Support DefaultBindableProperties for BindableObject (was limited to Element)
+
+* .Font:
+- Support any IFontElement (was limited to Button, Label, Entry and Picker)
+- Fix for italic ignored when bold == true
+
+* Fix for .FontSize, .Bold, .Italic return Label instead of type derived from Label
+
+* Unit tests batch 1: for LabelExtensions, LayoutExtensions, ViewExtensions
+
+* Add DefaultBindableProperties for more BindableObject types
+
+* Remove .Menu() helper from ViewInFlexLayoutExtensions (bc no relation to FlexLayout)
+
+* Fix for .Row and .Col without span specified still sets span
+
+* Rename MarkupBaseTestFixture.TestPropertySet to TestPropertiesSet
+
+* Add unit tests for ViewInFlexLayoutExtensions, ViewInGridExtensions and VisualElementExtensions
+
+* Add default bindable property for all applicable bindable objects in core.
+
+* Add unit tests for DefaultBindableProperties
+
+* Support Bind, Assign and Invoke on BindableObject (was Element)
+Add inline doc to clarify purpose of Bind overloads
+
+* Add unit tests for BindableObjectExtensions
+
+* Fix for attributes not set in .Font
+Rename fontSize parameter to size
+Enable .FontSize, .Bold and .Italic on IFontElement (was Label)
+
+* Add unit tests for ElementExtensions
+
+* Add unit tests for ElementExtensions
+
+* Add assert of exception message content in GetDefaultBindablePropertyForUnsupportedType
+
+* Add unit tests for EnumsForGridRowsAndColumns
+
+* Add inline doc to clarify purpose of gesture recognizer binding overloads
+Rename private constant bindingContextPropertyName to bindingContextPath for clarity
+
+* Add unit tests for Style; cleanup namespaces in Style
+
+* Simplify BindableObjectExtensions implementation (functionality unchanged)
+
+* Add IGestureRecognizers to GestureElement and View, to avoid code duplication when accessing the existing GestureRecognizers property
+
+* - Add specific helpers for more built-in gesture recognizers
+- Add helpers to support initializing gesture recognizers
+- Eliminate duplicate code for View and GestureElement by using new IGestureRecognizers
+- Simplify implementation
+- Rename ViewGesturesExtensions to ElementGesturesExtensions
+
+* Extract BindingHelpers from BindableObjectExtensionsTests
+
+* Add unit tests for ElementGesturesExtensions
+
+* Add support for typed converter parameters
+Add asserts for conversion values in unit tests
+
+* Add unit tests for FuncConverter
+
+* Add missing calls to Bind overloads in unit test for supporting derived types in BindableObject extensions fluent API
+
+* Cleanup: remove unneeded Xamarin.Forms. prefix from static class references
+
+* Add unit tests for PlatformSpecificsExtensions
+
+* Reorder FuncConverter type params to optimize for most common usage and to remain backwards compatible with https://github.com/VincentH-Net/CSharpForMarkup
+
+* Extend Bind*Gesture helpers to support all possible binding parameters
+
+* Rename EnumsForGridRowsAndColumns to GridRowColEnums
+
+* Add BindCommand helper to bind to default Command + CommandParameter properties
+Add RegisterForCommand to register default Command + CommandParameter properties for custom bindable objects
+
+* - Change Bind*Gesture helper parameters to match BindCommand parameters, to enable binding to Command + CommandParameter in a single compact call (removed parameters did not make sense for a command).
+- Add inline doc to more ElementGesturesExtensions helpers where needed
+- Improve ElementGesturesExtensions source formattting for consistency and readability
+
+* Remove PlatformSpecificsExtensions
+(only 2 iOS-only helpers; replace with guidance in PR description on how to use any platform specific with .Invoke)
+
+* Fix inline doc spelling: it's -> its
+
+* Rename TextLeft -> TextStart, TextRight -> TextEnd to support RTL
+
+* Add Columns.Define(width, width ...) and Rows.Define(height, height ...) overloads for Grid
+
+* Rename Grid rows & columns extensions class to GridRowsColumns
+
+* Change gesture recognizer helpers implementation from reuse existing instance to always add new instance
+
+* Change Bind*Gesture helpers default to not bind the commandparameter (is the more common scenario)
+
+* Rename BoolNotConverter to NotConverter and make it a 2-way converter
+
+* Add culture support to FuncConverter
+
+* Rename helpers Left -> Start, Right -> End
+Add opt-in LeftToRight and RightToLeft helpers
+
+* Rename Col -> Column throughout
+
+* Rename H -> Horizontal and V -> Vertical throughout
+
+* Add Markup_Experimental flag for all API methods and update all unit tests to run with and without the flag
+
+* Re-add ""Markup_Experimental"" flag
+
+* Add default bindable properties / test exclusions for new BindableObject types in core
+
+* Add constructorHint to FuncConverter and Style for more clear experimental flag message
+
+* Add default bindable property for RadioButton - fixes test AllBindableElementsInCoreHaveDefaultBindablePropertyOrAreExcluded failure",VincentH-Net,https://api.github.com/repos/xamarin/Xamarin.Forms/git/commits/1cf98d930c62e3a0fdf086ed6f21d40874c73b58

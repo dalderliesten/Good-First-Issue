@@ -1,0 +1,1509 @@
+First Commit Hash (SHA),Commit Message,Author (Github Name),Link to Commit
+33850c0ebd23ae615e6823993d441f46d80b1ff0,Initial checkin of stuff that exists so far.,mitsuhiko,https://api.github.com/repos/pallets/flask/git/commits/33850c0ebd23ae615e6823993d441f46d80b1ff0
+36071ca1f42a26ef327e9d14e4909a8c92cd4fae,added in example tornado and gevent usage for flask integration,justquick,https://api.github.com/repos/pallets/flask/git/commits/36071ca1f42a26ef327e9d14e4909a8c92cd4fae
+5acc491c94262912baa30a4cffc780a46b7faf56,"Refactored the @route decorator to use the new add_url_rule method.
+Tagged add_url_rule with versionadded of 0.2",cgrinds,https://api.github.com/repos/pallets/flask/git/commits/5acc491c94262912baa30a4cffc780a46b7faf56
+3c821a0fa45082bcec73dfb08662fb1de5263c48,Fix typos and remove unused import.,florentx,https://api.github.com/repos/pallets/flask/git/commits/3c821a0fa45082bcec73dfb08662fb1de5263c48
+a9bb965b6dcd931cefdc7dd05fa4c672b5dff69c,add a decorator to add custom template filter,sebest,https://api.github.com/repos/pallets/flask/git/commits/a9bb965b6dcd931cefdc7dd05fa4c672b5dff69c
+93a8ca02822d07cd9f13495f53d27ab22e9adf3a,Fixed some minor typos throughout docs.,rduplain,https://api.github.com/repos/pallets/flask/git/commits/93a8ca02822d07cd9f13495f53d27ab22e9adf3a
+a5a41d40aaa9f6ed70b487133ddaf48ceb3d054f,Fix typo.,mrluanma,https://api.github.com/repos/pallets/flask/git/commits/a5a41d40aaa9f6ed70b487133ddaf48ceb3d054f
+395ff8120ccf055614d03db7d2360ab1182c7c10,Fix typo.,matrixise,https://api.github.com/repos/pallets/flask/git/commits/395ff8120ccf055614d03db7d2360ab1182c7c10
+133920c83bf78db17631b637b8b2ffabcb26f3d4,Fix typo in docs.,dingens,https://api.github.com/repos/pallets/flask/git/commits/133920c83bf78db17631b637b8b2ffabcb26f3d4
+63caf6e15882292832485372cd86b8265a007f92,Fix some typos.,birkenfeld,https://api.github.com/repos/pallets/flask/git/commits/63caf6e15882292832485372cd86b8265a007f92
+7a4b6088395387abe4127c9650f9cbaac11a0ec4,"Add Module.app_errorhandler, like Flask.errorhandler.",SimonSapin,https://api.github.com/repos/pallets/flask/git/commits/7a4b6088395387abe4127c9650f9cbaac11a0ec4
+216472b43dbb2c2501ab7f8b3e5ae861a082db3f,Fix missing plural in documentation,dag,https://api.github.com/repos/pallets/flask/git/commits/216472b43dbb2c2501ab7f8b3e5ae861a082db3f
+540eca16f8a5963a74298f3630523fd9ad49187a,"Fix some typos in the docs
+
+Signed-off-by: Armin Ronacher <armin.ronacher@active-4.com>",jgraeme,https://api.github.com/repos/pallets/flask/git/commits/540eca16f8a5963a74298f3630523fd9ad49187a
+f66c252e47c63d7961b8d2c00acdf5aed11eb851,typo,wobsta,https://api.github.com/repos/pallets/flask/git/commits/f66c252e47c63d7961b8d2c00acdf5aed11eb851
+824c10c6e4d9c2235d41a2276a0158b1456c3b06,Added MongoKit pattern and fixed typo in sqlalchemy pattern,EnTeQuAk,https://api.github.com/repos/pallets/flask/git/commits/824c10c6e4d9c2235d41a2276a0158b1456c3b06
+5ede53066fc26d993dd229fe0c54209e700f4c09,"Minor tutorial documentation fixes (grammar, etc)",adamzap,https://api.github.com/repos/pallets/flask/git/commits/5ede53066fc26d993dd229fe0c54209e700f4c09
+b2c7efd0fabcc0514e27d03ed30f5f8af1de1065,Typo,DrMegahertz,https://api.github.com/repos/pallets/flask/git/commits/b2c7efd0fabcc0514e27d03ed30f5f8af1de1065
+0198313a22a98361947fceb8544c355be676f784,"added workaround for json on Google AppEngine
+
+Google AppEngine unfortunately does not offer json/simplejson where
+we would expect it to be, but since they do offer django and django
+comes with simplejson as a frozen dependency, we can import it
+from there.
+
+prior art:
+http://github.com/facebook/python-sdk/blob/master/src/facebook.py#L50",tosh,https://api.github.com/repos/pallets/flask/git/commits/0198313a22a98361947fceb8544c355be676f784
+a993a314fe7be148747cf804167d45f2ea8bf18e,Removed unused import,aliafshar,https://api.github.com/repos/pallets/flask/git/commits/a993a314fe7be148747cf804167d45f2ea8bf18e
+3561a398b1a9ad4cfe7f056fe10811930f54b502,Made one sentence easier to parse in docs/foreword,eagleflo,https://api.github.com/repos/pallets/flask/git/commits/3561a398b1a9ad4cfe7f056fe10811930f54b502
+4cd5201cdd03e14edbceb24620717bbe82300524,"use custom tox file named tox-flask-test.ini, dont delete the real tox.ini",RonnyPfannschmidt,https://api.github.com/repos/pallets/flask/git/commits/4cd5201cdd03e14edbceb24620717bbe82300524
+f52f4fd31b9858f8b42be3fbb2818440e58978b4,Added initial version of 'setup.py audit',plaes,https://api.github.com/repos/pallets/flask/git/commits/f52f4fd31b9858f8b42be3fbb2818440e58978b4
+c62422c3181f2f8332893b06ee83581d63bceac8,Updated documentation on packaging patterns,agentultra,https://api.github.com/repos/pallets/flask/git/commits/c62422c3181f2f8332893b06ee83581d63bceac8
+405c2992f8de441789a1ed82045ab77cefbbedfc,"Updated from_pyfile so its dynamic module creation uses the imp module instead of type.
+
+Signed-off-by: Armin Ronacher <armin.ronacher@active-4.com>",jbweber,https://api.github.com/repos/pallets/flask/git/commits/405c2992f8de441789a1ed82045ab77cefbbedfc
+a327452540bbcffe73207f8164504115b6c9e856,"Better handling for `test_request_context` don't just append the port.
+Also implemented a proper initial environment to use with
+`Flask.test_app()` based on the application's configuration.
+
+Signed-off-by: Armin Ronacher <armin.ronacher@active-4.com>",s0undt3ch,https://api.github.com/repos/pallets/flask/git/commits/a327452540bbcffe73207f8164504115b6c9e856
+94a7312d5ac5e2f949c4e27ecf2a273cec3d8c0c,"Add missing semicolon to test
+
+Signed-off-by: Armin Ronacher <armin.ronacher@active-4.com>",dhaaker,https://api.github.com/repos/pallets/flask/git/commits/94a7312d5ac5e2f949c4e27ecf2a273cec3d8c0c
+1c24b62727704016813a44d7c677ead0b6638c91,"Minor on docs (fixes #133)
+
+Signed-off-by: Armin Ronacher <armin.ronacher@active-4.com>",fsouza,https://api.github.com/repos/pallets/flask/git/commits/1c24b62727704016813a44d7c677ead0b6638c91
+67f483bf647549d6f3a6a3b5f73a2bf913a0b25c,"Typo.
+
+Signed-off-by: Armin Ronacher <armin.ronacher@active-4.com>",doobeh,https://api.github.com/repos/pallets/flask/git/commits/67f483bf647549d6f3a6a3b5f73a2bf913a0b25c
+ed517c7215fc17a46f85c2c0324d519572b67f6b,"Minor spelling fixes
+
+Signed-off-by: Armin Ronacher <armin.ronacher@active-4.com>",jasondavies,https://api.github.com/repos/pallets/flask/git/commits/ed517c7215fc17a46f85c2c0324d519572b67f6b
+9ae4eba9861bfa959bac6adfaf5842ef7d937eb6,"fix subdomain for static rule on registering module
+
+Signed-off-by: Armin Ronacher <armin.ronacher@active-4.com>",dgerber,https://api.github.com/repos/pallets/flask/git/commits/9ae4eba9861bfa959bac6adfaf5842ef7d937eb6
+07688d7b9302fd47cfd0ea053171ad6561c3f9b9,"Fixed 'schemal' doc typo.
+
+Signed-off-by: Armin Ronacher <armin.ronacher@active-4.com>",fidlej,https://api.github.com/repos/pallets/flask/git/commits/07688d7b9302fd47cfd0ea053171ad6561c3f9b9
+8a73097fe528430eb77ac26c81ba85229a8af553,"Add unittests for the endpoint decorator
+
+Signed-off-by: Armin Ronacher <armin.ronacher@active-4.com>",mvantellingen,https://api.github.com/repos/pallets/flask/git/commits/8a73097fe528430eb77ac26c81ba85229a8af553
+94f90bc4eb88224d6639cbe94c4e88d8299644e2,"updated docs on FastCGI deployment with Lighty
+
+Signed-off-by: Armin Ronacher <armin.ronacher@active-4.com>",fmw,https://api.github.com/repos/pallets/flask/git/commits/94f90bc4eb88224d6639cbe94c4e88d8299644e2
+b49de851d943c24a565488a51b8f11fbfd5ad796,"Link to issue tracker
+
+Signed-off-by: Armin Ronacher <armin.ronacher@active-4.com>",baijum,https://api.github.com/repos/pallets/flask/git/commits/b49de851d943c24a565488a51b8f11fbfd5ad796
+4141afa22b6a52279098ef39413f97773c1b75bf,fixing cross-reference links on API doc page,swanson,https://api.github.com/repos/pallets/flask/git/commits/4141afa22b6a52279098ef39413f97773c1b75bf
+5cc40f4728d5b5356cf49b7dfaa2b130e0b0aedf,silent option added to 'from_pyfile' to mirror 'from_envvar'.,akavlie,https://api.github.com/repos/pallets/flask/git/commits/5cc40f4728d5b5356cf49b7dfaa2b130e0b0aedf
+04e70bd5c7bd80696eabaea11afd9080d874f859,Add teardown_request decorator. Fixes issue #174,glyphobet,https://api.github.com/repos/pallets/flask/git/commits/04e70bd5c7bd80696eabaea11afd9080d874f859
+c1c20ac108bab9daea0c4741e19a68a2186db6e3,Modify extensionsdev documentation.,mattd,https://api.github.com/repos/pallets/flask/git/commits/c1c20ac108bab9daea0c4741e19a68a2186db6e3
+a2225bf57e7c20f5c63c3c2b79db397f3724c1dc,"Added a note on actually starting the application
+
+Signed-off-by: Armin Ronacher <armin.ronacher@active-4.com>",nibrahim,https://api.github.com/repos/pallets/flask/git/commits/a2225bf57e7c20f5c63c3c2b79db397f3724c1dc
+709ecefee1859cf16cc8bdfa642e39fbc6b4421e,"Updating documentation for app.after_request decorator.
+
+Signed-off-by: Armin Ronacher <armin.ronacher@active-4.com>",remyroy,https://api.github.com/repos/pallets/flask/git/commits/709ecefee1859cf16cc8bdfa642e39fbc6b4421e
+1dd83964f0c1fb3c4772cf24880f5aeb3f282f66,"Change to match headers in https://github.com/mitsuhiko/werkzeug/blob/master/werkzeug/contrib/fixers.py
+
+Signed-off-by: Armin Ronacher <armin.ronacher@active-4.com>",streety,https://api.github.com/repos/pallets/flask/git/commits/1dd83964f0c1fb3c4772cf24880f5aeb3f282f66
+41952d2b259efdd89634aef7f47afc4cef6e7190,"respect request charset
+
+Signed-off-by: Armin Ronacher <armin.ronacher@active-4.com>",slestak,https://api.github.com/repos/pallets/flask/git/commits/41952d2b259efdd89634aef7f47afc4cef6e7190
+5127b8bd26a58cb9ac8214a89cee16eb14349e59,Added initial uwsgi deployment documentation for nginx; updated nginx URL in fastcgi deployment docs; added uwsgi to deployment index,merlincorey,https://api.github.com/repos/pallets/flask/git/commits/5127b8bd26a58cb9ac8214a89cee16eb14349e59
+e6b9f509ba3c47f748d5c6da5f6de5500248dbfd,Improving documentation for loading jQuery. Now using Google CDN with fallback to local jQuery.,petermanser,https://api.github.com/repos/pallets/flask/git/commits/e6b9f509ba3c47f748d5c6da5f6de5500248dbfd
+c40937e7bf1df492c99705733f6550f3f09baf91,"Bug fix in the documentation for Deploying with Fabric: as of Fabric 1.0, in the local() function capture=False by default, so it must be explicitly set to capture=True so it returns a python string (http://docs.fabfile.org/en/1.0.1/api/core/operations.html#fabric.operations.local)",wilsaj,https://api.github.com/repos/pallets/flask/git/commits/c40937e7bf1df492c99705733f6550f3f09baf91
+12761bd02ce8480c228008792861c8ce357d396a,fixed pronoun gender in documentation,jfinkels,https://api.github.com/repos/pallets/flask/git/commits/12761bd02ce8480c228008792861c8ce357d396a
+7d4c7847085dfe19893ff2a7d4c0d1bd0fbb7981,Missed the -w option in uWSGI deployment docs.,Luit,https://api.github.com/repos/pallets/flask/git/commits/7d4c7847085dfe19893ff2a7d4c0d1bd0fbb7981
+c6dbcd572b4d207701c44caea71097d198089a16,Trivial fix for PathDispatcher example usage,hadleyrich,https://api.github.com/repos/pallets/flask/git/commits/c6dbcd572b4d207701c44caea71097d198089a16
+d63fb818c14ea6acb36942cd66f5ed00dfa3682b,small error in tutorial,bastianh,https://api.github.com/repos/pallets/flask/git/commits/d63fb818c14ea6acb36942cd66f5ed00dfa3682b
+fd679638ea991fbdd5d7318bc9451f0bd5532224,typo fix: flask -> flag,vreon,https://api.github.com/repos/pallets/flask/git/commits/fd679638ea991fbdd5d7318bc9451f0bd5532224
+1a249e338927efe58228bc70bfa3cf754526ff8a,Corrected decorators to remove duplicate teardown_request() and add after_request(),dotslashdash,https://api.github.com/repos/pallets/flask/git/commits/1a249e338927efe58228bc70bfa3cf754526ff8a
+7dcf6cbc3141d100e229b4a781f67ab1286af055,Don't use deprecated flask.session in flask.ctx.,embe,https://api.github.com/repos/pallets/flask/git/commits/7dcf6cbc3141d100e229b4a781f67ab1286af055
+13cddba84f90d28899d1f0f7c2c9bcc901cee64c,Typo: developped -> developed,ustun,https://api.github.com/repos/pallets/flask/git/commits/13cddba84f90d28899d1f0f7c2c9bcc901cee64c
+290925e13348385cd3508d9ae52ea328ee9990d9,Minor documentation typo / grammar fixes,callahad,https://api.github.com/repos/pallets/flask/git/commits/290925e13348385cd3508d9ae52ea328ee9990d9
+5304a15adc2ff1f19b889a40d039008404b25a61,Add runserver.py filename to match earlier section of example,pingswept,https://api.github.com/repos/pallets/flask/git/commits/5304a15adc2ff1f19b889a40d039008404b25a61
+a43f73c75c169de86dde372d6ecc42019773271f,s/Ify ou/If you/ typo,DasIch,https://api.github.com/repos/pallets/flask/git/commits/a43f73c75c169de86dde372d6ecc42019773271f
+5f7f3b17dfe2fbeecf82d5745c497b3ea94bf50a,Fix for d5cd4f8d which broke install on Windows,christophercurrie,https://api.github.com/repos/pallets/flask/git/commits/5f7f3b17dfe2fbeecf82d5745c497b3ea94bf50a
+17a46a4d239a640049081b5cdcc1ff20ef63e38a,Fixed typo in docstring of `dispatch_request` method of `flask.views.View`.,jperras,https://api.github.com/repos/pallets/flask/git/commits/17a46a4d239a640049081b5cdcc1ff20ef63e38a
+b115b38dbec3598735c57e1f48610cd82b161af1,Added PasswordField in docs/patterns/wtforms.rst,kracekumar,https://api.github.com/repos/pallets/flask/git/commits/b115b38dbec3598735c57e1f48610cd82b161af1
+11c9bf29437ce847089703876cdec8cea68ca594,Api fix status_code => status,rozza,https://api.github.com/repos/pallets/flask/git/commits/11c9bf29437ce847089703876cdec8cea68ca594
+e4d9ccd6ec889a8b52b28953c0bb6d490db7df63,Changing instance_root to instance_path,Cixelyn,https://api.github.com/repos/pallets/flask/git/commits/e4d9ccd6ec889a8b52b28953c0bb6d490db7df63
+51e4a58a85bc1500d1400ba7d633d570f6296745,"Fix flask issue #338
+
+Give POST its own url_rule to avoid TypeError.",jimrollenhagen,https://api.github.com/repos/pallets/flask/git/commits/51e4a58a85bc1500d1400ba7d633d570f6296745
+d50a0b495566fa39ab30c79848dee3bdb3457201,typo fix,awsum,https://api.github.com/repos/pallets/flask/git/commits/d50a0b495566fa39ab30c79848dee3bdb3457201
+94692607e6247a919f952375d922e930751cadcf,Documentation on how to use external debuggers like eclipse/aptana,cybertoast,https://api.github.com/repos/pallets/flask/git/commits/94692607e6247a919f952375d922e930751cadcf
+46651659c29a3ff8fa470e32d3e35f9cc2c7fbc0,"Fix a typo (""is""->""if"") in the comments; clarify a bit",dorkitude,https://api.github.com/repos/pallets/flask/git/commits/46651659c29a3ff8fa470e32d3e35f9cc2c7fbc0
+2a4d3ef1168e0ea1733898527229961c9ddafced,Added a template filter decorator to blueprints.,Reisen,https://api.github.com/repos/pallets/flask/git/commits/2a4d3ef1168e0ea1733898527229961c9ddafced
+e5161a773e2d562aed2df96a0c80b34004022cef,commas after introductory phrases,atdt,https://api.github.com/repos/pallets/flask/git/commits/e5161a773e2d562aed2df96a0c80b34004022cef
+fa069f94dec3aeec4a81a00e7bbd8d95e400bf5f,Allow category filtering in get_flashed_messages to allow rending categories in separate html blocks,lolsborn,https://api.github.com/repos/pallets/flask/git/commits/fa069f94dec3aeec4a81a00e7bbd8d95e400bf5f
+0b3369355dadb39ac1ce9580d95004233031a287,Allow loading template from iterable,dmishe,https://api.github.com/repos/pallets/flask/git/commits/0b3369355dadb39ac1ce9580d95004233031a287
+fc7fe628466857fd8b83c1b2b8501df2d15ae4a9,Update docs/errorhandling.rst,ash211,https://api.github.com/repos/pallets/flask/git/commits/fc7fe628466857fd8b83c1b2b8501df2d15ae4a9
+76773e1d0a8cabbe048bb76f9306185e9d83a85c,"Fixed silent keyword arg to config.from_envvar.
+
+The ``silent`` keyword argument to Config.from_envvar was not being honored
+if the environment variable existed but the file that it mentioned did not.
+The fix was simple - pass the keyword argument on to the underlying call to
+``from_pyfile``.  I also noticed that the return value from ``from_pyfile``
+was not being passed back so I fixed that as well.",dave-shawley,https://api.github.com/repos/pallets/flask/git/commits/76773e1d0a8cabbe048bb76f9306185e9d83a85c
+8445f0d939dc3c4a2e722dc6dd4938d02bc2e094,"Fixed assumption made on session implementations.
+
+In the snippet 'session.setdefault(...).append(...)', it was being
+assumed that changes made to mutable structures in the session are
+are always in sync with the session object, which is not true for
+session implementations that use a external storage for keeping their
+keys/values.",tarruda,https://api.github.com/repos/pallets/flask/git/commits/8445f0d939dc3c4a2e722dc6dd4938d02bc2e094
+075b6b11c8b1690d946b8839e6dc4eb8a8cb7e3c,"Fix issue 140
+
+This allows for a view function to return something like:
+
+    jsonify(error=""error msg""), 400",jamesls,https://api.github.com/repos/pallets/flask/git/commits/075b6b11c8b1690d946b8839e6dc4eb8a8cb7e3c
+8216e036e96594a4932d1f6a3569fcf39fe3c2bd,Specifying supported Python versions in setup.py metadata,teebes,https://api.github.com/repos/pallets/flask/git/commits/8216e036e96594a4932d1f6a3569fcf39fe3c2bd
+cb24646948a8c00c5b39f0d76bf75e153ac502b1,Add jsonp support inside of jsonify,jarus,https://api.github.com/repos/pallets/flask/git/commits/cb24646948a8c00c5b39f0d76bf75e153ac502b1
+09370c3f1c808e9251292bc228b6bef4b1223e93,"Clean up docs and review pull request #384
+
+Spelunking through the issues at the PyCon sprints.",njl,https://api.github.com/repos/pallets/flask/git/commits/09370c3f1c808e9251292bc228b6bef4b1223e93
+71b351173b1440d6ca2dc36284d080fda2a22006,Move JSONHTTPException and JSONBadRequest to new module flask.exceptions.,aisipos,https://api.github.com/repos/pallets/flask/git/commits/71b351173b1440d6ca2dc36284d080fda2a22006
+74a72e86addd80a060f1abf9fe51bfc3f5d5be8b,Changed some things in the foreward to diminish its discouragement.,garbados,https://api.github.com/repos/pallets/flask/git/commits/74a72e86addd80a060f1abf9fe51bfc3f5d5be8b
+73cb15ed2cb208381b31e7f868adfb4117cc803d,Update docs/patterns/mongokit.rst,irneh,https://api.github.com/repos/pallets/flask/git/commits/73cb15ed2cb208381b31e7f868adfb4117cc803d
+fe9f5a47687cccaaaf13f160d747ce8b4c03bad9,"Added an example of how to configure debugging with run_simple, it has to be enabled both for the Flask app and the Werkzeug server.",jtsoi,https://api.github.com/repos/pallets/flask/git/commits/fe9f5a47687cccaaaf13f160d747ce8b4c03bad9
+c2661dd4bcb41e5a4c47709a8be7704870aba0de,Update docs/patterns/packages.rst,merjadok,https://api.github.com/repos/pallets/flask/git/commits/c2661dd4bcb41e5a4c47709a8be7704870aba0de
+b29834dac37a13f82019aa1c7e9d06622cf5790e,Fixed weird string quoting in setup.py,kisielk,https://api.github.com/repos/pallets/flask/git/commits/b29834dac37a13f82019aa1c7e9d06622cf5790e
+35383ee83c568ce642ffef6733d8b91ebd206185,Removed triple-quotes from print statement in setup.py,passy,https://api.github.com/repos/pallets/flask/git/commits/35383ee83c568ce642ffef6733d8b91ebd206185
+e76db15e26b76bdaed4649474f6509e383142e9c,Update docs/quickstart.rst,vorobiov,https://api.github.com/repos/pallets/flask/git/commits/e76db15e26b76bdaed4649474f6509e383142e9c
+9d09632dbfc0c08ab1a5290fbf282aad7d13e2f8,Fix spelling.,svieira,https://api.github.com/repos/pallets/flask/git/commits/9d09632dbfc0c08ab1a5290fbf282aad7d13e2f8
+34380b9c1d24750b500c1d9687a1f0ea91931f76,Add detailed Apache httpd fastcgi configuration.,vpestovnikov,https://api.github.com/repos/pallets/flask/git/commits/34380b9c1d24750b500c1d9687a1f0ea91931f76
+0333c824bfa93fafabfb10b80f84d85abecda6bc,Removed link to ep.io from quickstart,alekzvik,https://api.github.com/repos/pallets/flask/git/commits/0333c824bfa93fafabfb10b80f84d85abecda6bc
+36194697ae8371f42d3041c1f89b6f2e77c34826,Update flask/app.py,ekoka,https://api.github.com/repos/pallets/flask/git/commits/36194697ae8371f42d3041c1f89b6f2e77c34826
+447afc3525b009ed369943e13437d98e07898bdc,"Fix failing test: ""AssertionError: 'application/javascript' != 'application/json'"" in flask/testsuite/helpers.py"", line 88",msabramo,https://api.github.com/repos/pallets/flask/git/commits/447afc3525b009ed369943e13437d98e07898bdc
+5c2aa7a9210acb4b16b86d5cda5264a2f5d11aa2,"Added link to extensions in ""Hook. Extend."" section.",brousch,https://api.github.com/repos/pallets/flask/git/commits/5c2aa7a9210acb4b16b86d5cda5264a2f5d11aa2
+4b21e2d38ccf66f236c5f1c8a10bd9d7904f2599,I think it should check that cache_timeout is not None to allow for a (I hope legale) value of 0 for such parameter.,mapio,https://api.github.com/repos/pallets/flask/git/commits/4b21e2d38ccf66f236c5f1c8a10bd9d7904f2599
+5bbf8bdcd9619fa15a3380f99fe6d66d08b1f783,Update master,yaph,https://api.github.com/repos/pallets/flask/git/commits/5bbf8bdcd9619fa15a3380f99fe6d66d08b1f783
+1f3e667b5d9ffb60c218c250df27144793a5acdb,Fix documention for `after_this_request`,mattupstate,https://api.github.com/repos/pallets/flask/git/commits/1f3e667b5d9ffb60c218c250df27144793a5acdb
+1f82d02b33dad8ac7a4aa49e690767027690fe1a,Fixes #519 by adding return statement,bev-a-tron,https://api.github.com/repos/pallets/flask/git/commits/1f82d02b33dad8ac7a4aa49e690767027690fe1a
+56f5224ef7cdc48a05b4ce6dcc37043feab0c0bb,CHANGES: July 1th should be July 1st,lvh,https://api.github.com/repos/pallets/flask/git/commits/56f5224ef7cdc48a05b4ce6dcc37043feab0c0bb
+d8e5a37d8a5e9dda1154c6c7c614bb7a4c42afdd,Fixed codename,esaurito,https://api.github.com/repos/pallets/flask/git/commits/d8e5a37d8a5e9dda1154c6c7c614bb7a4c42afdd
+0553bbdefe55709a1fc36dce445f552f398a428e,Made it explicitly clear where changes should go in the tutorial,svenstaro,https://api.github.com/repos/pallets/flask/git/commits/0553bbdefe55709a1fc36dce445f552f398a428e
+b9df128ba86ec5bc5513bf38b5484f74866ff447,Added directions for mod_wsgi vhost configuration under Apache on Windows,AkaiKitsune,https://api.github.com/repos/pallets/flask/git/commits/b9df128ba86ec5bc5513bf38b5484f74866ff447
+40ccc0a99aa9c1f975bcc7f69d452afd46fc8b90,Fixing some wording in the design documentation.,randalldegges-okta-2,https://api.github.com/repos/pallets/flask/git/commits/40ccc0a99aa9c1f975bcc7f69d452afd46fc8b90
+b0fdae4e1f45274e0b399523cca9b55627d9afde,"Fix regex in lighttpd example config to only match static/ and sub-items, and not all directories that start with 'static'",joepie91,https://api.github.com/repos/pallets/flask/git/commits/b0fdae4e1f45274e0b399523cca9b55627d9afde
+11c746189dd8b49740a833d0e8428a85b6174799,Fix code example in pluggable views documentation,mgax,https://api.github.com/repos/pallets/flask/git/commits/11c746189dd8b49740a833d0e8428a85b6174799
+69e419e020ea731a5bf4d4e95a6227761f01bcc7,Fixed small mistake in sqlalchemy pattern,spappier,https://api.github.com/repos/pallets/flask/git/commits/69e419e020ea731a5bf4d4e95a6227761f01bcc7
+48f7cdd01699fdc4048b18d827fccfbf9f266c9f,various typo fixes,finbarrocallaghan,https://api.github.com/repos/pallets/flask/git/commits/48f7cdd01699fdc4048b18d827fccfbf9f266c9f
+9ecbd20286aebcd2040cf7463d5288726787c1f3,"Update flask/templating.py
+
+Fixed a typo in the docstring.",ralphbean,https://api.github.com/repos/pallets/flask/git/commits/9ecbd20286aebcd2040cf7463d5288726787c1f3
+f6a5a7a0cc91ccd06e89ac0820dd6d7bdf2c2ef1,"docs/deploying/wsgi-standalone: Add Twisted Web.
+
+I've been meaning to do this for quite some time, but I never got around to
+it. Hopefully this is neutral and useful enough to be included in the main
+docs.",MostAwesomeDude,https://api.github.com/repos/pallets/flask/git/commits/f6a5a7a0cc91ccd06e89ac0820dd6d7bdf2c2ef1
+7ee40e9348fba36d57727d7aa58d802b191c0197,"Fix #611
+
+Minor but confusing typo in tutorial.",untitaker,https://api.github.com/repos/pallets/flask/git/commits/7ee40e9348fba36d57727d7aa58d802b191c0197
+af76dd0fd44301a6434d193626f8bf309eee8b26,"Highlight first field on page load, enter sends submit request, double quote to single quote. Submission focuses first field again",tony,https://api.github.com/repos/pallets/flask/git/commits/af76dd0fd44301a6434d193626f8bf309eee8b26
+1e39871d681bd41451cf8694cd67fffe017fa522,Add back path=None argument into find_module. This fixes #618 and revert #524.,QuentinRoy,https://api.github.com/repos/pallets/flask/git/commits/1e39871d681bd41451cf8694cd67fffe017fa522
+3c54f30c2b761e3decd56aa7ab8e5d00493238a1,"missing ' in example
+
+Results in SyntaxError: EOL while scanning string literal",soulseekah,https://api.github.com/repos/pallets/flask/git/commits/3c54f30c2b761e3decd56aa7ab8e5d00493238a1
+caefb67ccd0f8c1f5961c7e71f9658af98f9f009,correcting typo,maxcountryman,https://api.github.com/repos/pallets/flask/git/commits/caefb67ccd0f8c1f5961c7e71f9658af98f9f009
+be1ed3327126edcb485be85a8f2de58f23b6ab64,Ended your paragraph tag.,iyra,https://api.github.com/repos/pallets/flask/git/commits/be1ed3327126edcb485be85a8f2de58f23b6ab64
+a319516518bb39cb840529f41df713a6b4a6a563,Fix a typo in the deferred-callbacks docs.,erikrose,https://api.github.com/repos/pallets/flask/git/commits/a319516518bb39cb840529f41df713a6b4a6a563
+be0b5196bf5b11130ca1688c1aab2750afba8433,"Update docs/extensiondev.rst
+
+Use `current_app` instead of `self.app`.",methane,https://api.github.com/repos/pallets/flask/git/commits/be0b5196bf5b11130ca1688c1aab2750afba8433
+cc82feb084092bf8212d0fb3a58386841f2294f6,Changing string to text in schema files,oliversong,https://api.github.com/repos/pallets/flask/git/commits/cc82feb084092bf8212d0fb3a58386841f2294f6
+b4fc4412e8bbdb359d1f5b9dd22a95326e73b896,"Update docs/patterns/deferredcallbacks.rst
+
+fix example code in Deferred Callback docs: don't set response upon executing callback",trungly,https://api.github.com/repos/pallets/flask/git/commits/b4fc4412e8bbdb359d1f5b9dd22a95326e73b896
+fb6dee3639b5fad1800472cb5258d2603408e732,update README to markdown,schneems,https://api.github.com/repos/pallets/flask/git/commits/fb6dee3639b5fad1800472cb5258d2603408e732
+c999c179a25998bfd52db359b243a07fdb8584c1,fixes #677 - mistype in docs/quickstart,dmizelle,https://api.github.com/repos/pallets/flask/git/commits/c999c179a25998bfd52db359b243a07fdb8584c1
+b2aae044ca9c9875c594d57a3bd92bd80d8d56ff,"Flash messages signals
+
+If we send a signal when a template is rendered why not when a message
+is flashed? One real world use case is in tests, this signal should make
+flash messages expectation easier to implement.",poiati,https://api.github.com/repos/pallets/flask/git/commits/b2aae044ca9c9875c594d57a3bd92bd80d8d56ff
+8a6cba9e63567556468676b556fba43da6cba3f2,fix typo in quickstart guide,mikegagnon,https://api.github.com/repos/pallets/flask/git/commits/8a6cba9e63567556468676b556fba43da6cba3f2
+78ae0ec7f8d436df789d98c64e3579a196f52ada,Add import to jsonify example.,SpOOnman,https://api.github.com/repos/pallets/flask/git/commits/78ae0ec7f8d436df789d98c64e3579a196f52ada
+0a5d62f9ee44ccf6fed1584ef68b0c4c7d728b11,Updated jquery.rst with the current Google Developer hosted libraries URL and jquery version,edmondburnett,https://api.github.com/repos/pallets/flask/git/commits/0a5d62f9ee44ccf6fed1584ef68b0c4c7d728b11
+f74f446961f9fd8ecb2edffca53b82016cc41343,"fixing process_response
+
+Flask.process_response will throw away functions is receives from ctx._after_request_functions if there is a Blueprint that has used @after_request.",xealot,https://api.github.com/repos/pallets/flask/git/commits/f74f446961f9fd8ecb2edffca53b82016cc41343
+8ca7fc47d0c9036f12ca628aabccb44a8dc3858d,"Update README
+
+No need to manually initialize the database with a call to `init_db()` as this call is done before `app.run()` in flaskr.py, when you run the file.",halexus,https://api.github.com/repos/pallets/flask/git/commits/8ca7fc47d0c9036f12ca628aabccb44a8dc3858d
+d1bf82b0f4b180ac7523a7b7e63e7246039d4e71,Fixed typo in URL Processor documentation,jsnmoon,https://api.github.com/repos/pallets/flask/git/commits/d1bf82b0f4b180ac7523a7b7e63e7246039d4e71
+1358fd9f3e0d1cdfa2a948a1176b276188ea959e,Syntax highlighting for PyPI long description,cenkalti,https://api.github.com/repos/pallets/flask/git/commits/1358fd9f3e0d1cdfa2a948a1176b276188ea959e
+a9b22af9bc77fb89047faa45090dc39631c2d0d5,Fixed documentation in 'Design Decisions in Flask',akshar-raaj,https://api.github.com/repos/pallets/flask/git/commits/a9b22af9bc77fb89047faa45090dc39631c2d0d5
+6caaa8a527134dc9aff6d5c442969e96f9c00f21,automated change using python-modernize: use 'as' in except,ThomasWaldmann,https://api.github.com/repos/pallets/flask/git/commits/6caaa8a527134dc9aff6d5c442969e96f9c00f21
+12c08c03fb9e58d83094021a559329a7985e93c6,Fixed typo in app.blueprints docstring,Turbo87,https://api.github.com/repos/pallets/flask/git/commits/12c08c03fb9e58d83094021a559329a7985e93c6
+6565bd848e68097fd827040af6c9e712f759d07b,Fix typo,marksteve,https://api.github.com/repos/pallets/flask/git/commits/6565bd848e68097fd827040af6c9e712f759d07b
+44e39ab0713566bd91363f19ed09921df5db0196,Fixed class-based views support,mrjoes,https://api.github.com/repos/pallets/flask/git/commits/44e39ab0713566bd91363f19ed09921df5db0196
+582a5c7b89467b91662c9183c1b6d6b9d789e173,Correct small typo in internal link,steko,https://api.github.com/repos/pallets/flask/git/commits/582a5c7b89467b91662c9183c1b6d6b9d789e173
+dda373823be9bfc69002ca4a01c2397ef5719141,Fixed a typo,augiwan,https://api.github.com/repos/pallets/flask/git/commits/dda373823be9bfc69002ca4a01c2397ef5719141
+ec5b182f15d711aa92fe16480011fbe0fb9d3a63,Add Flask.config_class feature,Xion,https://api.github.com/repos/pallets/flask/git/commits/ec5b182f15d711aa92fe16480011fbe0fb9d3a63
+a225a304b822da292ed83f4c0ce28234a5d5ec5e,Fix typo,seedofjoy,https://api.github.com/repos/pallets/flask/git/commits/a225a304b822da292ed83f4c0ce28234a5d5ec5e
+e2fdf28e97695e9bcc4ea962bfcfefee70510e33,"word change for clarity
+
+changed ""200 error code"" to ""200 status code""",BobStevens,https://api.github.com/repos/pallets/flask/git/commits/e2fdf28e97695e9bcc4ea962bfcfefee70510e33
+4028e2395c3b559ca65db13fb1407c79ca79a4c7,plural,mgaitan,https://api.github.com/repos/pallets/flask/git/commits/4028e2395c3b559ca65db13fb1407c79ca79a4c7
+f632ba25e0406d2f0e374eb2e4637599a18bff77,api.rst: fix some spelling/typos,cvrebert,https://api.github.com/repos/pallets/flask/git/commits/f632ba25e0406d2f0e374eb2e4637599a18bff77
+73b4a52ca525dc2a671c6966ee3c403d848ba768,"Update example for Apache FCGI config to use worker processes using FastCgiServer, along with some notes about FastCgiExternalServer",eradman,https://api.github.com/repos/pallets/flask/git/commits/73b4a52ca525dc2a671c6966ee3c403d848ba768
+b6116c1de3f3556f6ae18d87348355d2545ce314,"Remove Werkzeug bug workaround from flask/app.py
+
+According to the note in the comment, you had to check to make sure that the
+defaults were not an empty dictionary because of a bug in Werkzeug pre-0.7.
+
+Since Flask officially requires 0.7 or greater, we can remove this little
+workaround.",rpicard,https://api.github.com/repos/pallets/flask/git/commits/b6116c1de3f3556f6ae18d87348355d2545ce314
+63a126c66a047507f634348688dfcf760b14d5ae,"Update blueprints.rst - Error Handlers
+
+Added information about custom error handlers in Blueprints with example based simple_page.",hntw,https://api.github.com/repos/pallets/flask/git/commits/63a126c66a047507f634348688dfcf760b14d5ae
+8246ce6a15d31a6d36d673a4f39be548fd5a3262,Fixed tiny but distracting typo.,homeworkprod,https://api.github.com/repos/pallets/flask/git/commits/8246ce6a15d31a6d36d673a4f39be548fd5a3262
+f5d38dc4fcdf1d8edb3e42c67b6e0e1127cd00c7,"Update sessions.py
+
+get_cookie_path: fix docstring",enkore,https://api.github.com/repos/pallets/flask/git/commits/f5d38dc4fcdf1d8edb3e42c67b6e0e1127cd00c7
+17e5fb365d7bde8fc795311bb37fe6358e258dc5,Fix typo in docstring,mhils,https://api.github.com/repos/pallets/flask/git/commits/17e5fb365d7bde8fc795311bb37fe6358e258dc5
+3e90de2e10cfde5803fab87768430cffff7c78a0,corrected documentation for Request get_json(),wbowlin,https://api.github.com/repos/pallets/flask/git/commits/3e90de2e10cfde5803fab87768430cffff7c78a0
+9cff681f97849029d9ca0047fc999d899ae2fd53,Fix typo,adamobeng,https://api.github.com/repos/pallets/flask/git/commits/9cff681f97849029d9ca0047fc999d899ae2fd53
+b03181363bd78ab0934af3badd9b4845e454fbb3,"Add a non-decorator version of the error handler register function
+
+The main application object has a register_error_handler function
+which mirrors the decorator's functionality. According to the principle
+of least surprise, make sure blueprints also have this convenience function.",wvh,https://api.github.com/repos/pallets/flask/git/commits/b03181363bd78ab0934af3badd9b4845e454fbb3
+6ebe45b0ad6251fb8f38d9495f4f9354d508c2be,Fix typo.,jet-sun,https://api.github.com/repos/pallets/flask/git/commits/6ebe45b0ad6251fb8f38d9495f4f9354d508c2be
+bb882454a0c7b161a2ac29126a74b25dc8e12940,"Make the decorators attribute on View a tuple by default
+
+To discourage accidental runtime modification applying to all views.",obeattie,https://api.github.com/repos/pallets/flask/git/commits/bb882454a0c7b161a2ac29126a74b25dc8e12940
+8089eb576915e71e3238147631bb4a261b3366f6,added missing import in sqlalchemy doc,csu,https://api.github.com/repos/pallets/flask/git/commits/8089eb576915e71e3238147631bb4a261b3366f6
+3d67736e090f55fcdc476452ac89a79fdd14cc23,"Check error handlers for specific classes first
+
+This allows adding error handlers like this:
+
+    @app.errorhandler(werkzeug.exceptions.Forbidden)
+
+And subclassing HTTPExceptions:
+
+    class ForbiddenBecauseReason(Forbidden): pass
+
+    @app.errorhandler(ForbiddenBecauseReason)
+    def error1(): return ""Forbidden because reason"", 403
+    @app.errorhandler(403)
+    def error2(): return ""Forbidden"", 403
+
+... the idea being, that a flask extension might want to raise an
+exception, with the default behaviour of creating a HTTP error page,
+but still allowing the user to add a view/handler specific to that
+exception (e.g., ""Forbidden because you are not in the right group"").",danielrichman,https://api.github.com/repos/pallets/flask/git/commits/3d67736e090f55fcdc476452ac89a79fdd14cc23
+231f45b432189500e760a63b41664f5f406793be,Fix typo,dlmackin,https://api.github.com/repos/pallets/flask/git/commits/231f45b432189500e760a63b41664f5f406793be
+475b0c1cd94716efc1bb42ed0a2fd52dd7cf71c1,fix typo (jsonfiy),defuz,https://api.github.com/repos/pallets/flask/git/commits/475b0c1cd94716efc1bb42ed0a2fd52dd7cf71c1
+5ecca4c0dae52c7645f9dbda6cbfc32ec76a3498,Fix a typo on blueprints module name.,yoloseem,https://api.github.com/repos/pallets/flask/git/commits/5ecca4c0dae52c7645f9dbda6cbfc32ec76a3498
+f161a71c190da7320d4a6be177c14928961fdf09,quickstart: import `request` in HTTP methods example,shamrin,https://api.github.com/repos/pallets/flask/git/commits/f161a71c190da7320d4a6be177c14928961fdf09
+fc85bf42ae8fcd6cc76c734d0871bb78ad2a8f06,"Update appfactories.rst, make extension related section clearer",rsyring,https://api.github.com/repos/pallets/flask/git/commits/fc85bf42ae8fcd6cc76c734d0871bb78ad2a8f06
+e31a2a80ec4254e8ac8127558bc29cfd23d05511,"Update url_for documentation
+
+Previous documentation referenced a non-existent property on the Flask
+object called ""build_error_handler"".
+
+This should actually reference Flask.url_build_error_handlers.",jmhobbs,https://api.github.com/repos/pallets/flask/git/commits/e31a2a80ec4254e8ac8127558bc29cfd23d05511
+b7f21831fa71fa74f1b37ee23f2b7744f886a61f,"Updated some typos
+
+Fixed some incorrect variable references.",talam,https://api.github.com/repos/pallets/flask/git/commits/b7f21831fa71fa74f1b37ee23f2b7744f886a61f
+1df0f2dc1cc227ba005d402dacfd6ee44b97e637,Escaped 'text' keyword in column name.,mattskone,https://api.github.com/repos/pallets/flask/git/commits/1df0f2dc1cc227ba005d402dacfd6ee44b97e637
+a7f5d60789bbc360147b85af04e4412865122ccf,Makes the error names consistent,seancron,https://api.github.com/repos/pallets/flask/git/commits/a7f5d60789bbc360147b85af04e4412865122ccf
+46b5754d97d11327efac22618ad5994851656937,Don't refer to flaskext in docs,ThiefMaster,https://api.github.com/repos/pallets/flask/git/commits/46b5754d97d11327efac22618ad5994851656937
+c021e58775eaf8e2dc7a91c903dc1c95dc18e829,Fix typo in docs for error_handler_spec,daybarr,https://api.github.com/repos/pallets/flask/git/commits/c021e58775eaf8e2dc7a91c903dc1c95dc18e829
+ecb31c680451cbcbf3b933e620d3bf4ee42a8042,fix typo,pengfei-xue,https://api.github.com/repos/pallets/flask/git/commits/ecb31c680451cbcbf3b933e620d3bf4ee42a8042
+67c165bcbb4028bd8335342f230692100fcd9776,"Update celery.rst
+
+With the latest version of Celery (3.1.6), following this tutorial produces the following error when attempting to start the celery worker: 
+
+    user_preload = tuple(self.app.user_options['preload'] or ())
+AttributeError: 'Flask' object has no attribute 'user_options'
+
+Using `app` as the variable name here confuses celery. Renaming `app` to `flask_app` in the tutorial solves the issue and allows the celery worker to start successfully.",aphexcx,https://api.github.com/repos/pallets/flask/git/commits/67c165bcbb4028bd8335342f230692100fcd9776
+6a37c1716dcd0431878dad230f9111c268d2ad98,"Fixed incorrect grammar in Config.rst
+
+Fixed incorrect grammar in ""SESSION_REFRESH_EACH_REQUEST"" configuration description.",markhildreth,https://api.github.com/repos/pallets/flask/git/commits/6a37c1716dcd0431878dad230f9111c268d2ad98
+70f8b39c52527573e65e7066024a187867564c01,"added a new behaviour for responses that enable the tuple to be in the form of (response, headers) and continiue to support the (response, status, headers) format.",ahlen,https://api.github.com/repos/pallets/flask/git/commits/70f8b39c52527573e65e7066024a187867564c01
+85aa4ec8c15937121d1eb1e73f0b5d029d2f1ee1,"Updated greenlet links, which were dead.",bool-dev,https://api.github.com/repos/pallets/flask/git/commits/85aa4ec8c15937121d1eb1e73f0b5d029d2f1ee1
+cf0953619e2fa3a79e93b6195ca3b39f25552c3d,Added a favicon for the docs,muattiyah,https://api.github.com/repos/pallets/flask/git/commits/cf0953619e2fa3a79e93b6195ca3b39f25552c3d
+f0f654537490011c9aa5bd6db91450d126e53cdf,"Use json method
+
+Use json method of response.Response",allevo,https://api.github.com/repos/pallets/flask/git/commits/f0f654537490011c9aa5bd6db91450d126e53cdf
+b0bb6c7f3d2e80731428fcc50ab1edd45b58959d,Release as universal python wheel (2/3 compat),Ivoz,https://api.github.com/repos/pallets/flask/git/commits/b0bb6c7f3d2e80731428fcc50ab1edd45b58959d
+de3dbd3125263f93a1b900f65091f6f0163544b2,"Update fileuploads.rst
+
+secure_filename is under werkzeug.utils (http://werkzeug.pocoo.org/docs/utils/)",Spittie,https://api.github.com/repos/pallets/flask/git/commits/de3dbd3125263f93a1b900f65091f6f0163544b2
+cb61696b47e48a84d42391e58c1bc2f926d4018f,"Update appcontext.rst
+
+small edit",ifiokjr,https://api.github.com/repos/pallets/flask/git/commits/cb61696b47e48a84d42391e58c1bc2f926d4018f
+de7e2bcf7abf7fa8d80d95d3fb25a9cebe1ed676,"Merge pull request #947 from Ivoz/master
+
+Release as universal python wheel (2/3 compat)",kennethreitz,https://api.github.com/repos/pallets/flask/git/commits/de7e2bcf7abf7fa8d80d95d3fb25a9cebe1ed676
+21aa620b6bd65e8368f86a37e55de8e56fccf917,"Remove the extra ""1""",GCorbel,https://api.github.com/repos/pallets/flask/git/commits/21aa620b6bd65e8368f86a37e55de8e56fccf917
+ea656a89099ee848c42c871a8407242d853c0a09,added a note to the api documentation about JSON_SORT_KEYS. Fixes #922,nZac,https://api.github.com/repos/pallets/flask/git/commits/ea656a89099ee848c42c871a8407242d853c0a09
+3d6de4dd7980d5a9bd8f031d01830486c4d1607c,"Explicitly pass the Celery instance name.
+
+When starting a Celery worker module, it is assumed that the Celery instance within the module is called `app`. This is not the case in the Celery pattern, where it is called `celery`, and so must be explicitly referenced.",alexpearce,https://api.github.com/repos/pallets/flask/git/commits/3d6de4dd7980d5a9bd8f031d01830486c4d1607c
+19baae3d3445344679b68436322de08b5babf9a1,"Update docs copyright date
+
+Happy belated New Year!",grampajoe,https://api.github.com/repos/pallets/flask/git/commits/19baae3d3445344679b68436322de08b5babf9a1
+ffff509cf07b4791201915f98116aec51eb4a651,"Added 'import os' statement
+
+Added 'import os' statement so you can use os.path.join() when defining DATABASE location",roskoff,https://api.github.com/repos/pallets/flask/git/commits/ffff509cf07b4791201915f98116aec51eb4a651
+dfae2679a6be1d3e61eaa9f83e85e0daf655187c,"Clarify the after_request argument
+
+Make it a bit clearer that it's an instance of response_class that is
+expected, not the actual response_class class.",charlax,https://api.github.com/repos/pallets/flask/git/commits/dfae2679a6be1d3e61eaa9f83e85e0daf655187c
+8cd66bf178cc72f5718f4113db9426723fe37ef5,"Small punctuation change in unicode doc
+
+Just makes it easier on the eyes/brain.",kylestev,https://api.github.com/repos/pallets/flask/git/commits/8cd66bf178cc72f5718f4113db9426723fe37ef5
+db1be12aea8193487e7f3097d03ea81780525069,Fix import in viewdecorators.rst for @templated,plumdog,https://api.github.com/repos/pallets/flask/git/commits/db1be12aea8193487e7f3097d03ea81780525069
+132c2c4c795ebdccc6f347867092b30b5f5086bb,"missed word.
+
+request tstack -> request context stack",atupal,https://api.github.com/repos/pallets/flask/git/commits/132c2c4c795ebdccc6f347867092b30b5f5086bb
+fbda3f94baa6d7dba8f773309121284c6e6c5a6d,fix typo,raimu,https://api.github.com/repos/pallets/flask/git/commits/fbda3f94baa6d7dba8f773309121284c6e6c5a6d
+671c67aac96ae2cdf9c554ba4e52c167862be6fe,Append a 'Vary: Cookie' header to the response when the session has been accessed,citruspi,https://api.github.com/repos/pallets/flask/git/commits/671c67aac96ae2cdf9c554ba4e52c167862be6fe
+e21afed0bba82668c6e4f5f433d0ccfcf54b3577,Fix typos in docstrings and comments in run.py,zakj,https://api.github.com/repos/pallets/flask/git/commits/e21afed0bba82668c6e4f5f433d0ccfcf54b3577
+52fa195d459a70f8ef73e954b20a9512b2f5001b,few mispelling errors,cgar,https://api.github.com/repos/pallets/flask/git/commits/52fa195d459a70f8ef73e954b20a9512b2f5001b
+44b0aeb048c1019e3cdd42fd2bdf9c2c8ffb7429,Fixed typo.,schlamar,https://api.github.com/repos/pallets/flask/git/commits/44b0aeb048c1019e3cdd42fd2bdf9c2c8ffb7429
+a700cb2a76c0f6037f6ddaa6a519fcba179efd41,Docs: fixes,julen,https://api.github.com/repos/pallets/flask/git/commits/a700cb2a76c0f6037f6ddaa6a519fcba179efd41
+224367fe98a056ffda7452eddd8f7c33fa2214c1,fixed import for python 3,miguelgrinberg,https://api.github.com/repos/pallets/flask/git/commits/224367fe98a056ffda7452eddd8f7c33fa2214c1
+4a6f932610b3e3b7858017ab1cc4c20bd99ee008,fix a small mistake in setup.rst,lord63,https://api.github.com/repos/pallets/flask/git/commits/4a6f932610b3e3b7858017ab1cc4c20bd99ee008
+fcec4b140c49ab87ca761e70c4ab98f5417a2744,Fix a tiny spelling error: untilization -> utilization,IanConnolly,https://api.github.com/repos/pallets/flask/git/commits/fcec4b140c49ab87ca761e70c4ab98f5417a2744
+02b02543b34596e576c2e3d78c56bf85600f0c5a,Doc for add check upload file,steelywing,https://api.github.com/repos/pallets/flask/git/commits/02b02543b34596e576c2e3d78c56bf85600f0c5a
+305ccd5df962eb7d2c9e3d95cfd8eeb280f949e5,"Update advanced_foreword.rst
+
+I think the doc is supposed to read, ""Because of that, Flask has a few design choices that some people might find surprising or unorthodox.""
+
+Otherwise, it could possibly mean, ""Because of that, Flask has few design choices that people would find surprising or unorthodox.""
+
+Or perhaps even less ambiguous, ""Because of that, Flask has few surprising or unorthodox design choices.""",kekumu,https://api.github.com/repos/pallets/flask/git/commits/305ccd5df962eb7d2c9e3d95cfd8eeb280f949e5
+bd888eaa61cb32b33dbf1e4cb327eff530bb9955,Fixed a typo.,bulatb,https://api.github.com/repos/pallets/flask/git/commits/bd888eaa61cb32b33dbf1e4cb327eff530bb9955
+fb5d6744889e834f759922e7c95b9f315384b264,add `Table` to import in `sqlalchemy.rst` example,brannerchinese,https://api.github.com/repos/pallets/flask/git/commits/fb5d6744889e834f759922e7c95b9f315384b264
+6b9370a8545475c40f84a02e3d49467fb6a83d2e,"Update mod_wsgi.rst
+
+note configuration changes in apache 2.4",hdformat,https://api.github.com/repos/pallets/flask/git/commits/6b9370a8545475c40f84a02e3d49467fb6a83d2e
+4541910381e5c3836e4c00b480653f058b149f6f,Get rid of _tag->closure->_tag reference cycle,jstasiak,https://api.github.com/repos/pallets/flask/git/commits/4541910381e5c3836e4c00b480653f058b149f6f
+bf3708609a3a0a2bd03f60e9075ce9e2720156fb,Fixed typo in _compat.py,fengsp,https://api.github.com/repos/pallets/flask/git/commits/bf3708609a3a0a2bd03f60e9075ce9e2720156fb
+777e23f81e5c496cd89d5789bdd18624e319a7ea,"Update mod_wsgi.rst
+
+Changes deprecated pkg_add to pkg install, adds documentation for yum",wxcafe,https://api.github.com/repos/pallets/flask/git/commits/777e23f81e5c496cd89d5789bdd18624e319a7ea
+171253a0ebd1262c6e8a03fb682ad93fb523aad8,"Update dbcon.rst
+
+""Teared"" should be ""torn"", I think?",slater,https://api.github.com/repos/pallets/flask/git/commits/171253a0ebd1262c6e8a03fb682ad93fb523aad8
+2d992e7f135f6e3aa521ad210fc0febd5b93d30f,"Update schema.rst
+
+The error is that sqlite3 needs escaping on the database column 'text' in the line:
+text text not null
+so that it becomes:
+'text' text not null
+
+The example on mitsuhiko/flask is correct and helped me detecting the mistake.",root-11,https://api.github.com/repos/pallets/flask/git/commits/2d992e7f135f6e3aa521ad210fc0febd5b93d30f
+eb0c8a6beea766812fb94712c27ed6e1e99d6249,"The example does not execute
+
+With the inclusion of the app.run we now are able to execute the program, it would be great if we'd have even more detailed docs available for the examples",thewhitetulip,https://api.github.com/repos/pallets/flask/git/commits/eb0c8a6beea766812fb94712c27ed6e1e99d6249
+f5b15c2a35933167c516da0c13290375c58c5509,Fix typo in cli docs,limeburst,https://api.github.com/repos/pallets/flask/git/commits/f5b15c2a35933167c516da0c13290375c58c5509
+c8ce5326b4d30f29aaadbb3b81bdcb1cec6b43e8,"fixed typo -- missing ""are"" in docs/signals.rst",milesrichardson,https://api.github.com/repos/pallets/flask/git/commits/c8ce5326b4d30f29aaadbb3b81bdcb1cec6b43e8
+22219f51e5a15836657bc5553fe90dac2054caef,"Update doclinks
+
+Fix redirects and broken links",nrvnrvn,https://api.github.com/repos/pallets/flask/git/commits/22219f51e5a15836657bc5553fe90dac2054caef
+71b525e1fa1c74359120634e980256a9489003c0,typos,kylepjohnson,https://api.github.com/repos/pallets/flask/git/commits/71b525e1fa1c74359120634e980256a9489003c0
+05ad436201f8c835ac2a5a317e5cb5fe5e0f3e21,"typo: ""weather"" -> ""whether""",ajschumacher,https://api.github.com/repos/pallets/flask/git/commits/05ad436201f8c835ac2a5a317e5cb5fe5e0f3e21
+3bd9cdce94f0afe840f3ac1ef00bd9681b415aaf,Added full_path to the Request object documentation.,boreq,https://api.github.com/repos/pallets/flask/git/commits/3bd9cdce94f0afe840f3ac1ef00bd9681b415aaf
+f95acc64d642c8c9b414025ffc673f000c3ba808,fix filename of test files in README of examples,kelvintaywl,https://api.github.com/repos/pallets/flask/git/commits/f95acc64d642c8c9b414025ffc673f000c3ba808
+0632d53f3debb653359d6da0d061a6eb760a2dff,"Update quickstart.rst
+
+url converters: match the [API docs](http://flask.pocoo.org/docs/0.10/api/#url-route-registrations)",k-funk,https://api.github.com/repos/pallets/flask/git/commits/0632d53f3debb653359d6da0d061a6eb760a2dff
+e401a83fc5e57c6ac12175edcf3ef9157f094d7e,"Stop recommending Tornado as a WSGI server
+
+Tornado's WSGI server is less scalable than the alternatives and only really makes sense when you have a specific need to run both WSGI apps and Tornado-native apps in the same process. This recommendation has been an ongoing source of confusion, e.g. http://stackoverflow.com/questions/26015116/making-tornado-to-serve-a-request-on-a-separate-thread.
+
+Fixes #986.",bdarnell,https://api.github.com/repos/pallets/flask/git/commits/e401a83fc5e57c6ac12175edcf3ef9157f094d7e
+55db14ec684c57638e1d61f694d8f5359b157655,Minor typo in errorpages.rst,nluchs,https://api.github.com/repos/pallets/flask/git/commits/55db14ec684c57638e1d61f694d8f5359b157655
+93c190a8fd81355dd4ac4f567821ff28ad021d5b,Add unittest for appcontext_tearing_down signal,davide-ceretti,https://api.github.com/repos/pallets/flask/git/commits/93c190a8fd81355dd4ac4f567821ff28ad021d5b
+d425279650b392faf679db3245b8ac7f8c84cf54,"Improve compression by removing whitespace from separators when using jsonify() and JSONIFY_PRETTYPRINT_REGULAR is False.
+
+Commit includes Changelog entry and two new tests in test_basic.py.",gcallsen,https://api.github.com/repos/pallets/flask/git/commits/d425279650b392faf679db3245b8ac7f8c84cf54
+56a7e8361d978c9ae2981167f3b4d959f2cf21e2,"Update config.py
+
+I want to load all of my `CELERY_` options from the config and leave `CELERY_` on there.",WyseNynja,https://api.github.com/repos/pallets/flask/git/commits/56a7e8361d978c9ae2981167f3b4d959f2cf21e2
+193b94b0eacb29378f294d1e31f59a35b68f076a,"Fix typo: ""lated later"" >> ""added later""",jeffwidman,https://api.github.com/repos/pallets/flask/git/commits/193b94b0eacb29378f294d1e31f59a35b68f076a
+47d7f20d9b291778992920e0a4e3d9ac85b139c4,Fix two typos in the description of FlaskGroup.,s3rvac,https://api.github.com/repos/pallets/flask/git/commits/47d7f20d9b291778992920e0a4e3d9ac85b139c4
+2cfdf7a8397d6308bfc6b89760b70c0fbc593440,"Minor typos and spelling fixed
+
+According to http://dictionary.cambridge.org/ ""webserver"" is incorrect, ""web server"" = correct",Winnetou,https://api.github.com/repos/pallets/flask/git/commits/2cfdf7a8397d6308bfc6b89760b70c0fbc593440
+bcba7eb397f47b1bc10f768278a54c7cb8bc019b,Tweaked sqlite3 documentation,flowerhack,https://api.github.com/repos/pallets/flask/git/commits/bcba7eb397f47b1bc10f768278a54c7cb8bc019b
+cc8f47cf62bace1346cd2115b8bcd9fdb0ffd86d,Small Typo fix,its-not-a-bug-its-a-feature,https://api.github.com/repos/pallets/flask/git/commits/cc8f47cf62bace1346cd2115b8bcd9fdb0ffd86d
+fbe3e818186e4bb1021f3389d1ea79d6d8483891,"Update api.rst
+
+is an -> if a",pkuphy,https://api.github.com/repos/pallets/flask/git/commits/fbe3e818186e4bb1021f3389d1ea79d6d8483891
+4d8cba917e600bbec9aef823f861cebe29959c5f,Fixed wording,prakashpp,https://api.github.com/repos/pallets/flask/git/commits/4d8cba917e600bbec9aef823f861cebe29959c5f
+475d7076f0815142117443f9ed37de4df40fc438,"Standardized capitalization of ""GitHub"" in docs",iKevinY,https://api.github.com/repos/pallets/flask/git/commits/475d7076f0815142117443f9ed37de4df40fc438
+a8498b6859cbd3a54895ce7a76c6c5ebe76e2aa2,update mongokit patterng,jcomo,https://api.github.com/repos/pallets/flask/git/commits/a8498b6859cbd3a54895ce7a76c6c5ebe76e2aa2
+47b5c09ba628ec8de37a7f6b2293ee5da9d1df02,fix typo,ryanwang520,https://api.github.com/repos/pallets/flask/git/commits/47b5c09ba628ec8de37a7f6b2293ee5da9d1df02
+98b155c65da62077dc5f277a3ec15d3af78333af,Fixed #1288: app.add_url_rule() should look for OPTIONS methods in a case-insensitive manner,mhall1,https://api.github.com/repos/pallets/flask/git/commits/98b155c65da62077dc5f277a3ec15d3af78333af
+29ba05f5be60594f913f1f9bb74976528873fcb8,Fix grammar in testing doc.,nryoung,https://api.github.com/repos/pallets/flask/git/commits/29ba05f5be60594f913f1f9bb74976528873fcb8
+b9eb8051675da63750d2e89284e560b06f7c1820,"Update quickstart.rst
+
+Minor grammar correction.",sateeshkumarb,https://api.github.com/repos/pallets/flask/git/commits/b9eb8051675da63750d2e89284e560b06f7c1820
+33534bb4a9937e6faba5ecec4586519f453369b6,Happy New Year 2015,Parkayun,https://api.github.com/repos/pallets/flask/git/commits/33534bb4a9937e6faba5ecec4586519f453369b6
+d2a380451b721e7a8de11ff9f5d7f4d33e0762e9,URL generation rule explained,sourya,https://api.github.com/repos/pallets/flask/git/commits/d2a380451b721e7a8de11ff9f5d7f4d33e0762e9
+6517a1a37cc97e351c7347076c451bc4aff6c239,deprecate TextField in favor of StringField,brettgerry,https://api.github.com/repos/pallets/flask/git/commits/6517a1a37cc97e351c7347076c451bc4aff6c239
+3bbe869dd7afbf089f32eed7f2ae17e8978c8035,"Clarify contents of request properties.
+
+Change URL to IRI and update examples to include extended characters.",bsutherland,https://api.github.com/repos/pallets/flask/git/commits/3bbe869dd7afbf089f32eed7f2ae17e8978c8035
+d60e13436dbe144b603eed686adcdbfb0788ac9c,Fixed minor docstring typo for teardown_request(),mypetyak,https://api.github.com/repos/pallets/flask/git/commits/d60e13436dbe144b603eed686adcdbfb0788ac9c
+c60b5b91e282ce4984fef7cede1a058e66c420df,"Update api.rst, fixed spelling",phouse512,https://api.github.com/repos/pallets/flask/git/commits/c60b5b91e282ce4984fef7cede1a058e66c420df
+9d64ff420fdde3c6eaa6d573d41da3b2f587422c,"Early commit for issue #1135
+
+Add support migrating single imports from the flask.ext style to flask_",keyan,https://api.github.com/repos/pallets/flask/git/commits/9d64ff420fdde3c6eaa6d573d41da3b2f587422c
+29f7c10a5dea499f64188e29a4e08161dbf14eff,"Remove bad security advice about send_file.
+
+Signed-off-by: Edward Z. Yang <ezyang@cs.stanford.edu>",ezyang,https://api.github.com/repos/pallets/flask/git/commits/29f7c10a5dea499f64188e29a4e08161dbf14eff
+81e8bbbb7f5f7e43f37da5b76071aa52b2c0e5c7,"improve grammar, make format consistent, and improve readability",idrisr,https://api.github.com/repos/pallets/flask/git/commits/81e8bbbb7f5f7e43f37da5b76071aa52b2c0e5c7
+5f8c850895dc879379d5fe0df9e1713f4e00694c,Add extensions section to Quickstart documentation,KWinston,https://api.github.com/repos/pallets/flask/git/commits/5f8c850895dc879379d5fe0df9e1713f4e00694c
+ec0d208bc14c49c611ae05d391b1edb35af854c7,"Switch away from using None as default value for the exception when tearing down a context.
+
+When an exception has been handled when using the request / app context in a with statement, `sys.exc_info()` will still contain the exception information even though it has been handled already. The `__exit__` methods pass in `None` for the exception value in that case, which needs to be distinguisable from the default value for the `exc` parameter. Use a dedicated singleton sentinel value instead.",mjpieters,https://api.github.com/repos/pallets/flask/git/commits/ec0d208bc14c49c611ae05d391b1edb35af854c7
+5dd9335aac116a3d597f1342d7dba62b823a285b,Added note that @errorhandler(500) isn't triggered in debug mode,skybert,https://api.github.com/repos/pallets/flask/git/commits/5dd9335aac116a3d597f1342d7dba62b823a285b
+6c56e4231f718313e8c5ed6a45b6ca8f4f0334d4,Added OpenShift as a free hosting provider alternative,charleswhchan,https://api.github.com/repos/pallets/flask/git/commits/6c56e4231f718313e8c5ed6a45b6ca8f4f0334d4
+20f62e828b2ed100f7aa907b60880c8938593740,"Fix Possible Typo
+
+Looks like that was meant to be `config_key`. It works by accident because the function is defined in the same scope as the look that passes `config_key` to `apprunner`.",bsandrow,https://api.github.com/repos/pallets/flask/git/commits/20f62e828b2ed100f7aa907b60880c8938593740
+8570633214e4749972963ef622b4c86fa8b379fc,Fix a few spelling mistakes in the docs,alexwlchan,https://api.github.com/repos/pallets/flask/git/commits/8570633214e4749972963ef622b4c86fa8b379fc
+eae48d97b085626c1860a900a27ff63c439e0edb,Fixed and intuitivized exception handling,flying-sheep,https://api.github.com/repos/pallets/flask/git/commits/eae48d97b085626c1860a900a27ff63c439e0edb
+d3987808521a7d4b0331e6b154499d99d1fc5ec7,Mention that custom converters can be defined for url routes,fordhurley,https://api.github.com/repos/pallets/flask/git/commits/d3987808521a7d4b0331e6b154499d99d1fc5ec7
+2de525c720bea58c088decedd89bab5914e39a7e,"importlib deprecated in 3.5.
+
+Replace the use of importlib by types.ModuleType that seem to be
+available since at least 2.6
+
+closes gh-1449",Carreau,https://api.github.com/repos/pallets/flask/git/commits/2de525c720bea58c088decedd89bab5914e39a7e
+a1c55a698cbc4e93c5190479f3e3f03c53d79c71,"Replace 'I' with 'We'
+
+To be consistent with the usage elsewhere in the README",ozbek,https://api.github.com/repos/pallets/flask/git/commits/a1c55a698cbc4e93c5190479f3e3f03c53d79c71
+8a960916445b78b2e9069f89bc046eccc235f2be,Add pip install --editable . to contributing docs,nickjj,https://api.github.com/repos/pallets/flask/git/commits/8a960916445b78b2e9069f89bc046eccc235f2be
+887d382da146de0522b1b125db1c3cbe393cc57e,"Add X-Forwarded-Proto to proxy setup example
+
+The ProxyFix middleware provided by Werkzeug uses this header for
+returning accurate values from request.is_secure and request.scheme.
+Without adding this header, Flask won't properly detect when it is being
+served over HTTPS and will fail to generate proper external links and
+cause certain extensions (e.g. Flask-OAuthlib) to function improperly.
+Adding this header to the example setup should reduce issues encountered
+by developers when following this guide.",jonafato,https://api.github.com/repos/pallets/flask/git/commits/887d382da146de0522b1b125db1c3cbe393cc57e
+17d7353d39100b5eca00f769e2564ca95457d053,fixed import of werkzeug secure_filename,jpoehnelt,https://api.github.com/repos/pallets/flask/git/commits/17d7353d39100b5eca00f769e2564ca95457d053
+348bf52188b9f7bef1096d8fe70edf2e62ea04a8,"Handle empty deque on errorhandler lookup.
+
+After registering a custom errorhandler by exception class, raising any
+unhandled exception in a view function swallows the error and instead
+throws an `IndexError` on trying to look up the appropriate handler.
+This patch avoids the uninformative `IndexError` and preserves the
+original exception by looping until the deque of classes is empty, not
+forever.",jmcarp,https://api.github.com/repos/pallets/flask/git/commits/348bf52188b9f7bef1096d8fe70edf2e62ea04a8
+337a9d6172292a29229680251477f3cabe0c0281,"Include backend argument when instantiating Celery
+
+Not including the backend argument can lead to AttributeError:
+DisabledBackend object has no attribute for '_get_task_meta_for'.
+
+See e.g.
+http://stackoverflow.com/questions/23215311/celery-with-rabbitmq-attributeerror-disabledbackend-object-has-no-attribute.
+
+At the same time, including the backend argument doesn't seem to harm anything else.",AndrewBMartin,https://api.github.com/repos/pallets/flask/git/commits/337a9d6172292a29229680251477f3cabe0c0281
+a4b335a64a6a34de36a2fcd93dc8118bd58dd733,"Remove the word `trivially` here
+
+A lot of things are trivial, or debatably trivial, but this is not one of them :)",nvie,https://api.github.com/repos/pallets/flask/git/commits/a4b335a64a6a34de36a2fcd93dc8118bd58dd733
+c65b32ba1d71c95d165f173f8681bfc0f6e1eca2,Update title of docstring in flask.cli,Hardtack,https://api.github.com/repos/pallets/flask/git/commits/c65b32ba1d71c95d165f173f8681bfc0f6e1eca2
+30973310ec2aaa12bce5c1293c802ab0c662b83a,Replace 'Werkzeug' to 'Flask',menghan,https://api.github.com/repos/pallets/flask/git/commits/30973310ec2aaa12bce5c1293c802ab0c662b83a
+967907ee81cbc671cd8982bdc02a9d3335fdde11,before_render_template signal can override render template.,alexpantyukhin,https://api.github.com/repos/pallets/flask/git/commits/967907ee81cbc671cd8982bdc02a9d3335fdde11
+5dfe918e4fafd63fc77664a3a1cda501bb0929f9,"fixed some punctuation, fixed a few errors, in service of readability",zevaverbach,https://api.github.com/repos/pallets/flask/git/commits/5dfe918e4fafd63fc77664a3a1cda501bb0929f9
+e4f635f8d7bade2dbd8b7e3e8be6df41e058c797,remove whitespace at end of lines,alanhamlett,https://api.github.com/repos/pallets/flask/git/commits/e4f635f8d7bade2dbd8b7e3e8be6df41e058c797
+8ba986e45e5b8f73f3f18da9d145b06722e5ceca,"Added fix for issue 1529
+
+Signed-off-by: Aayush Kasurde <aayush.kasurde@gmail.com>",Aayush-Kasurde,https://api.github.com/repos/pallets/flask/git/commits/8ba986e45e5b8f73f3f18da9d145b06722e5ceca
+93fe1d54bd44b190aa0f58990bc397bf22324452,"make external_url_handler example py3 compliant
+
+- a raises statement with multiple values is no longer allowed in python 3",lobeck,https://api.github.com/repos/pallets/flask/git/commits/93fe1d54bd44b190aa0f58990bc397bf22324452
+c8f19f0afc8d49a68ec969097e6127d17706b6dc,Reimplement function with_metaclass(),mjhennig,https://api.github.com/repos/pallets/flask/git/commits/c8f19f0afc8d49a68ec969097e6127d17706b6dc
+8b9cb6caa71c2db1a9c2ebd66f77ffe8b6306623,"Update uwsgi/nginx deployment documentation
+
+Instead of using the uwsgi_modifier1 30 directive, the uwsgi docs
+recommend to use the mount / manage-script-name approch which mounts
+a module + callable to a certain path. This way, SCRIPT_NAME and
+PATH_INFO are correctly rewritten.
+
+See http://uwsgi-docs.readthedocs.org/en/latest/Nginx.html#hosting-multiple-apps-in-the-same-process-aka-managing-script-name-and-path-info
+
+Fixes #1464",JonasGroeger,https://api.github.com/repos/pallets/flask/git/commits/8b9cb6caa71c2db1a9c2ebd66f77ffe8b6306623
+808bf6d204d426c26461e5c16b8983eb0345b037,Missing apostophe.,msiyaj,https://api.github.com/repos/pallets/flask/git/commits/808bf6d204d426c26461e5c16b8983eb0345b037
+51c35295af94f8f401a4942aab674f161222a984,Fix name mismatch in apierrors page,nadavge,https://api.github.com/repos/pallets/flask/git/commits/51c35295af94f8f401a4942aab674f161222a984
+15f267e1ee401d317793ac71482d269588d22ff1,"Updated documentation for Setuptools
+
+Updated documentation by removing references of distribute and adding
+references of setuptools.
+
+Signed-off-by: Abhijeet Kasurde <akasurde@redhat.com>",Akasurde,https://api.github.com/repos/pallets/flask/git/commits/15f267e1ee401d317793ac71482d269588d22ff1
+6102d210a3559577bdc0d90eaed87f58beb41e94,Update CHANGES,hidavy,https://api.github.com/repos/pallets/flask/git/commits/6102d210a3559577bdc0d90eaed87f58beb41e94
+d526932a09557be4aff6d27261cabb7c5c5ebb8d,support timedelta for SEND_FILE_MAX_AGE_DEFAULT config variable,timofurrer,https://api.github.com/repos/pallets/flask/git/commits/d526932a09557be4aff6d27261cabb7c5c5ebb8d
+99bc0dfd3bc866a67e6d56a62f0edbf773dcb5b6,"Add info about working with VE and Python 3
+
+Python 3 does not have execfile function.",inirudebwoy,https://api.github.com/repos/pallets/flask/git/commits/99bc0dfd3bc866a67e6d56a62f0edbf773dcb5b6
+84a12afd4dff0c58aceb34c7fc93e3eedbe5005f,"Merge pull request #1593 from timofurrer/master
+
+support timedelta for SEND_FILE_MAX_AGE_DEFAULT config variable",davidism,https://api.github.com/repos/pallets/flask/git/commits/84a12afd4dff0c58aceb34c7fc93e3eedbe5005f
+4a8f3eacbb94f4db2d85b96dc64df6ee476452db,Fix typo in templating.rst,wodim,https://api.github.com/repos/pallets/flask/git/commits/4a8f3eacbb94f4db2d85b96dc64df6ee476452db
+7f678aaf5a066ff71289743a64e5cd685b660428,"Fix a typo
+
+Maybe this is a typo?",Windfarer,https://api.github.com/repos/pallets/flask/git/commits/7f678aaf5a066ff71289743a64e5cd685b660428
+2faf245876822702e99d036d23cd3792ab5e0b84,Fix typo.,dthul,https://api.github.com/repos/pallets/flask/git/commits/2faf245876822702e99d036d23cd3792ab5e0b84
+daa3f272da477470d23481d409d54f989136ac32,Allow to specify subdomain and/or url_scheme in app.test_request_context(),iximiuz,https://api.github.com/repos/pallets/flask/git/commits/daa3f272da477470d23481d409d54f989136ac32
+4a576b06e8455d117910a8d10d006d136124f11f,"Add .cache dir to gitignore
+
+I think this could be handy and potentially minimise the risk
+anyone commits it to the project.
+
+```
+flask - (master) $ tree .cache/
+.cache/
+└── v
+    └── cache
+        └── lastfailed
+
+```",redian,https://api.github.com/repos/pallets/flask/git/commits/4a576b06e8455d117910a8d10d006d136124f11f
+25aab43f8e27e80e8f05498849c17e041791785b,"Fixed a typo
+
+I think 'app' is the intended word here, but I am not 100% sure.",d0ugal,https://api.github.com/repos/pallets/flask/git/commits/25aab43f8e27e80e8f05498849c17e041791785b
+fcd573e120eaf4b97d05a3bfa225133741c04428,"added note about directory permission syntax change
+
+docs had httpd 2.2 syntax for directory permission with a link to Apache 2.4 changes. added an example of httpd 2.4 syntax
+
+resolves #1644",accraze,https://api.github.com/repos/pallets/flask/git/commits/fcd573e120eaf4b97d05a3bfa225133741c04428
+23cf923c7c2e4a3808e6c71b6faa34d1749d4cb6,"Clarified CONTRIBUTING.rst
+
+Added 'cd flask' before 'pip install --editable .'.",AvivC,https://api.github.com/repos/pallets/flask/git/commits/23cf923c7c2e4a3808e6c71b6faa34d1749d4cb6
+edb65cc0f056bdfb201531066976e1cb8a90ad1f,remove 'flask' from etags to obscure server technologies,nivm,https://api.github.com/repos/pallets/flask/git/commits/edb65cc0f056bdfb201531066976e1cb8a90ad1f
+6c0496a1f38e69c700a2ca834d3d64f60361d3bc,"Fix a typo
+
+`interchangable` → `interchangeable`",pra85,https://api.github.com/repos/pallets/flask/git/commits/6c0496a1f38e69c700a2ca834d3d64f60361d3bc
+52daeffdc9ef07019acaf64ce505aa54ba98a037,DOC: Remove gendered language,ericdill,https://api.github.com/repos/pallets/flask/git/commits/52daeffdc9ef07019acaf64ce505aa54ba98a037
+39cb3504e155290958735b2ffafb69ff23b23c4f,"Update MANIFEST.in with simpler template commands
+
+Please see https://docs.python.org/2/distutils/sourcedist.html#commands for reference.",welchbj,https://api.github.com/repos/pallets/flask/git/commits/39cb3504e155290958735b2ffafb69ff23b23c4f
+4dc2ef19eaa4ced5cb2f4a2a1673e65459c355d2,"Use pytest.raises() instead of try/catch with asser 0
+
+This is somehow more readable, and enable using the features of pytest's ExeptionInfo (such as errisinstance).",homoSapiensSapiens,https://api.github.com/repos/pallets/flask/git/commits/4dc2ef19eaa4ced5cb2f4a2a1673e65459c355d2
+67e2127a5d9de5c17af122cb5fcacfc05e980a4c,"Update deprecated references
+
+validators.Required() is marked as deprecated in favor of validators.DataRequired() and will be remove in WTForms 3.",gaetan-petit,https://api.github.com/repos/pallets/flask/git/commits/67e2127a5d9de5c17af122cb5fcacfc05e980a4c
+adeedddbb53083add5f9e66041b072ad716a2aab,Fix minor typo in security doc,erogers6264,https://api.github.com/repos/pallets/flask/git/commits/adeedddbb53083add5f9e66041b072ad716a2aab
+bc9619bebac93d3a44777ef3ebfd7b12b3399cc3,"Replace ';' to ','
+
+I think it is awkward. Though semicolon can be used as a kind of supercomma, this sentence is not that kine of thing. Replacing it with comma would be more better. isn't it?",bdh1011,https://api.github.com/repos/pallets/flask/git/commits/bc9619bebac93d3a44777ef3ebfd7b12b3399cc3
+fc0e1a8d8adc10ee602a5621c3a1382eb36702f2,"Fixed typo
+
+I think it's supposed to be an upper-case 'F'. Cheers :)",AustenDSouza,https://api.github.com/repos/pallets/flask/git/commits/fc0e1a8d8adc10ee602a5621c3a1382eb36702f2
+ce06240851d18ab725d348bce1793aad67349131,"Run bdist_wheel as a part of release process
+
+The setup.cfg declares the ability to compile a wheel, but release process isn't actually compiling a wheel.",mattrobenolt,https://api.github.com/repos/pallets/flask/git/commits/ce06240851d18ab725d348bce1793aad67349131
+9a80fe691dfd46664a39edf983332b99a71766d1,minor revision of documentation.,bagratte,https://api.github.com/repos/pallets/flask/git/commits/9a80fe691dfd46664a39edf983332b99a71766d1
+9f1be8e795ace494018689c87d8a5e5601313e4d,"Raise BadRequest if static file name is invalid
+
+* Raise BadRequest if static file name is invalid
+
+* Clean up syntax a bit
+
+* Remove unnecessary close()",chaosagent,https://api.github.com/repos/pallets/flask/git/commits/9f1be8e795ace494018689c87d8a5e5601313e4d
+567fff9d0d20650743abd8fe17d3dc9d98fa19dc,"Change to Pallets project
+
+* Update CHANGES
+
+* Update CONTRIBUTING.rst
+
+* Update setup.py
+
+* Update tox.ini
+
+* Update extensions.rst
+
+* Update security.rst
+
+* Update installation.rst
+
+* Update testing.rst
+
+* Update upgrading.rst
+
+* Update sidebarintro.html
+
+* Update jquery.rst
+
+* Update dbcon.rst
+
+* Update index.rst",quobit,https://api.github.com/repos/pallets/flask/git/commits/567fff9d0d20650743abd8fe17d3dc9d98fa19dc
+6e91498e64f3081c9d37f8f6e5fd3e3086de9741,"docs: run() should not be used in production
+
+Refs #1102",sprin,https://api.github.com/repos/pallets/flask/git/commits/6e91498e64f3081c9d37f8f6e5fd3e3086de9741
+b0105f41cc078b0f505787eebdb382014c685687,Extend documentation about uwsgi/nginx deployment,stephane,https://api.github.com/repos/pallets/flask/git/commits/b0105f41cc078b0f505787eebdb382014c685687
+740c42217cb349ab4f03ecba37973ec0c9bed421,"The comment didn't make any sense (#1777)
+
+Fix doc comment for View.methods",danielquinn,https://api.github.com/repos/pallets/flask/git/commits/740c42217cb349ab4f03ecba37973ec0c9bed421
+2bf477cfeafd87c69b88e1ec58b5eb67abf756e2,"Add JSONIFY_MIMETYPE configuration variable (#1728)
+
+Allow jsonify responses' mimetype to be configured",sloria,https://api.github.com/repos/pallets/flask/git/commits/2bf477cfeafd87c69b88e1ec58b5eb67abf756e2
+28b36f642ddac117c88c30f4800bc2ec44eddcf9,removed references to easy_install,cgoldberg,https://api.github.com/repos/pallets/flask/git/commits/28b36f642ddac117c88c30f4800bc2ec44eddcf9
+e45e17c490add1377cb169bd66e80979d72d5875,fix a grammar mistake (#1798),wojcikstefan,https://api.github.com/repos/pallets/flask/git/commits/e45e17c490add1377cb169bd66e80979d72d5875
+9f4c569c83f3f00f43a8ea975821c405ab0057f0,"Fix ""with"" formatting in doc",ben4ever,https://api.github.com/repos/pallets/flask/git/commits/9f4c569c83f3f00f43a8ea975821c405ab0057f0
+88500f5cc709e2e931e6547ed9b58033a50215a8,"Forward ported CLI tests from Flask-CLI and fixed a bug with the CLI's name. (#1806)
+
+* Forward port the CLI tests from Flask-CLI.
+
+* Make sure the parameter passed to the CLI's AppGroup is the app's name, not the app itself.",jezdez,https://api.github.com/repos/pallets/flask/git/commits/88500f5cc709e2e931e6547ed9b58033a50215a8
+c810fae9e835ad446e7e9d61c12bbf2f6b597109,turn 2 prints to py2/py3 compatible syntax (#1812),fchapoton,https://api.github.com/repos/pallets/flask/git/commits/c810fae9e835ad446e7e9d61c12bbf2f6b597109
+bdbca923ef26424f605b4c744131512a5edb0f1e,"Addressing Issue 1809 (#1811)
+
+document kwargs for Flask.register_blueprint",Sanjurjo7,https://api.github.com/repos/pallets/flask/git/commits/bdbca923ef26424f605b4c744131512a5edb0f1e
+92f63a1c1d483c1a1636efb20cadb1c2932b33ff,"fix docstring (#1818)
+
+change string to docstring",pywarrior,https://api.github.com/repos/pallets/flask/git/commits/92f63a1c1d483c1a1636efb20cadb1c2932b33ff
+70de011d5102bea6b97010643cf36698f94f97fb,"Convert readthedocs link for their .org -> .io migration for hosted projects (#1827)
+
+As per their email ‘Changes to project subdomains’:
+
+> Starting today, Read the Docs will start hosting projects from subdomains on the domain readthedocs.io, instead of on readthedocs.org. This change addresses some security concerns around site cookies while hosting user generated data on the same domain as our dashboard.
+
+Test Plan: Manually visited all the links I’ve modified.",adamchainz,https://api.github.com/repos/pallets/flask/git/commits/70de011d5102bea6b97010643cf36698f94f97fb
+a72583652329da810fc2a04e8541a0e2efd47ee1,"Update help to >   set FLASK_APP=hello.py (#1830)
+
+When running `flask --help`, the printed string contains this:
+>   Example usage:
+>
+>   set FLASK_APP=hello
+>    set FLASK_DEBUG=1
+>    flask run
+
+but it actually only works with `set FLASK_APP=hello.py` so the help should be changed.
+
+This is true on my Windows 7 Python 3.5 flask 0.11 setup.",yoavram,https://api.github.com/repos/pallets/flask/git/commits/a72583652329da810fc2a04e8541a0e2efd47ee1
+6bee3e4995066466a35ac080844d4962a728d084,"Add a --version switch to flask cli
+re #1828",RaHus,https://api.github.com/repos/pallets/flask/git/commits/6bee3e4995066466a35ac080844d4962a728d084
+390cd5e4eec8340d74e8b72b2d51a5a3eeef3842,Fixed #1846,jamesjoaquin,https://api.github.com/repos/pallets/flask/git/commits/390cd5e4eec8340d74e8b72b2d51a5a3eeef3842
+d9a98dd536b4cac42fc9012c6184251a5ae2ad7a,"Document flash message size limit
+
+Reason: Messages of size 68,493 - 91,326 characters cause flash to fail silently.
+Session cookies cannot have such large messages.
+
+Issue: pallets/flask#1789",prachikhadke,https://api.github.com/repos/pallets/flask/git/commits/d9a98dd536b4cac42fc9012c6184251a5ae2ad7a
+14e4207397adeb09a14831bd01c21508c9ef4840,"Add issue template, resolves #1773
+
+On issue #1773, we wanted use issue templates to accomplish two things:
+1. guide questions into StackOverflow and IRC channel
+2. not duplicate CONTRIBUTING content
+To resolve these, ISSUE_TEMPLATE is added to remind users not
+to ask questions.",hyunchel,https://api.github.com/repos/pallets/flask/git/commits/14e4207397adeb09a14831bd01c21508c9ef4840
+7e8d7d43c8852f1567a93838ae7983bf519ddcb1,Added link to deploying documentation,etothemanders,https://api.github.com/repos/pallets/flask/git/commits/7e8d7d43c8852f1567a93838ae7983bf519ddcb1
+cbdd2aa141fc7c0f82b3667bbc55d50843d6627c,Document Runtime Error when running outside of application context,ryanbackman,https://api.github.com/repos/pallets/flask/git/commits/cbdd2aa141fc7c0f82b3667bbc55d50843d6627c
+63b5dab0fc889f490b9fee803ae67efa3df28a09,Add subclassing pattern/example to fix issue #221.,antsar,https://api.github.com/repos/pallets/flask/git/commits/63b5dab0fc889f490b9fee803ae67efa3df28a09
+d88c08e56f7398206596129036b8f101be11cba0,improved documentation for config.from_object (#1870),jsonbrazeal,https://api.github.com/repos/pallets/flask/git/commits/d88c08e56f7398206596129036b8f101be11cba0
+047efac537abad9e3880f545d8b767f6e6be3786,Coverage for test_static_path_deprecated and test_static_url_path (#1860),jphilipsen05,https://api.github.com/repos/pallets/flask/git/commits/047efac537abad9e3880f545d8b767f6e6be3786
+fa327fd4fadcca746b466dfd8dbd166a50d8efad,"Tutorial: Note extensions for encrypting passwords (#1854)
+
+Fix #836",wldtyp,https://api.github.com/repos/pallets/flask/git/commits/fa327fd4fadcca746b466dfd8dbd166a50d8efad
+8458cc5cd10bac1dabea3dae86424bce46926a49,"Remove deprecation warnings for add_etags & mimetype guessing for send_file()
+
+Fix #1849",dsully,https://api.github.com/repos/pallets/flask/git/commits/8458cc5cd10bac1dabea3dae86424bce46926a49
+f034d2e271403c7b3b8a1c2728b2320ed157a037,Tests with and without simplejson for every existing testenv (#1869),JamesTFarrington,https://api.github.com/repos/pallets/flask/git/commits/f034d2e271403c7b3b8a1c2728b2320ed157a037
+e048aa4e19d689104733783a19560a6a485a473c,"Add negative test for json.jsonify (#1876)
+
+Test if jsonify function raises TypeError when both args and kwargs are
+passed in.
+Check the TypeError's message",dawran6,https://api.github.com/repos/pallets/flask/git/commits/e048aa4e19d689104733783a19560a6a485a473c
+bbd6c8c791ffa0f9f30f31d17e47e8fe8e587526,"Expanding contribution documentation (#1883)
+
+- README updated with link to CONTRIBUTING.rst
+- CONTRIBUTING.rst has instructions on running code coverage",karlw00t,https://api.github.com/repos/pallets/flask/git/commits/bbd6c8c791ffa0f9f30f31d17e47e8fe8e587526
+03ea11fe76a593c146c347f49d8285efb36bb886,Make safe_join able to safely join multiple paths,geusebi,https://api.github.com/repos/pallets/flask/git/commits/03ea11fe76a593c146c347f49d8285efb36bb886
+33212309a22d3aeed725e3138d48593dc0a5b47f,updating docs and showing how to use `setup.cfg` to configure dev builds with sdist,autoferrit,https://api.github.com/repos/pallets/flask/git/commits/33212309a22d3aeed725e3138d48593dc0a5b47f
+434c19933eb445907d73b9bb9e4973d546f5ee52,Add clarification for login_required decorator ref #313,pingihu,https://api.github.com/repos/pallets/flask/git/commits/434c19933eb445907d73b9bb9e4973d546f5ee52
+5aa70b5a56f10b6077885c45697ee29e98bd345e,"Updating url in errorhandling.rst to a valid link
+
+Was originally set to github.com/getsentry/sentry, which was a relative link to a page that doesn't exist. I prepended https:// to fix this problem.",avborhanian,https://api.github.com/repos/pallets/flask/git/commits/5aa70b5a56f10b6077885c45697ee29e98bd345e
+0514ba2de1751de1b0c9a223c96f6a7145714e6a,"Enable template auto-reloading in app.run()
+
+When Flask app debugging is enabled (app.debug==True), and Jinja2
+template auto-reloading is not explicitly disbaled, template
+auto-reloading should be enabled.
+
+If the app is instantiated, the jinja_env object is accessed (thereby
+initialising the Jinja2 environment) and the server is then started with
+app.run(debug=True), template auto-reloading is *not* enabled.
+
+This is because reading the jinja_env object causes the environment
+initialisation function to set auto_reload to app.debug (which isn't yet
+True). Calling app.run(debug=True) should correct this in order to
+remain consistent with Flask code reloading (which is enabled within
+app.run() if debug == True).",davebarkerxyz,https://api.github.com/repos/pallets/flask/git/commits/0514ba2de1751de1b0c9a223c96f6a7145714e6a
+c0087204e5b83ad4e3983d07b66d17acdde0b9de,"Documentation: Clarify instructions about changing row_factory for SQLite3 (#1573)
+
+* Clarify instructions about changing row_factory
+
+When I was working through the tutorial, this was very confusing to me; so, I've added the code and clarification that would have helped me get through it faster.
+
+* Clarify the nature of Row objects
+
+* Rewrite code example for further clarity.",NoraCodes,https://api.github.com/repos/pallets/flask/git/commits/c0087204e5b83ad4e3983d07b66d17acdde0b9de
+b8aca21a392c367522eedb93f248f68005c84908,Fix #1911 (#1913),ArchRoller,https://api.github.com/repos/pallets/flask/git/commits/b8aca21a392c367522eedb93f248f68005c84908
+9f2b3d815ec39279bfb838221580a36378a0de20,"Demonstrate how to add multiple urls to the same function endpoint #981 (#1900)
+
+* Demonstrate how to add multiple urls to the same function endpoint
+
+* Removed text as per untitaker, fixed spacing to be pep-8 compliant",dcfix,https://api.github.com/repos/pallets/flask/git/commits/9f2b3d815ec39279bfb838221580a36378a0de20
+146cba53e7be1d433ecae9999ae662b48921e520,wtforms: Add missing closing tags in example (#1917),bfontaine,https://api.github.com/repos/pallets/flask/git/commits/146cba53e7be1d433ecae9999ae662b48921e520
+663d786f6888bbd308528284b6a26d433ef314ee,Update documentation for upgrading Flask using 'pip' command (#1918),ameya-pandilwar,https://api.github.com/repos/pallets/flask/git/commits/663d786f6888bbd308528284b6a26d433ef314ee
+16471795117bb2d200888e49af5b621377bc1436,"Added routes command, which shows all the endpoints registered for the app.
+
+Orderable by rules, endpoints and methods. Shows up in the builtin command list.",kissgyorgy,https://api.github.com/repos/pallets/flask/git/commits/16471795117bb2d200888e49af5b621377bc1436
+67e391921c50f02190be8407d4a02efe8d2d28f6,"fix docs: name of url_value_preprocessor method (#1932)
+
+This typo got introduced in 5da1fc22153032923b1560a34a0f346d6517a12d,
+the original commit for the url_value_preprocessor decorator.",georgschoelly,https://api.github.com/repos/pallets/flask/git/commits/67e391921c50f02190be8407d4a02efe8d2d28f6
+516ce59f95a3b5d2fffbcde8abfdf1951e748361,Add the ability to combine MethodViews,acatton,https://api.github.com/repos/pallets/flask/git/commits/516ce59f95a3b5d2fffbcde8abfdf1951e748361
+b7a0cc61c54dbfebf8c3b21634ec9e37596b1e9a,Update installation documentation for using 'pip' command (#1920),alexyer,https://api.github.com/repos/pallets/flask/git/commits/b7a0cc61c54dbfebf8c3b21634ec9e37596b1e9a
+17d4cb3828b9520be6c4e64e6b7548a561aa6e7a,"Address #1902: Converts example/flaskr to have a setup.py (#1945)
+
+* Converts example/flaskr to have a setup.py
+
+Makes the flaskr app easier to run, ex. workflow:
+- pip install --editable .
+- export FLASK_APP=flaskr.flaskr
+- flask initdb
+- flask run
+
+Testing is also easier now:
+- python setup.py test
+
+* Fixed an import error in flaskr/tests
+
+- the statement `import flaskr` caused errors in python3
+- `from . import flaskr` fixes the issue in 2.7.11 and 3.5.1
+
+* Better project structure and updates the docs
+
+- Re-factors *flaskr*'s project structure a bit
+- Updates docs to make sense with the new structure
+  - Adds a new step about installing Flask apps with setuptools
+  - Switches first-person style writing to second-person (reads better IMO)
+  - Adds segments in *testing.rst* for running tests with setuptools
+
+* Remove __init__.py from tests
+
+- py.test recommends not using __init__.py
+
+* Fix testing import errors",wgwz,https://api.github.com/repos/pallets/flask/git/commits/17d4cb3828b9520be6c4e64e6b7548a561aa6e7a
+fe53da45c56fbc01ee38f9fab762b7fb0bfbc4e4,"Update allowed_file function in fileuploads.rst
+
+Update allowed_file function to accept lowercase and uppercase file extensions",shakib609,https://api.github.com/repos/pallets/flask/git/commits/fe53da45c56fbc01ee38f9fab762b7fb0bfbc4e4
+55f9af72e35449718d405cc140c4705c12239ff2,Added a missing module to import statement,vioan,https://api.github.com/repos/pallets/flask/git/commits/55f9af72e35449718d405cc140c4705c12239ff2
+c54d67adee6f99113f525b376da4af27c3001321,"close <li> tag in lines (16,18) (#1951)
+
+i noticed that <li> tag haven't closed in lines 15,18 
+which is bad practice as if i put ""some thing : <h1> some text </h1>"" in the text-area  all the other articles become <h1> so big and color blue",ahmedakef,https://api.github.com/repos/pallets/flask/git/commits/c54d67adee6f99113f525b376da4af27c3001321
+e6d7a43ccd8e13ba5e4e3f7c1e95e90de6500b52,"Use path of socket consistently accross document. (#1976)
+
+* #1975 Use location of socket consistently accross document.",OrangeTux,https://api.github.com/repos/pallets/flask/git/commits/e6d7a43ccd8e13ba5e4e3f7c1e95e90de6500b52
+0f1cf50f97a617114078be3dbae3152339ff13ad,adding in try around __import__ to catch invalid files/paths (#1950),nateprewitt,https://api.github.com/repos/pallets/flask/git/commits/0f1cf50f97a617114078be3dbae3152339ff13ad
+c4139e0e5de5ffa8f103956bdcc1ca7cf9e500fd,JSON support for the Flask test client,adambyrtek,https://api.github.com/repos/pallets/flask/git/commits/c4139e0e5de5ffa8f103956bdcc1ca7cf9e500fd
+5044f3d6101e5915963a497779b6ad1166a7a388,"Update testing.rst (#1987)
+
+Python 3.4.2
+TypeError: Type str doesn't support the buffer API",teichopsia-,https://api.github.com/repos/pallets/flask/git/commits/5044f3d6101e5915963a497779b6ad1166a7a388
+55bd39c7f05e0845121028e143339f1092cbc9bb,"Update for python3 (#1973)
+
+just updated print 'Initialized the database.' with print('Initialized the database.') to be python3 compliant",SaturnR,https://api.github.com/repos/pallets/flask/git/commits/55bd39c7f05e0845121028e143339f1092cbc9bb
+3313b8b0a4bd60768b047648365bffd952411d17,Use the correct Celery result backend setting,sanderl-mediamonks,https://api.github.com/repos/pallets/flask/git/commits/3313b8b0a4bd60768b047648365bffd952411d17
+6e6c3a4636387892e3725f1ba13457966c188b87,"Spelling (#1998)
+
+* spelling: cacheability
+
+* spelling: conceptually
+
+* spelling: javascript
+
+* spelling: reset
+
+* spelling: raised
+
+* comma: instead..., they...",jsoref,https://api.github.com/repos/pallets/flask/git/commits/6e6c3a4636387892e3725f1ba13457966c188b87
+96b6345c1a187e3ae78e0e4faa4a1afc1a8cc69f,Fix small grammar error (Of/Or) (#2001),pheanex,https://api.github.com/repos/pallets/flask/git/commits/96b6345c1a187e3ae78e0e4faa4a1afc1a8cc69f
+92ce20eeacf5de24803abaf70a3658806fa4d74f,"Fix error in send_file helper (#2003)
+
+* Fix error in send_file (mimetype_filename is not defined)
+
+* fix formatting error message in send_file",r-m-n,https://api.github.com/repos/pallets/flask/git/commits/92ce20eeacf5de24803abaf70a3658806fa4d74f
+ccd02bfe8c90ee8dbf30cc2be61a7d483ff24cab,Correcting Custom Test Client class docs (#2004),aqueiros,https://api.github.com/repos/pallets/flask/git/commits/ccd02bfe8c90ee8dbf30cc2be61a7d483ff24cab
+c687ffb1921ce755eb32e105c4f689c0cb4afd81,Fixed error in errorhandler doc string. (#2014),iakbar,https://api.github.com/repos/pallets/flask/git/commits/c687ffb1921ce755eb32e105c4f689c0cb4afd81
+c54c538c1148c07df808acf701776f6db180302f,fixed deprecated syntax in setup.cfg (#2015),drewja,https://api.github.com/repos/pallets/flask/git/commits/c54c538c1148c07df808acf701776f6db180302f
+2b4761599873e08a21d835427269a84def0d4ea6,"Fix typo in docs
+
+Also added one missing comma for readability",pablogamboa,https://api.github.com/repos/pallets/flask/git/commits/2b4761599873e08a21d835427269a84def0d4ea6
+09fec941f4a1a69d6e1ad793a6a9c0e3df17d8d1,Removed unused import. (#2026),Thalmann,https://api.github.com/repos/pallets/flask/git/commits/09fec941f4a1a69d6e1ad793a6a9c0e3df17d8d1
+a6a36ec72a1f65514e137b0f21708e8c61dbe4ba,Updated mod_wsgi.rst to point to new mod_wsgi repo (#2038),dougthor42,https://api.github.com/repos/pallets/flask/git/commits/a6a36ec72a1f65514e137b0f21708e8c61dbe4ba
+f3d661de6676125bc765e286c5dd89e3e10ad82d,Fix unbound error (#2039),dongweiming,https://api.github.com/repos/pallets/flask/git/commits/f3d661de6676125bc765e286c5dd89e3e10ad82d
+7186a5aaf571e1d08a617138867998cbea518522,"make use of range requests if available in werkzeug (#2031)
+
+* make use of range requests if available in werkzeug
+
+* different logic for testing werkzeug functionality",magne4000,https://api.github.com/repos/pallets/flask/git/commits/7186a5aaf571e1d08a617138867998cbea518522
+49ecc88d9949bed6297944cb4a3d115fa9727aab,"Remove `-a/--app` from Quickstart documentation (#2046)
+
+* Remove `-a/--app` from Quickstart documentation
+
+As mentioned in #2009, simplifying the CLI saw the removal of the `-a/--app` flag. Therefore, the only way to specify the module to import is by setting `FLASK_APP`.
+
+* Remove misleading `either` from CLI help
+
+The CLI help details how to run the application, but still uses the phrasing ""either through the `FLASK_APP`..."". This likely is an artifact from when `-a/--app` was still present in the CLI.",mrecachinas,https://api.github.com/repos/pallets/flask/git/commits/49ecc88d9949bed6297944cb4a3d115fa9727aab
+cd13a5cf6215914ba4c3e0963d2189fe19fed508,Fix #2051: Fix flaskr import in flaskr/__init__.py (#2052),Heasummn,https://api.github.com/repos/pallets/flask/git/commits/cd13a5cf6215914ba4c3e0963d2189fe19fed508
+2b03eca1b791c1f88a46b42c83b62214eb0f04c2,"Updated Celery pattern
+The given pattern caused Celery to lose the current Context",geoffreybauduin,https://api.github.com/repos/pallets/flask/git/commits/2b03eca1b791c1f88a46b42c83b62214eb0f04c2
+d25c801a3b95551fd03eae82f916f92460cc2b34,"add 'caution' section to docs, workaround for zero-padded file modes (#2057)
+
+Fix #2029",Purring,https://api.github.com/repos/pallets/flask/git/commits/d25c801a3b95551fd03eae82f916f92460cc2b34
+cb30a3b5628616c6d34c210eb429650f09c75334,Update docstring for errorhandler() (#2070),clenimar,https://api.github.com/repos/pallets/flask/git/commits/cb30a3b5628616c6d34c210eb429650f09c75334
+11809bf1d2f8536a9a50942ddc2bd2b64b595199,"Add license_file to setup.cfg metadata (#2024)
+
+Without this, the LICENSE file is never included in the built wheels: this makes it harder for users to comply with the license.
+With this addition a file LICENSE.txt will be created in the `xxx.dist-info` directory with the content of the `license_file` file, e.g. the top level LICENSE.",pombredanne,https://api.github.com/repos/pallets/flask/git/commits/11809bf1d2f8536a9a50942ddc2bd2b64b595199
+9685d14eaa78de991e80db41e839fe5e932ee95f,Correct grammar (#2061),sjbrown,https://api.github.com/repos/pallets/flask/git/commits/9685d14eaa78de991e80db41e839fe5e932ee95f
+bbe58a4944d67087b5cf59b54aa31a8834055187,Update errorhandling.rst (#2074),kumabotz,https://api.github.com/repos/pallets/flask/git/commits/bbe58a4944d67087b5cf59b54aa31a8834055187
+281c9c3ff9f4a49960c07b23cad4554a5c349272,Added a link to instructions for PythonAnywhere (#2081),gpjt,https://api.github.com/repos/pallets/flask/git/commits/281c9c3ff9f4a49960c07b23cad4554a5c349272
+4a8bf651d9177fbe745fddd1aa2ab098b0670437,Add link to AWS EB Flask tutorial,ezramorris,https://api.github.com/repos/pallets/flask/git/commits/4a8bf651d9177fbe745fddd1aa2ab098b0670437
+7f288371674b420ac2df8ff2313e3b469662ee41,"Update README for minitwit (#2119)
+
+add step 2 to run minitwit",Hopsken,https://api.github.com/repos/pallets/flask/git/commits/7f288371674b420ac2df8ff2313e3b469662ee41
+0e79aba40d2497218736448ced708fcf4f8943b3,use dict instead of if/else logic (#2093),r0fls,https://api.github.com/repos/pallets/flask/git/commits/0e79aba40d2497218736448ced708fcf4f8943b3
+36425d5f91b57210f7707de9564377fea93825b2,"Ignore cache on request.get_json(cache=False) call (#2089)
+
+* Test cache argument of Request.get_json
+
+* Ignore cache on request.get_json(cache=False) call
+
+Removes usage of `_cached_json` property when `get_json` is called with
+disabled cache argument. (closes #2087)",jirikuncar,https://api.github.com/repos/pallets/flask/git/commits/36425d5f91b57210f7707de9564377fea93825b2
+079d752ceca6ea28d953198d643c2cdd1f895531,Update Flask-SQLAlchemy link (#2126),gliptak,https://api.github.com/repos/pallets/flask/git/commits/079d752ceca6ea28d953198d643c2cdd1f895531
+0832e77b145b226bac4ee82144221800a0f7d34a,prevent NoAppException when ImportError occurs within imported module,pawl,https://api.github.com/repos/pallets/flask/git/commits/0832e77b145b226bac4ee82144221800a0f7d34a
+09973a7387d6239bae310af6c1d580f191b47c0a,"Fix fastcgi lighttpd example documentation. (#2138)
+
+Add a trailing slash to the dummy path in the fastcgi lighttpd setup
+documentation. Omitting a trailing slash leads to unintended behavior.",brycepg,https://api.github.com/repos/pallets/flask/git/commits/09973a7387d6239bae310af6c1d580f191b47c0a
+9dcfd05d295574488bd0c3644599d1e97dcca3da,"Use SOURCE_DATE_EPOCH for copyright year to make build reproducible
+
+Details: https://wiki.debian.org/ReproducibleBuilds/TimestampsProposal",onovy,https://api.github.com/repos/pallets/flask/git/commits/9dcfd05d295574488bd0c3644599d1e97dcca3da
+9900a72fe7992d873915af68f7d52148e738d032,"Fix Request Reference (#2151)
+
+Points flask.Request to appropriate place in the documentation.",barracks510,https://api.github.com/repos/pallets/flask/git/commits/9900a72fe7992d873915af68f7d52148e738d032
+3fc8be5a4e9c1db58dcc74d3d48bf70b6a8db932,"Disable debug when FLASK_DEBUG=False (#2155)
+
+Convert FLASK_DEBUG envvar to lower before test if in tuple",kblomqvist,https://api.github.com/repos/pallets/flask/git/commits/3fc8be5a4e9c1db58dcc74d3d48bf70b6a8db932
+f84fdadda9f675a3e94a042790e010be07927af4,"Update 4.4.3 HTTP Methods Example
+
+Otherwise it produces `ValueError: View function did not return a response`.",swanhtet1992,https://api.github.com/repos/pallets/flask/git/commits/f84fdadda9f675a3e94a042790e010be07927af4
+95db82f8f7df0acce7051a8dedf29b88e436f5ab,"py.test => pytest (#2173)
+
+py.test => pytest",vojtekb,https://api.github.com/repos/pallets/flask/git/commits/95db82f8f7df0acce7051a8dedf29b88e436f5ab
+eaba4a73aa1013db908ea07af6028056c4fde706,Fix typo in file header (jsonimpl => json),nficano,https://api.github.com/repos/pallets/flask/git/commits/eaba4a73aa1013db908ea07af6028056c4fde706
+dc5f48f587a93d1f921d9d7e06fa05fdea6151d9,Fix typo in docs/tutorial/templates.rst (#2186),combinatorist,https://api.github.com/repos/pallets/flask/git/commits/dc5f48f587a93d1f921d9d7e06fa05fdea6151d9
+8a8a60815294eb9d5db0c2d451c6c9d959c7c499,Move object_hook outside loads method so class can be extend and reused,s-block,https://api.github.com/repos/pallets/flask/git/commits/8a8a60815294eb9d5db0c2d451c6c9d959c7c499
+af11098057b022c172c1142f02e50cc3c4b065b4,Updated documentation for being able to use init_db method,SergioDS,https://api.github.com/repos/pallets/flask/git/commits/af11098057b022c172c1142f02e50cc3c4b065b4
+fca5577a0097e876e8f8e8d2f3961a40fa44bbeb,Remove extra HTML tag from fileupload docs (#2141),prmtl,https://api.github.com/repos/pallets/flask/git/commits/fca5577a0097e876e8f8e8d2f3961a40fa44bbeb
+c43560777a3efeaeaf0eb47568171f04103dc363,"Add tips for debug config with flask cli (#2196)
+
+* Add tips for debug config with flask cli
+
+`app.debug` and `app.config['DEBUG']` are not compatible with the `flask` script.
+
+* Grammar fix
+
+* Grammar fix",greyli,https://api.github.com/repos/pallets/flask/git/commits/c43560777a3efeaeaf0eb47568171f04103dc363
+06112a555a9398701d3269253355c214791e1eca,"Close <li> tag in tutorial (#2199)
+
+Change was merged in the example code but wasn't changed in the docs. https://github.com/pallets/flask/commit/c54d67adee6f99113f525b376da4af27c3001321",eltonlaw,https://api.github.com/repos/pallets/flask/git/commits/06112a555a9398701d3269253355c214791e1eca
+f5adb61b28f240effbba5a4686647c2af6e85b94,Fix typos/grammar in docs (#2201),staticfox,https://api.github.com/repos/pallets/flask/git/commits/f5adb61b28f240effbba5a4686647c2af6e85b94
+a7f1a21c1204828388eaed1e3903a74c904c8147,"Don't rely on X-Requested-With for pretty print json response (#2193)
+
+* Don't rely on X-Requested-With for pretty print json response
+
+* Fix test cases for pretty print json patch
+
+* Fix gramma error in docs for pretty print json config
+
+* Add changelog for JSONIFY_PRETTYPRINT_REGULAR",lepture,https://api.github.com/repos/pallets/flask/git/commits/a7f1a21c1204828388eaed1e3903a74c904c8147
+7a5e8ef38e0f4f110b7739253308a3356b13b0de,Fix broken link (#2202),BenRuns,https://api.github.com/repos/pallets/flask/git/commits/7a5e8ef38e0f4f110b7739253308a3356b13b0de
+1add1f8a02976e070660d9ae0b877bc3f8a36e86,"Use print function in quickstart (#2204)
+
+Example in URL Building section uses `print` statement
+instead of `print` function, which causes syntax error
+when example is run on Python 3.",iref,https://api.github.com/repos/pallets/flask/git/commits/1add1f8a02976e070660d9ae0b877bc3f8a36e86
+2995366dde63b8acd1f246bcd5a4cf7d61f0c1fa,Clarify APPLICATION_ROOT #1714,Larivact,https://api.github.com/repos/pallets/flask/git/commits/2995366dde63b8acd1f246bcd5a4cf7d61f0c1fa
+889c0ed1964f48557e532f95f9003c5ee6e2b727,Issue #2212: documentation: virtualenv and python3,runar-rkmedia,https://api.github.com/repos/pallets/flask/git/commits/889c0ed1964f48557e532f95f9003c5ee6e2b727
+7a7a163ff18c4491b8c2a6cd0630a6f4e4ce2984,"shorten output when ImportError due to app bug.
+
+Before:
+```
+C:\dev\tmp>py -2 -m flask run
+Traceback (most recent call last):
+  File ""C:\Python27\lib\runpy.py"", line 174, in _run_module_as_main
+    ""__main__"", fname, loader, pkg_name)
+  File ""C:\Python27\lib\runpy.py"", line 72, in _run_code
+    exec code in run_globals
+  File ""c:\dev\sourcetree\flask\flask\__main__.py"", line 15, in <module>
+    main(as_module=True)
+  File ""c:\dev\sourcetree\flask\flask\cli.py"", line 523, in main
+    cli.main(args=args, prog_name=name)
+  File ""c:\dev\sourcetree\flask\flask\cli.py"", line 383, in main
+    return AppGroup.main(self, *args, **kwargs)
+  File ""C:\Python27\lib\site-packages\click\core.py"", line 697, in main
+    rv = self.invoke(ctx)
+  File ""C:\Python27\lib\site-packages\click\core.py"", line 1066, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File ""C:\Python27\lib\site-packages\click\core.py"", line 895, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File ""C:\Python27\lib\site-packages\click\core.py"", line 535, in invoke
+    return callback(*args, **kwargs)
+  File ""C:\Python27\lib\site-packages\click\decorators.py"", line 64, in new_func
+    return ctx.invoke(f, obj, *args[1:], **kwargs)
+  File ""C:\Python27\lib\site-packages\click\core.py"", line 535, in invoke
+    return callback(*args, **kwargs)
+  File ""c:\dev\sourcetree\flask\flask\cli.py"", line 433, in run_command
+    app = DispatchingApp(info.load_app, use_eager_loading=eager_loading)
+  File ""c:\dev\sourcetree\flask\flask\cli.py"", line 153, in __init__
+    self._load_unlocked()
+  File ""c:\dev\sourcetree\flask\flask\cli.py"", line 177, in _load_unlocked
+    self._app = rv = self.loader()
+  File ""c:\dev\sourcetree\flask\flask\cli.py"", line 238, in load_app
+    rv = locate_app(self.app_import_path)
+  File ""c:\dev\sourcetree\flask\flask\cli.py"", line 91, in locate_app
+    __import__(module)
+  File ""C:\dev\tmp\error.py"", line 1, in <module>
+    import whatisthisidonteven
+ImportError: No module named whatisthisidonteven
+```
+
+After:
+```
+C:\dev\tmp>py -2 -m flask run
+Usage: python -m flask run [OPTIONS]
+
+Error: There was an error trying to import the app (error):
+Traceback (most recent call last):
+  File ""c:\dev\sourcetree\flask\flask\cli.py"", line 91, in locate_app
+    __import__(module)
+  File ""C:\dev\tmp\error.py"", line 1, in <module>
+    import whatisthisidonteven
+ImportError: No module named whatisthisidonteven```",edbrannin,https://api.github.com/repos/pallets/flask/git/commits/7a7a163ff18c4491b8c2a6cd0630a6f4e4ce2984
+0049922f2e690a6d58f335ca9196c95f1de84370,"Fix send_file to work with non-ascii filenames
+
+This commit implements https://tools.ietf.org/html/rfc2231#section-4 in
+order to support sending unicode characters. Tested on both Firefox and
+Chromium under Linux.
+
+This adds unidecode as a dependency, which might be relaxed by using
+.encode('latin-1', 'ignore') but wouldn't be as useful.
+
+Also, added a test for the correct headers to be added.
+
+Previously, using a filename parameter to send_file with unicode characters, it
+failed with the next error since HTTP headers don't allow non latin-1 characters.
+Error on request:
+Traceback (most recent call last):
+  File ""/usr/lib/python3.6/site-packages/werkzeug/serving.py"", line 193, in run_wsgi
+    execute(self.server.app)
+  File ""/usr/lib/python3.6/site-packages/werkzeug/serving.py"", line 186, in execute
+    write(b'')
+  File ""/usr/lib/python3.6/site-packages/werkzeug/serving.py"", line 152, in write
+    self.send_header(key, value)
+  File ""/usr/lib64/python3.6/http/server.py"", line 509, in send_header
+    (""%s: %s\r\n"" % (keyword, value)).encode('latin-1', 'strict'))
+UnicodeEncodeError: 'latin-1' codec can't encode character '\uff0f' in position 58: ordinal not in range(256)
+
+Fixes #1286",antlarr,https://api.github.com/repos/pallets/flask/git/commits/0049922f2e690a6d58f335ca9196c95f1de84370
+1d4448abe335741c61b3c8c5f99e1607a13f7e3d,"Handle BaseExceptions (#2222)
+
+* Handle BaseExceptions
+
+* Add test and changes
+
+* Make test more idiomatic",Diggsey,https://api.github.com/repos/pallets/flask/git/commits/1d4448abe335741c61b3c8c5f99e1607a13f7e3d
+ae1ac2053bcf0c77de32fc7915e36f8ca2f5c961,"Correct imports in file upload example (#2230)
+
+The example code uses `flash` but doesn't import it. So the code as written doesn't work.
+
+This simply adds `flash` to the list of imports in the sample code.",ageitgey,https://api.github.com/repos/pallets/flask/git/commits/ae1ac2053bcf0c77de32fc7915e36f8ca2f5c961
+d76d68cd381df4a8c3e2e636c98b5bfa02ab37e4,"Update out of date jsonify documentation
+
+https://github.com/pallets/flask/pull/2193 changed the conditions for when jsonify pretty prints, but this comment wasn't updated.",asilversempirical,https://api.github.com/repos/pallets/flask/git/commits/d76d68cd381df4a8c3e2e636c98b5bfa02ab37e4
+00d6e339ec789e7b92007297e840a671a5e38a7b,"Change Flask.__init__ to accept two new keyword arguments, host_matching and static_host. (#1560)
+
+This enables host_matching to be set properly by the time the constructor adds
+the static route, and enables the static route to be properly associated with
+the required host.
+
+Previously, you could only enable host_matching once your app was already
+instantiated (e.g. app.url_map.host_matching = True), but at that point
+the constructor would have already added the static route without host matching
+and an associated host, leaving the static route in a broken state.
+
+Fixes #1559.",jab,https://api.github.com/repos/pallets/flask/git/commits/00d6e339ec789e7b92007297e840a671a5e38a7b
+e13eaeeaf2a3502815bcf04a86227dae87ad9128,Fix typo in docs (#2237),ka7,https://api.github.com/repos/pallets/flask/git/commits/e13eaeeaf2a3502815bcf04a86227dae87ad9128
+7481844c98e4536ae01764aa08eec681c493ef2e,Fix typo in app.py (#2248),sobolevn,https://api.github.com/repos/pallets/flask/git/commits/7481844c98e4536ae01764aa08eec681c493ef2e
+19fbe3a18f36b02f22f8f545e015f60343c844ac,Add scheme to url_build error handler parameters,rocambolesque,https://api.github.com/repos/pallets/flask/git/commits/19fbe3a18f36b02f22f8f545e015f60343c844ac
+6032c94aeb090c82ac99b9f886341f61c73b65d0,"Mention existence of register_error_handler in errorpages.rst
+
+See https://github.com/pallets/flask/issues/1837 for context.",liebald,https://api.github.com/repos/pallets/flask/git/commits/6032c94aeb090c82ac99b9f886341f61c73b65d0
+160999e88241137c73aaa49e352dcbf2829fad5a,Removed unused import,pigletfly,https://api.github.com/repos/pallets/flask/git/commits/160999e88241137c73aaa49e352dcbf2829fad5a
+dfb03c5673e97ee95289b844c13dbf506ea99e71,"Improve Routing section
+
+Edited the entire section for clarity and concision. I rewrote sentences
+to make them shorter and to reduce ambiguity.
+
+Added a code sample to show the path converter type
+
+Removed the HTTP method overview. Although it was well written, the
+overview wasn't necessary in the quickstart. Readers can easily find an
+overview elsewhere.",jlara310,https://api.github.com/repos/pallets/flask/git/commits/dfb03c5673e97ee95289b844c13dbf506ea99e71
+c3d49e29ea42d2f468bc780c15683ca197b50d02,"show warning if session cookie domain is ip
+closes #2007",jjoliveira,https://api.github.com/repos/pallets/flask/git/commits/c3d49e29ea42d2f468bc780c15683ca197b50d02
+c590e820aadb9134a7fb19fe32c8ddae37199ec3,Updated documentation. Replaced term development mode with debug mode. #2261,tullyrankin,https://api.github.com/repos/pallets/flask/git/commits/c590e820aadb9134a7fb19fe32c8ddae37199ec3
+ced719ea18a56f6c4075e08dbe05f0e77eac1866,Auto-detect create_app and make_app factory functions,HndrkMkt,https://api.github.com/repos/pallets/flask/git/commits/ced719ea18a56f6c4075e08dbe05f0e77eac1866
+6f49089a624a13353a07db87aff5fe6f01699728,Added tests for make_response and get_debug_flag to improve coverage of helpers.py,MikeTheReader,https://api.github.com/repos/pallets/flask/git/commits/6f49089a624a13353a07db87aff5fe6f01699728
+65fc888172fbff89a8354e8926a69b4515766389,For Issue #2286: Replaces references to unittest in the documentation with pytest,neilvictorgrey,https://api.github.com/repos/pallets/flask/git/commits/65fc888172fbff89a8354e8926a69b4515766389
+8459cedaa94445fd17b223aed16312f5da2f76ac,Add security headers notes,aqt01,https://api.github.com/repos/pallets/flask/git/commits/8459cedaa94445fd17b223aed16312f5da2f76ac
+11d2eec3acb7d0cf291b572e3b6b493df5fadc6b,Fix refactoring error in static_folder docstring (#2310),kislyuk,https://api.github.com/repos/pallets/flask/git/commits/11d2eec3acb7d0cf291b572e3b6b493df5fadc6b
+2339f1f24e29adfd263cb6ebcb98c09ecb4396d9,making some updates to the CONTRIBUTING.rst,sorech02,https://api.github.com/repos/pallets/flask/git/commits/2339f1f24e29adfd263cb6ebcb98c09ecb4396d9
+5963cb5a5172bce3a1ff7b0f8c64230f043c9cfd,Use the yield syntax in pytest's fixtures,bovarysme,https://api.github.com/repos/pallets/flask/git/commits/5963cb5a5172bce3a1ff7b0f8c64230f043c9cfd
+668061a5fc928a5055815acf818b02baf1aef37b,"Register errorhandlers for Exceptions
+
+Allow a default errorhandler by registering
+an errorhandler for HTTPException
+
+tests included",sumpfgottheit,https://api.github.com/repos/pallets/flask/git/commits/668061a5fc928a5055815acf818b02baf1aef37b
+637eae548935ad1434459c1afac286c8686abeed,"Added support for generic HTTPException handlers on app and blueprints
+
+Error handlers are now returned in order of blueprint:code, app:code,
+blueprint:HTTPException, app:HTTPException, None
+
+Corresponding tests also added.
+
+Ref issue #941, pr #1383, #2082, #2144",cerickson,https://api.github.com/repos/pallets/flask/git/commits/637eae548935ad1434459c1afac286c8686abeed
+954d9ca0b8519ee651daba64ca9292aaa74fff0d,Added documentation for PowerShell environment variables,leviroth,https://api.github.com/repos/pallets/flask/git/commits/954d9ca0b8519ee651daba64ca9292aaa74fff0d
+5b0b9717da958fd6325c675d92be4f6667796112,"DRYing up the test suite using pytest fixtures (#2306)
+
+* add fixtures to conftest.py
+
+* use fixtures in test_appctx.py
+
+* use fixtures in test_blueprints.py
+
+* use fixtures in test_depreciations.py
+
+* use fixtures in test_regressions.py
+
+* use fixtures in test_reqctx.py
+
+* use fixtures in test_templating.py
+
+* use fixtures in test_user_error_handler.py
+
+* use fixtures in test_views.py
+
+* use fixtures in test_basics.py
+
+* use fixtures in test_helpers.py
+
+* use fixtures in test_testing.py
+
+* update conftest.py
+
+* make docstrings  PEP-257 compliant
+
+* cleanup
+
+* switch dictonary format
+
+* use pytest parameterization for test_json_as_unicode",Tafkas,https://api.github.com/repos/pallets/flask/git/commits/5b0b9717da958fd6325c675d92be4f6667796112
+d05862574f1ea19d99526ca893be2888389eab1c,Update click dependency info.,markshannon,https://api.github.com/repos/pallets/flask/git/commits/d05862574f1ea19d99526ca893be2888389eab1c
+2eb28165a9f5610aba2dea24086a53ad89dc66ce,Bundling 'test_greenlet_context_copying' functions into a new class in tests/test_reqctx.py.,rzelayafavila,https://api.github.com/repos/pallets/flask/git/commits/2eb28165a9f5610aba2dea24086a53ad89dc66ce
+50c6df709800ac7504b71209564c8ce5b746d2b8,Minor edits to tutorial for clarity. (#2330),openmorse,https://api.github.com/repos/pallets/flask/git/commits/50c6df709800ac7504b71209564c8ce5b746d2b8
+e7cd68ba58b78309a342fbce68f6ef1edef3e5e5,Don't overwrite Vary header when setting for cookie access #2317,nnja,https://api.github.com/repos/pallets/flask/git/commits/e7cd68ba58b78309a342fbce68f6ef1edef3e5e5
+7e14f6706aa1e1edd95b2210627b20c3148ea2d7,Fix typo,D4D3VD4V3,https://api.github.com/repos/pallets/flask/git/commits/7e14f6706aa1e1edd95b2210627b20c3148ea2d7
+749ef018310225b74a46116793bc3d37a1dfebb9,"Missing Space
+
+Smallest PR ever, but that missing space has been annoying me for a very long time.",zebpalmer,https://api.github.com/repos/pallets/flask/git/commits/749ef018310225b74a46116793bc3d37a1dfebb9
+4f689c41d9d5aa1161b185de9bd7fb6d85b6cc25,#2341: Accept default argument value when args lenght equal 1,jrbaez01,https://api.github.com/repos/pallets/flask/git/commits/4f689c41d9d5aa1161b185de9bd7fb6d85b6cc25
+daf85d3725516a17e474b143d6d67b95140db285,"Clarify documentation for json parsing
+
+Documentation does not currently mention that is_json accepts mimetypes that are not strictly application/json.",grantwwu,https://api.github.com/repos/pallets/flask/git/commits/daf85d3725516a17e474b143d6d67b95140db285
+067686b471cec18a886240c33408a118449776de,Add basic how-to on using envvars for config,tristanfisher,https://api.github.com/repos/pallets/flask/git/commits/067686b471cec18a886240c33408a118449776de
+cf425403c8ff24623812a46272dc91f712ed5086,Remove duplicate word from docstring,grahamlutz,https://api.github.com/repos/pallets/flask/git/commits/cf425403c8ff24623812a46272dc91f712ed5086
+bfc2ee7dfdfdb5fd68be208babd896f93194b7b4,removed bug in memory sqlite uri,trirpi,https://api.github.com/repos/pallets/flask/git/commits/bfc2ee7dfdfdb5fd68be208babd896f93194b7b4
+75327c0a8500ca2e90e974dfda2ab8e170de65ff,Remove deprecated init_jinja_globals.,JohnMoutafis,https://api.github.com/repos/pallets/flask/git/commits/75327c0a8500ca2e90e974dfda2ab8e170de65ff
+5909e26fba86351063bd622cedf6a4c25eba2e79,Remove unused import from test_basic (#2403),wdhorton,https://api.github.com/repos/pallets/flask/git/commits/5909e26fba86351063bd622cedf6a4c25eba2e79
+a417e41d27cc14a0fe74dc49840b8921aeed70b6,Update documentation and regression tests to clarify that Flask.teardown_appcontext() only receives unhandled exceptions,bijanvakili,https://api.github.com/repos/pallets/flask/git/commits/a417e41d27cc14a0fe74dc49840b8921aeed70b6
+8e2ef5bde3a00603cca02e3fef8ffbdb665f5fbe,Fix typo in docs (#2419),asmith26,https://api.github.com/repos/pallets/flask/git/commits/8e2ef5bde3a00603cca02e3fef8ffbdb665f5fbe
+392989aaa7f6f5e90a623845cb859451b207ca93,corrected indentations for pypa description,hallazzang,https://api.github.com/repos/pallets/flask/git/commits/392989aaa7f6f5e90a623845cb859451b207ca93
+7640a1f1c9ff47798d9bc31d0e80af0a024e8936,Add version warning,brennv,https://api.github.com/repos/pallets/flask/git/commits/7640a1f1c9ff47798d9bc31d0e80af0a024e8936
+7c510199850957161240f081359e2246d8982be1,Fix typos and formatting,thomasoflight,https://api.github.com/repos/pallets/flask/git/commits/7c510199850957161240f081359e2246d8982be1
+154c62123737a6ff047a2b4b8e3b58f75f9dfc95,Update debugger and flaskr screenshots (#2454),alemangui,https://api.github.com/repos/pallets/flask/git/commits/154c62123737a6ff047a2b4b8e3b58f75f9dfc95
+e4928323f2fd278ef3ab119a9cfccabfd69b04cd,"Update App Engine link
+
+Point to an authoritative site for Flask on App Engine that is maintained.",devlance,https://api.github.com/repos/pallets/flask/git/commits/e4928323f2fd278ef3ab119a9cfccabfd69b04cd
+62a6aabc8db72f2e606529d6e9b2146596b0d515,"Mention Flask instead of Jinja in the issue template
+
+For people not really comfortable with the flask ecosystem this can be really confusing.",jaapz,https://api.github.com/repos/pallets/flask/git/commits/62a6aabc8db72f2e606529d6e9b2146596b0d515
+ff8f525fb30ccaf1a3af6f6694c1d6385221731c,"[ImgBot] optimizes images
+\docs\_static\no.png (18.3%))
+\docs\_static\touch-icon.png (64.21%))
+\docs\_static\flaskr.png (8.32%))
+\docs\_static\pycharm-runconfig.png (14.65%))
+\docs\_static\debugger.png (2.79%))
+\docs\_static\flask.png (30.15%))
+\docs\_static\yes.png (13%))
+\docs\_static\logo-full.png (29.33%))",ImgBotApp,https://api.github.com/repos/pallets/flask/git/commits/ff8f525fb30ccaf1a3af6f6694c1d6385221731c
+0a1090890f8425a69e5b004aceb04fd7527b8e35,"Add additional information in the url_rule docs (#2467)
+
+If a user is making use of the errorhandler(405) decorator, and
+they wish to include an Allow header (as per HTTP spec), they may
+be confused to find that url_rule is None. This doc change aims to
+clarify that because the request was never successfully matched,
+it was never bound to a URL rule and to access the valid methods,
+they must examine routing_exception.",henrycjc,https://api.github.com/repos/pallets/flask/git/commits/0a1090890f8425a69e5b004aceb04fd7527b8e35
+2f57a0b917478a028859b9d036b59cf1bba6cad2,Blueprint view function name should not contain dots,Caratpine,https://api.github.com/repos/pallets/flask/git/commits/2f57a0b917478a028859b9d036b59cf1bba6cad2
+c3527144780772a22effd718654ca6ad472aaae0,Fix grammar/typos,mrnom,https://api.github.com/repos/pallets/flask/git/commits/c3527144780772a22effd718654ca6ad472aaae0
+9291ead32e2fc8b13cef825186c968944e9ff344,"Fix typo in logging.rst (#2492)
+
+Remove extra parenthesis from RequestFormatter constructor.",rgerganov,https://api.github.com/repos/pallets/flask/git/commits/9291ead32e2fc8b13cef825186c968944e9ff344
+e3c853e60401bccf1564bee19dda7a3b41602ff9,Fix typo in cli.py (#2502),roysc,https://api.github.com/repos/pallets/flask/git/commits/e3c853e60401bccf1564bee19dda7a3b41602ff9
+f8321de36990faf199e050f4509077752264afca,Remove IRC notifications,hugovk,https://api.github.com/repos/pallets/flask/git/commits/f8321de36990faf199e050f4509077752264afca
+50964fb4ab62fa857e9937656424d7e6ac9e738d,Minor fix in flaskr example README,domandinho,https://api.github.com/repos/pallets/flask/git/commits/50964fb4ab62fa857e9937656424d7e6ac9e738d
+110a7525658902a586da751bcdf9780690c089b2,Update Twisted Web example,proog,https://api.github.com/repos/pallets/flask/git/commits/110a7525658902a586da751bcdf9780690c089b2
+601cd90fdbb76f972442f3841a2f4d25e5d6f200,update pycharm instructions,nsiregar,https://api.github.com/repos/pallets/flask/git/commits/601cd90fdbb76f972442f3841a2f4d25e5d6f200
+d08d96acbcabcde23307ed060f71f95ba9cb7b8d,"Fix code example for HTTP Methods
+
+`return` is required to make 'http methods' example work",vkroz,https://api.github.com/repos/pallets/flask/git/commits/d08d96acbcabcde23307ed060f71f95ba9cb7b8d
+2d2c0169d47a5345dada2c96b4a445c570f7c112,"Fix docs, how to get db connection in pattern
+
+The docs are inaccurately suggestion a db connection would be available at `g.db`, after calling `get_db()` a connection will be available at `g._database` but even then I think instructing the user to use `get_db()` is the best way forward.",morenoh149,https://api.github.com/repos/pallets/flask/git/commits/2d2c0169d47a5345dada2c96b4a445c570f7c112
+e30c39fe78cb8d3fe8379f032b66f7719b2e99c5,fix non-passing tests for logging on pytest > 3.3.0,camilojimenez,https://api.github.com/repos/pallets/flask/git/commits/e30c39fe78cb8d3fe8379f032b66f7719b2e99c5
+a9646716d25c1705cfa33561d41482ba0e1c06d4,Fix typo in example.,Nickatak,https://api.github.com/repos/pallets/flask/git/commits/a9646716d25c1705cfa33561d41482ba0e1c06d4
+a1d9ebe4abebdb824aa9a397b001de5f9130e7a3,New Feature: Added Support for cookie's SameSite attribute.,FadhelC,https://api.github.com/repos/pallets/flask/git/commits/a1d9ebe4abebdb824aa9a397b001de5f9130e7a3
+575021c07be6b168ca4c3664ea484248c9ffe960,"Fix docs for test_request_context
+
+Fixes #2627.",sersorrel,https://api.github.com/repos/pallets/flask/git/commits/575021c07be6b168ca4c3664ea484248c9ffe960
+0887245bfde8e5d65cc3d807dc574a0a07511eb4,"Add re.sub for blueprint add_url_rule handler, prevent '/a//b/'(blueprint.url_prefix='/a/' and the route is '/b/') happened.",zcchen,https://api.github.com/repos/pallets/flask/git/commits/0887245bfde8e5d65cc3d807dc574a0a07511eb4
+171eb28c950969260863cacefa2f08d1590ce839,get_json separate cache depending on silent arg,vimfun,https://api.github.com/repos/pallets/flask/git/commits/171eb28c950969260863cacefa2f08d1590ce839
+8f5168cb31a34c54c9a751cb386b8615e03fb148,Add explicit `(lazy loading)` message to `flask run` related to #2706,rochacbruno,https://api.github.com/repos/pallets/flask/git/commits/8f5168cb31a34c54c9a751cb386b8615e03fb148
+fc6a1d9354124690e632323d46ee35c3b8c9c8d2,"Fix default index for TaggedJSONSerializer.register()
+
+Change the default value of ``index`` to ``None`` in ``register()`` so
+that it is possible to insert a new tag as the penultimate item in the
+order list.",pope1ni,https://api.github.com/repos/pallets/flask/git/commits/fc6a1d9354124690e632323d46ee35c3b8c9c8d2
+86a9177f4b5b337ab27af6e50089bd745f73ec4e,Add LICENSE in README,filipefilardi,https://api.github.com/repos/pallets/flask/git/commits/86a9177f4b5b337ab27af6e50089bd745f73ec4e
+732c5b0509a8138a504d48a8c5e0be493f1ed603,Add `python_requires` metadata for PyPI,wimglenn,https://api.github.com/repos/pallets/flask/git/commits/732c5b0509a8138a504d48a8c5e0be493f1ed603
+a2536e1bdb2e42656325a57d727da4b666e6390d,Added short note about Werkzeug redirect behaviour,Dunstrom,https://api.github.com/repos/pallets/flask/git/commits/a2536e1bdb2e42656325a57d727da4b666e6390d
+ad1ce2721b4af0a48cfba6d5f22324d93d7db036,"Update config.rst
+
+Fix Debug Default: By default Debug is only True when ENV is 'development'",kivS,https://api.github.com/repos/pallets/flask/git/commits/ad1ce2721b4af0a48cfba6d5f22324d93d7db036
+9b6878af5a31583c9ed177f4c63789a66acd89c7,"document error on fileupload
+
+after file uploaded, it should redirect for uploaded_file page instead
+of upload page",red-alert,https://api.github.com/repos/pallets/flask/git/commits/9b6878af5a31583c9ed177f4c63789a66acd89c7
+104808b480aa33ed4df47a9ff0c202d9e11b1306,fix syntax error and typo in quickstart.rst,dmarasquin,https://api.github.com/repos/pallets/flask/git/commits/104808b480aa33ed4df47a9ff0c202d9e11b1306
+a6750079f87bf07b7bb061bd26a1d4be7448356e,add missing port to localhost URL,aaronchall,https://api.github.com/repos/pallets/flask/git/commits/a6750079f87bf07b7bb061bd26a1d4be7448356e
+676efcc21ae6d9ba16eccb53ee80394a90a377c2,Fixed LaTeX errors on documentation PDF generation,danielopitz,https://api.github.com/repos/pallets/flask/git/commits/676efcc21ae6d9ba16eccb53ee80394a90a377c2
+725f391399ffd4a59512d3933a78ceac715ba1a1,"docs: installation: Add link to Quickstart after install
+
+Once Flask is installed many users will want to proceed to the next section
+in the docs (Quickstart).  Add a link to the end of the Install section for
+this.",mgalgs,https://api.github.com/repos/pallets/flask/git/commits/725f391399ffd4a59512d3933a78ceac715ba1a1
+be8e0fcf102e3dad74f72a0a890130da42fcb8b5,"Remove now obsolete 'audit' command from Makefile
+
+When 'audit' was removed from setup.py, the corresponding shortcut was
+left in the Makefile. This commit removes the audit shortcut from
+Makefile.
+
+Closes #2773.",nicolaiarocci,https://api.github.com/repos/pallets/flask/git/commits/be8e0fcf102e3dad74f72a0a890130da42fcb8b5
+a913b4dafd1d85cfa1d8bafeea5417748de8d487,SSLContext was added in Python 2.7.9,briehanlombaard,https://api.github.com/repos/pallets/flask/git/commits/a913b4dafd1d85cfa1d8bafeea5417748de8d487
+c853d11fc508d46df3c59aa5edf6d2389a7da8b7,"Update gevent wsgi
+
+gevent.wsgi is deprecated since gevent 1.1 and removed in gevent 1.3. 
+gevent.pywsgi should be used instead",tiagocoutinho,https://api.github.com/repos/pallets/flask/git/commits/c853d11fc508d46df3c59aa5edf6d2389a7da8b7
+4ce44340d41f138b80db3bd1027e3ef76b604c01,"set FLASK_APP via env for portability across shells
+
+this does not work on fish (https://fishshell.com):
+$ FLASK_APP=hello.py flask run
+
+while this works (hopefully) on any shell:
+$ env FLASK_APP=hello.py flask run",bast,https://api.github.com/repos/pallets/flask/git/commits/4ce44340d41f138b80db3bd1027e3ef76b604c01
+8cdd01ea5da2f92c0108803618b168e128084858,Test added for _AppCtxGlobals __repr__ method,eso31,https://api.github.com/repos/pallets/flask/git/commits/8cdd01ea5da2f92c0108803618b168e128084858
+0b4296ff1740978e8451602a9719cc5fbfb39606,Fix typo in appcontext.rst,saulurias,https://api.github.com/repos/pallets/flask/git/commits/0b4296ff1740978e8451602a9719cc5fbfb39606
+d0088e63d8004b17d5dd762ac3de00841bd34c00,"add init-db call to flask tutorial
+
+otherwise the user is confronted with an unpleasant error
+message when accessing the dev server the first time",senarclens,https://api.github.com/repos/pallets/flask/git/commits/d0088e63d8004b17d5dd762ac3de00841bd34c00
+076dddb2e1d36edc35df5beecb9eacdcb0541e58,Fixed 2823,schafle,https://api.github.com/repos/pallets/flask/git/commits/076dddb2e1d36edc35df5beecb9eacdcb0541e58
+d362399e7ebfe167a27daef20e198ecabed1b49b,:fire: Remove code supposed to be removed at v1.0,gcrsaldanha,https://api.github.com/repos/pallets/flask/git/commits/d362399e7ebfe167a27daef20e198ecabed1b49b
+15b2301754187863eabd0b584c70955b5d3f31a3,"Fix grammatical error: incorrect verb conjugation
+
+Before: >However, as a project *get* bigger
+
+After: >However, as a project *gets* bigger",billfienberg,https://api.github.com/repos/pallets/flask/git/commits/15b2301754187863eabd0b584c70955b5d3f31a3
+72dfb67828be9da6407a3199782bd2e2ad2d44ff,Make explicit call-out to contributing guidelines in README,jwflory,https://api.github.com/repos/pallets/flask/git/commits/72dfb67828be9da6407a3199782bd2e2ad2d44ff
+c7791bb526be6bd95e0c5b4f710853fb84085a8a,"📚 Improve docs about ScriptInfo
+
+Improve documentation for the CLI using application factories and
+how/when the ScriptInfo object is passed with Application Discovery",jerr0328,https://api.github.com/repos/pallets/flask/git/commits/c7791bb526be6bd95e0c5b4f710853fb84085a8a
+f45ceec31f6b957fd5ab9db75a5a727a8f73289b,Fix grammatical error,cktan98,https://api.github.com/repos/pallets/flask/git/commits/f45ceec31f6b957fd5ab9db75a5a727a8f73289b
+b9b88b0cdf70190dee5c7d31a83efb1cae888a63,"doc reqcontext fix teardown example (#2892)
+
+* doc reqcontext fix teardown example
+
+* remove comments",Alexis-benoist,https://api.github.com/repos/pallets/flask/git/commits/b9b88b0cdf70190dee5c7d31a83efb1cae888a63
+3e86fd25e9638898618cda8352402f4281bf809b,fix issue: no theme named 'flask' found,garenchan,https://api.github.com/repos/pallets/flask/git/commits/3e86fd25e9638898618cda8352402f4281bf809b
+47dadcfe15160e5ffbb9cc107c50c232a17b463a,"fix @click.command example by adding parens
+
+Otherwise the example fails with the following error: 
+""name = name or cmd.name AttributeError: 'function' object has no attribute 'name'"". 
+
+More details: https://stackoverflow.com/a/51923415/4619705",loomchild,https://api.github.com/repos/pallets/flask/git/commits/47dadcfe15160e5ffbb9cc107c50c232a17b463a
+eae6440605b0e7e9a1f221ec0ac1b68b2f2dcd97,"Make script output into comments to not break syntax highlighting
+
+http://flask.pocoo.org/docs/1.0/quickstart/#url-building
+
+In the URL Building section of the quickstart, the script output is shown right after the code.
+
+This breaks syntax highlighting for the whole code-block. To fix this, I have made the output into comments.",tombusby,https://api.github.com/repos/pallets/flask/git/commits/eae6440605b0e7e9a1f221ec0ac1b68b2f2dcd97
+eef6c34b57bf0367c1f9468bc4226ab59a1295a0,Fix deferred callback doc,jangjunha,https://api.github.com/repos/pallets/flask/git/commits/eef6c34b57bf0367c1f9468bc4226ab59a1295a0
+f05625eb8239593daf755305e422b71d30c77054,Use https for external links wherever possible,codeaditya,https://api.github.com/repos/pallets/flask/git/commits/f05625eb8239593daf755305e422b71d30c77054
+43e2d7518d2e89dc7ed0b4ac49b2d20211ad1bfa,Fix inconsistency in testing doc.,cykerway,https://api.github.com/repos/pallets/flask/git/commits/43e2d7518d2e89dc7ed0b4ac49b2d20211ad1bfa
+e08bcf9f9700180a09f77f52604ea6de36fb83a8,"Fix #2935: Copy current session object in copy_current_request_context (#2936)
+
+Add session to RequestContext.copy()",dchevell,https://api.github.com/repos/pallets/flask/git/commits/e08bcf9f9700180a09f77f52604ea6de36fb83a8
+3bf80912cf959fe860528f75031fe9e4612e3848,"Update sentry error handling documentation (#2990)
+
+- Change examples to use the Sentry Python SDK: `sentry-sdk`
+- Removed the app factory pattern example
+- Added a custom exception handling example",atwalsh,https://api.github.com/repos/pallets/flask/git/commits/3bf80912cf959fe860528f75031fe9e4612e3848
+ed9775fb77bc2291473c176937326aadd435f73c,"Handle errors during create_url_adapter
+
+If create_url_adapter raises (which it can if werkzeug cannot bind
+environment, for example on non-ASCII Host header), we handle it as
+other routing exceptions rather than raising through.
+
+ref https://github.com/pallets/werkzeug/issues/640",jarek,https://api.github.com/repos/pallets/flask/git/commits/ed9775fb77bc2291473c176937326aadd435f73c
+aec0cdc0164454bb8e5bcc7a59b95370d6d8a1c0,Update documentation for users to use flask-caching instead of the deprecated Werkzeug cache,data-get,https://api.github.com/repos/pallets/flask/git/commits/aec0cdc0164454bb8e5bcc7a59b95370d6d8a1c0
+2611632c69d46b03cb5321a43103c3fee8705aca,add classifiers,CasterWx,https://api.github.com/repos/pallets/flask/git/commits/2611632c69d46b03cb5321a43103c3fee8705aca
+d8400d7cacf541b316930e609fce8b1c53f5a142,Fix typo in class name,obestwalter,https://api.github.com/repos/pallets/flask/git/commits/d8400d7cacf541b316930e609fce8b1c53f5a142
+5e07e3a6ada63e322597dd1ca25fecff25d0ae8d,Add comment about using factory function in __init__.py,EJEP,https://api.github.com/repos/pallets/flask/git/commits/5e07e3a6ada63e322597dd1ca25fecff25d0ae8d
+2b74cf9f2d95efe6a63a8fad49a1364d42530622,Add SPA pattern to docs,alysivji,https://api.github.com/repos/pallets/flask/git/commits/2b74cf9f2d95efe6a63a8fad49a1364d42530622
+4f638b9c28a07a951e46c348388c725c78fd5498,"Clarify prefixing of URLs for blueprint endpoints
+
+Clarify that endpoint names are prefixed by the name of the blueprint,
+but the URL is not automatically prefixed.",colincadams,https://api.github.com/repos/pallets/flask/git/commits/4f638b9c28a07a951e46c348388c725c78fd5498
+90aef1b2cff8ac17eec0e69a3cfe1c55c94f9b12,Fix typos found while completing the Flask tutorial,jseldess,https://api.github.com/repos/pallets/flask/git/commits/90aef1b2cff8ac17eec0e69a3cfe1c55c94f9b12
+02df042416c312f6c04a5ded8c9404386585c122,"Corrected a typo in a docstring: ""Help object"" --> ""Helper object""",RohanTalip,https://api.github.com/repos/pallets/flask/git/commits/02df042416c312f6c04a5ded8c9404386585c122
+24325ecb69a2c51d5b3da3000df715dfd9aba2de,"Clarify and add detail to tojson docs
+Fix some confusing and obsolete prose.",ExplodingCabbage,https://api.github.com/repos/pallets/flask/git/commits/24325ecb69a2c51d5b3da3000df715dfd9aba2de
+e4ebbd3f5befca0f6891def3ebf292f756ec5f3b,Fix DeprecationWarning on collections import,tirkarthi,https://api.github.com/repos/pallets/flask/git/commits/e4ebbd3f5befca0f6891def3ebf292f756ec5f3b
+b8e461e3d1d949013cb6a336c627074e711c284b,"Update docs on larger applications wrt tutorial
+
+The wording of the docs makes it sound like the tutorials use the simple structure for a flask application, which they no longer do.
+This commit re-words the docs to make it clearer.",nathanbegbie,https://api.github.com/repos/pallets/flask/git/commits/b8e461e3d1d949013cb6a336c627074e711c284b
+ab7f9e735fcd73a07cb21d804c9190577449a299,Adding conjunction where for clarification,stepharr,https://api.github.com/repos/pallets/flask/git/commits/ab7f9e735fcd73a07cb21d804c9190577449a299
+b570bf699c162e3223043582179db1c67b0a4c74,Allow partial content on bytesio,IgnasiBosch,https://api.github.com/repos/pallets/flask/git/commits/b570bf699c162e3223043582179db1c67b0a4c74
+b92b2e6c743c8b09744c9c9788046c719cc38eab,Do not handle RoutingExceptions with app error handlers,taion,https://api.github.com/repos/pallets/flask/git/commits/b92b2e6c743c8b09744c9c9788046c719cc38eab
+99ad1f3cae66aabb654e38c2c8bfd5889e4020a5,fix the typo,bbbbx,https://api.github.com/repos/pallets/flask/git/commits/99ad1f3cae66aabb654e38c2c8bfd5889e4020a5
+74691fbe0192de1134c93e9821d5f8ef65405670,Fix typo in CHANGES.rst (#3077),carsonip,https://api.github.com/repos/pallets/flask/git/commits/74691fbe0192de1134c93e9821d5f8ef65405670
+47bdf9f26fdd499c00a25efa4c0229c544cf682d,"_compat.py: Use feature detection instead of version detection
+
+When run on Python 3, linters such as Pylint and Flake8 will correctly flag __unicode__ and __long__ as _undefined names_ because _compat.py does not currently follow the Python porting best practice [___use feature detection instead of version detection___](https://docs.python.org/3/howto/pyporting.html#use-feature-detection-instead-of-version-detection).  This PR allows this project to pass those tests without adding any linter directives.",cclauss,https://api.github.com/repos/pallets/flask/git/commits/47bdf9f26fdd499c00a25efa4c0229c544cf682d
+5830388ee2e70ab9cfcc06728a80c5459bf3723a,"Fix formatting issue in quickstart guide
+
+Due to a formatting issue in the reStructuredText input, the HTML
+output produced a description list (<dl>) within the ordered list.",tbm,https://api.github.com/repos/pallets/flask/git/commits/5830388ee2e70ab9cfcc06728a80c5459bf3723a
+af5fb14666cba4034793adadb53c09dd90a12b14,initial Azure Pipelines setup,vtbassmatt,https://api.github.com/repos/pallets/flask/git/commits/af5fb14666cba4034793adadb53c09dd90a12b14
+29a47ae6ea51e672ea841f7869baa8dffe3291bc,Add link to official Discord chat server,pwlandoll,https://api.github.com/repos/pallets/flask/git/commits/29a47ae6ea51e672ea841f7869baa8dffe3291bc
+6606a4a2386a9635b8ad25b4ae6329be783e00b3,fix RST line too long,singingwolfboy,https://api.github.com/repos/pallets/flask/git/commits/6606a4a2386a9635b8ad25b4ae6329be783e00b3
+b78a803f7d8ff3156b4c5b73df39d067b8a2a3e5,"Create CODE_OF_CONDUCT.md
+
+Ticket is referenced in [#Issue 1](https://github.com/pallets/meta/issues/1) in the Meta repo.
+Spoke with @davidism and the decision was to use Contributor Covenant. It has easy GitHub integration and quality text.
+
+For context, Here is a comparison of different codes of conduct from geek feminism:
+Contributor Covenant looks like it is a good default because it covers:
+
+Descriptions of common but unacceptable behavior
+Reporting instructions with contact information
+Information about enforcement
+Clear demarcation between anti-harassment policy and general community guidelines",LindsayYoung,https://api.github.com/repos/pallets/flask/git/commits/b78a803f7d8ff3156b4c5b73df39d067b8a2a3e5
+42da151fc75778cd86bf80a97d8de7f2f5eed846,use or to complete the either statement,jaydarius,https://api.github.com/repos/pallets/flask/git/commits/42da151fc75778cd86bf80a97d8de7f2f5eed846
+205c943deda542b0c0df2f1b9ce3bbe72d80eef8,Fix misplaced paren in docs,jakseb,https://api.github.com/repos/pallets/flask/git/commits/205c943deda542b0c0df2f1b9ce3bbe72d80eef8
+d23b160e6df5d13e7db7a5e53afab6db306efe3c,"helpers.py: Fix docs of url_for(..., _external=True)",RyanSquared,https://api.github.com/repos/pallets/flask/git/commits/d23b160e6df5d13e7db7a5e53afab6db306efe3c
+800c744fe7236175cbf0bbbc1a152899897579df,improve env vars config example,JBonser,https://api.github.com/repos/pallets/flask/git/commits/800c744fe7236175cbf0bbbc1a152899897579df
+62fe1563ad6805decc51fb3d682064249deddb96,Update CONTRIBUTING.rst,Abdur-rahmaanJ,https://api.github.com/repos/pallets/flask/git/commits/62fe1563ad6805decc51fb3d682064249deddb96
+994cd1db33d55b48f1d99aa97ac7b2adaa89cbaf,replaced deprecated sample code in proxy-setup docs,tomcdonald,https://api.github.com/repos/pallets/flask/git/commits/994cd1db33d55b48f1d99aa97ac7b2adaa89cbaf
+c2b4b745e946aece1bf253a29e6a1161ae14347d,add more git commands to contributing doc,abhinavsagar,https://api.github.com/repos/pallets/flask/git/commits/c2b4b745e946aece1bf253a29e6a1161ae14347d
+0df2620c5f2fd9fa09224591952c36215cc4bda1,update docs on gunicorn deploy and app discovery,chivalry,https://api.github.com/repos/pallets/flask/git/commits/0df2620c5f2fd9fa09224591952c36215cc4bda1
+4e272fc042cab5505c3c5ae796caa6b06f9dae9d,Fix various small spelling errors.,alecbrooks,https://api.github.com/repos/pallets/flask/git/commits/4e272fc042cab5505c3c5ae796caa6b06f9dae9d
+ac78da0bb02fc5c07c896a77d3fc2b32e7924407,removed unused reference to url_join,mekarpeles,https://api.github.com/repos/pallets/flask/git/commits/ac78da0bb02fc5c07c896a77d3fc2b32e7924407
+6142aa64ae4d0957d735b6b86c5abe15fea06504,"More explicit explanation: session testing
+
+Use a more explicit explanation on how to write code to test own code
+when sessions are needed.
+The previous code was not fully explicit that the client is supposed
+to be called after the session transaction and not during.",brunoais,https://api.github.com/repos/pallets/flask/git/commits/6142aa64ae4d0957d735b6b86c5abe15fea06504
+e2f4b53396f4676978f86492dae5d3952446df89,Fix dev-server warning message readability (#3168),DamianSkrzypczak,https://api.github.com/repos/pallets/flask/git/commits/e2f4b53396f4676978f86492dae5d3952446df89
+ad709be46e660b76263a50bfecdb390f0863a90c,Allow mode='rt' on open_resource() helper,icreatedanaccount,https://api.github.com/repos/pallets/flask/git/commits/ad709be46e660b76263a50bfecdb390f0863a90c
+1f3923a999e3b4430ea76727e07fb062b24d6a61,"Inherit ""methods"" in MethodView
+
+* Current behavior: If a base class inherits MethodView and child class
+  inherits without overwriting ""methods"". The ""methods"" defined in base
+  class would be ignored
+* Fix: Inherit all the ""methods"" defined in base classes if ""methods""
+  variable is not overwritten",Lee-W,https://api.github.com/repos/pallets/flask/git/commits/1f3923a999e3b4430ea76727e07fb062b24d6a61
+af3c24c7dff239b2f1c9765bce9bef46525294bc,"Make jinja_options a dict rather than ImmutaleDict
+
+This allows changing jinja environment options from the flask app:
+>>> app.jinja_options['undefined'] = jinja2.ChainableUndefined",EtiennePelletier,https://api.github.com/repos/pallets/flask/git/commits/af3c24c7dff239b2f1c9765bce9bef46525294bc
+2039e2e3b62897e14790c652c92625ee9b200245,Remove ending slash from static_url_path,qil026,https://api.github.com/repos/pallets/flask/git/commits/2039e2e3b62897e14790c652c92625ee9b200245
+6af14f058b6ef09214dc0e5d81902ed5b4ad12a0,support dataclass in JSONEncoder,eruvanos,https://api.github.com/repos/pallets/flask/git/commits/6af14f058b6ef09214dc0e5d81902ed5b4ad12a0
+2a2a11b0634df4932eb0b4113009759ce4d1754a,allow customizing url map class,shidenggui,https://api.github.com/repos/pallets/flask/git/commits/2a2a11b0634df4932eb0b4113009759ce4d1754a
+e1cc16f8bea15f11f63eacaa6089cd6e6b8b1965,"Fix 0 port value being overriden by default
+
+By explicitly comparing port value with None,
+instead of using its bool() value.",vorelq,https://api.github.com/repos/pallets/flask/git/commits/e1cc16f8bea15f11f63eacaa6089cd6e6b8b1965
+db8cb31f2b2c39c1b0800926969c16d44b28ea38,Fix #2937: Ensure the consistency in load_dotenv's return type,sharmaadarsh563,https://api.github.com/repos/pallets/flask/git/commits/db8cb31f2b2c39c1b0800926969c16d44b28ea38
+7bf8366970ec49b5396a1f86f00fdd1c5fef3fed,"Allow dictionary return values as JSON
+
+This supports an increasingly common usecase whereby JSON is the
+primary response (rather than a templated string). Given Flask has a
+short syntax for HTML reponses, it seems fitting that it should also
+do so for JSON responses. In practice it allows,
+
+     @app.route(""/"")
+     def index():
+         return {
+             ""api_stuff"": ""values"",
+         }",pgjones,https://api.github.com/repos/pallets/flask/git/commits/7bf8366970ec49b5396a1f86f00fdd1c5fef3fed
+a12bf290da4e5ccc9cc7bd00a8e1ba8bccb50586,"fix 'static_url_path' defaulting for empty paths
+
+-prefix a path delimiter iff there's a path to delimit
+-ensures a valid default static route rule is created on application
+intialisation for the case 'static_folder=""""' and implicit
+'static_url_path'",elbeardmorez,https://api.github.com/repos/pallets/flask/git/commits/a12bf290da4e5ccc9cc7bd00a8e1ba8bccb50586
+a71c167836c9dd938199fc72292951359948149c,"fix teardown bug in FlaskClient
+
+* Fixes pytest-dev/pytest-flask#42",fantix,https://api.github.com/repos/pallets/flask/git/commits/a71c167836c9dd938199fc72292951359948149c
+a5ff3cd01b8a78b5ed2961a8095290fed4e2a0d5,Fix style issues on master using Black,lordmauve,https://api.github.com/repos/pallets/flask/git/commits/a5ff3cd01b8a78b5ed2961a8095290fed4e2a0d5
+cd14adbc1e834b0accc3b593a77d60d3cadddc8b,Issue #3226: Remove unused werkzeug datastructure import,rtilk89,https://api.github.com/repos/pallets/flask/git/commits/cd14adbc1e834b0accc3b593a77d60d3cadddc8b
+2a97d4a706c329b15b9119101254de15c80410cc,#3225: document,tomowind,https://api.github.com/repos/pallets/flask/git/commits/2a97d4a706c329b15b9119101254de15c80410cc
+8bb71852849907d1b67ba7514cf1812348e11b44,"Better error message when view return type is not supported
+
+Before, returning a `bool` from a route caused the error
+
+```
+[2019-05-31 10:08:42,216] ERROR in app: Exception on / [GET]
+Traceback (most recent call last):
+  File ""/Users/johnzeringue/Documents/ts-open/flask/flask/app.py"", line 2070, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File ""/Users/johnzeringue/Documents/ts-open/flask/env/lib/python3.7/site-packages/werkzeug/wrappers/base_response.py"", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File ""/Users/johnzeringue/Documents/ts-open/flask/env/lib/python3.7/site-packages/werkzeug/wrappers/base_response.py"", line 26, in _run_wsgi_app
+    return _run_wsgi_app(*args)
+  File ""/Users/johnzeringue/Documents/ts-open/flask/env/lib/python3.7/site-packages/werkzeug/test.py"", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'bool' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File ""/Users/johnzeringue/Documents/ts-open/flask/flask/app.py"", line 2393, in wsgi_app
+    response = self.full_dispatch_request()
+  File ""/Users/johnzeringue/Documents/ts-open/flask/flask/app.py"", line 1906, in full_dispatch_request
+    return self.finalize_request(rv)
+  File ""/Users/johnzeringue/Documents/ts-open/flask/flask/app.py"", line 1921, in finalize_request
+    response = self.make_response(rv)
+  File ""/Users/johnzeringue/Documents/ts-open/flask/flask/app.py"", line 2078, in make_response
+    reraise(TypeError, new_error, sys.exc_info()[2])
+  File ""/Users/johnzeringue/Documents/ts-open/flask/flask/_compat.py"", line 39, in reraise
+    raise value.with_traceback(tb)
+  File ""/Users/johnzeringue/Documents/ts-open/flask/flask/app.py"", line 2070, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File ""/Users/johnzeringue/Documents/ts-open/flask/env/lib/python3.7/site-packages/werkzeug/wrappers/base_response.py"", line 269, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File ""/Users/johnzeringue/Documents/ts-open/flask/env/lib/python3.7/site-packages/werkzeug/wrappers/base_response.py"", line 26, in _run_wsgi_app
+    return _run_wsgi_app(*args)
+  File ""/Users/johnzeringue/Documents/ts-open/flask/env/lib/python3.7/site-packages/werkzeug/test.py"", line 1119, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'bool' object is not callable
+The view function did not return a valid response. The return type must be a string, tuple, Response instance, or WSGI callable, but it was a bool.
+```
+
+Now, it returns the more readable
+
+```
+[2019-05-31 10:36:19,500] ERROR in app: Exception on / [GET]
+Traceback (most recent call last):
+  File ""/Users/johnzeringue/Documents/ts-open/flask/flask/app.py"", line 2400, in wsgi_app
+    response = self.full_dispatch_request()
+  File ""/Users/johnzeringue/Documents/ts-open/flask/flask/app.py"", line 1907, in full_dispatch_request
+    return self.finalize_request(rv)
+  File ""/Users/johnzeringue/Documents/ts-open/flask/flask/app.py"", line 1922, in finalize_request
+    response = self.make_response(rv)
+  File ""/Users/johnzeringue/Documents/ts-open/flask/flask/app.py"", line 2085, in make_response
+    "" {rv.__class__.__name__}."".format(rv=rv))
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a bool.
+```
+
+Fixes #3214",johnzeringue,https://api.github.com/repos/pallets/flask/git/commits/8bb71852849907d1b67ba7514cf1812348e11b44
+1b526c837e83d5e35d14eadde162c7608ab9e83f,"Comment on bare except usage in _compat.py
+
+(Fixes pallets/flask#3227)",gokcegrbl,https://api.github.com/repos/pallets/flask/git/commits/1b526c837e83d5e35d14eadde162c7608ab9e83f
+d981cc678af3bbd30ea1cde54fd6e1b24398351f,Fix testing documentation to demonstrate using test client with teardown,ultimecia7,https://api.github.com/repos/pallets/flask/git/commits/d981cc678af3bbd30ea1cde54fd6e1b24398351f
+45b2e7702dd76b11156c9b9b5af707be2b5480ca,Guard against missing request context in logging docs.,DiegoAlbertoTorres,https://api.github.com/repos/pallets/flask/git/commits/45b2e7702dd76b11156c9b9b5af707be2b5480ca
+1718f1934c4fa709b42230b3ee5d6f803ec65df4,don't require ssl module for flask cli,cslecrone,https://api.github.com/repos/pallets/flask/git/commits/1718f1934c4fa709b42230b3ee5d6f803ec65df4
+549fed29ea0b6f0f3cc3731a310f4de3631a759e,add pre-commit config for flake8,jon-stumpf,https://api.github.com/repos/pallets/flask/git/commits/549fed29ea0b6f0f3cc3731a310f4de3631a759e
+7bc965fadac23bf9833eb34a4bb124af4e6b5cad,adds api error handling documentation,LBWright,https://api.github.com/repos/pallets/flask/git/commits/7bc965fadac23bf9833eb34a4bb124af4e6b5cad
+b89bf9e6d7555743903ed3820156c3da7a571411,document Blueprint params,Vicolatope,https://api.github.com/repos/pallets/flask/git/commits/b89bf9e6d7555743903ed3820156c3da7a571411
+d8d74b0cc89f7b9242cb5419ac1193463749f218,document _get_exc_class_and_code params,aligoren,https://api.github.com/repos/pallets/flask/git/commits/d8d74b0cc89f7b9242cb5419ac1193463749f218
+1ff98a2d21f6800b7b97195e0f9c90776ffb8f9b,"wait until app ctx is ready before matching url
+
+`RequestContext.match_request` is moved from `__init__` to `push`. This
+causes matching to happen later, when the app context is available.
+This enables URL converters that use things such as the database.",eladm26,https://api.github.com/repos/pallets/flask/git/commits/1ff98a2d21f6800b7b97195e0f9c90776ffb8f9b
+ac302fb6071a4a580234e3596dac082d6e8d8a1f,Make the changelog UTF-8 compatible,asottile,https://api.github.com/repos/pallets/flask/git/commits/ac302fb6071a4a580234e3596dac082d6e8d8a1f
+73d997f0fc207aef8d9c7fa19d8878576dad3846,Update ISSUE_TEMPLATE.md,aadibajpai,https://api.github.com/repos/pallets/flask/git/commits/73d997f0fc207aef8d9c7fa19d8878576dad3846
+3628cbceafef795f4889229ca3aed2bfb9fb26a8,"Add version '3.7' and a comma in ""Running the test"" of contributing guide.",MakDon,https://api.github.com/repos/pallets/flask/git/commits/3628cbceafef795f4889229ca3aed2bfb9fb26a8
+a0a49e1c9ea9b0e850e9039c1b7000adbaf7370b,clean up outdated code,linchiwei123,https://api.github.com/repos/pallets/flask/git/commits/a0a49e1c9ea9b0e850e9039c1b7000adbaf7370b
+28ffe153490c2a58919835bf0f9828958795871f,Fix typo in urlprocessors.rst,csirmazbendeguz,https://api.github.com/repos/pallets/flask/git/commits/28ffe153490c2a58919835bf0f9828958795871f
+353d891561659a754ee92bb5e6576e82be58934a,"fixed typo in logging docstring (#3328)
+
+* fixed typo in logging docstring
+
+* second typo fix",christopherzimmerman,https://api.github.com/repos/pallets/flask/git/commits/353d891561659a754ee92bb5e6576e82be58934a
+b33e89935a38b184b148ac5b72ae457a4a385d36,"docs: Change max content length value to megabyte
+
+16 * 1024 * 1024 = 16 MiB (Mebibyte)
+16 * 1000 * 1000 = 16 MB (Megabyte)
+
+The example is in megabytes, not in mebibytes.",Eido95,https://api.github.com/repos/pallets/flask/git/commits/b33e89935a38b184b148ac5b72ae457a4a385d36
+553b26f8579a21a2d3644cb3bc5cb2ed8cedabc5,Fix typo in pop documentation,arnavb,https://api.github.com/repos/pallets/flask/git/commits/553b26f8579a21a2d3644cb3bc5cb2ed8cedabc5
+b839beb23d5fd3431132df68693f402891c5f69e,fix typo: base on -> based on,gruentee,https://api.github.com/repos/pallets/flask/git/commits/b839beb23d5fd3431132df68693f402891c5f69e
+2ec150af02de076a2e64046fef634d873140ddce,"Update testing.rst
+
+It now describes how to install flaskr using pip so that all tests pass.",nathanmp,https://api.github.com/repos/pallets/flask/git/commits/2ec150af02de076a2e64046fef634d873140ddce
+2ceae5f8a5783d292d89cb9cb8dbec429fc3e502,mention default logging level,short2strings,https://api.github.com/repos/pallets/flask/git/commits/2ceae5f8a5783d292d89cb9cb8dbec429fc3e502
+af970bd20f2d5c1d36abcb1f300a531c436b5655,fix typo in request context docs,seeksort,https://api.github.com/repos/pallets/flask/git/commits/af970bd20f2d5c1d36abcb1f300a531c436b5655
+0c0b31a789f8bfeadcbcf49d1fb38a00624b3065,get_cookie_name in SessionInterface for easier overriding in SecureCookieSessionInterface,doronhorwitz,https://api.github.com/repos/pallets/flask/git/commits/0c0b31a789f8bfeadcbcf49d1fb38a00624b3065
+468705df1751b515fa088e6ccb374a59d1afbf76,Update reqcontext.rst,decaz,https://api.github.com/repos/pallets/flask/git/commits/468705df1751b515fa088e6ccb374a59d1afbf76
+07caa442241b36e14cf91b0fa0201ad764dfbd47,Change docs to use f-strings,erfanio,https://api.github.com/repos/pallets/flask/git/commits/07caa442241b36e14cf91b0fa0201ad764dfbd47
+3ddf7fd2c2b4108a55213c791bd80981bd1f90f5,"Make the documentation build reproducibly
+
+Whilst working on the Reproducible Builds effort [0] we noticed that
+flask could not be built reproducibly.
+
+This is because it includes an absolute build directory in the
+documentation as the ""json_module"" attribute points to a Python class/
+module which has a string representation including its path.
+
+This commit skips this (inherited) member from the documentation.
+
+(This was originally filed in Debian as #943674 [1].)
+
+ [0] https://reproducible-builds.org/
+ [1] https://bugs.debian.org/943674",lamby,https://api.github.com/repos/pallets/flask/git/commits/3ddf7fd2c2b4108a55213c791bd80981bd1f90f5
+c367a86cc5be70da4928b276d0218f98df6e854d,Test test_send_from_directory_bad_request no longer fails in Python 3.8.,haneybarg,https://api.github.com/repos/pallets/flask/git/commits/c367a86cc5be70da4928b276d0218f98df6e854d
+4f6b3105135026bbd8d0045703b5b5746554239e,Fix typo,thiagojobson,https://api.github.com/repos/pallets/flask/git/commits/4f6b3105135026bbd8d0045703b5b5746554239e
+33d9f9fa08e5a007d7ff1bb1f92c8d593b3c380a,declare support for Python 3.8,Jamim,https://api.github.com/repos/pallets/flask/git/commits/33d9f9fa08e5a007d7ff1bb1f92c8d593b3c380a
+ce08807a8b1f1229a1c390b6a86d5ee0f4029da0,This is a typo.,candleindark,https://api.github.com/repos/pallets/flask/git/commits/ce08807a8b1f1229a1c390b6a86d5ee0f4029da0
+900fa2f795615683234cc7e7b050a1e131983689,Feature request #3445.,raymond-devries,https://api.github.com/repos/pallets/flask/git/commits/900fa2f795615683234cc7e7b050a1e131983689
+e6ac789554ac1e5cf69a2442f252dba8233cde32,mention discord in issue template,RDIL,https://api.github.com/repos/pallets/flask/git/commits/e6ac789554ac1e5cf69a2442f252dba8233cde32
+aa1d4cb840352be3c57b912fded1de8b33024ec5,remove approved extensions in foreword,gpakosz,https://api.github.com/repos/pallets/flask/git/commits/aa1d4cb840352be3c57b912fded1de8b33024ec5
+5da342e4dd7dfcc16aa25928ea91d69c2d362f73,fix docstring and remove redundant parentheses,noviluni,https://api.github.com/repos/pallets/flask/git/commits/5da342e4dd7dfcc16aa25928ea91d69c2d362f73
+d4076cf07c70d7fccf82aba5c5acae3f3fb99447,strip the ending slash for static_url_path,frostming,https://api.github.com/repos/pallets/flask/git/commits/d4076cf07c70d7fccf82aba5c5acae3f3fb99447
+7e068145df57784b61ca254d5c0b83edaf3e7435,pass static_url_path along with static_folder,yingshaoxo,https://api.github.com/repos/pallets/flask/git/commits/7e068145df57784b61ca254d5c0b83edaf3e7435

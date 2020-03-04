@@ -1,0 +1,27 @@
+Issue Description,Assignees to the Issue,Link
+Events page hasn't been updated.  All events are in the past.,,https://github.com/angular/angular/issues/34971
+Typo in Hierarchical Injectors Doc,,https://github.com/angular/angular/issues/34953
+Missing item variable / item is not defined,,https://github.com/angular/angular/issues/34762
+A mistake in the docs - in the description of the Component Class section,,https://github.com/angular/angular/issues/32948
+"The ""L"" letter should be lowercase in ""HTMLELement"" in docs.",,https://github.com/angular/angular/issues/32917
+"Missing space between ""Component"" and ""will"" in docs.",,https://github.com/angular/angular/issues/32873
+Document how to bypass asset processing for CSS preprocessors,,https://github.com/angular/angular/issues/32811
+docs: corrected spelling of HTMLTableCellElement in Template Syntax,,https://github.com/angular/angular/pull/32805
+"Missing the letter ""e"" in ""MDN HTMLTableCellElment"" in docs.",,https://github.com/angular/angular/issues/32803
+GDE list at angular.io is outdated,,https://github.com/angular/angular/issues/31992
+description and code class names don't match,,https://github.com/angular/angular/issues/31781
+Docs: Testing guide recommends older version of node for Travis CI setup,,https://github.com/angular/angular/issues/31185
+Add https://blog.angularindepth.com/ to Community Curations section,,https://github.com/angular/angular/issues/31167
+Typo in Corporate Proxy under Proxying to a Backend Server,,https://github.com/angular/angular/issues/31090
+Constructor or variable initialization snippet does not compile,,https://github.com/angular/angular/issues/30730
+The tooltip of 'Events' link in the footer of angular.io is wrong,,https://github.com/angular/angular/issues/30480
+Docs: Remove mention of Chrome 41 for differential loading,,https://github.com/angular/angular/issues/30387
+Docs: Example for minutes and seconds using date pipe doesn't match,,https://github.com/angular/angular/issues/30281
+Angular Guide: 'Dynamic Components' section should come before 'Angular Elements',,https://github.com/angular/angular/issues/30268
+Docs: Reactive forms guide lists incorrect fields,,https://github.com/angular/angular/issues/29925
+remove 0 from src/app/user.service.0.ts from Singleton Service exampe,,https://github.com/angular/angular/issues/29862
+Docs: Getting started pages don't show hamburger menu on desktop,,https://github.com/angular/angular/issues/29773
+Wrong code sample for directive's outputs attribute,,https://github.com/angular/angular/issues/29523
+Build guide could be more clear about where to create proxy.conf.json,,https://github.com/angular/angular/issues/29337
+Can we update this line to be more inclusive?,,https://github.com/angular/angular/issues/25643
+Explain the newEvent helper function used in the live example of Testing docs,,https://github.com/angular/angular/issues/23370

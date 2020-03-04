@@ -1,0 +1,857 @@
+Issue Description,Assignees to the Issue,Link
+DOC: Standardize references to pandas in the documentation,,https://github.com/pandas-dev/pandas/issues/32316
+CI: Notifications when a job in GitHub Actions fails,,https://github.com/pandas-dev/pandas/issues/32301
+Incomplete reference to `convert_dtypes` in `to_numeric` docstring,,https://github.com/pandas-dev/pandas/issues/32295
+Plotting Int64 columns with nulled integers (NAType) fails,,https://github.com/pandas-dev/pandas/issues/32073
+"""Querying a table"" within Sector HDF5 in User Guide",,https://github.com/pandas-dev/pandas/issues/32039
+ohlc documentation,,https://github.com/pandas-dev/pandas/issues/31919
+Documentation for divmod and rdivmod gives wrong return type,,https://github.com/pandas-dev/pandas/issues/31663
+DOC: extending pandas page is not rendered correctly,,https://github.com/pandas-dev/pandas/issues/31645
+Does #28827 also apply to applymap?,,https://github.com/pandas-dev/pandas/issues/31620
+Unexpected TypeError with groupby,,https://github.com/pandas-dev/pandas/issues/31605
+DOC: to_csv is not properly linked from read_csv docstring,,https://github.com/pandas-dev/pandas/issues/31448
+SAS class comment mentions inexistant path,,https://github.com/pandas-dev/pandas/issues/31391
+CI: xfail sparse warning,,https://github.com/pandas-dev/pandas/issues/31310
+"read_csv: if parse_dates dont appear in use_cols, we get a trace",,https://github.com/pandas-dev/pandas/issues/31251
+"DOC BUG API Reference documentation truncated for Series.unstack(), Series.",,https://github.com/pandas-dev/pandas/issues/31235
+Docs mention non-existent doc/source/api.rst,,https://github.com/pandas-dev/pandas/issues/31135
+DOC: replace ggpy with plotnine on the ecosystem page,,https://github.com/pandas-dev/pandas/issues/31087
+"Series.to_json produces invalid JSON with `orient=""index""` if index is multilevel",,https://github.com/pandas-dev/pandas/issues/31028
+TST: Disallow bare pytest.raises,,https://github.com/pandas-dev/pandas/issues/30999
+DOC: plotting backend is not mentioned in the user guide,,https://github.com/pandas-dev/pandas/issues/30984
+AssertionError from Series.append(DataFrame) with 1.0.0rc0,,https://github.com/pandas-dev/pandas/issues/30975
+DOC: Fix isort output in CI,,https://github.com/pandas-dev/pandas/issues/30974
+DOC: Remove tips and tricks section page from the wiki,,https://github.com/pandas-dev/pandas/issues/30964
+DOC: Replace old string formatting syntax in calling of Appender decorators,,https://github.com/pandas-dev/pandas/issues/30933
+DOC: Whatsnew for 1.0 has deprecations listed in Enhancements section,,https://github.com/pandas-dev/pandas/issues/30927
+DOC: Fix indentation in docstring example,,https://github.com/pandas-dev/pandas/issues/30830
+DOC: Move import conventions from wiki to docs,,https://github.com/pandas-dev/pandas/issues/30808
+CLN: Fix FutureWarnings in the benchmarks,,https://github.com/pandas-dev/pandas/issues/30780
+CI: switch travis default python to 3.7,,https://github.com/pandas-dev/pandas/issues/30538
+"""Next"" link from user_guide/io.rst goes to read_sql_table API page",,https://github.com/pandas-dev/pandas/issues/30332
+CI: Checks job aborted if a step fails,,https://github.com/pandas-dev/pandas/issues/30298
+DEPR: Remove pandas.np,,https://github.com/pandas-dev/pandas/issues/30296
+The setting xrot=0 in DataFrame.hist() doesn't work with by and subplots,,https://github.com/pandas-dev/pandas/issues/30288
+Move 'For Developers' content from wiki to contributing docs.,,https://github.com/pandas-dev/pandas/issues/30232
+"pandas.read_pickle can take buffer object as well, not only str",,https://github.com/pandas-dev/pandas/issues/30163
+DataFrameGroupBy.shift Loses TimeZone in datetime64 columns,,https://github.com/pandas-dev/pandas/issues/30134
+CI: the printing of skipped tests is broken,,https://github.com/pandas-dev/pandas/issues/30040
+"typo in docs ""Essential basic functionality""",,https://github.com/pandas-dev/pandas/issues/29934
+"Replace ""foo!r"" to ""repr(foo)"" syntax",,https://github.com/pandas-dev/pandas/issues/29886
+PERF: improve conversion to BooleanArray from int/float array,,https://github.com/pandas-dev/pandas/issues/29838
+Aggregation fails when grouping on more than one key and the column to aggregate is a tz-aware timestamp series,,https://github.com/pandas-dev/pandas/issues/29833
+Aggregation (sum) fails for a grouping along a multi-level column in pandas >=0.25.x,,https://github.com/pandas-dev/pandas/issues/29772
+CI: Action to assign issues fails when quotes are present,,https://github.com/pandas-dev/pandas/issues/29768
+"API: ExtensionArrays and conversion to ""native"" types (eg in tolist, to_dict, iteration, ..)",,https://github.com/pandas-dev/pandas/issues/29738
+CI: Speed up coverage tests by splitting files,,https://github.com/pandas-dev/pandas/issues/29671
+Replace old string formatting syntax with f-strings,,https://github.com/pandas-dev/pandas/issues/29547
+TST: split pandas/tests/frame/test_indexing.py,,https://github.com/pandas-dev/pandas/issues/29544
+DataFrame.plot docs broken,,https://github.com/pandas-dev/pandas/issues/29489
+TST: make subdirs in pandas/tests/io/data,,https://github.com/pandas-dev/pandas/issues/29439
+DOC: ImportError: No module named pandas,,https://github.com/pandas-dev/pandas/issues/29399
+"TO_CSV Compression with dict arguement released in .25.0, but my Pandas .25.3 doesn't reflect source?",,https://github.com/pandas-dev/pandas/issues/29328
+WEB: about/index has the extension wrong,,https://github.com/pandas-dev/pandas/issues/29325
+HDF file compression not working,,https://github.com/pandas-dev/pandas/issues/29310
+[Minor Fix][Doc]What's New in 1.0.0,,https://github.com/pandas-dev/pandas/issues/29274
+"Reduce Benchmark Times of stat_ops, particularly kendall correlation",,https://github.com/pandas-dev/pandas/issues/29270
+In read_excel parse_date=False is not working,,https://github.com/pandas-dev/pandas/issues/29217
+CI/TST: Better information about the tests in azure-pipelines,,https://github.com/pandas-dev/pandas/issues/29214
+Clean up noqa E241,,https://github.com/pandas-dev/pandas/issues/29207
+NDFrame.interpolate(): variable 'ax' not assigned when axis='index',,https://github.com/pandas-dev/pandas/issues/29132
+Misleading error messages when opening inexistent json file,,https://github.com/pandas-dev/pandas/issues/29102
+"df.apply(lambda x: x.name, axis=1) lose timezone info when df.index is tz-aware.",,https://github.com/pandas-dev/pandas/issues/29052
+Fix mypy errors for pandas\tests\*,,https://github.com/pandas-dev/pandas/issues/28926
+PERF: asv's for non-int64 merges,,https://github.com/pandas-dev/pandas/issues/28922
+DataFrame.to_html col_space parameter to change width of a specific column only,,https://github.com/pandas-dev/pandas/issues/28917
+"Merge_asof() Requires specific int type, not reflected in error or documentation",,https://github.com/pandas-dev/pandas/issues/28870
+df.loc modifies datetime columns,,https://github.com/pandas-dev/pandas/issues/28837
+"Docs: Does pandas `.apply()` twice on first row, or not?",,https://github.com/pandas-dev/pandas/issues/28827
+DOC: fix code-block in the reshaping docs,,https://github.com/pandas-dev/pandas/issues/28819
+Trying to access non-existent df column throws KeyError for wrong key,,https://github.com/pandas-dev/pandas/issues/28799
+DOC: Fix SA04 errors in docstrings,,https://github.com/pandas-dev/pandas/issues/28792
+DOC: wrong formatting of the set_option docs,,https://github.com/pandas-dev/pandas/issues/28780
+Add Note About Referencing GH Issue Number to Test in Contrib Guide,,https://github.com/pandas-dev/pandas/issues/28703
+minor inconsistency in Categorical.remove_categories error message,,https://github.com/pandas-dev/pandas/issues/28669
+"Odd error message, concerning numpy using an alias versus numpy package name",,https://github.com/pandas-dev/pandas/issues/28665
+Error when adding 'm' to a Series of strings,,https://github.com/pandas-dev/pandas/issues/28658
+Create helper function in pandas/tests/io/json/test_pandas.py,,https://github.com/pandas-dev/pandas/issues/28555
+Deprecate using `xlrd` engine in favor of openpyxl,,https://github.com/pandas-dev/pandas/issues/28547
+Better Message for xlrd Dependencies,,https://github.com/pandas-dev/pandas/issues/28546
+DEPR: Deprecate numpy argument in read_json,,https://github.com/pandas-dev/pandas/issues/28512
+Add base test for ExtensionArray.astype and copy,,https://github.com/pandas-dev/pandas/issues/28488
+DataFrame.to_html should validate that formatters has the correct length,,https://github.com/pandas-dev/pandas/issues/28469
+Can't use a lambda function in named aggregation,,https://github.com/pandas-dev/pandas/issues/28467
+Series.append raises TypeError with tuple of Series,,https://github.com/pandas-dev/pandas/issues/28410
+Update cpython imports in Cython Code,,https://github.com/pandas-dev/pandas/issues/28382
+"tm.makeObjectSeries returns a Series with dtype=""datetime64[ns]""",,https://github.com/pandas-dev/pandas/issues/28378
+"Update documentation on pd.read_excel, to reflect the fact that support for OpenDocument files is available",,https://github.com/pandas-dev/pandas/issues/28231
+DOC: Fix formatting errors in docstrings,,https://github.com/pandas-dev/pandas/issues/27977
+Fix PR02 issues in docstrings,,https://github.com/pandas-dev/pandas/issues/27976
+Functions allowed in DataFrameGroupby.transform are not all tested,,https://github.com/pandas-dev/pandas/issues/27905
+DOC: See also for DataFrame.iterrows() should say Dataframe.x() instead of just .x(),,https://github.com/pandas-dev/pandas/issues/27862
+"DOC: Standardize use of ""Iterate"" and ""Iterator"" in the documentation for DataFrame and Series iterators",,https://github.com/pandas-dev/pandas/issues/27861
+DOC: clarify that read_parquet accepts a directory path,,https://github.com/pandas-dev/pandas/issues/27820
+DOC: Series.str.slice() should show that negative values for start are allowed,,https://github.com/pandas-dev/pandas/issues/27802
+DOC: add print statement in to_latex example,,https://github.com/pandas-dev/pandas/issues/27789
+Error reading parquet from s3 with s3fs >= 0.3.0,,https://github.com/pandas-dev/pandas/issues/27756
+DOC: instructions for installing C Compiler are missing,,https://github.com/pandas-dev/pandas/issues/27707
+Move json_normalize to pd namespace,,https://github.com/pandas-dev/pandas/issues/27586
+CLN: centrailize _check_percentile,,https://github.com/pandas-dev/pandas/issues/27559
+DOC: Unable to import pandas on python 3.5.2,,https://github.com/pandas-dev/pandas/issues/27558
+`OptionError` raised by top-level function `pandas.set_option` is private,,https://github.com/pandas-dev/pandas/issues/27553
+ASV Benchmark for read_excel,,https://github.com/pandas-dev/pandas/issues/27485
+pd.isnull() raises AttributeError on Pandas type objects,,https://github.com/pandas-dev/pandas/issues/27482
+BUG: Missing documentation for read_spss(),,https://github.com/pandas-dev/pandas/issues/27476
+`Dataframe.sample()` isn't validating `frac`,,https://github.com/pandas-dev/pandas/issues/27451
+Using a `CategoricalIndex` with interval categories as column index breaks operations on a `DataFrame`,,https://github.com/pandas-dev/pandas/issues/27415
+"DEPR: .take(..., is_copy=True); rename is_copy -> copy",,https://github.com/pandas-dev/pandas/issues/27357
+Ensure isinstance checks use ABC classes where available,,https://github.com/pandas-dev/pandas/issues/27353
+PERF: benchmarks are hitting .ix & other warnings,,https://github.com/pandas-dev/pandas/issues/27217
+"Adding offset to Timestamp discards freq information when freq=""M"" or ""W""",,https://github.com/pandas-dev/pandas/issues/27182
+CI: Format isort output to be detected as Azure pipelines errors,,https://github.com/pandas-dev/pandas/issues/27179
+DOC: Parameters name and fastpath of Series are not documented,,https://github.com/pandas-dev/pandas/issues/27178
+CLN: Collapse private ._take implementation into the public take method,,https://github.com/pandas-dev/pandas/issues/27174
+Make pandas.to_parquet handles partition columns better,,https://github.com/pandas-dev/pandas/issues/27117
+TST: Split test_offsets.py,,https://github.com/pandas-dev/pandas/issues/27085
+API: .equals for Extension Arrays,,https://github.com/pandas-dev/pandas/issues/27081
+Improve to_excel Append Documentation,,https://github.com/pandas-dev/pandas/issues/27051
+fillna not throwing error when limit is not positive,,https://github.com/pandas-dev/pandas/issues/27042
+DOC: Fix docstring quotes in pandas.tseries,,https://github.com/pandas-dev/pandas/issues/26982
+DOC: Do not mention private classes in the documentation,,https://github.com/pandas-dev/pandas/issues/26981
+Length information in error message of sanitize_index,,https://github.com/pandas-dev/pandas/issues/26967
+DOC: Validate consistency of title capitalization,,https://github.com/pandas-dev/pandas/issues/26941
+Issue with parsing PeriodDtype columns in read_csv(),,https://github.com/pandas-dev/pandas/issues/26934
+Tabular numbers should be used on tables,,https://github.com/pandas-dev/pandas/issues/26917
+CI: Improve codecov reporting,,https://github.com/pandas-dev/pandas/issues/26896
+possible error in documentation,,https://github.com/pandas-dev/pandas/issues/26865
+DOC: Make section title capitalization consistent,,https://github.com/pandas-dev/pandas/issues/26830
+DOC: MultiIndex from levels and codes example fails,,https://github.com/pandas-dev/pandas/issues/26789
+"DOC: Fix doc warning ""Code input with no code""",,https://github.com/pandas-dev/pandas/issues/26788
+Add more pytest idiom to io.excel testing,,https://github.com/pandas-dev/pandas/issues/26784
+PLOT: Fix imports of plotting,,https://github.com/pandas-dev/pandas/issues/26748
+Recommended way to check for sparse data (DataFrame or Series),,https://github.com/pandas-dev/pandas/issues/26706
+Deprecate Series.ftype / DataFrame.ftypes,,https://github.com/pandas-dev/pandas/issues/26705
+CI - Azure: print skipped tests,,https://github.com/pandas-dev/pandas/issues/26695
+Improve docs for pandas_version in Dataframe to_json(orient='table'),,https://github.com/pandas-dev/pandas/issues/26637
+read_excel and ExcelFile engine conflict,,https://github.com/pandas-dev/pandas/issues/26566
+Remove gtk imports from codebase,,https://github.com/pandas-dev/pandas/issues/26563
+DEPR: deprecate Series/DataFrame.to_dense/to_sparse,,https://github.com/pandas-dev/pandas/issues/26557
+ERR: give better error message when providing wrong sparse matrix type in from_coo,,https://github.com/pandas-dev/pandas/issues/26554
+MAINT: port numpy#13188 for np_datetime simplification,,https://github.com/pandas-dev/pandas/issues/26500
+pd.DataFrame.dot does not work when column index is set,,https://github.com/pandas-dev/pandas/issues/26480
+`groupby` in combination with `rolling` provides unintuitve errors,,https://github.com/pandas-dev/pandas/issues/26462
+Deprecate py.path support,,https://github.com/pandas-dev/pandas/issues/26450
+BUG: to_numeric does not validate the errors keyword,,https://github.com/pandas-dev/pandas/issues/26394
+json_normalize should raise when record_path doesn't point to an array,,https://github.com/pandas-dev/pandas/issues/26284
+Links on resample documentation page are broken,,https://github.com/pandas-dev/pandas/issues/26275
+pandas._libs.parsers.TextReader('中文文件名-chinese-in-filename.csv')  OSError: Initializing from file failed,,https://github.com/pandas-dev/pandas/issues/26074
+to_excel cannot handle large sheet,,https://github.com/pandas-dev/pandas/issues/26051
+Series: inconsistent behavior of setting value with timestamp dtype for existed index and newly-added,,https://github.com/pandas-dev/pandas/issues/26031
+Assorted Typing Fixups in pandas.core.reshape,,https://github.com/pandas-dev/pandas/issues/25934
+Assorted Typing Fixups in pandas.io,,https://github.com/pandas-dev/pandas/issues/25933
+Remove pandas.io.stata from Typing Blacklist,,https://github.com/pandas-dev/pandas/issues/25932
+Add Test to Explicitly Check Private Modules Exposed via API,,https://github.com/pandas-dev/pandas/issues/25930
+Fix Type Annotations in pandas.core.generic,,https://github.com/pandas-dev/pandas/issues/25901
+Fix Type Annotations in pandas/_config/config.py,,https://github.com/pandas-dev/pandas/issues/25899
+"Styler.applymap(subset=...) breaks promise that ""any valid indexer to .loc will work."" for mult-index",,https://github.com/pandas-dev/pandas/issues/25858
+Use Substitution Decorator for CustomBusinessMonthEnd,,https://github.com/pandas-dev/pandas/issues/25828
+wrong aggregated results when pivot_table index is ordered categorical data ,,https://github.com/pandas-dev/pandas/issues/25815
+Update Typing Comments to Python3 Syntax,,https://github.com/pandas-dev/pandas/issues/25790
+Incorrect example in wide_to_long docstring,,https://github.com/pandas-dev/pandas/issues/25733
+Add the possibility of callable to ValueError message raised by corr,,https://github.com/pandas-dev/pandas/issues/25727
+Excel Document Passing Kwargs to Engine,,https://github.com/pandas-dev/pandas/issues/25723
+Fix flaky stata test,,https://github.com/pandas-dev/pandas/issues/25707
+Remove makePanel Calls in Docs,,https://github.com/pandas-dev/pandas/issues/25609
+BUG: User-facing AssertionError with DataFrame.to_html(classes=<invalid type>),,https://github.com/pandas-dev/pandas/issues/25608
+CI: Use the latest pep8speaks and remove custom configuration,,https://github.com/pandas-dev/pandas/issues/25605
+Snap drops name from datetimeindex,,https://github.com/pandas-dev/pandas/issues/25575
+DOC: Force Removal of pandas From Dependencies,,https://github.com/pandas-dev/pandas/issues/25487
+BUG: User-facing AssertionError with add column to SparseDataFrame,,https://github.com/pandas-dev/pandas/issues/25484
+Fix validation error type `PR02` and check in CI,,https://github.com/pandas-dev/pandas/issues/25376
+Fix validation error type `RT01` and check in CI,,https://github.com/pandas-dev/pandas/issues/25356
+Fix validation error type `SA04` and check in CI,,https://github.com/pandas-dev/pandas/issues/25337
+Fix validation error type `GL01` and check in CI ,,https://github.com/pandas-dev/pandas/issues/25324
+Fix validation error type `SS03` and check in CI,,https://github.com/pandas-dev/pandas/issues/25306
+Document Using Regex for str.split,,https://github.com/pandas-dev/pandas/issues/25296
+Excel Module Cleanups,,https://github.com/pandas-dev/pandas/issues/25271
+BUG: pandas Timestamp tz_localize and tz_convert do not preserve `freq` attribute,,https://github.com/pandas-dev/pandas/issues/25241
+Fix validation error type `PR08` and check in CI,,https://github.com/pandas-dev/pandas/issues/25232
+Error when read_json created by to_json with orient='table and index=False,,https://github.com/pandas-dev/pandas/issues/25170
+Groupby creates emptu groups depending on base parameter ,,https://github.com/pandas-dev/pandas/issues/25161
+assert_*_equal issues,,https://github.com/pandas-dev/pandas/issues/25135
+Fix validation error type `SS02` and check in CI,,https://github.com/pandas-dev/pandas/issues/25113
+Fix validation error type `SS05` and check in CI,,https://github.com/pandas-dev/pandas/issues/25112
+Fix validation error type `RT05` and check in CI,,https://github.com/pandas-dev/pandas/issues/25108
+Fix validation error type `RT04` and check in CI,,https://github.com/pandas-dev/pandas/issues/25107
+Fix validation error type `GL04` and check in CI,,https://github.com/pandas-dev/pandas/issues/25106
+Fix validation error type `PR04` and check in CI,,https://github.com/pandas-dev/pandas/issues/25105
+Formatting Exception in io/formats/terminal.py,,https://github.com/pandas-dev/pandas/issues/25080
+Error in documentation,,https://github.com/pandas-dev/pandas/issues/24981
+DOC: also redirect old whatsnew url,,https://github.com/pandas-dev/pandas/pull/24906
+TST: test_constructors.py::TestSeriesConstructors::test_constructor_dtype_datetime64,,https://github.com/pandas-dev/pandas/issues/24827
+SparseDataFrame.to_coo does not convert the default fill value when is not 0,,https://github.com/pandas-dev/pandas/issues/24817
+Question regarding Series.argsort documentation,,https://github.com/pandas-dev/pandas/issues/24816
+Enhancingperf documentation updates,,https://github.com/pandas-dev/pandas/issues/24807
+Timestamp.strftime() has erratic behavior after use of tz_convert(),,https://github.com/pandas-dev/pandas/issues/24788
+CategoricalAccessor.categorical removed in 0.24.0rc1,,https://github.com/pandas-dev/pandas/issues/24751
+Pytest Deprecation in test_pytables,,https://github.com/pandas-dev/pandas/issues/24706
+CI: flaky hypothesis ,,https://github.com/pandas-dev/pandas/issues/24700
+test_dti_tz_localize_roundtrip fails locally,,https://github.com/pandas-dev/pandas/issues/24689
+DOC: `applymap` calling on first column twice,,https://github.com/pandas-dev/pandas/issues/24612
+TST: clean up deprecation warning,,https://github.com/pandas-dev/pandas/issues/24610
+Examples for Series ops should be specific to each method.,,https://github.com/pandas-dev/pandas/issues/24589
+docstring templates not being filled,,https://github.com/pandas-dev/pandas/issues/24535
+DOC: code_checks patterns does not ignore .c files,,https://github.com/pandas-dev/pandas/issues/24526
+DOC: warnings from doc-strings for deprecated functions,,https://github.com/pandas-dev/pandas/issues/24525
+DEPR: deprecate pandas/io/date_converters.py,,https://github.com/pandas-dev/pandas/issues/24518
+"Wrong ""Too many indexers"" when value in series with MultiIndex is None",,https://github.com/pandas-dev/pandas/issues/24474
+TST: Split test_excel into sub test files,,https://github.com/pandas-dev/pandas/issues/24472
+DOC: FutureWarnings when building io.rst,,https://github.com/pandas-dev/pandas/issues/24439
+DOC: Add dateutil to intersphinx,,https://github.com/pandas-dev/pandas/issues/24437
+Series of integers mod behavior,,https://github.com/pandas-dev/pandas/issues/24396
+ENH: add asv's which include EAs where appropriate,,https://github.com/pandas-dev/pandas/issues/24351
+DOC: Fix docstrings with the sections in the wrong order,,https://github.com/pandas-dev/pandas/issues/24280
+DOC: Series.nlargest sorts index with duplicates,,https://github.com/pandas-dev/pandas/issues/24268
+"DOC: Fix flake8 issues in doc/source/whatsnew/v0.9.*.rst, v0.8.*.rst & v0.7.*.rst, ",,https://github.com/pandas-dev/pandas/issues/24260
+DOC: Fix flake8 issues in doc/source/whatsnew/v0.10.*.rst,,https://github.com/pandas-dev/pandas/issues/24259
+DOC: Fix flake8 issues in doc/source/whatsnew/v0.11.0.rst,,https://github.com/pandas-dev/pandas/issues/24258
+DOC: Fix flake8 issues in doc/source/whatsnew/v0.12.*.rst,,https://github.com/pandas-dev/pandas/issues/24257
+DOC: Fix flake8 issues in doc/source/whatsnew/v0.13.*.rst,,https://github.com/pandas-dev/pandas/issues/24256
+DOC: Fix flake8 issues in doc/source/whatsnew/v0.14.*.rst,,https://github.com/pandas-dev/pandas/issues/24240
+ DOC: Fix flake8 issues in doc/source/whatsnew/v0.15.*.rst,,https://github.com/pandas-dev/pandas/issues/24239
+DOC: Fix flake8 issues in doc/source/whatsnew/v0.16.*.rst ,,https://github.com/pandas-dev/pandas/issues/24237
+DOC: Fix flake8 issues in doc/source/whatsnew/v0.17.*.rst ,,https://github.com/pandas-dev/pandas/issues/24235
+DOC: Fix flake8 issues in doc/source/whatsnew/v0.18.*.rst,,https://github.com/pandas-dev/pandas/issues/24233
+DOC: Fix flake8 issues in doc/source/whatsnew/v0.21.0.rst,,https://github.com/pandas-dev/pandas/issues/24222
+DOC: Fix flake8 issues in doc/source/whatsnew/v0.20.0.rst ,,https://github.com/pandas-dev/pandas/issues/24220
+DOC: Fix flake8 issues in doc/source/whatsnew/v0.19.0.rst ,,https://github.com/pandas-dev/pandas/issues/24219
+DOC: scripts/validate_docstrings.py should clean up files created from docstrings,,https://github.com/pandas-dev/pandas/issues/24209
+DOC: Fix flake8 issues in doc/source/whatsnew/v0.22.0.rst,,https://github.com/pandas-dev/pandas/issues/24202
+DOC: Fix flake8 issues in doc/source/whatsnew/v0.23.0.rst,,https://github.com/pandas-dev/pandas/issues/24201
+DOC: Fix flake8 issues in doc/source/whatsnew/v0.24.0.rst ,,https://github.com/pandas-dev/pandas/issues/24200
+DOC: Fix flake8 issues in doc/source/visualization.rst,,https://github.com/pandas-dev/pandas/issues/24181
+DOC: Fix flake8 issues in doc/source/reshaping.rst,,https://github.com/pandas-dev/pandas/issues/24180
+DOC: Fix flake8 issues in doc/source/merging.rst ,,https://github.com/pandas-dev/pandas/issues/24179
+DOC: Fix flake8 issues in doc/source/groupby.rst,,https://github.com/pandas-dev/pandas/issues/24178
+DOC: Fix flake8 issues in doc/source/enhancingperf.rst,,https://github.com/pandas-dev/pandas/issues/24176
+DOC: Fix flake8 issues in doc/source/dsintro.rst,,https://github.com/pandas-dev/pandas/issues/24175
+DOC: Fix flake8 issues in doc/source/10min.rst,,https://github.com/pandas-dev/pandas/issues/24174
+DOC: update usage of randn in io.rst,,https://github.com/pandas-dev/pandas/issues/24148
+DOC: Deprecation directive in docstrings should be placed before the extended summary,,https://github.com/pandas-dev/pandas/issues/24143
+DOC: Fix quotes position in pandas.core,,https://github.com/pandas-dev/pandas/issues/24071
+DOC: Fix quotes position in Timestamp and Timedelta,,https://github.com/pandas-dev/pandas/issues/24070
+DOC: Make _field_accessor manage the docstring format,,https://github.com/pandas-dev/pandas/issues/24068
+"Explicitly include ""private"" ExtensionArray methods in API docs",,https://github.com/pandas-dev/pandas/issues/24067
+DOC: Fix quotes position in Series docstrings,,https://github.com/pandas-dev/pandas/issues/24059
+DOC: Fix order of sections in Series docstrings,,https://github.com/pandas-dev/pandas/issues/24058
+Add columns-parameter like in feather.read_dataframe,,https://github.com/pandas-dev/pandas/issues/24025
+step option does not work for hist,,https://github.com/pandas-dev/pandas/issues/23992
+BUG: maybe_infer_to_datetimelike incorrect on 2D inputs,,https://github.com/pandas-dev/pandas/issues/23988
+DatetimeIndex doesn't validate `dtype` argument,,https://github.com/pandas-dev/pandas/issues/23986
+BUG: pandas.cut should disallow overlapping IntervalIndex bins,,https://github.com/pandas-dev/pandas/issues/23980
+BUG/TST: PeriodArray.__setitem__ with slice and list-like value fails,,https://github.com/pandas-dev/pandas/issues/23978
+Wrong argument documentation for reindex_axis,,https://github.com/pandas-dev/pandas/issues/23960
+DOC: Use a standard header for all rst files,,https://github.com/pandas-dev/pandas/issues/23952
+show_versions fails on master with latest lxml,,https://github.com/pandas-dev/pandas/issues/23934
+TST: Run tests using a database explicitly,,https://github.com/pandas-dev/pandas/issues/23928
+TST: Disallow bare pytest.raises,,https://github.com/pandas-dev/pandas/issues/23922
+ExtensionArray.shift incorrect for periods larger than length of array,,https://github.com/pandas-dev/pandas/issues/23911
+DOC: Capitalize docstring summaries,,https://github.com/pandas-dev/pandas/issues/23881
+DOC: Use only one blank line to separate sections or paragraphs,,https://github.com/pandas-dev/pandas/issues/23870
+Shouldn't the try: __import__ in __init__ re-raise original exception?,,https://github.com/pandas-dev/pandas/issues/23868
+DataFrame rename fails with TypeError when give a ChainMap instead of a dict,,https://github.com/pandas-dev/pandas/issues/23859
+CLN: Fixes to conda environment names,,https://github.com/pandas-dev/pandas/issues/23851
+pd to_datetime with format specified returns doesn't match format specified instead of OutOfBoundsDatetime,,https://github.com/pandas-dev/pandas/issues/23830
+DOC: Move content in doc/README.rst to doc/source/contributing.rst,,https://github.com/pandas-dev/pandas/issues/23828
+CI: Move CircleCI job to Azure pipelines,,https://github.com/pandas-dev/pandas/issues/23821
+equality comparison with a scalar is slow for category (performance regression),,https://github.com/pandas-dev/pandas/issues/23814
+DOC: Fix format of cookbook.rst,,https://github.com/pandas-dev/pandas/issues/23794
+DOC: Fix format of categorical.rst,,https://github.com/pandas-dev/pandas/issues/23793
+DOC: Fix format of basics.rst,,https://github.com/pandas-dev/pandas/issues/23792
+DOC: Fix format of io.rst,,https://github.com/pandas-dev/pandas/issues/23791
+DOC: Fix format of advanced.rst,,https://github.com/pandas-dev/pandas/issues/23790
+TST: split up pandas/tests/test_multilevel.py,,https://github.com/pandas-dev/pandas/issues/23782
+DOC: Wrong spaces in the documentation,,https://github.com/pandas-dev/pandas/issues/23780
+read_csv c engine accepts binary mode data and python engine rejects it,,https://github.com/pandas-dev/pandas/issues/23779
+"BUG: to_datetime with unit, utc=True and errors='ignore' does not coerce to UTC",,https://github.com/pandas-dev/pandas/issues/23758
+DOC: Fix formatting of parameters,,https://github.com/pandas-dev/pandas/issues/23729
+DOC: Weird documentation (or behavior) of pd.read_csv escapechar= arg,,https://github.com/pandas-dev/pandas/issues/23717
+DOC: Remove pandas. prefix from See Also section in Series,,https://github.com/pandas-dev/pandas/issues/23659
+DOC: Add validation error when a docstring is missing,,https://github.com/pandas-dev/pandas/issues/23648
+DOC: Improve error message when the docstring sections are in the wrong order,,https://github.com/pandas-dev/pandas/issues/23644
+DOC: Capitalize docstring summaries of Series,,https://github.com/pandas-dev/pandas/issues/23641
+DOC: Fix docstring title sections,,https://github.com/pandas-dev/pandas/issues/23640
+DOC: Fix double blank lines in Series docstrings,,https://github.com/pandas-dev/pandas/issues/23632
+CI: Add --ignore-deprecated to validate_docstrings.py,,https://github.com/pandas-dev/pandas/issues/23631
+DOC: Fix format of the See Also descriptions,,https://github.com/pandas-dev/pandas/issues/23630
+CLN: Consistency of arguments in to_html and to_string,,https://github.com/pandas-dev/pandas/issues/23612
+DOC: Fix order of parameters in the docstrings,,https://github.com/pandas-dev/pandas/issues/23596
+PERF: Implement PeriodArray._unique,,https://github.com/pandas-dev/pandas/issues/23586
+Series to_json Docstring Updates,,https://github.com/pandas-dev/pandas/issues/23584
+Melting with not present column does not produce error,,https://github.com/pandas-dev/pandas/issues/23570
+BUG: concat(Series[sparse]) raises ValueError,,https://github.com/pandas-dev/pandas/issues/23557
+Passing an invalid flavor to read_html prints the wrong error message,,https://github.com/pandas-dev/pandas/issues/23549
+CI: Documentation built but not published in PRs,,https://github.com/pandas-dev/pandas/issues/23536
+DOC: Fix docstring of read_csv and related methods,,https://github.com/pandas-dev/pandas/issues/23496
+DOC: Fix docstrings of Excel related functions,,https://github.com/pandas-dev/pandas/issues/23494
+DOC: Detect whether a Returns section is needed in validate_docstrings.py,,https://github.com/pandas-dev/pandas/issues/23488
+DOC: Validate space before colon in the parameters section of the docstrings,,https://github.com/pandas-dev/pandas/issues/23483
+Parameter nrows is not documented in DataFrame.from_records(),,https://github.com/pandas-dev/pandas/issues/23445
+Fix import formatting using isort,,https://github.com/pandas-dev/pandas/issues/23334
+Add base test for ExtensionArray.__setitem__,,https://github.com/pandas-dev/pandas/issues/23300
+Gaps in ExtensionArray test coverage,,https://github.com/pandas-dev/pandas/issues/23241
+"Misleading ""not"" typo in assertion in pandas.concat in join_axes check",,https://github.com/pandas-dev/pandas/issues/23204
+DOC/TST: doctests leaving extraneous files,,https://github.com/pandas-dev/pandas/issues/23201
+pandas.cut: the 'include_lowest' argument isn't behaving as documented,,https://github.com/pandas-dev/pandas/issues/23164
+Validate PEP-8 in docstring examples,,https://github.com/pandas-dev/pandas/issues/23154
+TST: warnings on the doc-tests,,https://github.com/pandas-dev/pandas/issues/23149
+DOC: Validate the Returns section in the docstrings,,https://github.com/pandas-dev/pandas/issues/23138
+DOC: Validate that items in See Also section do not start by pandas.,,https://github.com/pandas-dev/pandas/issues/23136
+DOC: Validate description of See Also section in docstrings,,https://github.com/pandas-dev/pandas/issues/23135
+DOC: Validate that the docstrings do not import pandas or numpy,,https://github.com/pandas-dev/pandas/issues/23134
+DOC: Validate the order of the sections in the docstrings,,https://github.com/pandas-dev/pandas/issues/23133
+DOC: possible cookbook rendering issue with PR #22761,,https://github.com/pandas-dev/pandas/issues/23128
+BUG: skipna parameter in series.any() returns wrong result,,https://github.com/pandas-dev/pandas/issues/23109
+It is not clear whether database connection need to be closed manually after calling pd.read_sql(),,https://github.com/pandas-dev/pandas/issues/23086
+Improve doc/README.rst,,https://github.com/pandas-dev/pandas/issues/23084
+"Datetime/Timedelta/Period Index min, argmin, max, argmax have `axis` kwarg",,https://github.com/pandas-dev/pandas/issues/23081
+Unclear documentation of inplace parameter for pandas.DataFrame.rename.,,https://github.com/pandas-dev/pandas/issues/23076
+Remove unused asv directives and verify in the CI that we are not using them,,https://github.com/pandas-dev/pandas/issues/23075
+Make default xfail strict,,https://github.com/pandas-dev/pandas/issues/23057
+Fatal Stack Overflow Stemming From Misuse of astype('category'),,https://github.com/pandas-dev/pandas/issues/23049
+Doc build failing with IPython 7.0,,https://github.com/pandas-dev/pandas/issues/22990
+DOC: fill_value argument in Series.combine(),,https://github.com/pandas-dev/pandas/issues/22953
+Document module privacy,,https://github.com/pandas-dev/pandas/issues/22942
+BUG: to_period behaves different between Timestamp and DatetimeIndex with timezones,,https://github.com/pandas-dev/pandas/issues/22905
+DOC: Fix the docstring of itertuples in pandas/core/frame.py,,https://github.com/pandas-dev/pandas/issues/22899
+DOC: Fix the docstring of quantile in pandas/core/frame.py,,https://github.com/pandas-dev/pandas/issues/22898
+DOC: Fix the docstring of join in pandas/core/frame.py,,https://github.com/pandas-dev/pandas/issues/22897
+DOC: Fix the docstring of to_stata in pandas/core/frame.py,,https://github.com/pandas-dev/pandas/issues/22896
+DOC: Fix the docstring of _set_axis_name in pandas/core/generic.py,,https://github.com/pandas-dev/pandas/issues/22895
+DOC: Fix the docstring of resample in pandas/core/generic.py,,https://github.com/pandas-dev/pandas/issues/22894
+DOC: Fix the docstring of groupby in pandas/core/generic.py,,https://github.com/pandas-dev/pandas/issues/22893
+DOC: Fix the docstring of xs in pandas/core/generic.py,,https://github.com/pandas-dev/pandas/issues/22892
+"STYLE: Fix lint error ""F811 redefinition of unused 'setup'"" in benchmarks ",,https://github.com/pandas-dev/pandas/issues/22885
+STYLE: Fix linting of benchmarks,,https://github.com/pandas-dev/pandas/issues/22884
+DOC: Fix and extend ParserError docstring,,https://github.com/pandas-dev/pandas/issues/22881
+Replace bare excepts by explicit excepts in pandas,,https://github.com/pandas-dev/pandas/issues/22877
+Replace bare excepts by explicit excepts in pandas/io/,,https://github.com/pandas-dev/pandas/issues/22875
+Replace bare excepts by explicit excepts in pandas/io/pytables,,https://github.com/pandas-dev/pandas/issues/22874
+Replace bare excepts by explicit excepts in pandas/core/,,https://github.com/pandas-dev/pandas/issues/22873
+Replace bare excepts by explicit excepts in pandas/tests/,,https://github.com/pandas-dev/pandas/issues/22872
+BLD: Use Azure pipelines for linting,,https://github.com/pandas-dev/pandas/issues/22844
+DOC: Generating docs doesn't work if path has whitespaces,,https://github.com/pandas-dev/pandas/issues/22836
+DataFrame.to_dict can result in data loss when indexes are not unique,,https://github.com/pandas-dev/pandas/issues/22801
+Misleading read_csv() error message. It says lines but refers to rows.,,https://github.com/pandas-dev/pandas/issues/22789
+Make header_style a Property of ExcelFormatter,,https://github.com/pandas-dev/pandas/issues/22758
+DOC: Document column order in MultiIndex.to_frame,,https://github.com/pandas-dev/pandas/issues/22662
+DataFrame.to_dict(orient='records') numeric inconsistency,,https://github.com/pandas-dev/pandas/issues/22620
+DOC: scripts/validate_docstrings.py should detect when the short summary span over multiple lines,,https://github.com/pandas-dev/pandas/issues/22615
+Set hypothesis HealthCheck,,https://github.com/pandas-dev/pandas/issues/22593
+"DataFrame.rolling causes Kernel died, restart",,https://github.com/pandas-dev/pandas/issues/22590
+TST/CLN: remove TestData from series-tests; replace with fixtures,,https://github.com/pandas-dev/pandas/issues/22550
+Cannot merge on equal categorical dtypes,,https://github.com/pandas-dev/pandas/issues/22501
+Capture STDOUT For Validations Script Tests,,https://github.com/pandas-dev/pandas/issues/22483
+TST/CLN: remove TestData from frame-tests; replace with fixtures,,https://github.com/pandas-dev/pandas/issues/22471
+DOC: Update docstring of DataFrame/Series .equals() to explain the behavior with indices,,https://github.com/pandas-dev/pandas/issues/22462
+DOC: ongoing fixing of doctests,,https://github.com/pandas-dev/pandas/issues/22459
+Consider directives when validating docstrings parameters,,https://github.com/pandas-dev/pandas/issues/22405
+"Plotting methods (line, area, ..) don't handle string x values",,https://github.com/pandas-dev/pandas/issues/22334
+DataFrame.corrwith has unintuitive behavior,,https://github.com/pandas-dev/pandas/issues/22328
+Add 'table' as Allowed `orient` Value in to_json Docs,,https://github.com/pandas-dev/pandas/issues/22272
+"low_memory=True in read_csv leads to non documented, silent errors",,https://github.com/pandas-dev/pandas/issues/22194
+TST: remove skip for pytables build issue on numpy 1.15,,https://github.com/pandas-dev/pandas/issues/22098
+Checking that a pandas.Series.index contains a value,,https://github.com/pandas-dev/pandas/issues/22085
+read_csv Documentation Rendering Poorly,,https://github.com/pandas-dev/pandas/issues/22057
+DOC: Example on how to parse comments,,https://github.com/pandas-dev/pandas/issues/22055
+pd.testing.assert_frame_equal check_like not working like expected,,https://github.com/pandas-dev/pandas/issues/22052
+"[documentation] merge(suffixes=(False, False)) should cause an error if a suffix would be required to complete the merge but it is undocumented",,https://github.com/pandas-dev/pandas/issues/22045
+COMPAT: Import abstract classes from collections.abc,,https://github.com/pandas-dev/pandas/issues/22020
+Concatenation warning still appears with sort=False,,https://github.com/pandas-dev/pandas/issues/21952
+Indexing datetime index over summer/winter time change gives incorrect result,,https://github.com/pandas-dev/pandas/issues/21846
+Expose ExcelWriter as part of the Generated API,,https://github.com/pandas-dev/pandas/issues/21835
+BUG: DatetimeIndex.unique shifts tz-aware dates,,https://github.com/pandas-dev/pandas/issues/21737
+BUG: to_datetime with Index arg does not retain name in all cases,,https://github.com/pandas-dev/pandas/issues/21697
+ENH/API: allow different values for labels/index in DF.reindex __OR__ raise error,,https://github.com/pandas-dev/pandas/issues/21685
+BUG: unstack() does not always sort index in 0.23,,https://github.com/pandas-dev/pandas/issues/21675
+DatetimeIndex.union with tz-aware and tz-naive raises TypeError,,https://github.com/pandas-dev/pandas/issues/21671
+"pd.Series.interpolate(method=""quadratic) Error with non-numeric index column",,https://github.com/pandas-dev/pandas/issues/21662
+TST/CLN: remove MultiIndex compat,,https://github.com/pandas-dev/pandas/issues/21654
+groupby w/ only NULL-groups crashes since 0.23,,https://github.com/pandas-dev/pandas/issues/21624
+Tick DateOffset Normalize whatsnew entry has an error,,https://github.com/pandas-dev/pandas/issues/21564
+Test Case for to_csv to sys.stdout,,https://github.com/pandas-dev/pandas/issues/21561
+json_normalize has inconsistent behaviors while flattening nested array elements,,https://github.com/pandas-dev/pandas/issues/21537
+BUG: np.array @ pd.Series swaps arguments,,https://github.com/pandas-dev/pandas/issues/21530
+[DOC]: Explain the choice of absolute/relative tolerance for check_less_precise in assert_almost_equal,,https://github.com/pandas-dev/pandas/issues/21528
+DOC: Implement script to validate list indentation in docs,,https://github.com/pandas-dev/pandas/issues/21520
+Passing empty label list to df.drop() errors when index is non-unique,,https://github.com/pandas-dev/pandas/issues/21494
+pandas.rolling.apply skip calling function if window contains any NaN,,https://github.com/pandas-dev/pandas/issues/21489
+CLN: remove SimpleMock from pandas.util.testing,,https://github.com/pandas-dev/pandas/issues/21475
+Python -00 test is fragile to PATH,,https://github.com/pandas-dev/pandas/issues/21450
+BUG: .nlargest with unsigned integers,,https://github.com/pandas-dev/pandas/issues/21426
+BUG: DataFrame.pivot fails on multiple columns to set as index,,https://github.com/pandas-dev/pandas/issues/21425
+nlargest of multiindex grouper throw type error:  nlargest() got an unexpected keyword argument 'axis',,https://github.com/pandas-dev/pandas/issues/21411
+TST: add additional test cases for pivot_table with categorical data,,https://github.com/pandas-dev/pandas/issues/21370
+JSON nested_to_record Silently Drops Top-Level None Values,,https://github.com/pandas-dev/pandas/issues/21356
+CI: Enable spellcheck in docbuild,,https://github.com/pandas-dev/pandas/issues/21354
+Typo in error message in the PlanePlot class,,https://github.com/pandas-dev/pandas/issues/21347
+Timestamp.resolution returns timedelta(microseconds=1),,https://github.com/pandas-dev/pandas/issues/21336
+DOC: Add See Also section to IndexSlice docstring regarding removing unused levels,,https://github.com/pandas-dev/pandas/issues/21308
+access git revision of currently running pandas,,https://github.com/pandas-dev/pandas/issues/21295
+Empty data frames not round-trippable to JSON,,https://github.com/pandas-dev/pandas/issues/21287
+Apply method broken for empty integer series with datetime index,,https://github.com/pandas-dev/pandas/issues/21245
+BUG: Series.dt.to_period returns wrong dtype on all-NaTs ,,https://github.com/pandas-dev/pandas/issues/21205
+"bug: merge_asof with tz-aware datetime ""by"" parameter raises",,https://github.com/pandas-dev/pandas/issues/21184
+"read_csv errors when low_memory=True, index_col is not None, and nrows=0",,https://github.com/pandas-dev/pandas/issues/21141
+"Add Timedelta Support to JSON Reader with orient=""table""",,https://github.com/pandas-dev/pandas/issues/21140
+Change from of 'c' to 'python' engine in read_csv gives unexpected side-effect,,https://github.com/pandas-dev/pandas/issues/21131
+DOC: Add documentation for freq='infer' option of DatetimeIndex and TimedeltaIndex constructors,,https://github.com/pandas-dev/pandas/issues/21128
+DOC: error in 0.23.0 concat sort warning?,,https://github.com/pandas-dev/pandas/issues/21101
+Categorical `fillna` with custom objects raises TypeError,,https://github.com/pandas-dev/pandas/issues/21097
+regression in 0.23.0 on rolling max with DatetimeIndex.,,https://github.com/pandas-dev/pandas/issues/21096
+MultiIndex that contains tuples raises on __contains__ whenever the item is not contained (Python 2),,https://github.com/pandas-dev/pandas/issues/21094
+DOC: Enable sphinx.contrib.spelling,,https://github.com/pandas-dev/pandas/issues/21079
+Pandas Dataframe behaves differently when one column is a TimeSeries. ,,https://github.com/pandas-dev/pandas/issues/21045
+DOC: Update Contributing Guide to Point to Pandas Docstring Guide,,https://github.com/pandas-dev/pandas/issues/21040
+"Using tuples as dataframe index, containing single entry makes rows impossible to select",,https://github.com/pandas-dev/pandas/issues/20991
+Index.map fails when index has a name and mapping returns tuple,,https://github.com/pandas-dev/pandas/issues/20990
+"Series.reset_index(level_name, drop=True) accepts invalid name when index is flat",,https://github.com/pandas-dev/pandas/issues/20925
+"ExcelFile.parse() and pd.read_xlsx() have different behavior for ""sheetname"" argument",,https://github.com/pandas-dev/pandas/issues/20920
+Groupby on empty frame different results based on dtypes.,,https://github.com/pandas-dev/pandas/issues/20888
+Update docs on reserved attributes,,https://github.com/pandas-dev/pandas/issues/20878
+Problem Compiling Docs using make.py ,,https://github.com/pandas-dev/pandas/issues/20862
+np array indexer modified in iloc,,https://github.com/pandas-dev/pandas/issues/20852
+DOC: clean Index.set_name / .rename doc-strings,,https://github.com/pandas-dev/pandas/issues/20787
+"Selecting ""subsets"" of a `MultiIndex` `DataFrame` sometimes changes `dtypes`",,https://github.com/pandas-dev/pandas/issues/20757
+BUG: concat with copy=False of ExtensionArray fails,,https://github.com/pandas-dev/pandas/issues/20756
+Hitting AmbiguousTimeError when exiting DST using .loc,,https://github.com/pandas-dev/pandas/issues/20724
+Inconsistent behaviour when calling apply() on a categorical column with missing data ,,https://github.com/pandas-dev/pandas/issues/20714
+BUG: no tables found in test_html spam test,,https://github.com/pandas-dev/pandas/issues/20685
+API/BUG: center=True in expanding operations returns non-sensical results,,https://github.com/pandas-dev/pandas/issues/20647
+`console_encode` doesn't exist ,,https://github.com/pandas-dev/pandas/issues/20616
+ERR: pivot_table when number of levels larger than int32 range,,https://github.com/pandas-dev/pandas/issues/20601
+COMPAT: Don't use re module's private type,,https://github.com/pandas-dev/pandas/issues/20551
+ERR: disallow non-hashables in Index construction & rename,,https://github.com/pandas-dev/pandas/issues/20527
+DOC: io.rst uses deprecated Index.summary,,https://github.com/pandas-dev/pandas/issues/20508
+Local PostgreSQL faliures,,https://github.com/pandas-dev/pandas/issues/20505
+Move Wiki testing page to main docs?,,https://github.com/pandas-dev/pandas/issues/20501
+issue when shifting with Timedelta in a groupby,,https://github.com/pandas-dev/pandas/issues/20492
+API: groupby with categoricals inconsistent with Series vs DataFrame result,,https://github.com/pandas-dev/pandas/issues/20416
+No KeyError in partial indexing of unused label if placeholder is used in (only) some columns,,https://github.com/pandas-dev/pandas/issues/20410
+sum() or prod() on an empty of all-NaN series ,,https://github.com/pandas-dev/pandas/issues/20398
+Incorrect column dtype conversion from object to int for small floating point numbers,,https://github.com/pandas-dev/pandas/issues/20388
+Remove more NaN in categories checking,,https://github.com/pandas-dev/pandas/issues/20362
+Add CSS formating for deprecated parameters / methods,,https://github.com/pandas-dev/pandas/issues/20349
+qcut raising TypeError for boolean Series,,https://github.com/pandas-dev/pandas/issues/20303
+API: DatetimeIndex.strftime should return an Index,,https://github.com/pandas-dev/pandas/issues/20127
+DOC: Series.unique docstring can be moved to series.py,,https://github.com/pandas-dev/pandas/issues/20075
+min_count is ignored by sum/prod when resampling a PeriodIndex,,https://github.com/pandas-dev/pandas/issues/19974
+deprecation warning importing pandas (python2.7 only),,https://github.com/pandas-dev/pandas/issues/19944
+Inccorect example in DataFrame.to_dict docstring,,https://github.com/pandas-dev/pandas/issues/19868
+"File mode in `to_csv` is ignored, when passing a file object instead of a path",,https://github.com/pandas-dev/pandas/issues/19827
+TST: Use Skipif Decorators in 'test_excel.py',,https://github.com/pandas-dev/pandas/issues/19816
+Doc build leaves behind a test.json file,,https://github.com/pandas-dev/pandas/issues/19815
+pandas.options.__getattr__ raises KeyError instead of AttributeError,,https://github.com/pandas-dev/pandas/issues/19789
+Clean: Categorical.fillna NaN in categories checking,,https://github.com/pandas-dev/pandas/issues/19787
+TST: add doc-strings for fixtures,,https://github.com/pandas-dev/pandas/issues/19731
+(Re)-deprecate order keyword in factorize,,https://github.com/pandas-dev/pandas/issues/19727
+Pandas 0.22.0 does not raise KeyError for misspelled column with .drop_duplicates(),,https://github.com/pandas-dev/pandas/issues/19726
+pipe example in basics.rst broken due to SciPy / statsmodels changes,,https://github.com/pandas-dev/pandas/issues/19713
+pytest deprecation warning,,https://github.com/pandas-dev/pandas/issues/19703
+Ambiguous description in pandas.DataFrame.to_parquet documentation,,https://github.com/pandas-dev/pandas/issues/19662
+DOC: Clarifiy fill_value behavior in arithmetic ops,,https://github.com/pandas-dev/pandas/issues/19653
+Raise ValueError When Attempting to Rank Object Dtypes,,https://github.com/pandas-dev/pandas/issues/19560
+TST: remove multiprocess_can_split class variables,,https://github.com/pandas-dev/pandas/issues/19532
+Documation: copy documenation is lacking detail for when deep=False,,https://github.com/pandas-dev/pandas/issues/19505
+"Rank 'na_option=""bottom""' Usage Clarification",,https://github.com/pandas-dev/pandas/issues/19499
+Precision error when using Timedelta.total_seconds method ,,https://github.com/pandas-dev/pandas/issues/19458
+df.groupby('symbol')['status'].ffill() results in Exception: cannot handle a non-unique multi-index!,,https://github.com/pandas-dev/pandas/issues/19437
+read_fwf - parsers.py PythonParser._rows_to_columns line 2814 object of type 'NoneType' has no len(),,https://github.com/pandas-dev/pandas/issues/19436
+DF.stack() on single column datetime with timezone causes loss of timezone,,https://github.com/pandas-dev/pandas/issues/19420
+check_names=False parameter for pandas.util.testing.assert_frame_equal applies to index.names but not columns.names,,https://github.com/pandas-dev/pandas/issues/19411
+DOC: incorrect example result for pd.merge_ordered,,https://github.com/pandas-dev/pandas/issues/19393
+DOC: Code snippet renders incorrectly in the Registering Custom Accessors subsection of developer.rst,,https://github.com/pandas-dev/pandas/issues/19392
+DOC/ERR: better error message on no common merge keys,,https://github.com/pandas-dev/pandas/issues/19391
+BUG: maybe_convert_objects on soft converttof datetime can raise unexpectedly,,https://github.com/pandas-dev/pandas/issues/19359
+Unstack throws when run on subset of DataFrame,,https://github.com/pandas-dev/pandas/issues/19351
+Index subclasses do not check parameters,,https://github.com/pandas-dev/pandas/issues/19348
+"Series.nonzero(): Returns locations, not indices",,https://github.com/pandas-dev/pandas/issues/19312
+Behaviour of Categorical inputs to sparse data structures,,https://github.com/pandas-dev/pandas/issues/19278
+DOC: NumFOCUS link broken at http://pandas.pydata.org,,https://github.com/pandas-dev/pandas/issues/19267
+df.to_excel() error.Unsupported type <type 'pandas._libs.interval.Interval'> in write(),,https://github.com/pandas-dev/pandas/issues/19242
+TST: split tests for windows to sub-modules,,https://github.com/pandas-dev/pandas/issues/19228
+TST: clean up all of the compression tests,,https://github.com/pandas-dev/pandas/issues/19226
+"""is_all_dates"" inconsistent across datetimelike types",,https://github.com/pandas-dev/pandas/issues/19204
+Minor inaccurracy in documentation of read_csv's option mangle_dupe_cols,,https://github.com/pandas-dev/pandas/issues/19203
+CategoricalDtype does not work properly with bool column with missing values.,,https://github.com/pandas-dev/pandas/issues/19182
+Document our pytest fixtures,,https://github.com/pandas-dev/pandas/issues/19159
+DOC: period missing at end of the pandas.DataFrame docstring,,https://github.com/pandas-dev/pandas/issues/19141
+reset_index() doesn't work with CategoricalIndex columns,,https://github.com/pandas-dev/pandas/issues/19136
+Raise ValueError for read_json and orient='table' With Numeric Column Names,,https://github.com/pandas-dev/pandas/issues/19129
+DOC: enhance pivot / reshape docs,,https://github.com/pandas-dev/pandas/issues/19089
+"BUG: Creating Index name using `names` names argument, doesn't set index name",,https://github.com/pandas-dev/pandas/issues/19082
+Index * Series returns Index,,https://github.com/pandas-dev/pandas/issues/19080
+json_normalize fails when input is a Series without a 0 in the index,,https://github.com/pandas-dev/pandas/issues/19020
+DOC: tm.assert_produces_warning kwarg clear is undocumented,,https://github.com/pandas-dev/pandas/issues/18996
+CLN: rename lib.isscalar to lib.is_scalar,,https://github.com/pandas-dev/pandas/issues/18987
+TST: split out sparse tests,,https://github.com/pandas-dev/pandas/issues/18969
+LINT: pandas/scripts,,https://github.com/pandas-dev/pandas/issues/18949
+is_scalar should return True for DateOffset objects,,https://github.com/pandas-dev/pandas/issues/18943
+"DOC: is confusing for ddof parameter of sem, var and std functions",,https://github.com/pandas-dev/pandas/issues/18903
+ENH: Timestamp constructor does not accept nanosecond arg,,https://github.com/pandas-dev/pandas/issues/18898
+DOC: improve docs for broadcasting behavior,,https://github.com/pandas-dev/pandas/issues/18857
+asv tests for DataFrame constructor,,https://github.com/pandas-dev/pandas/issues/18840
+possible bug when using datetime.replace() on a tz-aware pd.DatetimeIndex,,https://github.com/pandas-dev/pandas/issues/18785
+Standardize docstrings to use pd.DataFrame/pd.Series,,https://github.com/pandas-dev/pandas/issues/18770
+Silently Ignored Kwargs Cleanup,,https://github.com/pandas-dev/pandas/issues/18748
+COMPAT: drop pyarrow < 0.7 and fastparquet < 0.1 for Parquet IO,,https://github.com/pandas-dev/pandas/issues/18742
+read_excel kwarg for `comment`?,,https://github.com/pandas-dev/pandas/issues/18735
+DOC: pivot_table - fix documentation of aggfunc parameter,,https://github.com/pandas-dev/pandas/issues/18712
+Groupby with function returning a tuple fails if index has a name,,https://github.com/pandas-dev/pandas/issues/18696
+read_csv() usecols behavior unclear,,https://github.com/pandas-dev/pandas/issues/18673
+TST: split up pandas/tests/indexes/test_multi.py,,https://github.com/pandas-dev/pandas/issues/18644
+CLN: deprecate/remove the pandas.tseries.plotting.tsplot function,,https://github.com/pandas-dev/pandas/issues/18627
+"Initializing Series with dict, list of lists values and explicit dtype raises ValueError",,https://github.com/pandas-dev/pandas/issues/18625
+TST: split test_indexing,,https://github.com/pandas-dev/pandas/issues/18614
+"Series.rename doesn't accept ""axis"" argument",,https://github.com/pandas-dev/pandas/issues/18589
+BUG: boolean frames multiplied by floats have dtypes=object,,https://github.com/pandas-dev/pandas/issues/18549
+pd.concat reset the tz-aware index to UTC,,https://github.com/pandas-dev/pandas/issues/18523
+Categorical.from_codes shouldn't coerce to int64,,https://github.com/pandas-dev/pandas/issues/18501
+TST: split out test_pytables.py to sub-module of tests,,https://github.com/pandas-dev/pandas/issues/18498
+TST: organize pandas/tests/groupby/test_aggregate.py,,https://github.com/pandas-dev/pandas/issues/18490
+"test needed: groupby(as_index=False, sort=False).aggregate formerly (?) gave unexpected results with a list-like function",,https://github.com/pandas-dev/pandas/issues/18473
+STYLE: support flake8>3.4.1,,https://github.com/pandas-dev/pandas/issues/18419
+KeyError when calling to_coo() on SparseDataFrame,,https://github.com/pandas-dev/pandas/issues/18414
+new behavior regarding `Series.plot.bar` for `logy=True` in 0.21,,https://github.com/pandas-dev/pandas/issues/18394
+BUG: Unstacking MultiIndex with datetime tz-aware data raises ValueError: cannot create a DatetimeTZBlock without a tz,,https://github.com/pandas-dev/pandas/issues/18338
+Assignment to uint series drops datatype,,https://github.com/pandas-dev/pandas/issues/18311
+Setting values on non-existing datetime index raises exception only when index has DST changes in range,,https://github.com/pandas-dev/pandas/issues/18308
+pd.merge() on int+float produces object since 0.20,,https://github.com/pandas-dev/pandas/issues/18302
+read_excel return empty dataframe when using usecols,,https://github.com/pandas-dev/pandas/issues/18273
+BUG: Calling DataFrame.stack on an out-of-order column MultiIndex leads to swapped values,,https://github.com/pandas-dev/pandas/issues/18265
+DEPR: deprecate get_ftype_counts,,https://github.com/pandas-dev/pandas/issues/18243
+Deprecate Index.summary,,https://github.com/pandas-dev/pandas/issues/18217
+Reading a SAS file with 0 rows gives None,,https://github.com/pandas-dev/pandas/issues/18198
+pandas.Series.dt.total_seconds() documentation confusing,,https://github.com/pandas-dev/pandas/issues/18038
+AmbiguousTimeError using drop on DatetimeIndex with DST change,,https://github.com/pandas-dev/pandas/issues/18031
+Update conda recipe for new conda,,https://github.com/pandas-dev/pandas/issues/18002
+BENCH: Index.take benchmark is measuring wrong thing,,https://github.com/pandas-dev/pandas/issues/18000
+Investigate using Hypothesis for some tests,,https://github.com/pandas-dev/pandas/issues/17978
+BUG: merging with non-stringlike columns can raise,,https://github.com/pandas-dev/pandas/issues/17962
+HDFStore.select_column,,https://github.com/pandas-dev/pandas/issues/17912
+DEPR: deprecate keep_tz keyword in DatetimeIndex.to_series,,https://github.com/pandas-dev/pandas/issues/17832
+DataFrame.to_pickle() fails for .zip format on MacOS and pandas 0.20.3,,https://github.com/pandas-dev/pandas/issues/17778
+merging two empty dataframes can incur a division by zero,,https://github.com/pandas-dev/pandas/issues/17776
+DOC: Order of groups in groupby and head method,,https://github.com/pandas-dev/pandas/issues/17775
+groupby on index and columns mixed: strange behaviour,,https://github.com/pandas-dev/pandas/issues/17681
+"DataFrame.any(axis={0, 1}) returns inconsistent values for non-zero timedelta",,https://github.com/pandas-dev/pandas/issues/17667
+pd.Series.map never maps NAs through a dictionary,,https://github.com/pandas-dev/pandas/issues/17648
+BUG: roundtrip fidelity for a tz-aware DTI with a fixed format HDFStore,,https://github.com/pandas-dev/pandas/issues/17618
+Add teardowns in asv benchmarks,,https://github.com/pandas-dev/pandas/issues/17616
+Timezone object of Timestamp vs DatetimeIndex is different for same time / timezone,,https://github.com/pandas-dev/pandas/issues/17572
+API: Deprecate Categorical fastpath argument,,https://github.com/pandas-dev/pandas/issues/17562
+Unexpected exception on column with NaT,,https://github.com/pandas-dev/pandas/issues/17559
+DOC: nice links / examples for setting with copy & aggregation,,https://github.com/pandas-dev/pandas/issues/17505
+ERR: invalid MultiIndex construction,,https://github.com/pandas-dev/pandas/issues/17464
+"BUG: After reindex(),  astype() raises exception for categorical series",,https://github.com/pandas-dev/pandas/issues/17444
+PERF: to_datime fastpath for %Y%m%d is slower,,https://github.com/pandas-dev/pandas/issues/17410
+Groupby with matching column and index name emits spurious warning,,https://github.com/pandas-dev/pandas/issues/17383
+Union of indexes of tuples is not sorted,,https://github.com/pandas-dev/pandas/issues/17376
+BUG: positional getitem indexing with list on Series with duplicate integer index fails,,https://github.com/pandas-dev/pandas/issues/17347
+COMPAT: support Timestamp.timestamp() in py2.x,,https://github.com/pandas-dev/pandas/issues/17329
+ENH: Improve error message when using DataFrame.from_items instead of DataFrame.from_records,,https://github.com/pandas-dev/pandas/issues/17312
+feature wanted: pd.DataFrame.info() should show line numbers,,https://github.com/pandas-dev/pandas/issues/17304
+AttributeError: 'IntBlock'/'FloatBlock'/etc. object has no attribute 'sp_index',,https://github.com/pandas-dev/pandas/issues/17198
+Make `DataFrame.pivot` accepts a list of column names as values,,https://github.com/pandas-dev/pandas/issues/17160
+Already tz-aware when reading hdf5 generated by Python2 in Python3,,https://github.com/pandas-dev/pandas/issues/17145
+still doesn't work with boto3 StreamingBody,,https://github.com/pandas-dev/pandas/issues/17135
+setitem on empty DataFrame / Series casts to RangeIndex,,https://github.com/pandas-dev/pandas/issues/17101
+DOC: use shared_docs for isna/notna & isnull/notnull,,https://github.com/pandas-dev/pandas/issues/17096
+BUG: reset_index can reset index name,,https://github.com/pandas-dev/pandas/issues/17067
+Type casting after merge,,https://github.com/pandas-dev/pandas/issues/17044
+DOC: section on caveats of storing lists inside DataFrame/Series,,https://github.com/pandas-dev/pandas/issues/17027
+BUG: DataFrame.where with category dtype,,https://github.com/pandas-dev/pandas/issues/16979
+Aggregate fails with mixed types in grouping series,,https://github.com/pandas-dev/pandas/issues/16916
+DataFrame._init_dict handles columns with nan incorrectly if columns passed separately,,https://github.com/pandas-dev/pandas/issues/16894
+(DOC) A `string` passed to `groupby` is hard to understand based on current doc,,https://github.com/pandas-dev/pandas/issues/16870
+BUG: factorize_from_iterables applies type to empty iterables,,https://github.com/pandas-dev/pandas/issues/16844
+DataFrame aggregation methods inconsistent when object columns have missing values,,https://github.com/pandas-dev/pandas/issues/16832
+"DOC: Series.idxmax actually returns a label, not an index",,https://github.com/pandas-dev/pandas/issues/16829
+Scatter plot with colour_by and size_by variables,,https://github.com/pandas-dev/pandas/issues/16827
+DOC: DataFrame.update() fails to change values in calling dataframe if new value is NaN,,https://github.com/pandas-dev/pandas/issues/16812
+to_datetime parses dates incorrectly when the format includes '%W' and does not include day of week plus calendar year,,https://github.com/pandas-dev/pandas/issues/16774
+"DataFrame.from_dict unexpectedly ""flatten"" tuples in the dictionary keys",,https://github.com/pandas-dev/pandas/issues/16769
+"inplace kwarg must be of bool type, but other boolean kwargs don't have this restriction",,https://github.com/pandas-dev/pandas/issues/16714
+.loc Multiindex DateTime slicing failures,,https://github.com/pandas-dev/pandas/issues/16699
+astype errors with Categorical,,https://github.com/pandas-dev/pandas/issues/16697
+Pandas read_excel: only read first few lines,,https://github.com/pandas-dev/pandas/issues/16645
+DOC: pivot function,,https://github.com/pandas-dev/pandas/issues/16578
+Non-inclusive partial string indexing on DatetimeIndex,,https://github.com/pandas-dev/pandas/issues/16571
+TST/CLN: Warnings from pytest 3.1+,,https://github.com/pandas-dev/pandas/issues/16481
+BUG: merge_asof raises when grouping on multiple columns with a categorical,,https://github.com/pandas-dev/pandas/issues/16454
+DOC: Explain how our shared_docs system works,,https://github.com/pandas-dev/pandas/issues/16446
+IntervalIndex get_indexer may return -1 for values that are in the index,,https://github.com/pandas-dev/pandas/issues/16410
+DOC: add section on Interval,,https://github.com/pandas-dev/pandas/issues/16400
+"pd.crosstab, categorical data and missing instances",,https://github.com/pandas-dev/pandas/issues/16367
+Documentation on Performance considerations,,https://github.com/pandas-dev/pandas/issues/16310
+Wrong error message in HDFStore.append when appending dataframe with None item in previously string-only column,,https://github.com/pandas-dev/pandas/issues/16300
+resample.apply flattens column index when more than 3 levels,,https://github.com/pandas-dev/pandas/issues/16231
+CLN: replace %s formatting syntax with .format,,https://github.com/pandas-dev/pandas/issues/16130
+no warning with invalid pd.set_option('display.max_colwidth'),,https://github.com/pandas-dev/pandas/issues/16097
+Unary plus missing for Series and DataFrame,,https://github.com/pandas-dev/pandas/issues/16073
+DataFrame.replace() overwrites when values are non-numeric,,https://github.com/pandas-dev/pandas/issues/16051
+BUG: melt should preserve Categorical id_vars,,https://github.com/pandas-dev/pandas/issues/15853
+API: to_datetime with ordinals and no unit,,https://github.com/pandas-dev/pandas/issues/15836
+DOC: add section in api.rst for pandas.api,,https://github.com/pandas-dev/pandas/issues/15821
+ERR: better error message for trying to concat non-pandas objects,,https://github.com/pandas-dev/pandas/issues/15796
+TST: full dtype tests for .drop_duplicates and .duplicated,,https://github.com/pandas-dev/pandas/issues/15752
+Make pd.set_eng_float_format() into proper pandas.options.display option,,https://github.com/pandas-dev/pandas/issues/15610
+DOC: inconsistent docs-string signatures for shared functions,,https://github.com/pandas-dev/pandas/issues/15609
+DOC: overall improvement of docstrings,,https://github.com/pandas-dev/pandas/issues/15580
+Failure in groupby-apply if aggregating timedelta and datetime columns,,https://github.com/pandas-dev/pandas/issues/15562
+BUG: tz-aware datetime with column-wise comparisions failing with np.minmum/maximum,,https://github.com/pandas-dev/pandas/issues/15552
+ENH: fill_value argument for shift,,https://github.com/pandas-dev/pandas/issues/15486
+Groupby all levels except the specified ones,,https://github.com/pandas-dev/pandas/issues/15475
+DOC: DataFrame.plot options are not documented in docstring form,,https://github.com/pandas-dev/pandas/issues/15458
+BUG: __getitem__ on MultiIndex with empty slice raises,,https://github.com/pandas-dev/pandas/issues/15454
+BUG: int64 overflow/wrap around with sum(),,https://github.com/pandas-dev/pandas/issues/15453
+COMPAT: .unique() should be type preserving,,https://github.com/pandas-dev/pandas/issues/15442
+Possible enhancement? Outlier detection,,https://github.com/pandas-dev/pandas/issues/15401
+DataFrame.to_excel with xlsxwriter and constant_memory makes most of the cells empty,,https://github.com/pandas-dev/pandas/issues/15392
+cannot get cut() to display desired bins label,,https://github.com/pandas-dev/pandas/issues/15357
+read_msgpack returns garbage for non-existing files in python2,,https://github.com/pandas-dev/pandas/issues/15296
+MultiIndex.from_product throws on read-only array,,https://github.com/pandas-dev/pandas/issues/15286
+BUG: .loc indexing not preserving Index type,,https://github.com/pandas-dev/pandas/issues/15166
+BUG: crosstab cannot normalize multiple columns for the index,,https://github.com/pandas-dev/pandas/issues/15150
+"When running set_index on a categorical to a MultiIndex, it gets coerced to a string. ",,https://github.com/pandas-dev/pandas/issues/15058
+DataFrameGroupBy fillna swallows exceptions.,,https://github.com/pandas-dev/pandas/issues/14955
+Odd behavior with .resample('SM'),,https://github.com/pandas-dev/pandas/issues/14888
+"Wrong ""Too many indexers"" error message when indexing a Series with MultiIndex",,https://github.com/pandas-dev/pandas/issues/14885
+BUG: groupby.agg coercing booleans,,https://github.com/pandas-dev/pandas/issues/14873
+Series values cannot be accessed by numeric categorical index,,https://github.com/pandas-dev/pandas/issues/14865
+groupby type coercion dependent on presence of datetime column in grouped data,,https://github.com/pandas-dev/pandas/issues/14849
+Multiarray searchsorted fails,,https://github.com/pandas-dev/pandas/issues/14833
+pd.HDFStore doesn't accept pathlib objects,,https://github.com/pandas-dev/pandas/issues/14705
+DOC:  min_itemsize for HDFStore append for encoded strings,,https://github.com/pandas-dev/pandas/issues/14601
+Concatenation of category value counts mixes up the index order,,https://github.com/pandas-dev/pandas/issues/14600
+Setting DataFrame of Python objects and MultiIndex columns wth single-element NDFrame inserts list,,https://github.com/pandas-dev/pandas/issues/14592
+PERF: asv for select_dtypes,,https://github.com/pandas-dev/pandas/issues/14588
+printing Series in Jupyter/IPython opens and closes a terminal window,,https://github.com/pandas-dev/pandas/issues/14546
+Inconsistent error raising in indexing,,https://github.com/pandas-dev/pandas/issues/14525
+ENH: add np.nan* functions to map for groupby/rolling/resample aggregators,,https://github.com/pandas-dev/pandas/issues/14518
+BUG: to_numeric doesn't work uint64 numbers,,https://github.com/pandas-dev/pandas/issues/14422
+DOC/ERR: update error message / doc-string for to_datetime with non-convertible object and unit kw,,https://github.com/pandas-dev/pandas/issues/14350
+API: allow dependent assignment?,,https://github.com/pandas-dev/pandas/issues/14207
+BUG: numpy RuntimeWarning with Series.round(),,https://github.com/pandas-dev/pandas/issues/14197
+DOC: clarify dangers of fast apply in GroupBy apply docs,,https://github.com/pandas-dev/pandas/issues/14180
+Adding big offset to timedelta generates a python crash,,https://github.com/pandas-dev/pandas/issues/14080
+TST/CLN: some RunTimeWarnings,,https://github.com/pandas-dev/pandas/issues/14057
+"numpy.split on non-UTC, tz-aware data undergoes UTC roundtrip",,https://github.com/pandas-dev/pandas/issues/14042
+"DataFrame with one column, which is categorical: single rows convert to scalars",,https://github.com/pandas-dev/pandas/issues/14011
+Pandas 0.18.1 groupby and resample with multilevel aggregation error,,https://github.com/pandas-dev/pandas/issues/13964
+DOC: more documentation that pandas by-default aligns when setting,,https://github.com/pandas-dev/pandas/issues/13950
+ERR: Categoricals should not allow non-strings when an object dtype is passed,,https://github.com/pandas-dev/pandas/issues/13919
+DatetimeIndex + TimeDelta gives wrong results when timezone is set,,https://github.com/pandas-dev/pandas/issues/13905
+API: Series/DataFrame logical op NaN propagation,,https://github.com/pandas-dev/pandas/issues/13896
+ERR: more informative error messages on invalid freq for Period when they are point-in-time,,https://github.com/pandas-dev/pandas/issues/13871
+Series.replace and DataFrame.replace have same docstring?,,https://github.com/pandas-dev/pandas/issues/13852
+'groupby' multiple columns and 'sum' multiple columns with different types,,https://github.com/pandas-dev/pandas/issues/13821
+ERR: better error message on invalid return from .apply,,https://github.com/pandas-dev/pandas/issues/13820
+Issue with Zero's Broadcasting down a column in Heterogeneous data columns ...,,https://github.com/pandas-dev/pandas/issues/13758
+DataFrame.xs() throws value error with non-unique multi index if `level` kwarg is called.,,https://github.com/pandas-dev/pandas/issues/13719
+CLN: cleanup bench / scripts,,https://github.com/pandas-dev/pandas/issues/13704
+merge of sparse dataframe fails,,https://github.com/pandas-dev/pandas/issues/13665
+DataFrame.loc(axis=1)[..] not working for single-level indexer,,https://github.com/pandas-dev/pandas/issues/13655
+DOC/API: doc-strings for instrospectors,,https://github.com/pandas-dev/pandas/issues/13635
+Fillna a categories series with another series breaks,,https://github.com/pandas-dev/pandas/issues/13628
+Not possible to find first element in non-monotonic DateTimeIndex if string is used,,https://github.com/pandas-dev/pandas/issues/13572
+Rolling(axis='columns').count() ignores axis= keyword,,https://github.com/pandas-dev/pandas/issues/13503
+ENH: df.add fill_value NotImplementedError,,https://github.com/pandas-dev/pandas/issues/13488
+ENH: add errors='raise' option to rename,,https://github.com/pandas-dev/pandas/issues/13473
+pd.Period off by hundred of years for dates past ~2263,,https://github.com/pandas-dev/pandas/issues/13346
+ERR: cut/qcut need better error message when passing invalid input,,https://github.com/pandas-dev/pandas/issues/13318
+ERR: Series must have a singluar dtype otherwise should raise,,https://github.com/pandas-dev/pandas/issues/13296
+format ignored in HDFStore.open,,https://github.com/pandas-dev/pandas/issues/13291
+Pandas style.set_precision not working as expected,,https://github.com/pandas-dev/pandas/issues/13257
+Resample discards timezone information,,https://github.com/pandas-dev/pandas/issues/13238
+Different order in datetime-column using sort_values on multiple columns,,https://github.com/pandas-dev/pandas/issues/13230
+DOC: sas & R functionaility,,https://github.com/pandas-dev/pandas/issues/13229
+Using str() in .map() on floats gives string with higher precision than before,,https://github.com/pandas-dev/pandas/issues/13228
+Series __finalized__ not correctly called in binary operators,,https://github.com/pandas-dev/pandas/issues/13208
+DOC: floating point precision on writing/reading to csv,,https://github.com/pandas-dev/pandas/issues/13159
+BUG: .filter with unicode labels when can't encode,,https://github.com/pandas-dev/pandas/issues/13101
+ERR: warning on merging on unequal levels for an Index,,https://github.com/pandas-dev/pandas/issues/13094
+Slicing on DatetimeIndex throws KeyError: [int] not found,,https://github.com/pandas-dev/pandas/issues/13090
+Unable to read MultiIndex columns from CSV if empty levels,,https://github.com/pandas-dev/pandas/issues/13054
+Improve type handling in read_sql and read_sql_table,,https://github.com/pandas-dev/pandas/issues/13049
+printing multi-index dataframe with renamed index produces traceback,,https://github.com/pandas-dev/pandas/issues/13000
+ENH: return .dt.weekday/isoweekday/month_name/day_name as ordered categoricals,,https://github.com/pandas-dev/pandas/issues/12993
+BUG: bug in construction using a tuple indexer with embedded None,,https://github.com/pandas-dev/pandas/issues/12948
+DataFrame.ffill behaves different than DataFrame.interpolate(method='ffill') along axes,,https://github.com/pandas-dev/pandas/issues/12918
+Series.any() and .all() don't return bool values if dtype=object,,https://github.com/pandas-dev/pandas/issues/12863
+cross section coercion with output iterating,,https://github.com/pandas-dev/pandas/issues/12859
+"BUG: not properly converting S1 in astype ,on PY3",,https://github.com/pandas-dev/pandas/issues/12857
+Large multiindex dataframe shows only NaN values after selected rows are dropped,,https://github.com/pandas-dev/pandas/issues/12754
+BUG: Cannot add non-vectorized DateOffset to empty DatetimeIndex,,https://github.com/pandas-dev/pandas/issues/12724
+ERR: invalid error reporting when comparing vs. None,,https://github.com/pandas-dev/pandas/issues/12689
+ENH:  cumcount() for DataFrames and Series,,https://github.com/pandas-dev/pandas/issues/12648
+TST: code coverage enhancements,,https://github.com/pandas-dev/pandas/issues/12634
+Equivalent of Series.map for DataFrame,,https://github.com/pandas-dev/pandas/issues/12550
+TST: test_window/Datetimelike adjustments,,https://github.com/pandas-dev/pandas/issues/12535
+append a categorical with different categories to the existing,,https://github.com/pandas-dev/pandas/issues/12509
+Error Creating DataFrame with Single MultiIndexed Column,,https://github.com/pandas-dev/pandas/issues/12457
+Abbreviate MultiIndex representation,,https://github.com/pandas-dev/pandas/issues/12423
+Add type stub files to python's typeshed,,https://github.com/pandas-dev/pandas/issues/12412
+Categorical data not supported in plots of parallel coordinates,,https://github.com/pandas-dev/pandas/issues/12341
+sort_index doesn't sort MultiIndex when .loc[] referred to non-existent label on other axis,,https://github.com/pandas-dev/pandas/issues/12261
+Iterrows making incorrect assumptions about datetime,,https://github.com/pandas-dev/pandas/issues/12222
+pivot_table throws exception with multiple aggregations per column and margins=True,,https://github.com/pandas-dev/pandas/issues/12210
+DOC: improve s3 access doc-strings / docs,,https://github.com/pandas-dev/pandas/issues/12206
+BUG: Automatic upcast to object fails when unstacking datetime/timedelta with incompatible fill_value,,https://github.com/pandas-dev/pandas/issues/12189
+Dead code breaks unpickling of timezone objects,,https://github.com/pandas-dev/pandas/issues/12163
+Adding DateOffset(days=1) produces NonExistentTimeError,,https://github.com/pandas-dev/pandas/issues/12156
+"""min_itemsize"" doesn't work for MultiIndex columns in table format",,https://github.com/pandas-dev/pandas/issues/12154
+"Docstring on Styler.apply{,map} is confusing",,https://github.com/pandas-dev/pandas/issues/12148
+background_gradient vmin and vmax,,https://github.com/pandas-dev/pandas/issues/12145
+BUG: Categorical repr can exceed options.display.width,,https://github.com/pandas-dev/pandas/issues/12066
+BUG: date parsers use different tz offsets,,https://github.com/pandas-dev/pandas/issues/12064
+category dtype coerced to object after pd.concat(axis = 1),,https://github.com/pandas-dev/pandas/issues/12007
+BUG: MultiIndex.set_names loses name,,https://github.com/pandas-dev/pandas/issues/11979
+ENH: other plotting tools via plot accessor,,https://github.com/pandas-dev/pandas/issues/11978
+DOC: fully document Index types,,https://github.com/pandas-dev/pandas/issues/11962
+Style: removing unnecessary usages of `\` from the codebase,,https://github.com/pandas-dev/pandas/issues/11954
+API: expose pd.to_time,,https://github.com/pandas-dev/pandas/issues/11947
+Dataframe loading with duplicated columns and usecols,,https://github.com/pandas-dev/pandas/issues/11823
+to_csv locale dependent float_format,,https://github.com/pandas-dev/pandas/issues/11812
+"ENH: calculate average absolute difference by mean, median or mode",,https://github.com/pandas-dev/pandas/issues/11787
+display.notebook_repr_html -> display.html.notebook,,https://github.com/pandas-dev/pandas/issues/11784
+possible bug when calculating mean of DataFrame?,,https://github.com/pandas-dev/pandas/issues/11670
+HTML styling set_precision should take subset,,https://github.com/pandas-dev/pandas/issues/11656
+CLN: tshift & shift could be consolidated,,https://github.com/pandas-dev/pandas/issues/11631
+Comparing Strings to Numbers: No ValueError,,https://github.com/pandas-dev/pandas/issues/11565
+Tilde expansion for paths (~/...) inconsistent between read_csv and to_csv,,https://github.com/pandas-dev/pandas/issues/11438
+.loc lookup with missing values,,https://github.com/pandas-dev/pandas/issues/11428
+DOC: add axes attributes to API docs,,https://github.com/pandas-dev/pandas/issues/11407
+BUG: merge on multiple columns with mixed colums/index failing,,https://github.com/pandas-dev/pandas/issues/11354
+BUG: index sorting with strings & timestamps,,https://github.com/pandas-dev/pandas/issues/11244
+column-specific min_itemsize doesn't work with append_to_multiple ,,https://github.com/pandas-dev/pandas/issues/11238
+BUG: numpy.datetime('NaT') printing inconsistency,,https://github.com/pandas-dev/pandas/issues/11220
+API: consider deprecating DataFrame.hist in favor of DataFrame.plot.hist,,https://github.com/pandas-dev/pandas/issues/11053
+DOC: document optional arguments on plot submethods,,https://github.com/pandas-dev/pandas/issues/11042
+"pandas.read_csv(..., skiprows=2, engine='c') with unix-style line breaks crashes python on windows",,https://github.com/pandas-dev/pandas/issues/11020
+BUG? Parser adds empty MultiIndex level names,,https://github.com/pandas-dev/pandas/issues/10984
+read_sql should accept a sql_params parameter,,https://github.com/pandas-dev/pandas/issues/10899
+BUG: frame creation with multi-index and tuples in dict,,https://github.com/pandas-dev/pandas/issues/10863
+PERF: follow up to ASV,,https://github.com/pandas-dev/pandas/issues/10849
+Accept index in addition to list for set_index ,,https://github.com/pandas-dev/pandas/issues/10797
+API: DatetimeIndex / TimedeltaIndex 2d slicing should result in Index,,https://github.com/pandas-dev/pandas/issues/10774
+DEPR: DataFrame.combine propagates nan values,,https://github.com/pandas-dev/pandas/issues/10734
+DOC/ERR: better error message on unsuccessful datetime parsing,,https://github.com/pandas-dev/pandas/issues/10720
+Interpreting passed slicers in using .loc(axis=1)  |#AssertionError: Start slice bound is non-scalar,,https://github.com/pandas-dev/pandas/issues/10586
+DOC: splitting the IO docs into separate pages,,https://github.com/pandas-dev/pandas/issues/10446
+Better error message when using DataFrame.hist() without numerical columns,,https://github.com/pandas-dev/pandas/issues/10444
+Improve documentation for piecewise_polynomial interpolation,,https://github.com/pandas-dev/pandas/issues/10365
+BUG: STD modifies groupby target column when as_index=False,,https://github.com/pandas-dev/pandas/issues/10355
+Strange error message when summing datetime64 and datetime.time column,,https://github.com/pandas-dev/pandas/issues/10329
+pivot_table passes junk to aggfunc when value column does not exist,,https://github.com/pandas-dev/pandas/issues/10326
+CLN: consolidate Series.quantile / DataFrame.quantile,,https://github.com/pandas-dev/pandas/issues/10207
+ENH: Iterate over HDF store hierarchically,,https://github.com/pandas-dev/pandas/issues/10143
+DOC: update docstrings with new Index repr,,https://github.com/pandas-dev/pandas/issues/10094
+Pandas attempts to convert some strings to timestamps when grouping by a timestamp and aggregating?,,https://github.com/pandas-dev/pandas/issues/10078
+Aligning on multi-index with swapped levels gives unclear error message,,https://github.com/pandas-dev/pandas/issues/9952
+BUG: index name lost when indexing with another index,,https://github.com/pandas-dev/pandas/issues/9943
+uint64 multicolumn sort,,https://github.com/pandas-dev/pandas/issues/9918
+BUG: indexing with string in multi-index for Period gives KeyError,,https://github.com/pandas-dev/pandas/issues/9892
+DOC: consistent imports ('import pandas as pd' et al),,https://github.com/pandas-dev/pandas/issues/9886
+ERR: better error reporting for passing list to level grouper on non-MultiIndex,,https://github.com/pandas-dev/pandas/issues/9790
+DataFrame.to_string truncates long strings,,https://github.com/pandas-dev/pandas/issues/9784
+pd.merge() doesn't merge int and str column dtypes but no warning or error,,https://github.com/pandas-dev/pandas/issues/9780
+BUG: first_valid_index() empty Series and DataFrame inconsistencies,,https://github.com/pandas-dev/pandas/issues/9752
+Series.sum has inconsistent return type,,https://github.com/pandas-dev/pandas/issues/9733
+"DataFrame.interpolate(axis=1, method=""time"", inplace=True) ",,https://github.com/pandas-dev/pandas/issues/9687
+Type issue in empty groupby from DataFrame with categorical,,https://github.com/pandas-dev/pandas/issues/9614
+BLD: pymysql 0.6.6,,https://github.com/pandas-dev/pandas/issues/9608
+API: timeseries accessors naming convention,,https://github.com/pandas-dev/pandas/issues/9606
+"API: read_csv,from_csv/to_csv keyword consistency",,https://github.com/pandas-dev/pandas/issues/9568
+"With an external grouper, there is no way to access the grouped value in a DataFrame(...).groupby(...).apply(...) workflow",,https://github.com/pandas-dev/pandas/issues/9545
+Asymmetric error bars are not supported for series (only dataframes),,https://github.com/pandas-dev/pandas/issues/9536
+Implement high performance rolling_rank,,https://github.com/pandas-dev/pandas/issues/9481
+factorize fails for list of tuples,,https://github.com/pandas-dev/pandas/issues/9454
+BUG: inserting a Categorical with the wrong length into a DataFrame is allowed,,https://github.com/pandas-dev/pandas/issues/9374
+Problem mixing datetime64 with other types in DataFrame column,,https://github.com/pandas-dev/pandas/issues/9336
+ENH date_range should accept dateutil frequency constants,,https://github.com/pandas-dev/pandas/issues/9314
+DataFrame.groupby fails with MultiIndex containing pd.NaT,,https://github.com/pandas-dev/pandas/issues/9236
+BUG: DataFrame constructor incorrect with Series input depending on name,,https://github.com/pandas-dev/pandas/issues/9232
+KeyError when using pivot_table with an aggfunc and and empty column,,https://github.com/pandas-dev/pandas/issues/9186
+aggregating with a dictionary that specifies a column that has all nan's fails to use numpy,,https://github.com/pandas-dev/pandas/issues/9149
+BUG: replace int64 dtype with bool coerces to int64,,https://github.com/pandas-dev/pandas/issues/9113
+ENH: support index=True for SQL io.sql.get_schema,,https://github.com/pandas-dev/pandas/issues/9084
+API/ENH: query an HDF5 store with a named index,,https://github.com/pandas-dev/pandas/issues/9042
+BUG: groupby with categorical drops empty groups when aggregating over a series,,https://github.com/pandas-dev/pandas/issues/8870
+"ENH: add axis parameter to between_time, at_time",,https://github.com/pandas-dev/pandas/issues/8839
+"ENH: Add Series.to_list, alias for tolist",,https://github.com/pandas-dev/pandas/issues/8826
+PERF: directly astype with numpy if series is already nansafe,,https://github.com/pandas-dev/pandas/issues/8732
+BUG/ERR: adding column with float label to Int64Index gives ValueError,,https://github.com/pandas-dev/pandas/issues/8720
+API: define __copy__ NDFrame,,https://github.com/pandas-dev/pandas/issues/8571
+CLN: Refactor pd.offsets.CustomBusinessDay,,https://github.com/pandas-dev/pandas/issues/8458
+CI: Add durations to tests,,https://github.com/pandas-dev/pandas/issues/8450
+DOC: more complete docs on offsets/frequencies needed,,https://github.com/pandas-dev/pandas/issues/8438
+BUG: DataFrame from_dict constructor ignores Ordered dict when orient='index',,https://github.com/pandas-dev/pandas/issues/8425
+TST: Remove skip for mpl 1.5 / current dev,,https://github.com/pandas-dev/pandas/issues/8402
+CLN: start using numpy-1.7 API,,https://github.com/pandas-dev/pandas/issues/8329
+ENH: allow axis argument to append / move append code to generic.py,,https://github.com/pandas-dev/pandas/issues/8295
+CLN/TST: move consoliate sort_index to core/generic.py,,https://github.com/pandas-dev/pandas/issues/8283
+ENH/VIS: Pass DataFrame column to size argument in df.scatter,,https://github.com/pandas-dev/pandas/issues/8244
+Passing a dictionary of columns names and colors ,,https://github.com/pandas-dev/pandas/issues/8193
+DOC/BUG? pivot functionality confusing/inconsistent,,https://github.com/pandas-dev/pandas/issues/8160
+BENCH: put in np.random.seed on vbenches,,https://github.com/pandas-dev/pandas/issues/8144
+API: Consistency in prefix / prefix_sep,,https://github.com/pandas-dev/pandas/issues/8141
+BUG: Group-by on an empty data object dtype loses the index name (cython aggregation is ok),,https://github.com/pandas-dev/pandas/issues/8093
+ERR: catchall exception should be explicity and use Exception EAFP,,https://github.com/pandas-dev/pandas/issues/7948
+Unable to retrieve same-index dataframe with the last item per group,,https://github.com/pandas-dev/pandas/issues/7883
+"Index([1,2,.np.nan]).get_indexer([np.nan]) returns wrong value?",,https://github.com/pandas-dev/pandas/issues/7820
+TST: add tests for Series/Panel with non-unique index in to_hdf with fixed format,,https://github.com/pandas-dev/pandas/issues/7813
+loffset has no effect when passing in a numyp.timedelta64,,https://github.com/pandas-dev/pandas/issues/7687
+read_csv in Pandas 0.14 loads NaNs when namedtuple is used for column names,,https://github.com/pandas-dev/pandas/issues/7589
+PERF/API: alias len/size in groupby.transform,,https://github.com/pandas-dev/pandas/issues/7570
+BUG: asfreq / pct_change strange behavior,,https://github.com/pandas-dev/pandas/issues/7292
+ERR: more helpful error message on invalid access with a timestamp-like,,https://github.com/pandas-dev/pandas/issues/7211
+truncation issue with pd.read_csv,,https://github.com/pandas-dev/pandas/issues/7072
+BUG/TST: verify that groupby apply with a column aggregation does not return the column,,https://github.com/pandas-dev/pandas/issues/7002
+DOC: improve groupby reference docs,,https://github.com/pandas-dev/pandas/issues/6944
+BUG: setitem with at not inferring dtype correctly,,https://github.com/pandas-dev/pandas/issues/6942
+DOC: provide more inline examples for cookbook.rst,,https://github.com/pandas-dev/pandas/issues/6918
+DOC: freeze old whatsnew notes?,,https://github.com/pandas-dev/pandas/issues/6856
+BUG: rolling_max with center=True and min_periods=1 returns incorrect results,,https://github.com/pandas-dev/pandas/issues/6795
+smaller than microsecond timedelta64 Series are not saved correctly with to_csv,,https://github.com/pandas-dev/pandas/issues/6783
+Regression in DataFrameGroupBy.head(),,https://github.com/pandas-dev/pandas/issues/6721
+Bug in date_range with semi-open interval and freq='B'?,,https://github.com/pandas-dev/pandas/issues/6673
+Non-aligned x-axes when plotting two series on the same axes,,https://github.com/pandas-dev/pandas/issues/6630
+ENH: Html table export: Add of other attributes,,https://github.com/pandas-dev/pandas/issues/6488
+API/CLN: more common ops to integrate with Series/index OpsMixin,,https://github.com/pandas-dev/pandas/issues/6382
+Slicing on Multi Index Performs Oddly With Duplicates,,https://github.com/pandas-dev/pandas/issues/6334
+Improve documentation for pandas.core.groupby.GroupBy.transform,,https://github.com/pandas-dev/pandas/issues/6257
+Improve testing coverage,,https://github.com/pandas-dev/pandas/issues/6251
+.loc for appending/assigning multiple values,,https://github.com/pandas-dev/pandas/issues/6173
+Missing ellipsis cells in pivot_table.to_html when limited by max_cols and len(rows) > 1,,https://github.com/pandas-dev/pandas/issues/6131
+BUG: read multi-index column csv with index_col=False borks,,https://github.com/pandas-dev/pandas/issues/6051
+regex filter on non-string columns raises an exception,,https://github.com/pandas-dev/pandas/issues/5798
+BUG: Applying function on column of Groupby object with as_index=False does not select column,,https://github.com/pandas-dev/pandas/issues/5764
+0.12: join with on= fails with TimeStamp and Int64 MultiIndex,,https://github.com/pandas-dev/pandas/issues/5647
+resample with numpy.product gives unexpected results,,https://github.com/pandas-dev/pandas/issues/5586
+DOC: update groupby NA group handing / workaround,,https://github.com/pandas-dev/pandas/issues/5456
+TST: Use matplotlib's compare_images to check plots,,https://github.com/pandas-dev/pandas/issues/5379
+doc: DataFrame.apply can return several columns,,https://github.com/pandas-dev/pandas/issues/5299
+Phantom Index when NaN in MultiIndex,,https://github.com/pandas-dev/pandas/issues/5286
+DOC: improve documentation for Series.resample,,https://github.com/pandas-dev/pandas/issues/5023
+Lookup using datetimes does not work with hierarchical indices containing periods,,https://github.com/pandas-dev/pandas/issues/4861
+Feature Request: regex for drop,,https://github.com/pandas-dev/pandas/issues/4818
+DOC: More subtotals / margins in pivot_table,,https://github.com/pandas-dev/pandas/issues/4817
+Add Clarification in Docs about Business DateOffset,,https://github.com/pandas-dev/pandas/issues/4607
+Give the merge copy parameter better documentation,,https://github.com/pandas-dev/pandas/issues/4599
+DOC: Unclear documentation for Period Construction,,https://github.com/pandas-dev/pandas/issues/4591
+Flesh out examples included in docstrings,,https://github.com/pandas-dev/pandas/issues/3439
+Grid=True option in plot functions overrides user settings,,https://github.com/pandas-dev/pandas/issues/3188
+Ongoing: Fixing docstrings,,https://github.com/pandas-dev/pandas/issues/2916
+Improvement: DataFrame.to_html() to create hyperlinks,,https://github.com/pandas-dev/pandas/issues/2679
+Wish: Input / output for Open Document Spreadsheet (ODS),,https://github.com/pandas-dev/pandas/issues/2311

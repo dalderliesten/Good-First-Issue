@@ -1,0 +1,2679 @@
+First Commit Hash (SHA),Commit Message,Author (Github Name),Link to Commit
+00882d626a478a3ce391b736234a768b762c853a,Open the Sky,abarth,https://api.github.com/repos/flutter/flutter/git/commits/00882d626a478a3ce391b736234a768b762c853a
+928524947acf841d84f92dd595618d8bddb1bc06,"Placeholder Sky start page.
+
+R=eseidel@chromium.org
+
+Review URL: https://codereview.chromium.org/677513002",Hixie,https://api.github.com/repos/flutter/flutter/git/commits/928524947acf841d84f92dd595618d8bddb1bc06
+86cd8beee788acec7abb668b7ad7bb7cef62523c,"Make skydb load examples/home.sky by default.
+
+I had to also register for the text/plain mime-type
+which turned out to be harder than expected.
+Mostly due to my confusion with mojo_shell
+using last-argument-wins argument parsing.
+
+R=ianh@google.com
+
+Review URL: https://codereview.chromium.org/672363002",eseidelGoogle,https://api.github.com/repos/flutter/flutter/git/commits/86cd8beee788acec7abb668b7ad7bb7cef62523c
+fe0d6c747fce8de75dfdf5d28b50b405b23a49af,"Add initial SkyElement & city-list example
+
+BUG=
+R=eseidel@chromium.org
+
+Review URL: https://codereview.chromium.org/698653002",rafaelw,https://api.github.com/repos/flutter/flutter/git/commits/fe0d6c747fce8de75dfdf5d28b50b405b23a49af
+f9a8fd51ee479c002bb5a359d512ef4f555ce370,"Add the flights app scaffolding demo.
+
+R=abarth@chromium.org
+
+Review URL: https://codereview.chromium.org/720593002",esprehn,https://api.github.com/repos/flutter/flutter/git/commits/f9a8fd51ee479c002bb5a359d512ef4f555ce370
+af585507a00991d8da846b4fb2d45d39f723f955,"Revert ""Add a version of flights that's made of components.""
+
+This reverts commit e8fdb90bca3120d1c991256a2adf83a8315bf867.
+
+This CL breaks the linux bots:
+https://chromegw.corp.google.com/i/client.mojo/builders/Mojo%20Linux/builds/216/steps/mojob%20test/logs/stdio
+
+TBR=esprehn@chromium.org
+
+Review URL: https://codereview.chromium.org/722103002",qsr,https://api.github.com/repos/flutter/flutter/git/commits/af585507a00991d8da846b4fb2d45d39f723f955
+85817b24a05bbef07e7dbee30740fab7e6226126,"First step at getting rid of anonymous blocks and continuations.
+
+-Add RenderParagraph and display:paragraph. This is the only
+render type that's allowed to contain inlines or text.
+-If you put text nodes directly in a non-paragraph, wrap them
+in an anonymous paragraph. This may not be the place we want
+to end up, but it's a good stopgap to make it so we don't
+crash in this case.
+-Make StyleAdjuster force that non-paragraph blocks only contain
+RenderBlock subclasses and that paragraphs and inlines only contain
+inlines.
+-Considerably simplify addChildIgnoringAnonymousColumnBlocks
+now that we only create anonymous blocks for the case of
+text nodes in non-paragraphs. Also get rid of the behavior
+where we try to group multiple nodes into a single
+anonymous block.
+
+R=esprehn@chromium.org
+
+Review URL: https://codereview.chromium.org/729693003",ojanvafai,https://api.github.com/repos/flutter/flutter/git/commits/85817b24a05bbef07e7dbee30740fab7e6226126
+73f0a8d121816e631638e326b7a64ec983f9c8d2,"Revert ""Add a close box to flights-app toast.""
+
+This reverts commit ffcbc3b2f5417b09328eae4aeb8de2e5eab6324d.
+
+This test broke sky_tests:
+
+Regressions: Unexpected text-only failures (6)
+  framework/flights-app.sky [ Failure ]
+
+Example:
+
+http://build.chromium.org/p/client.mojo/builders/Mojo%20Linux%20ASan%20%28dbg%29/builds/173/steps/Sky%20tests/logs/stdio
+
+TBR=ojan
+
+Review URL: https://codereview.chromium.org/880863002",colinblundell,https://api.github.com/repos/flutter/flutter/git/commits/73f0a8d121816e631638e326b7a64ec983f9c8d2
+ae503019b77d3b2e22c48271c5568f5587a00918,"A simple Sky color chooser example. The color-picker is
+two components: color-wheel, and color-picker which adds
+a div that displays the selected color. Data binding is
+used to connect the color-wheel's ""color"" property to the
+sample div's background-color.
+
+BUG=
+R=abarth@chromium.org
+
+Review URL: https://codereview.chromium.org/872993006",HansMuller,https://api.github.com/repos/flutter/flutter/git/commits/ae503019b77d3b2e22c48271c5568f5587a00918
+1a9b6b68d42f8331e7af2a7a04bb00db50f966dd,"Dart: Renames dart:mojo_blah -> mojo:blah
+
+This improves consistency with the convention that the dart: scheme is
+only for things from the Dart standard library.
+
+BUG=
+R=erg@chromium.org
+
+Review URL: https://codereview.chromium.org/951783004",zanderso,https://api.github.com/repos/flutter/flutter/git/commits/1a9b6b68d42f8331e7af2a7a04bb00db50f966dd
+a87e8d9db1c580b8278a5d04c13f3c827b2fc014,"Add a simple prototype ""terminal"" example.
+
+(Together with an app that echoes stuff from the terminal.)
+
+R=erg@chromium.org
+
+Review URL: https://codereview.chromium.org/999193002",viettrungluu-cr,https://api.github.com/repos/flutter/flutter/git/commits/a87e8d9db1c580b8278a5d04c13f3c827b2fc014
+769cef59baa50e03c64a905a515fa63ce46ce3ee,"Flesh out the Painting API a bit.
+
+This exposes most methods from Skia's C canvas API to Dart. For now, SkRect and
+SkMatrix are represented simply as an array of floats, which requires a
+conversion at the bindings layer. More complex types like SkPath are still TODO.
+
+R=eseidel@chromium.org
+
+Review URL: https://codereview.chromium.org/1144483002",mpcomplete,https://api.github.com/repos/flutter/flutter/git/commits/769cef59baa50e03c64a905a515fa63ce46ce3ee
+57ec759e97e2fe6fed0032366137a5818e520a42,"Rationalize Dart mojo and sky package structure.
+
+NOTE: This CL appears far larger than it actually is for two reasons:
+
+1) Many files were moved around to use the Dart package directory structure.
+2) Many .dart files had to have import paths updated.
+
+- Organize mojo/public/dart so that it uses standard Dart package layout
+- Organize mojo/dart/apptest so that it uses a standard Dart package layout
+- Organize sky/sdk so that it uses a standard Dart package layout
+- Create a mojo/testing package (used by unittests)
+- Introduce the 'dart_pkg' gn rule which populates gen/Config/dart-pkg
+- All internally vended Dart packages must have a corresponding dart_pkg rule
+- It is now possible to use dependency_overrides: in pubspec.yaml to mix internal and external package dependencies (enables analyzer, editor, webstorm usage for internal developers).
+- Package root for dart content handler ends with ""packages/""
+- Imports of mojo package uris no longer need the ""public/dart""
+- mojo/public/tools/dart_package.py is a clone of mojo/public/tools/gn/zip.py
+- Sky tests no longer run 'deploy_sdk' script.
+
+R=eseidel@chromium.org
+
+Review URL: https://codereview.chromium.org/1132063007",johnmccutchan,https://api.github.com/repos/flutter/flutter/git/commits/57ec759e97e2fe6fed0032366137a5818e520a42
+87e8b162c7216d9ed5d86514882de7498a462162,"WIP Flexbox Layout Manager for Sky framework.
+
+This only handles really basic cases and doesn't understand
+justification, wrapping, and so on. Submitting for code
+review so I can get some early feedback before I invest
+more time into making it correct.
+
+R=ianh@google.com, abarth
+
+Review URL: https://codereview.chromium.org/1151293002",collinjackson,https://api.github.com/repos/flutter/flutter/git/commits/87e8b162c7216d9ed5d86514882de7498a462162
+3118a6fba11590eeed0cf237e33a64fb7e1c86e5,"Initial version of working game with Box2D, images, nodes and sprites.
+
+R=abarth@chromium.org
+
+Review URL: https://codereview.chromium.org/1161023006",vlidholt,https://api.github.com/repos/flutter/flutter/git/commits/3118a6fba11590eeed0cf237e33a64fb7e1c86e5
+259ebc4a8b7819a6682aec0263b6d5c711bea502,"Delete old raw .sky examples since they are no longer valid examples.
+
+R=ianh@google.com, abarth@chromium.org
+
+Review URL: https://codereview.chromium.org/1182993003.",iansf,https://api.github.com/repos/flutter/flutter/git/commits/259ebc4a8b7819a6682aec0263b6d5c711bea502
+f6a323620ec75cdea4d20a61fef8b0ee3707a278,Initial Commit,chinmaygarde,https://api.github.com/repos/flutter/flutter/git/commits/f6a323620ec75cdea4d20a61fef8b0ee3707a278
+6a858a9486182f63c4200479613d315588034976,"Add minedigger example
+
+A very basic minesweeper clone. Currently only tested in linux.
+
+BUG=none
+R=abarth@chromium.org, eseidel@chromium.org
+
+Review URL: https://codereview.chromium.org/1196213012.",cpu-chromium,https://api.github.com/repos/flutter/flutter/git/commits/6a858a9486182f63c4200479613d315588034976
+3089686eebf791a36589a880e301c4fc1ccde218,"Converted examples to libraries
+
+Converted demo launcher example to library
+
+Converted fitness example to library
+
+Converted hello world example to library
+
+Converted mine digger example to library
+
+Converted stocks example to library",jimsimon,https://api.github.com/repos/flutter/flutter/git/commits/3089686eebf791a36589a880e301c4fc1ccde218
+67f6cab2eabff8bdd2e42859571a8f87693687bd,Update README.md,jimbeveridge,https://api.github.com/repos/flutter/flutter/git/commits/67f6cab2eabff8bdd2e42859571a8f87693687bd
+445f4ee8cd456a1ea72b383fcc90d5fad97e826d,"Make Switch a standalone class with a custom RenderObject
+
+This changes Switch from being a subclass of the Toggleable widget to
+being a standalone Component with a custom RenderObject. This is to
+enable adding Switch-specific radial reaction animations in a
+subsequent patch. The CustomPaint logic that Toggleable was using does
+not provide a nice way for a class and its subclass to both participate
+in deciding to repaint.",jamesr,https://api.github.com/repos/flutter/flutter/git/commits/445f4ee8cd456a1ea72b383fcc90d5fad97e826d
+0257cbd12ba2f8a2a028899e45c889707e3b391c,build sky_tools using travis,devoncarew,https://api.github.com/repos/flutter/flutter/git/commits/0257cbd12ba2f8a2a028899e45c889707e3b391c
+440a63a5bb369521b3e48f70725f77130b846f01,Fix assert's related to image drawing.,apwilson,https://api.github.com/repos/flutter/flutter/git/commits/440a63a5bb369521b3e48f70725f77130b846f01
+db24db4b2094781c5931b4e8a439eb5cc34515e2,"Reduce precision shown for measurements
+
+Fixes https://github.com/domokit/sky_engine/issues/548
+
+@collinjackson",eseidel,https://api.github.com/repos/flutter/flutter/git/commits/db24db4b2094781c5931b4e8a439eb5cc34515e2
+195fe22a3148871dbbc4f1721779c9818bd0d6b4,"Update README.md
+
+Added missing :",afandria,https://api.github.com/repos/flutter/flutter/git/commits/195fe22a3148871dbbc4f1721779c9818bd0d6b4
+130119dff000150104ec34b08cc5d1c3d7a43bcd,Fixed a typo in the widget tutorial.,pylaligand,https://api.github.com/repos/flutter/flutter/git/commits/130119dff000150104ec34b08cc5d1c3d7a43bcd
+82153a5163a9ace1dc268b6feef23eb9788a6e48,Update version of mojo and mojo_services to 0.0.23 for sky dart.,alhaad,https://api.github.com/repos/flutter/flutter/git/commits/82153a5163a9ace1dc268b6feef23eb9788a6e48
+af9212c78d49698109eac77100d3289c420d7e3f,Fixed a typo in the README.,mishadynin,https://api.github.com/repos/flutter/flutter/git/commits/af9212c78d49698109eac77100d3289c420d7e3f
+4a7718d34406da4d12f96df8288ccb1b3a4d2cc2,mine_digger: Fix not being able to de-flag on Android,sgraham,https://api.github.com/repos/flutter/flutter/git/commits/4a7718d34406da4d12f96df8288ccb1b3a4d2cc2
+80b2c1732af07952caaa438c4fc580e38ffcaa0b,"In EditableText, wrap the placeholder text in a Row so it will expand to its parent's width
+
+This will ensure that the width of an empty Input is consistent with the
+width of an Input that contains text.
+
+Also add a unit test for the Input widget and a way for tests to provide mock
+implementations of Mojo services such as the keyboard.",jason-simmons,https://api.github.com/repos/flutter/flutter/git/commits/80b2c1732af07952caaa438c4fc580e38ffcaa0b
+c52b6fb9e8d6e62f3ba1d138121d0cf2c381f9d7,Fix Rect intersection; add test,krisgiesing,https://api.github.com/repos/flutter/flutter/git/commits/c52b6fb9e8d6e62f3ba1d138121d0cf2c381f9d7
+307b1bfdbcb7f93c94a40ff80316cf739b3ecdbf,"Only pointers which are down should be tracked.
+
+This change ensures that we only store the results of a hit
+test on the initial pointer down event.  Moreover, we perform
+new hit tests each time a hovering pointer moves.  This is
+important to ensure correct behavior of input devices which can
+hover, such as mice.
+
+Previously the first hover movement after releasing a mouse
+button would cause a new pointer state to be recorded along with
+hit test results for wherever the pointer happened to be which
+caused the following pointer down event to be delivered to the
+wrong place.
+
+Fixes issue #1189.",j9brown,https://api.github.com/repos/flutter/flutter/git/commits/307b1bfdbcb7f93c94a40ff80316cf739b3ecdbf
+f600beeb70e97a61ba50bf1d7d58a99159964462,"run_mojo: Add --mojo-release and --mojo-debug flags.
+
+The flags control which build of mojo to run (Debug or Release).
+Default is Release.",nlacasse,https://api.github.com/repos/flutter/flutter/git/commits/f600beeb70e97a61ba50bf1d7d58a99159964462
+32558478b1273364d2d11bab9092268ddc432932,"Fix alignment of mine counts, simplfy code a bit.",mdakin,https://api.github.com/repos/flutter/flutter/git/commits/32558478b1273364d2d11bab9092268ddc432932
+e1c46f42cc33d5a1c6c936b68f047422c0a4057b,Changing Desc to match Github Desc.,Iheartweb,https://api.github.com/repos/flutter/flutter/git/commits/e1c46f42cc33d5a1c6c936b68f047422c0a4057b
+9153e7bbce085bf5547cceb64e8f9ba6cec159ec,update playfair to match flutter/painting module refactoring,eukreign,https://api.github.com/repos/flutter/flutter/git/commits/9153e7bbce085bf5547cceb64e8f9ba6cec159ec
+a57109beba4d3ce38055f59da915dfd64dc8f0f6,"Wait for sky server to start before starting device
+
+Instead of just waiting for the sky server process to start
+before we start the activity on the device, this causes us to
+wait for the sky server to actually start listening on its port
+
+Fixes #141",tvolkert,https://api.github.com/repos/flutter/flutter/git/commits/a57109beba4d3ce38055f59da915dfd64dc8f0f6
+5399ffe8c4b7b5a37fc5c6017a3ca6e3b3c8f8e1,Fix a typo on the README.md,syoichi,https://api.github.com/repos/flutter/flutter/git/commits/5399ffe8c4b7b5a37fc5c6017a3ca6e3b3c8f8e1
+38e3e9fd484f22b3edb766611213b5b91e68b444,"Adding RawImage component which takes in raw bytes
+in the form of a Uint8List and decodes and renders
+the bytes as an image.",aghassemi,https://api.github.com/repos/flutter/flutter/git/commits/38e3e9fd484f22b3edb766611213b5b91e68b444
+c8c2d23f267a838af55c78c838002ac93cc3f345,"Avoid use of run-as
+
+Issue #1988 results from run-as not working on some phones,
+because of Android issue 58373.
+
+This change removes the need for run-as for running
+""flutter start"". It is still needed for tracing.",jeffallen,https://api.github.com/repos/flutter/flutter/git/commits/c8c2d23f267a838af55c78c838002ac93cc3f345
+c5427fb9a8d8a6d68dc73251c9871a87f3076349,Minor doc fixes.,floitschG,https://api.github.com/repos/flutter/flutter/git/commits/c5427fb9a8d8a6d68dc73251c9871a87f3076349
+f5a9d338882b1860bea507f302cce387bde7942d,Fix quotes error in update flutter bash script,IvBaranov,https://api.github.com/repos/flutter/flutter/git/commits/f5a9d338882b1860bea507f302cce387bde7942d
+ed297f476a2a5a459bb3237b70a073c5bde03005,"Need to change working directories so that the command works when called from outside the flutter directory.
+
+Removed accidental debug code.",TheBosZ,https://api.github.com/repos/flutter/flutter/git/commits/ed297f476a2a5a459bb3237b70a073c5bde03005
+6562c14948fcd5061a0b36893a63fde79b67e5d0,Add a FractionalOffset alignment parameter to BackgroundImage,tonygentilcore,https://api.github.com/repos/flutter/flutter/git/commits/6562c14948fcd5061a0b36893a63fde79b67e5d0
+ed7442e058843c0fe163858d9e03070e9f448907,first addition of _embedder.yaml,sethladd,https://api.github.com/repos/flutter/flutter/git/commits/ed7442e058843c0fe163858d9e03070e9f448907
+4c823cdb974a37cb55f77902142537b2a6ab5c43,add debugFillDescription to OverflowBox,yjbanov,https://api.github.com/repos/flutter/flutter/git/commits/4c823cdb974a37cb55f77902142537b2a6ab5c43
+99b2b84d57ea369a4f3f8993f6a85aa81219b228,"Rename ""Toggle Controls"" to ""Selection Controls""
+
+Fixes #1537",a14n,https://api.github.com/repos/flutter/flutter/git/commits/99b2b84d57ea369a4f3f8993f6a85aa81219b228
+6bb7c0ae9c87f2ae1d100b5e4818a17e297d2b8b,"Implement the Material Circular Indeterminate Progress Indicator correctly to spec.
+
+This animation expands/collapses an arc that's 3/4ths of a circle.
+The next iteration begins where the previous appeared to finish.
+This happens while the whole thing rotates, such that the starting point of each
+expansion moves in a star-wise pattern around the circle.
+
+See:
+https://www.google.com/design/spec/components/progress-activity.html
+(note: the video here demonstrating this animation is actually slightly incorrect...
+we'll hopefully update it soon)",jestelle,https://api.github.com/repos/flutter/flutter/git/commits/6bb7c0ae9c87f2ae1d100b5e4818a17e297d2b8b
+7d996c04cc2f9fdc72534649108486b95075238e,"Enumerate lints for analysis in synthesized options file.
+
+This enables us to exclude `library_names` pending a new stable SDK push (see notes: https://github.com/flutter/flutter/pull/1996).  Also excluded are a few lints who's feedback was just getting regexp'ed out.  Moving forward, this will allow us to selectively enable specific lints of interest as well.",pq,https://api.github.com/repos/flutter/flutter/git/commits/7d996c04cc2f9fdc72534649108486b95075238e
+904609024a95b239f5de816686f1bf5c14ab08d5,"Update update_dart_sdk.sh
+
+in china ,
+appspot is blocked,
+but storage.googleapis.com can visited",noman798,https://api.github.com/repos/flutter/flutter/git/commits/904609024a95b239f5de816686f1bf5c14ab08d5
+2e878746a34a504591668ff3a4a0a83e04af1839,Improve message when target not found,stevemessick,https://api.github.com/repos/flutter/flutter/git/commits/2e878746a34a504591668ff3a4a0a83e04af1839
+2e4fb21acae124b8bd1c36641a01a22ca2b5003a,"api docs: Add descriptions for Scafold, Theme, and ThemeData classes.",qchong,https://api.github.com/repos/flutter/flutter/git/commits/2e4fb21acae124b8bd1c36641a01a22ca2b5003a
+b04670699e3f8ff8ebc606b318ae9eef1c5e6bf6,"Fix case of 'GET' HTTP method. (#3732)
+
+Fixes #3730",ianloic,https://api.github.com/repos/flutter/flutter/git/commits/b04670699e3f8ff8ebc606b318ae9eef1c5e6bf6
+baaa7a0370e28af8ab75eea7071177e4c12c6d74,"Added performance instrumentation for compositing addToScene() calls (#3885)
+
+* Added performance instrumentation for compositing addToScene() calls.
+
+* Switched to non-callback versions of the Timeline API.
+
+* Fixed Dart formatting nit.",mmclenna,https://api.github.com/repos/flutter/flutter/git/commits/baaa7a0370e28af8ab75eea7071177e4c12c6d74
+719add8171c25ba029fc1349a90b11d552a0dcc5,"New Material Design calculator example.  (#3999)
+
+* New Material Design calculator example. (Attempt 2 after git fetch upstream).
+
+* Responded to code review.
+
+* Second round of code review.",MitchRudominer,https://api.github.com/repos/flutter/flutter/git/commits/719add8171c25ba029fc1349a90b11d552a0dcc5
+a24e90305ff9347219cf289d3f6c5ea89f7d418c,"fixed #4179 bin/flutter fails when linked with relative symlink (#4196)
+
+* fixed issue #4179 bin/flutter fails when linked with relative symlink
+
+* fixed issue #4179 bin/flutter fails when linked with relative symlink
+
+* My second attempt at following symlinks correctly",Zectbumo,https://api.github.com/repos/flutter/flutter/git/commits/a24e90305ff9347219cf289d3f6c5ea89f7d418c
+8446ae3c87e6fe7e4f21e6bc91355da9dfc512e8,Fix flutter drive crash issue when run in develop mode (#4492),kaiyuanw,https://api.github.com/repos/flutter/flutter/git/commits/8446ae3c87e6fe7e4f21e6bc91355da9dfc512e8
+d33da2fadd542fd22735829b0abce5a419e43302,Also forward VM prints. (#4909),rmacnak-google,https://api.github.com/repos/flutter/flutter/git/commits/d33da2fadd542fd22735829b0abce5a419e43302
+a10cd03b05c685e72036f2e1471146165c6bf79c,"Flutter driver commands for controlling the Input widget (#4913)
+
+* Driver commands for controlling the Input widget
+
+This commit introduces two new driver commands for controlling the
+material Input widget.
+
+* setInputText(SerializableFinder finder, String text)
+* submitInputText(SerializableFinder finder)
+
+Since it is not possible to directly modify the Input widget text,
+these driver commands invokes the handler functions of the Input
+widget: onChanged and onSubmitted, respectively. The `submitInputText`
+command returns the submitted String as a result.
+
+* Make input command handler methods private
+
+Addressing comments from @yjbanov.",yyoon,https://api.github.com/repos/flutter/flutter/git/commits/a10cd03b05c685e72036f2e1471146165c6bf79c
+83f37246d521f46118089e4f4bb901b3b9728e3f,"Added backgroundImage to CircleAvatar.
+
+In order to have an efficient way to display clipped avatars,
+backgroundImage was added inside of the container's BoxDecoration.
+Fixes #4964. This commit also fixes #4567 where the radius property
+actually sets the diamater.",dragostis,https://api.github.com/repos/flutter/flutter/git/commits/83f37246d521f46118089e4f4bb901b3b9728e3f
+a1fa7c94e39dc88ff2399e4356ae6601919ae2c3,Support passing a custom coverage formatter to finalizeCoverage() (#5208),cbracken,https://api.github.com/repos/flutter/flutter/git/commits/a1fa7c94e39dc88ff2399e4356ae6601919ae2c3
+47139f1da9e63954010809a3b38a68f7c5078fc4,"Fix a couple of covariant overrides in Expression. (#5257)
+
+It was widening the return type of a couple of operators compared to
+what EquationMember declared it should return. Since it did in fact
+always return an Expression, the widening wasn't needed.
+
+This just tightens them to match the base class.",munificent,https://api.github.com/repos/flutter/flutter/git/commits/47139f1da9e63954010809a3b38a68f7c5078fc4
+3dda6290893e8f6698afd10ae5275b7342668e5d,"Grammar check on Readme (#5413)
+
+installed changed to installs:
+The `flutter run --release` command both builds and installed the Flutter app.
+changed to 
+The `flutter run --release` command both builds and installs the Flutter app.",EpicPi,https://api.github.com/repos/flutter/flutter/git/commits/3dda6290893e8f6698afd10ae5275b7342668e5d
+a8369413e47c41ffcb7c1884cf9dfe40af027fa3,"Build sky_engine Dart SDK summary bundle on FlutterEngine.download(). (#5426)
+
+* Build sky_engine Dart SDK summary bundle on FlutterEngine.download().
+
+* Tweaks for Devon comments.
+
+* Tweaks for Phil comments.",scheglov,https://api.github.com/repos/flutter/flutter/git/commits/a8369413e47c41ffcb7c1884cf9dfe40af027fa3
+111a64b814697e5bc4101d018b59aac8580d1290,Alternative PowerShell script. Fix missing pop in BAT file (in case of fatal error). Exit gracefully. Force SDK Path. (#5484),bbalet,https://api.github.com/repos/flutter/flutter/git/commits/111a64b814697e5bc4101d018b59aac8580d1290
+ed6e7fa06f85ff6c3a66a5d0ab69aad70a5da506,Ask if the app has location access before asking for location. (#5659),edelvalle,https://api.github.com/repos/flutter/flutter/git/commits/ed6e7fa06f85ff6c3a66a5d0ab69aad70a5da506
+e85f1629e5aab4ff0cac8e839ac438dbb865b270,Roll the engine (#5833),mikejurka,https://api.github.com/repos/flutter/flutter/git/commits/e85f1629e5aab4ff0cac8e839ac438dbb865b270
+d5b3588578170b2aba4c8d1fa7e7fadbd6f24c55,"Adding Reference to Text Input guide in Input API Documentation (#6075)
+
+* Adding reference to Flutter-website Text Input guide in API docs for Input
+
+* Grammar
+
+* PR fixes",dvdwasibi,https://api.github.com/repos/flutter/flutter/git/commits/d5b3588578170b2aba4c8d1fa7e7fadbd6f24c55
+93a2d07c63bdeb2178677dda43e3542947b454ca,"Use prebuilt Dart snapshot when assembling bundle (#6660)
+
+This is causing issues when integratting Flutter into GN as the
+generated depfile refers to snapshot as the target instead of the
+bundle. We instead use a separate GN action to generate the
+snapshot use the Flutter compiler to only assemble the bundle.",petrhosek,https://api.github.com/repos/flutter/flutter/git/commits/93a2d07c63bdeb2178677dda43e3542947b454ca
+71900776afbf42eb184d855cad563e39e81c2ab7,"Add an IntelliJ runConfig for the Gallery example (#6759)
+
+* Commit the IhtelliJ project metadata for the Gallery
+
+* Add default run config for Gallery
+
+* Add back ignore of .idea per review feedback",mit-mit,https://api.github.com/repos/flutter/flutter/git/commits/71900776afbf42eb184d855cad563e39e81c2ab7
+3f8c37cfab48bd53c356e5afad8ee953f55400c8,"Fix for issue https://github.com/flutter/flutter/issues/6826 (#6833)
+
+Exception in Flutter Gallery / Dialogs Demo #6826",raju-bitter,https://api.github.com/repos/flutter/flutter/git/commits/3f8c37cfab48bd53c356e5afad8ee953f55400c8
+4bc00df7f68e27c590652f980ea49a801ce70df8,"fixed typo (#6888)
+
+`[IconButton]` is referenced as singular everywhere else, so the _most correct_ version would be singular (`[IconButton]`) with the `s` outside of the brackets.",mikemimik,https://api.github.com/repos/flutter/flutter/git/commits/4bc00df7f68e27c590652f980ea49a801ce70df8
+6d8141b242e9a6017c74eafd6bda606d33f492ce,"Added comment for INTERNET permission in Android manifest (#6835)
+
+* Added comment for INTERNET permission in Android manifest
+
+* Added more details to the permission comment.",Pacane,https://api.github.com/repos/flutter/flutter/git/commits/6d8141b242e9a6017c74eafd6bda606d33f492ce
+b7f8ec667c60019ede66877b56e2f3b1ae6eb945,Copy-paste error in documentation of StatefulWidget (#6923),zoechi,https://api.github.com/repos/flutter/flutter/git/commits/b7f8ec667c60019ede66877b56e2f3b1ae6eb945
+a0c567f751a1f66d7b355d18f2cd990beeb6718e,"Add delay between writing file and modifying it (#6968)
+
+* Add delay between writing file and modifying it
+
+* Add type argument",lukechurch,https://api.github.com/repos/flutter/flutter/git/commits/a0c567f751a1f66d7b355d18f2cd990beeb6718e
+28bfbd6c584f084a06086ce2d6061e44c1d9c598,"Changed DefaultTextStyle to consider the TextTheme defined in the context for Bottom Nav Bar (#7042)
+
+* Changed DefaultTextStyle to consider the TextTheme defined in the context
+
+* added regression test for bottom nav bar text themes
+
+* added second regression test for fixed navbar",beckler,https://api.github.com/repos/flutter/flutter/git/commits/28bfbd6c584f084a06086ce2d6061e44c1d9c598
+1b9939af9547513061d2e30716f182b490f5362b,"Rename DestinationLabel on BottomNavigationBar (#7281)
+
+* rename DestinationLabel and labels properties to BottomNavigationBarItem and items
+
+* update/fix comments
+
+* grammatical changes
+
+* add myself to AUTHORS",lukef,https://api.github.com/repos/flutter/flutter/git/commits/1b9939af9547513061d2e30716f182b490f5362b
+500981fe0f52aaf76edb87decf0266b272a1ec70,make dialog background color configurable (#7320) (#7323),lequem,https://api.github.com/repos/flutter/flutter/git/commits/500981fe0f52aaf76edb87decf0266b272a1ec70
+fd3e0b7e1329626294f74324ceb2d7d218abdc4c,Add option to get Dart VM flags from flutter_driver. (#7378),goderbauer,https://api.github.com/repos/flutter/flutter/git/commits/fd3e0b7e1329626294f74324ceb2d7d218abdc4c
+fcc9df719fe94d39096388b96d6a24e5d12444e6,"Clarifying allowed Divider use (#7486)
+
+Clarifying that Dividers aren't restricted to usage in lists and Drawers. Maybe no one else is confused about this but I didn't realize it until I found them used in the calculator demo (https://github.com/flutter/flutter/blob/8ca4caa4406046a683c0e2d2a5cf6118fa56fef7/examples/flutter_gallery/lib/demo/calculator/home.dart)",Reagankm,https://api.github.com/repos/flutter/flutter/git/commits/fcc9df719fe94d39096388b96d6a24e5d12444e6
+ee97e5639ec704df4b5179cc88ebc19f0de9d8bd,"Change file system copy folder to copy directory (#7624)
+
+* Change file_system’s copy folder to copy director which takes into account the file system
+
+* Address review comments.
+Test with 2 different instances of file systems.",xster,https://api.github.com/repos/flutter/flutter/git/commits/ee97e5639ec704df4b5179cc88ebc19f0de9d8bd
+a0f0c42fe39a56b676f9c850ac07448c438a514a,"Update gradle example to support x86 in debug mode. (#7606)
+
+* Update gradle example to support x86 in debug mode.
+
+Changed the Flutter Gradle plugin a bit to better fit in with the
+Android build.
+
+Fixes #6136
+Fixes #6864
+Fixes #7539",jakobr-google,https://api.github.com/repos/flutter/flutter/git/commits/a0f0c42fe39a56b676f9c850ac07448c438a514a
+f46030935474c7a03877f67a54be359971363898,"Added Widgets that interact with asynchronous computations (#7733)
+
+Added three widgets that interact with Futures and Streams.",mravn-google,https://api.github.com/repos/flutter/flutter/git/commits/f46030935474c7a03877f67a54be359971363898
+b339c71523a9a901fc8f88dd0180ac16f3f966af,"Allow multiple observers for the Navigator and MaterialApp (#7883)
+
+* allow mulitple observers for Navigator and MaterialApp
+
+* add test for the navigator observers
+
+* fix style
+
+* add test for adding/removing a navigator observer",weisong0,https://api.github.com/repos/flutter/flutter/git/commits/b339c71523a9a901fc8f88dd0180ac16f3f966af
+53fc96da9e57e78675b3a8af9985ecce4d11bbd7,"Small Flutter strong mode cleanup fixes. (#7825)
+
+* Small Flutter strong mode cleanup fixes.
+
+These are cases where strong mode down cast composite errors
+generally indicated cases that would performance or correctness
+issues if Flutter code was run in a strong mode VM.
+
+* Fix Command API so that it is always in terms of Map<String,String>.
+
+* Fix typedef",jacob314,https://api.github.com/repos/flutter/flutter/git/commits/53fc96da9e57e78675b3a8af9985ecce4d11bbd7
+47666af54c44e907c6a0426cb88cde3355bd9106,"Add find.descendant API to support find descendants of an element by passing the current element finder and the finder of descendant. (#7944)
+
+* Add find.descendant API to support find descendants of an element by passing the current element and the finder of descendant.
+
+* Add find.descendant API to support find descendants of an element by passing the current element finder and the finder of descendant.
+
+* Add find.descendant API to support find descendants of an element by passing the current element finder and the finder of descendant.
+
+* Add find.descendant API to support find descendants of an element by passing the current element finder and the finder of descendant.
+
+* Add find.descendant API to support find descendants of an element by passing the current element finder and the finder of descendant.
+
+* Add find.descendant API to support find descendants of an element by passing the current element finder and the finder of descendant.
+
+* Add find.descendant API to support find descendants of an element by passing the current element finder and the finder of descendant.
+
+* Add find.descendant API to support find descendants of an element by passing the current element finder and the finder of descendant.
+
+* Add find.descendant API to support find descendants of an element by passing the current element finder and the finder of descendant.
+
+* Add find.descendant API to support find descendants of an element by passing the current element finder and the finder of descendant.
+
+* Add find.descendant API to support find descendants of an element by passing the current element finder and the finder of descendant.",zhenqiu1101,https://api.github.com/repos/flutter/flutter/git/commits/47666af54c44e907c6a0426cb88cde3355bd9106
+ca2c54bac269f3600bfea59d71c20dd8e17b5334,"Support changing the dismissable threshold (#8007)
+
+* Support changing the dismissable threshold for any direction for dismissable widget.
+
+* Fixing review comments.",mehmetf,https://api.github.com/repos/flutter/flutter/git/commits/ca2c54bac269f3600bfea59d71c20dd8e17b5334
+93c6dbb9f743e9822147af2bcbd8a14a2e7a825a,"Add platform_services sample (#8058)
+
+* Add platform_services sample
+
+* update build.gradle to use latest scripts
+
+* use FlutterActivity
+
+* Updated ExampleInstrumentedTest.java and deleted FlutterPlugin.groovy
+
+* Remove getRandom code from main.dart
+
+* remove unused import",szakarias,https://api.github.com/repos/flutter/flutter/git/commits/93c6dbb9f743e9822147af2bcbd8a14a2e7a825a
+09b63e2c931da6737985d787883119ee68f08622,"Ignore HTML in flutter_markdown content without error (#8420)
+
+* Gracefully ignore html content
+
+* Test for less than, consolidate table tests
+
+* Specify missing type annotation
+
+* Add Mike Hoolehan to AUTHORS",ilikerobots,https://api.github.com/repos/flutter/flutter/git/commits/09b63e2c931da6737985d787883119ee68f08622
+deb71cc6dcf45297ab4fb6e6ccf3d14fb05be9ab,"Update gradle wrapper and build-tools version for flutter create. (#8914)
+
+* Update gradle wrapper and build-tools version.
+
+Tested manually by ""flutter create"" with Idea ""flutter run"" and from android studio ""run"" android app.
+
+* Update com.android.tools.build to 2.3.0",asaarnak,https://api.github.com/repos/flutter/flutter/git/commits/deb71cc6dcf45297ab4fb6e6ccf3d14fb05be9ab
+358e1cd2e171e81067c9728df7508f0e72a76c3f,"Teach flutter_tools to populate PUB_ENVIRONMENT (#8962)
+
+* Teach flutter_tools to populate PUB_ENVIRONMENT
+
+Will allow telemetry reporting on pub.dartlang.org once
+flutter moves to 1.23.0-dev.10.0
+
+* review changes",kevmoo,https://api.github.com/repos/flutter/flutter/git/commits/358e1cd2e171e81067c9728df7508f0e72a76c3f
+f8cf576f2be719fabd5b5d117adb7bb81be892f7,typo spontaneously (#9013),lyrachord,https://api.github.com/repos/flutter/flutter/git/commits/f8cf576f2be719fabd5b5d117adb7bb81be892f7
+eb9046b1757d7a17db3f2920f9f1a56625dc66be,"[Flutter Tool] Only uninstall Android app when the initial install fails (#8930)
+
+Uninstalling the app removes the data and cache directories, so this
+allows application data to persist across multiple flutter run
+invocations.
+
+This also handles the edge case where the app fails to install due to an
+error in installation (e.g. debug keystore changes, switching from a
+release keystore to a debug keystore, etc.).",ds84182,https://api.github.com/repos/flutter/flutter/git/commits/eb9046b1757d7a17db3f2920f9f1a56625dc66be
+d25981cfb35738ddb35200f875c141e5b6a4eb25,"generate_from_arb has been moved to intl_translantion library (#9255)
+
+* generate_from_arb has been moved to intl_translantion library
+
+* fixed typo
+
+* added missing intl dependency
+
+* Regenerated language files with latest intl script
+
+* Added version to intl_translations
+
+* added isolate min version constraint",dbacinski,https://api.github.com/repos/flutter/flutter/git/commits/d25981cfb35738ddb35200f875c141e5b6a4eb25
+5cb9097965824ccaeeb26e3464f87b3e0372efce,"flutter create: enable Java support in IDEA (#9335)
+
+Generates an android.iml file and a package-level library for flutter.jar.
+
+Does not set up an Android SDK in IDEA; this isn't possible with a
+template-based approach. But IDEA shows a clear warning, so the
+user can fix this by setting the SDK.
+
+(When creating a Flutter project from within IDEA, we can fix this up
+afterwards in the plugin.)",skybrian,https://api.github.com/repos/flutter/flutter/git/commits/5cb9097965824ccaeeb26e3464f87b3e0372efce
+37fafeecb19a00c6b283c9d7e761a9d1de37ab46,"Dartdoc bot sanity flexibility (#9496)
+
+* Have sanity check pass on old and new versions of flutter",jcollins-g,https://api.github.com/repos/flutter/flutter/git/commits/37fafeecb19a00c6b283c9d7e761a9d1de37ab46
+1a571b5c90e878aae2b7b8be22e6aae8b0ab0887,"OverlayState.add* should have been OverlayState.insert* (#9773)
+
+Trivial doc typo.",postmasters,https://api.github.com/repos/flutter/flutter/git/commits/1a571b5c90e878aae2b7b8be22e6aae8b0ab0887
+0652737f3bc56cf7a3595624c3f3c2235610a961,"They “are are” created, as needed (#9831)",EasonPai,https://api.github.com/repos/flutter/flutter/git/commits/0652737f3bc56cf7a3595624c3f3c2235610a961
+5b5aa254574e4e34957cb76b668b2bdfcbfaf3fb,"Add manual test for color space rendering behavior (#10000)
+
+* Add manual test for color space rendering behavior
+
+* Remove unneeded assets
+
+* Add test for color demo
+
+* Drag up to scroll down",mattsarett,https://api.github.com/repos/flutter/flutter/git/commits/5b5aa254574e4e34957cb76b668b2bdfcbfaf3fb
+5b1e972948a9278f61cb1054151446c42bba6eec,"Filter out '\n' from terminal input. (#10220)
+
+* Remove '\n' from terminal input.
+
+* Use trim instead of replaceAll
+
+* Add unit test
+
+* Cleanup the test
+
+* Fixed lint
+
+* Style adjustments
+
+* Forgotten @override
+
+* Revert ""Forgotten @override""
+
+Accidently added extra files.
+
+This reverts commit 0aba24fc8ea321b3a4d0cd8aed7f589378393d96.
+
+* Just @override change",aam,https://api.github.com/repos/flutter/flutter/git/commits/5b1e972948a9278f61cb1054151446c42bba6eec
+ee3451649148919f1fbc1d0471f41855cae25eb5,Moved FLUTTER_HOME to FLUTTER_ROOT in gradle plugin (#10100),charafau,https://api.github.com/repos/flutter/flutter/git/commits/ee3451649148919f1fbc1d0471f41855cae25eb5
+f375b5acee2c5cb7be14b00f9d36145d4b1e0792,"Remove duplicated word ""space"" from docstrings (#10328)",maryx,https://api.github.com/repos/flutter/flutter/git/commits/f375b5acee2c5cb7be14b00f9d36145d4b1e0792
+e9d50f8aeb75a173bf5576d475e474ead0da7e43,Typo to associated (#10340),Solido,https://api.github.com/repos/flutter/flutter/git/commits/e9d50f8aeb75a173bf5576d475e474ead0da7e43
+6bff1339236b14c2782914d38a4fbe97bf38180f,Fixed example README link (#10369),konifar,https://api.github.com/repos/flutter/flutter/git/commits/6bff1339236b14c2782914d38a4fbe97bf38180f
+a367dcb02c4cd20c20f82d389d67257a5b9c4359,Add flags to pass '--enable-software-rendering' flag to engine in run command (#10449),GaryQian,https://api.github.com/repos/flutter/flutter/git/commits/a367dcb02c4cd20c20f82d389d67257a5b9c4359
+0cef0aaf358fde6ca9efe5669d0a73774799b2b6,"Check for initialRoute before Navigator.defaultRouteName (#10216)
+
+* Check for initialRoute before Navigator.defaultRouteName
+
+* Default initialRoute to Navigator.defaultRouteName
+
+* Take suggestions from code review
+
+* Add test for old and new routes behavior
+
+* Revert ""Add test for old and new routes behavior""
+
+This reverts commit 282fb64b165ed532583e9a5d2e4debe29469fba4.
+
+* Retry: without dartfmt, with dartanalyzer
+
+* Rename tests, check the routes are taken
+
+* Fix flutter analyze --flutter-repo warnings
+
+* Add test for initial vs default route
+
+* Update test and fix analyzer warnings
+
+* Add test for initial route only being used initially",perlatus,https://api.github.com/repos/flutter/flutter/git/commits/0cef0aaf358fde6ca9efe5669d0a73774799b2b6
+bb119e95fa67d0e487ea142d1e1a5e93d0d33e85,"Make dividers one device pixel thick as defined in Material design spec (#10523)
+
+* Make dividers one device pixel thick as defined in Material design spec
+
+* Updated divider test to check stroke width
+
+* Clarified dividers with 0 height in the docs
+
+* Updated Divider.height docs according to PR feedback",pulyaevskiy,https://api.github.com/repos/flutter/flutter/git/commits/bb119e95fa67d0e487ea142d1e1a5e93d0d33e85
+9f344b695ddb61b061c42a205a5679a61102e8c8,"Adds prefix and suffix support to TextField, per Material Design spec. (#10675)
+
+* Prefix and Suffix support for TextFields
+
+* Adding Tests
+
+* Removing spurious newline.
+
+* Fixing a small problem with the test
+
+* Review Changes",gspencergoog,https://api.github.com/repos/flutter/flutter/git/commits/9f344b695ddb61b061c42a205a5679a61102e8c8
+95f5d8d7f2034194cc04022ec725816f1231f3d2,Implement Matrix4Tween.lerp() (#10829),alanlgardner,https://api.github.com/repos/flutter/flutter/git/commits/95f5d8d7f2034194cc04022ec725816f1231f3d2
+53e2353f165b7315145c9c35ba24648d03415321,"Expand and prettify README.md (#11158)
+
+Reuses flutter.io homepage content to give README.md an upgrade, since this file will be the shop window of Flutter to a large part of newcomers. 
+
+The downside is that we now have duplicate content that should be updated in unison with the main site but which cannot be easily copy-pasted, due to constraints of github's Markdown renderer.",filiph,https://api.github.com/repos/flutter/flutter/git/commits/53e2353f165b7315145c9c35ba24648d03415321
+dba29aa0fce684b201c6b03efc73ba607c7b507b,"Select the correct conditional import when building dart dependencies.
+
+Fixes #9413.
+
+For more info on conditional imports, see
+https://github.com/munificent/dep-interface-libraries/blob/master/Proposal.md.",sivachandra,https://api.github.com/repos/flutter/flutter/git/commits/dba29aa0fce684b201c6b03efc73ba607c7b507b
+35c4989795b3b12d07d3f0be1f27878a5895ac5d,"Register tools as a reloadSources service (#11229)
+
+* Register tools as a reloadSources service
+
+* Fix code style and comments
+
+* Fix nits and Add documentation
+
+* Format error message",B3rn475,https://api.github.com/repos/flutter/flutter/git/commits/35c4989795b3b12d07d3f0be1f27878a5895ac5d
+898c19d753eb787a60396d5304951f4beaa1497d,add physics to TabBarView (#11150),najeira,https://api.github.com/repos/flutter/flutter/git/commits/898c19d753eb787a60396d5304951f4beaa1497d
+cfcf6d442819fbed5243241c5bf23a21cc405896,brew update is not needed any more: Homebrew/brew#679 (#11406),shamrin,https://api.github.com/repos/flutter/flutter/git/commits/cfcf6d442819fbed5243241c5bf23a21cc405896
+4da5e9b24900cf7711675b71c0ba1b5f6daae765,"Adds more customization options to the Chip widget (#11498)
+
+* Adds more customization options to the Chip widget
+
+Includes:
+- Custom Tooltip message for the delete button;
+- Custom background color for the chip
+- Custom delete icon color
+- Custom label text style
+
+* Adds missing type annotations to tests and improves documentation.
+
+* Tweaks labelStyle field documentation",paolosoares,https://api.github.com/repos/flutter/flutter/git/commits/4da5e9b24900cf7711675b71c0ba1b5f6daae765
+dbd3bf28e6caa68cda9a2d234f1dbff9789c693e,Replace FLUTTER_MODULE_TYPE with WEB_MODULE in dev/manual_tests/* and examples/* iml files (#11234),jwren,https://api.github.com/repos/flutter/flutter/git/commits/dbd3bf28e6caa68cda9a2d234f1dbff9789c693e
+8f57c67d9b6a6f547860d23913da3ff1488e78e4,"Roll engine to cc7e71eaace0ee43cc718059e0fdd12c798205a0 (#11542)
+
+Roll engine in order to fix regression of AOT snapshot build time.",alexmarkov,https://api.github.com/repos/flutter/flutter/git/commits/8f57c67d9b6a6f547860d23913da3ff1488e78e4
+b156a0f0549a3ad3e1134638f26f472427c379be,"Wrap the label widget of the Chip in a Flexible. (#11523) (#11554)
+
+* Wrap the label widget of the Chip in a Flexible. (#11523)
+
+* This allows the Chip to constrain the size of its content after taking into account the space occupied by the avatar and delete icon (if they are present)
+
+* Adding unit tests to evaluate correct size constraints of the Chip widget's label. (#11523)
+
+* Minor change in formatting.
+
+* Adjust function formatting.",ameiyil,https://api.github.com/repos/flutter/flutter/git/commits/b156a0f0549a3ad3e1134638f26f472427c379be
+58163e0c39222a0697622831d5160d74c84f920c,"Rename springConstant to stiffness (#11686)
+
+`stiffness` is the name of a spring's `k` input on [iOS](https://developer.apple.com/documentation/quartzcore/caspringanimation), [Android](https://developer.android.com/topic/libraries/support-library/preview/spring-animation.html), and the [Web](https://github.com/skevy/wobble/blob/bbc0f831e234f2d24fb905f2ec278c134d69ed68/src/index.js#L11-L22).  To ensure the API is familiar to and easily understood by developers coming from other platforms, Flutter should follow this convention as well.
+
+This is a minimally-breaking change.  Across [all of GitHub](https://github.com/search?l=Dart&q=springConstant&type=Code&utf8=%E2%9C%93), there are only 2 uses of the `springConstant` API (in Mondrian).  Those can be easily changed to use this name.
+
+Closes #11684",appsforartists,https://api.github.com/repos/flutter/flutter/git/commits/58163e0c39222a0697622831d5160d74c84f920c
+ec25f6bd5142d9c3b70d81a7ccf7c77f27dc63f7,"Fixed TrackingScrollController cleaning offset on position's detach (#11798)
+
+* Fixed TrackingScrollController cleaning stored offset on position's detach
+
+* Fixed format.
+
+* Fixed format.",mogol,https://api.github.com/repos/flutter/flutter/git/commits/ec25f6bd5142d9c3b70d81a7ccf7c77f27dc63f7
+cb2204d1c4924e668214c9f0df1c99d39c5308ce,"Add IconThemeData adjustment to ListTile trailing element (#11858)
+
+* Add IconThemeData adjustment to ListTile trailing element (makes consistent with leading element)
+
+* Add test for ListTile theme changes
+
+* Pull out and share IconThemeData variable between leading and trailing
+
+* remove extra comma
+
+* fix style nit",zzzev,https://api.github.com/repos/flutter/flutter/git/commits/cb2204d1c4924e668214c9f0df1c99d39c5308ce
+8a441ae72b3b66e0515b59ba256e192b2ff5a831,"Make switch widget accept 3 other colors. (#12118)
+
+* Make switch widget accept 3 other colors: inactiveThumbColor, inactiveTrackColor, activeTrackColor.
+
+* Make switch widget accept 3 other colors.
+
+* Make switch widget accept 3 other colors.",jiajiabingcheng,https://api.github.com/repos/flutter/flutter/git/commits/8a441ae72b3b66e0515b59ba256e192b2ff5a831
+dca164ab2d3ad9e0449298baf7ffeb37743d5ff0,"Fix LinearProgressIndicator constructor (#12282)
+
+* Update AUTHORS
+
+* Add background and value colors to LinearProgressIndicator
+
+* Add tests for LinearProgressIndicator with colors",sroddy,https://api.github.com/repos/flutter/flutter/git/commits/dca164ab2d3ad9e0449298baf7ffeb37743d5ff0
+eb2518f20a1a44fa5f4939fc9acb73fadf62f7eb,fix(typo) desc of jumpToPage (#12320),Alexays,https://api.github.com/repos/flutter/flutter/git/commits/eb2518f20a1a44fa5f4939fc9acb73fadf62f7eb
+0a85db2958062d8fd628f145e41b59279aeb9dad,"Change PageController#nextPage & #previousPage methods to return Future when the animation completes. (#12299)
+
+* Changed PageController #nextPage & #previousPage to return a Future after completing.
+
+* Removed false statement about returning a Future in PageController#jumpToPage
+
+* Added tests to make sure nextPage & previousPage return Futures.
+
+* Tested that the Futures returned by nextPage & previousPage actually resolve.
+
+* Renaming *pageCalled to *pageCompleted, since that's what it's actually for.",roughike,https://api.github.com/repos/flutter/flutter/git/commits/0a85db2958062d8fd628f145e41b59279aeb9dad
+5e595d12e42f634a3da21526e1cb245d9816a72a,"Allow specifying and a11y label for Icon widget (#12475)
+
+* Allow specifying and a11y label for Icon widget",amirh,https://api.github.com/repos/flutter/flutter/git/commits/5e595d12e42f634a3da21526e1cb245d9816a72a
+8f7c5c700f4246c95a2028fdee9ba62ac4e70827," Fix Italian translations (#12506)
+
+Fix Italian translations for CUT and COPY.",notjulian,https://api.github.com/repos/flutter/flutter/git/commits/8f7c5c700f4246c95a2028fdee9ba62ac4e70827
+af0afff1118a084b88523d5a50f8413f1238a757,"Workaround a connection issue on iOS 11.0.x (#12444)
+
+On iOS 11.0.x ideviceinfo fails with the following message
+ERROR: Could not connect to lockdownd, error code -3
+
+This workaround should also work for #12330",slavchev,https://api.github.com/repos/flutter/flutter/git/commits/af0afff1118a084b88523d5a50f8413f1238a757
+1573d3b8867693206702190e7426432901dc414b,Fix error message to refer to actual ClipRect widget instead of non-existing RectClip (#12632),robertoscaramuzzi,https://api.github.com/repos/flutter/flutter/git/commits/1573d3b8867693206702190e7426432901dc414b
+021a26885202c21d5123cccecc13fe5b261de11a,"Add a pageSnapping parameter to PageView (#12596)
+
+* Add a pageSnapping parameter to PageView
+
+Setting the pageSnapping property allows extending the PageView scroll
+behavior, such as custom scroll animations or custom scroll bars.
+
+* Apply pageSnapping CR feedback
+
+- Remove _kNonSnappingPhysics, use null instead.
+- Minor code style fixes.
+- It turns out that the forth state is Arkansas, not California.",jwmcglynn,https://api.github.com/repos/flutter/flutter/git/commits/021a26885202c21d5123cccecc13fe5b261de11a
+c608e666ad183c63e2d3a5bb6767c1b6e70c2cce,"Material scaffold to have simultaneous left-and-right drawers (#12686)
+
+Adds `Scaffold#endDrawer` property to supply a second drawer to a Scaffold.",5u3it,https://api.github.com/repos/flutter/flutter/git/commits/c608e666ad183c63e2d3a5bb6767c1b6e70c2cce
+dfd1ffa7c5382a482a6bf1a5f764ab05e66c47bb,"Surface elevation shadow colour on Material (#12881)
+
+* Surface shadowColor from RenderPhysicalModel to Material
+
+* Fix typo in material_test
+
+* Add nullability info to documentation
+
+* Add support for animating elevation shadow color
+
+* Add shadowColor to Material's debugFillProperties()
+
+* Add missing default value for elevation in Material debugFillProperties()
+
+* Add missing non-null asserts for animate flags in AnimatedPhysicalModel
+
+* Add test for shadow color animating smoothly",rock3r,https://api.github.com/repos/flutter/flutter/git/commits/dfd1ffa7c5382a482a6bf1a5f764ab05e66c47bb
+7837fe6ebb8107b7dc8f889443a20a890326746d,Fix duplicate word in documentation (#12874),ulfsauer0815,https://api.github.com/repos/flutter/flutter/git/commits/7837fe6ebb8107b7dc8f889443a20a890326746d
+62ed4f5911d03100dfecbefa4d1f541f6c7039bc,Fixed typo in navigator.dart doc comments (#12995),mjohnsullivan,https://api.github.com/repos/flutter/flutter/git/commits/62ed4f5911d03100dfecbefa4d1f541f6c7039bc
+545ec9efb7998e2fab953ad28226f961c8c9aad3,"Add support for NDK discovery and add --prefer-shared-library option (#12788)
+
+* Add support for NDK discovery and add --prefer-shared-library option
+
+We would like to be able to use native tools (e.g. simpleperf, gdb) with
+precompiled flutter apps.  The native tools work much better with *.so
+files instead of the custom formats the Dart VM uses by default.
+
+The reason for using blobs / instruction snapshots is that we do not
+want to force flutter users to install the Android NDK.
+
+This CL adds a `--prefer-shared-library` flag to e.g. `flutter build
+apk` which will use the NDK compiler (if available) to turn the
+precompiled app assembly file to an `*.so` file.  If the NDK compiler is
+not available it will default to the default behavior.
+
+* Rebase, add test for NDK detection, augment flutter.gradle with @Input for flag
+
+* Use InMemoryFileSystem for test
+
+* Remove unused import
+
+* Address some analyzer warnings",mkustermann,https://api.github.com/repos/flutter/flutter/git/commits/545ec9efb7998e2fab953ad28226f961c8c9aad3
+396142b66984bd21cc14da3d42752538bfd9fa8c,Fixed broken links to apple human interface guidelines (#13132),levrik,https://api.github.com/repos/flutter/flutter/git/commits/396142b66984bd21cc14da3d42752538bfd9fa8c
+1abd8a12e2e4cb98fc5c36b0bae193f53516ed69,Roll engine to e58764fbe0cf7a0fab7e75a94de9143a145108c3 (#13143),sigurdm,https://api.github.com/repos/flutter/flutter/git/commits/1abd8a12e2e4cb98fc5c36b0bae193f53516ed69
+e73d406106aefb5b1d4d06bb209d19618bd0e6ac,"Reenable fade transition for Material page transition (#13048)
+
+Fixes #12877 by reverting #9472",passsy,https://api.github.com/repos/flutter/flutter/git/commits/e73d406106aefb5b1d4d06bb209d19618bd0e6ac
+b3fa05589449e25f65fd913a5296a59efe651a3b,"ExpansionTile opened - initial state (#13115)
+
+Changed the ExpansionTile widget to have an optional value to
+initialize the widget as collapsed or expanded.
+
+The widget will be collapsed by default.",leobispo,https://api.github.com/repos/flutter/flutter/git/commits/b3fa05589449e25f65fd913a5296a59efe651a3b
+87ffc45d34ed7f64cc9f8755d99bf033619d6b5e,Roll engine to 77b2d1d95a9438ff996d24ef3e0b3ec81822fa61 (contains the latest roll of Dart into teh engine). (#13269),a-siva,https://api.github.com/repos/flutter/flutter/git/commits/87ffc45d34ed7f64cc9f8755d99bf033619d6b5e
+41a5e5d8f68617d19fa17a759ebb536ea4c3f11b,"Change few devicelab tests to support testing against local engine (#13268)
+
+* Change some of the dev/devicelab tests to support testing against local engine.
+
+We can already configure flutter tools to use local engine by setting
+FLUTTER_ENGINE environment variable. However when this variable is set
+this also requires setting --local-engine to specify which flavor of
+engine to use.
+
+This change changes tests in dev/devicelab to pass a sensible default for
+--local-engine, e.g. when testing hot reload on Android we pass android_debug
+and when testing release AOT build for IOS we pass ios_release.
+
+* Fix analysis issues
+
+* Update utils.dart",mraleph,https://api.github.com/repos/flutter/flutter/git/commits/41a5e5d8f68617d19fa17a759ebb536ea4c3f11b
+913039c67aa7e0c72ad912d64537472f0f937f7e,Flutter engine roll 1/2 for 2017/12/08,bkonyi,https://api.github.com/repos/flutter/flutter/git/commits/913039c67aa7e0c72ad912d64537472f0f937f7e
+425bd5a821c58bf78e6da67a9da784983de16785,"Make it possible to specify multiple test arguments in test.dart (#13383)
+
+This removes the FLUTTER_TEST_ARGS environment variable handling.",athomas,https://api.github.com/repos/flutter/flutter/git/commits/425bd5a821c58bf78e6da67a9da784983de16785
+eed471ea3ded5877a2e4627dde8d9c60e251af58,"Expose textAlign on TextFormField (#13414)
+
+* Expose textAlign on TextFormField
+
+Fixes #11404
+
+* Added name to AUTHORS
+
+* Added a test for TextFormWidget's textAlign",fredriks,https://api.github.com/repos/flutter/flutter/git/commits/eed471ea3ded5877a2e4627dde8d9c60e251af58
+eb77d0140b77be447deacf8ac71ddf4a085646f7,Roll engine to e0d19e2897b6c4c8c48f05d23a2b90bd32ab5d49 (#13570),crelier,https://api.github.com/repos/flutter/flutter/git/commits/eb77d0140b77be447deacf8ac71ddf4a085646f7
+30720bd1486f270604050e860551d1c3e20428e8,"Change async stubbing to use thenAnswer. (#13521)
+
+* Change async stubbing to use thenAnswer.
+
+Mockito now prohibits calling thenReturn with Futures and Streams. dart-lang/mockito#79
+
+* Update all Mockito deps to 3.0.0.
+
+* Revert ""Update all Mockito deps to 3.0.0.""
+
+This reverts commit e8ab9d37c33d3d7fe384abde64ea5b4d72623c75.
+
+I did not correctly update the mockito dep, and there's no easy way to update to 3.0 alpha right now.
+
+* Change thenAnswer((_) => to thenAnswer((invocation) =>
+
+* Add Invocation type to thenAnswer lambdas",alanrussian,https://api.github.com/repos/flutter/flutter/git/commits/30720bd1486f270604050e860551d1c3e20428e8
+a96487929ba284c3aa8cd85211ec64d05ec2a583,Roll Flutter engine incl. new Skia. (#13696),ErikCorryGoogle,https://api.github.com/repos/flutter/flutter/git/commits/a96487929ba284c3aa8cd85211ec64d05ec2a583
+ba58111b7b2dcaf4cad877c319f3c0c6451e196b,"Add .vscode/ to .gitignore template (#13697)
+
+Adds .vscode/ to the .gitignore rules generated on flutter create.",xqwzts,https://api.github.com/repos/flutter/flutter/git/commits/ba58111b7b2dcaf4cad877c319f3c0c6451e196b
+b3cfa785c4b43768175ca56729b1a39b0613d6de,"Uncontroversial and backwards compatible 2.0 SDK fixes (#13723)
+
+Small code changes as part of moving the framework SDK forward to a 2.0 dev version.",leafpetersen,https://api.github.com/repos/flutter/flutter/git/commits/b3cfa785c4b43768175ca56729b1a39b0613d6de
+c6a17525e8ea63fef80325cdb8af2d6e5ca37f87,"Enable developers to run pod from terminal directly and skip pod install if possible. (#13374)
+
+Avoids running pod install if .flutter-plugins and its flutter framework pod dependency didn't change",kangwang1988,https://api.github.com/repos/flutter/flutter/git/commits/c6a17525e8ea63fef80325cdb8af2d6e5ca37f87
+50a5e98322e025070d3905c386d6d8914724b6d6,Add support for romanian locale (#13807),alibitek,https://api.github.com/repos/flutter/flutter/git/commits/50a5e98322e025070d3905c386d6d8914724b6d6
+7bb60f8c6162a7e591b211697070b4a05cb938ec,"updated docs to remove note about windows tests not working (#13650)
+
+* updated docs to remove note about windows tests not working
+
+* reverted formatting",mwarger,https://api.github.com/repos/flutter/flutter/git/commits/7bb60f8c6162a7e591b211697070b4a05cb938ec
+a414fb458db73ec07075bef4c53e0b047f0935bf,"added image links on README file (#13824)
+
+* image links
+
+* image links with markdown formatting
+
+changes of pull request [#13824](https://github.com/flutter/flutter/pull/13824)
+
+* Remove empty lines",braulio94,https://api.github.com/repos/flutter/flutter/git/commits/a414fb458db73ec07075bef4c53e0b047f0935bf
+467daba419975fe3dbc6acf20655c2a86715a861,"RouteObserver supports multiple RouteAware per Route. (#13757)
+
+Unsubscribe should remove RouteAware for all routes.",lykhonis,https://api.github.com/repos/flutter/flutter/git/commits/467daba419975fe3dbc6acf20655c2a86715a861
+c3fab029c242fa6401d9d7939ab685c3c81b6ee9,Idea: Provide initial data to the StreamBuilder (#13820),brianegan,https://api.github.com/repos/flutter/flutter/git/commits/c3fab029c242fa6401d9d7939ab685c3c81b6ee9
+e8b666249aeb322507f3b25fd97e3723be033ba5,Bump collection dependency to 1.14.5 (#14048),srawlins,https://api.github.com/repos/flutter/flutter/git/commits/e8b666249aeb322507f3b25fd97e3723be033ba5
+f77826c5eea7217ae2b1166ef6635661c4b86199,"Allow Flutter to be vendored as a submodule (#14157)
+
+When Flutter is vendored as a submodule, `.git` is a File whose contents
+are a pointer to the Git directory. This change allows you to pin your
+app to a certain version of Flutter via submodules.",anaisbetts,https://api.github.com/repos/flutter/flutter/git/commits/f77826c5eea7217ae2b1166ef6635661c4b86199
+de023bc6f451a01ddae909433ec02881e70a0348,Improve SystemChrome documentation (#14181),jayjun,https://api.github.com/repos/flutter/flutter/git/commits/de023bc6f451a01ddae909433ec02881e70a0348
+52d47751a065bc41d177f381e169b0ed3ad71b80,"Add onCancelled callback to PopupMenu (#14226)
+
+* Add onCancelled callback to PopupMenu
+
+* Fix spelling, don't call onCanceled if disposed, improve documentation.",tlarsen7572,https://api.github.com/repos/flutter/flutter/git/commits/52d47751a065bc41d177f381e169b0ed3ad71b80
+47e52b827fe8de7b966156653676e8e0df510660,"adds properties to dismissible widget (#14162)
+
+* adds crossAxisEndOffset and rollbackDuration properties to dismissible widget
+
+* re-added removed license comment
+
+* corrected license comments
+
+* Adds test for rollbackDuration and crossAxisEndOffset
+
+* added tests and comments
+
+* modified tests for dismissible widgets",theankurkedia,https://api.github.com/repos/flutter/flutter/git/commits/47e52b827fe8de7b966156653676e8e0df510660
+5ccd5a1e756f1527adff3ba988ad3211bce642c3,"[kernel/flutter] Improve speed of first hot reload (#13699)
+
+* [kernel/flutter] Improve speed of first hot reload
+
+* [kernel/flutter] Improve speed of first hot reload
+
+* Revert ""[kernel/flutter] Improve speed of first hot reload""
+
+This reverts commit f3dc133878ec7405a8efb5715f1cfe720f4ea05f.
+
+* Revert ""[kernel/flutter] Improve speed of first hot reload""
+
+This reverts commit f7bcb082b01cf9cf48f02c6aad9e5c79705def8f.
+
+* Revert ""Revert ""[kernel/flutter] Improve speed of first hot reload""""
+
+This reverts commit 73c7a1a8e85a4c0397984d8b65a98b2f71bf84f3.
+
+* [kernel/flutter] Improve speed of first hot reload
+
+Do so by not evicting unnecessary paths (while still evicting paths
+that was changed between the generation of the package file and the
+initial upload).
+
+* Fix grammar in method name
+
+* Fix bad merge
+
+* Add method to super class",jensjoha,https://api.github.com/repos/flutter/flutter/git/commits/5ccd5a1e756f1527adff3ba988ad3211bce642c3
+51158c9177defd803599b0c730dd220c9f69a418,"Fix passing ""void"" into ""dynamic"" to future-proof new changes. (#14366)
+
+Using a void list literal in this case is valid and correct, and will be
+required for dart 2.
+
+Note: void can be inferred here, but followed the lints to write it
+explicitly even though that's arguably a bit weird in this case and less
+backwards compatible.",MichaelRFairhurst,https://api.github.com/repos/flutter/flutter/git/commits/51158c9177defd803599b0c730dd220c9f69a418
+efb88a03807c2043ac05a0b8001fb902c487693f,"Reject requests for hot reload if a hot reload is already in progress. (#14494)
+
+* Reject requests for hot reload if a hot reload is already in progress.
+
+Fixes #14184
+
+* Implement TODO, verifying further hot reloads complete sucessfully.
+
+* Fix year on new file.
+
+* Add missing type annotations to fix lints
+
+* Add run_machine_concurrent_hot_reload to manifest for CI
+
+* Reformat document
+
+... but undo things that cause lints (like single-line ifs)
+
+* Extract std stream transformations
+
+* Make inProgressHotReload private
+
+* Disallow all types of reload while hot reload in progress
+
+* Simplify code handling in-progress hot reloads",DanTup,https://api.github.com/repos/flutter/flutter/git/commits/efb88a03807c2043ac05a0b8001fb902c487693f
+ec76c652bd9f44f6cc4384585583840327c9f1c8,"Add support for assets in Fuchsia packages (#14654)
+
+Pull code out of flx.dart:assemble() to make flx.dart:buildAssets
+which creates the AssetBundle. This will allow us to create just
+this instead of an entire FLX.",cyngus84,https://api.github.com/repos/flutter/flutter/git/commits/ec76c652bd9f44f6cc4384585583840327c9f1c8
+83b42816497f54011f1c88fb196fb13a1c587d5d,Add a toString for CurveTween (#14679),DaveShuckerow,https://api.github.com/repos/flutter/flutter/git/commits/83b42816497f54011f1c88fb196fb13a1c587d5d
+419fef3f8b8f97a642d240a194642d82f6788740,"Check that State.initState and State.didUpdateWidget don't return Futures (#15183)
+
+* add a debug check that the returned Type of State.initState and State.didUpdateWidget are not Futures
+
+* add test to verify that async lifecycles throw FlutterErrors
+
+* address some feedback, match implementation of setState check
+
+* address feedback from hixie
+
+* fix odd spacing in test",jonahwilliams,https://api.github.com/repos/flutter/flutter/git/commits/419fef3f8b8f97a642d240a194642d82f6788740
+e0f6e626e96ca6ecb48ec48d7eaae9c8d209a84c,"Add to Artifacts, and add optional arguments to entry points for flut… (#15185)
+
+Add to Artifacts, and add optional arguments to entry points for flutter run and test to allow for wiring up the same with preview-dart-2 internally",keertip,https://api.github.com/repos/flutter/flutter/git/commits/e0f6e626e96ca6ecb48ec48d7eaae9c8d209a84c
+c5a5945e92d01c671d34fb91aa4015170185c31a,"Spelling (#15229)
+
+* spelling: accommodate
+
+* spelling: allotted
+
+* spelling: anonymous
+
+* spelling: artificial
+
+* spelling: associated
+
+* spelling: asset
+
+* spelling: button
+
+* spelling: canvas
+
+* spelling: compatibility
+
+* spelling: coverage
+
+* spelling: condition
+
+* spelling: decoration
+
+* spelling: deferring
+
+* spelling: diameter
+
+* spelling: direction
+
+* spelling: displacement
+
+* spelling: dropdown
+
+* spelling: needing
+
+* spelling: environment
+
+* spelling: exited
+
+* spelling: expansion
+
+* spelling: explore
+
+* spelling: families
+
+* spelling: horizontal
+
+* spelling: increment
+
+* spelling: indices
+
+* spelling: internationalization
+
+* spelling: labrador
+
+* spelling: localizations
+
+* spelling: midflight
+
+* spelling: milliseconds
+
+* spelling: minimum
+
+* spelling: multiple
+
+* spelling: multiplication
+
+* spelling: navigator
+
+* spelling: overridden
+
+* spelling: package
+
+* spelling: performance
+
+* spelling: platform
+
+* spelling: porsche
+
+* spelling: position
+
+* spelling: preceded
+
+* spelling: precede
+
+* spelling: precedence
+
+* spelling: print
+
+* spelling: property
+
+* spelling: readily
+
+* spelling: reproducibility
+
+* spelling: rounded
+
+* spelling: scroll
+
+* spelling: separate
+
+* spelling: separator
+
+* spelling: services
+
+* spelling: specific
+
+* spelling: specify
+
+* spelling: synchronously
+
+* spelling: through
+
+* spelling: timeout
+
+* spelling: triangle
+
+* spelling: trivial
+
+* spelling: unusual
+
+* spelling: then
+
+* spelling: vertically
+
+* spelling: visible
+
+* spelling: visited
+
+* spelling: voice",jsoref,https://api.github.com/repos/flutter/flutter/git/commits/c5a5945e92d01c671d34fb91aa4015170185c31a
+f3c806c9f219c10d87d17b713d15a3ab2b87aca6,Remove _checkPort() when getting flutter views (#15184),shrike69,https://api.github.com/repos/flutter/flutter/git/commits/f3c806c9f219c10d87d17b713d15a3ab2b87aca6
+b0f7da9249ae6c7372a2fb21dc3c064c85aa2279,"Choose default icon color based on theme brightness (#15450)
+
+* Use theme for default icon color
+
+Replaces hard-coded black.
+
+* Better icon defaults for dark/light modes
+
+* Add default case to silence warning",cdock1029,https://api.github.com/repos/flutter/flutter/git/commits/b0f7da9249ae6c7372a2fb21dc3c064c85aa2279
+2609876c8fe59d9ba1f8c33372e9761a62240ed9,"Fix misspelling in tab description (#15449)
+
+Actual text: ""Tab 2 of $3""
+Expected text: ""Tab 2 of 3""",maszhin,https://api.github.com/repos/flutter/flutter/git/commits/2609876c8fe59d9ba1f8c33372e9761a62240ed9
+ab56c63971bf594ede9dcf254be0fe69fe6330e5,Update README; beta release (#15098),nrebhun,https://api.github.com/repos/flutter/flutter/git/commits/ab56c63971bf594ede9dcf254be0fe69fe6330e5
+81070893be590db4da4237885966a3e7093e7357,Fix Dart2 compatibility with flutter_tools' tests. (#15699),matanlurey,https://api.github.com/repos/flutter/flutter/git/commits/81070893be590db4da4237885966a3e7093e7357
+568ce697b4620941b680745f00865834d15ffebb,"add Samsung SM-J730F to isLocalEmulator (#15517)
+
+Add another rel device to isLocalEmulator to make working flutter run --release",vilkh3m,https://api.github.com/repos/flutter/flutter/git/commits/568ce697b4620941b680745f00865834d15ffebb
+1e40349017603a0ce2c8f225a7d1460a4e9824c4,"Fixed flutter create's ""package"" template's error in pubspec.yaml. (#14977)",Fedorsturov,https://api.github.com/repos/flutter/flutter/git/commits/1e40349017603a0ce2c8f225a7d1460a4e9824c4
+d89deb79d36eefa5d7f4b5f6b2526ed7937ff3ec,"Fix call on null when interpolating gradient stops (#15656)
+
+Also adds test for interpolating gradient stops.",thekeenant,https://api.github.com/repos/flutter/flutter/git/commits/d89deb79d36eefa5d7f4b5f6b2526ed7937ff3ec
+72fd020a245e620be368f3a204598ac2ed51e75f,"[fuchsia_remote_debug_protocol] Adds the fuchsia remote debug protocol package.
+
+Adds a package that will support connecting to and debugging devices with multiple instances of the Dart VM, and operate on multiple Isolates and Flutter Views.
+
+Currently supports connecting to all existing Dart VMs and extracting information about all Flutter Views running across each VM.",awdavies,https://api.github.com/repos/flutter/flutter/git/commits/72fd020a245e620be368f3a204598ac2ed51e75f
+d3abf174be12c0820df3b7dd96e7f86e312877f9,Removed obsolete step in for rolling a new engine,sbaranov,https://api.github.com/repos/flutter/flutter/git/commits/d3abf174be12c0820df3b7dd96e7f86e312877f9
+895707324df24e10de26b4b451f3df568f732284,"improve Flutter build commands (#15788)
+
+add --buildNumber and --buildName to flutter build like
+flutter build apk --buildNumber=42 --buildName=1.0.42",the4thfloor,https://api.github.com/repos/flutter/flutter/git/commits/895707324df24e10de26b4b451f3df568f732284
+e1946f1f686a35dad9771b07cc78a35b29d0b8e5,"Fix absolute shebangs in install scripts (#16135)
+
+* Fix absolute shebang in /bin/flutter
+
+* Fix absolute shebang in bin/internal/update_dart_sdk.sh",OhadRau,https://api.github.com/repos/flutter/flutter/git/commits/e1946f1f686a35dad9771b07cc78a35b29d0b8e5
+6c8c824e281be567d7c5e465199c9985fa665064,Updated color to use theme accentColor (#16079),frunkad,https://api.github.com/repos/flutter/flutter/git/commits/6c8c824e281be567d7c5e465199c9985fa665064
+47a576b296073157e84efdc088c50e3bb8360839,"Add disable Cupertino Switch example (#15853)
+
+* Add disable Cupertino Switch example
+
+* keep trailing commas consistent
+
+* fix Cupertino Switch example linter error",ztplz,https://api.github.com/repos/flutter/flutter/git/commits/47a576b296073157e84efdc088c50e3bb8360839
+03a0cd25a5905bb2340c538aed1c6ce719171ade,"Make full-screen dialog text editable in gallery (#13690) (#15732)
+
+Make the full-screen dialog text editable in gallery (#13690)",lwoerdeman,https://api.github.com/repos/flutter/flutter/git/commits/03a0cd25a5905bb2340c538aed1c6ce719171ade
+fd7222eea8ebd75dfa9bdf24ccb3a965fba30ca0,"Fix error with 'flutter packages get' in package projects (#16861)
+
+Package projects were erroneously being treated as apps",filleduchaos,https://api.github.com/repos/flutter/flutter/git/commits/fd7222eea8ebd75dfa9bdf24ccb3a965fba30ca0
+d43b4d0ad89481a8feb7f2468f6c996d8516c408,"Fix #16247: SizeTransition clamps negative size factors (#16579)
+
+As pointed out in the bug, the issue is fixed by just clamping sizeFactor.value.
+
+Fixes #16247",blasten,https://api.github.com/repos/flutter/flutter/git/commits/d43b4d0ad89481a8feb7f2468f6c996d8516c408
+ff58db4ac3c564b83ab1a8ee5d4fa6db26be3fa9,"Fix hue to 0.0 when red == green == blue. (#16872)
+
+When passing a Color object with same R/G/B code ( e.g. [new Color.fromRGBO(100, 100, 100, 1.0)] ) to HSVColor.fromColor(Color color) , the hue in return will be NaN .",debuggerx01,https://api.github.com/repos/flutter/flutter/git/commits/ff58db4ac3c564b83ab1a8ee5d4fa6db26be3fa9
+286cd359513b853a6bf13a93d1fda25420e90f46,Fix bug for calling isEmpty on null object. (#16782),xuexin,https://api.github.com/repos/flutter/flutter/git/commits/286cd359513b853a6bf13a93d1fda25420e90f46
+7f9bf5ade9d3e5ccb4635d7207a445a5ab29db2b,"Introduce DoctorValidatorsProvider to improve extensibility of flutter_tools (#16918)
+
+DoctorValidatorsProvider is injected into Doctor to allow
+overriding of DoctorValidators without needing to override
+the whole Doctor instance.",josephmr,https://api.github.com/repos/flutter/flutter/git/commits/7f9bf5ade9d3e5ccb4635d7207a445a5ab29db2b
+1680e55c02ba5e187031c86d80040af7e144a7da,Updated links to Material design guidelines to use short links. (#17077),ajsecord,https://api.github.com/repos/flutter/flutter/git/commits/1680e55c02ba5e187031c86d80040af7e144a7da
+7333459916fbe1e735c6e81265ef6faee1c90f84,"Configure Cirrus CI (#16224)
+
+* Configure Cirrus CI
+
+* Read file directly instead of shelling a command
+
+* Wait for all streams to finish
+
+* Add LTR `textDirection`
+
+Since `RenderFlex#_debugHasNecessaryDirections` requires it when `direction` is horizontal and there are multiple children.",fkorotkov,https://api.github.com/repos/flutter/flutter/git/commits/7333459916fbe1e735c6e81265ef6faee1c90f84
+e54887fb12f49ea5a63bbe4d2218d35f5cf3b421,"Fix minor dartdoc typo (#17381)
+
+Minor typo fix for BottomAppBar doc",peteretelej,https://api.github.com/repos/flutter/flutter/git/commits/e54887fb12f49ea5a63bbe4d2218d35f5cf3b421
+ae8586cfa1cdbfda89048ecf6f148e401a15d4a1,"Show help info instead of crashing if Android SDK is not found (#17610)
+
+Fixes #16832",liyuqian,https://api.github.com/repos/flutter/flutter/git/commits/ae8586cfa1cdbfda89048ecf6f148e401a15d4a1
+85cb38e71a49c2139191a52955e92eec3f71b0ad,"Fix consolidate HTTP response and add test  (#17082)
+
+* Fix consolidate response and add test
+
+* Update AUTHORS
+
+* ignore content-length
+
+* fix formatting/update comment
+
+* more commas
+
+* Fix consolidate response and add test
+
+* Update AUTHORS
+
+* ignore content-length
+
+* fix formatting/update comment
+
+* more commas
+
+* remove extra newline",dnfield,https://api.github.com/repos/flutter/flutter/git/commits/85cb38e71a49c2139191a52955e92eec3f71b0ad
+fd55c4ec5b4e4dcaf9bd16c70c465b01582bac2c,Add glyph references for Cupertino-style icons (#16605),NDrong,https://api.github.com/repos/flutter/flutter/git/commits/fd55c4ec5b4e4dcaf9bd16c70c465b01582bac2c
+8a4db32bb804c6d02157a1608697e7a3f33b1ec7,"Added onChangeStart and onChangeEnd to CupertinoSlider (#17535)
+
+This is a follow up on issue #17169 and the pull request #17298
+
+This pull request adds the onChangeStart and onChangeEnd callbacks for CupertinoSlider. These are called when a user starts and ends a change respectively.
+
+Pushing for @dcaraujo0872, the PR author.",dcaraujo0872,https://api.github.com/repos/flutter/flutter/git/commits/8a4db32bb804c6d02157a1608697e7a3f33b1ec7
+197d4315a97ffd0844fd2198dd655cac32af942c,"Scan assets from disk (#16413)
+
+Scan folders when asset specified finishes with `/`",fmatosqg,https://api.github.com/repos/flutter/flutter/git/commits/197d4315a97ffd0844fd2198dd655cac32af942c
+be6501a91cb1b1ffa32869792ef94956387724bf,"Patch to fix builds with custom targets on iOS simulator. (#17734)
+
+* Patch to fix builds with custom targets on iOS simulator. #16787
+
+* Fix for unused import.
+
+* Code review changes applied.",slightfoot,https://api.github.com/repos/flutter/flutter/git/commits/be6501a91cb1b1ffa32869792ef94956387724bf
+54899c763830a0b3e1d1120fdd15e5bc5182aa2e,Support multi-line log messages on iOS devices (#17327),TimNN,https://api.github.com/repos/flutter/flutter/git/commits/54899c763830a0b3e1d1120fdd15e5bc5182aa2e
+4cd5870ecef50fbf4fd7e681cf327897f0695abe,"Added docs to CupertinoAlertDialog to explain title, content, and button styling (#18128) (#18129)",matthew-carroll,https://api.github.com/repos/flutter/flutter/git/commits/4cd5870ecef50fbf4fd7e681cf327897f0695abe
+34933f801f5d79138bbbac693e5b2fd5d6015df1,"TextFormField/TextField - remove spaces in character counter (#18096)
+
+* TextFormField/TextField - remove spaces in character counter(follow material design guidelines)",thphuc,https://api.github.com/repos/flutter/flutter/git/commits/34933f801f5d79138bbbac693e5b2fd5d6015df1
+b135fb3795a16ab2b884820ed7a67d650338aac3,Remove tests that rely on 'ar' locale information which will change (#18217),alan-knight,https://api.github.com/repos/flutter/flutter/git/commits/b135fb3795a16ab2b884820ed7a67d650338aac3
+4bbd4ce9811ac405ad7c9b0722b9618b2b2dba22,"Surface border parameter in CupertinoSliverNavigationBar (#18194)
+
+* Surface border parameter in CupertinoSliverNavigationBar (#18152)
+
+* Add tests for CupertinoSliverNavigationBar border
+
+* Remove unused keys, find by descendant",edman,https://api.github.com/repos/flutter/flutter/git/commits/4bbd4ce9811ac405ad7c9b0722b9618b2b2dba22
+fc5d44d7aca8637cf5921adce1fa8f23013ffad4,Correct RaisedButton to OutlineButton for disabled outline example in buttons demo (#18243),clocksmith,https://api.github.com/repos/flutter/flutter/git/commits/fc5d44d7aca8637cf5921adce1fa8f23013ffad4
+326caa5d22e01637f3612a2c73960aee01a8e75c,[Gallery] Updated assets and copy (#18324),willlarche,https://api.github.com/repos/flutter/flutter/git/commits/326caa5d22e01637f3612a2c73960aee01a8e75c
+c35e484c952c7d24f1859182c9ea01916bece163,Adding segmented control (#18373),nataliesampsell,https://api.github.com/repos/flutter/flutter/git/commits/c35e484c952c7d24f1859182c9ea01916bece163
+5fbec7b8129a8072027efe62a7a53c9addeffb4d,Fix segmented control golden tests (#18695),sandrasandeep,https://api.github.com/repos/flutter/flutter/git/commits/5fbec7b8129a8072027efe62a7a53c9addeffb4d
+698e1016bb076884c3e99c118efca8edb0b1dc17,"Let the Kernel FE know whether it's building for a release VM. (#18876)
+
+Fixes #18829",sjindel-google,https://api.github.com/repos/flutter/flutter/git/commits/698e1016bb076884c3e99c118efca8edb0b1dc17
+af5d4c688205c7b348201c702b05c03f1f5eb9ff,Fix type errors in iOS simulator discovery. (#18960),mfiels,https://api.github.com/repos/flutter/flutter/git/commits/af5d4c688205c7b348201c702b05c03f1f5eb9ff
+84f5b1cb09ea8c485fe11da686b5ceb7dfcf2660,"Round properly to nearest page in TabBarView. (#16868)
+
+This logic is described in the test as looking for a scroll ending
+very close to a new page, but in fact its behavior is more like
+""very close to a page to the right"": if we're not very, very close
+to any page, it will pick the page to the left, not an old page.
+
+There's no reason this should be left-right asymmetrical.
+Instead, pick the nearest page.
+
+In practice, the case where this makes a difference never arises when
+the scroll runs undisturbed to completion; but when the user taps on
+the page to hold or drag, the scroll will be interrupted before it
+gets within tolerance of a particular page, and this case does arise.
+
+This fixes a glitch that is hard to trigger without time dilation,
+but is quite conspicuous with it:
+
+ * Open a tab view with at least 4 tabs, e.g. the Buttons screen
+   of the gallery (with ""Animate Slowly"" on.)
+ * Starting at tab 0, tap tab 2.
+ * When the animation is nearly complete, tap the page a couple
+   of times, as if to drag it around to scroll.  Then let the
+   page view settle ballistically toward page 2.
+ * Before it finishes, tap tab 3.
+ * Suddenly page 1 fills the view, replacing page 2, before we
+   scroll from there to page 3.
+
+With this fix, the animation in the last step moves smoothly from
+where we are when it starts onward to page 3.",gnprice,https://api.github.com/repos/flutter/flutter/git/commits/84f5b1cb09ea8c485fe11da686b5ceb7dfcf2660
+34238f54ebb5a8c398df2335745db1640a42e061,make edit in README.md (#18981),melongbob,https://api.github.com/repos/flutter/flutter/git/commits/34238f54ebb5a8c398df2335745db1640a42e061
+e5d9feb59d749e7d9b18790edd12f7f3330b2dfd,"Adding a setup function for hot restart (#18921)
+
+* Adding a setup function for hot restart that can be overwritten to perform any necessary initialization before a restart is started.
+
+* Adding a test for setupHotRestart
+
+* Removing local pubspec change
+
+* Fixing some type annotation errors
+
+* Responding to comments",abykov2,https://api.github.com/repos/flutter/flutter/git/commits/e5d9feb59d749e7d9b18790edd12f7f3330b2dfd
+66091f969653fd3535b265ddcd87436901858a1d,"Move collectCoverageData into CoverageCollector so it can be re-used. (#19055)
+
+This will let us re-use that code from fuchsia_tester.dart.
+Tested by running the stocks example tests with coverage collection before and after.
+.lcov files are identical.",garymm,https://api.github.com/repos/flutter/flutter/git/commits/66091f969653fd3535b265ddcd87436901858a1d
+32941a8cc0df5d7653a5c2c40ffb180c4db1c15d,"Add Windows support to defaultTargetPlatform (#19176)
+
+A significant amonut of code uses defaultTargetPlatform, so it's
+currently impossible to run most apps on Windows. This adds a mapping
+from Windows as a host to Android as a target, paralleling the
+macOS->iOS and Linux->Android mappings.
+
+This allows more use of Windows as a host platform (e.g., for testing,
+as in issue #17768).",stuartmorgan,https://api.github.com/repos/flutter/flutter/git/commits/32941a8cc0df5d7653a5c2c40ffb180c4db1c15d
+94959a340c73b42d919fd465045211f996d0effe,"Fixed code sign error message width (#19026)
+
+* Fixed codesign error message width
+
+* Fixed mac_test
+
+* Removed snackbar code",jslavitz,https://api.github.com/repos/flutter/flutter/git/commits/94959a340c73b42d919fd465045211f996d0effe
+953db753ab28b6147044c8d85add9ee0a953bf69,"Adding multicolumn cupertino picker to the Gallery. (#19284)
+
+* Add sample of multicolumn picker to Flutter Gallery
+* Modify CupertinoPicker to be able to be rendered off-center.",doxuanviet1996,https://api.github.com/repos/flutter/flutter/git/commits/953db753ab28b6147044c8d85add9ee0a953bf69
+99457c92d78090759166b2710ba2bf4d2faa122e,Add build test for Flutter codelabs,tianlunlee,https://api.github.com/repos/flutter/flutter/git/commits/99457c92d78090759166b2710ba2bf4d2faa122e
+924c206cf88dbe206e8673b8b8297f8f1bfe269d,Add optional haptic feedback on LongPressDraggable (#18781),eyallen,https://api.github.com/repos/flutter/flutter/git/commits/924c206cf88dbe206e8673b8b8297f8f1bfe269d
+a14b4f621e97a513d6e93e2863e152cc5ff4cb3d,Making the space between keyboard and text-field when the keyboard pops up a variable. (#18562),Norbert515,https://api.github.com/repos/flutter/flutter/git/commits/a14b4f621e97a513d6e93e2863e152cc5ff4cb3d
+1cb2677234175e0d7e06742eef6e865a755f07ff,"Change material RefreshIndictor.onRefresh signature from Future<Null> to Future<void> (#18775)
+
+* Change material refresh indicator onRefresh signature from Future<Null> to Future<void>.
+
+* Update authors.
+
+* Explicitly name void argument.",lukaspili,https://api.github.com/repos/flutter/flutter/git/commits/1cb2677234175e0d7e06742eef6e865a755f07ff
+46da8536b6cd46a930b585bdb834ec21bf212153,"Add some options to format subcommand (#18360)
+
+* Add `--dry-run` option to `flutter format` sub command
+
+* Add `--set-exit-if-changed` option to `format` sub command
+
+* Add `--machine` option to `format` sub command
+
+* Make variable names to be not shorthand: cmd -> command
+
+Fix https://github.com/flutter/flutter/pull/18360#discussion_r199656120",moznion,https://api.github.com/repos/flutter/flutter/git/commits/46da8536b6cd46a930b585bdb834ec21bf212153
+da0e898da9c329192cd1ef4f8fe6e7d03a952adc,"Added SM-G960F to the list of known physical devices (#18966)
+
+Samsung Galaxy S9 is not an emulator and installation of
+the release packages with 'flutter run --release' should be possible.",jaggernod,https://api.github.com/repos/flutter/flutter/git/commits/da0e898da9c329192cd1ef4f8fe6e7d03a952adc
+cb2b9c30a05aa548214f122dd40bee1c7e1cb778,"Update README.md (#19717)
+
+the thumbnail is not related to the link anymore 
+https://github.com/flutter/flutter/issues/17380",Rahiche,https://api.github.com/repos/flutter/flutter/git/commits/cb2b9c30a05aa548214f122dd40bee1c7e1cb778
+e6fa45d63fc6921f9d679afb1dabd59e808fa205,Added 35 icons (#19725),creativecreatorormaybenot,https://api.github.com/repos/flutter/flutter/git/commits/e6fa45d63fc6921f9d679afb1dabd59e808fa205
+154dbc597544b60bc4b090c1f85e828e7709c8d0,update_dart_sdk.ps1: Fall back to Invoke-WebRequest if BITS fails (#19873),jnschulze,https://api.github.com/repos/flutter/flutter/git/commits/154dbc597544b60bc4b090c1f85e828e7709c8d0
+63098f2bc85d3a26c3d8d0976fc108f03b9bce07,"Apply curved animation in AnimatedOpacity (#19620)
+
+Fixes #19617",sir-boformer,https://api.github.com/repos/flutter/flutter/git/commits/63098f2bc85d3a26c3d8d0976fc108f03b9bce07
+724b92499edeb400afca36ebe9675b53890493e5,"Dart SDK roll for 8/1/2018 (#20120)
+
+* Dart SDK roll for 8/1/2018
+
+Dart SDK roll and disabling of return warnings as errors.
+
+List of commits included in this roll:
+
+8bad5c7b29 [vm/compiler] Non-speculative X64 long division/remainder.
+918cda18c5 Add docs about sourcemap extensions
+329e029bd6 Fixes dart-lang/sdk#34035
+12326c10e1 Store constructor field initializera when the target is not a field.
+50da4b8d92 Skip ShadowInvalidFieldInitializer while resynthesizing constructor initializers.
+8810b6ecc7 Translate kernel.Instantiation in constant expressions.
+cb7341fceb Initial support for inlining-data in source-maps.
+4206131030 Fix tracking of onStep position of arguments to new expression
+384b0a9a73 Issue 34038. Fix resynthesizing imports when mixed with exports.
+ba7dbcf412 Update the test output processor to produce more useful analysis
+4b2ee8e9a5 Improve catch clause recovery
+66500de4dc More fixes to the CFE integration tests
+3f2251986d CC sra also in changes to compiler files and tests
+4734c55882 Report error on unsupported operators
+00e3109368 [VM] Adjust flags for creating depfiles
+07c462b471 [vm] Refactoring: extract BaseFlowGraphBuilder to a separate file
+ff9167ff7b Fix parseDirectives to recognize metadata
+079bebb78b [ VM ] Added missing token position for assert statements
+174649b9be [gardening] Update status of dissasemble_test on Windows
+8c5aca7d4d Remove the Factory interface
+3dc201e168 Update ChangeBuilder to not include empty edits (Take 2)
+18047b2757 Refactor test.dart by changing class Configuration to TestConfiguration
+7373d38a31 Update status for Dart2js minified CSP on Chrome with fast startup
+61148eade8 Update mixin-declaration feature specification.
+a98feb0f01 [VM interpreter] Fix exception handling. Convert bytecode indices to pc offsets ....
+da2ed2fd59 Don't ignore runtime cast failures on Map<K,V>.
+3d8ca8e566 [gardening] Increase debug app-jitk timeout
+0313f7bd66 [gardening] Update status file for failing test
+6c39bc38f3 Clear ShadowX references that are not required after compilation.
+05b9bbd2b5 Remove the dart1 version of the analysis server snapshot.
+9107399190 Add back in the analysis server training.
+9fb6c09015 Store reference/type for invalid types.
+21db860271 Remove non-strong dart2js builders from test_matrix.json
+2e7b0a13f1 Add support for accessing all of the created contexts
+73663ae7c6 Allow void on the RHS of null coalescing expressions
+17cb6d95d1 Don't remember TypeEnvironment in resolution results.
+72960de5f9 [VM] Fix one more place where bound error allocation happened on BG thread in new space
+6ad79ff4bd Update status file for tests passing under CFE
+23ba527735 [VM] Ensure to alloate bound errors in old space on BG compiler
+fe8052428b Remove CONTENT_MODIFIED from spec/test for getSignature
+c4c847a45c Revert ""[CQ] Remove pkg-linux-release from the CQ trybots until it is fixed""
+beaf05efa3 [vm] When generating JITDUMP also dump IR and attach it as source to code.
+24158b773d [vm/compiler] Do not LICM LoadStaticField for uninitialized fields.
+68bfaf3ac3 [vm/compiler] Avoid crashes when canonicalizing unreachable AssertAssignable.
+5a45b2a62b [infra] Upgrade homebrew dependencies to work on Dart 2
+8e287dc037 [VM] Only add direct implementor when reading script snapshots if ....
+6e81d74fcc [VM] Optimize generation of type testing stubs in JIT mode.
+058510eeab fix #28233, add hint for missing returns to function expressions
+4482d13ff7 [vm/compiler] Bug fix in 64-bit MOD (%) operator.
+
+* Try ignore instead of commenting out.
+
+* Also disable this in package analysis options.",aartbik,https://api.github.com/repos/flutter/flutter/git/commits/724b92499edeb400afca36ebe9675b53890493e5
+ad163749b74e1c583e6e5f7faf5909854d8ad301,"Extend InputDecoration with prefix/suffix padding (#19514)
+
+Add widget valued prefix and suffix properties to InputDecoration.  These new properties are alternatives to prefixText and suffixText.",christian-muertz,https://api.github.com/repos/flutter/flutter/git/commits/ad163749b74e1c583e6e5f7faf5909854d8ad301
+8c02b8f889d1012c4e1c74e8e8df919f64d9e0a0,"Fix issue for iOS to build any app and run on simulator #19618 (#19863)
+
+A different approach to get the url from the string and avoid any interference by extra chars not allowed in url
+
+Fixes #19618",matteocrippa,https://api.github.com/repos/flutter/flutter/git/commits/8c02b8f889d1012c4e1c74e8e8df919f64d9e0a0
+71048065b880a913ce268e85004d037498abfa30,Fix bug in FadeInImage causing changes in placeholder to be missed (#20356),hterkelsen,https://api.github.com/repos/flutter/flutter/git/commits/71048065b880a913ce268e85004d037498abfa30
+05c2880a1736bbc90c8870a3b498fab074b0d4c0,"Roll engine e54bc4ea1832..a84b210b3d26 (6 commits) (#20453)
+
+Auto-roller completed checks. Merging.",engine-flutter-autoroll,https://api.github.com/repos/flutter/flutter/git/commits/05c2880a1736bbc90c8870a3b498fab074b0d4c0
+5311dff1f4556c460b6b91661898761ce887612e,Duplicate assets under data/ to data/componentName (#20534),leoylung,https://api.github.com/repos/flutter/flutter/git/commits/5311dff1f4556c460b6b91661898761ce887612e
+fa5374e87156f47f30998925f5e170b60886c7b7,Fix link to input_event_constants.fidl (#20588),cmyr,https://api.github.com/repos/flutter/flutter/git/commits/fa5374e87156f47f30998925f5e170b60886c7b7
+58b8460c457d90f632f1a869ebd3534f506871f3,release lock (#19671),lfkdsk,https://api.github.com/repos/flutter/flutter/git/commits/58b8460c457d90f632f1a869ebd3534f506871f3
+9d6d03fc08ba53c150df17e4cb962017bff36340,"Add ability to set collapse mode in flexible space bar (#18526)
+
+* Add ability to set collapse mode in flexible space bar
+
+* Add tests to collapse mode in flexible space bar
+
+* Fix minor style nit
+
+* Fix getting collapse mode does not handle unknown values
+
+* Change const key to final in space bar collapse mode test
+
+* Return null collapse padding if mode is unknown",ebeem,https://api.github.com/repos/flutter/flutter/git/commits/9d6d03fc08ba53c150df17e4cb962017bff36340
+3c624f8b2c578fe7c14ae1b2dec725e265891758,"Update README.md
+
+Updating a few things on the README page. It needs more work.",sfshaza2,https://api.github.com/repos/flutter/flutter/git/commits/3c624f8b2c578fe7c14ae1b2dec725e265891758
+f8a2fc7c287ea0f25bb893d56caa45302d22eed6,Implement resizeToAvoidBottomPadding in CupertinoPageScaffold (#20929),SPodjasek,https://api.github.com/repos/flutter/flutter/git/commits/f8a2fc7c287ea0f25bb893d56caa45302d22eed6
+19c962825600cc24d8f030cca19d9b4f7d258ab0,"[Material] Fix 20051 FAB tooltip touch target (#21084)
+
+* [FAB] Updated tooltip touch target.
+
+* Remove ""new"" keyword
+
+* [FAB] Updated tooltip touch target.
+
+* ""long press button edge""
+
+* remove new
+
+* remove new
+
+* put ""new"" keywords back in
+
+* Remove check for childless tooltip
+
+* Added regression test - tooltip works on edge of FAB which has no child.
+
+Added helper method to find the right edge of a in the tests.
+
+* Changed ""find.byType(text)"" to ""find.text('Add')""",johnsonmh,https://api.github.com/repos/flutter/flutter/git/commits/19c962825600cc24d8f030cca19d9b4f7d258ab0
+7598050fff00f9b15b08c50d8a3e2f613851874e,Add VS Code path to user install (#21070),SevereCloud,https://api.github.com/repos/flutter/flutter/git/commits/7598050fff00f9b15b08c50d8a3e2f613851874e
+1658fd9412f9e5c3c1ad331a00c4eeb713e5be42,"Added size to stepper icons (#19313)
+
+* Added size to stepper icons
+
+* Added Stepper icons size test",MarcinusX,https://api.github.com/repos/flutter/flutter/git/commits/1658fd9412f9e5c3c1ad331a00c4eeb713e5be42
+58d98ce31ee9c8547b2c42bf9618662ef8c37769,"Create categories for doctor validators (#20758)
+
+* First step in Flutter Doctor refactor. Assigns categories to all validators.
+
+* Revert ""Roll engine e54bc4ea1832..a84b210b3d26 (6 commits) (#20453)""
+
+This reverts commit 05c2880a1736bbc90c8870a3b498fab074b0d4c0.
+
+* Split iOS and Android workflows into workflow and validator classes.
+
+* Change ValidatorCategory to handle standalone validators that share a
+category (e.g. IntelliJ).
+
+Also make Android Studio and Android toolchain use separate categories.
+
+At this stage, flutter doctor output matches what it was previously.
+(The summary() method itself has not yet been changed )
+
+* Change doctor summary code to support validator categories.
+
+Output is still unchanged.
+
+* Handle small formatting issues.
+
+* Flip Flutter category's isGroup field to false until it's actually
+needed.
+
+* Revert auto-generated formatting changes to keep those lines from
+muddying the pull.
+
+* Small fixes pointed out by analyzer.
+
+* Properly fix analyzer issues around const constructors.
+
+* Small changes to address comments.
+
+* Add tests to verify grouped validator behavior and validationtype
+merging.
+
+* Update doctor.dart
+
+* Add comments for clarification.",tonyzhao1,https://api.github.com/repos/flutter/flutter/git/commits/58d98ce31ee9c8547b2c42bf9618662ef8c37769
+c5d16612a5013c18a7af5e5c658352e07f9cc2ec,Fix ThemeData's cursorColor doesn't work. (#21142),CaiJingLong,https://api.github.com/repos/flutter/flutter/git/commits/c5d16612a5013c18a7af5e5c658352e07f9cc2ec
+9a290c174a8d039460239779a21175271245824d,"Expand DropdownButton width based on isExpanded flag (#21515)
+
+* Fix Dropdown where icon not set to end of button
+
+* Expand DropdownButton based on isExpanded flag
+
+* Add dropdown golden tests
+
+Fixes #13135, #16606",mklim,https://api.github.com/repos/flutter/flutter/git/commits/9a290c174a8d039460239779a21175271245824d
+e8fa45c695640a75b71e2b8d384884060e8c80fb,"Update gitignore template for flutter create (#21192)
+
+* update gitignore template to mirror
+
+* Add a newline to end of doc
+
+* remove Android/ and iOS/ subfolder gitignores",timsneath,https://api.github.com/repos/flutter/flutter/git/commits/e8fa45c695640a75b71e2b8d384884060e8c80fb
+07dd80712e659a9df2df0978874314e314f0accf,Call setState() (#21642),cbenhagen,https://api.github.com/repos/flutter/flutter/git/commits/07dd80712e659a9df2df0978874314e314f0accf
+66e54223757847354dd655c4cb39ba38e3cf70f6,"Check for AndroidStudio plugins in the right .dot dir. (#20619)
+
+This fixes issues 11940 and 18155.",joaoatgoogle,https://api.github.com/repos/flutter/flutter/git/commits/66e54223757847354dd655c4cb39ba38e3cf70f6
+74e93e4c5c43b4307306065da9bdadf7083affc1,Make ScaleGestureRecognizer detect pointer rotation (#17345),renancaraujo,https://api.github.com/repos/flutter/flutter/git/commits/74e93e4c5c43b4307306065da9bdadf7083affc1
+02e87334ddb9f64a2ff12c0dc201f3e410e74be7,"Implement Double Tap Handling in TextField and Editable (#21264)
+
+Thanks @NikoYuwono for getting this working! We appreciate your help!
+
+* Implement Double Tap Handling in TextField and Editable
+
+* Fix test broken by the change and add test for double tap
+
+* Fix affected tests
+
+* Remove unnecessary new
+
+* Fix test",NikoYuwono,https://api.github.com/repos/flutter/flutter/git/commits/02e87334ddb9f64a2ff12c0dc201f3e410e74be7
+72d86f904fe363c43925be2eaca0f18582579a87,"Fix a link (#21888)
+
+Fix a link that works in GitHub but not in dartdoc.",kwalrath,https://api.github.com/repos/flutter/flutter/git/commits/72d86f904fe363c43925be2eaca0f18582579a87
+52697ef962ad015eeef665ec7c77c32e99141db8,"Fixes to support add2app on iOS (#22277)
+
+* Fix xcode_backend.sh script to support add2app
+
+* Fix ios deployment target. Too old for new Xcode.
+
+* Fix ios host app
+
+* Register plugins with Flutter view",mravn,https://api.github.com/repos/flutter/flutter/git/commits/52697ef962ad015eeef665ec7c77c32e99141db8
+960d669897525d647935b41586b60789f64f8f4a,"Make platform_channels_swift use more idiomatic Swift (#21712)
+
+Make platform_channels_swift use more idiomatic Swift
+
+* Remove semicolons.
+* `if (condition)` => `if condition`.
+* `Class.init(...)` => `Class(...)`.
+* Remove `break` statements from `switch` cases.
+* Remove some unnecessary uses of `self`.",jamesderlin,https://api.github.com/repos/flutter/flutter/git/commits/960d669897525d647935b41586b60789f64f8f4a
+35e9a84c0eab72caf566008fc898825cd0a26021,"Added more cupertino icons (#22347)
+
+Microphone, clock, time, padlock and eye icons added (both outlined and solid)",oysteinkn,https://api.github.com/repos/flutter/flutter/git/commits/35e9a84c0eab72caf566008fc898825cd0a26021
+7d47f04ddcd639444e31078085ae78c3328244a9,Removed `then`  (#22346),kwmt,https://api.github.com/repos/flutter/flutter/git/commits/7d47f04ddcd639444e31078085ae78c3328244a9
+fafd615a815c58b6bb54547b240bd24e91f88ec1,"updated Flutter Doctor grammar (#19676)
+
+* updated Flutter Doctor grammar
+
+* updated messaging based on a suggestion by Greg Spencer
+
+* grammar update",drkhannah,https://api.github.com/repos/flutter/flutter/git/commits/fafd615a815c58b6bb54547b240bd24e91f88ec1
+acbef6aac4735f5ee733ba96ed52549b6dfcf1f3,Added elevation to BottomSheet (#21998),peterzagoranski,https://api.github.com/repos/flutter/flutter/git/commits/acbef6aac4735f5ee733ba96ed52549b6dfcf1f3
+13684e4f8e9edb4c2b2a0fd8e1439f93e6e30fde,"use RadioListTile in expansion panels demo (#20240)
+
+* use RadioListTile in expansion panels demo
+
+Fixes #6048.
+- expose `_Location`
+- appease analyzer",mockturtl,https://api.github.com/repos/flutter/flutter/git/commits/13684e4f8e9edb4c2b2a0fd8e1439f93e6e30fde
+b9f6e2c31522df72c1a1218e55a9effb5ee10be4,Remove `new` keyword from sample code (#22465),rkowase,https://api.github.com/repos/flutter/flutter/git/commits/b9f6e2c31522df72c1a1218e55a9effb5ee10be4
+d0c9560856785508cce2ad1c1bffd30f571064be,Make RotationTransition widget alignment configurable (#22535),NPKompleet,https://api.github.com/repos/flutter/flutter/git/commits/d0c9560856785508cce2ad1c1bffd30f571064be
+89c5ace1170c225182dde72182ac0c725be6aee6,"Adding Changelog URL to the README.md file (#20915)
+
+* Adding Changelog URL to the README.md file
+
+* Update README to match the latest version on DEV
+
+- Update README to match the latest version on DEV branch 
+- Add Changelog URL
+
+* Update README.md
+
+Fix contributing link",dahabit,https://api.github.com/repos/flutter/flutter/git/commits/89c5ace1170c225182dde72182ac0c725be6aee6
+7038c3633b76ca2f4a962bdcff4d99244ff8ce21,"Fix typo in in raw_keyboard.dart (#22757)
+
+Obviously a small change, looks like a little copy-paste accident.",gamebox,https://api.github.com/repos/flutter/flutter/git/commits/7038c3633b76ca2f4a962bdcff4d99244ff8ce21
+422e56c29cb4b0feb7501aaa3cb68e0a3f4fe5c4,"Added support for Gradle productFlavors that are not only lowercase (#22767)
+
+Fixes https://github.com/flutter/flutter/issues/19507",jorgecoca,https://api.github.com/repos/flutter/flutter/git/commits/422e56c29cb4b0feb7501aaa3cb68e0a3f4fe5c4
+9c01c2b836bef933e8cf15e85b9af1e52cf19e80,Use new run arguments API in flutter_view / Android example.,ened,https://api.github.com/repos/flutter/flutter/git/commits/9c01c2b836bef933e8cf15e85b9af1e52cf19e80
+a3670a2f85fdac285c71b5f2846932dc8ddca4fc,Add parameters to allow hiding icons and border of the Cupertino TabBar (#22804),artrmz,https://api.github.com/repos/flutter/flutter/git/commits/a3670a2f85fdac285c71b5f2846932dc8ddca4fc
+43001a3ab631c9355e776ee92ba1e3b802d159af,Correctly throw when MaterialPageRoute's builder returns null (#22885),mdebbar,https://api.github.com/repos/flutter/flutter/git/commits/43001a3ab631c9355e776ee92ba1e3b802d159af
+6b79d3779772e3dcf7851a5f5188475f9078c8fb,"Add `disabledHint` to DropdownButton (#18770)
+
+If `items` or `onChanged` is null the button will be disabled, the down arrow will be grayed out, and
+the new `disabledHint` will be shown (if provided).",escamoteur,https://api.github.com/repos/flutter/flutter/git/commits/6b79d3779772e3dcf7851a5f5188475f9078c8fb
+25e40ba5992958604c0010d1d99d60dfc5d2404d,"fix Curves.bounceInOut math (#22825)
+
+* fix Curves.bounceInOut
+
+* assert maximum slope",MaxBittker,https://api.github.com/repos/flutter/flutter/git/commits/25e40ba5992958604c0010d1d99d60dfc5d2404d
+d556d2117d77bf8309f399d989ae058fbe0671b7,"Finalize editing when hitting the enter key on a single line TextField (#23015)
+
+Behavior remains the same for multiline TextFields. This behavior already happens on iOS and Android, but not desktop. #23014",franciscojma86,https://api.github.com/repos/flutter/flutter/git/commits/d556d2117d77bf8309f399d989ae058fbe0671b7
+bbe8cf606e9e58b1f35f47b09c1fd894254f9c45,"Improved readme (#23079)
+
+Link to CONTRIBUTING.md in the flutter_tools README",luanpotter,https://api.github.com/repos/flutter/flutter/git/commits/bbe8cf606e9e58b1f35f47b09c1fd894254f9c45
+7fbb5b9f32b3c5aa1feccc594ea7cf584e9eea0e,"Create WidgetTester.ensureVisible(Finder) (#22620)
+
+This is just a shorthand for
+Scrollable.ensureVisible(tester.element(finder))
+
+Fixes #8185",devkabiir,https://api.github.com/repos/flutter/flutter/git/commits/7fbb5b9f32b3c5aa1feccc594ea7cf584e9eea0e
+7aeb539da9faa7dfb95c2459cdfb2ee5d48b1ba4,"Added a filterQuality parameter to images. (#23329)
+
+* Added a filterQuality parameter to images.
+
+* Removed this break by accident.
+
+* Modified the test case to check the filterQuality
+
+* Update packages/flutter/lib/src/rendering/image.dart
+
+Co-Authored-By: namanix <namanix@gmail.com>
+
+* Update packages/flutter/lib/src/rendering/image.dart
+
+Co-Authored-By: namanix <namanix@gmail.com>
+
+* Update packages/flutter/lib/src/rendering/image.dart
+
+Co-Authored-By: namanix <namanix@gmail.com>
+
+* Update packages/flutter/lib/src/widgets/image.dart
+
+Co-Authored-By: namanix <namanix@gmail.com>
+
+* Update packages/flutter/lib/src/widgets/image.dart
+
+Co-Authored-By: namanix <namanix@gmail.com>
+
+* Update packages/flutter/lib/src/rendering/image.dart
+
+Co-Authored-By: namanix <namanix@gmail.com>
+
+* Update packages/flutter/lib/src/rendering/image.dart
+
+Co-Authored-By: namanix <namanix@gmail.com>
+
+* Added documentation for the new parameter and corrected some space issue's",namanix,https://api.github.com/repos/flutter/flutter/git/commits/7aeb539da9faa7dfb95c2459cdfb2ee5d48b1ba4
+125b5d623c305b0b7e11ec6bef80f863f9e9cb1a,"Fixes gradle error: 'Could not find lint-gradle-api.jar' (#23095) (#23397)
+
+* Fixes gradle error: 'Could not find lint-gradle-api.jar' (#23095)",mrmitew,https://api.github.com/repos/flutter/flutter/git/commits/125b5d623c305b0b7e11ec6bef80f863f9e9cb1a
+3b137611111f80c5e2e97757d19e19b16f7287a5,Update doc header in Opacity class to fix issue #23311 (#23475),staadecker,https://api.github.com/repos/flutter/flutter/git/commits/3b137611111f80c5e2e97757d19e19b16f7287a5
+d8bf21a3b7d1df0290bbfe85f7f71ad3655ed90c,Add examples to documentation of TimeOfDay class. (#23452),NurlashKO,https://api.github.com/repos/flutter/flutter/git/commits/d8bf21a3b7d1df0290bbfe85f7f71ad3655ed90c
+e92ac48431a8746d96a1f6024191e6a0727e4e1b,"Update README.md (#23760)
+
+beautified Readme , removed bullet",vyaspranjal33,https://api.github.com/repos/flutter/flutter/git/commits/e92ac48431a8746d96a1f6024191e6a0727e4e1b
+02355d4c19ec3f8449f7228e935940ce307f80d3,Added the DialogTheme to the material exports so that it is accessible. (#23858),fhuonder,https://api.github.com/repos/flutter/flutter/git/commits/02355d4c19ec3f8449f7228e935940ce307f80d3
+54becbf3bf350de10dac8daf4552e761fef63332,Ignore unreachable iOS devices in IOSDevice.getAttachedDevices (#23776),mattijsf,https://api.github.com/repos/flutter/flutter/git/commits/54becbf3bf350de10dac8daf4552e761fef63332
+1fde4d03666a692ba9f31f2a5ad2913cb84bede5,Docs clarification for how RTL/LTR locale affects ButtonBar (#24264),justinmc,https://api.github.com/repos/flutter/flutter/git/commits/1fde4d03666a692ba9f31f2a5ad2913cb84bede5
+29d5210d8b75eaf5d62a0bbe886bfa99605f1232,Use constant durations in more places (#24306),bwilkerson,https://api.github.com/repos/flutter/flutter/git/commits/29d5210d8b75eaf5d62a0bbe886bfa99605f1232
+87156df6d9bd8b4d9b48558d2babfd49418dcc17,"Optionally show the text field length but not the max (#24183)
+
+If maxLength is set to TextField.noMaxLength then continue to show the character counter but do not display the max input length value.",sjmcdowall,https://api.github.com/repos/flutter/flutter/git/commits/87156df6d9bd8b4d9b48558d2babfd49418dcc17
+9447be737075d2ac435eb026dd643a7525fb0e0e,"Added support for passing in velocity and offset into Draggable.onDragCompleted (#22267)
+
+* Added support for passing in velocity and offset into Draggable.onDragCompleted.
+
+* Fixed documentation of DragCompletedCallback.
+
+* Spun off previous onDragCompleted breaking changes into new callback called Draggable.onDragEnd.
+
+* Revert ""Fixed documentation of DragCompletedCallback.""
+
+This reverts commit 069051f5be0d4ec6a1f4b3f072e535ca87e5d740.
+
+* Revert ""Added support for passing in velocity and offset into Draggable.onDragCompleted.""
+
+This reverts commit 7ef744aa5645429b7bc92527226203ee8bff68ec.
+
+* DraggableDetails constructor is now declared first as per Flutter code style.
+
+* Draggable.onDragEnd will only call back if its widget is currently mounted to the tree.
+
+* Moved ""});"" in DraggableDetails constructor to new line, vertically aligned with the constructor name, as per Flutter code style.
+
+* Added space between if statement in drag_target.dart.
+
+* widget.onDragEnd call is now formated as per flutter code style.
+
+* Added more details to DraggableDetails documentation.
+
+* Added brackets to if statement block as per Flutter code style.
+
+* Fixed minor nits in DraggableDetails documentation.
+
+* Made DraggableDetails constructor public. Also added documentation for its constructor.",diegotori,https://api.github.com/repos/flutter/flutter/git/commits/9447be737075d2ac435eb026dd643a7525fb0e0e
+ec8ca8606c9eec8b1ecc965f5045fd29130a7e16,Add dashing config file for generating docset from flutter docs (#24374),imWildCat,https://api.github.com/repos/flutter/flutter/git/commits/ec8ca8606c9eec8b1ecc965f5045fd29130a7e16
+9d2037e9a890eb95aa45bab78e0bb1caf7eb5859,Check for empty and null preferredLocales before passing to 'localeResolutionCallback'. (#24481),noordawod,https://api.github.com/repos/flutter/flutter/git/commits/9d2037e9a890eb95aa45bab78e0bb1caf7eb5859
+16b9a80ccd1b70e9ebcc9bc462787e1cfb841c07,"added definition for hardware (#24502)
+
+This is the hardware used in the Samsung Galaxy J7",victorflorintsev,https://api.github.com/repos/flutter/flutter/git/commits/16b9a80ccd1b70e9ebcc9bc462787e1cfb841c07
+ab36f054745598eb382f25269c4a9e8a790128a7,"Replace deprecated link in docs (#25120)
+
+Followup to https://github.com/flutter/website/pull/1949, as requested by @Hixie in https://github.com/flutter/website/issues/1634.
+
+cc @kwalrath",chalin,https://api.github.com/repos/flutter/flutter/git/commits/ab36f054745598eb382f25269c4a9e8a790128a7
+280bbefd29ad3d3a78c5e4accda57bfb5b7329b5,"Remove deprecated lint ""prefer_bool_in_asserts"". (#24890)
+
+In Dart 2, asserts no longer accept non-bool values so this rule is
+made redundant by the Dart analyzer's basic checks and is no longer
+necessary.
+
+The rule will be removed in a future Linter release.",stereotype441,https://api.github.com/repos/flutter/flutter/git/commits/280bbefd29ad3d3a78c5e4accda57bfb5b7329b5
+3cca1a2ec35604ca50f9c656b8e761b07a00a9ed,Fixed Spelling. (#25217),jimmycasey,https://api.github.com/repos/flutter/flutter/git/commits/3cca1a2ec35604ca50f9c656b8e761b07a00a9ed
+114335dff0e511b6555a05c99511ad07563252c9,Support TextField multi-line hint text #20941 (#24976),trevorwang,https://api.github.com/repos/flutter/flutter/git/commits/114335dff0e511b6555a05c99511ad07563252c9
+01694ab62d33d345718d26e32a80db8d553f0ace,Allow detection of taps on TabBar (#23919),JaspervanRiet,https://api.github.com/repos/flutter/flutter/git/commits/01694ab62d33d345718d26e32a80db8d553f0ace
+368cd7da8b177f772ec48b081f71b861c8ab6f0e,"Adding support for android app bundle - Issue #17829 (#24440)
+
+* adding support for android app bundle.
+
+* removing the debug statement.
+
+* fixing formatting and code review changes.
+
+* Revert ""fixing formatting and code review changes.""
+
+This reverts commit 2041d459f335242555a0b75e445343134c245494.
+
+* Fixing code formatting issues.
+
+* updating review comments fixing comments and spacing.
+
+* changing and to & to rerun the CI and tests.
+
+* updating the comment to re-run the test
+
+updating the comment to re-run the test
+
+* fixing the formatting.
+
+* updating comments to re-trigger build
+
+updating comments to re-trigger build",pranayairan,https://api.github.com/repos/flutter/flutter/git/commits/368cd7da8b177f772ec48b081f71b861c8ab6f0e
+4b87e334d776a9ec75338be44b07346b167846ec,Setting icon color to first ListTile in ExpansionTile. Fixes #23053 (#23118),jmolins,https://api.github.com/repos/flutter/flutter/git/commits/4b87e334d776a9ec75338be44b07346b167846ec
+53727866e6aafbda25c08e1ef73f3da39d4dd427,fix #25143 Successive calls to `precacheImage()` throw an exception (#25159),truongsinh,https://api.github.com/repos/flutter/flutter/git/commits/53727866e6aafbda25c08e1ef73f3da39d4dd427
+52e5cd24dc21fa8b0a9292ffd5762cbb7cbac985,"Add didSendFirstFrameEvent service extension. (#25977)
+
+* Add didSendFirstFrameEvent service extension.",kenzieschmoll,https://api.github.com/repos/flutter/flutter/git/commits/52e5cd24dc21fa8b0a9292ffd5762cbb7cbac985
+57318fa3448621299f618f1b24a7c6282dc6d987,"Add Robert Penner’s easing functions (#25788)
+
+* Add Robert Penner’s easing functions
+
+These easing functions are the most popular functions in use on the web
+and other platforms. Including them in Flutter will encourage users to
+create more engaging and attractive animations.",marcoms,https://api.github.com/repos/flutter/flutter/git/commits/57318fa3448621299f618f1b24a7c6282dc6d987
+843f26207f83610e3354fadbabae42d01d07e98f,"Do not ignore pubspec.lock in project templates (#24209)
+
+* Remove *.lock from gitignore
+
+* Remove pubspec.lock from gitignore",jxltom,https://api.github.com/repos/flutter/flutter/git/commits/843f26207f83610e3354fadbabae42d01d07e98f
+0468742910c6e9230533e8e2c616520116b906e6,"Fix flutter root error message string interpolation (#24944)
+
+The variable isn't interpolating because it's using ""${}"" when ruby uses ""#{}"".",seanfreiburg,https://api.github.com/repos/flutter/flutter/git/commits/0468742910c6e9230533e8e2c616520116b906e6
+305ab1a35bf6d87eacb883dc803013660c1cb2b1,Fix project directory has spaces lead to compile error when use 'flutter create -t module'command (#23817),kongshanshan33,https://api.github.com/repos/flutter/flutter/git/commits/305ab1a35bf6d87eacb883dc803013660c1cb2b1
+6c6fdaff8194e8dec648191d0e06f758b0722318,"Added the superellipse (a.k.a. squircle) shape to flutter. (#26295)
+
+* Added the superellipse (a.k.a. squircle) shape to flutter, which is needed to recreate some cupertino components, e.g. buttons in pixel-perfect detail (issue #13914).",Salby,https://api.github.com/repos/flutter/flutter/git/commits/6c6fdaff8194e8dec648191d0e06f758b0722318
+88b853f7eb85bf0b47e1ca4d1bf9d9a9f821730d,move INTERNET permission to debug/AndroidManifest.xml (#22139),lesnitsky,https://api.github.com/repos/flutter/flutter/git/commits/88b853f7eb85bf0b47e1ca4d1bf9d9a9f821730d
+c713ef971e51e79733a5fb58345a401b6e690e17,Added key.properties and *.jks to .gitignore to prevent sensitive commits (#25413),JonathanWilbur,https://api.github.com/repos/flutter/flutter/git/commits/c713ef971e51e79733a5fb58345a401b6e690e17
+9880baa3964789674ad265e18cbc448ec23e0b76,"Add flutter_shared assets to module artifact (#23782)
+
+copySharedFlutterAssetsTask copies the `flutter_shared` folder assets to android's `src/main` folder of Flutter project, so that folder is bundled on the generated AAR",comigor,https://api.github.com/repos/flutter/flutter/git/commits/9880baa3964789674ad265e18cbc448ec23e0b76
+71a15896d8f473331061f1e564bf7f3770d73e8d,Fix error message and other typos (#25126),westy92,https://api.github.com/repos/flutter/flutter/git/commits/71a15896d8f473331061f1e564bf7f3770d73e8d
+f22043e25f34c7e0b59bf7c1abb59f8760cdc603,"Prevent crash when calling lerp for IconThemeData with null arguments (#26592)
+
+The lerp method for IconThemeData was not doing anything to prevent exceptions when null arguments are used. This change fixes that and adds a test for it.",rami-a,https://api.github.com/repos/flutter/flutter/git/commits/f22043e25f34c7e0b59bf7c1abb59f8760cdc603
+a0f58c5e7ae296b7d275586e69a99fa0186b5385,"Grammatical fix: ""places"" to ""placed"" (#26482)",KyrelJerome,https://api.github.com/repos/flutter/flutter/git/commits/a0f58c5e7ae296b7d275586e69a99fa0186b5385
+36a493602cd2a6090ef00a2fda4d15c137a626c4,Create an injectable factory for application packages. (#26422),skycomposter,https://api.github.com/repos/flutter/flutter/git/commits/36a493602cd2a6090ef00a2fda4d15c137a626c4
+7e22b5f2c58db166522d5c4061aaead542f84512,Doc fix: SliverChildBuilderDelegate is the lazy one (#26690),gazialankus,https://api.github.com/repos/flutter/flutter/git/commits/7e22b5f2c58db166522d5c4061aaead542f84512
+649f49d4bfeed3f9bbcdaaf301da85fd91671f3c,Swap scope with gesture (#21157),rrousselGit,https://api.github.com/repos/flutter/flutter/git/commits/649f49d4bfeed3f9bbcdaaf301da85fd91671f3c
+b4daf3380742131cbce689eb86f4b4b3d0b30772,"Fix Podfile issue #24342 (#25079)
+
+* Fix Podfile issue #24342
+
+Sometimes base configurations  (config.base_configuration_reference) can be nil, which leads to undefined method `real_path' for nil:NilClass.
+
+* Disable bitcode in every case",mcplectrum,https://api.github.com/repos/flutter/flutter/git/commits/b4daf3380742131cbce689eb86f4b4b3d0b30772
+29fb6159dbf7889928d7745b592c035c9524b683,[flutter_localizations] Add BUILD.gn for flutter_localizations (#26440),kpozin,https://api.github.com/repos/flutter/flutter/git/commits/29fb6159dbf7889928d7745b592c035c9524b683
+9eada88b3e37a30cabee13081ee9f1b360f605db,"Experimental flags in flutter (#26715)
+
+* exp flags in flutter
+
+* Fix test failures",liamappelbe,https://api.github.com/repos/flutter/flutter/git/commits/9eada88b3e37a30cabee13081ee9f1b360f605db
+5b3e933c7f38c0845593cdfc0ee1d31cc6407a1c,Added Sample code for Stack widget (#26586),Kartik1607,https://api.github.com/repos/flutter/flutter/git/commits/5b3e933c7f38c0845593cdfc0ee1d31cc6407a1c
+1c4243a0a665dd1a0d9eff91612ab40449865b85,Move Circle CI badge next to heading in Readme (#26883),EwoutH,https://api.github.com/repos/flutter/flutter/git/commits/1c4243a0a665dd1a0d9eff91612ab40449865b85
+d1bde2eddea0c3770716f0e25d041e8a20fc6d00,Add reverse functionality to repeat() of AnimationController (#25125),flschweiger,https://api.github.com/repos/flutter/flutter/git/commits/d1bde2eddea0c3770716f0e25d041e8a20fc6d00
+74ebdacad56322f8a30519c2929e9b8c297013e0,Fix DropDownButton with no items resulting in RenderFlex overflow (#26143),jimshepherd,https://api.github.com/repos/flutter/flutter/git/commits/74ebdacad56322f8a30519c2929e9b8c297013e0
+13a30c0ce18155b81d216ad47a5bf5dfc6ca1789,fix: cuertino dialog action background blur effect (#25076),akindone,https://api.github.com/repos/flutter/flutter/git/commits/13a30c0ce18155b81d216ad47a5bf5dfc6ca1789
+8cb2695a0ba121beece350e6b3f8fa70372d45d0,fix #26207 .gitignore only include project root build directory (#26388),msal4,https://api.github.com/repos/flutter/flutter/git/commits/8cb2695a0ba121beece350e6b3f8fa70372d45d0
+59dc909d0fecf0c2df3cf726064e4f44a2fe9d73,Include empty config in 'flutter config' output (#25094),jonnyandrew,https://api.github.com/repos/flutter/flutter/git/commits/59dc909d0fecf0c2df3cf726064e4f44a2fe9d73
+b685a3ea8279539077532128a867f21495e5351d,Fix typo in WrapAlignment documentation (#27322),rhcarvalho,https://api.github.com/repos/flutter/flutter/git/commits/b685a3ea8279539077532128a867f21495e5351d
+4e235c0cd89ce4df172ff02a83719e440dae17b6," Add Checkbox checkIcon color parameter #26808
+
+The new parameter defines the color of the checkbox's check mark. Default is (still) white.",H3r3zy,https://api.github.com/repos/flutter/flutter/git/commits/4e235c0cd89ce4df172ff02a83719e440dae17b6
+af3cdb33dab6092c47453b6cdcb790514caf8e6b,#19060 Update material.google.com links to material.io (#26807),MhdHejazi,https://api.github.com/repos/flutter/flutter/git/commits/af3cdb33dab6092c47453b6cdcb790514caf8e6b
+9f7ab4c4a0238c5c81a7be6e69f1e199851159a4,"Support using flutter with specific version (#26840)
+
+* Support using flutter with specific version
+
+* Set min supported version to 1.2.1",lext-7,https://api.github.com/repos/flutter/flutter/git/commits/9f7ab4c4a0238c5c81a7be6e69f1e199851159a4
+5b828764c4eedcf13d9a4410aac4c144d9505fcb,Remove leftover of GlobalKey removal listeners (#27432),spkersten,https://api.github.com/repos/flutter/flutter/git/commits/5b828764c4eedcf13d9a4410aac4c144d9505fcb
+dc1eefa997a354339cb6e2823140e5fee89b3014,Fixed #27621: CupertinoTimerPicker breaks if minuteInterval > 1 (#27647),aryzhov,https://api.github.com/repos/flutter/flutter/git/commits/dc1eefa997a354339cb6e2823140e5fee89b3014
+c58e31a74f949b5767c77a950931d90700abbd2a,"Cupertino TextField Cursor Fix (#27697)
+
+* Fix for #26261. Changes CupertinoTextField's cursorColor to read from CupertinoTheme instead of prior default of activeBlue. CursorColor will still default to activeBlue for light theme and activeOrange for dark theme if a primary color has not been specified for the CupertinoTheme.
+
+* Reverted unnecessary changes in XCode file.
+
+* Updated text_field.dart per suggestions from @gspencergoog
+
+* Updated comments for cursorColor to reflect appropriate hyperlinks per @Hixie
+
+* Simplified cursorColor assignment per @xster
+
+* Added test in cupertino/text_field_test.dart to check for correct cursorColor based on CupertinoTheme per @Hixie & @xster.",Piinks,https://api.github.com/repos/flutter/flutter/git/commits/c58e31a74f949b5767c77a950931d90700abbd2a
+f021ee27be54c9ed06ca96fd801c855bbe89bb7d,CupertinoSliverRefreshControl inactive overscroll behavior (#27588),vanelizarov,https://api.github.com/repos/flutter/flutter/git/commits/f021ee27be54c9ed06ca96fd801c855bbe89bb7d
+dfce0a7f0be217c2f0fba49f16e26d6605665835,"Added 'physics' prop to Stepper. (#26297)
+
+* Update stepper.dart
+
+Added 'physics' prop which allows the developer to assign the Stepper's scroll view's 'ScrollPhysics' which can solve with unwanted scrolling behaviour if the parent is also a scroll view. Defaults to 'AlwaysScrollableScrollPhysics' if null.
+
+* Update stepper.dart
+
+Removed unnecessary import and defaulting to 'AlwaysScrollableScrollPhysics' if physics prop is null.
+
+* Update stepper.dart
+
+Ran through format to remove unwanted whitespace which Analysis isn't happy about.
+
+* Update stepper.dart
+
+Tried reformatting again.
+
+* Update stepper.dart
+
+Tried reformatting again.
+
+* Update stepper.dart
+
+Formatting again why do you hate me github editor.
+
+* Update stepper.dart
+
+* Update stepper.dart
+
+if this format doesn't work i'll cry
+
+* Update stepper_test.dart
+
+Added Stepper scroll tests. One that fails to find Text after Stepper if physics left as null and one that succeeds if physics set to `ClampingScrollPhysics()`
+
+* Update stepper_test.dart
+
+Added const constructors
+
+* Update stepper_test.dart
+
+trying to get rid of whitespace again
+
+* Update stepper_test.dart
+
+* Update stepper_test.dart
+
+why whitespace why
+
+* Update stepper_test.dart
+
+* Update stepper_test.dart
+
+* Update stepper_test.dart
+
+* Update stepper_test.dart
+
+Swapped to `findsNothing` because I'm an idiot.
+
+* Update stepper_test.dart
+
+* Update stepper.dart",SnakeyHips,https://api.github.com/repos/flutter/flutter/git/commits/dfce0a7f0be217c2f0fba49f16e26d6605665835
+f372eb37e610779ba0e50d894baff83f00255a10,DatePicker noon/midnight overflow fix (#27773),timtraversy,https://api.github.com/repos/flutter/flutter/git/commits/f372eb37e610779ba0e50d894baff83f00255a10
+9931a275b9ae0c1efd7d8e33faf01ee1ec792b46,"Add outer try block for obtainKey errors. Add docs. (#27953)
+
+* Add outer try block for obtainKey errors. Add docs.
+
+* change to // from ///, and do specific error handling
+
+* Add return statement after error
+
+* Add test",iskakaushik,https://api.github.com/repos/flutter/flutter/git/commits/9931a275b9ae0c1efd7d8e33faf01ee1ec792b46
+307848953f5d8aad0fee167d8564bac61b294104,Fixes crossAxisSpacing overflow in RTL (#27945),p30arena,https://api.github.com/repos/flutter/flutter/git/commits/307848953f5d8aad0fee167d8564bac61b294104
+b557f3a3510e5beee7d209b385d00cf4a62923c4,"removed image with 404 (#26376)
+
+Update README.md to remove 404 link on Posse image",mikeroosa,https://api.github.com/repos/flutter/flutter/git/commits/b557f3a3510e5beee7d209b385d00cf4a62923c4
+1c021506df23434dd5e881ba0e4d8c5a9f88df8d,"Remove unused --packages argument to gen_snapshot. (#28101)
+
+This command line argument has already been removed in the main
+Dart repository, so building flutter with the latest dart fails.",sstrickl,https://api.github.com/repos/flutter/flutter/git/commits/1c021506df23434dd5e881ba0e4d8c5a9f88df8d
+d39a72516a6fee55abf248a651feddb542f55712,"deploy to .dev firebase projects. (#28171)
+
+* deploy to .dev firebase projects.
+
+* Updated secrets for .dev web sites.
+
+* Fixed missing docs.*.io references.",kf6gpe,https://api.github.com/repos/flutter/flutter/git/commits/d39a72516a6fee55abf248a651feddb542f55712
+0f218e427c080493fe93bafe34291bfd107a1c06,Make extended FAB's icon optional (#27711),ocavue,https://api.github.com/repos/flutter/flutter/git/commits/0f218e427c080493fe93bafe34291bfd107a1c06
+e3b2007c08c521c07de54835b013392a6379e741,"Clean up flutter_gallery.cmx's sandbox (#28193)
+
+Delete unused 'persistent-storage' feature (which is being removed from
+Fuchsia) and inclusion of '/system/data' in namepsace",sbrocket,https://api.github.com/repos/flutter/flutter/git/commits/e3b2007c08c521c07de54835b013392a6379e741
+910638b0a49015870a7f285f35432a3fe291d1c2,Removed trailing whitespace from the end of the CI config (#28370),RDIL,https://api.github.com/repos/flutter/flutter/git/commits/910638b0a49015870a7f285f35432a3fe291d1c2
+c26a69e9cf997d121c49fee9e4b01ab9b52f4148,[Typo] Update 'use' to 'user' (#28245),brandonrodriguez,https://api.github.com/repos/flutter/flutter/git/commits/c26a69e9cf997d121c49fee9e4b01ab9b52f4148
+47c835fb2bd84875455fe04ff5586ab520cd4d9c,"Add Sample code for FlatButton #21136 (#27751)
+
+* Update flat_button.dart
+
+* Added smaple code for Flat Button
+
+* Update flat_button.dart
+
+* Revert ""Update flat_button.dart""
+
+This reverts commit c8f00dff39e18b267295890bd0c5a86979b58c24.
+
+* Revert ""Added smaple code for Flat Button""
+
+This reverts commit adc4234bc7956293a5b56f39701c6967fe3e919a.
+
+* Update flat_button.dart
+
+* Update flat_button.dart
+
+* Update flat_button.dart
+
+* remove white spaces
+
+* remove white spaces
+
+* add two different samples
+
+* Update flat_button.dart",shivamvk,https://api.github.com/repos/flutter/flutter/git/commits/47c835fb2bd84875455fe04ff5586ab520cd4d9c
+d1cb00bcda16f64f89263f0cdb6d82cfce517dac,Remove the old HaTS implementation on API docs (#28683),jayoung-lee,https://api.github.com/repos/flutter/flutter/git/commits/d1cb00bcda16f64f89263f0cdb6d82cfce517dac
+2a046aa42ebc49ae8ca1a1ff00c0838d860e2dae,"Add animation curve slowMiddle (#28540)
+
+* Add curve fastInFastOut
+
+* Rename it to slowCenter
+
+* Rename to slowMiddle
+
+* Add continuous test",dkwingsmt,https://api.github.com/repos/flutter/flutter/git/commits/2a046aa42ebc49ae8ca1a1ff00c0838d860e2dae
+1ffd5f02d641823c3799cf84b11623ee546f32e3,"[fuchsia] Permit relative entries to the fuchsia_tester (#28821)
+
+This change permits
+(1) a relative --flutter-shell
+(2) relative (source, dill) entries within the test JSON file
+
+and enables portability in the invocation scripts produced by fuchsia's
+dart test GN template.",joshuaseaton,https://api.github.com/repos/flutter/flutter/git/commits/1ffd5f02d641823c3799cf84b11623ee546f32e3
+ec27e04582a2a336bd000cef48520e9a192722fe,fix missing variable name (#28944),ivk1800,https://api.github.com/repos/flutter/flutter/git/commits/ec27e04582a2a336bd000cef48520e9a192722fe
+f20a3c25956d18421857c71cccd871f3a1994fec,Add key support to cupertino button (#28900),TerjeLon,https://api.github.com/repos/flutter/flutter/git/commits/f20a3c25956d18421857c71cccd871f3a1994fec
+e1005143ddadde4eff337d32fec5977cd162127a,Fix typo in RefreshIndicator constructor API doc,Matsue,https://api.github.com/repos/flutter/flutter/git/commits/e1005143ddadde4eff337d32fec5977cd162127a
+ba32bfa309aec6aacd81407d8dde3f42a688a37b,Changed flutter.dev to flutter.io on each link. (#28888),awazgyawali,https://api.github.com/repos/flutter/flutter/git/commits/ba32bfa309aec6aacd81407d8dde3f42a688a37b
+a32810bc54379c044d7e77b2a498a24cf622a036,Docs edit for Tab Label Color (#29165),seendsouza,https://api.github.com/repos/flutter/flutter/git/commits/a32810bc54379c044d7e77b2a498a24cf622a036
+e82a7f06c650a96e6d18c895e79ff690e4376b47,Document that SearchDelegate.buildResults can be called multiple time… (#26785),guojiex,https://api.github.com/repos/flutter/flutter/git/commits/e82a7f06c650a96e6d18c895e79ff690e4376b47
+1ddd15ff49eba4ed7d5d00d6da8602c466f2736f,Update README.md,shihaohong,https://api.github.com/repos/flutter/flutter/git/commits/1ddd15ff49eba4ed7d5d00d6da8602c466f2736f
+955e004a13bd8be4c24e95c58a649cbb6424e230,Throw assertion error when a Hero has a Hero child. (#28470),esarbanis,https://api.github.com/repos/flutter/flutter/git/commits/955e004a13bd8be4c24e95c58a649cbb6424e230
+d6cc949970db94e9a5eddd769a5b9768cd6c42bd,"[cupertino_icons] Add circle and circle_filled, for radio buttons. (#29407)",mleonhard,https://api.github.com/repos/flutter/flutter/git/commits/d6cc949970db94e9a5eddd769a5b9768cd6c42bd
+428d104054ee83774fc1b882c8f8f5df67895798,Properly escape Android SDK Manager path in error message (#29134),wenz,https://api.github.com/repos/flutter/flutter/git/commits/428d104054ee83774fc1b882c8f8f5df67895798
+bd697d4b5ab71c9ca94d9e0ff0850a5aa3a13448,Improve Navigator documentation (#29540),i-schuetz,https://api.github.com/repos/flutter/flutter/git/commits/bd697d4b5ab71c9ca94d9e0ff0850a5aa3a13448
+cdbd0f9ddda5a87edc124ef78037957e8acee3ad,Use async execution for xcodebuild commands (#29048),priitlatt,https://api.github.com/repos/flutter/flutter/git/commits/cdbd0f9ddda5a87edc124ef78037957e8acee3ad
+c33d263830e34a6f58bbfc4f091d2f44c51b990d,Fix typo (#29625),chingjun,https://api.github.com/repos/flutter/flutter/git/commits/c33d263830e34a6f58bbfc4f091d2f44c51b990d
+a4b9ef2e79bb2d0bd551fe047848fdb2b4139140,"Fix more tests for ANSI terminals (#29699)
+
+* have tests that log error messages use a FakePlatform that does not support Ansi color, to fix tests started from color terminals
+* add the override to the other tests too, in case someone copy & pastes them in the future for a test involving an error message",christopherfujino,https://api.github.com/repos/flutter/flutter/git/commits/a4b9ef2e79bb2d0bd551fe047848fdb2b4139140
+db096cdfd84851ccbd39f57f4af44d36ea28729e,Update DropdownButton underline to be customizable (#29138),shaynekellyii,https://api.github.com/repos/flutter/flutter/git/commits/db096cdfd84851ccbd39f57f4af44d36ea28729e
+a8c1960fc29ac221fc09255c629ed85ed0214cb8,Include brackets on OutlineButton doc (#29654),rubensdemelo,https://api.github.com/repos/flutter/flutter/git/commits/a8c1960fc29ac221fc09255c629ed85ed0214cb8
+475d93a172591152500790134f9f6da3d45440ee,"Removes unnecessary ""new"" in documentation (#29779)",abhijeethp,https://api.github.com/repos/flutter/flutter/git/commits/475d93a172591152500790134f9f6da3d45440ee
+fa2fd112755985f47cd97e9d7607cc43e9717e55,Update CupertinoTextField (#29008),knezzz,https://api.github.com/repos/flutter/flutter/git/commits/fa2fd112755985f47cd97e9d7607cc43e9717e55
+6e50ccc80316286e45413e4f2c4f32acae2bbac2,Let CupertinoTextField's clear button also call onChanged (#29474),hyjfine,https://api.github.com/repos/flutter/flutter/git/commits/6e50ccc80316286e45413e4f2c4f32acae2bbac2
+673e9892302bd313b4c4332aa7d42ecc771c645a,"Remove unwanted gap between navigation bar and safe area's child (#29943)
+
+Remove the additional top padding from CupertinoPageScaffold's MediaQuery when the navigation bar is opaque (as the padding was already consumed by the navigation bar).
+
+Related Issue: #29136",LongCatIsLooong,https://api.github.com/repos/flutter/flutter/git/commits/673e9892302bd313b4c4332aa7d42ecc771c645a
+3b3f6c7a041978505b310b5b50390c2f5ff7eaac,"Include platformViewId in semantics tree for iOS (#29304)
+
+Include the platformViewId of PlatformViews in the semantics tree. The accessibility bridge in the engine can use this id to steal the semantics nodes from the actual platform view and stick them into Flutter's semantics tree.
+
+It is the iOS PlatformView counter part of https://github.com/flutter/flutter/pull/28953. It reverts the change in https://github.com/flutter/flutter/pull/28953/commits/5b5d6e89ec50f8f51766fb778d0e244f183a5000 and https://github.com/flutter/flutter/pull/28953/commits/03fd797eb8955561c2654b51035175202a25da9d.
+
+https://github.com/flutter/flutter/issues/29302",cyanglaz,https://api.github.com/repos/flutter/flutter/git/commits/3b3f6c7a041978505b310b5b50390c2f5ff7eaac
+ea343ccc3ff1baaae2affb8c40c33d25a9ed1587,CupertinoTextField: added ability to change placeholder color (#28001),Nizarius,https://api.github.com/repos/flutter/flutter/git/commits/ea343ccc3ff1baaae2affb8c40c33d25a9ed1587
+1c0f82541cd0e7153949f4e65759909d736d3802,"Set custom flutter_assets by add FLTAssetsPath to AppFrameworkInfo.plist (#29499)
+
+* Get FLTAssetsPath from AppFrameworkInfo.plist",dacaiguoguogmail,https://api.github.com/repos/flutter/flutter/git/commits/1c0f82541cd0e7153949f4e65759909d736d3802
+f056ea4e70341486ce596a2911352abfa1e0a8b5,Fix minor typo (#30353),legalcodes,https://api.github.com/repos/flutter/flutter/git/commits/f056ea4e70341486ce596a2911352abfa1e0a8b5
+eb4b3e4b625d64dc1d9d366f8f87c2700da39708,Fix Shrine overscroll glow indicator (#27217),michdud,https://api.github.com/repos/flutter/flutter/git/commits/eb4b3e4b625d64dc1d9d366f8f87c2700da39708
+74ee010b7b457fffd67e6521a950208a06da2d55,"Fix MaterialApp's _navigatorObserver when only builder used (#29413)
+
+Fix MaterialApp's _navigatorObserver so it doesn't cause WidgetApp's assertion to fail when using custom navigator, fixes #18904",rmtmckenzie,https://api.github.com/repos/flutter/flutter/git/commits/74ee010b7b457fffd67e6521a950208a06da2d55
+e8d968ed8d76fb731aca238e7b45fe59ae623e55,"Update repair command for Arch Linux (#30428)
+
+The current repair command for Arch Linux is no longer valid because
+`lib32-libstdc++5` had been removed from multilib.
+
+Actually, `lib32-gcc-libs` from core just work.
+Also see https://github.com/flutter/flutter/issues/25035",whhone,https://api.github.com/repos/flutter/flutter/git/commits/e8d968ed8d76fb731aca238e7b45fe59ae623e55
+2b7e98973ac0b818f5c8b20b8cd17141fc0c6cf5,Fix issue 21640: Assertion Error : '_listenerAttached': is not true (#30513),chunhtai,https://api.github.com/repos/flutter/flutter/git/commits/2b7e98973ac0b818f5c8b20b8cd17141fc0c6cf5
+3067825946b0615eb7c6c0c3105bc808dfa204bc,Add confirmDismiss example to flutter_gallery (#30497),Taym95,https://api.github.com/repos/flutter/flutter/git/commits/3067825946b0615eb7c6c0c3105bc808dfa204bc
+a018264131c9906fd81d6fc241761040668c28a6,Updated package template .gitignore file (#27034),shali3,https://api.github.com/repos/flutter/flutter/git/commits/a018264131c9906fd81d6fc241761040668c28a6
+a5dd074b0dd6bb61989a6f855ae5a09bb9124675,"Fixed Table flex column layout error #30437 (#30470)
+
+RenderTable._computeColumnWidths() had a logic error that caused flex columns to be collapsed to their minimum widths in certain situations dependent on the layout width constraint and the number of flex columns.",champeauxr,https://api.github.com/repos/flutter/flutter/git/commits/a5dd074b0dd6bb61989a6f855ae5a09bb9124675
+ce6fbcea2060dab807a50f69a419cfcc2344c495,"Allow mouse hover to only respond to some mouse events but not all. (#30886)
+
+* Allow mouse hover to only respond to some mouse events but not all.",efortuna,https://api.github.com/repos/flutter/flutter/git/commits/ce6fbcea2060dab807a50f69a419cfcc2344c495
+4dd152533bbe1371832422a0003503c208a0d136,[scenic] Remove dead view_manager ref (#31005),arbreng,https://api.github.com/repos/flutter/flutter/git/commits/4dd152533bbe1371832422a0003503c208a0d136
+4ef02927906d0346143b64eb4bb2106e06de900b,Added opacity to cupertino switch when disabled (#29451),Robiquet,https://api.github.com/repos/flutter/flutter/git/commits/4ef02927906d0346143b64eb4bb2106e06de900b
+e6f33e92a94525eb59eee07b698ea4b78459bfac,Add sorting to flutter version command (#31064),rostopira,https://api.github.com/repos/flutter/flutter/git/commits/e6f33e92a94525eb59eee07b698ea4b78459bfac
+0aec08c08d556d72fdf2d2ba1c8d13c94eea9b49,"TimePicker moves to minute mode after hour selection (#31566)
+
+Adds a feature of the native Android Time Picker to our Material Time Picker. When the user selects an hour, it automatically switches to minute mode.
+
+This is a merging of two pull requests:
+
+Code changes from @sdolski #24677
+Tests from @lucaslcode #29876
+
+Thanks to both of you for your contributions!",darrenaustin,https://api.github.com/repos/flutter/flutter/git/commits/0aec08c08d556d72fdf2d2ba1c8d13c94eea9b49
+59f4e92b6eaf8380441a4fa4c5aa7b404efad545,"Update `onChange` docs to Radio and RadioListTile
+
+Added note that onChange callback will not be invoked if the radio is already selected",kpsroka,https://api.github.com/repos/flutter/flutter/git/commits/59f4e92b6eaf8380441a4fa4c5aa7b404efad545
+392d5b2c28a0d63ff86fcb657184b44f2defb4ea,Fix typo (#31771),kentcb,https://api.github.com/repos/flutter/flutter/git/commits/392d5b2c28a0d63ff86fcb657184b44f2defb4ea
+bf8262d85b8339aec1348d3c2510fff5bb18e693,Remove trailing whitespace from README template (#31762),apaatsio,https://api.github.com/repos/flutter/flutter/git/commits/bf8262d85b8339aec1348d3c2510fff5bb18e693
+8e66c53f3dd4919c5f0dc73b29a37597066397c7,"Fix the documentation for UiKitView#creationParams (#31619)
+
+It looks like the documentation for UiKitView has been copy-pasted from AndroidView or so.
+This PR fixes the word 'Android' to 'iOS' for the `creationParams`.",DmitriyZaitsev,https://api.github.com/repos/flutter/flutter/git/commits/8e66c53f3dd4919c5f0dc73b29a37597066397c7
+74c6237abc6510d0fa217a7e2aff8e2b17cd8ff5,Fix bundle id on iOS launch using flutter run (#31039),vmaraccini,https://api.github.com/repos/flutter/flutter/git/commits/74c6237abc6510d0fa217a7e2aff8e2b17cd8ff5
+d8bb880d08a73ca72b4e27497b81d568198af88b,added `scrimColor` property in Scaffold widget (#31025),diegoveloper,https://api.github.com/repos/flutter/flutter/git/commits/d8bb880d08a73ca72b4e27497b81d568198af88b
+8b9eb3e2b20189c188b2c300813ce248a606d282,"Report CompileTime metric in flutter build aot --report-timings. (#31895)
+
+This is the correct metric to report for compilation time benchmarks rather
+than RunTime. Rename the 'gen_snapshot' value to merely 'snapshot' for
+backwards compatibility and overall simplicity.
+
+This change simplifies Dart's benchmarking of Flutter by making it easier to
+adopt --report-timings (made for Dart to use), which makes the benchmarks
+much more robust.",sortie,https://api.github.com/repos/flutter/flutter/git/commits/8b9eb3e2b20189c188b2c300813ce248a606d282
+299ce6e373e6177f45073891ac55d121f2c5697d,Cupertino Turkish Translation (#32013),furkantektas,https://api.github.com/repos/flutter/flutter/git/commits/299ce6e373e6177f45073891ac55d121f2c5697d
+72a72b375afd2d9a341d62f70a2f30a324744d33,"remove unnecessary artificial delay in catalog example (#31822)
+
+* remove unnecessary artificial delay
+
+* fix test_driver README",sensuikan1973,https://api.github.com/repos/flutter/flutter/git/commits/72a72b375afd2d9a341d62f70a2f30a324744d33
+d2de911d50ea792d6743b2cdc74e8daf26112b91,Sliver animated list (#28834),simolus3,https://api.github.com/repos/flutter/flutter/git/commits/d2de911d50ea792d6743b2cdc74e8daf26112b91
+28b58db1f21af7ef7a913aea7971a0513d87f11b,Add `shape` property to SliverAppBar (#31662),mtiziano,https://api.github.com/repos/flutter/flutter/git/commits/28b58db1f21af7ef7a913aea7971a0513d87f11b
+57d66664623fa34980674e0a9500d58501a05754,Fix text selection toolbar appearing under obstructions (#29809),jiisd,https://api.github.com/repos/flutter/flutter/git/commits/57d66664623fa34980674e0a9500d58501a05754
+969c6ef1dc1bf6351b538b9764fa6efa10744740,Add reference to Runner-Bridging-Header.h to iOS template's profile configuration (#32266),matthewlloyd,https://api.github.com/repos/flutter/flutter/git/commits/969c6ef1dc1bf6351b538b9764fa6efa10744740
+705143855fca976522218f191ba05e36e838e59f,"Make font semibold when isDefaultAction is true in CupertinoDialogAction (#31308)
+
+Make font semibold when isDefaultAction is true in CupertinoDialogAction",riccardoratta,https://api.github.com/repos/flutter/flutter/git/commits/705143855fca976522218f191ba05e36e838e59f
+ca4ad6dc5a63a8c1b2b9d6eb0abbf3cd485cefe6,Updated some links (#32444),LorenzNickel,https://api.github.com/repos/flutter/flutter/git/commits/ca4ad6dc5a63a8c1b2b9d6eb0abbf3cd485cefe6
+73dbca41428603cd77e91a312a4c2549006b52ce,"Added ScrollController to TextField (#32620)
+
+scrollController param on TextField and CupertinoTextField",mcrovero,https://api.github.com/repos/flutter/flutter/git/commits/73dbca41428603cd77e91a312a4c2549006b52ce
+841e1cf0afd5da3bff40aee8d4ab05815da10a46,"Add mustRunAfter on mergeAssets task to force task ordering (#33272)
+
+Co-authored-by: Miguel Lemos <miguelslemos@gmail.com>",luizdubas,https://api.github.com/repos/flutter/flutter/git/commits/841e1cf0afd5da3bff40aee8d4ab05815da10a46
+d0e45a2369e9b7603c5d8ca33280128fba01de38,Adds support for generating projects that use AndroidX support libraries (#31028),athornz,https://api.github.com/repos/flutter/flutter/git/commits/d0e45a2369e9b7603c5d8ca33280128fba01de38
+f7bfd54934a91ed2bc141aabf23fe509a6b892c7,fix GridView documentation (#33442),brandon-irl,https://api.github.com/repos/flutter/flutter/git/commits/f7bfd54934a91ed2bc141aabf23fe509a6b892c7
+683238e82a0230eee9eb0c221a44c71a44b01149,Fix disabled CupertinoTextField style (#32974),SimonIT,https://api.github.com/repos/flutter/flutter/git/commits/683238e82a0230eee9eb0c221a44c71a44b01149
+c4f5f42a0aa927bcaec3e294fa0d32e8b3cab06a, updated tearDownAll function (#28808),a-deeb,https://api.github.com/repos/flutter/flutter/git/commits/c4f5f42a0aa927bcaec3e294fa0d32e8b3cab06a
+9474a9f3960d577e11cc0ac7e0d3c4ed04644bcc,Remove ios_add2app Pods directory and add to gitignore (#33772),jmagman,https://api.github.com/repos/flutter/flutter/git/commits/9474a9f3960d577e11cc0ac7e0d3c4ed04644bcc
+d850d69c3fa2140f3c4102764c81e42653df4fa3,"Added tool sample for PageController (#34137)
+
+* Added tool sample for PageController
+
+* Fixed text directionality bug",Nash0x7E2,https://api.github.com/repos/flutter/flutter/git/commits/d850d69c3fa2140f3c4102764c81e42653df4fa3
+60d2735e1a2a14a5a969d709af7571d972d88460,Added customizable padding for the segmented controll (#34555),vanlooverenkoen,https://api.github.com/repos/flutter/flutter/git/commits/60d2735e1a2a14a5a969d709af7571d972d88460
+91213e2ed6b2aaab14ab40e03b3ba984b9a8bab4,fixed cupertinoTextField placeholder textAlign (#33739),HaijunWei,https://api.github.com/repos/flutter/flutter/git/commits/91213e2ed6b2aaab14ab40e03b3ba984b9a8bab4
+e6f896e3366a5290f0c1740d6a112ebb26ef06b9,"Adjust defaults in docs to match new defaults in code. (#34664)
+
+(and fix grammar)
+
+See: https://github.com/flutter/flutter/pull/21826",flar,https://api.github.com/repos/flutter/flutter/git/commits/e6f896e3366a5290f0c1740d6a112ebb26ef06b9
+6cebd350f5baa24b511c3791159a9a8ea07045ae,Remove duplicate error parts (#34919),miDeb,https://api.github.com/repos/flutter/flutter/git/commits/6cebd350f5baa24b511c3791159a9a8ea07045ae
+b6349e7d9ab011d392fee753374ef2cc8d910947,Added onChanged property to TextFormField (#34932),probablykasper,https://api.github.com/repos/flutter/flutter/git/commits/b6349e7d9ab011d392fee753374ef2cc8d910947
+d780c2cff6aba4db66587d969234fb07507c6083,Fixed the LicensePage to close the page before loading the License causes an error (#34907),hizzd,https://api.github.com/repos/flutter/flutter/git/commits/d780c2cff6aba4db66587d969234fb07507c6083
+91557958833f4569f672a812e7c7539f66fa1c2e,Fix typo in main.dart templates (#35684),aldeka,https://api.github.com/repos/flutter/flutter/git/commits/91557958833f4569f672a812e7c7539f66fa1c2e
+871b58986d6d401efb8dd66af67814bf37c42cd1,"add sample code for AnimatedContainer (#35225)
+
+* add sample code for AnimatedContainer
+
+* use stateful_widget_scaffold snippet template
+
+* add sample explanation
+
+* add setState() to example assumptions for analyzer
+
+* update description
+
+* use snippet instead of sample
+
+* change sample to match assets-for-api-docs
+
+* remove constant
+
+* update AnimatedContainer sample description
+
+add indication the example is depicted by the video and animates when
+tapped
+
+* fix example formatting
+
+* make sample conform to 80 col limit
+
+* add ""implemented below"" to illustration description
+
+* formatting for readability",johnpryan,https://api.github.com/repos/flutter/flutter/git/commits/871b58986d6d401efb8dd66af67814bf37c42cd1
+3122786ad52ae33009ee696896b8ab7b0a1ae93d,"Fixed build of example code to use new binary messenger API. (#35825)
+
+Fixed build of example code to use new binary messenger API.",gaaclarke,https://api.github.com/repos/flutter/flutter/git/commits/3122786ad52ae33009ee696896b8ab7b0a1ae93d
+ef42c36ab0cdde74232e31ee895588b096ba2b0e,"Cleanup widgets/sliver_persistent_header.dart with resolution of dart-lang/sdk#31543 (#35828)
+
+* Remove extra classes.
+
+Now that https://github.com/dart-lang/sdk/issues/31543 is fixed, we
+can remove extra classes.
+
+* Add snapConfiguration to parameters for _RenderSliverFloatingPersistentHeaderForWidgets and _RenderSliverFloatingPinnedPersistentHeaderForWidgets constructors.",tarobins,https://api.github.com/repos/flutter/flutter/git/commits/ef42c36ab0cdde74232e31ee895588b096ba2b0e
+90326b6184d3ada2c5be61a9086578cacca8d9ad,[ImgBot] Optimize images (#35971),anoop-b,https://api.github.com/repos/flutter/flutter/git/commits/90326b6184d3ada2c5be61a9086578cacca8d9ad
+bec1b9a15c9455238821344dcb4bc5d6e2eca999,Optimize gesture recognizer instantiation (#35979),hey24sheep,https://api.github.com/repos/flutter/flutter/git/commits/bec1b9a15c9455238821344dcb4bc5d6e2eca999
+b2cc97013d50ad02a7e6a4e7dc2fc603807214a3,"Fix FocusTraversalPolicy makes focus lost (#34153) (#34712)
+
+FocusTraversalPolicy keep the previously visited node to avoid hysteresis. But even if the visited focus has been disposed, FocusTraversalPolicy will still use it to requestFocus, which will cause FocusManger to get an abandoned node to get the focus.",boyan01,https://api.github.com/repos/flutter/flutter/git/commits/b2cc97013d50ad02a7e6a4e7dc2fc603807214a3
+0ab7047b72836630d16eb8cbcc8c79d1b893b2e0,"Using custom exception class for network loading error (#35335)
+
+Using custom exception class for network loading error",matanshukry,https://api.github.com/repos/flutter/flutter/git/commits/0ab7047b72836630d16eb8cbcc8c79d1b893b2e0
+c60063b72ded6215c0e7cde5f68f57d1972ef389,[cupertino_icons] Add glyph references for brightness and brightness_filled (#36174),epiphanatic,https://api.github.com/repos/flutter/flutter/git/commits/c60063b72ded6215c0e7cde5f68f57d1972ef389
+dd51afd16194b35a49273b4537f1ab750da37480,Added Driver API that waits until frame sync. (#36334),adazh,https://api.github.com/repos/flutter/flutter/git/commits/dd51afd16194b35a49273b4537f1ab750da37480
+dfc636bdd41b28bb54f9571410bd33107de2b51f,doc : ReorderableListView - added youtube video from WidgetOfTheWeek series (#36421),daadu,https://api.github.com/repos/flutter/flutter/git/commits/dfc636bdd41b28bb54f9571410bd33107de2b51f
+e08538c38f3d4f28c20139c91f1aef778503698f,Update visual style of CupertinoSwitch to match iOS 13 (#36087),brandondiamond,https://api.github.com/repos/flutter/flutter/git/commits/e08538c38f3d4f28c20139c91f1aef778503698f
+4de9b4461b7058940aa06a2a52559424d9ffa304,"Parameterize CoverageCollector with a library name predicate (#36774)
+
+An optimization to the coverage collection speed was added in #30811. This commit further expands on it to parameterize the CoverageCollector with a custom predicate, allowing internal use cases to filter the RPC calls to the Dart VM based on scripts of interest to coverage collection.",jiahaog,https://api.github.com/repos/flutter/flutter/git/commits/4de9b4461b7058940aa06a2a52559424d9ffa304
+63992e4fde7f43c786e726449d4f3026d523352c,"Add PopupMenuTheme to enable theming color, shape, elevation, text style of Menu (#36088)
+
+* [Menu] Create Menu theme
+
+* [Menu] Create Menu theme
+
+* [Menu] Formatting changes for Menu theme
+
+* [Menu] Fix spacing difference in theme_data.dart.
+
+* [Menu] Fix spacing difference in theme_data.dart.
+
+* Specifying types
+
+* Formatting changes
+
+* Address PR feedback
+
+* Formatting changes
+
+* Address PR feedback
+
+* Add inherited widget
+
+* Add inherited widget
+
+* Address PR feedback and add inherited widget.
+
+* Formatting changes.
+
+* Address PR feedback
+
+* Address PR feedback
+
+* Address PR feedback
+
+* Address PR feedback",lisa-liao,https://api.github.com/repos/flutter/flutter/git/commits/63992e4fde7f43c786e726449d4f3026d523352c
+38fdf56c160d5ce3bd6eeca1dcb91b5059fbfaad,"Fix slider preferred height (#36028)
+
+[Material] Fix slider preferred height",brettmeemo,https://api.github.com/repos/flutter/flutter/git/commits/38fdf56c160d5ce3bd6eeca1dcb91b5059fbfaad
+24a128943da6058b8942eca52a127b8407185823,Made a few grammatical changes (#29489),mikeshatch,https://api.github.com/repos/flutter/flutter/git/commits/24a128943da6058b8942eca52a127b8407185823
+9f0831624ae3b4d05a492b54621a37cf7885f796,"Add searchFieldLabel to SearchDelegate in order to show a custom hint (#36409)
+
+* Add searchFieldLabel to SearchDelegate in order to show a custom hint label.
+
+* Add support for specifying textInputAction and keyboardType in SearchDelegate",knaeckeKami,https://api.github.com/repos/flutter/flutter/git/commits/9f0831624ae3b4d05a492b54621a37cf7885f796
+7244cbb9b2baba44606c05ce0a5b63ac630f22c4,add line-length to flutter format commandline (#36679),mhadaily,https://api.github.com/repos/flutter/flutter/git/commits/7244cbb9b2baba44606c05ce0a5b63ac630f22c4
+ced207836bfeb1538b4e41eb573af2cf192d1f8c,"Improve Windows build failure message (#36845)
+
+* Improve Windows build failure message
+
+* Undo dartfmt to match source formatting
+
+* Removed prompt to file new issue per PR change request",GroovinChip,https://api.github.com/repos/flutter/flutter/git/commits/ced207836bfeb1538b4e41eb573af2cf192d1f8c
+7c27142e5861e4bdf28c22e72327ddccec9746da,"Upstream web support for IterableProperty<double> (#37515)
+
+* Upstream web support for IterableProperty<double>",ferhatb,https://api.github.com/repos/flutter/flutter/git/commits/7c27142e5861e4bdf28c22e72327ddccec9746da
+107f36548aec1bd278823d1ac97b3fc7e148810a,Closes #37593 Add flutter_export_environment.sh to gitignore (#37595),walsha2,https://api.github.com/repos/flutter/flutter/git/commits/107f36548aec1bd278823d1ac97b3fc7e148810a
+626ca086d0245143d35ecebb2bc544ec7db45748,Recommend to use the final version of CDN support for the CocoaPods trunk specs repo (#36237),masashi-sutou,https://api.github.com/repos/flutter/flutter/git/commits/626ca086d0245143d35ecebb2bc544ec7db45748
+20ecae0e922cdd4c9860862c2f4a770208fe9b48,Fix markdown link format (#37715),domesticmouse,https://api.github.com/repos/flutter/flutter/git/commits/20ecae0e922cdd4c9860862c2f4a770208fe9b48
+526339b63a1f026e6f28615d776ec7561cf0f6eb,Avoid killing Flutter tool process (#37471) (#37500),davidmartos96,https://api.github.com/repos/flutter/flutter/git/commits/526339b63a1f026e6f28615d776ec7561cf0f6eb
+066738324ea3b2d010dce27d63437742b190cda3,"Add smoke tests to test every commit on a Catalina host. (#38567)
+
+* Add a smoke test to test every commit on a Catalina host.
+* Also add a hot-reload test.
+
+Related issue: #36290.",digiter,https://api.github.com/repos/flutter/flutter/git/commits/066738324ea3b2d010dce27d63437742b190cda3
+ed88d28d52acb2fbadf3ad7a1c01a35a1b53b45f,use common emulator/device list (#38296),ireinhart,https://api.github.com/repos/flutter/flutter/git/commits/ed88d28d52acb2fbadf3ad7a1c01a35a1b53b45f
+267b858561dc84df286a1b391a0fa7ac15cb1d5c,Disable xcode indexing in CI via COMPILER_INDEX_STORE_ENABLE=NO argument (#37378),andrijasinski,https://api.github.com/repos/flutter/flutter/git/commits/267b858561dc84df286a1b391a0fa7ac15cb1d5c
+c2e2f093ec6c4ea93c822d330051608f1cb502c8,"Navigator change backup (#38494)
+
+* Broadcasting popRoute and pushRoute methods via SystemChannels.navigation. These messages will be used in flutter_web to detect the route
+
+* Broadcasting popRoute and pushRoute methods via SystemChannels.navigation. These messages will be used in flutter_web to detect the route
+
+* Reverting all unrelated formatting changes.
+
+* Adding unit tests. Adding more comments.
+
+* Changing string method names with constant strings.
+
+* Fixing a constant strings.
+
+* Fixing analyzer error.
+
+* Fixing more white space.
+
+* Changing the method names. Adding comments to the SystemChannels
+
+* Comment and code name fixes
+
+* replacing the comment with reviewer suggestion.
+
+* addinf systemchannels.navigation mock to test bindings
+
+* Adding a new class for sending route change notrifications. The nottifications are only sent on web. This should fix breaking android/ios
+
+* using new class RouteNotificationMessages in navigator
+
+* Fixing analyzer issues.
+
+* fixing cycle dependency
+
+* fixing github analyze error
+
+* dartfmt two new classes. trying to fix anayze errors
+
+* Update route_notification_messages.dart
+
+* trying to fix white space errors",nturgut,https://api.github.com/repos/flutter/flutter/git/commits/c2e2f093ec6c4ea93c822d330051608f1cb502c8
+1a5e4a5d7f636e8f102a31ff0d558f9145453c9b,"Adds the arrowColor option to UserAccountsDrawerHeader (#38608) (#38636)
+
+Changes a hard-coded value to a controllable parameter.",feinstein,https://api.github.com/repos/flutter/flutter/git/commits/1a5e4a5d7f636e8f102a31ff0d558f9145453c9b
+4277f364ff5a66a92d868e50a48f8f1a073d24ce,flutter_tools/version: git log.showSignature=false (#38576),interruptinuse,https://api.github.com/repos/flutter/flutter/git/commits/4277f364ff5a66a92d868e50a48f8f1a073d24ce
+bf097eec871e6aebf7d1fb8d310a2ce379adbd72,Fix DragTarget not being rebuilt when a rejected Draggable enters #38786 (#38789),nigel-gott,https://api.github.com/repos/flutter/flutter/git/commits/bf097eec871e6aebf7d1fb8d310a2ce379adbd72
+8a258dca4800cc11ced3b0c30e7e8b850901fce6,"echo error messages to stderr (#37845)
+
+Otherwise the error messages would be executed as code when the output
+is supposed to be sourced, e.g. $(flutter bash-completion)",ryenus,https://api.github.com/repos/flutter/flutter/git/commits/8a258dca4800cc11ced3b0c30e7e8b850901fce6
+19cdb21cb67acf51fb9b4e4e7a367d0bcd82fc7b,Added backgroundColor property to CupertinoTimePicker and CupertinoDatePicker. #34741 (#39056),venkata-ramana,https://api.github.com/repos/flutter/flutter/git/commits/19cdb21cb67acf51fb9b4e4e7a367d0bcd82fc7b
+aff16348e747faaaeb47309c528813eaf5a71a49,Adding header rule to FB hosting for API docs. (#39345),RedBrogdon,https://api.github.com/repos/flutter/flutter/git/commits/aff16348e747faaaeb47309c528813eaf5a71a49
+18293802bd9516fd6e3474e002c646395d1d093a,"Update README.md (#39448)
+
+fix type: bin/tests -> bin/tasks",keyonghan,https://api.github.com/repos/flutter/flutter/git/commits/18293802bd9516fd6e3474e002c646395d1d093a
+8601bb7b38e708e3706a68dcbd764790bfbf189d,Add showAboutDialog sample (#39299),WalidEll,https://api.github.com/repos/flutter/flutter/git/commits/8601bb7b38e708e3706a68dcbd764790bfbf189d
+4c254e5e8afb51c2e2da4775b90e838a600b7fe6,Updates to debugFillProperties to test all properties in slider.dart and slider_test.dart (#39632),sladecapasso,https://api.github.com/repos/flutter/flutter/git/commits/4c254e5e8afb51c2e2da4775b90e838a600b7fe6
+77f71ef48f5d1c7c50774dc862e0688d052cc82f,Center action icons of swipe to dismiss example (#39670),shouichi,https://api.github.com/repos/flutter/flutter/git/commits/77f71ef48f5d1c7c50774dc862e0688d052cc82f
+45d57e780f11bd7b7dabaadffa2223d83320b8b2,"Added properties in DropdownButtonFormField to match DropdownButton (#36998)
+
+* Added properties in DropdownFormField to match DropdownButton
+
+* Minor style guide related changes",sarbagyastha,https://api.github.com/repos/flutter/flutter/git/commits/45d57e780f11bd7b7dabaadffa2223d83320b8b2
+423a1914f692be273817b32909e2288cafed9560,fix typo (#40048),peterdjlee,https://api.github.com/repos/flutter/flutter/git/commits/423a1914f692be273817b32909e2288cafed9560
+d4a016443b3a82649dfd5d924adb98a01053e098,Adding onEnd callback to implicit animated widgets (#38979),RobinJespersen,https://api.github.com/repos/flutter/flutter/git/commits/d4a016443b3a82649dfd5d924adb98a01053e098
+964dc1fc30789d3fd2ff40ef810dffde41e27add,Add fullscreenDialog argument in PageRouteBuilder (#40161),imzyy,https://api.github.com/repos/flutter/flutter/git/commits/964dc1fc30789d3fd2ff40ef810dffde41e27add
+034358e341fd9be5f172b6c10975d1be47836a5d,"Prevent PointerEnter[or Exit]Event from erasing event.down value (#40637) (#41332)
+
+* MouseRegion documentation claimed that onEnter and onExit
+  would track entry and exit regardless of whether the pointer was
+  down or up
+* It did such, but when grabbing the value of `event.down` from
+  the passed event, the value was always `false`
+* PointerEnterEvent and PointerExitEvent were overriding the value
+  passed from PointerEvent in constructors, even if the value was true
+  e.g. in invocations of .fromMouseEvent((PointerMoveEvent...))
+* This change now passes the value along to PointerEnter/ExitEvents
+  while providing it a default of false, and updates documentation
+
+Fixes #40637",kristini-ho,https://api.github.com/repos/flutter/flutter/git/commits/034358e341fd9be5f172b6c10975d1be47836a5d
+d122f0995907c44856541be10a86b8e702f1022d,"Fix the ThemeData.copyWith toggleButtonsTheme argument type (#40994)
+
+* set the copyWith toggleButtonsTheme argument type to ToggleButtonsThemeData
+
+* add a ThemeData.copyWith test",rxlabz,https://api.github.com/repos/flutter/flutter/git/commits/d122f0995907c44856541be10a86b8e702f1022d
+94993055f2a8480a73b67736b107a8ad0b1360e5,track unused inputs in build_runner (#41610),jakemac53,https://api.github.com/repos/flutter/flutter/git/commits/94993055f2a8480a73b67736b107a8ad0b1360e5
+f8310d89e8f808bc662502d16ebabbe075697d9e,Use EdgeInsetsGeometry instead of EdgeInsets (#40775),orischwartz,https://api.github.com/repos/flutter/flutter/git/commits/f8310d89e8f808bc662502d16ebabbe075697d9e
+8b9e144e6a1ec9623ee3d099504d99374b199852,Added notice to docs that setPreferredOrientations does not always work on iPad (#40743),josh-ksr,https://api.github.com/repos/flutter/flutter/git/commits/8b9e144e6a1ec9623ee3d099504d99374b199852
+b730a993c1e6dd2774b270fb2e0253a26e69cf39,Fix CupertinoTextField and TextField ToolbarOptions not changing (#40665),rodydavis,https://api.github.com/repos/flutter/flutter/git/commits/b730a993c1e6dd2774b270fb2e0253a26e69cf39
+0ddcd70ca1854caeb15107eeb4526124e05d0015,"Add helperMaxLines to InputDecoration and InputDecorationTheme (#39433)
+
+Similar to errorMaxLines",letsar,https://api.github.com/repos/flutter/flutter/git/commits/0ddcd70ca1854caeb15107eeb4526124e05d0015
+e3195c26292fb649147d1d2447ceeda7d6153191,Fixed media query issues and added test to prevent it from coming back (#41803),Kavantix,https://api.github.com/repos/flutter/flutter/git/commits/e3195c26292fb649147d1d2447ceeda7d6153191
+9b29e830ca3668ba960ebc66e5501fea1b106b86,Fix documentation for the required argument (#41675),kumabotz,https://api.github.com/repos/flutter/flutter/git/commits/9b29e830ca3668ba960ebc66e5501fea1b106b86
+ff15a39c07b8d96901d3036e9039f0b111bf727e,[BUG] Process all children of intent-filter instead of just the first one to identify default activity (#40029),SscSPs,https://api.github.com/repos/flutter/flutter/git/commits/ff15a39c07b8d96901d3036e9039f0b111bf727e
+6b4a10ae533373c5b7ce8cf1dd18cf3a78fdb8ec,"PlatformView: recreate surface if the controller changes (#40280)
+
+Currently the surface of a platform view is only created only one when the state of PlatformViewLink is created. When the PlatformViewLink widget changes, the PlatformViewController in the corresponding state is also updated. Just the surface is not updated even though it depends on the controller.
+
+This PR changes this behavior to recreate the surface whenever the controller is updated.",tauu,https://api.github.com/repos/flutter/flutter/git/commits/6b4a10ae533373c5b7ce8cf1dd18cf3a78fdb8ec
+19899db2234af00bacfca263b628f50dd562a520,"Default colorScheme data in ButtonThemeData (Fix for #38655) (#39627)
+
+* Set default colorScheme for ButtonThemeData",keshava19,https://api.github.com/repos/flutter/flutter/git/commits/19899db2234af00bacfca263b628f50dd562a520
+8cc9a53ee33a5fd25c22b7034ac402a1f6d83e35,Improve routers performance (#42526),LehaIvanov,https://api.github.com/repos/flutter/flutter/git/commits/8cc9a53ee33a5fd25c22b7034ac402a1f6d83e35
+dd43da71febaafc58852000a61a6bc1ac4fb57ef,"Add isDismissible configuration for showModalBottomSheet (#42404)
+
+* Allow showModalBottomSheet to present bottom sheet that is not dismissible by tapping on the scrim
+
+* Add guards, improve styling and tests for BottomSheet",tjonganthony,https://api.github.com/repos/flutter/flutter/git/commits/dd43da71febaafc58852000a61a6bc1ac4fb57ef
+1ea6a38fa7c50e6c8a042ee23e8bd4cf4333c7f0,Adding thumb color customisation functionality to CupertinoSlider (#42563),luizfranca,https://api.github.com/repos/flutter/flutter/git/commits/1ea6a38fa7c50e6c8a042ee23e8bd4cf4333c7f0
+1faf6a9a890749220cb9e33669781fa058e7ae06,create gesture recognizers on attach and dispose on detach to avoid leaks (#42076),jaumard,https://api.github.com/repos/flutter/flutter/git/commits/1faf6a9a890749220cb9e33669781fa058e7ae06
+12b7b08da55d764ee1f078cb401990f36d626144,"Reading deviceId for RawKeyEventDataAndroid event (#42235)
+
+This PR adds a new property on RawKeyEventDataAndroid to hold the deviceId from which that event was generated. The deviceId is been sent from the engine on the changes from this PR: flutter/engine#12958
+
+With this, we will be able to identify from where the event came from, adding the ability to support local multiplayer games, with multiple gamepads.",erickzanardo,https://api.github.com/repos/flutter/flutter/git/commits/12b7b08da55d764ee1f078cb401990f36d626144
+b6c865ff9c98b4297b0f9e4de9a70c4302e157da,Fix typo (#42922),adityaas26,https://api.github.com/repos/flutter/flutter/git/commits/b6c865ff9c98b4297b0f9e4de9a70c4302e157da
+35adf72c7f6cf0e1d1afe2b367afca451e2025ff,Add `smallestScreenSize` to `android:configChanges` in the Android manifest template (#43245),Inconnu08,https://api.github.com/repos/flutter/flutter/git/commits/35adf72c7f6cf0e1d1afe2b367afca451e2025ff
+320a933d9e238e1f47ab5509899c5f4bdc2f3124,"Fix chip ripple bug — No longer two ripples (#42779)
+
+* Fixed chip ripple.
+
+* Fixed chip ripple. All tests passed.
+
+* Fix one minor detail.
+
+* Fixed reference box.
+
+* Playing around 2.
+
+* Added tests for chip ripple.
+
+* Reverting print-debugging statements
+
+* Remove extra blank line.
+
+* Fixed chip ripple.
+
+* Remove commented code.
+
+* Reconciles with upstream/master.
+
+* Remove print-debugging statement.
+
+* Remove empty line.
+
+* Edit comments.
+
+* Edit style and comments.
+
+* Edit style.
+
+* Fix style and capitalization.
+
+* Return bool.
+
+* Edit style.
+
+* Use getMaterialBox instead of Material.of(...).
+
+* Experiment 3.
+
+* Revert.
+
+* Using tester.pump instead of pumpFrames
+
+* Delete pumpFrames.
+
+* Edit comments.",pennzht,https://api.github.com/repos/flutter/flutter/git/commits/320a933d9e238e1f47ab5509899c5f4bdc2f3124
+588275e179379c957c4b7acf5cea1d2d1f2d6ce0,"[Chip] Make sure InkResponse is in the foreground on delete for chips with background color (#41463)
+
+* Make sure InkResponse is visible on delete for chips with background color set
+
+* Override computeDistanceToActualBaseline in layout builder",perclasson,https://api.github.com/repos/flutter/flutter/git/commits/588275e179379c957c4b7acf5cea1d2d1f2d6ce0
+4c2c17986a22782961c4669a1b62876b7483a1f1,CupertinoDialogAction is missing super call (#42924),Boehrsi,https://api.github.com/repos/flutter/flutter/git/commits/4c2c17986a22782961c4669a1b62876b7483a1f1
+2b272f815105d5805b94622271df0bcfa82aef6e,"Indent Kotlin code with 4 spaces (#43080)
+
+As stated in Kotlin Coding Conventions. Closes #42212",agordeev,https://api.github.com/repos/flutter/flutter/git/commits/2b272f815105d5805b94622271df0bcfa82aef6e
+e458fd08d99df663bcb32898588bcd3a34cc199a,"Add repeatCount to RawKeyEventDataAndroid (#42861)
+
+* Add repeatCount to RawKeyEventDataAndroid
+
+Adds a new field to RawKeyEventDataAndroid and sets it to the value
+passed from the engine. It is the value returned by
+KeyEvent.getRepeatCount(). This allows us to differentiate between
+events generated by a new keypress and repeated events when a key is
+held down.
+
+* Add test for RawKeyEventDataAndroid.repeatCount",jfedor2,https://api.github.com/repos/flutter/flutter/git/commits/e458fd08d99df663bcb32898588bcd3a34cc199a
+db041de63d1c22c457838bf1f3a95c3a411d9d99,"Detecting when installing over MingW's Git Bash, fixing paths (#39699)",jeffque,https://api.github.com/repos/flutter/flutter/git/commits/db041de63d1c22c457838bf1f3a95c3a411d9d99
+28a214ba8aa9604174eabfe4af3b2a93730abae2,"Add onLongPress to Buttons (#40641)
+
+* Add onLongPress to Buttons.
+
+* Button enabled status will now respond to onLongPress",bernaferrari,https://api.github.com/repos/flutter/flutter/git/commits/28a214ba8aa9604174eabfe4af3b2a93730abae2
+0dc5ea4a950ed2215befd1d924f16bcd5589927d,Added a null check for ranges in the sourceReport map. (#43667),lmckenzie,https://api.github.com/repos/flutter/flutter/git/commits/0dc5ea4a950ed2215befd1d924f16bcd5589927d
+7cf362fc31354429c805ab084b5027c5c1f3c842,"Handle onError callback with optional argument (#43436)
+
+Check for a binary callback first since a function with an optional
+second argument will match both typedefs.
+
+Remove documentation around a synchronous error following some other
+error or value - a synchronous error can never follow a value or an
+asynchronous error. If there is a synchronous error it will _always_ be
+the first thing to happen.
+
+Add a test for a unary error handler and an error handler with an
+optional stack trace argument.",natebosch,https://api.github.com/repos/flutter/flutter/git/commits/7cf362fc31354429c805ab084b5027c5c1f3c842
+fbabb264e0ab3e090d6ec056e0744aaeb1586735,"Add enableFeedback param to MaterialButton, RawMaterialButton and IconButton (#41972)
+
+* Wire enableFeedback parameter through MaterialButton, RawMaterialButton, and IconButton.
+
+Co-Authored-By: Shi-Hao Hong <shihaohong@google.com>",NikitaZhelonkin,https://api.github.com/repos/flutter/flutter/git/commits/fbabb264e0ab3e090d6ec056e0744aaeb1586735
+0431c8a64d5aa724e004e4bb50486f53b802e4f8,"Typo in TextFormField comments (#44076)
+
+initalValue should be initialValue",thallessantos,https://api.github.com/repos/flutter/flutter/git/commits/0431c8a64d5aa724e004e4bb50486f53b802e4f8
+d96afee8880e3028d4d7d667b349462e14d9045e,Fix comment typo in tabs.dart (#44068),umevoshi,https://api.github.com/repos/flutter/flutter/git/commits/d96afee8880e3028d4d7d667b349462e14d9045e
+9492dcc7cc5ec9fb5b956f3f3bb9469c12d0ddbe,"Update create.dart (#43764)
+
+Changed the placements of the operands to make it more readable.",afzaal-ahmad-zeeshan,https://api.github.com/repos/flutter/flutter/git/commits/9492dcc7cc5ec9fb5b956f3f3bb9469c12d0ddbe
+924ab725d9f9c7beb12cd0860de9e17f8df8e60e,Fix AboutListTile having an empty icon placeholder when no icon set. (#43422),fourman-alex,https://api.github.com/repos/flutter/flutter/git/commits/924ab725d9f9c7beb12cd0860de9e17f8df8e60e
+5506cc5b151c1e30905be5be58b1fcf6c9ea5bf9,Remove no longer needed clean up code (#44408),CaseyHillers,https://api.github.com/repos/flutter/flutter/git/commits/5506cc5b151c1e30905be5be58b1fcf6c9ea5bf9
+5c15b270b32cac1c3d4fd358a3a95a1e211f56f8,Remove duplicated expect from text field test (#45081),pr0gramista,https://api.github.com/repos/flutter/flutter/git/commits/5c15b270b32cac1c3d4fd358a3a95a1e211f56f8
+60c7cc25e97950feaccc64a41fbaf15f57d0da3d,Fix typo in README.md (#43173),3mini,https://api.github.com/repos/flutter/flutter/git/commits/60c7cc25e97950feaccc64a41fbaf15f57d0da3d
+384a44d6bdce88d5bbd63fbcccc29ee8dc32f0ba,update docs (#32545),jamesgeorge007,https://api.github.com/repos/flutter/flutter/git/commits/384a44d6bdce88d5bbd63fbcccc29ee8dc32f0ba
+a3eeb51a1bf3ab421b6698f5dcd40b2e4797cfd4,Fix draggable scrollable sheet scroll notification (#45083),itome,https://api.github.com/repos/flutter/flutter/git/commits/a3eeb51a1bf3ab421b6698f5dcd40b2e4797cfd4
+4c4cdbfc2b6e8b28bd0d80ddb051e859c0611646,"Move dartdocs to devicelab vm. (#45952)
+
+We added support linux VMs to devicelab and we will be moving some of
+the machine independent benchmarks there.",godofredoc,https://api.github.com/repos/flutter/flutter/git/commits/4c4cdbfc2b6e8b28bd0d80ddb051e859c0611646
+9d574d2c228dbc539a737826f1fddac7ab66a836,Remove canTransitionFrom override from Material/CupertinoPageRoute (#45750),Vadaski,https://api.github.com/repos/flutter/flutter/git/commits/9d574d2c228dbc539a737826f1fddac7ab66a836
+f68cdacdd5ae701de7c8e532342f91f85d5a071f,Add clip behaviour to Container (#44971),sahandevs,https://api.github.com/repos/flutter/flutter/git/commits/f68cdacdd5ae701de7c8e532342f91f85d5a071f
+50532f387a6fbd05773012919bd31ae2d8ef9420,[Driver] correct type for getWidgetDiagnostics (#45985),jacek-marchwicki,https://api.github.com/repos/flutter/flutter/git/commits/50532f387a6fbd05773012919bd31ae2d8ef9420
+417db34d352f06d3e6f0e55522e29d4190c7a9bd,Set track color in Cupertino Switch and Adaptive Switch (#45074),katallaxie,https://api.github.com/repos/flutter/flutter/git/commits/417db34d352f06d3e6f0e55522e29d4190c7a9bd
+237c478683b418b2c4185e712e6016b9407f28ba,Update iOS build signing error message (#45835),amrfarid140,https://api.github.com/repos/flutter/flutter/git/commits/237c478683b418b2c4185e712e6016b9407f28ba
+4938ea03858e178541d723dff430e6c9d044e6ae,Fix typo in gradle tools exit message (#46580),wapa5pow,https://api.github.com/repos/flutter/flutter/git/commits/4938ea03858e178541d723dff430e6c9d044e6ae
+fba96809f4102fd2df4a6bf3793eb01ae76cbe05,Add enableDrag configuration for showModalBottomSheet (#46685),yuwen-yan,https://api.github.com/repos/flutter/flutter/git/commits/fba96809f4102fd2df4a6bf3793eb01ae76cbe05
+9a76b4209e990e1dbc8b42a21817592f89f8619e,Add support for getting a string representation of the LayerTree (#47014),gw280,https://api.github.com/repos/flutter/flutter/git/commits/9a76b4209e990e1dbc8b42a21817592f89f8619e
+853c8c569fcd016a64455bfb243aed58f6a66efc,[flutter_tools] Add violating plugin name to validation errors (#46601),MrAlek,https://api.github.com/repos/flutter/flutter/git/commits/853c8c569fcd016a64455bfb243aed58f6a66efc
+0ec73510ec974f7722ad2eca6eef11fb063a1c12,Add textScaleFactor to SelectableText (#44682),KagurazakaHanabi,https://api.github.com/repos/flutter/flutter/git/commits/0ec73510ec974f7722ad2eca6eef11fb063a1c12
+ceef460a64749a667b3607f0c1ad98ca5238a3e8,Correct name in DecorationImage error string (#47260),shyndman,https://api.github.com/repos/flutter/flutter/git/commits/ceef460a64749a667b3607f0c1ad98ca5238a3e8
+f546aa7def299764cd8378ddd44728b6c395a12c,"Fix buildCounter returns a widget when set to return null. (#45749)
+
+When buildCounter returns null it no longer produces a widget that takes up space.",AlexVincent525,https://api.github.com/repos/flutter/flutter/git/commits/f546aa7def299764cd8378ddd44728b6c395a12c
+1ef0eadb45835dc438fe0120521c01c8b055b41e,"Flutter Web Driver Support (#45951)
+
+* Support Flutter Driver test for Flutter Web application.
+
+* Support Flutter Driver test for Flutter Web application.
+
+* Fix documentation issues.
+
+* Support Flutter Driver test for Flutter Web application.
+
+* Fix documentation.
+
+* Remove unused file from dartdoc check.
+
+* Sync to date.
+
+* Revert change to dartdoc.
+
+* Address comments.
+
+* Apply suggestions from code review
+
+Co-Authored-By: Jonah Williams <jonahwilliams@google.com>
+
+* Update copyrights.
+
+* Update allowed list for browsers.
+
+* Verify command line arguments for Drive command is correctly parsed.
+
+* Make waitUntilFirstFrameRasterized throw unimplementedError for Flutter Web Driver.
+
+* Add comment for why sync WebDriver is used.
+
+* Update documentations.
+
+* Add more unit tests and update documentation.
+
+* Configure test.dart so that web_extension_test will be executed with --platform=chrome.
+
+* Revert unnecessary changes.
+
+* Add new file path for Windows to blacklist.
+
+* Reconstruct the structure of flutter_driver/test/src folder to remove filtering logic in dev/bots/test.dart/
+
+* Fix path to web_extension_test.dart.
+
+* Add instructions for how to use WebFlutterDriver.
+
+* Update getLayerTree to use sendCommand instead of _sendCommand.
+
+* Update pubspec files.",angjieli,https://api.github.com/repos/flutter/flutter/git/commits/1ef0eadb45835dc438fe0120521c01c8b055b41e
+b39ebcb55f7f66915c0c3b85050d14f75f5c5470,"Fix CupertinoContextMenuAction color behavior (#47151)
+
+""destructive"" color wasn't working for ContextMenuAction, this PR fixes it.",KalilDev,https://api.github.com/repos/flutter/flutter/git/commits/b39ebcb55f7f66915c0c3b85050d14f75f5c5470
+0265cb68499f91488eb38924184ff0eccb538f54,"Make tab's icon margin configurable (Fix #47363) (#47364)
+
+Adds the `iconMargin` parameter to Tab",chen-yumin,https://api.github.com/repos/flutter/flutter/git/commits/0265cb68499f91488eb38924184ff0eccb538f54
+1fe05983e6e4f8886022eeee18a15c4a1456379f,"Fix typos in DefaultTabController.of documentation (#46907)
+
+Fix error in `DefaultTabController.of` documentation
+
+Co-authored-by: Shi-Hao Hong <shihaohong@google.com>",ThinkDigitalSoftware,https://api.github.com/repos/flutter/flutter/git/commits/1fe05983e6e4f8886022eeee18a15c4a1456379f
+e43fd1c54d7b855b7e2065c4a2e135f75421af23,"fix duration event of timeline summary (#47742)
+
+* fix duration event of timeline summary
+
+* Revert ""fix duration event of timeline summary""
+
+This reverts commit 699aa45ed3d115f8bbea95cf6d37116b442db399.
+
+* fix duration event of timeline summary",yuanhuihui,https://api.github.com/repos/flutter/flutter/git/commits/e43fd1c54d7b855b7e2065c4a2e135f75421af23
+c86517c0bbc2388c99b226e4b724850ffd087d04,[issue 7293] add test for rettangle box decoration with boarder radius (#47915),wise86-android,https://api.github.com/repos/flutter/flutter/git/commits/c86517c0bbc2388c99b226e4b724850ffd087d04
+f65f7f0118361654038f59d1e4885f0b3e46e8da,Change video_demo slightly so it works on web. (#46719),ditman,https://api.github.com/repos/flutter/flutter/git/commits/f65f7f0118361654038f59d1e4885f0b3e46e8da
+0384c8c482688407f8125a84af27f7f6fe34a650,"Flexible padding (header height) for expanded panels (#47951)
+
+* Added property for expanded padding of expansion panel for solving #24071
+
+* #24071: Renamed default const name for being more descriptive
+
+* #24071: Improved comment of property expandedPadding
+
+* #24071: Improved test by expanding the expansion panel by header tap + precise assertion
+
+* #24071: Renamed property to be more descriptive
+
+* #24071: Adjusted property comment and added missing trailing commas
+
+* #24071: Improved test by checking real exact header size
+
+* #24071: Added test for default header padding
+
+* #24071: Improved comment of expandedHeaderPadding + code style adjustments
+
+* #24071: Added missing trailing comma",SkydiveMarius,https://api.github.com/repos/flutter/flutter/git/commits/0384c8c482688407f8125a84af27f7f6fe34a650
+4e6d649f14dbfde94070bb5822a126bed058c768,Add optional `endian` argument for WriteBuffer/ReadBuffer (#46661),Sunbreak,https://api.github.com/repos/flutter/flutter/git/commits/4e6d649f14dbfde94070bb5822a126bed058c768
+a8c5f4e8c436d268aee77e3924e8d3153d78e32b,Add missing indentation to assets-images example (#45833),gerritwh,https://api.github.com/repos/flutter/flutter/git/commits/a8c5f4e8c436d268aee77e3924e8d3153d78e32b
+c90b1182472481091709bdca5b836d1e2d023c5b,Add padEnds option to SliverFillViewport (#48207),mayabyte,https://api.github.com/repos/flutter/flutter/git/commits/c90b1182472481091709bdca5b836d1e2d023c5b
+8b6b3b62c17e1d9ae0b7d3cc1cffee38209cee23,Passes scrollPhysics (#48342),mannprerak2,https://api.github.com/repos/flutter/flutter/git/commits/8b6b3b62c17e1d9ae0b7d3cc1cffee38209cee23
+6408f71a7ca412f7a8e38ccb2bc38498156fc536,[Flutter Driver] Extend getText to support more widgets (#48809),Xavjer,https://api.github.com/repos/flutter/flutter/git/commits/6408f71a7ca412f7a8e38ccb2bc38498156fc536
+4c1d79f42f7e2f0cea6b17cbb5ac9a03687fd96c,"Update assert message for AnimatedContainer (#48962)
+
+The error message was misleading because BoxDecoration does not have a `backgroundColor` parameter. Instead it has a `color` parameter, which sets the background color. I also removed the optional `new` keyword.",suragch,https://api.github.com/repos/flutter/flutter/git/commits/4c1d79f42f7e2f0cea6b17cbb5ac9a03687fd96c
+b5a23fdf5bc01e292238627f031a34ed0adb80b0,Fix comment typo (#49129),zhongwuzw,https://api.github.com/repos/flutter/flutter/git/commits/b5a23fdf5bc01e292238627f031a34ed0adb80b0
+379c3f4652b6190b552b95fb5ac2dab4306ede32,Fix the issue of TextSelection could misbehave inside a Nested Overlay (#49257),shihchanghsiungsonos,https://api.github.com/repos/flutter/flutter/git/commits/379c3f4652b6190b552b95fb5ac2dab4306ede32
+0fffa510fd407ea274dfa857e21a1f77d76c9cf4,Add very large text scale support for time picker (#48837),guidezpl,https://api.github.com/repos/flutter/flutter/git/commits/0fffa510fd407ea274dfa857e21a1f77d76c9cf4
+52c665d23fcf44b4dc2236448833ef8e47d3d92c,"Revert ""Do not rebuild Routes when a new opaque Route is pushed on top (#48900)"" (#49366)
+
+This reverts commit 8eecdbe823ea09dd723a8af34c7c275e5536d728.",bparrishMines,https://api.github.com/repos/flutter/flutter/git/commits/52c665d23fcf44b4dc2236448833ef8e47d3d92c
+3ae0345e721387fe1fb258891ee6a7d7352d13fd,"[bugfix] SliverGeometry is not valid: The ""layoutExtent"" is negative (#48947)",luckybilly,https://api.github.com/repos/flutter/flutter/git/commits/3ae0345e721387fe1fb258891ee6a7d7352d13fd
+73275f08155aeca9d4719bf685499957091a7a09,"Change reference to current class when setting the MethodChannel (#48806)
+
+* Change reference to current class when setting the MethodChannel
+
+* Added reference to MethodChannel and detach it from the engine",Vanethos,https://api.github.com/repos/flutter/flutter/git/commits/73275f08155aeca9d4719bf685499957091a7a09
+cf86592c232069cc83819e43702770a05f18244b,Run secondary animation of previous route when using pushReplacement(… (#42100),joellurcook,https://api.github.com/repos/flutter/flutter/git/commits/cf86592c232069cc83819e43702770a05f18244b
+f9908f54368b43150da924c458ccadb39326d94c,Address extra `FutureOr` from _isolates_io.dart. (#49043),lrhn,https://api.github.com/repos/flutter/flutter/git/commits/f9908f54368b43150da924c458ccadb39326d94c
+1b4d321b34499bd44def9d3fa36646775b57a36d,"Fix Flutter tool to use correct adb parameter and collect Realtime value. (#49701)
+
+* Fix parameter to adb to be _package.id instead of package._launchActivity.",terrylucas,https://api.github.com/repos/flutter/flutter/git/commits/1b4d321b34499bd44def9d3fa36646775b57a36d
+9375377fa99e8faae8a573e9fe92b8712d33e82d,"Fix handling backspace on macos with text selection (#49760)
+
+Fixes #46150 by catching both the delete and backspace keys, rather than just the delete key.",mtcliatt,https://api.github.com/repos/flutter/flutter/git/commits/9375377fa99e8faae8a573e9fe92b8712d33e82d
+51d5b1a2d56e823a59b0db355a5d88de03aeab40,Use the default find if possible else fall back (#47522),liuchong,https://api.github.com/repos/flutter/flutter/git/commits/51d5b1a2d56e823a59b0db355a5d88de03aeab40
+0be9127dfd934b8fe4bb363ea47d895d1e9830f9,add preserveHeaderCase for classes extends HttpHeaders (#49766),ZichangG,https://api.github.com/repos/flutter/flutter/git/commits/0be9127dfd934b8fe4bb363ea47d895d1e9830f9
+275ec45ec49f31f08b4a43f1dbf66e205e411359,fix material selection handle paint with transparent textSelectionHandleColor  (#49830),2ZeroSix,https://api.github.com/repos/flutter/flutter/git/commits/275ec45ec49f31f08b4a43f1dbf66e205e411359
+306c23fd36cd38b3f4b34b3d989eda3dd99d1aef,[web] Fix typo apple-mobile-web-app-status-bar-style (#49894),Zazo032,https://api.github.com/repos/flutter/flutter/git/commits/306c23fd36cd38b3f4b34b3d989eda3dd99d1aef
+a4093edbcff262a620e8ce7265597d431c0a9f57,Fix Path Separator in Service Workers (#50154),mehmetoguzderin,https://api.github.com/repos/flutter/flutter/git/commits/a4093edbcff262a620e8ce7265597d431c0a9f57
+149e06232b1b1964b2b41e86c1adb66a21febb93,"Add option to clear the terminal by pressing ""c"" (#50034)",Levi-Lesches,https://api.github.com/repos/flutter/flutter/git/commits/149e06232b1b1964b2b41e86c1adb66a21febb93
+f8b286dce071c85201f33ef63bf1f0688a02ec97,Updated documentation for CupertinoPicker (#50264),YizhePKU,https://api.github.com/repos/flutter/flutter/git/commits/f8b286dce071c85201f33ef63bf1f0688a02ec97
+801a6a7e5e2c16525d3c2856a43ed34b5ff536a3,Fix SnackBar clipping when it is floating due to FloatingActionButton positioning (#47616),filaps,https://api.github.com/repos/flutter/flutter/git/commits/801a6a7e5e2c16525d3c2856a43ed34b5ff536a3
+fd1062debd531ae1815e0b2deb647e4e260af7bf,Exposed optional scrollController property in ReorderableListView (#49148),exts,https://api.github.com/repos/flutter/flutter/git/commits/fd1062debd531ae1815e0b2deb647e4e260af7bf
+4c1045c0f88ddf16541c5a60ec5c5895f9553a41,Fixed preferredSize getter in TabBar (#41299),AnthonyMansour,https://api.github.com/repos/flutter/flutter/git/commits/4c1045c0f88ddf16541c5a60ec5c5895f9553a41
+d3e1e29375ac0ce14bc4a47fd6a136b484f2a7a0,SimpleDialogOption: support custom padding (#50035),arthurdenner,https://api.github.com/repos/flutter/flutter/git/commits/d3e1e29375ac0ce14bc4a47fd6a136b484f2a7a0
+7f819c935be9d8bedbdb92a4e1fdcadd63e7b17f,Update cupertino_icons dependency version in pubspec.yaml template (#50479),prasadsunny1,https://api.github.com/repos/flutter/flutter/git/commits/7f819c935be9d8bedbdb92a4e1fdcadd63e7b17f
+96e42de1c862f43dc29aa489ecea9b8560c90411,Added error message for flutter_gallery transitions_perf test. (#47776),linxuebin1990,https://api.github.com/repos/flutter/flutter/git/commits/96e42de1c862f43dc29aa489ecea9b8560c90411
+d295fbb6a1216124b0abcecce220e029eadfb204,Add highContrast to FakeAccessibilityFeatures test (#48486),miquelbeltran,https://api.github.com/repos/flutter/flutter/git/commits/d295fbb6a1216124b0abcecce220e029eadfb204
+aad941e3faeeb0c267164f8bde1d4b5449b16667,"Avoid using FlutterError.fromParts when possible (#43696)
+
+This PR is a follow up of https://github.com/flutter/flutter/pull/42640
+Some changes of that PR includes redundant changes using FlutterError.fromParts constructor even though it's not necessary.
+
+Some minor changes are:
+
+- Remove one unnecessary todo
+- Fix indent consistencies",adalberht,https://api.github.com/repos/flutter/flutter/git/commits/aad941e3faeeb0c267164f8bde1d4b5449b16667
+3275adb7fbd0758afbc00a978c3460e244cf864e,"Updates test expectations for stack traces. (#51185)
+
+With --lazy-async-stacks the stack output has changed slightly so updating the expect files to match.
+
+This is a follow-up to https://github.com/flutter/flutter/pull/51047 as a preparation for the next engine roll which will start enabling --lazy-async-stacks in JIT mode.",cskau-g,https://api.github.com/repos/flutter/flutter/git/commits/3275adb7fbd0758afbc00a978c3460e244cf864e
+bf8e2c1449423a6f2e00919f8ee329f742390cd9,Fix typo in description for PointerEvent.radiusMax (#51149),ttanatb,https://api.github.com/repos/flutter/flutter/git/commits/bf8e2c1449423a6f2e00919f8ee329f742390cd9
+1d4667bb3835079276246e8695ea12b657b4493f,Fixed a  typo (#51302),aadarsh-patel,https://api.github.com/repos/flutter/flutter/git/commits/1d4667bb3835079276246e8695ea12b657b4493f
+a70e4aec93d782166f3b043fafe852e9812300a0,Material DataTable: added support of setting table row border thickness (#49692),dratushnyy,https://api.github.com/repos/flutter/flutter/git/commits/a70e4aec93d782166f3b043fafe852e9812300a0
+2243c42ebc143960ecb6fe1bd433ebabd6cb32b9,Fix flutter doctor (pluginsPath) check for Mac (#50324),c9n,https://api.github.com/repos/flutter/flutter/git/commits/2243c42ebc143960ecb6fe1bd433ebabd6cb32b9
+3551a51df48743ebd4faa91cc5e3d23db645bdce,Update flexible_space_bar.dart (#51314),kutenglaoshu,https://api.github.com/repos/flutter/flutter/git/commits/3551a51df48743ebd4faa91cc5e3d23db645bdce
+fdbd1b14ffa8dfe83d7dd46c6727f12c879a287a,fix pom file not found when run app with local engine (#51468),zsunkun,https://api.github.com/repos/flutter/flutter/git/commits/fdbd1b14ffa8dfe83d7dd46c6727f12c879a287a

@@ -1,0 +1,633 @@
+Issue Description,Assignees to the Issue,Link
+Deprecate & remove undocumented alternatives to the nodes hot threads API,,https://github.com/elastic/elasticsearch/issues/52640
+Remove support for delaying state recovery pending master nodes,,https://github.com/elastic/elasticsearch/issues/51806
+Add 'monitor_snapshot' cluster privilege,,https://github.com/elastic/elasticsearch/issues/50210
+GET _cat/nodes?local is not completely local,,https://github.com/elastic/elasticsearch/issues/50088
+Security should not reload files that haven't changed ,,https://github.com/elastic/elasticsearch/issues/50063
+Prevent illegal `max_query_terms` values in MLT query,,https://github.com/elastic/elasticsearch/issues/49927
+logs about updating IndexSetting should be more detailed,,https://github.com/elastic/elasticsearch/issues/49818
+Add standard deviation / variance sampling to extended stats aggregation,,https://github.com/elastic/elasticsearch/issues/49554
+[ML] Job message for deleted results not formatted correctly,,https://github.com/elastic/elasticsearch/issues/49549
+Rewrite queries on unmapped fields as MatchNoDocsQueryBuilder,,https://github.com/elastic/elasticsearch/issues/49254
+Java-REST-Client NodeSniffer Fails parsing publish_address properly,,https://github.com/elastic/elasticsearch/issues/48950
+Add query cache hit count and field data cache hit count to rest API ,,https://github.com/elastic/elasticsearch/issues/48645
+Pure disjunctions should rewrite to a MatchNoneQueryBuilder when all clauses are instances of MatchNoneQueryBuilder,,https://github.com/elastic/elasticsearch/issues/48475
+Refactor and DRY up Kahan Sum algorithm,,https://github.com/elastic/elasticsearch/issues/48469
+[ML] Remove ToXContentParams.INCLUDE_TYPE,,https://github.com/elastic/elasticsearch/issues/48057
+Rest only High Level APIs completeness,,https://github.com/elastic/elasticsearch/issues/47678
+Feature Request - query/fetch/scroll failure count stats,,https://github.com/elastic/elasticsearch/issues/46641
+SQL: Extend DATE_TRUNC to also operate on intervals,,https://github.com/elastic/elasticsearch/issues/46632
+high level rest client count request fails with 400 Bad Request,,https://github.com/elastic/elasticsearch/issues/46446
+HLRC: allow to run delete by query with wait_for_completion=true,,https://github.com/elastic/elasticsearch/issues/46395
+shouldStoreResult is not set correctly,,https://github.com/elastic/elasticsearch/issues/46350
+[DOCS] Link Snapshot and Restore and SLM together,,https://github.com/elastic/elasticsearch/issues/44588
+high level REST client allows for a wrong operation with scroll API,,https://github.com/elastic/elasticsearch/issues/44493
+Optimize Min and Max BKD optimizations :),,https://github.com/elastic/elasticsearch/issues/44290
+Allow adjustment of index resource constraints in ILM phase transitions,,https://github.com/elastic/elasticsearch/issues/44070
+Reindex Task ignores slices configuration in client API,,https://github.com/elastic/elasticsearch/issues/44045
+Add explanation of relocating shard state.,,https://github.com/elastic/elasticsearch/issues/43244
+Add null check for ParentJoinFieldMapper in ChildrenAggregationBuilder.joinFieldResolveConfig,,https://github.com/elastic/elasticsearch/issues/42997
+MTermVector Java High Level Client Misses Fields Property,,https://github.com/elastic/elasticsearch/issues/42232
+NullPointerException when creating a watch with Jira action,,https://github.com/elastic/elasticsearch/issues/41922
+[DOCS] Update text for chunk size,,https://github.com/elastic/elasticsearch/issues/41591
+Add best_compression back to ILM policy,,https://github.com/elastic/elasticsearch/issues/41274
+A cluster with no data nodes or indices reports YELLOW health when an index is created.,,https://github.com/elastic/elasticsearch/issues/41073
+`cluster_block_exception` should contain the read-only index name,,https://github.com/elastic/elasticsearch/issues/40870
+"Percolate query ignores ""name"" parameter",,https://github.com/elastic/elasticsearch/issues/40405
+Remove disable Xlint warning from gradle files.,,https://github.com/elastic/elasticsearch/issues/40366
+[CI] JobResultsProviderIT testMultipleSimultaneousJobCreations fails,,https://github.com/elastic/elasticsearch/issues/40134
+High level REST client parameters look wrong due indirectness and side effects,,https://github.com/elastic/elasticsearch/issues/39666
+Reset max_retries counter before executing routing commands,,https://github.com/elastic/elasticsearch/issues/39546
+"Can't create anomaly detector that uses ""_index"" as ""partition_field_name""",,https://github.com/elastic/elasticsearch/issues/39406
+Index Lifecycle Management does not have a lower bound on poll_interval,,https://github.com/elastic/elasticsearch/issues/39163
+Cannot apply settings to all indices,,https://github.com/elastic/elasticsearch/issues/38964
+Reindex can ignore op_type create when using external version,,https://github.com/elastic/elasticsearch/issues/37855
+LLRC can throw an IllegalCapacityException when selecting nodes.,,https://github.com/elastic/elasticsearch/issues/37739
+Inner_hits in should clauses override each other,,https://github.com/elastic/elasticsearch/issues/37584
+Invalid variance computed in extended_stats aggregation,,https://github.com/elastic/elasticsearch/issues/37303
+Deprecate/remove common_terms query and cutoff_frequency,,https://github.com/elastic/elasticsearch/issues/37096
+BUG: Negative value is successfully set for “discovery.zen.commit_timeout” parameter ,,https://github.com/elastic/elasticsearch/issues/36632
+bucket_sort aggregation misplace the first bucket,,https://github.com/elastic/elasticsearch/issues/36322
+Ingest: Grok: duplicate patterns JAVACLASS and JAVAFILE,,https://github.com/elastic/elasticsearch/issues/35699
+LocalExporter leaks a licence state listener,,https://github.com/elastic/elasticsearch/issues/35627
+Delete index Java REST API request throws NPE while parsing DeleteResponse,,https://github.com/elastic/elasticsearch/issues/35297
+Documentation of elasticsearch-certutil is wrong for parameter --pass,,https://github.com/elastic/elasticsearch/issues/35285
+[ML] GetJobStatsAction does not match open jobs correctly,,https://github.com/elastic/elasticsearch/issues/34745
+Replace groovy build-tools (buildSrc) with java,,https://github.com/elastic/elasticsearch/issues/34459
+Prevent import of dangling indices from a later version,,https://github.com/elastic/elasticsearch/issues/34264
+"Introduce ""good first issue"" tags for new contributors",,https://github.com/elastic/elasticsearch/issues/33385
+CompletionFieldMapper should ignore null values,,https://github.com/elastic/elasticsearch/issues/33200
+[ML] Change close job API to accept payload body vs just query params,,https://github.com/elastic/elasticsearch/issues/32989
+Make 0 as invalid value for `min_children` in `has_child` query,,https://github.com/elastic/elasticsearch/issues/32949
+"Documentation claims ""index.translog.sync_interval"" is dynamic, but it can not be set dynamically",,https://github.com/elastic/elasticsearch/issues/32763
+Limit the number of context mappings,,https://github.com/elastic/elasticsearch/issues/32741
+Watcher: croneval tool prints error on valid one time expression,,https://github.com/elastic/elasticsearch/issues/32735
+a little error about SearchType,,https://github.com/elastic/elasticsearch/issues/32631
+Logging: Clean up logger building,,https://github.com/elastic/elasticsearch/issues/32174
+"CCE when re-throwing ""shard not available"" exception in TransportShardMultiGetAction",,https://github.com/elastic/elasticsearch/issues/32173
+"Forbid negative values for ""weight""  in Function Score Query",,https://github.com/elastic/elasticsearch/issues/31927
+Scroll API fails to apply Rescore query,,https://github.com/elastic/elasticsearch/issues/31775
+[ML] Adding an open job to a group does not update autodetect with related scheduled events ,,https://github.com/elastic/elasticsearch/issues/31651
+Improve terms aggregation example,,https://github.com/elastic/elasticsearch/issues/31592
+certutil: large passwords not set,,https://github.com/elastic/elasticsearch/issues/30944
+Add test for QueryExplanation serialization backwards compatibility ,,https://github.com/elastic/elasticsearch/issues/30405
+More Like This queries return 0 results if field in source document has 0 tokens in analyzed field,,https://github.com/elastic/elasticsearch/issues/30148
+Remove support for 2x role formats,,https://github.com/elastic/elasticsearch/issues/30104
+Improve JavaDoc on SecurityClient,,https://github.com/elastic/elasticsearch/issues/30077
+SQL: JDBC should validate existance of SQL url,,https://github.com/elastic/elasticsearch/issues/30009
+Security: Migrate tool throws a NPE when not using a password,,https://github.com/elastic/elasticsearch/issues/29847
+[ML] Revisit Default Primary Shard Counts,,https://github.com/elastic/elasticsearch/issues/29841
+Log REST target with 403,,https://github.com/elastic/elasticsearch/issues/29714
+"More Like This Queries should error when Routing Set to ""required"" and no routing is supplied",,https://github.com/elastic/elasticsearch/issues/29678
+TopHitsAggregation should honor `index.max_result_window`,,https://github.com/elastic/elasticsearch/issues/29190
+Fail shard if IndexShard#storeStats runs into an IOException,,https://github.com/elastic/elasticsearch/issues/29008
+ThrottlingAllocationDecider outgoing message's nodeid is wrong,,https://github.com/elastic/elasticsearch/issues/28777
+composite aggregation as child aggregation,,https://github.com/elastic/elasticsearch/issues/28611
+GCP Discovery Plugin instructions using deprecated util,,https://github.com/elastic/elasticsearch/issues/28523
+Elastic search documentation about merge scheduling does not explicitly state that `index.merge.scheduler.max_thread_count` is a shard level property,,https://github.com/elastic/elasticsearch/issues/28518
+Expose age of oldest entry in the translog,,https://github.com/elastic/elasticsearch/issues/28189
+Stored script related docs of Java API are outdated,,https://github.com/elastic/elasticsearch/issues/28144
+AggregationBuilder related docs of Java API are outdated,,https://github.com/elastic/elasticsearch/issues/28143
+StringTerms.Bucket.getKeyAsNumber should detect integers,,https://github.com/elastic/elasticsearch/issues/28012
+UpdateRequest need toString(),,https://github.com/elastic/elasticsearch/issues/27986
+Field Collapsing: Version is not visible for inner_hits,,https://github.com/elastic/elasticsearch/issues/27822
+Improve error message for whitespace-only JSON field names,,https://github.com/elastic/elasticsearch/issues/27701
+Include original index name (if renamed during restore) in snapshot restore exceptions,,https://github.com/elastic/elasticsearch/issues/27601
+Remove `index.optimize_auto_generated_id`,,https://github.com/elastic/elasticsearch/issues/27583
+Remove `index.ttl.disable_purge`,,https://github.com/elastic/elasticsearch/issues/27582
+ec2-discovery plugin document is not accurate.,,https://github.com/elastic/elasticsearch/issues/27464
+Normalizer doesn’t like trim filter,,https://github.com/elastic/elasticsearch/issues/27310
+Fix RestGetAction name typo,,https://github.com/elastic/elasticsearch/pull/27266
+SnapshotShardsService should use TransportMasterNodeAction for shard status updates,,https://github.com/elastic/elasticsearch/issues/27151
+Dangling indices living in non-data nodes are detected and auto-imported,,https://github.com/elastic/elasticsearch/issues/27073
+NullPointerException on `/_cat/indices` when cluster RED,,https://github.com/elastic/elasticsearch/issues/26942
+Simplify underscore requirements in parameters,,https://github.com/elastic/elasticsearch/issues/26886
+Upgrade ANTLR to 4.5.3,,https://github.com/elastic/elasticsearch/issues/26834
+"Why the response status of the error ""Result window is too large"" is 500?",,https://github.com/elastic/elasticsearch/issues/26799
+Range queries on range fields accept `relation: disjoint` but treat it as `relation: intersects`,,https://github.com/elastic/elasticsearch/issues/26575
+Add support for querying on range fields in query_string and simple_query_string queries,,https://github.com/elastic/elasticsearch/issues/26555
+Typo in date format,,https://github.com/elastic/elasticsearch/issues/26500
+Should search preference _primary take primary relocation target into account?,,https://github.com/elastic/elasticsearch/issues/26335
+docvalue_fields support wildcard?,,https://github.com/elastic/elasticsearch/issues/26299
+[DOCS] Docs show invalid syntax for index/_settings filtering,,https://github.com/elastic/elasticsearch/issues/26223
+Histogram Aggregation for values of long type,,https://github.com/elastic/elasticsearch/issues/26122
+[docs] Clarify remote reindex api documentation to indicate that slicing isn't available,,https://github.com/elastic/elasticsearch/issues/26114
+Bulk API in High Level Rest Client does not support global parameters,,https://github.com/elastic/elasticsearch/issues/26026
+Remove the coerce option on numeric fields.,,https://github.com/elastic/elasticsearch/issues/25861
+Add a wait for no intializing shards parameter to cluster health,,https://github.com/elastic/elasticsearch/issues/25623
+Behaviour of auto fuzziness should be configurable,,https://github.com/elastic/elasticsearch/issues/25528
+[docs] Document max_snapshot_bytes_per_sec and max_restore_bytes_per_sec as available settings for S3 repositories,,https://github.com/elastic/elasticsearch/issues/25522
+_cluster/reroute?retry_failed only allocates number of shards permitted by node_concurrent_*_recoveries,,https://github.com/elastic/elasticsearch/issues/25291
+Add a softlimit to the number of open scroll contexts per node,,https://github.com/elastic/elasticsearch/issues/25244
+Create api-conventions.asciidoc,,https://github.com/elastic/elasticsearch/pull/25217
+Get all search templates/scripts,,https://github.com/elastic/elasticsearch/issues/25179
+Explain where to get path for translog recovery action,,https://github.com/elastic/elasticsearch/issues/24929
+null pointer exception with token_count data type and indexing a null value,,https://github.com/elastic/elasticsearch/issues/24928
+Update by query should support short script form and `doc`,,https://github.com/elastic/elasticsearch/issues/24898
+Refreshes caused by realtime gets are not counted in the refresh stats,,https://github.com/elastic/elasticsearch/issues/24806
+5.4+ Add note in docs for users to prefer `word_delimiter_graph` over `word_delimiter`,,https://github.com/elastic/elasticsearch/issues/24665
+Hour of the day/Day of the week/Week of the month/Month of the year aggregation,,https://github.com/elastic/elasticsearch/issues/24660
+Deprecate the Tribe node,,https://github.com/elastic/elasticsearch/issues/24581
+Remove `discovery.type` BWC layer from the EC2/Azure/GCE plugins,,https://github.com/elastic/elasticsearch/issues/24543
+Not all meta fields in _source print a nice error,,https://github.com/elastic/elasticsearch/issues/24422
+Fast vector highlighting span queries for nested documents,,https://github.com/elastic/elasticsearch/issues/24318
+Clear scroll API should support single scroll ID,,https://github.com/elastic/elasticsearch/issues/24233
+rollover `max_docs` uses doc count from both primary and replica/s,,https://github.com/elastic/elasticsearch/issues/24217
+Doc: Clarify count for index.mapping.total_fields.limit,,https://github.com/elastic/elasticsearch/issues/24096
+POST-ing to /_all/_open and /_all/_close break wildcard expansion,,https://github.com/elastic/elasticsearch/issues/24031
+Wrong behaviour deleting alias.,,https://github.com/elastic/elasticsearch/issues/23960
+Deprecate `:` in cluster and index names,,https://github.com/elastic/elasticsearch/issues/23892
+Better handling of inline scripts in ingest,,https://github.com/elastic/elasticsearch/issues/23824
+Ingest simulate should coerce `_id` to a string,,https://github.com/elastic/elasticsearch/issues/23823
+Link to javadocs,,https://github.com/elastic/elasticsearch/issues/23761
+Create index : unable to use custom analyzer in default mapping at index creation time,,https://github.com/elastic/elasticsearch/issues/23755
+Explain mapping explosion,,https://github.com/elastic/elasticsearch/issues/23687
+Add target field to lowercase processor (and others),,https://github.com/elastic/elasticsearch/issues/23682
+Describe how to apply best_compression,,https://github.com/elastic/elasticsearch/issues/23646
+No inner hits returned when nested query inside dismax query (v5),,https://github.com/elastic/elasticsearch/issues/23482
+Increase chunk_size max to 256 Mb instead of 64 Mb,,https://github.com/elastic/elasticsearch/issues/23446
+Don't profile ConstantScore queries,,https://github.com/elastic/elasticsearch/issues/23430
+Expose the new SimplePatternTokenizer and SimplePatternSplitTokenizer,,https://github.com/elastic/elasticsearch/issues/23363
+Document date aggregation limitation on arbitrary time intervals,,https://github.com/elastic/elasticsearch/issues/23294
+Limit the timeout of scroll requests,,https://github.com/elastic/elasticsearch/issues/23268
+Upgrade HDRHistogram,,https://github.com/elastic/elasticsearch/issues/23239
+Minor fix of _cat documentation,,https://github.com/elastic/elasticsearch/issues/23211
+Disallow the `classic` (TF-IDF) similarity on 6.0 indices.,,https://github.com/elastic/elasticsearch/issues/23208
+Docs out of sync regarding default values for geo_shape mapping,,https://github.com/elastic/elasticsearch/issues/23206
+"What is the ""took"" value for multi-search query",,https://github.com/elastic/elasticsearch/issues/23131
+http 200 response code for partial result,,https://github.com/elastic/elasticsearch/issues/23059
+Create index request should return the index name,,https://github.com/elastic/elasticsearch/issues/23044
+Update AWS Java SDK to support ECS Task Roles,,https://github.com/elastic/elasticsearch/issues/23039
+Include and exclude patterns in visualizations throw an error,,https://github.com/elastic/elasticsearch/issues/22933
+elasticsearch-plugin remove without plugin name fails ungracefully,,https://github.com/elastic/elasticsearch/issues/22922
+Remove `ScriptDocValues#getValues`,,https://github.com/elastic/elasticsearch/issues/22919
+Range aggregation with no ranges throw a NullPointerException,,https://github.com/elastic/elasticsearch/issues/22881
+IcuFoldingTokenFilter still accepts camelCase parameter,,https://github.com/elastic/elasticsearch/issues/22823
+Add default logging for allocate_*_primary reroute commands,,https://github.com/elastic/elasticsearch/issues/22821
+inconsistency between source filtering names in query parameter vs request body,,https://github.com/elastic/elasticsearch/issues/22792
+"Improve ""Fielddata is disabled on text fields by default"" message",,https://github.com/elastic/elasticsearch/issues/22768
+Clear-cache should accept `request` parameter,,https://github.com/elastic/elasticsearch/issues/22748
+`index.store.preload` not present in default index settings or cluster settings,,https://github.com/elastic/elasticsearch/issues/22686
+MappedFieldType.rangeQuery should rewrite to an `exists` query when both bounds are open,,https://github.com/elastic/elasticsearch/issues/22640
+Expose BooleanSimilarity,,https://github.com/elastic/elasticsearch/issues/22630
+Range queries do not support time_zone with epoch fields,,https://github.com/elastic/elasticsearch/issues/22621
+Index Delete message to be logged as INFO instead of Debug,,https://github.com/elastic/elasticsearch/issues/22605
+Unhandled query size parameter,,https://github.com/elastic/elasticsearch/issues/22530
+CircuitBreakingException message should contain the amount of used memory,,https://github.com/elastic/elasticsearch/issues/22521
+Reindex-from-remote should use preemptive authorization if username and password are configured,,https://github.com/elastic/elasticsearch/issues/22328
+Missing Keyed Response for Percentiles Bucket,,https://github.com/elastic/elasticsearch/issues/22302
+Add multipolygon support to GeoPolygonQueryBuilder,,https://github.com/elastic/elasticsearch/pull/22237
+Deprecate and remove `minimum_number_should_match`,,https://github.com/elastic/elasticsearch/issues/22198
+"GeoPoint returns incorrect geohash for lat 90, lon 180",,https://github.com/elastic/elasticsearch/issues/22163
+add ability delete pipelines with wildcards,,https://github.com/elastic/elasticsearch/issues/22149
+Add types options to DeleteByQueryRequest - java api,,https://github.com/elastic/elasticsearch/issues/21984
+Rename `delimiter_payload_filter` to `delimiter_payload`.,,https://github.com/elastic/elasticsearch/issues/21978
+"`require_field_match` should accept ""true""|""false""",,https://github.com/elastic/elasticsearch/issues/21802
+FileBasedDiscovery causes connections on every ping round,,https://github.com/elastic/elasticsearch/issues/21739
+Expand /_cat/nodes to return information about hard drive (ES v5),,https://github.com/elastic/elasticsearch/issues/21679
+"NullPointerException caused by multiple indices search w/ nested, inner_hits",,https://github.com/elastic/elasticsearch/issues/21620
+inconsistent behaviour regarding numeric range queries and aggregations,,https://github.com/elastic/elasticsearch/issues/21600
+Script score doesn't support weight correctly,,https://github.com/elastic/elasticsearch/issues/21483
+Handle spaces in action.auto_create_index setting,,https://github.com/elastic/elasticsearch/issues/21449
+Clarify IndexNotFoundException error due to auto_create_index rules,,https://github.com/elastic/elasticsearch/issues/21448
+_source doesn't work on parent inner_hits,,https://github.com/elastic/elasticsearch/issues/21312
+Version conflict exception message enhancement,,https://github.com/elastic/elasticsearch/issues/21278
+Mistake in documentaion regarding maximum level of QuadPrefixTree(29 not 50),,https://github.com/elastic/elasticsearch/issues/21191
+All date formats should be documented for `date` format page,,https://github.com/elastic/elasticsearch/issues/21046
+Boolean scripted field agg's are coming back as strings,,https://github.com/elastic/elasticsearch/issues/20941
+Force merge does not compress index if already at 1 segment,,https://github.com/elastic/elasticsearch/issues/20936
+Add `max_concurrent_searches` to msearch-template,,https://github.com/elastic/elasticsearch/issues/20912
+MultiGet fails entirely when using alias that points to multiple indices,,https://github.com/elastic/elasticsearch/issues/20845
+Hard limit on total number of shards in a cluster,,https://github.com/elastic/elasticsearch/issues/20705
+Add node name to decider trace logging,,https://github.com/elastic/elasticsearch/issues/20379
+Update api-conventions.asciidoc,,https://github.com/elastic/elasticsearch/pull/20203
+Missing footnote descriptions in mappings,,https://github.com/elastic/elasticsearch/issues/20201
+Expose the new min hashing / LSH filter,,https://github.com/elastic/elasticsearch/issues/20149
+Remove spaces from commented out config settings,,https://github.com/elastic/elasticsearch/issues/20090
+Incosistent API definition and test for ingest.get_pipeline,,https://github.com/elastic/elasticsearch/issues/20010
+Hostname and shard ID missing from slow log,,https://github.com/elastic/elasticsearch/issues/19735
+_cat/shards should support index pattern wildcards,,https://github.com/elastic/elasticsearch/issues/19634
+Create a percentile_ranks_bucket pipeline aggregation,,https://github.com/elastic/elasticsearch/issues/19546
+"Undeprecate ""aggs"" in search request bodies",,https://github.com/elastic/elasticsearch/issues/19504
+Rollover API Numbering not honouring preceding zeroes,,https://github.com/elastic/elasticsearch/issues/19484
+_count requires query in body where _search does not,,https://github.com/elastic/elasticsearch/issues/19422
+Include other Reference to other ElasticSearch clients in Docs,,https://github.com/elastic/elasticsearch/issues/19399
+Cleanup Elasticsearch configuration files support,,https://github.com/elastic/elasticsearch/issues/19391
+Allow bucket_script to operate on date_range buckets.,,https://github.com/elastic/elasticsearch/issues/19364
+Remove cloud.enabled setting,,https://github.com/elastic/elasticsearch/issues/19349
+Updates in bulk api always update shards.,,https://github.com/elastic/elasticsearch/issues/19267
+Blank field names should be illegal,,https://github.com/elastic/elasticsearch/issues/19251
+"Scroll should limit size= value, as the search API already does.",,https://github.com/elastic/elasticsearch/issues/19249
+Field stats API gte/lt reversed?,,https://github.com/elastic/elasticsearch/issues/19232
+inner_hits breaks from version 1.7 to 2.3 upgrade,,https://github.com/elastic/elasticsearch/issues/19142
+Show UUID in cat indices,,https://github.com/elastic/elasticsearch/issues/19132
+Upgrade httpclient dependency,,https://github.com/elastic/elasticsearch/issues/19127
+Change `unlimited` throttling to use `-1` instead,,https://github.com/elastic/elasticsearch/issues/19089
+An incredibly arcane missing header in response to a POST,,https://github.com/elastic/elasticsearch/issues/19079
+Rename `fields` to `stored_fields` and add `docvalue_fields`,,https://github.com/elastic/elasticsearch/issues/18943
+flat_settings ignored on nodes info in 5.0.0-alpha3,,https://github.com/elastic/elasticsearch/issues/18794
+Closed TransportClient should throw meaningful exceptions when subsequently used,,https://github.com/elastic/elasticsearch/issues/18708
+Documentation for `quote_field_suffix`,,https://github.com/elastic/elasticsearch/issues/18641
+Add Ansible playbook to Integrations,,https://github.com/elastic/elasticsearch/issues/18636
+RemovePluginCommand.java reports older plugin command name,,https://github.com/elastic/elasticsearch/issues/18588
+Move useful messages from debug/trace level to warn/error,,https://github.com/elastic/elasticsearch/issues/18576
+Change `include_global_state` default to `false`,,https://github.com/elastic/elasticsearch/issues/18569
+Include size of snapshot in snapshot metadata,,https://github.com/elastic/elasticsearch/issues/18543
+BlobContainer's deleteBlob method should not be lenient,,https://github.com/elastic/elasticsearch/issues/18530
+Remove multiple variations of deleting blobs from BlobContainer interface,,https://github.com/elastic/elasticsearch/issues/18529
+Remove redundant writeBlob methods in BlobContainer interface,,https://github.com/elastic/elasticsearch/issues/18528
+SnapshotsStatusRequest should take ignoreUnavailable,,https://github.com/elastic/elasticsearch/issues/18522
+Duplicate value/getValue in Max aggregation,,https://github.com/elastic/elasticsearch/issues/18517
+Non descriptive enough error when reindexing incorrect data,,https://github.com/elastic/elasticsearch/issues/18515
+Add regex flags to pattern-replace character filter,,https://github.com/elastic/elasticsearch/issues/18362
+Expose `fuzzy_transpositions` in fuzzy queries,,https://github.com/elastic/elasticsearch/issues/18348
+Don't ignore allocation settings with cluster reroute,,https://github.com/elastic/elasticsearch/issues/18321
+Remove user-configurable analyzer versions ,,https://github.com/elastic/elasticsearch/issues/18267
+Deprecate analyser aliases?,,https://github.com/elastic/elasticsearch/issues/18244
+NullPointerException with StopFilter and simple_query_string with analyze_wildcard if the query contains only stop word prefixes,,https://github.com/elastic/elasticsearch/issues/18202
+" rfc3986, html 4.01 spec: support semicolons as well as ampersand?",,https://github.com/elastic/elasticsearch/issues/18175
+NPE when calling non existing ingest pipeline,,https://github.com/elastic/elasticsearch/issues/18139
+Add org.apache.lucene.search.MatchNoDocsQuery to forbiddenApi,,https://github.com/elastic/elasticsearch/issues/18030
+_msearch errors don't contain status,,https://github.com/elastic/elasticsearch/issues/18013
+Get and MultiGet inconsistency with date math expressions,,https://github.com/elastic/elasticsearch/issues/17957
+Delete archived cluster settings with `null`,,https://github.com/elastic/elasticsearch/issues/17929
+Use epoch seconds in `to` and `from` fields of date range aggregation `ranges` objects.,,https://github.com/elastic/elasticsearch/issues/17920
+POST index/_settings with body produces wrong exception,,https://github.com/elastic/elasticsearch/issues/17853
+Make Script Writeable,,https://github.com/elastic/elasticsearch/issues/17753
+Should range aggregations support the `missing` option?,,https://github.com/elastic/elasticsearch/issues/17597
+Rename service.bat to elasticsearch-service.bat,,https://github.com/elastic/elasticsearch/issues/17528
+Extended Stats Bucket Aggregation returns parse exception when sigma is an Integer,,https://github.com/elastic/elasticsearch/issues/17499
+Smoke Tester: Use `node.portsfile` to find out ports,,https://github.com/elastic/elasticsearch/issues/17409
+Rename LinearInterpoatingScorer to LinearInterpo**l**atingScorer,,https://github.com/elastic/elasticsearch/issues/17384
+Allow access to the rest of the document from inside ingest foreach processor,,https://github.com/elastic/elasticsearch/issues/17147
+Defining a custom analyzer should a accept `token_filters` settings,,https://github.com/elastic/elasticsearch/issues/17140
+"Remove ""sandbox"" option from script settings",,https://github.com/elastic/elasticsearch/issues/17114
+queryCacheMemory is a shorthand for 2 different values,,https://github.com/elastic/elasticsearch/issues/17101
+Multi-index expressions not respecting excludes,,https://github.com/elastic/elasticsearch/issues/17027
+Slowlogs no longer include index name,,https://github.com/elastic/elasticsearch/issues/17025
+Next scroll id and number of hits in response headers for search/scroll api,,https://github.com/elastic/elasticsearch/issues/16993
+Remove ClusterStateHealth's validationFailures,,https://github.com/elastic/elasticsearch/issues/16979
+'us-east-1` is not a valid region when creating s3 bucket,,https://github.com/elastic/elasticsearch/issues/16978
+Mention path.repo in backup chapter of the guide,,https://github.com/elastic/elasticsearch/issues/16942
+Explain param to Analyze API not coerced,,https://github.com/elastic/elasticsearch/issues/16925
+Glossary should contain query and filter,,https://github.com/elastic/elasticsearch/issues/16891
+Unexpected `array_index_out_of_bounds_exception`,,https://github.com/elastic/elasticsearch/issues/16812
+Truncated Cluster State exception should show path,,https://github.com/elastic/elasticsearch/issues/16713
+NullPointerException on hasParentQuery when parent does not exist,,https://github.com/elastic/elasticsearch/issues/16692
+Update API and versions,,https://github.com/elastic/elasticsearch/issues/16671
+Groovy script throws java.lang.NoClassDefFoundError: groovy/lang/Reference,,https://github.com/elastic/elasticsearch/issues/16657
+Took time for index requests ?,,https://github.com/elastic/elasticsearch/issues/16641
+No documentation on what stopwords are in each set,,https://github.com/elastic/elasticsearch/issues/16561
+Java heap space Error on document indexing with spatial field,,https://github.com/elastic/elasticsearch/issues/16444
+Backwards incompatibility: _cache is disallowed for Or Filters,,https://github.com/elastic/elasticsearch/issues/16441
+Indices cat API doesn't list closed indices when filtered,,https://github.com/elastic/elasticsearch/issues/16419
+"""fields"" is missing in hit if script field returns a null value",,https://github.com/elastic/elasticsearch/issues/16408
+Output version when running bin/plugin list,,https://github.com/elastic/elasticsearch/issues/16375
+Extend fsprobe,,https://github.com/elastic/elasticsearch/pull/16340
+Lucene version check prevents people updating Lucene to get bugfixes,,https://github.com/elastic/elasticsearch/issues/16301
+Analysis API doesn't respect node level default analyzer setting,,https://github.com/elastic/elasticsearch/issues/16219
+Warn user when mapper attachments has to extract an unknown format,,https://github.com/elastic/elasticsearch/issues/16189
+Malformed multi-match query doesn't throw exception,,https://github.com/elastic/elasticsearch/issues/16169
+geo_point ignore ignore_malformed setting,,https://github.com/elastic/elasticsearch/issues/16137
+Index buffer - clarify min and max settings relative to size,,https://github.com/elastic/elasticsearch/issues/16115
+Nodes info and stats output do not show tribe node clients,,https://github.com/elastic/elasticsearch/issues/16105
+Inconsistency in multi_match query,,https://github.com/elastic/elasticsearch/issues/16098
+Elasticsearch should reject _id longer than the maximum URI length,,https://github.com/elastic/elasticsearch/issues/16034
+_cat/count docs clarification,,https://github.com/elastic/elasticsearch/issues/16008
+timeInQueue for pending_tasks growing too fast?,,https://github.com/elastic/elasticsearch/issues/15988
+_recovery api shows negative metrics after translog replay,,https://github.com/elastic/elasticsearch/issues/15974
+Misleading error message for geo_point parse failure,,https://github.com/elastic/elasticsearch/issues/15965
+add loadaverage support for freebsd,,https://github.com/elastic/elasticsearch/issues/15917
+"Remove ""geohash"" json object parsing for geo_point fields",,https://github.com/elastic/elasticsearch/issues/15872
+Thread pool size should not be a global (cluster update API) setting,,https://github.com/elastic/elasticsearch/issues/15866
+Remove IcuCollationTokenFilterFactory,,https://github.com/elastic/elasticsearch/issues/15827
+java.lang.NullPointerException while updating document,,https://github.com/elastic/elasticsearch/issues/15822
+Correct documentation of discovery.zen.ping.unicast.hosts regarding support for port ranges,,https://github.com/elastic/elasticsearch/issues/15816
+Allow Query/Filter Cache to be disabled by index,,https://github.com/elastic/elasticsearch/issues/15802
+"""match""  with ""query"" parameter accepts list input and gives wrong results ",,https://github.com/elastic/elasticsearch/issues/15741
+Debian init script exits with success if Elasticsearch binary is missing,,https://github.com/elastic/elasticsearch/issues/15712
+Fix multi-field support for GeoPoint types,,https://github.com/elastic/elasticsearch/pull/15702
+FSBlobContainer leniently truncates,,https://github.com/elastic/elasticsearch/issues/15579
+Log message suggesting setting network.host if using EC2 discovery,,https://github.com/elastic/elasticsearch/issues/15518
+Error message failure when analyzer created without tokenizer,,https://github.com/elastic/elasticsearch/issues/15492
+Update scripting documentation to provide examples using true/false vs. on/off,,https://github.com/elastic/elasticsearch/issues/15469
+Config `index.mapper.dynamic: false` is not honored.,,https://github.com/elastic/elasticsearch/issues/15381
+"More like this query doesn't work with document id, works with text match",,https://github.com/elastic/elasticsearch/issues/15370
+thread_pool unconsistency issue,,https://github.com/elastic/elasticsearch/issues/15359
+Similarity module is broken,,https://github.com/elastic/elasticsearch/issues/15345
+OutOfMemoryError[Java heap space] when executing update with bad fields,,https://github.com/elastic/elasticsearch/issues/15338
+Make FsProbe configurable for plugins,,https://github.com/elastic/elasticsearch/pull/15330
+Plugin install failure exit codes are not unique,,https://github.com/elastic/elasticsearch/issues/15295
+Hidden files should be ignored by the ScriptsService,,https://github.com/elastic/elasticsearch/issues/15269
+"Clarify what ""number"" is for weighting",,https://github.com/elastic/elasticsearch/issues/15229
+"Improve ""Analyzer [my_analyzer] must have a type associated with it"" error",,https://github.com/elastic/elasticsearch/issues/15196
+"analyze api accepts ""filters"" while create index relies on ""filter""",,https://github.com/elastic/elasticsearch/issues/15189
+Geohash query not working after migrating to Elasticsearch 2.0/2.1,,https://github.com/elastic/elasticsearch/issues/15179
+Remove GET from _forcemerge API,,https://github.com/elastic/elasticsearch/issues/15165
+Indexing completion type fields with multi-fields fails,,https://github.com/elastic/elasticsearch/issues/15115
+The `_index` field mapping does not accept `enabled`,,https://github.com/elastic/elasticsearch/issues/15081
+Remove deprecated `/{index}/{type}/_mapping` endpoints,,https://github.com/elastic/elasticsearch/issues/15077
+Set soft limit on the number of nested fields per index,,https://github.com/elastic/elasticsearch/issues/14983
+Inconsistent result from _cat/aliases vs actual state of the indices.,,https://github.com/elastic/elasticsearch/issues/14982
+more_like_this doesn't understand index alias in doc reference,,https://github.com/elastic/elasticsearch/issues/14944
+Clarify where index.similarity.default.type is set,,https://github.com/elastic/elasticsearch/issues/14849
+"Query Template: ""Field name [myChild.name] cannot contain '.'",,https://github.com/elastic/elasticsearch/issues/14837
+date_histogram interval uses xM as xm,,https://github.com/elastic/elasticsearch/issues/14802
+Confusing exception when `regexp` query used on numeric field,,https://github.com/elastic/elasticsearch/issues/14782
+Order not working inside a date_histogram aggs ES 2.0,,https://github.com/elastic/elasticsearch/issues/14771
+StatsAggegator has a missing character.,,https://github.com/elastic/elasticsearch/issues/14730
+Switching from log4j to slf4j breaks ES 2.0 bin/plugin,,https://github.com/elastic/elasticsearch/issues/14685
+Dates and epoch_millis as floats,,https://github.com/elastic/elasticsearch/issues/14641
+Documentation for output of stats API,,https://github.com/elastic/elasticsearch/issues/14576
+Refuse to load fields from _source when using the `fields` option,,https://github.com/elastic/elasticsearch/issues/14489
+Limit the maximum queue_size for fixed thread pools?,,https://github.com/elastic/elasticsearch/issues/14448
+Elasticsearch _bulk endpoint fails if data contains UTF-8 Byte Order Mark,,https://github.com/elastic/elasticsearch/issues/14442
+Update node.(other) docs,,https://github.com/elastic/elasticsearch/issues/14429
+Upgrading fields with only `search_analyzer` specified,,https://github.com/elastic/elasticsearch/issues/14383
+startup scripts should pass jvm -Djava.io.tmpdir=$ES_HOME/tmp,,https://github.com/elastic/elasticsearch/issues/14372
+Elasticsearch 2.0.0 don't start if marvel-agent is set in plugin.mandatory,,https://github.com/elastic/elasticsearch/issues/14357
+XContent Builder doesn't check for null keys in maps. It should raise an exception,,https://github.com/elastic/elasticsearch/issues/14346
+Update  facets reference to aggs,,https://github.com/elastic/elasticsearch/issues/14258
+`_default_`-mapping needs to allow for negation of `_parent` ,,https://github.com/elastic/elasticsearch/issues/14256
+Recommended Heap - Documentation Error?,,https://github.com/elastic/elasticsearch/issues/14254
+rpm uses non-portable `--system` flag to `useradd`,,https://github.com/elastic/elasticsearch/issues/14211
+Plugin Installation No Longer Checks for Already Installed Plugin,,https://github.com/elastic/elasticsearch/issues/14205
+Cat API uses Content-Type to determine response type ,,https://github.com/elastic/elasticsearch/issues/14195
+Getting document by ID with '/' slash in the id,,https://github.com/elastic/elasticsearch/issues/14177
+How to switch default HttpServerTransport?,,https://github.com/elastic/elasticsearch/issues/14148
+Max doc frequency percentage in More Like This query,,https://github.com/elastic/elasticsearch/issues/14114
+More detail on cause of allocation failure / unassigned shards,,https://github.com/elastic/elasticsearch/issues/14001
+paramters as command line args handled differently by plugin and elasticsearch script,,https://github.com/elastic/elasticsearch/issues/13991
+"processors setting is not reflected in nodes info API (""os.available_processors"")",,https://github.com/elastic/elasticsearch/issues/13917
+Add ImmutableGeoPoint Class,,https://github.com/elastic/elasticsearch/issues/13892
+Single corrupted snapshot file shouldn't prevent listing all other snapshot in repository,,https://github.com/elastic/elasticsearch/issues/13887
+elasticsearch service not starting on Debian 8.2 boot,,https://github.com/elastic/elasticsearch/issues/13865
+Trailing JSON object should throw invalid JSON exception,,https://github.com/elastic/elasticsearch/issues/13855
+Add doc match score support to percolate api,,https://github.com/elastic/elasticsearch/issues/13827
+Delete scroll returns empty response,,https://github.com/elastic/elasticsearch/issues/13817
+Allow aliases to be renamed upon _restore,,https://github.com/elastic/elasticsearch/issues/13681
+plugin.bat error parsing Java options,,https://github.com/elastic/elasticsearch/issues/13616
+[cloud-gce] warn message is displayed when not using gce discovery,,https://github.com/elastic/elasticsearch/issues/13614
+plugin script doesn't detect when Java is not installed,,https://github.com/elastic/elasticsearch/issues/13613
+Expose pending cluster state queue size in node stats,,https://github.com/elastic/elasticsearch/issues/13610
+Range filter with relative date does not use specified time zone,,https://github.com/elastic/elasticsearch/issues/13607
+Add disk used by ES to _cat/allocation,,https://github.com/elastic/elasticsearch/issues/13529
+Cat health supports ts=0 option,,https://github.com/elastic/elasticsearch/pull/13508
+Get function score query results as fields,,https://github.com/elastic/elasticsearch/issues/13469
+"Use only one way of specifying routing, version and version_type",,https://github.com/elastic/elasticsearch/issues/13377
+Terms Agg filtering values using array of values works but not documented,,https://github.com/elastic/elasticsearch/issues/13352
+Multiple wildcards don't seem to work,,https://github.com/elastic/elasticsearch/issues/13334
+Expose lucene FingerprintFilter,,https://github.com/elastic/elasticsearch/issues/13325
+RestUtils.decodeQueryString does not correctly handle fragments,,https://github.com/elastic/elasticsearch/issues/13320
+Mention node restart after plugin removal,,https://github.com/elastic/elasticsearch/issues/13301
+"When JNA is not found, leave the warning but don't show the stracktrace",,https://github.com/elastic/elasticsearch/issues/13245
+Document transport.ping_schedule,,https://github.com/elastic/elasticsearch/issues/13241
+Deprecate eager/lazy norms loading,,https://github.com/elastic/elasticsearch/issues/13237
+Behaviour different with custom _all,,https://github.com/elastic/elasticsearch/issues/13214
+fielddata_fields for _all doesn't display all the terms,,https://github.com/elastic/elasticsearch/issues/13178
+_cat should not default to verbose,,https://github.com/elastic/elasticsearch/issues/13156
+Add support for ICUTokenizerFactory and customizing the rule file in ICU tokenizer,,https://github.com/elastic/elasticsearch/issues/13146
+"Inconsistent handling of string numerics in geo aggregation ""precision"" parameter",,https://github.com/elastic/elasticsearch/issues/13132
+Match phrase prefix query seems to ignore boost value.,,https://github.com/elastic/elasticsearch/issues/13129
+Allow validating that settings update doesn't produce invalid combinations,,https://github.com/elastic/elasticsearch/issues/13103
+Return error for invalid search exists api query,,https://github.com/elastic/elasticsearch/issues/13094
+Show build hash/timestamp for plugins in verbose mode,,https://github.com/elastic/elasticsearch/issues/13005
+Add Build info to the plugin properties by default,,https://github.com/elastic/elasticsearch/issues/13002
+SearchSourceBuilder.field() method is not accessible through TopHitsBuilder,,https://github.com/elastic/elasticsearch/issues/12962
+Output PluginInfo only when in verbose mode,,https://github.com/elastic/elasticsearch/issues/12907
+Remove URL from PluginManager,,https://github.com/elastic/elasticsearch/issues/12896
+Remove the `network` option from nodes info/stats,,https://github.com/elastic/elasticsearch/issues/12889
+Murmur3 fields should not be indexed,,https://github.com/elastic/elasticsearch/issues/12874
+Add epoch_ms to dynamic dates with format `yyyy/MM/dd`,,https://github.com/elastic/elasticsearch/issues/12873
+Move free disk log entries to TRACE level when there is plenty of free disk space,,https://github.com/elastic/elasticsearch/issues/12843
+Mapping conflict exception not bubbling up to root cause,,https://github.com/elastic/elasticsearch/issues/12839
+"Index ""creation_date"" not accurate when created with settings from another index",,https://github.com/elastic/elasticsearch/issues/12790
+Multiple node spec does not work with _only_nodes search preference,,https://github.com/elastic/elasticsearch/issues/12700
+common terms query containing only stopwords with a _name causes a null pointer exception,,https://github.com/elastic/elasticsearch/issues/12683
+Adds a setting to disable source output in slowlog,,https://github.com/elastic/elasticsearch/pull/12655
+improve plugin integration tests,,https://github.com/elastic/elasticsearch/issues/12654
+add System/Runtime exit/halt to forbidden apis,,https://github.com/elastic/elasticsearch/issues/12596
+Make sure all distribution modules have description in pom.xml,,https://github.com/elastic/elasticsearch/issues/12550
+_only_nodes against a node attribute not shuffling requests between nodes,,https://github.com/elastic/elasticsearch/issues/12546
+Add support for bulk delete operation in snapshot repository,,https://github.com/elastic/elasticsearch/issues/12533
+add user defined attributes in _cat/nodes output,,https://github.com/elastic/elasticsearch/pull/12520
+Make hidden file detection not rely on the OS environment,,https://github.com/elastic/elasticsearch/issues/12480
+Rename `lat_lon` to `index` on geo-points,,https://github.com/elastic/elasticsearch/issues/12464
+NPE when querying `_all` field with no fields,,https://github.com/elastic/elasticsearch/issues/12439
+Use underscores instead of camel-casing for date formats,,https://github.com/elastic/elasticsearch/issues/12429
+Make `_index` field non-configurable,,https://github.com/elastic/elasticsearch/issues/12329
+Search template render API returns 500 error on malformed template,,https://github.com/elastic/elasticsearch/issues/12315
+Use Randomized Runner 2.1.14 in 1.7 branch,,https://github.com/elastic/elasticsearch/issues/12216
+Term filter parser too lenient,,https://github.com/elastic/elasticsearch/issues/12184
+Dynamic templates,,https://github.com/elastic/elasticsearch/issues/12169
+Add global search timeout setting,,https://github.com/elastic/elasticsearch/issues/12149
+Improve error handling of ClassCastException,,https://github.com/elastic/elasticsearch/issues/12135
+ip_range aggregation with mask of 0.0.0.0/0 gets treated as 0.0.0.0/32,,https://github.com/elastic/elasticsearch/issues/12005
+[Docs] Embedded node client should disable HTTP,,https://github.com/elastic/elasticsearch/issues/11952
+Elasticsearch 2.0 joins 1.6 cluster,,https://github.com/elastic/elasticsearch/issues/11924
+[Docs] Explain Error Handling in TransportClient,,https://github.com/elastic/elasticsearch/issues/11920
+Remove `default_index` analyzer name in favour of just `default`,,https://github.com/elastic/elasticsearch/issues/11861
+Fold `plugin` script into `elasticsearch` script with -plugin option,,https://github.com/elastic/elasticsearch/issues/11797
+Querystring treats nonexistent wildcard fields as existing in AND expression,,https://github.com/elastic/elasticsearch/issues/11750
+GC Logs should add -XX:+PrintGCDateStamps,,https://github.com/elastic/elasticsearch/issues/11733
+Null pointer exception when adding BigDecimal field with value null,,https://github.com/elastic/elasticsearch/issues/11699
+NullPointerException when using bulk import,,https://github.com/elastic/elasticsearch/issues/11671
+Log cluster health state (green/yellow/red) change,,https://github.com/elastic/elasticsearch/issues/11657
+Update REST API documentation with valid examples,,https://github.com/elastic/elasticsearch/issues/11571
+Allow number_of_shards to be set via API,,https://github.com/elastic/elasticsearch/issues/11548
+Bulk update doesn't support `fields` parameter,,https://github.com/elastic/elasticsearch/issues/11527
+Add option to `_cat/indices` to return index creation date,,https://github.com/elastic/elasticsearch/issues/11524
+Log message to indicate that no `elasticsearch.yml` file was found,,https://github.com/elastic/elasticsearch/issues/11510
+[Bug] 'ignore_malformed' applied to a malformed (boolean) numeric field does not work ,,https://github.com/elastic/elasticsearch/issues/11498
+REST Test blacklist should not use PathMatcher,,https://github.com/elastic/elasticsearch/issues/11391
+"cat fielddata endpoint does funky things if field names are [id, ip, host, node, total]",,https://github.com/elastic/elasticsearch/issues/11388
+Support timeouts in _msearch API,,https://github.com/elastic/elasticsearch/issues/11310
+Using a query in Percolate should implicitly enable track_scores,,https://github.com/elastic/elasticsearch/issues/11264
+Better exception if array passed to `term` query,,https://github.com/elastic/elasticsearch/issues/11246
+copy_to needs top level object ,,https://github.com/elastic/elasticsearch/issues/11237
+detect_noop doesn't work with null values,,https://github.com/elastic/elasticsearch/issues/11208
+Fix cluster state task name for update snapshot task,,https://github.com/elastic/elasticsearch/pull/11197
+Rename watcher.interval,,https://github.com/elastic/elasticsearch/issues/11175
+[Docs] Nested Filter Documentation References Facets,,https://github.com/elastic/elasticsearch/issues/11073
+Limit multi fields to relevant settings,,https://github.com/elastic/elasticsearch/issues/11053
+fielddata_fields query string parameter ignored,,https://github.com/elastic/elasticsearch/issues/11025
+Throw exception if unrecognised params present in bulk request,,https://github.com/elastic/elasticsearch/issues/10977
+Function score query fails with field_value_factor on not (yet) existing field,,https://github.com/elastic/elasticsearch/issues/10948
+REST: Calling `_anything` returns confusing error message,,https://github.com/elastic/elasticsearch/issues/10946
+Log slow cluster state tasks,,https://github.com/elastic/elasticsearch/issues/10874
+Typed parameters in Java index API,,https://github.com/elastic/elasticsearch/issues/10825
+Add wildcard support for header names in the _cat API,,https://github.com/elastic/elasticsearch/issues/10811
+Log template management requests at INFO level,,https://github.com/elastic/elasticsearch/issues/10795
+TotalHitCountCollector message for top hits aggregation can be improved,,https://github.com/elastic/elasticsearch/issues/10791
+Support * wildcard to retrieve stored fields,,https://github.com/elastic/elasticsearch/issues/10783
+"simple_query_string returns nothing for ""*"" search",,https://github.com/elastic/elasticsearch/issues/10632
+[GEO] Consolidate duplicate Bounding Box classes,,https://github.com/elastic/elasticsearch/issues/10617
+doc/log enhancement: disk watermark,,https://github.com/elastic/elasticsearch/issues/10588
+"Contrary to the javadoc, cluster health check fails with null indices",,https://github.com/elastic/elasticsearch/issues/10574
+extended_bounds does not work on date histogram when index name is missing.,,https://github.com/elastic/elasticsearch/issues/10549
+Internal: replace empty index block checks with global block checks,,https://github.com/elastic/elasticsearch/issues/10530
+Cannot put percolator query on geo_shape field,,https://github.com/elastic/elasticsearch/issues/10500
+"Java API produces invalid search request with AggregationBuilders.topHits(""topHitsAgg"").setNoFields()",,https://github.com/elastic/elasticsearch/issues/10492
+[GEO-JavaApi] ShapeBuilder.new{Geometry} should accept initialization parameters,,https://github.com/elastic/elasticsearch/issues/10458
+New Feature - sourceAsMap()/sourceAsString() for TermVectorsResponse,,https://github.com/elastic/elasticsearch/issues/10441
+Template not getting applied with ES version 1.4.1 - Works for 1.4.0,,https://github.com/elastic/elasticsearch/issues/10436
+Inconsistent value types for node status/info,,https://github.com/elastic/elasticsearch/issues/10404
+Enhancement: hint user on node version mismatch,,https://github.com/elastic/elasticsearch/issues/10403
+Watcher should not try to compile .swp (or other .*) files,,https://github.com/elastic/elasticsearch/issues/10289
+Change output of _cat/fielddata to be row-centric,,https://github.com/elastic/elasticsearch/issues/10249
+[GEO] Deprecate 'validate_*' options in GeoPointMapping,,https://github.com/elastic/elasticsearch/issues/10170
+Fix validate_* merge policy for GeoPointFieldMapper,,https://github.com/elastic/elasticsearch/pull/10165
+[GEO] GeoPointFieldMapper.validate_* overwritten on merge,,https://github.com/elastic/elasticsearch/issues/10164
+"Describe types as ""partition by"" instead of tables",,https://github.com/elastic/elasticsearch/issues/10153
+rename UNICODE_CHAR_CLASS to UNICODE_CHARACTER_CLASS in regex flags,,https://github.com/elastic/elasticsearch/issues/10146
+cat health not respecting 'ts' parameter,,https://github.com/elastic/elasticsearch/issues/10109
+Move IndicesStatsRequest to expose CommonStatsFlags directly,,https://github.com/elastic/elasticsearch/issues/10096
+Date format using seconds since epoch,,https://github.com/elastic/elasticsearch/issues/10072
+[Bug] Unexpected behavior when indexing boolean values,,https://github.com/elastic/elasticsearch/issues/10056
+script_file does not work with _update,,https://github.com/elastic/elasticsearch/issues/10007
+[Docs] Zen Discovery references deprecated ping_timeout setting,,https://github.com/elastic/elasticsearch/issues/9908
+wrong type for bulk updates and deletes on closed index,,https://github.com/elastic/elasticsearch/issues/9821
+Missing quotes breaks stuff,,https://github.com/elastic/elasticsearch/issues/9800
+EsAbortPolicy should show thread pool name,,https://github.com/elastic/elasticsearch/issues/9732
+.yaml extension doesn't work for elasticsearch?,,https://github.com/elastic/elasticsearch/issues/9706
+"[DOCS] File-based scripts should use ""file"" and not ""script""",,https://github.com/elastic/elasticsearch/issues/9659
+Agg results consistency issue - same operation returns Null in JSON vs Infinity in Java api,,https://github.com/elastic/elasticsearch/issues/9636
+Remove (dfs_)query_and_fetch from the REST API,,https://github.com/elastic/elasticsearch/issues/9606
+Get _source fails if original document is not JSON,,https://github.com/elastic/elasticsearch/issues/9579
+Hole is not within polygon,,https://github.com/elastic/elasticsearch/issues/9511
+Nicer exception when no scroll ID is provided,,https://github.com/elastic/elasticsearch/issues/9469
+_cat APIs add space at the end of a line,,https://github.com/elastic/elasticsearch/issues/9464
+Add `translog` option to indices stats,,https://github.com/elastic/elasticsearch/issues/9447
+Auto disable high disk watermak checks on single data node ecluster,,https://github.com/elastic/elasticsearch/issues/9391
+Percolator is ignoring position_offset_gap,,https://github.com/elastic/elasticsearch/issues/9386
+Inconsistent behavior and error messaging between bulk update and bulk index requests,,https://github.com/elastic/elasticsearch/issues/9379
+Scroll requests with `from` should throw an exception,,https://github.com/elastic/elasticsearch/issues/9373
+action.auto_create_index_from_template,,https://github.com/elastic/elasticsearch/issues/9359
+Configurable std_deviation bounds,,https://github.com/elastic/elasticsearch/issues/9356
+"_cat/pending_tasks returns ""unknown"" tasks",,https://github.com/elastic/elasticsearch/issues/9354
+Add node name to _cat/recovery output,,https://github.com/elastic/elasticsearch/issues/9353
+Default fuzzy transpositions to true,,https://github.com/elastic/elasticsearch/issues/9278
+cat api for /allocation lists non-data nodes,,https://github.com/elastic/elasticsearch/issues/9214
+_cat/nodes missing version number,,https://github.com/elastic/elasticsearch/issues/9170
+Don't broadcast deletes to all shards,,https://github.com/elastic/elasticsearch/issues/9123
+[GEO] GIS envelope validation,,https://github.com/elastic/elasticsearch/issues/9080
+RPM init.d script does not pass CONF_FILE to ES,,https://github.com/elastic/elasticsearch/issues/9050
+warmers delete _all Exception,,https://github.com/elastic/elasticsearch/issues/8991
+Deprecate camelCasing,,https://github.com/elastic/elasticsearch/issues/8988
+Indices stats: Add counter for failed indexing requests,,https://github.com/elastic/elasticsearch/issues/8938
+Remove top level `filter` parameter,,https://github.com/elastic/elasticsearch/issues/8862
+'?' matching in index name wildcard patterns,,https://github.com/elastic/elasticsearch/issues/8824
+Add `force-recover` corrupted shards command to reroute,,https://github.com/elastic/elasticsearch/issues/8708
+Add notes about scripting and bulk api,,https://github.com/elastic/elasticsearch/issues/8632
+Elasticsearch fails when paths contain spaces,,https://github.com/elastic/elasticsearch/issues/8615
+Remove Bloom filter and friends entirely ,,https://github.com/elastic/elasticsearch/issues/8571
+Set default node name to hostname,,https://github.com/elastic/elasticsearch/issues/8470
+Parse Failure: NullPointerException,,https://github.com/elastic/elasticsearch/issues/8438
+Rounded date ranges with `lte` should set `include_upper` to `false`,,https://github.com/elastic/elasticsearch/issues/8424
+"Bulk update child doc, NPE error message when parent is not specified",,https://github.com/elastic/elasticsearch/issues/8365
+"Elastic should log what's the expected number of nodes to elect master, when it fails",,https://github.com/elastic/elasticsearch/issues/8362
+Immediately clear the filter cache when requested,,https://github.com/elastic/elasticsearch/issues/8285
+Improve ,,https://github.com/elastic/elasticsearch/issues/8237
+JDK/JRE 7 update 72 breaks multicast in 1.4.0.Beta1,,https://github.com/elastic/elasticsearch/issues/8225
+Enable indy (invokedynamic) compile flag for Groovy scripts by default,,https://github.com/elastic/elasticsearch/pull/8201
+Use groovy-x.y.z-indy jar for better scripting performance,,https://github.com/elastic/elasticsearch/pull/8183
+Disable Unsafe usage from Groovy dependency,,https://github.com/elastic/elasticsearch/issues/8175
+Some ActionRequests require constructor args,,https://github.com/elastic/elasticsearch/issues/8122
+SearchRequestBuilder passes aggregation bytes as facet bytes,,https://github.com/elastic/elasticsearch/issues/8120
+SearchRequest - Map extraSource exception uses source field accidently,,https://github.com/elastic/elasticsearch/issues/8117
+Exception should be thrown if trying to enable ordinals on numeric/date field,,https://github.com/elastic/elasticsearch/issues/8044
+Add Node Name to _cat/recovery,,https://github.com/elastic/elasticsearch/issues/8041
+Groovy should be a mandatory dependency in ES pom,,https://github.com/elastic/elasticsearch/issues/8001
+Node attributes in _cat/nodes,,https://github.com/elastic/elasticsearch/issues/8000
+_cat/allocation output should filter non data nodes,,https://github.com/elastic/elasticsearch/issues/7998
+Automatic snapshot naming,,https://github.com/elastic/elasticsearch/issues/7939
+Null index in alias POST matches all indices,,https://github.com/elastic/elasticsearch/issues/7863
+Add index throttling to node stats,,https://github.com/elastic/elasticsearch/issues/7861
+Better handling when attempting to search with source filtering against docs with disabled source,,https://github.com/elastic/elasticsearch/issues/7758
+ES not throwing parse exception `ids` query double-nested array,,https://github.com/elastic/elasticsearch/issues/7686
+Fuzzy query: Date/Time does not support y (Year) or M (month),,https://github.com/elastic/elasticsearch/issues/7666
+"geo_shape query/filter: indexed_shape has no syntax to define _routing value and throws RoutingMissingException, because _routing undefined",,https://github.com/elastic/elasticsearch/issues/7663
+RestNodesAction - Should report File Descriptors,,https://github.com/elastic/elasticsearch/issues/7652
+"Parameter position error: Regex.simpleMatch(dynamicSetting, setting.getKey()) in DynamicSettings.validateDynamicSetting() ",,https://github.com/elastic/elasticsearch/issues/7651
+CBOR: Improve recognition of CBOR data format,,https://github.com/elastic/elasticsearch/issues/7640
+Change IndexPrimaryShardNotAllocatedException from 409 to 500,,https://github.com/elastic/elasticsearch/issues/7632
+Parameter/field namespace clash in terms filter,,https://github.com/elastic/elasticsearch/issues/7629
+multi search REST API endpoint is sensitive to trailing new line,,https://github.com/elastic/elasticsearch/issues/7601
+Putting a mapping with an empty request body throws a NullPointerException,,https://github.com/elastic/elasticsearch/issues/7536
+action.auto_create_index isn't a dynamic setting,,https://github.com/elastic/elasticsearch/issues/7513
+"Phrase suggester with suggest_mode: ""missing"" across multiple indexes yields suggestions when results exist in one index",,https://github.com/elastic/elasticsearch/issues/7472
+Mappings: The get field mappings API should raise an error when shards are not allocated,,https://github.com/elastic/elasticsearch/issues/7460
+Provide better logging on which index template is used during index creation,,https://github.com/elastic/elasticsearch/issues/7421
+Test: Use a default host name if localAddress is not available,,https://github.com/elastic/elasticsearch/issues/7409
+"field_value_factor accepts arrays values, does not throw error",,https://github.com/elastic/elasticsearch/issues/7408
+ScriptDocValues.GeoPoints enforces use of GeoDistance.ARC,,https://github.com/elastic/elasticsearch/issues/7397
+"""Recover after Nodes / Time"" logic and naming is confusing",,https://github.com/elastic/elasticsearch/issues/7389
+NPE in  case of null_value creation with value as null,,https://github.com/elastic/elasticsearch/issues/7273
+Include # of shards information in nodes api output,,https://github.com/elastic/elasticsearch/issues/7194
+Increase `UnicastZenPing.LIMIT_PORTS_COUNT` to `2`,,https://github.com/elastic/elasticsearch/issues/7090
+bin/plugin on a system where JAVA_HOME contains spaces fails,,https://github.com/elastic/elasticsearch/issues/6942
+Aggregations: Return an upper bound of the maximum error for terms,,https://github.com/elastic/elasticsearch/issues/6696
+Wildcards for fields in fuzzy like this query,,https://github.com/elastic/elasticsearch/issues/6674
+Admin: Expose IndexWriter and versionMap RAM usage in stats,,https://github.com/elastic/elasticsearch/issues/6483
+Silently hangs when not able to connect to node,,https://github.com/elastic/elasticsearch/issues/6468
+"date_histogram extendedBounds(DateTime,DateTime) failed when using format option",,https://github.com/elastic/elasticsearch/issues/6405
+"Using environment variable for square brackets is not documented, not obvious",,https://github.com/elastic/elasticsearch/issues/6352
+Adding `Exceptions` utility to enable code contracts that fail fast,,https://github.com/elastic/elasticsearch/pull/6290
+Remove the `indices_boost` URL param to search as it doesn't work,,https://github.com/elastic/elasticsearch/issues/6281
+nullpointerexception at https://github.com/elasticsearch/elasticsearch/blob/v1.1.1/src/main/java/org/elasticsearch/percolator/PercolatorService.java#L301,,https://github.com/elastic/elasticsearch/issues/6172
+"Allow elastic search to only read files in template folder. Also if template is considered to be in JSON only, add a check for ""*.json"" extension. ",,https://github.com/elastic/elasticsearch/issues/5956
+InternalIndexShard callback handling of failure is missing/wrong,,https://github.com/elastic/elasticsearch/issues/5945
+Analysis: Add factories for some Tokenizers/TokenFilters in Lucene,,https://github.com/elastic/elasticsearch/issues/5935
+change default numeric precision_step,,https://github.com/elastic/elasticsearch/issues/5905
+Upgrade to mvel 2.2.0.Final,,https://github.com/elastic/elasticsearch/issues/5877
+"The scroll, clear scroll and analyze apis should support json in request body",,https://github.com/elastic/elasticsearch/issues/5866
+Missing docs and tests for _cat/segments,,https://github.com/elastic/elasticsearch/issues/5856
+Improve global ordinals on low-cardinality fields,,https://github.com/elastic/elasticsearch/issues/5854
+Randomize field data impls and global ordinals via random index template,,https://github.com/elastic/elasticsearch/issues/5834
+key_as_string for ip type terms not returned by java api,,https://github.com/elastic/elasticsearch/issues/5822
+Stats API fetching all indices information if given regex has no matches,,https://github.com/elastic/elasticsearch/issues/5794
+Rest: Path components with plus signs are decoded wrong,,https://github.com/elastic/elasticsearch/issues/5341
+ expand_wildcards not accepted by /_cluster/state as advertised,,https://github.com/elastic/elasticsearch/issues/5229
+Type-exists HEAD request returns 404 unless type exists in all specified indices,,https://github.com/elastic/elasticsearch/issues/5087
+Update documentation to prevent dropping tcp connections,,https://github.com/elastic/elasticsearch/issues/5067
+Updating plugins,,https://github.com/elastic/elasticsearch/issues/5064
+Geohash grid aggregations's precision should support distance unit,,https://github.com/elastic/elasticsearch/issues/5042
+[docs] List of reserved characters for query_string isn't complete,,https://github.com/elastic/elasticsearch/issues/4916
+Get repository should support wildcards,,https://github.com/elastic/elasticsearch/issues/4758
+Allow changing write consistency timeout on a cluster level,,https://github.com/elastic/elasticsearch/issues/4739
+Specify an empty stopwords list with an empty array,,https://github.com/elastic/elasticsearch/issues/4709
+Remove StandardHtmlAnalyzer,,https://github.com/elastic/elasticsearch/issues/4704
+Put DestructiveOperations logic into a guice component or merge it into an existing component,,https://github.com/elastic/elasticsearch/issues/4665
+Add percentage for other stats (affects _stats and _cat),,https://github.com/elastic/elasticsearch/issues/4642
+Throw an exception when a Transport Client is not part of the connected cluster,,https://github.com/elastic/elasticsearch/issues/4569
+"Parent is not getting set, using UpdateRequest in JavaAPI",,https://github.com/elastic/elasticsearch/issues/4538
+Option to disable logging source in slowlog,,https://github.com/elastic/elasticsearch/issues/4485
+Common interface for GetField and SearchHitField,,https://github.com/elastic/elasticsearch/issues/4479
+Make function_score geo distance implementation configurable,,https://github.com/elastic/elasticsearch/issues/4465
+"Documentation for the ""stored scripts"" feature",,https://github.com/elastic/elasticsearch/issues/4405
+Inconsistent query behavior with multi_field and string value,,https://github.com/elastic/elasticsearch/issues/4320
+Consistency between `_search` and `_msearch`,,https://github.com/elastic/elasticsearch/issues/4227
+"Add tags to all ""stats"" related APIs",,https://github.com/elastic/elasticsearch/issues/4031
+default to strict dynamic types when dynamic mapping is disabled,,https://github.com/elastic/elasticsearch/issues/3877
+"http://example.com/ba*,-bar,-baz/_search will search over index foo",,https://github.com/elastic/elasticsearch/issues/3839
+Nodes API: Return failures in nodes response,,https://github.com/elastic/elasticsearch/issues/3740
+Allow different co-ordinate systems for geometric objects.,,https://github.com/elastic/elasticsearch/issues/3590
+Support highlight encoders provided via plugins,,https://github.com/elastic/elasticsearch/issues/3588
+Include size values for cluster state ,,https://github.com/elastic/elasticsearch/issues/3415
+Special case the _index field in queries,,https://github.com/elastic/elasticsearch/issues/3316
+Multi-field query_string with auto_generate_phrase_queries = true when one of the fields is indexed w/o positions using word delimiter filter [0.90.1],,https://github.com/elastic/elasticsearch/issues/3163
+conflict between alias routing and parent/child routing,,https://github.com/elastic/elasticsearch/issues/3068
+Store Level Throttling (index level) is not dynamic,,https://github.com/elastic/elasticsearch/issues/2998
+JSON parsing tolerance level,,https://github.com/elastic/elasticsearch/issues/2974
+Downloads have incomplete notices and license texts,,https://github.com/elastic/elasticsearch/issues/2794
+Mapping: Posting a mapping with default analyzer fails,,https://github.com/elastic/elasticsearch/issues/2716
+Routing and Parent/Child Can lead to documents with same id in the same index and type,,https://github.com/elastic/elasticsearch/issues/2663
+Short response for Bulk API,,https://github.com/elastic/elasticsearch/issues/2661
+Explain API ignores search_type,,https://github.com/elastic/elasticsearch/issues/2612
+[crash] ES should reorder envelope corners,,https://github.com/elastic/elasticsearch/issues/2544
+Query DSL: Improved explanation for match_phrase_prefix,,https://github.com/elastic/elasticsearch/issues/2449
+"When script_score script returns NaN, entire request fails with a confusing error message",,https://github.com/elastic/elasticsearch/issues/2426
+"Dynamic template with match_mapping_type ignored when there's a match ""*"" after it",,https://github.com/elastic/elasticsearch/issues/2401
+Suggestion: make man page or better CLI help,,https://github.com/elastic/elasticsearch/issues/2168
+Feature request: Be able to specify logger.yml path,,https://github.com/elastic/elasticsearch/issues/2044
+Scan scrolling should return results in the initial response,,https://github.com/elastic/elasticsearch/issues/2028

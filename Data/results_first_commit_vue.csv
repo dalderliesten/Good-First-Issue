@@ -1,0 +1,920 @@
+First Commit Hash (SHA),Commit Message,Author (Github Name),Link to Commit
+a879ec06ef9504db8df2a19aac0d07609fe36131,init,yyx990803,https://api.github.com/repos/vuejs/vue/git/commits/a879ec06ef9504db8df2a19aac0d07609fe36131
+6e251e0721b4dbb4896999df78450d912dcba30d,"Change svg parameter to namespace (#3)
+
+* change svg parameter into namespace
+
+* fixed svg to namespace bug
+
+* change svg detecting into namespace detecting in parser
+
+* fixed eslint error",Jinjiang,https://api.github.com/repos/vuejs/vue/git/commits/6e251e0721b4dbb4896999df78450d912dcba30d
+ed5149001033056248e9b5be85b64ee4d31516de,Update package.json,FadyMak,https://api.github.com/repos/vuejs/vue/git/commits/ed5149001033056248e9b5be85b64ee4d31516de
+681dc603e46ee09b22e2f9432ab60b598d4f07fd,added v-once directive unit tests (#2740),blake-newman,https://api.github.com/repos/vuejs/vue/git/commits/681dc603e46ee09b22e2f9432ab60b598d4f07fd
+da7f2731e2824e1c869760cc0263cae68224e367,fix x-template typo in select2 example (#2748),razh,https://api.github.com/repos/vuejs/vue/git/commits/da7f2731e2824e1c869760cc0263cae68224e367
+6f06f1b724ad1dd394eb18b7ca71a711a2bbbcb8,"Expose the author URL in ""commits"" example (#2751)",phanan,https://api.github.com/repos/vuejs/vue/git/commits/6f06f1b724ad1dd394eb18b7ca71a711a2bbbcb8
+9a6d80c1332530a30eca08fcb6cde285ff082447,comment spelling errors (#2800),nunnly,https://api.github.com/repos/vuejs/vue/git/commits/9a6d80c1332530a30eca08fcb6cde285ff082447
+49d5f2f393d416fd9f6b5abc74472435b66306e8,Suppress a warning 'Unknown custom element' with SSR <img> tag,tejitak,https://api.github.com/repos/vuejs/vue/git/commits/49d5f2f393d416fd9f6b5abc74472435b66306e8
+64de68b6f55d5f3e61fa79787c0d85c47d3f46f9,"add observer tests (#2855)
+
+* test: add observer tests
+
+NOTE: bring vue 1.x observer test
+
+* update observer tests",kazupon,https://api.github.com/repos/vuejs/vue/git/commits/64de68b6f55d5f3e61fa79787c0d85c47d3f46f9
+93bfc9baa7689c7ca2ed42c5190030f892d498b2,"Unit tests for v-bind:style (#2932)
+
+* begin unit tests for v-bind:style
+
+* add unit tests for v-bind:style directive",brendanbowidas,https://api.github.com/repos/vuejs/vue/git/commits/93bfc9baa7689c7ca2ed42c5190030f892d498b2
+7d55af6b6ad5ec2220ff5a2ab0f13102480e055f,"Delimiters tests (#2948)
+
+* delimiters spec
+
+* delete Vue.options.delimiters",bartlomieju,https://api.github.com/repos/vuejs/vue/git/commits/7d55af6b6ad5ec2220ff5a2ab0f13102480e055f
+c4c3ebdd963dca0ceb1c40d83af997d7bd2958ab,"Added the missing break (#3021)
+
+Break in loop when condition is fulfilled.",dsonet,https://api.github.com/repos/vuejs/vue/git/commits/c4c3ebdd963dca0ceb1c40d83af997d7bd2958ab
+170acc4f69b16283ff16d91b56339998dc973937,Fix typo in util/debug (#3032),posva,https://api.github.com/repos/vuejs/vue/git/commits/170acc4f69b16283ff16d91b56339998dc973937
+fbe81fbc0ce89a62b05ec29dff34f55200ce065a,"Load external assets with https in select2 example (#3053)
+
+Otherwise it doesn't work if the page is loaded with http.",franciscolourenco,https://api.github.com/repos/vuejs/vue/git/commits/fbe81fbc0ce89a62b05ec29dff34f55200ce065a
+5d582df55633014c9fd08df3885121241b8a7dde,Fix options for inline-template instances (#3063),simplesmiler,https://api.github.com/repos/vuejs/vue/git/commits/5d582df55633014c9fd08df3885121241b8a7dde
+94c7527d3cafc5154e8efb1c5f57d578eafe8a2d,"Nextrefactor: `.test` is faster than `.match` for regex bools (#3074)
+
+* refactor: `.test` is faster than `.match` for regex bools
+
+* chore: whoops.. wasnt suppose to commit these files
+
+* fix: mixxup from the iOS version match",maraisr,https://api.github.com/repos/vuejs/vue/git/commits/94c7527d3cafc5154e8efb1c5f57d578eafe8a2d
+27252928d37e2067173a232c15e8af3a3fc1e129,Add failing test.,zigomir,https://api.github.com/repos/vuejs/vue/git/commits/27252928d37e2067173a232c15e8af3a3fc1e129
+ac7d2dd5f454e792c636ee5cc7d8ca09fef88322,"add ""body"" as reservedTag (#3248)
+
+fix ""[Vue warn]: Unknown custom element: <body> - did you register the component correctly? ...""",tommyZZM,https://api.github.com/repos/vuejs/vue/git/commits/ac7d2dd5f454e792c636ee5cc7d8ca09fef88322
+bbc07afd15b2d163515c9985a6951ff9cf6bfeb6,allow to initialize value attribute to 0 (#3334),ktsn,https://api.github.com/repos/vuejs/vue/git/commits/bbc07afd15b2d163515c9985a6951ff9cf6bfeb6
+3e06c575cb547ff398b7effcc1bd277e5424af2d,"Allow 2 root nodes with v-if and v-else (#3329)
+
+* allow 2 root nodes with v-if and v-else
+
+* apply root constraints to 2nd root element with v-else",chrisvfritz,https://api.github.com/repos/vuejs/vue/git/commits/3e06c575cb547ff398b7effcc1bd277e5424af2d
+ea77ac28f5a287772d001ede5cab4f411e3323c6,Allow rendering forbidden tags on the server (#3425),naumovs,https://api.github.com/repos/vuejs/vue/git/commits/ea77ac28f5a287772d001ede5cab4f411e3323c6
+0f8ad06b2c580fd9e484b2d559a59fc06914f22a,"Fix Spelling (#3496)
+
+* Fix Spelling
+
+* Fix other instances.",BrandonSurowiec,https://api.github.com/repos/vuejs/vue/git/commits/0f8ad06b2c580fd9e484b2d559a59fc06914f22a
+a3314c8610a199cc2882f69b22da918b222c6329,"Fixed ""delcare"" typo error (#3552)
+
+* Fixed ""delcare"" typo error
+
+* Revert ""Fixed ""delcare"" typo error""
+
+This reverts commit 14c3563c48fe9fc68b413e468db221ea4430ade4.
+
+* Typo fixed on src folder only",javisperez,https://api.github.com/repos/vuejs/vue/git/commits/a3314c8610a199cc2882f69b22da918b222c6329
+2998bbfae9c618b49d48152a078e14ecf74607f8,createElement won't return Array<VNode> (#3574),imyzf,https://api.github.com/repos/vuejs/vue/git/commits/2998bbfae9c618b49d48152a078e14ecf74607f8
+dfc64e8a110d63177869528e2f9cdc103cf514b4,"Add TypeScript definitions
+
+Add TypeScript definition
+
+Remove unnecessary definition
+
+Update definitions
+
+* separate files
+* remove unnecessary `{[key: string]: any}`
+* from singular to plural
+
+Update definitions
+
+* Add more definitions
+* Rename filename and interface
+* Sort definitions
+* Fix indent
+
+Fix
+
+Add test
+
+* add test
+* fix some definitions
+* fix typo
+
+Fix ComputedOptions
+
+Update Vue.set
+
+Update definitions
+
+Add npm script",kaorun343,https://api.github.com/repos/vuejs/vue/git/commits/dfc64e8a110d63177869528e2f9cdc103cf514b4
+04eb32e4f06cbff7daab3024d93b8109c0a70786,fix typo (#3578),QingWei-Li,https://api.github.com/repos/vuejs/vue/git/commits/04eb32e4f06cbff7daab3024d93b8109c0a70786
+4061c42748bcf374d2ad54c0a5f46bf258db06da,"adapt index.d.ts for end users (#3582)
+
+* adapt index.d.ts for end users
+
+* fix extend return type",HerringtonDarkholme,https://api.github.com/repos/vuejs/vue/git/commits/4061c42748bcf374d2ad54c0a5f46bf258db06da
+b47d773c58de077e40edd54a3f5bde2bdfa5fd3d,support short prop declaration as prop: true (#3643),iagafonov,https://api.github.com/repos/vuejs/vue/git/commits/b47d773c58de077e40edd54a3f5bde2bdfa5fd3d
+724a59348fa2036d5184ce65bef211d24440ee11,"Add undefined check for instance methods (#3656)
+
+* add undefined check for instance methods
+
+* added a warning for undefined methods
+
+* add production ENV check",kingdaro,https://api.github.com/repos/vuejs/vue/git/commits/724a59348fa2036d5184ce65bef211d24440ee11
+575e810670de125b311be4bad126648d79f78adf,"Optimization unit testing [vdom/patch/children] (#3733)
+
+Optimization unit testing for vdom/patch/children.spec.js",bluemsn,https://api.github.com/repos/vuejs/vue/git/commits/575e810670de125b311be4bad126648d79f78adf
+790c99cdb488883142d86122e006154882d3a30a,"fix IE/Edge select remembering selection (#3803)
+
+* fix IE/Edge select remembering selection
+
+* Use const over let",fergaldoyle,https://api.github.com/repos/vuejs/vue/git/commits/790c99cdb488883142d86122e006154882d3a30a
+e29b711cb522b614fea3992697114f1b9e5dc690,fix reference to backers.md (#3808),Henni,https://api.github.com/repos/vuejs/vue/git/commits/e29b711cb522b614fea3992697114f1b9e5dc690
+463c9c9e086f919e61fe7fa74f1a8f0695693de3,"Switch to https (#3864)
+
+Replaced all http vuejs.org links with https instead.",vinkla,https://api.github.com/repos/vuejs/vue/git/commits/463c9c9e086f919e61fe7fa74f1a8f0695693de3
+f59e903d0b695eb1427eef4516589a1b56c11116,"setTimeout fallback update  (#3868)
+
+* - update setTimeout fallback
+- reset cachedWrite.cacheBuffer with .length = 0 for better efficient
+
+* update style
+
+* revert cacheBuffer
+
+* update to arrow function",defcc,https://api.github.com/repos/vuejs/vue/git/commits/f59e903d0b695eb1427eef4516589a1b56c11116
+443ef1c26c299856709ff59aa2f9e7816fbd7908,"Update CONTRIBUTING.md's jdfiddle template, and vue's version inside ISSUE_TEMPLATE.md (#3921)
+
+* Update CONTRIBUTING.md's jdfiddle template
+
+* Update ISSUE_TEMPLATE.md",fnlctrl,https://api.github.com/repos/vuejs/vue/git/commits/443ef1c26c299856709ff59aa2f9e7816fbd7908
+8ba420c35975583486308a55d31c1df7b195574a,"Fix using one delay to control all transitions. (#3932)
+
+* Fix using one delay to control all transitions.
+
+Vue transitions have wrong timing when having CSS like the following:
+
+```
+.[transition-name]-enter-active, .[transition-name]-leave-active {
+  transition: opacity 0.8s ease, transform 0.7s ease;
+  transition-delay: 0.4s;
+}
+```
+
+Which in turn bubbles errors to the console.
+
+* Fix linting.",guidobouman,https://api.github.com/repos/vuejs/vue/git/commits/8ba420c35975583486308a55d31c1df7b195574a
+6d31ed255df3e6b6f97270396c04c0eef0d2802b,typo fix (#3963),javoski,https://api.github.com/repos/vuejs/vue/git/commits/6d31ed255df3e6b6f97270396c04c0eef0d2802b
+1a8720d6ead500eed5d40457a3e7f59fe8972472,Fix typo in 'component' (#3978),AlexandreBonneau,https://api.github.com/repos/vuejs/vue/git/commits/1a8720d6ead500eed5d40457a3e7f59fe8972472
+9c91190b40dd8e5ec61992e97d476af28e754de9,Fix typos. (#3956),bringtree,https://api.github.com/repos/vuejs/vue/git/commits/9c91190b40dd8e5ec61992e97d476af28e754de9
+5f8ae401d468694d2476890eb5f0c021e9bf2720,minor typos (#4011),shreeve,https://api.github.com/repos/vuejs/vue/git/commits/5f8ae401d468694d2476890eb5f0c021e9bf2720
+defd45ccbadb7e0e347b1999d48fe354998ba37a,Typo fix: optimizier -> optimizer (#4015),bmax,https://api.github.com/repos/vuejs/vue/git/commits/defd45ccbadb7e0e347b1999d48fe354998ba37a
+20f7a06d699ed2b20ec434d78a0715689f899edf,Inline export for consistency (#4066),pvorona,https://api.github.com/repos/vuejs/vue/git/commits/20f7a06d699ed2b20ec434d78a0715689f899edf
+4a3b4c4a43dedcd9460ebddd56488943df8fca4e,"Small performance improvement in watcher.js (#4069)
+
+* Minor minification in codegen/index.js
+
+* Small performance improvement in watcher.js
+
+* Use a faster return pattern in watcher.js (@HerringtonDarkholme suggestion)",sapics,https://api.github.com/repos/vuejs/vue/git/commits/4a3b4c4a43dedcd9460ebddd56488943df8fca4e
+5a4c1d7f70f96bb1ebf47c10c0f420d2ed9d5584,"Add support attribute module (#4091)
+
+* Add support attribute module
+
+To be able to use css-module
+
+* Extend type SFCBlock
+
+module?: string | boolean
+
+* package vue-template-compiler update
+
+* Revert ""package vue-template-compiler update""
+
+This reverts commit 0104458d631115d1abf8d7a6a694a1d84b9b0fc5.",PowerfulPony,https://api.github.com/repos/vuejs/vue/git/commits/5a4c1d7f70f96bb1ebf47c10c0f420d2ed9d5584
+35f145cfc10b6101c1b0c10d348520d367031619,"Update vue.d.ts (#4105)
+
+fix typo.",odangosan,https://api.github.com/repos/vuejs/vue/git/commits/35f145cfc10b6101c1b0c10d348520d367031619
+c23c5c5d7011d29764fccca4f88155d1c5cfbbf8,"keep consistency in dev and prod env (#4093)
+
+* keep consistency in dev and prod env
+
+* Update extend.js
+
+* delete name=null
+
+* fixup
+
+* Update name.spec.js",jingsam,https://api.github.com/repos/vuejs/vue/git/commits/c23c5c5d7011d29764fccca4f88155d1c5cfbbf8
+ab428b5c4a7de3f3ab9bbc90fe6218bc256e27b5,fix v-move class when name isn't specified (#4239),decademoon,https://api.github.com/repos/vuejs/vue/git/commits/ab428b5c4a7de3f3ab9bbc90fe6218bc256e27b5
+048014ac0d81a22e9c27cb10fbbb55f214a1f136,"Modifiers key modifier for directive on of Vue.js 2.0 (#4034)
+
+* Modifiers key modifier for directive on
+
+* meta modifier key modifier for directive on
+
+* Code format",KingMario,https://api.github.com/repos/vuejs/vue/git/commits/048014ac0d81a22e9c27cb10fbbb55f214a1f136
+cdd36875d68ef5301c87962d581e7c8cd1a765c9,be able to parse the real tag name for the specific platform (#4417),Hanks10100,https://api.github.com/repos/vuejs/vue/git/commits/cdd36875d68ef5301c87962d581e7c8cd1a765c9
+6cfd6c7fe9c35528802d2e775833fb3eeebab0e8,change any to mixed to make it more type-safe (#4458),marshallshen,https://api.github.com/repos/vuejs/vue/git/commits/6cfd6c7fe9c35528802d2e775833fb3eeebab0e8
+5300e717fa52480bf301453beabbd863eeff0d8c,Fix unkpg.com -> unpkg.com (#4460),xqin,https://api.github.com/repos/vuejs/vue/git/commits/5300e717fa52480bf301453beabbd863eeff0d8c
+b8a2ee5c4bf9a2dc3e8a1087d15522dbb9b11a01,"Set default value for ignoredElements to []. (#4518)
+
+(as https://vuejs.org/v2/api/#ignoredElements puts it)",semenyukdmitry,https://api.github.com/repos/vuejs/vue/git/commits/b8a2ee5c4bf9a2dc3e8a1087d15522dbb9b11a01
+451ea37c7b75e18a663f978b3d30fec214eb68b6,don`t cast empty string to Boolean if prop types include String and Boolean (fix #4538) (#4539),fliptheweb,https://api.github.com/repos/vuejs/vue/git/commits/451ea37c7b75e18a663f978b3d30fec214eb68b6
+d111f3f1fdcac8206a4bed59aa0227fc622e884b,"typo fix (#4583)
+
+-  nomralization / normalzation → normalization",yu1222,https://api.github.com/repos/vuejs/vue/git/commits/d111f3f1fdcac8206a4bed59aa0227fc622e884b
+7cb0ee5835458422f1e3b1d179ec638ecc788429,Update LICENSE (#4642),Formatted,https://api.github.com/repos/vuejs/vue/git/commits/7cb0ee5835458422f1e3b1d179ec638ecc788429
+e259fc306eece6be8014d2ace0258d9775971cd5,"fix #4344 #4445 #4511 (#4646)
+
+* fiz regular expression
+
+* fix regular expression",arielpchara,https://api.github.com/repos/vuejs/vue/git/commits/e259fc306eece6be8014d2ace0258d9775971cd5
+b708c04988e99f17e821dc82fa33faaeb92dc4a6,"Update util.js (#4700)
+
+Typo fix",andymanitara,https://api.github.com/repos/vuejs/vue/git/commits/b708c04988e99f17e821dc82fa33faaeb92dc4a6
+79c1c7f0fe91981ae3c66556aa1990b48adb3310,"fine-tuning of toNumber function (#4684)
+
+1. parseFloat() support only one param, see MDN: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseFloat
+2. maybe it's better to use isNaN() to judge the conversion result?",mingmingwon,https://api.github.com/repos/vuejs/vue/git/commits/79c1c7f0fe91981ae3c66556aa1990b48adb3310
+3549e73c032143854bd65c8fdca6a6299ed89e39,"Updated Android 4 SauceLabs configuration (#4672)
+
+* update sauce config for android
+
+SauceLabs has sunset all versions of Android 4 prior to 4.4, as
+they are modernizing their infrastructure:
+
+https://wiki.saucelabs.com/pages/viewpage.action?pageId=67012495
+
+This means the previous Selendroid configuration must be changed
+for Appium, the new platform for Android 4.4 testing.
+
+* add --no-ssl-bump-domains flag to sauce config
+
+To complicate matters even further, the new Android 4.4 appium
+platform seems to surface an SSL error that prevents the karma
+tests from running (unless you manually take over the device and
+close the popup).
+
+After 2 days of pain going back and forth with a SauceLabs support
+tech, it seems that this flag fixes the issue... even though I
+hope Google will fix their untrusted certificate authority issues
+soon. Until then, this flag gets the job done.
+
+* fix unexpected trailing comma linting error",jlmakes,https://api.github.com/repos/vuejs/vue/git/commits/3549e73c032143854bd65c8fdca6a6299ed89e39
+d01104e1242c870de12592da88d2c4ffd0c9c0c2,"Remove dead link (#4740)
+
+""Building Larger Apps with Vue.js"" is not in the 2.X documentation anymore. 
+
+Alternatives:
+- link to the original page: https://v1.vuejs.org/guide/application.html
+- link to vue-cli, as the previous page suggests? https://github.com/vuejs/vue-cli",coisnepe,https://api.github.com/repos/vuejs/vue/git/commits/d01104e1242c870de12592da88d2c4ffd0c9c0c2
+938fa4efcc9bf6232bf5ace5920398dc2e128ac9,"fix(sfc): component contains '<' only (#4753)
+
+* fix(sfc): component contains '<' only
+
+* update based on reviews",dhcmrlchtdj,https://api.github.com/repos/vuejs/vue/git/commits/938fa4efcc9bf6232bf5ace5920398dc2e128ac9
+d14bd641430d936867a5d289d513a37917a0deb6,"Avoid double-decoding on attribute value (#4797)
+
+* Use a single `replace` instead so that we could avoid the double-decoding issue,i.e. get `""` after decoding `&amp;quot;` while `&quot;` is expected.
+
+* Don't instantiate RegExp on every call",jddxf,https://api.github.com/repos/vuejs/vue/git/commits/d14bd641430d936867a5d289d513a37917a0deb6
+d57f9428140993d8b04a13e54ef06e195d31f195,fixed typo on line 15 (#4829),adamawang,https://api.github.com/repos/vuejs/vue/git/commits/d57f9428140993d8b04a13e54ef06e195d31f195
+8bf5af8edf966e6fad8f260234519cf40ab0cde6,"fix `addClass` utlil bug (#4863)
+
+* fix addClass util bug
+
+`<transition-group move-class=“ value with leading or trailing whitespace ” />`
+
+* fix addClass util bug
+
+`<transition-group move-class=“ value with leading or trailing whitespace ” />`
+
+* fix addClass util bug
+
+`<transition-group move-class=“ value with leading or trailing whitespace ” />`
+
+* update test case for `addClass / removeClass` util",hashplus,https://api.github.com/repos/vuejs/vue/git/commits/8bf5af8edf966e6fad8f260234519cf40ab0cde6
+22f9560c92c1815e1862a5be7a0552d05f5e7919,add $props,yantene,https://api.github.com/repos/vuejs/vue/git/commits/22f9560c92c1815e1862a5be7a0552d05f5e7919
+c662fe09c7ce27a59dfc149ee7c6b03e325584ac,"typings: type-checking WatchHandler
+
+Makes watch handler argument to be typechecked when the expression is set
+as a function.",asheb,https://api.github.com/repos/vuejs/vue/git/commits/c662fe09c7ce27a59dfc149ee7c6b03e325584ac
+7259aefbe82516c63e9944a4dcc1dce1ac754bff,"filter division expression with parentheses (fix #4838) (#4844)
+
+* filter division expression with parentheses (fix #4838)
+
+* verify also dot and square brackets
+
+* missed a link check sorry for the useless commit
+
+* added + - and _ support",rixlabs,https://api.github.com/repos/vuejs/vue/git/commits/7259aefbe82516c63e9944a4dcc1dce1ac754bff
+97d36bc23f788974c6d16ba82e98375b1cac96fa,"Pass attributes to parseComponent (addresses #4914) (#4925)
+
+* Pass attributes to parseComponent
+
+* Edited source in the right place, added test
+
+* Back out changes made to the generated compiler build file
+
+* Add a few more checks",zephraph,https://api.github.com/repos/vuejs/vue/git/commits/97d36bc23f788974c6d16ba82e98375b1cac96fa
+acec8db2c4b54ac6f9cda7ab8fcc3bdd213eb3ed,"[WIP] Support for ref callback (#4807)
+
+* :sparkles: Tests for ref callback
+
+* :sparkles: Support for ref callback
+
+* Add test of inline ref callback
+
+* adjust ref implementation strategy
+
+* fix patch ref registration
+
+* fix tests
+
+* fix flow
+
+* fix test for phantomjs",znck,https://api.github.com/repos/vuejs/vue/git/commits/acec8db2c4b54ac6f9cda7ab8fcc3bdd213eb3ed
+8bb6c2bdaab707cdeb98e100f7a2966f41febf84,support $on multi event (#4860),Kingwl,https://api.github.com/repos/vuejs/vue/git/commits/8bb6c2bdaab707cdeb98e100f7a2966f41febf84
+2f520ba9eeee24479536b9621cf9b32cd463cc35,fix doc comment typo (#4954),rohmanhm,https://api.github.com/repos/vuejs/vue/git/commits/2f520ba9eeee24479536b9621cf9b32cd463cc35
+3dc9338479c6c04925831b21ebec43677a918897,"Warn when defining a method with same name as a prop (#4950)
+
+* Warn when defining a method with same name as a prop
+
+* update error message",chriscasola,https://api.github.com/repos/vuejs/vue/git/commits/3dc9338479c6c04925831b21ebec43677a918897
+5743c644d7189796b0eb27e9f59dbb49894206c4,add vue.esm.js & vue.runtime.esm.js (#5009),Alex-Sokolov,https://api.github.com/repos/vuejs/vue/git/commits/5743c644d7189796b0eb27e9f59dbb49894206c4
+7963b3d32c888326ee19c06ea1c3b70bec28c540,Fix comment typo in normalize-children.js (#5014),andyklimczak,https://api.github.com/repos/vuejs/vue/git/commits/7963b3d32c888326ee19c06ea1c3b70bec28c540
+d7287f4df80fb619c6960e2eb17bbaa3255d7c0a,chore: check binding.value instead of just binding object (#5065),S-YOU,https://api.github.com/repos/vuejs/vue/git/commits/d7287f4df80fb619c6960e2eb17bbaa3255d7c0a
+46c3866b0fbad862d79200d52b83f2113807d913,Issue template example (#5073),caioincau,https://api.github.com/repos/vuejs/vue/git/commits/46c3866b0fbad862d79200d52b83f2113807d913
+1b38a261c5ad852da1026d4058b1100e075f8f4e,support  multi event (#5056),schtr4jh,https://api.github.com/repos/vuejs/vue/git/commits/1b38a261c5ad852da1026d4058b1100e075f8f4e
+d6999c19c4c18d5eedfd3a7741e17b0e34e8a8df,Fix unnecessary conditional. (#5054),potato4d,https://api.github.com/repos/vuejs/vue/git/commits/d6999c19c4c18d5eedfd3a7741e17b0e34e8a8df
+6a5b8043f204fa0ed47048c0540df497335135ad,"imporve:check the delete oparator in event expression (#5072)
+
+* improve:check the unary operators
+
+* add:test",gebilaoxiong,https://api.github.com/repos/vuejs/vue/git/commits/6a5b8043f204fa0ed47048c0540df497335135ad
+2dc177ffb3fa0ede18841806533ba034e71195d5,"SFC parseComponent pads complete content with spaces (#5059)
+
+* SFC parseComponent pads content with spaces
+
+when `{ pad: true }` is provided. That is, all content is converted to
+spaces. Previously, each line was truncated to ""//"". The new padding
+method works better with character-oriented tools that calculate
+positions by distance from the beginning of the file instead of by line
+number.
+
+* Made parseComponent's pad support ""line"" | ""space""
+
+Also still supports true for backward compatibility. True is the same as
+""line"".",sandersn,https://api.github.com/repos/vuejs/vue/git/commits/2dc177ffb3fa0ede18841806533ba034e71195d5
+890e68a37d4f6709b15bcc37e0890d44e892675e,Update dbmon benchmark css to reflect changes made in js-repaint-perfs project. (#5123),bzmw,https://api.github.com/repos/vuejs/vue/git/commits/890e68a37d4f6709b15bcc37e0890d44e892675e
+025e76312409b5e29f2023847b68ab03ce070625,"Warn when not passing props in kebab-case (#5161)
+
+* Warn when not passing props in kebab-case
+
+* Move keyInLowerCase to dev only block",CodinCat,https://api.github.com/repos/vuejs/vue/git/commits/025e76312409b5e29f2023847b68ab03ce070625
+23a058ed13e7faa667ada2b96e242eb7488b601c,fix(inject): change warn message when trying to mutate an injected value (#5243),rayrutjes,https://api.github.com/repos/vuejs/vue/git/commits/23a058ed13e7faa667ada2b96e242eb7488b601c
+e47b1e5c4d16e53572613fe69e96b86281b179e3,"Allow named properties on reactive arrays. (#5216)
+
+* Allow named properties on reactive arrays.
+
+* Remove semicolons to comport with style guide.
+
+* Pacify flow type checking.
+
+Without the cast to any, flow complains that Array doesn't have an
+__ob__ property.  This appears to be an instance of this issue:
+https://github.com/facebook/flow/issues/1330",pkaminski,https://api.github.com/repos/vuejs/vue/git/commits/e47b1e5c4d16e53572613fe69e96b86281b179e3
+6fcfdbd83f424eba19933d453420d762c9bad767,warn and handle missing get in computed (fix #5265) (#5267),kmc059000,https://api.github.com/repos/vuejs/vue/git/commits/6fcfdbd83f424eba19933d453420d762c9bad767
+255b627f395c5e658862cf716291a6299f997cb7,"fix #5321 don't throw error when node gets relocated (#5322)
+
+* don't throw error when node gets relocated
+
+* perf: Simplify if check in vdom/patch",rstoenescu,https://api.github.com/repos/vuejs/vue/git/commits/255b627f395c5e658862cf716291a6299f997cb7
+ba138549dbba95ea019f0626fe185360723ddda2,fix style (#5383),romoo,https://api.github.com/repos/vuejs/vue/git/commits/ba138549dbba95ea019f0626fe185360723ddda2
+9c3e96f7573a671f085dab8cbd3bdb21dc4a9612,fix typo in comment (#5411),schoonc,https://api.github.com/repos/vuejs/vue/git/commits/9c3e96f7573a671f085dab8cbd3bdb21dc4a9612
+0494d16a29635f22fc13c217e803d6860bf2323a,fixed readme for styling inconsistencies (#5412),tony-luisi,https://api.github.com/repos/vuejs/vue/git/commits/0494d16a29635f22fc13c217e803d6860bf2323a
+dc21884d38e04fa70a7d933c6e208a924c5bb8f6,Fix 0 download issue with monthly download shield (#5426),ralphite,https://api.github.com/repos/vuejs/vue/git/commits/dc21884d38e04fa70a7d933c6e208a924c5bb8f6
+e5814dee679ac268b1ef11d8789b8f06ecf6476c,Update packages readme links (#5488),alextes,https://api.github.com/repos/vuejs/vue/git/commits/e5814dee679ac268b1ef11d8789b8f06ecf6476c
+1288386722589a3d2ffb7eecc43812c74c5bfbbf,"Support Vue.delete(arr, index) in TypeScript definitions (#5508)
+
+* add a variation of 'delete' to typesript typings, added in 2.2+
+
+* add typescript typings test for Vue.delete(arr, index)",Async0x42,https://api.github.com/repos/vuejs/vue/git/commits/1288386722589a3d2ffb7eecc43812c74c5bfbbf
+12b7122c161548bfc9865357d9b71302d66d4a9f,fix mixin issue (#5514),mjhd-devlion,https://api.github.com/repos/vuejs/vue/git/commits/12b7122c161548bfc9865357d9b71302d66d4a9f
+1635ca7143381265c0fb1cb197e0dbfa5d8b6365,"[vue-server-renderer] ensure assets are unique (#5540)
+
+* [vue-server-renderer] ensure assets are unique
+
+* add lodash.uniq to devDependencies",pi0,https://api.github.com/repos/vuejs/vue/git/commits/1635ca7143381265c0fb1cb197e0dbfa5d8b6365
+a8da4fb051bfc085e7e3781adbe6346b9db7d674,"fix #5592: comment vnode should not be merged into text vnode. (#5593)
+
+* comment vnode should not be merged into text vnode.
+
+* add isFalse helper
+
+* delete trailing spaces",maggiehe,https://api.github.com/repos/vuejs/vue/git/commits/a8da4fb051bfc085e7e3781adbe6346b9db7d674
+1c40e327062452fc9c934e728b70014810653b6a,"Fix use mixin  API feat continuous operation (#5610)
+
+* Update use.js
+
+fix:use feat continuous operation
+
+* Update mixin.js
+
+fix:mixin feat continuous operation",lzxb,https://api.github.com/repos/vuejs/vue/git/commits/1c40e327062452fc9c934e728b70014810653b6a
+5d965d5b3bbe0e76cdb97e41e01a704322253e09,clone `isComment` when cloneVNode (#5633),pengchongfu,https://api.github.com/repos/vuejs/vue/git/commits/5d965d5b3bbe0e76cdb97e41e01a704322253e09
+92d61922e9fa90b23bc9b2407cb4f0f85e013a75,Add TypeScript definition for ssrContext (#5654),zyml,https://api.github.com/repos/vuejs/vue/git/commits/92d61922e9fa90b23bc9b2407cb4f0f85e013a75
+d6bd667e1a984378cf27d688f69b02a1f7332482,"Warn when component option should be an object, but is not (#5605) (#5642)
+
+* warn when component should be an object, but is not
+
+* remarks
+
+* remarks
+
+* remarks
+
+* rename to checkOptionType and guard production
+
+* typo
+
+* Update state.js
+
+* Update test-object-option.js",maciej-ka,https://api.github.com/repos/vuejs/vue/git/commits/d6bd667e1a984378cf27d688f69b02a1f7332482
+0b2f11036d86f1242370726fec230db77a49d95e,fix typo (#5667),sabakugaara,https://api.github.com/repos/vuejs/vue/git/commits/0b2f11036d86f1242370726fec230db77a49d95e
+3cda98a541cd2c84847a9c53a7b38fccf1329a11,"Added picture to isHTMLTag map (#5675)
+
+This change will make sure the below error is not seen while unit testing components using <picture> in their template.
+[Vue warn]: Unknown custom element: <picture> - did you register the component correctly? For recursive components, make sure to provide the ""name"" option.",timbenniks,https://api.github.com/repos/vuejs/vue/git/commits/3cda98a541cd2c84847a9c53a7b38fccf1329a11
+ebca266d10febb5ab5ca0cfbcd0dfbff2f2c2170,fix: prefetch should not have `as` attribute (#5683),Atinux,https://api.github.com/repos/vuejs/vue/git/commits/ebca266d10febb5ab5ca0cfbcd0dfbff2f2c2170
+0cd7058a7f507497b57f02e5bb120508eb75f7a2,"Update index.js (#5711)
+
+del unused argument.",aladdin-add,https://api.github.com/repos/vuejs/vue/git/commits/0cd7058a7f507497b57f02e5bb120508eb75f7a2
+05195b862528e7e6c48bc4183cec41114d43b2d6,Move link to docs under it's own heading (#5720),BrianDGLS,https://api.github.com/repos/vuejs/vue/git/commits/05195b862528e7e6c48bc4183cec41114d43b2d6
+0cc0b0726d389fca535b35e4593a5ecca3dde6c9,feat: add .editorconfig (#5691),Shyam-Chen,https://api.github.com/repos/vuejs/vue/git/commits/0cc0b0726d389fca535b35e4593a5ecca3dde6c9
+11b7d5dff276caa54da3ef5b52444c0e2c5bbf41,"Add handleError during event handling (#5709)
+
+* Add handleError during event handling
+
+Currently handleError is used to handle errors during lifecycle hooks.
+This commit adds this functionality in to the event handling for
+consistency.
+
+* style tweak",chrisnicola,https://api.github.com/repos/vuejs/vue/git/commits/11b7d5dff276caa54da3ef5b52444c0e2c5bbf41
+da1fc3ddc97fb78621f518d03c549ebecc9b1108,"improve: add missing html and svg tag (#5688)
+
+* imporve: add missing html and svg tag
+
+* reivew
+
+* fix: review",lonelyclick,https://api.github.com/repos/vuejs/vue/git/commits/da1fc3ddc97fb78621f518d03c549ebecc9b1108
+7561b94eeb75478fc38d391da2851b91b7ebed4f,warn against non-primitive key (#5816),coolzjy,https://api.github.com/repos/vuejs/vue/git/commits/7561b94eeb75478fc38d391da2851b91b7ebed4f
+48c0c1ceb5819aea4f9f3fce38ac2ed606456cf0,"Added check in merge strat for watches if child is already an array (fix #5652) (#5653)
+
+* Added check for if child is already an array
+
+If the child is already an array it does not need to be wrapped again.
+Fixing #5652
+
+* Added unit test for watch merge strat
+
+* Moved test to own describe
+
+* Added test for merging multiple extends",strantr,https://api.github.com/repos/vuejs/vue/git/commits/48c0c1ceb5819aea4f9f3fce38ac2ed606456cf0
+69f946b4372fd74a1f2b1b8460fcd06ec8dd0a91,Fix XHTML incompatibility (fix #5852) (#5853),dvdckl,https://api.github.com/repos/vuejs/vue/git/commits/69f946b4372fd74a1f2b1b8460fcd06ec8dd0a91
+9831b403cf0506a873f03cc008e9debe6ef1f137,"Add warnHandler to allow users to set a custom warn callback, similar to errorHandler (#5883)",LukeeeeBennett,https://api.github.com/repos/vuejs/vue/git/commits/9831b403cf0506a873f03cc008e9debe6ef1f137
+080c387d49cd5cc43726d73ab886650dedd244db,"Merge inject when extending a component (#5827)
+
+* simply fix inject extends
+
+* add comments for normalizeInject
+
+* normalizeInect should return for non-array
+
+* remove isArray branch in resolveInject
+
+* add test case for extending injection
+
+* Create options.js
+
+* type of inject should be object now
+
+* Revert ""type of inject should be object now""
+
+This reverts commit 8466a2866b868de00f755b80e5b3a3dc8bdc2d86.",jkzing,https://api.github.com/repos/vuejs/vue/git/commits/080c387d49cd5cc43726d73ab886650dedd244db
+8a2c5147ad9ac9444c0f7c30b5f4a3c4e15c033b,Be able to use string type index in array (#5889),Peter-WF,https://api.github.com/repos/vuejs/vue/git/commits/8a2c5147ad9ac9444c0f7c30b5f4a3c4e15c033b
+00a3085628e78176fe02a3c5eb58bb0199c6ca91,"test: correcting existing test case (#5909)
+
+Fix the location of the test case",lyhper,https://api.github.com/repos/vuejs/vue/git/commits/00a3085628e78176fe02a3c5eb58bb0199c6ca91
+bd79d7e179c9486f37380907b30379c2a198114b,"README update to include Vue Land as questions resource and chat badges (#5947)
+
+* Updated README to include Vue Land :smiley:
+
+* Updated Discord link to be the Vue Land site
+
+* Added Gitter and Discord Badges to README",jdaltonchilders,https://api.github.com/repos/vuejs/vue/git/commits/bd79d7e179c9486f37380907b30379c2a198114b
+e01c09adad84fbcf9821ba7bbfc5e3300b2ba853,"refactor(compiler): remove 'head' tag contains 'html' tag condition code (#5958)
+
+remove 'head' tag contains 'html' tag condition I am not sure this is necessary, but all test passed
+after remove the code.",superwf,https://api.github.com/repos/vuejs/vue/git/commits/e01c09adad84fbcf9821ba7bbfc5e3300b2ba853
+de42186d52562a0ce506580484ff64fe86b765bd,"fix(ssr): fix bundleRenderer mapped async chunks caching check (#5963)
+
+_mappedfiles => _mappedFiles",MopTym,https://api.github.com/repos/vuejs/vue/git/commits/de42186d52562a0ce506580484ff64fe86b765bd
+8ff77a243cae0627a651fe852a6c07f7bcfce2a3,fix typos in src/server/bundle-renderer/create-bundle-runner.js (#6010),Richard-zhang,https://api.github.com/repos/vuejs/vue/git/commits/8ff77a243cae0627a651fe852a6c07f7bcfce2a3
+e7615737f142e3350b53d09d3a46d7ec143d1ef4,"perf: remove src directory from npm module (#6072)
+
+`src` directory is not used by node package. Removing this directory reduces size of `.tgz` package by 112kb and saves 840kb on each node projects, where vue.js is installed",KELiON,https://api.github.com/repos/vuejs/vue/git/commits/e7615737f142e3350b53d09d3a46d7ec143d1ef4
+3d14e855e422b656859d1b419af43b94320fcfce,"fix: checkbox v-model=""array"" ignore false-value (#6180)
+
+close #6178",nickmessing,https://api.github.com/repos/vuejs/vue/git/commits/3d14e855e422b656859d1b419af43b94320fcfce
+82f03de3328abde70493d2d3630137f23f140fcb,fix-Firefox (#6359),lowerfish,https://api.github.com/repos/vuejs/vue/git/commits/82f03de3328abde70493d2d3630137f23f140fcb
+59dbd4a414394a3ce581f9fbd9554da9af9e4b1d,"fix: ensure $attrs and $listeners are always objects (#6441)
+
+fix #6263",zxc0328,https://api.github.com/repos/vuejs/vue/git/commits/59dbd4a414394a3ce581f9fbd9554da9af9e4b1d
+2d75aba5e1a3f25aa30f90f95e603ba424cf1730,chore: fixed a small typo in CONTRIBUTING.md (#6517),palashmon,https://api.github.com/repos/vuejs/vue/git/commits/2d75aba5e1a3f25aa30f90f95e603ba424cf1730
+0b2929a3d69eb39c188112d2ccd18c2b8fde155c,types: add EsModuleComponent definition (#6477),JounQin,https://api.github.com/repos/vuejs/vue/git/commits/0b2929a3d69eb39c188112d2ccd18c2b8fde155c
+14ee9e74bf68024fcb53c305b1f15c6aab6e89d3,perf: optimize the performance of hyphenate method. (#6274),sliwey,https://api.github.com/repos/vuejs/vue/git/commits/14ee9e74bf68024fcb53c305b1f15c6aab6e89d3
+f477ecdbbb1a86ffcf4508ab0f7351277a649a7e,chore: spelling (#6535),jsoref,https://api.github.com/repos/vuejs/vue/git/commits/f477ecdbbb1a86ffcf4508ab0f7351277a649a7e
+b77a298cf3d20691a3b32eb8d7f62d2a67a430ae,chore: fixed typo in changelog section (#6549),vuchl,https://api.github.com/repos/vuejs/vue/git/commits/b77a298cf3d20691a3b32eb8d7f62d2a67a430ae
+949ec34cf72517285b197e63d5af511a75c970d0,chore: correct the contributor link (#6571),ulivz,https://api.github.com/repos/vuejs/vue/git/commits/949ec34cf72517285b197e63d5af511a75c970d0
+76182a2645ac81535179c926f3192b6762d514f0,chore: remove always falsy condition on perf (#6547),clarkdo,https://api.github.com/repos/vuejs/vue/git/commits/76182a2645ac81535179c926f3192b6762d514f0
+3f42562de766a90f35ffa9a9efd1234814ad390c,"chore: fix comment typo (#6573)
+
+correct ""a input"" to ""an input""",samayo,https://api.github.com/repos/vuejs/vue/git/commits/3f42562de766a90f35ffa9a9efd1234814ad390c
+3ee62fd59e20030dd63c08c2390e803d034928fe,"fix(inject): exclude not enumerable keys of inject object (#6346)
+
+close #6574",Elevista,https://api.github.com/repos/vuejs/vue/git/commits/3ee62fd59e20030dd63c08c2390e803d034928fe
+aa820cba37b69772868c9cdb69235c424e23f529,"perf(core): prevent iteration of arrays that should not be observable (#6467)
+
+close #6284",fenduru,https://api.github.com/repos/vuejs/vue/git/commits/aa820cba37b69772868c9cdb69235c424e23f529
+a9b6bc42fdafd87a0ac1b61644aae1b427c58ea0,chore: set jsDelivr default file (#6618),LukasDrgon,https://api.github.com/repos/vuejs/vue/git/commits/a9b6bc42fdafd87a0ac1b61644aae1b427c58ea0
+a5939032de5f85e1994d2ecb5f8905c545a9e769,"ci: migrate to CircleCI 2.0 (#6627)
+
+Improves upon #6041",serima,https://api.github.com/repos/vuejs/vue/git/commits/a5939032de5f85e1994d2ecb5f8905c545a9e769
+924bfec9bcd87ad7be77883d5180613a90d93a4b,doc: spelling and formatting (#6681),SheetJSDev,https://api.github.com/repos/vuejs/vue/git/commits/924bfec9bcd87ad7be77883d5180613a90d93a4b
+4fd2ce813cd0a59bd544defe07f44a5731e45f84,"fix: allow an object's Symbols to be observed (#6704)
+
+Attempting to parseFloat on a Symbol throws the error
+`Cannot convert a Symbol value to a string`.
+
+A Symbol can be cast to a string using `.toString()` or `String()` though,
+so explicitly casting before parsing resolves the issue, allowing `Vue.set` to
+be called on Symbols.",dak,https://api.github.com/repos/vuejs/vue/git/commits/4fd2ce813cd0a59bd544defe07f44a5731e45f84
+5fe7dc28d1249737cea57a26d13a9e9342b9007f,docs: add types directory to CONTRIBUTING.md (#6731),eddyerburgh,https://api.github.com/repos/vuejs/vue/git/commits/5fe7dc28d1249737cea57a26d13a9e9342b9007f
+dd505438296dcbaae74fd28061600cea07cf25c0,"docs: typo fix (#6729)
+
+https://github.com/vuejs/vue/blob/94512f3e8cee4030a1096121700ed49afab48073/src/platforms/web/entry-compiler.js#L5",meyt,https://api.github.com/repos/vuejs/vue/git/commits/dd505438296dcbaae74fd28061600cea07cf25c0
+cf3be87b68260d9d7e9f3480d9aefeb8bad69e2e,"refactor: improve error msg for non-reactive properties (#6735)
+
+close #6657",kutyel,https://api.github.com/repos/vuejs/vue/git/commits/cf3be87b68260d9d7e9f3480d9aefeb8bad69e2e
+ae347a52259b24507a9c747c80d78a6beaa36de0,fix: ensure nextTick are passed to errorHandler (#6730),rubys,https://api.github.com/repos/vuejs/vue/git/commits/ae347a52259b24507a9c747c80d78a6beaa36de0
+88423fc66a2a4917dcdb7631a4594f05446283b1,feat(inject): support providing default values for injections (#6322),pdanpdan,https://api.github.com/repos/vuejs/vue/git/commits/88423fc66a2a4917dcdb7631a4594f05446283b1
+64e394384291f18bfbced6c8947c88f4bbf6545e,types: extend keyCodes type declaration to allow array of numbers (#6745),alexeden,https://api.github.com/repos/vuejs/vue/git/commits/64e394384291f18bfbced6c8947c88f4bbf6545e
+514b90b64770cba9f905d2dff59dfa0e064e580c,"fix: add slot v-bind warning (#6736)
+
+close #6677",jamOne-,https://api.github.com/repos/vuejs/vue/git/commits/514b90b64770cba9f905d2dff59dfa0e064e580c
+2d32b5d1b663fa331ec256b73e937af15eb6e3d5,"feat(ssr): auto-remove initial state script if prod (#6763)
+
+close #6761",markbrouch,https://api.github.com/repos/vuejs/vue/git/commits/2d32b5d1b663fa331ec256b73e937af15eb6e3d5
+795b908095b29e76435479879c1ade7ef759ce7b,feat: support RegExp in ignoredElements (#6769),raymondmuller,https://api.github.com/repos/vuejs/vue/git/commits/795b908095b29e76435479879c1ade7ef759ce7b
+8645e5f04aff8b0eacd617bbcf2395615c25d68b,refactor: remove unnecessary condition (#6795),HcySunYang,https://api.github.com/repos/vuejs/vue/git/commits/8645e5f04aff8b0eacd617bbcf2395615c25d68b
+604230fe953f864be5dc70bd7d34f64ae43e4f7e,fix(keep-alive): higher priority for exclude than include (#6905),cuteyumiko,https://api.github.com/repos/vuejs/vue/git/commits/604230fe953f864be5dc70bd7d34f64ae43e4f7e
+e9c8e12397f1e89382f91b1557cc7f7d4139e651,"chore: fix sponsors from open collective (#6958)
+
+* Fix sponsors from open collective
+
+Also added Silver and Bronze sponsors.
+Fixes https://github.com/opencollective/opencollective/issues/579
+
+* Update README.md
+
+only gold and above are listed here.",xdamman,https://api.github.com/repos/vuejs/vue/git/commits/e9c8e12397f1e89382f91b1557cc7f7d4139e651
+c24f3e4208cd045832002ee9916559f6fe0dc2b5,fix(events): properly $off array of events (#6949),madskonradsen,https://api.github.com/repos/vuejs/vue/git/commits/c24f3e4208cd045832002ee9916559f6fe0dc2b5
+bdcc05a0d40eaef0e0f76b9d975a04fe0e97f5e0,chore: fix creative Tim missing from the sponsors list (#6939),alexandru-paduraru,https://api.github.com/repos/vuejs/vue/git/commits/bdcc05a0d40eaef0e0f76b9d975a04fe0e97f5e0
+0c703e34d1a2083d9f162fcf0885deefb803182e,"fix(v-model): v-if / v-else not working with :type + v-model (#6955)
+
+fix #6918",misoguy,https://api.github.com/repos/vuejs/vue/git/commits/0c703e34d1a2083d9f162fcf0885deefb803182e
+0496115c55b4539d1901ce409a457f8b9fbc20ce,"chore: live link for Vue examples under 'Documentation' (#7026)
+
+Give link for vue examples",pranayaryal,https://api.github.com/repos/vuejs/vue/git/commits/0496115c55b4539d1901ce409a457f8b9fbc20ce
+a3246fd8545dbe66f37da16d7ff68597c0f025e6,"chore: closing </a> after chat (#7059)
+
+oversight, chat link was left open",davidnuescheler,https://api.github.com/repos/vuejs/vue/git/commits/a3246fd8545dbe66f37da16d7ff68597c0f025e6
+45d7ba842917a075d6cb2563c78210e3b9210a58,"fix(transition): fix out-in transition getting stuck with v-if (#7023)
+
+fix #6687",neelance,https://api.github.com/repos/vuejs/vue/git/commits/45d7ba842917a075d6cb2563c78210e3b9210a58
+063acb79ebc02344ab277196d4aea0577b113926,"fix(ssr): fix bundle renderer require path on windows (#7085)
+
+fixed windows os  `vue-ssr-server-bundle.json` within module can't found on server rendering",mniya,https://api.github.com/repos/vuejs/vue/git/commits/063acb79ebc02344ab277196d4aea0577b113926
+3554eb27269e151a0ef3d8c4ad9b29ec6664c471,"fix(types): add Promise signature for bundleRenderer.renderToString (#7098)
+
+* Make callback optional when providing context
+
+Otherwise TypeScript compiler complains about `not assignable to parameter of type 'RenderCallback'`
+
+* Update index.d.ts",sleewoo,https://api.github.com/repos/vuejs/vue/git/commits/3554eb27269e151a0ef3d8c4ad9b29ec6664c471
+df37292f77c813b04c018e1b5865f389ecce75bd,"chore: fix comment typo (#7113)
+
+Random find :)",rbrtmrtn,https://api.github.com/repos/vuejs/vue/git/commits/df37292f77c813b04c018e1b5865f389ecce75bd
+d2e1d49c41ac633ea9410e1062b8e3e01f9d6b6d,fix(types): use object and string instead of Object and String (#7126),Zzzen,https://api.github.com/repos/vuejs/vue/git/commits/d2e1d49c41ac633ea9410e1062b8e3e01f9d6b6d
+73a89bf9e53c0f7f00f193e1b1bb195a71ab761f,"fix(ssr): fix double escaping of ssrNode attribute values (#7224)
+
+This fixes a double escaping of attribute values in the SSR optimizing
+compiler by unescaping the value in `genAttrSegment` because literal
+attribute values get escaped early during `processAttrs` before it is
+known, if this attribute will be optimized to an _ssrNode string template,
+which is escaped as well, causing the double escape.
+
+fix #7223",felixbuenemann,https://api.github.com/repos/vuejs/vue/git/commits/73a89bf9e53c0f7f00f193e1b1bb195a71ab761f
+8be29e2f193c9503aed2e76e3775e157dbebb576,refactor: return is better when inject has no value (#7258),toBeTheLight,https://api.github.com/repos/vuejs/vue/git/commits/8be29e2f193c9503aed2e76e3775e157dbebb576
+dccd182b6763d8ef1871949029c85495ca958246,"fix: allow codebase to be inlined directly in HTML (#7314)
+
+escape - to avoid regex being parsed as HTML comment when entire codebase is inlined.
+fix #7298",erasermeng,https://api.github.com/repos/vuejs/vue/git/commits/dccd182b6763d8ef1871949029c85495ca958246
+4746256e553b19d4e37f264bf0c050fe0823d876,refactor: use util.isNative to check native Proxy (#7549),william-pan,https://api.github.com/repos/vuejs/vue/git/commits/4746256e553b19d4e37f264bf0c050fe0823d876
+2d168f1ba11d77cb2f2caa3356de86e99aba8da6,test(types): update TS version and fix types test (#7597),g-plane,https://api.github.com/repos/vuejs/vue/git/commits/2d168f1ba11d77cb2f2caa3356de86e99aba8da6
+39d58e521a4a6bc4c0d42f17453421ae155ec04f,"chore: edit documentation for grammar and consistency (#7600)
+
+* edit docs for grammar and consistency
+
+* remove changes to pull request template",commonstarling,https://api.github.com/repos/vuejs/vue/git/commits/39d58e521a4a6bc4c0d42f17453421ae155ec04f
+e396eb3445904f11232f2355f03e8356173d0e31,"fix(ref): allow ref key to be zero (#7676)
+
+prevents missing elements when :ref value is ""0""
+
+fix #7669",t0mburton,https://api.github.com/repos/vuejs/vue/git/commits/e396eb3445904f11232f2355f03e8356173d0e31
+7392dfcc1d5fd7b257df5ae134f9eb2f0cc0a51e,"fix(observer): do not invoke getters on initial observation  (#7302)
+
+fix #7280",DeyLak,https://api.github.com/repos/vuejs/vue/git/commits/7392dfcc1d5fd7b257df5ae134f9eb2f0cc0a51e
+1c0b4af5fd2f9e8173b8f4718018ee80a6313872,"fix: skip v-model & value binding collision check with dynamic type binding (#7406)
+
+* fix #7404",Justineo,https://api.github.com/repos/vuejs/vue/git/commits/1c0b4af5fd2f9e8173b8f4718018ee80a6313872
+dc2171a33a38d0563ef14934b078d9dc4c39acf3,"refactor: Use native bind function instead of own (#7491)
+
+close #7408",mecurc,https://api.github.com/repos/vuejs/vue/git/commits/dc2171a33a38d0563ef14934b078d9dc4c39acf3
+e9ea565d915cdffbad17bb78aa30af752dd4e5e6,"polish: raise warning when Vue.set/delete is called on invalid values  (#7452)
+
+close #7381",ismailarilik,https://api.github.com/repos/vuejs/vue/git/commits/e9ea565d915cdffbad17bb78aa30af752dd4e5e6
+733c1be7f5983cdd9e8089a8088b235ba21a4dee,"fix(inject): use hasOwn instead of 'in' for provideKey check (#7460)
+
+fix #7284
+
+* fix(Injection with Symbol polyfill): hasOwn instead of 'in'
+
+Symbol polyfill adds a setter on the Object prototype so the 'in' check evaluated to true on every
+object
+
+* test(Injected properties): Ensures prototype properties aren't injected
+
+Prototype properties were being injected, so injecting 'constructor' would have hit the first
+provide-layer and not yield expected results.",privatenumber,https://api.github.com/repos/vuejs/vue/git/commits/733c1be7f5983cdd9e8089a8088b235ba21a4dee
+acd92cf981d384d4006c81b9001a6d35957630dc,chore: unify the terms 'microtask' and '(macro) task' (#7641),yaodingyd,https://api.github.com/repos/vuejs/vue/git/commits/acd92cf981d384d4006c81b9001a6d35957630dc
+2b0fc381fcc2888b05fbbdf314b8450d3f31d396,docs: update Angular's commit convention link (#7666),sis0k0,https://api.github.com/repos/vuejs/vue/git/commits/2b0fc381fcc2888b05fbbdf314b8450d3f31d396
+9e04f6af2792f709417f4d39113e7723aae69918,test: add unit tests for core/observer/dep (#7738),schipiga,https://api.github.com/repos/vuejs/vue/git/commits/9e04f6af2792f709417f4d39113e7723aae69918
+f83987bb7022a4fa50b59445158b824debcbf6b4,chore: update downloads badge to point to graph of downloads (#7733),cheapsteak,https://api.github.com/repos/vuejs/vue/git/commits/f83987bb7022a4fa50b59445158b824debcbf6b4
+6931a47c5c5664d4df2a99dd5c1b275ccef625bc,refactor: use more accurate variable name (#7755),Gcaufy,https://api.github.com/repos/vuejs/vue/git/commits/6931a47c5c5664d4df2a99dd5c1b275ccef625bc
+68b51f2620a8245398d7c95b8afd523d0917d10b,chore: fix comment grammar mistake (#7739),LarsStegman,https://api.github.com/repos/vuejs/vue/git/commits/68b51f2620a8245398d7c95b8afd523d0917d10b
+6bc75cacb72c0cc7f3d1041b5d9ff447ac2f5f69,fix(v-on): return handler value when using modifiers (#7704),STUkh,https://api.github.com/repos/vuejs/vue/git/commits/6bc75cacb72c0cc7f3d1041b5d9ff447ac2f5f69
+1a979c44d6543d89f8a7e26ad7f995b1bf2aee3c,"fix(ssr): fix v-show inline style rendering when style binding is array (#7814)
+
+fix #7813",jinzhubaofu,https://api.github.com/repos/vuejs/vue/git/commits/1a979c44d6543d89f8a7e26ad7f995b1bf2aee3c
+7b387390aa917edffc0eabce0b4186ea1ef40e2c,"fix: correct the `has` implementation in the `_renderProxy` (#7878)
+
+It's feasible that someone might ask if something other than a string is
+in the proxy such as a `Symbol` that lacks a `charAt` method.  This aligns
+the implementation with the `getHandler`.",dcherman,https://api.github.com/repos/vuejs/vue/git/commits/7b387390aa917edffc0eabce0b4186ea1ef40e2c
+49385e1efab90f8c75087a731de2fcdcb367941e,"types: add UMD global declaration to index.d.ts (#7868)
+
+Users using Vue from e.g. the CDN might be using the global `.Vue` without importing the module.
+
+See https://www.typescriptlang.org/docs/handbook/modules.html for details on the syntax",RyanCavanaugh,https://api.github.com/repos/vuejs/vue/git/commits/49385e1efab90f8c75087a731de2fcdcb367941e
+943e5c242b6c3a8cc92478dc95aba0a5b4b49588,workflow: clean shell scripts (#7826),zapashcanon,https://api.github.com/repos/vuejs/vue/git/commits/943e5c242b6c3a8cc92478dc95aba0a5b4b49588
+1bd6196fb234c28754d9a27095afe0b5b84990ad,"fix(codegen): support IE11 and Edge use of ""Esc"" key (#7887)
+
+Closes #7880",matheusazzi,https://api.github.com/repos/vuejs/vue/git/commits/1bd6196fb234c28754d9a27095afe0b5b84990ad
+8227fb35240ab1f301c30a6ad5d4d25071fa7996,fix: add missing `asyncMeta` during VNode cloning (#7861),luisatmaniak,https://api.github.com/repos/vuejs/vue/git/commits/8227fb35240ab1f301c30a6ad5d4d25071fa7996
+38d5459e109a83b4992168c673403503278ff3c1,chore: use reactive components count in benchmark (#7996),jonkofee,https://api.github.com/repos/vuejs/vue/git/commits/38d5459e109a83b4992168c673403503278ff3c1
+1abb944a71c13542a7203ac6beccb89def641a37,chore(typo): no dots at the end of the comments (#8087),gavrashenko,https://api.github.com/repos/vuejs/vue/git/commits/1abb944a71c13542a7203ac6beccb89def641a37
+5e3823a5766da1df60481e1e7a20f36d08e716ce,chore(package.json): Add sideEffects: false field in package.json (#8099),TheLarkInn,https://api.github.com/repos/vuejs/vue/git/commits/5e3823a5766da1df60481e1e7a20f36d08e716ce
+9476d3e7428b6638d3243045d5a052ad5824d4e7,chore: update backers (#8649),d-pollard,https://api.github.com/repos/vuejs/vue/git/commits/9476d3e7428b6638d3243045d5a052ad5824d4e7
+59860b0a756526f37468655598c68d119f0e74bd,refactor: make the warning messages more explicit (close #7764) (#7881),yuriyalekseyev,https://api.github.com/repos/vuejs/vue/git/commits/59860b0a756526f37468655598c68d119f0e74bd
+c21b89ebeda4c45024c2a71bc7a292d47ebc7ee1,fix(ssr): fix double escaping of staticClass values (#7859) (#8037),sodatea,https://api.github.com/repos/vuejs/vue/git/commits/c21b89ebeda4c45024c2a71bc7a292d47ebc7ee1
+d280937045988097b816c4497322acc8aaca2d86,test(e2e): trigger click on .new-todo instead of footer (#7938),TimSpeelman,https://api.github.com/repos/vuejs/vue/git/commits/d280937045988097b816c4497322acc8aaca2d86
+9d19f84d4e7a281484a6eb3f92e6a266a1adc243,"docs(readme): grammar fix, extra 'the' (#8887)",spencer1573,https://api.github.com/repos/vuejs/vue/git/commits/9d19f84d4e7a281484a6eb3f92e6a266a1adc243
+c356b29e322ecb2a13d041f99d69dfc883c68248,chore: add placeholder to firebase example (#7979),cobafan,https://api.github.com/repos/vuejs/vue/git/commits/c356b29e322ecb2a13d041f99d69dfc883c68248
+4dec3b52c9b71f816e6b86d42ea53e9f2e559646,chore: remove useless code (#8002),levi1994,https://api.github.com/repos/vuejs/vue/git/commits/4dec3b52c9b71f816e6b86d42ea53e9f2e559646
+99a51b452fa13fc4392e87215a8c3024adf5f710,"fix(types): make VNodeDirective properties optional, fix #8013 (#8003)",KaelWD,https://api.github.com/repos/vuejs/vue/git/commits/99a51b452fa13fc4392e87215a8c3024adf5f710
+7ae1f4e0b53e268cb887c74a63352b6773f1f879,chore: tweak description (#8509),msrahman07,https://api.github.com/repos/vuejs/vue/git/commits/7ae1f4e0b53e268cb887c74a63352b6773f1f879
+5e912976c45ca19d8524657bffe6883723027ed2,chore: update reference to already defined variable (#8518),sqal,https://api.github.com/repos/vuejs/vue/git/commits/5e912976c45ca19d8524657bffe6883723027ed2
+af819a07dd8c2afc94e670e81b5e248f82794334,"refactor(shared-utils): Improve readability and consistency in code comments (#8529)
+
+Improvements that apply to all comments:
+- Consistent use of periods
+- Consistent use of commas
+- Consistent capitalization
+- Correct use of articles (a, an, the)
+
+Improvements to specific comments:
+- Correct pluralization in the description for helper functions
+- Reword for clarity and break into shorter sentences the description
+for `polyfillBind` function
+- Reword for clarity the description for `genStaticKeys` function
+- Add a previously missing description for `looseIndexOf` function
+
+Fixes: https://github.com/vuejs/vue/issues/8528",sagirk,https://api.github.com/repos/vuejs/vue/git/commits/af819a07dd8c2afc94e670e81b5e248f82794334
+4f111f9225f938f7a2456d341626dbdfd210ff0c,refactor: empty function replace to noop (#8791),JJJYY,https://api.github.com/repos/vuejs/vue/git/commits/4f111f9225f938f7a2456d341626dbdfd210ff0c
+93d1f5f8d6ac80369718ec7f845da9a36f2cf86a,chore: add extension to .eslintrc (#8904),ManoelLobo,https://api.github.com/repos/vuejs/vue/git/commits/93d1f5f8d6ac80369718ec7f845da9a36f2cf86a
+12e8efc2e70123de31204800b195917a0ce77766,workflow: upgraded to babel 7 (#8948),vikr01,https://api.github.com/repos/vuejs/vue/git/commits/12e8efc2e70123de31204800b195917a0ce77766
+f5b5b3c96f00a321e0ba41f0d33a42b2338ef750,chore: use template strings in config.js (#8113),xudaashuai,https://api.github.com/repos/vuejs/vue/git/commits/f5b5b3c96f00a321e0ba41f0d33a42b2338ef750
+61c32cc6732aaf225d868cee79872d9d9fdd5dcc,Fix: block unnecessary input event on input tag placeholder in IE (#8140),donggyu04,https://api.github.com/repos/vuejs/vue/git/commits/61c32cc6732aaf225d868cee79872d9d9fdd5dcc
+ecac831691d27cf7a10ec73a004d3fbad7623d1a,"fix(compiler): templates inside v-pre should be rendered to HTML (#8146)
+
+close #8041",kball,https://api.github.com/repos/vuejs/vue/git/commits/ecac831691d27cf7a10ec73a004d3fbad7623d1a
+bf2e2ed159f680cd4e230427ce94739c657c1b61,"types: allow functional components to return multiple VNodes (#8192)
+
+close #8191",zevdg,https://api.github.com/repos/vuejs/vue/git/commits/bf2e2ed159f680cd4e230427ce94739c657c1b61
+038ed86967b70a8b7305104e63afaa586857af48,polish(compiler): remove the extra space of v-for alias (#8233),yongningfu,https://api.github.com/repos/vuejs/vue/git/commits/038ed86967b70a8b7305104e63afaa586857af48
+5cfdf1a2484fa73b572eae4afd196dcf9e1912ba,fix: handle undefined style properties in jsdom (fix #7444) (#8281),industral,https://api.github.com/repos/vuejs/vue/git/commits/5cfdf1a2484fa73b572eae4afd196dcf9e1912ba
+5489339a30e25d1bdea4492ea253144ede0d31f1,"refactor(core): Replace ""var"" (#8299)
+
+Replaces instances of ""var"" with ""let"" and ""const"" where applicable using the eslint 'no-var' and
+'prefer-const' rules",slichlyter12,https://api.github.com/repos/vuejs/vue/git/commits/5489339a30e25d1bdea4492ea253144ede0d31f1
+6eaf56e28d659f985934ae3a8782f90e9d6f1775,refactor: keep single source of truth (#8334),liximomo,https://api.github.com/repos/vuejs/vue/git/commits/6eaf56e28d659f985934ae3a8782f90e9d6f1775
+96b833bc5da5e5179bd56f1352cda84560451b89,refactor: remove unnecessary code in html-parser.js (#8359),xiongzixiao,https://api.github.com/repos/vuejs/vue/git/commits/96b833bc5da5e5179bd56f1352cda84560451b89
+504d5da7eff1c77117c2f57b0c4238e56de80fc5,fix(transition): transition-group should only listen for first-level children's end events (#8374),verstoff,https://api.github.com/repos/vuejs/vue/git/commits/504d5da7eff1c77117c2f57b0c4238e56de80fc5
+8c2674ea6a742173d278f3d6c3c75f4999b84293,refactor: remove unnecessary judgment (#8493),linjiajian999,https://api.github.com/repos/vuejs/vue/git/commits/8c2674ea6a742173d278f3d6c3c75f4999b84293
+59d4351ad8fc042bc263a16ed45a56e9ff5b013e,"fix(transition): handle local-formatted floats in toMs function.  (#8495)
+
+fix #4894",phablulo,https://api.github.com/repos/vuejs/vue/git/commits/59d4351ad8fc042bc263a16ed45a56e9ff5b013e
+2686818beb5728e3b7aa22f47a3b3f0d39d90c8e,"fix(error handling): handle errors on immediate watcher execution (#8581)
+
+The handle callback call should be wrapped in a try/catch that explicitly calls handleError
+
+fix #8567",afontcu,https://api.github.com/repos/vuejs/vue/git/commits/2686818beb5728e3b7aa22f47a3b3f0d39d90c8e
+2e472c5e5e559a7a4083b4164ffe0c3911ce0651,"fix(component): clean up memory leak after loading async component completes (fix #8740) (#8755)
+
+* fix(component): clean up memory leak after loading async component completes
+
+* fix(async component): accounting for async components with loading property
+
+* refactor(component): simplifying memory cleanup logic",mattlavallee,https://api.github.com/repos/vuejs/vue/git/commits/2e472c5e5e559a7a4083b4164ffe0c3911ce0651
+374861f72b8b8fda5aa5d54f96bc2f297c775719,refactor: remove redundant ternary (#8848),imanhodjaev,https://api.github.com/repos/vuejs/vue/git/commits/374861f72b8b8fda5aa5d54f96bc2f297c775719
+2bb3199da718be4e3150b5555bbf12364c3987be,"polish: warn duplicate keys when patching children into empty node (#8881)
+
+close #8832",DanielSanRocha,https://api.github.com/repos/vuejs/vue/git/commits/2bb3199da718be4e3150b5555bbf12364c3987be
+613cb52bf3e5fd6caee0a94fab953ac9fdd37924,"polish: improve invalid method warning with type info (#8974)
+
+close #8017",Stexxe,https://api.github.com/repos/vuejs/vue/git/commits/613cb52bf3e5fd6caee0a94fab953ac9fdd37924
+ac217d2472bb92ce901ef1f46595b44a1b5d1a18,"fix(types): fix `renderError`arguments type (#8636)
+
+fix #8635",st-sloth,https://api.github.com/repos/vuejs/vue/git/commits/ac217d2472bb92ce901ef1f46595b44a1b5d1a18
+0ba79e2588309ba386f570ed84d372611c4dd165,fix(types): accept `number` type as key on Vue.set/delete (#8707) (#8709),nel215,https://api.github.com/repos/vuejs/vue/git/commits/0ba79e2588309ba386f570ed84d372611c4dd165
+76443803e8878dc13a31ebed119abfd31573e7f1,"Typings: Improve $slots and $scopedSlots type to prevent unchecked access to undefined (#8946)
+
+* fix(types): Declare $scopedSlots as potentially undefined to enable stricter TS checks
+
+* fix(types): Fix tests
+
+* fix(types): declare $slots option as potentially undefined
+
+declare $slots option as potentially undefined to enable stricter TS checks",thenickname,https://api.github.com/repos/vuejs/vue/git/commits/76443803e8878dc13a31ebed119abfd31573e7f1
+97086f365808a040f6cf1ddb12e2b3f63d7769bf,"fix(types): fix vm.$once argument type (#8995)
+
+vm.$once should accept an event or array of events as first parameter.
+
+fix #8983",hugoazevedosoares,https://api.github.com/repos/vuejs/vue/git/commits/97086f365808a040f6cf1ddb12e2b3f63d7769bf
+1129d184482720bb52fa61f0a309645b7caaddd9,"refactor: reduce if-else nesting, coalesce conditions (#9060)",fluorine,https://api.github.com/repos/vuejs/vue/git/commits/1129d184482720bb52fa61f0a309645b7caaddd9
+05e8bcfe5d308f280f3640df96bd170fbcf1a9b5,fix: fix server env detection in wechat mini program (#9075),fjc0k,https://api.github.com/repos/vuejs/vue/git/commits/05e8bcfe5d308f280f3640df96bd170fbcf1a9b5
+f43ae6d151de3ab00a5fbd1bb5fd3fabf454de85,chore(typo): fix typo (#9085),saraedum,https://api.github.com/repos/vuejs/vue/git/commits/f43ae6d151de3ab00a5fbd1bb5fd3fabf454de85
+b111de486b1bdc747fe0f5795fe22697d151bb8c,fix: make sure global state is restored in the case of an exception in macrotask callback (#9093),mitar,https://api.github.com/repos/vuejs/vue/git/commits/b111de486b1bdc747fe0f5795fe22697d151bb8c
+b0ccb8618382b6ee143d68cf4498d6b3ec18aa81,chore: rephrase comment (#9100),jamesgeorge007,https://api.github.com/repos/vuejs/vue/git/commits/b0ccb8618382b6ee143d68cf4498d6b3ec18aa81
+0d62bb84ffa1af7a4826aecc11c429c7a020645c,"fix: actually disable dep collection when invoking lifecycle hooks (#9095)
+
+fix #9046",ysj16,https://api.github.com/repos/vuejs/vue/git/commits/0d62bb84ffa1af7a4826aecc11c429c7a020645c
+0b31647c41b0c916d40b962723b1de06672d0e01,chore: fix grammar in core/observer/index.js comments (#9116),HusamIbrahim,https://api.github.com/repos/vuejs/vue/git/commits/0b31647c41b0c916d40b962723b1de06672d0e01
+ef8524ab7db8d64ac449ce74f5858aa9d91357ad,"fix(compiler):  wrap scoped slots v-if conditions in parens (#9119)
+
+fix #9114",subu28,https://api.github.com/repos/vuejs/vue/git/commits/ef8524ab7db8d64ac449ce74f5858aa9d91357ad
+307835284a326569ea12c4a22c7dcb8f36d2d8ca,"fix(ssr): resolve server directives the same as on client (#9129)
+
+fix #8961",ggtmtmgg,https://api.github.com/repos/vuejs/vue/git/commits/307835284a326569ea12c4a22c7dcb8f36d2d8ca
+dfaf9e24361e10ae68ce3951eaf48262cf90f0ec,fix(types): type support for advanced async components (#8438),kiyui,https://api.github.com/repos/vuejs/vue/git/commits/dfaf9e24361e10ae68ce3951eaf48262cf90f0ec
+3d449376d557c4533a9664f95df3a168ecee9bfa,"fix(v-model): properly handle multiline v-model expressions (#9184)
+
+fix #9183",andrew-humu,https://api.github.com/repos/vuejs/vue/git/commits/3d449376d557c4533a9664f95df3a168ecee9bfa
+8fccd8256902b6199ac124017f70d75abb45ed27,chore: fix tag name in compiler/parser/index.js (#9165),sinshutu,https://api.github.com/repos/vuejs/vue/git/commits/8fccd8256902b6199ac124017f70d75abb45ed27
+87bad80f0cb9a30b95d9410120ff6e3e2022a723,"fix(lifecycle): beforeUpdated should not be called if component is destroyed (#9171)
+
+fix #8076",therealpecus,https://api.github.com/repos/vuejs/vue/git/commits/87bad80f0cb9a30b95d9410120ff6e3e2022a723
+6980035a86cfb79368af77a5040e468177d6b14a,chore: use keypress in TodoMVC example for IME input methods (#9172),FumioNonaka,https://api.github.com/repos/vuejs/vue/git/commits/6980035a86cfb79368af77a5040e468177d6b14a
+984393fed981c58ad79ed50424f023dcfa6829d0,test: change model text's priority case (#9170),dejour,https://api.github.com/repos/vuejs/vue/git/commits/984393fed981c58ad79ed50424f023dcfa6829d0
+af9e2b3f0f4156fd52ed4444b96e2b8c0932c658,chore: minor comment cleanup (#9191),nickhall,https://api.github.com/repos/vuejs/vue/git/commits/af9e2b3f0f4156fd52ed4444b96e2b8c0932c658
+57910723c6ba68386c15e095e42c1ed9603c7bcf,"feat(types): add Prop to main type declaration file (#6856)
+
+close #6850",ferdaber,https://api.github.com/repos/vuejs/vue/git/commits/57910723c6ba68386c15e095e42c1ed9603c7bcf
+6e9fcfc81d922a1b188268bf50d7e67c07d6d662,"feat(errors): sync/async error handling for lifecycle hooks and v-on handlers (#8395)
+
+close #6953, close #7653",enkot,https://api.github.com/repos/vuejs/vue/git/commits/6e9fcfc81d922a1b188268bf50d7e67c07d6d662
+f036cce16377cec328bee03a3a4069275b320312,"feat(ssr): Add 'nonce' option to context for ssr outlet script (#8047)
+
+close #7479",utatti,https://api.github.com/repos/vuejs/vue/git/commits/f036cce16377cec328bee03a3a4069275b320312
+d7a533d6f85aae52aed03202fa5ccb774f0cb2ec,feat(ssr): ssrPrefetch option + context.rendered hook (#9017),Akryum,https://api.github.com/repos/vuejs/vue/git/commits/d7a533d6f85aae52aed03202fa5ccb774f0cb2ec
+0e4e45ec741416e0042c29a53bbc0e58c8663f6e,"feat: support custom toString() in text interpolation and v-html (#8217)
+
+close #8093",mathieutu,https://api.github.com/repos/vuejs/vue/git/commits/0e4e45ec741416e0042c29a53bbc0e58c8663f6e
+3fca52792ef83fa58a5c28882706d9e8a039790d,"feat: v-bind.sync also listens for kebab-case update event (#8297)
+
+ fix #6428",shortdiv,https://api.github.com/repos/vuejs/vue/git/commits/3fca52792ef83fa58a5c28882706d9e8a039790d
+b31a1aa8870474b2ca782c45d55edac2932d4cc2,"feat(compiler): output source range for compiler errors (#7127)
+
+ref #6338",gzzhanghao,https://api.github.com/repos/vuejs/vue/git/commits/b31a1aa8870474b2ca782c45d55edac2932d4cc2
+9c718522bac60d13d3b48d6b6512fccfd5cf8858,"feat(compiler/watch): allow unicode characters in component names and watch paths (#8666)
+
+close #8564",youngrok,https://api.github.com/repos/vuejs/vue/git/commits/9c718522bac60d13d3b48d6b6512fccfd5cf8858
+d40eb9c2880c8dd27fedb9fbc508823a15742274,feat(v-for): support iterables in v-for (#8179),mymyoux,https://api.github.com/repos/vuejs/vue/git/commits/d40eb9c2880c8dd27fedb9fbc508823a15742274
+cf42f8e870f34e59e19f9cbf7ac6309c3c9c160c,"chore: update sponsors [ci skip] (#9296)
+
+[automated] Patreon sponsors update",vue-bot,https://api.github.com/repos/vuejs/vue/git/commits/cf42f8e870f34e59e19f9cbf7ac6309c3c9c160c
+537161779ea329c1d0a993997555f1c692b8cac1,"fix(core): fix merged twice bug when passing extended constructor to mixins (#9199)
+
+fix #9198",hikerpig,https://api.github.com/repos/vuejs/vue/git/commits/537161779ea329c1d0a993997555f1c692b8cac1
+d21e93139697be2c0a6fdc4ee74d30d2834a729f,"fix(async component): memory leak after synchronous async loading (#9275)
+
+fix #9229",adrienbaron,https://api.github.com/repos/vuejs/vue/git/commits/d21e93139697be2c0a6fdc4ee74d30d2834a729f
+b65f6d78e0e480601b0042b1b5e8259343b629fb,"feat(ssr): allow template option to be function in renderToString (#9324)
+
+Also allows return Promise for async handling",DominusVilicus,https://api.github.com/repos/vuejs/vue/git/commits/b65f6d78e0e480601b0042b1b5e8259343b629fb
+ec8403209ab9ecc526f696c032f6cd14c8d122bb,chore: update README in dist (#9346),multics,https://api.github.com/repos/vuejs/vue/git/commits/ec8403209ab9ecc526f696c032f6cd14c8d122bb
+539e481f38706a6202f0eacf54c579362fbd5bb4,fix: fix v-bind:style for camelCase properties with !important  (#9386),Itisfilipe,https://api.github.com/repos/vuejs/vue/git/commits/539e481f38706a6202f0eacf54c579362fbd5bb4
+1922e7d4d99d0397223b3919a1643aacb7afbbab,"fix(template-compiler): allow comments on the root node in templates (#9408)
+
+In SFC templates, we are allowed to add comments to the root node. If parsing with comments flag
+true, we are not anymore. This ignores the root comments in case they cannot be added.
+
+fix #9407",elevatebart,https://api.github.com/repos/vuejs/vue/git/commits/1922e7d4d99d0397223b3919a1643aacb7afbbab
+c27fe24dc6088b517ab17c799a1852f97c22c076,fix: decode single quotes in html attributes (#9341),bughit,https://api.github.com/repos/vuejs/vue/git/commits/c27fe24dc6088b517ab17c799a1852f97c22c076
+0fb03b7831693b4abc90dd0bfe971c36c02d82a6,"fix: avoid blocking first input event in IE when it shouldn't (#9297)
+
+- the original bug in #7138 only happens for `<textarea>`
+- the bug doesn't happen if placeholder has empty value
+
+fix #9042, fix #9383",nciont,https://api.github.com/repos/vuejs/vue/git/commits/0fb03b7831693b4abc90dd0bfe971c36c02d82a6
+66fd3c8dd1577d4b634731adf4be4d3db5bf1df6,"fix(v-model): add value to $attrs if not defined in props (#9331)
+
+fix #9330",lbogdan,https://api.github.com/repos/vuejs/vue/git/commits/66fd3c8dd1577d4b634731adf4be4d3db5bf1df6
+54e6a121e992f20c03f104533caa4c59e59b1ee7,fix(types): add Vue.version to types (#9431),mathe42,https://api.github.com/repos/vuejs/vue/git/commits/54e6a121e992f20c03f104533caa4c59e59b1ee7
+4015debe951c6b022dee5fc16869561b6c9981b4,chore: make documentation clearer (#9450),JakeConnors376W,https://api.github.com/repos/vuejs/vue/git/commits/4015debe951c6b022dee5fc16869561b6c9981b4
+2f3020e9cc1ad5c878606b56bb73a30b1d9bb7d9,"fix(#9511): avoid promise catch multiple times (#9526)
+
+* fix(#9511): avoid promise catch multiple times
+
+* fix(#9511): add a test case for util/error/invokeWithErrorHandling
+
+* fix(#9511): update test case for util/error/invokeWithErrorHandling",shasharoman,https://api.github.com/repos/vuejs/vue/git/commits/2f3020e9cc1ad5c878606b56bb73a30b1d9bb7d9
+ed341137b23315b76ba391db1b0e537950c091e1,"fix: handle async component when parent is toggled before resolve (#9572)
+
+fix #9571",maoberlehner,https://api.github.com/repos/vuejs/vue/git/commits/ed341137b23315b76ba391db1b0e537950c091e1
+1574ade607499bf4e3cf270c69249893e29eb259,"test: Add a unit test for ""$off event and this event added by $once"" (#9550)",Luxiaosong,https://api.github.com/repos/vuejs/vue/git/commits/1574ade607499bf4e3cf270c69249893e29eb259
+6ad99796c747987142c21b45c9361cca60e54e68,docs: fix spelling and grammatical errors (#9619),jagannathBhat,https://api.github.com/repos/vuejs/vue/git/commits/6ad99796c747987142c21b45c9361cca60e54e68
+2747a657654d1006bf7061faec1b3029fb9b4432,test: remove unused code (#9684),decadef20,https://api.github.com/repos/vuejs/vue/git/commits/2747a657654d1006bf7061faec1b3029fb9b4432
+d44cc20e968cb5a44202813e22b3b7c1377e69b1,chore: remove unused build alias (#9525),flyyang,https://api.github.com/repos/vuejs/vue/git/commits/d44cc20e968cb5a44202813e22b3b7c1377e69b1
+982d5a492fb95577217e2dacaa044eabe78a8601,"fix(types): support string type for style in VNode data (#9728)
+
+fix #9727",VitorLuizC,https://api.github.com/repos/vuejs/vue/git/commits/982d5a492fb95577217e2dacaa044eabe78a8601
+df4af4bd1906b9f23b62816142fdfbd6336d3d2f,"fix(types): allow using functions on the PropTypes (#9733)
+
+close #9692",pikax,https://api.github.com/repos/vuejs/vue/git/commits/df4af4bd1906b9f23b62816142fdfbd6336d3d2f
+bf5ceb759a0c9dfc8a9fa05b024f3d9aa4ea70e4,polish: improve template compiler version mismatch warning (#9738),mcmillenb,https://api.github.com/repos/vuejs/vue/git/commits/bf5ceb759a0c9dfc8a9fa05b024f3d9aa4ea70e4
+02d21c265c239682e73b2b3f98028f2da5e7205d,"fix(core): cleanup timeouts for async components (#9649)
+
+close #9648",ahus1,https://api.github.com/repos/vuejs/vue/git/commits/02d21c265c239682e73b2b3f98028f2da5e7205d
+546e7d14adddad643f0065ba91c95d69cbbb020e,docs(contributing): add yarn requirement to guide (#9848),DaKoala,https://api.github.com/repos/vuejs/vue/git/commits/546e7d14adddad643f0065ba91c95d69cbbb020e
+29e745f99f43d0629df547da80b016996ae70872,chore: improve license clarity of simplehtmlparser.js (#9907),hyandell,https://api.github.com/repos/vuejs/vue/git/commits/29e745f99f43d0629df547da80b016996ae70872
+43b98fe25151b0b6bacd36f3ee27c5d61add5fdb,"refactor: remove useless parameter to the function removeVnodes (#9914)
+
+close #9910",lessfish,https://api.github.com/repos/vuejs/vue/git/commits/43b98fe25151b0b6bacd36f3ee27c5d61add5fdb
+bd6cea0973247e2a8e1d4a2250614c0bf44f0b26,test: fix running e2e test on windows (#9909),zrh122,https://api.github.com/repos/vuejs/vue/git/commits/bd6cea0973247e2a8e1d4a2250614c0bf44f0b26
+861aea16615a9736eab6af6d05fa5500ae4d6c37,polish: add warning when .native modifier is used on native HTML elements (#9884),NataliaTepluhina,https://api.github.com/repos/vuejs/vue/git/commits/861aea16615a9736eab6af6d05fa5500ae4d6c37
+1137e415c9e8701d1b0a25e5812f8c4dffeeeaaa,chore(typo): fix typo in comments (#9995),sairoutine,https://api.github.com/repos/vuejs/vue/git/commits/1137e415c9e8701d1b0a25e5812f8c4dffeeeaaa
+0caebfe905bc1e587fb583de778287c2362bba1a,chore(typo): fix README tag mismatch (#9934),msidolphin,https://api.github.com/repos/vuejs/vue/git/commits/0caebfe905bc1e587fb583de778287c2362bba1a
+f64765fa03c1eb1d37f3301ea5beb4d18e57158a,chore(typo): fix comment typo (#10101),Magiccwl,https://api.github.com/repos/vuejs/vue/git/commits/f64765fa03c1eb1d37f3301ea5beb4d18e57158a
+d40b7ddb8177944d1dd50f4f780e6fd92c9455c2,chore: typo in variable name (#10358),git-nkliyc,https://api.github.com/repos/vuejs/vue/git/commits/d40b7ddb8177944d1dd50f4f780e6fd92c9455c2
+369dbe711a037b04612bca2f2e961282bdbb9153,chore(benchmarks): use flex-wrap (#10380),DanielRuf,https://api.github.com/repos/vuejs/vue/git/commits/369dbe711a037b04612bca2f2e961282bdbb9153
+5bbb077cd9d79eabab0002c459d373d75e532ef0,docs: fix link to point to ModuleOptions lines (#10531),tlebel,https://api.github.com/repos/vuejs/vue/git/commits/5bbb077cd9d79eabab0002c459d373d75e532ef0
+3dcd85b82693765b13e866132bcaa318ef086fe5,chore: fix typo in <template v-slot> warning (#10585),Xenonym,https://api.github.com/repos/vuejs/vue/git/commits/3dcd85b82693765b13e866132bcaa318ef086fe5
+d7d8ff06b70cf1a2345e3839c503fdb08d75ba49,chore: fix typo in `next-tick.js` comment (#10607),evillt,https://api.github.com/repos/vuejs/vue/git/commits/d7d8ff06b70cf1a2345e3839c503fdb08d75ba49
+0645fe61bf2f05e7ad4f71c44b2ae8af2e97662f,"build(deps): bump eslint-utils from 1.3.1 to 1.4.2 (#10630)
+
+Bumps [eslint-utils](https://github.com/mysticatea/eslint-utils) from 1.3.1 to 1.4.2.
+- [Release notes](https://github.com/mysticatea/eslint-utils/releases)
+- [Commits](https://github.com/mysticatea/eslint-utils/compare/v1.3.1...v1.4.2)
+
+Signed-off-by: dependabot[bot] <support@github.com>",dependabot[bot],https://api.github.com/repos/vuejs/vue/git/commits/0645fe61bf2f05e7ad4f71c44b2ae8af2e97662f
+d1164f1a310444ea0b4efe53819f0054f0e2dab8,chore: Fastcoding Inc broken icon [ci skip] (#10638),Naartti,https://api.github.com/repos/vuejs/vue/git/commits/d1164f1a310444ea0b4efe53819f0054f0e2dab8
+6b4c0f9c89899f89a3ef258fb0599d78bef65664,chore: typo in comment,7006,https://api.github.com/repos/vuejs/vue/git/commits/6b4c0f9c89899f89a3ef258fb0599d78bef65664
+70429c3713a497c0659fb67d61b000a3125325d2,build(deps-dev): bump serialize-javascript from 1.3.0 to 2.1.2 (#10914),mateusvelleda,https://api.github.com/repos/vuejs/vue/git/commits/70429c3713a497c0659fb67d61b000a3125325d2
+468c323af1f7e296886d5df1a05d3793f60f9e8f,docs: fix typo (#11050),alanmatw,https://api.github.com/repos/vuejs/vue/git/commits/468c323af1f7e296886d5df1a05d3793f60f9e8f
+841bb084ca288e142b1958346bb1182bf6f0a564,chore: fix typo in element test (#11085),hareku,https://api.github.com/repos/vuejs/vue/git/commits/841bb084ca288e142b1958346bb1182bf6f0a564
+dad3d99f324986a418f0b9ccf038146a3dedcf2f,chore(readme): svg image (#11078) [ci skip],eltociear,https://api.github.com/repos/vuejs/vue/git/commits/dad3d99f324986a418f0b9ccf038146a3dedcf2f
+6390f70c2e4ec7e51cce1d2a4ba35e2d0d328205,chore(platforms/web/server/util): Removes duplicate values from the attr list (#11064),ahaoboy,https://api.github.com/repos/vuejs/vue/git/commits/6390f70c2e4ec7e51cce1d2a4ba35e2d0d328205

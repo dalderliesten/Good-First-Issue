@@ -1,0 +1,300 @@
+Issue Description,Assignees to the Issue,Link
+https: Agent.createConnection mutates options object,,https://github.com/nodejs/node/issues/31119
+module: incorrect relative path for dynamic import in REPL,,https://github.com/nodejs/node/issues/30868
+doc: fix recommendation of setImmediate() over process.nextTick(),,https://github.com/nodejs/node/issues/30801
+esm: invalid extension error should provide parent context in error,,https://github.com/nodejs/node/issues/30721
+Non-JS extensions not always throwing in ESM resolver,,https://github.com/nodejs/node/issues/30632
+Better not found errors for ESM,,https://github.com/nodejs/node/issues/30603
+--experimental-resolve-self and exports sugar,,https://github.com/nodejs/node/issues/30602
+Experimental modules warning does not show when using dynamic import,,https://github.com/nodejs/node/issues/30601
+--experimental modules flags should have warnings,,https://github.com/nodejs/node/issues/30600
+Combine ERR_REQUIRE_ESM with warning,,https://github.com/nodejs/node/issues/30599
+fs: make rmdir() emfileWait handle ENFILE,,https://github.com/nodejs/node/issues/30482
+windows: test-source-map failure,,https://github.com/nodejs/node/issues/30441
+Doctool may swallow errors due to unhandled async functions,,https://github.com/nodejs/node/issues/30090
+http docs should refer to stream.Duplex instead of net.Socket,,https://github.com/nodejs/node/issues/29948
+NODE_V8_COVERAGE does not fail gracefully when inspector is disabled,,https://github.com/nodejs/node/issues/29542
+repl: bug in fs module autocompletion,,https://github.com/nodejs/node/issues/29424
+doc: AsyncGenerator + Writable + unhandled exception,,https://github.com/nodejs/node/issues/29397
+Cannot read property 'bigint' of undefined,,https://github.com/nodejs/node/issues/29113
+"tls.DEFAULT_MIN_VERSION according to docs is v11 feature, but its present in v10.16.0 and is incorrect",,https://github.com/nodejs/node/issues/28758
+add note in BUILDING.md about running `make distclean`,,https://github.com/nodejs/node/issues/28675
+doc: crypto.createDiffieHellmanGroup() not documented,,https://github.com/nodejs/node/issues/28523
+writable stream _write and _writev,,https://github.com/nodejs/node/issues/28408
+Fix documentation for `childProcess.kill(signal)`: `signal` can be a number,,https://github.com/nodejs/node/issues/27750
+API docs: type for TLS Certificate's `subjectaltname` field is wrong.,,https://github.com/nodejs/node/issues/27721
+Update terminal environment variables to detect colors,,https://github.com/nodejs/node/issues/27609
+"cleanup: reduce the number of `#include ""env.h""` and `#include ""env-inl.h""` in the code base",,https://github.com/nodejs/node/issues/27531
+test/parallel/test-dgram-connect.js fails locally,,https://github.com/nodejs/node/issues/27341
+path.extname('.a.a')!='',,https://github.com/nodejs/node/issues/27292
+Refactor RealEnvStore methods to use uv_os_getenv/setenv/unsetenv,,https://github.com/nodejs/node/issues/27211
+"Can we report the node versions, in addition to the ABI version, on ABI mismatch?",,https://github.com/nodejs/node/issues/27100
+meaning of the boolean return value of `send()` not documented,,https://github.com/nodejs/node/issues/26995
+error docs for SystemErrors seems to partially predate the existence of the class,,https://github.com/nodejs/node/issues/26861
+lib: reduce internal usage of public require('util'),,https://github.com/nodejs/node/issues/26546
+tests: review and fix ineffective error tests,,https://github.com/nodejs/node/issues/26385
+Bug: 'Eterm' → 'eterm' in getColorDepth,,https://github.com/nodejs/node/issues/26077
+doc(http): res.write(data) followed by res.end() is not actually equivalent to res.end(data),,https://github.com/nodejs/node/issues/26005
+doc: ERR_SYNTHETIC issues on v11.x,,https://github.com/nodejs/node/issues/25750
+docs: Dirent definition doesn't tell me anything useful about Dirent,,https://github.com/nodejs/node/issues/25595
+Vary: Accept-Encoding missing in zlib examples,,https://github.com/nodejs/node/issues/25495
+doc: `os.networkInterfaces()` example outdated,,https://github.com/nodejs/node/issues/25408
+Need change in the read me file,,https://github.com/nodejs/node/issues/24872
+Worker should indicate it inherits from EventEmitter,,https://github.com/nodejs/node/issues/24732
+Remove util.inherits usage internally?,,https://github.com/nodejs/node/issues/24395
+doc: list the stability status of each API in one place?,,https://github.com/nodejs/node/issues/23723
+module: createRequireFromPath documentation is incorrect,,https://github.com/nodejs/node/issues/23710
+Node core building instructions in one place,,https://github.com/nodejs/node/issues/23491
+Can we restart the work on overridable globalAgent?,,https://github.com/nodejs/node/issues/23281
+"doc: document ""flat"" `util.inspect` signature",,https://github.com/nodejs/node/issues/23205
+doc: crypto sign.sign() signature description missing options,,https://github.com/nodejs/node/issues/22813
+Add blurb to N-API documentation indicating that we recommend the use of badges,,https://github.com/nodejs/node/issues/22796
+test: help annotate `test/parallel/test-util-log.js`,,https://github.com/nodejs/node/issues/22472
+Document `Buffer.of()`,,https://github.com/nodejs/node/issues/22367
+Documentation for BufferwriteDoubleLE/writeDoubleBE is confusing,,https://github.com/nodejs/node/issues/22158
+fs.rename doesn't work as documented,,https://github.com/nodejs/node/issues/21957
+10.7.0 doc mistake: new vm.Module,,https://github.com/nodejs/node/issues/21904
+"When worker thread throw an error, main thread recieves exit code 0 instead of 1",,https://github.com/nodejs/node/issues/21707
+dns.js not properly iterating through DNS array,,https://github.com/nodejs/node/issues/21391
+doc: explicitly mention that the explanation of an synchronous fs API live in the docs of the async API,,https://github.com/nodejs/node/issues/21197
+Offset must be >= 0 && <= 0 Out of range 0 :-),,https://github.com/nodejs/node/issues/21193
+There may be a syntax error in the nodejs napi doc.,,https://github.com/nodejs/node/issues/21049
+Inconsistent documentation: hostname vs host,,https://github.com/nodejs/node/issues/20892
+doc: outdated link,,https://github.com/nodejs/node/issues/20853
+Add lint rule to enforce snake_case in file names,,https://github.com/nodejs/node/issues/20446
+"fs: promises have undocumented write(string,…) method",,https://github.com/nodejs/node/issues/20406
+Update openssl command to list digest algos in docs,,https://github.com/nodejs/node/issues/20385
+Please remove eu-strip from tarball,,https://github.com/nodejs/node/issues/20280
+doc: add section in fs to document mode argument,,https://github.com/nodejs/node/issues/20049
+State explicitly in docs that 'close' does not take any arguments,,https://github.com/nodejs/node/issues/20018
+doc: make test commands a little more consistent,,https://github.com/nodejs/node/issues/19919
+stream: simplify checks for highWaterMark,,https://github.com/nodejs/node/issues/19893
+"fs,net: missing documentation for new ""ready"" events",,https://github.com/nodejs/node/issues/19796
+Http2SecureServer.close fails,,https://github.com/nodejs/node/issues/19711
+stream: update comment for needMoreData,,https://github.com/nodejs/node/issues/19695
+Listening to SIGUSR1 blocks debugger,,https://github.com/nodejs/node/issues/19619
+test: More descriptive name for test file names ,,https://github.com/nodejs/node/issues/19592
+"doc: missing ""changes"" entry for vm code generation options",,https://github.com/nodejs/node/issues/19419
+test: Incorrect assumptions on the user uid and gid,,https://github.com/nodejs/node/issues/19371
+Standardize `ready` event for built-in streams,,https://github.com/nodejs/node/issues/19304
+Documents about difference of inspect or --inspect and it's arguments,,https://github.com/nodejs/node/issues/19066
+`ecdh.setPublicKey` is actually useful and should be undeprecated,,https://github.com/nodejs/node/issues/18977
+V8: upcoming deprecation warnings,,https://github.com/nodejs/node/issues/18909
+Reduce benchmark test run time,,https://github.com/nodejs/node/issues/18778
+New documentation lint rule,,https://github.com/nodejs/node/issues/18703
+Cannot attach to second node process by using SIGUSR1,,https://github.com/nodejs/node/issues/18639
+O_SYNC with O_APPEND flag in fs.open?,,https://github.com/nodejs/node/issues/18635
+"`make lint-ci` lints docs, but `make lint` doesn't",,https://github.com/nodejs/node/issues/18466
+URLHost not robust when re-setting its value,,https://github.com/nodejs/node/issues/18302
+shell option for execFile and execFileSync in child_process module not documented,,https://github.com/nodejs/node/issues/18199
+Wrong v9.4.0 documentation for `ServerHttp2Stream#pushStream()`,,https://github.com/nodejs/node/issues/18198
+Tracking issue: Migrate errors to internal/errors.js,,https://github.com/nodejs/node/issues/17709
+Change type annotations for eventName in events API doc to {string|symbol},,https://github.com/nodejs/node/issues/17657
+The behavior of Buffer#compare doesn't match its documentation,,https://github.com/nodejs/node/issues/17618
+I think child_process.fork() should officially support { detached: true },,https://github.com/nodejs/node/issues/17592
+Allow --perf-prof an --perf-basic-prof in NODE_OPTIONS,,https://github.com/nodejs/node/issues/17571
+expected behaviour of `fs.constants.W_OK`,,https://github.com/nodejs/node/issues/17508
+if test suite is aborted early `tools/doc/node_modules` and `tools/doc/package-lock.json` are not removed,,https://github.com/nodejs/node/issues/17216
+[Tracking issue] Converting tests to use Countdown,,https://github.com/nodejs/node/issues/17169
+tools: `make lint-js` should not lint test/tmp*,,https://github.com/nodejs/node/issues/17029
+Added meta data from v8.1.0 was not added. Mistakenly lists some APIs as added in 9.0.0,,https://github.com/nodejs/node/issues/17026
+node 9 loses error call site information in Buffer.concat,,https://github.com/nodejs/node/issues/16994
+util: escaping object keys in util.inspect(),,https://github.com/nodejs/node/issues/16979
+Missing status message list update for napi_handle_scope_mismatch,,https://github.com/nodejs/node/issues/16973
+build: there are two bench phony targets in the makefile,,https://github.com/nodejs/node/issues/16968
+Document no-op console methods,,https://github.com/nodejs/node/issues/16755
+crypto: Better documentation for cases where peer's public key is invalid,,https://github.com/nodejs/node/issues/16625
+"doc: include the words ""constant time"" in crypto.timingSafeEqual description",,https://github.com/nodejs/node/issues/16504
+--prof flag not documented in --help output,,https://github.com/nodejs/node/issues/16459
+meta: articles about PR communication,,https://github.com/nodejs/node/issues/16359
+Improve trace_event documentation,,https://github.com/nodejs/node/issues/16315
+Docs on http.Server.listen() need clarifications on accepted args ,,https://github.com/nodejs/node/issues/16300
+fs.truncate accepts an fd but it's poorly documented,,https://github.com/nodejs/node/issues/15753
+Handing spawn() stdio as socket wont duplex properly,,https://github.com/nodejs/node/issues/15714
+Cannot properly close/cleanup character device ReadStream (process hangs),,https://github.com/nodejs/node/issues/15439
+Add `#ifdef O_DSYNC`,,https://github.com/nodejs/node/issues/15425
+http2 - cannot use client certificate and key,,https://github.com/nodejs/node/issues/15405
+doc - wrong history entry,,https://github.com/nodejs/node/issues/15379
+Document how to use StringDecoder in combination with stream.Transform,,https://github.com/nodejs/node/issues/15369
+fs.watchFile inconsistent stat return,,https://github.com/nodejs/node/issues/15364
+http -  http.ClientRequest doesn't emit 'aborted'?,,https://github.com/nodejs/node/issues/15259
+http2: improve code coverage,,https://github.com/nodejs/node/issues/14985
+"http2,doc: links missing definition",,https://github.com/nodejs/node/issues/14857
+change test/addons/ to ignore empty folders,,https://github.com/nodejs/node/issues/14843
+"crypto: crypto.create* - argument ""options"" is undocumented",,https://github.com/nodejs/node/issues/14804
+Documentation should mention `encoding` instead of `defaultEncoding` as options property for `fs.createWriteStream`,,https://github.com/nodejs/node/issues/14611
+C++ linter is not run on src/*/*,,https://github.com/nodejs/node/issues/14490
+repl: '...' should not be detected  as REPL keyword,,https://github.com/nodejs/node/issues/14426
+module.paths is undocumented,,https://github.com/nodejs/node/issues/14371
+Outdated comment in timers,,https://github.com/nodejs/node/issues/14308
+"child_process,Windows: fix docs for `spawn({shell})`",,https://github.com/nodejs/node/issues/14156
+[DOC] Buffer.from / new Buffer accept Uint8Array (missing),,https://github.com/nodejs/node/issues/14118
+child_process: fork() with shell is impossible?,,https://github.com/nodejs/node/issues/13983
+N-API: expose function to suggest GC extends external memory,,https://github.com/nodejs/node/issues/13928
+entry for inspector in onboarding-extras.md,,https://github.com/nodejs/node/issues/13621
+mips64el should be listed in configure's valid_arch ?,,https://github.com/nodejs/node/issues/13616
+test: test-http(s)-set-timeout-server.js tests should be more similar,,https://github.com/nodejs/node/issues/13588
+https: https.Server should be more careful with passed options,,https://github.com/nodejs/node/issues/13584
+Ubuntu Bash environment on Windows 10,,https://github.com/nodejs/node/issues/13471
+"test: `common.skip` should not throw ""Mismatched function calls""",,https://github.com/nodejs/node/issues/13444
+doc: http.request and https.request accepts WHATWG URL object as argument,,https://github.com/nodejs/node/issues/13383
+doc: incorrect backtick usage,,https://github.com/nodejs/node/issues/13382
+Crypto docs don't explain the function signatures,,https://github.com/nodejs/node/issues/12946
+Doc link broken,,https://github.com/nodejs/node/issues/12928
+Document how to get swap endian for the Buffer class,,https://github.com/nodejs/node/issues/12813
+https.createServer accepts any non-falsey values for key and cert,,https://github.com/nodejs/node/issues/12802
+Note that whatwg-url tests should not be modified,,https://github.com/nodejs/node/issues/12793
+"doc, test: question about test.py -v key in CONTRIBUTING.md",,https://github.com/nodejs/node/issues/12771
+doc: typo in api/process.md,,https://github.com/nodejs/node/issues/12565
+"What are Node.js ""Linked"" modules?",,https://github.com/nodejs/node/issues/12516
+Test parallel/test-setproctitle.js fails on alpine,,https://github.com/nodejs/node/issues/12399
+doc: confusing language in util.format() docs,,https://github.com/nodejs/node/issues/12362
+"doc,fs: document WHATWG URL support",,https://github.com/nodejs/node/issues/12341
+readdir docs don’t mention when options argument was added,,https://github.com/nodejs/node/issues/12299
+docs: explain why path.posix.normalize does not replace windows slashes,,https://github.com/nodejs/node/issues/12298
+Code example in the docs of Error.captureStackTrace needs better wording,,https://github.com/nodejs/node/issues/12289
+AssertionError is not documented,,https://github.com/nodejs/node/issues/12274
+Any way to bypass querystring.stringify with empty Object ?,,https://github.com/nodejs/node/issues/12234
+Shebang parsing is slightly different when using the --check flag,,https://github.com/nodejs/node/issues/12180
+"Documentation, dns.resolvePtr(hostname) missing callback argument",,https://github.com/nodejs/node/issues/12161
+Get method does not check options's Object prototype,,https://github.com/nodejs/node/issues/12092
+"Should we replace the word ""OS X"" with ""macOS""?",,https://github.com/nodejs/node/issues/12086
+test: tweak addon tests,,https://github.com/nodejs/node/issues/12031
+Document CI jobs,,https://github.com/nodejs/node/issues/12021
+new lint option on windows is missing documentation,,https://github.com/nodejs/node/issues/11971
+vm benchmarks are broken,,https://github.com/nodejs/node/issues/11895
+Add `vcbuild cpplint` and and update CONTRIBUTING.md,,https://github.com/nodejs/node/issues/11816
+doc: missing API links in process markdown,,https://github.com/nodejs/node/issues/11717
+Document that you can only listen on an already closed socket,,https://github.com/nodejs/node/issues/11685
+Some possible bugs concerning fs.appendFile() and fs.writeFile(),,https://github.com/nodejs/node/issues/11595
+"doc,vm: warn more prominently against executing untrusted code",,https://github.com/nodejs/node/issues/11550
+Degraded performance of ia32 builds on x64 Windows and undocumented build parameter,,https://github.com/nodejs/node/issues/11500
+"Implement a test to ensure that cluster properly interoperates with the --{inspect,debug}-brk options",,https://github.com/nodejs/node/issues/11420
+"socket encodings don't link to possible encoding values, and describe behaviour which does not exist",,https://github.com/nodejs/node/issues/11352
+Linter rule: use ASCII quotes not Unicode ones,,https://github.com/nodejs/node/issues/11209
+buffer: Invalid bytes length calculation,,https://github.com/nodejs/node/issues/11165
+Certain docs have very little information provided per API,,https://github.com/nodejs/node/issues/11135
+fs.readFileSync returns corrupt ArrayBuffer (fs.readFile works as expected),,https://github.com/nodejs/node/issues/11132
+Reading a directory,,https://github.com/nodejs/node/issues/10962
+cli: misaligned node --help text,,https://github.com/nodejs/node/issues/10935
+benchmark: setImmediate benchmarks in misc/ should be moved to timers/,,https://github.com/nodejs/node/issues/10926
+doc: http response.getHeader() documentation partially incorrect,,https://github.com/nodejs/node/issues/10803
+Child Process: fork stdio option doesn't support the String variant that spawn does,,https://github.com/nodejs/node/issues/10793
+doc: guide on backpressure,,https://github.com/nodejs/node/issues/10766
+vm: misleading language,,https://github.com/nodejs/node/issues/10697
+"References to an ""KeepAlive"" flag in the http.Agent constructor, when it is actually ""keepAlive""",,https://github.com/nodejs/node/issues/10567
+getHeader() returns undefined after using writeHead() in a certain circumstance,,https://github.com/nodejs/node/issues/10354
+Possibly deoptimizing use of `arguments` in libs,,https://github.com/nodejs/node/issues/10323
+doc: documentation for WriteStream.cursorTo and other TTY methods,,https://github.com/nodejs/node/issues/9853
+doc: doc/api/modules.md needs a better explanation of `exports`,,https://github.com/nodejs/node/issues/9840
+test: DNS for bare domain fails with fritz.box search domain,,https://github.com/nodejs/node/issues/9799
+should the fact that `this` is bound to module.exports be documented?,,https://github.com/nodejs/node/issues/9623
+doc: crypto.privateEncrypt() padding list needs update,,https://github.com/nodejs/node/issues/9609
+n.kill(19) throws error,,https://github.com/nodejs/node/issues/9519
+configure fails on linux for distributions using python 3 as default,,https://github.com/nodejs/node/issues/9512
+test-icu-transcode fails built without intl,,https://github.com/nodejs/node/issues/9511
+test failures without openssl-cli,,https://github.com/nodejs/node/issues/9509
+Incorrect documentation for fs.write with Buffers,,https://github.com/nodejs/node/issues/9479
+readdirSync of drive letter lists items of cwd,,https://github.com/nodejs/node/issues/9378
+module.children behavior does not match documentation (only tracks first requires),,https://github.com/nodejs/node/issues/9371
+Inaccurate https.request options docs,,https://github.com/nodejs/node/issues/9324
+doc: need better link to signals list in process documentation,,https://github.com/nodejs/node/issues/9309
+doc: `process` formatting issues,,https://github.com/nodejs/node/issues/9223
+"stdout, stderr and stdin are all Duplex streams but documentation states otherwise",,https://github.com/nodejs/node/issues/9201
+Mention case-insensitivity in process.env docs,,https://github.com/nodejs/node/issues/9157
+watch always fires rename event,,https://github.com/nodejs/node/issues/9082
+http core module issue,,https://github.com/nodejs/node/issues/9069
+assert.js rule 7.4 (similar to CJS rule 7.3),,https://github.com/nodejs/node/issues/9063
+Modify https.globalAgent doesn't effect,,https://github.com/nodejs/node/issues/9057
+Create Lint Rule to avoid `let` in `for` loops,,https://github.com/nodejs/node/issues/9045
+openssl list-public-key-algorithms on crypto docs,,https://github.com/nodejs/node/issues/9005
+Outdated variable name in comment,,https://github.com/nodejs/node/issues/9001
+Debugging: name every function,,https://github.com/nodejs/node/issues/8913
+Debugging: Stabilize hidden classes for improved heap snapshots,,https://github.com/nodejs/node/issues/8912
+doc: explain why we don't use the GitHub merge button,,https://github.com/nodejs/node/issues/8893
+stream: confusing comment,,https://github.com/nodejs/node/issues/8856
+"`fs.rmdir()` on file (not directory) has ""ENOTDIR"" on Linux/macOS vs ""ENOENT"" on Windows",,https://github.com/nodejs/node/issues/8797
+"stream, test: Add test for _writableState clearBuffer state machine",,https://github.com/nodejs/node/issues/8687
+"stream, test: Add test for _writableState state machine",,https://github.com/nodejs/node/issues/8686
+"stream, test: add test for _readableState.readingMore",,https://github.com/nodejs/node/issues/8685
+"stream, test: add tests for _readableStream.awaitDrain",,https://github.com/nodejs/node/issues/8684
+"stream, test: add tests for 'readable' state machine",,https://github.com/nodejs/node/issues/8683
+"stream, test: Increase the coverage of _readableState and _writableState properties",,https://github.com/nodejs/node/issues/8644
+"How do I implement `MyObject.inspect(depth, inspectOpts)`?",,https://github.com/nodejs/node/issues/8442
+Suggestion: http doc should mention special handling for HEAD and 304,,https://github.com/nodejs/node/issues/8057
+"Newlines missing carriage returns in REPL, util.inspect() output",,https://github.com/nodejs/node/issues/7954
+OUTPUT_FORMAT=csv option is missing from benchmark/common.js,,https://github.com/nodejs/node/issues/7890
+HTTP Module Documentation Missing 'Error' Event,,https://github.com/nodejs/node/issues/7723
+Omission in the fs doc,,https://github.com/nodejs/node/issues/7099
+--inspect message wraps poorly in default terminal sizes.,,https://github.com/nodejs/node/issues/7067
+"Doc describes HTTP ""abort"" event, but not ""aborted""",,https://github.com/nodejs/node/issues/6925
+doc: formatting issues for child_process docs,,https://github.com/nodejs/node/issues/6911
+Update Readme section on verifying signatures,,https://github.com/nodejs/node/issues/6821
+child_process.exec() fails with spaces in absolute or relative path to binary file,,https://github.com/nodejs/node/issues/6803
+Stream.Writable reports wrong number in _writableState.bufferedRequestCount,,https://github.com/nodejs/node/issues/6758
+Document how to test if a file exists,,https://github.com/nodejs/node/issues/6752
+docs do not state at what version an API was introduced (or deprecated),,https://github.com/nodejs/node/issues/6578
+doc: dns.resolve wrong callback addresses argument description,,https://github.com/nodejs/node/issues/6506
+Ambiguity in docs on console.log and util.format,,https://github.com/nodejs/node/issues/6341
+Bail out of child_process.spawn earlier if file undefined,,https://github.com/nodejs/node/issues/6127
+ServerResponse doesn't inherit from stream.Writable as documented,,https://github.com/nodejs/node/issues/6046
+Testing the doctool,,https://github.com/nodejs/node/issues/5955
+"doc: Buffer buf.readInt32LE(offset[, noAssert]) example incorrect",,https://github.com/nodejs/node/issues/5889
+net: `_connectionKey` given wrong value for large port,,https://github.com/nodejs/node/issues/5727
+doc:Error:captureStackTrace description inaccurate,,https://github.com/nodejs/node/issues/5675
+`doc/api/tls.markdown` needs punctuation fixes,,https://github.com/nodejs/node/issues/5672
+`doc/api/path.markdown` needs a win32 example for `path.format()`,,https://github.com/nodejs/node/issues/5671
+doc: Event: 'unhandledRejection' code example not borked,,https://github.com/nodejs/node/issues/5644
+Run lint before tests on Windows,,https://github.com/nodejs/node/issues/5514
+Child Process send incorrectly serializes values,,https://github.com/nodejs/node/issues/5453
+Feature request: better crypto error messages,,https://github.com/nodejs/node/issues/5444
+doc net: incorrect error handling documented for listen(),,https://github.com/nodejs/node/issues/5345
+Wrong legacy API parameter caused by typo in _http_agent.js,,https://github.com/nodejs/node/issues/5051
+Case-sensitive algorithm argument in crypto.createVerify(),,https://github.com/nodejs/node/issues/5031
+readline documentation: event 'line' section wrongly restricts EOL to '\n' only,,https://github.com/nodejs/node/issues/4916
+doc: Explicitly indicate that EventEmitter's listeners will still be invoked if they were removed during the emit cycle,,https://github.com/nodejs/node/issues/4759
+Add Buffer.prototype.lastIndexOf(),,https://github.com/nodejs/node/issues/4604
+doc: http `response` event options (agent.getName()?),,https://github.com/nodejs/node/issues/4586
+Bad link in README.md for LTS version,,https://github.com/nodejs/node/issues/4569
+Bad readline behavior with line ending characters?,,https://github.com/nodejs/node/issues/4402
+docs: clarify man(N) references,,https://github.com/nodejs/node/issues/4375
+Out of date node-addon-examples,,https://github.com/nodejs/node/issues/4339
+(new TLSSocket(new net.Socket())).connect() fails silently.,,https://github.com/nodejs/node/issues/3963
+Ensure '(node)' prefix for stdout logging,,https://github.com/nodejs/node/issues/3789
+util: .inspect() misformats __proto__ property on prototype-less object,,https://github.com/nodejs/node/issues/3788
+zlib: inconsistent call to flush callback on oversized buffers,,https://github.com/nodejs/node/issues/3782
+Buffer.prototype.indexOf docs are missing encoding argument,,https://github.com/nodejs/node/issues/3570
+Add Buffer#includes(),,https://github.com/nodejs/node/issues/3552
+console.timeEnd shouldn't throw if there is no matching label,,https://github.com/nodejs/node/issues/3514
+REPL history file should not be world-readable,,https://github.com/nodejs/node/issues/3392
+Undocumented options for child_process.exec and execSync?,,https://github.com/nodejs/node/issues/3387
+Documentation: update 'cluster',,https://github.com/nodejs/node/issues/3313
+"Fix capitalization of b.writeUint16LE(0x90ab, 0) in buffer docs",,https://github.com/nodejs/node/issues/3223
+Standardize `userland` vs. `user-land`,,https://github.com/nodejs/node/issues/3189
+"CONTRIBUTING.md should direct ""help me"" type questions to the help repo",,https://github.com/nodejs/node/issues/3185
+oom/core dump in repl with buffer property tab completion,,https://github.com/nodejs/node/issues/3136
+crypto.randomBytes documentation needs improvement,,https://github.com/nodejs/node/issues/3081
+Add dns.resolve that returns all results,,https://github.com/nodejs/node/issues/2848
+Exclude the `Trailer` header from 304 responses?,,https://github.com/nodejs/node/issues/2842
+"build,windows: build and test add-ons on CI",,https://github.com/nodejs/node/issues/2537
+http: improving expectation handling,,https://github.com/nodejs/node/issues/2403
+zlib: check callback is function,,https://github.com/nodejs/node/issues/2397
+readline: output of completions when column is undefined,,https://github.com/nodejs/node/issues/2396
+tls: TLSSocket options not initialized,,https://github.com/nodejs/node/issues/2394
+assert: inconsistency in assert.doesNotThrow,,https://github.com/nodejs/node/issues/2385
+Non-BMP variable names don't work from the REPL,,https://github.com/nodejs/node/issues/2371
+push outside _transform,,https://github.com/nodejs/node/issues/2362
+fs: expose scatter/gather syscalls writev() and readv(),,https://github.com/nodejs/node/issues/2298
+"On filesystems which do not support birthtime, stats.birthtime can be greater than stats.mtime",,https://github.com/nodejs/node/issues/2222
+DISTTYPEDIR in vcbuild.bat persists across builds,,https://github.com/nodejs/node/issues/2084
+zlib.createUnzip does not throw error on unexpected end of file,,https://github.com/nodejs/node/issues/2043
+Win: Can't load a module with a long path,,https://github.com/nodejs/node/issues/1990
+fs.readFile with encoding as 2nd argument is not documented,,https://github.com/nodejs/node/issues/1797
+`generate.js` doc tool produces incomplete json,,https://github.com/nodejs/node/issues/1545
+docs: state behavior for url pathname and percent encoding,,https://github.com/nodejs/node/issues/1538
+net: wrong docs for socket 'connect' event registration,,https://github.com/nodejs/node/issues/901
+windows: install header files required for compiled addons,,https://github.com/nodejs/node/issues/859
+repl: repl clobbers RegExp.$1,,https://github.com/nodejs/node/issues/597
+Order docs alphabetically,,https://github.com/nodejs/node/issues/393
+Review TODOs and FIXMEs,,https://github.com/nodejs/node/issues/264
+Rename ChildProcess `exec` and `fork` to something which is not entirely confusing to system developers,,https://github.com/nodejs/node/issues/224
