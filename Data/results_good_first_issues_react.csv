@@ -1,0 +1,19 @@
+Issue Description,Assignees to the Issue,Link
+Bug: Excessive cpu usage of the page when react-devtools is active,,https://github.com/facebook/react/issues/17935
+Adding `.displayName` documentation to Contexts,,https://github.com/facebook/react/issues/16851
+DevTools: Long interaction names cannot be seen,,https://github.com/facebook/react/issues/16736
+DevTools: Overlay stays after devtools are closed,,https://github.com/facebook/react/issues/16485
+Dev tools does not respect zoom level on firefox OSX,,https://github.com/facebook/react/issues/16413
+react-hooks linter fails with unusual for loop,,https://github.com/facebook/react/issues/14362
+IE9: Unable to call apply on console.error when encountering an unknown tag,,https://github.com/facebook/react/issues/13610
+Fragments in IE11 rendered as strange elements,,https://github.com/facebook/react/issues/13414
+Improve warning message for failure to initialize `state` when using `getDerivedStateFromProps`,,https://github.com/facebook/react/issues/12670
+Unexpected warning when hydrating with portal and SSR,,https://github.com/facebook/react/issues/12615
+dangerouslySetInnerHTML will wrap on SSR but not client and both are editing invalid HTML,,https://github.com/facebook/react/issues/12415
+Remove selectionStart polyfill?,,https://github.com/facebook/react/issues/11806
+Error Rendering Inputs in Separate Window using Portals,,https://github.com/facebook/react/issues/11768
+Children of option tags flattened when select has value,,https://github.com/facebook/react/issues/11602
+Ignore <noscript> content on the client and don't warn about mismatches ,,https://github.com/facebook/react/issues/11423
+Nicer Formatting of SSR Validation,,https://github.com/facebook/react/issues/10085
+False positive getDefaultProps warning when mixing development and production versions,,https://github.com/facebook/react/issues/9999
+yarn prettier runs a too long command for OS windows,,https://github.com/facebook/react/issues/9500
