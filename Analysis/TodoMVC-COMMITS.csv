@@ -1,0 +1,31 @@
+First Commit Pull Request,Related to a good-first-issue?,Developer Experience?,Link to PR,Bug Fix (0/1),Enhancing an Existing Feature (0/1),New Feature (0/1),Documentation(0/1),Testing (0/1),Refactoring (0/1),Other Information
+Implemented a new SpineJS version using CoffeeScript with the latest SpineJS 1.0.5,0,Experienced,https://github.com/tastejs/todomvc/pull/33,0,1,0,0,0,1,
+"Typo in backbone-version, PR for #91",0,Experienced,https://github.com/tastejs/todomvc/pull/92,0,0,0,1,0,0,
+Grammo swat,0,Novice,https://github.com/tastejs/todomvc/pull/99,0,0,0,1,0,0,
+Update repo,0,Experienced,https://github.com/aserputko/todomvc/pull/1,0,1,0,0,0,1,"PR contains multiple elements due to a repo sync, considered only commit related to GFI."
+fixed typos: Todos -> todos on all index.html files in order to ...,0,Experienced,https://github.com/tastejs/todomvc/pull/234,0,0,0,1,0,0,
+css fix,0,Medior,https://github.com/tastejs/todomvc/pull/272,1,0,0,0,0,0,
+typo,0,Experienced,https://github.com/tastejs/todomvc/pull/287,0,0,0,1,0,0,
+Update repo,0,Experienced,https://github.com/robrobbins/todomvc/pull/1,0,0,0,0,0,1,"PR contains multiple elements due to a repo sync, considered only commit related to GFI."
+Add dermis to Labs,0,Experienced,https://github.com/tastejs/todomvc/pull/301,0,0,1,0,0,0,
+Fixed Stapes/RequireJS link on the homepage.,0,Experienced,https://github.com/tastejs/todomvc/pull/368,0,0,0,1,0,0,
+Fixed the remaining bugs in Marionette implementation ,0,Experienced,https://github.com/tastejs/todomvc/pull/391,1,0,0,1,0,1,
+Replaced DOMReady checks with immediately-invoked function expressions,0,Experienced,https://github.com/tastejs/todomvc/pull/522,0,0,0,0,0,1,
+Add jQuery annotated source,0,Medior,https://github.com/tastejs/todomvc/pull/620,0,0,0,1,0,0,
+Fixes typo in firebase-angular,0,Experienced,https://github.com/tastejs/todomvc/pull/769,0,0,0,1,0,0,
+Add the Ruby version of the web server,0,Experienced,https://github.com/tastejs/todomvc/pull/842,0,0,0,1,0,0,
+Update repo,0,Experienced,https://github.com/robrobbins/todomvc/pull/1,0,0,0,0,0,1,"PR contains multiple elements due to a repo sync, considered only commit related to GFI."
+Update repo,0,Medior,https://github.com/robrobbins/todomvc/pull/1,1,0,0,0,0,0,"PR contains multiple elements due to a repo sync, considered only commit related to GFI."
+index: add node.js section and express gcp backend,0,Experienced,https://github.com/tastejs/todomvc/pull/1060,0,0,1,1,0,0,
+(contributing.md) grammatical changes for clarity,0,Experienced,https://github.com/tastejs/todomvc/pull/1092,0,0,0,1,0,0,
+updated sidebar copy for marionettejs example,0,Experienced,https://github.com/tastejs/todomvc/pull/1172,0,0,0,1,0,0,
+fix for the example source URL,0,Experienced,https://github.com/tastejs/todomvc/pull/1269,0,0,0,1,0,0,
+Grammar suggestions,0,Experienced,https://github.com/tastejs/todomvc/pull/1299,0,0,0,1,0,0,
+Fix jscs issues found in #1403...,0,Experienced,https://github.com/tastejs/todomvc/pull/1404,0,0,0,0,0,1,
+Update repo,0,Medior,https://github.com/robrobbins/todomvc/pull/1,0,0,0,1,0,0,"PR contains multiple elements due to a repo sync, considered only commit related to GFI."
+Update repo,0,Experienced,https://github.com/tastejs/todomvc/commit/9c7b1a25648f06e38b9781ac2c2e74a30d76a538,0,0,1,1,0,0,"PR contains multiple elements due to a repo sync, considered only commit related to GFI."
+Fixed TypeScript+Angular example check all button functionality.,0,Novice,https://github.com/tastejs/todomvc/pull/1528,1,0,0,1,0,0,
+Update ancient emberjs version and use ember-cli,0,Experienced,https://github.com/tastejs/todomvc/pull/1582,0,1,1,0,0,1,
+New TodoMVC implementation in Angular 2 with ES2015 ,0,Experienced,https://github.com/tastejs/todomvc/pull/1581,0,1,1,0,0,1,
+Add keys for todos in order to ensure checkboxes are not reused. ,0,Experienced,https://github.com/tastejs/todomvc/pull/1835,0,1,0,0,0,0,
+patch: updating typescript and react as a lot has changed in 3 years,0,Experienced,https://github.com/tastejs/todomvc/pull/1957,0,1,1,0,1,1,

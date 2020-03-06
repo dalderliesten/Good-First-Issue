@@ -1,0 +1,12 @@
+Issue,URL,Associated PR,Taken by New Developer? (0/1),Bug Fix (0/1),Enhancing an Existing Feature (0/1),New Feature (0/1),Documentation(0/1),Testing (0/1),Refactoring (0/1),Other Information
+angular-dart complains about audio context,https://github.com/tastejs/todomvc/issues/1501,N.A,0,0,0,0,0,0,1,Not implemented.
+beforeEach hook,https://github.com/tastejs/todomvc/issues/1410,https://github.com/baiyaaaaa/todomvc/pull/1,0,0,0,0,0,1,0,Large merge PR.
+duplicate tests,https://github.com/tastejs/todomvc/issues/1409,https://github.com/baiyaaaaa/todomvc/pull/1,0,0,0,0,0,1,1,Large merge PR.
+CSS: Homepage responsive clipping bug,https://github.com/tastejs/todomvc/issues/1260,https://github.com/tastejs/todomvc/pull/1377,1,1,0,0,0,0,1,
+Add page with all resources in learn.json,https://github.com/tastejs/todomvc/issues/1244,https://github.com/tastejs/todomvc/pull/1552,1,0,0,0,1,0,0,
+Get rid of completed todos count,https://github.com/tastejs/todomvc/issues/1234,https://github.com/tastejs/todomvc/pull/1245,0,0,0,0,0,1,1,
+Fix google page speed score,https://github.com/tastejs/todomvc/issues/1193,https://github.com/tastejs/todomvc/pull/1533,1,0,1,0,0,0,1,
+New app UI & switch to npm for dependencies,https://github.com/tastejs/todomvc/issues/1110,https://github.com/tastejs/todomvc/pull/1111,0,0,1,0,0,0,1,"Larger number of PRs, considering first only."
+Tooltips not appearing in Firefox and Safari,https://github.com/tastejs/todomvc/issues/1010,N.A,0,1,0,0,0,0,0,Fixed outside of project.
+right-column popup too narrow,https://github.com/tastejs/todomvc/issues/850,https://github.com/tastejs/todomvc/pull/1519,1,1,0,0,0,0,0,
+Use .focus() instead of .select()?,https://github.com/tastejs/todomvc/issues/203,https://github.com/tastejs/todomvc/pull/318,0,1,0,0,0,0,1,"Spread over multiple PRs, first considered."
