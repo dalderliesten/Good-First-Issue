@@ -1,0 +1,10 @@
+Issue,URL,Associated PR,Taken by New Developer? (0/1),Bug Fix (0/1),Enhancing an Existing Feature (0/1),New Feature (0/1),Documentation(0/1),Testing (0/1),Refactoring (0/1),Other Information
+Add notEqualTo() to CarbonInterval and CarbonPeriod,https://github.com/briannesbitt/Carbon/issues/1797,https://github.com/briannesbitt/Carbon/pull/1798,0,0,0,1,0,0,0,
+Add comparison methods to CarbonInterval,https://github.com/briannesbitt/Carbon/issues/1796,https://github.com/briannesbitt/Carbon/pull/1801,0,0,0,1,0,0,0,
+Add equalTo() to CarbonInterval and CarbonPeriod,https://github.com/briannesbitt/Carbon/issues/1775,https://github.com/briannesbitt/Carbon/pull/1794,0,0,0,1,0,0,0,
+CarbonInterval::parseFromLocale,https://github.com/briannesbitt/Carbon/issues/1756,https://github.com/briannesbitt/Carbon/pull/1765,1,0,1,1,0,0,0,
+Functionnality - New option for diffForHumans - sequential parts,https://github.com/briannesbitt/Carbon/issues/1701,https://github.com/briannesbitt/Carbon/pull/1710,0,0,1,0,0,0,0,
+Add methods add/sub/diffIn milliseconds,https://github.com/briannesbitt/Carbon/issues/1523,https://github.com/briannesbitt/Carbon/pull/1527,1,0,1,1,0,0,0,
+Add second rounding methods,https://github.com/briannesbitt/Carbon/issues/1248,https://github.com/briannesbitt/Carbon/pull/1261,1,0,1,0,0,0,0,
+"isThisQuarter, isLastQuarter, isNextQuarter",https://github.com/briannesbitt/Carbon/issues/1235,https://github.com/briannesbitt/Carbon/pull/1243,1,0,0,1,0,0,0,
+Event overlap,https://github.com/briannesbitt/Carbon/issues/1016,https://github.com/briannesbitt/Carbon/pull/1745,0,0,1,0,0,0,0,
