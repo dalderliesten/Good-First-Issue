@@ -1,0 +1,27 @@
+Issue,URL,Associated PR,Taken by New Developer? (0/1),Bug Fix (0/1),Enhancing an Existing Feature (0/1),New Feature (0/1),Documentation(0/1),Testing (0/1),Refactoring (0/1),Other Information
+Allow BigInt usage in templates,https://github.com/vuejs/vue/issues/11126,https://github.com/vuejs/vue/pull/11152,1,0,0,1,0,1,0,
+"$http.delete shows warning ""avoid using JavaScript unary operator as property name""",https://github.com/vuejs/vue/issues/11090,https://github.com/vuejs/vue/pull/11143,0,1,0,0,0,1,0,
+Wrong definition of type AsyncComponentFactory,https://github.com/vuejs/vue/issues/10252,https://github.com/vuejs/vue/pull/10253,0,1,0,0,0,1,0,
+Warn if colon shorthand is used on v-if/v-html/etc.,https://github.com/vuejs/vue/issues/10191,https://github.com/vuejs/vue/pull/10199,0,0,0,1,0,1,0,
+Scoped Slot warns when used inside of dynamic component on regular element,https://github.com/vuejs/vue/issues/10152,https://github.com/vuejs/vue/pull/10167,0,1,0,0,0,1,0,
+Vue.config.errorHandler and errorCaptured should capture rejected promised in watchers,https://github.com/vuejs/vue/issues/10009,https://github.com/vuejs/vue/pull/9484,1,0,0,1,0,1,0,
+"Add path to resolved vue package to vue-template-compiler's ""version mismatch"" error",https://github.com/vuejs/vue/issues/9734,https://github.com/vuejs/vue/pull/9738,1,0,1,0,0,0,0,
+"optionMergeStrategies does not set 3rd ""vm"" argument for components",https://github.com/vuejs/vue/issues/9623,N.A,1,0,0,0,1,0,0,
+Warn when using inline-template attribute but no children,https://github.com/vuejs/vue/issues/9361,https://github.com/vuejs/vue/pull/9365,1,1,0,0,0,1,0,
+Warn when the type of a prop isn't a constructor,https://github.com/vuejs/vue/issues/9224,https://github.com/vuejs/vue/pull/9241,1,0,0,0,0,0,1,
+Incorrect compiled code when usinig multiline v-if on template element as a slot renderer,https://github.com/vuejs/vue/issues/9114,https://github.com/vuejs/vue/pull/9119,1,1,0,0,0,1,0,
+Throw error when using interpolation instead of JS expression for slot names,https://github.com/vuejs/vue/issues/9038,https://github.com/vuejs/vue/pull/9050,1,0,1,0,0,0,0,
+"Vue DevTools recommendation only shows for Chrome, not Firefox",https://github.com/vuejs/vue/issues/8634,https://github.com/vuejs/vue/pull/8638,1,1,0,0,0,0,0,
+warn if $set is used on a property that already exist,https://github.com/vuejs/vue/issues/8129,https://github.com/vuejs/vue/pull/8138,1,1,1,0,0,1,0,
+Creating a component named map should warn the user (as with button,https://github.com/vuejs/vue/issues/8025,https://github.com/vuejs/vue/pull/8051,0,0,0,1,0,1,0,
+2.5.14 introduces TypeError bind is not a function,https://github.com/vuejs/vue/issues/8017,https://github.com/vuejs/vue/pull/8974,1,0,0,1,0,1,0,
+Make the warning messages more explicit,https://github.com/vuejs/vue/issues/7764,https://github.com/vuejs/vue/pull/7881,1,0,0,0,0,1,1,
+HTML Keyboard Input element (<kbd>) is not supported,https://github.com/vuejs/vue/issues/7711,N.A,0,0,0,0,0,0,0,"Issue closed due to spelling mistake, no action."
+"""TypeError: Cannot use 'in' operator to search for 'names' in bf7823uhvbon3f289ph32f",https://github.com/vuejs/vue/issues/7381,https://github.com/vuejs/vue/pull/7452,1,1,0,0,0,1,0,
+Uncaught TypeError: Cannot read property 'type' of undefined,https://github.com/vuejs/vue/issues/6703,https://github.com/vuejs/vue/pull/6715,0,1,0,0,0,1,0,
+v-bind with something else than an object should warn you,https://github.com/vuejs/vue/issues/6677,https://github.com/vuejs/vue/pull/6736,1,1,0,0,0,1,0,
+improve error message for non-reactive properties,https://github.com/vuejs/vue/issues/6657,https://github.com/vuejs/vue/pull/6735,1,0,0,0,0,0,1,
+"<input :is=""textarea""> broken",https://github.com/vuejs/vue/issues/6361,https://github.com/vuejs/vue/pull/6453,1,1,0,0,0,1,0,Not merged due to new contributor misunderstanding property.
+"Improve error reporting/debugging of provide/inject, or allow require flag for inject",https://github.com/vuejs/vue/issues/5628,https://github.com/vuetifyjs/vuetify/pull/2033,0,0,1,0,0,0,0,"Related to 3 other issues, hence lack of PR linking on Github."
+"Warn when component option should be an object, but is a function",https://github.com/vuejs/vue/issues/5605,https://github.com/vuejs/vue/pull/5642,1,0,0,1,0,1,0,
+optionMergeStrategies.inject,https://github.com/vuejs/vue/issues/5603,https://github.com/vuejs/vue/pull/5827,0,0,1,1,0,1,0,
