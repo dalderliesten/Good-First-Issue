@@ -1,0 +1,25 @@
+First Commit Pull Request,Related to a good-first-issue?,Developer Experience?,Link to PR,Bug Fix (0/1),Enhancing an Existing Feature (0/1),New Feature (0/1),Documentation(0/1),Testing (0/1),Refactoring (0/1),Other Information
+Fix initial set value in select,0,Experienced,https://github.com/Rocketseat/unform/pull/14,1,0,0,0,0,0,
+Fixed schema validation example,0,Medior,https://github.com/Rocketseat/unform/pull/2,1,0,0,0,0,0,
+docs: Fix typos errors,0,Experienced,https://github.com/Rocketseat/unform/pull/183,0,0,0,1,0,0,
+Fix typo ,0,Experienced,N.A,0,0,0,1,0,0,Commited directly to master.
+test: Small improvements on tests,0,Experienced,https://github.com/Rocketseat/unform/pull/120,0,0,0,0,1,1,
+feat: Add Check and Choice components,0,Medior,https://github.com/Rocketseat/unform/pull/110,0,0,1,0,0,0,
+docs: Fix import in Choice element,0,Experienced,https://github.com/Rocketseat/unform/pull/132,1,0,0,0,0,0,
+chore: Commit files after lint-staged changes,0,Experienced,https://github.com/Rocketseat/unform/pull/89,0,0,0,0,0,1,
+docs: Add back buttons,0,Experienced,https://github.com/Rocketseat/unform/pull/121,0,0,0,1,0,0,
+React Hooks,0,Experienced,N.A,0,0,1,1,0,0,Commited directly to master.
+chore(deps): Bump lodash from 4.17.11 to 4.17.14 in /example,0,BOT,https://github.com/Rocketseat/unform/pull/112,0,0,0,0,0,1,
+feat: Allow setting data on resetForm,0,Experienced,https://github.com/Rocketseat/unform/pull/114,0,0,1,0,0,0,
+Update readme + bump rocket-scripts version,0,Experienced,N.A,0,0,0,1,0,1,Commited directly to master.
+docs: Add warnings,0,Experienced,https://github.com/Rocketseat/unform/pull/126,0,0,0,1,0,0,
+Fix broken github link in sidebar..:),0,Medior,https://github.com/Rocketseat/unform/pull/174,0,0,0,1,0,0,
+Update CONTRIBUTING.md,0,Experienced,https://github.com/Rocketseat/unform/pull/25,0,0,0,1,0,0,
+docs: Remove Textarea mention from README.md,0,Experienced,https://github.com/Rocketseat/unform/pull/68,0,0,0,1,0,0,
+"docs: Fix typos in faq, migration and styled-component guides",0,Experienced,https://github.com/Rocketseat/unform/pull/179,0,0,0,1,0,0,
+Sync repo,0,Experienced,https://github.com/MiguelMachado-dev/unform/pull/1,0,0,1,1,1,1,This PR accounts for many first commits due to its nature.
+Add styled components integration docs,0,Experienced,https://github.com/Rocketseat/unform/pull/35,0,0,0,1,0,0,
+feat: Allow to use html form attributes,0,Medior,https://github.com/Rocketseat/unform/pull/77,0,0,1,0,0,0,
+docs: Add a docusaurus project,0,Experienced,https://github.com/Rocketseat/unform/pull/80,0,0,1,1,0,0,
+chore: Remove .DS_Store and add it to .gitignore,0,Experienced,https://github.com/Rocketseat/unform/pull/102,0,0,0,0,0,1,
+,,,,,,,,,,
