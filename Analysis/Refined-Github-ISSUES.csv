@@ -1,0 +1,31 @@
+Issue,URL,Associated PR,Taken by New Developer? (0/1),Bug Fix (0/1),Enhancing an Existing Feature (0/1),New Feature (0/1),Documentation(0/1),Testing (0/1),Refactoring (0/1),Other Information
+batch-open-issues` opens tabs in the wrong window,https://github.com/sindresorhus/refined-github/issues/2786,N.A,0,1,0,0,0,0,0,
+"Issue count appears as ""NaN"" for repositories with more than 5,000 open issues",https://github.com/sindresorhus/refined-github/issues/2780,https://github.com/sindresorhus/refined-github/pull/2813,0,1,0,0,0,0,0,
+Extra padding on CI status indicator,https://github.com/sindresorhus/refined-github/issues/2762,https://github.com/sindresorhus/refined-github/pull/2833,0,1,0,0,0,0,0,
+Allow clearing the extension storage,https://github.com/sindresorhus/refined-github/issues/2669,https://github.com/jerone/refined-github/pull/186,0,0,0,1,0,0,0,
+`user-local-time` shows empty time for people with no commits,https://github.com/sindresorhus/refined-github/issues/2612,N.A,0,0,0,0,0,0,1,
+Expand all Assets on Releases pages,https://github.com/sindresorhus/refined-github/issues/2575,N.A,0,0,1,0,0,0,0,Not implemented.
+Merge/match `highlight-own-issues-and-prs` and `highlight-collaborators-in-lists` ,https://github.com/sindresorhus/refined-github/issues/2419,https://github.com/sindresorhus/refined-github/pull/2442,0,0,1,0,0,0,0,
+`clean-discussion-sidebar` isn't re-applied after changes to the sidebar,https://github.com/sindresorhus/refined-github/issues/2333,https://github.com/sindresorhus/refined-github/pull/2344,0,1,0,0,0,0,1,
+"Restore ""Sticky Issues Header"" feature",https://github.com/sindresorhus/refined-github/issues/2280,https://github.com/sindresorhus/refined-github/pull/2295,0,1,0,0,0,0,0,
+"""View file"" in PRs should point to the branch, not the commit",https://github.com/sindresorhus/refined-github/issues/2260,https://github.com/sindresorhus/refined-github/pull/2529,0,0,1,0,0,0,0,
+Extend `format-discussion-titles` to issue sticky header #321,https://github.com/sindresorhus/refined-github/issues/2255,https://github.com/sindresorhus/refined-github/pull/2256,0,0,1,0,0,0,0,
+"""View blame prior to this change"" link should include the current line",https://github.com/sindresorhus/refined-github/issues/2175,https://github.com/sindresorhus/refined-github/pull/2481,0,0,1,0,0,0,0,
+Master branch links are broken for branches with a `/` in the branch name,https://github.com/sindresorhus/refined-github/issues/2049,https://github.com/sindresorhus/refined-github/pull/2226,0,1,0,0,0,0,1,
+"""close and comment"" button float left, Easy to make a mistake",https://github.com/sindresorhus/refined-github/issues/1915,N.A,0,1,0,0,0,0,0,Not implemented.
+Options modal dialog blinking/glitching in Chrome,https://github.com/sindresorhus/refined-github/issues/1847,https://github.com/stackriot/refined-github/pull/182,0,1,0,0,0,0,0,PR incorporate multiple items.
+Remove the `delete-fork-link` feature (Implemented by GitHub natively),https://github.com/sindresorhus/refined-github/issues/1786,https://github.com/sindresorhus/refined-github/pull/1791,1,0,0,0,0,0,1,
+Highlight issues or PRs that belong to the use,https://github.com/sindresorhus/refined-github/issues/1403,https://github.com/sindresorhus/refined-github/pull/1782,0,0,0,1,0,0,0,
+Embedded Gists destroy content,https://github.com/sindresorhus/refined-github/issues/1263,https://github.com/sindresorhus/refined-github/pull/1279,0,0,1,0,0,0,0,
+Add shortcut to Draft a new release on releases page,https://github.com/sindresorhus/refined-github/issues/1254,https://github.com/sindresorhus/refined-github/pull/1255,0,0,1,0,0,0,0,
+"Button to switch base and head in ""Compare"" page",https://github.com/sindresorhus/refined-github/issues/1217,https://github.com/sindresorhus/refined-github/pull/1360,0,0,1,0,0,0,0,
+Hide hovertext 'Open in Github Dekstop',https://github.com/sindresorhus/refined-github/issues/1212,https://github.com/sindresorhus/refined-github/pull/1234,1,1,1,0,0,0,0,
+Hide inactive deployments,https://github.com/sindresorhus/refined-github/issues/1144,https://github.com/sindresorhus/refined-github/pull/1149,1,0,1,0,1,0,0,
+Customizable monospace font?,https://github.com/sindresorhus/refined-github/issues/1094,https://github.com/sindresorhus/refined-github/pull/1181,1,0,1,0,0,0,1,
+Keyboard shortcut for submitting the review changes on a PR,https://github.com/sindresorhus/refined-github/issues/1069,N.A,0,0,1,0,0,0,0,
+Link to commit page from PR commit,https://github.com/sindresorhus/refined-github/issues/1053,https://github.com/sindresorhus/refined-github/pull/1429,1,0,1,0,0,0,0,
+Add a button to quickly approve the PR,https://github.com/sindresorhus/refined-github/issues/883,https://github.com/sindresorhus/refined-github/pull/885,0,0,0,1,0,0,0,
+Make issue sidebar sticky,https://github.com/sindresorhus/refined-github/issues/842,https://github.com/sindresorhus/refined-github/pull/964,0,0,1,0,0,0,0,
+Inject Releases and Compare tab before Settings tab,https://github.com/sindresorhus/refined-github/issues/431,https://github.com/sindresorhus/refined-github/pull/432,0,0,1,0,0,0,1,
+"The review ""red X"" icon is overly scary",https://github.com/sindresorhus/refined-github/issues/310,N.A,0,0,0,0,0,0,1,Not implemented.
+Remove Projects (0) from repo navigation,https://github.com/sindresorhus/refined-github/issues/309,https://github.com/sindresorhus/refined-github/pull/411,0,0,1,0,0,0,1,
