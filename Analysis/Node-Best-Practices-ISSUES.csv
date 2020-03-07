@@ -1,0 +1,2 @@
+Issue,URL,Associated PR,Taken by New Developer? (0/1),Bug Fix (0/1),Enhancing an Existing Feature (0/1),New Feature (0/1),Documentation(0/1),Testing (0/1),Refactoring (0/1),Other Information
+Constantly and automatically inspect for vulnerable dependencies,https://github.com/goldbergyoni/nodebestpractices/issues/231,N.A,0,0,0,0,0,1,0,"Not implemented, closed without reason."
