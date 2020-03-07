@@ -1,0 +1,7 @@
+Issue,URL,Associated PR,Taken by New Developer? (0/1),Bug Fix (0/1),Enhancing an Existing Feature (0/1),New Feature (0/1),Documentation(0/1),Testing (0/1),Refactoring (0/1),Other Information
+Adjust mouse location after crossing monitor boundry,https://github.com/microsoft/PowerToys/issues/1226,N.A,0,0,1,0,0,0,0,Still Open.
+Lock the numeric keypad to always and forever use numbers ,https://github.com/microsoft/PowerToys/issues/1196,N.A,0,0,0,1,0,0,0,Still Open.
+Context menu customization,https://github.com/microsoft/PowerToys/issues/1173,N.A,0,0,1,0,0,0,0,Still Open.
+FancyZones should not zone parent window based on children,https://github.com/microsoft/PowerToys/issues/968,N.A,0,1,0,0,0,0,0,"Closed, not implemented."
+Esc doesn't dismiss the FancyZones editor,https://github.com/microsoft/PowerToys/issues/936,https://github.com/microsoft/PowerToys/commit/e2814553ed47eb694356dcecacfc919e2d23d10a,0,1,0,0,0,0,0,Duplicate issue.
+Opacity for fancyzone areas,https://github.com/microsoft/PowerToys/issues/631,https://github.com/microsoft/PowerToys/pull/1008,0,0,1,0,0,0,0,

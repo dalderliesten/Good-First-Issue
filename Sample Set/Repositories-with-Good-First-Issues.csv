@@ -24,7 +24,7 @@ Kubernetes,https://github.com/kubernetes/kubernetes,,,,,,
 HTML Standard Spec,https://github.com/whatwg/html,,,,,,
 CSS Working Draft,https://github.com/w3c/csswg-drafts,,,,,,
 Fyne,https://github.com/fyne-io/fyne,,,,,,
-PowerToys,https://github.com/microsoft/PowerToys,,label = 'Help Wanted-Good first issue',,,,
+PowerToys,https://github.com/microsoft/PowerToys,Done,label = 'Help Wanted-Good first issue',1074,7,30,7
 Animate.css,https://github.com/daneden/animate.css,,,,,,
 JSON for C++,https://github.com/nlohmann/json,,,,,,
 Clash,https://github.com/Dreamacro/clash,,,,,,
