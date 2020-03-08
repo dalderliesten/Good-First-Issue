@@ -41,7 +41,7 @@ Playwright,https://github.com/microsoft/playwright,,,,,,
 CleanArchitecture,https://github.com/ardalis/CleanArchitecture,,,,,,
 Carbon,https://github.com/briannesbitt/Carbon ,Done,,872,9,30,9
 aws-cdk,https://github.com/aws/aws-cdk ,,,,,,
-Gogs,https://github.com/gogs/gogs ,,,,,,
+Gogs,https://github.com/gogs/gogs ,Done,,4473,61,30,30
 Node's best practices,https://github.com/goldbergyoni/nodebestpractices ,Done,,172,1,30,1
 Unform,https://github.com/Rocketseat/unform ,Done,,84,1,30 (25 unique due  to PR  merge),1
 Refined Github,https://github.com/sindresorhus/refined-github ,Done,,1512,242,30,30

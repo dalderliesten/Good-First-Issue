@@ -1,0 +1,31 @@
+Issue,URL,Associated PR,Taken by New Developer? (0/1),Bug Fix (0/1),Enhancing an Existing Feature (0/1),New Feature (0/1),Documentation(0/1),Testing (0/1),Refactoring (0/1),Other Information
+Switch from russross/blackfriday to yuin/goldmark,https://github.com/gogs/gogs/issues/5921,N.A,0,0,0,0,0,0,1,In pipeline by non-newcomer.
+LDAP BindDN Multiple Log In Options Results in 500,https://github.com/gogs/gogs/issues/5897,N.A,0,1,0,0,0,0,0,In pipeline by non-newcomer.
+Reviewer cannot view specified commit changes when forked repository is private,https://github.com/gogs/gogs/issues/5878,N.A,0,1,0,0,0,0,0,
+"""File diff suppressed because it is too large"" should be more specific",https://github.com/gogs/gogs/issues/5814,N.A,0,0,1,0,0,0,0,Marked as stale/not done.
+Private mirror icon,https://github.com/gogs/gogs/issues/5686,N.A,0,0,1,0,0,0,0,
+Documentation link on README when creating a repo is broken,https://github.com/gogs/gogs/issues/5618,N.A,0,1,0,0,1,0,0,
+Personal access token last used timestamp isn't updated,https://github.com/gogs/gogs/issues/5615,N.A,1,1,0,0,0,0,0,"Not yet done, new dev working on it."
+"Add build tag ""heroku"" a synonym for ""sqlite cert pam""",https://github.com/gogs/gogs/issues/5539,N.A,0,1,0,0,0,0,0,
+mssql: Error 500 on /watchers & /stars,https://github.com/gogs/gogs/issues/5482,N.A,0,1,0,0,0,0,0,
+In Admin panel the code block is out of the main block,https://github.com/gogs/gogs/issues/5453,N.A,0,1,1,0,0,0,0,
+Issue with generating 'identicon' when using LDAP in Org page,https://github.com/gogs/gogs/issues/5429,https://github.com/unfoldingWord/dcs/commit/fe55ab2a6806b6a7c114378c0436bc59a31646d0,0,1,0,0,0,0,0,
+Disabled logins still have read access with ssh key,https://github.com/gogs/gogs/issues/5408,N.A,0,1,0,0,0,0,0,
+Long branch name not displayed properly,https://github.com/gogs/gogs/issues/5341,https://github.com/unfoldingWord/dcs/commit/d9b51a781cbdaeea53de9888831b33c680e43d46,0,1,0,0,0,0,1,
+double click to submit pull request will make 2 same pr. ,https://github.com/gogs/gogs/issues/5252,https://github.com/gogs/gogs/pull/5254,1,1,0,0,0,0,1,
+Repository description field in database should allow more than 256 chars length,https://github.com/gogs/gogs/issues/5190,https://github.com/gogs/gogs/pull/5219,0,0,1,0,0,0,1,
+Attempt to fix UI responsiveness,https://github.com/gogs/gogs/issues/5179,https://github.com/gogs/gogs/pull/5182,0,1,1,0,0,0,0,
+MISSING_MID (Message-Id) on outgoing emails,https://github.com/gogs/gogs/issues/5147,N.A,0,1,0,0,0,0,0,Marked as stale/not done.
+"Disable ""New Repository"" button if forbidden ",https://github.com/gogs/gogs/issues/5111,https://github.com/unfoldingWord/dcs/commit/82e08a3364195b515a005180c2bdc08e78aac208,0,0,0,0,0,0,1,
+"when using sudo su git -c'/home/git/gogs/gogs backup', miss data directory",https://github.com/gogs/gogs/issues/4991,N.A,1,1,0,0,0,0,1,In pipeline by non-newcomer.
+Add config option to disallow user to rename their username,https://github.com/gogs/gogs/issues/4989,N.A,0,0,0,1,0,0,0,
+Gogs does not wrap Repository and User Names properly,https://github.com/gogs/gogs/issues/4886,https://github.com/unfoldingWord/dcs/commit/617a2433a3dd2e32188574ac7b3765bec5082123,0,1,0,0,0,0,0,
+Allow longer Websites,https://github.com/gogs/gogs/issues/4820,N.A,0,0,1,0,0,0,1,
+README should not parse HTML ,https://github.com/gogs/gogs/issues/4593,N.A,0,1,0,0,1,0,0,
+Cannot restore inside Docker container,https://github.com/gogs/gogs/issues/4339,N.A,0,1,0,0,0,0,0,
+Inconsistent relative links in web editor preview,https://github.com/gogs/gogs/issues/3561,https://github.com/gogs/gogs/pull/3566,1,1,0,0,0,0,0,
+Adding SSH key with newline yields invalid key format,https://github.com/gogs/gogs/issues/3480,https://github.com/gogs/gogs/pull/3565,0,1,0,0,0,0,0,
+Hide email addresses everywhere,https://github.com/gogs/gogs/issues/3358,https://github.com/gogs/gogs/pull/3381,1,0,1,0,0,0,0,
+Error 404 when trying to view a file that has been both modified and renamed,https://github.com/gogs/gogs/issues/3289,https://github.com/ethantkoenig/gogs/commit/22a7a7ec9b94aad6c689b7e61bee09c2e322fd57,1,0,0,0,1,0,0,
+HTML align attribute is stripped in markdown,https://github.com/gogs/gogs/issues/3234,N.A,0,1,0,0,1,0,0,
+Allow config to display full name of user in dashboard feeds,https://github.com/gogs/gogs/issues/2923,N.A,0,0,1,0,0,0,0,
