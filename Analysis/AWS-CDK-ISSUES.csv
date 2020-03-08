@@ -1,0 +1,31 @@
+Issue,URL,Associated PR,Taken by New Developer? (0/1),Bug Fix (0/1),Enhancing an Existing Feature (0/1),New Feature (0/1),Documentation(0/1),Testing (0/1),Refactoring (0/1),Other Information
+SecretValue.secretsManager should validate input doesn't contain `:`,https://github.com/aws/aws-cdk/issues/6272,https://github.com/aws/aws-cdk/pull/6371,0,1,1,0,0,0,0,
+"Route53 A/AAAA Alias Record to ELB does not use ""dualstack"" prefix",https://github.com/aws/aws-cdk/issues/6271,N.A,0,1,0,0,0,0,0,
+[IAM] Ability to add conditions to AccountPrincipal ,https://github.com/aws/aws-cdk/issues/5855,N.A,0,0,1,0,0,0,0,
+[Glue] Empty string is not considered a proper value,https://github.com/aws/aws-cdk/issues/5763,https://github.com/aws/aws-cdk/pull/5783,1,1,0,0,0,0,1,
+Typo in aws-sns-notifications README example code,https://github.com/aws/aws-cdk/issues/5512,https://github.com/aws/aws-cdk/pull/5514,1,0,0,0,1,0,0,
+CloudFront distribution starts logging even when it's disabled,https://github.com/aws/aws-cdk/issues/5371,N.A,0,1,0,0,0,0,0,"False report, no action taken."
+'parameters' not coming through in Step Functions TaskProps,https://github.com/aws/aws-cdk/issues/5267,https://github.com/aws/aws-cdk/pull/5408,0,1,0,0,0,0,0,
+docs: document how to get around cyclic deps created by connections calls,https://github.com/aws/aws-cdk/issues/5047,N.A,0,0,0,0,1,0,0,
+Peer.anyIpv6() should be ::/0 and not ::0/0,https://github.com/aws/aws-cdk/issues/5043,https://github.com/aws/aws-cdk/pull/5065,1,1,0,0,0,0,0,
+allow different image for aws_cdk.aws_ec2.BastionHostLinux,https://github.com/aws/aws-cdk/issues/4730,NA,0,0,1,0,0,0,0,
+this.node.addError does not cause `cdk diff` to fail,https://github.com/aws/aws-cdk/issues/4700,https://github.com/aws/aws-cdk/pull/5284,1,1,0,0,0,0,1,
+BucketDeployment: unable to set cacheControl,https://github.com/aws/aws-cdk/issues/4665,https://github.com/aws/aws-cdk/pull/6086,0,1,0,0,0,0,1,
+Lambda as target in ALB fails to create due to Principal permission issue,https://github.com/aws/aws-cdk/issues/4663,NA,0,1,0,0,0,0,0,
+self managed ManagedPolicy.managed_policy_name returns an ARN,https://github.com/aws/aws-cdk/issues/4581,https://github.com/aws/aws-cdk/pull/4630,0,1,0,0,0,0,1,
+autoscaling.AutoscalingGroup does not implement IGrantable,https://github.com/aws/aws-cdk/issues/4554,https://github.com/aws/aws-cdk/pull/4654,0,0,1,0,0,0,0,
+Feature: Add ability to set stack description,https://github.com/aws/aws-cdk/issues/4457,https://github.com/aws/aws-cdk/pull/4477,1,0,0,0,0,1,0,
+Add optional PrivateIpAddress argument to the aws-ec2 Instance construct ,https://github.com/aws/aws-cdk/issues/4004,https://github.com/aws/aws-cdk/pull/5439,0,0,1,0,0,0,0,
+ALB: New types of listener rule conditions,https://github.com/aws/aws-cdk/issues/3888,N.A,0,0,1,0,0,0,0,
+Support custom dockerfile names,https://github.com/aws/aws-cdk/issues/3829,https://github.com/aws/aws-cdk/pull/5652,1,0,0,1,0,0,0,
+[apigateway] Allow customizing the name of the CfnOutput containing the API endpoint,https://github.com/aws/aws-cdk/issues/3662,https://github.com/aws/aws-cdk/pull/4849,1,0,1,0,0,0,0,
+CustomResource applies presumptuous property uppercasing,https://github.com/aws/aws-cdk/issues/3421,N.A,0,0,0,1,0,0,0,
+region-info Fact.find() should throw exception if fact not found,https://github.com/aws/aws-cdk/issues/3194,https://github.com/aws/aws-cdk/pull/5166,0,0,0,0,0,1,1,
+Indicate that @attribute properties returns tokens in docstrings (awslint),https://github.com/aws/aws-cdk/issues/2420,N.A,0,0,0,0,1,0,0,
+init csharp: add-project.hook.d.ts is copied into target folder,https://github.com/aws/aws-cdk/issues/2314,https://github.com/aws/aws-cdk/pull/4841,0,1,0,0,0,0,0,
+support aws/codebuild/golang:1.11 build image,https://github.com/aws/aws-cdk/issues/2079,https://github.com/aws/aws-cdk/pull/2233,1,0,1,0,0,0,1,Organizational.
+[sns] support encrypted topics,https://github.com/aws/aws-cdk/issues/1729,https://github.com/aws/aws-cdk/pull/5052,1,0,0,1,0,0,0,
+Tools assume `lerna` is installed globally,https://github.com/aws/aws-cdk/issues/1338,https://github.com/aws/aws-cdk/pull/2667,1,0,0,0,0,0,1,Organizational.
+Allow importing/exporting iam.Role,https://github.com/aws/aws-cdk/issues/673,N.A,0,0,1,0,0,0,0,"Already supported, closed."
+Warn/fail synthesis when reached the 200 resource limit,https://github.com/aws/aws-cdk/issues/276,N.A,0,0,1,0,0,0,0,
+Adding an `Output` to a stack does not count as a change so the stack is not deployed,https://github.com/aws/aws-cdk/issues/186,https://github.com/aws/aws-cdk/pull/2029,0,1,0,0,0,0,1,
