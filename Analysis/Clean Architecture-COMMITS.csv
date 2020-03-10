@@ -1,0 +1,21 @@
+First Commit Pull Request,Related to a good-first-issue?,Developer Experience?,Link to PR,Bug Fix (0/1),Enhancing an Existing Feature (0/1),New Feature (0/1),Documentation(0/1),Testing (0/1),Refactoring (0/1),Other Information
+Initial commit,0,Experienced,https://github.com/ardalis/CleanArchitecture/commit/dd9c839abe933a82c4a426f3f8f0859e414f6638,0,0,1,1,1,0,Organizational.
+Update global.json,0,Novice,https://github.com/ardalis/CleanArchitecture/pull/1,0,0,0,0,0,1,Organizational.
+Update Solution for VS2017 RC,0,Medior,https://github.com/ardalis/CleanArchitecture/pull/2,0,0,0,0,0,1,
+Upgrade packages.,0,Experienced,https://github.com/ardalis/CleanArchitecture/pull/6,0,0,0,0,0,1,Organizational.
+Update ToDoItemMarkCompleteShould,0,Medior,https://github.com/ardalis/CleanArchitecture/pull/7,0,0,0,0,0,1,
+Added complete method and removed links to not existing actions.,0,Experienced,https://github.com/ardalis/CleanArchitecture/pull/13,1,1,0,0,0,0,
+Upgrade to .net core 2.1,0,Medior,https://github.com/ardalis/CleanArchitecture/pull/14,0,1,0,0,0,1,Organizational.
+Upgrade BundlerMinifier.Core,0,Experienced,https://github.com/ardalis/CleanArchitecture/pull/25,0,0,0,0,0,1,Organizational.
+bower -> libman,0,Medior,https://github.com/ardalis/CleanArchitecture/pull/30,0,0,0,0,0,1,Organizational.
+Update Readme with link to marketplace extension,0,Experienced,https://github.com/ardalis/CleanArchitecture/pull/44,0,0,0,1,0,0,
+Set up CI with Azure Pipelines,0,BOT,https://github.com/ardalis/CleanArchitecture/commit/1ce7dbc9c6e6a05a79d735485048c3e0c25f1d38,0,0,0,0,1,0,
+Typo fixed,0,Experienced,https://github.com/ardalis/CleanArchitecture/pull/73,0,0,0,1,0,0,Typo.
+Updating documentation around test projects.,0,Experienced,https://github.com/ardalis/CleanArchitecture/pull/76,0,0,0,1,0,0,
+Fixed spelling in Infrastucture section,0,Novice,https://github.com/ardalis/CleanArchitecture/pull/78,0,0,0,1,0,0,Typo.
+Update ToDoController to return DTO,1,Experienced,https://github.com/ardalis/CleanArchitecture/pull/84,1,0,0,0,0,0,
+Fixing the domain event dispatcher,0,Experienced,https://github.com/ardalis/CleanArchitecture/pull/88,1,1,0,0,0,0,
+Fixed exception message in logging,0,Experienced,https://github.com/ardalis/CleanArchitecture/pull/90,1,0,0,0,0,0,
+Move interfaces from core to shared kernel project,0,Experienced,https://github.com/ardalis/CleanArchitecture/pull/92,0,0,0,0,0,1,
+Completed correcting namespace in SharedKernel,0,Medior,https://github.com/ardalis/CleanArchitecture/pull/94,0,0,0,0,0,1,
+Adjusted DatabasePopulator to check for 3 or more TodoItems instead of 5,0,Medior,https://github.com/ardalis/CleanArchitecture/pull/98,1,0,0,0,0,1,

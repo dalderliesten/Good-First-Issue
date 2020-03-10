@@ -38,7 +38,7 @@ Istio,https://github.com/istio/istio,,label = 'community/good first issue',,,,
 efcore,https://github.com/dotnet/efcore,,,,,,
 Leon AI,https://github.com/leon-ai/leon,,,,,,
 Playwright,https://github.com/microsoft/playwright,,,,,,
-CleanArchitecture,https://github.com/ardalis/CleanArchitecture,,,,,,
+CleanArchitecture,https://github.com/ardalis/CleanArchitecture,Done,,64,1,21,1
 Carbon,https://github.com/briannesbitt/Carbon ,Done,,872,9,30,9
 aws-cdk,https://github.com/aws/aws-cdk ,Done,,3453,112,30,30
 Gogs,https://github.com/gogs/gogs ,Done,,4473,61,30,30
