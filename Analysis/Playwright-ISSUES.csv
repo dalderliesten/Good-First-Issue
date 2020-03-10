@@ -1,0 +1,5 @@
+Issue,URL,Associated PR,Taken by New Developer? (0/1),Bug Fix (0/1),Enhancing an Existing Feature (0/1),New Feature (0/1),Documentation(0/1),Testing (0/1),Refactoring (0/1),Other Information
+[Feature]: Make page.goto work with URL objects ,https://github.com/microsoft/playwright/issues/1006,https://github.com/microsoft/playwright/pull/1241,1,0,1,0,0,0,0,According to maitainers this was 'not a good first issue/bug.'
+[Feature] - Delete a certain cookie instead of clear all cookies,https://github.com/microsoft/playwright/issues/742,N.A,0,0,1,0,0,0,0,
+Add real-world examples,https://github.com/microsoft/playwright/issues/660,N.A,0,0,0,0,1,0,0,
+Missing a few device defs for landscape variants,https://github.com/microsoft/playwright/issues/606,https://github.com/microsoft/playwright/pull/708,1,1,0,0,0,0,0,

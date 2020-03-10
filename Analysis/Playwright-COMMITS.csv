@@ -1,0 +1,29 @@
+First Commit Pull Request,Related to a good-first-issue?,Developer Experience?,Link to PR,Bug Fix (0/1),Enhancing an Existing Feature (0/1),New Feature (0/1),Documentation(0/1),Testing (0/1),Refactoring (0/1),Other Information
+Initial commit,0,BOT,https://github.com/microsoft/playwright/commit/3261ad74363f6f039fd60ca68abd6eeb73c3f97f,0,0,0,0,0,1,Organizational.
+Initial CODE_OF_CONDUCT.md commit,0,BOT,https://github.com/microsoft/playwright/commit/5c5fdee2037c87013bc7b5debb34976382e54168,0,0,0,1,0,0,Organizational.
+Initial commit,0,Experienced,https://github.com/microsoft/playwright/commit/9ba375c06344835d783fe60bf33f857f9bc208a4,0,0,0,0,0,1,Organizational.
+docs: show browser test stats in the readme,0,Experienced,https://github.com/microsoft/playwright/pull/24,0,1,0,0,0,0,
+devops: simplified bash traps,0,Experienced,https://github.com/microsoft/playwright/commit/8a077da56552cfae7b75dd3d82bbc034c8c2306c,0,0,0,0,0,1,Organizational.
+chore: introduce injected source lazily evaluated by execution context,0,Experienced,https://github.com/microsoft/playwright/pull/42,0,0,1,0,0,0,
+feat(page): support Page.evaluateOnNewDocument for WebKit,0,Medior,https://github.com/microsoft/playwright/pull/55,0,0,1,0,0,0,
+chore(license): add NOTICE,0,Experienced,https://github.com/microsoft/playwright/pull/309,0,0,0,1,0,0,
+docs(readme.md): fix typos,0,Medior,https://github.com/microsoft/playwright/pull/566,0,0,0,1,0,0,
+Removed semicolon from code doc as it not required,0,Experienced,https://github.com/microsoft/playwright/pull/580,1,0,0,1,0,0,
+chore: syntax alignment,0,Medior,https://github.com/microsoft/playwright/pull/596,0,0,0,0,0,1,
+fix: make launch options in ffPlaywright optional,0,Experienced,https://github.com/microsoft/playwright/pull/637,0,1,0,0,0,0,
+fix(types): export playwright-core types from playwright,0,Experienced,https://github.com/microsoft/playwright/pull/628,1,0,0,0,0,0,Organizational.
+doc(page): Improve Page description,0,Experienced,https://github.com/microsoft/playwright/pull/665,0,0,0,1,0,0,
+bug(pw_run): Allow running from paths with spaces,0,Medior,https://github.com/microsoft/playwright/pull/674,0,1,0,0,0,1,
+docs: clarify relationship to Puppeteer,0,Experienced,https://github.com/microsoft/playwright/pull/711,0,0,0,1,0,0,
+chore: fix package typo in packages README,0,Experienced,https://github.com/microsoft/playwright/pull/707,0,0,0,1,0,0,
+docs(api): fix cdp session creation example,0,Experienced,https://github.com/microsoft/playwright/pull/709,0,0,0,1,0,0,
+docs: make individual FAQ items linkable,0,Experienced,https://github.com/microsoft/playwright/pull/712,0,0,0,1,0,0,
+chore: fix missing device definitions ,1,Experienced,https://github.com/microsoft/playwright/pull/708,1,0,0,0,0,0,
+feat(unit): add click test on animated target,0,Experienced,https://github.com/microsoft/playwright/pull/655,0,0,1,0,0,0,
+docs(api.md) Fix USKeyboardLayout link,0,Experienced,https://github.com/microsoft/playwright/pull/719,0,0,0,1,0,0,
+fix typo,0,Medior,https://github.com/microsoft/playwright/pull/740,1,0,0,0,0,0,
+chore: Fix dead link for element handle,0,Medior,https://github.com/microsoft/playwright/pull/827,0,0,0,1,0,0,
+fix(test): fix expect in jshandle spec,0,Experienced,https://github.com/microsoft/playwright/pull/927,0,0,0,0,1,1,
+Add xterm.js to showcase,0,Experienced,https://github.com/microsoft/playwright/pull/1034,0,0,0,1,0,0,
+Docs: fix return type of launchPersistent,0,Experienced,https://github.com/microsoft/playwright/pull/1047,0,0,0,1,0,0,
+docs: added community example project,0,,https://github.com/microsoft/playwright/pull/1084,0,0,0,1,0,0,
