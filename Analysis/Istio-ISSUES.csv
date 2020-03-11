@@ -1,0 +1,31 @@
+Issue,URL,Associated PR,Taken by New Developer? (0/1),Bug Fix (0/1),Enhancing an Existing Feature (0/1),New Feature (0/1),Documentation(0/1),Testing (0/1),Refactoring (0/1),Other Information
+"fixup_structs uses file scope, should use package scope",https://github.com/istio/istio/issues/20962,https://github.com/istio/api/pull/1275,0,0,0,0,0,0,1,
+"istioctl apply --dry-run bogus message ""failed to get k8s server version""",https://github.com/istio/istio/issues/20729,https://github.com/istio/istio/pull/20747,0,0,0,0,0,0,1,
+[istio.io testing] Need test for Configure Citadel Service Account Secret Generation,https://github.com/istio/istio/issues/20504,N.A,0,0,0,0,0,1,0,Not implemented due to planned dependency removal.
+Destination rule to set mTLS ignores specific host,https://github.com/istio/istio/issues/19459,https://github.com/istio/istio/pull/21734,0,0,1,0,0,0,0,
+istioctl dashboard to allow pod label --selector instead of requiring explicit pod name,https://github.com/istio/istio/issues/18987,https://github.com/istio/istio/pull/19191,0,0,1,0,0,0,0,
+[istio.io testing] Write test for bookinfo task for istioio ,https://github.com/istio/istio/issues/18238,https://github.com/istio/istio/pull/18449,0,0,0,0,0,1,0,
+Generate RPM files in addition to Debian files for mesh expansion,https://github.com/istio/istio/issues/17348,N.A,0,0,0,1,0,0,0,"Duplicate, using data from referred issue."
+Add output flag unit test,https://github.com/istio/istio/issues/17230,https://github.com/istio/operator/pull/295,1,0,0,0,0,1,0,
+Pilot goroutine leak when waiting for config from galley,https://github.com/istio/istio/issues/16901,N.A,0,1,0,0,0,0,0,Closed due to lack of replication.
+Add NetworkPolicy to allow Istio to run on a secure Kubernetes Platform,https://github.com/istio/istio/issues/16877,N.A,0,0,1,0,0,0,0,Not implemented due to planned denial.
+Add scopes to logging,https://github.com/istio/istio/issues/15605,https://github.com/istio/operator/pull/81,0,0,0,0,0,0,1,
+Add enum validations for values_types.go,https://github.com/istio/istio/issues/15492,N.A,0,0,1,0,0,0,0,Appears to be stale.
+Migrate operator repo to Go modules,https://github.com/istio/istio/issues/15240,https://github.com/istio/operator/pull/75,0,0,0,0,0,0,1,
+"""istioctl version"" should document --short=false and --remote=false",https://github.com/istio/istio/issues/14814,https://github.com/istio/pkg/pull/27,1,0,0,0,1,0,0,Change in-code explanation string.
+Istioctl proxy-status and authn tls-check commands when global.monitoringPort != 15014,https://github.com/istio/istio/issues/14801,N.A,0,1,0,0,0,0,0,Still ongoing.
+Bookinfo productpage microservice crashes when run as non-root userid,https://github.com/istio/istio/issues/14667,https://github.com/istio/istio/pull/14943,0,0,1,0,0,0,0,
+Regular expression support for origins in CorsPolicy,https://github.com/istio/istio/issues/14661,N.A,0,0,0,1,0,0,0,
+Add debug config dump support to Galley Ctrlz page,https://github.com/istio/istio/issues/12298,https://github.com/istio/istio/pull/12980,0,0,0,1,0,0,0,
+"Webhook ""pilot.validation.istio.io"" reports invalid configuration error for valid config",https://github.com/istio/istio/issues/10694,N.A,0,1,0,0,0,0,0,"Fixed by dependency, not within Isitio."
+Mixer client: mixc should send valid attribute encodings when attribute vocabulary is available,https://github.com/istio/istio/issues/10434,N.A,0,0,1,0,0,0,0,Deemed as stale.
+Istio yaml structure,https://github.com/istio/istio/issues/10429,https://github.com/istio/istio/pull/12670,0,0,0,0,0,0,1,"Duplicate, using data from referred issue."
+Managing core dumps,https://github.com/istio/istio/issues/8077,https://github.com/istio/istio/pull/8043,0,0,1,0,0,0,1,
+Single command to dump out state of entire mesh for debugging,https://github.com/istio/istio/issues/6382,https://github.com/istio/istio.io/pull/1698,0,0,0,0,1,0,0,
+Proxy-Config command doesn't work correctly when running multiple Pilots.,https://github.com/istio/istio/issues/5733,https://github.com/istio/istio/pull/5762,0,1,0,0,0,0,0,
+Add helm lint to `bin/linters.sh`,https://github.com/istio/istio/issues/4766,https://github.com/istio/istio/pull/5406,1,0,0,0,0,1,0,
+istioctl register requires namespace (doesn't use the default),https://github.com/istio/istio/issues/4473,https://github.com/istio/istio/pull/4493,0,1,0,0,0,0,0,
+Need consistent & published way of identifying failure in automated tests logs,https://github.com/istio/istio/issues/2974,N.A,0,0,0,1,0,0,0,Deemed as stale.
+HA ingress setup,https://github.com/istio/istio/issues/2895,N.A,0,0,0,0,1,0,0,Deemed as stale.
+Support k8s app protocols alpha annotation,https://github.com/istio/istio/issues/1441,N.A,0,0,0,1,0,0,0,Deemed as stale.
+Use ROUND_ROBIN load balancing in the sample,https://github.com/istio/istio/issues/651,N.A,0,0,0,0,0,1,0,Deemed as stale.

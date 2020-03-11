@@ -1,0 +1,31 @@
+First Commit Pull Request,Related to a good-first-issue?,Developer Experience?,Link to PR,Bug Fix (0/1),Enhancing an Existing Feature (0/1),New Feature (0/1),Documentation(0/1),Testing (0/1),Refactoring (0/1),Other Information
+Update the access log manager to look more like the metric and quota …,0,Experienced,https://github.com/istio/istio/commit/59fba81badbd0f331ce3bb188da47f8610232770,0,0,0,0,0,1,
+Expose copyBag function. (#414),0,Experienced,https://github.com/istio/istio/commit/8acb72fb7e1b1504ae2eee79dfe74130fe8029db,0,0,0,0,0,1,
+"Fetch, save, and upload cluster trace logs from multiple services (#440)",0,Experienced,https://github.com/istio/istio/commit/7c2d68a40de32ffe588078bd606a5c7e5b897f40,0,0,1,0,0,0,
+Add Makefile (#938),0,Experienced,https://github.com/istio/istio/commit/788c7aa34ed9da45216d0a87b3ee2079f8a6ab98,0,0,1,0,0,0,Organizational.
+Create issue_template.md,0,Experienced,https://github.com/istio/istio/commit/353782d8f90fb563ba25360236530544faff6d89,0,0,0,1,0,0,Organizational.
+Add newer version of service control adapter (#1141),0,Experienced,https://github.com/istio/istio/commit/f5580a3eec387b5a3b715a265de6fed174f9e715,0,0,1,0,0,0,
+Per-service auth enablement via service annotation (#1443),0,Experienced,https://github.com/istio/istio/commit/655e20414058e29ce2ee24bb86bace84674d3b3e,0,1,0,0,0,0,
+fix for dev guide. ,0,Medior,https://github.com/istio/istio/pull/1593,0,0,0,1,0,0,
+Fixed Istio-security linter errors,0,Medior,https://github.com/istio/istio/pull/1787,0,0,0,0,1,1,
+removed omitempty from Route TimeoutMS,0,Experienced,https://github.com/istio/istio/pull/1748,1,0,0,0,0,1,
+Expose concurrency flag of envoy,0,Medior,https://github.com/istio/istio/pull/3065,0,0,0,0,0,1,
+Add loadBalancerIP to istio-ingress service in Helm chart,0,Experienced,https://github.com/istio/istio/pull/4955,0,1,0,0,0,0,
+Make metrics command ready for web scale.,0,Experienced,https://github.com/istio/istio/pull/5289,0,1,0,0,0,0,
+Stackdriver tracespan support,0,Experienced,https://github.com/istio/istio/pull/5938,0,0,1,0,0,0,
+Make the error message when Istio is checked out into the wrong place less confusing,0,Medior,https://github.com/istio/istio/pull/6897,0,0,0,1,0,1,
+update for 1.0.0 path,0,Experienced,https://github.com/istio/istio/pull/7088,0,0,0,0,0,1,Organizational.
+Remove duplicated nodeagent in chart requirements.yaml,0,Experienced,https://github.com/istio/istio/pull/9422,0,0,0,0,0,1,
+Istio install script: manually set version when api call to get latest fails,0,Experienced,https://github.com/istio/istio/pull/10559,0,1,0,0,0,0,
+Fix node selector value comment,0,Medior,https://github.com/istio/istio/pull/10980,0,0,0,1,0,0,
+add request for memory so mem based hpa also works ,0,Experienced,https://github.com/istio/istio/pull/10755,0,0,1,0,0,0,
+Merge installer : rebase,0,Experienced,https://github.com/howardjohn/istio/pull/16,0,0,1,0,0,0,
+Fix potential fd leak,0,Experienced,https://github.com/istio/istio/pull/13310,1,0,0,0,0,0,
+Merge operator into installer,0,Experienced,https://github.com/howardjohn/istio/pull/18,0,0,0,0,0,1,Organizational.
+add pull secret to istio-security-post-install-account,0,Experienced,https://github.com/istio/istio/pull/14816,0,1,0,0,0,0,
+Fix metrics proxy port,0,Experienced,https://github.com/istio/istio/pull/15807,1,0,0,0,0,0,
+Update grafana-dashboard for syncing with istio/istio install k8s (#326),0,Experienced,https://github.com/istio/istio/commit/b45de18499220e85e067cc8a71155e2af79cf170,0,0,0,0,0,1,
+test(mixer): add adapter bypass unit test,0,Experienced,https://github.com/istio/istio/pull/16427,0,0,0,0,1,0,
+cert-manager: bump to v0.8.1 to avoid impending LetsEncrypt blacklist,0,Experienced,https://github.com/istio/istio/pull/17737,0,0,0,0,0,1,Organizational.
+mixer: remove explicit flush in Opencensus tracing adapter ,0,Experienced,https://github.com/istio/istio/pull/18074,0,0,0,0,0,1,
+Fix quoting for custom env variables in gateway deployment helm template,0,Medior,https://github.com/istio/istio/pull/20984,1,0,0,0,0,1,
