@@ -1,0 +1,6 @@
+Issue,URL,Associated PR,Taken by New Developer? (0/1),Bug Fix (0/1),Enhancing an Existing Feature (0/1),New Feature (0/1),Documentation(0/1),Testing (0/1),Refactoring (0/1),Other Information
+Add a tutorial to install on a Raspberry Pi,https://github.com/leon-ai/leon/issues/37,https://github.com/leon-ai/docs.getleon.ai/pull/6,1,0,0,0,1,0,0,
+Time module,https://github.com/leon-ai/leon/issues/30,https://github.com/leon-ai/leon/pull/53,1,0,0,1,0,0,0,PR is related to a currently outdated build.
+Hardware / Scaling requirements,https://github.com/leon-ai/leon/issues/28,https://github.com/leon-ai/docs.getleon.ai/pull/6,1,0,0,0,1,0,0,
+improve the Isitdown module,https://github.com/leon-ai/leon/issues/25,N.A,0,0,1,0,0,0,0,"Still active, but seems to become stale."
+german language support,https://github.com/leon-ai/leon/issues/8,N.A,0,0,0,1,0,0,0,"Translation, not done."

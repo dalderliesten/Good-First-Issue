@@ -1,0 +1,12 @@
+First Commit Pull Request,Related to a good-first-issue?,Developer Experience?,Link to PR,Bug Fix (0/1),Enhancing an Existing Feature (0/1),New Feature (0/1),Documentation(0/1),Testing (0/1),Refactoring (0/1),Other Information
+chore: init,0,Experienced,https://github.com/leon-ai/leon/commit/ed093bf6541f1f2f45430bcd8d8b1b63b6fda138,0,0,1,0,1,0,Organizational.
+Docker image added,0,Experienced,https://github.com/leon-ai/leon/pull/9,0,0,1,0,0,0,
+[ImgBot] Optimize images,0,BOT,https://github.com/ghostslayer989/leon/pull/1,0,0,0,0,0,1,
+fix: #11 Checker fails with capital letters in url,0,Experienced,https://github.com/leon-ai/leon/pull/20,1,0,0,0,0,0,
+README.md : some few typo corrections,0,Medior,https://github.com/leon-ai/leon/pull/39,0,0,0,1,0,0,
+fix(web app): enable environment variables,0,Experienced,https://github.com/leon-ai/leon/commit/a438d6f942812f74e3dda75a9875609f8bea21cd,0,1,0,0,0,0,
+Remove `apk update` in Dockerfile,0,Experienced,https://github.com/leon-ai/leon/pull/55,0,0,0,0,0,1,
+feat: Add speedtest package,0,Experienced,https://github.com/leon-ai/leon/pull/56,0,0,1,0,0,0,
+HaveIBeenPwned Module,0,Experienced,https://github.com/leon-ai/leon/pull/80,0,0,1,0,0,0,
+Optimize Docker image,0,Experienced,https://github.com/leon-ai/leon/pull/95,0,0,0,0,0,1,
+fix(package/leon): Fixes english translations,0,Experienced,https://github.com/leon-ai/leon/pull/110,1,0,0,0,0,0,
