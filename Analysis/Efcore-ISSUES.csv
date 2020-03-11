@@ -1,0 +1,31 @@
+Issue,URL,Associated PR,Taken by New Developer? (0/1),Bug Fix (0/1),Enhancing an Existing Feature (0/1),New Feature (0/1),Documentation(0/1),Testing (0/1),Refactoring (0/1),Other Information
+Document exceptions that should not be caught as part of normal flow control (i.e. most of them) ,https://github.com/dotnet/efcore/issues/20086,N.A,0,0,0,0,0,0,1,
+Scaffolder removal of HasDefaultValueSql does not cope with DEFAULT(0),https://github.com/dotnet/efcore/issues/19720,https://github.com/dotnet/efcore/pull/19745,1,0,0,0,0,0,1,
+Query: Translate byte array.IndexOf,https://github.com/dotnet/efcore/issues/19287,https://github.com/dotnet/efcore/pull/19189,1,1,0,0,0,0,1,
+"more exception info for ""Include has been used on non entity queryable""",https://github.com/dotnet/efcore/issues/18471,N.A,0,0,1,0,0,0,0,
+Compute Hash for MemberMemberBinding in ExpressionEqualityComparer,https://github.com/dotnet/efcore/issues/17959,https://github.com/dotnet/efcore/pull/19271,0,0,0,0,0,0,1,
+Allow DefaultValueSql when using ForSqlServerUseSequenceHiLo,https://github.com/dotnet/efcore/issues/16814,https://github.com/dotnet/efcore/pull/19887,0,0,1,0,0,0,0,
+dotnet-ef: Consider showing output that the project is building,https://github.com/dotnet/efcore/issues/15787,https://github.com/dotnet/efcore/pull/17348,0,1,0,0,0,0,0,
+"Microsoft.Data.Sqlite: Make GetBytes, GetChars, and GetTextReader more efficient",https://github.com/dotnet/efcore/issues/13987,https://github.com/dotnet/efcore/pull/18438,1,0,0,0,0,0,1,
+Unstable sort for Correlated_collection_with_top_level_FirstOrDefault test,https://github.com/dotnet/efcore/issues/15164,https://github.com/dotnet/efcore/pull/18193,0,1,0,0,0,1,0,
+Microsoft.Data.Sqlite: Enable overflow checking (except for ulong),https://github.com/dotnet/efcore/issues/14682,https://github.com/dotnet/efcore/pull/14958,0,0,0,0,0,0,1,
+{SQLCE] Specification tests fail due to SQLCE limitations,https://github.com/dotnet/efcore/issues/12904,https://github.com/dotnet/efcore/pull/12936,0,0,0,0,0,1,0,
+Add partial methods to the scaffolded DbContext code,https://github.com/dotnet/efcore/issues/12245,https://github.com/dotnet/efcore/pull/15654,0,0,1,0,0,0,0,
+Expression DateTime.CompareTo drops entire Where,https://github.com/dotnet/efcore/issues/12115,https://github.com/dotnet/efcore/pull/14237,0,0,1,0,0,0,0,
+Invalid SQL generated with nested .Sum() and operator,https://github.com/dotnet/efcore/issues/11922,https://github.com/dotnet/efcore/pull/13556,0,0,1,0,0,0,1,
+Allow specifying online option on SQL Server indexes,https://github.com/dotnet/efcore/issues/11499,https://github.com/dotnet/efcore/pull/13698,0,0,1,0,0,1,0,
+Query: rewrite predicate with constanList.Any(e =>e == someProperty) to Contains,https://github.com/dotnet/efcore/issues/11389,https://github.com/dotnet/efcore/pull/11465,0,0,1,0,0,0,0,
+SqlServerMigrationsSqlGenerator missing dependency object,https://github.com/dotnet/efcore/issues/10233,https://github.com/dotnet/efcore/pull/16706,0,0,0,0,0,0,1,"Duplicate issue, took PR off referenced duplicate."
+Improve Tools packages descriptions,https://github.com/dotnet/efcore/issues/9439,https://github.com/dotnet/efcore/pull/9777,0,0,0,0,1,0,0,
+Consider having sugar methods to make it easier to apply migrations programatically,https://github.com/dotnet/efcore/issues/9339,https://github.com/dotnet/efcore/pull/10517,0,0,0,0,0,1,1,
+DbFunctions: Schema not specified when calling DbFunction in projection,https://github.com/dotnet/efcore/issues/9214,https://github.com/dotnet/efcore/pull/10423,0,0,1,0,0,0,0,"Duplicate issue, took PR off referenced duplicate."
+DbFunctions: Consider allowing instance methods,https://github.com/dotnet/efcore/issues/9213,https://github.com/dotnet/efcore/pull/9755,0,0,1,0,0,0,0,
+Query: ParameterExtraction creates a parameter for every instance even though same variable is referenced,https://github.com/dotnet/efcore/issues/7797,https://github.com/dotnet/efcore/pull/11788,0,1,0,0,0,0,1,
+Support creating non-durable SQL Server memory-optimized tables,https://github.com/dotnet/efcore/issues/6671,N.A,0,0,0,1,0,0,0,Closed due to lack of interest.
+Microsoft.EntityFrameworkCore.Tools does not support Shared Projects,https://github.com/dotnet/efcore/issues/5248,N.A,0,0,1,0,0,0,0,"Closed, won't be done/fixed."
+ContainsTranslater support for more than strings,https://github.com/dotnet/efcore/issues/3078,https://github.com/dotnet/efcore/pull/9149,0,0,0,0,1,0,0,
+Equivalent to ObjectContext.CreateDatabaseScript,https://github.com/dotnet/efcore/issues/2943,https://github.com/dotnet/efcore/pull/10136,0,1,1,0,0,1,1,
+Support Enum.HasFlag in LINQ,https://github.com/dotnet/efcore/issues/2852,https://github.com/dotnet/efcore/pull/6431,0,0,0,1,0,0,0,
+Replace FunctionEvaluationDisablingVisitor and FunctionEvaluationEnablingVisitor with EvaluatableExpressionFilter,https://github.com/dotnet/efcore/issues/2667,https://github.com/npgsql/efcore.pg/pull/315,0,0,0,1,0,0,0,
+Migrations: CHECK Discriminator Values,https://github.com/dotnet/efcore/issues/2594,N.A,0,0,1,0,0,0,0,
+Add tests for ModelBuilder that use half-configured relationships,https://github.com/dotnet/efcore/issues/2412,N.A,0,0,0,0,0,1,0,

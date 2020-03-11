@@ -1,0 +1,31 @@
+First Commit Pull Request,Related to a good-first-issue?,Developer Experience?,Link to PR,Bug Fix (0/1),Enhancing an Existing Feature (0/1),New Feature (0/1),Documentation(0/1),Testing (0/1),Refactoring (0/1),Other Information
+Enable round tripping with SQL Server,0,Medior,https://github.com/dotnet/efcore/pull/60,0,0,1,0,0,0,
+Pass the format provider to DateTime.Parse to make tests that rely on…,0,Experienced,https://github.com/dotnet/efcore/commit/12cc46a9428830b92acc90a01afb3caf8f8113e2,0,0,0,0,1,0,
+Handle IBuilder rename to IApplicationBuilder.,0,Experienced,https://github.com/dotnet/efcore/commit/640b08daacc92534cc6db9933dcdc461f9b8063a,0,0,0,0,0,1,
+Moved Compiled Model out of Product Assembly,0,Experienced,https://github.com/dotnet/efcore/commit/f57b95000f3d48b7080269ad365ac6d8f5f33d22,0,0,0,0,0,1,
+update local fork with newest from asp EF,0,Experienced,https://github.com/gramx/EntityFramework/pull/1,0,0,0,0,0,1,"Organizational, forked project."
+Fix to #1640 - Make SqlGeneratorTestBase implementation independent b…,0,Experienced,https://github.com/dotnet/efcore/commit/1db6efecb4db744a2ae866c34ac12400bf5d9726,1,0,0,0,0,0,
+Ignore user override for culture parsing dates,0,Experienced,https://github.com/dotnet/efcore/commit/2130f4e2a596d01f6f0e935e978d0d8b3a5ab962,1,0,0,0,1,0,
+Add Convert.ToInt32 to SqlServer.,0,Experienced,https://github.com/dotnet/efcore/commit/73f59104e5cd21dc5ca2d8705d8851db3a830efc,0,1,0,0,0,0,
+React to aspnet/configuration #246,0,Experienced,https://github.com/dotnet/efcore/commit/3f9c5025d00f4ed066e56c429a94816ff2e6592d,0,0,0,0,0,1,
+Merge aspnet/Microsoft.Data.Sqlite 2.1 into this repo ,0,Experienced,https://github.com/dotnet/efcore/pull/13843,0,0,0,0,0,1,Organizational.
+Add support for AttachDBFilename,1,Experienced,https://github.com/dotnet/efcore/pull/6446,0,1,0,0,0,0,
+Changed ForeignKeyIndexConvention to update the IsUnique property,0,Experienced,https://github.com/dotnet/efcore/pull/7327,1,0,0,0,0,0,
+update,0,Experienced,https://github.com/tralivali1234/EntityFramework/pull/1,0,0,0,0,0,1,"Organizational, forked project."
+"Update WarningsTest for ""Query: Include: Log ignored Include warnings properly in new compiler.""",0,Experienced,https://github.com/dotnet/efcore/pull/8262,0,0,0,0,1,0,
+Updated that the base method is a noop.,0,Experienced,https://github.com/dotnet/efcore/pull/9497,0,0,0,1,0,0,
+Oracle - Implementation of Batch Insertion,0,Experienced,https://github.com/dotnet/efcore/pull/10078,0,0,1,0,0,0,
+Change private methods to protected virtual in DbContext and EntityTy…,0,Experienced,https://github.com/dotnet/efcore/commit/f44eaa4bbd80e0223cf5888d67627405f14629eb,0,0,0,0,0,1,Forked project.
+Add 'virtual' keyword to the navigation properties,0,Novice,https://github.com/dotnet/efcore/pull/11949,0,0,0,0,0,1,
+[automated] Merge branch 'release/2.2' => 'master' ,0,BOT,https://github.com/dotnet/efcore/pull/13557,0,0,0,0,0,1,Organizational.
+Remove language info in EfCore documentation url,0,Experienced,https://github.com/dotnet/efcore/pull/13652,0,0,0,1,0,0,
+Fix migration order ,0,Novice,https://github.com/dotnet/efcore/pull/12967,1,0,0,0,0,1,
+Typo fix,0,Medior,https://github.com/dotnet/efcore/pull/14183,0,0,0,0,0,1,Code typo related contribution.
+Query: Support ICollection<T>.Contains,0,Experienced,https://github.com/dotnet/efcore/pull/17599,0,1,0,0,0,0,
+Replaces inconsistent Task.FromResult usage with Task.CompletedTask,1,Experienced,https://github.com/dotnet/efcore/pull/17846,0,0,0,0,0,1,
+Modified ALTER DATABASE statement to support complex names.,0,Experienced,https://github.com/dotnet/efcore/pull/19291,1,0,0,0,0,0,
+Update links for repo moves/renames,0,Experienced,https://github.com/dotnet/efcore/pull/19524,0,0,0,1,0,0,
+[automated] Merge branch 'release/3.1' => 'master',0,BOT,https://github.com/dotnet/efcore/pull/19591,0,0,0,0,0,1,Organizational.
+Added test stubs Normalized in SpatialQueryTestBase,0,Experienced,https://github.com/dotnet/efcore/pull/20036,0,0,0,0,1,0,
+Reuse StringBuilder,0,Experienced,https://github.com/dotnet/efcore/pull/20037,0,0,0,0,0,1,
+Nested ambient transaction,0,Medior,https://github.com/dotnet/efcore/pull/20012,0,0,0,0,0,1,
