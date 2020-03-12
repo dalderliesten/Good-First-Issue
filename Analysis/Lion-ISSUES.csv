@@ -1,0 +1,18 @@
+Issue,URL,Associated PR,Taken by New Developer? (0/1),Bug Fix (0/1),Enhancing an Existing Feature (0/1),New Feature (0/1),Documentation(0/1),Testing (0/1),Refactoring (0/1),Other Information
+[lion-radio-group] can't get keyboard focus when untouched/not prefilled,https://github.com/ing-bank/lion/issues/569,N.A,0,1,0,0,0,0,0,
+[button] executes regexp on each render,https://github.com/ing-bank/lion/issues/546,https://github.com/ing-bank/lion/pull/550,1,1,0,0,0,0,1,
+[storybook] Font usage not aligned,https://github.com/ing-bank/lion/issues/524,N.A,0,1,0,0,0,0,0,
+[localize] formatNumber for en-AU is broken with currency sign,https://github.com/ing-bank/lion/issues/432,https://github.com/ing-bank/lion/pull/619,1,1,0,0,0,0,0,
+[lion-calendar] Prevent default behavior on keyboard interaction,https://github.com/ing-bank/lion/issues/423,https://github.com/ing-bank/lion/pull/440,0,1,0,0,0,0,0,
+[LionTextarea] dose not support readonly attribute,https://github.com/ing-bank/lion/issues/333,https://github.com/ing-bank/lion/pull/348,0,1,0,0,0,0,0,
+lion/validators.js isNumberValidator dose not use factoryParams,https://github.com/ing-bank/lion/issues/329,https://github.com/ing-bank/lion/pull/334,1,1,0,0,0,0,0,
+[storybook] Enable A11Y addon,https://github.com/ing-bank/lion/issues/298,https://github.com/ing-bank/lion/pull/289,0,0,0,1,0,0,0,
+[localize] date formatting forced,https://github.com/ing-bank/lion/issues/296,https://github.com/ing-bank/lion/pull/321,1,1,0,0,0,1,0,"Offloaded to another pull request, took that PR's data."
+Listener 'all-forms-open-for-registration' is never removed,https://github.com/ing-bank/lion/issues/283,https://github.com/ing-bank/lion/pull/349,0,0,0,0,0,0,1,
+[select-rich] Shows incorrect option as selected when new option is added,https://github.com/ing-bank/lion/issues/265,https://github.com/ing-bank/lion/pull/339,1,1,0,0,0,0,0,
+[field] Feedback slots lack aria-live,https://github.com/ing-bank/lion/issues/190,https://github.com/ing-bank/lion/pull/301,0,0,1,0,0,0,0,
+[icon] throws when svg is null,https://github.com/ing-bank/lion/issues/185,https://github.com/ing-bank/lion/pull/276,1,1,0,0,0,0,0,
+[textarea] max-rows allows more rows than it should,https://github.com/ing-bank/lion/issues/184,https://github.com/ing-bank/lion/pull/189,1,0,1,0,0,0,1,
+[input-email]/[input-iban] Demo's lack labels,https://github.com/ing-bank/lion/issues/169,https://github.com/ing-bank/lion/pull/299,0,0,1,0,0,0,0,
+add Typescript definitions,https://github.com/ing-bank/lion/issues/82,N.A,0,0,0,1,0,0,0,Deemed as not interesting based on votes.
+[core] export unsafeCSS from lit-element,https://github.com/ing-bank/lion/issues/6,https://github.com/ing-bank/lion/pull/8,0,0,0,0,0,0,1,
