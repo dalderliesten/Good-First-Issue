@@ -18,7 +18,7 @@ ElasticSearch,https://github.com/elastic/elasticsearch,,,,,,
 DeepSpeed,https://github.com/microsoft/DeepSpeed,,,,,,
 PySyft,https://github.com/OpenMined/PySyft,,,,,,
 Front-End-Checklist,https://github.com/thedaviddias/Front-End-Checklist,,,,,,
-Front-End-Performance-Checklist,https://github.com/thedaviddias/Front-End-Performance-Checklist,,,,,,
+Front-End-Performance-Checklist,https://github.com/thedaviddias/Front-End-Performance-Checklist,Done,,23,2,30,2
 Serverless,https://github.com/serverless/serverless,,,,,,
 Kubernetes,https://github.com/kubernetes/kubernetes,,,,,,
 HTML Standard Spec,https://github.com/whatwg/html,,,,,,
