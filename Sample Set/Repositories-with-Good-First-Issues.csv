@@ -30,7 +30,7 @@ JSON for C++,https://github.com/nlohmann/json,,,,,,
 Clash,https://github.com/Dreamacro/clash,,,,,,
 Keras,https://github.com/keras-team/keras,,,,,,
 Lion,https://github.com/ing-bank/lion,Done,,205,17,30,17
-Org-Roam,https://github.com/jethrokuan/org-roam,,label = 'tag: good first issue',,,,
+Org-Roam,https://github.com/jethrokuan/org-roam,Done,label = 'tag: good first issue',126,3,18,3
 Crawlab,https://github.com/crawlab-team/crawlab,,,,,,
 Joplin,https://github.com/laurent22/joplin,,,,,,
 Todomvc,https://github.com/tastejs/todomvc,Done,label = 'first time contributor',733,11,30,11
