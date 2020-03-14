@@ -11,7 +11,7 @@ Pandas,https://github.com/pandas-dev/pandas,,,,,,
 Tensorflow,https://github.com/tensorflow/tensorflow,,,,,,
 Cordova,https://github.com/apache/cordova,,,,,,
 Xamarin,https://github.com/xamarin/Xamarin.Forms,,label = 'up for grabs',,,,
-Flutter,https://github.com/flutter/flutter,,label = 'good first contribution',,,,
+Flutter,https://github.com/flutter/flutter,Done,label = 'good first contribution',33518,17,30,17
 PyTorch,https://github.com/pytorch/pytorch,,,,,,
 Chef,https://github.com/chef/chef,,label ='status:good first issue',,,,
 ElasticSearch,https://github.com/elastic/elasticsearch,,,,,,

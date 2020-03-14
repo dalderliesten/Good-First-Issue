@@ -1,0 +1,18 @@
+﻿Issue,URL,Associated PR,Taken by New Developer? (0/1),Bug Fix (0/1),Enhancing an Existing Feature (0/1),New Feature (0/1),Documentation(0/1),Testing (0/1),Refactoring (0/1),Other Information
+Flutter web: url_launcher Plugin show blank page on dismiss,https://github.com/flutter/flutter/issues/51461,N.A,0,1,0,0,0,0,0,Being worked on.
+Write a real Visual Studio solution file parser,https://github.com/flutter/flutter/issues/51430,N.A,0,0,0,1,0,0,0,Appears to be stale.
+Attempting to screenshot a widget on the web throws stack trace,https://github.com/flutter/flutter/issues/49857,N.A,0,1,0,0,0,0,0,Being worked on.
+url_launcher for web should support the mailto scheme,https://github.com/flutter/flutter/issues/49529,https://github.com/flutter/plugins/pull/2490,1,0,0,1,0,0,0,
+Add doctor check to verify that the required hosts are reachable,https://github.com/flutter/flutter/issues/49403,N.A,0,0,1,0,0,0,0,Being worked on.
+[web][edge] Input cursor is visible,https://github.com/flutter/flutter/issues/47694,N.A,0,1,0,0,0,0,0,
+Clicks not registered with webkit2gtk on Linux,https://github.com/flutter/flutter/issues/46918,N.A,0,1,0,0,0,0,0,Dismissed due to lack of reproducability.
+[plugins] Switch analysis rules,https://github.com/flutter/flutter/issues/45440,https://github.com/flutter/plugins/pull/2300,0,0,0,0,0,0,1,"Ongoing issue, took first PR for analysis."
+[shared_preferences] Polish issues,https://github.com/flutter/flutter/issues/44403,https://github.com/flutter/plugins/pull/2296,0,0,0,0,1,0,0,
+[path_provider] Polish issues,https://github.com/flutter/flutter/issues/44398,https://github.com/flutter/plugins/pull/2288,0,0,0,0,1,0,0,
+[image_picker] Polish issues,https://github.com/flutter/flutter/issues/44393,https://github.com/flutter/plugins/pull/2261,0,0,0,0,1,1,0,
+[connectivity] Polish,https://github.com/flutter/flutter/issues/44386,https://github.com/flutter/plugins/pull/2262,0,0,0,0,1,0,1,
+Flutter create indents Kotlin code with 2 spaces,https://github.com/flutter/flutter/issues/42212,https://github.com/flutter/flutter/pull/43080,1,0,0,0,0,0,1,
+uncommenting the assets part in the pubspec.yaml file leaves mismatching indentation,https://github.com/flutter/flutter/issues/41703,https://github.com/flutter/flutter/pull/45833,1,1,0,0,0,0,1,
+Allow formatting from stdin with flutter format,https://github.com/flutter/flutter/issues/41011,N.A,0,0,1,0,0,0,0,
+Flutter tool should release cache lock when killed by a signal.,https://github.com/flutter/flutter/issues/30478,https://github.com/flutter/flutter/pull/52194,0,0,0,1,0,0,1,
+Verbose mode options to tooling should pass the --verbose-logging flag to the engine.,https://github.com/flutter/flutter/issues/16730,https://github.com/flutter/flutter/pull/16668,0,0,0,0,0,0,1,"Implemented before and reverted, took original implementation PR for data."
