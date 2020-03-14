@@ -17,7 +17,7 @@ Chef,https://github.com/chef/chef,,label ='status:good first issue',,,,
 ElasticSearch,https://github.com/elastic/elasticsearch,,,,,,
 DeepSpeed,https://github.com/microsoft/DeepSpeed,,,,,,
 PySyft,https://github.com/OpenMined/PySyft,,,,,,
-Front-End-Checklist,https://github.com/thedaviddias/Front-End-Checklist,,,,,,
+Front-End-Checklist,https://github.com/thedaviddias/Front-End-Checklist,Done,,104,1,30,1
 Front-End-Performance-Checklist,https://github.com/thedaviddias/Front-End-Performance-Checklist,Done,,23,2,30,2
 Serverless,https://github.com/serverless/serverless,,,,,,
 Kubernetes,https://github.com/kubernetes/kubernetes,,,,,,
