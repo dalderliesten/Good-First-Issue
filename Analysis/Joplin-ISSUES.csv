@@ -1,0 +1,31 @@
+﻿Issue,URL,Associated PR,Taken by New Developer? (0/1),Bug Fix (0/1),Enhancing an Existing Feature (0/1),New Feature (0/1),Documentation(0/1),Testing (0/1),Refactoring (0/1),Other Information
+Add support for Rule of Hooks plugin,https://github.com/laurent22/joplin/issues/2579,https://github.com/laurent22/joplin/pull/2585,0,0,1,0,0,0,0,
+Check and fix window dimensions and position when the application start,https://github.com/laurent22/joplin/issues/2476,https://github.com/laurent22/joplin/pull/2514,1,1,0,0,0,0,0,"Multiple associated PRs, took first one."
+find a good geolocation service (https),https://github.com/laurent22/joplin/issues/2469,https://github.com/laurent22/joplin/pull/2503,0,0,0,0,0,0,1,
+edit menu items and shortcuts not disabled in preview mode ,https://github.com/laurent22/joplin/issues/2467,https://github.com/laurent22/joplin/pull/2576,0,1,0,0,0,0,0,
+"Add a ""Copy code"" button on code blocks",https://github.com/laurent22/joplin/issues/2383,N.A,0,0,0,1,0,0,0,Being worked on.
+Right-click to assign a note to a notebook,https://github.com/laurent22/joplin/issues/2296,https://github.com/laurent22/joplin/pull/2566,1,0,1,0,0,0,0,
+Add a scrollbar in note editor and viewer,https://github.com/laurent22/joplin/issues/2286,https://github.com/laurent22/joplin/pull/2594,0,0,1,0,0,0,0,
+english not move next column,https://github.com/laurent22/joplin/issues/2170,https://github.com/laurent22/joplin/pull/2447,0,1,0,0,0,0,0,
+[Feature Request] Configurable layout for terminal joplin,https://github.com/laurent22/joplin/issues/2110,https://github.com/laurent22/joplin/pull/2613,0,0,1,0,0,0,0,Closed due to contributor staleness.
+Alarm dates not visible,https://github.com/laurent22/joplin/issues/2098,N.A,0,1,0,0,0,0,0,Ongoing.
+Add warning in log if a large resource is about to be uploaded,https://github.com/laurent22/joplin/issues/2097,https://github.com/laurent22/joplin/pull/2102,1,0,1,0,0,0,0,
+"Parenthesis in title change to underscores when using ""Copy Markdown Link""",https://github.com/laurent22/joplin/issues/2085,https://github.com/laurent22/joplin/pull/2456,0,1,0,0,0,0,0,
+Allow setting ratio on camera component,https://github.com/laurent22/joplin/issues/1998,N.A,0,0,1,0,0,0,0,"Duplicate issue, closed."
+Add command to list all the tags of a note,https://github.com/laurent22/joplin/issues/1974,https://github.com/laurent22/joplin/pull/2003,1,0,0,1,0,0,0,
+Add a Nord theme,https://github.com/laurent22/joplin/issues/1903,https://github.com/laurent22/joplin/pull/2004,0,0,0,1,0,0,0,
+Allow selecting what views should be available from the Layout button,https://github.com/laurent22/joplin/issues/1900,https://github.com/laurent22/joplin/pull/2028,0,0,1,0,0,0,0,
+Hide editing toolbar buttons when text editor is hidden,https://github.com/laurent22/joplin/issues/1896,https://github.com/laurent22/joplin/pull/1940,0,0,0,0,0,0,1,
+Upgrade styles in the import screen,https://github.com/laurent22/joplin/issues/1862,https://github.com/laurent22/joplin/pull/1888,0,0,1,0,0,0,0,
+Add a password verification field when enabling E2EE,https://github.com/laurent22/joplin/issues/1656,https://github.com/laurent22/joplin/pull/1937,0,0,1,0,0,0,0,"Multiple associated PRs, took first one."
+Beautify Joplin,https://github.com/laurent22/joplin/issues/1396,N.A,0,0,1,0,0,0,1,Closed due to lack of focus.
+GNU/Linux Desktop Changelog Dialog Too Long ,https://github.com/laurent22/joplin/issues/1222,https://github.com/laurent22/joplin/pull/1967,1,0,0,0,0,0,1,
+Select and convert multiple lines to list items,https://github.com/laurent22/joplin/issues/1014,https://github.com/laurent22/joplin/pull/2408,0,0,0,1,0,0,0,
+Increase the font size for note titles in the note view/edit pane,https://github.com/laurent22/joplin/issues/915,https://github.com/laurent22/joplin/pull/2311,0,0,0,0,0,0,1,
+FR: Add Subnotebook menu item,https://github.com/laurent22/joplin/issues/898,https://github.com/laurent22/joplin/pull/1984,0,0,0,1,0,0,0,"Duplicate issue, took duplicate associated PR."
+[feature request] duplicate note,https://github.com/laurent22/joplin/issues/545,https://github.com/laurent22/joplin/pull/1969,1,0,0,1,0,0,0,
+Export Human-readable Filenames and Folders,https://github.com/laurent22/joplin/issues/316,N.A,0,0,0,1,0,0,0,"Claims it was implemented, but no PR/Commit given or referenced."
+[Feature Request] Show version on mobile apps,https://github.com/laurent22/joplin/issues/233,https://github.com/laurent22/joplin/pull/930,0,0,0,1,0,0,0,
+Theme support for desktop apps,https://github.com/laurent22/joplin/issues/93,https://github.com/laurent22/joplin/pull/921,0,0,0,1,0,0,0,
+Terminal - Keyboard navigation improvements,https://github.com/laurent22/joplin/issues/63,https://github.com/laurent22/joplin/commit/e4d477fb4c544e99b37c0dc82955f64f58d08854,0,0,0,1,0,0,0,
+Add support for maths input,https://github.com/laurent22/joplin/issues/11,N.A,0,0,0,1,0,0,0,Closed without reference.
