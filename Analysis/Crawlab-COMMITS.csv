@@ -1,0 +1,17 @@
+﻿First Commit Pull Request,Related to a good-first-issue?,Developer Experience?,Link to PR,Bug Fix (0/1),Enhancing an Existing Feature (0/1),New Feature (0/1),Documentation(0/1),Testing (0/1),Refactoring (0/1),Other Information
+added celery functionality ,0,Experienced,https://github.com/crawlab-team/crawlab/commit/7e8531aa5748593b3650e81d0ea846123123c779,0,0,1,0,0,0,Organizational.
+💡 edit READEME,0,Medior,https://github.com/crawlab-team/crawlab/commit/37f5889b090f162ffeca55c32cb6301b5fd052a6,0,0,0,1,0,0,
+fix bug ,0,Medior,https://github.com/crawlab-team/crawlab/commit/df43a7fc96558508abc8445838d6183b395bbb93,1,0,0,0,0,0,
+modify config setting,0,Experienced,https://github.com/crawlab-team/crawlab/commit/4b4c48649141b8eeec5c1fcbfb1afb733cd8f2ab,0,0,0,0,0,1,Organizational.
+修改README错别字 ,0,Experienced,https://github.com/crawlab-team/crawlab/pull/77,0,0,0,1,0,0,
+FIX Node节点删除问题,0,Experienced,https://github.com/crawlab-team/crawlab/pull/88,1,0,0,0,0,0,title:'fix node deletion problem'
+fixed small errors,0,Experienced,https://github.com/crawlab-team/crawlab/pull/105,1,0,0,0,0,0,
+修改解压缩文件权限默认为0666的问题,0,Novice,https://github.com/crawlab-team/crawlab/pull/124,1,0,0,0,0,0,title:'modify permissions of the unzipped file default to 0666'
+alpine 镜像,0,Novice,https://github.com/crawlab-team/crawlab/pull/129,0,0,0,0,0,1,title:'alpine mirror'
+Add Some Unit Test ,0,Experienced,https://github.com/crawlab-team/crawlab/commit/15e7fa662e0a50370e7ade86025ca611e345ffd1,0,0,0,0,1,0,
+Fix environment variable replacement for CRAWLAB_API_ADDRESS,0,Experienced,https://github.com/crawlab-team/crawlab/pull/268,1,0,0,0,0,0,
+"modify CRAWLAB_API_ADDRESS add http , without it will cause front can…",0,Experienced,https://github.com/crawlab-team/crawlab/pull/298,1,0,0,0,0,0,
+fix Cannot read property length of null when first init,0,Medior,https://github.com/crawlab-team/crawlab/pull/321,1,0,0,0,0,0,
+chore: fix fmt warning.,0,Experienced,https://github.com/crawlab-team/crawlab/pull/330,1,0,0,0,0,0,
+reduce docker image size,0,Medior,https://github.com/crawlab-team/crawlab/pull/362,0,0,0,0,0,1,
+Bump handlebars from 4.1.0 to 4.5.3 in /frontend,0,BOT,https://github.com/crawlab-team/crawlab/pull/409,0,0,0,0,0,1,Organizational.

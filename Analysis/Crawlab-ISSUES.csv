@@ -1,0 +1,31 @@
+﻿Issue,URL,Associated PR,Taken by New Developer? (0/1),Bug Fix (0/1),Enhancing an Existing Feature (0/1),New Feature (0/1),Documentation(0/1),Testing (0/1),Refactoring (0/1),Other Information
+docker build构建image报错,https://github.com/crawlab-team/crawlab/issues/563,N.A,0,1,0,0,0,0,0,"Title: 'docker image error,' deprecated because eventual image success."
+docker安装的任务执行有问题,https://github.com/crawlab-team/crawlab/issues/561,N.A,0,1,0,0,0,0,0,Title: 'problem with docker installation.' Still ongoing.
+引入 save_item() 出错,https://github.com/crawlab-team/crawlab/issues/482,N.A,0,1,0,0,0,0,0,Title: 'error due to sdave_item()'
+定时任务设置停止状态,https://github.com/crawlab-team/crawlab/issues/467,N.A,0,0,1,0,0,0,0,"Title: 'scheduled task stop status', not done due to ability to disable image itself."
+【bug】关于docker-compose部署,https://github.com/crawlab-team/crawlab/issues/466,N.A,0,1,0,0,0,0,0,"Title'[bug] about docker-compose deployment', not done as error related to MongoDB and not Crawlab."
+"上传了个node的爬虫 ,然后node no find",https://github.com/crawlab-team/crawlab/issues/396,N.A,0,1,0,0,0,0,0,"Title:'uploaded a node crawler, and then the node could not be found.', not done since error not related to Crawlab."
+"附属到已有项目的 docker-compose 中, 登录失败",https://github.com/crawlab-team/crawlab/issues/393,N.A,0,1,0,0,0,0,0,"Title:'attached a docker-compose of an existing project, login failed.' Not done since not related to Crawlab."
+redis和mongodb启动正常，crawlab无法启动,https://github.com/crawlab-team/crawlab/issues/386,N.A,0,1,0,0,0,0,0,Title:'Redis and MongoDB start normally but Crawlab fails to start.' Not done since not caused by Crawlab.
+【优化建议】区分结果数据库和配置数据库,https://github.com/crawlab-team/crawlab/issues/338,N.A,0,0,0,0,0,0,1,"Title:'[optimization] Differentia result database and configuration database' Not done since related to MongoDB, not Crawlab."
+优化建议 docker镜像,https://github.com/crawlab-team/crawlab/issues/317,N.A,0,0,0,0,0,0,1,Title:'optimization reccomendations for docker image.' Not done since disagreement existed on idea.
+演示demo 挂掉了,https://github.com/crawlab-team/crawlab/issues/312,N.A,0,1,0,0,0,0,0,Title:'demo hangs.' Fixed without PR.
+登陆时出错，请坚持用户名和密码,https://github.com/crawlab-team/crawlab/issues/310,N.A,0,1,0,0,0,0,0,"Title:'error during login, insists on username/password.' Fixed outside of a PR."
+使用另外一个容器的docker 中的redis服务时，worker服务起不来，查看容器日志,https://github.com/crawlab-team/crawlab/issues/293,N.A,0,1,0,0,0,0,0,Title: when using Redit service in docker in another container the worker cannot start.' Could already be fixed with a config file change.
+如图，启动失败,https://github.com/crawlab-team/crawlab/issues/287,N.A,0,1,0,0,0,0,0,"Title:' startup failed, as shown.' User error, not related to Crawlab."
+Spider source not updated,https://github.com/crawlab-team/crawlab/issues/285,N.A,0,1,0,0,0,0,0,"Issue related to latency, not Crawlab."
+可以单独在另一台服务器开节点么？,https://github.com/crawlab-team/crawlab/issues/274,N.A,0,0,0,0,1,0,0,Title:'Can I open a node on another server?' Not done since unrelated to software component of project. Organizational.
+使用docker-compose 运行如何配置 Crawlab还是不需要配置,https://github.com/crawlab-team/crawlab/issues/271,N.A,0,0,0,0,1,0,0,"Title:'how to configure Crawlab with docker-compose'. Related to a user question, not software."
+日志的留存,https://github.com/crawlab-team/crawlab/issues/266,N.A,0,0,1,0,0,0,0,"Title:'retention of logs.' Related to user config, no action taken."
+爬虫里面的环境变量主要是设置什么的？,https://github.com/crawlab-team/crawlab/issues/264,N.A,0,0,0,0,1,0,0,Title:'where are the environment variable set in Crawlab?' Not related to software.
+时区好像有点不正确~,https://github.com/crawlab-team/crawlab/issues/262,N.A,0,1,0,0,0,0,0,"Title:'time zones are incorrect.' MongoDB error, no action taken."
+default username & password is not working,https://github.com/crawlab-team/crawlab/issues/255,N.A,0,1,0,0,0,0,0,"Unrelated to Crawlab, user issue."
+在管理页面修改爬虫文件时似乎没有同步到mongo,https://github.com/crawlab-team/crawlab/issues/252,N.A,0,1,0,0,0,0,0,Title:'no sync to Mongo when modifying crawler files in admin page.'
+port 8080 is already in use,https://github.com/crawlab-team/crawlab/issues/251,N.A,0,1,0,0,0,0,0,Not related to Crawlab but to Docker.
+修改docker-compose.yml连接本地的mongo和redis，在访问主页时报错,https://github.com/crawlab-team/crawlab/issues/225,N.A,0,0,0,1,0,0,0,"Title:'modify docker-compose.yml to connect to local mong and redis, and report an error when accessing the homepage.' User issue."
+初始账号密码无法登录,https://github.com/crawlab-team/crawlab/issues/211,N.A,0,1,0,0,0,0,0,"Title:'unable to log in with initial account password.' User error, not handled."
+爬虫项目的环境依赖问题,https://github.com/crawlab-team/crawlab/issues/161,N.A,0,1,0,0,0,0,0,Title:'environmental dependency issues of crawler projects.' User related.
+which folder to place the yml config file when I deploy crawlab using docker-compose up?,https://github.com/crawlab-team/crawlab/issues/159,N.A,0,0,0,0,1,0,0,"User question, not related to software."
+请问下爬虫支持其他语言么？,https://github.com/crawlab-team/crawlab/issues/139,N.A,0,0,1,0,0,0,0,"Title:'Does crawler support other languages?' Not done because Crawlab is seen as a management platform, not a translation platform."
+"环境变量传入MONGO_DB只能为crawlab_test,不能自定义数据库名。",https://github.com/crawlab-team/crawlab/issues/125,N.A,0,0,1,0,0,0,0,"Title:'environment variable passed to MONGO_DB can only be crawlab_test, no other names possible for database.' User error/misunderstanding."
+win10系统下，部署成功后，新建可配置爬虫无法运行，日志路径报错,https://github.com/crawlab-team/crawlab/issues/80,N.A,0,1,0,0,0,0,0,"Title:'after successful deployment on Win10 system, new configurable crawler cannot run and log path reports an error.' User error, not fixed/software related."
