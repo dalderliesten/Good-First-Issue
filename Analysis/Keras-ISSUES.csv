@@ -1,0 +1,28 @@
+﻿Issue,URL,Associated PR,Taken by New Developer? (0/1),Bug Fix (0/1),Enhancing an Existing Feature (0/1),New Feature (0/1),Documentation(0/1),Testing (0/1),Refactoring (0/1),Other Information
+Convert the docstrings of examples in `examples/*` to use Markdown formatting,https://github.com/keras-team/keras/issues/12219,https://github.com/keras-team/keras/pull/12221,1,0,1,0,0,0,0,"Multiple PRs, took first one for data."
+decoder summary has a output shape as multiple. What does it mean,https://github.com/keras-team/keras/issues/12213,https://github.com/keras-team/keras/pull/12239,1,0,0,0,1,0,0,
+TypeError: object of type 'ImageDataGenerator' has no len(),https://github.com/keras-team/keras/issues/12188,N.A,0,1,0,0,0,0,0,"User error, intended and won't be fixed."
+Implement K.arange for the cntk backend.,https://github.com/keras-team/keras/issues/12164,https://github.com/keras-team/keras/pull/12076,0,0,0,0,0,0,1,
+Cleaned the namespace of keras.backend.,https://github.com/keras-team/keras/pull/12076,https://github.com/keras-team/keras/pull/12084,0,0,0,0,0,0,1,
+implement K.cumsum and K.cumprod for the cntk backend.,https://github.com/keras-team/keras/issues/12163,https://github.com/keras-team/keras/pull/12076,0,0,0,0,0,0,1,
+Implement K.update_sub() for the cntk backend.,https://github.com/keras-team/keras/issues/12162,https://github.com/keras-team/keras/pull/12076,0,0,0,0,0,0,1,
+Implement K.reset_uids() for the cntk backend. ,https://github.com/keras-team/keras/issues/12161,https://github.com/keras-team/keras/pull/12076,0,0,0,0,0,0,1,
+__getitem__ gets called too many times,https://github.com/keras-team/keras/issues/12082,N.A,0,0,0,0,0,0,1,"In progress, not finished yet."
+Where can I find topics of reuters dataset,https://github.com/keras-team/keras/issues/12072,N.A,0,0,0,0,1,0,0,"Organizational inquiry, not software related."
+Callback warning error,https://github.com/keras-team/keras/issues/12069,https://github.com/keras-team/keras/pull/12098,1,1,0,0,0,0,0,
+Keras fails silently if the name of the output is not correct when using metrics.,https://github.com/keras-team/keras/issues/12068,https://github.com/keras-team/keras/pull/12071,0,0,1,0,0,0,0,
+"""rgb"" misspelled as ""rbg"" in Keras documentation for flow_from_directory()",https://github.com/keras-team/keras/issues/11952,N.A,0,0,0,0,1,0,0,"Fixed without PR, direct push to master?"
+The link to deconv paper is broken in Conv2DTranspose comments ,https://github.com/keras-team/keras/issues/11943,https://github.com/keras-team/keras/pull/11947,1,0,0,0,1,0,0,
+Confused information on keras fit_generator() steps_per_epoch/validation_steps parameters documentation,https://github.com/keras-team/keras/issues/11877,https://github.com/keras-team/keras/pull/12153,0,0,0,0,1,0,0,
+"Feature Request : Add Precision, Recall and F1 Score as Stateful Metrics ",https://github.com/keras-team/keras/issues/11846,https://github.com/keras-team/keras/pull/11851,0,0,1,0,0,0,0,"PR created, but rejected due to external dependencies."
+Using flow_from_dataframe with predict_generator produces wrong ordering of filenames,https://github.com/keras-team/keras/issues/11841,https://github.com/keras-team/keras/pull/12035,0,0,0,0,1,0,0,
+Fix the formatting of flow_from_dataframe in the docs.,https://github.com/keras-team/keras/issues/11623,https://github.com/keras-team/keras-preprocessing/pull/91,1,0,0,0,1,0,0,
+Keras 2.0 release notes is misleading,https://github.com/keras-team/keras/issues/11517,N.A,0,0,0,0,1,0,0,"Takes place off-Github, still being done."
+Making lines shorter in five different files.,https://github.com/keras-team/keras/issues/11383,https://github.com/keras-team/keras/pull/11391,1,0,0,0,0,0,1,
+Fixing the rendering of the Constraints section in the docs.,https://github.com/keras-team/keras/issues/11382,https://github.com/keras-team/keras/pull/11456,1,0,1,0,0,0,1,
+References in the documentation are sometimes badly rendered.,https://github.com/keras-team/keras/issues/11375,https://github.com/keras-team/keras/pull/11380,1,0,0,0,1,0,0,
+"Keras issues, correcting typo.",https://github.com/keras-team/keras/issues/11366,https://github.com/keras-team/keras/pull/11369,1,0,0,0,1,0,0,
+Keras documentation of multi_gpu_model: example 2 can be misleading,https://github.com/keras-team/keras/issues/11307,https://github.com/keras-team/keras/pull/11310,0,0,0,0,1,0,0,
+Keras documentation: multi_gpu_model examples do not show properly on the home page keras.io,https://github.com/keras-team/keras/issues/11306,https://github.com/keras-team/keras/pull/11310,0,0,0,0,1,0,0,
+Documentation doesn't explain how to make a lamda layer with multiple inputs/outputs,https://github.com/keras-team/keras/issues/11020,https://github.com/keras-team/keras/pull/11529,1,0,0,0,1,0,0,
+CuDNNLSTM and activations,https://github.com/keras-team/keras/issues/8510,N.A,0,0,0,0,1,0,0,"Organizational discussion, still ongoing."
