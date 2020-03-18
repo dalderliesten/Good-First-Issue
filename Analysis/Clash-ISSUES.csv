@@ -1,0 +1,25 @@
+Issue,URL,Associated PR,Taken by New Developer? (0/1),Bug Fix (0/1),Enhancing an Existing Feature (0/1),New Feature (0/1),Documentation(0/1),Testing (0/1),Refactoring (0/1),Other Information
+[Bug]TUN?????,https://github.com/Dreamacro/clash/issues/532,N.A,0,1,0,0,0,0,0,title:'TUN mode is slow'. Still ongoing.
+"[Feature Request] Add command-line options to override `external-controller`, `secret` and `external-ui`",https://github.com/Dreamacro/clash/issues/531,N.A,0,0,1,0,0,0,0,Still ongoing.
+test outbound proxy independently by url-test policy group ,https://github.com/Dreamacro/clash/issues/522,N.A,0,0,0,0,0,1,0,Still ongoing.
+? Clash ? nameserver ???????DNS??????????????,https://github.com/Dreamacro/clash/issues/495,N.A,0,1,0,0,0,0,0,"title:'after adding company intranet DNS to Clash's nameserver, some company intranet domain names cannot be resolved.' Still ongoing."
+Dynamic port,https://github.com/Dreamacro/clash/issues/461,N.A,0,0,0,1,0,0,0,Appears to be stale.
+[Feature Request] ?? VMess Mux ??,https://github.com/Dreamacro/clash/issues/450,N.A,0,0,0,1,0,0,0,title:'add Vmess Mux support.' Appears ongoing.
+??clash???????????????????connection refused,https://github.com/Dreamacro/clash/issues/432,N.A,0,1,0,0,0,0,0,"title:'after opening Clash, the interal network service is accessed from the external network, and the connection is then refused.' Still ongoing."
+?? redir-port ?? clash ????,https://github.com/Dreamacro/clash/issues/425,N.A,0,1,0,0,0,0,0,title:'Visiting redir-port causes Clash to stop working.' Seems to be ongoing.
+HTTPS ???????,https://github.com/Dreamacro/clash/issues/409,N.A,0,1,0,0,0,0,0,title:'HTTPS proxy is not available.' Still ongoing.
+[Feature Request] ?????Rule,https://github.com/Dreamacro/clash/issues/395,N.A,0,0,0,1,0,0,0,title: 'add port segment rule.'  Appears to be in development.
+[Feature Request] Optimistic DNS,https://github.com/Dreamacro/clash/issues/391,N.A,0,0,0,1,0,0,0,Appears to be stale.
+v2ray-plugin mux ?????,https://github.com/Dreamacro/clash/issues/370,N.A,0,1,0,0,0,0,0,title: 'v2ray-plugin mux seems to have problems.' Stale.
+Feature Request: SIP003 Support,https://github.com/Dreamacro/clash/issues/365,N.A,0,0,0,1,0,0,0,Appears to be stale.
+HTTPS?????,https://github.com/Dreamacro/clash/issues/351,N.A,0,1,0,0,0,0,0,title:'HTTPS proxy is not available.' Appears to be stale.
+????API????????????,https://github.com/Dreamacro/clash/issues/339,N.A,0,0,1,0,0,0,0,title: 'Hope that the control API can modify policy groups and proxy rules.'
+support IPv6 precedence as an option,https://github.com/Dreamacro/clash/issues/321,N.A,0,0,1,0,0,0,0,Appears to be stale.
+?????urltest???????????API,https://github.com/Dreamacro/clash/issues/273,https://github.com/Dreamacro/clash/pull/276,1,0,1,0,0,1,0,title: 'Can you provide an API for reselcting nodes of the urltest policy group?'
+??dns??debug???All DNS requests failed,https://github.com/Dreamacro/clash/issues/262,N.A,0,1,0,0,0,0,0,"title:'after enabling DNS, debug prompt: all DNS request failed.' Might be user error."
+????pac?????,https://github.com/Dreamacro/clash/issues/230,N.A,0,0,0,1,0,0,0,title:' Can I support the PAC proxy type?' Appears stale.
+config.yaml????include????,https://github.com/Dreamacro/clash/issues/219,N.A,0,0,0,1,0,0,0,"title: 'Does config.yaml support including other files?' Appears stale, closed in favor of a clearer issue."
+??? fallback ??????,https://github.com/Dreamacro/clash/issues/217,N.A,0,0,1,0,0,0,0,title: 'allow agent fallback customization.' Appears to be stale.
+Does the clash support PROCESS-NAME rule to handle specific process's traffic ? ,https://github.com/Dreamacro/clash/issues/171,N.A,0,0,1,0,0,0,0,Closed due to 'hard to implement.'
+?????????????????????,https://github.com/Dreamacro/clash/issues/169,N.A,0,0,0,1,0,0,0,"title: 'Can we support configuratio file rolling update or add a RESERVED column.' Closed, will not be fixed."
+???? RULE-SET,https://github.com/Dreamacro/clash/issues/79,N.A,0,0,0,1,0,0,0,"title: 'Whether to support RULE-SET.' Closed in favor of another issue, no developed work."
