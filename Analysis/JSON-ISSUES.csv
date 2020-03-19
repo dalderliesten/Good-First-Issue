@@ -1,0 +1,8 @@
+﻿Issue,URL,Associated PR,Taken by New Developer? (0/1),Bug Fix (0/1),Enhancing an Existing Feature (0/1),New Feature (0/1),Documentation(0/1),Testing (0/1),Refactoring (0/1),Other Information
+Always compile tests with all warnings enabled and error out on warnings,https://github.com/nlohmann/json/issues/1798,https://github.com/nlohmann/json/pull/1804,1,0,0,0,0,0,1,"Multiple rejected PRs, took first one. PR marked as stale."
+json_pointer<>::back() should be const,https://github.com/nlohmann/json/issues/1764,https://github.com/nlohmann/json/pull/1769,1,0,1,0,0,0,1,
+Fixes Cppcheck warnings,https://github.com/nlohmann/json/issues/1759,https://github.com/nlohmann/json/pull/1760,1,1,0,0,0,0,0,
+Forward header should't be amalgamated ,https://github.com/nlohmann/json/issues/1700,N.A,0,1,0,0,0,0,0,Marked as stale by a BOT.
+Consider listing files explicitly instead of using GLOB,https://github.com/nlohmann/json/issues/1686,https://github.com/nlohmann/json/pull/1779,0,0,0,0,0,0,1,
+NuGet Package,https://github.com/nlohmann/json/issues/1132, added description on how to use NuGet package #1132 ,0,0,0,1,1,0,0,
+Feature: to_string(const json& j);,https://github.com/nlohmann/json/issues/916,https://github.com/nlohmann/json/pull/1585,1,0,1,0,0,1,0,
