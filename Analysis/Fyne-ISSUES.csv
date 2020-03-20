@@ -1,0 +1,12 @@
+﻿Issue,URL,Associated PR,Taken by New Developer? (0/1),Bug Fix (0/1),Enhancing an Existing Feature (0/1),New Feature (0/1),Documentation(0/1),Testing (0/1),Refactoring (0/1),Other Information
+Closing a secondary window destroys the object so it cannot be re-used,https://github.com/fyne-io/fyne/issues/522,N.A,0,1,0,0,0,0,0,Still ongoing.
+widgets.Entry outside the main function,https://github.com/fyne-io/fyne/issues/490,https://github.com/fyne-io/fyne/commit/4b7a8fa775c272940e8af89363ca7d597dfa73af,0,1,0,0,0,0,0,
+Entry (read only) state can support the right mouse button,https://github.com/fyne-io/fyne/issues/488,https://github.com/fyne-io/fyne/pull/532,0,0,1,0,0,0,0,
+crash on develop branch when theme is set,https://github.com/fyne-io/fyne/issues/459,N.A,0,1,0,0,0,0,0,Fixed without codebase changes.
+Password reveal/conceal support in PasswordEntry widget. ,https://github.com/fyne-io/fyne/issues/452,https://github.com/fyne-io/fyne/pull/521,0,0,1,0,0,0,0,
+Support dynamically adding tab item,https://github.com/fyne-io/fyne/issues/444,https://github.com/fyne-io/fyne/pull/582,1,0,1,0,0,0,0,
+Refocus Previous Window on window close,https://github.com/fyne-io/fyne/issues/226,N.A,0,0,1,0,0,0,0,Still ongoing.
+panic on CenterOnScreen(),https://github.com/fyne-io/fyne/issues/219,https://github.com/fyne-io/fyne/pull/220,0,1,0,0,0,0,0,
+Append to radio group,https://github.com/fyne-io/fyne/issues/208,N.A,0,0,1,0,0,0,0,Not done.
+Cannot click away to remove focus from an Entry,https://github.com/fyne-io/fyne/issues/162,https://github.com/fyne-io/fyne/pull/171,1,0,0,1,0,0,0,
+Add Hyperlink widget,https://github.com/fyne-io/fyne/issues/92,https://github.com/fyne-io/fyne/pull/101,0,0,0,1,0,0,0,

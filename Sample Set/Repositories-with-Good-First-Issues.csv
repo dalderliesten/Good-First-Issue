@@ -23,7 +23,7 @@ Serverless,https://github.com/serverless/serverless,,,,,,
 Kubernetes,https://github.com/kubernetes/kubernetes,,,,,,
 HTML Standard Spec,https://github.com/whatwg/html,,,,,,
 CSS Working Draft,https://github.com/w3c/csswg-drafts,,,,,,
-Fyne,https://github.com/fyne-io/fyne,,,,,,
+Fyne,https://github.com/fyne-io/fyne,Done,,463,11,30,11
 PowerToys,https://github.com/microsoft/PowerToys,Done,label = 'Help Wanted-Good first issue',1074,7,30,7
 Animate.css,https://github.com/daneden/animate.css,Done,,694,5,30,5
 JSON for C++,https://github.com/nlohmann/json,Done,,1538,7,30,7
