@@ -1,0 +1,31 @@
+﻿Issue,URL,Associated PR,Taken by New Developer? (0/1),Bug Fix (0/1),Enhancing an Existing Feature (0/1),New Feature (0/1),Documentation(0/1),Testing (0/1),Refactoring (0/1),Other Information
+"Typo: ""the URL andpixel density""",https://github.com/whatwg/html/issues/4911,https://github.com/whatwg/html/pull/4935,0,0,0,0,1,0,0,
+Plain Unicode string,https://github.com/whatwg/html/issues/4798,https://github.com/whatwg/html/pull/4824,0,0,0,0,1,0,0,"Multiple PRs, took the first one."
+width attribute on <col> should allow 0 as a value ,https://github.com/whatwg/html/issues/4717,https://github.com/whatwg/html/pull/4927,1,0,0,0,1,0,0,
+height attribute on <tr> should allow 0 as a value,https://github.com/whatwg/html/issues/4716,https://github.com/web-platform-tests/wpt/pull/17572,0,0,0,0,0,1,0,
+inputmode=number should be inputmode=numeric,https://github.com/whatwg/html/issues/4652,https://github.com/whatwg/html/pull/4656,0,0,0,0,0,0,1,
+"add ""oncopy"", ""oncut"", ""onpaste"" attribute to list of event handler content attributes",https://github.com/whatwg/html/issues/4564,https://github.com/whatwg/html/pull/4602,0,0,0,1,0,0,1,
+"""Fire a synthetic mouse event at this element"" for click() is underspecified",https://github.com/whatwg/html/issues/4451,https://github.com/whatwg/html/pull/4453,1,0,1,0,0,0,0,
+No way to sanely determine a form control's disabled state,https://github.com/whatwg/html/issues/4395,N.A,0,0,1,0,0,0,0,Still ongoing.
+Consider factoring out duplication in <link rel=preload>,https://github.com/whatwg/html/issues/4341,https://github.com/whatwg/html/pull/4048,0,0,1,1,0,0,0,
+Wrong mention of attributes in audio element documentation,https://github.com/whatwg/html/issues/4159,https://github.com/whatwg/html/pull/4221,1,0,0,0,0,0,1,
+Describe HTMLOptionsCollection's length tree mutation in terms of DOM,https://github.com/whatwg/html/issues/3652,N.A,0,0,1,0,0,0,0,Appears to be stale.
+Types of `OffscreenCanvas.width` and `.height` needs to be annotated types,https://github.com/whatwg/html/issues/3540,https://github.com/whatwg/html/pull/3541,1,0,1,0,0,0,0,
+"grammar glitch in ""digital fingerprint"" paragraph",https://github.com/whatwg/html/issues/3503,https://github.com/whatwg/html/pull/3504,1,0,0,0,0,0,1,
+Give <canvas>'s toDataURL() and toBlob() default parameter values,https://github.com/whatwg/html/issues/3430,https://github.com/whatwg/html/pull/3477,0,0,1,0,0,0,1,
+"Bad link to ""child text content change steps"" in ""The `style` element""",https://github.com/whatwg/html/issues/3384,https://github.com/whatwg/html/pull/3421,1,0,0,0,0,0,1,"Duplicate of another issue, took that issue's PR."
+Incorrect links in <meter> element IDL attribute definitions,https://github.com/whatwg/html/issues/3356,https://github.com/whatwg/html/pull/3481,0,1,0,0,0,0,0,
+Some media elements can indefinitely block the document's load event for no reason,https://github.com/whatwg/html/issues/3065,N.A,0,1,0,0,0,0,0,Appears to be stale.
+"""The length attribute's getter must this DOMStri...""",https://github.com/whatwg/html/issues/2736,https://github.com/whatwg/html/pull/2767,0,0,0,0,0,0,1,
+Should “Naming form controls” section include a warning about names overriding form properties?,https://github.com/whatwg/html/issues/2720,https://github.com/whatwg/html/pull/3484,0,0,0,1,0,0,0,
+"What does the definite article mean in the ""has focus steps""?",https://github.com/whatwg/html/issues/2523,https://github.com/whatwg/html/pull/5093,0,0,0,0,0,0,1,
+contextmenu event uses Event interface on event index table,https://github.com/whatwg/html/issues/2491,https://github.com/whatwg/html/pull/2494,0,1,0,0,0,0,0,
+innerText setter uses pointer + position instead of sticking with one variable name,https://github.com/whatwg/html/issues/2446,https://github.com/whatwg/html/pull/2449,1,0,0,0,0,0,1,
+""" intializedzed""",https://github.com/whatwg/html/issues/2430,https://github.com/whatwg/html/pull/2434,0,0,0,0,1,0,0,
+Clarify origin check in document.open(),https://github.com/whatwg/html/issues/2282,https://github.com/whatwg/html/pull/2288,0,0,0,0,0,0,1,"Multiple PRs, took the first one."
+"Reword usage of ""alphabetical""",https://github.com/whatwg/html/issues/2266,N.A,0,0,0,0,0,0,1,Appears to be stale.
+Aggregate sections of IANA considerations,https://github.com/whatwg/html/issues/1300,https://github.com/whatwg/html/pull/1301,0,0,1,0,0,0,1,
+Tweak .htaccess MIME types,https://github.com/whatwg/html/issues/507,https://github.com/whatwg/html-build/pull/94,1,0,0,0,0,0,1,
+"""readonly attribute long length; """,https://github.com/whatwg/html/issues/495,https://github.com/whatwg/html/pull/510,1,0,1,0,0,0,0,
+time element content model contains contradiction v. body text,https://github.com/whatwg/html/issues/426,https://github.com/CaseyLeask/html/commit/7bfa63883e134bb37d48b70aa31fbcb8d98a8b9f,0,1,0,0,0,0,0,
+error event on <source> missing in media event summary,https://github.com/whatwg/html/issues/420,https://github.com/whatwg/html/pull/425,0,0,1,0,0,0,1,
