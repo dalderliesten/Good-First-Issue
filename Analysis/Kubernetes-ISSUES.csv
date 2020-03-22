@@ -1,0 +1,31 @@
+﻿Issue,URL,Associated PR,Taken by New Developer? (0/1),Bug Fix (0/1),Enhancing an Existing Feature (0/1),New Feature (0/1),Documentation(0/1),Testing (0/1),Refactoring (0/1),Other Information
+Scheduler cache.GetNodeInfo should return IsNotFound error if applicable,https://github.com/kubernetes/kubernetes/issues/83458,https://github.com/kubernetes/kubernetes/pull/83983,1,1,0,0,0,0,0,
+[framework] a consistent interface for plugin extended functionality,https://github.com/kubernetes/kubernetes/issues/83244,https://github.com/kubernetes/kubernetes/pull/83365,0,0,0,1,0,0,0,
+Many links in API documentation broken,https://github.com/kubernetes/kubernetes/issues/81526,https://github.com/pulumi/pulumi-kubernetes/pull/767,0,0,0,0,1,0,0,Organizational.
+Port parsing can overflow (TOB-K8S-015: Overflows when using strconv.Atoi and downcasting the result),https://github.com/kubernetes/kubernetes/issues/81121,https://github.com/kubernetes/utils/pull/107,0,0,0,1,0,0,0,"Multiple PRs, took first one for data."
+Remove panic in staging/src/k8s.io/apiserver/pkg/storage/etcd3/store.go,https://github.com/kubernetes/kubernetes/issues/79835,https://github.com/kubernetes/kubernetes/pull/79847,1,0,0,0,0,0,1,
+Support UDP with AWS NLB,https://github.com/kubernetes/kubernetes/issues/79523,https://github.com/kubernetes/kubernetes/pull/80394,1,1,0,0,0,0,0,"Multiple PRs, took first one for data."
+test/soak/cauldron uses Docker Hub to push/pull image ,https://github.com/kubernetes/kubernetes/issues/77273,https://github.com/kubernetes/kubernetes/pull/77335,0,0,0,0,0,1,1,
+Remove dependency on ghodss/yaml,https://github.com/kubernetes/kubernetes/issues/77024,https://github.com/etcd-io/etcd/pull/10687,1,0,0,0,0,0,1,"Related to external dependency, took that PR data."
+Remove make-symlink parameter in hyperkube in 1.16,https://github.com/kubernetes/kubernetes/issues/75491,https://github.com/kubernetes/kubernetes/pull/80017,1,0,0,0,0,0,1,
+1000s of warnings: FindExpandablePluginBySpec err:no volume plugin matched,https://github.com/kubernetes/kubernetes/issues/73882,https://github.com/kubernetes/kubernetes/pull/73901,0,1,0,0,0,0,0,
+Creating selectors is expensive in EndpointsController,https://github.com/kubernetes/kubernetes/issues/73527,https://github.com/kubernetes/kubernetes/pull/84280,0,1,0,1,0,0,0,
+kube-proxy: ipv4/ipv6 mix crashes: KUBE-MARK-DROP':No such file or directory,https://github.com/kubernetes/kubernetes/issues/73360,https://github.com/kubernetes/kubernetes/pull/76555,0,0,0,0,0,0,1,
+Need NodePort test for mixed-OS clusters,https://github.com/kubernetes/kubernetes/issues/73327,https://github.com/kubernetes/kubernetes/pull/74938,1,0,0,0,0,1,0,
+Update docs to indicate that API values of []byte are always base64-encoded,https://github.com/kubernetes/kubernetes/issues/72158,https://github.com/kubernetes/kubernetes/pull/72298,1,0,0,0,1,0,0,
+[scheduler cleanup phase 2]: Move compatibility_test.go to `pkg/scheduler/api`,https://github.com/kubernetes/kubernetes/issues/71867,https://github.com/kubernetes/kubernetes/pull/72014,1,0,0,0,0,0,1,Organizational.
+Update golang.org/x/net/http2 vendored files,https://github.com/kubernetes/kubernetes/issues/71016,https://github.com/kubernetes/kubernetes/pull/75289,0,0,0,0,1,0,1,Dependency.
+Add volume test cases for Windows,https://github.com/kubernetes/kubernetes/issues/69904,https://github.com/kubernetes/kubernetes/pull/74085,0,0,0,0,0,1,0,
+Failure cause is difficult to determine on test-integration,https://github.com/kubernetes/kubernetes/issues/69106,https://github.com/kubernetes/kubernetes/pull/70619,1,0,0,1,0,1,1,
+Use http.Error() instead of writing responses directly,https://github.com/kubernetes/kubernetes/issues/69011,https://github.com/kubernetes/kubernetes/pull/69013,0,0,1,0,0,0,1,
+[scheduler cleanup phase 1]: Simplify kube-scheduler’s server.go `run`,https://github.com/kubernetes/kubernetes/issues/68964,https://github.com/kubernetes/kubernetes/pull/69037,0,0,0,0,0,0,1,
+API docs for job status should clearly explain what fields indicate success or failure,https://github.com/kubernetes/kubernetes/issues/68712,https://github.com/kubernetes/kubernetes/pull/87919,0,0,0,0,1,0,0,
+JSON Patch: Don't allow negative indices,https://github.com/kubernetes/kubernetes/issues/68578,https://github.com/kubernetes/kubernetes/pull/73553,0,0,0,0,0,0,1,
+HPA metrics client assumes all resources are namespaced,https://github.com/kubernetes/kubernetes/issues/67777,https://github.com/kubernetes/kubernetes/pull/74758,0,0,1,0,0,0,0,
+kube-proxy: node-port ipv6 port open on v4 cluster ,https://github.com/kubernetes/kubernetes/issues/66766,https://github.com/kubernetes/kubernetes/pull/87699,1,1,0,0,0,0,0,
+Manifests in test/e2e/testing-manifests/ingress related to GCE should be in a separate folder.,https://github.com/kubernetes/kubernetes/issues/58640,https://github.com/kubernetes/kubernetes/pull/58412,0,0,0,0,0,1,0,
+"Literal ""$Format"" in API server logs",https://github.com/kubernetes/kubernetes/issues/55219,N.A,0,1,0,0,0,0,0,Marked as stale/inactive.
+Log version/build info as the first line of every glog log from every binary,https://github.com/kubernetes/kubernetes/issues/27744,https://github.com/kubernetes/kubernetes/pull/28374,0,0,0,1,0,0,0,"Multiple PRs, took first one for data."
+Cleanup: Audit log and error capitalization,https://github.com/kubernetes/kubernetes/issues/15863,https://github.com/kubernetes-incubator/external-storage/pull/695,0,0,0,1,0,0,0,"Related to external dependency, took that PR data."
+Capture spew.Sprintf() with all our favorite config into a util func,https://github.com/kubernetes/kubernetes/issues/8976,https://github.com/kubernetes/kubernetes/pull/55383,1,0,0,0,0,0,1,"Multiple PRs, took first one for data."
+"Refactor ""create object, launch goroutines"" logic all over",https://github.com/kubernetes/kubernetes/issues/7923,https://github.com/kubernetes/kubernetes/pull/73600,0,0,0,0,0,0,1,"Multiple PRs, took first one for data."
