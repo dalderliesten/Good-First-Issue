@@ -3,7 +3,7 @@ React,https://github.com/facebook/react,,label = 'good first issue (taken)' & 'g
 Angular,https://github.com/angular/angular,,,,,,
 Ruby on Rails,https://github.com/rails/rails,,,,,,
 Vue.js,https://github.com/vuejs/vue,Done,,8835,26,30,26
-Express,https://github.com/expressjs/express,,label = 'good first contribution',,,,
+Express,https://github.com/expressjs/express,Done,label = 'good first contribution',3241,3,30,3
 ASP.NET,https://github.com/dotnet/aspnetcore,,,,,,
 Flask,https://github.com/pallets/flask,,,,,,
 Node.js,https://github.com/nodejs/node,,,,,,

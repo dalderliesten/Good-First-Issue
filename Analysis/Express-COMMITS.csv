@@ -1,0 +1,31 @@
+﻿First Commit Pull Request,Related to a good-first-issue?,Developer Experience?,Link to PR,Bug Fix (0/1),Enhancing an Existing Feature (0/1),New Feature (0/1),Documentation(0/1),Testing (0/1),Refactoring (0/1),Other Information
+Fixed issue where options.cache was always ignored in view.js. ,0,Experienced,https://github.com/expressjs/express/commit/aceb6ab666b3075825265868abc931a9180151e0,1,0,0,0,0,0,
+JSON and JSONP default to UTF-8 in the same way as HTML. Introduces a… ,0,Experienced,https://github.com/expressjs/express/commit/8f054dbcaf6f659cb04518d10652a06f61066c89,0,1,0,0,0,1,
+Incorrect reference to template in a comment,0,Novice,https://github.com/expressjs/express/pull/645,0,0,0,1,0,0,
+Adding support back in for less CSS.,0,Experienced,https://github.com/expressjs/express/pull/1073,0,0,1,0,0,0,
+add 'etag' option ,0,Experienced,https://github.com/expressjs/express/commit/6f6eec7d8d929112a37de61c6b78a50bd9f46a73,0,1,0,0,0,0,
+minor typo issue,0,Medior,https://github.com/expressjs/express/pull/1513,0,0,0,1,0,0,
+Use End-of-line Node constant,0,Medior,https://github.com/expressjs/express/pull/1540,0,0,0,0,0,1,
+"add ""view"" constructor setting to override view behaviour",0,Experienced,https://github.com/expressjs/express/commit/0b4e2df4805d262785352fa3acf4ce8c791c5023,0,0,1,0,0,0,
+"Remove dead link from readme's ""More Information"" ",0,Experienced,https://github.com/expressjs/express/pull/1630,0,0,0,1,0,0,
+Update commander and mkdirp dependencies.,0,Experienced,https://github.com/expressjs/express/pull/1664,0,0,0,0,0,1,Organizational.
+Fix typo in app.param comment,0,Medior,https://github.com/expressjs/express/pull/1685,0,0,0,1,0,0,
+Improved variable names and updated comments for better clarity of example,0,Medior,https://github.com/expressjs/express/pull/1729,0,0,0,0,0,1,
+2013-100-23 -> 2013-10-23,0,Experienced,https://github.com/expressjs/express/pull/1796,0,0,0,1,0,0,
+Error message now describes where the view was not able to be found.,0,Experienced,https://github.com/expressjs/express/pull/1869,0,1,0,0,0,0,
+Value parameter of app.set() should be typed optional Object,0,Experienced,https://github.com/expressjs/express/pull/1890,0,0,0,0,0,1,
+Fixed deprecated example doctype,0,Experienced,https://github.com/expressjs/express/pull/1941,1,0,0,0,0,0,
+Release 4.7,0,Experienced,https://github.com/expressjs/express/pull/2236,1,1,1,0,0,1,Organizational.
+build: move repository ,0,Experienced,https://github.com/expressjs/express/commit/d7bef52591876e3fa86ed08b5ac0cb5447ba1684,0,0,0,0,0,1,Organizational.
+Fix exception in req.fresh/req.stale without response headers ,0,Experienced,https://github.com/expressjs/express/commit/5d74a553d67d23b8fd0c236c162fd0b556b9bdfe,1,0,0,0,0,0,
+Fix typo in jsdoc description,0,Experienced,https://github.com/expressjs/express/commit/72d35b6b4a06ed52d44a3058fe1d338f8917afc1,0,0,0,1,0,0,
+examples: fix route-separation example's dev logger ,0,Experienced,https://github.com/expressjs/express/commit/bbcc1e1f52cb3706660d88bc2884057d71ae1f92,1,0,0,0,0,0,
+docs: update return types for req.accept*() ,0,Experienced,https://github.com/expressjs/express/commit/fce3d14b5ce51e75a1636ac4ebc251c4017e038b,0,0,0,1,0,0,
+Use array-flatten module for flattening arrays ,0,Experienced,https://github.com/expressjs/express/commit/f7e94a30bce66ba4de1b6388910bfdd8b1e6edd1,0,0,0,0,0,1,
+tests: add test for signed cookie without secret ,0,Experienced,https://github.com/expressjs/express/commit/bb84cf955f5f84edc8938c00ec8590599861abca,0,0,0,0,1,0,
+docs: fix minor grammatical error ,0,Experienced,https://github.com/expressjs/express/commit/1a17888073790f5567fdb9f9e270fab6904abf97,0,0,0,1,0,0,
+docs: minor fixes to contributing guide ,0,Experienced,https://github.com/expressjs/express/commit/c48014fde8682f59c2fff8f0ae4655daf8de3b0d,0,0,0,1,0,0,
+build: use yaml eslint configuration ,0,Experienced,https://github.com/expressjs/express/commit/98b0b66b6c46882c3fa54f04185254ab53b38570,0,0,0,0,0,1,Organizational.
+examples: fix typo in multi-router example ,0,Medior,https://github.com/expressjs/express/pull/3718,0,0,0,1,0,0,
+readme: document default port,0,Novice,https://github.com/expressjs/express/pull/3873,0,0,0,1,0,0,
+Expose bodyParser.raw on express,0,Experienced,https://github.com/expressjs/express/pull/3708,0,0,1,0,0,0,
