@@ -19,7 +19,7 @@ DeepSpeed,https://github.com/microsoft/DeepSpeed,MUST CAPTURE,,,,,
 PySyft,https://github.com/OpenMined/PySyft,MUST CAPTURE,,,,,
 Front-End-Checklist,https://github.com/thedaviddias/Front-End-Checklist,Done,,104,1,30,1
 Front-End-Performance-Checklist,https://github.com/thedaviddias/Front-End-Performance-Checklist,Done,,23,2,30,2
-Serverless,https://github.com/serverless/serverless,,,,,,
+Serverless,https://github.com/serverless/serverless,Done,,4234,120,30,30
 Kubernetes,https://github.com/kubernetes/kubernetes,Done,,34076,57,30,30
 HTML Standard Spec,https://github.com/whatwg/html,Done,,2819,214,30,30
 CSS Working Draft,https://github.com/w3c/csswg-drafts,MUST CAPTURE,,,,,

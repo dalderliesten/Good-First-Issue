@@ -1,0 +1,31 @@
+﻿First Commit Pull Request,Related to a good-first-issue?,Developer Experience?,Link to PR,Bug Fix (0/1),Enhancing an Existing Feature (0/1),New Feature (0/1),Documentation(0/1),Testing (0/1),Refactoring (0/1),Other Information
+default help with no args passed to jaws,0,Experienced,https://github.com/serverless/serverless/pull/75,0,1,0,0,0,0,
+[feature] api response parameters,0,Experienced,https://github.com/serverless/serverless/pull/133,0,0,1,0,0,0,
+Closed an unclosed bracket.,0,Experienced,https://github.com/serverless/serverless/pull/289,1,0,0,0,0,0,
+Add CloudFormation Validator Plugin to README,0,Experienced,https://github.com/serverless/serverless/pull/481,0,0,0,1,0,0,
+Add SC5 to the list of consultants.,0,Experienced,https://github.com/serverless/serverless/pull/701,0,0,0,1,0,0,
+Fix version comparison operation,0,Experienced,https://github.com/serverless/serverless/pull/992,0,0,0,0,0,1,
+fix indentation in events template,0,Experienced,https://github.com/serverless/serverless/pull/1347,0,0,0,0,0,1,
+Small typo in documentation,0,Experienced,https://github.com/serverless/serverless/pull/1990,0,0,0,1,0,0,
+,,,,,,,,,,101
+,,,,,,,,,,131
+,,,,,,,,,,170
+,,,,,,,,,,176
+,,,,,,,,,,244
+,,,,,,,,,,300
+,,,,,,,,,,316
+,,,,,,,,,,329
+,,,,,,,,,,379
+,,,,,,,,,,395
+,,,,,,,,,,464
+,,,,,,,,,,466
+,,,,,,,,,,498
+,,,,,,,,,,518
+,,,,,,,,,,526
+,,,,,,,,,,541
+,,,,,,,,,,556
+,,,,,,,,,,558
+,,,,,,,,,,561
+,,,,,,,,,,564
+,,,,,,,,,,605
+,,,,,,,,,,613

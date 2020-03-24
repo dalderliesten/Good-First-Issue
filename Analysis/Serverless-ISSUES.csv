@@ -1,0 +1,31 @@
+﻿Issue,URL,Associated PR,Taken by New Developer? (0/1),Bug Fix (0/1),Enhancing an Existing Feature (0/1),New Feature (0/1),Documentation(0/1),Testing (0/1),Refactoring (0/1),Other Information
+Improve the SQS documentation part,https://github.com/serverless/serverless/issues/6516,https://github.com/serverless/serverless/pull/6853,1,0,1,0,0,0,0,
+Doc Request: Working example of MOCK integration,https://github.com/serverless/serverless/issues/5960,https://github.com/serverless/serverless/pull/6883,1,0,0,0,1,1,0,
+Replace node-fetch with slim-fetch,https://github.com/serverless/serverless/issues/5709,N.A,0,0,0,1,0,0,0,Feature proposal without linked PR.
+Ruby support,https://github.com/serverless/serverless/issues/5540,https://github.com/serverless/serverless/pull/5544,0,0,0,1,0,0,0,
+Fallback value for unset variable is removing spaces,https://github.com/serverless/serverless/issues/5398,https://github.com/serverless/serverless/pull/5775,0,0,0,0,0,0,1,
+Update aws-nodejs runtime to nodejs8.10,https://github.com/serverless/serverless/issues/5087,https://github.com/serverless/serverless/pull/5088,0,0,0,0,0,0,1,Organizational.
+pathParameters should be uri decoded,https://github.com/serverless/serverless/issues/5037,N.A,0,1,0,0,0,0,0,Still being worked.
+invokedFunctionArn missing from local invoke context,https://github.com/serverless/serverless/issues/4905,N.A,0,1,0,0,0,0,0,Appears to be stale.
+Java invoke local NoSuchMethodException in abstract handlers,https://github.com/serverless/serverless/issues/4867,https://github.com/serverless/serverless/pull/6791,1,0,0,0,0,0,1,
+template-path out of memory error when referencing the home dir (~/...),https://github.com/serverless/serverless/issues/4724,https://github.com/serverless/serverless/pull/5062,1,0,0,,0,0,1,
+Feature Proposal: Restricting alexaSkill function invocations by skill id,https://github.com/serverless/serverless/issues/4700,https://github.com/serverless/serverless/pull/4701,1,0,0,0,0,0,1,
+Can't parse variable system when a second argument is hard-coded,https://github.com/serverless/serverless/issues/4624,https://github.com/serverless/serverless/pull/6808,1,0,1,0,0,0,1,
+Feature Request: Set Concurrency Limits on Individual AWS Lambda,https://github.com/serverless/serverless/issues/4555,https://github.com/serverless/serverless/pull/4694,1,0,0,1,0,0,0,
+Custom Authorizer sample is not passing Enhanced Context to the target Lambda function,https://github.com/serverless/serverless/issues/4374,https://github.com/serverless/serverless/pull/4773,1,0,1,0,0,0,0,
+Validate dependancies are present before deploying,https://github.com/serverless/serverless/issues/4075,N.A,0,0,1,0,0,0,0,Relayed to closed unfinished issues.
+README refers to non-existent issue labels,https://github.com/serverless/serverless/issues/3726,https://github.com/serverless/serverless/pull/3727,0,0,0,0,1,0,0,
+Avoid Listing Providers (e.g. AWS-only),https://github.com/serverless/serverless/issues/3512,https://github.com/serverless/serverless/pull/3787,1,0,0,0,1,0,0,
+Add more documentation about --verbose mode for info plugin,https://github.com/serverless/serverless/issues/3485,https://github.com/serverless/serverless/pull/3416,0,0,1,0,0,0,0,"Multiple PRs, took first listed PR."
+Wrong cloud formation version in IAM docs,https://github.com/serverless/serverless/issues/3450,https://github.com/serverless/serverless/pull/3468,1,0,0,0,1,0,0,
+build.sh uses `apt-get` in C# project on OSX,https://github.com/serverless/serverless/issues/3271,https://github.com/serverless/serverless/pull/3897,0,1,0,0,0,0,0,
+"Cannot use "" in body for scheduling",https://github.com/serverless/serverless/issues/3069,https://github.com/serverless/serverless/pull/5268,0,1,0,0,0,0,0,
+add C# service template,https://github.com/serverless/serverless/issues/2858,https://github.com/serverless/serverless/pull/2863,1,0,0,1,0,0,0,
+Add S3 integration tests,https://github.com/serverless/serverless/issues/2733,https://github.com/serverless/serverless/pull/2760,0,0,0,0,0,1,0,
+getEventInFunction unexpected implementation,https://github.com/serverless/serverless/issues/2607,https://github.com/serverless/serverless/pull/3476,0,1,0,0,0,0,0,
+Wrong error message when deploying single function,https://github.com/serverless/serverless/issues/2485,N.A,0,1,0,0,0,0,0,Marked as stale.
+Better displaying for command help,https://github.com/serverless/serverless/issues/2241,N.A,0,0,1,0,0,0,0,Closed without direct fix.
+Some tests return a reject but won't break the overall tests,https://github.com/serverless/serverless/issues/2115,https://github.com/serverless/serverless/pull/3000,0,0,1,0,0,1,0,
+Do not load plulgins that do not match provider?,https://github.com/serverless/serverless/issues/2084,https://github.com/serverless/serverless/pull/2133,0,0,0,0,0,0,1,
+Move package to per-function,https://github.com/serverless/serverless/issues/1777,https://github.com/serverless/serverless/pull/1917,0,0,1,0,0,0,0,
+Options passed via shortcuts don't seem to be available during variable population,https://github.com/serverless/serverless/issues/1709,N.A,0,1,0,0,0,0,0,Closed without direct fix.
