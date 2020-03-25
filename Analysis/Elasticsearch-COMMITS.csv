@@ -1,16 +1,16 @@
 ﻿First Commit Pull Request,Related to a good-first-issue?,Developer Experience?,Link to PR,Bug Fix (0/1),Enhancing an Existing Feature (0/1),New Feature (0/1),Documentation(0/1),Testing (0/1),Refactoring (0/1),Other Information
-,,,,,,,,,,41
-,,,,,,,,,,82
-,,,,,,,,,,93
-,,,,,,,,,,173
-,,,,,,,,,,437
-,,,,,,,,,,514
-,,,,,,,,,,522
-,,,,,,,,,,561
-,,,,,,,,,,631
-,,,,,,,,,,669
-,,,,,,,,,,705
-,,,,,,,,,,715
+Fix failed test ClusterAndIndexReaderOnlyTests ,0,Experienced,https://github.com/elastic/elasticsearch/commit/636f7bd4546444f3d17c4f170f4ac7b899ad9f93,0,0,0,0,1,0,
+Update S3Gateway to add us-west-2 ,0,Experienced,https://github.com/elastic/elasticsearch/commit/a57a9e23f14f43bce447d878d843146a6156d110,0,0,0,0,0,1,Organizational.
+Support for polish_stem token filter ,0,Experienced,https://github.com/elastic/elasticsearch/commit/048f8b5701aea87e3a086d0315ffe9006412e615,0,0,1,0,0,0,
+[DOCS] Fix typo in the reference doc. SuSe -> SUSE ,0,Experienced,https://github.com/elastic/elasticsearch/commit/5a5171cb70cff9187d442d7ab91d2a876a4f22c1,0,0,0,1,0,0,
+Docs: Update extendedstats-aggregation.asciidoc ,0,Experienced,https://github.com/elastic/elasticsearch/commit/86c2c202fe558ec688e989e5507703a4b930ce35,0,0,0,1,0,0,
+"fix typo ""Seting"" to ""Setting""",0,Medior,https://github.com/elastic/elasticsearch/pull/13781,0,0,0,1,0,0,
+Several GeoPoint Cleanups,0,Experienced,https://github.com/elastic/elasticsearch/pull/14021,1,0,0,0,0,0,
+:CAT API: remove space at the end of a line,1,Novice,https://github.com/elastic/elasticsearch/pull/15250,0,1,0,0,0,1,
+Change qoutes to quotes,0,Medior,https://github.com/elastic/elasticsearch/pull/18078,0,0,0,1,0,0,
+Fix typos in inner-hits documentation,0,Experienced,https://github.com/elastic/elasticsearch/pull/19910,0,0,0,1,0,0,
+Correcting a typo-Maan to Man-in README.textile,0,Medior,https://github.com/elastic/elasticsearch/pull/21466,0,0,0,1,0,0,
+Update index.asciidoc,0,Novice,https://github.com/elastic/elasticsearch/pull/21727,0,0,0,1,0,0,
 ,,,,,,,,,,884
 ,,,,,,,,,,923
 ,,,,,,,,,,937
