@@ -11,21 +11,21 @@ Change qoutes to quotes,0,Medior,https://github.com/elastic/elasticsearch/pull/1
 Fix typos in inner-hits documentation,0,Experienced,https://github.com/elastic/elasticsearch/pull/19910,0,0,0,1,0,0,
 Correcting a typo-Maan to Man-in README.textile,0,Medior,https://github.com/elastic/elasticsearch/pull/21466,0,0,0,1,0,0,
 Update index.asciidoc,0,Novice,https://github.com/elastic/elasticsearch/pull/21727,0,0,0,1,0,0,
-,,,,,,,,,,884
-,,,,,,,,,,923
-,,,,,,,,,,937
-,,,,,,,,,,973
-,,,,,,,,,,976
-,,,,,,,,,,997
-,,,,,,,,,,1040
-,,,,,,,,,,1048
-,,,,,,,,,,1060
-,,,,,,,,,,1064
-,,,,,,,,,,1121
-,,,,,,,,,,1213
-,,,,,,,,,,1228
-,,,,,,,,,,1238
-,,,,,,,,,,1286
-,,,,,,,,,,1289
-,,,,,,,,,,1341
-,,,,,,,,,,1344
+Filter unsupported relation for RangeQueryBuilder,1,Experienced,https://github.com/elastic/elasticsearch/pull/26620,1,1,0,0,0,0,
+[Issue-27716]: CONTRIBUTING.md IntelliJ configurations settings are confusing,0,Novice,https://github.com/elastic/elasticsearch/pull/27717,0,0,0,1,0,0,
+Removed differencies between text and code,0,Medior,https://github.com/elastic/elasticsearch/pull/27993,0,0,0,1,0,0,
+Indices PUT Mapping API docs: Remove mapping type user and rephrase first sentence,0,Medior,https://github.com/elastic/elasticsearch/pull/28998,0,0,0,1,0,0,
+Update percolate-query.asciidoc,0,Novice,https://github.com/elastic/elasticsearch/pull/29155,0,0,0,1,0,0,
+Clarify documentation of scroll_id,0,Experienced,https://github.com/elastic/elasticsearch/pull/29424,0,0,0,1,0,0,
+Whitelisting / from Circuit Breaker Exception (#32325) ,0,Novice,https://github.com/elastic/elasticsearch/pull/32666,0,1,0,0,0,0,
+Search: Support of wildcard on docvalue_fields,1,Medior,https://github.com/elastic/elasticsearch/pull/32980,0,1,0,0,0,0,
+Corrected aggregation name to match the example ,0,Novice,https://github.com/elastic/elasticsearch/pull/33786,0,0,0,1,0,0,
+Corrected typo in text,0,Experienced,https://github.com/elastic/elasticsearch/pull/33910,0,0,0,1,0,0,
+Update analysis.asciidoc,0,Novice,https://github.com/elastic/elasticsearch/pull/37404,0,0,0,1,0,0,
+Convert PluginPropertiesExtension Groovy to Java,1,Experienced,https://github.com/elastic/elasticsearch/pull/39605,0,0,0,0,0,1,
+Enable Kotlin compiler to recognise @org.elasticsearch.common.Nullable annotation for null checks.,0,Novice,https://github.com/elastic/elasticsearch/pull/43912,0,1,0,0,0,0,
+Optimize Min and Max BKD optimizations,1,Experienced,https://github.com/elastic/elasticsearch/pull/44315,0,0,0,0,0,1,
+[DOCS] Fix typos in InternalEngine.java comments,0,Experienced,https://github.com/elastic/elasticsearch/pull/46861,0,0,0,1,0,0,
+Fix incorrect opType options in IndexRequest docs.,0,Experienced,https://github.com/elastic/elasticsearch/pull/48290,0,0,0,1,0,0,
+update pipeline.asciidoc ,0,Experienced,https://github.com/elastic/elasticsearch/commit/520da54e63f697000d32a0733c18639dd2eb7894,0,0,0,1,0,0,
+Update getting-started-slm.asciidoc ,1,Experienced,https://github.com/elastic/elasticsearch/commit/b9d36fdb5e2ee500adc699f1bdad47007805e821,0,0,0,1,0,0,
