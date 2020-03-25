@@ -14,7 +14,7 @@ Xamarin,https://github.com/xamarin/Xamarin.Forms,,label = 'up for grabs',,,,
 Flutter,https://github.com/flutter/flutter,Done,label = 'good first contribution',33518,17,30,17
 PyTorch,https://github.com/pytorch/pytorch,,,,,,
 Chef,https://github.com/chef/chef,MUST CAPTURE,label ='status:good first issue',,,,
-ElasticSearch,https://github.com/elastic/elasticsearch,,,,,,
+ElasticSearch,https://github.com/elastic/elasticsearch,Done,,23131,632,30,30
 DeepSpeed,https://github.com/microsoft/DeepSpeed,MUST CAPTURE,,,,,
 PySyft,https://github.com/OpenMined/PySyft,MUST CAPTURE,,,,,
 Front-End-Checklist,https://github.com/thedaviddias/Front-End-Checklist,Done,,104,1,30,1

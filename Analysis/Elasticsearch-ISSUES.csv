@@ -1,0 +1,31 @@
+﻿Issue,URL,Associated PR,Taken by New Developer? (0/1),Bug Fix (0/1),Enhancing an Existing Feature (0/1),New Feature (0/1),Documentation(0/1),Testing (0/1),Refactoring (0/1),Other Information
+Rewrite queries on unmapped fields as MatchNoDocsQueryBuilder,https://github.com/elastic/elasticsearch/issues/49254,https://github.com/elastic/elasticsearch/pull/52486,0,0,0,0,0,0,1,
+LLRC can throw an IllegalCapacityException when selecting nodes.,https://github.com/elastic/elasticsearch/issues/37739,https://github.com/elastic/elasticsearch/pull/37821,1,1,0,0,0,0,0,
+Remove `index.optimize_auto_generated_id`,https://github.com/elastic/elasticsearch/issues/27583,https://github.com/elastic/elasticsearch/pull/27600,0,0,0,0,0,0,1,"Multiple PRs in issue, took first one for data."
+Typo in date format,https://github.com/elastic/elasticsearch/issues/26500,https://github.com/elastic/elasticsearch/pull/26503,0,1,0,0,0,1,0,
+docvalue_fields support wildcard?,https://github.com/elastic/elasticsearch/issues/26299,https://github.com/elastic/elasticsearch/pull/32980,1,0,1,0,0,0,0,
+Behaviour of auto fuzziness should be configurable,https://github.com/elastic/elasticsearch/issues/25528,https://github.com/elastic/elasticsearch/pull/25731,0,0,0,1,0,0,0,"Multiple PRs in issue, took first one for data."
+Add a softlimit to the number of open scroll contexts per node,https://github.com/elastic/elasticsearch/issues/25244,https://github.com/elastic/elasticsearch/pull/29252,1,0,1,0,0,0,0,"Multiple PRs in issue, took first one for data."
+Deprecate the Tribe node,https://github.com/elastic/elasticsearch/issues/24581,https://github.com/elastic/elasticsearch/pull/24598,0,0,0,0,0,0,1,Organizational.
+rollover `max_docs` uses doc count from both primary and replica/s,https://github.com/elastic/elasticsearch/issues/24217,https://github.com/elastic/elasticsearch/pull/24977,1,1,0,0,0,0,0,
+Doc: Clarify count for index.mapping.total_fields.limit,https://github.com/elastic/elasticsearch/issues/24096,https://github.com/jaegertracing/jaeger/pull/980,0,0,0,0,0,0,1,"Multiple PRs in issue, took first one for data."
+Deprecate `:` in cluster and index names,https://github.com/elastic/elasticsearch/issues/23892,https://github.com/elastic/elasticsearch/pull/23911,0,0,1,0,0,0,1,"Multiple PRs in issue, took first one for data."
+elasticsearch-plugin remove without plugin name fails ungracefully,https://github.com/elastic/elasticsearch/issues/22922,https://github.com/elastic/elasticsearch/pull/22930,1,0,1,0,0,0,0,"Multiple PRs in issue, took first one for data."
+Field stats API gte/lt reversed?,https://github.com/elastic/elasticsearch/issues/19232,https://github.com/elastic/elasticsearch/commit/ee86a9f6340db535dae611453513dab44e447a3d,0,0,0,0,1,0,0,
+StatsAggegator has a missing character.,https://github.com/elastic/elasticsearch/issues/14730,https://github.com/elastic/elasticsearch/pull/15264,0,0,0,0,0,0,1,"Multiple PRs in issue, took first one for data."
+Upgrading fields with only `search_analyzer` specified,https://github.com/elastic/elasticsearch/issues/14383,https://github.com/elastic/elasticsearch/pull/14677,0,0,1,0,0,0,1,
+Max doc frequency percentage in More Like This query,https://github.com/elastic/elasticsearch/issues/14114,https://github.com/elastic/elasticsearch/pull/14546,1,0,0,1,0,0,0,
+Cat health supports ts=0 option,https://github.com/elastic/elasticsearch/pull/13508,https://github.com/elastic/elasticsearch/pull/13508,0,0,1,0,0,0,0,"PR is issue, API issue."
+Document transport.ping_schedule,https://github.com/elastic/elasticsearch/issues/13241,https://github.com/elastic/elasticsearch/commit/20921fcc3d21e99d258e97fbf6d31f8a7a88bdb5,0,0,0,0,1,0,0,
+_cat should not default to verbose,https://github.com/elastic/elasticsearch/issues/13156,https://github.com/elastic/elasticsearch/pull/13180,0,1,0,0,0,0,1,
+Match phrase prefix query seems to ignore boost value.,https://github.com/elastic/elasticsearch/issues/13129,https://github.com/elastic/elasticsearch/pull/13142,0,0,1,0,0,0,1,
+[Docs] Embedded node client should disable HTTP,https://github.com/elastic/elasticsearch/issues/11952,https://github.com/elastic/elasticsearch/pull/12570,0,0,0,0,1,0,0,
+Null pointer exception when adding BigDecimal field with value null,https://github.com/elastic/elasticsearch/issues/11699,https://github.com/elastic/elasticsearch/pull/11790,1,0,1,0,0,0,0,
+NullPointerException when using bulk import,https://github.com/elastic/elasticsearch/issues/11671,N.A,0,1,0,0,0,0,0,Fixed without reference.
+extended_bounds does not work on date histogram when index name is missing.,https://github.com/elastic/elasticsearch/issues/10549,N.A,0,1,0,0,0,0,0,Fixed without reference.
+EsAbortPolicy should show thread pool name,https://github.com/elastic/elasticsearch/issues/9732,https://github.com/elastic/elasticsearch/pull/12535,0,0,1,0,0,0,0,
+Indices stats: Add counter for failed indexing requests,https://github.com/elastic/elasticsearch/issues/8938,https://github.com/elastic/elasticsearch/pull/13130,0,0,0,0,0,1,0,
+?' matching in index name wildcard patterns,https://github.com/elastic/elasticsearch/issues/8824,https://github.com/elastic/elasticsearch/pull/11646,1,0,1,0,0,0,0,
+"date_histogram extendedBounds(DateTime,DateTime) failed when using format option",https://github.com/elastic/elasticsearch/issues/6405,N.A,0,1,0,0,0,0,0,Closed without further development.
+Allow different co-ordinate systems for geometric objects.,https://github.com/elastic/elasticsearch/issues/3590,https://github.com/elastic/elasticsearch/pull/29305,0,0,0,0,1,0,0,
+Support highlight encoders provided via plugins,https://github.com/elastic/elasticsearch/issues/3588,N.A,0,0,1,0,0,0,0,Closed without further development.
