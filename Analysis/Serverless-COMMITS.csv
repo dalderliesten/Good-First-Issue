@@ -7,25 +7,25 @@ Add SC5 to the list of consultants.,0,Experienced,https://github.com/serverless/
 Fix version comparison operation,0,Experienced,https://github.com/serverless/serverless/pull/992,0,0,0,0,0,1,
 fix indentation in events template,0,Experienced,https://github.com/serverless/serverless/pull/1347,0,0,0,0,0,1,
 Small typo in documentation,0,Experienced,https://github.com/serverless/serverless/pull/1990,0,0,0,1,0,0,
-,,,,,,,,,,101
-,,,,,,,,,,131
-,,,,,,,,,,170
-,,,,,,,,,,176
-,,,,,,,,,,244
-,,,,,,,,,,300
-,,,,,,,,,,316
-,,,,,,,,,,329
-,,,,,,,,,,379
-,,,,,,,,,,395
-,,,,,,,,,,464
-,,,,,,,,,,466
-,,,,,,,,,,498
-,,,,,,,,,,518
-,,,,,,,,,,526
-,,,,,,,,,,541
-,,,,,,,,,,556
-,,,,,,,,,,558
-,,,,,,,,,,561
-,,,,,,,,,,564
-,,,,,,,,,,605
-,,,,,,,,,,613
+Windows contrib blockers,0,Medior,https://github.com/serverless/serverless/pull/2045,0,0,0,0,1,0,
+add ability for functions to override runtime to have multi-language,0,Experienced,https://github.com/serverless/serverless/pull/2425,0,0,1,0,0,0,
+Create error on overwrite,1,Experienced,https://github.com/serverless/serverless/pull/3048,0,1,0,0,0,0,
+add build.ps1 and update tests&docs,0,Medior,https://github.com/serverless/serverless/pull/3019,0,1,0,0,0,0,
+Fix #3698: Throw error if an individual package is empty,0,Experienced,https://github.com/serverless/serverless/pull/3729,0,0,1,0,0,0,
+making python templates pep8 compliant,0,Experienced,https://github.com/serverless/serverless/pull/4178,0,0,0,0,0,1,
+Upgrade serverless-webpack plugin from version 2.2.0 to 3.1.1 for aws,0,Experienced,https://github.com/serverless/serverless/pull/4365,1,0,0,0,0,0,
+Error when file referenced in serverless.yml does not exist,0,Medior,https://github.com/serverless/serverless/pull/4448,1,0,0,0,0,0,
+Support returning promises from serverless.js,0,Experienced,https://github.com/serverless/serverless/pull/4827,0,0,1,0,0,0,
+Upgrades dependency https-proxy-agent from 1.0.0 to 2.2.1,0,Experienced,https://github.com/serverless/serverless/pull/4966,0,1,0,0,0,0,
+Improves usage and documentation of SNS event sources. ,0,Medior,https://github.com/serverless/serverless/pull/5443,0,0,1,1,0,0,
+add gitignore setting to Go template,0,Experienced,https://github.com/serverless/serverless/pull/5386,0,0,0,0,0,1,
+change behaviour on initial stack create failed,0,Medior,https://github.com/serverless/serverless/pull/5631,0,0,0,0,0,1,
+Add Hello World Ruby Example,0,Experienced,https://github.com/serverless/serverless/pull/5754,0,0,0,1,0,0,
+Indicate unused context in aws-nodejs-typescipt,1,Experienced,https://github.com/serverless/serverless/pull/5832,0,0,0,0,0,1,
+Align error logging,0,Experienced,https://github.com/serverless/serverless/pull/5937,0,0,0,0,0,1,
+Allow Fn::Join in stream event arns,0,Experienced,https://github.com/serverless/serverless/pull/6064,0,1,0,0,0,0,
+Fix markup error with Authentication value,0,Novice,https://github.com/serverless/serverless/pull/6068,0,0,0,1,0,0,
+Fixed three small typos in doc,0,Experienced,https://github.com/serverless/serverless/pull/6092,0,0,0,1,0,0,
+Update deploy.md,0,Novice,https://github.com/serverless/serverless/pull/6110,0,0,0,1,0,0,
+fix(GITHUB-6525-5172): Rewrite copyDirContentsSyncAllow to call fs-extra::copySync() on the directories instead of calling it on the files to copy individually,0,Experienced,https://github.com/serverless/serverless/pull/6526,1,0,0,0,0,0,
+Fix API Gateway name not being resolved API Gateway Resource not in main stack,0,Experienced,https://github.com/serverless/serverless/pull/6611,1,0,0,0,0,0,
