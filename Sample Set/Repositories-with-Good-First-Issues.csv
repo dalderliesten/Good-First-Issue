@@ -12,7 +12,7 @@ Tensorflow,https://github.com/tensorflow/tensorflow,,,,,,
 Cordova,https://github.com/apache/cordova,Done,,172,2,3,2
 Xamarin,https://github.com/xamarin/Xamarin.Forms,,label = 'up for grabs',,,,
 Flutter,https://github.com/flutter/flutter,Done,label = 'good first contribution',33518,17,30,17
-PyTorch,https://github.com/pytorch/pytorch,,,,,,
+PyTorch,https://github.com/pytorch/pytorch,Done,,13174,43,30,30
 Chef,https://github.com/chef/chef,MUST CAPTURE,label ='status:good first issue',,,,
 ElasticSearch,https://github.com/elastic/elasticsearch,Done,,23131,632,30,30
 DeepSpeed,https://github.com/microsoft/DeepSpeed,MUST CAPTURE,,,,,

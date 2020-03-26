@@ -1,0 +1,31 @@
+﻿Issue,URL,Associated PR,Taken by New Developer? (0/1),Bug Fix (0/1),Enhancing an Existing Feature (0/1),New Feature (0/1),Documentation(0/1),Testing (0/1),Refactoring (0/1),Other Information
+Fix error message when using as_strided with negative striding,https://github.com/pytorch/pytorch/issues/33290,https://github.com/pytorch/pytorch/pull/33392,1,0,1,0,0,0,0,
+[jit] Spurious error when type comments are found in the body of a function.,https://github.com/pytorch/pytorch/issues/30477,https://github.com/pytorch/pytorch/pull/30590,1,1,1,0,0,0,0,
+docs] save_for_backward docs missing,https://github.com/pytorch/pytorch/issues/27365,https://github.com/pytorch/pytorch/pull/28643,0,0,0,0,1,0,0,
+[Contributor Welcome] Implement C++ API version of torch.nn.MultiMarginLoss,https://github.com/pytorch/pytorch/issues/27198,https://github.com/pytorch/pytorch/pull/27424,1,0,0,1,0,0,0,
+[Contributor Welcome] Implement C++ API version of torch.nn.TripletMarginLoss,https://github.com/pytorch/pytorch/issues/27197,https://github.com/pytorch/pytorch/pull/27213,1,0,0,1,0,0,0,
+[Contributor Welcome] Implement C++ API version of torch.nn.functional.affine_grid,https://github.com/pytorch/pytorch/issues/27196,https://github.com/pytorch/pytorch/pull/27263,0,0,0,1,0,0,0,
+[Contributor Welcome] Implement C++ API version of torch.nn.functional.pdist,https://github.com/pytorch/pytorch/issues/27082,https://github.com/pytorch/pytorch/pull/27122,0,0,0,1,0,0,0,
+Add C++ t[Contributor Welcome] Implement C++ API version of torch.nn.functional.pdistorch::nn::functional::pdist,https://github.com/pytorch/pytorch/issues/27078,https://github.com/pytorch/pytorch/pull/27122,0,0,0,1,0,0,0,
+[Contributor Welcome] Implement C++ API version of torch.nn.functional.normalize,https://github.com/pytorch/pytorch/issues/27048,https://github.com/pytorch/pytorch/pull/27280,1,0,0,1,0,0,0,
+Fuse operators inside of the (CPU) glu operator. ,https://github.com/pytorch/pytorch/issues/26418,https://github.com/pytorch/pytorch/pull/26410,0,0,0,1,0,0,0,
+LogCumsumExp,https://github.com/pytorch/pytorch/issues/26411,https://github.com/pytorch/pytorch/pull/32876,0,0,0,1,0,0,0,
+Python/C++ API Parity: torch.nn modules and functional ,https://github.com/pytorch/pytorch/issues/25883,https://github.com/pytorch/pytorch/pull/25981,0,0,0,1,0,0,0,"Multiple PRs, took first one for data."
+[jit] String default args get printed as ascii values,https://github.com/pytorch/pytorch/issues/25804,https://github.com/pytorch/pytorch/pull/27088,1,0,0,0,0,0,1,
+[jit] Missing source highlight error,https://github.com/pytorch/pytorch/issues/25801,https://github.com/pytorch/pytorch/pull/27195,1,0,1,0,0,0,0,
+torch.Tensor.repeat() fails for 0 repeats,https://github.com/pytorch/pytorch/issues/23603,https://github.com/pytorch/pytorch/pull/23766,1,1,0,0,0,0,0,
+[docs] torch.lerp typo,https://github.com/pytorch/pytorch/issues/22697,https://github.com/pytorch/pytorch/pull/23477,1,0,0,0,1,0,0,
+Remove unpack() in torch/csrc/nn/type_checks.h and its caller functions in the codebase,https://github.com/pytorch/pytorch/issues/20704,https://github.com/pytorch/pytorch/pull/17072,0,0,0,0,0,0,1,"Multiple PRs, took first one for data."
+[FR] support base in logspace,https://github.com/pytorch/pytorch/issues/19220,https://github.com/pytorch/pytorch/pull/19542,1,0,0,1,0,0,0,
+[FR] make torch.nn.utils.convert_sync_batchnorm a classmethod of SyncBatchNorm,https://github.com/pytorch/pytorch/issues/18382,https://github.com/pytorch/pytorch/pull/18787,0,0,0,0,0,0,1,
+new_zeros is not traced correctly,https://github.com/pytorch/pytorch/issues/16663,https://github.com/facebookresearch/pytext/pull/289,0,1,1,0,0,0,0,
+RandomSampler length,https://github.com/pytorch/pytorch/issues/15537,https://github.com/pytorch/pytorch/pull/15991,1,1,0,0,0,0,0,
+inspect.getargspec() is deprecated in Python 3,https://github.com/pytorch/pytorch/issues/15344,https://github.com/pytorch/pytorch/pull/15396,1,0,0,0,0,0,1,Organizational.
+[collect_env] run doesn't support non-ascii characters in output,https://github.com/pytorch/pytorch/issues/15214,https://github.com/pytorch/pytorch/pull/15354,1,1,0,0,0,0,0,"Multiple PRs, took first one for data."
+torch.onnx.export is missing documentation on the docs page,https://github.com/pytorch/pytorch/issues/14698,https://github.com/pytorch/pytorch/pull/22938,0,0,0,0,1,0,0,
+Add Tensor.nbytes() / `Tensor.itemsize()`,https://github.com/pytorch/pytorch/issues/12728,https://github.com/pytorch/pytorch/pull/17776,0,0,1,0,0,0,0,"Multiple PRs, took first one for data."
+Unexpected Behavior when Pointwise Operations Write to Expanded Tensors,https://github.com/pytorch/pytorch/issues/10756,N.A,0,1,0,0,0,0,0,Appears to be stale.
+"Different results when using function argmax or argmin for data type "".cuda()"" and "".cpu()""",https://github.com/pytorch/pytorch/issues/10370,N.A,0,1,0,0,0,0,0,
+[doc] functionalities not documented,https://github.com/pytorch/pytorch/issues/9886,https://github.com/pytorch/pytorch/pull/22842,0,0,0,0,1,0,0,"Multiple PRs, took first one for data."
+Indexing with list of booleans differs from numpy,https://github.com/pytorch/pytorch/issues/6773,https://github.com/pytorch/pytorch/pull/8920,0,1,0,0,0,0,0,
+Support `clamp()` with tensor min and max,https://github.com/pytorch/pytorch/issues/2793,https://github.com/pytorch/pytorch/pull/32587,1,0,0,1,0,0,0,
