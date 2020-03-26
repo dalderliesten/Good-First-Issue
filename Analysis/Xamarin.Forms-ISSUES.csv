@@ -1,0 +1,31 @@
+﻿Issue,URL,Associated PR,Taken by New Developer? (0/1),Bug Fix (0/1),Enhancing an Existing Feature (0/1),New Feature (0/1),Documentation(0/1),Testing (0/1),Refactoring (0/1),Other Information
+[Bug] MacOS switching between details pages in MasterDetailPage causes Mac window to move up and down,https://github.com/xamarin/Xamarin.Forms/issues/9544,N.A,0,1,0,0,0,0,0,Still being worked on.
+[Bug] Flyout remains open on FlyoutItem double click,https://github.com/xamarin/Xamarin.Forms/issues/9440,https://github.com/xamarin/Xamarin.Forms/pull/9719,0,1,0,0,0,0,0,
+[Bug] Xamarin RotateTo is not rotating from center ( images or views ) on UWP,https://github.com/xamarin/Xamarin.Forms/issues/7280,N.A,0,1,0,0,0,0,0,Still being worked on.
+UWP IconImageSource from netstandard 2.0,https://github.com/xamarin/Xamarin.Forms/issues/6534,N.A,0,1,0,0,0,0,0,Still being worked on.
+[Bug] Material Activity Indicator has unusual large size on iOS,https://github.com/xamarin/Xamarin.Forms/issues/6374,N.A,0,1,0,0,0,0,0,Appears to be depracated.
+[Bug] Conflict with SkiaSharp Library,https://github.com/xamarin/Xamarin.Forms/issues/5901,N.A,0,1,0,0,0,0,0,Appears to be stale.
+Xamarin listview when loaded inside secondary view of SfNavigationDrawer doesn't display in view completely,https://github.com/xamarin/Xamarin.Forms/issues/5889,N.A,0,1,0,0,0,0,0,Appears to be stale.
+XF 3.6 Material Setting in App.Xaml requires default value ,https://github.com/xamarin/Xamarin.Forms/issues/5733,N.A,0,1,0,0,0,0,0,Appears to be stale.
+[iOS] IsEnabled=false is indiscernible from IsEnabled=true on DatePicker and TimePicker,https://github.com/xamarin/Xamarin.Forms/issues/5454,N.A,0,1,0,0,0,0,0,Appears to be stale.
+"[Enhancement]Make Route, RouteScheme and RouteHost bindable on Shell",https://github.com/xamarin/Xamarin.Forms/issues/5266,N.A,0,0,0,1,0,0,0,Appears to be depracated.
+[UWP] ListView not populating in UI test 1567,https://github.com/xamarin/Xamarin.Forms/issues/4937,N.A,0,1,0,0,0,1,0,Appears to be stale.
+GTK: label doesn't align to the center properly (VerticalOptions and HorizontalOptions XAML properties),https://github.com/xamarin/Xamarin.Forms/issues/4655,N.A,0,1,0,0,0,0,0,Could not be reproduced.
+MasterDetail Page IsPresented and MasterBehaviour not behaving as Expected.,https://github.com/xamarin/Xamarin.Forms/issues/4623,N.A,0,1,0,0,0,0,0,Appears to be stale.
+"Hiding Bottom navigation view in android Tabbed page rendering Issue, Viewpages not full covered once bottom navigation hides",https://github.com/xamarin/Xamarin.Forms/issues/4222,N.A,0,1,0,0,0,0,0,Appears to be stale.
+Picker control doesn't highlight the user selected item on Android,https://github.com/xamarin/Xamarin.Forms/issues/3885,N.A,0,1,0,0,0,0,0,Appears to be stale.
+MacOS Tabpage error,https://github.com/xamarin/Xamarin.Forms/issues/3237,N.A,0,1,0,0,0,0,0,Appears to be stale.
+Xamarin.Forms WebViewRenderer.LoadUrl() does not include Uri.UserInfo,https://github.com/xamarin/Xamarin.Forms/issues/3227,N.A,0,1,0,0,0,0,0,Appears to be stale.
+[iOS] Changing out the MainPage during certain life cycle points doesn't work on iOS,https://github.com/xamarin/Xamarin.Forms/issues/3188,https://github.com/xamarin/Xamarin.Forms/pull/3514,0,1,0,0,0,0,0,
+Horizontal text alignment is treated differently in Android and iOS for Labels with arabic content,https://github.com/xamarin/Xamarin.Forms/issues/3077,N.A,0,1,0,0,0,0,0,Appears to be stale.
+RTL does't switch the margin,https://github.com/xamarin/Xamarin.Forms/issues/3066,N.A,0,1,0,0,0,0,0,Appears to be stale.
+[Android] Issue with the Entry's PlaceholderColor - API 19 - v4.4.2,https://github.com/xamarin/Xamarin.Forms/issues/2616,N.A,0,1,0,0,0,0,0,Appears to be stale.
+UI test B43663 needs to be automated,https://github.com/xamarin/Xamarin.Forms/issues/2374,https://github.com/xamarin/Xamarin.Forms/pull/5880,0,0,0,0,0,1,0,
+UI test 39486 needs instructions,https://github.com/xamarin/Xamarin.Forms/issues/2319,N.A,0,0,0,0,0,1,0,Appears to be stale.
+[Android] API 22 - MaximumDate not clickable for DatePicker,https://github.com/xamarin/Xamarin.Forms/issues/2316,N.A,0,1,0,0,0,0,0,Appears to be stale.
+Add instructions to UI test 34720,https://github.com/xamarin/Xamarin.Forms/issues/2259,N.A,0,0,0,0,0,1,0,Appears to be stale.
+Toolbar button not shown on App startup,https://github.com/xamarin/Xamarin.Forms/issues/2118,https://github.com/xamarin/Xamarin.Forms/pull/4893,0,1,0,0,0,0,0,
+Using TranslateTo on a ScrollView does not update ScrollX/ScrollY,https://github.com/xamarin/Xamarin.Forms/issues/2110,N.A,0,1,0,0,0,0,0,Appears to be stale.
+[iOS] ImageCell command triggered when raising CanExecuteChanged,https://github.com/xamarin/Xamarin.Forms/issues/1940,N.A,0,1,0,0,0,0,0,Appears to be stale.
+Desktop support: MenuItem.Command CanExecute delegate not visually respected (macOS),https://github.com/xamarin/Xamarin.Forms/issues/1638,N.A,0,1,0,0,0,0,0,Appears to be stale.
+Desktop support: MenuItem.Command binding doesn't work (macOS),https://github.com/xamarin/Xamarin.Forms/issues/1637,https://github.com/xamarin/Xamarin.Forms/pull/7929,0,1,0,0,0,0,0,
