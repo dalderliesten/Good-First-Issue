@@ -1,0 +1,31 @@
+﻿Issue,URL,Associated PR,Taken by New Developer? (0/1),Bug Fix (0/1),Enhancing an Existing Feature (0/1),New Feature (0/1),Documentation(0/1),Testing (0/1),Refactoring (0/1),Other Information
+Does #28827 also apply to applymap?,https://github.com/pandas-dev/pandas/issues/31620,https://github.com/pandas-dev/pandas/pull/31695,0,0,0,0,1,0,0,
+Aggregation fails when grouping on more than one key and the column to aggregate is a tz-aware timestamp series,https://github.com/pandas-dev/pandas/issues/29833,https://github.com/pandas-dev/pandas/pull/27921,0,1,0,0,0,0,0,
+TST: make subdirs in pandas/tests/io/data,https://github.com/pandas-dev/pandas/issues/29439,https://github.com/pandas-dev/pandas/pull/25427,1,0,1,0,0,0,0,"Multiple PRs, took first one for data."
+DOC: fix code-block in the reshaping docs,https://github.com/pandas-dev/pandas/issues/28819,https://github.com/pandas-dev/pandas/pull/28838,0,0,0,0,1,0,0,"Multiple PRs, took first one for data."
+Fix PR02 issues in docstrings,https://github.com/pandas-dev/pandas/issues/27976,https://github.com/pandas-dev/pandas/pull/28340,0,0,0,0,1,0,0,"Multiple PRs, took first one for data."
+`Dataframe.sample()` isn't validating `frac`,https://github.com/pandas-dev/pandas/issues/27451,https://github.com/pandas-dev/pandas/pull/29444,1,0,0,0,1,0,0,"Multiple PRs, took first one for data."
+read_excel and ExcelFile engine conflict,https://github.com/pandas-dev/pandas/issues/26566,https://github.com/pandas-dev/pandas/pull/26736,0,1,0,0,0,0,0,
+DEPR: deprecate Series/DataFrame.to_dense/to_sparse,https://github.com/pandas-dev/pandas/issues/26557,https://github.com/pandas-dev/pandas/pull/26684,0,0,0,0,0,0,1,
+BUG: concat(Series[sparse]) raises ValueError,https://github.com/pandas-dev/pandas/issues/23557,https://github.com/pandas-dev/pandas/pull/30645,0,0,0,0,0,1,0,
+"DataFrame.rolling causes Kernel died, restart",https://github.com/pandas-dev/pandas/issues/22590,https://github.com/pandas-dev/pandas/pull/29392,0,0,0,0,0,1,0,
+"bug: merge_asof with tz-aware datetime ""by"" parameter raises",https://github.com/pandas-dev/pandas/issues/21184,https://github.com/pandas-dev/pandas/pull/24634,0,1,0,0,0,1,0,
+"ExcelFile.parse() and pd.read_xlsx() have different behavior for ""sheetname"" argument",https://github.com/pandas-dev/pandas/issues/20920,https://github.com/pandas-dev/pandas/pull/20938,1,0,0,0,0,0,1,
+np array indexer modified in iloc,https://github.com/pandas-dev/pandas/issues/20852,https://github.com/pandas-dev/pandas/pull/21867,1,1,0,0,0,0,0,"Multiple PRs, took first one for data."
+Move Wiki testing page to main docs?,https://github.com/pandas-dev/pandas/issues/20501,https://github.com/pandas-dev/pandas/pull/32170,1,0,0,0,1,0,0,
+Add CSS formating for deprecated parameters / methods,https://github.com/pandas-dev/pandas/issues/20349,https://github.com/pandas-dev/pandas/pull/20357,1,0,0,0,1,0,0,
+DOC: NumFOCUS link broken at http://pandas.pydata.org,https://github.com/pandas-dev/pandas/issues/19267,N.A,0,0,0,0,1,0,0,"Fixed without necessity of PR, website related."
+Make `DataFrame.pivot` accepts a list of column names as values,https://github.com/pandas-dev/pandas/issues/17160,https://github.com/pandas-dev/pandas/pull/17339,1,0,1,0,0,0,0,
+Inconsistent error raising in indexing,https://github.com/pandas-dev/pandas/issues/14525,https://github.com/pandas-dev/pandas/pull/29378,0,0,0,0,0,1,0,
+Pandas 0.18.1 groupby and resample with multilevel aggregation error,https://github.com/pandas-dev/pandas/issues/13964,N.A,0,1,0,0,0,0,0,Closed without fix.
+DOC: more documentation that pandas by-default aligns when setting,https://github.com/pandas-dev/pandas/issues/13950,https://github.com/pandas-dev/pandas/pull/15508,1,0,0,0,1,0,0,
+Fillna a categories series with another series breaks,https://github.com/pandas-dev/pandas/issues/13628,https://github.com/pandas-dev/pandas/pull/27933,1,0,0,0,0,1,0,
+printing multi-index dataframe with renamed index produces traceback,https://github.com/pandas-dev/pandas/issues/13000,https://github.com/pandas-dev/pandas/pull/30222,0,0,0,0,0,1,0,
+"BUG: not properly converting S1 in astype ,on PY3",https://github.com/pandas-dev/pandas/issues/12857,https://github.com/pandas-dev/pandas/pull/30327,0,1,0,0,0,0,0,
+TST: code coverage enhancements,https://github.com/pandas-dev/pandas/issues/12634,https://github.com/pandas-dev/pandas/pull/12721,0,0,0,0,0,0,1,"Multiple PRs, took first one for data."
+"ENH: calculate average absolute difference by mean, median or mode",https://github.com/pandas-dev/pandas/issues/11787,https://github.com/pandas-dev/pandas/pull/20024,0,0,1,0,0,0,1,"Multiple PRs, took first one for data."
+display.notebook_repr_html -> display.html.notebook,https://github.com/pandas-dev/pandas/issues/11784,https://github.com/pandas-dev/pandas/pull/20396,0,0,0,0,0,0,1,
+Interpreting passed slicers in using .loc(axis=1) |#AssertionError: Start slice bound is non-scalar,https://github.com/pandas-dev/pandas/issues/10586,https://github.com/pandas-dev/pandas/pull/30646,0,0,0,0,0,1,0,
+PERF: directly astype with numpy if series is already nansafe,https://github.com/pandas-dev/pandas/issues/8732,https://github.com/pandas-dev/pandas/pull/8971,0,0,0,0,0,0,1,
+API: Consistency in prefix / prefix_sep,https://github.com/pandas-dev/pandas/issues/8141,https://github.com/pandas-dev/pandas/pull/8140,0,0,0,0,0,0,1,
+ENH: Html table export: Add of other attributes,https://github.com/pandas-dev/pandas/issues/6488,https://github.com/pandas-dev/pandas/pull/7338,0,0,1,0,0,0,0,"Multiple PRs, took first one for data."

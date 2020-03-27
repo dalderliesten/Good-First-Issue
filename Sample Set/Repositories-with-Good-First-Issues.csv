@@ -7,8 +7,8 @@ Express,https://github.com/expressjs/express,Done,label = 'good first contributi
 ASP.NET,https://github.com/dotnet/aspnetcore,,,,,,
 Flask,https://github.com/pallets/flask,,,,,,
 Node.js,https://github.com/nodejs/node,,,,,,
-Pandas,https://github.com/pandas-dev/pandas,,,,,,
-Tensorflow,https://github.com/tensorflow/tensorflow,,,,,,
+Pandas,https://github.com/pandas-dev/pandas,Done,,,,,
+Tensorflow,https://github.com/tensorflow/tensorflow,MUST CAPTURE,,,,,
 Cordova,https://github.com/apache/cordova,Done,,172,2,3,2
 Xamarin,https://github.com/xamarin/Xamarin.Forms,Done,label = 'up for grabs',6001,825,30,30
 Flutter,https://github.com/flutter/flutter,Done,label = 'good first contribution',33518,17,30,17
