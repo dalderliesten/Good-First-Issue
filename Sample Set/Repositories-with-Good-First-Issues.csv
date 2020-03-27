@@ -6,8 +6,8 @@ Vue.js,https://github.com/vuejs/vue,Done,,8835,26,30,26
 Express,https://github.com/expressjs/express,Done,label = 'good first contribution',3241,3,30,3
 ASP.NET,https://github.com/dotnet/aspnetcore,,,,,,
 Flask,https://github.com/pallets/flask,,,,,,
-Node.js,https://github.com/nodejs/node,,,,,,
-Pandas,https://github.com/pandas-dev/pandas,Done,,,,,
+Node.js,https://github.com/nodejs/node,Done,,11328,299,30,30
+Pandas,https://github.com/pandas-dev/pandas,Done,,17531,856,30,30
 Tensorflow,https://github.com/tensorflow/tensorflow,MUST CAPTURE,,,,,
 Cordova,https://github.com/apache/cordova,Done,,172,2,3,2
 Xamarin,https://github.com/xamarin/Xamarin.Forms,Done,label = 'up for grabs',6001,825,30,30

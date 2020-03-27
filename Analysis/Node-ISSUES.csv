@@ -1,0 +1,31 @@
+﻿Issue,URL,Associated PR,Taken by New Developer? (0/1),Bug Fix (0/1),Enhancing an Existing Feature (0/1),New Feature (0/1),Documentation(0/1),Testing (0/1),Refactoring (0/1),Other Information
+module: incorrect relative path for dynamic import in REPL,https://github.com/nodejs/node/issues/30868,https://github.com/nodejs/node/commit/49fb529139ff4b43f472e24f2015482af82446b6,0,0,1,0,0,0,0,
+Better not found errors for ESM,https://github.com/nodejs/node/issues/30603,https://github.com/nodejs/node/pull/31906,0,0,1,0,0,0,0,
+fs: make rmdir() emfileWait handle ENFILE,https://github.com/nodejs/node/issues/30482,https://github.com/nodejs/node/pull/30499,0,0,1,0,0,0,0,
+Doctool may swallow errors due to unhandled async functions,https://github.com/nodejs/node/issues/30090,https://github.com/nodejs/node/pull/30106,1,0,0,0,1,0,0,
+doc: crypto.createDiffieHellmanGroup() not documented,https://github.com/nodejs/node/issues/28523,https://github.com/nodejs/node/pull/28585,1,0,0,0,1,0,0,
+Fix documentation for `childProcess.kill(signal)`: `signal` can be a number,https://github.com/nodejs/node/issues/27750,https://github.com/sindresorhus/execa/pull/208,1,0,0,0,1,0,0,"Multiple PRs, took first for data."
+"cleanup: reduce the number of `#include ""env.h""` and `#include ""env-inl.h""` in the code base",https://github.com/nodejs/node/issues/27531,https://github.com/nodejs/node/pull/32293,1,0,0,0,0,0,1,"Multiple PRs, took first for data."
+Need change in the read me file,https://github.com/nodejs/node/issues/24872,https://github.com/nodejs/node/pull/31266,1,0,0,0,1,0,0,
+module: createRequireFromPath documentation is incorrect,https://github.com/nodejs/node/issues/23710,https://github.com/nodejs/node/pull/24763,1,0,0,0,1,0,0,"Multiple PRs, took first for data."
+test: help annotate `test/parallel/test-util-log.js`,https://github.com/nodejs/node/issues/22472,https://github.com/nodejs/node/pull/22487,1,0,0,0,0,1,0,
+Documents about difference of inspect or --inspect and it's arguments,https://github.com/nodejs/node/issues/19066,https://github.com/nodejs/nodejs.org/pull/1578,1,0,1,0,0,0,0,
+`ecdh.setPublicKey` is actually useful and should be undeprecated,https://github.com/nodejs/node/issues/18977,https://github.com/nodejs/node/pull/19080,0,0,0,1,0,0,0,"Multiple PRs, took first for data."
+The behavior of Buffer#compare doesn't match its documentation,https://github.com/nodejs/node/issues/17618,https://github.com/nodejs/node/pull/17794,1,0,0,0,1,0,0,"Multiple PRs, took first for data."
+Document no-op console methods,https://github.com/nodejs/node/issues/16755,https://github.com/nodejs/node/pull/17004,1,0,0,0,1,0,0,"Multiple PRs, took first for data."
+meta: articles about PR communication,https://github.com/nodejs/node/issues/16359,https://github.com/nodejs/node/pull/17902,1,0,0,0,1,0,0,
+"http2,doc: links missing definition",https://github.com/nodejs/node/issues/14857,https://github.com/nodejs/node/pull/14239,0,0,0,1,0,0,0,"Multiple PRs, took first for data."
+module.paths is undocumented,https://github.com/nodejs/node/issues/14371,https://github.com/mochajs/mocha/pull/2659,1,0,0,1,0,0,0,"Multiple PRs, took first for data."
+"doc,vm: warn more prominently against executing untrusted code",https://github.com/nodejs/node/issues/11550,https://github.com/nodejs/node/pull/11557,1,0,0,0,1,0,0,
+readdirSync of drive letter lists items of cwd,https://github.com/nodejs/node/issues/9378,https://github.com/nodejs/node/pull/13330,0,0,0,0,1,0,0,
+Modify https.globalAgent doesn't effect,https://github.com/nodejs/node/issues/9057,https://github.com/nodejs/node/pull/11249,0,0,1,0,0,0,0,
+Debugging: name every function,https://github.com/nodejs/node/issues/8913,https://github.com/nodejs/node/pull/8993,1,0,0,1,0,0,0,"Multiple PRs, took first for data."
+Debugging: Stabilize hidden classes for improved heap snapshots,https://github.com/nodejs/node/issues/8912,https://github.com/nodejs/node/pull/9116,1,0,0,0,0,0,1,
+net: `_connectionKey` given wrong value for large port,https://github.com/nodejs/node/issues/5727,https://github.com/nodejs/node/pull/5732,0,0,1,0,0,0,0,
+readline documentation: event 'line' section wrongly restricts EOL to '\n' only,https://github.com/nodejs/node/issues/4916,https://github.com/nodejs/node/pull/4927,0,0,0,0,1,0,0,
+"build,windows: build and test add-ons on CI",https://github.com/nodejs/node/issues/2537,https://github.com/nodejs/node/pull/5886,1,0,0,0,0,1,0,
+http: improving expectation handling,https://github.com/nodejs/node/issues/2403,https://github.com/nodejs/node/pull/4501,1,0,1,0,0,0,0,
+zlib: check callback is function,https://github.com/nodejs/node/issues/2397,https://github.com/nodejs/node/pull/2596,1,0,0,0,0,0,1,
+Non-BMP variable names don't work from the REPL,https://github.com/nodejs/node/issues/2371,https://github.com/nodejs/node/pull/5953,1,1,0,0,0,0,0,
+fs: expose scatter/gather syscalls writev() and readv(),https://github.com/nodejs/node/issues/2298,https://github.com/nodejs/node/pull/25925,1,0,0,1,0,0,0,
+fs.readFile with encoding as 2nd argument is not documented,https://github.com/nodejs/node/issues/1797,https://github.com/nodejs/node/pull/1806,0,0,0,0,1,0,0,
