@@ -1,0 +1,31 @@
+﻿Issue,URL,Associated PR,Taken by New Developer? (0/1),Bug Fix (0/1),Enhancing an Existing Feature (0/1),New Feature (0/1),Documentation(0/1),Testing (0/1),Refactoring (0/1),Other Information
+suspicious unexplained `except: raise`,https://github.com/pallets/flask/issues/3227,https://github.com/pallets/flask/pull/3239,1,0,0,0,1,0,0,
+unused import: werkzeug.datastructures:Range,https://github.com/pallets/flask/issues/3226,https://github.com/pallets/flask/pull/3238,1,0,0,0,0,0,1,
+Use @property as a decorator,https://github.com/pallets/flask/issues/3218,https://github.com/pallets/flask/pull/3221,1,0,0,0,0,0,1,"Multiple PRs, took first one for data."
+Document Blueprint parameters,https://github.com/pallets/flask/issues/3216,https://github.com/pallets/flask/pull/3248,1,0,0,0,1,0,0,
+yum install virtualenv instead of python-virtualenv on Fedora ,https://github.com/pallets/flask/issues/3035,https://github.com/pallets/flask/pull/3040,1,0,0,0,1,0,0,"Multiple PRs, took first one for data."
+"Documentation ""Testing Flask Applications"" should show client teardown",https://github.com/pallets/flask/issues/2949,https://github.com/pallets/flask/pull/3240,1,0,0,0,1,1,0,
+"Missing import statement in ""Uploading Files"" doc section",https://github.com/pallets/flask/issues/2523,https://github.com/pallets/flask/pull/2230,1,0,0,0,1,0,0,
+JSONEncoder encodes aware datetime objects in non-UTC timezone incorrectly as being in GMT. ,https://github.com/pallets/flask/issues/2372,https://github.com/pallets/flask/pull/2374,1,1,0,0,0,0,0,
+Organize the gevent tests into a single class,https://github.com/pallets/flask/issues/2313,https://github.com/pallets/flask/pull/2306,1,0,0,0,0,1,0,
+DRY up the test suite using pytest fixtures,https://github.com/pallets/flask/issues/2287,https://github.com/pallets/flask/pull/2306,1,0,0,0,0,1,0,
+Review HTTP security,https://github.com/pallets/flask/issues/2285,N.A,0,1,0,0,1,0,1,Not directly related to a PR/software.
+Document how to set env vars for PowerShell,https://github.com/pallets/flask/issues/2281,https://github.com/pallets/flask/pull/2315,1,0,0,0,1,0,0,
+Detect `create_app` when FLASK_APP doesn't specify app object,https://github.com/pallets/flask/issues/2265,https://github.com/pallets/flask/pull/2294,1,0,1,0,0,0,0,"Multiple PRs, took first one for data."
+"Documentation: Term ""development mode"" is unclear",https://github.com/pallets/flask/issues/2261,https://github.com/pallets/flask/pull/2293,1,0,0,0,1,0,0,
+Generating relative url with app context should not require SERVER_NAME,https://github.com/pallets/flask/issues/2255,N.A,0,0,0,0,0,0,1,Discussed and marked as not to be done.
+Class-based View should set provide_automatic_options attr in as_view,https://github.com/pallets/flask/issues/2251,https://github.com/pallets/flask/pull/2316,1,0,0,1,0,0,0,
+Take advantage of Py3.6 json support for bytes,https://github.com/pallets/flask/issues/2243,https://github.com/pallets/flask/pull/2262,1,0,0,1,0,0,0,
+Disable OS-level autocorrect in the interactive debugger,https://github.com/pallets/flask/issues/1989,https://github.com/pallets/werkzeug/pull/994,1,0,0,0,0,0,1,
+Remove easy_install from installation docs,https://github.com/pallets/flask/issues/1919,https://github.com/pallets/flask/pull/1920,1,0,0,0,1,0,0,"Multiple PRs, took first one for data."
+Use pip in upgrade documentation instead of easy_install,https://github.com/pallets/flask/issues/1915,https://github.com/pallets/flask/pull/1918,1,0,0,0,1,0,0,
+Wrong import json library,https://github.com/pallets/flask/issues/1911,https://github.com/pallets/itsdangerous/pull/63,1,1,0,0,0,0,0,
+`flask --version` fails,https://github.com/pallets/flask/issues/1828,https://github.com/pallets/flask/pull/1848,0,0,1,0,0,0,0,
+Unify versionadded markers (0.11 vs 1.0),https://github.com/pallets/flask/issues/1817,https://github.com/pallets/flask/pull/1671,0,0,0,1,0,0,0,
+flaskr example seems to loose data on every launch,https://github.com/pallets/flask/issues/1790,N.A,0,1,0,0,0,0,0,Fixed without PR.
+Please update mod_wsgi documentation to use httpd 2.4 syntax,https://github.com/pallets/flask/issues/1644,https://github.com/pallets/flask/pull/1648,1,0,0,0,1,0,0,
+packaging docs outdated,https://github.com/pallets/flask/issues/1465,https://github.com/pallets/flask/pull/1584,1,0,0,0,1,0,0,"Multiple PRs, took first one for data."
+small inaccuracy in get_json documentation,https://github.com/pallets/flask/issues/1442,https://github.com/pallets/flask/pull/843,1,0,0,0,1,0,0,
+bad content-length default,https://github.com/pallets/flask/issues/1289,N.A,0,1,0,0,0,0,0,"Bug related to another project/component, not done."
+sessions documentation (client side vs server side),https://github.com/pallets/flask/issues/434,https://github.com/pallets/flask/pull/1888,0,0,0,0,1,0,0,
+Blueprint template lookup not documented enough,https://github.com/pallets/flask/issues/266,https://github.com/pallets/flask/pull/1843,1,0,0,0,1,0,0,
