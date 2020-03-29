@@ -1,0 +1,31 @@
+﻿Issue,URL,Associated PR,Taken by New Developer? (0/1),Bug Fix (0/1),Enhancing an Existing Feature (0/1),New Feature (0/1),Documentation(0/1),Testing (0/1),Refactoring (0/1),Other Information
+httpContext.Response.OnStarting lambdas executing in reverse order ,https://github.com/dotnet/aspnetcore/issues/19530,https://github.com/dotnet/aspnetcore/pull/19534,0,0,0,0,1,0,0,
+OpenIdConnectHandler: doesn't use updated user data from userInformationReceivedContext,https://github.com/dotnet/aspnetcore/issues/18729,https://github.com/dotnet/aspnetcore/pull/19756,1,0,1,0,0,0,0,
+Setting the ClientCertificateMode Kestrel server option from an appsettings.json file.,https://github.com/dotnet/aspnetcore/issues/18660,https://github.com/dotnet/aspnetcore/pull/18758,0,0,0,1,0,0,0,"Multiple PRs, took first one for data."
+Replace calls to buffer.First.Span with buffer.FirstSpan,https://github.com/dotnet/aspnetcore/issues/18587,https://github.com/dotnet/aspnetcore/pull/18615,1,0,0,0,0,0,1,
+HttpRequest.ContentLength is null when using TestHost,https://github.com/dotnet/aspnetcore/issues/18463,N.A,0,1,0,0,0,0,0,Appears to be ongoing.
+Kestrel enforces non-default HTTP/2 limits before the Settings ack,https://github.com/dotnet/aspnetcore/issues/17842,N.A,0,1,0,0,0,0,0,Appears to be ongoing.
+Provide better experience when the BodyReader is left in a reading state,https://github.com/dotnet/aspnetcore/issues/17840,N.A,0,0,0,0,0,0,1,Appears to be stale.
+Microsoft.AspNetCore.Localization.RequestCulture() method descriptions,https://github.com/dotnet/aspnetcore/issues/17447,https://github.com/dotnet/aspnetcore/pull/17511,0,0,0,0,1,0,0,
+namespace Microsoft.AspNetCore.Routing / public class RouteOptions / LowercaseUrls() method / Summary text,https://github.com/dotnet/aspnetcore/issues/17445,https://github.com/dotnet/aspnetcore/pull/17499,0,0,0,0,1,0,0,
+Signalr Clients.Users Should accept Ienumerable,https://github.com/dotnet/aspnetcore/issues/17285,https://github.com/dotnet/aspnetcore/pull/17360,1,0,1,0,0,0,0,
+More missing descriptions,https://github.com/dotnet/aspnetcore/issues/17205,https://github.com/dotnet/aspnetcore/pull/17943,1,0,0,0,1,0,0,
+Numerous missing class descriptions,https://github.com/dotnet/aspnetcore/issues/17204,https://github.com/dotnet/aspnetcore/pull/17349,1,0,0,0,1,0,0,
+ItemsDictionary - Possible NullReferenceException with .GetEnumerator(),https://github.com/dotnet/aspnetcore/issues/16938,https://github.com/dotnet/aspnetcore/pull/16947,1,0,0,1,0,0,0,
+Make Map tests async,https://github.com/dotnet/aspnetcore/issues/15374,https://github.com/dotnet/aspnetcore/pull/15364,0,0,0,1,0,0,0,"Multiple PRs, took first one for data."
+Remove doc references to obsolete AuthenticationManager,https://github.com/dotnet/aspnetcore/issues/15079,https://github.com/dotnet/aspnetcore/pull/15110,0,0,0,0,1,0,0,
+Change IResponseCache output to ValueTask,https://github.com/dotnet/aspnetcore/issues/14993,https://github.com/dotnet/aspnetcore/pull/15393,0,0,1,0,0,0,1,
+Don't timeout SignalR clients if a debugger is attached,https://github.com/dotnet/aspnetcore/issues/14871,https://github.com/dotnet/aspnetcore/pull/14879,0,1,0,0,0,0,0,
+await HttpRequestStreamReader.ReadToEndAsync throws when AllowSynchronousIO is set to false,https://github.com/dotnet/aspnetcore/issues/14734,N.A,0,1,0,0,0,0,0,Duplicate issue.
+IHttpContextAccessor and IHttpContextFactory are missing a description,https://github.com/dotnet/aspnetcore/issues/14516,https://github.com/dotnet/aspnetcore/pull/14747,1,0,0,0,1,0,0,
+WebAssemblyConsoleLogger doesn't honor the IsEnabled check,https://github.com/dotnet/aspnetcore/issues/12859,https://github.com/dotnet/aspnetcore/pull/12928,1,1,0,0,0,0,0,
+HeartbeatSlow warning missing context,https://github.com/dotnet/aspnetcore/issues/12760,https://github.com/dotnet/aspnetcore/pull/15273,0,0,1,0,0,0,0,
+Adding custom request header in 2.2,https://github.com/dotnet/aspnetcore/issues/12114,https://github.com/dotnet/aspnetcore/pull/12157,0,1,1,0,0,0,0,
+API call order matters but it shouldn’t,https://github.com/dotnet/aspnetcore/issues/11833,https://github.com/dotnet/aspnetcore/pull/13202,0,0,0,0,0,0,1,
+[API Review]: Move BadHttpRequestException to Http.Abstractions,https://github.com/dotnet/aspnetcore/issues/11208,N.A,0,0,0,0,0,0,1,Still ongoing.
+Adding HTTP header with empty string value yields confusing error,https://github.com/dotnet/aspnetcore/issues/11032,https://github.com/dotnet/aspnetcore/pull/11217,1,0,1,0,0,0,0,"Multiple PRs, took first one for data."
+MicrosoftAccount to take parameters,https://github.com/dotnet/aspnetcore/issues/11026,https://github.com/dotnet/aspnetcore/pull/11059,0,0,0,1,0,0,0,
+Add logging for controller creation,https://github.com/dotnet/aspnetcore/issues/11005,https://github.com/dotnet/aspnetcore/pull/11526,0,0,0,1,0,0,0,
+Wrong Summary for constructor in AuthenticationService.cs,https://github.com/dotnet/aspnetcore/issues/10885,https://github.com/dotnet/aspnetcore/pull/10969,0,0,0,0,1,0,0,
+Windows unix domain sockets don't work with binding syntax,https://github.com/dotnet/aspnetcore/issues/10782,https://github.com/dotnet/aspnetcore/pull/12002,1,0,1,0,0,0,0,"Multiple PRs, took first one for data."
+Add Pipelines-related http features in TestServer,https://github.com/dotnet/aspnetcore/issues/8660,https://github.com/dotnet/aspnetcore/pull/10189,0,0,0,0,0,1,0,
