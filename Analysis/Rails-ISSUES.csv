@@ -1,0 +1,27 @@
+﻿Issue,URL,Associated PR,Taken by New Developer? (0/1),Bug Fix (0/1),Enhancing an Existing Feature (0/1),New Feature (0/1),Documentation(0/1),Testing (0/1),Refactoring (0/1),Other Information
+Defining `default_scope` class method doesn't work,https://github.com/rails/rails/issues/38397,N.A,0,1,0,0,0,0,0,"False report, bug didn't exist."
+Add ActionCable::Channel.stream_or_reject_for,https://github.com/rails/rails/issues/38371,https://github.com/rails/rails/pull/38375,0,0,1,0,0,0,0,
+"Missing app/assets/images directory causes ""We're sorry, but something went wrong""",https://github.com/rails/rails/issues/38222,https://github.com/rails/rails/pull/38249,1,0,0,0,0,0,1,"Multiple PRs, took first one for data."
+ActiveRecord::StatementInvalid: SQLite3::SQLException: incomplete input,https://github.com/rails/rails/issues/38066,N.A,0,1,0,0,0,0,0,Cannot be reproduced.
+Associations guide incorrectly states belongs_to as one-to-one relationship,https://github.com/rails/rails/issues/37899,https://github.com/rails/rails/pull/37905,0,0,0,0,1,0,0,"Multiple PRs, took first one for data."
+db:schema:dump generates different code between development and test environments,https://github.com/rails/rails/issues/37706,https://github.com/rails/rails/pull/37726,1,1,0,0,0,0,0,"Multiple PRs, took first one for data."
+ActiveStorage changes in nested model not detected during update,https://github.com/rails/rails/issues/37701,https://github.com/rails/rails/pull/37786,1,1,0,0,0,0,0,
+Make assert_changes etc. use minitest's diffing.,https://github.com/rails/rails/issues/37507,https://github.com/rails/rails/pull/37588,1,0,0,0,0,1,0,"Multiple PRs, took first one for data."
+Fix random test failure in Active Record i18n test,https://github.com/rails/rails/issues/35594,N.A,0,0,0,0,0,1,0,Cannot be reproduced.
+ActionController::ParamsWrapper#process_action catches too many errors,https://github.com/rails/rails/issues/34811,https://github.com/rails/rails/pull/34883,0,0,0,0,0,0,1,"Multiple PRs, took first one for data."
+Add option to disable scopes in `ActiveRecord.enum`,https://github.com/rails/rails/issues/34599,https://github.com/rails/rails/pull/34605,1,0,0,1,0,0,0,
+"ActionDispatch::IntegrationTest should include ActiveJob::TestHelper, ActionMailer::TestHelper by default",https://github.com/rails/rails/issues/33838,https://github.com/rails/rails/pull/33849,0,0,0,0,0,1,0,
+"Unwanted query parameter ""null="" added to the url in a get request test using as: :json",https://github.com/rails/rails/issues/33388,https://github.com/rails/rails/pull/33392,0,0,1,0,0,0,1,
+`CollectionAssociation#size` should use `@association_ids` if available,https://github.com/rails/rails/issues/32569,https://github.com/rails/rails/pull/32617,1,1,0,0,0,0,1,"Multiple PRs, took first Rails PR for data."
+Summer time,https://github.com/rails/rails/issues/32550,https://github.com/rails/rails/pull/32623,1,1,0,0,0,0,0,"Multiple PRs, took first one for data."
+Errno::ENAMETOOLONG on system test screenshot,https://github.com/rails/rails/issues/32346,https://github.com/rails/rails/pull/36000,1,0,1,0,0,0,0,
+ApplicationController.renderer.defaults gets unset/reloaded in development,https://github.com/rails/rails/issues/30049,https://github.com/rails/rails/pull/30115,1,1,0,0,0,0,0,
+Reformat implicit render exception,https://github.com/rails/rails/issues/29280,https://github.com/rails/rails/pull/29286,1,0,0,1,0,0,1,"Multiple PRs, took first one for data."
+rails plugin new rails51test --mountable --webpack=react stops after basic directory creation,https://github.com/rails/rails/issues/29116,https://github.com/rails/rails/pull/29238,1,0,0,0,0,0,1,
+#action_name is not in the docs,https://github.com/rails/rails/issues/29084,https://github.com/rails/rails/pull/29134,1,0,0,0,1,0,0,
+Improve API documentation to include more details about `render`,https://github.com/rails/rails/issues/28484,https://github.com/rails/rails/pull/28784,1,0,0,0,1,0,0,"Multiple PRs, took first one for data."
+test_unit integration tests generator is missing the namespace wrapper ,https://github.com/rails/rails/issues/28011,https://github.com/rails/rails/pull/28013,0,0,1,0,0,0,0,
+Fix lazy load hooks documentation.,https://github.com/rails/rails/issues/25784,https://github.com/rails/rails/pull/25790,0,0,0,0,0,0,1,"Multiple PRs, took first one for data."
+Update Active Job guide with ApplicationJob instead of ActiveJob::Base,https://github.com/rails/rails/issues/25377,https://github.com/rails/rails/pull/25378,1,0,0,0,0,0,1,
+Drop jQuery as a dependency,https://github.com/rails/rails/issues/25208,https://github.com/rails/jquery-ujs/pull/474,1,0,0,1,0,0,1,"Multiple PRs, took first one for data."
+Bug with namespaced ActiveRecord models on 4.1.x (PostgreSQL),https://github.com/rails/rails/issues/15811,https://github.com/rails/rails/pull/30778,1,0,1,0,0,0,0,"Multiple PRs, took first one for data."

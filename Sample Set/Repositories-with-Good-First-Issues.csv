@@ -1,7 +1,7 @@
 Project Name,Link to Github,Status?,Notes,Number of Issues,Number of Good First Issues,Number Commits Sampled,Number Issues Sampled
 React,https://github.com/facebook/react,,label = 'good first issue (taken)' & 'good first issue',,,,
 Angular,https://github.com/angular/angular,,,,,,
-Ruby on Rails,https://github.com/rails/rails,,,,,,
+Ruby on Rails,https://github.com/rails/rails,Done,,13582,26,30,26
 Vue.js,https://github.com/vuejs/vue,Done,,8835,26,30,26
 Express,https://github.com/expressjs/express,Done,label = 'good first contribution',3241,3,30,3
 ASP.NET,https://github.com/dotnet/aspnetcore,Done,,14603,57,30,30
