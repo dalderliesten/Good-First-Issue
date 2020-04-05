@@ -1,0 +1,19 @@
+﻿Issue,URL,Associated PR,Taken by New Developer? (0/1),Bug Fix (0/1),Enhancing an Existing Feature (0/1),New Feature (0/1),Documentation(0/1),Testing (0/1),Refactoring (0/1),Other Information
+Bug: Excessive cpu usage of the page when react-devtools is active,https://github.com/facebook/react/issues/17935,N.A,0,1,0,0,0,0,0,Appears to be ongoing.
+Adding `.displayName` documentation to Contexts,https://github.com/facebook/react/issues/16851,https://github.com/reactjs/reactjs.org/pull/2367,1,0,0,0,1,0,0,
+DevTools: Long interaction names cannot be seen,https://github.com/facebook/react/issues/16736,https://github.com/facebook/react/pull/16767,1,0,1,0,0,0,0,
+DevTools: Overlay stays after devtools are closed,https://github.com/facebook/react/issues/16485,N.A,0,1,0,0,0,0,0,Unable to reproduce.
+Dev tools does not respect zoom level on firefox OSX,https://github.com/facebook/react/issues/16413,N.A,0,1,0,0,0,0,0,Closed without fix.
+react-hooks linter fails with unusual for loop,https://github.com/facebook/react/issues/14362,https://github.com/facebook/react/pull/14661,1,1,0,0,0,0,0,
+IE9: Unable to call apply on console.error when encountering an unknown tag,https://github.com/facebook/react/issues/13610,https://github.com/facebook/react/pull/13620,1,1,0,0,0,0,0,"Multiple PRs, took first one for data."
+Fragments in IE11 rendered as strange elements,https://github.com/facebook/react/issues/13414,https://github.com/WordPress/gutenberg/pull/12096,0,1,0,0,0,0,1,
+Improve warning message for failure to initialize `state` when using `getDerivedStateFromProps` ,https://github.com/facebook/react/issues/12670,https://github.com/facebook/react/pull/13317,1,0,1,0,0,0,0,
+Unexpected warning when hydrating with portal and SSR,https://github.com/facebook/react/issues/12615,https://github.com/facebook/react/pull/13614,0,1,0,0,0,0,0,"Multiple PRs, took first one for data."
+dangerouslySetInnerHTML will wrap on SSR but not client and both are editing invalid HTML,https://github.com/facebook/react/issues/12415,N.A,0,1,0,0,0,0,0,Closed without fix.
+Remove selectionStart polyfill?,https://github.com/facebook/react/issues/11806,N.A,0,1,0,0,0,0,0,Closed without fix.
+Error Rendering Inputs in Separate Window using Portals,https://github.com/facebook/react/issues/11768,https://github.com/facebook/react/pull/11870,0,1,0,0,0,0,1,"Multiple PRs, took first one for data."
+Children of option tags flattened when select has value,https://github.com/facebook/react/issues/11602,https://github.com/facebook/react/pull/11623,0,0,0,0,0,1,0,"Multiple PRs, took first one for data."
+Ignore <noscript> content on the client and don't warn about mismatches,https://github.com/facebook/react/issues/11423,https://github.com/facebook/react/pull/13537,1,0,1,0,0,0,1,
+Nicer Formatting of SSR Validation,https://github.com/facebook/react/issues/10085,https://github.com/facebook/react/pull/12063,0,0,1,0,0,0,0,
+False positive getDefaultProps warning when mixing development and production versions,https://github.com/facebook/react/issues/9999,https://github.com/facebook/react/pull/12064,1,1,0,0,0,0,0,
+yarn prettier runs a too long command for OS windows,https://github.com/facebook/react/issues/9500,https://github.com/facebook/react/pull/9523,0,1,0,0,0,0,0,"Multiple PRs, took first one for data."

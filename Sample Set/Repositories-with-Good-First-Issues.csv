@@ -1,5 +1,5 @@
 Project Name,Link to Github,Status?,Notes,Number of Issues,Number of Good First Issues,Number Commits Sampled,Number Issues Sampled
-React,https://github.com/facebook/react,,label = 'good first issue (taken)' & 'good first issue',,,,
+React,https://github.com/facebook/react,Done,label = 'good first issue (taken)' & 'good first issue',8961,18,30,18
 Angular,https://github.com/angular/angular,Done,,20452,25,30,25
 Ruby on Rails,https://github.com/rails/rails,Done,,13582,26,30,26
 Vue.js,https://github.com/vuejs/vue,Done,,8835,26,30,26
