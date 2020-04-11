@@ -8,7 +8,7 @@ ASP.NET,https://github.com/dotnet/aspnetcore,Done,,14603,57,30,30
 Flask,https://github.com/pallets/flask,Done,,1890,34,30,30
 Node.js,https://github.com/nodejs/node,Done,,11328,299,30,30
 Pandas,https://github.com/pandas-dev/pandas,Done,,17531,856,30,30
-Tensorflow,https://github.com/tensorflow/tensorflow,MUST CAPTURE,,,,,
+Tensorflow,https://github.com/tensorflow/tensorflow,,,,,,
 Cordova,https://github.com/apache/cordova,Done,,172,2,3,2
 Xamarin,https://github.com/xamarin/Xamarin.Forms,Done,label = 'up for grabs',6001,825,30,30
 Flutter,https://github.com/flutter/flutter,Done,label = 'good first contribution',33518,17,30,17

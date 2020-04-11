@@ -1,0 +1,31 @@
+Issue Description,Assignees to the Issue,Link
+`nan` gradient when `tf.where` is used,,https://github.com/tensorflow/tensorflow/issues/38349
+Count number of times `tf.function` is traced,,https://github.com/tensorflow/tensorflow/issues/37323
+tf.function and tf.nest break for valid Mapping instances,,https://github.com/tensorflow/tensorflow/issues/36146
+"polyval gives TypeError when run inside tf.function with Tensor coeffs, but not when run eagerly",,https://github.com/tensorflow/tensorflow/issues/34947
+[TF 2.0] autograph issue,,https://github.com/tensorflow/tensorflow/issues/30895
+Using tf.function while enumerating a dataset causes an infinite loop,,https://github.com/tensorflow/tensorflow/issues/30802
+[TF 2.0] Using tf.py_function which has tf.string type input in dataset.map() generates dtype warning.,,https://github.com/tensorflow/tensorflow/issues/28248
+[TF 2.0] Add skip_empty argument to tf.strings.split so that tf.string_split can be deprecated.,,https://github.com/tensorflow/tensorflow/issues/26368
+[TF 2.0] Conversion script fails to parse IPython functions.,,https://github.com/tensorflow/tensorflow/issues/26294
+Good first issue tag?,,https://github.com/tensorflow/tensorflow/issues/26276
+[TF 2.0 API Docs] tf.custom_gradient,,https://github.com/tensorflow/tensorflow/issues/26270
+[TF 2.0 API Docs] tf.keras.activations.relu ,,https://github.com/tensorflow/tensorflow/issues/26211
+[TF 2.0 API Docs] tf.keras,,https://github.com/tensorflow/tensorflow/issues/26197
+[TF2.0] Error Logging for GradientTape,,https://github.com/tensorflow/tensorflow/issues/26143
+tf.spectral.dct length argument not implemented,,https://github.com/tensorflow/tensorflow/issues/26074
+[TF 2.0 API Docs] tf.keras.applications.MobileNetV2,,https://github.com/tensorflow/tensorflow/issues/25988
+[TF 2.0 API Docs] tf.keras.losses.poisson,,https://github.com/tensorflow/tensorflow/issues/25973
+[TF 2.0 API Docs] tf.image.non_max_suppression,,https://github.com/tensorflow/tensorflow/issues/25959
+[TF 2.0 API Docs] tf.math.add,,https://github.com/tensorflow/tensorflow/issues/25846
+[TF 2.0 API Docs] tf.lite.TFLiteConverter,,https://github.com/tensorflow/tensorflow/issues/25844
+[TF 2.0 API Docs] tf.keras.activations.serialize,,https://github.com/tensorflow/tensorflow/issues/25828
+[TF 2.0 API Docs] tf.keras.activations.tanh,,https://github.com/tensorflow/tensorflow/issues/25827
+[TF 2.0 API Docs] tf.compat.path_to_str,,https://github.com/tensorflow/tensorflow/issues/25826
+[TF 2.0 API Docs] tf.math.add_n,,https://github.com/tensorflow/tensorflow/issues/25820
+[TF 2.0 API Docs] tf.math.acos,,https://github.com/tensorflow/tensorflow/issues/25802
+[TF 2.0 API Docs] tf.AggregationMethod,,https://github.com/tensorflow/tensorflow/issues/25794
+tf.data.Dataset error in documentation,,https://github.com/tensorflow/tensorflow/issues/25320
+"If a branch contains summaries, tf.cond doesn't support Operations as branches",,https://github.com/tensorflow/tensorflow/issues/24815
+Feature Request: GPUOptions for Go binding,,https://github.com/tensorflow/tensorflow/issues/22926
+Feature request: non-stateful scatter_nd_min and scatter_nd_max,,https://github.com/tensorflow/tensorflow/issues/20402
