@@ -1,0 +1,109 @@
+Issue Description,Assignees to the Issue,Link
+knife  suggest to use -VVV option to collect the ouput which is not giving full Trackback of the command output.,,https://github.com/chef/chef/issues/8433
+apt_repository resource generates bad source list files,,https://github.com/chef/chef/issues/6524
+Support multiple keys for apt_repository to match yum_repository,,https://github.com/chef/chef/issues/6369
+chef chokes on git version string on apple.,,https://github.com/chef/chef/issues/6350
+[Enhancement] Add sensitive to registry_key ,,https://github.com/chef/chef/issues/5695
+Mount resource: Action :umount for mount resource is an obtuse anachronism,,https://github.com/chef/chef/issues/5595
+default_unless reads merged values,,https://github.com/chef/chef/issues/5556
+Remove Chef::Config[:resource_cloning],,https://github.com/chef/chef/issues/5555
+Knife should give a useful error when the chef_server_url isn't a chef server API.,,https://github.com/chef/chef/issues/5552
+Upstart provider only supports the start and stop states,,https://github.com/chef/chef/issues/5513
+Remove create_if_missing from declare_resource API,,https://github.com/chef/chef/issues/5372
+Remove `supports { manage_home: true }` from user providers,,https://github.com/chef/chef/issues/5371
+Mark all LWRPs and Custom Resources why-run safe by default,,https://github.com/chef/chef/issues/5341
+yum_repository action :delete doesn't seem to work,,https://github.com/chef/chef/issues/5282
+Parsing -version resulted in exception:  Cannot bundle unregistered option '-e',,https://github.com/chef/chef/issues/5256
+Knife search ID only option should filter result set,,https://github.com/chef/chef/issues/5192
+Unable to use :raw_key with Chef::ServerAPI,,https://github.com/chef/chef/issues/5175
+Remove iconv from the ruby build,,https://github.com/chef/chef/issues/5140
+Wrong mount defaults on FreeBSD (/etc/fstab: Inappropriate file or format),,https://github.com/chef/chef/issues/4959
+gem_package upgrade is always upgrading if there is any old version installed.,,https://github.com/chef/chef/issues/4954
+Upstart service provider should provide a way to restart with a stop + start,,https://github.com/chef/chef/issues/4877
+knife environment from file ignores --config option,,https://github.com/chef/chef/issues/4876
+zypper upgrade is broken,,https://github.com/chef/chef/issues/4863
+Mount provider should support sensitive property,,https://github.com/chef/chef/issues/4850
+cookbook show definitions throws exception.,,https://github.com/chef/chef/issues/4821
+Exit on run lock,,https://github.com/chef/chef/issues/4754
+"Fix API for Service Resource ""priority"" property",,https://github.com/chef/chef/issues/4394
+Parameterize bootstrap client.rb log_location,,https://github.com/chef/chef/issues/4346
+MvUnix not actually atomic,,https://github.com/chef/chef/issues/4313
+Suppress databag warning about unencrypted databag,,https://github.com/chef/chef/issues/4154
+Subversion - shell unfriendly parameters,,https://github.com/chef/chef/issues/4132
+Ensure that tags are properly initialized,,https://github.com/chef/chef/pull/4064
+OpenIndiana/OpenSolaris: user resource is sad on password change,,https://github.com/chef/chef/issues/4020
+knife bootstrap against OSX 10.10.5 node giving error at first chef-client run (post chef omnibus install),,https://github.com/chef/chef/issues/4019
+Chef::Provider::Script need to include ksh an lwrp similar to bash or csh,,https://github.com/chef/chef/issues/3923
+Mounting cifs shares with spaces in the device path is broken,,https://github.com/chef/chef/issues/3884
+Fix for package upgrading,,https://github.com/chef/chef/pull/3812
+Error when using lazy attribute with link resource,,https://github.com/chef/chef/issues/3703
+Chef::DataBagItem.save does not properly validate names with periods,,https://github.com/chef/chef/issues/3697
+Decommissioning 12-stable,,https://github.com/chef/chef/issues/3640
+Issue with knife tag create ,,https://github.com/chef/chef/issues/3534
+Add a 'null' or 'notifies' NOP resource to hang chained notifies off of,,https://github.com/chef/chef/issues/3426
+chef_gem compile_time should default to false,,https://github.com/chef/chef/issues/3377
+Need Config/CLI options to move interval+splay sleep to end of client loop,,https://github.com/chef/chef/issues/3305
+A simple change to add periods at the end of sentences.,,https://github.com/chef/chef/pull/3185
+knife search exhibits surprising exit code behavior,,https://github.com/chef/chef/issues/2981
+Why output `new_run_list.inspect` in chef-client logs?,,https://github.com/chef/chef/issues/2863
+Git resource's user attribute does not properly support whyrun mode,,https://github.com/chef/chef/issues/2860
+powershell_script user attribute: no method for uid,,https://github.com/chef/chef/issues/2850
+for Solaris packages 'candidate_version' doesn't have the same kind of protection as 'load_current_resource',,https://github.com/chef/chef/issues/2840
+Upstart Service Provider doesn't handle certain status output,,https://github.com/chef/chef/issues/2819
+Feature request: Show remote_file progress,,https://github.com/chef/chef/issues/2812
+Chef client does not accept relative dir,,https://github.com/chef/chef/issues/2809
+knife bootstrap windows winrm - wrong chef server url,,https://github.com/chef/chef/issues/2796
+usermod: -o flag is only allowed with the -u flag,,https://github.com/chef/chef/issues/2789
+add check for redirected/relocated git directory,,https://github.com/chef/chef/pull/2775
+Update audit DSL method names,,https://github.com/chef/chef/issues/2755
+Chef::Util::PathHelper.validate_path fails on network paths,,https://github.com/chef/chef/issues/2705
+Resource guard mistake,,https://github.com/chef/chef/issues/2683
+The `create_url` in lib/chef/http.rb needs to handle URI (the scheme part) in a case-insensitive matter,,https://github.com/chef/chef/issues/2500
+Remove 1.8 and 1.9 specific code,,https://github.com/chef/chef/issues/2497
+dpkg_package with + in filename causes reinstall when not necessary,,https://github.com/chef/chef/issues/2417
+Delete SecureRandom monkey patch,,https://github.com/chef/chef/issues/2384
+typo fixes - https://github.com/vlajos/misspell_fixer,,https://github.com/chef/chef/pull/2382
+chef-shell on Windows tries to load /etc/chef/client.rb,,https://github.com/chef/chef/issues/2380
+Fix chef-apply usage banner,,https://github.com/chef/chef/issues/2372
+chef-client doesn't make /etc/chef if it needs to,,https://github.com/chef/chef/issues/2351
+CHEF-4058: zypper package provider should not ignore gpg checks by default,,https://github.com/chef/chef/issues/2339
+"""knife cookbook site install"" command is failed.",,https://github.com/chef/chef/issues/2317
+Uploading a frozen cookbook fails to upload the remaining cookbooks and does not exit 1,,https://github.com/chef/chef/issues/2293
+11.16.4 Omnibus install on Windows = ruby not found,,https://github.com/chef/chef/issues/2291
+The value of retries is reported incorrectly in an error report,,https://github.com/chef/chef/issues/2258
+data bag search returns different results between client and knife,,https://github.com/chef/chef/issues/2199
+Clarify the probable cause of tempfile creation failure during cookbook sync,,https://github.com/chef/chef/issues/2171
+remote-directory does not support copying files with spaces in them,,https://github.com/chef/chef/issues/2160
+Environment proxy settings not picked up by remote_file,,https://github.com/chef/chef/issues/2140
+Provide more helpful error message when accidentally using --secret instead of --secret-file,,https://github.com/chef/chef/issues/2113
+not_if/only_if does not honor script resource's environment,,https://github.com/chef/chef/pull/2105
+Remove the category requirement from knife,,https://github.com/chef/chef/issues/2099
+Consider deprecating/removing Chef::CookbookVersion#latest_cookbooks,,https://github.com/chef/chef/issues/2090
+Use exact match to locate remote git-reference,,https://github.com/chef/chef/pull/2079
+git Provider Incorrectly Selects Less Specific Tag,,https://github.com/chef/chef/issues/2065
+chefignore requires double definition,,https://github.com/chef/chef/issues/2060
+[testing] Evaluate Waffle.io,,https://github.com/chef/chef/issues/2055
+remote_file's source attribute does not support DelayedEvaluators,,https://github.com/chef/chef/issues/2047
+CHEF-1940:Patch for https://github.com/opscode/chef/issues/1940,,https://github.com/chef/chef/pull/1961
+"""ERROR: can't dup NilClass"" when bootstrap --server-url is not a URI",,https://github.com/chef/chef/issues/1909
+chef-apply with no arguments gives a confusing error message,,https://github.com/chef/chef/issues/1882
+'options' attribute is not passed to package or yum_package resource,,https://github.com/chef/chef/issues/1874
+Enable client-side key generation by default (fixes #1711),,https://github.com/chef/chef/pull/1825
+Remove recipe DSL from base provider.,,https://github.com/chef/chef/pull/1820
+knife cookbook site install fails on Windows in directories with spaces,,https://github.com/chef/chef/issues/1753
+Chef client 'execute cmd'  cannot be set to sensitive output,,https://github.com/chef/chef/issues/1744
+Guard interpreter default for powershell_script set to powershell_script,,https://github.com/chef/chef/issues/1714
+Guard interpreter default for batch set to :batch,,https://github.com/chef/chef/issues/1713
+Enable client-side key generation by default,,https://github.com/chef/chef/issues/1711
+Possible enhancement: catch #exec,,https://github.com/chef/chef/issues/1689
+"--force option is invalid, but knife client delete tells you to use it",,https://github.com/chef/chef/issues/1652
+cookbook upload fails if there is a brace in the cookbook path,,https://github.com/chef/chef/issues/1625
+git resource Errno::EIO on windows,,https://github.com/chef/chef/issues/1622
+easy_install_package fails on Windows due to use of output_of_command,,https://github.com/chef/chef/issues/1610
+Chef can't remove apt packages if they don't exist in a repo,,https://github.com/chef/chef/issues/1600
+OSX User provider blows up if group is removed before user,,https://github.com/chef/chef/issues/1586
+Node::Attribute inspect vs to_s problem,,https://github.com/chef/chef/issues/1562
+CHEF-2707 subversion resource doesn't work on windows,,https://github.com/chef/chef/issues/1533
+Debian service resource is not idempotent when priority is specified,,https://github.com/chef/chef/issues/1517
+Remove recipe DSL from base provider,,https://github.com/chef/chef/issues/1446
+[CHEF-3910] Allow config[:user_password] to be set via CLI,,https://github.com/chef/chef/pull/648

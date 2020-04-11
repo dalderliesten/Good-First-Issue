@@ -1,0 +1,1986 @@
+First Commit Hash (SHA),Commit Message,Author (Github Name),Link to Commit
+b5117775e86cff40399187b6292c98fba9dc5034,Initial Commit,adamhjk,https://api.github.com/repos/chef/chef/git/commits/b5117775e86cff40399187b6292c98fba9dc5034
+6e01aceacecf136a1b04fc91b87fb98e3cebed4e,"Fixed issue me and Adam were seeing regarding regarding openID json parsing.
+Merb was sending content type: application/json; charset=utf-8 and we were string matching. changed to regex match of /json/",fujin,https://api.github.com/repos/chef/chef/git/commits/6e01aceacecf136a1b04fc91b87fb98e3cebed4e
+12cfbc1ff3e5d8a18aee2ab62862a82c3398d45a,"add ultraviolet and merb-haml as dependencies, plus ruby-openid must be >2",btm,https://api.github.com/repos/chef/chef/git/commits/12cfbc1ff3e5d8a18aee2ab62862a82c3398d45a
+a831499a6f402ca95b8e1152bc913d324eea3199,CHEF-89: Refactor Chef::Provider::RemoteFile to support downloads from any URI.,seancribbs,https://api.github.com/repos/chef/chef/git/commits/a831499a6f402ca95b8e1152bc913d324eea3199
+779423e7ff652f560798733e6de93ba2d51e462a,CHEF-140: Teach chef to use client certs,thommay,https://api.github.com/repos/chef/chef/git/commits/779423e7ff652f560798733e6de93ba2d51e462a
+8dafa9127f3cf75ea03b4492a4f509ded07444c3,"CHEF-150: Resource names no longer limited to one underscore
+
+Resource names can now have more than one underscore. For example
+the resource name apache_web_server will now correctly
+translate to the resource class Chef::Resource::ApacheWebServer.",johnhampton,https://api.github.com/repos/chef/chef/git/commits/8dafa9127f3cf75ea03b4492a4f509ded07444c3
+ef505929201eb979e18e1ca29c0128de34010bc3,move Linux specific check_lock code into useradd provider,essh,https://api.github.com/repos/chef/chef/git/commits/ef505929201eb979e18e1ca29c0128de34010bc3
+2a8d3370bff8b57b7b02d3457fa29e8a067a6bdd,hacky test for using openid-store-couchdb,b,https://api.github.com/repos/chef/chef/git/commits/2a8d3370bff8b57b7b02d3457fa29e8a067a6bdd
+e8cd52dde3e5860d951c09b4f11e5b2c82033f91,init scripts on Gentoo support status automatically.  Add this in so it's on by default.,ctennis,https://api.github.com/repos/chef/chef/git/commits/e8cd52dde3e5860d951c09b4f11e5b2c82033f91
+3430fa620af34a45da73b2c67e4e25a89151db0f,"Implement caching in yum provider to speed it up.
+
+Adds a python script that dumps yum packages as json.",mdkent,https://api.github.com/repos/chef/chef/git/commits/3430fa620af34a45da73b2c67e4e25a89151db0f
+24c353de9e5564bda099ba2c3be2f64117fd1c03,Fixed OpenID authentication when Chef Server is deployed with Passenger,mikelim,https://api.github.com/repos/chef/chef/git/commits/24c353de9e5564bda099ba2c3be2f64117fd1c03
+41b1e4ae2429e782c97756c6cbed0f42dbf78679,"Update chef-server to pass back checksums to chef-client with the initial cookbook file list.  Update chef-client to use these checksums to reduce the required number of HTTP requests needed to update the cookbook cache.
+
+Closes CHEF-247.",imbriaco,https://api.github.com/repos/chef/chef/git/commits/41b1e4ae2429e782c97756c6cbed0f42dbf78679
+8eeba782bdddc65abfd9ed2a53dcb56cff5be6be,small change needed to fix CHEF-307,andrewwillis,https://api.github.com/repos/chef/chef/git/commits/8eeba782bdddc65abfd9ed2a53dcb56cff5be6be
+3829ae3abe35410cd4e6639dc5276b227778e766,Added full path to findfs command. Corrected a bug with device_mount_regex,cabeca,https://api.github.com/repos/chef/chef/git/commits/3829ae3abe35410cd4e6639dc5276b227778e766
+33cb61a1c3212f292af99c0e5bc1356e3e9c91f2,"chef-337, update with changes in line with chef-repo rakefile",jtimberman,https://api.github.com/repos/chef/chef/git/commits/33cb61a1c3212f292af99c0e5bc1356e3e9c91f2
+c5e09e989dba107d9ef2b2ec18fa4f8a77552fa2,"Move search.rb and search_index.rb from chef-server/lib/chef to chef/lib/chef, so that the test suite works even if the chef-server gem is not installed.",FooBarWidget,https://api.github.com/repos/chef/chef/git/commits/c5e09e989dba107d9ef2b2ec18fa4f8a77552fa2
+87656f3e63b4400daef6389bb9c62cb13a7457da,"  - Remove some trailing Meta key garbage at the tail end of the file.
+
+Signed-off-by: Scott M. Likens <scott@likens.us>",damm,https://api.github.com/repos/chef/chef/git/commits/87656f3e63b4400daef6389bb9c62cb13a7457da
+64dc418727386e984c3b4cba9fe033a76049ccd4,"CHEF-427: Minor cleanup of JSON attribute editor
+
+ * Sort attribute tree view
+ * Replace JSONstring.make with JSON.stringify
+ * Update JSON.stringify to sort output",thegrort,https://api.github.com/repos/chef/chef/git/commits/64dc418727386e984c3b4cba9fe033a76049ccd4
+3dd5b1bc3c70a39d68c189317650f62555467ca0,"CHEF-431: properly show OpenID login decision page
+
+Sorry not to include feature fixes with this; I'm afraid I don't quite have
+the bandwidth to get CouchDB installed in a timely manner.",matthewtodd,https://api.github.com/repos/chef/chef/git/commits/3dd5b1bc3c70a39d68c189317650f62555467ca0
+cf2a850ed5706a20b75dee5390b7fccec292fc29,"Chef::Platform.provider_for_node returns an instance of a provider
+
+Chef::Platform.find_provider_for_node returns the class itself",danielsdeleo,https://api.github.com/repos/chef/chef/git/commits/cf2a850ed5706a20b75dee5390b7fccec292fc29
+d5017603230b786166212d8877e83fa53d49cee2,Quote the version of the gem being passed to the command line so that it isn't interpreted by the shell.,mathie,https://api.github.com/repos/chef/chef/git/commits/d5017603230b786166212d8877e83fa53d49cee2
+fa633806ab772d03e5c77fefeaa638cdea535506,Fixes merging of Mash/Hash when using a mix of symbol and string keys in DeepMerge.merge. http://tickets.opscode.com/browse/CHEF-494,kevn,https://api.github.com/repos/chef/chef/git/commits/fa633806ab772d03e5c77fefeaa638cdea535506
+4e68a21521a39d5562bd62c75bbf4f0a60a46735,"add Chef::Provider::Service::Simple
+
+This provider runs whatever is set in the (start|stop|restart|reload)_command resources or throws an exception if these resources are undefined.",kisoku,https://api.github.com/repos/chef/chef/git/commits/4e68a21521a39d5562bd62c75bbf4f0a60a46735
+b434c9cad96d9465d424bf45bc2a5094a5f7e762,Fix CHEF-293 by defaulting to C locale on every shell command,oboxodo,https://api.github.com/repos/chef/chef/git/commits/b434c9cad96d9465d424bf45bc2a5094a5f7e762
+e5dc027d13aa26a8c9acdb595c69b4c1aafe3f46,fix regexp in portage package provider,veszig,https://api.github.com/repos/chef/chef/git/commits/e5dc027d13aa26a8c9acdb595c69b4c1aafe3f46
+044bc42177bc235cf387fd1f63e3c222de26765b,Change the http_request provider to use the new Chef::REST API,ultraninja,https://api.github.com/repos/chef/chef/git/commits/044bc42177bc235cf387fd1f63e3c222de26765b
+c9954bbf12c257bd9a5d0b225cd21e7e8cc5610d,CHEF-695 : backup now keeps backups if backup is set to 1,imeyer,https://api.github.com/repos/chef/chef/git/commits/c9954bbf12c257bd9a5d0b225cd21e7e8cc5610d
+8a12beb0efc046ab6bd8609ee8e34e9ee17c6bd0,FreeBSD should use the default cron provider. it works fine,jamesgolick,https://api.github.com/repos/chef/chef/git/commits/8a12beb0efc046ab6bd8609ee8e34e9ee17c6bd0
+dedae6606fa3ba0aca0434c8943c032b9a87f0d6,"Only build role json files when necessary
+
+Use a rake rule and file dependencies",lmarlow,https://api.github.com/repos/chef/chef/git/commits/dedae6606fa3ba0aca0434c8943c032b9a87f0d6
+72c0e2f1a6442d04bc413321227e4ab6c8294c54,"Add file_backup_path support
+
+Backups made by the file provider are now put in the directory
+specified by the file_backup_path configuration parameter.",tfheen,https://api.github.com/repos/chef/chef/git/commits/72c0e2f1a6442d04bc413321227e4ab6c8294c54
+4c45ff156fa5650d13b31741fed032354eb7d1ef,Added file list to Rakefile.,stormsilver,https://api.github.com/repos/chef/chef/git/commits/4c45ff156fa5650d13b31741fed032354eb7d1ef
+d3056f4ff8cda823f076d6bab9e13bd448f22fba,"Fixing CHEF-698
+
+* when editing a node autodetect is disabled so if a user edits a value incorrectly a JSON error is now thrown for the type of the attribute.",pcross616,https://api.github.com/repos/chef/chef/git/commits/d3056f4ff8cda823f076d6bab9e13bd448f22fba
+5cd6d5897e70ee0b8de25e5fdd3248c4dce01de0,chef-server-webui - config.ru and bin script,dreamcat4,https://api.github.com/repos/chef/chef/git/commits/5cd6d5897e70ee0b8de25e5fdd3248c4dce01de0
+e8790be2e57d386728f3014c12be2aff9c98414f,"Execute delayed actions in order, Fixes CHEF-837
+
+This new spec fails without the corresponding
+runner changes.",krisr,https://api.github.com/repos/chef/chef/git/commits/e8790be2e57d386728f3014c12be2aff9c98414f
+e4b741ddec40ad152ba5f11c2132a38dd106210e,CHEF-734: Resources without an explicitly set provider try to choose one of the same name if possible,algorist,https://api.github.com/repos/chef/chef/git/commits/e4b741ddec40ad152ba5f11c2132a38dd106210e
+26ba7ba47b97b2ae04b6e4f6502156c64990e893,"fixed bug CHEF-859
+updated route provider to use ip route
+route provider reads from proc for running state instead of running route cmd
+route properly detects if a route is already in running state and doesn't try to re-apply the route
+routes can now be defined in cidr notation
+centos/rhel based boxen will have route.<ifname> properly set up
+updated ifconfig.rb to require erb (was in route.rb, but not used anymore)",spheromak,https://api.github.com/repos/chef/chef/git/commits/26ba7ba47b97b2ae04b6e4f6502156c64990e893
+ec27847d08c698c89b52da6d1d8c0dd665597074,Fixed CHEF-873. Template provider didn't respect the cookbook option when specified in the resource.,roidrage,https://api.github.com/repos/chef/chef/git/commits/ec27847d08c698c89b52da6d1d8c0dd665597074
+e3c84b66983633b4ff2038fbcbbf8d7b3da94261,"Added operator support to cron provider (/ , and -).",nalanj,https://api.github.com/repos/chef/chef/git/commits/e3c84b66983633b4ff2038fbcbbf8d7b3da94261
+529d04b556bc98b4805c69f4eb900c93c3f6c993,add pacman provider and resource,jzimmek,https://api.github.com/repos/chef/chef/git/commits/529d04b556bc98b4805c69f4eb900c93c3f6c993
+ad25f0e6d168851a355e8cd726b2debc22de45ab,CHEF-959: Add --pid/-P option to chef-solr,renchap,https://api.github.com/repos/chef/chef/git/commits/ad25f0e6d168851a355e8cd726b2debc22de45ab
+4ac5dafb947f4edc97e17bb149b85e9dc9b9355e,Support output from older status commands,danp,https://api.github.com/repos/chef/chef/git/commits/4ac5dafb947f4edc97e17bb149b85e9dc9b9355e
+eed80c4729a64893454a48ef795d89f6210b2b32,"WebUI did not enumerate available roles after error on role creation
+
+Fix for CHEF-1048",jaswope,https://api.github.com/repos/chef/chef/git/commits/eed80c4729a64893454a48ef795d89f6210b2b32
+a920d47d5277d64d3995cc6b2dbaab5b7290f151,Corrected pessimistic version constraints on merb,guyboltonking,https://api.github.com/repos/chef/chef/git/commits/a920d47d5277d64d3995cc6b2dbaab5b7290f151
+f03bfca55489bf9e4df8dabc4fc0717e1f3160ba,"When loading role from disk, log helpful error if not found",timcharper,https://api.github.com/repos/chef/chef/git/commits/f03bfca55489bf9e4df8dabc4fc0717e1f3160ba
+1ef0980ffd087f2ff18477e732e35624dcf4010b,Add descriptive error message identifying the file when an invalid metadata.json is loaded from a cookbook.,aguynamedben,https://api.github.com/repos/chef/chef/git/commits/1ef0980ffd087f2ff18477e732e35624dcf4010b
+eabebff66b1f32e4abb2bcef2514517f64dcbc33,[CHEF-557] remove rubygems from any libraries,sdelano,https://api.github.com/repos/chef/chef/git/commits/eabebff66b1f32e4abb2bcef2514517f64dcbc33
+f9f4e02744ecc5c3703cbd0859ed49f5b667a1d9,Fixing dscl group and user calls on OSX (10.5.8 tested),brucek,https://api.github.com/repos/chef/chef/git/commits/f9f4e02744ecc5c3703cbd0859ed49f5b667a1d9
+f94b89444faf66d86b5a19506df99ecbc7706e25,"Fix for CHEF-1178, ""rake role[role_name]"" does not work.",Farzy,https://api.github.com/repos/chef/chef/git/commits/f94b89444faf66d86b5a19506df99ecbc7706e25
+5a475fc0fd8a5d7ad1f8a175a1d2d1084ad11fed,[CHEF-1194] fix cookbook screen in WebUI,akzhan,https://api.github.com/repos/chef/chef/git/commits/5a475fc0fd8a5d7ad1f8a175a1d2d1084ad11fed
+1ae667735d10738041933b22f3cef7df1a4c3761,[CHEF-1111] Close popen4 handles in easy_install package provider.,gilles,https://api.github.com/repos/chef/chef/git/commits/1ae667735d10738041933b22f3cef7df1a4c3761
+3ceec3be1af169900caad9f97163fd73e6f6f42a,Solaris Service provider,toomasp,https://api.github.com/repos/chef/chef/git/commits/3ceec3be1af169900caad9f97163fd73e6f6f42a
+eee922fc4d8492a22412429eb8bad758d51a1546,(CHEF-1228) implement env provider,dougm,https://api.github.com/repos/chef/chef/git/commits/eee922fc4d8492a22412429eb8bad758d51a1546
+f904589cf27d342a9a349cdc7bcc26c0257348bd,"Use node, not @node in Chef::Mixin::Language fix CHEF-1273",seth,https://api.github.com/repos/chef/chef/git/commits/f904589cf27d342a9a349cdc7bcc26c0257348bd
+05cba30e64e5bac3957738e0cecb1bd655a4c832,[CHEF-1333] don't include 'via' in route when a gateway isn't provided.  also refactored route provider a bit and added some additional specs.,thbishop,https://api.github.com/repos/chef/chef/git/commits/05cba30e64e5bac3957738e0cecb1bd655a4c832
+a3b67f2236149ab31ac5992ab51ecba8d707b0b2,CHEF-1519 - only_if and not_if not checked on notifies,mleinart,https://api.github.com/repos/chef/chef/git/commits/a3b67f2236149ab31ac5992ab51ecba8d707b0b2
+9a94868a169882914750efb8cc7af954f4b9bc1c,[CHEF-1572] fix typo in error message,warwickp,https://api.github.com/repos/chef/chef/git/commits/9a94868a169882914750efb8cc7af954f4b9bc1c
+467bdf3274b26a4a71862ea2d6573dc2ede6479e,Fix highlighting of roles in the node edit form.,labria,https://api.github.com/repos/chef/chef/git/commits/467bdf3274b26a4a71862ea2d6573dc2ede6479e
+dbf0e1ce5d43e571aec37503ba5870f0c8fac06b,[CHEF-1606] make sure we give a proper error message if cookbook_path doesn't exist,albertsj1,https://api.github.com/repos/chef/chef/git/commits/dbf0e1ce5d43e571aec37503ba5870f0c8fac06b
+c622f8ced8e69915ee76da2c2afcc6a33f638e7a,CHEF-1657: mount provider fix for tmpfs,mdxp,https://api.github.com/repos/chef/chef/git/commits/c622f8ced8e69915ee76da2c2afcc6a33f638e7a
+ffee1af165a29ba3f047e8421c5b4d85cca308e0,sync_cookbooks takes no argument,llaurent,https://api.github.com/repos/chef/chef/git/commits/ffee1af165a29ba3f047e8421c5b4d85cca308e0
+16e26387582e7be6142f8b716d9b3acfd0570993,First draft of a bbg server list,bigfleet,https://api.github.com/repos/chef/chef/git/commits/16e26387582e7be6142f8b716d9b3acfd0570993
+0676b9d2bd26f19bafa6ed83062401c9c8dc7e36,Fleshed out BBG documentation for the knife command.,cparedes,https://api.github.com/repos/chef/chef/git/commits/0676b9d2bd26f19bafa6ed83062401c9c8dc7e36
+c46d217568bcf4b8ac71ee2d68dc9dac24f189fd,adding knife config file support for AWS regions,someara,https://api.github.com/repos/chef/chef/git/commits/c46d217568bcf4b8ac71ee2d68dc9dac24f189fd
+4744d2a98d25cead348e975782f9a485ab3ed76a,added bootstrap template support to rackspace server create,schisamo,https://api.github.com/repos/chef/chef/git/commits/4744d2a98d25cead348e975782f9a485ab3ed76a
+2a87eaf97b1e8bf6572feed1528eaa7cde6fb560,"Updated EPEL repo URL from
+
+http://download.fedora.redhat.com/pub/epel/5/i386/epel-release-5-3.noarch.rpm
+
+to
+
+http://download.fedora.redhat.com/pub/epel/5/i386/epel-release-5-4.noarch.rpm
+
+The 5-3 URL no longer exists on the download.fedora.redhat.com site.",kahrens,https://api.github.com/repos/chef/chef/git/commits/2a87eaf97b1e8bf6572feed1528eaa7cde6fb560
+bde38e935d4fde0e7c52f8d7dbcb20f3c6212b8a,Fix CHEF-1853: Pass $PIDFILE to chef-client in Debian init scripts,sometimesfood,https://api.github.com/repos/chef/chef/git/commits/bde38e935d4fde0e7c52f8d7dbcb20f3c6212b8a
+44735ea0dfe1f726c212916f0166a30e6d60a03b,Allow loading commands installed via gems with Gem.find_files,drbrain,https://api.github.com/repos/chef/chef/git/commits/44735ea0dfe1f726c212916f0166a30e6d60a03b
+b2c38e61e7777ad0d1ee1bab1d438016ff9612c5,"don't check format of private key, rescue exception instead",mguterl,https://api.github.com/repos/chef/chef/git/commits/b2c38e61e7777ad0d1ee1bab1d438016ff9612c5
+73375ad2ca693bf6f197f5e436525f54048dc2d0,Refactored tags attrib to its own lazy accessor,zenspider,https://api.github.com/repos/chef/chef/git/commits/73375ad2ca693bf6f197f5e436525f54048dc2d0
+8400ca44afdbc7e2a785c0275fc95c8ca93da9d9,"[CHEF-1590] modify knife ec2, bootstrap and ssh for Amazon VPC",matellis,https://api.github.com/repos/chef/chef/git/commits/8400ca44afdbc7e2a785c0275fc95c8ca93da9d9
+c00998b63b60f9590133c366b7da7e35818fa125,"added new rake tasks databag:upload[databag], databag:upload_all, databag:create[databag], databag:create_item[databag,item]",dennisklein,https://api.github.com/repos/chef/chef/git/commits/c00998b63b60f9590133c366b7da7e35818fa125
+efdd52512f679a415a25b4f96756f4f5b7fd7d77,add support for reading key from remote url,lusis,https://api.github.com/repos/chef/chef/git/commits/efdd52512f679a415a25b4f96756f4f5b7fd7d77
+2c7545ac3981b28af8cb5efdaa53465e51b22c00,"fixed deprecation message - valid knife command for creating new cookbook is create, not new",morgoth,https://api.github.com/repos/chef/chef/git/commits/2c7545ac3981b28af8cb5efdaa53465e51b22c00
+04dca9147214ffb2882183f8af6e1b371cb31895,"CHEF-1588: Add a -d option to include dependencies when uploading.
+No tests!",statik,https://api.github.com/repos/chef/chef/git/commits/04dca9147214ffb2882183f8af6e1b371cb31895
+58e896da7d255e46d20ead4ce8d9cb8e384885cc,(service/arch) Support multiple lines when declaring DAEMONS,icy,https://api.github.com/repos/chef/chef/git/commits/58e896da7d255e46d20ead4ce8d9cb8e384885cc
+008447f486fd1f1d7576cdd5072a87822184e2c2,"Added Commandline for Old zypper Version
+
+Ticket:if CHEF-2129",blablup,https://api.github.com/repos/chef/chef/git/commits/008447f486fd1f1d7576cdd5072a87822184e2c2
+eed0c2b91363e9474f244df778087ed0f43aea88,[providers | dpkg] Package version may contain tildes,betamatt,https://api.github.com/repos/chef/chef/git/commits/eed0c2b91363e9474f244df778087ed0f43aea88
+f8af3527a111ce86fb33bad437e8a1744095e302,Make knife ssh screen and knife ssh tmux respect -i,ivey,https://api.github.com/repos/chef/chef/git/commits/f8af3527a111ce86fb33bad437e8a1744095e302
+8af68ba6f1c173db0b2e8bb6aadf508d78886cda,Use Chef::Expander::VERSION to get the gem version,wolfpakz,https://api.github.com/repos/chef/chef/git/commits/8af68ba6f1c173db0b2e8bb6aadf508d78886cda
+71405c0aac91a6e19d4f499cde687c1a04a1a732,CHEF-2386: Make knife bootstrap and ssh use ui.msg.,Atalanta,https://api.github.com/repos/chef/chef/git/commits/71405c0aac91a6e19d4f499cde687c1a04a1a732
+ee2890e890811275758d61518951d535bb5bcb73,bulk client delete list now consistent with node delete list (horizontal),agoddard,https://api.github.com/repos/chef/chef/git/commits/ee2890e890811275758d61518951d535bb5bcb73
+1ee0ae93a583f940deb955a3ae3602a306de8bc2,Fixed easy_install package provider to use supplied options.,leinster,https://api.github.com/repos/chef/chef/git/commits/1ee0ae93a583f940deb955a3ae3602a306de8bc2
+f4721680c8439ecda959adb1fb38054dbb0d9ff9,"increase net-ssh-multi requirement to ~> 1.1.0, fixing CHEF-2300 and possibly CHEF-1137",lamont-granquist,https://api.github.com/repos/chef/chef/git/commits/f4721680c8439ecda959adb1fb38054dbb0d9ff9
+a4ea6edab2fecb922f999cffb0daa04eeeec7a26,Do not allow non-admins to upload or delete cookbooks.,coderanger,https://api.github.com/repos/chef/chef/git/commits/a4ea6edab2fecb922f999cffb0daa04eeeec7a26
+4315e0dd977ee132d15d9a25ba94e3daddb6cebc,"Changes documentation to account for change from (-d to -D) in
+knife cookbook site install. Fixes CHEF-2456.",stevendanna,https://api.github.com/repos/chef/chef/git/commits/4315e0dd977ee132d15d9a25ba94e3daddb6cebc
+8eb2a8414782dbadd58767f5f8e15ddbd5519835,configure a default ssh attribute in knife.rb,mikehale,https://api.github.com/repos/chef/chef/git/commits/8eb2a8414782dbadd58767f5f8e15ddbd5519835
+7369d46e5f8dee81299c0cece14cc2cee7e60f30,Showing the expanded run list using the existing recipes object that was previously ignored.,kcbraunschweig,https://api.github.com/repos/chef/chef/git/commits/7369d46e5f8dee81299c0cece14cc2cee7e60f30
+41e670b6eaf568f332235f9526ff3c59762b5d3c,added -i option to knife ssh documentation,erikfrey,https://api.github.com/repos/chef/chef/git/commits/41e670b6eaf568f332235f9526ff3c59762b5d3c
+4b53525bdbfaa8eb77727a2743cd021e32cbf9b0,"[CHEF-2105] Fix knife cookbook branch regression
+
+Ability to specify a non-master branch with
+
+    knife cookbook site install foobar --branch develop
+
+was broken after 3f8b3bb3b4ff0ec4fd4dee927e16cb296649df92",ches,https://api.github.com/repos/chef/chef/git/commits/4b53525bdbfaa8eb77727a2743cd021e32cbf9b0
+d20b1344955932d8c5450fb79f1ea0dade8884d5,Fixing deploy resource to handle new additional_remotes git option.,xdissent,https://api.github.com/repos/chef/chef/git/commits/d20b1344955932d8c5450fb79f1ea0dade8884d5
+07a0fc832ebcc600067b1b73afc32263e2acde9a,CHEF-2516: resolve NameError in Shef::SoloSession#rebuild_context,fnichol,https://api.github.com/repos/chef/chef/git/commits/07a0fc832ebcc600067b1b73afc32263e2acde9a
+777d25fb559890cd5770e235433670955946aed6,"use the environment, if availble, when retrieving nodes in the status
+controller.
+Added the environment name to the status view for the case of no nodes
+just to clarify that there are no nodes in the selected environment.",pmac72,https://api.github.com/repos/chef/chef/git/commits/777d25fb559890cd5770e235433670955946aed6
+684857b0d410b66bc44d2a89bcaeb47abcc60cf1,"Added openindiana, opensolaris and nexenta as platform definitions.",williamsjj,https://api.github.com/repos/chef/chef/git/commits/684857b0d410b66bc44d2a89bcaeb47abcc60cf1
+82027f751fdabc44cc6e646b82df95f487cd7200,CHEF-2674: fix failing specs.,andreacampi,https://api.github.com/repos/chef/chef/git/commits/82027f751fdabc44cc6e646b82df95f487cd7200
+3260911bbfa5468ec262644b21815682dcb7d10a,"Fixes CHEF-2573 by removing colon from tmux name
+
+Replaces all colons from the generated session names with spaces as a quick
+fix for tmux >= 1.5 which does not allow colons in session names",glennsb,https://api.github.com/repos/chef/chef/git/commits/3260911bbfa5468ec262644b21815682dcb7d10a
+e40730a38879883ca5feeadad6c3abd2017a9de7,Don't depend on the value of an masgn,dje,https://api.github.com/repos/chef/chef/git/commits/e40730a38879883ca5feeadad6c3abd2017a9de7
+8923e430c7b0ea71e42fc696d595269bf44f563e,Fixed typo in chef-solr Rakefile,iafonov,https://api.github.com/repos/chef/chef/git/commits/8923e430c7b0ea71e42fc696d595269bf44f563e
+747ef1c772fe4143451cb6407229ffb6f30d4b36,CHEF-2641 updated knife to use standard -no prefix,marcparadise,https://api.github.com/repos/chef/chef/git/commits/747ef1c772fe4143451cb6407229ffb6f30d4b36
+e1509990b559984b43e428d4d801c394e970f432,modify log keys to work with the new mixlib-shellout,calavera,https://api.github.com/repos/chef/chef/git/commits/e1509990b559984b43e428d4d801c394e970f432
+157d39cab6ba6ff96dc73b0d21abc9c00daade6d,assign default value for Config::Chef[:data_bag_path],reset,https://api.github.com/repos/chef/chef/git/commits/157d39cab6ba6ff96dc73b0d21abc9c00daade6d
+0457ffeb86fcf16482d7d7d644218cde7bd85180,"[FIX] Rescue correct exception when ""node.fqdn"" is not defined
+
+When `node.fqdn` is not defined, the exception raised is ""ArgumentError"" (`Attribute fqdn is not defined`).
+
+Should probably use `node.hostname` when `node.fqdn` is undefined.",karmi,https://api.github.com/repos/chef/chef/git/commits/0457ffeb86fcf16482d7d7d644218cde7bd85180
+2d9cd55cfbbd57ba46528f49c5f8f50100ac4771,Fixes spelling of privileges,spazm,https://api.github.com/repos/chef/chef/git/commits/2d9cd55cfbbd57ba46528f49c5f8f50100ac4771
+7914313b33e0a8815dfa229e6f748b7effcaefef,Allow for the path to the chef client called by knife bootstrap to be specified in options or in a different part of the path than /usr/bin,robdimarco,https://api.github.com/repos/chef/chef/git/commits/7914313b33e0a8815dfa229e6f748b7effcaefef
+8b9feb90bf259b6954b25b7c9c56655b957e3f69,resolve notification references for second time on run_action to handle the case where resources are defined lazily in a ruby_block.,abecciu,https://api.github.com/repos/chef/chef/git/commits/8b9feb90bf259b6954b25b7c9c56655b957e3f69
+5f745264de21c5eefd4f337b5fb94c639b9ac7b5,Fix spelling. revison -> revision,nertzy,https://api.github.com/repos/chef/chef/git/commits/5f745264de21c5eefd4f337b5fb94c639b9ac7b5
+4643b54e920b73291f805d22935b4b24c65fe55d,"Fix Windows permissions to be more like the dialog
+- Make permissions :full_control, :modify, :read, :read_execute, :modify
+- Support integer permissions
+- Add deny_rights
+- Make deny_rights order independent
+- Fix default value for applies_to_children",jkeiser,https://api.github.com/repos/chef/chef/git/commits/4643b54e920b73291f805d22935b4b24c65fe55d
+cfe2bdb46c6dfc39084cfa690346e9e105ea1812,add spec test for String#ord monkey-patch,WP,https://api.github.com/repos/chef/chef/git/commits/cfe2bdb46c6dfc39084cfa690346e9e105ea1812
+ee5b3469a2774f6273d290fb03ddcfba9461bbd0,[CHEF-2976] Add support to 'knife node run_list remove' to remove a list of items,juanje,https://api.github.com/repos/chef/chef/git/commits/ee5b3469a2774f6273d290fb03ddcfba9461bbd0
+225c840cd3ca65c29597f884bf524ccccc165527,CHEF-2972 - EPEL rpm repository hostname changed,vgirnet,https://api.github.com/repos/chef/chef/git/commits/225c840cd3ca65c29597f884bf524ccccc165527
+00c37f999b5bb946976c0dc60ef75eb12f1ce27b,Fix git clone for destinations with spaces,andruby,https://api.github.com/repos/chef/chef/git/commits/00c37f999b5bb946976c0dc60ef75eb12f1ce27b
+b4f63765d40233dcd44f90fef52a651c6216293b,"Patch for CHEF-2970, include_recipe not correctly detecting that
+a recipe is already included due to confusion between ""cookbook"" and
+""cookbook::default"".",buysse,https://api.github.com/repos/chef/chef/git/commits/b4f63765d40233dcd44f90fef52a651c6216293b
+1e40712ce7b5574c708b708f870533a9d626f5e9,CHEF-2935: Add metadata option to the mdadm resource,mitchellh,https://api.github.com/repos/chef/chef/git/commits/1e40712ce7b5574c708b708f870533a9d626f5e9
+6db576d2ce6d1fd374a7ea8492d2b65f93a3281e,Fix undefined Chef::Log when using rest client,ktheory,https://api.github.com/repos/chef/chef/git/commits/6db576d2ce6d1fd374a7ea8492d2b65f93a3281e
+689c61c7fc5c5c7f1cb0f0cf0459b57309ff99d2,remove default value because the default is provided in the configure_attribute function,maxrabin,https://api.github.com/repos/chef/chef/git/commits/689c61c7fc5c5c7f1cb0f0cf0459b57309ff99d2
+1d38d01071a060ba13565139eab89c84a3da2498,modifed ssh_attribute to function similar to ssh_port in knife.rb config,hh,https://api.github.com/repos/chef/chef/git/commits/1d38d01071a060ba13565139eab89c84a3da2498
+584e94765902186c1c39bd1e0eae0c16dc824a82,Resolving bug CHEF-1828: Git provider should recursively update/init submodules,theturtle32,https://api.github.com/repos/chef/chef/git/commits/584e94765902186c1c39bd1e0eae0c16dc824a82
+e2481adbb5bc35c8730360e5962c4e8a44625eae,add support for ssh_gateway definition in knife.rb,jdonagher,https://api.github.com/repos/chef/chef/git/commits/e2481adbb5bc35c8730360e5962c4e8a44625eae
+967b02015033695542243f42198fc9a76f36f89d,Fix the rubygems provider when gem_binary is specified and source is a local file.,douglaswth,https://api.github.com/repos/chef/chef/git/commits/967b02015033695542243f42198fc9a76f36f89d
+06176f76f6a74de248f71df0fed10a38e48d4908,"Fix platform detection in route provider so that it works on all redhat systems, not only centos",kovyrin,https://api.github.com/repos/chef/chef/git/commits/06176f76f6a74de248f71df0fed10a38e48d4908
+93b47de75867eacff4bc6f632fbd66b8fa03a702,Refactored cron provider unit tests.,alext,https://api.github.com/repos/chef/chef/git/commits/93b47de75867eacff4bc6f632fbd66b8fa03a702
+287148e74dd84ad10e4e38c06e7d68ebe6444b8d,"3rd part of fix for CHEF-1747
+
+Need to ensure files will be returned",j3p0uk,https://api.github.com/repos/chef/chef/git/commits/287148e74dd84ad10e4e38c06e7d68ebe6444b8d
+909aadea2517b07378ad56ceec723da42161782f,Override runlist support,chrisroberts,https://api.github.com/repos/chef/chef/git/commits/909aadea2517b07378ad56ceec723da42161782f
+3a9cbc1ba0fcfbaa7bab0b9f07896527507686ca,basic linaro support => use ubuntu settings,rmoriz,https://api.github.com/repos/chef/chef/git/commits/3a9cbc1ba0fcfbaa7bab0b9f07896527507686ca
+1172bb6b4459d0cf0a0dc8d44ac8454a58aa4ede,[CHEF-3020][RSPEC] Anything in spec/support should autoload (except for spec/support/platforms/),hosh,https://api.github.com/repos/chef/chef/git/commits/1172bb6b4459d0cf0a0dc8d44ac8454a58aa4ede
+b54d7cca996b01d4916c865db773fe84110ca0f6,ensure a recent version of highline is installed,mattray,https://api.github.com/repos/chef/chef/git/commits/b54d7cca996b01d4916c865db773fe84110ca0f6
+2aeb7d5e6080bf72d1d1ff47d6e3e89bb0fe7005,add parameters to resource/service.rb,guilhem,https://api.github.com/repos/chef/chef/git/commits/2aeb7d5e6080bf72d1d1ff47d6e3e89bb0fe7005
+b95736bf16315910ccc12d378b244dcd76e90a18,fix remote_directory to remove symlinked directories correctly with the purge option,agh,https://api.github.com/repos/chef/chef/git/commits/b95736bf16315910ccc12d378b244dcd76e90a18
+b4920aa5e4693bc008fa75ae8d02675a764b662f,[CHEF-1251] fixed for the case that the binary package and its dependencies are available locally under the :source,aglarond,https://api.github.com/repos/chef/chef/git/commits/b4920aa5e4693bc008fa75ae8d02675a764b662f
+7fc2ed4f6de5c50343040983a50b1c0c192250d7,Allow multiple knives on same host using KNIFE_HOME env variable,aeris,https://api.github.com/repos/chef/chef/git/commits/7fc2ed4f6de5c50343040983a50b1c0c192250d7
+0a4f57e369a3465a7596d64d616cc40edaf682dc,[CHEF-3067] Add bitmap attribute to the mdadm resource.,hectcastro,https://api.github.com/repos/chef/chef/git/commits/0a4f57e369a3465a7596d64d616cc40edaf682dc
+30589e7044f08762b067043b4df2275b4d9003bf,Added bootstrap script for ubuntu 12.04 LTS,laradji,https://api.github.com/repos/chef/chef/git/commits/30589e7044f08762b067043b4df2275b4d9003bf
+ae04236db8a20960c7bd297fdaf13726a505acc8,why-run for link provider,PrajaktaPurohit,https://api.github.com/repos/chef/chef/git/commits/ae04236db8a20960c7bd297fdaf13726a505acc8
+b6df0ae380e97e7e09f61c3958c0c7b263392f15,"CHEF-1735: Fix typo, styles",nabeken,https://api.github.com/repos/chef/chef/git/commits/b6df0ae380e97e7e09f61c3958c0c7b263392f15
+f9721dc2dbcfc5611e1a73b7b8e9d420cf621e26,"Fix webui doesn't delete nodes in Firefox, changed call preventDefault method #CHEF-2987",amian84,https://api.github.com/repos/chef/chef/git/commits/f9721dc2dbcfc5611e1a73b7b8e9d420cf621e26
+32f08dff439cfd11ac0d54d679508359c814752b,Separate retrieval from output formatting to allow CookbookSiteShow to be used from Ruby without parsing the output or mucking with the Presenter.,capoferro,https://api.github.com/repos/chef/chef/git/commits/32f08dff439cfd11ac0d54d679508359c814752b
+92a50ce6a8a6301983c5a578461c60d8e9744ae6,require chef/knife/ssh before calling .load_deps on it,cap10morgan,https://api.github.com/repos/chef/chef/git/commits/92a50ce6a8a6301983c5a578461c60d8e9744ae6
+1a32360324aae4b54a12022c9de7c31c0325e46d,Add reverse sorting to knife status output.,dcondomitti,https://api.github.com/repos/chef/chef/git/commits/1a32360324aae4b54a12022c9de7c31c0325e46d
+1fb20592554753db83e2dbdce44341befffcbfab,implemented a keep_releases configuration setting for Chef::Provider::Deploy [CHEF-2374],blindsey,https://api.github.com/repos/chef/chef/git/commits/1fb20592554753db83e2dbdce44341befffcbfab
+8f3b074d4487cc369812f19d16392b37803bf396,"CHEF-3134: set FileCache default perms to 0640
+
+Files created by FileCache could be sensitive,
+particularly failed-run-data.json which set set to
+0640 by this patch, but we also chose to default to
+0640 here.
+
+Signed-off-by: Bryan McLellan <btm@opscode.com>",zuazo,https://api.github.com/repos/chef/chef/git/commits/8f3b074d4487cc369812f19d16392b37803bf396
+e74c776443fd7043ec6972fe9cacd53b374077b6,"[CHEF-2731] Add a new option, -b which will just use the current branch.
+
+Implementation is just to determine the current branch and then
+act as if '-B <branch>' had been used.
+
+This also fixes a minor whitespace issue.",jaymzh,https://api.github.com/repos/chef/chef/git/commits/e74c776443fd7043ec6972fe9cacd53b374077b6
+4dda538f1a9a1af5051535ff3d55ea2af78acaf8,CHEF-2627: run() and ssh_command() of Chef::Knife::Ssh should return the exit status of the SSH command executed,jessehu,https://api.github.com/repos/chef/chef/git/commits/4dda538f1a9a1af5051535ff3d55ea2af78acaf8
+9dd2658d93de3c9690ffe6ab4662eec40e3f9584,refactoring for simplicity; use shell_out!,dcrosta,https://api.github.com/repos/chef/chef/git/commits/9dd2658d93de3c9690ffe6ab4662eec40e3f9584
+787d9285adc53554f66d37d49e7bf664dd07bdd8,Take knife bootstrap -j into account in the ubuntu12.04-gems template,rgeens,https://api.github.com/repos/chef/chef/git/commits/787d9285adc53554f66d37d49e7bf664dd07bdd8
+683b7ee8bcd107aaeb5371e2d389ff9594d35e16,CHEF-2706: tiny little change for manage_home bug,webframp,https://api.github.com/repos/chef/chef/git/commits/683b7ee8bcd107aaeb5371e2d389ff9594d35e16
+fe7025e9ef4b7db924a1015146f028cf6d0622f9,don't iterate over nil value in bootstrap templates,MarkRoddy,https://api.github.com/repos/chef/chef/git/commits/fe7025e9ef4b7db924a1015146f028cf6d0622f9
+c1440a6ec2d0393b9e0da87974903300e207c80d,"CHEF-3234: add verbosity option to knife config file
+
+verbosity in knife can be configured via config file.
+previously was configurable only via CLI.",deepak,https://api.github.com/repos/chef/chef/git/commits/c1440a6ec2d0393b9e0da87974903300e207c80d
+806b93ea6816d47580d7b3ac837ebac3225d6b75,Removed log_level and log_location and added verbose info for CHEF-2150,jessicab,https://api.github.com/repos/chef/chef/git/commits/806b93ea6816d47580d7b3ac837ebac3225d6b75
+3c52de54beb03a371b06a7b451591c650a79bb8a,get FQDN on Amazon EC2,takeshi,https://api.github.com/repos/chef/chef/git/commits/3c52de54beb03a371b06a7b451591c650a79bb8a
+cb141217d977afe74d0bda4ffec8e4aff80f28e8,"Fix unparsable files returning empty errors
+
+Like forgotten vim undofiles uploaded in chef.",baloo,https://api.github.com/repos/chef/chef/git/commits/cb141217d977afe74d0bda4ffec8e4aff80f28e8
+6e45ea5000b19d0fbc3787befa6a5817ee629ce5,Improved item ordering in Chef Web UI. http://tickets.opscode.com/browse/CHEF-3202,sriramgd,https://api.github.com/repos/chef/chef/git/commits/6e45ea5000b19d0fbc3787befa6a5817ee629ce5
+ba7386d21e68333c0257277ad74206ade65fbfce,"Ensure that only one chef-client run can happen at a time.
+
+This patch wraps do_run in a locking scheme that provides the
+following semantics:
+
+ * Only one chef-client run can happen at a time.
+ * Only one chef-client can be queued up to run after the run that is
+   currently in progress finishes.
+ * Any additional chef-client run requests will wait for the queued
+   request to finish and then exit.",VictorLowther,https://api.github.com/repos/chef/chef/git/commits/ba7386d21e68333c0257277ad74206ade65fbfce
+22a8dd09adb72cd4cec337ec9060fff4a33a8b1b,Force encoding to binary to prevent stacktrace with unicode input,chrismdp,https://api.github.com/repos/chef/chef/git/commits/22a8dd09adb72cd4cec337ec9060fff4a33a8b1b
+48241df205bd214723e69f1c8d8185f7ecccf885,"Merge pull request #11 from opscode/pedant_rename
+
+Rename Pedant runner",christophermaier,https://api.github.com/repos/chef/chef/git/commits/48241df205bd214723e69f1c8d8185f7ecccf885
+5321f3fefa12c55a150e93468fe86f8f75eb05be,"Fix [CHEF-3355].
+Fix knife status doesn't respect --no-color option
+or lack of a tty while colorizing output.",sahilm,https://api.github.com/repos/chef/chef/git/commits/5321f3fefa12c55a150e93468fe86f8f75eb05be
+685d093f10424b525cad6d6004e000a8e4e4aa70,"CHEF-3443: Fix incorrect variable name in inspector
+
+In the registration error inspector, the error is stored
+in the 'exception' variable, not the 'e' variable.",kennethkalmer,https://api.github.com/repos/chef/chef/git/commits/685d093f10424b525cad6d6004e000a8e4e4aa70
+fefa091626b4f79dcc62efb68915b5ccca767fde,CHEF-3416: Remove improper call to #raw_data when using print_after,kreynolds,https://api.github.com/repos/chef/chef/git/commits/fefa091626b4f79dcc62efb68915b5ccca767fde
+0d08d6efa1d8b51381b914e71bbd87b01225f3f7,"CHEF-3438: Allow Chef::REST.new() to read raw keys
+
+Refactored code to move load_signing_key() from Chef::REST::AuthCredentials to Chef::REST
+
+Chef::REST::AuthCredentials.initialize now requires a 'key' instead of 'key_file'
+
+'key' is created by load_signing_key() using a 'key_file' or by a string passed in options with attribute :raw_key to Chef::REST.initialize
+
+attr_accessors key_file and raw_key from Chef::REST::AuthCredentials were removed
+
+As a result of this:
+
+test for Chef::REST::AuthCredentials.key_file ws removed
+
+tests for missing or invalid keys were moved from rest/auth_credentials_spec to rest_spec
+
+two new tests were added - good key passed as :raw_key opton to initialize Chef::REST is accepted, bad key raises an InvalidPrivateKey exception",autifkhan,https://api.github.com/repos/chef/chef/git/commits/0d08d6efa1d8b51381b914e71bbd87b01225f3f7
+2c42e1d625643b308ba78e31ae967a7a1be13631,[CHEF-3489] Permit whitespace in chef-client's -o argument.,zts,https://api.github.com/repos/chef/chef/git/commits/2c42e1d625643b308ba78e31ae967a7a1be13631
+f4629cad69374a10724b9e3d94694547eaad318c,"[COOK-3358] Correct path to various gem executables.
+
+Rubygems is placing executables under /usr/local/bin
+on Ubuntu 12.04.  When using the 'init' init_style,
+the following services do not start.
+  chef-solr, chef-expander, chef-server, and chef-server-webui",retr0h,https://api.github.com/repos/chef/chef/git/commits/f4629cad69374a10724b9e3d94694547eaad318c
+9f265a6d0e3c961157a4675d1843d5c70293c8d6,Fixes CHEF-3455: Add commandline options to allow scripting of knife configure --initial,tomdz,https://api.github.com/repos/chef/chef/git/commits/9f265a6d0e3c961157a4675d1843d5c70293c8d6
+c823e49f681383c798adbbd8f57e3fc01a85fcd6,"Fix improper usage of Fileutils#rm_f in ifconfig provider
+
+This also corrects the test that was commented out for some reason",johnskopis,https://api.github.com/repos/chef/chef/git/commits/c823e49f681383c798adbbd8f57e3fc01a85fcd6
+9de5dc24bb340752f12471e04c5f1404418030da,"CHEF-3484: Modified configure_session method to skip nil items in loop
+
+If we don't skip nil items then the if condition fails with No Method error.
+ie if !config[:override_attribute] && nil[:cloud] &&
+nil[:cloud][:public_hostname] is obviously nonsense",milosgajdos,https://api.github.com/repos/chef/chef/git/commits/9de5dc24bb340752f12471e04c5f1404418030da
+c74baca33c18d635f9b51fc50b9814e4b49db3cb,[CHEF-3650] check for whyrun using why_run key in doc formatter,abyu,https://api.github.com/repos/chef/chef/git/commits/c74baca33c18d635f9b51fc50b9814e4b49db3cb
+fa14140a4977d889c0e6490065bd8e2fd687bdd5,"one line fix to http://tickets.opscode.com/browse/CHEF-2812
+
+questionable if this is the right approach.",gpapilion,https://api.github.com/repos/chef/chef/git/commits/fa14140a4977d889c0e6490065bd8e2fd687bdd5
+ff8bfa005155b5da34c7702244ec0f92356dbd18,Replaced inject() with simpler code,ilyash,https://api.github.com/repos/chef/chef/git/commits/ff8bfa005155b5da34c7702244ec0f92356dbd18
+cace8de44f1d4dcf69ff27a680ba78d8e1e57a6b,"[CHEF-3543] Support configuration of ssh_user, identity_file, and host_key_verify from knife.rb for bootstrap",msaffitz,https://api.github.com/repos/chef/chef/git/commits/cace8de44f1d4dcf69ff27a680ba78d8e1e57a6b
+ea23f017151b12d01c08b943ace5e8733dd63434,"Fixing ssl_cert task error message
+
+If you run `rake ssl_cert` without arguments it fails on .gsub method, 
+this should be done after the check ",sjoerdmulder,https://api.github.com/repos/chef/chef/git/commits/ea23f017151b12d01c08b943ace5e8733dd63434
+cb05bbb14f54325b384eaec39c90d747cfd61c54,CHEF-3571 add chef-recipe command,bryanwb,https://api.github.com/repos/chef/chef/git/commits/cb05bbb14f54325b384eaec39c90d747cfd61c54
+7748198cd929c87dacb74d879c561c181896805b,"remote_file: CHEF-1031: FTP URLs; CHEF-3786: authenticated HTTP/S
+
+Conflicts:
+
+	lib/chef/provider/remote_file.rb
+	lib/chef/resource/remote_file.rb",jcam,https://api.github.com/repos/chef/chef/git/commits/7748198cd929c87dacb74d879c561c181896805b
+ebd19785a1d65f10245aa96714b8d3dfc57de41f,"Resolves CHEF-3889
+
+On machines with installed RAM > 64GB the postgresql shared_buffers configuration
+would exceed shmmax.  This change places a maximum on shared_pages on machines where
+Installed RAM / 4 execeds the size of shmmax of 14GB
+
+This does not solve the case where you have a 32bit installation and more than 16GB
+of RAM.",breu,https://api.github.com/repos/chef/chef/git/commits/ebd19785a1d65f10245aa96714b8d3dfc57de41f
+ecadbd7f18791b576e8a3ab1cae238748eeece38,[CHEF-2682] raise exception on non-GET/HEAD redirects,LoicAG,https://api.github.com/repos/chef/chef/git/commits/ecadbd7f18791b576e8a3ab1cae238748eeece38
+57a83a332098ab92fcb654952a05bf18aaecc0d0,Support Win8/2k12 versions,chirag-jog,https://api.github.com/repos/chef/chef/git/commits/57a83a332098ab92fcb654952a05bf18aaecc0d0
+1e990e1aee66d16df7d8add20de69ea15499bbc1,CHEF-3364 Fix up Smartos Package provider. Copied from https://github.com/benr/chef/tree/19c83ab362dab4931b50b7dbe322b0e44b4e64e3,sawanoboly,https://api.github.com/repos/chef/chef/git/commits/1e990e1aee66d16df7d8add20de69ea15499bbc1
+b1d50b3b86acf033f8ab8a479e4dea9fb0cd131a,"[CHEF-3932] Support multiple calls of `Knife.deps`
+
+If a Knife subcommand class were inheriting or including other classes
+with lazy loading dependencies, a later call to `Knife.deps` overwrote
+the earlier block. Fix it by collecting the blocks to an array.",tmatilai,https://api.github.com/repos/chef/chef/git/commits/b1d50b3b86acf033f8ab8a479e4dea9fb0cd131a
+b02e6d25b18e87a416b8672baca7d30621c01583,CHEF-4010 Ensure lock release for all operations,kamaradclimber,https://api.github.com/repos/chef/chef/git/commits/b02e6d25b18e87a416b8672baca7d30621c01583
+d637073f6c53ff83c098a4f22598b77a7b975962,"Handle pid file appropriately in forked process
+
+Code and tests to keep a daemonized chef-client's forked process from
+reaping the parent pid file.
+
+Without this fix a forked process will reap its parent's pid file,
+breaking init script functionality.  A start call to the init script
+will then launch a new process, since the init script is ignorant of the
+already running process.
+
+A process is considered a fork in case the chef-client daemon is
+running and the process pid is not equal to the pid defined in the
+pidfile, or if the chef-client daemon is not running and the parent pid
+of the process is 1, implying that the process was a fork at some point
+and has become orphaned.",adamsb6,https://api.github.com/repos/chef/chef/git/commits/d637073f6c53ff83c098a4f22598b77a7b975962
+da9d0db5f011dc4660633e360e7215140c5f5d8b,remove default ErrorReport exception handler,pitr,https://api.github.com/repos/chef/chef/git/commits/da9d0db5f011dc4660633e360e7215140c5f5d8b
+4e5c6f9d4003011019134007bb0dea77d047082e,removed duplicate for push in resource_collection,arangamani,https://api.github.com/repos/chef/chef/git/commits/4e5c6f9d4003011019134007bb0dea77d047082e
+a85115c273b2603687ba589932b3474cb06ab272,"Use HTTPS to RubyGems
+
+use https when connecting to rubygems to prevent MITM hacks",gwaldo,https://api.github.com/repos/chef/chef/git/commits/a85115c273b2603687ba589932b3474cb06ab272
+54cb19a7a45f8a83033554ae67bafe8e96bbb72e,removing an_return to as its deprecated,ranjib,https://api.github.com/repos/chef/chef/git/commits/54cb19a7a45f8a83033554ae67bafe8e96bbb72e
+a91e54fcee79c015b2631ca71ad4e97594a8b428,CHEF-3938: create global config option for zypper gpg checks,iartarisi,https://api.github.com/repos/chef/chef/git/commits/a91e54fcee79c015b2631ca71ad4e97594a8b428
+b3024497a2822f2aca529fb755a1624a8156357b,"Update deploy.rb
+
+Typo in symliinks",jjasghar,https://api.github.com/repos/chef/chef/git/commits/b3024497a2822f2aca529fb755a1624a8156357b
+f0984ff9ec7a5d4aff8bc5ec71928d727b832e29,"[CHEF-3872] Adding support for platform XCP/xcp, which is the open source version",gitkeeps,https://api.github.com/repos/chef/chef/git/commits/f0984ff9ec7a5d4aff8bc5ec71928d727b832e29
+084cec650a242c261c7987a45baa475cd67b8edf,fix deprecation warning. Fixes CHEF-3847,mancdaz,https://api.github.com/repos/chef/chef/git/commits/084cec650a242c261c7987a45baa475cd67b8edf
+82f099ce46de029ee756cc497910262262c15b61,Fix regular expression for symlinks in device_mount_regex,rarenerd,https://api.github.com/repos/chef/chef/git/commits/82f099ce46de029ee756cc497910262262c15b61
+98bba959a79f5fa409173cd1b845ece5ee34429b,CHEF-4183 - Include 8.3 & 9.1 32/64 bit build baseboxes,petecheslock,https://api.github.com/repos/chef/chef/git/commits/98bba959a79f5fa409173cd1b845ece5ee34429b
+437ca9a3ba08f3b4288303db1d1ed7c53b452ffb,"Enabling storage of roles in subdirectories
+
+Storing roles in subdirectories is already effectively enabled
+for Hosted Chef, as the directory structure gets flattened when
+they are uploaded. But it is not currently possible with Chef-Solo;
+one has to flatten the directory manually before running Chef-Solo.
+This patch changes that behavior, and enables Chef-Solo with roles
+in subdirectories.",bensomers,https://api.github.com/repos/chef/chef/git/commits/437ca9a3ba08f3b4288303db1d1ed7c53b452ffb
+d9d5d3063f8461e120543cd72c724f0ebcbee551,Add -A option to knife ssh and knife bootstrap,decklin,https://api.github.com/repos/chef/chef/git/commits/d9d5d3063f8461e120543cd72c724f0ebcbee551
+aacad45d79540c811dc1a7c2ade17f733353689a,"CHEF-3685: Fix rspec tests to work from the gem.
+
+Some spec examples operate on .dotfiles. These files were missing
+from the rubygems.org gem file.
+
+Note that the fix (with FNM_DOTMATCH) correctly avoids the top-level
+dotfiles because the glob operates only on subdirectories.",mvidner,https://api.github.com/repos/chef/chef/git/commits/aacad45d79540c811dc1a7c2ade17f733353689a
+655444799b7acb90e40161684211352025d008f1,"Fixes CHEF-3307
+
+Use metadata name when loading cookbook
+
+If a name attribute is loaded from a cookbooks metadata, use this for
+dependency checks and references as specified in documentation. Ensure real
+pathname is retained so that manifests can still be generated correctly.
+
+In addition we must read the metadata implicitly when cookbooks are loaded to
+ensure we are using the correct name.
+
+Also include a deprecation warning when encountering missing names in metadata
+as this is a planned breaking change in Chef 12.",mal,https://api.github.com/repos/chef/chef/git/commits/655444799b7acb90e40161684211352025d008f1
+9d02aee4a447bc1c9c44bf65245eec1206789aa5,"[CHEF-2750] SCM/Git LWRP: Synchronize submodules
+
+If enable_submodules is true, Git submodules should not only be updated (git submodule update --init), but also synchronized (git submodule sync) to support the case, when submodule URLs change.",StephenKing,https://api.github.com/repos/chef/chef/git/commits/9d02aee4a447bc1c9c44bf65245eec1206789aa5
+663c7dafdbdf833af331c7a1758af990fa7834be,[CHEF-3471] awk not needed for bootstrap templates,sean-horn,https://api.github.com/repos/chef/chef/git/commits/663c7dafdbdf833af331c7a1758af990fa7834be
+68ff2b7e66181d636e574641f29ace0d10f7c2b7,Modify DataBag.list for chef-solo.,hnakamur,https://api.github.com/repos/chef/chef/git/commits/68ff2b7e66181d636e574641f29ace0d10f7c2b7
+bd6534878291daf5d4f37e461f6be1700b35c407,don't output newlines when only showing node IDs,mrtazz,https://api.github.com/repos/chef/chef/git/commits/bd6534878291daf5d4f37e461f6be1700b35c407
+b410751b753a076488cd8239d2ceeb8e52937624,"sorting subcommands, this will display all subcommands in the order a..z",sbotman,https://api.github.com/repos/chef/chef/git/commits/b410751b753a076488cd8239d2ceeb8e52937624
+9ca147c954ff5e93c2c5d80263486bbfbbbc4666,"Adding support for environments when running under chef-solo.
+
+This commit refactors and rebases Kyle Goodwin's original work for
+CHEF-3356, as per Bryan McLellan's 12/17 comments.",nstielau,https://api.github.com/repos/chef/chef/git/commits/9ca147c954ff5e93c2c5d80263486bbfbbbc4666
+89ee56244d420906c9e0a4ca40b144ff7cb2895a,CHEF-3237 - Incorporated comments from PR 624,ringods,https://api.github.com/repos/chef/chef/git/commits/89ee56244d420906c9e0a4ca40b144ff7cb2895a
+9a95a632921001d971365382414ca0c44aca27e4,start testing with travis,josephrdsmith,https://api.github.com/repos/chef/chef/git/commits/9a95a632921001d971365382414ca0c44aca27e4
+6f0296cb2ff48210222d25468bf854f91f9fd124,"CHEF-4259: Fix unpacking recipes with non-gnu tar
+
+This probably isn't enough to handle every ancient version of tar, but
+at least it fixes unpacking on SmartOS which is based on fairly recent
+illumos. Also related to CHEF-1201.",felixbuenemann,https://api.github.com/repos/chef/chef/git/commits/6f0296cb2ff48210222d25468bf854f91f9fd124
+9147742be523a117691218fda87bb2976b9f06cd,Fix user group modification for smartos,sax,https://api.github.com/repos/chef/chef/git/commits/9147742be523a117691218fda87bb2976b9f06cd
+b88df4d6991254740c5b04f7a4032b4d8ba32e12,[CHEF-4076] adds 'set' subcommand to knife node run_list,miketheman,https://api.github.com/repos/chef/chef/git/commits/b88df4d6991254740c5b04f7a4032b4d8ba32e12
+b5e95c654f312a5e07ae29e063316b0ad5535bbf,[CHEF-955] Turned on remote tracking branch setup for 'origin' remote in git provider,khozlov,https://api.github.com/repos/chef/chef/git/commits/b5e95c654f312a5e07ae29e063316b0ad5535bbf
+b1112b5e43e0cce8245772cedb0d593192971bb1,Add timeout attribute to scm resource,jfoy,https://api.github.com/repos/chef/chef/git/commits/b1112b5e43e0cce8245772cedb0d593192971bb1
+156430ec4a01138fc3fd2bce9b3e98bdcc93f1a4,Mount for AIX (added code for enable and disable actions,deepalijagtap,https://api.github.com/repos/chef/chef/git/commits/156430ec4a01138fc3fd2bce9b3e98bdcc93f1a4
+0fa3386956e61aa87b2845c805d7ea9ad120a0bf,Fix typo in spec,astratto,https://api.github.com/repos/chef/chef/git/commits/0fa3386956e61aa87b2845c805d7ea9ad120a0bf
+77905e9456c86772f74cfc9e72c272cc89ca3187,Fixed broken Solaris package code and added the unit tests.,prabhu-das,https://api.github.com/repos/chef/chef/git/commits/77905e9456c86772f74cfc9e72c272cc89ca3187
+35e466bbf265568ff83432d01ab81fdad3f1e248,Updated group resource functional tests for windows and linux platform,siddheshwar-more,https://api.github.com/repos/chef/chef/git/commits/35e466bbf265568ff83432d01ab81fdad3f1e248
+a3ced11def5e270b1d58787992bb2cff9d889327,"Output cause of error when FileSystem.copy_entries method was failed.
+
+- befor the change
+
+    $ knife upload nodes/node.json
+    ERROR: nodes/node.json failed to write: HTTP error writing: 400 ""Bad Request""
+
+- after the change
+
+    $ knife upload nodes/node.json
+    ERROR: nodes/node.json failed to write: HTTP error writing: 400 ""Bad Request"" cause: {""error"":[""Invalid key test in request body""]}",k-yamada,https://api.github.com/repos/chef/chef/git/commits/a3ced11def5e270b1d58787992bb2cff9d889327
+f17638cfd2a175044621de2f24c2fe450a063f1b,Fix typo in chef solo config file option default,benolee,https://api.github.com/repos/chef/chef/git/commits/f17638cfd2a175044621de2f24c2fe450a063f1b
+c99665770f2e9f8e118179b807cdd8ffebbd3e63,[CHEF-4513] HTTPS proxy not set (wget only) using HTTPS to download the Omnibus installer.,marbe,https://api.github.com/repos/chef/chef/git/commits/c99665770f2e9f8e118179b807cdd8ffebbd3e63
+f291d6d605c95e3c04b51e4ceb17dcf81f1ced74,CHEF-4482 : change user attribute comparison to string compares,gene1wood,https://api.github.com/repos/chef/chef/git/commits/f291d6d605c95e3c04b51e4ceb17dcf81f1ced74
+3fa40e30e13593cec0f62aad17fae691a712e43c,"CHEF-4469 Allow installing packages from Jumpstart share
+
+A common case in the world of Solaris is one where there is a Jumpstart boot+install server on the network. This, by definition, offers up the Solaris media in the form of an NFS share where each installable SysV package is exploded already into its own directory.
+
+For example, SUNWntpr (the NTP ""Root"" package)
+
+```
+client% ls /net/pompeii/Solaris_10/Product/SUNWntpr
+archive/  install/  pkginfo  pkgmap  reloc/
+client%
+```
+
+This patch to the Solaris package provider detects if the 'source' (required attribute when using Solaris package provider) is a directory and acts differently if so. It allows the following to work in this scenario (where it does not currently):
+
+```
+package 'SUNWntpr' do
+  source '/net/pompeii/Solaris_10/Product'
+end
+```
+
+Prior to this, package installation from an 'exploded' package directory would not work no matter what crazy package name + source location I constructed. pkgadd would barf.",jblaine,https://api.github.com/repos/chef/chef/git/commits/3fa40e30e13593cec0f62aad17fae691a712e43c
+c12a97632ca6173019f2fa49de943a25c43e8b05,"MDADM provider:  Don't pass chunk size for mirrors
+
+Mirros don't use chunk size.  MDADM ignores it currently, but Chef
+really shouldn't be passing it.  It's easy enough to avoid.",tas50,https://api.github.com/repos/chef/chef/git/commits/c12a97632ca6173019f2fa49de943a25c43e8b05
+9529dbcd3c8e4fca4fcc6ef4e5653eb05ffa1524,"[CHEF-4578] add supports ""non_unique"" to groupadd",WhiteAnthrax,https://api.github.com/repos/chef/chef/git/commits/9529dbcd3c8e4fca4fcc6ef4e5653eb05ffa1524
+8d9195e73573199317f8ec7534e4da2c93af430b,Removed the redundant comma and space from run_list.,IuliaBanghea,https://api.github.com/repos/chef/chef/git/commits/8d9195e73573199317f8ec7534e4da2c93af430b
+61efa6be61e70f0c19e7a2d596d3afb190b3cc42,Add Code Climate badge to README,mrb,https://api.github.com/repos/chef/chef/git/commits/61efa6be61e70f0c19e7a2d596d3afb190b3cc42
+0e59016a19af5420451845dad4b6baec17903190,Correct prompt to increase Knife log verbosity,benlangfeld,https://api.github.com/repos/chef/chef/git/commits/0e59016a19af5420451845dad4b6baec17903190
+84bd90396e687abaefd04b2757bcb656dc4da726,"Remove an unused variable in spec/unit/client_spec.rb
+No longer mock_chef_rest_for_client is not used.",ryotarai,https://api.github.com/repos/chef/chef/git/commits/84bd90396e687abaefd04b2757bcb656dc4da726
+40e7b69ef8f3ef95cf5506982eded139aa2b629c,"Allow single letter usernames.
+
+On non-Windows platforms single letter usernames are valid,
+so make the valid user regex allow them.",mmb,https://api.github.com/repos/chef/chef/git/commits/40e7b69ef8f3ef95cf5506982eded139aa2b629c
+af0016b6b9256b5925b75f35d52dfc22cb1a99b0,CHEF-4633: fix inefficient assignment in deep merge,nukemberg,https://api.github.com/repos/chef/chef/git/commits/af0016b6b9256b5925b75f35d52dfc22cb1a99b0
+14aafdbea8c27f0ffd45f0224896384802c6a7a6,"Handle sections without text parameters
+
+ * Allows interop with gems that throw custom exceptions without string messages.",bossmc,https://api.github.com/repos/chef/chef/git/commits/14aafdbea8c27f0ffd45f0224896384802c6a7a6
+91362e43e636c214fe279b9cad3e5e086cb6d72a,"If a resource is sensitive, it’s redacted from logs.",0x00b1,https://api.github.com/repos/chef/chef/git/commits/91362e43e636c214fe279b9cad3e5e086cb6d72a
+376177d9d3ebb0a239ea5a43fd64b2b74f38b361,add enable_checkout attribute; add ability to override 'deploy' with checkout_branch name,jgoulah,https://api.github.com/repos/chef/chef/git/commits/376177d9d3ebb0a239ea5a43fd64b2b74f38b361
+bff171e7a00f951231efdb45e51c0ae1d97ba05d,"[CHEF-4842] Fix comparison of user resources with non-ASCII comments
+
+In case a comment of a user resource includes non-ASCII characters, the
+comparison whether the resource was changed will always fail. Therefore,
+such user resources will get modified during every chef-client run.
+
+Example:
+
+    user ""marci"" do
+      comment ""Márton Salomváry""
+      # ...
+    end
+
+So far, this resulted in a comparision of ""M\xC3\xA1rton
+Salomv\xC3\xA1ry"" with ""Márton Salomváry"" which fails, unless the
+encoding gets changed prior to the comparision.",grobie,https://api.github.com/repos/chef/chef/git/commits/bff171e7a00f951231efdb45e51c0ae1d97ba05d
+15523055ebf4403edce69b5ebf1245284620f23d,"CHEF-4890: Allow gem upgrades
+
+This was preventing chef from finding the candidate version when
+upgrading a gem and assuming there was nothing to do",rathers,https://api.github.com/repos/chef/chef/git/commits/15523055ebf4403edce69b5ebf1245284620f23d
+09eb9c7b18ca3c7f26db53830b074ab19e426e37,"CHEF-4849: Implement `#response_file_variables` in Package resource
+
+Now that Chef properly supports a package `response_file` using
+`Chef::Resource::Template`, the Package resource should implement the
+`response_file_variables` method so that variables do not have to exist
+as node attributes (eg - for seeding DB passwords for configuration
+files generated by packages).",pdf,https://api.github.com/repos/chef/chef/git/commits/09eb9c7b18ca3c7f26db53830b074ab19e426e37
+f7211da4eedfce9824248b515faacb2fc06ab8f8,CHEF-2418 Prompt for password if flag specified but password is not,bradbeam,https://api.github.com/repos/chef/chef/git/commits/f7211da4eedfce9824248b515faacb2fc06ab8f8
+5e5ba9029162e8f4a96714a88330bbcdfe3ea035,Fix typo in generated README when using knife to create cookbook,skyebook,https://api.github.com/repos/chef/chef/git/commits/5e5ba9029162e8f4a96714a88330bbcdfe3ea035
+d4ea87e01ce5547eba6d70f3efed9e8ac5738bd4,obvious fix,andreasrs,https://api.github.com/repos/chef/chef/git/commits/d4ea87e01ce5547eba6d70f3efed9e8ac5738bd4
+9b0137346a36c69bc492cb30178b6b6843691d47,Bump ffi version to 1.5.0,lushc,https://api.github.com/repos/chef/chef/git/commits/9b0137346a36c69bc492cb30178b6b6843691d47
+68f99fc6c65cba739dad20f95df1c558ede66946,[CHEF-4799] Handle non-dupable elements when duping attribute arrays,linkfanel,https://api.github.com/repos/chef/chef/git/commits/68f99fc6c65cba739dad20f95df1c558ede66946
+38ba0d18b521e70626aca2162bca38fbb6ff1cf5,"Merge pull request #113 from opscode/CHEF-4939-upgrade-openssl
+
+Update omnibus-software with openssl security fix:",yzl,https://api.github.com/repos/chef/chef/git/commits/38ba0d18b521e70626aca2162bca38fbb6ff1cf5
+6a4b9a7849f4c60fdd2b016b288e01f2a6fd03f2,"CHEF-4725: Validate 'log_location' setting on log initialization
+
+Previously, a Mixlib::Config setter method verified that 'log_location'
+was set to a writeable file or a valid IO stream. Due to the way
+Mixlib::Config handles `default` and `merge!`, this setter method would
+not fire if the 'log_location' was left unconfigured or if it was set
+on the command line, resulting in inconsistent error handling.
+
+This commit moves the validation logic out of the configuration layer
+and into the log initializion layer. This ensures that error handling is
+consistent, regardless of where the 'log_location' setting is
+configured. Validation logic is also simplified, relying on the
+MonoLogger class to open and configure any necessary IO streams.",benesch,https://api.github.com/repos/chef/chef/git/commits/6a4b9a7849f4c60fdd2b016b288e01f2a6fd03f2
+2ecfdfd34097b29f730278ec6d81d1c40db11496,Updating msi artwork with new Chef Logo,jonong1972,https://api.github.com/repos/chef/chef/git/commits/2ecfdfd34097b29f730278ec6d81d1c40db11496
+85a9223f3a1278260c31bb8d41b08d1b47268328,update text for msi installer,smith,https://api.github.com/repos/chef/chef/git/commits/85a9223f3a1278260c31bb8d41b08d1b47268328
+deb10bb0b586dd0bc842893c42831caf6ddff273,ensure Chef::REST does not modify options in-place,josephholsten,https://api.github.com/repos/chef/chef/git/commits/deb10bb0b586dd0bc842893c42831caf6ddff273
+ddc3d9afe6a608af0b14bad38b891c6d8a504cae,Add support for FreeBSD next generation package manager,liseki,https://api.github.com/repos/chef/chef/git/commits/ddc3d9afe6a608af0b14bad38b891c6d8a504cae
+83c2dea59d57a1bf3f4c4a01dfb936f0b500db1c,Exctracted resource exception message to separate method to be able to overwrite it in subclasses. Added custom_exception_message to subversion resource to filter out password if any,pavelbrylov,https://api.github.com/repos/chef/chef/git/commits/83c2dea59d57a1bf3f4c4a01dfb936f0b500db1c
+3967d5132ed88cef0ee5b24c74afb72411f5ad4e,CHEF-4851 - Display all missing dependencies in cookbook upload,jdmurphy,https://api.github.com/repos/chef/chef/git/commits/3967d5132ed88cef0ee5b24c74afb72411f5ad4e
+963e33beb327162dd03b8b4d37789a53914b8ba8,CHEF-3714: New object dedicated to manipulating text,cbandy,https://api.github.com/repos/chef/chef/git/commits/963e33beb327162dd03b8b4d37789a53914b8ba8
+7efca14a59de55c241efb7b0a353c2bcd575347b,"CHEF-3714 - Method returns if a file was edited
+
+Implement a method in Chef::Util::FileEdit that returns if a file was edited
+This commit contains the method originally written by rhafer@suse.com and
+a unit test.",nkrinner,https://api.github.com/repos/chef/chef/git/commits/7efca14a59de55c241efb7b0a353c2bcd575347b
+3328f4749faea190b4d5c17302aa83a6591f6305,"[CHEF-5057] Add default choice option to confirm prompt
+
+This commit allows a default choice to be provided for a ui.confirm
+prompt.  ""-y"" flag still takes precedence, and the ""default"" for the
+default is the previous behavior (""Y/N"", no default choice).
+
+Testing done:
+
+bundle exec rake spec - passes
+bundle exec rspec spec/unit/knife/core - passes",esigler,https://api.github.com/repos/chef/chef/git/commits/3328f4749faea190b4d5c17302aa83a6591f6305
+cde43edfebf53aecab904a6109934bcb8d59ba05,Fix few typo,nishigori,https://api.github.com/repos/chef/chef/git/commits/cde43edfebf53aecab904a6109934bcb8d59ba05
+e0333f44880878a9d47094e213017add64b3c66b,Don't eat the authentication failed exception on bootstrap,hongbin,https://api.github.com/repos/chef/chef/git/commits/e0333f44880878a9d47094e213017add64b3c66b
+8934bad60dbe8836e13f9076171a0df8a219f6d9,CHEF-5015 force_unlink should only unlink if the file exists,jeremiahsnapp,https://api.github.com/repos/chef/chef/git/commits/8934bad60dbe8836e13f9076171a0df8a219f6d9
+cca1430d6992872701051d08268cb3bc87c97cef,CHEF-4957: Mount resource won't work when device is a relative symlink,makushimu,https://api.github.com/repos/chef/chef/git/commits/cca1430d6992872701051d08268cb3bc87c97cef
+6aff6124ccb37e267e1fa6ca68a2ad96f1bb63c0,"CHEF-4203: Honor the chefignore file for knife cookbook test
+
+In the case that a standalone cookbook exists that is using bundler, a large amount of gems can be added to the current directory. This commit reads the chefignore file and avoid having to scan through the ruby files that are in the bundler created gems directory.",mveitas,https://api.github.com/repos/chef/chef/git/commits/6aff6124ccb37e267e1fa6ca68a2ad96f1bb63c0
+9d277e5a4505e5e83e9c4eb30328fdc7148f15c6,Fixed environment chop -> chomp issue which truncated single character environment names to empty strings,viyh,https://api.github.com/repos/chef/chef/git/commits/9d277e5a4505e5e83e9c4eb30328fdc7148f15c6
+4cad176f2912475c7e36f3e86eea42fea4d51a35,"[CHEF-3953] ImmutableMash and ImmutableArray should implement to_hash and to_a respectively
+  - ImmutableMash now implements a to_hash method.  This recurses through the ImmutableMash and returns a fully mutable Hash
+  - ImmutableArray now implements a to_a method.  This recurses through the ImmutableArray and returns a fully mutable Array
+  - Unit tests added for both of the above methods",brianbianco,https://api.github.com/repos/chef/chef/git/commits/4cad176f2912475c7e36f3e86eea42fea4d51a35
+c90fb30fead166e23f45677e9efad5f6dfd7939f,CHEF-5116 - Catch HTTPServerException for 404 in remote_file retry,johntdyer,https://api.github.com/repos/chef/chef/git/commits/c90fb30fead166e23f45677e9efad5f6dfd7939f
+d987b06baf32299f50d7bff56090be7295a4929f,warning if host resembles winrm command,curiositycasualty,https://api.github.com/repos/chef/chef/git/commits/d987b06baf32299f50d7bff56090be7295a4929f
+07f6316d58e410ed9065e57fd2b0f4c0fdfd8c97,windows path fix for CHEF-4472,bastien-jove-cbp,https://api.github.com/repos/chef/chef/git/commits/07f6316d58e410ed9065e57fd2b0f4c0fdfd8c97
+34f7ada792168aa878944cdf1ec23324aeaf7717,Update local_file.rb,Tensibai,https://api.github.com/repos/chef/chef/git/commits/34f7ada792168aa878944cdf1ec23324aeaf7717
+d01447b899cad59794029e3d01c2570cc5547674,[CHEF-5211] Adding load_plugins call to ensure oha plugins are loaded before requiring them,micgo,https://api.github.com/repos/chef/chef/git/commits/d01447b899cad59794029e3d01c2570cc5547674
+95eea332cd3bba602e8af7294290067e1fafb0af,[CHEF-1910] Manage node environments with knife,jimmymccrory,https://api.github.com/repos/chef/chef/git/commits/95eea332cd3bba602e8af7294290067e1fafb0af
+561b564d28e12731434513f1783cd519690e144b,"Merge pull request #1398 from opscode/config-env
+
+collect :user_home at correct time, for windows",mcquin,https://api.github.com/repos/chef/chef/git/commits/561b564d28e12731434513f1783cd519690e144b
+2dfa16bbe18bd9ccf0552f3fad6eac856dd9ab55,"[CHEF-5269] Added additional ruby environment files to .gitignore.
+
+- .ruby-version
+- .ruby-gemset",alex-ethier,https://api.github.com/repos/chef/chef/git/commits/2dfa16bbe18bd9ccf0552f3fad6eac856dd9ab55
+590fb1e3f921eba552f85af516bac2684d2a9a74,Allow for multiple package files to be passed to yum,glasschef,https://api.github.com/repos/chef/chef/git/commits/590fb1e3f921eba552f85af516bac2684d2a9a74
+a9f7f503651e119b55bcecd57ae005282fbd3c0a,git resource status checking saves 1 shell_out system call,rvalyi,https://api.github.com/repos/chef/chef/git/commits/a9f7f503651e119b55bcecd57ae005282fbd3c0a
+c84b5a23a17a19eba57cb5d62eb4f4e549eda35e,COOK-5261 Added some formatting to prevent malformed URLs,svanharmelen,https://api.github.com/repos/chef/chef/git/commits/c84b5a23a17a19eba57cb5d62eb4f4e549eda35e
+9803d904e08254ccac4c432170770dfd92b483c6,"add paludis package manager user in gentoo/exherbo linux
+
+Signed-off-by: Vasiliy Tolstov <v.tolstov@selfip.ru>",vtolstov,https://api.github.com/repos/chef/chef/git/commits/9803d904e08254ccac4c432170770dfd92b483c6
+840682f34c1785426794ff7f656d339d3e276110,[CHEF-5314] Support override_runlist CLI option in shef/chef-shell,ryancragun,https://api.github.com/repos/chef/chef/git/commits/840682f34c1785426794ff7f656d339d3e276110
+5439694dcdfceb12add4a5409477e2e14296c457,"Fixed whitespace in changes.
+Fixed deprecation warnings for `stub!` and `mock` in tests.
+Added tests for `START_PENDING` and `STOP_PENDING` state to `stop_service` and `start_service`",deployable,https://api.github.com/repos/chef/chef/git/commits/5439694dcdfceb12add4a5409477e2e14296c457
+d97bc318c6e0c8afbdfd100c7c61e0fdc9e43398,"Only modify password when one has been specified
+
+Obvious fix",anandsuresh,https://api.github.com/repos/chef/chef/git/commits/d97bc318c6e0c8afbdfd100c7c61e0fdc9e43398
+859a5036201ccdbb1c7e82f9aac093380e956b51,"Merge branch 'master', remote-tracking branch 'upstream/master'",kramvan1,https://api.github.com/repos/chef/chef/git/commits/859a5036201ccdbb1c7e82f9aac093380e956b51
+39482d6a60a440abad4017b6947992798b281459,"Add mount provider for Solaris OS and derivates
+
+Conflicts:
+	chef/lib/chef/platform.rb
+	chef/lib/chef/providers.rb",hfichter,https://api.github.com/repos/chef/chef/git/commits/39482d6a60a440abad4017b6947992798b281459
+a76dda09852be3405cf197909972f8ad9506f10d,omnios uses solaris2-like usermod for groups,rjbs,https://api.github.com/repos/chef/chef/git/commits/a76dda09852be3405cf197909972f8ad9506f10d
+b88db29b5ab1e388cd8f03f2aa8ce2c3018ff1a5,making the chef-zero host configurable for knife and chef-client,rubbish,https://api.github.com/repos/chef/chef/git/commits/b88db29b5ab1e388cd8f03f2aa8ce2c3018ff1a5
+4ec86064ac88c1357e65dabc18a6860c6f499d13,Raise exception when using apt package with source,chulkilee,https://api.github.com/repos/chef/chef/git/commits/4ec86064ac88c1357e65dabc18a6860c6f499d13
+b3b7ec83c9d507d734ff7375fff4809dab6a960a,Add specs for CHEF-5355. Only pass on port in Host header when port is different from default port for URI scheme.,kjwierenga,https://api.github.com/repos/chef/chef/git/commits/b3b7ec83c9d507d734ff7375fff4809dab6a960a
+97088f458afffcc73d49c53c594f08bf969084aa,CHEF-5347: Allow for undefined solaris services in the service resource.,MarkGibbons,https://api.github.com/repos/chef/chef/git/commits/97088f458afffcc73d49c53c594f08bf969084aa
+cee94f52d52806885fbd63d63addc3708b25f409,"CHEF-5098 fix sensitive data output on failure
+
+provide a way to supprese sensitive attribute for a resource
+* add sensitive attribute to the resource class
+* fix output in resource_failure_inspector if sensitive attribute set
+* add spec tests for resource
+
+fix implementation based on PR reivew
+* suppres to_text ouptut if sensitive attribute set in resource
+* remove rescue of unset sentitive attribute in resource_failure_inspecto",zhirafovod,https://api.github.com/repos/chef/chef/git/commits/cee94f52d52806885fbd63d63addc3708b25f409
+dbb8b2a417d8de3d981fb1e3d3a20e229289abc7,Install on ArchLinux as a system gem explicitly,aespinosa,https://api.github.com/repos/chef/chef/git/commits/dbb8b2a417d8de3d981fb1e3d3a20e229289abc7
+3de901156fddfe33ffa30c73c4d36d9bc288ab6d,"CHEF-5365 - if user home directory is not set via environment, then default user_home to the current directory.",brettcave,https://api.github.com/repos/chef/chef/git/commits/3de901156fddfe33ffa30c73c4d36d9bc288ab6d
+fae0f206f57cfb6beed0cb093874c27783ab3d24,"[trivial] typo
+
+* misspelled privileges.",atomic-penguin,https://api.github.com/repos/chef/chef/git/commits/fae0f206f57cfb6beed0cb093874c27783ab3d24
+4c4a5d8bb9ab59d392e867e4fb82eb7aefe57bc3,"Merge pull request #1500 from opscode/shain/spaces_in_selinux_path
+
+Updated selinux path check to allow for directories that have a space in...",scotthain,https://api.github.com/repos/chef/chef/git/commits/4c4a5d8bb9ab59d392e867e4fb82eb7aefe57bc3
+1c2fdf77dfda6c9f4e26d290c3dd2b43a540faf6,Remove confusing gemspec comment about the no-longer-used json gem,juliandunn,https://api.github.com/repos/chef/chef/git/commits/1c2fdf77dfda6c9f4e26d290c3dd2b43a540faf6
+a29da10fdfde1f3aacf3ec2b0f2b23c1193a185b,Fix ResourceReporter#post_reporting_data http error handling. Fixes #1550,hltbra,https://api.github.com/repos/chef/chef/git/commits/a29da10fdfde1f3aacf3ec2b0f2b23c1193a185b
+355713bc950d2d53885e935ab3ca32e737fc58eb,use systemd for recent fedora and rhel 7,jordane,https://api.github.com/repos/chef/chef/git/commits/355713bc950d2d53885e935ab3ca32e737fc58eb
+19214168200e52538b285c99c7bf86f3f8b2003b,Switch knife site share from command to shell_out,jmink,https://api.github.com/repos/chef/chef/git/commits/19214168200e52538b285c99c7bf86f3f8b2003b
+8002809642c3e6ede964fabac45d4e17137852f4,"Add ""force"" attribute to resource/user, passing ""-f"" to userdel
+
+This allows removal of logged in users.",chr4,https://api.github.com/repos/chef/chef/git/commits/8002809642c3e6ede964fabac45d4e17137852f4
+ff3ff93a1cf762024169016f78dd4c45c9dd5a76,Version constraints only show patch level if one is given,bcobb,https://api.github.com/repos/chef/chef/git/commits/ff3ff93a1cf762024169016f78dd4c45c9dd5a76
+b81c71f4d0a6a4f01fa74fb52c4dc427b79b7eaa,Correct link to ticket/issue tracker,samdunne,https://api.github.com/repos/chef/chef/git/commits/b81c71f4d0a6a4f01fa74fb52c4dc427b79b7eaa
+21ca7263c04e04499558504ed2c7c0313cb545a5,"Chef:Provider:Execute's logic on whether or not to use live_stream gets blindly
+stomped on here. Honoring live_stream if a caller has set it.
+
+Obvious fix.",kgraham,https://api.github.com/repos/chef/chef/git/commits/21ca7263c04e04499558504ed2c7c0313cb545a5
+1e7a2c85f229b75a0927d362995d639541e3a213,update spec output to reflect correct flag,parabuzzle,https://api.github.com/repos/chef/chef/git/commits/1e7a2c85f229b75a0927d362995d639541e3a213
+72658da6feac1ec349eb7c930acf1c714c9d260e,Make knife info messages go to stderr (for CHEF-4760).,cjerdonek,https://api.github.com/repos/chef/chef/git/commits/72658da6feac1ec349eb7c930acf1c714c9d260e
+bcde7ac3441ad6788f98d6e8e18c48ca77707276,"some paludis fixes
+
+- only search for non-masked packages
+- increased the command timeout for the installation process to a reasonable large number",tbe,https://api.github.com/repos/chef/chef/git/commits/bcde7ac3441ad6788f98d6e8e18c48ca77707276
+92a232d3bba88374cabde1c6e125bedc9896290e,"Apply template syntax check to files in the templates dir only. This avoids false positives for .erb files in the files subdirectory which are not actually Chef templates.
+
+Obvious fix.",victorhahncastell,https://api.github.com/repos/chef/chef/git/commits/92a232d3bba88374cabde1c6e125bedc9896290e
+641628d4ce034a59b427278e1b359c25629e5b58,Add word boundary to mount point regexp in mount disable function,eherot,https://api.github.com/repos/chef/chef/git/commits/641628d4ce034a59b427278e1b359c25629e5b58
+aed5da881dc4e30d65eaaa6bd796f3dca4cd0181,Replace single quote with double quote.,dkinzer,https://api.github.com/repos/chef/chef/git/commits/aed5da881dc4e30d65eaaa6bd796f3dca4cd0181
+0e5952187e11d0f0264d2841fa0246c7f5f28c81,Fixes #1739 - regression from a93af4060369f23299652b92fdc451468a3e5534 which matches files too widely. Signed CLA.,CloCkWeRX,https://api.github.com/repos/chef/chef/git/commits/0e5952187e11d0f0264d2841fa0246c7f5f28c81
+ca6107a28d675e9d09626958d58e344d969e7e86,"[COOK-4028] zypper remove not working wiht OpenSuse 13.1
+
+checking version for nil solves the problem",bkomraz1,https://api.github.com/repos/chef/chef/git/commits/ca6107a28d675e9d09626958d58e344d969e7e86
+79a849e1b9ad361db927a02ea1c9d138cd349431,"Adds Supermarket CLA links
+
+This commit removes the echosign links and replaces them with the
+Supermarket CLA links.",cwebberOps,https://api.github.com/repos/chef/chef/git/commits/79a849e1b9ad361db927a02ea1c9d138cd349431
+c64772284f0bf0dda596868177fa488538a9aed1,Spelling error,jbsmith86,https://api.github.com/repos/chef/chef/git/commits/c64772284f0bf0dda596868177fa488538a9aed1
+b06510323102fcb35fb7b02891591b3a540ddf27,"Fix creation of non-empty FreeBSD groups
+
+When Chef creates a new FreeBSD group, the `pw groupadd` system command is
+invoked. If the group is to have members at the time it is created,
+prior to this change Chef would try to specify the new members with the `-m`
+option. Unfortunately, `pw groupadd` has no `-m` option: one is supposed
+to use `-M` instead. See the following excerpt from the `pw` man page:
+
+pw [-V etcdir] groupadd [group|gid] [-C config] [-q] [-n group] [-g gid]
+  [-M members] [-o] [-h fd | -H fd] [-N] [-P] [-Y]
+pw [-V etcdir] groupdel [group|gid] [-n name] [-g gid] [-Y]
+pw [-V etcdir] groupmod [group|gid] [-C config] [-q] [-n name] [-g gid]
+  [-l name] [-M members] [-m newmembers] [-d oldmembers] [-h fd | -H fd]
+  [-N] [-P] [-Y]
+
+http://www.freebsd.org/cgi/man.cgi?query=pw&apropos=0&sektion=0&manpath=FreeBSD+9.3-RELEASE&arch=default&format=html
+
+This commit lets Chef use `pw groupadd -M`.",jacobvosmaer,https://api.github.com/repos/chef/chef/git/commits/b06510323102fcb35fb7b02891591b3a540ddf27
+78335936a30b96d9a0cd352026df095e31c6f9f7,Check local repository as well as remote when looking up the currently installed packages,nhuff,https://api.github.com/repos/chef/chef/git/commits/78335936a30b96d9a0cd352026df095e31c6f9f7
+29bb67affb6af2f54d7330bd8ad432b289614566,Use thread-safe Singleton mixin for Digester,grk,https://api.github.com/repos/chef/chef/git/commits/29bb67affb6af2f54d7330bd8ad432b289614566
+0bf5a3b3134557c9dc52413bf4165991855991c3,remount now honours options,JamesBelchamber,https://api.github.com/repos/chef/chef/git/commits/0bf5a3b3134557c9dc52413bf4165991855991c3
+972bc2f61685979e5b76f5481e3b1af2bd010d0e,CHEF-4101: DeepMerge - support overwriting hash values with nil,mswart,https://api.github.com/repos/chef/chef/git/commits/972bc2f61685979e5b76f5481e3b1af2bd010d0e
+e8baa285975dac507da3337e9c598e1aa44a78c2,Have freebsd port use pkg info if the freebsd version is >= 10000017,Aevin1387,https://api.github.com/repos/chef/chef/git/commits/e8baa285975dac507da3337e9c598e1aa44a78c2
+cd234b739550d4dce76cca0e5b5b247cff1c9ac7,Fix typo in Metadata documentation.,brettchalupa,https://api.github.com/repos/chef/chef/git/commits/cd234b739550d4dce76cca0e5b5b247cff1c9ac7
+0cb2bf8dfcec65b0f6f69f126983d585f7c2d2aa,"tighten up /etc/rc.conf regex
+
+I've run into a fun issue on FreeBSD 10 when trying to disable `syslogd`,
+and enable `rsyslogd`.
+
+Initially, the /etc/rc.conf config file may look something like this
+
+    syslogd_enable=""YES""
+    rsyslogd_enable=""NO""
+
+And after chef it *should* look this
+
+    rsyslogd_enable=""YES""
+    syslogd_enable=""NO""
+
+However, because the regex isn't as tight as it could be, it will search for
+`syslogd_enable=""(\w+)""`, and erroneously match the `rsyslogd`, which leads
+Chef to believe that `syslogd` is enabled, when in reality it isn't.  This change
+simply anchors the regex with `^` so the pattern must match at the beginning of
+the line.",bahamas10,https://api.github.com/repos/chef/chef/git/commits/0cb2bf8dfcec65b0f6f69f126983d585f7c2d2aa
+f1de2a538ba8b89bdcb24de168db0b99cb0cc8fb,"Update apply.rb
+
+File.exist? throws an exception if file_name is nil instead of """". 
+
+Use .to_s to normalise file_name to a string rather than have an explicit nil check.",workmad3,https://api.github.com/repos/chef/chef/git/commits/f1de2a538ba8b89bdcb24de168db0b99cb0cc8fb
+dd930644d16d6efc573e9c6d8eefc5c17d10539b,"Add license information to gemspec
+
+Obvious fix.",anatol,https://api.github.com/repos/chef/chef/git/commits/dd930644d16d6efc573e9c6d8eefc5c17d10539b
+ae1354060e81176fc88b15dc4d6da29012955d53,"Support sensitive execute resources.
+
+If the resource is marked sensitive, it should not:
+* stream output
+* display the command line
+
+Change-Id: Ieb43000d0da41e9cb635c056b207931ef212efa7",nvwls,https://api.github.com/repos/chef/chef/git/commits/ae1354060e81176fc88b15dc4d6da29012955d53
+e6613a101de325caab78a1b392d0a149d02e270c,Fix setting Path for Windows,alex-slynko,https://api.github.com/repos/chef/chef/git/commits/e6613a101de325caab78a1b392d0a149d02e270c
+8ec8e4850f3c0222df965bfe34ac0fdf215c1d24,rebase,Fodoj,https://api.github.com/repos/chef/chef/git/commits/8ec8e4850f3c0222df965bfe34ac0fdf215c1d24
+8cec934b19fe0eb1d6943064eee22e18ac22e7c3,fix CHEF-4933,sakazuki,https://api.github.com/repos/chef/chef/git/commits/8cec934b19fe0eb1d6943064eee22e18ac22e7c3
+dad4783c04367bebfa5ecb295c59f8cb97d5e3bb,Fixed Issue 1882 by printing usage when chef-apply is run with no arguments,nsdavidson,https://api.github.com/repos/chef/chef/git/commits/dad4783c04367bebfa5ecb295c59f8cb97d5e3bb
+ca152e6117fa0a9a6b494d6678ce89c8ed240953,Fix typo.,randomcamel,https://api.github.com/repos/chef/chef/git/commits/ca152e6117fa0a9a6b494d6678ce89c8ed240953
+3f01d0a3ad058e3b21244d205ac1a7ad793875dc,Use windows api to expand path. Cleaned up tests,jaym,https://api.github.com/repos/chef/chef/git/commits/3f01d0a3ad058e3b21244d205ac1a7ad793875dc
+0bf2af2d1917bdda0c4c8ffeaaa4250a59d743f6,"use ""pacman -Sl"" instead of ""pacman -Ss <pkgname>""",wacky612,https://api.github.com/repos/chef/chef/git/commits/0bf2af2d1917bdda0c4c8ffeaaa4250a59d743f6
+b271a2adb8a9c9e07f8e8d5c6b4240a093cff67b,Find all refs with desired suffix; choose shortest one,jbence,https://api.github.com/repos/chef/chef/git/commits/b271a2adb8a9c9e07f8e8d5c6b4240a093cff67b
+7e2c0b1518866ad046115ed804945937b6cd4f0a,Restoring https://github.com/opscode/chef/pull/1921 to master - somehow it got deleted from the git log,tyler-ball,https://api.github.com/repos/chef/chef/git/commits/7e2c0b1518866ad046115ed804945937b6cd4f0a
+1c8d5dab993271f971410d4fb03f60bbd54280fa,"mark test aix only, and correct copyright",kaustubh-d,https://api.github.com/repos/chef/chef/git/commits/1c8d5dab993271f971410d4fb03f60bbd54280fa
+e2e8c9a66409e7c1dab0bf3177f5ab3b258b9cbf,"Fix RHEL pre 7 provider service mapping
+
+This is to fix the issue made when the Redhat-based 7 distro
+support was added.",andytson,https://api.github.com/repos/chef/chef/git/commits/e2e8c9a66409e7c1dab0bf3177f5ab3b258b9cbf
+41ce3665053ff9112a49db92f4e9225346702e83,"Remove node_name lookup in knife ssh error handler
+
+It is no longer used, but causes problems as action_nodes can sometimes contain nil entries (see skip on the loop in search_nodes to cater for this).
+
+Commit b57226b4a8c80b865cd3e256923ba07e5ac09749 removes the previous requirement for this.",trvrnrth,https://api.github.com/repos/chef/chef/git/commits/41ce3665053ff9112a49db92f4e9225346702e83
+56246eef11d1c578f2bc9dbc92259565964f03f3,load library folder recursively,JeanMertz,https://api.github.com/repos/chef/chef/git/commits/56246eef11d1c578f2bc9dbc92259565964f03f3
+44aa28477ae8dd2e49edf07a947c5b7fe11309d2,[issue-2163] display new cookbook path,alexpop,https://api.github.com/repos/chef/chef/git/commits/44aa28477ae8dd2e49edf07a947c5b7fe11309d2
+3715c10b2b66031a7e05bd437f48e3817b755ed7,"Allow `knife cookbook site share` to omit category
+
+This adds a feature for knife to lookup the category on an existing cookbook. This enables uploading new versions of existing cookbooks with much less pain.",martinb3,https://api.github.com/repos/chef/chef/git/commits/3715c10b2b66031a7e05bd437f48e3817b755ed7
+8be7f51256ca5117d4fcb4fb1fab6233c84e0ddf,use group_name when checking if the group exists on mac osx with dscl,chilicheech,https://api.github.com/repos/chef/chef/git/commits/8be7f51256ca5117d4fcb4fb1fab6233c84e0ddf
+b266ca180c803887c2d41342840279c90ba6e931,"Fix value of retries shown in the error report.
+
+Fixes #2258.
+
+Signed-off-by: Krzysztof Wilczynski <krzysztof.wilczynski@linux.com>",kwilczynski,https://api.github.com/repos/chef/chef/git/commits/b266ca180c803887c2d41342840279c90ba6e931
+289aefe1049185257f0b7f0024872aa79d79d0b2,"Improve detection missing WhatIf support
+
+From output of Whatif-run, do not replace line break by space, as this breaks the match if the break was done within a word.",bheuvel,https://api.github.com/repos/chef/chef/git/commits/289aefe1049185257f0b7f0024872aa79d79d0b2
+5c489b2fb6f10e5ba39d804524d754139e0b2dc9,typo fixes - https://github.com/vlajos/misspell_fixer,vlajos,https://api.github.com/repos/chef/chef/git/commits/5c489b2fb6f10e5ba39d804524d754139e0b2dc9
+9d7178b4ae849c1b155ac2bbb0a50a1518c525ac,add openbsd package provider,bonds,https://api.github.com/repos/chef/chef/git/commits/9d7178b4ae849c1b155ac2bbb0a50a1518c525ac
+924d75fd5b79b03e623cc657c5bef73e96f94465,"Setting version to an empty string in tests
+
+Check for nil and length on version in package/rubygems tests
+
+In gemspec test change @new_resource.instance_variable_set()
+to @new_resource.version()",lucywyman,https://api.github.com/repos/chef/chef/git/commits/924d75fd5b79b03e623cc657c5bef73e96f94465
+659b4101d2ab1a227b5da34bd285a4c449e01eb7,Fix installer_version_string to be an array on prerelease parameter.,Daegalus,https://api.github.com/repos/chef/chef/git/commits/659b4101d2ab1a227b5da34bd285a4c449e01eb7
+27f7ff644d9d1c40bb10ee4e468164b2192e739a,"Use the new build env on Travis
+
+more ram and cpu, improved network and vm boot times
+
+docs.travis-ci.com/user/workers/container-based-infrastructure
+
+more docs soon",joshk,https://api.github.com/repos/chef/chef/git/commits/27f7ff644d9d1c40bb10ee4e468164b2192e739a
+2db6d640b51586f903a364dac88330e7a0f74a99,"Merge pull request #2485 from opscode/ssd/maintainer-app
+
+Add Steven Danna as a maintainer of Dev Tools",jonlives,https://api.github.com/repos/chef/chef/git/commits/2db6d640b51586f903a364dac88330e7a0f74a99
+152158d4ddd348d4eb495a4c7488559dd6ee5e50,"Add martinisoft to missing FreeBSD platform
+
+This adds me (martinisoft) as a maintainer for FreeBSD officially.",martinisoft,https://api.github.com/repos/chef/chef/git/commits/152158d4ddd348d4eb495a4c7488559dd6ee5e50
+7b26c360c4b8ad5206bcdf44e7a63fdf9b12df3a,"Subversion failes with ""option ':command' is not a valid option for Mixlib::ShellOut""
+
+Improper use of `shell_out!`, which uses Mixlib
+Fixed #2633",BackSlasher,https://api.github.com/repos/chef/chef/git/commits/7b26c360c4b8ad5206bcdf44e7a63fdf9b12df3a
+381f5f5daa2c68aeae8df809307ccddda20fd991,Stop 'chef gem' from installing Gem documentation,mmarschall,https://api.github.com/repos/chef/chef/git/commits/381f5f5daa2c68aeae8df809307ccddda20fd991
+21fecfdd1fed72a0348508b6aebe167fe1d7276a,Fix typo resouces to resources,cmluciano,https://api.github.com/repos/chef/chef/git/commits/21fecfdd1fed72a0348508b6aebe167fe1d7276a
+bf2ed233134d67ded1cc0335a3d096f6acd4dba7,"correct filters for MacPorts package provider
+
+macports needs to provide macports_package to `darwin`, not `mac_os_x`.
+`mac_os_x` is the platform, `darwin` is the OS.",patcox,https://api.github.com/repos/chef/chef/git/commits/bf2ed233134d67ded1cc0335a3d096f6acd4dba7
+38bcca5a0a23693326923717c7d171b0c5a724c4,Add Steven Murawski (smurawski) as Windows Maintainer,smurawski,https://api.github.com/repos/chef/chef/git/commits/38bcca5a0a23693326923717c7d171b0c5a724c4
+6a5325f98c84ad35c71ed2a49c4ea657ba7b96b2,update knife missing gem message for chefdk,troyready,https://api.github.com/repos/chef/chef/git/commits/6a5325f98c84ad35c71ed2a49c4ea657ba7b96b2
+1f32e65cdc70487bc1891763c73f167b66b64739,Fix travis badge after org rename,mivok,https://api.github.com/repos/chef/chef/git/commits/1f32e65cdc70487bc1891763c73f167b66b64739
+3b513bb188f7e0d9e39bfae41ea4e68829ebd9f1,[CHF-4107] Knife should prefer gnutar when packaging.,babelop,https://api.github.com/repos/chef/chef/git/commits/3b513bb188f7e0d9e39bfae41ea4e68829ebd9f1
+3110f8195f2eb9b338e66233a0becbb4e2a6fa3a,add banner for knife serve command,dwradcliffe,https://api.github.com/repos/chef/chef/git/commits/3110f8195f2eb9b338e66233a0becbb4e2a6fa3a
+ba89fea5929c2a87c7619013be2716c89f897e20,"Fix user_dir warning
+
+When running commands with `ruby -w` you get a warning about
+`user_dir` being redifined:
+
+```
+$ ruby -w -e 'puts ""hi""'
+/opt/chefdk/embedded/lib/ruby/site_ruby/2.1.0/rubygems/defaults/operating_system.rb:15: warning: method redefined; discarding old user_dir
+/opt/chefdk/embedded/lib/ruby/site_ruby/2.1.0/rubygems/defaults.rb:75: warning: previous definition of user_dir was here
+hi
+```
+
+This fixes the problem by using `alias` and `remove_method`.",docwhat,https://api.github.com/repos/chef/chef/git/commits/ba89fea5929c2a87c7619013be2716c89f897e20
+1a9681d4e65be2e194a5393d14102d696053bbff,Support HTTP/FTP source on rpm_package,sonots,https://api.github.com/repos/chef/chef/git/commits/1a9681d4e65be2e194a5393d14102d696053bbff
+7579a6b62998f3a147d0c316c73c6b466566c453,CHEF-4591: Knife commands to manipulate env_run_list on nodes,walbenzi,https://api.github.com/repos/chef/chef/git/commits/7579a6b62998f3a147d0c316c73c6b466566c453
+b3213c32602d54755f6ac85bab2b2473d85a44fa,fix typo in msi provider,andrewelizondo,https://api.github.com/repos/chef/chef/git/commits/b3213c32602d54755f6ac85bab2b2473d85a44fa
+a402a2602ec10f00a8398c6437530a49a2a05fc6,"Merge pull request #2964 from chef/jtimberman-osx-lt
+
+Nominate promoting myself to OS X Lt.",nathenharvey,https://api.github.com/repos/chef/chef/git/commits/a402a2602ec10f00a8398c6437530a49a2a05fc6
+cd8df9a5c54011208320b01d0cbd49da9c5a2dcf,"Add /lib/chef/ to backtrace exclusion patterns for audit mode
+
+Exclusion pattern now includes anything with /lib/chef/ only
+
+fix spacing issue",kmacgugan,https://api.github.com/repos/chef/chef/git/commits/cd8df9a5c54011208320b01d0cbd49da9c5a2dcf
+84f4be81fcccf2985e60ac366d9d68c2e6264823,"chef_gem_compile_time's nil is the same as true
+
+according to lib/chef/resource/chef_gem.rb#after_created",cl-lab-k,https://api.github.com/repos/chef/chef/git/commits/84f4be81fcccf2985e60ac366d9d68c2e6264823
+be5d288671bf5460f227c1b5297f300d36388c20,"Load LaunchAgents as console user, adding plist and session_type options
+
+Proposed changes to chef mac osx service provider. This adds two
+resource parameters, @plist and @session_type and changes logic to Load
+LaunchAgents as Console user
+
+@plist: Adds the logic to handle
+(https://github.com/chef/chef/issues/2200) by Giving the user the
+option to pass a plist, in the case that the plist name and label name
+don't match.
+
+@session_type to help account launching
+the service as the console user with a different session type.
+
+( Im a Facebook employee and PhilD will do the final merge. )",mikedodge04,https://api.github.com/repos/chef/chef/git/commits/be5d288671bf5460f227c1b5297f300d36388c20
+2d7f06196f9b611dd18fdb8825b251251fa195f2,add show_progress attribute,brandocorp,https://api.github.com/repos/chef/chef/git/commits/2d7f06196f9b611dd18fdb8825b251251fa195f2
+c76b988f83ea3cbaa5dd773577265ec5382a9a90,"update mode if group or owner change to keep suid bit
+
+On Linux updating the group or owner unsets the suid bit for security
+reasons, so check for group and owner updates whether or not to set the
+mode.",minshallj,https://api.github.com/repos/chef/chef/git/commits/c76b988f83ea3cbaa5dd773577265ec5382a9a90
+9e10455ce2b4a4e29424b7064b1d67a1a25c9d3b,Change 'should' to 'must',pburkholder,https://api.github.com/repos/chef/chef/git/commits/9e10455ce2b4a4e29424b7064b1d67a1a25c9d3b
+fb885002b132b46677a4c1e4b4fbedf5a19e331c,"Ensure that a search query makes progress
+
+If a search doesn't return a full result then increment the start
+pointer by the number of rows returned, rather than assuming that
+it was equal to the row limit, and defaulting to zero.
+
+This should fix #3099",tomhughes,https://api.github.com/repos/chef/chef/git/commits/fb885002b132b46677a4c1e4b4fbedf5a19e331c
+9f3727c21afe0ac5ad5e093ed8f9b7a7f4cc6233,"Update registry_key.rb
+
+Because syntax?",veetow,https://api.github.com/repos/chef/chef/git/commits/9f3727c21afe0ac5ad5e093ed8f9b7a7f4cc6233
+551ec22e7b8fe240a111f7124d820ff64299283f,Reset $HOME to user running chef-client when running via sudo,drags,https://api.github.com/repos/chef/chef/git/commits/551ec22e7b8fe240a111f7124d820ff64299283f
+8aa3200b5fb25a1eea5e593e5c45bd4adacfb9b2,"allow for the chef gem installation to succeed even without elevated privileges, skip the event log registration in this case",tknerr,https://api.github.com/repos/chef/chef/git/commits/8aa3200b5fb25a1eea5e593e5c45bd4adacfb9b2
+4cdce72a39b6f2e9ad0eb3029d861c99494738f0,"Allow tags to be set on a node during bootstrap
+
+I can set attributes, environment, and run_list, but why not tags?
+
+Some of our recipes are driven off of tags, such as for sudo access or
+membership in a load balancing pool.
+
+If this patch is accepted then I will add the corresponding feature to
+knife-vsphere.
+
+This patch only works with the new vault method, not the validator key
+method. If someone has some pointers on where to add it in the validator
+method I'd be happy to amend.",swalberg,https://api.github.com/repos/chef/chef/git/commits/4cdce72a39b6f2e9ad0eb3029d861c99494738f0
+8f971a1c5e7a1095798aee6874aecc42047d37ab,"patch to always run exception handlers
+
+exception handlers require @run_status to be set.
+This patch moves @run_status declaration higher up so exception
+handlers report on all problems inside do_run begin block",Igorshp,https://api.github.com/repos/chef/chef/git/commits/8f971a1c5e7a1095798aee6874aecc42047d37ab
+4dd42c8ea0c738489f9e4a0df20133a328ce06e5,"Fixes 2140 - Honor Proxy from Env
+
+This change adds support to Chef's core http libs to
+honor a proxy uri set in the environment not just
+chef/knife config. It also adds support for username
+and password both in uri and env.
+
+The order of precidence for values is uri, config, env.",jonsmorrow,https://api.github.com/repos/chef/chef/git/commits/4dd42c8ea0c738489f9e4a0df20133a328ce06e5
+0fe8287e7c83465f59e0c6557f2156ce4e0a4c56,"Volunteer to assist as a FreeBSD maintainer.
+
+I would be happy to help maintain chef's FreeBSD support.",onlyhavecans,https://api.github.com/repos/chef/chef/git/commits/0fe8287e7c83465f59e0c6557f2156ce4e0a4c56
+855954929adf26aecaad8cd0f549f03353825d6c,Implemented the Key object corrosponding to key rotation API endpoint.,tylercloke,https://api.github.com/repos/chef/chef/git/commits/855954929adf26aecaad8cd0f549f03353825d6c
+6f42327a590025e078de9cdfd3191f14a0980776,securable_resource functional specs compare default creation permissions against actual defaults on Windows,dbjorge,https://api.github.com/repos/chef/chef/git/commits/6f42327a590025e078de9cdfd3191f14a0980776
+c70fee6e7b522a62e2c0c90ce3a0e422e2fa5d6c,"Fix debug message
+
+<< has higher precedence than == & ?:
+=> ""mdbtools >= 0.7.1: Unable to match package 'mdbtools >= 0.7.1' but matched 1 \u0001""
+
+Obvious fix.",ojab,https://api.github.com/repos/chef/chef/git/commits/c70fee6e7b522a62e2c0c90ce3a0e422e2fa5d6c
+44ee5428cc7e882d3bd1c202b4dcb749bb676196,Fix for https://github.com/chef/chef/issues/3330,runningman84,https://api.github.com/repos/chef/chef/git/commits/44ee5428cc7e882d3bd1c202b4dcb749bb676196
+742c46a5477333156a57a61f961881dd5cb9cd91,"gem_package should install to the systemwide Ruby when using ChefDK.
+Fixes #3382.",jfly,https://api.github.com/repos/chef/chef/git/commits/742c46a5477333156a57a61f961881dd5cb9cd91
+44f59152457d387a19df3ed2fb15dcafc070f5a8,Update push to use master of chef,markan,https://api.github.com/repos/chef/chef/git/commits/44f59152457d387a19df3ed2fb15dcafc070f5a8
+676342c040a2e282425648e6e833047c048fea7b,adding unit tests,Sgtpluck,https://api.github.com/repos/chef/chef/git/commits/676342c040a2e282425648e6e833047c048fea7b
+f3b1a1b6e46136cf2b67b1c479ecb2e718dc5474,add Joe Miller as LT for OpenBSD,joemiller,https://api.github.com/repos/chef/chef/git/commits/f3b1a1b6e46136cf2b67b1c479ecb2e718dc5474
+df7db9caca359ce88027a530bece3ff7b6fb92ed,"Use Mixlib::Shellout instead of Chef::Mixin::Command
+
+Using C:\Users\Administrator>chef-solo -i 30 -s 5 -c C:/monsoon/solo.rb -j http://foo-bar/get-run -r http://foo-bar.com/cookbooks.tar.gz
+failled with error : 
+[2015-06-25T15:01:52+02:00] DEBUG: ---- End output of tar zxvf C:/chef/recipes.t
+gz -C C:/chef ----
+C:/opscode/chef/embedded/apps/chef/lib/chef/mixin/command.rb:140:in `block in ou
+tput_of_command': undefined method `exitstatus' for nil:NilClass (NoMethodError)
+
+        from C:/opscode/chef/embedded/apps/chef/lib/chef/mixin/command.rb:122:in
+ `chdir'
+        from C:/opscode/chef/embedded/apps/chef/lib/chef/mixin/command.rb:122:in
+ `output_of_command'
+        from C:/opscode/chef/embedded/apps/chef/lib/chef/mixin/command.rb:101:in
+ `run_command_and_return_stdout_stderr'
+        from C:/opscode/chef/embedded/apps/chef/lib/chef/mixin/command.rb:79:in
+`run_command'
+        from C:/opscode/chef/embedded/apps/chef/lib/chef/application/solo.rb:217
+:in `reconfigure'
+        from C:/opscode/chef/embedded/apps/chef/lib/chef/application.rb:58:in `r
+un'
+        from C:/opscode/chef/embedded/apps/chef/bin/chef-solo:25:in `<top (requi
+red)>'
+        from C:/opscode/chef/bin/chef-solo:63:in `load'
+        from C:/opscode/chef/bin/chef-solo:63:in `<main>'
+
+using Mixlib::ShellOut instead of Chef::Mixin::Command solved the issue",DeWaRs1206,https://api.github.com/repos/chef/chef/git/commits/df7db9caca359ce88027a530bece3ff7b6fb92ed
+37c03b559913a791786ce51b8fe09473bde50368,downcasted registry key names to lowercase,jkerry,https://api.github.com/repos/chef/chef/git/commits/37c03b559913a791786ce51b8fe09473bde50368
+31c8b51b26e4e630f577fe36fefe1259e22e1d2d,correcting minor typo in user_edit knife action,nellshamrell,https://api.github.com/repos/chef/chef/git/commits/31c8b51b26e4e630f577fe36fefe1259e22e1d2d
+224241b2e172526acfe681e4eb34aa2d08a99ea4,"Decommission 12-stable
+
+Removes 12-stable from travis.yml branch filter
+Updates appveyor.yml for the 12.4-stable branch",grubernaut,https://api.github.com/repos/chef/chef/git/commits/224241b2e172526acfe681e4eb34aa2d08a99ea4
+82a7f3810cd25ab16a1fb76c808fdfd9131bfe9d,shell_out! returns an object not an integer,stefanor,https://api.github.com/repos/chef/chef/git/commits/82a7f3810cd25ab16a1fb76c808fdfd9131bfe9d
+577773bbb838a91fee53d1ad21dddfb5fd9dbd22,"Interpolate `%{path}` in verify command
+
+See chef/chef#3232",margueritepd,https://api.github.com/repos/chef/chef/git/commits/577773bbb838a91fee53d1ad21dddfb5fd9dbd22
+d9820c430b686a1dedd4ab2cadd20b0cadbbb0d7,"Fixing Issue #2513 - the broken render of nested partial templates with variables
+
+Authors: Kaushik C <kaushik.chand@gmail.com>, Sam Dunne <sam@sam-dunne.com>",ckaushik,https://api.github.com/repos/chef/chef/git/commits/d9820c430b686a1dedd4ab2cadd20b0cadbbb0d7
+f4ad4af6dc996bc1068dde1249870e45e2635c3f,uniquify chef_repo_path,polamjag,https://api.github.com/repos/chef/chef/git/commits/f4ad4af6dc996bc1068dde1249870e45e2635c3f
+87d10c0e74b850086d11d68ccb908d0aaee1ce4a,Add support for override depth and adding test in overriding depth,renanvicente,https://api.github.com/repos/chef/chef/git/commits/87d10c0e74b850086d11d68ccb908d0aaee1ce4a
+4c542d34326d7530daeae27fdc0b19f96671291c,add privacy flag,raskchanky,https://api.github.com/repos/chef/chef/git/commits/4c542d34326d7530daeae27fdc0b19f96671291c
+6c4cd5c6d5c40baca723bf95cdbccdda59021198,Enable 64-bit support for Powershell and Batch scripts,chefsalim,https://api.github.com/repos/chef/chef/git/commits/6c4cd5c6d5c40baca723bf95cdbccdda59021198
+8fb083d5eca969cb2bf9949bedf79961426b5063,Don't use routes with action :delete when writing config,petracvv,https://api.github.com/repos/chef/chef/git/commits/8fb083d5eca969cb2bf9949bedf79961426b5063
+0d4954a1d4a8656be920a83615b93306c4387717,simplify service helpers,nathwill,https://api.github.com/repos/chef/chef/git/commits/0d4954a1d4a8656be920a83615b93306c4387717
+a4ca79d7a3a6e0a992c9710cbf6c7445534cad44,Human friendly elapsed time in log,joelhandwell,https://api.github.com/repos/chef/chef/git/commits/a4ca79d7a3a6e0a992c9710cbf6c7445534cad44
+7580ec078e87225766ceced6233f72f3a728008b,adding matt wrock as maintainer,mwrock,https://api.github.com/repos/chef/chef/git/commits/7580ec078e87225766ceced6233f72f3a728008b
+876ea381ff7064250c57c563c8724ac1f99fbab5,Fix for #3942 - change remote_directory resource file discovery to traverse breadth first,andy-dufour,https://api.github.com/repos/chef/chef/git/commits/876ea381ff7064250c57c563c8724ac1f99fbab5
+a149e877f3be248fdff8ea028772c65393cb16a5,Add bootstrap proxy authentication support.,yossigo,https://api.github.com/repos/chef/chef/git/commits/a149e877f3be248fdff8ea028772c65393cb16a5
+a6c3b5c1466ebcfcf1ba4a1a2686e59739554f68,"Use the initializer to avoid NoMethodError on nil.include?
+
+Rename the argument so as to not collide with the tags method.",josb,https://api.github.com/repos/chef/chef/git/commits/a6c3b5c1466ebcfcf1ba4a1a2686e59739554f68
+273e44c04f2d2f1433f25024c1ab788fdd38d9d4,"Fix chef-apply usage banner
+
+The chef-apply option flags should trail the recipe or recipe text
+that is being applied.
+
+This updates the chef-apply banner to show the correct usage.
+
+Fixes #2372",pwelch,https://api.github.com/repos/chef/chef/git/commits/273e44c04f2d2f1433f25024c1ab788fdd38d9d4
+d246a05fe763e34c0b9fac698d88a45f4daa1a94,"provider/user/dscl: Set default gid to 20
+
+gid should always be defined to create user account properly on OS X.
+""staff"" (gid 20) is a default group for regular user accounts.",legal90,https://api.github.com/repos/chef/chef/git/commits/d246a05fe763e34c0b9fac698d88a45f4daa1a94
+2c429ecb73d857fbbdb74ce7cba9e44862868ca0,"package/solaris: Adds alias method for upgrade_package.
+
+This follows the same convention that the [AIX package provider](https://github.com/johnbellone/chef/blob/master/lib/chef/provider/package/aix.rb#L122) has done and adds an alias_method.",johnbellone,https://api.github.com/repos/chef/chef/git/commits/2c429ecb73d857fbbdb74ce7cba9e44862868ca0
+0af405931884c3fa2cd30c54074e98fa78ea7235,"Allow user@hostname format for knife-bootstrap. [#3527]
+
+* Fix unit test cases.
+* Ignore temporary spec testing files.",patcon,https://api.github.com/repos/chef/chef/git/commits/0af405931884c3fa2cd30c54074e98fa78ea7235
+848b629b86e1394a76cab67d97e3a57925afa3b7,Define == for node objects,dbresson,https://api.github.com/repos/chef/chef/git/commits/848b629b86e1394a76cab67d97e3a57925afa3b7
+3bdfa8f65cf19563e35d2bad3f7fcf9263ac7881,"Consider only knife configuration for chef environment in bootstrap context
+Setting these values in Chef::Config is being deprecated in favor of
+using the knife config directly.
+https://github.com/chef/chef/issues/3946",evan2645,https://api.github.com/repos/chef/chef/git/commits/3bdfa8f65cf19563e35d2bad3f7fcf9263ac7881
+6ae6710477ac618fafcfc46812984deae1b983b5,Add tmux-split parameter to knife ssh,permyakovsv,https://api.github.com/repos/chef/chef/git/commits/6ae6710477ac618fafcfc46812984deae1b983b5
+f13cda49551524c446b53ba2f4a2c503ba45e922,"Fix cookbook installation from supermarket on windows
+
+- Fixes https://tickets.opscode.com/browse/CHEF-3394 by adding the `--force-local` option to tar
+- Might fix #1753 with the added double quotes
+
+Proof of the fix:
+![Proof of the fix](http://imgur.com/MOvHdPD.png)",MichaelPereira,https://api.github.com/repos/chef/chef/git/commits/f13cda49551524c446b53ba2f4a2c503ba45e922
+51acd91fe175c9da0972c3172d3193f6eefb6af6,better error reporting,h4ck3rm1k3,https://api.github.com/repos/chef/chef/git/commits/51acd91fe175c9da0972c3172d3193f6eefb6af6
+33a175a62c88a7bcfbe92040a56244a91dcef8b3,"fix errors when files go away during chown
+
+The deploy resource attempts to change the owner of all files in the
+deploy directory, but it breaks when files are removed during the
+process. This is because FileUtils::chown_R gets a list of the files and
+then walks through and updates them, and if that takes any time at  all
+then files may be deleted during the process. When this happens, the
+deploy will fail with Errno::ENOENT. chown_R takes an options hash with
+:force as one of the available options, and the only thing it does is
+stop errors from being raised under these circumstances.",aub,https://api.github.com/repos/chef/chef/git/commits/33a175a62c88a7bcfbe92040a56244a91dcef8b3
+1b6237afc672615e8a831b9513258744d23ff9bb,Update knife bootstrap command to honor --no-color flag in chef-client run that is part of the bootstrap process.,tfitch,https://api.github.com/repos/chef/chef/git/commits/1b6237afc672615e8a831b9513258744d23ff9bb
+88daf4130e70ff8bca493fdd225b63e6e6b8b9de,"Correct capitalization of GitHub username of a maintainer
+
+Supermarket uses this file to track maintainers and is currently
+case-sensitive.",robbkidd,https://api.github.com/repos/chef/chef/git/commits/88daf4130e70ff8bca493fdd225b63e6e6b8b9de
+abb22c39b7ea94c6fcf8c5b52bed50c8643db736,"Update DOC_CHANGES.md
+
+add link to current/working release_notes page for 12.6 on docs.chef.io for metadata.rb settings and two resources",jamescott,https://api.github.com/repos/chef/chef/git/commits/abb22c39b7ea94c6fcf8c5b52bed50c8643db736
+f8e55db82af844448f50611fa7fc8d770a634f17,"Require ShellOut before Knife::SSH definition
+
+I ran into a NameError when trying to run https://github.com/matschaffer/knife-solo/blob/master/test/knife_bootstrap_test.rb#L14 that I think this should fix.
+
+My suspicion is that under normal operation shell_out gets required via the application or platform. And prior to moving config into its own project it was being required in chef/config.rb
+
+In my tests since I end up loading knife ssh directly without the surrounding application things don't work out.
+
+I'll likely just add a line to my test helper for now but wanted to open this for comment or future improvement.",matschaffer,https://api.github.com/repos/chef/chef/git/commits/f8e55db82af844448f50611fa7fc8d770a634f17
+9e28233f448278e1d28025433ee65fbfe9f2ba82,"Allow named_run_list to be loaded from config
+
+nil default in application/client.rb shadowed any value from config when executing chef-client (but not chef-shell -z)
+
+default in config is set to nil at https://github.com/chef/chef/blob/b0dbe243d469cc36477ba8102b74a8456b6f276d/chef-config/lib/chef-config/config.rb#L363, so otherwise this change is a no-op",donaldguy,https://api.github.com/repos/chef/chef/git/commits/9e28233f448278e1d28025433ee65fbfe9f2ba82
+25de6db9fa50b42440bd5abbf743c6374af52515,"Fix typo in comment
+
+s/vlaue/value/
+
+Obvious fix.",gregkare,https://api.github.com/repos/chef/chef/git/commits/25de6db9fa50b42440bd5abbf743c6374af52515
+27c71ab080ba63b3ce83c44907bfd654a66b26d9,Correcting regex for upstart_state,dude051,https://api.github.com/repos/chef/chef/git/commits/27c71ab080ba63b3ce83c44907bfd654a66b26d9
+199ec5d16985b6717e0a3b23594ca90c4c50e9c3,"Add make_child_entry in ChefFS CookbookSubdir
+
+Following a517fa8a we can't call `child` on cookbook subdirs.",brugidou,https://api.github.com/repos/chef/chef/git/commits/199ec5d16985b6717e0a3b23594ca90c4c50e9c3
+8766e9395c3dd3f7e5b8e458d69352a9b8179bdd,GH-1909 Add validation for chef_server_url,skmichaelson,https://api.github.com/repos/chef/chef/git/commits/8766e9395c3dd3f7e5b8e458d69352a9b8179bdd
+53820d96664d8360b4e42ae60eb806f68a236f23,"Add Rubinius to Build Matrix with Allowed Failure
+
+Please add Rubinius to the build matrix with failure allowed.",bjfish,https://api.github.com/repos/chef/chef/git/commits/53820d96664d8360b4e42ae60eb806f68a236f23
+ff216f362b28ddc501247b37790f438aad29e65b,Add extra tests around whether to skip with multiple guards,bbbco,https://api.github.com/repos/chef/chef/git/commits/ff216f362b28ddc501247b37790f438aad29e65b
+e05e7b485463ea2c9346a83ad1bbc095cc95d4df,"Added profile provider for OS X
+
+Fixed resource to use let",natewalck,https://api.github.com/repos/chef/chef/git/commits/e05e7b485463ea2c9346a83ad1bbc095cc95d4df
+e82efa3cd0a9083c238445d9418eec5a554d96f4,Typo fix,zmalone,https://api.github.com/repos/chef/chef/git/commits/e82efa3cd0a9083c238445d9418eec5a554d96f4
+b1b0f0ecb3bcb8046d5aeeba5f7f1b0eb21f4388,Issue 3859 Text Update to Readme. Obvious Fix,PatrickWalker,https://api.github.com/repos/chef/chef/git/commits/b1b0f0ecb3bcb8046d5aeeba5f7f1b0eb21f4388
+3253d173fbf3384360eac7f490b350ae7055d758,"Correctly save policy_name and policy_group with `knife node edit`
+
+Fixes #4364
+
+- Add specs for Chef::Knife::NodeEditor.
+- Add `policy_name` and `policy_group` to properties compared in
+  `NodeEditor#updated?`.
+- Add `policy_name` and `policy_group` to Hash returned by
+  `NodeEditor#view`.
+- Use `Node.from_hash` in `NodeEditor#apply_updates` instead of
+  duplicating functionality.
+- Add some YARD docs for Chef::Knife::NodeEditor.",jrunning,https://api.github.com/repos/chef/chef/git/commits/3253d173fbf3384360eac7f490b350ae7055d758
+54654195a67cf55eac33e226526a9bfb47a00d1a,Update README.md,tcyrus,https://api.github.com/repos/chef/chef/git/commits/54654195a67cf55eac33e226526a9bfb47a00d1a
+0661771ee6a72adec223a0dfa2fa14eeb530813b,"Added support for Zypper to install multiple packages at once
+
+See #3570",gsaslis,https://api.github.com/repos/chef/chef/git/commits/0661771ee6a72adec223a0dfa2fa14eeb530813b
+f1e8edaac5e7f003a5d5b01afd5c5bc9775f9494,Change shell for locked user.,artursitarski,https://api.github.com/repos/chef/chef/git/commits/f1e8edaac5e7f003a5d5b01afd5c5bc9775f9494
+8417850f5b3bba689694a4114502034600a44602,"Fix databag globbing issues for chef-solo on windows
+
+Backslashes should not be passed to Dir, as it does not work
+when globbing in many cases.
+
+Created new function that can be used with dir on windows.
+`escape_glob_dir` should be used when the result is going
+to be passed into Dir.
+
+Fixes #4194
+Replaces #4195",youngjl1,https://api.github.com/repos/chef/chef/git/commits/8417850f5b3bba689694a4114502034600a44602
+11e74a822c52b57d87411f74fdc0167e2fad7d79,Extend service resource to support masking,davide125,https://api.github.com/repos/chef/chef/git/commits/11e74a822c52b57d87411f74fdc0167e2fad7d79
+d1e38f9586cc466e9b13a20da2c0fe0cf88a6184,"Merge pull request #4631 from chef/jjh/databag_item_to_hash_non_mutating
+
+Fix a bug that was causing DataBagItem.to_hash to mutate the data bag item",itmustbejj,https://api.github.com/repos/chef/chef/git/commits/d1e38f9586cc466e9b13a20da2c0fe0cf88a6184
+4bf4b62d6631abb6453f055eb034eaea69cbf5bc,"preferred_manifest_record: fix pretty print.
+
+The `preferred_manifest_record` function pretty prints the list of
+existing files when the asked file can't be found. To do that, the root
+path of the cookbook is removed from each existing file but the update
+is done on the `existing_files` variable, not on a copy. When called
+several times, this variable will eventually be equals to `[nil]`,
+leading to a NoMethodError.
+
+Without the fix, the new unit test fails with
+
+> expected Chef::Exceptions::FileNotFound, got #<NoMethodError: undefined method `[]' for nil:NilClass> with backtrace:
+>   # ./lib/chef/cookbook_version.rb:321:in `block in preferred_manifest_record'
+>   # ./lib/chef/cookbook_version.rb:319:in `map!'
+>   # ./lib/chef/cookbook_version.rb:319:in `preferred_manifest_record'
+>   # ./spec/unit/cookbook_version_file_specificity_spec.rb:318:in `block (3 levels) in <top (required)>'
+>   # ./spec/unit/cookbook_version_file_specificity_spec.rb:317:in `block (2 levels) in <top (required)>'
+
+Fixes #2561.",dduponchel,https://api.github.com/repos/chef/chef/git/commits/4bf4b62d6631abb6453f055eb034eaea69cbf5bc
+17b28f4c22fb8ef023d8adbd74afd05f3eb4c0cb,Adding myself as LT and Maintainer for Cisco platforms,edolnx,https://api.github.com/repos/chef/chef/git/commits/17b28f4c22fb8ef023d8adbd74afd05f3eb4c0cb
+80bc871de7a6d7bbd9775ba611b39d26157032ed,"fix for https://github.com/chef/chef/issues/4689
+
+rework the set_members method so duplicates are avoided",mawinter69,https://api.github.com/repos/chef/chef/git/commits/80bc871de7a6d7bbd9775ba611b39d26157032ed
+1d06770397bb1017b03333b8a7b4feec549e8412,fix for #4715,a-melnyk,https://api.github.com/repos/chef/chef/git/commits/1d06770397bb1017b03333b8a7b4feec549e8412
+b1a0d6cb61504a0f076f349f08c2f21573c4089f,updated code + specs,svmastersamurai,https://api.github.com/repos/chef/chef/git/commits/b1a0d6cb61504a0f076f349f08c2f21573c4089f
+d0780c479cea3e233c5c7f0211feb45e2fe655c0,Adding João Cravo to the list of Chef Provisioning maintainers.,joaogbcravo,https://api.github.com/repos/chef/chef/git/commits/d0780c479cea3e233c5c7f0211feb45e2fe655c0
+4606175238a3e7ed29cd89123ba674b71fa6d311,"Merge pull request #4801 from chef/cperry/change-cisco-lt
+
+Replacing myself with Adam Leff for Cisco LT",adamleff,https://api.github.com/repos/chef/chef/git/commits/4606175238a3e7ed29cd89123ba674b71fa6d311
+7a8fbdc0cf0b54acfec85090462b9a43812c2871,add support for --layout option to mdadm resource provider,kbruner,https://api.github.com/repos/chef/chef/git/commits/7a8fbdc0cf0b54acfec85090462b9a43812c2871
+a5200b235f01adaf723dff672db00030875299f0,"cookbook site install : tar error on windows
+
+tar bundled with chef-dk don't support the --force-local option
+- fixes : #4862",willoucom,https://api.github.com/repos/chef/chef/git/commits/a5200b235f01adaf723dff672db00030875299f0
+0344851741309178f7cee2fb70a8219ad0830996,merge of external updates from jgit repo,joshburt,https://api.github.com/repos/chef/chef/git/commits/0344851741309178f7cee2fb70a8219ad0830996
+34f0dfc8226860aa2d2bfcbf17dad6be20bea7e3,"Update gem_package with version constraint on :upgrade action
+Add Package#version_requirement_satisfied? to separate fuzzy-match (:install) and exact-match (:upgrade) version checks when supported by the package subclass.
+Wrap Package#candidate_version in a lazy-initialization object to minimize unnecessary API queries when candidate_version is not needed.
+(fixes #3867)",wjordan,https://api.github.com/repos/chef/chef/git/commits/34f0dfc8226860aa2d2bfcbf17dad6be20bea7e3
+9c26c466db4f20d074be1470ca1781d7ef3493ca,"UID now starts at 501, uses createhomedir instead",nmcspadden,https://api.github.com/repos/chef/chef/git/commits/9c26c466db4f20d074be1470ca1781d7ef3493ca
+f8db5e7169ebd207f4174717d3eef0f305483115,fix profile provider for nil,achand,https://api.github.com/repos/chef/chef/git/commits/f8db5e7169ebd207f4174717d3eef0f305483115
+15992fde70bb62bf8b8fc00e6c6f1d2195bd2af1,"Adding myself as a Chef Maintainer
+
+Spoke with Nathen Harvey about being added as a maintainer.",thehar,https://api.github.com/repos/chef/chef/git/commits/15992fde70bb62bf8b8fc00e6c6f1d2195bd2af1
+183aa233381ea84c98976baadb90bb782a141f75,Fix portage provider to support version with character,crigor,https://api.github.com/repos/chef/chef/git/commits/183aa233381ea84c98976baadb90bb782a141f75
+bb640efa12ac8843658fc45bba9ea70bd15e8221,"Avoid Errno::EBUSY on docker containers
+
+This commit fixes https://github.com/chef/chef/issues/4949 by adding
+ohai-based docker detection code and statically checking for
+/etc/hostname or /etc/resolv.conf.",andrewjamesbrown,https://api.github.com/repos/chef/chef/git/commits/bb640efa12ac8843658fc45bba9ea70bd15e8221
+ed070cc97df6cf244afd4f4f4d0b49fee973dc8f,"service - upstart restart does not uses latest job config, need start/stop
+
+latest upstart job config is not used by /sbin/restart but retains oiginal
+http://upstart.ubuntu.com/cookbook/#restart",abhishekkr,https://api.github.com/repos/chef/chef/git/commits/ed070cc97df6cf244afd4f4f4d0b49fee973dc8f
+081b70adfee1c49b99b371ab80b6adbe84479f8b,Remove deprecated Thread.exclusive around require call.,maxlazio,https://api.github.com/repos/chef/chef/git/commits/081b70adfee1c49b99b371ab80b6adbe84479f8b
+6c7dfa9e5178e26eee7b5ed97712490eb26888a7,"Don't show error message when we cant post the audit report while running in chef-zero.
+Instead log location of audit report.
+Fixes #4728",erichelgeson,https://api.github.com/repos/chef/chef/git/commits/6c7dfa9e5178e26eee7b5ed97712490eb26888a7
+7aea73163a2eef5603ecc9433895d81e05d26a17,Fixed regex for zypper version 1.13.*. This is backward compatible with zypper version 1.12.*,yeoldegrove,https://api.github.com/repos/chef/chef/git/commits/7aea73163a2eef5603ecc9433895d81e05d26a17
+2b35272f744c1649b03561d627feec7135f00ad9,Forward package cookbook_name to underlying remote_file,Annih,https://api.github.com/repos/chef/chef/git/commits/2b35272f744c1649b03561d627feec7135f00ad9
+e2c8036e0ca868cd4126fe36533f1c1ad69d3cf0,Add Hash type to launchd:keep_alive,erikng,https://api.github.com/repos/chef/chef/git/commits/e2c8036e0ca868cd4126fe36533f1c1ad69d3cf0
+27dbf651e849b711a8f607631c6466c96309eb8c,Pick up omnibus and omnibus-software that supports including licensing information of transitive dependencies in the omnibus package.,sersut,https://api.github.com/repos/chef/chef/git/commits/27dbf651e849b711a8f607631c6466c96309eb8c
+593f2742e83e2bd5338594f37ba8d6658463bdda,Added timeout during removing of windows package,dheerajd-msys,https://api.github.com/repos/chef/chef/git/commits/593f2742e83e2bd5338594f37ba8d6658463bdda
+3f33d7a105801c31ae7a38334e582068ea94af2b,"Use symbols instead of strings as keys for systemd user property (#5241)
+
+* Use symbols instead of strings as keys for systemd user property related funcs
+
+* Fix tests for provider/service/systemd for when user property is set
+
+* Change hash in systemctl_opts to use symbols instead of strings
+
+* Fix tests for chef/provider/systemd_unit.rb",joshuamiller01,https://api.github.com/repos/chef/chef/git/commits/3f33d7a105801c31ae7a38334e582068ea94af2b
+cc3534025d105861c412490cb60bc7a754fb6d66,"Merge pull request #5264 from chef/rhass/COOL-502
+
+Only support Solaris 10u11 and newer",rhass,https://api.github.com/repos/chef/chef/git/commits/cc3534025d105861c412490cb60bc7a754fb6d66
+d622a1a8234c228ec617d932aff376ea157d66b7,"Fixes GH-4955, allowing local gems with remote dependencies",jyaworski,https://api.github.com/repos/chef/chef/git/commits/d622a1a8234c228ec617d932aff376ea157d66b7
+c7a9d89d4cbc7a2b794bc25d13100915149dc02f,Normalize full key name to avoid resource update on identical key names,bai,https://api.github.com/repos/chef/chef/git/commits/c7a9d89d4cbc7a2b794bc25d13100915149dc02f
+0b06faa49c567ff8fb0dafd52af236cdb0206515,Updated location for latest release notes,davidwrede,https://api.github.com/repos/chef/chef/git/commits/0b06faa49c567ff8fb0dafd52af236cdb0206515
+39774946fbbd8b1f7d3267df3fcb7369ad5cac6d,"Convert attributes defined as literal arrays
+
+VividMash, unlike Mash, does not recursively convert values inside
+arrays, just the array itself.
+As such, hashes inside arrays are not converted to *Mash, introducing
+a behaviour that differs from Chef 11, e.g.
+
+having this attr defined
+
+node['foo'] = [ { 'attr' => 'value' } ]
+
+in Chef 11 `node[:foo][0][:attr]` returns `'value'` while in Chef 12 it
+returns `nil`
+
+This commit fixes VividMash so arrays are recursively converted and the
+behaviour restored.
+
+Plus, immutablize merge_all result, so to be sure that hashes contained
+in Arrays are properly immutablized as well, so not existing attributes
+are not automatically vivified (thus returning an empty VividMash
+instead of nil)
+
+This problem was first reported in chef/chef#2871.
+
+Signed-off-by: Giacomo Bagnoli <gbagnoli@gmail.com>",gbagnoli,https://api.github.com/repos/chef/chef/git/commits/39774946fbbd8b1f7d3267df3fcb7369ad5cac6d
+63624a13e6fcbe313eb956eceab5d406bea5edfb,Add trailing newline to generated 15update-stamp (obvious fix),pwalz,https://api.github.com/repos/chef/chef/git/commits/63624a13e6fcbe313eb956eceab5d406bea5edfb
+ba770a8f6418c3603e1861dfcc64f6fc3865ccaf,"Updates to the Contributing process document
+
+Paired with @tas50 to update the contributing process document for clarity.",brit-smith,https://api.github.com/repos/chef/chef/git/commits/ba770a8f6418c3603e1861dfcc64f6fc3865ccaf
+5a83658dd77f1d43fccb7321a116645095e238de,"Set yum_repository gpgcheck default to true
+
+Fixes https://github.com/chef/chef/issues/5397",shortdudey123,https://api.github.com/repos/chef/chef/git/commits/5a83658dd77f1d43fccb7321a116645095e238de
+09886bad1411faa86b9e716712b4dad62b8330bd,Adding support for cab files to Chef package provider on windows,Vasu1105,https://api.github.com/repos/chef/chef/git/commits/09886bad1411faa86b9e716712b4dad62b8330bd
+3f22571dfa424ffad434ad203c8e1f0bc5b677b4,Adding support for rfc 62 exit code 213,jeremymv2,https://api.github.com/repos/chef/chef/git/commits/3f22571dfa424ffad434ad203c8e1f0bc5b677b4
+a28b5024f9725939e2bd3666e83d5ea576b5ffa3,"Refactored Chef::Provider::User to short circuit and provider better comparison of home paths to fix Issue #5444
+
+Signed-off-by: Geoffrey Hichborn <geoff@socialcast.com>",phene,https://api.github.com/repos/chef/chef/git/commits/a28b5024f9725939e2bd3666e83d5ea576b5ffa3
+f3e8c95def2f34f15fcb114284f86060a7fa73d5,"Rebuild HTTP headers on each retried request
+
+Depending on how you configure your Chef client, it's possible that a
+later retry would have an authentication timestamp header
+(`X-OPS-TIMESTAMP`) that was more than 900 seconds old. Since the Chef
+server treats timestamps older than this threshold as unauthorized
+requests, you would potentially get seemingly spurious ""401
+Unauthorized"" responses from the server.
+
+A solution is to generate the headers on each retry so that we have a
+new authentication timestamp for each retried request.
+
+Signed-off-by: Shane da Silva <shane@dasilva.io>",sds,https://api.github.com/repos/chef/chef/git/commits/f3e8c95def2f34f15fcb114284f86060a7fa73d5
+ec2a68b88947dc9c809b7254b3217e896756c63d,"Merge pull request #5465 from chef/rhass/COOL-541_update-ec2-tags
+
+Update EC2 tags for internal standards compliance.",tduffield,https://api.github.com/repos/chef/chef/git/commits/ec2a68b88947dc9c809b7254b3217e896756c63d
+42766ae4e01de7655367e76cb8de4d5ec733b560,"[BEN-123] Fix IPS package must create symlinks to package commands
+
+Create symlinks.erb template to exists in local project directory structure
+to enable IPS package to create required symlinks for installed commands
+
+Signed-off-by: Jaymala Sinha <jsinha@chef.io>",jaymalasinha,https://api.github.com/repos/chef/chef/git/commits/42766ae4e01de7655367e76cb8de4d5ec733b560
+ad14362fe3c7b1a67aeca43328705c97c9c9c3cb,"Merge pull request #5498 from chef/2919/ssl_fetch_no_cn
+
+Updating knife ssl fetch to correctly store certificate when it does not have a CN",rmoshier,https://api.github.com/repos/chef/chef/git/commits/ad14362fe3c7b1a67aeca43328705c97c9c9c3cb
+c1caccb4f10a86b8d59a7ea4a8c0bf22d0c1ba83,"Add a default GID for user creation on MacOS (#5393)
+
+* Avoid ArgumentError
+
+new_resource.gid.to_s will be empty if a recipe calls the user resource without gid and changes the home property. Will result in an exception and if chef is run by root, the home dir will end up being owned by root from the mv.
+
+* Avoid chown issues when using manage_home and not specifying a gid
+
+Using a sensible CONSTANT for gid when new_resource.gid.nil?
+
+Signed-off-by: Chris Gerke <chris.gerke@gmail.com>",cgerke,https://api.github.com/repos/chef/chef/git/commits/c1caccb4f10a86b8d59a7ea4a8c0bf22d0c1ba83
+1395d34e87e3a0d36e266b10172ce85c463d9f60,"Fixed 5459 - Purge yum cache before deleting repo config (#5509)
+
+Signed-off-by: Ian C. Ward <ian.ward@disney.com>",iancward,https://api.github.com/repos/chef/chef/git/commits/1395d34e87e3a0d36e266b10172ce85c463d9f60
+ce93d225ebd9c37e98d37fa830d00d19e2d3da3f,"Fix converge_if_changed (#5508)
+
+sensitive is the property of the resource, not the provider.",axos88,https://api.github.com/repos/chef/chef/git/commits/ce93d225ebd9c37e98d37fa830d00d19e2d3da3f
+29ff4157f6144cc73967414cea60d7f426f00b91,"launchd: start_calendar_interval validity checking
+
+StartCalendarInterval has some gotchas so we coerce it to sanity check.
+
+According to `man 5 launchd.plist`:
+  StartCalendarInterval [is a] <dictionary of integers or array of dictionaries of integers>
+    ... Missing arguments are considered to be wildcard.
+
+What the man page doesn't state, but what was observed (OSX 10.11.5, launchctrl v3.4.0) is that key that are specified, _but with invalid values, will also be silently treated as a wildcard values.
+
+This means that an entry like:
+  { ""Hour""=>0, ""Weekday""=>""6-7""}
+will not just run on midnight of Sat and Sun, rather it will run _every_ midnight.
+
+We check to make sure that the values are integers and not strings, adhering to the manpage documentation.
+
+This also ensures that only keys that StartCalendarInterval supports will be passed.
+This eliminates passing a key (like `:hour` or `'hour') and thinking it works when in reality launchd is just treating it as a wildcard.
+
+NOTE: This is a ""breaking"" change in that: it will break existing cookbooks that are using the current docs: https://docs.chef.io/resource_launchd.html (See start_calendar_interval); however the generated plist doesn't appear to actually do what was intended anyway.",ErebusBat,https://api.github.com/repos/chef/chef/git/commits/29ff4157f6144cc73967414cea60d7f426f00b91
+2a833acf7e83ab96a4889c5befeb0c0b1e449163,"PowerShell module output pass through
+
+This commit fixes #4045 where the output from any of the chef executables wrapped by the module functions would not allow redirection or variable capture.
+
+Signed-off-by: Vince Rimkus <vjrimkus@outlook.com>",vrimkus,https://api.github.com/repos/chef/chef/git/commits/2a833acf7e83ab96a4889c5befeb0c0b1e449163
+cb80ec75d07c5ba68b882da6637a8b5783dd7a6d,"Remove debug write
+
+Obvious fix.
+Introduced in: e57e29b96b75ff7fc04abb7f9db73920b2a5894a
+
+Signed-off-by: Adam Ward <adamw@subdesigns.net>",atward,https://api.github.com/repos/chef/chef/git/commits/cb80ec75d07c5ba68b882da6637a8b5783dd7a6d
+8bd5b66d5781948446c051793da06fbf63a542de,"Add support to cab_package for non-English system locales
+
+When using cap_package on Windows with non-English system locales, such as Russian, chef-client throws up an error:
+undefined method `[]' for nil:NilClass
+The reason is that dism.exe output is in russian language and therefore cannot be parsed.
+This PR ensures that output of dism.exe will be always in English.",jugatsu,https://api.github.com/repos/chef/chef/git/commits/8bd5b66d5781948446c051793da06fbf63a542de
+7155ed0447bf558536ed76f109e28fe72848dbe4,"knife client delete should delete multiple nodes
+
+Signed-off-by: Jose Asuncion <jeunito@gmail.com>",jeunito,https://api.github.com/repos/chef/chef/git/commits/7155ed0447bf558536ed76f109e28fe72848dbe4
+e0c2ccbb1132146b7a96019095483ee08f9e26ce,"Modify `knife configure` example `chef_server_url`
+
+A working `knife.rb` needs `chef_server_url` to contain `organizations`
+in it's url.
+
+Signed-off-by: Jerry Aldrich III <jerry@chef.io>",jerryaldrichiii,https://api.github.com/repos/chef/chef/git/commits/e0c2ccbb1132146b7a96019095483ee08f9e26ce
+df8b88b095d6abb8c63e5d666f300a3cd47b3158,"linux mount provider - skip device detection for zfs
+
+Signed-off-by: Tomasz Rudzki (ttr) <ttr@ttrsite.net>",ttr,https://api.github.com/repos/chef/chef/git/commits/df8b88b095d6abb8c63e5d666f300a3cd47b3158
+0577a89efc9e0b1d44c804fd2a5a32c8360a4e70,"Fixes #5256
+
+Chocolatey packages with version will give error
+changes chocolatey tests to use --version instead of -version
+
+Signed-off-by: Spencer Owen <owenspencer@gmail.com>",spuder,https://api.github.com/repos/chef/chef/git/commits/0577a89efc9e0b1d44c804fd2a5a32c8360a4e70
+a0342df6a901110a48f1f2d4074d7bb5ea3cdc30,"Ensure chef-solo creates node files w/ correct permissions
+
+This commit ensures that the `nodes` dir and the node files within
+it are created with the correct permissions by chef-solo.
+
+Signed-off-by: Scott Christopherson <scott@chef.io>",scottopherson,https://api.github.com/repos/chef/chef/git/commits/a0342df6a901110a48f1f2d4074d7bb5ea3cdc30
+205eb04f3e50216d2e1014ffbe8545fba6868890,"Ensures correct version of shutdown is called when using the reboot resource on Windows (#5596)
+
+Use a fixed path to shutdown.exe on windows in Chef::Platform::Rebooter, fixes #5594
+
+Signed-off-by: Christoph Griesshammer <cgriesshammer@gmail.com>",Xoph,https://api.github.com/repos/chef/chef/git/commits/205eb04f3e50216d2e1014ffbe8545fba6868890
+43904cae774d95d354dbccff7cfede63c9aac1ae,"Fix for creating users in non english windows machines: uses SID instead of name to identify Users group
+
+Signed-off-by: Ricardo Pescuma Domenecci <ricardo@pescuma.org>",pescuma,https://api.github.com/repos/chef/chef/git/commits/43904cae774d95d354dbccff7cfede63c9aac1ae
+f0809fbb1c08ad14faed9c51f861a94373a39d27,Rubcop violations in alt-user execute common code,adamedx,https://api.github.com/repos/chef/chef/git/commits/f0809fbb1c08ad14faed9c51f861a94373a39d27
+2bb6389156deae1499a8ca7a69955da36da709d9,"Fix chef_platform_methods deprecation class name
+
+Deprecation warnings for Chef::Platform methods introduced in #5631 were
+logged as e.g. `""Class.set is deprecated""` instead of `""Chef::Platform.set is
+deprecated""`
+
+This gets correct class name for message and adds unit specs to cover
+the expected deprecation messages.
+
+Unfortunately for these specs, some of these methods use each other,
+resulting in multiple warnings. I have put an expectation for each of
+these to avoid masking any other deprecations.
+
+Signed-off-by: Bill Ruddock <bill.ruddock@gmail.com>",biinari,https://api.github.com/repos/chef/chef/git/commits/2bb6389156deae1499a8ca7a69955da36da709d9
+5b8cbe0d41762efcd8b3fba12aba4a689eca8fa7,"Don't `rescue Exception` for retriable resources
+
+Without this, sending an interrupt signal (hitting Ctrl+C) during a
+chef-client run that is currently executing a resources that has
+`retries` set will not interrupt the run, although the interrupt handler
+set up in Chef::Application calls Process.exit, which raises SystemExit.
+
+If the retryable resource is shelling out, the spawned process also gets
+the INT signal and will stop -- however, the chef-run would go on,
+merely noticing that the resource has failed and theres X-1 retries
+left.
+
+It is imaginable that users depend on some (whacky) Ruby script in a
+retriable resource that raises SystemExit, and they want this to _not_
+stop the chef-run. So it's up for debate if we just want to merge this
+or make it configurable.
+
+In general, I'd like Ctrl+C to _stop my chef-run_, but this expectation
+could also be misled.
+
+When adapting tests to this change, it became apparent that for some
+reason the runner_spec.rb test didn't behave as expected. I've thus made
+those tests a little stricter by replacing some allows by expects.
+
+Signed-off-by: Stephan Renatus <srenatus@chef.io>",srenatus,https://api.github.com/repos/chef/chef/git/commits/5b8cbe0d41762efcd8b3fba12aba4a689eca8fa7
+3a86fef3572203fd5780fdf2e9d254b3fc9409cc,"set default guard_interpreter to powershell_script
+
+Signed-off-by: Tor Magnus Rakvåg <tm@intility.no>",Happycoil,https://api.github.com/repos/chef/chef/git/commits/3a86fef3572203fd5780fdf2e9d254b3fc9409cc
+248950845e09996a6f2efd1b0af5a8473fda7452,fixing small typo,bernardoVale,https://api.github.com/repos/chef/chef/git/commits/248950845e09996a6f2efd1b0af5a8473fda7452
+c90401fa936353550b7658a2a9f4908cf6d27a40,"apt-key finger no longer matches extract fingerprints regex
+
+Signed-off-by: Matt Whiteley <mattwhiteley@gmail.com>",whiteley,https://api.github.com/repos/chef/chef/git/commits/c90401fa936353550b7658a2a9f4908cf6d27a40
+1bc27a316b8f4c990b8a7e3d1c15d12f7ffe4468,"Updated to fix day validation with monthly frequency
+
+This should fix issue #6104
+Signed-off-by: Corey Hemminger <corey.hemminger@nativex.com>",Stromweld,https://api.github.com/repos/chef/chef/git/commits/1bc27a316b8f4c990b8a7e3d1c15d12f7ffe4468
+788bbff36108a6952da19538150e685ae45694d1,"Add support for HTTP PATCH requests
+
+Signed-off-by: James Broadhead <james.broadhead@mongodb.com>",jamesbroadhead,https://api.github.com/repos/chef/chef/git/commits/788bbff36108a6952da19538150e685ae45694d1
+922c9f931396d16da6984bd31f767ade6495355e,"Generate a valid Gemfile, even multiple gem declaration with keyword arguments exist.
+
+Previously, keyword argemunts to the gem declarations would just be appended, resulting in invalid Gemfiles. Now, keyword arguments are merged together. In case of conflict, the last declaration will win.
+
+Signed-off-by: Ole Claussen <claussen.ole@gmail.com>",oclaussen,https://api.github.com/repos/chef/chef/git/commits/922c9f931396d16da6984bd31f767ade6495355e
+4f9701ff91cc8382aee138d825b847d3d7dbed9f,"Fix chomp error for nil class
+
+Signed-off-by: piyushawasthi <piyush.awasthi@msystechnologies.com>",piyushawasthi,https://api.github.com/repos/chef/chef/git/commits/4f9701ff91cc8382aee138d825b847d3d7dbed9f
+e1695dc8005ea7d24ffc24c75098b976adbd1c9c,Bump version of chef to 13.2.14 by Chef Expeditor.,chef-delivery,https://api.github.com/repos/chef/chef/git/commits/e1695dc8005ea7d24ffc24c75098b976adbd1c9c
+ae4d04bbe366199e4597b375b43c254d0117c989,"[MSYS-590] Make mount idempotent on Aix (#6213)
+
+* Make mount idempotent on Aix
+
+Signed-off-by: NAshwini <ashwini.nehate@msystechnologies.com>",NAshwini,https://api.github.com/repos/chef/chef/git/commits/ae4d04bbe366199e4597b375b43c254d0117c989
+abeb0667fac989259a04ccea95d887110de85f3a,README improvement for Chef beginner.,takaya-fuj19,https://api.github.com/repos/chef/chef/git/commits/abeb0667fac989259a04ccea95d887110de85f3a
+8e6fa3bbfbce3e3affce1f03e78b644f5fa16b18,"Fix typos
+
+Signed-off-by: Akira Kitada <akitada@gmail.com>",akitada,https://api.github.com/repos/chef/chef/git/commits/8e6fa3bbfbce3e3affce1f03e78b644f5fa16b18
+65cecea8f155a1d2762b86e88702c9fb91ca5213,"Fix git command in DCO sign-off example
+
+Previously the first dash in `--amend` was a unicode en dash (U+2013)
+rather than a hyphen, which results in the confusing:
+```
+$ git commit –-amend -s
+error: pathspec '–-amend' did not match any file(s) known to git.
+```
+
+Signed-off-by: Ed Morley <edmorley@users.noreply.github.com>",edmorley,https://api.github.com/repos/chef/chef/git/commits/65cecea8f155a1d2762b86e88702c9fb91ca5213
+bc5acbe0d0f1d7e1de409694ff56cd721598c31f,"Fix an issue where DeepMerge overwrites nil values
+
+When run against a VividMash.
+
+Call .key? instead of [] when checking if a key exists for a VividMash
+Otherwise the VividMash will return an empty object instead of nil for
+that key.
+
+Signed-off-by: DJ Mountney <david@twkie.net>",twk3,https://api.github.com/repos/chef/chef/git/commits/bc5acbe0d0f1d7e1de409694ff56cd721598c31f
+5a3ce72aa017839b468ac86bf033829908b915a4,"Bumps bundler version to 1.15.4
+
+Signed-off-by: jakauppila <Jared@Kauppi.la>",jakauppila,https://api.github.com/repos/chef/chef/git/commits/5a3ce72aa017839b468ac86bf033829908b915a4
+f74cade60ded63f26248a38447824a732d581588,"Support an array of keys for apt_repository
+
+Signed-off-by: Gavin Reynolds <g.reynolds@src.gla.ac.uk>",gsreynolds,https://api.github.com/repos/chef/chef/git/commits/f74cade60ded63f26248a38447824a732d581588
+67ffd6694bf0e00f188b007284858c9bee51d770,"Don't catch SIGCHLD from dnf_helper.py
+
+dnf_helper.py was configured to catch the SIGCHLD signal and quit if it
+was received.  In Fedora26 I have found that the fill_sack call in the
+dnf python package may shell out causing a SIHCHLD call.  This results
+in no information as the helper just exits before finding a package.
+
+This removes the helper restoring the default handling of SIGCHLD which
+is to ingore it.
+
+Obvious fix.
+
+Fixes: 6393
+
+Signed-off-by: Brandon Bennett <bbennett@fb.com>",nemith,https://api.github.com/repos/chef/chef/git/commits/67ffd6694bf0e00f188b007284858c9bee51d770
+523b6f106ab217ce06a7b7555404a1a6fe45c9f8,"if id_only specified, create result filter containing magic filter only
+
+Signed-off-by: Dmitry Shestoperov <dmitry@shestoperov.info>",dimsh99,https://api.github.com/repos/chef/chef/git/commits/523b6f106ab217ce06a7b7555404a1a6fe45c9f8
+414858767b52d47065312c68adcc2a60fa517fa4,"dnf_resource: be more specific for rhel packages
+
+With #6351 and #6377, the DNF package provider was fixed to use yum by
+default on RHEL 7, but the resource was still calling the DNF provider
+if it happened to be installed.
+
+We want to use the default of yum for RHEL 7, and only use DNF if we
+call `set_priority_map` directly.
+
+Signed-off-by: Naomi Reeves <naomi.c.reeves@gmail.com>
+
+Resolves: Unexpectedly switching package managers",NaomiReeves,https://api.github.com/repos/chef/chef/git/commits/414858767b52d47065312c68adcc2a60fa517fa4
+ea68edc855e43f2c6c07eab046b81d273111f72e,"Fix issue #2351, chef-client doesn't make /etc/chef if the directory doesn't exist
+
+Signed-off-by: Justin Seely <justin.seely@gmail.com>",jseely,https://api.github.com/repos/chef/chef/git/commits/ea68edc855e43f2c6c07eab046b81d273111f72e
+4cc81ce45ea0e7b851c622d8a18b33e1177b85cb,"Don't allow creation of data bags named node, role, client or environment.
+
+Signed-off-by: Sandra Tiffin <sandi.tiffin@gmail.com>",sandratiffin,https://api.github.com/repos/chef/chef/git/commits/4cc81ce45ea0e7b851c622d8a18b33e1177b85cb
+7a397fad0a72ceaa5374db860f0a051e3f49f5d1,"Sleep for another interval after handling SIGHUP
+
+Signed-off-by: Giedrius Rekasius <giedrius.rekasius@gmail.com>
+
+This resolves a bug that caused chef-client service to go into
+infinite sleep after handling SIGHUP.",grekasius,https://api.github.com/repos/chef/chef/git/commits/7a397fad0a72ceaa5374db860f0a051e3f49f5d1
+a4b0fb6d4a4c21cfb8ca00af30d8cfb3beaa2bbe,"Add an 's' for quantity of 0 cookbooks.
+
+Uploaded 0 cookbook. -> Uploaded 0 cookbooks.
+
+Obvious fix.",anoadragon453,https://api.github.com/repos/chef/chef/git/commits/a4b0fb6d4a4c21cfb8ca00af30d8cfb3beaa2bbe
+55d8f5c04eb2370560ee21609ec590659766743d,"use a stricter comparison here so knife ssh only fails if
+--exit-on-error
+
+Signed-off-by: Sarkis Varozian <svarozian@gmail.com>",sarkis,https://api.github.com/repos/chef/chef/git/commits/55d8f5c04eb2370560ee21609ec590659766743d
+0762237c6deb110aad940e4514955ec07789e7c3,"replace deprecated Dir.exists? with Dir.exist?
+
+.rvm/gems/ruby-2.4.2/gems/chef-config-13.6.4/lib/chef-config/path_helper.rb:238:
+warning: Dir.exists? is a deprecated name, use Dir.exist? instead",thomasdziedzic-pd,https://api.github.com/repos/chef/chef/git/commits/0762237c6deb110aad940e4514955ec07789e7c3
+ab2aad50f613eb9b2f59da2c1452b27fd3f2f589,"Filter out periods from tmux session name
+
+Fixes #6592
+
+Signed-off-by: Tony Novak <tony@getnexar.com>",afn,https://api.github.com/repos/chef/chef/git/commits/ab2aad50f613eb9b2f59da2c1452b27fd3f2f589
+3d871edbffc973c7b481656bb694d837492a74b7,"fix argument to restorecon not being shell-escaped
+
+Signed-off-by: David Ashby <delta.mu.alpha@gmail.com>",deltamualpha,https://api.github.com/repos/chef/chef/git/commits/3d871edbffc973c7b481656bb694d837492a74b7
+b1b889406efaf65940726c5f6ee2316b785fa600,"add :create, :delete, and :configure actions to the windows_service resource.
+
+Developer's Certificate of Origin 1.1
+
+By making a contribution to this project, I certify that:
+
+(a) The contribution was created in whole or in part by me and I
+    have the right to submit it under the open source license
+    indicated in the file; or
+
+(b) The contribution is based upon previous work that, to the
+    best of my knowledge, is covered under an appropriate open
+    source license and I have the right under that license to
+    submit that work with modifications, whether created in whole
+    or in part by me, under the same open source license (unless
+    I am permitted to submit under a different license), as
+    Indicated in the file; or
+
+(c) The contribution was provided directly to me by some other
+    person who certified (a), (b) or (c) and I have not modified
+    it.
+
+(d) I understand and agree that this project and the contribution
+    are public and that a record of the contribution (including
+    all personal information I submit with it, including my
+    sign-off) is maintained indefinitely and may be redistributed
+    consistent with this project or the open source license(s)
+    involved.
+
+Signed-off-by: Jason Barnett <jason.w.barnett@gmail.com>",jasonwbarnett,https://api.github.com/repos/chef/chef/git/commits/b1b889406efaf65940726c5f6ee2316b785fa600
+64682ef126de4717d69d748c3b6204ea7cf5eb0f,"Hide sensitive properties in converge_if_changed.
+
+Signed-off-by: Chris Arnold <cma.arnold@gmail.com>",cma-arnold,https://api.github.com/repos/chef/chef/git/commits/64682ef126de4717d69d748c3b6204ea7cf5eb0f
+d02109af0f33a34dccd7c1f190b368a5deaa3ff4,Fixing missing and/or inconsistent quoting in knife search documentation,andyfeller,https://api.github.com/repos/chef/chef/git/commits/d02109af0f33a34dccd7c1f190b368a5deaa3ff4
+3ee897c4f8eed8c1de61ffe60378d4eb1fa5136e,"Fix related to #3058
+
+I think there was a bug introduced by #3058 where any data bag *containing* reserved words are seen as invalid",EmFl,https://api.github.com/repos/chef/chef/git/commits/3ee897c4f8eed8c1de61ffe60378d4eb1fa5136e
+f381504a00fa65e609ca4942483881a0aea2416a,"Fix issue with Powershell function buffer
+
+Issue Fixed:
+
+https://github.com/chef/chef-dk/issues/1236
+
+Signed-off-by: John Snow <thelunaticscripter@outlook.com>",TheLunaticScripter,https://api.github.com/repos/chef/chef/git/commits/f381504a00fa65e609ca4942483881a0aea2416a
+5320cbf9b41789a46a5c5c0a2d818966c9716405,"Remove update-rc.d -n (dryrun) option.
+
+init-system-helpers 1.50 removed the broken -n (dryrun) option.
+
+https://anonscm.debian.org/git/collab-maint/init-system-helpers.git/commit/?id=e0d3d2261c91c5d3dd8a980fcc5244b3b6ce8158
+
+Signed-off-by: Vinson Lee <vlee@freedesktop.org>",vinsonlee,https://api.github.com/repos/chef/chef/git/commits/5320cbf9b41789a46a5c5c0a2d818966c9716405
+0085fb335b0aca604340df0e76792e58d3dffd63,"Ensure package (un)locking is idempotent
+
+Due to the nature of the comparison done, the `package_locked` methods
+will always return false as they presume the package name is a string,
+when it is in fact always coerced into an array.
+
+Additionally in situations where the package_name is set rather than
+being inherited from the package resource's name, it will always return
+false.
+
+Resolves #6361
+Resolves #6493
+
+Signed-off-by: Andy Wagner <andy@andywagner.ca>",Rarian,https://api.github.com/repos/chef/chef/git/commits/0085fb335b0aca604340df0e76792e58d3dffd63
+3f54ed4ddfc6f394906cc160ebff2e41448fbd4e,"Check for set home property before file existence (fixes #5777)
+
+Signed-off-by: Sean Karlage <skarlage@fb.com>",get9,https://api.github.com/repos/chef/chef/git/commits/3f54ed4ddfc6f394906cc160ebff2e41448fbd4e
+a1c2fa3d3f64d85e16ce45f66c3d1f8b516799ce,"Fix knife status to show seconds when needed #5055
+
+When a node.save operation is executed and a ""knife status"" is
+immediately executed I get ""xx minutes"" instead of ""xx seconds"".
+
+The code behind 'knife status' isn't designed to have the ability to
+format the time difference in seconds.
+
+To remediate issue, make sure there is a condition in place to format
+the time difference in seconds when appropriate.
+
+Signed-off-by: Chibuikem Amaechi <cramaechi@me.com>",cramaechi,https://api.github.com/repos/chef/chef/git/commits/a1c2fa3d3f64d85e16ce45f66c3d1f8b516799ce
+18756f5ca30fcef03286dafe096e9c3135760683,"Prevent knife search --id-only from outputting IDs in the same format as an empty hash
+
+Signed-off-by: Zane Geiger <zane.geiger@relativity.com>",zanecodes,https://api.github.com/repos/chef/chef/git/commits/18756f5ca30fcef03286dafe096e9c3135760683
+f5cd3f34f0f7383d76e3a3601d8306eb13f5daf1,"ui.fatal if ssh nodes are duplicated
+
+Signed-off-by: linyows <linyows@gmail.com>",linyows,https://api.github.com/repos/chef/chef/git/commits/f5cd3f34f0f7383d76e3a3601d8306eb13f5daf1
+f1368f819ad7091e1c18b7476802040db5a58df9,Avoid apt (dpkg) prompts for modified config files,ccope,https://api.github.com/repos/chef/chef/git/commits/f1368f819ad7091e1c18b7476802040db5a58df9
+7d265d26e96d8cc5ec43874e8b425929dedf9441,"Fix windows_task idle_time validation
+
+Two improvements:
+- Compare frequency to :idle_time instead of comparing to an incomplete list of other frequencies
+- Keep all the validation logic in the function instead of splitting it between the function and where the function is called
+
+Added some specs tests too
+
+Signed-off-by: Alan Gauthier <algaut35@gmail.com>",algaut,https://api.github.com/repos/chef/chef/git/commits/7d265d26e96d8cc5ec43874e8b425929dedf9441
+fc70228d6950e023f938ec41cf6de69e8bddd08e,"Suppress key data value if sensitive (fixes #5695)
+
+Signed-off-by: Stephen Hoekstra <shoekstra@schubergphilis.com>",shoekstra,https://api.github.com/repos/chef/chef/git/commits/fc70228d6950e023f938ec41cf6de69e8bddd08e
+59086f0e757dd92b3b2b14ad21914091e281b498,"Add support for knife bootstrap-preinstall-command
+Signed-off-by: S. Cavallo <smcavallo@hotmail.com>",smcavallo,https://api.github.com/repos/chef/chef/git/commits/59086f0e757dd92b3b2b14ad21914091e281b498
+52e76ca30749d87ada0146d155c6c590db52a9a1,"updating paranoid to verify_host_key for net-ssh for 4.2 greater and updating gemspec.
+
+This breaks net-ssh 4.1 and lowers backwards compatibility
+
+Signed-off-by: Vern Burton <me@vernburton.com>",tarcinil,https://api.github.com/repos/chef/chef/git/commits/52e76ca30749d87ada0146d155c6c590db52a9a1
+bd4937ce55896113452034deebcf61a8ac353e28,"Added Flag to distinguish between gateway and host key to fix issue #6210 (#6514)
+
+* Added Flag to distinguish between gateway and host key to fix issue #6210
+
+Signed-off-by: Erik <Erik.Parra4@gmail.com>",erikparra,https://api.github.com/repos/chef/chef/git/commits/bd4937ce55896113452034deebcf61a8ac353e28
+d8db7cac2d8b07a3b3fcc6e1cc13f83fe569ee6c,"[knife] Don't crash when a deprecated cookbook has no replacement (#6853)
+
+* Don't crash when a deprecated cookbook has no replacement",rlyders,https://api.github.com/repos/chef/chef/git/commits/d8db7cac2d8b07a3b3fcc6e1cc13f83fe569ee6c
+ea281aa0c43f0894e876529316bbb7aefd6cc5fd,"Added source_file to FromFile
+
+This new field tracks the file from which the object was loaded.
+
+Signed-off-by: Zeal Jagannatha <zealjagannatha@gmail.com>",zfjagann,https://api.github.com/repos/chef/chef/git/commits/ea281aa0c43f0894e876529316bbb7aefd6cc5fd
+cb177a7c7b160dbb7d485aca00bddb62f253b5b0,"better docs for Chef::Provider::Service::Upstart.supports?
+
+Signed-off-by: Brad <bradarv90@gmail.com>",bradarv90,https://api.github.com/repos/chef/chef/git/commits/cb177a7c7b160dbb7d485aca00bddb62f253b5b0
+08b31872bf4094bbef474cae6de6c90fb4245a99,"Stripping out Authorization header on redirect to a different host
+
+Signed-off-by: Noam Lerner <noamler@fb.com>",bugok,https://api.github.com/repos/chef/chef/git/commits/08b31872bf4094bbef474cae6de6c90fb4245a99
+1065395824680c979c81761f8bfaae301e189946,"Force unf_ext to 0.0.7.6 in Gemfile.
+
+Signed-off-by: Jared Quick <jquick@chef.io>",jquick,https://api.github.com/repos/chef/chef/git/commits/1065395824680c979c81761f8bfaae301e189946
+5ba51335a24fe014b938df9c4983b1e2f3336210,"Fix NoMethodError when (un)locking single packages in apt and zypper
+
+These resources don't coerce `package_name` to an array so would raise an
+exception when trying to call `name.all?` when `package_name`, and thus `name`,
+was a string.
+
+Signed-off-by: Jonathan Hartman <j@hartman.io>",RoboticCheese,https://api.github.com/repos/chef/chef/git/commits/5ba51335a24fe014b938df9c4983b1e2f3336210
+e09b9b3d3a6602407ab2dff44333d1c0a8d25d17,"Add support for route metric (#7140)
+
+
+Signed-off-by: Tom Doherty <tom.doherty@fixnetix.com>",tomdoherty,https://api.github.com/repos/chef/chef/git/commits/e09b9b3d3a6602407ab2dff44333d1c0a8d25d17
+ebdd1475af631339927c92d15c6e2000d0db07d5,"Added Chef::Config[:clear_gem_sources] default to false
+
+Signed-off-by: Thomas Gordon <nrgetik@users.noreply.github.com>",nrgetik,https://api.github.com/repos/chef/chef/git/commits/ebdd1475af631339927c92d15c6e2000d0db07d5
+057c2c6bc4516ace97230465ea8f6ffafc9ba34e,"Remove redundant ""?"" in knife configure
+
+RK: Obvious fix.
+
+Signed-off-by: Robb Kidd <robb@thekidds.org>",alexymik,https://api.github.com/repos/chef/chef/git/commits/057c2c6bc4516ace97230465ea8f6ffafc9ba34e
+ef66a3fdc512684a079fd6712feff9e13cb941e0,"repo_name property is part of new_resource object
+
+Signed-off-by: Thomas Anderson <thomas@tjanderson.net>",thomasjdev,https://api.github.com/repos/chef/chef/git/commits/ef66a3fdc512684a079fd6712feff9e13cb941e0
+ab3a6d2af400fa09e4111e7ed3eb4dcc85a91acd,"improved regex accuracy lib/chef/resource/hostname.rb
+
+Signed-off-by: Bernhard Ott <bernhard.ott@westernacher.com>",bottkv488,https://api.github.com/repos/chef/chef/git/commits/ab3a6d2af400fa09e4111e7ed3eb4dcc85a91acd
+da8dcb98cf650708b6a9d44fa6ef2339e0b0f64c,"Check local file exists before installing a windows package
+
+Signed-off-by: Josh Barker <josh.barker.developer@gmail.com>",josh-barker,https://api.github.com/repos/chef/chef/git/commits/da8dcb98cf650708b6a9d44fa6ef2339e0b0f64c
+11b05207eb12f2efe00d268f0b7cac658fa462fd,"quote git remote_url
+
+Signed-off-by: Malcolm McFarland <malcolm@hoprocker.net>",hoprocker,https://api.github.com/repos/chef/chef/git/commits/11b05207eb12f2efe00d268f0b7cac658fa462fd
+f6962f86e20ce4a5dcc5a860b31d58b161f80e6e,"[MSYS-843] -
+- Added functionality 'remove_account_right' to remove the type of logon that a user account can perform.
+- Added rspec
+
+Signed-off-by: nimesh-msys <nimesh.patni@msystechnologies.com>",Nimesh-Msys,https://api.github.com/repos/chef/chef/git/commits/f6962f86e20ce4a5dcc5a860b31d58b161f80e6e
+5884ae1cc5419e9b15d0e0f963a8c45229be2f76,Restart Python yum helper before each repo enable/disable,cosinusoidally,https://api.github.com/repos/chef/chef/git/commits/5884ae1cc5419e9b15d0e0f963a8c45229be2f76
+b552b6f17fbb377bbd8c54cdb285a8a23ef541e5,"update class name
+Signed-off-by: Derek Groh <derekgroh@github.io>",derekgroh,https://api.github.com/repos/chef/chef/git/commits/b552b6f17fbb377bbd8c54cdb285a8a23ef541e5
+3fcfed8a713dd131de9b6c1bb560440468353fd3,"Edits to RELEASE_NOTES.md
+
+Signed-off-by: kagarmoe <kgarmoe@chef.io>",kagarmoe,https://api.github.com/repos/chef/chef/git/commits/3fcfed8a713dd131de9b6c1bb560440468353fd3
+7ccfb96bacbfe7c5aa3bc19eb79653701fbf04ab,"Add fix for filespecificity regex
+
+Signed-off-by: Scott McGillivray <scott.mcgillivray@gmail.com>",thechile,https://api.github.com/repos/chef/chef/git/commits/7ccfb96bacbfe7c5aa3bc19eb79653701fbf04ab
+9d8c46e4e9422d769d6dc4238f48204ee259aeee,"add locale resource to chef
+
+Signed-off-by: Vincent AUBERT <vincentaubert88@gmail.com>",vincentaubert,https://api.github.com/repos/chef/chef/git/commits/9d8c46e4e9422d769d6dc4238f48204ee259aeee
+e0f76aa5492a6f99d11d09f5ca4830609db6f658,"Add @jjlimepoint as a maintainer for chef-provisioning
+
+Signed-off-by: Jaymz Julian <jjulian@limepoint.com>",jjlimepoint,https://api.github.com/repos/chef/chef/git/commits/e0f76aa5492a6f99d11d09f5ca4830609db6f658
+1c4e8364dfb689b98be40bbeab140ba6838dd2ca,"Removing incorrect grammar, now that the exception message is aware of package quantity.
+
+Signed-off-by: Daniel Greeninger <dgreeninger@onica.com>
+
+Developer's Certificate of Origin 1.1
+
+By making a contribution to this project, I certify that:
+
+(a) The contribution was created in whole or in part by me and I
+    have the right to submit it under the open source license
+    indicated in the file; or
+
+(b) The contribution is based upon previous work that, to the
+    best of my knowledge, is covered under an appropriate open
+    source license and I have the right under that license to
+    submit that work with modifications, whether created in whole
+    or in part by me, under the same open source license (unless
+    I am permitted to submit under a different license), as
+    Indicated in the file; or
+
+(c) The contribution was provided directly to me by some other
+    person who certified (a), (b) or (c) and I have not modified
+    it.
+
+(d) I understand and agree that this project and the contribution
+    are public and that a record of the contribution (including
+    all personal information I submit with it, including my
+    sign-off) is maintained indefinitely and may be redistributed
+    consistent with this project or the open source license(s)
+    involved.",dgreeninger,https://api.github.com/repos/chef/chef/git/commits/1c4e8364dfb689b98be40bbeab140ba6838dd2ca
+6150fdea14946067da2964819b861b6870b60e3e,"Add RHEL 8 platform-python to python binary search list in DNF for package resource
+
+Signed-off-by: pixdrift <support@pixeldrift.net>",pixdrift,https://api.github.com/repos/chef/chef/git/commits/6150fdea14946067da2964819b861b6870b60e3e
+b5e05b699fa5a6bd914dd04e6993513b462c7220,"Bump version to 14.6.0 by Chef Expeditor
+
+Obvious fix; these changes are the result of automation not creative thinking.",chef-ci,https://api.github.com/repos/chef/chef/git/commits/b5e05b699fa5a6bd914dd04e6993513b462c7220
+bd7b55711f6e0f601b9da17f10867efb7581887c,"fixed typo in description
+
+Signed-off-by: Joshua Colson <joshua.colson@gmail.com>",freakinhippie,https://api.github.com/repos/chef/chef/git/commits/bd7b55711f6e0f601b9da17f10867efb7581887c
+a245100e1e2ecb4bba2209a3ca1f9a3744be7cc9,"better docs for Chef::Knife::Bootstrap#validate_options!
+
+Signed-off-by: Alexandre Ignjatovic <alexandre.ignjatovic@gmail.com>",bankair,https://api.github.com/repos/chef/chef/git/commits/a245100e1e2ecb4bba2209a3ca1f9a3744be7cc9
+2cec195d857027743e6910ceb80617467f0986b2,"Enable x86_64-linux-kernel2 habitat builds for chef-client
+
+Signed-off-by: Scott Macfarlane <smacfarlane@chef.io>",smacfarlane,https://api.github.com/repos/chef/chef/git/commits/2cec195d857027743e6910ceb80617467f0986b2
+4422560c0f4f6c69775ba9c035f4ac86eb56b8db,"Added windows support for the timezone resource
+
+Signed-off-by: username-is-already-taken2 <digitalgaz@hotmail.com>",username-is-already-taken2,https://api.github.com/repos/chef/chef/git/commits/4422560c0f4f6c69775ba9c035f4ac86eb56b8db
+c61bcb5ff071400ca90f0db125ef7eab3bb1fe4f,"- Added `description` property on windows_task resource
+
+Signed-off-by: kapil chouhan <kapil.chouhan@msystechnologies.com>",kapilchouhan99,https://api.github.com/repos/chef/chef/git/commits/c61bcb5ff071400ca90f0db125ef7eab3bb1fe4f
+b7a78c23307a3484405e082f5fc2b6363169a566,"use --no-tty during apt-keys for gpg
+
+Signed-off-by: Eugen Mayer <eugen.mayer@kontextwork.de>
+
+Since debian 9.4+ (and probably other distros having a similar GPG path level) gpg complains about the missing tty - we use this to tell gpg that no tty will be available.
+
+I cannot think about a way how this should break anything - we simply have no tty and never had here. All we do is tell gpg upfront before it fails doing silly checks on it.
+Thinking twice, if gpg right now has tried to get tty it would have failed anyway, e.g. for ncurses questions or such.
+
+I think this strategy should be rather bullet proof. I tested this using `vagrant ssh` without `-i` and it worked, withtout `--no-tty` it was broken as expected",EugenMayer,https://api.github.com/repos/chef/chef/git/commits/b7a78c23307a3484405e082f5fc2b6363169a566
+bcf36fd7749ea63dc41f25b2ae7f15f6b4de9c10,"copyediting
+
+Signed-off-by: Mary Jinglewski <mjinglewski@chef.io>",mjingle,https://api.github.com/repos/chef/chef/git/commits/bcf36fd7749ea63dc41f25b2ae7f15f6b4de9c10
+524a649b9bb7565c0a65aedb2aad8c63ec20ac2c,"Fix for apt_repository creating temp files as root in running user home directory
+
+Signed-off-by: vijaymmali1990 <vijay.mali@msystechnologies.com>",vijaymmali1990,https://api.github.com/repos/chef/chef/git/commits/524a649b9bb7565c0a65aedb2aad8c63ec20ac2c
+fa1c9b5fbedda8cbadc006af49af99b2727f94ad,"Remove unnessary code blocks in the knife cookbook upload command
+
+Signed-off-by: Fatih Sarhan <f9n@protonmail.com>",f9n,https://api.github.com/repos/chef/chef/git/commits/fa1c9b5fbedda8cbadc006af49af99b2727f94ad
+cd7ed9743176533e22df634f6f6891f4ba4a44e8,"Updates homebrew_cask tap name
+
+Homebrew cask was merged into homebrew some time ago: https://github.com/Homebrew/homebrew-cask/issues/14384#issuecomment-242328541.
+
+Afterwards the homebrew-cask repositories were also moved to the Homebrew organization.
+
+Also see https://github.com/chef-cookbooks/homebrew/pull/134
+
+Signed-off-by: Jeroen Jacobs <chef@jeroenj.be>",jeroenj,https://api.github.com/repos/chef/chef/git/commits/cd7ed9743176533e22df634f6f6891f4ba4a44e8
+6c091de2dc5dd27551e818a2487b4b28c5564e49,"Starting point: copy usermod and usermod spec
+
+Signed-off-by: Joshua Justice <jjustice6@bloomberg.net>",jjustice6,https://api.github.com/repos/chef/chef/git/commits/6c091de2dc5dd27551e818a2487b4b28c5564e49
+509524f09b778afef4c15a00ddcb58bc197583fd,"Fixes for extra cookbook_path chef-solo
+  - Create directory recursively instead to assume that parent dir should exist.
+
+Signed-off-by: Vivek Singh <vivek.singh@msystechnologies.com>",vsingh-msys,https://api.github.com/repos/chef/chef/git/commits/509524f09b778afef4c15a00ddcb58bc197583fd
+ea53a79c9fb0a44f099c789ef61878a6a905e24e,"Update Share Bug Fix
+
+Fixes issue where updating a share will cause the share to be deleted
+but not re-created until chef is next run, and for chef to fail the run
+
+Signed-off-by: Jason Field <jason@avon-lea.co.uk>",Xorima,https://api.github.com/repos/chef/chef/git/commits/ea53a79c9fb0a44f099c789ef61878a6a905e24e
+88af7519a99993dd6afbd19e61cd804cd67151fa,"fix aix mount bug
+
+Without a newline separating entries, AIX will not allow the entry
+preceding the one managed by Chef to be mounted anymore - this
+appears not to be an issue for already-mounted filesystems. See
+Zendesk ticket 20952 for more details.
+
+Signed-off-by: Shaun Mouton <smouton@chef.io>",moutons,https://api.github.com/repos/chef/chef/git/commits/88af7519a99993dd6afbd19e61cd804cd67151fa
+8d9d18672d9f124d5f702474680ee2c25f43ee35,"fix undefined local variable 'recipes_path'
+
+Developer's Certificate of Origin 1.1
+
+By making a contribution to this project, I certify that:
+
+(a) The contribution was created in whole or in part by me and I
+    have the right to submit it under the open source license
+    indicated in the file; or
+
+(b) The contribution is based upon previous work that, to the
+    best of my knowledge, is covered under an appropriate open
+    source license and I have the right under that license to
+    submit that work with modifications, whether created in whole
+    or in part by me, under the same open source license (unless
+    I am permitted to submit under a different license), as
+    Indicated in the file; or
+
+(c) The contribution was provided directly to me by some other
+    person who certified (a), (b) or (c) and I have not modified
+    it.
+
+(d) I understand and agree that this project and the contribution
+    are public and that a record of the contribution (including
+    all personal information I submit with it, including my
+    sign-off) is maintained indefinitely and may be redistributed
+    consistent with this project or the open source license(s)
+    involved.
+
+Signed-off-by: Adam Bewsher <adam.bewsher@neos.co.uk>",ABewsher,https://api.github.com/repos/chef/chef/git/commits/8d9d18672d9f124d5f702474680ee2c25f43ee35
+dcd0ff9cb1cf24327e2cf1efb46a7f45426168be,"Bump license-acceptance to 1.0.8 to resolve failures on Windows 2016
+
+Signed-off-by: Aaron Walker <aaronpwalker@gmail.com>",aaronwalker,https://api.github.com/repos/chef/chef/git/commits/dcd0ff9cb1cf24327e2cf1efb46a7f45426168be
+1ac56538b6865b76ec11490d946546548960c15f,"Fix delete_resource for resources
+
+with multiple providers
+
+Fixes: https://github.com/chef/chef/issues/6158
+
+Signed-off-by: Artem Sidorenko <artem.sidorenko@t-systems.com>",artem-sidorenko,https://api.github.com/repos/chef/chef/git/commits/1ac56538b6865b76ec11490d946546548960c15f
+f14c4ab4bc32714f9a745d37380fff43c776207d,add LaunchEvents to launchd resource,chilcote,https://api.github.com/repos/chef/chef/git/commits/f14c4ab4bc32714f9a745d37380fff43c776207d
+b09187f85157fad6a8f29f08c09a69eac3f0bee5,"Fixed issue for chef-client run was throwing error when provided empty string with it (#8200)
+
+* fixed issue for chef-client run was throwing error when provided empty string with it
+
+Signed-off-by: vinay033 <vsharma@chef.io>",vinay033,https://api.github.com/repos/chef/chef/git/commits/b09187f85157fad6a8f29f08c09a69eac3f0bee5
+bf23769d7901a79623732d0db68d11a832b3ab40,"Improving error handling for template render
+
+While Chef already implements a nice amount of information
+in `TemplateError#to_s`, when using ChefSpec with RSpec, the `#to_s`
+is not called, leaving us with no source information for template
+errors.
+
+By adding the filename to `Erubis::Eruby` initialization, we can get
+a better backtrace that will show up in RSpec output.
+
+Signed-off-by: Gabriel Mazetto <brodock@gmail.com>",brodock,https://api.github.com/repos/chef/chef/git/commits/bf23769d7901a79623732d0db68d11a832b3ab40
+71fe79cae89a57b37f6750466e96f49eedc9097b,"(GH-8580) Add ability to toggle Chocolatey feature
+
+Add the ability to enable and disable a named Chocolatey feature by
+creating a new Chef resource named chocolatey_feature.  This accepts a
+single property either from feature_name or directly from name attribute
+then, based on the defined action, will either enable or disable that
+feature.  Resource inspects the current state of the chocolatey.config
+in order to decide whether a change is required or not.
+
+Signed-off-by: Gary Ewan Park <gep13@gep13.co.uk>",gep13,https://api.github.com/repos/chef/chef/git/commits/71fe79cae89a57b37f6750466e96f49eedc9097b
+9b542ef9a12ea66a769723718711d7dc0267a3f8,"Update Habitat Build with license acceptance and make package more flexible.
+
+Signed-off-by: Nathan Cerny <ncerny@gmail.com>",ncerny,https://api.github.com/repos/chef/chef/git/commits/9b542ef9a12ea66a769723718711d7dc0267a3f8
+cc5a9963bc109d79ba554ba1638d57cb548d8c0d,"fix zypper_package upgrade provider and unit tests to verify
+
+Signed-off-by: Jeremy Chalfant <jchalfan@us.ibm.com>",foobarbam,https://api.github.com/repos/chef/chef/git/commits/cc5a9963bc109d79ba554ba1638d57cb548d8c0d
+f59239c0977b9ae58936264fe9a6a26d1143f677,"added scaffolding-chef plan
+
+Signed-off-by: echohack <echohack@users.noreply.github.com>",echohack,https://api.github.com/repos/chef/chef/git/commits/f59239c0977b9ae58936264fe9a6a26d1143f677
+b9c5b8306f43e43e708563f072918565dceb0ce2,"add group to windows_firewall_rule resource
+
+Signed-off-by: Patrick Schaumburg <pschaumburg@tecracer.de>",pschaumburg,https://api.github.com/repos/chef/chef/git/commits/b9c5b8306f43e43e708563f072918565dceb0ce2
+242adc15a5dd74f7315d08b760bb11aadea2db3b,"Fix RDoc copy-pasta in Chef::Mixin::ParamsValidate#validate
+
+Signed-off-by: Reuben Garrett <ruby@rubydono.net>
+
+The RDoc for `Chef::Mixin::ParamsValidate#validate`
+appears to have inadvertently copied the (helpful)
+inline pseudocode of the `:is` option to the `:equal_to` option
+in commit 28f17b36a9d041be8ed50e20ae06fa5f5ea1fb38.
+
+Obvious fix.",RubyTuesdayDONO,https://api.github.com/repos/chef/chef/git/commits/242adc15a5dd74f7315d08b760bb11aadea2db3b
+789ced10df4e1dca44522996a379008542d8081c,"Property: Reorder comparison with NOT_PASSED.
+
+The original comparison `value == NOT_PASSED` ends up calling `.<=>` on
+value under the hood. This relies on the implementation of `<=>`/`cmp`
+not being broken in that class.
+
+Unfortunately, some classes like OpenSSL::X509::Name have broken
+implementations of `<=>` that raise TypeError instead of returning nil
+for mismatched types. https://github.com/ruby/openssl/pull/264
+
+As a result, currently, if you attempt to set a resource property to an
+OpenSSL::X509::Name object, the result is a TypeError.
+
+With this change, we use the implementation of comparison from the
+NOT_PASSED object instead, which we know will work no matter what.
+
+Signed-off-by: Andy Brody <git@abrody.com>",ab,https://api.github.com/repos/chef/chef/git/commits/789ced10df4e1dca44522996a379008542d8081c
+f16d01218b35f917411334f8f7c1ff3c8e568358,"Updated knife cookbook metadata from file command banner
+- Added file in banner
+
+Signed-off-by: Amol Shinde <amol.shinde@msystechnologies.com>",samshinde,https://api.github.com/repos/chef/chef/git/commits/f16d01218b35f917411334f8f7c1ff3c8e568358
+1e90c1b0650060e96129b2d50ef5f24ae7eac2ec,"Fix crash when showing error about missing profile
+
+Before:
+
+    /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/chef-config-15.1.36/lib/chef-config/mixin/credentials.rb:92:in `load_credentials': undefined local variable or method `credentials_file' for #<ChefConfig::WorkstationConfigLoader:0x00007fe01c8321e8> (NameError)
+
+After:
+
+    ERROR: CONFIGURATION ERROR:Profile xyz doesn't exist. Please add it to /Users/developer/.chef/credentials.
+
+It looks like this was missed as part of the refactoring in
+d730505bb0d53d14c7b005c756ed4993b95fdf94.
+
+Signed-off-by: Andrew Neitsch <andrew@neitsch.ca>",andrewdotn,https://api.github.com/repos/chef/chef/git/commits/1e90c1b0650060e96129b2d50ef5f24ae7eac2ec
+241324a1728dea9d71da3cf09288368b85675c08,"Fix simple typo: acceptannce -> acceptance
+
+Obvious Fix.",timgates42,https://api.github.com/repos/chef/chef/git/commits/241324a1728dea9d71da3cf09288368b85675c08
+952af6de51dafb40759393842ba129bc3f661049,"Fix typo when checking for existing chef-client
+
+The knife bootstrap is always installing chef-client due to a typo in
+the test that checks for the existance of the executable.
+
+Signed-off-by: Will Fisher <wfisher@chef.io>",teknofire,https://api.github.com/repos/chef/chef/git/commits/952af6de51dafb40759393842ba129bc3f661049
+1c642e292f1356454e0e226c7d33c3bb45dec8fb,"update syntax of `update-rc.d` commands in enable & disable actions
+
+Previous implementation was built for an outdated version of
+`update-rc.d` and it used commands that no longer work.
+
+The `stop` and `start` commands were removed in 2.88.dsf-42 [1]:
+
+```
+  * sysv-rc:
+    - update-rc.d no longer supports non-dependency-based boot.
+      + Remove non-insserv codepaths.
+      + Warn if the start or stop actions are used.
+      + Skip runlevel mismatch warnings if default action is used
+        (no arguments to validate).
+      + Update manual page to remove start and stop actions, plus
+        manual setting of boot sequence ordering; note that start
+        and stop are no longer supported.  Closes: #606505.
+```
+
+and has been since ported to all currently supported Debian
+distributions (including Jessie, released in 2015).
+
+Both `start` and `stop` commands now effectively call `defaults`.
+
+As a result of this `action_disable` did not disable a service, it would
+enable it instead. Chef would execute the following commands on disable:
+
+```
+/usr/sbin/update-rc.d -f <service_name> remove
+/usr/sbin/update-rc.d -f <service_name> stop 80 2 3 4 5 .
+```
+
+But `update-rc.d` would effectively run:
+
+```
+/usr/sbin/update-rc.d -f <service_name> remove
+/usr/sbin/update-rc.d <service_name> defaults
+```
+
+And the service gets enabled instead.
+
+With changes in this commit Chef will effectively run the following
+commands:
+
+```
+/usr/sbin/update-rc.d -f <service_name> remove
+/usr/sbin/update-rc.d <service_name> defaults
+/usr/sbin/update-rc.d <service_name> disable
+```
+
+The service is now disabled, as expected.
+
+Additionally `priority` support has been dropped entirely from code as
+it's not supported by `update-rc.d` either.
+
+It's potentially a breaking change on a very outdated distributions and
+it could be worked around with additional `if/else` branches, but given
+all non-EOLed distros have up-to-date version of `update-rc.d` available
+it didn't feel worth the complexity.
+
+[1] https://launchpad.net/debian/+source/sysvinit/2.88dsf-42
+
+Signed-off-by: Rob Ulejczyk <rulejczyk@gmail.com>",robuye,https://api.github.com/repos/chef/chef/git/commits/1c642e292f1356454e0e226c7d33c3bb45dec8fb
+37b763b64ae13e27d1b1de847e041441942fd498,"Add options parameter for kernel_module
+
+This adds a new parameter called ``options`` which allows users to set module
+specific parameters and settings. This option file needs to be run before
+loading the module so that the settings get loaded properly.
+
+Signed-off-by: Lance Albertson <lance@osuosl.org>",ramereth,https://api.github.com/repos/chef/chef/git/commits/37b763b64ae13e27d1b1de847e041441942fd498
+72504526cb7b6d2f09d5da771ab362eae583042d,"Consolidated changes to sysctl.rb
+
+- adds comment block support to sysctl resource
+
+Signed-off-by: Stuart Sears <stuart@sjsears.com>",lanky,https://api.github.com/repos/chef/chef/git/commits/72504526cb7b6d2f09d5da771ab362eae583042d
+4893b4e4e205c3a17c562dc5ec18c30c5f3116a1,"Bump Ruby to 2.6.5 to address CVEs #8951
+
+Signed-off-by: Christopher A. Snapp <csnapp@chef.io>",christopher-snapp,https://api.github.com/repos/chef/chef/git/commits/4893b4e4e205c3a17c562dc5ec18c30c5f3116a1
+851bc0cf4def93cb3506a24d655d4a189cf930a8,"Avoid a PATH environment variable update before a windows package install
+
+Signed-off-by: Jeremy HAGE <jha@jsh-consulting.com>",jeremyhage,https://api.github.com/repos/chef/chef/git/commits/851bc0cf4def93cb3506a24d655d4a189cf930a8
+a2b57c35a5107c833d0cfa971b3b9ed7c52d876b,"Fix typo in license notice
+
+
+Signed-off-by: Philippe Ombredanne <pombredanne@nexb.com>",pombredanne,https://api.github.com/repos/chef/chef/git/commits/a2b57c35a5107c833d0cfa971b3b9ed7c52d876b
+768d0f18a091622902e7eefcb6b2f68bc17d3145,"Modifed linux_user resource to add an additional 'returns' field to each action method s
+hell_out reference. This fixes an issue related to certain commands returning non-0 exit codes but still functioning
+as exptected
+
+Signed-off-by: Jonathan Jones <gitmaster@thespooky.house>",skippyj,https://api.github.com/repos/chef/chef/git/commits/768d0f18a091622902e7eefcb6b2f68bc17d3145
+5a589a8843d638331daaa4d11b877bce0b78fee0,"restoring correct value to windows event source
+
+Signed-off-by: Marc Chamberland <chamberland.marc@gmail.com>",bobchaos,https://api.github.com/repos/chef/chef/git/commits/5a589a8843d638331daaa4d11b877bce0b78fee0
+55b7c810f3f6c4893e1219fc899152c27a435f65,"Spelling, punctuation, grammar
+
+Signed-off-by: Ernie Hershey <github@ernie.org>",ehershey,https://api.github.com/repos/chef/chef/git/commits/55b7c810f3f6c4893e1219fc899152c27a435f65
+d3f2a1b9e0bc6f8356b988b07d4a9af1f042e8dd,"Specify item path in Node.read! error message
+
+Obvious fix.",zeusttu,https://api.github.com/repos/chef/chef/git/commits/d3f2a1b9e0bc6f8356b988b07d4a9af1f042e8dd
+afc883e252f6e158323e55892525fd4f7cb15bcc,"Add the capability to automatically renew a certificate with x509_certificate resource
+
+Signed-off-by: Julien Huon <julien@huon.email>",julienhuon,https://api.github.com/repos/chef/chef/git/commits/afc883e252f6e158323e55892525fd4f7cb15bcc
+4db30dff339ee19811f4c20a044f41645f4bc6bf,"Update CONTRIBUTING.md
+
+added a sentence about how to sign off when using the GitHub web ui to make changes
+
+Signed-off-by: susanev <susan.ra.evans@gmail.com>",susanev,https://api.github.com/repos/chef/chef/git/commits/4db30dff339ee19811f4c20a044f41645f4bc6bf
+8a0dd4477232713f5afd60a5b856c0430aea5a66,"Clear password flags when setting the password
+
+This will clear the password flags when the password is set for this user. This ensures that the user will not be prompted to change their password on next login.
+
+Signed-off-by: Aron List <aronotmar@live.nl>",Triodes,https://api.github.com/repos/chef/chef/git/commits/8a0dd4477232713f5afd60a5b856c0430aea5a66
+dcf0ec97c64f12b2ac240240658ff4dd29bf565c,"launchd: Fix capitalization of HardResourceLimits
+
+Seems to have been a typo.
+You can check e.g. https://developer.apple.com/library/archive/documentation/MacOSX/Conceptual/BPSystemStartup/Chapters/CreatingLaunchdJobs.html or https://www.launchd.info/ for the proper capitalization.
+
+Signed-off-by: Marc Seeger <mseeger@fb.com>",rb2k,https://api.github.com/repos/chef/chef/git/commits/dcf0ec97c64f12b2ac240240658ff4dd29bf565c
+8e0fd798f228648360a0b14a382f364cb1bd9222,"declare_resource.rb: consistently use `/x/y.txt`
+
+The code examples inconsistently refer to `/x/y.txy` as well as `x/y.txt`, it seems that the latter is intended.
+
+Obvious fix.
+
+Signed-off-by: Michel Alexandre Salim <michel@fb.com>",michel-slm,https://api.github.com/repos/chef/chef/git/commits/8e0fd798f228648360a0b14a382f364cb1bd9222
+c22e314ce8e9ad1b6b91125272e4e33c5ce2e35c,"Fix fuzzy node search to work when the search type is a string rather than a symbol
+
+Signed-off-by: Mia Henderson <mia@pagerduty.com>",mimato,https://api.github.com/repos/chef/chef/git/commits/c22e314ce8e9ad1b6b91125272e4e33c5ce2e35c
+fcf10d7dcf772e876a7f712d4b4d8a1ceff2a2b1,"Fix for domain_user from different domain, in windows_ad_join
+
+Signed-off-by: srb3 <sbrown@chef.io>",srb3,https://api.github.com/repos/chef/chef/git/commits/fcf10d7dcf772e876a7f712d4b4d8a1ceff2a2b1
+8c43ea6352277ed24ab5cde4025925dc27cd8364,"Fix require in test.
+
+Signed-off-by: Pete Higgins <pete@peterhiggins.org>",phiggins,https://api.github.com/repos/chef/chef/git/commits/8c43ea6352277ed24ab5cde4025925dc27cd8364
+c7a824e43080813db8da0e63ca090f587c4ea7f0,"Powershell script replaced with the ohai data
+
+Signed-off-by: sanga17 <sausekar@msystechnologies.com>",sanga1794,https://api.github.com/repos/chef/chef/git/commits/c7a824e43080813db8da0e63ca090f587c4ea7f0
+9cbd0771f528f09ebf1f66727067ea2449e07403,"Fix windows_firewall_rule resource for rules with multiple associated profiles
+
+Signed-off-by: Thomas Heinen <theinen@tecracer.de>",tecracer-theinen,https://api.github.com/repos/chef/chef/git/commits/9cbd0771f528f09ebf1f66727067ea2449e07403
+40353d06191524de4a9289d132c1c1eb7bd8d518,"support Catalina softwareupdate output (""Label: "") and support updating CLT when updates are available
+
+Signed-off-by: Harry Seeber <harry@sysop.ooo>",w0de,https://api.github.com/repos/chef/chef/git/commits/40353d06191524de4a9289d132c1c1eb7bd8d518
