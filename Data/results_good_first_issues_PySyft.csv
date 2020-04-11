@@ -1,0 +1,423 @@
+Issue Description,Assignees to the Issue,Link
+Extend nn.Module() with Support for Federated Learning of non-parameter information,,https://github.com/OpenMined/PySyft/issues/3236
+Enhance encryption API,,https://github.com/OpenMined/PySyft/issues/3212
+adding german translated tutorial 1st notebook,,https://github.com/OpenMined/PySyft/pull/3178
+Installation error: invalid command 'udacity',,https://github.com/OpenMined/PySyft/issues/3152
+FLOptimizer,,https://github.com/OpenMined/PySyft/issues/3141
+Remove ZSTD,,https://github.com/OpenMined/PySyft/issues/3134
+Add latency simulation to Virtual workers,,https://github.com/OpenMined/PySyft/issues/3007
+Handcrafted RNNs are not Tested At All,,https://github.com/OpenMined/PySyft/issues/2926
+Consolidate Translated Notebooks into Single Notebook Series (Multi-Language),,https://github.com/OpenMined/PySyft/issues/2917
+Cleanup FixedPrecisionTensor,,https://github.com/OpenMined/PySyft/issues/2897
+Remove Numpy from LargePrecisionTensor,,https://github.com/OpenMined/PySyft/issues/2872
+Send (or not) Autograd Tensor,,https://github.com/OpenMined/PySyft/issues/2797
+Translate our tutorials to Korean,,https://github.com/OpenMined/PySyft/issues/2794
+Multi-Language Notebook Support in Tutorials,,https://github.com/OpenMined/PySyft/issues/2783
+Translate our tutorials to your native language!,,https://github.com/OpenMined/PySyft/issues/2782
+Translate our tutorials to German,,https://github.com/OpenMined/PySyft/issues/2781
+Translate our tutorials to Japanese,,https://github.com/OpenMined/PySyft/issues/2780
+Translate our tutorials to Simplified Chinese / Chiniese,,https://github.com/OpenMined/PySyft/issues/2778
+Translate our tutorials to Portuguese,,https://github.com/OpenMined/PySyft/issues/2777
+Translate our tutorials to Portuguese,,https://github.com/OpenMined/PySyft/issues/2776
+Translate our tutorials to Spanish,,https://github.com/OpenMined/PySyft/issues/2775
+search over tagged AdditiveSharingTensor,,https://github.com/OpenMined/PySyft/issues/2768
+Add Paillier CUDA Support,,https://github.com/OpenMined/PySyft/issues/2747
+Single run_websocket_server.py file,,https://github.com/OpenMined/PySyft/issues/2744
+"Benchmark FixedPrecision, LargePrecision and CRTPrecision",,https://github.com/OpenMined/PySyft/issues/2734
+Copy Paste Notebook Tutorials into Unit Tests,,https://github.com/OpenMined/PySyft/issues/2731
+Single effective send of plan to worker,,https://github.com/OpenMined/PySyft/issues/2710
+Fix Beaver triple generation,,https://github.com/OpenMined/PySyft/issues/2708
+Allow worker registration of objects within python context,,https://github.com/OpenMined/PySyft/issues/2689
+"Protocol.plans should be a dictionary, not a list of tuples",,https://github.com/OpenMined/PySyft/issues/2683
+Send & Get datasets,,https://github.com/OpenMined/PySyft/issues/2670
+Wrong printout  in workers' verbose mode,,https://github.com/OpenMined/PySyft/issues/2665
+handle_command_function doesn't use @overloaded.module for pure tensors,,https://github.com/OpenMined/PySyft/issues/2637
+Invalid registration on tensor when calling .fix_prec().share(...),,https://github.com/OpenMined/PySyft/issues/2625
+.squeeze(1) transforms autograd gradient to None,,https://github.com/OpenMined/PySyft/issues/2621
+get_obj should raise a syft exception,,https://github.com/OpenMined/PySyft/issues/2608
+Use _send_msg for websocket clients,,https://github.com/OpenMined/PySyft/issues/2586
+Test send operation inside a plan,,https://github.com/OpenMined/PySyft/issues/2539
+Removing the sklearn dependency,,https://github.com/OpenMined/PySyft/issues/2535
+Better integration of Message class throughout codebase,,https://github.com/OpenMined/PySyft/issues/2531
+Calling .size() on a PointerTensor always returns a size of 0,,https://github.com/OpenMined/PySyft/issues/2527
+Optimize Message Detailing and Simplification,,https://github.com/OpenMined/PySyft/issues/2512
+Add documentation to the existing code base,,https://github.com/OpenMined/PySyft/issues/2510
+generate_triple in base.py,,https://github.com/OpenMined/PySyft/issues/2475
+"Add ""force_delete()"" method to Object Pointers (including TensorPointer)",,https://github.com/OpenMined/PySyft/issues/2448
+Move create_sandbox function,,https://github.com/OpenMined/PySyft/issues/2446
+"Add ""disable_garbage_collection"" and ""enable_garbage_collection"" flags to native.py",,https://github.com/OpenMined/PySyft/issues/2444
+"Serde is potentially simplifying information twice, creating a bad nested structure",,https://github.com/OpenMined/PySyft/issues/2424
+"All strings should simplify without ""b"" and additional comma",,https://github.com/OpenMined/PySyft/issues/2423
+Everything should simplify as a tuple in serde._simplify,,https://github.com/OpenMined/PySyft/issues/2422
+Hack PySyft,,https://github.com/OpenMined/PySyft/issues/2421
+"We double simplify the Plan.readable_plan object, making the plan quite large",,https://github.com/OpenMined/PySyft/issues/2412
+Add div support of autograd Tensor,,https://github.com/OpenMined/PySyft/issues/2336
+Add sy.__version__,,https://github.com/OpenMined/PySyft/issues/2334
+Fixed precision on LongTensor,,https://github.com/OpenMined/PySyft/issues/2327
+Few typing errors in tutorials,,https://github.com/OpenMined/PySyft/issues/2322
+Cosmetic space to add for TensorsNotCollocatedException,,https://github.com/OpenMined/PySyft/issues/2319
+3 Tests fail when local worker is verbose,,https://github.com/OpenMined/PySyft/issues/2279
+Monitoring network usage,,https://github.com/OpenMined/PySyft/issues/2256
+Faster torch.max for AdditiveSharedTensors,,https://github.com/OpenMined/PySyft/issues/2246
+Support more basic operations for AdditiveSharedTensor,,https://github.com/OpenMined/PySyft/issues/2245
+Raise Error When We Call .item() on a PointerTensor,,https://github.com/OpenMined/PySyft/issues/2227
+Raise Error when trying to share additively float values,,https://github.com/OpenMined/PySyft/issues/2176
+LargePrecisionTensor,,https://github.com/OpenMined/PySyft/issues/2145
+Move simplifier and detailer from serde to specific objects,,https://github.com/OpenMined/PySyft/issues/2110
+Plaintext-speed SMPC Linear Regression,,https://github.com/OpenMined/PySyft/issues/2069
+int(10e10 * random.random()) all over syft,,https://github.com/OpenMined/PySyft/issues/2063
+Add Jupyter Notebooks to Unit Tests (Travis),,https://github.com/OpenMined/PySyft/issues/2061
+Create a hook module,,https://github.com/OpenMined/PySyft/issues/2016
+Add status for Plan,,https://github.com/OpenMined/PySyft/issues/2003
+Increase test coverage to 100%,,https://github.com/OpenMined/PySyft/issues/1989
+Automatically add workers to known workers,,https://github.com/OpenMined/PySyft/issues/1958
+Can't have a worker with a id integer,,https://github.com/OpenMined/PySyft/issues/1939
+Replace conda with venv in travis,,https://github.com/OpenMined/PySyft/issues/1924
+Add serde for all torch types,,https://github.com/OpenMined/PySyft/issues/1920
+rename functions in hook_args.py to better say what they do,,https://github.com/OpenMined/PySyft/issues/1903
+Moving a module to cuda throws errors,,https://github.com/OpenMined/PySyft/issues/1893
+Function hooking bug in nn.functional (F.max_pool2d),,https://github.com/OpenMined/PySyft/issues/1878
+Add CIFAR10 to the sandbox,,https://github.com/OpenMined/PySyft/issues/1872
+Add MNIST to the sandbox,,https://github.com/OpenMined/PySyft/issues/1871
+Add data to workers on spinup,,https://github.com/OpenMined/PySyft/issues/1838
+Test hook.py should be modified to not use class structure,,https://github.com/OpenMined/PySyft/issues/1835
+More descriptive error (or warning) when workers can't see each other?,,https://github.com/OpenMined/PySyft/issues/1760
+Working Documentation,,https://github.com/OpenMined/PySyft/issues/1743
+Get rid of relative imports,,https://github.com/OpenMined/PySyft/issues/1631
+GREAT FIRST PROJECT: Make PySyft FAST!!!!,,https://github.com/OpenMined/PySyft/issues/1605
+Travis Errors,,https://github.com/OpenMined/PySyft/issues/1604
+Base Worker Command Statistics,,https://github.com/OpenMined/PySyft/issues/1602
+Combine Differential Privacy Demos with Federated Learning with Secure Aggregation Demo,,https://github.com/OpenMined/PySyft/issues/1556
+Refactor issue template,,https://github.com/OpenMined/PySyft/issues/1549
+Get workers method,,https://github.com/OpenMined/PySyft/issues/1548
+Documentation - Beat the Sphinx,,https://github.com/OpenMined/PySyft/issues/1539
+Add Functionality to FixedPrecisionTensor,,https://github.com/OpenMined/PySyft/issues/1532
+Rename MPCTensor -> SPDZTesnor,,https://github.com/OpenMined/PySyft/issues/1508
+[mpc_tensor] Handle nested args in `split_to_pointer_commands`,,https://github.com/OpenMined/PySyft/issues/1480
+Performance analysis of PySyft,,https://github.com/OpenMined/PySyft/issues/1479
+Type annotations for pysyft,,https://github.com/OpenMined/PySyft/issues/1456
+"Refactor: Special Documentation for ""How to Create a New Tensor Type""",,https://github.com/OpenMined/PySyft/issues/1448
+Reactor: Make PySyft Beautiful Again (MPBA),,https://github.com/OpenMined/PySyft/issues/1447
+Refactor: Docstrings -> Autodoc Upgrades ,,https://github.com/OpenMined/PySyft/issues/1445
+Add Logo and Color Scheme to Documentation,,https://github.com/OpenMined/PySyft/issues/1418
+Missing docstrings in TorchHook,,https://github.com/OpenMined/PySyft/issues/1412
+Full Test Coverage for Local/Remote Torch Tensor/Variable Operations,,https://github.com/OpenMined/PySyft/issues/1385
+Implement the inline Bernoulli function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1275
+Implement the Bernoulli function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1274
+Implement the inline Unsqueeze function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1271
+Implement the Unsqueeze function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1270
+Implement the inline Unfold function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1267
+Implement the Unfold function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1266
+Implement the inline Trunc function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1263
+Implement the Trunc function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1262
+Implement the inline Triu function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1259
+Implement the Triu function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1258
+Implement the inline Tril function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1255
+Implement the Tril function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1254
+Implement the inline Transpose function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1251
+Implement the Transpose function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1250
+Implement the inline Trace function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1247
+Implement the Trace function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1246
+Implement the inline Topk function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1243
+Implement the Topk function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1242
+Implement the inline Tolist function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1239
+Implement the Tolist function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1238
+Implement the inline Tanh function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1235
+Implement the Tanh function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1234
+Implement the inline Tan function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1231
+Implement the Tan function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1230
+Implement the inline Take function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1227
+Implement the Take function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1226
+Implement the inline T function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1223
+Implement the T function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1222
+Implement the inline Symeig function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1219
+Implement the Symeig function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1218
+Implement the inline Svd function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1215
+Implement the Svd function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1214
+Implement the inline Stride function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1211
+Implement the Stride function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1210
+Implement the inline Std function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1207
+Implement the Std function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1206
+Implement the inline Squeeze function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1203
+Implement the Squeeze function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1202
+Implement the inline Sqrt function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1199
+Implement the Sqrt function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1198
+Implement the inline Split function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1195
+Implement the Split function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1194
+Implement the inline Sort function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1191
+Implement the Sort function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1190
+Implement the inline Size function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1187
+Implement the Size function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1186
+Implement the inline Sinh function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1183
+Implement the Sinh function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1182
+Implement the inline Sin function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1179
+Implement the Sin function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1178
+Implement the inline Sign function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1175
+Implement the Sign function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1174
+Implement the inline Select function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1171
+Implement the Select function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1170
+Implement the inline Scatter function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1167
+Implement the Scatter function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1166
+Implement the inline Rsqrt function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1163
+Implement the Rsqrt function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1162
+Implement the inline Repeat function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1159
+Implement the Repeat function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1158
+Implement the inline Renorm function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1155
+Implement the Renorm function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1154
+Implement the inline Remainder function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1151
+Implement the Remainder function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1150
+Implement the inline Reciprocal function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1147
+Implement the Reciprocal function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1146
+Implement the inline Qr function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1143
+Implement the Qr function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1142
+Implement the Resize_as function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1141
+Implement the inline Resize_as function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1138
+Implement the Resize_as function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1137
+Implement the inline Put function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1134
+Implement the Put function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1133
+Implement the Put function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1130
+Implement the inline Pstrf function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1127
+Implement the Pstrf function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1126
+Implement the inline Prod function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1123
+Implement the Prod function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1122
+Implement the inline Pow function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1119
+Implement the Pow function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1118
+Implement the inline Potrs function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1115
+Implement the Potrs function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1114
+Implement the inline Potri function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1111
+Implement the Potri function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1110
+Implement the inline Potrf function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1107
+Implement the Potrf function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1106
+Implement the inline Permute function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1103
+Implement the Permute function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1102
+Implement the inline Ormqr function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1099
+Implement the Ormqr function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1098
+Implement the inline Orgqr function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1095
+Implement the Orgqr function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1094
+Implement the inline Norm function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1091
+Implement the Norm function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1090
+Implement the inline Nonzero function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1087
+Implement the Nonzero function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1086
+Implement the inline Nelement function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1083
+Implement the Nelement function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1082
+Implement the inline Nelement function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1080
+Implement the Nelement function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1079
+Implement the inline Neg function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1076
+Implement the Neg function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1075
+Implement the inline Ne function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1072
+Implement the Ne function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1071
+Implement the inline Ndimension function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1068
+Implement the Ndimension function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1067
+Implement the inline Narrow function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1064
+Implement the Narrow function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1063
+Implement the inline Mv function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1060
+Implement the Mv function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1059
+Implement the inline Mul function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1056
+Implement the Mul function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1055
+Implement the inline Mode function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1052
+Implement the Mode function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1051
+Implement the inline Mm function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1048
+Implement the Mm function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1047
+Implement the inline Matmul function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1044
+Implement the Matmul function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1043
+Implement the inline Lt function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1040
+Implement the Lt function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1039
+Implement the inline Lerp function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1036
+Implement the Lerp function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1035
+Implement the inline Le function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1032
+Implement the Le function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1031
+Implement the inline Kthvalue function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1028
+Implement the Kthvalue function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1027
+Implement the inline Inverse function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1024
+Implement the Inverse function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1023
+Implement the inline Masked_select function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1020
+Implement the Masked_select function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1019
+Implement the inline Masked_fill function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1016
+Implement the Masked_fill function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1015
+Implement the inline Masked_scatter function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1012
+Implement the Masked_scatter function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1011
+Implement the inline Is_contiguous function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1008
+Implement the Is_contiguous function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1007
+Implement the inline Index_select function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1004
+Implement the Index_select function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1003
+Implement the inline Index_fill function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/1000
+Implement the Index_fill function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/999
+Implement the inline Index_copy function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/995
+Implement the Index_copy function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/994
+Implement the inline Index_add function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/991
+Implement the Index_add function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/990
+Implement the inline Index function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/987
+Implement the Index function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/986
+Implement the inline Histc function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/983
+Implement the Histc function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/982
+Implement the inline Gt function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/979
+Implement the Gt function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/978
+Implement the inline Ger function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/975
+Implement the Ger function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/974
+Implement the inline Expand_as function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/971
+Implement the Expand_as function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/970
+Implement the inline Gels function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/967
+Implement the Gels function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/966
+Implement the inline Ge function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/963
+Implement the Ge function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/962
+Implement the inline Gather function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/959
+Implement the Gather function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/958
+Implement the inline Fmod function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/955
+Implement the Fmod function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/954
+Implement the inline Fill function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/951
+Implement the Fill function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/950
+Implement the inline Expand function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/947
+Implement the Expand function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/946
+Implement the inline Expm1 function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/943
+Implement the Expm1 function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/942
+Implement the inline Exp function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/939
+Implement the Exp function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/938
+Implement the inline Element_size function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/935
+Implement the Element_size function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/934
+Implement the inline Erfinv function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/931
+Implement the Erfinv function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/930
+Implement the inline Erf function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/927
+Implement the Erf function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/926
+Implement the inline Eig function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/923
+Implement the Eig function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/922
+Implement the inline Dot function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/919
+Implement the Dot function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/918
+Implement the inline Div function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/915
+Implement the Div function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/914
+Implement the inline Dist function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/911
+Implement the Dist function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/910
+Implement the inline Diag function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/907
+Implement the Diag function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/906
+Implement the inline Cumsum function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/903
+Implement the Cumsum function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/902
+Implement the inline Cross function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/899
+Implement the Cross function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/898
+Implement the inline Cosh function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/895
+Implement the Cosh function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/894
+Implement the inline Cos function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/891
+Implement the Cos function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/890
+Implement the inline Copy function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/887
+Implement the Copy function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/886
+Implement the inline Contiguous function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/883
+Implement the Contiguous function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/882
+Implement the inline Chunk function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/879
+Implement the Chunk function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/878
+Implement the inline Bmm function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/875
+Implement the Bmm function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/874
+Implement the inline Baddbm function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/871
+Implement the Baddbm function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/870
+Implement the inline Atan2 function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/867
+Implement the Atan2 function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/866
+Implement the inline Atan function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/863
+Implement the Atan function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/862
+Implement the inline Asin function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/859
+Implement the Asin function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/858
+Implement the inline Addr function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/855
+Implement the Addr function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/854
+Implement the inline Addmv function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/851
+Implement the Addmv function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/850
+Implement the inline Addmm function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/847
+Implement the Addmm function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/846
+Implement the inline Addcmul function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/843
+Implement the Addcmul function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/842
+Implement the inline Addcdiv function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/839
+Implement the Addcdiv function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/838
+Implement the inline Addbmm function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/835
+Implement the Addbmm function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/834
+Implement the inline Acos function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/831
+Implement the Acos function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/830
+Implement the inline Zero function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/827
+Implement the Zero function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/826
+Implement the inline Var function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/823
+Implement the Var function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/822
+Implement the inline Sum function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/819
+Implement the Sum function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/818
+Implement the inline Sub function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/815
+Implement the Sub function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/814
+Implement the inline Numel function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/811
+Implement the Numel function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/810
+Implement the inline Min function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/807
+Implement the Min function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/806
+Implement the inline Median function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/803
+Implement the Median function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/802
+Implement the inline Mean function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/799
+Implement the Mean function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/798
+Implement the inline Max function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/795
+Implement the Max function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/794
+Implement the inline Equal function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/791
+Implement the Equal function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/790
+Implement the inline Eq function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/787
+Implement the Eq function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/786
+Implement the inline Dim function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/783
+Implement the Dim function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/782
+Implement the inline Cumprod function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/779
+Implement the Cumprod function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/778
+Implement the inline Clone function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/775
+Implement the Clone function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/774
+Implement the inline Clamp function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/771
+Implement the Clamp function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/770
+Implement the inline Add function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/767
+Implement the Add function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/766
+Implement the inline Abs function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/763
+Implement the Abs function for IntTensor on the CPU,,https://github.com/OpenMined/PySyft/issues/762
+Test Issue Title,,https://github.com/OpenMined/PySyft/issues/757
+Implement the Add function for IntTensor on the CPU/GPU,,https://github.com/OpenMined/PySyft/issues/755
+Implement inline zero Functionality in FloatTensor with CPU/GPU Backend Support,,https://github.com/OpenMined/PySyft/issues/630
+Implement view Functionality in FloatTensor with CPU/GPU Backend Support,,https://github.com/OpenMined/PySyft/issues/628
+Implement inline uniform Functionality in FloatTensor with CPU/GPU Backend Support,,https://github.com/OpenMined/PySyft/issues/624
+Implement inline trunc Functionality in FloatTensor with CPU/GPU Backend Support,,https://github.com/OpenMined/PySyft/issues/620
+Implement trunc Functionality in FloatTensor with CPU/GPU Backend Support,,https://github.com/OpenMined/PySyft/issues/619
+Implement inline triu Functionality in FloatTensor with CPU/GPU Backend Support,,https://github.com/OpenMined/PySyft/issues/617
+Implement triu Functionality in FloatTensor with CPU/GPU Backend Support,,https://github.com/OpenMined/PySyft/issues/616
+Implement trace Functionality in FloatTensor with CPU/GPU Backend Support,,https://github.com/OpenMined/PySyft/issues/611
+Implement inline tanh Functionality in FloatTensor with CPU/GPU Backend Support,,https://github.com/OpenMined/PySyft/issues/608
+Implement tanh Functionality in FloatTensor with CPU/GPU Backend Support,,https://github.com/OpenMined/PySyft/issues/607
+Implement inline tan Functionality in FloatTensor with CPU/GPU Backend Support,,https://github.com/OpenMined/PySyft/issues/606
+Implement tan Functionality in FloatTensor with CPU/GPU Backend Support,,https://github.com/OpenMined/PySyft/issues/605
+Implement inline sub Functionality in FloatTensor with CPU/GPU Backend Support,,https://github.com/OpenMined/PySyft/issues/598
+Implement sub Functionality in FloatTensor with CPU/GPU Backend Support,,https://github.com/OpenMined/PySyft/issues/597
+Implement inline squeeze Functionality in FloatTensor with CPU/GPU Backend Support,,https://github.com/OpenMined/PySyft/issues/592
+Implement squeeze Functionality in FloatTensor with CPU/GPU Backend Support,,https://github.com/OpenMined/PySyft/issues/591
+Implement inline sqrt Functionality in FloatTensor with CPU/GPU Backend Support,,https://github.com/OpenMined/PySyft/issues/590
+Implement sqrt Functionality in FloatTensor with CPU/GPU Backend Support,,https://github.com/OpenMined/PySyft/issues/589
+Implement inline sinh Functionality in FloatTensor with CPU/GPU Backend Support,,https://github.com/OpenMined/PySyft/issues/585
+Implement sinh Functionality in FloatTensor with CPU/GPU Backend Support,,https://github.com/OpenMined/PySyft/issues/584
+Implement inline sin Functionality in FloatTensor with CPU/GPU Backend Support,,https://github.com/OpenMined/PySyft/issues/583
+Implement sin Functionality in FloatTensor with CPU/GPU Backend Support,,https://github.com/OpenMined/PySyft/issues/582
+Implement inline sign Functionality in FloatTensor with CPU/GPU Backend Support,,https://github.com/OpenMined/PySyft/issues/581
+Implement sign Functionality in FloatTensor with CPU/GPU Backend Support,,https://github.com/OpenMined/PySyft/issues/580
+Implement inline sigmoid Functionality in FloatTensor with CPU/GPU Backend Support,,https://github.com/OpenMined/PySyft/issues/579
+Implement sigmoid Functionality in FloatTensor with CPU/GPU Backend Support,,https://github.com/OpenMined/PySyft/issues/578
+Implement rsqrt Functionality in FloatTensor with CPU/GPU Backend Support,,https://github.com/OpenMined/PySyft/issues/572
+Implement inline round Functionality in FloatTensor with CPU/GPU Backend Support,,https://github.com/OpenMined/PySyft/issues/571
+Implement inline remainder Functionality in FloatTensor with CPU/GPU Backend Support,,https://github.com/OpenMined/PySyft/issues/564
+Implement remainder Functionality in FloatTensor with CPU/GPU Backend Support,,https://github.com/OpenMined/PySyft/issues/563
+Implement inline neg Functionality in FloatTensor with CPU/GPU Backend Support,,https://github.com/OpenMined/PySyft/issues/540
+Implement neg Functionality in FloatTensor with CPU/GPU Backend Support,,https://github.com/OpenMined/PySyft/issues/539
+Implement inline mul Functionality in FloatTensor with CPU/GPU Backend Support,,https://github.com/OpenMined/PySyft/issues/532
+Implement mul Functionality in FloatTensor with CPU/GPU Backend Support,,https://github.com/OpenMined/PySyft/issues/531
+Implement mm Functionality in FloatTensor with CPU/GPU Backend Support,,https://github.com/OpenMined/PySyft/issues/529
+Implement min Functionality in FloatTensor with CPU/GPU Backend Support,,https://github.com/OpenMined/PySyft/issues/528
+Implement index_select Functionality in FloatTensor with CPU/GPU Backend Support,,https://github.com/OpenMined/PySyft/issues/502
+Implement inline exp Functionality in FloatTensor with CPU/GPU Backend Support,,https://github.com/OpenMined/PySyft/issues/474
+Implement inline div Functionality in FloatTensor with CPU/GPU Backend Support,,https://github.com/OpenMined/PySyft/issues/461
+Implement div Functionality in FloatTensor with CPU/GPU Backend Support,,https://github.com/OpenMined/PySyft/issues/460
+Implement inline cosh Functionality in FloatTensor with CPU/GPU Backend Support,,https://github.com/OpenMined/PySyft/issues/451
+Implement cosh Functionality in FloatTensor with CPU/GPU Backend Support,,https://github.com/OpenMined/PySyft/issues/450
+Implement inline cos Functionality in FloatTensor with CPU/GPU Backend Support,,https://github.com/OpenMined/PySyft/issues/449
+Implement cos Functionality in FloatTensor with CPU/GPU Backend Support,,https://github.com/OpenMined/PySyft/issues/448
+Implement inline ceil Functionality in FloatTensor with CPU/GPU Backend Support,,https://github.com/OpenMined/PySyft/issues/440
+Implement inline cauchy Functionality in FloatTensor with CPU/GPU Backend Support,,https://github.com/OpenMined/PySyft/issues/439
+Implement inline atan Functionality in FloatTensor with CPU/GPU Backend Support,,https://github.com/OpenMined/PySyft/issues/430
+Implement atan Functionality in FloatTensor with CPU/GPU Backend Support,,https://github.com/OpenMined/PySyft/issues/429
+Implement inline asin Functionality in FloatTensor with CPU/GPU Backend Support,,https://github.com/OpenMined/PySyft/issues/428
+Implement asin Functionality in FloatTensor with CPU/GPU Backend Support,,https://github.com/OpenMined/PySyft/issues/427
+Implement inline addmv Functionality in FloatTensor with CPU/GPU Backend Support,,https://github.com/OpenMined/PySyft/issues/423
+Implement addmv Functionality in FloatTensor with CPU/GPU Backend Support ,,https://github.com/OpenMined/PySyft/issues/422
+Implement inline add Functionality in FloatTensor with CPU/GPU Backend Support,,https://github.com/OpenMined/PySyft/issues/414
+Implement inline acos Functionality in FloatTensor with CPU/GPU Backend Support,,https://github.com/OpenMined/PySyft/issues/413
+Implement inline abs Functionality in FloatTensor with CPU/GPU Backend Support,,https://github.com/OpenMined/PySyft/issues/412
+Implement add Functionality in FloatTensor with CPU/GPU Backend Support,,https://github.com/OpenMined/PySyft/issues/410
+Implement acos Functionality in FloatTensor with CPU/GPU Backend Support,,https://github.com/OpenMined/PySyft/issues/409
+Implement abs Functionality in FloatTensor with CPU/GPU Backend Support,,https://github.com/OpenMined/PySyft/issues/408
+PySyft Tensor Issues,,https://github.com/OpenMined/PySyft/issues/407

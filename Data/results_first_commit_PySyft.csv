@@ -1,0 +1,1364 @@
+First Commit Hash (SHA),Commit Message,Author (Github Name),Link to Commit
+5857bbfc9b56564adfc7f0d88af0b2f3ec6ec3b4,Initial commit,iamtrask,https://api.github.com/repos/OpenMined/PySyft/git/commits/5857bbfc9b56564adfc7f0d88af0b2f3ec6ec3b4
+66302419714969ac7c3d8c61401d23f36dd26ed7,Update setup.py,4mber,https://api.github.com/repos/OpenMined/PySyft/git/commits/66302419714969ac7c3d8c61401d23f36dd26ed7
+4c96427bd38948259e71a2eb5c10490289c24bd5,:page_facing_up: docs: add install docs & headings,anoff,https://api.github.com/repos/OpenMined/PySyft/git/commits/4c96427bd38948259e71a2eb5c10490289c24bd5
+3420dc6cdea998be7a8269e4d6baa1e76e1ea1f4,added phe dependency to requirements.txt,dmonn,https://api.github.com/repos/OpenMined/PySyft/git/commits/3420dc6cdea998be7a8269e4d6baa1e76e1ea1f4
+58f7d02b2310256e2158ca884134894de551b078,Added script to install dependencies of syft,Ujjwal-9,https://api.github.com/repos/OpenMined/PySyft/git/commits/58f7d02b2310256e2158ca884134894de551b078
+37ce0bb7360a4ee7ceea3b739346f6297302cd66,"Add jupyter to requirements
+
+So that we can run `jupyter notebook` in the `notebooks` directory.",swaroopch,https://api.github.com/repos/OpenMined/PySyft/git/commits/37ce0bb7360a4ee7ceea3b739346f6297302cd66
+400c8de8a3a714da21c0e2b175c6e4adad3677b9,Check for the name of the submodule we'd like to ignore in a more general way.,poppingtonic,https://api.github.com/repos/OpenMined/PySyft/git/commits/400c8de8a3a714da21c0e2b175c6e4adad3677b9
+8af439f8c914423e880d8d8dda7f1ea0ce3a284a,A simple Dockerfile for Syft,TheOriginalAlex,https://api.github.com/repos/OpenMined/PySyft/git/commits/8af439f8c914423e880d8d8dda7f1ea0ce3a284a
+4080f70cd4e54f92f05e1dd6b8a111ef1f4dfac3,"Merge pull request #18 from TheOriginalAlex/dockerfile
+
+A simple Dockerfile for Syft",kevinahuber,https://api.github.com/repos/OpenMined/PySyft/git/commits/4080f70cd4e54f92f05e1dd6b8a111ef1f4dfac3
+0ee13459dbaa8a472e5964b213c41c88944cd577,Docker + CI/CD support foundations,cypherai,https://api.github.com/repos/OpenMined/PySyft/git/commits/0ee13459dbaa8a472e5964b213c41c88944cd577
+2e9789b0fd2cdf0de362afcf25f238d55bb67fd3,"Merge pull request #1 from OpenMined/master
+
+j",pilar12,https://api.github.com/repos/OpenMined/PySyft/git/commits/2e9789b0fd2cdf0de362afcf25f238d55bb67fd3
+444832facc4694b9834dfb0cad5b1485aa5cbeac,Fix imports in encryption example notebook,erfannoury,https://api.github.com/repos/OpenMined/PySyft/git/commits/444832facc4694b9834dfb0cad5b1485aa5cbeac
+84421b6255d1743d103abc07a89122a9163fef4c,Implement dim() + unit tests,samsontmr,https://api.github.com/repos/OpenMined/PySyft/git/commits/84421b6255d1743d103abc07a89122a9163fef4c
+a80a7419bbf440eef8cff58ff3f908611efdacde,added Ceil & Cumsum operations,radicalrafi,https://api.github.com/repos/OpenMined/PySyft/git/commits/a80a7419bbf440eef8cff58ff3f908611efdacde
+31b3c053d6529283df7a4ac1b12d7afb1a1c123f,"Link update
+
+Update the `Contributor Quickstart Guide` link",lucaslopes,https://api.github.com/repos/OpenMined/PySyft/git/commits/31b3c053d6529283df7a4ac1b12d7afb1a1c123f
+6225fe1b4c615efd85c746e3c80a7d514f1557a2,Implemented transpose functionality,axelsly,https://api.github.com/repos/OpenMined/PySyft/git/commits/6225fe1b4c615efd85c746e3c80a7d514f1557a2
+d6a0746be1d7d28ed931a07d782433d371a23a11,Implemented Sign functionality on BaseTensor Object#95,sajalsubodh22,https://api.github.com/repos/OpenMined/PySyft/git/commits/d6a0746be1d7d28ed931a07d782433d371a23a11
+0942199988b47b5a2f4aeadbb52b27b6b94348f1,Merge branch 'develop' into fixceil,EdwardDixon,https://api.github.com/repos/OpenMined/PySyft/git/commits/0942199988b47b5a2f4aeadbb52b27b6b94348f1
+5363c908369269a3aea76bec493368c99ad73af5,"feat(view and view_as functions)
+- view function added to tensor
+- view_as function added
+- tests for view functions added",aradhyamathur,https://api.github.com/repos/OpenMined/PySyft/git/commits/5363c908369269a3aea76bec493368c99ad73af5
+887cbb57b6ed6b00b0df522a315ce5bacba0abfc,change Paillier to paillier to be consistant with PEP8 and fix case-sensitivity bug,siarez,https://api.github.com/repos/OpenMined/PySyft/git/commits/887cbb57b6ed6b00b0df522a315ce5bacba0abfc
+bda223b24ea778755c2c95148a9177a667110c82,Fixes #32; implements clamp() and clamp_() for TensorBase,dipanshunagar,https://api.github.com/repos/OpenMined/PySyft/git/commits/bda223b24ea778755c2c95148a9177a667110c82
+01241d60a53ee84648ac363da0031c8b4feba1d0,"Implementation of uniform and fill functions for TensorBase
+
+Added uniform and fill_ functions for TensorBase along with tests.",aqibsaeed,https://api.github.com/repos/OpenMined/PySyft/git/commits/01241d60a53ee84648ac363da0031c8b4feba1d0
+02d56da13b415293770059de69c52548829f1b7c,Merge branch 'master' into master,aaqibsaeed,https://api.github.com/repos/OpenMined/PySyft/git/commits/02d56da13b415293770059de69c52548829f1b7c
+6e9fa63b1725219a1b958793d5dff5ddd13a08e8,ModuleNotFoundError misspelling fix.,MtDersvan,https://api.github.com/repos/OpenMined/PySyft/git/commits/6e9fa63b1725219a1b958793d5dff5ddd13a08e8
+19400e4d643f4843fc497f8b577860bf2b48977d,updating,gautam1858,https://api.github.com/repos/OpenMined/PySyft/git/commits/19400e4d643f4843fc497f8b577860bf2b48977d
+16bfaa697ba60a46067d798da1efc00e607e7e2d,"Adding docker launch/run to README.md
+
+Adds explicitness and clarity to setup for Docker users.",korymath,https://api.github.com/repos/OpenMined/PySyft/git/commits/16bfaa697ba60a46067d798da1efc00e607e7e2d
+57d4456cd7fef845a880f0943a647441953cac4f,implement TensorBase eq()/eq_() functionality with tests,aiorla,https://api.github.com/repos/OpenMined/PySyft/git/commits/57d4456cd7fef845a880f0943a647441953cac4f
+f86c6bdfbd2b65a567e22b81c8ffb75cd602c5c1,Adds patch to resolve syft import issue.,bharathgs,https://api.github.com/repos/OpenMined/PySyft/git/commits/f86c6bdfbd2b65a567e22b81c8ffb75cd602c5c1
+45a47ab3e742d726921e627924cdf77b6cc9f209,"Implemented BaseTensor.{le,ge,lt} and inplace versions
+
+- Implemented BaseTensor.{le, ge, lt} and their inplace versions.
+- Updated Basetensor.gt() and BaseTensor.gt_() to reflect the new changes.
+- Tests for all four inequalities.
+
+Closes #49, closes #56, closes #59",baldassarreFe,https://api.github.com/repos/OpenMined/PySyft/git/commits/45a47ab3e742d726921e627924cdf77b6cc9f209
+5dc0d0fe47d2b7e403cdd9d41920c34e26aa9e56,Implemented Diag Functionality for Base Tensor Type with tests,tusharsoni08,https://api.github.com/repos/OpenMined/PySyft/git/commits/5dc0d0fe47d2b7e403cdd9d41920c34e26aa9e56
+0f96379d5a7851191267b27fd637c22fe5d8b7d9,Documentation; Bottom Half,CT83,https://api.github.com/repos/OpenMined/PySyft/git/commits/0f96379d5a7851191267b27fd637c22fe5d8b7d9
+79c10b7d9cde9269a0b0a4efea28c955334f7c97,"Support for using Visual studio code IDE
+
+added ignores for vscode specifics",AkashGutha,https://api.github.com/repos/OpenMined/PySyft/git/commits/79c10b7d9cde9269a0b0a4efea28c955334f7c97
+bb3fa00840f5bc73e462ead50220334e55dae0c4,"Added nelement to TensorBase #74 (#269)
+
+* Add nelement to TensorBase
+
+Resolves: #74
+
+* Replace tabs with spaces
+
+* Change nelement test function name to snake_case",joewie,https://api.github.com/repos/OpenMined/PySyft/git/commits/bb3fa00840f5bc73e462ead50220334e55dae0c4
+30c021d2020d55683e3feb1ea6f1569dd6e17200,Syft: Linear Classifier - Add minibatch gradient descent with Capsule support,meetvora,https://api.github.com/repos/OpenMined/PySyft/git/commits/30c021d2020d55683e3feb1ea6f1569dd6e17200
+28ee3b4ade61bbbf0cce1c745a0b9fac310841e9,"Serialize Public key Secret key with pickle (#276)
+
+* Serialize Pubkey seckey with pickle
+
+* Serialize keys with pickle
+
+* Code Styling
+
+* Serialize Public Private Keys - JSON",piyush2896,https://api.github.com/repos/OpenMined/PySyft/git/commits/28ee3b4ade61bbbf0cce1c745a0b9fac310841e9
+670d7c80ca8138fa38261b81affc793904dfc12c,"Adds default geometric functionality (#285)
+
+* adds default geometric functionality
+
+* fix inline doc
+
+* inline doc style fix",nish21,https://api.github.com/repos/OpenMined/PySyft/git/commits/670d7c80ca8138fa38261b81affc793904dfc12c
+608690b816bdf9aa618e8e2ccdefe6a51886e203,"Implement Default fmod Functionality for Base Tensor Type #46 (#280)
+
+* add .DS_Store to .gitignore
+
+* add index method and unittest
+
+* adjust .gitignore to upstream/master
+
+* add fmod and fmod_ methods to tensor.py
+
+* add unittests to fmod and fmod_ methods
+
+* alter .gitignore to fit pull request
+
+* remove index method before pull upstream master
+
+* remove unit test for index method before pull upstream master
+
+* align with upstream/master/.gitignore
+
+* add .DS_Store to .gitignore
+
+* adjust .gitignore to upstream/master
+
+* add PEP8 style pytest in Makefile
+
+* add fmod and fmod_ methods to tensor.py
+
+* add unittests to fmod and fmod_ methods
+
+* alter .gitignore to fit pull request
+
+* add test_tensor.py with changes
+
+* add new line to .gitignore
+
+* fix some flake8 style issues
+
+* fix flake8 style issues
+
+* fix flake8 style issue
+
+* fixing another flake8 style issue
+
+* fix another flake8 issue
+
+* fix and move fmod method to math.py
+
+* fix fmod_ method to call syft.math.fmod method for inline operation
+
+* fix and move fmodTest to test_math.py
+
+* remove fmodTest from test_tensor.py
+
+* fix FLAKE8 issue with no newline at the end of test_math.py
+
+* add fmod to syft/__init__.py
+
+* edit doc convention of syft/math.py
+
+* edit doc convention of syft/tensor.py",nahuakang,https://api.github.com/repos/OpenMined/PySyft/git/commits/608690b816bdf9aa618e8e2ccdefe6a51886e203
+ae8d0625c5b34132aa48e098206376139ac3e7a8,add instructions to install test-requirements before running tests in README.md,divyanshj16,https://api.github.com/repos/OpenMined/PySyft/git/commits/ae8d0625c5b34132aa48e098206376139ac3e7a8
+124fcceddeb719e431aa170f64d90dca7e04869b,"Add capsule dependency for running tests (#293)
+
+While #270 is reviewed the readme should contain Capsule dependency as it is required for tests",sp4ke,https://api.github.com/repos/OpenMined/PySyft/git/commits/124fcceddeb719e431aa170f64d90dca7e04869b
+65b9352e9e349c7f932f52904d6f913a09f9a025,Added Capsule module link in the notebook. (#301),karthiktsaliki,https://api.github.com/repos/OpenMined/PySyft/git/commits/65b9352e9e349c7f932f52904d6f913a09f9a025
+d28ae12d3e8bb84523617d2890578b8e57ae282d,"Implementation of index methods in TensorBase #54 (#296)
+
+* Implemented index() for Base Tensor #54
+
+* index_add_() implemented and index() changes
+
+* index_copy_() and index_fill_() implemented
+
+* Unit tests have been implemented
+* Fixed bugs in other index methods
+* Gather all the index tests in the same class
+
+* Index function supports now negative numbers and slices",samuxiii,https://api.github.com/repos/OpenMined/PySyft/git/commits/d28ae12d3e8bb84523617d2890578b8e57ae282d
+0171924e3a33e388865b0c5a3a410eed6d50a59f,merge master,ibrahimsharaf,https://api.github.com/repos/OpenMined/PySyft/git/commits/0171924e3a33e388865b0c5a3a410eed6d50a59f
+2ba12467c65a91e0f3c7162008be0153271f1262,capsule preinstalled in pysyft-dev image,nishanthprakash,https://api.github.com/repos/OpenMined/PySyft/git/commits/2ba12467c65a91e0f3c7162008be0153271f1262
+3f56f26667040fead7032d0de7fda821789d26d5,"Feature/renorm  add method and tests (#284)
+
+* feat(PySyft tensor): add renorm and renorm_ methods
+
+issue #86
+
+issue #86
+
+* correct character deletion
+
+* add params to inline docs
+
+* add renorm to math
+
+* add inline comment to renorm
+
+* fix inline docs to renorm
+
+* implement renorm
+
+* implement renorm_ and fix inline doc
+
+* add tests for math and tensor
+
+* add renorm to __init__.py and __all__ in math.py
+
+* correct style
+
+* return self in renorm_
+
+* remove trailing white space
+
+* add new line at eof
+
+* remove accidental G",AdamJChen,https://api.github.com/repos/OpenMined/PySyft/git/commits/3f56f26667040fead7032d0de7fda821789d26d5
+5083ec93c38a4cbc529e1e4b99f86cc83bf14cff,"Implement Default numel Functionality for Base Tensor Type #78 (#300)
+
+* Implement Default numel Functionality for Base Tensor Type #78
+
+* pep8
+
+* Remove redundant tests
+
+Remove tests from DimTests
+
+* Revert ""pep8""
+
+This reverts commit 812391390456cfc31483d2b666496a96c1a5ebbc.
+
+* pep8 - W293 blank line contains whitespace
+
+* pep8 - W293 & E321
+
+* pep8 - E231
+
+* Requested changes
+
+-Rewrite numel in math.py
+-make the necessary additions that follow in init.py
+-modified nelement for return numel from the nelement
+
+* pep8 & test_math
+
+* pep8 W291 & W292
+
+* Update math.py
+
+* fix style errors
+
+* Update tensor.py",alberduris,https://api.github.com/repos/OpenMined/PySyft/git/commits/5083ec93c38a4cbc529e1e4b99f86cc83bf14cff
+d9bda9943284e425f212cbd890e15d2705e946bc,Use shortcircuit logic to optimize function call,MarcoROG,https://api.github.com/repos/OpenMined/PySyft/git/commits/d9bda9943284e425f212cbd890e15d2705e946bc
+cbb2f9d32b46fd7f6b434a2342fbad9ee0e02469,Implement Tensor unfold functionality on Base Tensor type #105 (#315),shravan97,https://api.github.com/repos/OpenMined/PySyft/git/commits/cbb2f9d32b46fd7f6b434a2342fbad9ee0e02469
+8b761271b5b98500b046ff5ad01fee372b98a3e7,"Allow encrypt to take pubkey as a parameter
+
+Allow encrypt to take pubkey as a parameter instead of always generating a new one",planetceres,https://api.github.com/repos/OpenMined/PySyft/git/commits/8b761271b5b98500b046ff5ad01fee372b98a3e7
+320c26ae24d433b88d7a87f5b3cb346475704fad,"add PySyft setup guide for docker windows (#328)
+
+* add setup guide for docker windows
+
+* add setup guide for docker windows
+
+* Delete Setup PySyft on docker Windows.md
+
+* delete assets folder
+
+* Update README.md
+
+* Update README.md",mdalai,https://api.github.com/repos/OpenMined/PySyft/git/commits/320c26ae24d433b88d7a87f5b3cb346475704fad
+c874da6ec6d564d26c96ed70baee3c1af7aa9b93,"updated class name from ""admmTests"" -> ""addmmTests"" in test_math.py (#338)",raul-jr3,https://api.github.com/repos/OpenMined/PySyft/git/commits/c874da6ec6d564d26c96ed70baee3c1af7aa9b93
+04beeb3878a893fd81525b2aa8b36a2c6f579507,"Updated LinearClassifier (#337)
+
+* Updated LinearClassifier
+
+Added some checks to encrypt() and decrypt(), fixed notebooks to use the right capsule. Also added an abstract interface for future implementations.
+
+* fixed indentation
+
+* fixed more blank lines",cosmadrian,https://api.github.com/repos/OpenMined/PySyft/git/commits/04beeb3878a893fd81525b2aa8b36a2c6f579507
+fc464d23b776c21746f845a588185845244aeeda,Implement Default multinomial Functionality for Base Tensor Type,borkjt9,https://api.github.com/repos/OpenMined/PySyft/git/commits/fc464d23b776c21746f845a588185845244aeeda
+0cfcfbe73cd03b67249140f90ab7efb0ff75e34e,"Remove capsule dependency from notebooks
+
+- Use `syft.he.keys.Paillier` instead of capsule to get the keys
+- Addresses #384",sriranganathan,https://api.github.com/repos/OpenMined/PySyft/git/commits/0cfcfbe73cd03b67249140f90ab7efb0ff75e34e
+7222ce4e3f5ce54ab79f3039be6723a312600a32,"Dense to sparse matrix (#388)
+
+* Remove capsule dependency from notebooks
+
+- Use `syft.he.keys.Paillier` instead of capsule to get the keys
+- Addresses #384
+
+* Convert dense matrix to sparse (#274)
+* Implement function that converts dense matrix to sparse
+
+* Add sparse function to tensor.py
+
+* Convert dense matrix to sparse (#274)
+* Implement function that converts dense matrix to sparse
+
+* Convert dense to sparse matrix - Issue 274
+
+* Add skeleton definition for conversion of dense to sparse matrix
+
+* Convert dense matrix to sparse (#274)
+* fix test cases, but still getting errors when trying to assert.equal two numpy.ndarrays
+
+* Convert dense matrix to sparse (#274)
+* fix tests by converting output of sparse function to string
+  This was necessary because assert.equal returning errors when trying to compare two numpy arrays
+
+* Convert dense matrix to sparse (#274)
+
+* rebase branch onto newest commit on master
+* fix comments, naming conventions and placement of definitions in code according to review comments
+
+* Dense to sparse matrix conversion (#274)
+
+* Fix styling errors in tenosr.py, test_tensor.py and test_math.py according to review comments
+
+* rolled back to using phe's floating point, until we have a better solution.
+
+* Add cross functionality for Base Tensor Type (#392)
+
+* Add cross functionality for Base Tensor type
+
+- Implement cross functionality using numpy.cross
+- Create tests for corresponding code
+- Fixes #382
+
+* Move encryption check logic to syft.math.cross
+
+- Add cross to the init.py and __all__
+- move encryption and tensor check to syft.math.cross from syft.tensor.cross",ivuckovic,https://api.github.com/repos/OpenMined/PySyft/git/commits/7222ce4e3f5ce54ab79f3039be6723a312600a32
+6196c98e993ab75a32dfa58d9a8431fb5f402944,Add files via upload,gonesbuyo,https://api.github.com/repos/OpenMined/PySyft/git/commits/6196c98e993ab75a32dfa58d9a8431fb5f402944
+c0f9e0df0d64f366838172e6b92ed3f6b3c9f1f9,Added neg function,diegoalejogm,https://api.github.com/repos/OpenMined/PySyft/git/commits/c0f9e0df0d64f366838172e6b92ed3f6b3c9f1f9
+af354d4642a9148d366788423aa445b22fe3c141,"Update README.md
+
+How to run tests on windows",Floev,https://api.github.com/repos/OpenMined/PySyft/git/commits/af354d4642a9148d366788423aa445b22fe3c141
+d712ae4104d11f001efafb32bb0f00575dd6bb1b,add FloatTensor ceil function,abe732,https://api.github.com/repos/OpenMined/PySyft/git/commits/d712ae4104d11f001efafb32bb0f00575dd6bb1b
+5a87fa34109304d494ebf1d86692c5ddbcbbf7c0,added method to call in-place addition,keithfz,https://api.github.com/repos/OpenMined/PySyft/git/commits/5a87fa34109304d494ebf1d86692c5ddbcbbf7c0
+dbb74aba1f9b57457cbb6aca28be8b9622372046,"added `zero_()` to `FloatTensor`
+
+Zeros a tensor on the remote unity server
+closes https://github.com/OpenMined/PySyft/issues/630",bendecoste,https://api.github.com/repos/OpenMined/PySyft/git/commits/dbb74aba1f9b57457cbb6aca28be8b9622372046
+46cc97bdfa8e50682b10cdb8f6cc1a8270d1e27f,Added .idea folder to .gitignore.,clamytoe,https://api.github.com/repos/OpenMined/PySyft/git/commits/46cc97bdfa8e50682b10cdb8f6cc1a8270d1e27f
+db7f6a52ec71f7292a2fdb0be0537f5ab720633c,adds is_contiguous function to PySyft Float Tensor class,anishpdalal,https://api.github.com/repos/OpenMined/PySyft/git/commits/db7f6a52ec71f7292a2fdb0be0537f5ab720633c
+fed98b92b6ae0e8790a6dfbec52fa1aff59d4592,added pow operator call,sebasibarguen,https://api.github.com/repos/OpenMined/PySyft/git/commits/fed98b92b6ae0e8790a6dfbec52fa1aff59d4592
+cc5d665b27e1cb629c34e45eed72de2b69e11517,Added sign function as per #580.,moodlep,https://api.github.com/repos/OpenMined/PySyft/git/commits/cc5d665b27e1cb629c34e45eed72de2b69e11517
+62771b54b90feea6a8c69a62eae7a329a3857674,feature|add size(),bosr,https://api.github.com/repos/OpenMined/PySyft/git/commits/62771b54b90feea6a8c69a62eae7a329a3857674
+5a8c7a9e24065c9c77bb4bbc9fd3b1f9dc3fe92d,feat: add exp() to syft.py,yanndupis,https://api.github.com/repos/OpenMined/PySyft/git/commits/5a8c7a9e24065c9c77bb4bbc9fd3b1f9dc3fe92d
+1195464eace1d83171d6fe981c5366a1a06bd415,"Tensor.Reduce min, max, sum, prod, mean",Mike96Angelo,https://api.github.com/repos/OpenMined/PySyft/git/commits/1195464eace1d83171d6fe981c5366a1a06bd415
+dd49d4a270cfe1a88915900224252c3512eacbdd,"Implementing view_as
+
+  * issue #629",moisesvw,https://api.github.com/repos/OpenMined/PySyft/git/commits/dd49d4a270cfe1a88915900224252c3512eacbdd
+c9ec889d59042a5eb567ae5487c1f1a5acdd071c,"Corrected filename installation for anaconda users
+
+Correct filename for setting up via Anaconda is
+`install_for_anaconda.sh`",indradenbakker,https://api.github.com/repos/OpenMined/PySyft/git/commits/c9ec889d59042a5eb567ae5487c1f1a5acdd071c
+964bc39769ed1e5aa68be0cc16cdb7dba6e460ad,Merge branch 'master' into function-softmax,emregoynugur,https://api.github.com/repos/OpenMined/PySyft/git/commits/964bc39769ed1e5aa68be0cc16cdb7dba6e460ad
+884e5bf71a83ba1e153d6513ed4d4e4c906914f3,Add cumprod function to syft,daviddemeij,https://api.github.com/repos/OpenMined/PySyft/git/commits/884e5bf71a83ba1e153d6513ed4d4e4c906914f3
+e2a2e190ce893ff4c5c468d860796a0a081ef450,"[ci skip] Add CodeTriage badge
+
+[CodeTriage](https://www.codetriage.com/) is an app I have maintained
+for the past 4-5 years with the goal of getting people involved in
+Open Source projects like this one. The app sends subscribers a random
+open issue for them to help ""triage"". For some languages you can also
+suggested areas to add documentation.
+
+The initial approach was inspired by seeing the work of the small
+core team spending countless hours asking ""what version was
+this in"" and ""can you give us an example app"". The idea is to
+outsource these small interactions to a huge team of volunteers
+and let the core team focus on their work.
+
+I want to add a badge to the README of this project. The idea is to
+provide an easy link for people to get started contributing to this
+project. A badge indicates the number of people currently subscribed
+to help the repo. The color is based off of open issues in the project.
+
+Here are some examples of other projects that have a badge in their
+README:
+
+- https://github.com/crystal-lang/crystal
+- https://github.com/rails/rails
+- https://github.com/codetriage/codetriage
+
+Thanks for building open source software, I would love to help you find some helpers.",schneems,https://api.github.com/repos/OpenMined/PySyft/git/commits/e2a2e190ce893ff4c5c468d860796a0a081ef450
+d5411825cf3490d520b5b9f5387f994cd25cff6e,Adding momentum and lr decay,kabirkhan,https://api.github.com/repos/OpenMined/PySyft/git/commits/d5411825cf3490d520b5b9f5387f994cd25cff6e
+21cc769099188ac879dbd4e8cf144d7be7955ba1,Added docstrings,Riksi,https://api.github.com/repos/OpenMined/PySyft/git/commits/21cc769099188ac879dbd4e8cf144d7be7955ba1
+8bc00b0caa913dc831e6f50eaa93fae4bd8ea7ef,bugfix: do not delete results for inline aritmetic operations,koenvanderveen,https://api.github.com/repos/OpenMined/PySyft/git/commits/8bc00b0caa913dc831e6f50eaa93fae4bd8ea7ef
+9dcfd2bf852037909cb31a143703856068a44edf,__add__ method for IntTensor,gavinuhma,https://api.github.com/repos/OpenMined/PySyft/git/commits/9dcfd2bf852037909cb31a143703856068a44edf
+4b102ad1836bf5750a4872db4ea170632b52b7a9,Fix requirements.txt: zmq -> pyzmq,kynan,https://api.github.com/repos/OpenMined/PySyft/git/commits/4b102ad1836bf5750a4872db4ea170632b52b7a9
+5114c1a9e3f8390b23af8b5956a14ae9ed587d34,add abs function to IntTensor,hackjoy,https://api.github.com/repos/OpenMined/PySyft/git/commits/5114c1a9e3f8390b23af8b5956a14ae9ed587d34
+d19b73169342bb792a7209e9bef0d1176c227459,Pass the verbose variable.,lev-kusanagi,https://api.github.com/repos/OpenMined/PySyft/git/commits/d19b73169342bb792a7209e9bef0d1176c227459
+a29329722d7341e1cec76b1fb925a6cc6a6ef821,Add trace function to intTensor,spencerfrazier,https://api.github.com/repos/OpenMined/PySyft/git/commits/a29329722d7341e1cec76b1fb925a6cc6a6ef821
+4c3f1bfb502a1ab5b961b8adc9de39d5aae7aea8,Added IntTensor abs_,xnutsive,https://api.github.com/repos/OpenMined/PySyft/git/commits/4c3f1bfb502a1ab5b961b8adc9de39d5aae7aea8
+68f66ed7df72759c1782e6e3f7c291642f16f9b5,Added Reciprocal Functionality,shubham3121,https://api.github.com/repos/OpenMined/PySyft/git/commits/68f66ed7df72759c1782e6e3f7c291642f16f9b5
+47c9a044406baa9e2837430c8c159a8530ec3410,added sign function for Int Tensor,lokatija,https://api.github.com/repos/OpenMined/PySyft/git/commits/47c9a044406baa9e2837430c8c159a8530ec3410
+9b65fd5612d9ea3693cf5953bb2c24cafe552a1d,"IntTensor.equal()
+
+Added implementation of equal(). And, since there didn't seem to be a test suite in the PySyft repository, a pytest file was added. One of the project leads will need to add a pytest runner in Travis CI though.",Agent007,https://api.github.com/repos/OpenMined/PySyft/git/commits/9b65fd5612d9ea3693cf5953bb2c24cafe552a1d
+81cd5d7e0e9d52f7a639444f157c1dda3cd239d9,transpose of IntTensor,dikshant2210,https://api.github.com/repos/OpenMined/PySyft/git/commits/81cd5d7e0e9d52f7a639444f157c1dda3cd239d9
+aa3565933130b0bc4721e4742fc149b0c869933e,"Merge pull request #1292 from daviddemeij/feature/set_remove_after_use_to_True
+
+Set remove_after_use to True",justin1121,https://api.github.com/repos/OpenMined/PySyft/git/commits/aa3565933130b0bc4721e4742fc149b0c869933e
+d63aaba96852032a32f1dfad567e9cbcd8a2bad3,add eq and eq_ functions to IntTensor via #786 and #787,n-casale,https://api.github.com/repos/OpenMined/PySyft/git/commits/d63aaba96852032a32f1dfad567e9cbcd8a2bad3
+b2aa7f24cc3b76dfaea88c15d1bb6f69f67f7c56,"Refactored tensor.py into package (#1305)
+
+* refactored tensor.py to tensor folder by spliting into classes
+
+* fixed name of __init__",robert-wagner,https://api.github.com/repos/OpenMined/PySyft/git/commits/b2aa7f24cc3b76dfaea88c15d1bb6f69f67f7c56
+a8dc0fdeb745f8898530bfe4fdb249dda1d54242,WIP: Add a first graph topology serialization using JSON,morgangiraud,https://api.github.com/repos/OpenMined/PySyft/git/commits/a8dc0fdeb745f8898530bfe4fdb249dda1d54242
+e0b8cf74b87f4a611370ee45aa3d87f27145b8ff,implemented the inline max function for IntTensor on the CPU #795,walexi,https://api.github.com/repos/OpenMined/PySyft/git/commits/e0b8cf74b87f4a611370ee45aa3d87f27145b8ff
+694cbfaf4d2cfc02ec30408bbc1a856147f761a7,Function to Load Fashion MNIST Dataset,anujdutt9,https://api.github.com/repos/OpenMined/PySyft/git/commits/694cbfaf4d2cfc02ec30408bbc1a856147f761a7
+8d849d7ee25fc0dc010f896dc4ecf33b3bbc7abd,Applied fix for issue #1314 (#1315),ChatSam,https://api.github.com/repos/OpenMined/PySyft/git/commits/8d849d7ee25fc0dc010f896dc4ecf33b3bbc7abd
+6d54512ba2f85500aca39dd79e01e7b7873818ef,implement topk for int_tensor,malnakli,https://api.github.com/repos/OpenMined/PySyft/git/commits/6d54512ba2f85500aca39dd79e01e7b7873818ef
+81ae543815a4c17230e52b28248a15a1e807933e,Implement the Sinh function for IntTensor on the CPU #1182,Liion,https://api.github.com/repos/OpenMined/PySyft/git/commits/81ae543815a4c17230e52b28248a15a1e807933e
+0d0ed72eac9372e6f54b87bb66abb61d4d736f47,include install command for windows,aneesh-joshi,https://api.github.com/repos/OpenMined/PySyft/git/commits/0d0ed72eac9372e6f54b87bb66abb61d4d736f47
+5fcad675669e67d4df98472d6b075dc2224c0472,"Add python interface and unit test for unfold function (#1321)
+
+* Add unfold function for IntTensor #1266
+
+* Add unittest for IntTensor unfold function #1266
+
+* Add unittest for step size of 2, resolves #1266",layog,https://api.github.com/repos/OpenMined/PySyft/git/commits/5fcad675669e67d4df98472d6b075dc2224c0472
+109db1dbed8440cb5c242e784a9fe7b5c61711bc,newline,jvmncs,https://api.github.com/repos/OpenMined/PySyft/git/commits/109db1dbed8440cb5c242e784a9fe7b5c61711bc
+e22055fec3e99a39bbe4efdef1f87f9d2cdda7ed,"Create execute_notebooks.sh
+
+adding execute notebooks script",kmader,https://api.github.com/repos/OpenMined/PySyft/git/commits/e22055fec3e99a39bbe4efdef1f87f9d2cdda7ed
+3cc190e590c94b1ff7c257a76b72cc49001da2e7,Updated README to include travis badge,alpetric,https://api.github.com/repos/OpenMined/PySyft/git/commits/3cc190e590c94b1ff7c257a76b72cc49001da2e7
+f661be6fa2795f8364ce77afe296ca6eaad1ed7c,Allow socket connection to remote machines,Kerat,https://api.github.com/repos/OpenMined/PySyft/git/commits/f661be6fa2795f8364ce77afe296ca6eaad1ed7c
+0d4a0776ef3abe5579d63dcdb7bd9319226386df,Fixed-precision tensor added,alhparsa,https://api.github.com/repos/OpenMined/PySyft/git/commits/0d4a0776ef3abe5579d63dcdb7bd9319226386df
+e26ac42c2d1b6c9198db71cae01195e5dad5e897,Merge remote-tracking branch 'refs/remotes/OpenMined/master',matthew-mcateer,https://api.github.com/repos/OpenMined/PySyft/git/commits/e26ac42c2d1b6c9198db71cae01195e5dad5e897
+c1b9df3f3660ba5d825dde2c632fdccbbd7f4bac,"Fix call of torch functions on remote Variable (ex: torch.matmul(x,y))",LaRiffle,https://api.github.com/repos/OpenMined/PySyft/git/commits/c1b9df3f3660ba5d825dde2c632fdccbbd7f4bac
+167d02fdab4d549430d33807308e714a0c31119d,corrected typo,vutsalsinghal,https://api.github.com/repos/OpenMined/PySyft/git/commits/167d02fdab4d549430d33807308e714a0c31119d
+c26e07f3da96a0baeb895d5ff38aabf459f6aff7,Added tests for add_,SaravananOffl,https://api.github.com/repos/OpenMined/PySyft/git/commits/c26e07f3da96a0baeb895d5ff38aabf459f6aff7
+194c1f4d97e72aef3399860a13d10de826b7e3f4,"Add files via upload
+
+Combined commands to make necessary installations a one step process",aimbd,https://api.github.com/repos/OpenMined/PySyft/git/commits/194c1f4d97e72aef3399860a13d10de826b7e3f4
+c8872d12aa046c18b7b83d7106dcfd0462c403fc,Created a basic class for pandas,madhavkhoslaa,https://api.github.com/repos/OpenMined/PySyft/git/commits/c8872d12aa046c18b7b83d7106dcfd0462c403fc
+f3429fb604ae4dabc56adf3f7a51b7c605d0cfba,Updated doc Theme,kamathhrishi,https://api.github.com/repos/OpenMined/PySyft/git/commits/f3429fb604ae4dabc56adf3f7a51b7c605d0cfba
+9abe2cca12ff523d7c2ead8db72edfa0658ebe40,"first commit, add docstring to _hook_fixed_precision_methods",alexandregranzerguay,https://api.github.com/repos/OpenMined/PySyft/git/commits/9abe2cca12ff523d7c2ead8db72edfa0658ebe40
+5c51cd992a8e329762ebdf66570d18d6e09acc9d,Added custom optimizer for federated averaging,ceballosiker,https://api.github.com/repos/OpenMined/PySyft/git/commits/5c51cd992a8e329762ebdf66570d18d6e09acc9d
+8017b7f04434e797d0721e34488f637bf4865385,"Format all html,css and js files in docs folder",codevedas,https://api.github.com/repos/OpenMined/PySyft/git/commits/8017b7f04434e797d0721e34488f637bf4865385
+bed2f84d33225e581deddbe797ae94c2a01828fd,first attempted refactor,jeremyjordan,https://api.github.com/repos/OpenMined/PySyft/git/commits/bed2f84d33225e581deddbe797ae94c2a01828fd
+a607c76f78ce074c2ddb33c79979539cddc993fc,renamed  MPCTensor -> SPDZTensor in syft/core/frameworks/torch/tensor.py,llealgt,https://api.github.com/repos/OpenMined/PySyft/git/commits/a607c76f78ce074c2ddb33c79979539cddc993fc
+30157432cd41035f278d2f2fafa2845df7f01429,adds getting workers from gpt,ResByte,https://api.github.com/repos/OpenMined/PySyft/git/commits/30157432cd41035f278d2f2fafa2845df7f01429
+ce5e0f1ac4840713086a94b75943a47b18bcee53,"Update README.md for Windows Pytorch Installation
+
+For Windows, Pytorch version 0.3.1 can be installed using conda as below- 
+conda install -c peterjc123 pytorch-cpu",amit-rastogi,https://api.github.com/repos/OpenMined/PySyft/git/commits/ce5e0f1ac4840713086a94b75943a47b18bcee53
+82c23aa217b64438e462678a5f6316a1717d38c2,Update ISSUE_TEMPLATE.md to fix issue #1549,iamadarshk,https://api.github.com/repos/OpenMined/PySyft/git/commits/82c23aa217b64438e462678a5f6316a1717d38c2
+86f092ca979e850fccd6ce5fea61b5519d5e11f8,Create gitbook.yaml,cereallarceny,https://api.github.com/repos/OpenMined/PySyft/git/commits/86f092ca979e850fccd6ce5fea61b5519d5e11f8
+11ac9cc1b68ed8c0d078633e340a74469c487d41,"Add black formatter
+
+This makes the formatting completely consistent, at least outside the
+Jupyter notebooks.",alok,https://api.github.com/repos/OpenMined/PySyft/git/commits/11ac9cc1b68ed8c0d078633e340a74469c487d41
+673758b06efae38df7fa21a6079fbef8e4ae3ff1,re #1592 - believe I've covered all Tensor %s,ionlights,https://api.github.com/repos/OpenMined/PySyft/git/commits/673758b06efae38df7fa21a6079fbef8e4ae3ff1
+531f0d09e706e798218d7999cf9ce05a5508b9fe,Raise an error when we are trying to send a model to a worker who already owns it,hargathor,https://api.github.com/repos/OpenMined/PySyft/git/commits/531f0d09e706e798218d7999cf9ce05a5508b9fe
+9055a8fc6facfab6474afc5dcd9ba9f0c8a3b788,Add Initial Fed/Diff Boston Demo,mukul-rathi,https://api.github.com/repos/OpenMined/PySyft/git/commits/9055a8fc6facfab6474afc5dcd9ba9f0c8a3b788
+d0e7b398183ee2112592ab134a9a050e9b10b712,Add profiling in BaseWorker.send_msg,replomancer,https://api.github.com/repos/OpenMined/PySyft/git/commits/d0e7b398183ee2112592ab134a9a050e9b10b712
+171a63a4a74996644586823a108b924ebc05c515,Change relative imports to absolute imports for core module,ThrowsException,https://api.github.com/repos/OpenMined/PySyft/git/commits/171a63a4a74996644586823a108b924ebc05c515
+7b482f7b903d66c90cff632fbff98ac26acacded,Wrong import path fixed.,Nivek92,https://api.github.com/repos/OpenMined/PySyft/git/commits/7b482f7b903d66c90cff632fbff98ac26acacded
+5f412f34370f0ee8461ec1278c30fafb743c99d1,"Update MNIST Example.ipynb
+
+fix an import problem caused by TorchHook moved into frameworks.torch",peter9711,https://api.github.com/repos/OpenMined/PySyft/git/commits/5f412f34370f0ee8461ec1278c30fafb743c99d1
+17e19230848c31572da0f188c32842b9b810de1f,Fix for issue #1645. Now correctly deregistering all objects that belong to a torch.Variable.,Ogofo,https://api.github.com/repos/OpenMined/PySyft/git/commits/17e19230848c31572da0f188c32842b9b810de1f
+0db8b86d20bea7c29c5d8b2b2874a976e326ba5c,Tests for current PythonEncoder,jacorbachosky,https://api.github.com/repos/OpenMined/PySyft/git/commits/0db8b86d20bea7c29c5d8b2b2874a976e326ba5c
+05d07e388df12b6f3f0d2a09f0c9afc677405dd8,"In `handle_call` for the ""end_get"" case need to call get() on a _SyftTensor, not a dict as is currently now. With the current code, end_get in tutorial 3 generates an error because get() is called on a dict.",antonrd,https://api.github.com/repos/OpenMined/PySyft/git/commits/05d07e388df12b6f3f0d2a09f0c9afc677405dd8
+ed4b1473ed4c6ab08b67a8dfcc84d8b9f1d7db43,small typo fixed,GopikrishnanSasikumar,https://api.github.com/repos/OpenMined/PySyft/git/commits/ed4b1473ed4c6ab08b67a8dfcc84d8b9f1d7db43
+67752cc6f21b2d68ff9ed9cce3995221b8505953,Fix typos in introduction,mari-linhares,https://api.github.com/repos/OpenMined/PySyft/git/commits/67752cc6f21b2d68ff9ed9cce3995221b8505953
+45bb5981e17b381f604b9fd0c8295d37018f3232,"Federated Learning with Differential Privacy on Remote Machine
+
+When effectively implementing Federated Learning in real world applications, it is important to build an architeture where data in a remote server could be accessed in order to train and test the model.
+
+In the previous examples this is implemented using virtual clients. This example attempts to implement it over websockets.",miranthajayatilake,https://api.github.com/repos/OpenMined/PySyft/git/commits/45bb5981e17b381f604b9fd0c8295d37018f3232
+440acfb5af2b9f58dcd756151e3db471eed1f7db,FIX: typo in part 2 tutorial,npinto,https://api.github.com/repos/OpenMined/PySyft/git/commits/440acfb5af2b9f58dcd756151e3db471eed1f7db
+081768b6d9cd1fd3fa5a5552a421e8659bdd8634,Typo,jlebensold,https://api.github.com/repos/OpenMined/PySyft/git/commits/081768b6d9cd1fd3fa5a5552a421e8659bdd8634
+8bff9d43069140a9c992b7728500d8a5266a0a7d,Fixed expression and typo,GuilhermeFreire,https://api.github.com/repos/OpenMined/PySyft/git/commits/8bff9d43069140a9c992b7728500d8a5266a0a7d
+4a197ae1445275ff931b850693dfc77f45cb4867,fix invalid jupyter notebook json,Jwata,https://api.github.com/repos/OpenMined/PySyft/git/commits/4a197ae1445275ff931b850693dfc77f45cb4867
+7983069db4c9889d818629d9d445564ee24555a1,updating comments,uhvardhan,https://api.github.com/repos/OpenMined/PySyft/git/commits/7983069db4c9889d818629d9d445564ee24555a1
+2aef9fd5f0de9e8d05f950d51ecbcb8f8f0c1254,"Added google style for docstrings
+Ticket: #1784
+Added documentation for initialize_tensor method
+Modified all docstrings to follow google style",katnoria,https://api.github.com/repos/OpenMined/PySyft/git/commits/2aef9fd5f0de9e8d05f950d51ecbcb8f8f0c1254
+d1dc3ce4f29492199d59b62793d7a8df24b0675c,"Updated the Shell output
+
+The shell next to shell 28
+input : z  = x == y + 20
+           z.get()
+output : 1",param087,https://api.github.com/repos/OpenMined/PySyft/git/commits/d1dc3ce4f29492199d59b62793d7a8df24b0675c
+55911bc9c851d7650afe1866998f9067a8d2a2c8,add pytest to requirements.txt,akki2825,https://api.github.com/repos/OpenMined/PySyft/git/commits/55911bc9c851d7650afe1866998f9067a8d2a2c8
+11257e2037aab4b4e34fe6cc901b262a233a829c,Refactor torch/test_hook.py to use fixtures,alexisthual,https://api.github.com/repos/OpenMined/PySyft/git/commits/11257e2037aab4b4e34fe6cc901b262a233a829c
+2bdccf01fc92fe0bdee0cd5c165801be3a4ad688,Fixing link to tutorials in README.md,jleni,https://api.github.com/repos/OpenMined/PySyft/git/commits/2bdccf01fc92fe0bdee0cd5c165801be3a4ad688
+030251435c13d42ae6680fa56051e344069f2421,fix typo in README,pranav-ap,https://api.github.com/repos/OpenMined/PySyft/git/commits/030251435c13d42ae6680fa56051e344069f2421
+e49b707a56b665c0c80a93a455c503607dac7caa,Add draft version of AutogradTensor,mcleonard,https://api.github.com/repos/OpenMined/PySyft/git/commits/e49b707a56b665c0c80a93a455c503607dac7caa
+6cf656c3b5c9df192fd33d2bf25a8efe5b558cff,changed make test to work,tqhdesilva,https://api.github.com/repos/OpenMined/PySyft/git/commits/6cf656c3b5c9df192fd33d2bf25a8efe5b558cff
+1331fc3aa8b1f5aee1e4ecbbf48a1aade2b9f4b0,type annotation of syft/workers/virtual.py,AlanAboudib,https://api.github.com/repos/OpenMined/PySyft/git/commits/1331fc3aa8b1f5aee1e4ecbbf48a1aade2b9f4b0
+274a0ae7f793e61e6e9a6f50fcff1c926b20570c,Fix error in tutorial 2,tyrinwu,https://api.github.com/repos/OpenMined/PySyft/git/commits/274a0ae7f793e61e6e9a6f50fcff1c926b20570c
+29006b765ccce2a013469631aabc99ce7335eb96,fix tutorial links,stefandeml,https://api.github.com/repos/OpenMined/PySyft/git/commits/29006b765ccce2a013469631aabc99ce7335eb96
+fbf50845c82dc28b9ddaf1416c90f930693553c0,Add ability to choose different strategies to serde Torch tensors,mccorby,https://api.github.com/repos/OpenMined/PySyft/git/commits/fbf50845c82dc28b9ddaf1416c90f930693553c0
+19045a1c1d6476a3a714cd0238224ee0f0e3ddd7,FederatedDataLoader can provide batch for all workers at once now,midokura-silvia,https://api.github.com/repos/OpenMined/PySyft/git/commits/19045a1c1d6476a3a714cd0238224ee0f0e3ddd7
+f847cfe588ab4dac5c0f9aa07241cc9bd84d5669," Fixed a timeout issue occuring on raspberry PIs or low-power devices
+ when wanting to train a model in a federated way via actual websockets",DanyEle,https://api.github.com/repos/OpenMined/PySyft/git/commits/f847cfe588ab4dac5c0f9aa07241cc9bd84d5669
+9874a3acd70407013de12e8c3189425d6f3864b3,Add Websocket over TLS [ Client side],IonesioJunior,https://api.github.com/repos/OpenMined/PySyft/git/commits/9874a3acd70407013de12e8c3189425d6f3864b3
+738de172e04c998e60d748095bf2798657789fe5,Fix minor bug in class FederatedDataset,tushar-semwal,https://api.github.com/repos/OpenMined/PySyft/git/commits/738de172e04c998e60d748095bf2798657789fe5
+f347502dcc672cb6315c8321237d01503f2d0945,"Cleanup markdown docs
+
+pre-commit is installed via requirements-dev.txt not requirements.txt
+Markdown source formatting (based of markdownlint)",MarkTuddenham,https://api.github.com/repos/OpenMined/PySyft/git/commits/f347502dcc672cb6315c8321237d01503f2d0945
+d2dc16c388e1ae39d56d9469f997b866c5d99fd9,Move Torch hook into its own module,DarkmatterVale,https://api.github.com/repos/OpenMined/PySyft/git/commits/d2dc16c388e1ae39d56d9469f997b866c5d99fd9
+fb572f5e7779c6f59d83a93af1d2863f3f3afa69,fixed two typos in contributing.md,dcharrezt,https://api.github.com/repos/OpenMined/PySyft/git/commits/fb572f5e7779c6f59d83a93af1d2863f3f3afa69
+6b6780aaf033482480c2213c7c0b28a7cebbf2fd,small fix so that tutorial works with torch 1.1.0,acyrl,https://api.github.com/repos/OpenMined/PySyft/git/commits/6b6780aaf033482480c2213c7c0b28a7cebbf2fd
+e55529bb562bca23918b458a4f5f5ebdddea4c93,convert into specific graph,mortendahl,https://api.github.com/repos/OpenMined/PySyft/git/commits/e55529bb562bca23918b458a4f5f5ebdddea4c93
+030ec96cec9de6bcb8b247b8016ea2525fc44c32,"Merge pull request #1 from augustusai/automatically_send_forward_for_models
+
+updated plans to automatically send forward function",passiweinberger,https://api.github.com/repos/OpenMined/PySyft/git/commits/030ec96cec9de6bcb8b247b8016ea2525fc44c32
+70f56c6a615e87c9213f7cfeac17e78140545c1b,Added type annotations,doperamine,https://api.github.com/repos/OpenMined/PySyft/git/commits/70f56c6a615e87c9213f7cfeac17e78140545c1b
+01250723041c1e906d183791089f6394a27ee050,Create a serde folder with high level serializer serde.py and torch serializer torch_serde.py and native python serializer native_serde.py,racinger,https://api.github.com/repos/OpenMined/PySyft/git/commits/01250723041c1e906d183791089f6394a27ee050
+6e1def5e053bd7f94f5c011f1a62febb2cccee4c,"Update PointerTensor to raise error when accessed it's item method
+
+An error will be raised if any instance of ""PointerTensor"" got accessed it's method ""item"" with an error message telling to consider accessing ""get"" method instead so you can get the item you want safely.",abmazhr,https://api.github.com/repos/OpenMined/PySyft/git/commits/6e1def5e053bd7f94f5c011f1a62febb2cccee4c
+5405892914521888195eb626a2590fcb515f599b,"Added docker image with Pysyft installed
+
+Make Pysyft ready to be used by users and devs",youben11,https://api.github.com/repos/OpenMined/PySyft/git/commits/5405892914521888195eb626a2590fcb515f599b
+d9abec241ef5afcf7099ab59effcf328d97fb2e1,Add set_num_threads to exclude,niladell,https://api.github.com/repos/OpenMined/PySyft/git/commits/d9abec241ef5afcf7099ab59effcf328d97fb2e1
+f6961ec9e5c3b065fc7abb5f0323583b51d4f0a9,Added Advanced Tutorial Example - SMS spam prediction,andrelmfarias,https://api.github.com/repos/OpenMined/PySyft/git/commits/f6961ec9e5c3b065fc7abb5f0323583b51d4f0a9
+b37ff3bf04c09ff67b923bdf8db418f0c449c8a1,Fixed typo in instructions about the part number,dimun,https://api.github.com/repos/OpenMined/PySyft/git/commits/b37ff3bf04c09ff67b923bdf8db418f0c449c8a1
+f31308fd858564aaa386a3e591f91bfe08c474a1,"mypy: add type checker to requirements, run type checker in CI
+
+There are currently many type issues flagged by mypy - in order
+to gradually address them, the type checker should not yet
+fail CI runs.",redshiftzero,https://api.github.com/repos/OpenMined/PySyft/git/commits/f31308fd858564aaa386a3e591f91bfe08c474a1
+616fa44ba64869b001584fc3bb7b96d1d4f85bb2,"Merge pull request #1 from OpenMined/jason_secure_nn
+
+Jason secure nn",Jasopaum,https://api.github.com/repos/OpenMined/PySyft/git/commits/616fa44ba64869b001584fc3bb7b96d1d4f85bb2
+d6c9115dd163e0bc1eddba33bb8c277c7148f0db,Typo Fixes in Tutorial/Part 1,Ankit-Dhankhar,https://api.github.com/repos/OpenMined/PySyft/git/commits/d6c9115dd163e0bc1eddba33bb8c277c7148f0db
+3717b782f9c361e8241a605eeb49738e9bf12d38,Added fix_prec for Linear Object,shashigharti,https://api.github.com/repos/OpenMined/PySyft/git/commits/3717b782f9c361e8241a605eeb49738e9bf12d38
+423903a3b6402289d2f68ecb39f3d3e79ba8896b,Fix typos,lc0,https://api.github.com/repos/OpenMined/PySyft/git/commits/423903a3b6402289d2f68ecb39f3d3e79ba8896b
+796388b50b134952f4e1b7c76d7e05ec6b293deb,Add the data_size attribute to the BaseWorker Class,kakirastern,https://api.github.com/repos/OpenMined/PySyft/git/commits/796388b50b134952f4e1b7c76d7e05ec6b293deb
+f8da5a48c319ca72fb82badf79c639d164ea5eca,"Update README.md
+
+Add instructions on how to run docker image on a Mac",OliverMaerz,https://api.github.com/repos/OpenMined/PySyft/git/commits/f8da5a48c319ca72fb82badf79c639d164ea5eca
+6a277274b040b586baf3ff5371a5474fc413817d,use 'operates' instead of 'operate',ajnovice,https://api.github.com/repos/OpenMined/PySyft/git/commits/6a277274b040b586baf3ff5371a5474fc413817d
+07a764fba3de9480db1198ad7b3a062b7cf55f46,"notebook with more instruction and some changes in scripts
+
+start_websocket_servers have some unnecessary lines to provide python versions and is causing errors on windows 10 but since in subprocess.Popen we provide the name of exe that will execute certain file with certain arguments. In run_websocket_client logging.debug is replaced by print because logging is not showing losses and errors. Notebook has more instructions and possible solutions for possible errors and removed some extra code",1000ping,https://api.github.com/repos/OpenMined/PySyft/git/commits/07a764fba3de9480db1198ad7b3a062b7cf55f46
+a01c9ba567fd77f173fc7a6b0c3ef0b0b812ab65,"Plaintext speed regression notebook (#2350)
+
+Adds notebook containing
+- torch implementations of a few linear algebra routines
+- initial implementations of linear regression and DASH.",akontaxis,https://api.github.com/repos/OpenMined/PySyft/git/commits/a01c9ba567fd77f173fc7a6b0c3ef0b0b812ab65
+ae2e0610f90cd9096272219b488a4607bb81ce01,"Make the local worker aware of itself on TorchHook creation. (#2431)
+
+* Make the local worker aware of itself on TorchHook creation.
+
+* Create test to ensure local worker is inside the _known_workers dict.
+
+* Move test to test_local_worker",aristizabal95,https://api.github.com/repos/OpenMined/PySyft/git/commits/ae2e0610f90cd9096272219b488a4607bb81ce01
+64cbc07b655f2f95b1297dc4ec3c4055b4dfe9d7,Closes #2422: use tuple for dict and set simplification (#2440),vvmnnnkv,https://api.github.com/repos/OpenMined/PySyft/git/commits/64cbc07b655f2f95b1297dc4ec3c4055b4dfe9d7
+e03124e0a583696c7bdfe757bf95c645143e0331,"Add disable_garbage_collection  flags to native.py   (#2445)
+
+* reformatting
+
+* Add disable_garbage_collection flags to native.py #2444
+
+* Removed duplicate implementation to avoid any issues in maintence
+
+* minor fix
+
+* fixes: comments",hanare,https://api.github.com/repos/OpenMined/PySyft/git/commits/e03124e0a583696c7bdfe757bf95c645143e0331
+03a950dcfbd42069e50a3a5be44c3555d50f4afe,moved generate_triple code to request_triple (#2525),Yugandhartripathi,https://api.github.com/repos/OpenMined/PySyft/git/commits/03a950dcfbd42069e50a3a5be44c3555d50f4afe
+5b0e4a0a4720f5f030a98f97780346d955d048cf,Merge branch 'dev' into fix-spdz-mul-typeerror,meandmymind,https://api.github.com/repos/OpenMined/PySyft/git/commits/5b0e4a0a4720f5f030a98f97780346d955d048cf
+241859029a180eedd74c626ed0429448adcc7bf0,"fix: Fix bug that prevents ImageFolder dataset to be federated (Issue #2554)
+
+This also fixes the bug for any dataset that doesn't have data/target
+or equivalent fields",edgarinvillegas,https://api.github.com/repos/OpenMined/PySyft/git/commits/241859029a180eedd74c626ed0429448adcc7bf0
+52091554265cbcaac76ee131e5270f10a14f4932,update example section of class torchhook (#2580),souravs17031999,https://api.github.com/repos/OpenMined/PySyft/git/commits/52091554265cbcaac76ee131e5270f10a14f4932
+43387040b4783e57c9162910b9397c4b233bf021,"Added Pysyft specific ObjectNotFoundError Exception (#2653)
+
+* Added Pysyft specific ObjectNotFoundError Exception
+
+* Added test case for object not found",sukhadj,https://api.github.com/repos/OpenMined/PySyft/git/commits/43387040b4783e57c9162910b9397c4b233bf021
+ef9892f496132ccf602c4aab848b12df88a83b6d,Fix PyTorch version to match requirements.txt (#2661),Titan-C,https://api.github.com/repos/OpenMined/PySyft/git/commits/ef9892f496132ccf602c4aab848b12df88a83b6d
+1fcaf1569010bb7c1ebd70f3a150c53892329e87,"Update PySyft-Arch Image (#2675)
+
+* Add new PySyft Architecture Image
+
+* Add new PySyft Architecture Image on README",hericlesme,https://api.github.com/repos/OpenMined/PySyft/git/commits/1fcaf1569010bb7c1ebd70f3a150c53892329e87
+7892c9df11e33d30e3a34cc4ad7473b19dc05b7d,"Fix code formatting (#2694)
+
+I think the code looks more readable as in proposed change than before.",steph-en-m,https://api.github.com/repos/OpenMined/PySyft/git/commits/7892c9df11e33d30e3a34cc4ad7473b19dc05b7d
+3d5ae6e186d0bad6f52af651aab891ff50c3ac11,"Fix tutorial part 6, to fix issue #1893 (#2652)
+
+* Fix tutorial part 6, to fix issue #1893
+
+* Add check for CUDA before running fix",yeggasd,https://api.github.com/repos/OpenMined/PySyft/git/commits/3d5ae6e186d0bad6f52af651aab891ff50c3ac11
+bf9a966a45669c2255f502421d1e70feaa7fdf39,"Add python context to (de)activate registration on baseworkers (#2692)
+
+* Add python ctx to base worker
+
+* Change test to use the python ctx",gmuraru,https://api.github.com/repos/OpenMined/PySyft/git/commits/bf9a966a45669c2255f502421d1e70feaa7fdf39
+cf3c5c5baf73e812647bbaf54cc7a4ad9628606f,Fixed SMPC tutorial link (#2746),tallalj,https://api.github.com/repos/OpenMined/PySyft/git/commits/cf3c5c5baf73e812647bbaf54cc7a4ad9628606f
+f8512063beb857d8a276959b3f22b5625924dbef,"Added missing WebsocketClientWorker.ipynb  (#2698)
+
+* Added missing WebsocketClientWorker.ipynb
+
+* Deleted unused alias in import statement
+
+* Moved Websocket tutorial to own folder and cleared output",codebecker,https://api.github.com/repos/OpenMined/PySyft/git/commits/f8512063beb857d8a276959b3f22b5625924dbef
+c254c2788783d903c6956331da648d82f8a6273f,"Remove random tensor generators from hook exclusions (#2695)
+
+* remove random tensor generators from hook exclusions
+
+* added test for remote random number generation
+
+* removed unnecessary import
+
+* add remote generation tests for all random tensor generators
+
+* fixed formatting",genekogan,https://api.github.com/repos/OpenMined/PySyft/git/commits/c254c2788783d903c6956331da648d82f8a6273f
+d8ede4683cabea1ec3395fee105446b624eacd4a,"Add youtube link to README (#2761)
+
+* code base explained
+
+* Update README.md",roshray,https://api.github.com/repos/OpenMined/PySyft/git/commits/d8ede4683cabea1ec3395fee105446b624eacd4a
+1e409ed3a098cc3e1b145023426c9affa9ec7056,Change contribution documentation from dev to master branch (#2764),matthiaslau,https://api.github.com/repos/OpenMined/PySyft/git/commits/1e409ed3a098cc3e1b145023426c9affa9ec7056
+810423f852aa21b09f63514764d99c6a6a5ce361,"Translation to spanish of the tutorial Part 01 (#2785)
+
+feat: Translation to spanish of the Part 01 - The Basic Tools of 
+private deep learning.
+
+This comes as a response to the initiative to translate all the 
+PySyft tutorials, as it is desirable to learn PySyft in our native
+language.
+ 
+As requested, every part of the tutorial is done via pull request 
+separately to:
+
+ - Track better the changes in every document.
+
+ - Avoid double work.
+ 
+Resolves: #2775
+See also: #2782",ricardopretelt,https://api.github.com/repos/OpenMined/PySyft/git/commits/810423f852aa21b09f63514764d99c6a6a5ce361
+a0e888ac4b4da7488e03a8d401c6a198a85ef74c,"[MRG] Notebook test (#2755)
+
+* initial commit
+
+* :pushpin: adding papermill to dependencies
+
+* added urllib download to Federated Dataset Notebook to allow in notebook download and test
+
+* modify notebooks
+
+* remove uncessary lines conftest
+
+* adding advanced notebooks
+
+* :pushpin: adding statsmodels to dependencies
+
+* slight modification to make notebook runable
+
+* added tests for federated learning with trainconfig
+
+* :pushpin: adding matplotlib to dependencies
+
+* update requirements to separate out notebook only requirements
+
+* add test for Federated SMS Spam prediction notebook
+
+* reformat with black
+
+* websockets mnist
+
+* forgot black again
+
+* workers
+
+* worker stopped
+
+* updated test and conftest
+:
+
+* black and requ
+
+* hook modification",fdroessler,https://api.github.com/repos/OpenMined/PySyft/git/commits/a0e888ac4b4da7488e03a8d401c6a198a85ef74c
+b0f3735e4c61b153980d583b7b19e52edbf12994,"feat: Added the Part 01 Tutorial in Hindi (#2787)
+
+* feat: Added Part 01 in Hindi
+
+- Translated Part 01 - The Basic Tools of Private Deep Learning in Hindi
+
+Signed-off-by: Arkadip <in2arkadipb13@gmail.com>
+
+* Changes Done. Resolved all issues
+
+Signed-off-by: Arkadip <in2arkadipb13@gmail.com>
+
+* Fixed a missed issue
+
+Signed-off-by: Arkadip <in2arkadipb13@gmail.com>",darkmatter18,https://api.github.com/repos/OpenMined/PySyft/git/commits/b0f3735e4c61b153980d583b7b19e52edbf12994
+483c049c24d2a3f580d7b083d1ee28000658a283,added split neural network tutorial (#2808),H4LL,https://api.github.com/repos/OpenMined/PySyft/git/commits/483c049c24d2a3f580d7b083d1ee28000658a283
+dbc39b5ab480a3155d902dae17b68ed6045905bb,Remove Siraj Raval mention (#2815),damienstanton,https://api.github.com/repos/OpenMined/PySyft/git/commits/dbc39b5ab480a3155d902dae17b68ed6045905bb
+b398cd44e2ec1b31a4c67dba732d5c110e8002be,"Translation to Korean of the tutorial Part 01(#2794) (#2804)
+
+* feat: Added the Part 01 Tutorial in Korean (#2794)
+
+This comes as a response to the initiative to translate all the
+PySyft tutorials, as it is desirable to learn PySyft in our native
+language.
+
+As requested, every part of the tutorial is done via pull request
+separately to:
+
+- Track better the changes in every document.
+
+- Avoid double work.
+
+Resolves: #2794
+See also: #2782
+
+* fix: Add subfolder translations
+As requested add all tutorial translations to a single folder
+to:
+
+- Work better for the test suit for all the notebooks
+- Avoid clutter in the tutorials folder
+
+See also #2782",wonderit,https://api.github.com/repos/OpenMined/PySyft/git/commits/b398cd44e2ec1b31a4c67dba732d5c110e8002be
+fff539fcfa90d6da74119b486f4b55cb1fcd65d1,"Translation to Portuguese of the tutorial Part 02 (#2819)
+
+* add translation to Portuguese of the tutorial Part 02
+
+* (enhance) translate example toy expression literally",jefersonf,https://api.github.com/repos/OpenMined/PySyft/git/commits/fff539fcfa90d6da74119b486f4b55cb1fcd65d1
+4f6432bae5cc5ed7ed633d266910b11853319af1,Added Spanish translation for tutorial part 12 (#2822),socd06,https://api.github.com/repos/OpenMined/PySyft/git/commits/4f6432bae5cc5ed7ed633d266910b11853319af1
+8f7705fbba623827f1edaf5a2a351a973e2e001d,"Translation to Spanish of the tutorial Part 02 (#2798)
+
+* Translation to Spanish of the tutorial Part 02
+
+feat: Translation to Spanish of the Part 02 - Intro to Federated Learning.
+
+This comes as a response to the initiative to translate all the
+PySyft tutorials, as it is desirable to learn PySyft in our native
+language.
+
+As requested, every part of the tutorial is done via pull request
+separately to:
+
+ - Track better the changes in every document.
+
+ - Avoid double work.
+
+Resolves: #2775
+See also: #2782
+
+* Translation to Spanish of the tutorial Part 02
+
+feat: Translation to Spanish of the Part 02 - Intro to Federated Learning.
+
+This comes as a response to the initiative to translate all the
+PySyft tutorials, as it is desirable to learn PySyft in our native
+language.
+
+As requested, every part of the tutorial is done via pull request
+separately to:
+
+ - Track better the changes in every document.
+
+ - Avoid double work.
+
+Resolves: #2775
+See also: #2782
+
+* Fixed typo in contributors
+
+* Add @ricardopretelt as translator
+
+* Translations of tutorials are moved to `examples/tutorials/translations/` to be consistent with tests
+
+See: https://github.com/OpenMined/PySyft/pull/2805
+
+* fix: Translation issues in hindi notebook 1 (#2814)
+
+Signed-off-by: Arkadip <in2arkadipb13@gmail.com>
+
+* Remove Siraj Raval mention (#2815)
+
+* Splitnn tutorial (#2813)
+
+* added split neural network tutorial
+
+* Second SplitNN tutorial
+
+* second tutorial
+
+* Third SplitNN tutorial, deleted mnist dataset
+
+* deletion of old notebook
+
+* added images to tutorials
+
+* fixed model shape params
+
+* formatting
+
+* small comments fix
+
+* gradient reference fix
+
+* Fixed installation command in Windows (#2807)
+
+* Improvements to the Federated Recurrent Neural Network notebook
+
+* Removed useless syft imports
+
+* Modified RNN tutorial to also install dependencies from within the notebook
+
+* Added back federated RNN
+
+* Fixed installation instructions
+
+* Translation to Korean of the tutorial Part 01(#2794) (#2804)
+
+* feat: Added the Part 01 Tutorial in Korean (#2794)
+
+This comes as a response to the initiative to translate all the
+PySyft tutorials, as it is desirable to learn PySyft in our native
+language.
+
+As requested, every part of the tutorial is done via pull request
+separately to:
+
+- Track better the changes in every document.
+
+- Avoid double work.
+
+Resolves: #2794
+See also: #2782
+
+* fix: Add subfolder translations
+As requested add all tutorial translations to a single folder
+to:
+
+- Work better for the test suit for all the notebooks
+- Avoid clutter in the tutorials folder
+
+See also #2782
+
+* fix bug with inplace operations on FPT (#2817)
+
+* Improve notebook tests (#2805)
+
+* parameterising Part 12 bis for time
+
+* adding details how to test/contribute notebooks
+
+* move translations in separate folder
+
+* add test for translations and add test for overview of tested notebooks
+
+* fix coverage tests
+
+* fix path issues with import thanks to @arturomf94
+
+* removed too much
+
+* adding SplitNN to tests
+
+* remove print and change last assert
+
+* temp remove tutorial
+
+* update splitnn notebooks for tests
+
+* Translation to Portuguese of the tutorial Part 02 (#2819)
+
+* add translation to Portuguese of the tutorial Part 02
+
+* (enhance) translate example toy expression literally
+
+* Change pysyft_proto to syft_proto (#2820)",arturomf94,https://api.github.com/repos/OpenMined/PySyft/git/commits/8f7705fbba623827f1edaf5a2a351a973e2e001d
+ea6c204ebceff57a3e99b80f03894d12f919cfd9,"Refactor serialization and deserialization to use strategy pattern (#2841)
+
+* Refactor serialization and deserialization to use strategy pattern
+
+This should make it easier to add additional strategies for other
+serialization formats (e.g. Protobuf.)
+
+* Make the msgpack `serialize` and `deserialize` functions symmetric
+
+This clears up function naming and lets you use whichever strategies or
+parts of the serialization strategies you want.",karlhigley,https://api.github.com/repos/OpenMined/PySyft/git/commits/ea6c204ebceff57a3e99b80f03894d12f919cfd9
+ecc863243ab65ac173f32eeee81d73bd48aa3f88,"added inline documentation  (#2763)
+
+* added inline documentation
+
+* added inline documentation
+
+* reformatted
+
+Co-authored-by: Andrew Trask <liamtrask@gmail.com>
+Co-authored-by: George-Cristian Muraru <george.muraru@stud.acs.upb.ro>",abogaziah,https://api.github.com/repos/OpenMined/PySyft/git/commits/ecc863243ab65ac173f32eeee81d73bd48aa3f88
+e2bf4f6983484191da9f6b1c0f47d42fd11ecc0e,"Making changes to avoid errors on avgpool layer (#2713)
+
+* Making changes to avoid errors on avgpool layer
+
+* Fix code format
+
+* Modifications to avoid replace cmd variable in all cases
+
+* Fixing command path libraries and adding tests
+
+* removing unused imports
+
+* fixing code format
+
+Co-authored-by: Bobby Wagner <raw141@case.edu>
+Co-authored-by: Théo Ryffel <theo.leffyr@gmail.com>
+Co-authored-by: Andrew Trask <liamtrask@gmail.com>",marcusvlc,https://api.github.com/repos/OpenMined/PySyft/git/commits/e2bf4f6983484191da9f6b1c0f47d42fd11ecc0e
+54e10c50a49b73a57571aa49ea2f026a543aef3a,"cleanup protocol (#2849)
+
+Sort imports to PEP8
+
+Add obvious type hints
+
+Correct type hints
+
+Add missing args, returns, raises to doc strings
+
+refs #2510",TTitcombe,https://api.github.com/repos/OpenMined/PySyft/git/commits/54e10c50a49b73a57571aa49ea2f026a543aef3a
+786df436a5d5ef89e0ac8fdf2ca2a6d26d2dd248,Fix typo in tutorial 3 (#2851),bhadreshpsavani,https://api.github.com/repos/OpenMined/PySyft/git/commits/786df436a5d5ef89e0ac8fdf2ca2a6d26d2dd248
+580027c42f6c942da80234b59423d21c51e5583a,"Fix registration of pointer on pointer operations (#2866)
+
+* add lambda kwargs to wrap response
+
+* add **kwargs to all tensor types even if not used
+
+Co-authored-by: Théo Ryffel <theo.leffyr@gmail.com>",linamnt,https://api.github.com/repos/OpenMined/PySyft/git/commits/580027c42f6c942da80234b59423d21c51e5583a
+1bf86f4399ee7383c60e1499f7dc916ef1646a11,add missing python packages and edit makefile (#2870),systemshift,https://api.github.com/repos/OpenMined/PySyft/git/commits/1bf86f4399ee7383c60e1499f7dc916ef1646a11
+f2ae819a3e298a8426eec3d2dabd6a4b416b5d51,"Add Chinese translations of tutorials (#2852)
+
+* add chinese translations of tutorials
+
+* update all chinese translations
+
+* fix a cell that cannot excute
+
+Co-authored-by: Andrew Trask <liamtrask@gmail.com>",dljgs1,https://api.github.com/repos/OpenMined/PySyft/git/commits/f2ae819a3e298a8426eec3d2dabd6a4b416b5d51
+be1bd3f11a41efa33db010487c301b983d779ab3,"Add sk-learn to notebook docker image (#2875)
+
+Co-authored-by: George-Cristian Muraru <george.muraru@stud.acs.upb.ro>
+Co-authored-by: Karl Higley <kmhigley@gmail.com>",Nolski,https://api.github.com/repos/OpenMined/PySyft/git/commits/be1bd3f11a41efa33db010487c301b983d779ab3
+7acb1aded485880d61d57ab791fac7c6079b20b9,"Update Part 11 - Secure Deep Learning Classification.ipynb (#2891)
+
+Co-authored-by: Théo Ryffel <theo.leffyr@gmail.com>",Bingyy,https://api.github.com/repos/OpenMined/PySyft/git/commits/7acb1aded485880d61d57ab791fac7c6079b20b9
+e9b14a741149a6d0f220537cfc08898db3afa042,"fix: targets in makefile were faulty (#2868)
+
+Update the makefile to install requirements specific to
+target's needs. Also added requirements_notebooks to
+setup tests_require because `python setup.py test` was
+failing.
+
+Co-authored-by: Andrew Trask <liamtrask@gmail.com>
+Co-authored-by: Karl Higley <kmhigley@gmail.com>",Rishav1,https://api.github.com/repos/OpenMined/PySyft/git/commits/e9b14a741149a6d0f220537cfc08898db3afa042
+0927a7bfb7fcd97e2a18aff438965e016166cb0b,Translation to Indonesian Tutorial - Part 01 (#2899),nggih,https://api.github.com/repos/OpenMined/PySyft/git/commits/0927a7bfb7fcd97e2a18aff438965e016166cb0b
+bbb775873b73b3457091e0f5a4494e3940c49497,"importlib has no attribute util error (#2908)
+
+Co-authored-by: Karl Higley <kmhigley@gmail.com>",Rachelxuan11,https://api.github.com/repos/OpenMined/PySyft/git/commits/bbb775873b73b3457091e0f5a4494e3940c49497
+62b3f4dc8b3bb85c0ed3c55f8e00b30110464f4b,"Update hook.py (#2922)
+
+* Update hook.py
+
+* Update hook.py
+
+formatting
+
+* Update hook.py
+
+reviewer feedback",vishalsubbiah,https://api.github.com/repos/OpenMined/PySyft/git/commits/62b3f4dc8b3bb85c0ed3c55f8e00b30110464f4b
+ea65393d986c5a13f61e0e319d544cc7c4572720,Update websocket_client.py (#2948),brandonhee,https://api.github.com/repos/OpenMined/PySyft/git/commits/ea65393d986c5a13f61e0e319d544cc7c4572720
+2f63eb0a2e33341db0bccaac291960f3eb5ef3b4,"Fix numeric issues in handcrafted Conv and Pool (#2945)
+
+* direct summation instead of sum of sums
+
+* modify pool layer test to check exact match
+
+Co-authored-by: Théo Ryffel <theo.leffyr@gmail.com>",arshjot,https://api.github.com/repos/OpenMined/PySyft/git/commits/2f63eb0a2e33341db0bccaac291960f3eb5ef3b4
+089705a4c8e9ddd983d285a22aebf8d793e30a2c,"Bengali Tutorial Part Two (#2942)
+
+* Bengali Tutorial Part Two
+
+* Added Translator List
+
+* Right under Authors Section
+
+Co-authored-by: Andrew Trask <liamtrask@gmail.com>",ucalyptus,https://api.github.com/repos/OpenMined/PySyft/git/commits/089705a4c8e9ddd983d285a22aebf8d793e30a2c
+543906eaa6e025d543c1ea76d81c4e9dab9719af,"Added Bengali Translated Notebooks (#2992)
+
+Translated Notebooks:
+
+- Part 13a - Secure Classification with Syft Keras and TFE - Public Training.ipynb
+- Part 13b - Secure Classification with Syft Keras and TFE - Secure Model Serving.ipynb
+- Part 13c - Secure Classification with Syft Keras and TFE - Private Prediction Client.ipynb",adventuroussrv,https://api.github.com/repos/OpenMined/PySyft/git/commits/543906eaa6e025d543c1ea76d81c4e9dab9719af
+d650a47e7547509dcdf87e7afb3aebcbf9e37167,Add Udacity Link to Readme (#3016),AVJdataminer,https://api.github.com/repos/OpenMined/PySyft/git/commits/d650a47e7547509dcdf87e7afb3aebcbf9e37167
+d82be11896a096efd372f6d1c78400eee2a236ea,"Add sphinx documentation with automatic API building (#3017)
+
+* Add autoapi.extension to sphinx configuration
+
+* Add autoapi as dev dep. Add doc build to travis
+
+* Add doc testenv to github actions and travis
+
+* Fix formatting via black
+
+* Add readthedocs yml configuration
+
+* Configure sphinx to ignore ""_static""
+
+* Update theme to sphinx-rtd-theme
+
+* Update index.rst
+
+Co-authored-by: Théo Ryffel <theo.leffyr@gmail.com>",Benardi,https://api.github.com/repos/OpenMined/PySyft/git/commits/d82be11896a096efd372f6d1c78400eee2a236ea
+9c270f26e200e6fc9484acafda9759f11c89fce5,"Translation into Ukrainian language (#2854)
+
+* Add files via upload
+
+* Update Part 01 - Основні засоби приватного глибинного навчання.ipynb
+
+Co-authored-by: Karl Higley <kmhigley@gmail.com>
+Co-authored-by: George-Cristian Muraru <murarugeorgec@gmail.com>
+Co-authored-by: Théo Ryffel <theo.leffyr@gmail.com>",KyloRen1,https://api.github.com/repos/OpenMined/PySyft/git/commits/9c270f26e200e6fc9484acafda9759f11c89fce5
+60477d838487ea452cc1b90299a97e913570bf02,"Hindi translations for Part 5, 6, 13b and 13c (#2909)
+
+* Hindi translations for Part 5, 6, 13b and 13c
+
+* Markdown changes applied and github link added
+
+* Fixed spaces and translatations
+
+* Update Part 06 - Federated Learning on MNIST using a CNN.ipynb
+
+* Made changes on translations and spaces
+
+* Update Part 13b - Secure Classification with Syft Keras and TFE - Secure Model Serving.ipynb
+
+* Update Part 13c - Secure Classification with Syft Keras and TFE - Private Prediction Client.ipynb
+
+* Update Part 13b - Secure Classification with Syft Keras and TFE - Secure Model Serving.ipynb
+
+* Updated Part 5 - moving Pygrid Module to PySyft
+
+* Hindi translations for Part 4, 7 and 8 updated
+
+* Update Part 07 - Federated Learning with Federated Dataset.ipynb
+
+* Delete Part 08 - Introduction to Plans.ipynb
+
+* Hindi translations - 4, 7, 8, 8 bis,9 and 10
+
+* Update Part 07 - Federated Learning with Federated Dataset.ipynb
+
+* Delete Part 07 - Federated Learning with Federated Dataset.ipynb
+
+Co-authored-by: Andrew Trask <liamtrask@gmail.com>
+Co-authored-by: Karl Higley <kmhigley@gmail.com>",raheja,https://api.github.com/repos/OpenMined/PySyft/git/commits/60477d838487ea452cc1b90299a97e913570bf02
+9efe53ac0f7664d16aa72880a7de936a4a595d97,"Portuguese translations Part7-8-8bis (#2977)
+
+* pt translation part07
+
+* middle part 8 translation
+
+* fixing portuges
+
+* finishing translation part8 and part8 bis
+
+* fixing errors
+
+* finishing tutorial part 8bis
+
+* changing metadata kernel to python3
+
+* update parte07-08 - fixing some errors
+
+* Update Parte 07 - Aprendizado Federado com Conjunto de Dados Federado.ipynb
+
+* Update Parte 08 - Introdução a Planos.ipynb
+
+Co-authored-by: Karl Higley <kmhigley@gmail.com>",joaolcaas,https://api.github.com/repos/OpenMined/PySyft/git/commits/9efe53ac0f7664d16aa72880a7de936a4a595d97
+b9a8bec7d8393850435d7bf6e201d12097fb7113,"Translated tutorial part 01 to Portuguese (#3035)
+
+Co-authored-by: Karl Higley <kmhigley@gmail.com>",MarcioPorto,https://api.github.com/repos/OpenMined/PySyft/git/commits/b9a8bec7d8393850435d7bf6e201d12097fb7113
+c2245393ec87de1fb3cebf4077c6ebcbb23b349e,"Portuguese translation 13c (#3023)
+
+* translate 13c
+
+* translate 13c update
+
+* translate 13c update 2
+
+* Update Part 13c - Secure Classification with Syft Keras and TFE - Private Prediction Client.ipynb
+
+* Update Parte 13c - Classificação Segura com Syft Keras e TFE - Cliente de predição privada.ipynb
+
+* Update Parte 13c - Classificação Segura com Syft Keras e TFE - Cliente de predição privada.ipynb
+
+Co-authored-by: Karl Higley <kmhigley@gmail.com>",Izabellaaaq,https://api.github.com/repos/OpenMined/PySyft/git/commits/c2245393ec87de1fb3cebf4077c6ebcbb23b349e
+327e24168a96e9164628114d0a67f80793d613ed,"Add instruction for PySyft-Proto dependency and numbered the steps (#2818)
+
+* Add instruction for PySyft-Proto dependency and numbered the steps
+
+* Remove Step 5, it is handled in requirement_dev.txt
+
+* Update requirements files to point to syft-proto in PyPI
+
+* Remove duplicate dependency (syft-proto) outside requirements.txt
+
+* replace proto with  syft-proto",refactormyself,https://api.github.com/repos/OpenMined/PySyft/git/commits/327e24168a96e9164628114d0a67f80793d613ed
+1530e93aa175c20b4a290323980fcbfd2e642b76,Update msgpack version requirement (#3073),hdodenhof,https://api.github.com/repos/OpenMined/PySyft/git/commits/1530e93aa175c20b4a290323980fcbfd2e642b76
+0ef172084488948390659022dda4f2b8ed02b71c,spelling correction in grid tutorial  Part 01 (#3106),IamRavikantSingh,https://api.github.com/repos/OpenMined/PySyft/git/commits/0ef172084488948390659022dda4f2b8ed02b71c
+427ecdff2858f81d2943f896255978f3f9472e6a,"Translation to french of the tutorial part 01 (#3107)
+
+* Added the french language tutorial 1
+
+* Updated french_tutorial_1",r0cketr1kky,https://api.github.com/repos/OpenMined/PySyft/git/commits/427ecdff2858f81d2943f896255978f3f9472e6a
+3e102a1254ebedb312185e331621bd2275432b95,Tutorial Notebook 10 note on numpy hook (OpenMined#3022) (#3103),haofanwang,https://api.github.com/repos/OpenMined/PySyft/git/commits/3e102a1254ebedb312185e331621bd2275432b95
+51bff2ed2cc7b455c7718370ace8a395d49f7cab,"Float tensor additive sharing (#3094)
+
+* Convert torch.zeros from float to long tensor
+
+* Catch FloatTensor sharing attempt
+
+* format correction
+
+* reformatting
+
+* fix maxpool TensorFloat sharing",pierrepocreau,https://api.github.com/repos/OpenMined/PySyft/git/commits/51bff2ed2cc7b455c7718370ace8a395d49f7cab
+4e5ee373290915625634e39beb761e2b9e9c2fa5,"Commit test_rnn (#3092)
+
+* Commit test_rnn
+
+* Reformat test_rnn
+
+* Change assertion function to tolerate rounding problems
+
+* Reformat test_rnn.py
+
+* Change assertion tolerating range
+
+* Reformat test_rnn.py",jimboH,https://api.github.com/repos/OpenMined/PySyft/git/commits/4e5ee373290915625634e39beb761e2b9e9c2fa5
+7d61c79f66e0b026c9595f653fbc47a1c1c77ef8,"Add dependency caching to Github Actions (#3124)
+
+* added cache.yml for GH actions cache
+
+* added all req files in hashFiles
+
+* added necessary changes as requested
+
+* added path as it was missing
+
+* added missing key
+
+* added cache after checkout
+
+* fixed cache.yml syntax
+
+* added cache hit checks
+
+* cache hit true
+
+* removed cache separate yml file
+
+* Update tests cache step id
+
+* Update translations cache step id
+
+* Update tutorials cache step id
+
+* Always run install deps step
+
+* Always run install deps step
+
+* Always run install deps step
+
+* Update cache key to include Python version
+
+* Update cache key to include Python version
+
+* Update cache key to include Python version
+
+* Uncomment a line to trigger builds
+
+* Re-comment
+
+Co-authored-by: Karl Higley <kmhigley@gmail.com>",imskr,https://api.github.com/repos/OpenMined/PySyft/git/commits/7d61c79f66e0b026c9595f653fbc47a1c1c77ef8
+811f3ecfe04d469855c0934af3837117b5342705,"Add Bengali Translated Notebooks #Part 4 and #Part 5 (#3121)
+
+* add Bengali translated notebook #Part 5.
+
+* add translator name.
+
+* add Bengali translated notebook #part - 4.
+
+Co-authored-by: Karl Higley <kmhigley@gmail.com>",jabertuhin,https://api.github.com/repos/OpenMined/PySyft/git/commits/811f3ecfe04d469855c0934af3837117b5342705
+2ab4109e993a0bc5ed84a734a8568e23aa353968,Updated Docs to pytorch 1.4 (#3140),codeboy5,https://api.github.com/repos/OpenMined/PySyft/git/commits/2ab4109e993a0bc5ed84a734a8568e23aa353968
+6dd3d13734ed08e391fb282a31a56a0d0e640aa2,Add `params` kwarg to Optimizer for federated_client (#3117),gconst02,https://api.github.com/repos/OpenMined/PySyft/git/commits/6dd3d13734ed08e391fb282a31a56a0d0e640aa2
+a4187b793c9ca44e9394e87d5ef8dbd2858618d6,Update regarding incompatible python versions (#3154),J-Yash,https://api.github.com/repos/OpenMined/PySyft/git/commits/a4187b793c9ca44e9394e87d5ef8dbd2858618d6
+14e15810a3ef551ab939701732ce73f6aa0b13c2,Minor Doc Change (#3155),bicycleman15,https://api.github.com/repos/OpenMined/PySyft/git/commits/14e15810a3ef551ab939701732ce73f6aa0b13c2
+c23f2633c0eaf8583a58db003cc7f53ee534985e,"README.md update: specify python=3.7 (#3162)
+
+As of now, `conda -n pysyft create python=3` will create an environment with python 3.8, which will not be able to run PySift, due to its Tensorflow dependencies. By specifying `python=3.7`, we solve this issue.",teddykoker,https://api.github.com/repos/OpenMined/PySyft/git/commits/c23f2633c0eaf8583a58db003cc7f53ee534985e
+1295cd62258794c621cc7aee81d1daba59e71c2e,"adding german translated tutorial 1st notebook (#3178)
+
+* adding german translated 1st notebook
+
+* minor changes
+
+* changing according to review
+
+* changing according to review",vineetjai,https://api.github.com/repos/OpenMined/PySyft/git/commits/1295cd62258794c621cc7aee81d1daba59e71c2e
+ed5b218eb17c62c0f256d8e02c6d678b21bb5c61,"added floptimizer to maintain a list of optimizer objects (#3179)
+
+* added FLOptimizer
+
+* reformatted floptimizer
+
+* Import path changed
+
+* reformat
+
+* black formatted
+
+* Changed import path
+
+* Chnaged import path
+
+* update
+
+* saved on JupyterLab
+
+* Changed import path to tutorials folder
+
+* removed floptimizer from tutorials
+
+* Edited the example instead of adding
+
+* added args required
+
+* added doc strings",rimijoker,https://api.github.com/repos/OpenMined/PySyft/git/commits/ed5b218eb17c62c0f256d8e02c6d678b21bb5c61
+7e91927a0211cc2af0a1c2b7acb74984f1edf86c,"Improve Plans flexibility (#3199)
+
+* Working on issue #3184, adding more features to plans. Current status:
+
+* added support when input tensor is also output tensor
+* added a test case when input tensor is also output tensor
+
+* Fix a minor formatting issue
+
+Co-authored-by: tudor <Tudor Cebere>
+Co-authored-by: Karl Higley <kmhigley@gmail.com>",tudorcebere,https://api.github.com/repos/OpenMined/PySyft/git/commits/7e91927a0211cc2af0a1c2b7acb74984f1edf86c
+cdce128c377a1cc92214a80fbafaa3b75ece3d74,"Changed worker address from localhost to 0.0.0.0 (#3218)
+
+Co-authored-by: Alexandru Rotaru <rotarualexandruandrei94@gmail.com>",rotalex,https://api.github.com/repos/OpenMined/PySyft/git/commits/cdce128c377a1cc92214a80fbafaa3b75ece3d74
+43683209808962af528715619a86ab0aeb54f339,"Pidgin Translation of the Tutorial (#3149)
+
+* Pidgin Translation
+
+* Part 01 - The Basic Tools of Private Deep Learning
+
+* Delete README.md
+
+* Part 02 - Intro to Federated Learning- Pidgin
+
+* Part 03 - Advanced Remote Execution Tools-Pidgin
+
+* README.md
+
+* Update README.md
+
+* Part 05 - Welicome to Sandbox-Pidgin
+
+* Part 4- Federated Learning via Trusted Aggregator
+
+* Part 07 - Federated Learning with FederatedDataset",TemitopeOladokun,https://api.github.com/repos/OpenMined/PySyft/git/commits/43683209808962af528715619a86ab0aeb54f339
+df6b0c48af5aca585c9f337414f9e7dcbc586fa4,"Add documentation to test files (#3177)
+
+* Added docstrings to test_object_storage.py
+
+* Added inline comments
+
+* Reformatted
+
+* changes to  docstring
+
+Co-authored-by: Vineeth Rajesh <vineethrajesh14@gmail.com>",vineeth14,https://api.github.com/repos/OpenMined/PySyft/git/commits/df6b0c48af5aca585c9f337414f9e7dcbc586fa4
+1b0faa3ede31d481c8b535998dc92b229439f02e,"Cleaning FixedPrecision (#3253)
+
+* Added Conv2d to nn
+
+* Removed conv2d from precision.py
+
+* Added Dropout to nn.functional
+
+Removed dropout from precision.py
+
+* Added tests for dropout in test_functional.py
+
+Removed tests for dropout from test_precision.py
+
+* Added conv2d to nn.functional
+
+* Added tests for nn.functional.conv2d in test_functional.py
+
+removed tests from test_precision.py and test_additive_shared.py
+
+* Fix torch.nn.Conv2d and integrate with nn.functiona.conv2d
+
+* Added tests for nn.Conv2d
+
+* Commented tests for conv2d in test_additive_shared.py",sachin-101,https://api.github.com/repos/OpenMined/PySyft/git/commits/1b0faa3ede31d481c8b535998dc92b229439f02e
+8f0a55921b70be4933524a66333574e52d4d58d6,"Add a `protocol` kwarg to `encrypt()` method to select between MPC and Paillier HE (#3234)
+
+* Implement MPC as default
+
+* Remove Paillier condition. Only MPC
+Checkout to earlier commit for version with both
+
+* Add functionality to call either properly
+
+* Test cases for encrypt method
+
+* Docstrings added
+
+* Format using Black
+
+* Update function calls in test_native.py
+
+* Cover edge case in test
+?
+
+* Suggestions incorporated
+
+* Simpler Code
+Thanks to @Jasopaum
+
+* Basic decrypt method
+
+* Doc strings
+
+* Explicit call for paillier",Syzygianinfern0,https://api.github.com/repos/OpenMined/PySyft/git/commits/8f0a55921b70be4933524a66333574e52d4d58d6
+7d956cce795dbac1a141b01fb79bb9ac41baefd0,Patch installation link in README (#3280),stephenjfox,https://api.github.com/repos/OpenMined/PySyft/git/commits/7d956cce795dbac1a141b01fb79bb9ac41baefd0
+fbe1fc42f57a40b582292456add683f5e20f0d2f,"Translate tutorial part 4 to Korean (#3270)
+
+* Add English part 4 tutorial to Korean folder
+
+* Translate tutorial Part 4 to Korean",seungjaeryanlee,https://api.github.com/repos/OpenMined/PySyft/git/commits/fbe1fc42f57a40b582292456add683f5e20f0d2f
+268b90e93f1bed04d8bded8c51e8e5be55d40add,"Add device option to async_fit (#3299)
+
+This is to enable training on GPU optionally using async_fit function on the worker.",wmlba,https://api.github.com/repos/OpenMined/PySyft/git/commits/268b90e93f1bed04d8bded8c51e8e5be55d40add
+74555c840ad0b0ab0460a6b88560666a14758f15,"Added Japanese language translated tutorial notebooks from part 1 to 12 (#3182)
+
+* Translation to Japanese
+
+* fix type
+
+* change epoch count",kouohhashi,https://api.github.com/repos/OpenMined/PySyft/git/commits/74555c840ad0b0ab0460a6b88560666a14758f15
+9621067632cf7e057c8ce3a1ab50f2c527a5caa8,"translate tutorial part 13 japanese (#3243)
+
+Co-authored-by: madorin <madorin@madorinnoMacBook-Pro.local>",MADONOKOUKI,https://api.github.com/repos/OpenMined/PySyft/git/commits/9621067632cf7e057c8ce3a1ab50f2c527a5caa8
+e3169d26444e5c9d5711f1890840dad181d5150b,"Translation to German Tutorial ""Part 02"" and ""Part 03"" (#3294)
+
+* Translation to German ""Tutorial Part 02 and 03""",JMBehnken,https://api.github.com/repos/OpenMined/PySyft/git/commits/e3169d26444e5c9d5711f1890840dad181d5150b
+622f7d8f6957ab2e276baaa928b6647b452df472,"Added Marathi language translated tutorial notebooks from part 1 to 7 (#3173)
+
+* Added Marathi language translated tutorial notebooks from part 1 to 7
+
+* Added Marathi language translated tutorial notebooks from part 8 to 11
+
+* Added Marathi language translated tutorial notebooks from part 12 to 13c
+
+Co-authored-by: Karl Higley <kmhigley@gmail.com>",Noob-can-Compile,https://api.github.com/repos/OpenMined/PySyft/git/commits/622f7d8f6957ab2e276baaa928b6647b452df472
