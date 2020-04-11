@@ -1,4 +1,3 @@
-from pull_requests import PullRequests
 from tagged_issues import TaggedIssues
 from user_commits import UserCommits
 
@@ -27,7 +26,7 @@ class GoodFirstIssue:
 
         # Define location of the repository. This should be an https:// link to Github with the .git still on it. This
         # can be obtained by going to a repository's site and selecting the 'clone or download -> https' option.
-        repository = "https://github.com/microsoft/DeepSpeed.git"
+        repository = "https://github.com/w3c/csswg-drafts.git"
 
         # Define the name of the good-first-issue tag used in the repository to analyze.
         first_issue_tag = "good first issue"
@@ -38,8 +37,6 @@ class GoodFirstIssue:
         # Get all tagged issues within the repository.
         tagged_issues = TaggedIssues.get_tagged_issues(repository, api_key, first_issue_tag)
 
-        # Get all pull requests in a repository. NOTE: DOESN'T WORK BECAUSE API LIMITS DON'T SUPPORT USEFULNESS.
-        #pull_requests = PullRequests.get_related_pull_requests(repository, api_key, user_commits, tagged_issues)
 
 # Main method call for program execution.
 GoodFirstIssue.main()

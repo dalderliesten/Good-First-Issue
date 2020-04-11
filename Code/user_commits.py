@@ -56,15 +56,21 @@ class UserCommits:
         # Obtain all initial / first commits by iterating through desired repository and comparing the names to the
         # already seen commits.
         for commit in total_commits:
-            # Filtering out NoneType users (who deleted their account) to prevent errors.
-            if commit.author is not None:
-                # Filtering out empty URLs from old/deleted accounts.
-                if commit.url is not None:
-                    print(f'Commit found created by {commit.author.login}.')
-                    if commit.author.login not in users_tracked:
-                        users_tracked.append(commit.author.login)
-                        initial_commit.append(commit)
-                        print(f'+++ Identified first commit by {commit.author.login}.')
+            # Due to PyGithub's error handling, use try/catch to avoid URL errors for invalid resources.
+            try:
+                # Filtering out NoneType users (who deleted their account) to prevent errors.
+                if commit.author is not None:
+                    # Filtering out deleted or invalid account addresses.
+                    if commit.author.login != 'invalid-email-address':
+                        # Filtering out empty URLs from old/deleted accounts.
+                        if commit.url is not None:
+                            print(f'Commit found created by {commit.author.login}.')
+                            if commit.author.login not in users_tracked:
+                                users_tracked.append(commit.author.login)
+                                initial_commit.append(commit)
+                                print(f'+++ Identified first commit by {commit.author.login}.')
+            except:
+                print('ERROR RELATED TO COMMIT, SKIPPING.')
 
         # Write results to CSV for storage and later use/validation by user.
         print('Writing identified first commits to a CSV...')
