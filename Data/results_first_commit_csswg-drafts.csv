@@ -1,0 +1,487 @@
+First Commit Hash (SHA),Commit Message,Author (Github Name),Link to Commit
+a99a6046f0f90d4a2f8579657e1e5789b0b7902b,"[css2] Hello!
+
+--HG--
+extra : convert_revision : svn%3A73dc7c4b-06e6-40f3-b4f7-9ed1dbc14bfc/trunk%402",ianbjacobs,https://api.github.com/repos/w3c/csswg-drafts/git/commits/a99a6046f0f90d4a2f8579657e1e5789b0b7902b
+6965980dc1472a0fae629dd709c2232e789a4b5d,"[css2] Added to CVS
+
+--HG--
+extra : convert_revision : svn%3A73dc7c4b-06e6-40f3-b4f7-9ed1dbc14bfc/trunk%403",bert-github,https://api.github.com/repos/w3c/csswg-drafts/git/commits/6965980dc1472a0fae629dd709c2232e789a4b5d
+f9464a8928677c5eb0deee19b00076da63d621ad,"[css2] added TODO entries from whiteboard discussions with Bert
+
+--HG--
+extra : convert_revision : svn%3A73dc7c4b-06e6-40f3-b4f7-9ed1dbc14bfc/trunk%40169",howcom,https://api.github.com/repos/w3c/csswg-drafts/git/commits/f9464a8928677c5eb0deee19b00076da63d621ad
+7b6c067c8af22fcb3722eadc33a46a0a87708469,"[css2] checkpoint - partial review of fonts stuff
+
+--HG--
+extra : convert_revision : svn%3A73dc7c4b-06e6-40f3-b4f7-9ed1dbc14bfc/trunk%40205",svgeesus,https://api.github.com/repos/w3c/csswg-drafts/git/commits/7b6c067c8af22fcb3722eadc33a46a0a87708469
+282ed159383174802f37393baae309a18aa824da,"[css2] regex fix required
+
+--HG--
+extra : convert_revision : svn%3A73dc7c4b-06e6-40f3-b4f7-9ed1dbc14bfc/trunk%402271",tguild,https://api.github.com/repos/w3c/csswg-drafts/git/commits/282ed159383174802f37393baae309a18aa824da
+939c44f83432d8ffccc9354590ba7887d31839bb,"[css2] Making my 2.1 edits: tree order for line boxes, positioned floating descendants only get painted once..
+
+--HG--
+extra : convert_revision : svn%3A73dc7c4b-06e6-40f3-b4f7-9ed1dbc14bfc/trunk%402287",Hixie,https://api.github.com/repos/w3c/csswg-drafts/git/commits/939c44f83432d8ffccc9354590ba7887d31839bb
+59dc7c2436ba4193d224899283f65dba786f406e,"[css2] Resolutions from 2005-10-04 telecon.
+
+--HG--
+extra : convert_revision : svn%3A73dc7c4b-06e6-40f3-b4f7-9ed1dbc14bfc/trunk%402363",dbaron,https://api.github.com/repos/w3c/csswg-drafts/git/commits/59dc7c2436ba4193d224899283f65dba786f406e
+72d71bb178babbb4e6eb0cb6162b6cdcbaf98bc3,"[css2] fix grammar
+
+--HG--
+extra : convert_revision : svn%3A73dc7c4b-06e6-40f3-b4f7-9ed1dbc14bfc/trunk%402367",fantasai,https://api.github.com/repos/w3c/csswg-drafts/git/commits/72d71bb178babbb4e6eb0cb6162b6cdcbaf98bc3
+4e64c9746292de3cfed78413d0e7bd9c6c4cc7d3,"[css2] updated Issue 166
+
+--HG--
+extra : convert_revision : svn%3A73dc7c4b-06e6-40f3-b4f7-9ed1dbc14bfc/trunk%402457",mielke,https://api.github.com/repos/w3c/csswg-drafts/git/commits/4e64c9746292de3cfed78413d0e7bd9c6c4cc7d3
+678f37ab3f2198d839ed14a84ca5c7de680ef4c2,Initial version of what is to become the CSSOM spec,annevk,https://api.github.com/repos/w3c/csswg-drafts/git/commits/678f37ab3f2198d839ed14a84ca5c7de680ef4c2
+089e03eb88738ed6ba8cf1c9807378962ef4b017,*** empty log message ***,alexmog1,https://api.github.com/repos/w3c/csswg-drafts/git/commits/089e03eb88738ed6ba8cf1c9807378962ef4b017
+857e535d3c76b6a0cf62ffe0a4fa0ffe4dd44f03,Initial checkin on CSS 2d transforms,grorg,https://api.github.com/repos/w3c/csswg-drafts/git/commits/857e535d3c76b6a0cf62ffe0a4fa0ffe4dd44f03
+840ac1dd01823b89098c67e41c0a7e1bbf8b4608,First try at adding linear gradients,tabatkins,https://api.github.com/repos/w3c/csswg-drafts/git/commits/840ac1dd01823b89098c67e41c0a7e1bbf8b4608
+5b841d7830fd8d7f10daa1763343bd390590bf5a,*** empty log message ***,r12a,https://api.github.com/repos/w3c/csswg-drafts/git/commits/5b841d7830fd8d7f10daa1763343bd390590bf5a
+9f04992307836abd05d06b27c4ae57ca71268752,"* Fixed above/below to over/under
+* Added default UA stylesheet for text-emphasis-position
+* Added issue to default UA stylesheet",kojiishi,https://api.github.com/repos/w3c/csswg-drafts/git/commits/9f04992307836abd05d06b27c4ae57ca71268752
+f8d948a698b702d73bb830a5789031b822167d5d,first time commit.,danielweck,https://api.github.com/repos/w3c/csswg-drafts/git/commits/f8d948a698b702d73bb830a5789031b822167d5d
+c2f41ed704022aa86fbc4ca6b8e1348a99eed094,Adding missing Overview.html,vhardy,https://api.github.com/repos/w3c/csswg-drafts/git/commits/c2f41ed704022aa86fbc4ca6b8e1348a99eed094
+b393a1507f5b69357b8d0edfdb701035a835ce58,"Moving the module from ""CSS Exclusions"" to ""CSS Exclusions and Shapes"".
+The new spec has updated property names, property values, examples and suggested processing model.
+The list of authors is updated to Vincent Hardy and Rossen Atanassov. Everyone else is moved to the Acknowledgments section.",atanassov,https://api.github.com/repos/w3c/csswg-drafts/git/commits/b393a1507f5b69357b8d0edfdb701035a835ce58
+b65e28bf90cfc9245c47af8bd55bdb95f3f75137,"- 'This version' links to the current version of this specification instead of CSS3 2D Transforms now.
+- Corrected typing errors in introduction.
+- Mention three dimensional space in introduction.
+- Added TODO for adding perspective transform in introduction.
+- Added new section 'Definitions' for terms used in this document.
+- Copied style setting for term descriptions from the 'Filter Effects 1.0' specification.
+- Introduced new term 'transformable element' and added description to the 'Description' section.
+- Added new section 'Changes' for changes to this document.",dirkschulze,https://api.github.com/repos/w3c/csswg-drafts/git/commits/b65e28bf90cfc9245c47af8bd55bdb95f3f75137
+1220eab0abee82806c6d6b19bdf56de3aa368bbe,initial draft of page-template proposal,astearns,https://api.github.com/repos/w3c/csswg-drafts/git/commits/1220eab0abee82806c6d6b19bdf56de3aa368bbe
+1524a46e5d082ba257da06dfe0e0d7cab4553efd,redirect to hg repo,skynavga,https://api.github.com/repos/w3c/csswg-drafts/git/commits/1524a46e5d082ba257da06dfe0e0d7cab4553efd
+67ad0a6b4978570b41e5485177e597e2d7da1237,New.,sideshowbarker,https://api.github.com/repos/w3c/csswg-drafts/git/commits/67ad0a6b4978570b41e5485177e597e2d7da1237
+59967dc305ae935ec8539c3950259a14715d240f,"Resolve ambiguity in transform-origin syntax
+
+As resolved in bug: https://www.w3.org/Bugs/Public/show_bug.cgi?id=15432",ayg,https://api.github.com/repos/w3c/csswg-drafts/git/commits/59967dc305ae935ec8539c3950259a14715d240f
+9a56383f0f384c241ff85d6654659a27a3f74b92,Adding .src.html file for the Grid spec.,BoCupp-Microsoft,https://api.github.com/repos/w3c/csswg-drafts/git/commits/9a56383f0f384c241ff85d6654659a27a3f74b92
+69422623e33aa842ebe936799dac0b4a9f9902a2,Fix typo.,hober,https://api.github.com/repos/w3c/csswg-drafts/git/commits/69422623e33aa842ebe936799dac0b4a9f9902a2
+8fd44d3a295f00e3ba6d698a26ddb2b459651288,[css3-page] Typo fix: IS0 → ISO,SimonSapin,https://api.github.com/repos/w3c/csswg-drafts/git/commits/8fd44d3a295f00e3ba6d698a26ddb2b459651288
+614073da4eda272b7d0c5430fb6caf77b3ef0246,[css4-mediaqueries] Add the luminosity media feature,frivoal,https://api.github.com/repos/w3c/csswg-drafts/git/commits/614073da4eda272b7d0c5430fb6caf77b3ef0246
+e6105ffeb8b0706d5c6d68f6540d901f8592ec62,[css-flexbox][css-text][css-writing-modes] added test annotations in preparation for TestTWF Tokyo,rhauck,https://api.github.com/repos/w3c/csswg-drafts/git/commits/e6105ffeb8b0706d5c6d68f6540d901f8592ec62
+837d728b3d75b4deb672ad252aa0bec51deecb3c,[css-snappoints] Converting to ED per resolution on 10/23/2013,ChumpChief,https://api.github.com/repos/w3c/csswg-drafts/git/commits/837d728b3d75b4deb672ad252aa0bec51deecb3c
+04936c614a9040bc8bc5e996db80bd9a328aba6d,Added spread radius demo,LeaVerou,https://api.github.com/repos/w3c/csswg-drafts/git/commits/04936c614a9040bc8bc5e996db80bd9a328aba6d
+bd2feb4412a6dd7fe8a89a8cf1cfe38bd465682c,[css-ui] Remove nav-left nav-right nav-up nav-down from CSS 3 UI at-risk list,therealglazou,https://api.github.com/repos/w3c/csswg-drafts/git/commits/bd2feb4412a6dd7fe8a89a8cf1cfe38bd465682c
+b6147ac6db6ab02937c272bd5b1db8c7ca9eddf4,"[css3-gcpm] completely new ED from new editor
+
+--HG--
+extra : rebase_source : a51eb71c63c6df9ff83cbf5d3108f1db53946168",dauwhe,https://api.github.com/repos/w3c/csswg-drafts/git/commits/b6147ac6db6ab02937c272bd5b1db8c7ca9eddf4
+950bd9480634c06248e5d75ade5cc36078d6fa1f,"Removed John Daggett and added Fantasai to editors list
+
+--HG--
+extra : rebase_source : 9dc7cb07bbf9ff77ef1aec3be1174d96aa7ce0ca",stevezilles,https://api.github.com/repos/w3c/csswg-drafts/git/commits/950bd9480634c06248e5d75ade5cc36078d6fa1f
+0834f28e09892eae13867231c35b63a8947b1ff5,"[css-transitions] Use new x# value syntax instead of x [, x]*.",estelle,https://api.github.com/repos/w3c/csswg-drafts/git/commits/0834f28e09892eae13867231c35b63a8947b1ff5
+6d5dc4a62c29e40fa54a3e82b185464c2edc74ae,Web Animations CSS Integration specification - initial commit,shans,https://api.github.com/repos/w3c/csswg-drafts/git/commits/6d5dc4a62c29e40fa54a3e82b185464c2edc74ae
+6a528b24936debf4005cddf99baa31a130b74882,[css-grid] Fix typo: gridDefinitionColumns vs gridTemplateColumns,mrego,https://api.github.com/repos/w3c/csswg-drafts/git/commits/6a528b24936debf4005cddf99baa31a130b74882
+6d5032cc503016eeac91bfbd8128a93420411ecb,fix typo in HexColor constructor with HexColorInit,merih,https://api.github.com/repos/w3c/csswg-drafts/git/commits/6d5032cc503016eeac91bfbd8128a93420411ecb
+18d8df1053d8ac5ba7ea0c973e8d8a4a7789f694,[css-round-display] Upload a spec first,anawhj,https://api.github.com/repos/w3c/csswg-drafts/git/commits/18d8df1053d8ac5ba7ea0c973e8d8a4a7789f694
+d9c02188e30070cf6e1496dc369c87d3984f7e08,[cssom] (editorial) Fix some bikeshed fatal errors...,zcorpan,https://api.github.com/repos/w3c/csswg-drafts/git/commits/d9c02188e30070cf6e1496dc369c87d3984f7e08
+3403187edb9003f5929fd196110f78eea47831b8,"Merge pull request #16 from frivoal/florian/box-sizing
+
+Florian/box sizing",tantek,https://api.github.com/repos/w3c/csswg-drafts/git/commits/3403187edb9003f5929fd196110f78eea47831b8
+19f59d1ad794b20d1ed15c38f71e6c8e35c5cdc9,[css-page-floats] map left/right to line-left/right for inline elements and clarify position of anchor,johanneswilm,https://api.github.com/repos/w3c/csswg-drafts/git/commits/19f59d1ad794b20d1ed15c38f71e6c8e35c5cdc9
+5e68d3a871e6ba46cfd9e982f2ce434f695f6941,"Alignment container for justify-self and justify-items In Grid Layout
+must be the grid area instead of the grid cell.",javifernandez,https://api.github.com/repos/w3c/csswg-drafts/git/commits/5e68d3a871e6ba46cfd9e982f2ce434f695f6941
+4c0e1a1caa65b6a0e9a7e76ed82c8cc129fb0b6d,Fix for consistency with other uses of `bar`,ebruchez,https://api.github.com/repos/w3c/csswg-drafts/git/commits/4c0e1a1caa65b6a0e9a7e76ed82c8cc129fb0b6d
+fc8ea0437141d6944e6c0ab0267db4c35199bde2,fix typo in css-snappoints doc,mikehenrty,https://api.github.com/repos/w3c/csswg-drafts/git/commits/fc8ea0437141d6944e6c0ab0267db4c35199bde2
+15c0ec07e4278fb76357ac9799a053b712dce6a0,fonts.ready is a property not a function,jakearchibald,https://api.github.com/repos/w3c/csswg-drafts/git/commits/15c0ec07e4278fb76357ac9799a053b712dce6a0
+d59ff88ea99c52471603dc4024f6dedb7a28cf7a,[css-round-display] Fix value line of polar-angle property definition (ACTION-706: https://www.w3.org/Style/CSS/Tracker/actions/706),jihyerish,https://api.github.com/repos/w3c/csswg-drafts/git/commits/d59ff88ea99c52471603dc4024f6dedb7a28cf7a
+31ef2f33975668c36c238c068a6bf07bb6c56803,[css-2015] Fix typo,simevidas,https://api.github.com/repos/w3c/csswg-drafts/git/commits/31ef2f33975668c36c238c068a6bf07bb6c56803
+f6fcc5bed86bd4d08445d11a01ec7d94304583fa,"Fix typo
+
+Changed “From controls” to “Form controls”",jwdallas,https://api.github.com/repos/w3c/csswg-drafts/git/commits/f6fcc5bed86bd4d08445d11a01ec7d94304583fa
+be58730054481cb5d18edf30a7ad0ceaf04a8dae,"[css-ui] Remove redundant display:inline-block for input[type=image]
+
+This declaration is redundant considering that there's already
+https://github.com/w3c/csswg-drafts/blob/81355cb5f6a776d8988e7eb8b54efb3cad14594f/css-ui/Overview.bs#L1631-L1633",cvrebert,https://api.github.com/repos/w3c/csswg-drafts/git/commits/be58730054481cb5d18edf30a7ad0ceaf04a8dae
+8b9208e323ac0480f554d3476de2e700ac575cf3,Add Thumbs.db to .gitignore,birtles,https://api.github.com/repos/w3c/csswg-drafts/git/commits/8b9208e323ac0480f554d3476de2e700ac575cf3
+a803d919b2ec495f2fbf3ddeeb299e83567fc868,Fixing use of preposition (of -> for).,Adenilson,https://api.github.com/repos/w3c/csswg-drafts/git/commits/a803d919b2ec495f2fbf3ddeeb299e83567fc868
+a4e196661506d1ef581c868a7b7256cf9226858a,Moving css3 table from my github to the CSS repo.,gregwhitworth,https://api.github.com/repos/w3c/csswg-drafts/git/commits/a4e196661506d1ef581c868a7b7256cf9226858a
+fa95c24475a0183b934d48858ac4ba11a95980a2,[css-tables-3][editorila] Fixed indentation,FremyCompany,https://api.github.com/repos/w3c/csswg-drafts/git/commits/fa95c24475a0183b934d48858ac4ba11a95980a2
+63f6ba4bc53412bab68af27ca166e4b2d13e75d3,Specify the text-size-adjust <percentage> value,progers,https://api.github.com/repos/w3c/csswg-drafts/git/commits/63f6ba4bc53412bab68af27ca166e4b2d13e75d3
+a85c31e70e971eb9f9185c445f798e659ae15fd7,fixing typo,dret,https://api.github.com/repos/w3c/csswg-drafts/git/commits/a85c31e70e971eb9f9185c445f798e659ae15fd7
+609e74c89d3ff3e643456a917ffbba56764cd6a1,[css-cascade] typo. Fixes #154,keithjgrant,https://api.github.com/repos/w3c/csswg-drafts/git/commits/609e74c89d3ff3e643456a917ffbba56764cd6a1
+06fb5972a47d7d310619becfb084fd22dd9f387f,[cssom-view] Fix #159. Do not leak a closed node via offsetParent (#169),hayatoito,https://api.github.com/repos/w3c/csswg-drafts/git/commits/06fb5972a47d7d310619becfb084fd22dd9f387f
+7f7b16a5d18abd856f6e392f3edbf7f0f457e5ad,Fixed link to Selectors Level 4 Working Draft (fixes #198) (#199),SebastianZ,https://api.github.com/repos/w3c/csswg-drafts/git/commits/7f7b16a5d18abd856f6e392f3edbf7f0f457e5ad
+27d9655fa2bffba5e6fd371dc2881ffb020439e9,[css-grid] NL workshop errata and wording changes,jonathanKingston,https://api.github.com/repos/w3c/csswg-drafts/git/commits/27d9655fa2bffba5e6fd371dc2881ffb020439e9
+307701c5a2c85820c97d8a4262cee5cbb1143b41,"Fix typo in WebIDL
+
+missing HTML escape",dontcallmedom,https://api.github.com/repos/w3c/csswg-drafts/git/commits/307701c5a2c85820c97d8a4262cee5cbb1143b41
+6471f1ab668895bc6a6bd46d85efcaa70560d998,Fix typo in definition of inline-list-item (#312),RByers,https://api.github.com/repos/w3c/csswg-drafts/git/commits/6471f1ab668895bc6a6bd46d85efcaa70560d998
+b5dfa8400e47e9b4cef7deebd18fe60ee963998f,"Drop blank line to fix straggling ""At Risk"" bullet
+
+Right now the CSS Animations spec has a straggling bullet in its ""At Risk"" section -- it says:
+> The following features are at-risk, and may be dropped during the CR period:
+> * the pseudoElement property of the AnimationEvent interface
+> *
+
+From local testing with Bikeshed, I've confirmed that the stray bullet is caused by the blank line after ""At Risk"". If I delete that blank line (as in this pull request), the stray bullet goes away.",dholbert,https://api.github.com/repos/w3c/csswg-drafts/git/commits/b5dfa8400e47e9b4cef7deebd18fe60ee963998f
+f3028de4db083914668c483e2ab5ea13486ad684,[css-color] Fix some minor typos,gilmoreorless,https://api.github.com/repos/w3c/csswg-drafts/git/commits/f3028de4db083914668c483e2ab5ea13486ad684
+3576a408c3ce4b872f7b12f1f2166e714897669b,[css-animations] - fix: #366 - spelling error under section 4.2 (#371),praveenpuglia,https://api.github.com/repos/w3c/csswg-drafts/git/commits/3576a408c3ce4b872f7b12f1f2166e714897669b
+d326f6cb905eb7f244d5dd6088c70fd55fd75d66,[selectors] Add a missing equals sign,hediyi,https://api.github.com/repos/w3c/csswg-drafts/git/commits/d326f6cb905eb7f244d5dd6088c70fd55fd75d66
+7039c767d283b56d716bfd3abfa8a2d179c291b1,[css-fonts-4] Fix small font size,Alexendoo,https://api.github.com/repos/w3c/csswg-drafts/git/commits/7039c767d283b56d716bfd3abfa8a2d179c291b1
+33fd4ab7624f239ceefd13976780eb1e0c38e882,Work on 'triggering animations' section,theres-waldo,https://api.github.com/repos/w3c/csswg-drafts/git/commits/33fd4ab7624f239ceefd13976780eb1e0c38e882
+aaa038ec6303d5a8f3272126c0dc52cbe123d923,Add the DocumentTimeline section,mantaroh,https://api.github.com/repos/w3c/csswg-drafts/git/commits/aaa038ec6303d5a8f3272126c0dc52cbe123d923
+7cf98e49c768a71cec9d9aacebfefa352d73daa3,[css-text] fix punctuation,upsuper,https://api.github.com/repos/w3c/csswg-drafts/git/commits/7cf98e49c768a71cec9d9aacebfefa352d73daa3
+8f00a30aa8412b061d1ee3f2db395553812f8523,"tweak font-weight range to [1..1000]
+
+The OpenType 1.8 spec defines the usWeightClass value as being between [1..1000]",nattokirai,https://api.github.com/repos/w3c/csswg-drafts/git/commits/8f00a30aa8412b061d1ee3f2db395553812f8523
+701ca14bccd9669ea434fdc2930bc2179d1617ac,Remove text-orientation references from css-logical-props (fixes #691),Manishearth,https://api.github.com/repos/w3c/csswg-drafts/git/commits/701ca14bccd9669ea434fdc2930bc2179d1617ac
+15cddda7030d7e3f36beb63aa7287431d22d77de,"Change anchor for high-dpi devices to pixel
+
+Make the spec match reality, as most (all?) high-dpi screen devices
+currently also anchor on pixel unit, and not any physical unit.",patrickhlauke,https://api.github.com/repos/w3c/csswg-drafts/git/commits/15cddda7030d7e3f36beb63aa7287431d22d77de
+557837bd36ea783d80f24018a060e6300aedf546,[cssom-view] Editorial: Remove double commas,frewsxcv,https://api.github.com/repos/w3c/csswg-drafts/git/commits/557837bd36ea783d80f24018a060e6300aedf546
+2ec92edaf05c480ae849b2a5afa6279cd2902ca5,Optimize css-animations images (30% savings),kaelig,https://api.github.com/repos/w3c/csswg-drafts/git/commits/2ec92edaf05c480ae849b2a5afa6279cd2902ca5
+51594632ee715d3ab6d83d766e191edabb846e8c,"[css-transforms-2] Transform properties apply to transformable elements (#705)
+
+* [css-transforms-2] Transform properties apply to transformable elements
+
+We link to the definition of transformable-element from css-transforms-1
+
+* Use autolinks, and fix autolinking errors",ewilligers,https://api.github.com/repos/w3c/csswg-drafts/git/commits/51594632ee715d3ab6d83d766e191edabb846e8c
+03cead797615ff302d5851fbed9e9c91b51775b4,"[css-flexbox] Clarify implied minimum size definition (#693)
+
+Fixes #671. In the [old version](https://hg.csswg.org/drafts/rev/25641c92d33f) this case was specified, but dropped while changing from a table to a paragraph.
+
+r? @dbaron",shinglyu,https://api.github.com/repos/w3c/csswg-drafts/git/commits/03cead797615ff302d5851fbed9e9c91b51775b4
+c2ccd09185accc5d76019f1e253a1566693c1cbd,"Add :focusring selector (#709)
+
+* Add :focusring selector
+
+* Rewrite to make the normative parts a little clearer, and rearrange the non-normatives into advisements and examples.",robdodson,https://api.github.com/repos/w3c/csswg-drafts/git/commits/c2ccd09185accc5d76019f1e253a1566693c1cbd
+2d6affa959214410ca089c9e5acb502f0a80d8f6,"Merge pull request #890 from smfr/master
+
+[css-transforms] [css-transforms-2] Move 3D transform functions and properties...",smfr,https://api.github.com/repos/w3c/csswg-drafts/git/commits/2d6affa959214410ca089c9e5acb502f0a80d8f6
+7a7670edb872ed619c2c7c889d9a13ee28948a66,typo in example,ylafon,https://api.github.com/repos/w3c/csswg-drafts/git/commits/7a7670edb872ed619c2c7c889d9a13ee28948a66
+46f4da5ef550d99de2d93573822bbc2357ba18a6,"[css-transforms-2] Individual transform properties animate with none
+
+When 'translate', 'rotate' or 'scale' are animating or transitioning, and
+the from value or to value (but not both) is none, the value none is
+replaced by the equivalent identity value (0px for translate, 0deg for
+rotate, 1 for scale).
+
+resolves #968",ericwilligers,https://api.github.com/repos/w3c/csswg-drafts/git/commits/46f4da5ef550d99de2d93573822bbc2357ba18a6
+0ddbd6a0e8ffcddddb839fa914f11cca7a971146,Typo fixes,xfq,https://api.github.com/repos/w3c/csswg-drafts/git/commits/0ddbd6a0e8ffcddddb839fa914f11cca7a971146
+7c3457343836aef9ae7acfd72902e033bb3dc483,"[css-text] fix bikeshed error in propdef tab-size, animation type value",arronei,https://api.github.com/repos/w3c/csswg-drafts/git/commits/7c3457343836aef9ae7acfd72902e033bb3dc483
+f7af22f7c72f7dc740233675bd3e2f223aafcd24,merge,plinss,https://api.github.com/repos/w3c/csswg-drafts/git/commits/f7af22f7c72f7dc740233675bd3e2f223aafcd24
+69ef35a4adb5cc62de7654b9c0df149310b7ea62,"Added example to grid-gap section (#1049)
+
+* Added example to grid-gap section demonstrating difference between grid-gap and visible gutter
+
+* Rephrase note for clarity.",rachelandrew,https://api.github.com/repos/w3c/csswg-drafts/git/commits/69ef35a4adb5cc62de7654b9c0df149310b7ea62
+7ff67b227854ab4f37fe0214de41510198f26685,Don't <dfn> Promise. WebIDL already does that. (#1023),jyasskin,https://api.github.com/repos/w3c/csswg-drafts/git/commits/7ff67b227854ab4f37fe0214de41510198f26685
+c4720c9b7e486d4903526f726d650554c71165fb,"Replace <section> with <article> in markup example
+
+I left out classes as those are not really relevant and their choosing would be *opinionated*.",thierryk,https://api.github.com/repos/w3c/csswg-drafts/git/commits/c4720c9b7e486d4903526f726d650554c71165fb
+5df15ca6402ec27e77094e4aed9cb4c4a153b220,"Replace example screenshot image with SVG version for Example 22 (#1035)
+
+* Replace example screenshot image with SVG version for Example 22
+
+* [css-grid] Replace example screenshot image with SVG version for Example 22 (fix space conversion issue)",huijing,https://api.github.com/repos/w3c/csswg-drafts/git/commits/5df15ca6402ec27e77094e4aed9cb4c4a153b220
+e0263868813daf645ae8b4a6a7b6cc6164649e67,[cssom-view] Return real values for colorDepth and pixelDepth (closes #993),mounirlamouri,https://api.github.com/repos/w3c/csswg-drafts/git/commits/e0263868813daf645ae8b4a6a7b6cc6164649e67
+1f65f74babb43f7f4ffd6b4b8479af3b721ffa9f,"Typo ""oen"" > ""one""",Loirooriol,https://api.github.com/repos/w3c/csswg-drafts/git/commits/1f65f74babb43f7f4ffd6b4b8479af3b721ffa9f
+7e0ff02ec3dff5f77571ec81ed72784a982c6cb2,Initial commit,bgirard,https://api.github.com/repos/w3c/csswg-drafts/git/commits/7e0ff02ec3dff5f77571ec81ed72784a982c6cb2
+52d952994fe7350cb07535747f453060bf341d2c,Typos,vdjeric,https://api.github.com/repos/w3c/csswg-drafts/git/commits/52d952994fe7350cb07535747f453060bf341d2c
+0103e8a2e40a83de0eddc60a0e8aaf33f8cbd08f,"[css-content] Fix syntaxes according to CSS Values and Units grammar (#1381)
+
+* [css-content] Fix syntaxes according to CSS Values and Units grammar
+
+* PR review fixes",lahmatiy,https://api.github.com/repos/w3c/csswg-drafts/git/commits/0103e8a2e40a83de0eddc60a0e8aaf33f8cbd08f
+801a3e8aff66afbfd42e50e1754d4ae0c1c53c24,Add missing extract class on dashed_attribute,saschanaz,https://api.github.com/repos/w3c/csswg-drafts/git/commits/801a3e8aff66afbfd42e50e1754d4ae0c1c53c24
+6cbb98d6931914580e323cfcb8946ca551c0b2c6,[cssom] Specify serialization of CSSMediaRule and CSSFontFaceRule,canaltinova,https://api.github.com/repos/w3c/csswg-drafts/git/commits/6cbb98d6931914580e323cfcb8946ca551c0b2c6
+5d416f2df4aa7c5703cf53c594be1c57aa391ebd,Make all CSS 2 build artifacts ignored (#1464),gsnedders,https://api.github.com/repos/w3c/csswg-drafts/git/commits/5d416f2df4aa7c5703cf53c594be1c57aa391ebd
+dcb13137b84c8741388fdfea7a9d5fd608d71db1,Merge branch 'master' into cssfontfacerule,litherum,https://api.github.com/repos/w3c/csswg-drafts/git/commits/dcb13137b84c8741388fdfea7a9d5fd608d71db1
+a9780054db34a5bb93567d29da40d763f3177ad7,Added missing legal and patent policy information,plehegar,https://api.github.com/repos/w3c/csswg-drafts/git/commits/a9780054db34a5bb93567d29da40d763f3177ad7
+71a68a81194102cb2000d8341fdd37de5633f89c,"[css-ui] Fixed a typo
+
+""then"" should be ""the"".",phistuck,https://api.github.com/repos/w3c/csswg-drafts/git/commits/71a68a81194102cb2000d8341fdd37de5633f89c
+c9e552ca52595cde2ea1e1cc13d22d341c9e4a06,"[css-box] fix ex.12 'margin-bottom' -> 'margin'
+
+There's en error in example 12.
+`margin-bottom: 2em 0 1em 0`",retrazil,https://api.github.com/repos/w3c/csswg-drafts/git/commits/c9e552ca52595cde2ea1e1cc13d22d341c9e4a06
+0c02c79f069bf0029c45c4357d20b5b488656e16,"[css-align] Fix reference to unexisting justify-items: auto. (#1650)
+
+Fixes #1649.",emilio,https://api.github.com/repos/w3c/csswg-drafts/git/commits/0c02c79f069bf0029c45c4357d20b5b488656e16
+235175fcf5767f303802da602b71ec6cadf85426,"[selectors] Remove scoped <style> element (#1699)
+
+Scoped style was removed from WHATWG HTML. See whatwg/html#552.",bangseongbeom,https://api.github.com/repos/w3c/csswg-drafts/git/commits/235175fcf5767f303802da602b71ec6cadf85426
+15d8b87fe062c5eb9af6fe71336c7d4885f3a92d,MQ5 User Prefs: prefers-reduced-transparency,cookiecrook,https://api.github.com/repos/w3c/csswg-drafts/git/commits/15d8b87fe062c5eb9af6fe71336c7d4885f3a92d
+838ff7ee6b560bc29e4e1d90f11c5f346be5bd5d,Update  README title and add link to specification,majido,https://api.github.com/repos/w3c/csswg-drafts/git/commits/838ff7ee6b560bc29e4e1d90f11c5f346be5bd5d
+4e57ca45ab2c5faf58b73e95d0b1ab7719c188cf,Initial commit,lgewtc-admin,https://api.github.com/repos/w3c/csswg-drafts/git/commits/4e57ca45ab2c5faf58b73e95d0b1ab7719c188cf
+6a67fdf299e5711eeb63c9672554cf62241b56af,"Related to #1821, the change to ""check if two code points are a valid escape"" makes part of ""consume an escaped code point"" unreachable.",bathos,https://api.github.com/repos/w3c/csswg-drafts/git/commits/6a67fdf299e5711eeb63c9672554cf62241b56af
+10ffdda7394307062fa4159943625e1fa0ed11ed,Create transition-updated-cr-2017-09.md,tmichel07,https://api.github.com/repos/w3c/csswg-drafts/git/commits/10ffdda7394307062fa4159943625e1fa0ed11ed
+da8dce8254776a8af9e121e8be9bd4c50322cc6f,"Revamp (trim) the Mercurial documentation
+
+Part of https://github.com/w3c/csswg-drafts/issues/1844",foolip,https://api.github.com/repos/w3c/csswg-drafts/git/commits/da8dce8254776a8af9e121e8be9bd4c50322cc6f
+257ee4caa53b739021b2ae47269e72fdfb0dd65d,[selectors-4] Fix typo,yuheiy,https://api.github.com/repos/w3c/csswg-drafts/git/commits/257ee4caa53b739021b2ae47269e72fdfb0dd65d
+27c2e0873de7c151e864d31f95ae203231eb3914,"[css-color-4] Fix typo
+
+`#787` (`#778877`) is represented in HWB as `hwb(120deg, 47%, 47%)` and next transformations not right for this color too.",Semigradsky,https://api.github.com/repos/w3c/csswg-drafts/git/commits/27c2e0873de7c151e864d31f95ae203231eb3914
+a31c0c658322b966035f18462d521e94d359e459,Update README with correct link to Draft Spec page,arkmuntasser,https://api.github.com/repos/w3c/csswg-drafts/git/commits/a31c0c658322b966035f18462d521e94d359e459
+9cc870e27359753551702931e0e496603ec15500,Fix links,martinthomson,https://api.github.com/repos/w3c/csswg-drafts/git/commits/9cc870e27359753551702931e0e496603ec15500
+8ddfcc0af0c3c3731705c83981ae3810ba74eea7,"Clarify required precision and rounding behavior for color channels
+
+Helps to resolve #1983 as to the importance of honoring authored numbers, and the required rounding behavior if the precision is not honored.",csnardi,https://api.github.com/repos/w3c/csswg-drafts/git/commits/8ddfcc0af0c3c3731705c83981ae3810ba74eea7
+93c693ca2b3e8ce159de85eeeadc3258a64e0c17,focus-ring -> focus-visible,alice,https://api.github.com/repos/w3c/csswg-drafts/git/commits/93c693ca2b3e8ce159de85eeeadc3258a64e0c17
+0a75778a25cf96c2b63554992ddef7490d06570c,"[css-backgrounds-3] Fix example 15
+
+""background: ... / 10em ... "" is equivalent to ""background-size: 10em auto;"", not ""background-size: 10em 10em;"".",CoderMJLee,https://api.github.com/repos/w3c/csswg-drafts/git/commits/0a75778a25cf96c2b63554992ddef7490d06570c
+5097ff6b2ec343d15b877a64f30ddc8576fef3fb,"[css-color-4] consistently name color-mod()
+
+This avoids confusion with the very real color() function",jonathantneal,https://api.github.com/repos/w3c/csswg-drafts/git/commits/5097ff6b2ec343d15b877a64f30ddc8576fef3fb
+14fcc777585f4437d6db4070b3e053c72e0a1417,"Export definition of math functions
+
+Need this to use it in Typed OM spec",nainar,https://api.github.com/repos/w3c/csswg-drafts/git/commits/14fcc777585f4437d6db4070b3e053c72e0a1417
+04d87eec04f9949c3e93068489c643bba8797b98,"[css-grid-1] Fix Typo (Distortation)
+
+Before: 
+>...UAs should attempt to minimize *distortation* of the grid container with respect to unfragmented flow.
+
+After 
+>>...UAs should attempt to minimize *distortion* of the grid container with respect to unfragmented flow.",billfienberg,https://api.github.com/repos/w3c/csswg-drafts/git/commits/04d87eec04f9949c3e93068489c643bba8797b98
+746193f8d5a7880adfd1594426b2290ce1685e79,Fix typos,jonleighton,https://api.github.com/repos/w3c/csswg-drafts/git/commits/746193f8d5a7880adfd1594426b2290ce1685e79
+528fdd8c83250d9e0ed7f18e0a6e42d03a7c9a65,":nth-*-child(n [of S]?) should be Level 3/4
+
+It's true that `:nth-child(n)`/`:nth-last-child(n)` have been added in Level 3, but `of S` syntax is Level 4 addition. I believe they should be marked as Level 3/4, like the `:not()` selector (also introduced in Level 3, but extended in Level 4 with the ability to contain selector lists).",SelenIT,https://api.github.com/repos/w3c/csswg-drafts/git/commits/528fdd8c83250d9e0ed7f18e0a6e42d03a7c9a65
+ee23f9c322d26aa991c37cdb12428ab905e37a5b,"Fix typo
+
+oveflow --> overflow",hidde,https://api.github.com/repos/w3c/csswg-drafts/git/commits/ee23f9c322d26aa991c37cdb12428ab905e37a5b
+57a1c347451892a3514ffc34a3ce44228fbe59f7,Move gutters-gaps.svg from [css-grid-*] to [css-align-3],GloverDonovan,https://api.github.com/repos/w3c/csswg-drafts/git/commits/57a1c347451892a3514ffc34a3ce44228fbe59f7
+cb834e9ce57cf8ee44e896f3e8e2d092147b3816,"Use `<custom-ident>` consistently for counter names
+
+The functions `counter()` and `counters()` were badly specified, using
+`<ident>` for the counter names, even though `counter-increment` and friends
+will only accept `<custom-ident>` for those names.",nox,https://api.github.com/repos/w3c/csswg-drafts/git/commits/cb834e9ce57cf8ee44e896f3e8e2d092147b3816
+58fbf0bde94d2e70c5f85d84a9be8cca89603892,"Fix Selectors, Level 4 typos.
+
+See https://github.com/w3c/csswg-drafts/issues/2346.",patrickdark,https://api.github.com/repos/w3c/csswg-drafts/git/commits/58fbf0bde94d2e70c5f85d84a9be8cca89603892
+91aca9328fc7e873be721ac06559ff1b5761d6e3,"Use Web IDL's new-ish interface mixins concept
+
+WebIDL recently introduced dedicated syntax for mixins [1]. This
+replaces the existing [NoInterfaceObject] and ""implements"" syntax with
+""interface mixin"" and ""includes"" in the appropriate places.
+
+This fixes #1931, #1932 issues.
+
+[1] https://github.com/heycam/webidl/commit/45e8173d40ddff8dcf81697326e094bcf8b92920",romandev,https://api.github.com/repos/w3c/csswg-drafts/git/commits/91aca9328fc7e873be721ac06559ff1b5761d6e3
+105267561e9e7986f27ef4df4a7c1774ddf6e4fc,"Remove >>> combinator from the css-scoping spec.
+
+This was discussed at
+https://github.com/w3c/csswg-drafts/issues/640",TakayoshiKochi,https://api.github.com/repos/w3c/csswg-drafts/git/commits/105267561e9e7986f27ef4df4a7c1774ddf6e4fc
+5e886438867573b55bf83f22010d36f137b88cd6,"[css-conditional] Mention ""CSS namespace"" rather than ""CSS interface"" (#2603)",heycam,https://api.github.com/repos/w3c/csswg-drafts/git/commits/5e886438867573b55bf83f22010d36f137b88cd6
+60876441cad93aab6b4ec8a4c0419a5b68dc2460,"[css-animations] Change AnimationEvent elapsedTime member from 'float' to 'double' (#2666)
+
+As per the web-idl spec, float should only be used if there is a
+specific reason, as double much more closely matches the ECMAScript
+Number type. In the case of AnimationEvent there does not appear to be
+such a reason.
+
+Furthermore, switching to double allows the elapsedTime to reach higher
+values without overflowing. A rough calculation (with some assumptions
+and possible errors) suggests that this change will raise the celing
+from ~4.5 hours to years.",stephenmcgruer,https://api.github.com/repos/w3c/csswg-drafts/git/commits/60876441cad93aab6b4ec8a4c0419a5b68dc2460
+713ace77005823ee071975f9728f5cf84ec2fc12,"[css-fonts-4] Fix Web IDL syntax
+
+Previous Web IDL update only fixed the first error reported by Reffy:
+https://github.com/w3c/csswg-drafts/commit/146c023e7b8b218874fd82d9b52b354f116aeffa#diff-efb4bfc382aa57898723c5208cfa0d4d
+
+A few other semi-colons were still missing. Also, the spec used the `MapClass`
+extended attribute, which no longer exists in Web IDL. The interface now uses
+a maplike declaration:
+https://heycam.github.io/webidl/#idl-maplike",tidoust,https://api.github.com/repos/w3c/csswg-drafts/git/commits/713ace77005823ee071975f9728f5cf84ec2fc12
+82d7b520f417923224059b960e6b1ae183fc2fec,[css-shadow-parts-1] rephrase to make it clear which shadow root is being referred to. Fixes #2467,fergald,https://api.github.com/repos/w3c/csswg-drafts/git/commits/82d7b520f417923224059b960e6b1ae183fc2fec
+7507d61f5f8e247b1ddb1e7a1b278cd1a26754fb,"Fix typo: ""header element"" to ""heading element"" 
+
+Change ""header element"" to ""heading element"". ""Heading"" is intended here, since it is referring to HTML heading elements above, and ""heading"" is also used in a prior description (line 1271).",kbav,https://api.github.com/repos/w3c/csswg-drafts/git/commits/7507d61f5f8e247b1ddb1e7a1b278cd1a26754fb
+f8baaa2393663e4bb94a36d9db0848c6953e816b,[css-env-1] Define safe area inset variables #2629,beccahughes,https://api.github.com/repos/w3c/csswg-drafts/git/commits/f8baaa2393663e4bb94a36d9db0848c6953e816b
+3f51bbdba76d1037040e3d211ebddf6b97d255ff,Added the first proposal for a 'environment-blending' keyword. (#2719),rcabanier,https://api.github.com/repos/w3c/csswg-drafts/git/commits/3f51bbdba76d1037040e3d211ebddf6b97d255ff
+cca017f0ea177f2d744d5fb66076ee5e7965808a,Clean up some code,jeonghee27,https://api.github.com/repos/w3c/csswg-drafts/git/commits/cca017f0ea177f2d744d5fb66076ee5e7965808a
+8463b2b686699cf101ec5bfb9ae74dd3ef9ca8d4,"Fix syntax error (#2925)
+
+Found while authoring https://github.com/web-platform-tests/wpt/pull/11979",lukebjerring,https://api.github.com/repos/w3c/csswg-drafts/git/commits/8463b2b686699cf101ec5bfb9ae74dd3ef9ca8d4
+38a358d256182494be2cf919b4043a756958cdb1,"Update Overview.bs
+
+Typo",davelab6,https://api.github.com/repos/w3c/csswg-drafts/git/commits/38a358d256182494be2cf919b4043a756958cdb1
+ce0008e385c4d97c6b23b19c9c995b9b295b26c8,"#2319 Add pull request template, w3c cepc, and shift some text around (#2320)
+
+Patch by @ao5357",ao5357,https://api.github.com/repos/w3c/csswg-drafts/git/commits/ce0008e385c4d97c6b23b19c9c995b9b295b26c8
+1fc348c7545a38623caba09aa11db69e84229951,Fixing links from Spatial-navigation Demo,chrisosaurus,https://api.github.com/repos/w3c/csswg-drafts/git/commits/1fc348c7545a38623caba09aa11db69e84229951
+12aa3b4c0eeeed87039b1aef599f1886f2e7a197,"[css-transform] Define ""containing block for all descendants"" (#2185)
+
+Add a new definition ""containing block for all descendants"" and specify
+that values other than 'none' on 'transform', 'transform-style',
+'perspective' will cause an element to establish a containg block for
+all descendants.",trchen1033,https://api.github.com/repos/w3c/csswg-drafts/git/commits/12aa3b4c0eeeed87039b1aef599f1886f2e7a197
+c2c38b1a82ac1613c143320f57956b1a6ec91c7e,Missing character after unicode name (#3053),Netmosfera,https://api.github.com/repos/w3c/csswg-drafts/git/commits/c2c38b1a82ac1613c143320f57956b1a6ec91c7e
+b270d9091a211f67aec9e7740dde1de845181e8e,removed instant (#3074),irrationalRock,https://api.github.com/repos/w3c/csswg-drafts/git/commits/b270d9091a211f67aec9e7740dde1de845181e8e
+2bc87c85e620005ffd6d66c4fb0c94ba77c71483,[css-images-3] Fix typo (#3100),djy0,https://api.github.com/repos/w3c/csswg-drafts/git/commits/2bc87c85e620005ffd6d66c4fb0c94ba77c71483
+7a9a5dd268cf2add1e12f8e3b2e761845566b758,Fix syntax in example code,chrisn,https://api.github.com/repos/w3c/csswg-drafts/git/commits/7a9a5dd268cf2add1e12f8e3b2e761845566b758
+912d4a9cf80d40a29085b49b6c22007d734fb870,"Add myself, Antoine Quint, as editor.",graouts,https://api.github.com/repos/w3c/csswg-drafts/git/commits/912d4a9cf80d40a29085b49b6c22007d734fb870
+3fd5fc6f90fa71729d4edd1773eeef509dca5646,Branch: special-case-zero-angles,alancutter,https://api.github.com/repos/w3c/csswg-drafts/git/commits/3fd5fc6f90fa71729d4edd1773eeef509dca5646
+2d27c46e89b34e27684d588f0a5b6796670cfc26,correct Bikeshed Shortname for css-print,Crissov,https://api.github.com/repos/w3c/csswg-drafts/git/commits/2d27c46e89b34e27684d588f0a5b6796670cfc26
+a3674de90cdefcee9776e57beab207a7d8f61fec,typo,hax,https://api.github.com/repos/w3c/csswg-drafts/git/commits/a3674de90cdefcee9776e57beab207a7d8f61fec
+4b87197f356c87bd2a78b453874bfc624c15e9b3,Clarify the associated CSS style sheet,domfarolino,https://api.github.com/repos/w3c/csswg-drafts/git/commits/4b87197f356c87bd2a78b453874bfc624c15e9b3
+8de4db29272dc246f4160dcacf2a18134ddc9c11,"Add missing colon to part forwarding example. 
+
+As noted in the [fix for the explainer doc](https://github.com/fergald/docs/pull/2), this missing colon is probably an oversight after the syntax change.",oslego,https://api.github.com/repos/w3c/csswg-drafts/git/commits/8de4db29272dc246f4160dcacf2a18134ddc9c11
+cd47f7b8b727e2ac383bbdeb3ac3a56bceb67758,"[css-fonts-3][css-fonts-4] letter-spacing disables optional ligatures. #2644
+
+A non-default value for letter-spacing should disable all
+optional ligatures, not just common ligatures. Defer to css-text for
+optional ligature definition.",bungeman,https://api.github.com/repos/w3c/csswg-drafts/git/commits/cd47f7b8b727e2ac383bbdeb3ac3a56bceb67758
+2e7759e6e46ccea39185355587f8999d146a0eec,Fix a typo,wgao19,https://api.github.com/repos/w3c/csswg-drafts/git/commits/2e7759e6e46ccea39185355587f8999d146a0eec
+2f5cf2ce12662738588ea5ed1c24619dae00e7eb,refactor(css‑variables): Simplify `var()` function syntax definition,ExE-Boss,https://api.github.com/repos/w3c/csswg-drafts/git/commits/2f5cf2ce12662738588ea5ed1c24619dae00e7eb
+69d438d188cd24da8e9686554d981a24df3f641d,Fix typo: Closing tag missing character '>' (#3655),Zhang-Junzhi,https://api.github.com/repos/w3c/csswg-drafts/git/commits/69d438d188cd24da8e9686554d981a24df3f641d
+172482fa1396f22b033e273008141f0a6c3de3b4,"Fix gradient color stop syntax
+
+Closes #1334
+
+I'm pretty sure this was the only change required. Not sure why I didn't make a PR at the time I filed the issue, but I guess I was busy…",AmeliaBR,https://api.github.com/repos/w3c/csswg-drafts/git/commits/172482fa1396f22b033e273008141f0a6c3de3b4
+eadb9901b3b77cf6ac735a05372d0409df5b7962,"[cssom-view-1] Name the algorithm for determining devicePixelRatio
+
+...so that it can be called in non-Window contexts, by other specs",eeeps,https://api.github.com/repos/w3c/csswg-drafts/git/commits/eadb9901b3b77cf6ac735a05372d0409df5b7962
+c0aa1d76630e94b616aef2ea0a16950822c97f1f,"🐛 FIX: Typos & Grammar
+
+Fixes a couple of typos and grammatical errors like:
+
+- [x] `editting` to `editing`
+- [x] `Nesting allow` to `Nesting allows`
+
+```diff
+-	some people find the nesting difficult to visually distinguish
++	some people find the nesting challenging to distinguish visually
+```
+Looking forward, peace! ✌️",ahmadawais,https://api.github.com/repos/w3c/csswg-drafts/git/commits/c0aa1d76630e94b616aef2ea0a16950822c97f1f
+09e040f05e12bb4c303d5839e0ceee3f6bf58c67,"Include scroll bar arrows in examples.
+
+As per https://github.com/w3c/csswg-drafts/issues/3752",egirard,https://api.github.com/repos/w3c/csswg-drafts/git/commits/09e040f05e12bb4c303d5839e0ceee3f6bf58c67
+7555b67986c72cde43b74522a0adb994dde9cced,"Change the 3d rendering model to be closer to the old TR (and blink/gecko's implementation), and make transform-style:preserve use parent elements instead of containing blocks",mattwoodrow,https://api.github.com/repos/w3c/csswg-drafts/git/commits/7555b67986c72cde43b74522a0adb994dde9cced
+c1bd9453edbce99b73ef9fa224bf365e24e9ebc0,change 'use ase' to 'use case' (#43),martine-dowden,https://api.github.com/repos/w3c/csswg-drafts/git/commits/c1bd9453edbce99b73ef9fa224bf365e24e9ebc0
+b1ad4fbcc98c0369702d441038bff95a7d860f73,"[css-text-decor-4] typo in text-decoration-skip-ink property name (#3789)
+
+It looks like 70e40c9315bf8d478ddecf0da5e5af3ddacbc509 introduced the `text-decoration-skip-ink` property, but kept the example from the previous `text-decoration-skip` one.",nhoizey,https://api.github.com/repos/w3c/csswg-drafts/git/commits/b1ad4fbcc98c0369702d441038bff95a7d860f73
+20ab1f04621b5573f3856121da77450f0f7e972f,[css-values-3] link to a test,TalbotG,https://api.github.com/repos/w3c/csswg-drafts/git/commits/20ab1f04621b5573f3856121da77450f0f7e972f
+ccf0330b0d6028dc6783ac23c9dfaf6a3c8e12f7,"More precise wording for ""Calculate depth for node""
+
+As discussed in https://github.com/w3c/csswg-drafts/issues/3840",atotic,https://api.github.com/repos/w3c/csswg-drafts/git/commits/ccf0330b0d6028dc6783ac23c9dfaf6a3c8e12f7
+3c1daab3020739de462ff7401370cd98119d9502,typo fix,akklesed,https://api.github.com/repos/w3c/csswg-drafts/git/commits/3c1daab3020739de462ff7401370cd98119d9502
+dcdbf5b661d828da4e2aa3b340b5b084cb29ad13,"Merge pull request #3996 from lilles/auto-is-normal-20190603
+
+[css-color-adjust-1] Rename color-scheme:auto to normal #3849",lilles,https://api.github.com/repos/w3c/csswg-drafts/git/commits/dcdbf5b661d828da4e2aa3b340b5b084cb29ad13
+d9106f98ade42daadb731fda5ef171698df9a827,[cssom] Correct typos in serialization step,jugglinmike,https://api.github.com/repos/w3c/csswg-drafts/git/commits/d9106f98ade42daadb731fda5ef171698df9a827
+020d1b1aedc5eb60c9b47fc88914a9806e6de8cb,"[css-tables-3] Fix constrainedness references
+
+bikeshed didn't give the definition the ② ③ links when the
+references were done with <a>.",davidsgrogan,https://api.github.com/repos/w3c/csswg-drafts/git/commits/020d1b1aedc5eb60c9b47fc88914a9806e6de8cb
+2c7c87801311c6c18325f3a72929f85917eea3bd,[cssom-view-1] Scroll element into view: height for block direction,wh0,https://api.github.com/repos/w3c/csswg-drafts/git/commits/2c7c87801311c6c18325f3a72929f85917eea3bd
+4fc9857d31605533c5a92c9d6d1f76bda0b31cb9,[css-color-4] Add new set of CSS system colors (addresses #3804),melanierichards,https://api.github.com/repos/w3c/csswg-drafts/git/commits/4fc9857d31605533c5a92c9d6d1f76bda0b31cb9
+c8bd7142acafc876bf4463b07f19db98d939ce3d,"[css-transforms-2] Use reference-box for translate property.
+
+Fixes #4193.",BorisChiou,https://api.github.com/repos/w3c/csswg-drafts/git/commits/c8bd7142acafc876bf4463b07f19db98d939ce3d
+ce694666e5c0dd79d33b00c59f9e8698de24ab7f,Fix :placeholder-shown link in selectors overview,shvaikalesh,https://api.github.com/repos/w3c/csswg-drafts/git/commits/ce694666e5c0dd79d33b00c59f9e8698de24ab7f
+6ec2fe94302f310b7dc63386231e3ebfc7c607a8,"Correct spelling of `id=""scollbar-gutter-property""`",Malvoz,https://api.github.com/repos/w3c/csswg-drafts/git/commits/6ec2fe94302f310b7dc63386231e3ebfc7c607a8
+da7f871c9284f5db95cdab2a7f62a8134b953428,[css-writing-modes-3] Fix typo #4293 (#4294),frogcat,https://api.github.com/repos/w3c/csswg-drafts/git/commits/da7f871c9284f5db95cdab2a7f62a8134b953428
+b90ae6cb4b54529b2872654774533dba89559f31,[css-transitions-2] Add section of transition-timing-function and getComputedTiming (issue #4288) (#4306),george-steel,https://api.github.com/repos/w3c/csswg-drafts/git/commits/b90ae6cb4b54529b2872654774533dba89559f31
+d200cbf5e26536ce3772708bca6d6e9df8edb541,"[css-values] Change MAY into MUST regarding calc() on table
+
+#94 has made a resolution that certain `calc()` mixing both lengths and percentages MUST be treated as `auto` instead of MAY. Updating spec accordingly.",xiaochengh,https://api.github.com/repos/w3c/csswg-drafts/git/commits/d200cbf5e26536ce3772708bca6d6e9df8edb541
+8ec2123d09b451ad9f4e7f28a0ed8032df7e5c04,[css-animations-1] Align with Web IDL specification,autokagami,https://api.github.com/repos/w3c/csswg-drafts/git/commits/8ec2123d09b451ad9f4e7f28a0ed8032df7e5c04
+36a73e25bc18441ba79598f311c326f4d24ee317,Fix a typo,joshgelbard,https://api.github.com/repos/w3c/csswg-drafts/git/commits/36a73e25bc18441ba79598f311c326f4d24ee317
+dae24bbfc7f34a52db4fb0474a09e1b00630f08e,"Fixes #4453
+
+Fix typo : Fixes https://github.com/w3c/csswg-drafts/issues/4453",mclegrand,https://api.github.com/repos/w3c/csswg-drafts/git/commits/dae24bbfc7f34a52db4fb0474a09e1b00630f08e
+a970090491f92376aab59142b4f2a0c56000751a,"[css-syntax] make ""plus sign"" match other 2 items
+
+when consuming a token, the first instruction for PLUS SIGN, HYPHEN-MINUS, and FULL STOP are all the same, but the PLUS SIGN instructions are missing a comma.",skratchdot,https://api.github.com/repos/w3c/csswg-drafts/git/commits/a970090491f92376aab59142b4f2a0c56000751a
+4b238b1b68aa5f3fb503279775c373a18a989362,"[css-color-4] Align color example comments
+
+No change to the actual content, just align the end of the HTML comments. Currently, only the first 2 are aligned, despite having different lengths; the alternative would be to not align any of the comment ends, to be consistent with a single space before `*/`",DannyS712,https://api.github.com/repos/w3c/csswg-drafts/git/commits/4b238b1b68aa5f3fb503279775c373a18a989362
+bc144352a2c77415ab3aa17a3d783bc6fa4d90e4,"Add support for device-pixel-content-box-size #3554  (#4476)
+
+Authors need a way to get the content box size in integral physical pixels. This allows for the correct sizing of the backing store of a canvas to match the snapped CSS size and prevents moire patterns that arise when the sizes are mismatched.
+
+Currently authors could use devicePixelRatio and rounding in order to approximate this, but due to implementation differences in pixel snapping, can still get the wrong answer. Additionally, this can be affected by position changes which authors cannot currently hook into in a reasonable manner.",dlibby-,https://api.github.com/repos/w3c/csswg-drafts/git/commits/bc144352a2c77415ab3aa17a3d783bc6fa4d90e4
+2deccd1b00a77fa91fb86224c892621441a7be1c,"Use ASCII filenames
+
+The server seems not to like non-ASCII filenames, so ...",SamB,https://api.github.com/repos/w3c/csswg-drafts/git/commits/2deccd1b00a77fa91fb86224c892621441a7be1c
+7acf6f670b9b08d7639c90501b968f99de7b1246,"added adam as an editor, updated una's information",argyleink,https://api.github.com/repos/w3c/csswg-drafts/git/commits/7acf6f670b9b08d7639c90501b968f99de7b1246
+80e08c7b5ab59bdb97b242c3daffb3399622f534,"Merge pull request #4529 from dlibby-/resize-observer-fragment-support
+
+[resize-observer-1] ResizeObserverEntry properties future proofing for fragment support #3673",chrishtr,https://api.github.com/repos/w3c/csswg-drafts/git/commits/80e08c7b5ab59bdb97b242c3daffb3399622f534
+0101c5a65b15cf68498a65ff505911360f866ea5,add color-adjust function with example,una,https://api.github.com/repos/w3c/csswg-drafts/git/commits/0101c5a65b15cf68498a65ff505911360f866ea5
+4e35dbe01767f9d73b8cfe94623367a4ff9e24d8,Fix typos in &lt; and &gt; html entities (#4644),renatahodovan,https://api.github.com/repos/w3c/csswg-drafts/git/commits/4e35dbe01767f9d73b8cfe94623367a4ff9e24d8
+63b41804ebf09941ec66f136df8a07107693a3a7,"[selectors-4] Add :defined pseudo-class (#3735)
+
+* Define :defined pseudo-class
+
+* Replace space with tab
+
+* Define a high-level :defined
+
+* Apply suggestions from code review
+
+* Rephrase :defined to be a little less vague about what ""defined"" means.
+
+Co-authored-by: Simon Pieters <zcorpan@gmail.com>
+Co-authored-by: Tab Atkins Jr. <jackalmage@gmail.com>",spectranaut,https://api.github.com/repos/w3c/csswg-drafts/git/commits/63b41804ebf09941ec66f136df8a07107693a3a7
+f8ee9715d3e602987b21c9b692d6e6441c675add,"""attribtue"" typo fix
+attribtue -> attribute",vladfratila,https://api.github.com/repos/w3c/csswg-drafts/git/commits/f8ee9715d3e602987b21c9b692d6e6441c675add
+0a39585b76818e811511ab4861be4088872fb007,"[scroll-animations-1] Removed fill from ScrollTimeline (#4750)
+
+* Fixed edit link by correcting shortname. Removed fill from ScrollTimeline in favor of returning Infinity values for before start and after end states of the timeline.
+
+* Removing unecessary editor
+
+* Swapped infinity values for 0 and time range.
+
+* Updated examples to include forward fill modes so that effects remain after scrolling past the end of the timeline
+
+* Added TODO to revisit the spec when animation timeline state has been more discussed",JTensai,https://api.github.com/repos/w3c/csswg-drafts/git/commits/0a39585b76818e811511ab4861be4088872fb007
+45853fc487bb79a1f4f7ac8f0060c5d8a89ce380,don't force colors for svg text,amaher23,https://api.github.com/repos/w3c/csswg-drafts/git/commits/45853fc487bb79a1f4f7ac8f0060c5d8a89ce380
+c21bd0d781e13fba81259871dc1807cd92f45055,"Clarify scroll-padding scrollport.
+
+The [scrollport](https://www.w3.org/TR/css-overflow-3/#scrollport) refers to the visual viewport. Add clarification that the scroll-padding property is relative to the layout viewport when the scroll container is the root scroller.",nickburris,https://api.github.com/repos/w3c/csswg-drafts/git/commits/c21bd0d781e13fba81259871dc1807cd92f45055
+d7273b3cb80814f82b2ebcaf304b8e35e24ae44e,"Missing word in css-text-3 spec text (#4786)
+
+Minor update, adding the missing word ""element"" to the text
+
+(skipping IPR check because this is editorial)",captainbrosset,https://api.github.com/repos/w3c/csswg-drafts/git/commits/d7273b3cb80814f82b2ebcaf304b8e35e24ae44e
+ba2814b40f9a759e1c6ac2d2616eb10f9e23cfbd,Fix typo (#4815),jkshapiro,https://api.github.com/repos/w3c/csswg-drafts/git/commits/ba2814b40f9a759e1c6ac2d2616eb10f9e23cfbd
+d0fa0affbdcfbd759d25c18994ffe6db53391d0e,"[css-animations-2] Document attributes of web animations can require pending style changes (#4823)
+
+* Note that attributes of web animations can require pending style.
+
+css-animations-2 makes clear that returning web-animations objects may
+require pending style changes but we also test that reading animation
+state also requires pending style flushing.
+
+For example:
+https://github.com/web-platform-tests/wpt/blob/master/css/css-animations/CSSAnimation-playState.tentative.html#L43",flackr,https://api.github.com/repos/w3c/csswg-drafts/git/commits/d0fa0affbdcfbd759d25c18994ffe6db53391d0e
+05cd31d3a6dc2af57ca0820871ba72db715924ab,fix bikeshed compile errors and addressed reviews regarding dynamic-range,vi-dot-cpp,https://api.github.com/repos/w3c/csswg-drafts/git/commits/05cd31d3a6dc2af57ca0820871ba72db715924ab
+77895eb75ff3f8646aa16675bf3191957fe7c8a7,"[css-speech-1] Adds LJWatson as editor (#4877)
+
+Could not run the regenerate script so the corresponding overview.html is not included in this commit.",LJWatson,https://api.github.com/repos/w3c/csswg-drafts/git/commits/77895eb75ff3f8646aa16675bf3191957fe7c8a7
+28c0053f4cd54c475eb4a4aafe44614c24a1cd58,"[resize-observer-1] attributes cannot be sequence<T> #4683 (#4909)
+
+Fix invalid WebIDL by changing sequence to FrozenArray for lastReportedSizes in the ResizeObservation interface. Currently there are still normative references to this non-normative interface, discussed in #3839. These will be addressed in a follow-up.",sahirv,https://api.github.com/repos/w3c/csswg-drafts/git/commits/28c0053f4cd54c475eb4a4aafe44614c24a1cd58
+0cfdaead05682b2cd5e5acc5ffb0c9d4446dcc26,"Fix typo in color() syntax example
+
+It said:
+
+    color(display-p3 0.43313, 0.50108, 0.37950);
+
+That should have been:
+
+    color(display-p3 0.43313 0.50108 0.37950);",mathiasbynens,https://api.github.com/repos/w3c/csswg-drafts/git/commits/0cfdaead05682b2cd5e5acc5ffb0c9d4446dcc26
+cdc00cb548664ced72db7ffdb374f5f92ecec20d,"[css-color-4] Fix rec2020 white chromaticity.
+
+A reformat introduced an error.",jdashg,https://api.github.com/repos/w3c/csswg-drafts/git/commits/cdc00cb548664ced72db7ffdb374f5f92ecec20d

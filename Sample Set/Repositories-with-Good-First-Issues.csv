@@ -22,7 +22,7 @@ Front-End-Performance-Checklist,https://github.com/thedaviddias/Front-End-Perfor
 Serverless,https://github.com/serverless/serverless,Done,,4234,120,30,30
 Kubernetes,https://github.com/kubernetes/kubernetes,Done,,34076,57,30,30
 HTML Standard Spec,https://github.com/whatwg/html,Done,,2819,214,30,30
-CSS Working Draft,https://github.com/w3c/csswg-drafts,MUST CAPTURE,,,,,
+CSS Working Draft,https://github.com/w3c/csswg-drafts,,,,,,
 Fyne,https://github.com/fyne-io/fyne,Done,,463,11,30,11
 PowerToys,https://github.com/microsoft/PowerToys,Done,label = 'Help Wanted-Good first issue',1074,7,30,7
 Animate.css,https://github.com/daneden/animate.css,Done,,694,5,30,5
