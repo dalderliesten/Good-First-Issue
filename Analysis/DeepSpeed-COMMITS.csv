@@ -1,0 +1,16 @@
+﻿First Commit Pull Request,Related to a good-first-issue?,Developer Experience?,Link to PR,Bug Fix (0/1),Enhancing an Existing Feature (0/1),New Feature (0/1),Documentation(0/1),Testing (0/1),Refactoring (0/1),Other Information
+Initial commit ,0,Experienced,https://github.com/microsoft/DeepSpeed/commit/461495eae16169fe4505fa796c8c101276f6ed3c,0,0,1,0,0,0,Organizational.
+Initial CODE_OF_CONDUCT.md commit ,0,BOT,https://github.com/microsoft/DeepSpeed/commit/42f3834f0d1359fd05c1ff485406ccc0810c4bf9,0,0,0,1,0,0,
+DeepSpeed Timers ,0,Experienced,https://github.com/microsoft/DeepSpeed/commit/08804d905f0bd2f86fe16135c6cdccd86f5b7022,0,0,1,0,0,0,
+Add Deepspeed constants and configs ,0,Experienced,https://github.com/microsoft/DeepSpeed/commit/c53cabb08512c5169ac5cc62f224cf91123fc8e2,0,0,1,0,0,0,
+Adding deepspeed_run.py ,0,Experienced,https://github.com/microsoft/DeepSpeed/commit/8c4e2a30071fdb6b816eb9abdbdad7e9dd0135e2,0,0,1,0,0,0,
+add two test files ,0,Experienced,https://github.com/microsoft/DeepSpeed/commit/dc226fdb7aae074ce16aa68d088dfde1be654892,0,0,0,0,1,0,
+Add files via upload ,0,Experienced,https://github.com/microsoft/DeepSpeed/commit/7a9fbe67adc431a8d74d930585ee6264660fcb8d,0,0,1,0,0,0,
+Add files via upload ,0,Experienced,https://github.com/microsoft/DeepSpeed/commit/ec79b2390101273e3636e64bafb40fdc5c1954c5,0,1,0,0,0,0,
+Add files ,0,Experienced,https://github.com/microsoft/DeepSpeed/commit/577295f5fae3dd17f0f8aa32464d3015a46b9aaf,0,0,0,1,0,0,
+Bump tensorflow-gpu from 1.14.0 to 1.15.2,0,BOT,https://github.com/microsoft/DeepSpeed/pull/39,0,0,0,0,0,1,Organizational.
+Typo fix,0,Medior,https://github.com/microsoft/DeepSpeed/pull/57,0,0,0,1,0,0,
+Fix broken link in README.md for the 1Cycle doc.,0,Experienced,https://github.com/microsoft/DeepSpeed/pull/60,0,0,0,1,0,0,
+fix typo,0,Medior,https://github.com/microsoft/DeepSpeed/pull/72,0,0,0,1,0,0,
+Add requirements for cifar10,0,Experienced,https://github.com/microsoft/DeepSpeed/pull/79,0,0,0,1,0,0,
+Fixes to support subscriptions with other VMs ,0,Experienced,https://github.com/microsoft/DeepSpeed/pull/105,1,0,0,0,0,0,

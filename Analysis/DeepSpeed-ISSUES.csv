@@ -1,0 +1,4 @@
+﻿Issue,URL,Associated PR,Taken by New Developer? (0/1),Bug Fix (0/1),Enhancing an Existing Feature (0/1),New Feature (0/1),Documentation(0/1),Testing (0/1),Refactoring (0/1),Other Information
+DeepSpeed using DistributedSampler with model parallelism,https://github.com/microsoft/DeepSpeed/issues/99,N.A,0,1,0,0,0,0,0,Appears to be ready for taking.
+Detect if init distributed is needed,https://github.com/microsoft/DeepSpeed/issues/85,https://github.com/microsoft/DeepSpeed/pull/108,0,0,1,0,0,0,0,"Multiple PRs, took first one for data."
+Fix cifar tutorial links,https://github.com/microsoft/DeepSpeed/issues/68,https://github.com/microsoft/DeepSpeed/pull/69,0,0,0,0,1,0,0,
