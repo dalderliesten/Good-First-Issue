@@ -1,0 +1,5 @@
+﻿Issue,URL,Associated PR,Taken by New Developer? (0/1),Bug Fix (0/1),Enhancing an Existing Feature (0/1),New Feature (0/1),Documentation(0/1),Testing (0/1),Refactoring (0/1),Other Information
+[css-values-4] typo for 'cap' unit description ,https://github.com/w3c/csswg-drafts/issues/2347,https://github.com/w3c/csswg-drafts/commit/b0afdf4b34659cd8f99ef868cf4808140d7d27ef,0,0,0,0,1,0,0,
+"[css-fonts-4] [editorial] Duplicate entries in ""Feature and variation precedence""",https://github.com/w3c/csswg-drafts/issues/2219,https://github.com/w3c/csswg-drafts/pull/2332,1,1,0,0,0,0,0,
+[css-align-3] Image link is broken,https://github.com/w3c/csswg-drafts/issues/2154,https://github.com/w3c/csswg-drafts/pull/2333,0,0,0,0,0,0,1,
+[css-color-3] Dangling link to `appearance` property in CR of Color-3,https://github.com/w3c/csswg-drafts/issues/2089,https://github.com/w3c/csswg-drafts/pull/2334,0,0,0,0,1,0,0,
