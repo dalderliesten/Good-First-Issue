@@ -1,0 +1,31 @@
+﻿Issue,URL,Associated PR,Taken by New Developer? (0/1),Bug Fix (0/1),Enhancing an Existing Feature (0/1),New Feature (0/1),Documentation(0/1),Testing (0/1),Refactoring (0/1),Other Information
+Remove ZSTD,https://github.com/OpenMined/PySyft/issues/3134,https://github.com/OpenMined/PySyft/pull/3150,0,0,0,0,0,0,1,
+Translate our tutorials to Simplified Chinese / Chiniese,https://github.com/OpenMined/PySyft/issues/2778,https://github.com/OpenMined/PySyft/pull/3103,1,0,0,0,1,0,0,
+"Serde is potentially simplifying information twice, creating a bad nested structure",https://github.com/OpenMined/PySyft/issues/2424,https://github.com/OpenMined/PySyft/pull/2614,0,1,0,0,0,0,0,
+Hack PySyft,https://github.com/OpenMined/PySyft/issues/2421,N.A,0,0,0,0,0,1,0,Still ongoing.
+Function hooking bug in nn.functional (F.max_pool2d),https://github.com/OpenMined/PySyft/issues/1878,https://github.com/OpenMined/PySyft/pull/1894,0,1,0,0,0,0,0,
+Test hook.py should be modified to not use class structure,https://github.com/OpenMined/PySyft/issues/1835,https://github.com/OpenMined/PySyft/pull/1841,0,0,0,0,0,1,0,"Multiple PRs, took first one for data."
+Add Logo and Color Scheme to Documentation,https://github.com/OpenMined/PySyft/issues/1418,https://github.com/OpenMined/PySyft/pull/1427,1,0,0,0,1,0,0,
+Implement the inline Unfold function for IntTensor on the CPU,https://github.com/OpenMined/PySyft/issues/1267,https://github.com/OpenMined/UnityWorker/pull/430,0,0,1,0,0,0,0,
+Implement the Trunc function for IntTensor on the CPU,https://github.com/OpenMined/PySyft/issues/1262,N.A,0,0,1,0,0,0,0,"Not done, closed."
+Implement the Transpose function for IntTensor on the CPU,https://github.com/OpenMined/PySyft/issues/1250,https://github.com/OpenMined/PySyft/pull/1295,1,0,1,0,0,0,0,
+Implement the Trace function for IntTensor on the CPU ,https://github.com/OpenMined/PySyft/issues/1246,https://github.com/OpenMined/PySyft/pull/1280,1,0,1,0,0,0,0,
+Implement the inline Tolist function for IntTensor on the CPU,https://github.com/OpenMined/PySyft/issues/1239,N.A,0,0,1,0,0,0,0,"Closed, seems to be duplicated."
+Implement the inline Std function for IntTensor on the CPU,https://github.com/OpenMined/PySyft/issues/1207,N.A,0,0,1,0,0,0,0,Closed without reason or explanation.
+Implement the inline Reciprocal function for IntTensor on the CPU,https://github.com/OpenMined/PySyft/issues/1147,https://github.com/OpenMined/UnityWorker/pull/359,0,0,1,0,0,0,0,
+Implement the inline Pstrf function for IntTensor on the CPU,https://github.com/OpenMined/PySyft/issues/1127,N.A,0,0,1,0,0,0,0,Closed without reason or explanation.
+Implement the Nonzero function for IntTensor on the CPU,https://github.com/OpenMined/PySyft/issues/1086,N.A,0,0,1,0,0,0,0,Closed without reason or explanation.
+Implement the inline Nelement function for IntTensor on the CPU,https://github.com/OpenMined/PySyft/issues/1083,N.A,0,0,1,0,0,0,0,Closed without reason or explanation.
+Implement the Ne function for IntTensor on the CPU,https://github.com/OpenMined/PySyft/issues/1071,N.A,0,0,1,0,0,0,0,Closed without reason or explanation.
+Implement the Index_copy function for IntTensor on the CPU,https://github.com/OpenMined/PySyft/issues/994,N.A,0,0,1,0,0,0,0,Closed without reason or explanation.
+Implement the inline Gt function for IntTensor on the CPU,https://github.com/OpenMined/PySyft/issues/979,N.A,0,0,1,0,0,0,0,Closed without reason or explanation.
+Implement the inline Eig function for IntTensor on the CPU,https://github.com/OpenMined/PySyft/issues/923,N.A,0,0,1,0,0,0,0,Closed without reason or explanation.
+Implement the inline Baddbm function for IntTensor on the CPU,https://github.com/OpenMined/PySyft/issues/871,N.A,0,0,1,0,0,0,0,Closed without reason or explanation.
+Implement the inline Atan2 function for IntTensor on the CPU,https://github.com/OpenMined/PySyft/issues/867,N.A,0,0,1,0,0,0,0,Closed without reason or explanation.
+Implement the inline Numel function for IntTensor on the CPU,https://github.com/OpenMined/PySyft/issues/811,N.A,0,0,1,0,0,0,0,Closed without reason or explanation.
+Implement the inline Clone function for IntTensor on the CPU,https://github.com/OpenMined/PySyft/issues/775,N.A,0,0,1,0,0,0,0,Closed without reason or explanation.
+Implement tan Functionality in FloatTensor with CPU/GPU Backend Support,https://github.com/OpenMined/PySyft/issues/605,https://github.com/OpenMined/PySyft/pull/668,0,0,1,0,0,0,0,
+Implement inline squeeze Functionality in FloatTensor with CPU/GPU Backend Support,https://github.com/OpenMined/PySyft/issues/592,https://github.com/OpenMined/UnityWorker/pull/153,0,0,1,0,0,0,0,
+Implement sign Functionality in FloatTensor with CPU/GPU Backend Support,https://github.com/OpenMined/PySyft/issues/580,https://github.com/OpenMined/PySyft/pull/673,1,0,1,0,0,0,0,
+Implement inline addmv Functionality in FloatTensor with CPU/GPU Backend Support,https://github.com/OpenMined/PySyft/issues/423,https://github.com/OpenMined/PySyft/pull/674,0,0,1,0,0,0,0,
+Implement inline add Functionality in FloatTensor with CPU/GPU Backend Support ,https://github.com/OpenMined/PySyft/issues/414,https://github.com/OpenMined/PySyft/pull/635,1,0,1,0,0,0,0,"Multiple PRs, took first one for data."
