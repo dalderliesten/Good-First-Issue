@@ -1,0 +1,31 @@
+﻿Issue,URL,Associated PR,Taken by New Developer? (0/1),Bug Fix (0/1),Enhancing an Existing Feature (0/1),New Feature (0/1),Documentation(0/1),Testing (0/1),Refactoring (0/1),Other Information
+`nan` gradient when `tf.where` is used,https://github.com/tensorflow/tensorflow/issues/38349,https://github.com/tensorflow/probability/pull/800,1,1,0,0,0,0,0,"Multiple PRs, took first one for data."
+Count number of times `tf.function` is traced,https://github.com/tensorflow/tensorflow/issues/37323,https://github.com/tensorflow/tensorflow/pull/37790,1,0,0,1,0,0,0,
+tf.function and tf.nest break for valid Mapping instances,https://github.com/tensorflow/tensorflow/issues/36146,https://github.com/tensorflow/tensorflow/pull/36186,1,0,0,0,1,0,0,"Multiple PRs, took first one for data."
+"polyval gives TypeError when run inside tf.function with Tensor coeffs, but not when run eagerly",https://github.com/tensorflow/tensorflow/issues/34947,https://github.com/tensorflow/tensorflow/pull/36597,0,1,0,0,0,0,0,
+[TF 2.0] autograph issue,https://github.com/tensorflow/tensorflow/issues/30895,https://github.com/tensorflow/tensorflow/pull/31268,0,0,1,0,0,0,0,
+Using tf.function while enumerating a dataset causes an infinite loop,https://github.com/tensorflow/tensorflow/issues/30802,https://github.com/tensorflow/tensorflow/pull/31036,0,1,0,0,0,0,0,"Multiple PRs, took first one for data."
+[TF 2.0] Using tf.py_function which has tf.string type input in dataset.map() generates dtype warning.,https://github.com/tensorflow/tensorflow/issues/28248,https://github.com/tensorflow/tensorflow/pull/30107,0,0,0,0,0,0,1,
+[TF 2.0] Add skip_empty argument to tf.strings.split so that tf.string_split can be deprecated.,https://github.com/tensorflow/tensorflow/issues/26368,https://github.com/tensorflow/tensorflow/pull/26475,0,0,0,0,0,0,1,
+[TF 2.0] Conversion script fails to parse IPython functions.,https://github.com/tensorflow/tensorflow/issues/26294,https://github.com/tensorflow/tensorflow/pull/26332,1,1,0,0,0,0,0,
+Good first issue tag?,https://github.com/tensorflow/tensorflow/issues/26276,https://github.com/tensorflow/tensorflow/pull/26317,1,0,0,0,1,0,0,Personal note: introducting GFI!
+[TF 2.0 API Docs] tf.custom_gradient,https://github.com/tensorflow/tensorflow/issues/26270,N.A,0,0,0,0,1,0,0,Still ongoing.
+[TF 2.0 API Docs] tf.keras.activations.relu,https://github.com/tensorflow/tensorflow/issues/26211,https://github.com/tensorflow/tensorflow/pull/26257,1,0,0,0,1,0,0,"Multiple PRs, took first one for data."
+[TF 2.0 API Docs] tf.keras,https://github.com/tensorflow/tensorflow/issues/26197,https://github.com/tensorflow/tensorflow/pull/33443,1,0,0,0,1,0,0,
+[TF2.0] Error Logging for GradientTape,https://github.com/tensorflow/tensorflow/issues/26143,,1,0,1,0,0,0,0,
+tf.spectral.dct length argument not implemented,https://github.com/tensorflow/tensorflow/issues/26074,https://github.com/tensorflow/tensorflow/pull/28951,0,0,1,0,0,0,0,
+[TF 2.0 API Docs] tf.keras.applications.MobileNetV2,https://github.com/tensorflow/tensorflow/issues/25988,https://github.com/tensorflow/tensorflow/pull/36951,0,0,0,0,1,0,0,
+[TF 2.0 API Docs] tf.keras.losses.poisson,https://github.com/tensorflow/tensorflow/issues/25973,https://github.com/tensorflow/tensorflow/pull/26423,1,0,0,0,1,0,0,
+[TF 2.0 API Docs] tf.image.non_max_suppression,https://github.com/tensorflow/tensorflow/issues/25959,N.A,0,0,0,0,1,0,0,Not done with PR.
+[TF 2.0 API Docs] tf.math.add,https://github.com/tensorflow/tensorflow/issues/25846,https://github.com/tensorflow/tensorflow/pull/26017,0,0,0,0,1,0,0,"Multiple PRs, took first one for data."
+[TF 2.0 API Docs] tf.lite.TFLiteConverter,https://github.com/tensorflow/tensorflow/issues/25844,https://github.com/tensorflow/tensorflow/pull/26067,0,0,0,0,1,0,0,
+[TF 2.0 API Docs] tf.keras.activations.serialize,https://github.com/tensorflow/tensorflow/issues/25828,https://github.com/tensorflow/tensorflow/pull/32668,0,0,0,0,1,0,0,
+[TF 2.0 API Docs] tf.keras.activations.tanh,https://github.com/tensorflow/tensorflow/issues/25827,https://github.com/tensorflow/tensorflow/pull/29725,0,0,0,0,1,0,0,
+[TF 2.0 API Docs] tf.compat.path_to_str,https://github.com/tensorflow/tensorflow/issues/25826,https://github.com/tensorflow/tensorflow/pull/26847,0,0,0,0,1,0,0,"Multiple PRs, took first one for data."
+[TF 2.0 API Docs] tf.math.add_n,https://github.com/tensorflow/tensorflow/issues/25820,https://github.com/tensorflow/tensorflow/pull/27293,0,0,0,0,1,0,0,
+[TF 2.0 API Docs] tf.math.acos,https://github.com/tensorflow/tensorflow/issues/25802,https://github.com/tensorflow/tensorflow/pull/26017,0,0,0,0,1,0,0,"Multiple PRs, took first one for data."
+[TF 2.0 API Docs] tf.AggregationMethod,https://github.com/tensorflow/tensorflow/issues/25794,https://github.com/tensorflow/tensorflow/pull/28319,1,0,0,0,1,0,0,
+tf.data.Dataset error in documentation,https://github.com/tensorflow/tensorflow/issues/25320,https://github.com/tensorflow/tensorflow/pull/27933,1,0,0,0,1,0,0,
+"If a branch contains summaries, tf.cond doesn't support Operations as branches",https://github.com/tensorflow/tensorflow/issues/24815,https://github.com/tensorflow/tensorflow/pull/27712,0,1,0,0,0,0,0,"Multiple PRs, took first one for data."
+Feature Request: GPUOptions for Go binding,https://github.com/tensorflow/tensorflow/issues/22926,https://github.com/tensorflow/tensorflow/pull/26682,0,0,0,1,0,0,0,
+Feature request: non-stateful scatter_nd_min and scatter_nd_max,https://github.com/tensorflow/tensorflow/issues/20402,N.A,0,0,0,1,0,0,0,Still Ongoing.
