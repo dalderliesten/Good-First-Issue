@@ -1,0 +1,31 @@
+﻿Issue,URL,Associated PR,Taken by New Developer? (0/1),Bug Fix (0/1),Enhancing an Existing Feature (0/1),New Feature (0/1),Documentation(0/1),Testing (0/1),Refactoring (0/1),Other Information
+Support multiple keys for apt_repository to match yum_repository,https://github.com/chef/chef/issues/6369,https://github.com/chef/chef/pull/6372,1,0,1,0,0,0,0,
+chef chokes on git version string on apple. ,https://github.com/chef/chef/issues/6350,https://github.com/chef/chef/pull/6354,0,1,0,0,0,0,0,"Multiple PRs, took first one for data."
+[Enhancement] Add sensitive to registry_key ,https://github.com/chef/chef/issues/5695,https://github.com/chef/chef/pull/6496,1,0,1,0,0,0,0,
+Mount resource: Action :umount for mount resource is an obtuse anachronism,https://github.com/chef/chef/issues/5595,https://github.com/chef/chef/pull/5599,0,0,1,0,0,0,0,
+Remove create_if_missing from declare_resource API,https://github.com/chef/chef/issues/5372,N.A,0,1,0,0,0,0,0,Found to be a developer issue.
+Remove `supports { manage_home: true }` from user providers,https://github.com/chef/chef/issues/5371,https://github.com/sous-chefs/chef-stunnel/pull/39,1,0,0,0,0,0,1,
+Mount provider should support sensitive property,https://github.com/chef/chef/issues/4850,https://github.com/chef/chef/pull/6441,0,1,0,0,0,0,0,"Multiple PRs, took first one for data."
+cookbook show definitions throws exception. ,https://github.com/chef/chef/issues/4821,https://github.com/chef/chef/pull/4936,0,1,0,0,0,0,0,
+Ensure that tags are properly initialized,https://github.com/chef/chef/pull/4064,N.A,0,1,0,0,0,0,0,Found to be a developer issue.
+knife bootstrap against OSX 10.10.5 node giving error at first chef-client run (post chef omnibus install),https://github.com/chef/chef/issues/4019,N.A,0,1,0,0,0,0,0,Found to be a developer issue.
+Error when using lazy attribute with link resource,https://github.com/chef/chef/issues/3703,https://github.com/chef/chef/pull/3130,0,1,0,0,0,0,0,
+Chef::DataBagItem.save does not properly validate names with periods,https://github.com/chef/chef/issues/3697,N.A,0,1,0,0,0,0,0,Still ongoing.
+Decommissioning 12-stable,https://github.com/chef/chef/issues/3640,https://github.com/chef/chef/pull/3641,1,0,0,0,0,0,1,"Multiple PRs, took first one for data."
+Add a 'null' or 'notifies' NOP resource to hang chained notifies off of,https://github.com/chef/chef/issues/3426,https://github.com/chef/chef/pull/9349,0,0,1,0,0,0,0,
+Why output `new_run_list.inspect` in chef-client logs?,https://github.com/chef/chef/issues/2863,https://github.com/chef/chef/pull/3061,0,0,0,0,0,0,1,
+Chef client does not accept relative dir,https://github.com/chef/chef/issues/2809,https://github.com/chef/chef/pull/3079,1,0,0,1,0,0,0,
+Update audit DSL method names,https://github.com/chef/chef/issues/2755,https://github.com/chef/chef/pull/2758,0,0,0,0,0,0,1,
+"""knife cookbook site install"" command is failed.",https://github.com/chef/chef/issues/2317,https://github.com/chef/chef/pull/2775,0,0,1,0,0,0,0,
+Uploading a frozen cookbook fails to upload the remaining cookbooks and does not exit 1,https://github.com/chef/chef/issues/2293,https://github.com/chef/chef/pull/2406,0,0,1,0,0,0,0,
+data bag search returns different results between client and knife,https://github.com/chef/chef/issues/2199,N.A,0,1,0,0,0,0,0,Not reproduced.
+remote-directory does not support copying files with spaces in them,https://github.com/chef/chef/issues/2160,N.A,0,1,0,0,0,0,0,Not reproduced.
+Environment proxy settings not picked up by remote_file,https://github.com/chef/chef/issues/2140,https://github.com/chef/chef/pull/3213,0,1,0,0,0,0,0,
+Provide more helpful error message when accidentally using --secret instead of --secret-file,https://github.com/chef/chef/issues/2113,https://github.com/chef/chef/pull/3183,1,1,0,0,0,0,0,
+chefignore requires double definition,https://github.com/chef/chef/issues/2060,N.A,0,0,0,0,0,0,1,Decided against implementation.
+CHEF-1940:Patch for https://github.com/opscode/chef/issues/1940,https://github.com/chef/chef/issues/1940,https://github.com/chef/chef/pull/1961,1,1,0,0,0,0,0,
+"""ERROR: can't dup NilClass"" when bootstrap --server-url is not a URI",https://github.com/chef/chef/issues/1909,https://github.com/skmichaelson/chef/commit/fe78bffcf953971cc49890bea26f6740cbdf2526,0,1,0,0,0,0,0,
+Enable client-side key generation by default (fixes #1711),https://github.com/chef/chef/issues/1711,https://github.com/chef/chef/pull/1825,0,0,0,0,0,0,1,
+" --force option is invalid, but knife client delete tells you to use it",https://github.com/chef/chef/issues/1652,https://github.com/chef/chef/pull/1664,1,1,0,0,0,0,0,
+Node::Attribute inspect vs to_s problem,https://github.com/chef/chef/issues/1562,https://github.com/chef/chef/pull/2310,0,1,0,0,0,0,0,"Multiple PRs, took first one for data."
+CHEF-2707 subversion resource doesn't work on windows,https://github.com/chef/chef/issues/1533,https://github.com/chef/chef/pull/3804,0,0,0,0,0,0,1,"Multiple PRs, took first one for data."

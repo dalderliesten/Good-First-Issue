@@ -13,7 +13,7 @@ Cordova,https://github.com/apache/cordova,Done,,172,2,3,2
 Xamarin,https://github.com/xamarin/Xamarin.Forms,Done,label = 'up for grabs',6001,825,30,30
 Flutter,https://github.com/flutter/flutter,Done,label = 'good first contribution',33518,17,30,17
 PyTorch,https://github.com/pytorch/pytorch,Done,,13174,43,30,30
-Chef,https://github.com/chef/chef,,label ='status:good first issue',,,,
+Chef,https://github.com/chef/chef,Done,label ='status:good first issue',2881,108,30,30
 ElasticSearch,https://github.com/elastic/elasticsearch,Done,,23131,632,30,30
 DeepSpeed,https://github.com/microsoft/DeepSpeed,Done,,83,3,15,3
 PySyft,https://github.com/OpenMined/PySyft,Done,,1636,422,30,30
