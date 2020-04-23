@@ -1,0 +1,863 @@
+﻿Issue,URL,Associated PR,Taken by New Developer? (0/1),Bug Fix (0/1),Enhancing an Existing Feature (0/1),New Feature (0/1),Documentation(0/1),Testing (0/1),Refactoring (0/1),Other Information
+[Bug] MacOS switching between details pages in MasterDetailPage causes Mac window to move up and down,https://github.com/xamarin/Xamarin.Forms/issues/9544,N.A,0,1,0,0,0,0,0,Still being worked on.
+[Bug] Flyout remains open on FlyoutItem double click,https://github.com/xamarin/Xamarin.Forms/issues/9440,https://github.com/xamarin/Xamarin.Forms/pull/9719,0,1,0,0,0,0,0,
+[Bug] Xamarin RotateTo is not rotating from center ( images or views ) on UWP,https://github.com/xamarin/Xamarin.Forms/issues/7280,N.A,0,1,0,0,0,0,0,Still being worked on.
+UWP IconImageSource from netstandard 2.0,https://github.com/xamarin/Xamarin.Forms/issues/6534,N.A,0,1,0,0,0,0,0,Still being worked on.
+[Bug] Material Activity Indicator has unusual large size on iOS,https://github.com/xamarin/Xamarin.Forms/issues/6374,N.A,0,1,0,0,0,0,0,Appears to be depracated.
+[Bug] Conflict with SkiaSharp Library,https://github.com/xamarin/Xamarin.Forms/issues/5901,N.A,0,1,0,0,0,0,0,Appears to be stale.
+Xamarin listview when loaded inside secondary view of SfNavigationDrawer doesn't display in view completely,https://github.com/xamarin/Xamarin.Forms/issues/5889,N.A,0,1,0,0,0,0,0,Appears to be stale.
+XF 3.6 Material Setting in App.Xaml requires default value ,https://github.com/xamarin/Xamarin.Forms/issues/5733,N.A,0,1,0,0,0,0,0,Appears to be stale.
+[iOS] IsEnabled=false is indiscernible from IsEnabled=true on DatePicker and TimePicker,https://github.com/xamarin/Xamarin.Forms/issues/5454,N.A,0,1,0,0,0,0,0,Appears to be stale.
+"[Enhancement]Make Route, RouteScheme and RouteHost bindable on Shell",https://github.com/xamarin/Xamarin.Forms/issues/5266,N.A,0,0,0,1,0,0,0,Appears to be depracated.
+[UWP] ListView not populating in UI test 1567,https://github.com/xamarin/Xamarin.Forms/issues/4937,N.A,0,1,0,0,0,1,0,Appears to be stale.
+GTK: label doesn't align to the center properly (VerticalOptions and HorizontalOptions XAML properties),https://github.com/xamarin/Xamarin.Forms/issues/4655,N.A,0,1,0,0,0,0,0,Could not be reproduced.
+MasterDetail Page IsPresented and MasterBehaviour not behaving as Expected.,https://github.com/xamarin/Xamarin.Forms/issues/4623,N.A,0,1,0,0,0,0,0,Appears to be stale.
+"Hiding Bottom navigation view in android Tabbed page rendering Issue, Viewpages not full covered once bottom navigation hides",https://github.com/xamarin/Xamarin.Forms/issues/4222,N.A,0,1,0,0,0,0,0,Appears to be stale.
+Picker control doesn't highlight the user selected item on Android,https://github.com/xamarin/Xamarin.Forms/issues/3885,N.A,0,1,0,0,0,0,0,Appears to be stale.
+MacOS Tabpage error,https://github.com/xamarin/Xamarin.Forms/issues/3237,N.A,0,1,0,0,0,0,0,Appears to be stale.
+Xamarin.Forms WebViewRenderer.LoadUrl() does not include Uri.UserInfo,https://github.com/xamarin/Xamarin.Forms/issues/3227,N.A,0,1,0,0,0,0,0,Appears to be stale.
+[iOS] Changing out the MainPage during certain life cycle points doesn't work on iOS,https://github.com/xamarin/Xamarin.Forms/issues/3188,https://github.com/xamarin/Xamarin.Forms/pull/3514,0,1,0,0,0,0,0,
+Horizontal text alignment is treated differently in Android and iOS for Labels with arabic content,https://github.com/xamarin/Xamarin.Forms/issues/3077,N.A,0,1,0,0,0,0,0,Appears to be stale.
+RTL does't switch the margin,https://github.com/xamarin/Xamarin.Forms/issues/3066,N.A,0,1,0,0,0,0,0,Appears to be stale.
+[Android] Issue with the Entry's PlaceholderColor - API 19 - v4.4.2,https://github.com/xamarin/Xamarin.Forms/issues/2616,N.A,0,1,0,0,0,0,0,Appears to be stale.
+UI test B43663 needs to be automated,https://github.com/xamarin/Xamarin.Forms/issues/2374,https://github.com/xamarin/Xamarin.Forms/pull/5880,0,0,0,0,0,1,0,
+UI test 39486 needs instructions,https://github.com/xamarin/Xamarin.Forms/issues/2319,N.A,0,0,0,0,0,1,0,Appears to be stale.
+[Android] API 22 - MaximumDate not clickable for DatePicker,https://github.com/xamarin/Xamarin.Forms/issues/2316,N.A,0,1,0,0,0,0,0,Appears to be stale.
+Add instructions to UI test 34720,https://github.com/xamarin/Xamarin.Forms/issues/2259,N.A,0,0,0,0,0,1,0,Appears to be stale.
+Toolbar button not shown on App startup,https://github.com/xamarin/Xamarin.Forms/issues/2118,https://github.com/xamarin/Xamarin.Forms/pull/4893,0,1,0,0,0,0,0,
+Using TranslateTo on a ScrollView does not update ScrollX/ScrollY,https://github.com/xamarin/Xamarin.Forms/issues/2110,N.A,0,1,0,0,0,0,0,Appears to be stale.
+[iOS] ImageCell command triggered when raising CanExecuteChanged,https://github.com/xamarin/Xamarin.Forms/issues/1940,N.A,0,1,0,0,0,0,0,Appears to be stale.
+Desktop support: MenuItem.Command CanExecute delegate not visually respected (macOS),https://github.com/xamarin/Xamarin.Forms/issues/1638,N.A,0,1,0,0,0,0,0,Appears to be stale.
+Desktop support: MenuItem.Command binding doesn't work (macOS),https://github.com/xamarin/Xamarin.Forms/issues/1637,https://github.com/xamarin/Xamarin.Forms/pull/7929,0,1,0,0,0,0,0,
+Allow BigInt usage in templates,https://github.com/vuejs/vue/issues/11126,https://github.com/vuejs/vue/pull/11152,1,0,0,1,0,1,0,
+"$http.delete shows warning ""avoid using JavaScript unary operator as property name""",https://github.com/vuejs/vue/issues/11090,https://github.com/vuejs/vue/pull/11143,0,1,0,0,0,1,0,
+Wrong definition of type AsyncComponentFactory,https://github.com/vuejs/vue/issues/10252,https://github.com/vuejs/vue/pull/10253,0,1,0,0,0,1,0,
+Warn if colon shorthand is used on v-if/v-html/etc.,https://github.com/vuejs/vue/issues/10191,https://github.com/vuejs/vue/pull/10199,0,0,0,1,0,1,0,
+Scoped Slot warns when used inside of dynamic component on regular element,https://github.com/vuejs/vue/issues/10152,https://github.com/vuejs/vue/pull/10167,0,1,0,0,0,1,0,
+Vue.config.errorHandler and errorCaptured should capture rejected promised in watchers,https://github.com/vuejs/vue/issues/10009,https://github.com/vuejs/vue/pull/9484,1,0,0,1,0,1,0,
+"Add path to resolved vue package to vue-template-compiler's ""version mismatch"" error",https://github.com/vuejs/vue/issues/9734,https://github.com/vuejs/vue/pull/9738,1,0,1,0,0,0,0,
+"optionMergeStrategies does not set 3rd ""vm"" argument for components",https://github.com/vuejs/vue/issues/9623,N.A,1,0,0,0,1,0,0,
+Warn when using inline-template attribute but no children,https://github.com/vuejs/vue/issues/9361,https://github.com/vuejs/vue/pull/9365,1,1,0,0,0,1,0,
+Warn when the type of a prop isn't a constructor,https://github.com/vuejs/vue/issues/9224,https://github.com/vuejs/vue/pull/9241,1,0,0,0,0,0,1,
+Incorrect compiled code when usinig multiline v-if on template element as a slot renderer,https://github.com/vuejs/vue/issues/9114,https://github.com/vuejs/vue/pull/9119,1,1,0,0,0,1,0,
+Throw error when using interpolation instead of JS expression for slot names,https://github.com/vuejs/vue/issues/9038,https://github.com/vuejs/vue/pull/9050,1,0,1,0,0,0,0,
+"Vue DevTools recommendation only shows for Chrome, not Firefox",https://github.com/vuejs/vue/issues/8634,https://github.com/vuejs/vue/pull/8638,1,1,0,0,0,0,0,
+warn if $set is used on a property that already exist,https://github.com/vuejs/vue/issues/8129,https://github.com/vuejs/vue/pull/8138,1,1,1,0,0,1,0,
+Creating a component named map should warn the user (as with button,https://github.com/vuejs/vue/issues/8025,https://github.com/vuejs/vue/pull/8051,0,0,0,1,0,1,0,
+2.5.14 introduces TypeError bind is not a function,https://github.com/vuejs/vue/issues/8017,https://github.com/vuejs/vue/pull/8974,1,0,0,1,0,1,0,
+Make the warning messages more explicit,https://github.com/vuejs/vue/issues/7764,https://github.com/vuejs/vue/pull/7881,1,0,0,0,0,1,1,
+HTML Keyboard Input element (<kbd>) is not supported,https://github.com/vuejs/vue/issues/7711,N.A,0,0,0,0,0,0,0,"Issue closed due to spelling mistake, no action."
+"""TypeError: Cannot use 'in' operator to search for 'names' in bf7823uhvbon3f289ph32f",https://github.com/vuejs/vue/issues/7381,https://github.com/vuejs/vue/pull/7452,1,1,0,0,0,1,0,
+Uncaught TypeError: Cannot read property 'type' of undefined,https://github.com/vuejs/vue/issues/6703,https://github.com/vuejs/vue/pull/6715,0,1,0,0,0,1,0,
+v-bind with something else than an object should warn you,https://github.com/vuejs/vue/issues/6677,https://github.com/vuejs/vue/pull/6736,1,1,0,0,0,1,0,
+improve error message for non-reactive properties,https://github.com/vuejs/vue/issues/6657,https://github.com/vuejs/vue/pull/6735,1,0,0,0,0,0,1,
+"<input :is=""textarea""> broken",https://github.com/vuejs/vue/issues/6361,https://github.com/vuejs/vue/pull/6453,1,1,0,0,0,1,0,Not merged due to new contributor misunderstanding property.
+"Improve error reporting/debugging of provide/inject, or allow require flag for inject",https://github.com/vuejs/vue/issues/5628,https://github.com/vuetifyjs/vuetify/pull/2033,0,0,1,0,0,0,0,"Related to 3 other issues, hence lack of PR linking on Github."
+"Warn when component option should be an object, but is a function",https://github.com/vuejs/vue/issues/5605,https://github.com/vuejs/vue/pull/5642,1,0,0,1,0,1,0,
+optionMergeStrategies.inject,https://github.com/vuejs/vue/issues/5603,https://github.com/vuejs/vue/pull/5827,0,0,1,1,0,1,0,
+Who's using Unform (add your project),https://github.com/Rocketseat/unform/issues/36,N.A,0,0,0,1,1,0,0,"Outsource to website, hence no PR."
+angular-dart complains about audio context,https://github.com/tastejs/todomvc/issues/1501,N.A,0,0,0,0,0,0,1,Not implemented.
+beforeEach hook,https://github.com/tastejs/todomvc/issues/1410,https://github.com/baiyaaaaa/todomvc/pull/1,0,0,0,0,0,1,0,Large merge PR.
+duplicate tests,https://github.com/tastejs/todomvc/issues/1409,https://github.com/baiyaaaaa/todomvc/pull/1,0,0,0,0,0,1,1,Large merge PR.
+CSS: Homepage responsive clipping bug,https://github.com/tastejs/todomvc/issues/1260,https://github.com/tastejs/todomvc/pull/1377,1,1,0,0,0,0,1,
+Add page with all resources in learn.json,https://github.com/tastejs/todomvc/issues/1244,https://github.com/tastejs/todomvc/pull/1552,1,0,0,0,1,0,0,
+Get rid of completed todos count,https://github.com/tastejs/todomvc/issues/1234,https://github.com/tastejs/todomvc/pull/1245,0,0,0,0,0,1,1,
+Fix google page speed score,https://github.com/tastejs/todomvc/issues/1193,https://github.com/tastejs/todomvc/pull/1533,1,0,1,0,0,0,1,
+New app UI & switch to npm for dependencies,https://github.com/tastejs/todomvc/issues/1110,https://github.com/tastejs/todomvc/pull/1111,0,0,1,0,0,0,1,"Larger number of PRs, considering first only."
+Tooltips not appearing in Firefox and Safari,https://github.com/tastejs/todomvc/issues/1010,N.A,0,1,0,0,0,0,0,Fixed outside of project.
+right-column popup too narrow,https://github.com/tastejs/todomvc/issues/850,https://github.com/tastejs/todomvc/pull/1519,1,1,0,0,0,0,0,
+Use .focus() instead of .select()?,https://github.com/tastejs/todomvc/issues/203,https://github.com/tastejs/todomvc/pull/318,0,1,0,0,0,0,1,"Spread over multiple PRs, first considered."
+`nan` gradient when `tf.where` is used,https://github.com/tensorflow/tensorflow/issues/38349,https://github.com/tensorflow/probability/pull/800,1,1,0,0,0,0,0,"Multiple PRs, took first one for data."
+Count number of times `tf.function` is traced,https://github.com/tensorflow/tensorflow/issues/37323,https://github.com/tensorflow/tensorflow/pull/37790,1,0,0,1,0,0,0,
+tf.function and tf.nest break for valid Mapping instances,https://github.com/tensorflow/tensorflow/issues/36146,https://github.com/tensorflow/tensorflow/pull/36186,1,0,0,0,1,0,0,"Multiple PRs, took first one for data."
+"polyval gives TypeError when run inside tf.function with Tensor coeffs, but not when run eagerly",https://github.com/tensorflow/tensorflow/issues/34947,https://github.com/tensorflow/tensorflow/pull/36597,0,1,0,0,0,0,0,
+[TF 2.0] autograph issue,https://github.com/tensorflow/tensorflow/issues/30895,https://github.com/tensorflow/tensorflow/pull/31268,0,0,1,0,0,0,0,
+Using tf.function while enumerating a dataset causes an infinite loop,https://github.com/tensorflow/tensorflow/issues/30802,https://github.com/tensorflow/tensorflow/pull/31036,0,1,0,0,0,0,0,"Multiple PRs, took first one for data."
+[TF 2.0] Using tf.py_function which has tf.string type input in dataset.map() generates dtype warning.,https://github.com/tensorflow/tensorflow/issues/28248,https://github.com/tensorflow/tensorflow/pull/30107,0,0,0,0,0,0,1,
+[TF 2.0] Add skip_empty argument to tf.strings.split so that tf.string_split can be deprecated.,https://github.com/tensorflow/tensorflow/issues/26368,https://github.com/tensorflow/tensorflow/pull/26475,0,0,0,0,0,0,1,
+[TF 2.0] Conversion script fails to parse IPython functions.,https://github.com/tensorflow/tensorflow/issues/26294,https://github.com/tensorflow/tensorflow/pull/26332,1,1,0,0,0,0,0,
+Good first issue tag?,https://github.com/tensorflow/tensorflow/issues/26276,https://github.com/tensorflow/tensorflow/pull/26317,1,0,0,0,1,0,0,Personal note: introducting GFI!
+[TF 2.0 API Docs] tf.custom_gradient,https://github.com/tensorflow/tensorflow/issues/26270,N.A,0,0,0,0,1,0,0,Still ongoing.
+[TF 2.0 API Docs] tf.keras.activations.relu,https://github.com/tensorflow/tensorflow/issues/26211,https://github.com/tensorflow/tensorflow/pull/26257,1,0,0,0,1,0,0,"Multiple PRs, took first one for data."
+[TF 2.0 API Docs] tf.keras,https://github.com/tensorflow/tensorflow/issues/26197,https://github.com/tensorflow/tensorflow/pull/33443,1,0,0,0,1,0,0,
+[TF2.0] Error Logging for GradientTape,https://github.com/tensorflow/tensorflow/issues/26143,,1,0,1,0,0,0,0,
+tf.spectral.dct length argument not implemented,https://github.com/tensorflow/tensorflow/issues/26074,https://github.com/tensorflow/tensorflow/pull/28951,0,0,1,0,0,0,0,
+[TF 2.0 API Docs] tf.keras.applications.MobileNetV2,https://github.com/tensorflow/tensorflow/issues/25988,https://github.com/tensorflow/tensorflow/pull/36951,0,0,0,0,1,0,0,
+[TF 2.0 API Docs] tf.keras.losses.poisson,https://github.com/tensorflow/tensorflow/issues/25973,https://github.com/tensorflow/tensorflow/pull/26423,1,0,0,0,1,0,0,
+[TF 2.0 API Docs] tf.image.non_max_suppression,https://github.com/tensorflow/tensorflow/issues/25959,N.A,0,0,0,0,1,0,0,Not done with PR.
+[TF 2.0 API Docs] tf.math.add,https://github.com/tensorflow/tensorflow/issues/25846,https://github.com/tensorflow/tensorflow/pull/26017,0,0,0,0,1,0,0,"Multiple PRs, took first one for data."
+[TF 2.0 API Docs] tf.lite.TFLiteConverter,https://github.com/tensorflow/tensorflow/issues/25844,https://github.com/tensorflow/tensorflow/pull/26067,0,0,0,0,1,0,0,
+[TF 2.0 API Docs] tf.keras.activations.serialize,https://github.com/tensorflow/tensorflow/issues/25828,https://github.com/tensorflow/tensorflow/pull/32668,0,0,0,0,1,0,0,
+[TF 2.0 API Docs] tf.keras.activations.tanh,https://github.com/tensorflow/tensorflow/issues/25827,https://github.com/tensorflow/tensorflow/pull/29725,0,0,0,0,1,0,0,
+[TF 2.0 API Docs] tf.compat.path_to_str,https://github.com/tensorflow/tensorflow/issues/25826,https://github.com/tensorflow/tensorflow/pull/26847,0,0,0,0,1,0,0,"Multiple PRs, took first one for data."
+[TF 2.0 API Docs] tf.math.add_n,https://github.com/tensorflow/tensorflow/issues/25820,https://github.com/tensorflow/tensorflow/pull/27293,0,0,0,0,1,0,0,
+[TF 2.0 API Docs] tf.math.acos,https://github.com/tensorflow/tensorflow/issues/25802,https://github.com/tensorflow/tensorflow/pull/26017,0,0,0,0,1,0,0,"Multiple PRs, took first one for data."
+[TF 2.0 API Docs] tf.AggregationMethod,https://github.com/tensorflow/tensorflow/issues/25794,https://github.com/tensorflow/tensorflow/pull/28319,1,0,0,0,1,0,0,
+tf.data.Dataset error in documentation,https://github.com/tensorflow/tensorflow/issues/25320,https://github.com/tensorflow/tensorflow/pull/27933,1,0,0,0,1,0,0,
+"If a branch contains summaries, tf.cond doesn't support Operations as branches",https://github.com/tensorflow/tensorflow/issues/24815,https://github.com/tensorflow/tensorflow/pull/27712,0,1,0,0,0,0,0,"Multiple PRs, took first one for data."
+Feature Request: GPUOptions for Go binding,https://github.com/tensorflow/tensorflow/issues/22926,https://github.com/tensorflow/tensorflow/pull/26682,0,0,0,1,0,0,0,
+Feature request: non-stateful scatter_nd_min and scatter_nd_max,https://github.com/tensorflow/tensorflow/issues/20402,N.A,0,0,0,1,0,0,0,Still Ongoing.
+Improve the SQS documentation part,https://github.com/serverless/serverless/issues/6516,https://github.com/serverless/serverless/pull/6853,1,0,1,0,0,0,0,
+Doc Request: Working example of MOCK integration,https://github.com/serverless/serverless/issues/5960,https://github.com/serverless/serverless/pull/6883,1,0,0,0,1,1,0,
+Replace node-fetch with slim-fetch,https://github.com/serverless/serverless/issues/5709,N.A,0,0,0,1,0,0,0,Feature proposal without linked PR.
+Ruby support,https://github.com/serverless/serverless/issues/5540,https://github.com/serverless/serverless/pull/5544,0,0,0,1,0,0,0,
+Fallback value for unset variable is removing spaces,https://github.com/serverless/serverless/issues/5398,https://github.com/serverless/serverless/pull/5775,0,0,0,0,0,0,1,
+Update aws-nodejs runtime to nodejs8.10,https://github.com/serverless/serverless/issues/5087,https://github.com/serverless/serverless/pull/5088,0,0,0,0,0,0,1,Organizational.
+pathParameters should be uri decoded,https://github.com/serverless/serverless/issues/5037,N.A,0,1,0,0,0,0,0,Still being worked.
+invokedFunctionArn missing from local invoke context,https://github.com/serverless/serverless/issues/4905,N.A,0,1,0,0,0,0,0,Appears to be stale.
+Java invoke local NoSuchMethodException in abstract handlers,https://github.com/serverless/serverless/issues/4867,https://github.com/serverless/serverless/pull/6791,1,0,0,0,0,0,1,
+template-path out of memory error when referencing the home dir (~/...),https://github.com/serverless/serverless/issues/4724,https://github.com/serverless/serverless/pull/5062,1,0,0,,0,0,1,
+Feature Proposal: Restricting alexaSkill function invocations by skill id,https://github.com/serverless/serverless/issues/4700,https://github.com/serverless/serverless/pull/4701,1,0,0,0,0,0,1,
+Can't parse variable system when a second argument is hard-coded,https://github.com/serverless/serverless/issues/4624,https://github.com/serverless/serverless/pull/6808,1,0,1,0,0,0,1,
+Feature Request: Set Concurrency Limits on Individual AWS Lambda,https://github.com/serverless/serverless/issues/4555,https://github.com/serverless/serverless/pull/4694,1,0,0,1,0,0,0,
+Custom Authorizer sample is not passing Enhanced Context to the target Lambda function,https://github.com/serverless/serverless/issues/4374,https://github.com/serverless/serverless/pull/4773,1,0,1,0,0,0,0,
+Validate dependancies are present before deploying,https://github.com/serverless/serverless/issues/4075,N.A,0,0,1,0,0,0,0,Relayed to closed unfinished issues.
+README refers to non-existent issue labels,https://github.com/serverless/serverless/issues/3726,https://github.com/serverless/serverless/pull/3727,0,0,0,0,1,0,0,
+Avoid Listing Providers (e.g. AWS-only),https://github.com/serverless/serverless/issues/3512,https://github.com/serverless/serverless/pull/3787,1,0,0,0,1,0,0,
+Add more documentation about --verbose mode for info plugin,https://github.com/serverless/serverless/issues/3485,https://github.com/serverless/serverless/pull/3416,0,0,1,0,0,0,0,"Multiple PRs, took first listed PR."
+Wrong cloud formation version in IAM docs,https://github.com/serverless/serverless/issues/3450,https://github.com/serverless/serverless/pull/3468,1,0,0,0,1,0,0,
+build.sh uses `apt-get` in C# project on OSX,https://github.com/serverless/serverless/issues/3271,https://github.com/serverless/serverless/pull/3897,0,1,0,0,0,0,0,
+"Cannot use "" in body for scheduling",https://github.com/serverless/serverless/issues/3069,https://github.com/serverless/serverless/pull/5268,0,1,0,0,0,0,0,
+add C# service template,https://github.com/serverless/serverless/issues/2858,https://github.com/serverless/serverless/pull/2863,1,0,0,1,0,0,0,
+Add S3 integration tests,https://github.com/serverless/serverless/issues/2733,https://github.com/serverless/serverless/pull/2760,0,0,0,0,0,1,0,
+getEventInFunction unexpected implementation,https://github.com/serverless/serverless/issues/2607,https://github.com/serverless/serverless/pull/3476,0,1,0,0,0,0,0,
+Wrong error message when deploying single function,https://github.com/serverless/serverless/issues/2485,N.A,0,1,0,0,0,0,0,Marked as stale.
+Better displaying for command help,https://github.com/serverless/serverless/issues/2241,N.A,0,0,1,0,0,0,0,Closed without direct fix.
+Some tests return a reject but won't break the overall tests,https://github.com/serverless/serverless/issues/2115,https://github.com/serverless/serverless/pull/3000,0,0,1,0,0,1,0,
+Do not load plulgins that do not match provider?,https://github.com/serverless/serverless/issues/2084,https://github.com/serverless/serverless/pull/2133,0,0,0,0,0,0,1,
+Move package to per-function,https://github.com/serverless/serverless/issues/1777,https://github.com/serverless/serverless/pull/1917,0,0,1,0,0,0,0,
+Options passed via shortcuts don't seem to be available during variable population,https://github.com/serverless/serverless/issues/1709,N.A,0,1,0,0,0,0,0,Closed without direct fix.
+batch-open-issues` opens tabs in the wrong window,https://github.com/sindresorhus/refined-github/issues/2786,N.A,0,1,0,0,0,0,0,
+"Issue count appears as ""NaN"" for repositories with more than 5,000 open issues",https://github.com/sindresorhus/refined-github/issues/2780,https://github.com/sindresorhus/refined-github/pull/2813,0,1,0,0,0,0,0,
+Extra padding on CI status indicator,https://github.com/sindresorhus/refined-github/issues/2762,https://github.com/sindresorhus/refined-github/pull/2833,0,1,0,0,0,0,0,
+Allow clearing the extension storage,https://github.com/sindresorhus/refined-github/issues/2669,https://github.com/jerone/refined-github/pull/186,0,0,0,1,0,0,0,
+`user-local-time` shows empty time for people with no commits,https://github.com/sindresorhus/refined-github/issues/2612,N.A,0,0,0,0,0,0,1,
+Expand all Assets on Releases pages,https://github.com/sindresorhus/refined-github/issues/2575,N.A,0,0,1,0,0,0,0,Not implemented.
+Merge/match `highlight-own-issues-and-prs` and `highlight-collaborators-in-lists` ,https://github.com/sindresorhus/refined-github/issues/2419,https://github.com/sindresorhus/refined-github/pull/2442,0,0,1,0,0,0,0,
+`clean-discussion-sidebar` isn't re-applied after changes to the sidebar,https://github.com/sindresorhus/refined-github/issues/2333,https://github.com/sindresorhus/refined-github/pull/2344,0,1,0,0,0,0,1,
+"Restore ""Sticky Issues Header"" feature",https://github.com/sindresorhus/refined-github/issues/2280,https://github.com/sindresorhus/refined-github/pull/2295,0,1,0,0,0,0,0,
+"""View file"" in PRs should point to the branch, not the commit",https://github.com/sindresorhus/refined-github/issues/2260,https://github.com/sindresorhus/refined-github/pull/2529,0,0,1,0,0,0,0,
+Extend `format-discussion-titles` to issue sticky header #321,https://github.com/sindresorhus/refined-github/issues/2255,https://github.com/sindresorhus/refined-github/pull/2256,0,0,1,0,0,0,0,
+"""View blame prior to this change"" link should include the current line",https://github.com/sindresorhus/refined-github/issues/2175,https://github.com/sindresorhus/refined-github/pull/2481,0,0,1,0,0,0,0,
+Master branch links are broken for branches with a `/` in the branch name,https://github.com/sindresorhus/refined-github/issues/2049,https://github.com/sindresorhus/refined-github/pull/2226,0,1,0,0,0,0,1,
+"""close and comment"" button float left, Easy to make a mistake",https://github.com/sindresorhus/refined-github/issues/1915,N.A,0,1,0,0,0,0,0,Not implemented.
+Options modal dialog blinking/glitching in Chrome,https://github.com/sindresorhus/refined-github/issues/1847,https://github.com/stackriot/refined-github/pull/182,0,1,0,0,0,0,0,PR incorporate multiple items.
+Remove the `delete-fork-link` feature (Implemented by GitHub natively),https://github.com/sindresorhus/refined-github/issues/1786,https://github.com/sindresorhus/refined-github/pull/1791,1,0,0,0,0,0,1,
+Highlight issues or PRs that belong to the use,https://github.com/sindresorhus/refined-github/issues/1403,https://github.com/sindresorhus/refined-github/pull/1782,0,0,0,1,0,0,0,
+Embedded Gists destroy content,https://github.com/sindresorhus/refined-github/issues/1263,https://github.com/sindresorhus/refined-github/pull/1279,0,0,1,0,0,0,0,
+Add shortcut to Draft a new release on releases page,https://github.com/sindresorhus/refined-github/issues/1254,https://github.com/sindresorhus/refined-github/pull/1255,0,0,1,0,0,0,0,
+"Button to switch base and head in ""Compare"" page",https://github.com/sindresorhus/refined-github/issues/1217,https://github.com/sindresorhus/refined-github/pull/1360,0,0,1,0,0,0,0,
+Hide hovertext 'Open in Github Dekstop',https://github.com/sindresorhus/refined-github/issues/1212,https://github.com/sindresorhus/refined-github/pull/1234,1,1,1,0,0,0,0,
+Hide inactive deployments,https://github.com/sindresorhus/refined-github/issues/1144,https://github.com/sindresorhus/refined-github/pull/1149,1,0,1,0,1,0,0,
+Customizable monospace font?,https://github.com/sindresorhus/refined-github/issues/1094,https://github.com/sindresorhus/refined-github/pull/1181,1,0,1,0,0,0,1,
+Keyboard shortcut for submitting the review changes on a PR,https://github.com/sindresorhus/refined-github/issues/1069,N.A,0,0,1,0,0,0,0,
+Link to commit page from PR commit,https://github.com/sindresorhus/refined-github/issues/1053,https://github.com/sindresorhus/refined-github/pull/1429,1,0,1,0,0,0,0,
+Add a button to quickly approve the PR,https://github.com/sindresorhus/refined-github/issues/883,https://github.com/sindresorhus/refined-github/pull/885,0,0,0,1,0,0,0,
+Make issue sidebar sticky,https://github.com/sindresorhus/refined-github/issues/842,https://github.com/sindresorhus/refined-github/pull/964,0,0,1,0,0,0,0,
+Inject Releases and Compare tab before Settings tab,https://github.com/sindresorhus/refined-github/issues/431,https://github.com/sindresorhus/refined-github/pull/432,0,0,1,0,0,0,1,
+"The review ""red X"" icon is overly scary",https://github.com/sindresorhus/refined-github/issues/310,N.A,0,0,0,0,0,0,1,Not implemented.
+Remove Projects (0) from repo navigation,https://github.com/sindresorhus/refined-github/issues/309,https://github.com/sindresorhus/refined-github/pull/411,0,0,1,0,0,0,1,
+Bug: Excessive cpu usage of the page when react-devtools is active,https://github.com/facebook/react/issues/17935,N.A,0,1,0,0,0,0,0,Appears to be ongoing.
+Adding `.displayName` documentation to Contexts,https://github.com/facebook/react/issues/16851,https://github.com/reactjs/reactjs.org/pull/2367,1,0,0,0,1,0,0,
+DevTools: Long interaction names cannot be seen,https://github.com/facebook/react/issues/16736,https://github.com/facebook/react/pull/16767,1,0,1,0,0,0,0,
+DevTools: Overlay stays after devtools are closed,https://github.com/facebook/react/issues/16485,N.A,0,1,0,0,0,0,0,Unable to reproduce.
+Dev tools does not respect zoom level on firefox OSX,https://github.com/facebook/react/issues/16413,N.A,0,1,0,0,0,0,0,Closed without fix.
+react-hooks linter fails with unusual for loop,https://github.com/facebook/react/issues/14362,https://github.com/facebook/react/pull/14661,1,1,0,0,0,0,0,
+IE9: Unable to call apply on console.error when encountering an unknown tag,https://github.com/facebook/react/issues/13610,https://github.com/facebook/react/pull/13620,1,1,0,0,0,0,0,"Multiple PRs, took first one for data."
+Fragments in IE11 rendered as strange elements,https://github.com/facebook/react/issues/13414,https://github.com/WordPress/gutenberg/pull/12096,0,1,0,0,0,0,1,
+Improve warning message for failure to initialize `state` when using `getDerivedStateFromProps` ,https://github.com/facebook/react/issues/12670,https://github.com/facebook/react/pull/13317,1,0,1,0,0,0,0,
+Unexpected warning when hydrating with portal and SSR,https://github.com/facebook/react/issues/12615,https://github.com/facebook/react/pull/13614,0,1,0,0,0,0,0,"Multiple PRs, took first one for data."
+dangerouslySetInnerHTML will wrap on SSR but not client and both are editing invalid HTML,https://github.com/facebook/react/issues/12415,N.A,0,1,0,0,0,0,0,Closed without fix.
+Remove selectionStart polyfill?,https://github.com/facebook/react/issues/11806,N.A,0,1,0,0,0,0,0,Closed without fix.
+Error Rendering Inputs in Separate Window using Portals,https://github.com/facebook/react/issues/11768,https://github.com/facebook/react/pull/11870,0,1,0,0,0,0,1,"Multiple PRs, took first one for data."
+Children of option tags flattened when select has value,https://github.com/facebook/react/issues/11602,https://github.com/facebook/react/pull/11623,0,0,0,0,0,1,0,"Multiple PRs, took first one for data."
+Ignore <noscript> content on the client and don't warn about mismatches,https://github.com/facebook/react/issues/11423,https://github.com/facebook/react/pull/13537,1,0,1,0,0,0,1,
+Nicer Formatting of SSR Validation,https://github.com/facebook/react/issues/10085,https://github.com/facebook/react/pull/12063,0,0,1,0,0,0,0,
+False positive getDefaultProps warning when mixing development and production versions,https://github.com/facebook/react/issues/9999,https://github.com/facebook/react/pull/12064,1,1,0,0,0,0,0,
+yarn prettier runs a too long command for OS windows,https://github.com/facebook/react/issues/9500,https://github.com/facebook/react/pull/9523,0,1,0,0,0,0,0,"Multiple PRs, took first one for data."
+Defining `default_scope` class method doesn't work,https://github.com/rails/rails/issues/38397,N.A,0,1,0,0,0,0,0,"False report, bug didn't exist."
+Add ActionCable::Channel.stream_or_reject_for,https://github.com/rails/rails/issues/38371,https://github.com/rails/rails/pull/38375,0,0,1,0,0,0,0,
+"Missing app/assets/images directory causes ""We're sorry, but something went wrong""",https://github.com/rails/rails/issues/38222,https://github.com/rails/rails/pull/38249,1,0,0,0,0,0,1,"Multiple PRs, took first one for data."
+ActiveRecord::StatementInvalid: SQLite3::SQLException: incomplete input,https://github.com/rails/rails/issues/38066,N.A,0,1,0,0,0,0,0,Cannot be reproduced.
+Associations guide incorrectly states belongs_to as one-to-one relationship,https://github.com/rails/rails/issues/37899,https://github.com/rails/rails/pull/37905,0,0,0,0,1,0,0,"Multiple PRs, took first one for data."
+db:schema:dump generates different code between development and test environments,https://github.com/rails/rails/issues/37706,https://github.com/rails/rails/pull/37726,1,1,0,0,0,0,0,"Multiple PRs, took first one for data."
+ActiveStorage changes in nested model not detected during update,https://github.com/rails/rails/issues/37701,https://github.com/rails/rails/pull/37786,1,1,0,0,0,0,0,
+Make assert_changes etc. use minitest's diffing.,https://github.com/rails/rails/issues/37507,https://github.com/rails/rails/pull/37588,1,0,0,0,0,1,0,"Multiple PRs, took first one for data."
+Fix random test failure in Active Record i18n test,https://github.com/rails/rails/issues/35594,N.A,0,0,0,0,0,1,0,Cannot be reproduced.
+ActionController::ParamsWrapper#process_action catches too many errors,https://github.com/rails/rails/issues/34811,https://github.com/rails/rails/pull/34883,0,0,0,0,0,0,1,"Multiple PRs, took first one for data."
+Add option to disable scopes in `ActiveRecord.enum`,https://github.com/rails/rails/issues/34599,https://github.com/rails/rails/pull/34605,1,0,0,1,0,0,0,
+"ActionDispatch::IntegrationTest should include ActiveJob::TestHelper, ActionMailer::TestHelper by default",https://github.com/rails/rails/issues/33838,https://github.com/rails/rails/pull/33849,0,0,0,0,0,1,0,
+"Unwanted query parameter ""null="" added to the url in a get request test using as: :json",https://github.com/rails/rails/issues/33388,https://github.com/rails/rails/pull/33392,0,0,1,0,0,0,1,
+`CollectionAssociation#size` should use `@association_ids` if available,https://github.com/rails/rails/issues/32569,https://github.com/rails/rails/pull/32617,1,1,0,0,0,0,1,"Multiple PRs, took first Rails PR for data."
+Summer time,https://github.com/rails/rails/issues/32550,https://github.com/rails/rails/pull/32623,1,1,0,0,0,0,0,"Multiple PRs, took first one for data."
+Errno::ENAMETOOLONG on system test screenshot,https://github.com/rails/rails/issues/32346,https://github.com/rails/rails/pull/36000,1,0,1,0,0,0,0,
+ApplicationController.renderer.defaults gets unset/reloaded in development,https://github.com/rails/rails/issues/30049,https://github.com/rails/rails/pull/30115,1,1,0,0,0,0,0,
+Reformat implicit render exception,https://github.com/rails/rails/issues/29280,https://github.com/rails/rails/pull/29286,1,0,0,1,0,0,1,"Multiple PRs, took first one for data."
+rails plugin new rails51test --mountable --webpack=react stops after basic directory creation,https://github.com/rails/rails/issues/29116,https://github.com/rails/rails/pull/29238,1,0,0,0,0,0,1,
+#action_name is not in the docs,https://github.com/rails/rails/issues/29084,https://github.com/rails/rails/pull/29134,1,0,0,0,1,0,0,
+Improve API documentation to include more details about `render`,https://github.com/rails/rails/issues/28484,https://github.com/rails/rails/pull/28784,1,0,0,0,1,0,0,"Multiple PRs, took first one for data."
+test_unit integration tests generator is missing the namespace wrapper ,https://github.com/rails/rails/issues/28011,https://github.com/rails/rails/pull/28013,0,0,1,0,0,0,0,
+Fix lazy load hooks documentation.,https://github.com/rails/rails/issues/25784,https://github.com/rails/rails/pull/25790,0,0,0,0,0,0,1,"Multiple PRs, took first one for data."
+Update Active Job guide with ApplicationJob instead of ActiveJob::Base,https://github.com/rails/rails/issues/25377,https://github.com/rails/rails/pull/25378,1,0,0,0,0,0,1,
+Drop jQuery as a dependency,https://github.com/rails/rails/issues/25208,https://github.com/rails/jquery-ujs/pull/474,1,0,0,1,0,0,1,"Multiple PRs, took first one for data."
+Bug with namespaced ActiveRecord models on 4.1.x (PostgreSQL),https://github.com/rails/rails/issues/15811,https://github.com/rails/rails/pull/30778,1,0,1,0,0,0,0,"Multiple PRs, took first one for data."
+[jit] Spurious error when type comments are found in the body of a function.,https://github.com/pytorch/pytorch/issues/30477,https://github.com/pytorch/pytorch/pull/30590,1,1,1,0,0,0,0,
+docs] save_for_backward docs missing,https://github.com/pytorch/pytorch/issues/27365,https://github.com/pytorch/pytorch/pull/28643,0,0,0,0,1,0,0,
+[Contributor Welcome] Implement C++ API version of torch.nn.MultiMarginLoss,https://github.com/pytorch/pytorch/issues/27198,https://github.com/pytorch/pytorch/pull/27424,1,0,0,1,0,0,0,
+[Contributor Welcome] Implement C++ API version of torch.nn.TripletMarginLoss,https://github.com/pytorch/pytorch/issues/27197,https://github.com/pytorch/pytorch/pull/27213,1,0,0,1,0,0,0,
+[Contributor Welcome] Implement C++ API version of torch.nn.functional.affine_grid,https://github.com/pytorch/pytorch/issues/27196,https://github.com/pytorch/pytorch/pull/27263,0,0,0,1,0,0,0,
+[Contributor Welcome] Implement C++ API version of torch.nn.functional.pdist,https://github.com/pytorch/pytorch/issues/27082,https://github.com/pytorch/pytorch/pull/27122,0,0,0,1,0,0,0,
+Add C++ t[Contributor Welcome] Implement C++ API version of torch.nn.functional.pdistorch::nn::functional::pdist,https://github.com/pytorch/pytorch/issues/27078,https://github.com/pytorch/pytorch/pull/27122,0,0,0,1,0,0,0,
+[Contributor Welcome] Implement C++ API version of torch.nn.functional.normalize,https://github.com/pytorch/pytorch/issues/27048,https://github.com/pytorch/pytorch/pull/27280,1,0,0,1,0,0,0,
+Fuse operators inside of the (CPU) glu operator. ,https://github.com/pytorch/pytorch/issues/26418,https://github.com/pytorch/pytorch/pull/26410,0,0,0,1,0,0,0,
+LogCumsumExp,https://github.com/pytorch/pytorch/issues/26411,https://github.com/pytorch/pytorch/pull/32876,0,0,0,1,0,0,0,
+Python/C++ API Parity: torch.nn modules and functional ,https://github.com/pytorch/pytorch/issues/25883,https://github.com/pytorch/pytorch/pull/25981,0,0,0,1,0,0,0,"Multiple PRs, took first one for data."
+[jit] String default args get printed as ascii values,https://github.com/pytorch/pytorch/issues/25804,https://github.com/pytorch/pytorch/pull/27088,1,0,0,0,0,0,1,
+[jit] Missing source highlight error,https://github.com/pytorch/pytorch/issues/25801,https://github.com/pytorch/pytorch/pull/27195,1,0,1,0,0,0,0,
+torch.Tensor.repeat() fails for 0 repeats,https://github.com/pytorch/pytorch/issues/23603,https://github.com/pytorch/pytorch/pull/23766,1,1,0,0,0,0,0,
+[docs] torch.lerp typo,https://github.com/pytorch/pytorch/issues/22697,https://github.com/pytorch/pytorch/pull/23477,1,0,0,0,1,0,0,
+Remove unpack() in torch/csrc/nn/type_checks.h and its caller functions in the codebase,https://github.com/pytorch/pytorch/issues/20704,https://github.com/pytorch/pytorch/pull/17072,0,0,0,0,0,0,1,"Multiple PRs, took first one for data."
+[FR] support base in logspace,https://github.com/pytorch/pytorch/issues/19220,https://github.com/pytorch/pytorch/pull/19542,1,0,0,1,0,0,0,
+[FR] make torch.nn.utils.convert_sync_batchnorm a classmethod of SyncBatchNorm,https://github.com/pytorch/pytorch/issues/18382,https://github.com/pytorch/pytorch/pull/18787,0,0,0,0,0,0,1,
+new_zeros is not traced correctly,https://github.com/pytorch/pytorch/issues/16663,https://github.com/facebookresearch/pytext/pull/289,0,1,1,0,0,0,0,
+RandomSampler length,https://github.com/pytorch/pytorch/issues/15537,https://github.com/pytorch/pytorch/pull/15991,1,1,0,0,0,0,0,
+inspect.getargspec() is deprecated in Python 3,https://github.com/pytorch/pytorch/issues/15344,https://github.com/pytorch/pytorch/pull/15396,1,0,0,0,0,0,1,Organizational.
+[collect_env] run doesn't support non-ascii characters in output,https://github.com/pytorch/pytorch/issues/15214,https://github.com/pytorch/pytorch/pull/15354,1,1,0,0,0,0,0,"Multiple PRs, took first one for data."
+torch.onnx.export is missing documentation on the docs page,https://github.com/pytorch/pytorch/issues/14698,https://github.com/pytorch/pytorch/pull/22938,0,0,0,0,1,0,0,
+Add Tensor.nbytes() / `Tensor.itemsize()`,https://github.com/pytorch/pytorch/issues/12728,https://github.com/pytorch/pytorch/pull/17776,0,0,1,0,0,0,0,"Multiple PRs, took first one for data."
+Unexpected Behavior when Pointwise Operations Write to Expanded Tensors,https://github.com/pytorch/pytorch/issues/10756,N.A,0,1,0,0,0,0,0,Appears to be stale.
+"Different results when using function argmax or argmin for data type "".cuda()"" and "".cpu()""",https://github.com/pytorch/pytorch/issues/10370,N.A,0,1,0,0,0,0,0,
+[doc] functionalities not documented,https://github.com/pytorch/pytorch/issues/9886,https://github.com/pytorch/pytorch/pull/22842,0,0,0,0,1,0,0,"Multiple PRs, took first one for data."
+Indexing with list of booleans differs from numpy,https://github.com/pytorch/pytorch/issues/6773,https://github.com/pytorch/pytorch/pull/8920,0,1,0,0,0,0,0,
+Support `clamp()` with tensor min and max,https://github.com/pytorch/pytorch/issues/2793,https://github.com/pytorch/pytorch/pull/32587,1,0,0,1,0,0,0,
+Remove ZSTD,https://github.com/OpenMined/PySyft/issues/3134,https://github.com/OpenMined/PySyft/pull/3150,0,0,0,0,0,0,1,
+Translate our tutorials to Simplified Chinese / Chiniese,https://github.com/OpenMined/PySyft/issues/2778,https://github.com/OpenMined/PySyft/pull/3103,1,0,0,0,1,0,0,
+"Serde is potentially simplifying information twice, creating a bad nested structure",https://github.com/OpenMined/PySyft/issues/2424,https://github.com/OpenMined/PySyft/pull/2614,0,1,0,0,0,0,0,
+Hack PySyft,https://github.com/OpenMined/PySyft/issues/2421,N.A,0,0,0,0,0,1,0,Still ongoing.
+Function hooking bug in nn.functional (F.max_pool2d),https://github.com/OpenMined/PySyft/issues/1878,https://github.com/OpenMined/PySyft/pull/1894,0,1,0,0,0,0,0,
+Test hook.py should be modified to not use class structure,https://github.com/OpenMined/PySyft/issues/1835,https://github.com/OpenMined/PySyft/pull/1841,0,0,0,0,0,1,0,"Multiple PRs, took first one for data."
+Add Logo and Color Scheme to Documentation,https://github.com/OpenMined/PySyft/issues/1418,https://github.com/OpenMined/PySyft/pull/1427,1,0,0,0,1,0,0,
+Implement the inline Unfold function for IntTensor on the CPU,https://github.com/OpenMined/PySyft/issues/1267,https://github.com/OpenMined/UnityWorker/pull/430,0,0,1,0,0,0,0,
+Implement the Trunc function for IntTensor on the CPU,https://github.com/OpenMined/PySyft/issues/1262,N.A,0,0,1,0,0,0,0,"Not done, closed."
+Implement the Transpose function for IntTensor on the CPU,https://github.com/OpenMined/PySyft/issues/1250,https://github.com/OpenMined/PySyft/pull/1295,1,0,1,0,0,0,0,
+Implement the Trace function for IntTensor on the CPU ,https://github.com/OpenMined/PySyft/issues/1246,https://github.com/OpenMined/PySyft/pull/1280,1,0,1,0,0,0,0,
+Implement the inline Tolist function for IntTensor on the CPU,https://github.com/OpenMined/PySyft/issues/1239,N.A,0,0,1,0,0,0,0,"Closed, seems to be duplicated."
+Implement the inline Std function for IntTensor on the CPU,https://github.com/OpenMined/PySyft/issues/1207,N.A,0,0,1,0,0,0,0,Closed without reason or explanation.
+Implement the inline Reciprocal function for IntTensor on the CPU,https://github.com/OpenMined/PySyft/issues/1147,https://github.com/OpenMined/UnityWorker/pull/359,0,0,1,0,0,0,0,
+Implement the inline Pstrf function for IntTensor on the CPU,https://github.com/OpenMined/PySyft/issues/1127,N.A,0,0,1,0,0,0,0,Closed without reason or explanation.
+Implement the Nonzero function for IntTensor on the CPU,https://github.com/OpenMined/PySyft/issues/1086,N.A,0,0,1,0,0,0,0,Closed without reason or explanation.
+Implement the inline Nelement function for IntTensor on the CPU,https://github.com/OpenMined/PySyft/issues/1083,N.A,0,0,1,0,0,0,0,Closed without reason or explanation.
+Implement the Ne function for IntTensor on the CPU,https://github.com/OpenMined/PySyft/issues/1071,N.A,0,0,1,0,0,0,0,Closed without reason or explanation.
+Implement the Index_copy function for IntTensor on the CPU,https://github.com/OpenMined/PySyft/issues/994,N.A,0,0,1,0,0,0,0,Closed without reason or explanation.
+Implement the inline Gt function for IntTensor on the CPU,https://github.com/OpenMined/PySyft/issues/979,N.A,0,0,1,0,0,0,0,Closed without reason or explanation.
+Implement the inline Eig function for IntTensor on the CPU,https://github.com/OpenMined/PySyft/issues/923,N.A,0,0,1,0,0,0,0,Closed without reason or explanation.
+Implement the inline Baddbm function for IntTensor on the CPU,https://github.com/OpenMined/PySyft/issues/871,N.A,0,0,1,0,0,0,0,Closed without reason or explanation.
+Implement the inline Atan2 function for IntTensor on the CPU,https://github.com/OpenMined/PySyft/issues/867,N.A,0,0,1,0,0,0,0,Closed without reason or explanation.
+Implement the inline Numel function for IntTensor on the CPU,https://github.com/OpenMined/PySyft/issues/811,N.A,0,0,1,0,0,0,0,Closed without reason or explanation.
+Implement the inline Clone function for IntTensor on the CPU,https://github.com/OpenMined/PySyft/issues/775,N.A,0,0,1,0,0,0,0,Closed without reason or explanation.
+Implement tan Functionality in FloatTensor with CPU/GPU Backend Support,https://github.com/OpenMined/PySyft/issues/605,https://github.com/OpenMined/PySyft/pull/668,0,0,1,0,0,0,0,
+Implement inline squeeze Functionality in FloatTensor with CPU/GPU Backend Support,https://github.com/OpenMined/PySyft/issues/592,https://github.com/OpenMined/UnityWorker/pull/153,0,0,1,0,0,0,0,
+Implement sign Functionality in FloatTensor with CPU/GPU Backend Support,https://github.com/OpenMined/PySyft/issues/580,https://github.com/OpenMined/PySyft/pull/673,1,0,1,0,0,0,0,
+Implement inline addmv Functionality in FloatTensor with CPU/GPU Backend Support,https://github.com/OpenMined/PySyft/issues/423,https://github.com/OpenMined/PySyft/pull/674,0,0,1,0,0,0,0,
+Implement inline add Functionality in FloatTensor with CPU/GPU Backend Support ,https://github.com/OpenMined/PySyft/issues/414,https://github.com/OpenMined/PySyft/pull/635,1,0,1,0,0,0,0,"Multiple PRs, took first one for data."
+Adjust mouse location after crossing monitor boundry,https://github.com/microsoft/PowerToys/issues/1226,N.A,0,0,1,0,0,0,0,Still Open.
+Lock the numeric keypad to always and forever use numbers ,https://github.com/microsoft/PowerToys/issues/1196,N.A,0,0,0,1,0,0,0,Still Open.
+Context menu customization,https://github.com/microsoft/PowerToys/issues/1173,N.A,0,0,1,0,0,0,0,Still Open.
+FancyZones should not zone parent window based on children,https://github.com/microsoft/PowerToys/issues/968,N.A,0,1,0,0,0,0,0,"Closed, not implemented."
+Esc doesn't dismiss the FancyZones editor,https://github.com/microsoft/PowerToys/issues/936,https://github.com/microsoft/PowerToys/commit/e2814553ed47eb694356dcecacfc919e2d23d10a,0,1,0,0,0,0,0,Duplicate issue.
+Opacity for fancyzone areas,https://github.com/microsoft/PowerToys/issues/631,https://github.com/microsoft/PowerToys/pull/1008,0,0,1,0,0,0,0,
+[Feature]: Make page.goto work with URL objects ,https://github.com/microsoft/playwright/issues/1006,https://github.com/microsoft/playwright/pull/1241,1,0,1,0,0,0,0,According to maitainers this was 'not a good first issue/bug.'
+[Feature] - Delete a certain cookie instead of clear all cookies,https://github.com/microsoft/playwright/issues/742,N.A,0,0,1,0,0,0,0,
+Add real-world examples,https://github.com/microsoft/playwright/issues/660,N.A,0,0,0,0,1,0,0,
+Missing a few device defs for landscape variants,https://github.com/microsoft/playwright/issues/606,https://github.com/microsoft/playwright/pull/708,1,1,0,0,0,0,0,
+Does #28827 also apply to applymap?,https://github.com/pandas-dev/pandas/issues/31620,https://github.com/pandas-dev/pandas/pull/31695,0,0,0,0,1,0,0,
+Aggregation fails when grouping on more than one key and the column to aggregate is a tz-aware timestamp series,https://github.com/pandas-dev/pandas/issues/29833,https://github.com/pandas-dev/pandas/pull/27921,0,1,0,0,0,0,0,
+TST: make subdirs in pandas/tests/io/data,https://github.com/pandas-dev/pandas/issues/29439,https://github.com/pandas-dev/pandas/pull/25427,1,0,1,0,0,0,0,"Multiple PRs, took first one for data."
+DOC: fix code-block in the reshaping docs,https://github.com/pandas-dev/pandas/issues/28819,https://github.com/pandas-dev/pandas/pull/28838,0,0,0,0,1,0,0,"Multiple PRs, took first one for data."
+Fix PR02 issues in docstrings,https://github.com/pandas-dev/pandas/issues/27976,https://github.com/pandas-dev/pandas/pull/28340,0,0,0,0,1,0,0,"Multiple PRs, took first one for data."
+`Dataframe.sample()` isn't validating `frac`,https://github.com/pandas-dev/pandas/issues/27451,https://github.com/pandas-dev/pandas/pull/29444,1,0,0,0,1,0,0,"Multiple PRs, took first one for data."
+read_excel and ExcelFile engine conflict,https://github.com/pandas-dev/pandas/issues/26566,https://github.com/pandas-dev/pandas/pull/26736,0,1,0,0,0,0,0,
+DEPR: deprecate Series/DataFrame.to_dense/to_sparse,https://github.com/pandas-dev/pandas/issues/26557,https://github.com/pandas-dev/pandas/pull/26684,0,0,0,0,0,0,1,
+BUG: concat(Series[sparse]) raises ValueError,https://github.com/pandas-dev/pandas/issues/23557,https://github.com/pandas-dev/pandas/pull/30645,0,0,0,0,0,1,0,
+"DataFrame.rolling causes Kernel died, restart",https://github.com/pandas-dev/pandas/issues/22590,https://github.com/pandas-dev/pandas/pull/29392,0,0,0,0,0,1,0,
+"bug: merge_asof with tz-aware datetime ""by"" parameter raises",https://github.com/pandas-dev/pandas/issues/21184,https://github.com/pandas-dev/pandas/pull/24634,0,1,0,0,0,1,0,
+"ExcelFile.parse() and pd.read_xlsx() have different behavior for ""sheetname"" argument",https://github.com/pandas-dev/pandas/issues/20920,https://github.com/pandas-dev/pandas/pull/20938,1,0,0,0,0,0,1,
+np array indexer modified in iloc,https://github.com/pandas-dev/pandas/issues/20852,https://github.com/pandas-dev/pandas/pull/21867,1,1,0,0,0,0,0,"Multiple PRs, took first one for data."
+Move Wiki testing page to main docs?,https://github.com/pandas-dev/pandas/issues/20501,https://github.com/pandas-dev/pandas/pull/32170,1,0,0,0,1,0,0,
+Add CSS formating for deprecated parameters / methods,https://github.com/pandas-dev/pandas/issues/20349,https://github.com/pandas-dev/pandas/pull/20357,1,0,0,0,1,0,0,
+DOC: NumFOCUS link broken at http://pandas.pydata.org,https://github.com/pandas-dev/pandas/issues/19267,N.A,0,0,0,0,1,0,0,"Fixed without necessity of PR, website related."
+Make `DataFrame.pivot` accepts a list of column names as values,https://github.com/pandas-dev/pandas/issues/17160,https://github.com/pandas-dev/pandas/pull/17339,1,0,1,0,0,0,0,
+Inconsistent error raising in indexing,https://github.com/pandas-dev/pandas/issues/14525,https://github.com/pandas-dev/pandas/pull/29378,0,0,0,0,0,1,0,
+Pandas 0.18.1 groupby and resample with multilevel aggregation error,https://github.com/pandas-dev/pandas/issues/13964,N.A,0,1,0,0,0,0,0,Closed without fix.
+DOC: more documentation that pandas by-default aligns when setting,https://github.com/pandas-dev/pandas/issues/13950,https://github.com/pandas-dev/pandas/pull/15508,1,0,0,0,1,0,0,
+Fillna a categories series with another series breaks,https://github.com/pandas-dev/pandas/issues/13628,https://github.com/pandas-dev/pandas/pull/27933,1,0,0,0,0,1,0,
+printing multi-index dataframe with renamed index produces traceback,https://github.com/pandas-dev/pandas/issues/13000,https://github.com/pandas-dev/pandas/pull/30222,0,0,0,0,0,1,0,
+"BUG: not properly converting S1 in astype ,on PY3",https://github.com/pandas-dev/pandas/issues/12857,https://github.com/pandas-dev/pandas/pull/30327,0,1,0,0,0,0,0,
+TST: code coverage enhancements,https://github.com/pandas-dev/pandas/issues/12634,https://github.com/pandas-dev/pandas/pull/12721,0,0,0,0,0,0,1,"Multiple PRs, took first one for data."
+"ENH: calculate average absolute difference by mean, median or mode",https://github.com/pandas-dev/pandas/issues/11787,https://github.com/pandas-dev/pandas/pull/20024,0,0,1,0,0,0,1,"Multiple PRs, took first one for data."
+display.notebook_repr_html -> display.html.notebook,https://github.com/pandas-dev/pandas/issues/11784,https://github.com/pandas-dev/pandas/pull/20396,0,0,0,0,0,0,1,
+Interpreting passed slicers in using .loc(axis=1) |#AssertionError: Start slice bound is non-scalar,https://github.com/pandas-dev/pandas/issues/10586,https://github.com/pandas-dev/pandas/pull/30646,0,0,0,0,0,1,0,
+PERF: directly astype with numpy if series is already nansafe,https://github.com/pandas-dev/pandas/issues/8732,https://github.com/pandas-dev/pandas/pull/8971,0,0,0,0,0,0,1,
+API: Consistency in prefix / prefix_sep,https://github.com/pandas-dev/pandas/issues/8141,https://github.com/pandas-dev/pandas/pull/8140,0,0,0,0,0,0,1,
+ENH: Html table export: Add of other attributes,https://github.com/pandas-dev/pandas/issues/6488,https://github.com/pandas-dev/pandas/pull/7338,0,0,1,0,0,0,0,"Multiple PRs, took first one for data."
+Convert text selection to org-roam link,https://github.com/jethrokuan/org-roam/issues/127,https://github.com/jethrokuan/org-roam/pull/148,0,0,1,0,0,0,0,
+feature: org-roam-switch-buffer,https://github.com/jethrokuan/org-roam/issues/126,https://github.com/jethrokuan/org-roam/pull/138,1,0,1,0,0,0,0,
+Add org-roam-insert with downcased titles,https://github.com/jethrokuan/org-roam/issues/64,https://github.com/jethrokuan/org-roam/pull/110,0,0,1,0,0,0,0,
+module: incorrect relative path for dynamic import in REPL,https://github.com/nodejs/node/issues/30868,https://github.com/nodejs/node/commit/49fb529139ff4b43f472e24f2015482af82446b6,0,0,1,0,0,0,0,
+Better not found errors for ESM,https://github.com/nodejs/node/issues/30603,https://github.com/nodejs/node/pull/31906,0,0,1,0,0,0,0,
+fs: make rmdir() emfileWait handle ENFILE,https://github.com/nodejs/node/issues/30482,https://github.com/nodejs/node/pull/30499,0,0,1,0,0,0,0,
+Doctool may swallow errors due to unhandled async functions,https://github.com/nodejs/node/issues/30090,https://github.com/nodejs/node/pull/30106,1,0,0,0,1,0,0,
+doc: crypto.createDiffieHellmanGroup() not documented,https://github.com/nodejs/node/issues/28523,https://github.com/nodejs/node/pull/28585,1,0,0,0,1,0,0,
+Fix documentation for `childProcess.kill(signal)`: `signal` can be a number,https://github.com/nodejs/node/issues/27750,https://github.com/sindresorhus/execa/pull/208,1,0,0,0,1,0,0,"Multiple PRs, took first for data."
+"cleanup: reduce the number of `#include ""env.h""` and `#include ""env-inl.h""` in the code base",https://github.com/nodejs/node/issues/27531,https://github.com/nodejs/node/pull/32293,1,0,0,0,0,0,1,"Multiple PRs, took first for data."
+Need change in the read me file,https://github.com/nodejs/node/issues/24872,https://github.com/nodejs/node/pull/31266,1,0,0,0,1,0,0,
+module: createRequireFromPath documentation is incorrect,https://github.com/nodejs/node/issues/23710,https://github.com/nodejs/node/pull/24763,1,0,0,0,1,0,0,"Multiple PRs, took first for data."
+test: help annotate `test/parallel/test-util-log.js`,https://github.com/nodejs/node/issues/22472,https://github.com/nodejs/node/pull/22487,1,0,0,0,0,1,0,
+Documents about difference of inspect or --inspect and it's arguments,https://github.com/nodejs/node/issues/19066,https://github.com/nodejs/nodejs.org/pull/1578,1,0,1,0,0,0,0,
+`ecdh.setPublicKey` is actually useful and should be undeprecated,https://github.com/nodejs/node/issues/18977,https://github.com/nodejs/node/pull/19080,0,0,0,1,0,0,0,"Multiple PRs, took first for data."
+The behavior of Buffer#compare doesn't match its documentation,https://github.com/nodejs/node/issues/17618,https://github.com/nodejs/node/pull/17794,1,0,0,0,1,0,0,"Multiple PRs, took first for data."
+Document no-op console methods,https://github.com/nodejs/node/issues/16755,https://github.com/nodejs/node/pull/17004,1,0,0,0,1,0,0,"Multiple PRs, took first for data."
+meta: articles about PR communication,https://github.com/nodejs/node/issues/16359,https://github.com/nodejs/node/pull/17902,1,0,0,0,1,0,0,
+"http2,doc: links missing definition",https://github.com/nodejs/node/issues/14857,https://github.com/nodejs/node/pull/14239,0,0,0,1,0,0,0,"Multiple PRs, took first for data."
+module.paths is undocumented,https://github.com/nodejs/node/issues/14371,https://github.com/mochajs/mocha/pull/2659,1,0,0,1,0,0,0,"Multiple PRs, took first for data."
+"doc,vm: warn more prominently against executing untrusted code",https://github.com/nodejs/node/issues/11550,https://github.com/nodejs/node/pull/11557,1,0,0,0,1,0,0,
+readdirSync of drive letter lists items of cwd,https://github.com/nodejs/node/issues/9378,https://github.com/nodejs/node/pull/13330,0,0,0,0,1,0,0,
+Modify https.globalAgent doesn't effect,https://github.com/nodejs/node/issues/9057,https://github.com/nodejs/node/pull/11249,0,0,1,0,0,0,0,
+Debugging: name every function,https://github.com/nodejs/node/issues/8913,https://github.com/nodejs/node/pull/8993,1,0,0,1,0,0,0,"Multiple PRs, took first for data."
+Debugging: Stabilize hidden classes for improved heap snapshots,https://github.com/nodejs/node/issues/8912,https://github.com/nodejs/node/pull/9116,1,0,0,0,0,0,1,
+net: `_connectionKey` given wrong value for large port,https://github.com/nodejs/node/issues/5727,https://github.com/nodejs/node/pull/5732,0,0,1,0,0,0,0,
+readline documentation: event 'line' section wrongly restricts EOL to '\n' only,https://github.com/nodejs/node/issues/4916,https://github.com/nodejs/node/pull/4927,0,0,0,0,1,0,0,
+"build,windows: build and test add-ons on CI",https://github.com/nodejs/node/issues/2537,https://github.com/nodejs/node/pull/5886,1,0,0,0,0,1,0,
+http: improving expectation handling,https://github.com/nodejs/node/issues/2403,https://github.com/nodejs/node/pull/4501,1,0,1,0,0,0,0,
+zlib: check callback is function,https://github.com/nodejs/node/issues/2397,https://github.com/nodejs/node/pull/2596,1,0,0,0,0,0,1,
+Non-BMP variable names don't work from the REPL,https://github.com/nodejs/node/issues/2371,https://github.com/nodejs/node/pull/5953,1,1,0,0,0,0,0,
+fs: expose scatter/gather syscalls writev() and readv(),https://github.com/nodejs/node/issues/2298,https://github.com/nodejs/node/pull/25925,1,0,0,1,0,0,0,
+fs.readFile with encoding as 2nd argument is not documented,https://github.com/nodejs/node/issues/1797,https://github.com/nodejs/node/pull/1806,0,0,0,0,1,0,0,
+Constantly and automatically inspect for vulnerable dependencies,https://github.com/goldbergyoni/nodebestpractices/issues/231,N.A,0,0,0,0,0,1,0,"Not implemented, closed without reason."
+[lion-radio-group] can't get keyboard focus when untouched/not prefilled,https://github.com/ing-bank/lion/issues/569,N.A,0,1,0,0,0,0,0,
+[button] executes regexp on each render,https://github.com/ing-bank/lion/issues/546,https://github.com/ing-bank/lion/pull/550,1,1,0,0,0,0,1,
+[storybook] Font usage not aligned,https://github.com/ing-bank/lion/issues/524,N.A,0,1,0,0,0,0,0,
+[localize] formatNumber for en-AU is broken with currency sign,https://github.com/ing-bank/lion/issues/432,https://github.com/ing-bank/lion/pull/619,1,1,0,0,0,0,0,
+[lion-calendar] Prevent default behavior on keyboard interaction,https://github.com/ing-bank/lion/issues/423,https://github.com/ing-bank/lion/pull/440,0,1,0,0,0,0,0,
+[LionTextarea] dose not support readonly attribute,https://github.com/ing-bank/lion/issues/333,https://github.com/ing-bank/lion/pull/348,0,1,0,0,0,0,0,
+lion/validators.js isNumberValidator dose not use factoryParams,https://github.com/ing-bank/lion/issues/329,https://github.com/ing-bank/lion/pull/334,1,1,0,0,0,0,0,
+[storybook] Enable A11Y addon,https://github.com/ing-bank/lion/issues/298,https://github.com/ing-bank/lion/pull/289,0,0,0,1,0,0,0,
+[localize] date formatting forced,https://github.com/ing-bank/lion/issues/296,https://github.com/ing-bank/lion/pull/321,1,1,0,0,0,1,0,"Offloaded to another pull request, took that PR's data."
+Listener 'all-forms-open-for-registration' is never removed,https://github.com/ing-bank/lion/issues/283,https://github.com/ing-bank/lion/pull/349,0,0,0,0,0,0,1,
+[select-rich] Shows incorrect option as selected when new option is added,https://github.com/ing-bank/lion/issues/265,https://github.com/ing-bank/lion/pull/339,1,1,0,0,0,0,0,
+[field] Feedback slots lack aria-live,https://github.com/ing-bank/lion/issues/190,https://github.com/ing-bank/lion/pull/301,0,0,1,0,0,0,0,
+[icon] throws when svg is null,https://github.com/ing-bank/lion/issues/185,https://github.com/ing-bank/lion/pull/276,1,1,0,0,0,0,0,
+[textarea] max-rows allows more rows than it should,https://github.com/ing-bank/lion/issues/184,https://github.com/ing-bank/lion/pull/189,1,0,1,0,0,0,1,
+[input-email]/[input-iban] Demo's lack labels,https://github.com/ing-bank/lion/issues/169,https://github.com/ing-bank/lion/pull/299,0,0,1,0,0,0,0,
+add Typescript definitions,https://github.com/ing-bank/lion/issues/82,N.A,0,0,0,1,0,0,0,Deemed as not interesting based on votes.
+[core] export unsafeCSS from lit-element,https://github.com/ing-bank/lion/issues/6,https://github.com/ing-bank/lion/pull/8,0,0,0,0,0,0,1,
+Add a tutorial to install on a Raspberry Pi,https://github.com/leon-ai/leon/issues/37,https://github.com/leon-ai/docs.getleon.ai/pull/6,1,0,0,0,1,0,0,
+Time module,https://github.com/leon-ai/leon/issues/30,https://github.com/leon-ai/leon/pull/53,1,0,0,1,0,0,0,PR is related to a currently outdated build.
+Hardware / Scaling requirements,https://github.com/leon-ai/leon/issues/28,https://github.com/leon-ai/docs.getleon.ai/pull/6,1,0,0,0,1,0,0,
+improve the Isitdown module,https://github.com/leon-ai/leon/issues/25,N.A,0,0,1,0,0,0,0,"Still active, but seems to become stale."
+german language support,https://github.com/leon-ai/leon/issues/8,N.A,0,0,0,1,0,0,0,"Translation, not done."
+Scheduler cache.GetNodeInfo should return IsNotFound error if applicable,https://github.com/kubernetes/kubernetes/issues/83458,https://github.com/kubernetes/kubernetes/pull/83983,1,1,0,0,0,0,0,
+[framework] a consistent interface for plugin extended functionality,https://github.com/kubernetes/kubernetes/issues/83244,https://github.com/kubernetes/kubernetes/pull/83365,0,0,0,1,0,0,0,
+Many links in API documentation broken,https://github.com/kubernetes/kubernetes/issues/81526,https://github.com/pulumi/pulumi-kubernetes/pull/767,0,0,0,0,1,0,0,Organizational.
+Port parsing can overflow (TOB-K8S-015: Overflows when using strconv.Atoi and downcasting the result),https://github.com/kubernetes/kubernetes/issues/81121,https://github.com/kubernetes/utils/pull/107,0,0,0,1,0,0,0,"Multiple PRs, took first one for data."
+Remove panic in staging/src/k8s.io/apiserver/pkg/storage/etcd3/store.go,https://github.com/kubernetes/kubernetes/issues/79835,https://github.com/kubernetes/kubernetes/pull/79847,1,0,0,0,0,0,1,
+Support UDP with AWS NLB,https://github.com/kubernetes/kubernetes/issues/79523,https://github.com/kubernetes/kubernetes/pull/80394,1,1,0,0,0,0,0,"Multiple PRs, took first one for data."
+test/soak/cauldron uses Docker Hub to push/pull image ,https://github.com/kubernetes/kubernetes/issues/77273,https://github.com/kubernetes/kubernetes/pull/77335,0,0,0,0,0,1,1,
+Remove dependency on ghodss/yaml,https://github.com/kubernetes/kubernetes/issues/77024,https://github.com/etcd-io/etcd/pull/10687,1,0,0,0,0,0,1,"Related to external dependency, took that PR data."
+Remove make-symlink parameter in hyperkube in 1.16,https://github.com/kubernetes/kubernetes/issues/75491,https://github.com/kubernetes/kubernetes/pull/80017,1,0,0,0,0,0,1,
+1000s of warnings: FindExpandablePluginBySpec err:no volume plugin matched,https://github.com/kubernetes/kubernetes/issues/73882,https://github.com/kubernetes/kubernetes/pull/73901,0,1,0,0,0,0,0,
+Creating selectors is expensive in EndpointsController,https://github.com/kubernetes/kubernetes/issues/73527,https://github.com/kubernetes/kubernetes/pull/84280,0,1,0,1,0,0,0,
+kube-proxy: ipv4/ipv6 mix crashes: KUBE-MARK-DROP':No such file or directory,https://github.com/kubernetes/kubernetes/issues/73360,https://github.com/kubernetes/kubernetes/pull/76555,0,0,0,0,0,0,1,
+Need NodePort test for mixed-OS clusters,https://github.com/kubernetes/kubernetes/issues/73327,https://github.com/kubernetes/kubernetes/pull/74938,1,0,0,0,0,1,0,
+Update docs to indicate that API values of []byte are always base64-encoded,https://github.com/kubernetes/kubernetes/issues/72158,https://github.com/kubernetes/kubernetes/pull/72298,1,0,0,0,1,0,0,
+[scheduler cleanup phase 2]: Move compatibility_test.go to `pkg/scheduler/api`,https://github.com/kubernetes/kubernetes/issues/71867,https://github.com/kubernetes/kubernetes/pull/72014,1,0,0,0,0,0,1,Organizational.
+Update golang.org/x/net/http2 vendored files,https://github.com/kubernetes/kubernetes/issues/71016,https://github.com/kubernetes/kubernetes/pull/75289,0,0,0,0,1,0,1,Dependency.
+Add volume test cases for Windows,https://github.com/kubernetes/kubernetes/issues/69904,https://github.com/kubernetes/kubernetes/pull/74085,0,0,0,0,0,1,0,
+Failure cause is difficult to determine on test-integration,https://github.com/kubernetes/kubernetes/issues/69106,https://github.com/kubernetes/kubernetes/pull/70619,1,0,0,1,0,1,1,
+Use http.Error() instead of writing responses directly,https://github.com/kubernetes/kubernetes/issues/69011,https://github.com/kubernetes/kubernetes/pull/69013,0,0,1,0,0,0,1,
+[scheduler cleanup phase 1]: Simplify kube-scheduler’s server.go `run`,https://github.com/kubernetes/kubernetes/issues/68964,https://github.com/kubernetes/kubernetes/pull/69037,0,0,0,0,0,0,1,
+API docs for job status should clearly explain what fields indicate success or failure,https://github.com/kubernetes/kubernetes/issues/68712,https://github.com/kubernetes/kubernetes/pull/87919,0,0,0,0,1,0,0,
+JSON Patch: Don't allow negative indices,https://github.com/kubernetes/kubernetes/issues/68578,https://github.com/kubernetes/kubernetes/pull/73553,0,0,0,0,0,0,1,
+HPA metrics client assumes all resources are namespaced,https://github.com/kubernetes/kubernetes/issues/67777,https://github.com/kubernetes/kubernetes/pull/74758,0,0,1,0,0,0,0,
+kube-proxy: node-port ipv6 port open on v4 cluster ,https://github.com/kubernetes/kubernetes/issues/66766,https://github.com/kubernetes/kubernetes/pull/87699,1,1,0,0,0,0,0,
+Manifests in test/e2e/testing-manifests/ingress related to GCE should be in a separate folder.,https://github.com/kubernetes/kubernetes/issues/58640,https://github.com/kubernetes/kubernetes/pull/58412,0,0,0,0,0,1,0,
+"Literal ""$Format"" in API server logs",https://github.com/kubernetes/kubernetes/issues/55219,N.A,0,1,0,0,0,0,0,Marked as stale/inactive.
+Log version/build info as the first line of every glog log from every binary,https://github.com/kubernetes/kubernetes/issues/27744,https://github.com/kubernetes/kubernetes/pull/28374,0,0,0,1,0,0,0,"Multiple PRs, took first one for data."
+Cleanup: Audit log and error capitalization,https://github.com/kubernetes/kubernetes/issues/15863,https://github.com/kubernetes-incubator/external-storage/pull/695,0,0,0,1,0,0,0,"Related to external dependency, took that PR data."
+Capture spew.Sprintf() with all our favorite config into a util func,https://github.com/kubernetes/kubernetes/issues/8976,https://github.com/kubernetes/kubernetes/pull/55383,1,0,0,0,0,0,1,"Multiple PRs, took first one for data."
+"Refactor ""create object, launch goroutines"" logic all over",https://github.com/kubernetes/kubernetes/issues/7923,https://github.com/kubernetes/kubernetes/pull/73600,0,0,0,0,0,0,1,"Multiple PRs, took first one for data."
+Convert the docstrings of examples in `examples/*` to use Markdown formatting,https://github.com/keras-team/keras/issues/12219,https://github.com/keras-team/keras/pull/12221,1,0,1,0,0,0,0,"Multiple PRs, took first one for data."
+decoder summary has a output shape as multiple. What does it mean,https://github.com/keras-team/keras/issues/12213,https://github.com/keras-team/keras/pull/12239,1,0,0,0,1,0,0,
+TypeError: object of type 'ImageDataGenerator' has no len(),https://github.com/keras-team/keras/issues/12188,N.A,0,1,0,0,0,0,0,"User error, intended and won't be fixed."
+Implement K.arange for the cntk backend.,https://github.com/keras-team/keras/issues/12164,https://github.com/keras-team/keras/pull/12076,0,0,0,0,0,0,1,
+Cleaned the namespace of keras.backend.,https://github.com/keras-team/keras/pull/12076,https://github.com/keras-team/keras/pull/12084,0,0,0,0,0,0,1,
+implement K.cumsum and K.cumprod for the cntk backend.,https://github.com/keras-team/keras/issues/12163,https://github.com/keras-team/keras/pull/12076,0,0,0,0,0,0,1,
+Implement K.update_sub() for the cntk backend.,https://github.com/keras-team/keras/issues/12162,https://github.com/keras-team/keras/pull/12076,0,0,0,0,0,0,1,
+Implement K.reset_uids() for the cntk backend. ,https://github.com/keras-team/keras/issues/12161,https://github.com/keras-team/keras/pull/12076,0,0,0,0,0,0,1,
+__getitem__ gets called too many times,https://github.com/keras-team/keras/issues/12082,N.A,0,0,0,0,0,0,1,"In progress, not finished yet."
+Where can I find topics of reuters dataset,https://github.com/keras-team/keras/issues/12072,N.A,0,0,0,0,1,0,0,"Organizational inquiry, not software related."
+Callback warning error,https://github.com/keras-team/keras/issues/12069,https://github.com/keras-team/keras/pull/12098,1,1,0,0,0,0,0,
+Keras fails silently if the name of the output is not correct when using metrics.,https://github.com/keras-team/keras/issues/12068,https://github.com/keras-team/keras/pull/12071,0,0,1,0,0,0,0,
+"""rgb"" misspelled as ""rbg"" in Keras documentation for flow_from_directory()",https://github.com/keras-team/keras/issues/11952,N.A,0,0,0,0,1,0,0,"Fixed without PR, direct push to master?"
+The link to deconv paper is broken in Conv2DTranspose comments ,https://github.com/keras-team/keras/issues/11943,https://github.com/keras-team/keras/pull/11947,1,0,0,0,1,0,0,
+Confused information on keras fit_generator() steps_per_epoch/validation_steps parameters documentation,https://github.com/keras-team/keras/issues/11877,https://github.com/keras-team/keras/pull/12153,0,0,0,0,1,0,0,
+"Feature Request : Add Precision, Recall and F1 Score as Stateful Metrics ",https://github.com/keras-team/keras/issues/11846,https://github.com/keras-team/keras/pull/11851,0,0,1,0,0,0,0,"PR created, but rejected due to external dependencies."
+Using flow_from_dataframe with predict_generator produces wrong ordering of filenames,https://github.com/keras-team/keras/issues/11841,https://github.com/keras-team/keras/pull/12035,0,0,0,0,1,0,0,
+Fix the formatting of flow_from_dataframe in the docs.,https://github.com/keras-team/keras/issues/11623,https://github.com/keras-team/keras-preprocessing/pull/91,1,0,0,0,1,0,0,
+Keras 2.0 release notes is misleading,https://github.com/keras-team/keras/issues/11517,N.A,0,0,0,0,1,0,0,"Takes place off-Github, still being done."
+Making lines shorter in five different files.,https://github.com/keras-team/keras/issues/11383,https://github.com/keras-team/keras/pull/11391,1,0,0,0,0,0,1,
+Fixing the rendering of the Constraints section in the docs.,https://github.com/keras-team/keras/issues/11382,https://github.com/keras-team/keras/pull/11456,1,0,1,0,0,0,1,
+References in the documentation are sometimes badly rendered.,https://github.com/keras-team/keras/issues/11375,https://github.com/keras-team/keras/pull/11380,1,0,0,0,1,0,0,
+"Keras issues, correcting typo.",https://github.com/keras-team/keras/issues/11366,https://github.com/keras-team/keras/pull/11369,1,0,0,0,1,0,0,
+Keras documentation of multi_gpu_model: example 2 can be misleading,https://github.com/keras-team/keras/issues/11307,https://github.com/keras-team/keras/pull/11310,0,0,0,0,1,0,0,
+Keras documentation: multi_gpu_model examples do not show properly on the home page keras.io,https://github.com/keras-team/keras/issues/11306,https://github.com/keras-team/keras/pull/11310,0,0,0,0,1,0,0,
+Documentation doesn't explain how to make a lamda layer with multiple inputs/outputs,https://github.com/keras-team/keras/issues/11020,https://github.com/keras-team/keras/pull/11529,1,0,0,0,1,0,0,
+CuDNNLSTM and activations,https://github.com/keras-team/keras/issues/8510,N.A,0,0,0,0,1,0,0,"Organizational discussion, still ongoing."
+Add support for Rule of Hooks plugin,https://github.com/laurent22/joplin/issues/2579,https://github.com/laurent22/joplin/pull/2585,0,0,1,0,0,0,0,
+Check and fix window dimensions and position when the application start,https://github.com/laurent22/joplin/issues/2476,https://github.com/laurent22/joplin/pull/2514,1,1,0,0,0,0,0,"Multiple associated PRs, took first one."
+find a good geolocation service (https),https://github.com/laurent22/joplin/issues/2469,https://github.com/laurent22/joplin/pull/2503,0,0,0,0,0,0,1,
+edit menu items and shortcuts not disabled in preview mode ,https://github.com/laurent22/joplin/issues/2467,https://github.com/laurent22/joplin/pull/2576,0,1,0,0,0,0,0,
+"Add a ""Copy code"" button on code blocks",https://github.com/laurent22/joplin/issues/2383,N.A,0,0,0,1,0,0,0,Being worked on.
+Right-click to assign a note to a notebook,https://github.com/laurent22/joplin/issues/2296,https://github.com/laurent22/joplin/pull/2566,1,0,1,0,0,0,0,
+Add a scrollbar in note editor and viewer,https://github.com/laurent22/joplin/issues/2286,https://github.com/laurent22/joplin/pull/2594,0,0,1,0,0,0,0,
+english not move next column,https://github.com/laurent22/joplin/issues/2170,https://github.com/laurent22/joplin/pull/2447,0,1,0,0,0,0,0,
+[Feature Request] Configurable layout for terminal joplin,https://github.com/laurent22/joplin/issues/2110,https://github.com/laurent22/joplin/pull/2613,0,0,1,0,0,0,0,Closed due to contributor staleness.
+Alarm dates not visible,https://github.com/laurent22/joplin/issues/2098,N.A,0,1,0,0,0,0,0,Ongoing.
+Add warning in log if a large resource is about to be uploaded,https://github.com/laurent22/joplin/issues/2097,https://github.com/laurent22/joplin/pull/2102,1,0,1,0,0,0,0,
+"Parenthesis in title change to underscores when using ""Copy Markdown Link""",https://github.com/laurent22/joplin/issues/2085,https://github.com/laurent22/joplin/pull/2456,0,1,0,0,0,0,0,
+Allow setting ratio on camera component,https://github.com/laurent22/joplin/issues/1998,N.A,0,0,1,0,0,0,0,"Duplicate issue, closed."
+Add command to list all the tags of a note,https://github.com/laurent22/joplin/issues/1974,https://github.com/laurent22/joplin/pull/2003,1,0,0,1,0,0,0,
+Add a Nord theme,https://github.com/laurent22/joplin/issues/1903,https://github.com/laurent22/joplin/pull/2004,0,0,0,1,0,0,0,
+Allow selecting what views should be available from the Layout button,https://github.com/laurent22/joplin/issues/1900,https://github.com/laurent22/joplin/pull/2028,0,0,1,0,0,0,0,
+Hide editing toolbar buttons when text editor is hidden,https://github.com/laurent22/joplin/issues/1896,https://github.com/laurent22/joplin/pull/1940,0,0,0,0,0,0,1,
+Upgrade styles in the import screen,https://github.com/laurent22/joplin/issues/1862,https://github.com/laurent22/joplin/pull/1888,0,0,1,0,0,0,0,
+Add a password verification field when enabling E2EE,https://github.com/laurent22/joplin/issues/1656,https://github.com/laurent22/joplin/pull/1937,0,0,1,0,0,0,0,"Multiple associated PRs, took first one."
+Beautify Joplin,https://github.com/laurent22/joplin/issues/1396,N.A,0,0,1,0,0,0,1,Closed due to lack of focus.
+GNU/Linux Desktop Changelog Dialog Too Long ,https://github.com/laurent22/joplin/issues/1222,https://github.com/laurent22/joplin/pull/1967,1,0,0,0,0,0,1,
+Select and convert multiple lines to list items,https://github.com/laurent22/joplin/issues/1014,https://github.com/laurent22/joplin/pull/2408,0,0,0,1,0,0,0,
+Increase the font size for note titles in the note view/edit pane,https://github.com/laurent22/joplin/issues/915,https://github.com/laurent22/joplin/pull/2311,0,0,0,0,0,0,1,
+FR: Add Subnotebook menu item,https://github.com/laurent22/joplin/issues/898,https://github.com/laurent22/joplin/pull/1984,0,0,0,1,0,0,0,"Duplicate issue, took duplicate associated PR."
+[feature request] duplicate note,https://github.com/laurent22/joplin/issues/545,https://github.com/laurent22/joplin/pull/1969,1,0,0,1,0,0,0,
+Export Human-readable Filenames and Folders,https://github.com/laurent22/joplin/issues/316,N.A,0,0,0,1,0,0,0,"Claims it was implemented, but no PR/Commit given or referenced."
+[Feature Request] Show version on mobile apps,https://github.com/laurent22/joplin/issues/233,https://github.com/laurent22/joplin/pull/930,0,0,0,1,0,0,0,
+Theme support for desktop apps,https://github.com/laurent22/joplin/issues/93,https://github.com/laurent22/joplin/pull/921,0,0,0,1,0,0,0,
+Terminal - Keyboard navigation improvements,https://github.com/laurent22/joplin/issues/63,https://github.com/laurent22/joplin/commit/e4d477fb4c544e99b37c0dc82955f64f58d08854,0,0,0,1,0,0,0,
+Add support for maths input,https://github.com/laurent22/joplin/issues/11,N.A,0,0,0,1,0,0,0,Closed without reference.
+Always compile tests with all warnings enabled and error out on warnings,https://github.com/nlohmann/json/issues/1798,https://github.com/nlohmann/json/pull/1804,1,0,0,0,0,0,1,"Multiple rejected PRs, took first one. PR marked as stale."
+json_pointer<>::back() should be const,https://github.com/nlohmann/json/issues/1764,https://github.com/nlohmann/json/pull/1769,1,0,1,0,0,0,1,
+Fixes Cppcheck warnings,https://github.com/nlohmann/json/issues/1759,https://github.com/nlohmann/json/pull/1760,1,1,0,0,0,0,0,
+Forward header should't be amalgamated ,https://github.com/nlohmann/json/issues/1700,N.A,0,1,0,0,0,0,0,Marked as stale by a BOT.
+Consider listing files explicitly instead of using GLOB,https://github.com/nlohmann/json/issues/1686,https://github.com/nlohmann/json/pull/1779,0,0,0,0,0,0,1,
+NuGet Package,https://github.com/nlohmann/json/issues/1132, added description on how to use NuGet package #1132 ,0,0,0,1,1,0,0,
+Feature: to_string(const json& j);,https://github.com/nlohmann/json/issues/916,https://github.com/nlohmann/json/pull/1585,1,0,1,0,0,1,0,
+"fixup_structs uses file scope, should use package scope",https://github.com/istio/istio/issues/20962,https://github.com/istio/api/pull/1275,0,0,0,0,0,0,1,
+"istioctl apply --dry-run bogus message ""failed to get k8s server version""",https://github.com/istio/istio/issues/20729,https://github.com/istio/istio/pull/20747,0,0,0,0,0,0,1,
+[istio.io testing] Need test for Configure Citadel Service Account Secret Generation,https://github.com/istio/istio/issues/20504,N.A,0,0,0,0,0,1,0,Not implemented due to planned dependency removal.
+Destination rule to set mTLS ignores specific host,https://github.com/istio/istio/issues/19459,https://github.com/istio/istio/pull/21734,0,0,1,0,0,0,0,
+istioctl dashboard to allow pod label --selector instead of requiring explicit pod name,https://github.com/istio/istio/issues/18987,https://github.com/istio/istio/pull/19191,0,0,1,0,0,0,0,
+[istio.io testing] Write test for bookinfo task for istioio ,https://github.com/istio/istio/issues/18238,https://github.com/istio/istio/pull/18449,0,0,0,0,0,1,0,
+Generate RPM files in addition to Debian files for mesh expansion,https://github.com/istio/istio/issues/17348,N.A,0,0,0,1,0,0,0,"Duplicate, using data from referred issue."
+Add output flag unit test,https://github.com/istio/istio/issues/17230,https://github.com/istio/operator/pull/295,1,0,0,0,0,1,0,
+Pilot goroutine leak when waiting for config from galley,https://github.com/istio/istio/issues/16901,N.A,0,1,0,0,0,0,0,Closed due to lack of replication.
+Add NetworkPolicy to allow Istio to run on a secure Kubernetes Platform,https://github.com/istio/istio/issues/16877,N.A,0,0,1,0,0,0,0,Not implemented due to planned denial.
+Add scopes to logging,https://github.com/istio/istio/issues/15605,https://github.com/istio/operator/pull/81,0,0,0,0,0,0,1,
+Add enum validations for values_types.go,https://github.com/istio/istio/issues/15492,N.A,0,0,1,0,0,0,0,Appears to be stale.
+Migrate operator repo to Go modules,https://github.com/istio/istio/issues/15240,https://github.com/istio/operator/pull/75,0,0,0,0,0,0,1,
+"""istioctl version"" should document --short=false and --remote=false",https://github.com/istio/istio/issues/14814,https://github.com/istio/pkg/pull/27,1,0,0,0,1,0,0,Change in-code explanation string.
+Istioctl proxy-status and authn tls-check commands when global.monitoringPort != 15014,https://github.com/istio/istio/issues/14801,N.A,0,1,0,0,0,0,0,Still ongoing.
+Bookinfo productpage microservice crashes when run as non-root userid,https://github.com/istio/istio/issues/14667,https://github.com/istio/istio/pull/14943,0,0,1,0,0,0,0,
+Regular expression support for origins in CorsPolicy,https://github.com/istio/istio/issues/14661,N.A,0,0,0,1,0,0,0,
+Add debug config dump support to Galley Ctrlz page,https://github.com/istio/istio/issues/12298,https://github.com/istio/istio/pull/12980,0,0,0,1,0,0,0,
+"Webhook ""pilot.validation.istio.io"" reports invalid configuration error for valid config",https://github.com/istio/istio/issues/10694,N.A,0,1,0,0,0,0,0,"Fixed by dependency, not within Isitio."
+Mixer client: mixc should send valid attribute encodings when attribute vocabulary is available,https://github.com/istio/istio/issues/10434,N.A,0,0,1,0,0,0,0,Deemed as stale.
+Istio yaml structure,https://github.com/istio/istio/issues/10429,https://github.com/istio/istio/pull/12670,0,0,0,0,0,0,1,"Duplicate, using data from referred issue."
+Managing core dumps,https://github.com/istio/istio/issues/8077,https://github.com/istio/istio/pull/8043,0,0,1,0,0,0,1,
+Single command to dump out state of entire mesh for debugging,https://github.com/istio/istio/issues/6382,https://github.com/istio/istio.io/pull/1698,0,0,0,0,1,0,0,
+Proxy-Config command doesn't work correctly when running multiple Pilots.,https://github.com/istio/istio/issues/5733,https://github.com/istio/istio/pull/5762,0,1,0,0,0,0,0,
+Add helm lint to `bin/linters.sh`,https://github.com/istio/istio/issues/4766,https://github.com/istio/istio/pull/5406,1,0,0,0,0,1,0,
+istioctl register requires namespace (doesn't use the default),https://github.com/istio/istio/issues/4473,https://github.com/istio/istio/pull/4493,0,1,0,0,0,0,0,
+Need consistent & published way of identifying failure in automated tests logs,https://github.com/istio/istio/issues/2974,N.A,0,0,0,1,0,0,0,Deemed as stale.
+HA ingress setup,https://github.com/istio/istio/issues/2895,N.A,0,0,0,0,1,0,0,Deemed as stale.
+Support k8s app protocols alpha annotation,https://github.com/istio/istio/issues/1441,N.A,0,0,0,1,0,0,0,Deemed as stale.
+Use ROUND_ROBIN load balancing in the sample,https://github.com/istio/istio/issues/651,N.A,0,0,0,0,0,1,0,Deemed as stale.
+"Typo: ""the URL andpixel density""",https://github.com/whatwg/html/issues/4911,https://github.com/whatwg/html/pull/4935,0,0,0,0,1,0,0,
+Plain Unicode string,https://github.com/whatwg/html/issues/4798,https://github.com/whatwg/html/pull/4824,0,0,0,0,1,0,0,"Multiple PRs, took the first one."
+width attribute on <col> should allow 0 as a value ,https://github.com/whatwg/html/issues/4717,https://github.com/whatwg/html/pull/4927,1,0,0,0,1,0,0,
+height attribute on <tr> should allow 0 as a value,https://github.com/whatwg/html/issues/4716,https://github.com/web-platform-tests/wpt/pull/17572,0,0,0,0,0,1,0,
+inputmode=number should be inputmode=numeric,https://github.com/whatwg/html/issues/4652,https://github.com/whatwg/html/pull/4656,0,0,0,0,0,0,1,
+"add ""oncopy"", ""oncut"", ""onpaste"" attribute to list of event handler content attributes",https://github.com/whatwg/html/issues/4564,https://github.com/whatwg/html/pull/4602,0,0,0,1,0,0,1,
+"""Fire a synthetic mouse event at this element"" for click() is underspecified",https://github.com/whatwg/html/issues/4451,https://github.com/whatwg/html/pull/4453,1,0,1,0,0,0,0,
+No way to sanely determine a form control's disabled state,https://github.com/whatwg/html/issues/4395,N.A,0,0,1,0,0,0,0,Still ongoing.
+Consider factoring out duplication in <link rel=preload>,https://github.com/whatwg/html/issues/4341,https://github.com/whatwg/html/pull/4048,0,0,1,1,0,0,0,
+Wrong mention of attributes in audio element documentation,https://github.com/whatwg/html/issues/4159,https://github.com/whatwg/html/pull/4221,1,0,0,0,0,0,1,
+Describe HTMLOptionsCollection's length tree mutation in terms of DOM,https://github.com/whatwg/html/issues/3652,N.A,0,0,1,0,0,0,0,Appears to be stale.
+Types of `OffscreenCanvas.width` and `.height` needs to be annotated types,https://github.com/whatwg/html/issues/3540,https://github.com/whatwg/html/pull/3541,1,0,1,0,0,0,0,
+"grammar glitch in ""digital fingerprint"" paragraph",https://github.com/whatwg/html/issues/3503,https://github.com/whatwg/html/pull/3504,1,0,0,0,0,0,1,
+Give <canvas>'s toDataURL() and toBlob() default parameter values,https://github.com/whatwg/html/issues/3430,https://github.com/whatwg/html/pull/3477,0,0,1,0,0,0,1,
+"Bad link to ""child text content change steps"" in ""The `style` element""",https://github.com/whatwg/html/issues/3384,https://github.com/whatwg/html/pull/3421,1,0,0,0,0,0,1,"Duplicate of another issue, took that issue's PR."
+Incorrect links in <meter> element IDL attribute definitions,https://github.com/whatwg/html/issues/3356,https://github.com/whatwg/html/pull/3481,0,1,0,0,0,0,0,
+Some media elements can indefinitely block the document's load event for no reason,https://github.com/whatwg/html/issues/3065,N.A,0,1,0,0,0,0,0,Appears to be stale.
+"""The length attribute's getter must this DOMStri...""",https://github.com/whatwg/html/issues/2736,https://github.com/whatwg/html/pull/2767,0,0,0,0,0,0,1,
+Should “Naming form controls” section include a warning about names overriding form properties?,https://github.com/whatwg/html/issues/2720,https://github.com/whatwg/html/pull/3484,0,0,0,1,0,0,0,
+"What does the definite article mean in the ""has focus steps""?",https://github.com/whatwg/html/issues/2523,https://github.com/whatwg/html/pull/5093,0,0,0,0,0,0,1,
+contextmenu event uses Event interface on event index table,https://github.com/whatwg/html/issues/2491,https://github.com/whatwg/html/pull/2494,0,1,0,0,0,0,0,
+innerText setter uses pointer + position instead of sticking with one variable name,https://github.com/whatwg/html/issues/2446,https://github.com/whatwg/html/pull/2449,1,0,0,0,0,0,1,
+""" intializedzed""",https://github.com/whatwg/html/issues/2430,https://github.com/whatwg/html/pull/2434,0,0,0,0,1,0,0,
+Clarify origin check in document.open(),https://github.com/whatwg/html/issues/2282,https://github.com/whatwg/html/pull/2288,0,0,0,0,0,0,1,"Multiple PRs, took the first one."
+"Reword usage of ""alphabetical""",https://github.com/whatwg/html/issues/2266,N.A,0,0,0,0,0,0,1,Appears to be stale.
+Aggregate sections of IANA considerations,https://github.com/whatwg/html/issues/1300,https://github.com/whatwg/html/pull/1301,0,0,1,0,0,0,1,
+Tweak .htaccess MIME types,https://github.com/whatwg/html/issues/507,https://github.com/whatwg/html-build/pull/94,1,0,0,0,0,0,1,
+"""readonly attribute long length; """,https://github.com/whatwg/html/issues/495,https://github.com/whatwg/html/pull/510,1,0,1,0,0,0,0,
+time element content model contains contradiction v. body text,https://github.com/whatwg/html/issues/426,https://github.com/CaseyLeask/html/commit/7bfa63883e134bb37d48b70aa31fbcb8d98a8b9f,0,1,0,0,0,0,0,
+error event on <source> missing in media event summary,https://github.com/whatwg/html/issues/420,https://github.com/whatwg/html/pull/425,0,0,1,0,0,0,1,
+Switch from russross/blackfriday to yuin/goldmark,https://github.com/gogs/gogs/issues/5921,N.A,0,0,0,0,0,0,1,In pipeline by non-newcomer.
+LDAP BindDN Multiple Log In Options Results in 500,https://github.com/gogs/gogs/issues/5897,N.A,0,1,0,0,0,0,0,In pipeline by non-newcomer.
+Reviewer cannot view specified commit changes when forked repository is private,https://github.com/gogs/gogs/issues/5878,N.A,0,1,0,0,0,0,0,
+"""File diff suppressed because it is too large"" should be more specific",https://github.com/gogs/gogs/issues/5814,N.A,0,0,1,0,0,0,0,Marked as stale/not done.
+Private mirror icon,https://github.com/gogs/gogs/issues/5686,N.A,0,0,1,0,0,0,0,
+Documentation link on README when creating a repo is broken,https://github.com/gogs/gogs/issues/5618,N.A,0,1,0,0,1,0,0,
+Personal access token last used timestamp isn't updated,https://github.com/gogs/gogs/issues/5615,N.A,1,1,0,0,0,0,0,"Not yet done, new dev working on it."
+"Add build tag ""heroku"" a synonym for ""sqlite cert pam""",https://github.com/gogs/gogs/issues/5539,N.A,0,1,0,0,0,0,0,
+mssql: Error 500 on /watchers & /stars,https://github.com/gogs/gogs/issues/5482,N.A,0,1,0,0,0,0,0,
+In Admin panel the code block is out of the main block,https://github.com/gogs/gogs/issues/5453,N.A,0,1,1,0,0,0,0,
+Issue with generating 'identicon' when using LDAP in Org page,https://github.com/gogs/gogs/issues/5429,https://github.com/unfoldingWord/dcs/commit/fe55ab2a6806b6a7c114378c0436bc59a31646d0,0,1,0,0,0,0,0,
+Disabled logins still have read access with ssh key,https://github.com/gogs/gogs/issues/5408,N.A,0,1,0,0,0,0,0,
+Long branch name not displayed properly,https://github.com/gogs/gogs/issues/5341,https://github.com/unfoldingWord/dcs/commit/d9b51a781cbdaeea53de9888831b33c680e43d46,0,1,0,0,0,0,1,
+double click to submit pull request will make 2 same pr. ,https://github.com/gogs/gogs/issues/5252,https://github.com/gogs/gogs/pull/5254,1,1,0,0,0,0,1,
+Repository description field in database should allow more than 256 chars length,https://github.com/gogs/gogs/issues/5190,https://github.com/gogs/gogs/pull/5219,0,0,1,0,0,0,1,
+Attempt to fix UI responsiveness,https://github.com/gogs/gogs/issues/5179,https://github.com/gogs/gogs/pull/5182,0,1,1,0,0,0,0,
+MISSING_MID (Message-Id) on outgoing emails,https://github.com/gogs/gogs/issues/5147,N.A,0,1,0,0,0,0,0,Marked as stale/not done.
+"Disable ""New Repository"" button if forbidden ",https://github.com/gogs/gogs/issues/5111,https://github.com/unfoldingWord/dcs/commit/82e08a3364195b515a005180c2bdc08e78aac208,0,0,0,0,0,0,1,
+"when using sudo su git -c'/home/git/gogs/gogs backup', miss data directory",https://github.com/gogs/gogs/issues/4991,N.A,1,1,0,0,0,0,1,In pipeline by non-newcomer.
+Add config option to disallow user to rename their username,https://github.com/gogs/gogs/issues/4989,N.A,0,0,0,1,0,0,0,
+Gogs does not wrap Repository and User Names properly,https://github.com/gogs/gogs/issues/4886,https://github.com/unfoldingWord/dcs/commit/617a2433a3dd2e32188574ac7b3765bec5082123,0,1,0,0,0,0,0,
+Allow longer Websites,https://github.com/gogs/gogs/issues/4820,N.A,0,0,1,0,0,0,1,
+README should not parse HTML ,https://github.com/gogs/gogs/issues/4593,N.A,0,1,0,0,1,0,0,
+Cannot restore inside Docker container,https://github.com/gogs/gogs/issues/4339,N.A,0,1,0,0,0,0,0,
+Inconsistent relative links in web editor preview,https://github.com/gogs/gogs/issues/3561,https://github.com/gogs/gogs/pull/3566,1,1,0,0,0,0,0,
+Adding SSH key with newline yields invalid key format,https://github.com/gogs/gogs/issues/3480,https://github.com/gogs/gogs/pull/3565,0,1,0,0,0,0,0,
+Hide email addresses everywhere,https://github.com/gogs/gogs/issues/3358,https://github.com/gogs/gogs/pull/3381,1,0,1,0,0,0,0,
+Error 404 when trying to view a file that has been both modified and renamed,https://github.com/gogs/gogs/issues/3289,https://github.com/ethantkoenig/gogs/commit/22a7a7ec9b94aad6c689b7e61bee09c2e322fd57,1,0,0,0,1,0,0,
+HTML align attribute is stripped in markdown,https://github.com/gogs/gogs/issues/3234,N.A,0,1,0,0,1,0,0,
+Allow config to display full name of user in dashboard feeds,https://github.com/gogs/gogs/issues/2923,N.A,0,0,1,0,0,0,0,
+Closing a secondary window destroys the object so it cannot be re-used,https://github.com/fyne-io/fyne/issues/522,N.A,0,1,0,0,0,0,0,Still ongoing.
+widgets.Entry outside the main function,https://github.com/fyne-io/fyne/issues/490,https://github.com/fyne-io/fyne/commit/4b7a8fa775c272940e8af89363ca7d597dfa73af,0,1,0,0,0,0,0,
+Entry (read only) state can support the right mouse button,https://github.com/fyne-io/fyne/issues/488,https://github.com/fyne-io/fyne/pull/532,0,0,1,0,0,0,0,
+crash on develop branch when theme is set,https://github.com/fyne-io/fyne/issues/459,N.A,0,1,0,0,0,0,0,Fixed without codebase changes.
+Password reveal/conceal support in PasswordEntry widget. ,https://github.com/fyne-io/fyne/issues/452,https://github.com/fyne-io/fyne/pull/521,0,0,1,0,0,0,0,
+Support dynamically adding tab item,https://github.com/fyne-io/fyne/issues/444,https://github.com/fyne-io/fyne/pull/582,1,0,1,0,0,0,0,
+Refocus Previous Window on window close,https://github.com/fyne-io/fyne/issues/226,N.A,0,0,1,0,0,0,0,Still ongoing.
+panic on CenterOnScreen(),https://github.com/fyne-io/fyne/issues/219,https://github.com/fyne-io/fyne/pull/220,0,1,0,0,0,0,0,
+Append to radio group,https://github.com/fyne-io/fyne/issues/208,N.A,0,0,1,0,0,0,0,Not done.
+Cannot click away to remove focus from an Entry,https://github.com/fyne-io/fyne/issues/162,https://github.com/fyne-io/fyne/pull/171,1,0,0,1,0,0,0,
+Add Hyperlink widget,https://github.com/fyne-io/fyne/issues/92,https://github.com/fyne-io/fyne/pull/101,0,0,0,1,0,0,0,
+DNS preanalyze,https://github.com/thedaviddias/Front-End-Performance-Checklist/issues/68,https://github.com/thedaviddias/Front-End-Performance-Checklist/pull/87,1,0,0,0,1,0,0,
+http2 server push could also improve performance,https://github.com/thedaviddias/Front-End-Performance-Checklist/issues/39,https://github.com/thedaviddias/Front-End-Performance-Checklist/pull/87,1,0,0,0,1,0,0,
+Generating/printing report shows the footer URL,https://github.com/thedaviddias/Front-End-Checklist/issues/254,https://github.com/thedaviddias/Front-End-Checklist/pull/279,1,1,0,0,0,0,0,
+Flutter web: url_launcher Plugin show blank page on dismiss,https://github.com/flutter/flutter/issues/51461,N.A,0,1,0,0,0,0,0,Being worked on.
+Write a real Visual Studio solution file parser,https://github.com/flutter/flutter/issues/51430,N.A,0,0,0,1,0,0,0,Appears to be stale.
+Attempting to screenshot a widget on the web throws stack trace,https://github.com/flutter/flutter/issues/49857,N.A,0,1,0,0,0,0,0,Being worked on.
+url_launcher for web should support the mailto scheme,https://github.com/flutter/flutter/issues/49529,https://github.com/flutter/plugins/pull/2490,1,0,0,1,0,0,0,
+Add doctor check to verify that the required hosts are reachable,https://github.com/flutter/flutter/issues/49403,N.A,0,0,1,0,0,0,0,Being worked on.
+[web][edge] Input cursor is visible,https://github.com/flutter/flutter/issues/47694,N.A,0,1,0,0,0,0,0,
+Clicks not registered with webkit2gtk on Linux,https://github.com/flutter/flutter/issues/46918,N.A,0,1,0,0,0,0,0,Dismissed due to lack of reproducability.
+[plugins] Switch analysis rules,https://github.com/flutter/flutter/issues/45440,https://github.com/flutter/plugins/pull/2300,0,0,0,0,0,0,1,"Ongoing issue, took first PR for analysis."
+[shared_preferences] Polish issues,https://github.com/flutter/flutter/issues/44403,https://github.com/flutter/plugins/pull/2296,0,0,0,0,1,0,0,
+[path_provider] Polish issues,https://github.com/flutter/flutter/issues/44398,https://github.com/flutter/plugins/pull/2288,0,0,0,0,1,0,0,
+[image_picker] Polish issues,https://github.com/flutter/flutter/issues/44393,https://github.com/flutter/plugins/pull/2261,0,0,0,0,1,1,0,
+[connectivity] Polish,https://github.com/flutter/flutter/issues/44386,https://github.com/flutter/plugins/pull/2262,0,0,0,0,1,0,1,
+Flutter create indents Kotlin code with 2 spaces,https://github.com/flutter/flutter/issues/42212,https://github.com/flutter/flutter/pull/43080,1,0,0,0,0,0,1,
+uncommenting the assets part in the pubspec.yaml file leaves mismatching indentation,https://github.com/flutter/flutter/issues/41703,https://github.com/flutter/flutter/pull/45833,1,1,0,0,0,0,1,
+Allow formatting from stdin with flutter format,https://github.com/flutter/flutter/issues/41011,N.A,0,0,1,0,0,0,0,
+Flutter tool should release cache lock when killed by a signal.,https://github.com/flutter/flutter/issues/30478,https://github.com/flutter/flutter/pull/52194,0,0,0,1,0,0,1,
+Verbose mode options to tooling should pass the --verbose-logging flag to the engine.,https://github.com/flutter/flutter/issues/16730,https://github.com/flutter/flutter/pull/16668,0,0,0,0,0,0,1,"Implemented before and reverted, took original implementation PR for data."
+suspicious unexplained `except: raise`,https://github.com/pallets/flask/issues/3227,https://github.com/pallets/flask/pull/3239,1,0,0,0,1,0,0,
+unused import: werkzeug.datastructures:Range,https://github.com/pallets/flask/issues/3226,https://github.com/pallets/flask/pull/3238,1,0,0,0,0,0,1,
+Use @property as a decorator,https://github.com/pallets/flask/issues/3218,https://github.com/pallets/flask/pull/3221,1,0,0,0,0,0,1,"Multiple PRs, took first one for data."
+Document Blueprint parameters,https://github.com/pallets/flask/issues/3216,https://github.com/pallets/flask/pull/3248,1,0,0,0,1,0,0,
+yum install virtualenv instead of python-virtualenv on Fedora ,https://github.com/pallets/flask/issues/3035,https://github.com/pallets/flask/pull/3040,1,0,0,0,1,0,0,"Multiple PRs, took first one for data."
+"Documentation ""Testing Flask Applications"" should show client teardown",https://github.com/pallets/flask/issues/2949,https://github.com/pallets/flask/pull/3240,1,0,0,0,1,1,0,
+"Missing import statement in ""Uploading Files"" doc section",https://github.com/pallets/flask/issues/2523,https://github.com/pallets/flask/pull/2230,1,0,0,0,1,0,0,
+JSONEncoder encodes aware datetime objects in non-UTC timezone incorrectly as being in GMT. ,https://github.com/pallets/flask/issues/2372,https://github.com/pallets/flask/pull/2374,1,1,0,0,0,0,0,
+Organize the gevent tests into a single class,https://github.com/pallets/flask/issues/2313,https://github.com/pallets/flask/pull/2306,1,0,0,0,0,1,0,
+DRY up the test suite using pytest fixtures,https://github.com/pallets/flask/issues/2287,https://github.com/pallets/flask/pull/2306,1,0,0,0,0,1,0,
+Review HTTP security,https://github.com/pallets/flask/issues/2285,N.A,0,1,0,0,1,0,1,Not directly related to a PR/software.
+Document how to set env vars for PowerShell,https://github.com/pallets/flask/issues/2281,https://github.com/pallets/flask/pull/2315,1,0,0,0,1,0,0,
+Detect `create_app` when FLASK_APP doesn't specify app object,https://github.com/pallets/flask/issues/2265,https://github.com/pallets/flask/pull/2294,1,0,1,0,0,0,0,"Multiple PRs, took first one for data."
+"Documentation: Term ""development mode"" is unclear",https://github.com/pallets/flask/issues/2261,https://github.com/pallets/flask/pull/2293,1,0,0,0,1,0,0,
+Generating relative url with app context should not require SERVER_NAME,https://github.com/pallets/flask/issues/2255,N.A,0,0,0,0,0,0,1,Discussed and marked as not to be done.
+Class-based View should set provide_automatic_options attr in as_view,https://github.com/pallets/flask/issues/2251,https://github.com/pallets/flask/pull/2316,1,0,0,1,0,0,0,
+Take advantage of Py3.6 json support for bytes,https://github.com/pallets/flask/issues/2243,https://github.com/pallets/flask/pull/2262,1,0,0,1,0,0,0,
+Disable OS-level autocorrect in the interactive debugger,https://github.com/pallets/flask/issues/1989,https://github.com/pallets/werkzeug/pull/994,1,0,0,0,0,0,1,
+Remove easy_install from installation docs,https://github.com/pallets/flask/issues/1919,https://github.com/pallets/flask/pull/1920,1,0,0,0,1,0,0,"Multiple PRs, took first one for data."
+Use pip in upgrade documentation instead of easy_install,https://github.com/pallets/flask/issues/1915,https://github.com/pallets/flask/pull/1918,1,0,0,0,1,0,0,
+Wrong import json library,https://github.com/pallets/flask/issues/1911,https://github.com/pallets/itsdangerous/pull/63,1,1,0,0,0,0,0,
+`flask --version` fails,https://github.com/pallets/flask/issues/1828,https://github.com/pallets/flask/pull/1848,0,0,1,0,0,0,0,
+Unify versionadded markers (0.11 vs 1.0),https://github.com/pallets/flask/issues/1817,https://github.com/pallets/flask/pull/1671,0,0,0,1,0,0,0,
+flaskr example seems to loose data on every launch,https://github.com/pallets/flask/issues/1790,N.A,0,1,0,0,0,0,0,Fixed without PR.
+Please update mod_wsgi documentation to use httpd 2.4 syntax,https://github.com/pallets/flask/issues/1644,https://github.com/pallets/flask/pull/1648,1,0,0,0,1,0,0,
+packaging docs outdated,https://github.com/pallets/flask/issues/1465,https://github.com/pallets/flask/pull/1584,1,0,0,0,1,0,0,"Multiple PRs, took first one for data."
+small inaccuracy in get_json documentation,https://github.com/pallets/flask/issues/1442,https://github.com/pallets/flask/pull/843,1,0,0,0,1,0,0,
+bad content-length default,https://github.com/pallets/flask/issues/1289,N.A,0,1,0,0,0,0,0,"Bug related to another project/component, not done."
+sessions documentation (client side vs server side),https://github.com/pallets/flask/issues/434,https://github.com/pallets/flask/pull/1888,0,0,0,0,1,0,0,
+Blueprint template lookup not documented enough,https://github.com/pallets/flask/issues/266,https://github.com/pallets/flask/pull/1843,1,0,0,0,1,0,0,
+About `npm install express` in Readme.md,https://github.com/expressjs/express/issues/4049,https://github.com/expressjs/express/pull/4050,1,0,0,0,1,0,0,
+res.set() throws unexpected error when content-type is an array,https://github.com/expressjs/express/issues/3303,https://github.com/expressjs/express/pull/3305,1,1,1,0,0,0,0,
+Default HTML reply for 'Cannot Get /path' missing HTML closing tag,https://github.com/expressjs/express/issues/3252,https://github.com/expressjs/express/commit/8acaa9a3ea209be604e73477445c991e842ffe9e,0,1,0,0,0,0,0,
+Rewrite queries on unmapped fields as MatchNoDocsQueryBuilder,https://github.com/elastic/elasticsearch/issues/49254,https://github.com/elastic/elasticsearch/pull/52486,0,0,0,0,0,0,1,
+LLRC can throw an IllegalCapacityException when selecting nodes.,https://github.com/elastic/elasticsearch/issues/37739,https://github.com/elastic/elasticsearch/pull/37821,1,1,0,0,0,0,0,
+Remove `index.optimize_auto_generated_id`,https://github.com/elastic/elasticsearch/issues/27583,https://github.com/elastic/elasticsearch/pull/27600,0,0,0,0,0,0,1,"Multiple PRs in issue, took first one for data."
+Typo in date format,https://github.com/elastic/elasticsearch/issues/26500,https://github.com/elastic/elasticsearch/pull/26503,0,1,0,0,0,1,0,
+docvalue_fields support wildcard?,https://github.com/elastic/elasticsearch/issues/26299,https://github.com/elastic/elasticsearch/pull/32980,1,0,1,0,0,0,0,
+Behaviour of auto fuzziness should be configurable,https://github.com/elastic/elasticsearch/issues/25528,https://github.com/elastic/elasticsearch/pull/25731,0,0,0,1,0,0,0,"Multiple PRs in issue, took first one for data."
+Add a softlimit to the number of open scroll contexts per node,https://github.com/elastic/elasticsearch/issues/25244,https://github.com/elastic/elasticsearch/pull/29252,1,0,1,0,0,0,0,"Multiple PRs in issue, took first one for data."
+Deprecate the Tribe node,https://github.com/elastic/elasticsearch/issues/24581,https://github.com/elastic/elasticsearch/pull/24598,0,0,0,0,0,0,1,Organizational.
+rollover `max_docs` uses doc count from both primary and replica/s,https://github.com/elastic/elasticsearch/issues/24217,https://github.com/elastic/elasticsearch/pull/24977,1,1,0,0,0,0,0,
+Doc: Clarify count for index.mapping.total_fields.limit,https://github.com/elastic/elasticsearch/issues/24096,https://github.com/jaegertracing/jaeger/pull/980,0,0,0,0,0,0,1,"Multiple PRs in issue, took first one for data."
+Deprecate `:` in cluster and index names,https://github.com/elastic/elasticsearch/issues/23892,https://github.com/elastic/elasticsearch/pull/23911,0,0,1,0,0,0,1,"Multiple PRs in issue, took first one for data."
+elasticsearch-plugin remove without plugin name fails ungracefully,https://github.com/elastic/elasticsearch/issues/22922,https://github.com/elastic/elasticsearch/pull/22930,1,0,1,0,0,0,0,"Multiple PRs in issue, took first one for data."
+Field stats API gte/lt reversed?,https://github.com/elastic/elasticsearch/issues/19232,https://github.com/elastic/elasticsearch/commit/ee86a9f6340db535dae611453513dab44e447a3d,0,0,0,0,1,0,0,
+StatsAggegator has a missing character.,https://github.com/elastic/elasticsearch/issues/14730,https://github.com/elastic/elasticsearch/pull/15264,0,0,0,0,0,0,1,"Multiple PRs in issue, took first one for data."
+Upgrading fields with only `search_analyzer` specified,https://github.com/elastic/elasticsearch/issues/14383,https://github.com/elastic/elasticsearch/pull/14677,0,0,1,0,0,0,1,
+Max doc frequency percentage in More Like This query,https://github.com/elastic/elasticsearch/issues/14114,https://github.com/elastic/elasticsearch/pull/14546,1,0,0,1,0,0,0,
+Cat health supports ts=0 option,https://github.com/elastic/elasticsearch/pull/13508,https://github.com/elastic/elasticsearch/pull/13508,0,0,1,0,0,0,0,"PR is issue, API issue."
+Document transport.ping_schedule,https://github.com/elastic/elasticsearch/issues/13241,https://github.com/elastic/elasticsearch/commit/20921fcc3d21e99d258e97fbf6d31f8a7a88bdb5,0,0,0,0,1,0,0,
+_cat should not default to verbose,https://github.com/elastic/elasticsearch/issues/13156,https://github.com/elastic/elasticsearch/pull/13180,0,1,0,0,0,0,1,
+Match phrase prefix query seems to ignore boost value.,https://github.com/elastic/elasticsearch/issues/13129,https://github.com/elastic/elasticsearch/pull/13142,0,0,1,0,0,0,1,
+[Docs] Embedded node client should disable HTTP,https://github.com/elastic/elasticsearch/issues/11952,https://github.com/elastic/elasticsearch/pull/12570,0,0,0,0,1,0,0,
+Null pointer exception when adding BigDecimal field with value null,https://github.com/elastic/elasticsearch/issues/11699,https://github.com/elastic/elasticsearch/pull/11790,1,0,1,0,0,0,0,
+NullPointerException when using bulk import,https://github.com/elastic/elasticsearch/issues/11671,N.A,0,1,0,0,0,0,0,Fixed without reference.
+extended_bounds does not work on date histogram when index name is missing.,https://github.com/elastic/elasticsearch/issues/10549,N.A,0,1,0,0,0,0,0,Fixed without reference.
+EsAbortPolicy should show thread pool name,https://github.com/elastic/elasticsearch/issues/9732,https://github.com/elastic/elasticsearch/pull/12535,0,0,1,0,0,0,0,
+Indices stats: Add counter for failed indexing requests,https://github.com/elastic/elasticsearch/issues/8938,https://github.com/elastic/elasticsearch/pull/13130,0,0,0,0,0,1,0,
+?' matching in index name wildcard patterns,https://github.com/elastic/elasticsearch/issues/8824,https://github.com/elastic/elasticsearch/pull/11646,1,0,1,0,0,0,0,
+"date_histogram extendedBounds(DateTime,DateTime) failed when using format option",https://github.com/elastic/elasticsearch/issues/6405,N.A,0,1,0,0,0,0,0,Closed without further development.
+Allow different co-ordinate systems for geometric objects.,https://github.com/elastic/elasticsearch/issues/3590,https://github.com/elastic/elasticsearch/pull/29305,0,0,0,0,1,0,0,
+Support highlight encoders provided via plugins,https://github.com/elastic/elasticsearch/issues/3588,N.A,0,0,1,0,0,0,0,Closed without further development.
+Document exceptions that should not be caught as part of normal flow control (i.e. most of them) ,https://github.com/dotnet/efcore/issues/20086,N.A,0,0,0,0,0,0,1,
+Scaffolder removal of HasDefaultValueSql does not cope with DEFAULT(0),https://github.com/dotnet/efcore/issues/19720,https://github.com/dotnet/efcore/pull/19745,1,0,0,0,0,0,1,
+Query: Translate byte array.IndexOf,https://github.com/dotnet/efcore/issues/19287,https://github.com/dotnet/efcore/pull/19189,1,1,0,0,0,0,1,
+"more exception info for ""Include has been used on non entity queryable""",https://github.com/dotnet/efcore/issues/18471,N.A,0,0,1,0,0,0,0,
+Compute Hash for MemberMemberBinding in ExpressionEqualityComparer,https://github.com/dotnet/efcore/issues/17959,https://github.com/dotnet/efcore/pull/19271,0,0,0,0,0,0,1,
+Allow DefaultValueSql when using ForSqlServerUseSequenceHiLo,https://github.com/dotnet/efcore/issues/16814,https://github.com/dotnet/efcore/pull/19887,0,0,1,0,0,0,0,
+dotnet-ef: Consider showing output that the project is building,https://github.com/dotnet/efcore/issues/15787,https://github.com/dotnet/efcore/pull/17348,0,1,0,0,0,0,0,
+"Microsoft.Data.Sqlite: Make GetBytes, GetChars, and GetTextReader more efficient",https://github.com/dotnet/efcore/issues/13987,https://github.com/dotnet/efcore/pull/18438,1,0,0,0,0,0,1,
+Unstable sort for Correlated_collection_with_top_level_FirstOrDefault test,https://github.com/dotnet/efcore/issues/15164,https://github.com/dotnet/efcore/pull/18193,0,1,0,0,0,1,0,
+Microsoft.Data.Sqlite: Enable overflow checking (except for ulong),https://github.com/dotnet/efcore/issues/14682,https://github.com/dotnet/efcore/pull/14958,0,0,0,0,0,0,1,
+{SQLCE] Specification tests fail due to SQLCE limitations,https://github.com/dotnet/efcore/issues/12904,https://github.com/dotnet/efcore/pull/12936,0,0,0,0,0,1,0,
+Add partial methods to the scaffolded DbContext code,https://github.com/dotnet/efcore/issues/12245,https://github.com/dotnet/efcore/pull/15654,0,0,1,0,0,0,0,
+Expression DateTime.CompareTo drops entire Where,https://github.com/dotnet/efcore/issues/12115,https://github.com/dotnet/efcore/pull/14237,0,0,1,0,0,0,0,
+Invalid SQL generated with nested .Sum() and operator,https://github.com/dotnet/efcore/issues/11922,https://github.com/dotnet/efcore/pull/13556,0,0,1,0,0,0,1,
+Allow specifying online option on SQL Server indexes,https://github.com/dotnet/efcore/issues/11499,https://github.com/dotnet/efcore/pull/13698,0,0,1,0,0,1,0,
+Query: rewrite predicate with constanList.Any(e =>e == someProperty) to Contains,https://github.com/dotnet/efcore/issues/11389,https://github.com/dotnet/efcore/pull/11465,0,0,1,0,0,0,0,
+SqlServerMigrationsSqlGenerator missing dependency object,https://github.com/dotnet/efcore/issues/10233,https://github.com/dotnet/efcore/pull/16706,0,0,0,0,0,0,1,"Duplicate issue, took PR off referenced duplicate."
+Improve Tools packages descriptions,https://github.com/dotnet/efcore/issues/9439,https://github.com/dotnet/efcore/pull/9777,0,0,0,0,1,0,0,
+Consider having sugar methods to make it easier to apply migrations programatically,https://github.com/dotnet/efcore/issues/9339,https://github.com/dotnet/efcore/pull/10517,0,0,0,0,0,1,1,
+DbFunctions: Schema not specified when calling DbFunction in projection,https://github.com/dotnet/efcore/issues/9214,https://github.com/dotnet/efcore/pull/10423,0,0,1,0,0,0,0,"Duplicate issue, took PR off referenced duplicate."
+DbFunctions: Consider allowing instance methods,https://github.com/dotnet/efcore/issues/9213,https://github.com/dotnet/efcore/pull/9755,0,0,1,0,0,0,0,
+Query: ParameterExtraction creates a parameter for every instance even though same variable is referenced,https://github.com/dotnet/efcore/issues/7797,https://github.com/dotnet/efcore/pull/11788,0,1,0,0,0,0,1,
+Support creating non-durable SQL Server memory-optimized tables,https://github.com/dotnet/efcore/issues/6671,N.A,0,0,0,1,0,0,0,Closed due to lack of interest.
+Microsoft.EntityFrameworkCore.Tools does not support Shared Projects,https://github.com/dotnet/efcore/issues/5248,N.A,0,0,1,0,0,0,0,"Closed, won't be done/fixed."
+ContainsTranslater support for more than strings,https://github.com/dotnet/efcore/issues/3078,https://github.com/dotnet/efcore/pull/9149,0,0,0,0,1,0,0,
+Equivalent to ObjectContext.CreateDatabaseScript,https://github.com/dotnet/efcore/issues/2943,https://github.com/dotnet/efcore/pull/10136,0,1,1,0,0,1,1,
+Support Enum.HasFlag in LINQ,https://github.com/dotnet/efcore/issues/2852,https://github.com/dotnet/efcore/pull/6431,0,0,0,1,0,0,0,
+Replace FunctionEvaluationDisablingVisitor and FunctionEvaluationEnablingVisitor with EvaluatableExpressionFilter,https://github.com/dotnet/efcore/issues/2667,https://github.com/npgsql/efcore.pg/pull/315,0,0,0,1,0,0,0,
+Migrations: CHECK Discriminator Values,https://github.com/dotnet/efcore/issues/2594,N.A,0,0,1,0,0,0,0,
+Add tests for ModelBuilder that use half-configured relationships,https://github.com/dotnet/efcore/issues/2412,N.A,0,0,0,0,0,1,0,
+DeepSpeed using DistributedSampler with model parallelism,https://github.com/microsoft/DeepSpeed/issues/99,N.A,0,1,0,0,0,0,0,Appears to be ready for taking.
+Detect if init distributed is needed,https://github.com/microsoft/DeepSpeed/issues/85,https://github.com/microsoft/DeepSpeed/pull/108,0,0,1,0,0,0,0,"Multiple PRs, took first one for data."
+Fix cifar tutorial links,https://github.com/microsoft/DeepSpeed/issues/68,https://github.com/microsoft/DeepSpeed/pull/69,0,0,0,0,1,0,0,
+docker build构建image报错,https://github.com/crawlab-team/crawlab/issues/563,N.A,0,1,0,0,0,0,0,"Title: 'docker image error,' deprecated because eventual image success."
+docker安装的任务执行有问题,https://github.com/crawlab-team/crawlab/issues/561,N.A,0,1,0,0,0,0,0,Title: 'problem with docker installation.' Still ongoing.
+引入 save_item() 出错,https://github.com/crawlab-team/crawlab/issues/482,N.A,0,1,0,0,0,0,0,Title: 'error due to sdave_item()'
+定时任务设置停止状态,https://github.com/crawlab-team/crawlab/issues/467,N.A,0,0,1,0,0,0,0,"Title: 'scheduled task stop status', not done due to ability to disable image itself."
+【bug】关于docker-compose部署,https://github.com/crawlab-team/crawlab/issues/466,N.A,0,1,0,0,0,0,0,"Title'[bug] about docker-compose deployment', not done as error related to MongoDB and not Crawlab."
+"上传了个node的爬虫 ,然后node no find",https://github.com/crawlab-team/crawlab/issues/396,N.A,0,1,0,0,0,0,0,"Title:'uploaded a node crawler, and then the node could not be found.', not done since error not related to Crawlab."
+"附属到已有项目的 docker-compose 中, 登录失败",https://github.com/crawlab-team/crawlab/issues/393,N.A,0,1,0,0,0,0,0,"Title:'attached a docker-compose of an existing project, login failed.' Not done since not related to Crawlab."
+redis和mongodb启动正常，crawlab无法启动,https://github.com/crawlab-team/crawlab/issues/386,N.A,0,1,0,0,0,0,0,Title:'Redis and MongoDB start normally but Crawlab fails to start.' Not done since not caused by Crawlab.
+【优化建议】区分结果数据库和配置数据库,https://github.com/crawlab-team/crawlab/issues/338,N.A,0,0,0,0,0,0,1,"Title:'[optimization] Differentia result database and configuration database' Not done since related to MongoDB, not Crawlab."
+优化建议 docker镜像,https://github.com/crawlab-team/crawlab/issues/317,N.A,0,0,0,0,0,0,1,Title:'optimization reccomendations for docker image.' Not done since disagreement existed on idea.
+演示demo 挂掉了,https://github.com/crawlab-team/crawlab/issues/312,N.A,0,1,0,0,0,0,0,Title:'demo hangs.' Fixed without PR.
+登陆时出错，请坚持用户名和密码,https://github.com/crawlab-team/crawlab/issues/310,N.A,0,1,0,0,0,0,0,"Title:'error during login, insists on username/password.' Fixed outside of a PR."
+使用另外一个容器的docker 中的redis服务时，worker服务起不来，查看容器日志,https://github.com/crawlab-team/crawlab/issues/293,N.A,0,1,0,0,0,0,0,Title: when using Redit service in docker in another container the worker cannot start.' Could already be fixed with a config file change.
+如图，启动失败,https://github.com/crawlab-team/crawlab/issues/287,N.A,0,1,0,0,0,0,0,"Title:' startup failed, as shown.' User error, not related to Crawlab."
+Spider source not updated,https://github.com/crawlab-team/crawlab/issues/285,N.A,0,1,0,0,0,0,0,"Issue related to latency, not Crawlab."
+可以单独在另一台服务器开节点么？,https://github.com/crawlab-team/crawlab/issues/274,N.A,0,0,0,0,1,0,0,Title:'Can I open a node on another server?' Not done since unrelated to software component of project. Organizational.
+使用docker-compose 运行如何配置 Crawlab还是不需要配置,https://github.com/crawlab-team/crawlab/issues/271,N.A,0,0,0,0,1,0,0,"Title:'how to configure Crawlab with docker-compose'. Related to a user question, not software."
+日志的留存,https://github.com/crawlab-team/crawlab/issues/266,N.A,0,0,1,0,0,0,0,"Title:'retention of logs.' Related to user config, no action taken."
+爬虫里面的环境变量主要是设置什么的？,https://github.com/crawlab-team/crawlab/issues/264,N.A,0,0,0,0,1,0,0,Title:'where are the environment variable set in Crawlab?' Not related to software.
+时区好像有点不正确~,https://github.com/crawlab-team/crawlab/issues/262,N.A,0,1,0,0,0,0,0,"Title:'time zones are incorrect.' MongoDB error, no action taken."
+default username & password is not working,https://github.com/crawlab-team/crawlab/issues/255,N.A,0,1,0,0,0,0,0,"Unrelated to Crawlab, user issue."
+在管理页面修改爬虫文件时似乎没有同步到mongo,https://github.com/crawlab-team/crawlab/issues/252,N.A,0,1,0,0,0,0,0,Title:'no sync to Mongo when modifying crawler files in admin page.'
+port 8080 is already in use,https://github.com/crawlab-team/crawlab/issues/251,N.A,0,1,0,0,0,0,0,Not related to Crawlab but to Docker.
+修改docker-compose.yml连接本地的mongo和redis，在访问主页时报错,https://github.com/crawlab-team/crawlab/issues/225,N.A,0,0,0,1,0,0,0,"Title:'modify docker-compose.yml to connect to local mong and redis, and report an error when accessing the homepage.' User issue."
+初始账号密码无法登录,https://github.com/crawlab-team/crawlab/issues/211,N.A,0,1,0,0,0,0,0,"Title:'unable to log in with initial account password.' User error, not handled."
+爬虫项目的环境依赖问题,https://github.com/crawlab-team/crawlab/issues/161,N.A,0,1,0,0,0,0,0,Title:'environmental dependency issues of crawler projects.' User related.
+which folder to place the yml config file when I deploy crawlab using docker-compose up?,https://github.com/crawlab-team/crawlab/issues/159,N.A,0,0,0,0,1,0,0,"User question, not related to software."
+请问下爬虫支持其他语言么？,https://github.com/crawlab-team/crawlab/issues/139,N.A,0,0,1,0,0,0,0,"Title:'Does crawler support other languages?' Not done because Crawlab is seen as a management platform, not a translation platform."
+"环境变量传入MONGO_DB只能为crawlab_test,不能自定义数据库名。",https://github.com/crawlab-team/crawlab/issues/125,N.A,0,0,1,0,0,0,0,"Title:'environment variable passed to MONGO_DB can only be crawlab_test, no other names possible for database.' User error/misunderstanding."
+win10系统下，部署成功后，新建可配置爬虫无法运行，日志路径报错,https://github.com/crawlab-team/crawlab/issues/80,N.A,0,1,0,0,0,0,0,"Title:'after successful deployment on Win10 system, new configurable crawler cannot run and log path reports an error.' User error, not fixed/software related."
+[Plugins] Convert to eslint,https://github.com/apache/cordova/issues/123,https://github.com/apache/cordova-plugin-splashscreen/pull/220,1,0,0,0,0,0,1,"Multiple PRs, took the first one."
+Remove deprecated `engineStrict` from packages.json,https://github.com/apache/cordova/issues/86,https://github.com/apache/cordova-ios/pull/590,1,0,0,0,0,0,1,"Multiple PRs, took the first one."
+[Question] Entities used in the Web project,https://github.com/ardalis/CleanArchitecture/issues/77,https://github.com/ardalis/CleanArchitecture/pull/84,1,1,0,0,0,1,0,
+[Bug]TUN?????,https://github.com/Dreamacro/clash/issues/532,N.A,0,1,0,0,0,0,0,title:'TUN mode is slow'. Still ongoing.
+"[Feature Request] Add command-line options to override `external-controller`, `secret` and `external-ui`",https://github.com/Dreamacro/clash/issues/531,N.A,0,0,1,0,0,0,0,Still ongoing.
+test outbound proxy independently by url-test policy group ,https://github.com/Dreamacro/clash/issues/522,N.A,0,0,0,0,0,1,0,Still ongoing.
+? Clash ? nameserver ???????DNS??????????????,https://github.com/Dreamacro/clash/issues/495,N.A,0,1,0,0,0,0,0,"title:'after adding company intranet DNS to Clash's nameserver, some company intranet domain names cannot be resolved.' Still ongoing."
+Dynamic port,https://github.com/Dreamacro/clash/issues/461,N.A,0,0,0,1,0,0,0,Appears to be stale.
+[Feature Request] ?? VMess Mux ??,https://github.com/Dreamacro/clash/issues/450,N.A,0,0,0,1,0,0,0,title:'add Vmess Mux support.' Appears ongoing.
+??clash???????????????????connection refused,https://github.com/Dreamacro/clash/issues/432,N.A,0,1,0,0,0,0,0,"title:'after opening Clash, the interal network service is accessed from the external network, and the connection is then refused.' Still ongoing."
+?? redir-port ?? clash ????,https://github.com/Dreamacro/clash/issues/425,N.A,0,1,0,0,0,0,0,title:'Visiting redir-port causes Clash to stop working.' Seems to be ongoing.
+HTTPS ???????,https://github.com/Dreamacro/clash/issues/409,N.A,0,1,0,0,0,0,0,title:'HTTPS proxy is not available.' Still ongoing.
+[Feature Request] ?????Rule,https://github.com/Dreamacro/clash/issues/395,N.A,0,0,0,1,0,0,0,title: 'add port segment rule.'  Appears to be in development.
+[Feature Request] Optimistic DNS,https://github.com/Dreamacro/clash/issues/391,N.A,0,0,0,1,0,0,0,Appears to be stale.
+v2ray-plugin mux ?????,https://github.com/Dreamacro/clash/issues/370,N.A,0,1,0,0,0,0,0,title: 'v2ray-plugin mux seems to have problems.' Stale.
+Feature Request: SIP003 Support,https://github.com/Dreamacro/clash/issues/365,N.A,0,0,0,1,0,0,0,Appears to be stale.
+HTTPS?????,https://github.com/Dreamacro/clash/issues/351,N.A,0,1,0,0,0,0,0,title:'HTTPS proxy is not available.' Appears to be stale.
+????API????????????,https://github.com/Dreamacro/clash/issues/339,N.A,0,0,1,0,0,0,0,title: 'Hope that the control API can modify policy groups and proxy rules.'
+support IPv6 precedence as an option,https://github.com/Dreamacro/clash/issues/321,N.A,0,0,1,0,0,0,0,Appears to be stale.
+?????urltest???????????API,https://github.com/Dreamacro/clash/issues/273,https://github.com/Dreamacro/clash/pull/276,1,0,1,0,0,1,0,title: 'Can you provide an API for reselcting nodes of the urltest policy group?'
+??dns??debug???All DNS requests failed,https://github.com/Dreamacro/clash/issues/262,N.A,0,1,0,0,0,0,0,"title:'after enabling DNS, debug prompt: all DNS request failed.' Might be user error."
+????pac?????,https://github.com/Dreamacro/clash/issues/230,N.A,0,0,0,1,0,0,0,title:' Can I support the PAC proxy type?' Appears stale.
+config.yaml????include????,https://github.com/Dreamacro/clash/issues/219,N.A,0,0,0,1,0,0,0,"title: 'Does config.yaml support including other files?' Appears stale, closed in favor of a clearer issue."
+??? fallback ??????,https://github.com/Dreamacro/clash/issues/217,N.A,0,0,1,0,0,0,0,title: 'allow agent fallback customization.' Appears to be stale.
+Does the clash support PROCESS-NAME rule to handle specific process's traffic ? ,https://github.com/Dreamacro/clash/issues/171,N.A,0,0,1,0,0,0,0,Closed due to 'hard to implement.'
+?????????????????????,https://github.com/Dreamacro/clash/issues/169,N.A,0,0,0,1,0,0,0,"title: 'Can we support configuratio file rolling update or add a RESERVED column.' Closed, will not be fixed."
+???? RULE-SET,https://github.com/Dreamacro/clash/issues/79,N.A,0,0,0,1,0,0,0,"title: 'Whether to support RULE-SET.' Closed in favor of another issue, no developed work."
+Support multiple keys for apt_repository to match yum_repository,https://github.com/chef/chef/issues/6369,https://github.com/chef/chef/pull/6372,1,0,1,0,0,0,0,
+chef chokes on git version string on apple. ,https://github.com/chef/chef/issues/6350,https://github.com/chef/chef/pull/6354,0,1,0,0,0,0,0,"Multiple PRs, took first one for data."
+[Enhancement] Add sensitive to registry_key ,https://github.com/chef/chef/issues/5695,https://github.com/chef/chef/pull/6496,1,0,1,0,0,0,0,
+Mount resource: Action :umount for mount resource is an obtuse anachronism,https://github.com/chef/chef/issues/5595,https://github.com/chef/chef/pull/5599,0,0,1,0,0,0,0,
+Remove create_if_missing from declare_resource API,https://github.com/chef/chef/issues/5372,N.A,0,1,0,0,0,0,0,Found to be a developer issue.
+Remove `supports { manage_home: true }` from user providers,https://github.com/chef/chef/issues/5371,https://github.com/sous-chefs/chef-stunnel/pull/39,1,0,0,0,0,0,1,
+Mount provider should support sensitive property,https://github.com/chef/chef/issues/4850,https://github.com/chef/chef/pull/6441,0,1,0,0,0,0,0,"Multiple PRs, took first one for data."
+cookbook show definitions throws exception. ,https://github.com/chef/chef/issues/4821,https://github.com/chef/chef/pull/4936,0,1,0,0,0,0,0,
+Ensure that tags are properly initialized,https://github.com/chef/chef/pull/4064,N.A,0,1,0,0,0,0,0,Found to be a developer issue.
+knife bootstrap against OSX 10.10.5 node giving error at first chef-client run (post chef omnibus install),https://github.com/chef/chef/issues/4019,N.A,0,1,0,0,0,0,0,Found to be a developer issue.
+Error when using lazy attribute with link resource,https://github.com/chef/chef/issues/3703,https://github.com/chef/chef/pull/3130,0,1,0,0,0,0,0,
+Chef::DataBagItem.save does not properly validate names with periods,https://github.com/chef/chef/issues/3697,N.A,0,1,0,0,0,0,0,Still ongoing.
+Decommissioning 12-stable,https://github.com/chef/chef/issues/3640,https://github.com/chef/chef/pull/3641,1,0,0,0,0,0,1,"Multiple PRs, took first one for data."
+Add a 'null' or 'notifies' NOP resource to hang chained notifies off of,https://github.com/chef/chef/issues/3426,https://github.com/chef/chef/pull/9349,0,0,1,0,0,0,0,
+Why output `new_run_list.inspect` in chef-client logs?,https://github.com/chef/chef/issues/2863,https://github.com/chef/chef/pull/3061,0,0,0,0,0,0,1,
+Chef client does not accept relative dir,https://github.com/chef/chef/issues/2809,https://github.com/chef/chef/pull/3079,1,0,0,1,0,0,0,
+Update audit DSL method names,https://github.com/chef/chef/issues/2755,https://github.com/chef/chef/pull/2758,0,0,0,0,0,0,1,
+"""knife cookbook site install"" command is failed.",https://github.com/chef/chef/issues/2317,https://github.com/chef/chef/pull/2775,0,0,1,0,0,0,0,
+Uploading a frozen cookbook fails to upload the remaining cookbooks and does not exit 1,https://github.com/chef/chef/issues/2293,https://github.com/chef/chef/pull/2406,0,0,1,0,0,0,0,
+data bag search returns different results between client and knife,https://github.com/chef/chef/issues/2199,N.A,0,1,0,0,0,0,0,Not reproduced.
+remote-directory does not support copying files with spaces in them,https://github.com/chef/chef/issues/2160,N.A,0,1,0,0,0,0,0,Not reproduced.
+Environment proxy settings not picked up by remote_file,https://github.com/chef/chef/issues/2140,https://github.com/chef/chef/pull/3213,0,1,0,0,0,0,0,
+Provide more helpful error message when accidentally using --secret instead of --secret-file,https://github.com/chef/chef/issues/2113,https://github.com/chef/chef/pull/3183,1,1,0,0,0,0,0,
+chefignore requires double definition,https://github.com/chef/chef/issues/2060,N.A,0,0,0,0,0,0,1,Decided against implementation.
+CHEF-1940:Patch for https://github.com/opscode/chef/issues/1940,https://github.com/chef/chef/issues/1940,https://github.com/chef/chef/pull/1961,1,1,0,0,0,0,0,
+"""ERROR: can't dup NilClass"" when bootstrap --server-url is not a URI",https://github.com/chef/chef/issues/1909,https://github.com/skmichaelson/chef/commit/fe78bffcf953971cc49890bea26f6740cbdf2526,0,1,0,0,0,0,0,
+Enable client-side key generation by default (fixes #1711),https://github.com/chef/chef/issues/1711,https://github.com/chef/chef/pull/1825,0,0,0,0,0,0,1,
+" --force option is invalid, but knife client delete tells you to use it",https://github.com/chef/chef/issues/1652,https://github.com/chef/chef/pull/1664,1,1,0,0,0,0,0,
+Node::Attribute inspect vs to_s problem,https://github.com/chef/chef/issues/1562,https://github.com/chef/chef/pull/2310,0,1,0,0,0,0,0,"Multiple PRs, took first one for data."
+CHEF-2707 subversion resource doesn't work on windows,https://github.com/chef/chef/issues/1533,https://github.com/chef/chef/pull/3804,0,0,0,0,0,0,1,"Multiple PRs, took first one for data."
+Add notEqualTo() to CarbonInterval and CarbonPeriod,https://github.com/briannesbitt/Carbon/issues/1797,https://github.com/briannesbitt/Carbon/pull/1798,0,0,0,1,0,0,0,
+Add comparison methods to CarbonInterval,https://github.com/briannesbitt/Carbon/issues/1796,https://github.com/briannesbitt/Carbon/pull/1801,0,0,0,1,0,0,0,
+Add equalTo() to CarbonInterval and CarbonPeriod,https://github.com/briannesbitt/Carbon/issues/1775,https://github.com/briannesbitt/Carbon/pull/1794,0,0,0,1,0,0,0,
+CarbonInterval::parseFromLocale,https://github.com/briannesbitt/Carbon/issues/1756,https://github.com/briannesbitt/Carbon/pull/1765,1,0,1,1,0,0,0,
+Functionnality - New option for diffForHumans - sequential parts,https://github.com/briannesbitt/Carbon/issues/1701,https://github.com/briannesbitt/Carbon/pull/1710,0,0,1,0,0,0,0,
+Add methods add/sub/diffIn milliseconds,https://github.com/briannesbitt/Carbon/issues/1523,https://github.com/briannesbitt/Carbon/pull/1527,1,0,1,1,0,0,0,
+Add second rounding methods,https://github.com/briannesbitt/Carbon/issues/1248,https://github.com/briannesbitt/Carbon/pull/1261,1,0,1,0,0,0,0,
+"isThisQuarter, isLastQuarter, isNextQuarter",https://github.com/briannesbitt/Carbon/issues/1235,https://github.com/briannesbitt/Carbon/pull/1243,1,0,0,1,0,0,0,
+Event overlap,https://github.com/briannesbitt/Carbon/issues/1016,https://github.com/briannesbitt/Carbon/pull/1745,0,0,1,0,0,0,0,
+[css-values-4] typo for 'cap' unit description ,https://github.com/w3c/csswg-drafts/issues/2347,https://github.com/w3c/csswg-drafts/commit/b0afdf4b34659cd8f99ef868cf4808140d7d27ef,0,0,0,0,1,0,0,
+"[css-fonts-4] [editorial] Duplicate entries in ""Feature and variation precedence""",https://github.com/w3c/csswg-drafts/issues/2219,https://github.com/w3c/csswg-drafts/pull/2332,1,1,0,0,0,0,0,
+[css-align-3] Image link is broken,https://github.com/w3c/csswg-drafts/issues/2154,https://github.com/w3c/csswg-drafts/pull/2333,0,0,0,0,0,0,1,
+[css-color-3] Dangling link to `appearance` property in CR of Color-3,https://github.com/w3c/csswg-drafts/issues/2089,https://github.com/w3c/csswg-drafts/pull/2334,0,0,0,0,1,0,0,
+Invalid CSS Media Query Syntax,https://github.com/daneden/animate.css/issues/1000,https://github.com/daneden/animate.css/pull/1029,0,1,0,1,0,0,1,
+Support for repeating animation ever x seconds,https://github.com/daneden/animate.css/issues/949,N.A,0,0,1,0,0,0,0,
+transform: translate3d disregarding z-index,https://github.com/daneden/animate.css/issues/947,N.A,0,0,0,0,0,0,0,"Unrelated to programming, user CSS question."
+Items visible before the animation,https://github.com/daneden/animate.css/issues/944,N.A,0,1,0,0,0,0,0,"Marked as stale, user did not interat after initial issue."
+Animate.css not active on mobile,https://github.com/daneden/animate.css/issues/817,N.A,0,1,0,0,0,0,0,Fixed by external library changes.
+Events page hasn't been updated. All events are in the past.,https://github.com/angular/angular/issues/34971,https://github.com/angular/angular/pull/35040,0,0,0,0,1,0,0,
+Typo in Hierarchical Injectors Doc,https://github.com/angular/angular/issues/34953,https://github.com/angular/angular/pull/34968,1,0,0,0,1,0,0,
+Missing item variable / item is not defined,https://github.com/angular/angular/issues/34762,https://github.com/angular/angular/pull/35212,1,0,0,0,1,0,0,"Multiple PRs, took first one for data."
+A mistake in the docs - in the description of the Component Class section,https://github.com/angular/angular/issues/32948,https://github.com/angular/angular/pull/32971,1,0,0,0,1,0,0,
+"The ""L"" letter should be lowercase in ""HTMLELement"" in docs",https://github.com/angular/angular/issues/32917,https://github.com/angular/angular/pull/32936,1,0,0,0,1,0,0,
+"Missing space between ""Component"" and ""will"" in docs.",https://github.com/angular/angular/issues/32873,https://github.com/angular/angular/pull/32885,1,0,0,0,1,0,0,
+Document how to bypass asset processing for CSS preprocessors,https://github.com/angular/angular/issues/32811,https://github.com/angular/angular/pull/32921,1,0,0,0,1,0,0,
+"Missing the letter ""e"" in ""MDN HTMLTableCellElment"" in docs",https://github.com/angular/angular/issues/32803,https://github.com/angular/angular/pull/32805,0,0,0,0,1,0,0,
+GDE list at angular.io is outdated,https://github.com/angular/angular/issues/31992,https://github.com/angular/angular/pull/35925,0,0,0,0,1,0,0,
+description and code class names don't match,https://github.com/angular/angular/issues/31781,https://github.com/angular/angular/pull/31815,1,0,0,0,1,0,0,
+Docs: Testing guide recommends older version of node for Travis CI setup,https://github.com/angular/angular/issues/31185,https://github.com/angular/angular/pull/31192,1,0,0,0,1,0,0,
+Add https://blog.angularindepth.com/ to Community Curations section,https://github.com/angular/angular/issues/31167,https://github.com/angular/angular/pull/31212,1,0,0,0,1,0,0,
+Typo in Corporate Proxy under Proxying to a Backend Server,https://github.com/angular/angular/issues/31090,https://github.com/angular/angular/pull/31093,0,0,0,0,1,0,0,
+Constructor or variable initialization snippet does not compile,https://github.com/angular/angular/issues/30730,https://github.com/angular/angular/pull/30845,1,0,0,0,1,0,0,
+The tooltip of 'Events' link in the footer of angular.io is wrong,https://github.com/angular/angular/issues/30480,https://github.com/angular/angular/pull/30643,1,0,0,0,1,0,0,
+Docs: Remove mention of Chrome 41 for differential loading,https://github.com/angular/angular/issues/30387,https://github.com/angular/angular/pull/30390,1,0,0,0,1,0,0,
+Docs: Example for minutes and seconds using date pipe doesn't match,https://github.com/angular/angular/issues/30281,https://github.com/angular/angular/pull/30295,0,0,0,0,1,0,0,
+Angular Guide: 'Dynamic Components' section should come before 'Angular Elements',https://github.com/angular/angular/issues/30268,https://github.com/angular/angular/pull/30521,0,0,0,0,1,0,0,
+Docs: Reactive forms guide lists incorrect fields,https://github.com/angular/angular/issues/29925,https://github.com/angular/angular/pull/30007,1,0,0,0,1,0,0,
+remove 0 from src/app/user.service.0.ts from Singleton Service exampe,https://github.com/angular/angular/issues/29862,https://github.com/angular/angular/pull/30097,1,0,0,0,1,0,0,
+Docs: Getting started pages don't show hamburger menu on desktop,https://github.com/angular/angular/issues/29773,https://github.com/angular/angular/pull/29791,1,0,0,0,1,0,0,
+Wrong code sample for directive's outputs attribute,https://github.com/angular/angular/issues/29523,https://github.com/angular/angular/pull/31199,0,0,0,0,1,0,0,
+Build guide could be more clear about where to create proxy.conf.json,https://github.com/angular/angular/issues/29337,https://github.com/angular/angular/pull/30099,0,0,0,0,1,0,0,
+Can we update this line to be more inclusive?,https://github.com/angular/angular/issues/25643,https://github.com/angular/angular/pull/29972,1,0,0,0,1,0,0,
+Explain the newEvent helper function used in the live example of Testing docs,https://github.com/angular/angular/issues/23370,https://github.com/angular/angular/pull/25975,1,0,0,0,1,0,0,"Multiple PRs, took first one for data."
+SecretValue.secretsManager should validate input doesn't contain `:`,https://github.com/aws/aws-cdk/issues/6272,https://github.com/aws/aws-cdk/pull/6371,0,1,1,0,0,0,0,
+"Route53 A/AAAA Alias Record to ELB does not use ""dualstack"" prefix",https://github.com/aws/aws-cdk/issues/6271,N.A,0,1,0,0,0,0,0,
+[IAM] Ability to add conditions to AccountPrincipal ,https://github.com/aws/aws-cdk/issues/5855,N.A,0,0,1,0,0,0,0,
+[Glue] Empty string is not considered a proper value,https://github.com/aws/aws-cdk/issues/5763,https://github.com/aws/aws-cdk/pull/5783,1,1,0,0,0,0,1,
+Typo in aws-sns-notifications README example code,https://github.com/aws/aws-cdk/issues/5512,https://github.com/aws/aws-cdk/pull/5514,1,0,0,0,1,0,0,
+CloudFront distribution starts logging even when it's disabled,https://github.com/aws/aws-cdk/issues/5371,N.A,0,1,0,0,0,0,0,"False report, no action taken."
+'parameters' not coming through in Step Functions TaskProps,https://github.com/aws/aws-cdk/issues/5267,https://github.com/aws/aws-cdk/pull/5408,0,1,0,0,0,0,0,
+docs: document how to get around cyclic deps created by connections calls,https://github.com/aws/aws-cdk/issues/5047,N.A,0,0,0,0,1,0,0,
+Peer.anyIpv6() should be ::/0 and not ::0/0,https://github.com/aws/aws-cdk/issues/5043,https://github.com/aws/aws-cdk/pull/5065,1,1,0,0,0,0,0,
+allow different image for aws_cdk.aws_ec2.BastionHostLinux,https://github.com/aws/aws-cdk/issues/4730,NA,0,0,1,0,0,0,0,
+this.node.addError does not cause `cdk diff` to fail,https://github.com/aws/aws-cdk/issues/4700,https://github.com/aws/aws-cdk/pull/5284,1,1,0,0,0,0,1,
+BucketDeployment: unable to set cacheControl,https://github.com/aws/aws-cdk/issues/4665,https://github.com/aws/aws-cdk/pull/6086,0,1,0,0,0,0,1,
+Lambda as target in ALB fails to create due to Principal permission issue,https://github.com/aws/aws-cdk/issues/4663,NA,0,1,0,0,0,0,0,
+self managed ManagedPolicy.managed_policy_name returns an ARN,https://github.com/aws/aws-cdk/issues/4581,https://github.com/aws/aws-cdk/pull/4630,0,1,0,0,0,0,1,
+autoscaling.AutoscalingGroup does not implement IGrantable,https://github.com/aws/aws-cdk/issues/4554,https://github.com/aws/aws-cdk/pull/4654,0,0,1,0,0,0,0,
+Feature: Add ability to set stack description,https://github.com/aws/aws-cdk/issues/4457,https://github.com/aws/aws-cdk/pull/4477,1,0,0,0,0,1,0,
+Add optional PrivateIpAddress argument to the aws-ec2 Instance construct ,https://github.com/aws/aws-cdk/issues/4004,https://github.com/aws/aws-cdk/pull/5439,0,0,1,0,0,0,0,
+ALB: New types of listener rule conditions,https://github.com/aws/aws-cdk/issues/3888,N.A,0,0,1,0,0,0,0,
+Support custom dockerfile names,https://github.com/aws/aws-cdk/issues/3829,https://github.com/aws/aws-cdk/pull/5652,1,0,0,1,0,0,0,
+[apigateway] Allow customizing the name of the CfnOutput containing the API endpoint,https://github.com/aws/aws-cdk/issues/3662,https://github.com/aws/aws-cdk/pull/4849,1,0,1,0,0,0,0,
+CustomResource applies presumptuous property uppercasing,https://github.com/aws/aws-cdk/issues/3421,N.A,0,0,0,1,0,0,0,
+region-info Fact.find() should throw exception if fact not found,https://github.com/aws/aws-cdk/issues/3194,https://github.com/aws/aws-cdk/pull/5166,0,0,0,0,0,1,1,
+Indicate that @attribute properties returns tokens in docstrings (awslint),https://github.com/aws/aws-cdk/issues/2420,N.A,0,0,0,0,1,0,0,
+init csharp: add-project.hook.d.ts is copied into target folder,https://github.com/aws/aws-cdk/issues/2314,https://github.com/aws/aws-cdk/pull/4841,0,1,0,0,0,0,0,
+support aws/codebuild/golang:1.11 build image,https://github.com/aws/aws-cdk/issues/2079,https://github.com/aws/aws-cdk/pull/2233,1,0,1,0,0,0,1,Organizational.
+[sns] support encrypted topics,https://github.com/aws/aws-cdk/issues/1729,https://github.com/aws/aws-cdk/pull/5052,1,0,0,1,0,0,0,
+Tools assume `lerna` is installed globally,https://github.com/aws/aws-cdk/issues/1338,https://github.com/aws/aws-cdk/pull/2667,1,0,0,0,0,0,1,Organizational.
+Allow importing/exporting iam.Role,https://github.com/aws/aws-cdk/issues/673,N.A,0,0,1,0,0,0,0,"Already supported, closed."
+Warn/fail synthesis when reached the 200 resource limit,https://github.com/aws/aws-cdk/issues/276,N.A,0,0,1,0,0,0,0,
+Adding an `Output` to a stack does not count as a change so the stack is not deployed,https://github.com/aws/aws-cdk/issues/186,https://github.com/aws/aws-cdk/pull/2029,0,1,0,0,0,0,1,
+httpContext.Response.OnStarting lambdas executing in reverse order ,https://github.com/dotnet/aspnetcore/issues/19530,https://github.com/dotnet/aspnetcore/pull/19534,0,0,0,0,1,0,0,
+OpenIdConnectHandler: doesn't use updated user data from userInformationReceivedContext,https://github.com/dotnet/aspnetcore/issues/18729,https://github.com/dotnet/aspnetcore/pull/19756,1,0,1,0,0,0,0,
+Setting the ClientCertificateMode Kestrel server option from an appsettings.json file.,https://github.com/dotnet/aspnetcore/issues/18660,https://github.com/dotnet/aspnetcore/pull/18758,0,0,0,1,0,0,0,"Multiple PRs, took first one for data."
+Replace calls to buffer.First.Span with buffer.FirstSpan,https://github.com/dotnet/aspnetcore/issues/18587,https://github.com/dotnet/aspnetcore/pull/18615,1,0,0,0,0,0,1,
+HttpRequest.ContentLength is null when using TestHost,https://github.com/dotnet/aspnetcore/issues/18463,N.A,0,1,0,0,0,0,0,Appears to be ongoing.
+Kestrel enforces non-default HTTP/2 limits before the Settings ack,https://github.com/dotnet/aspnetcore/issues/17842,N.A,0,1,0,0,0,0,0,Appears to be ongoing.
+Provide better experience when the BodyReader is left in a reading state,https://github.com/dotnet/aspnetcore/issues/17840,N.A,0,0,0,0,0,0,1,Appears to be stale.
+Microsoft.AspNetCore.Localization.RequestCulture() method descriptions,https://github.com/dotnet/aspnetcore/issues/17447,https://github.com/dotnet/aspnetcore/pull/17511,0,0,0,0,1,0,0,
+namespace Microsoft.AspNetCore.Routing / public class RouteOptions / LowercaseUrls() method / Summary text,https://github.com/dotnet/aspnetcore/issues/17445,https://github.com/dotnet/aspnetcore/pull/17499,0,0,0,0,1,0,0,
+Signalr Clients.Users Should accept Ienumerable,https://github.com/dotnet/aspnetcore/issues/17285,https://github.com/dotnet/aspnetcore/pull/17360,1,0,1,0,0,0,0,
+More missing descriptions,https://github.com/dotnet/aspnetcore/issues/17205,https://github.com/dotnet/aspnetcore/pull/17943,1,0,0,0,1,0,0,
+Numerous missing class descriptions,https://github.com/dotnet/aspnetcore/issues/17204,https://github.com/dotnet/aspnetcore/pull/17349,1,0,0,0,1,0,0,
+ItemsDictionary - Possible NullReferenceException with .GetEnumerator(),https://github.com/dotnet/aspnetcore/issues/16938,https://github.com/dotnet/aspnetcore/pull/16947,1,0,0,1,0,0,0,
+Make Map tests async,https://github.com/dotnet/aspnetcore/issues/15374,https://github.com/dotnet/aspnetcore/pull/15364,0,0,0,1,0,0,0,"Multiple PRs, took first one for data."
+Remove doc references to obsolete AuthenticationManager,https://github.com/dotnet/aspnetcore/issues/15079,https://github.com/dotnet/aspnetcore/pull/15110,0,0,0,0,1,0,0,
+Change IResponseCache output to ValueTask,https://github.com/dotnet/aspnetcore/issues/14993,https://github.com/dotnet/aspnetcore/pull/15393,0,0,1,0,0,0,1,
+Don't timeout SignalR clients if a debugger is attached,https://github.com/dotnet/aspnetcore/issues/14871,https://github.com/dotnet/aspnetcore/pull/14879,0,1,0,0,0,0,0,
+await HttpRequestStreamReader.ReadToEndAsync throws when AllowSynchronousIO is set to false,https://github.com/dotnet/aspnetcore/issues/14734,N.A,0,1,0,0,0,0,0,Duplicate issue.
+IHttpContextAccessor and IHttpContextFactory are missing a description,https://github.com/dotnet/aspnetcore/issues/14516,https://github.com/dotnet/aspnetcore/pull/14747,1,0,0,0,1,0,0,
+WebAssemblyConsoleLogger doesn't honor the IsEnabled check,https://github.com/dotnet/aspnetcore/issues/12859,https://github.com/dotnet/aspnetcore/pull/12928,1,1,0,0,0,0,0,
+HeartbeatSlow warning missing context,https://github.com/dotnet/aspnetcore/issues/12760,https://github.com/dotnet/aspnetcore/pull/15273,0,0,1,0,0,0,0,
+Adding custom request header in 2.2,https://github.com/dotnet/aspnetcore/issues/12114,https://github.com/dotnet/aspnetcore/pull/12157,0,1,1,0,0,0,0,
+API call order matters but it shouldn’t,https://github.com/dotnet/aspnetcore/issues/11833,https://github.com/dotnet/aspnetcore/pull/13202,0,0,0,0,0,0,1,
+[API Review]: Move BadHttpRequestException to Http.Abstractions,https://github.com/dotnet/aspnetcore/issues/11208,N.A,0,0,0,0,0,0,1,Still ongoing.
+Adding HTTP header with empty string value yields confusing error,https://github.com/dotnet/aspnetcore/issues/11032,https://github.com/dotnet/aspnetcore/pull/11217,1,0,1,0,0,0,0,"Multiple PRs, took first one for data."
+MicrosoftAccount to take parameters,https://github.com/dotnet/aspnetcore/issues/11026,https://github.com/dotnet/aspnetcore/pull/11059,0,0,0,1,0,0,0,
+Add logging for controller creation,https://github.com/dotnet/aspnetcore/issues/11005,https://github.com/dotnet/aspnetcore/pull/11526,0,0,0,1,0,0,0,
+Wrong Summary for constructor in AuthenticationService.cs,https://github.com/dotnet/aspnetcore/issues/10885,https://github.com/dotnet/aspnetcore/pull/10969,0,0,0,0,1,0,0,
+Windows unix domain sockets don't work with binding syntax,https://github.com/dotnet/aspnetcore/issues/10782,https://github.com/dotnet/aspnetcore/pull/12002,1,0,1,0,0,0,0,"Multiple PRs, took first one for data."
+Add Pipelines-related http features in TestServer,https://github.com/dotnet/aspnetcore/issues/8660,https://github.com/dotnet/aspnetcore/pull/10189,0,0,0,0,0,1,0,
+,,,,,,,,,,
+,TOTALS,,279,251,208,109,159,75,171,
+,,,,,,,,,,
+,,,Taken by New Developer? (0/1),Bug Fix (0/1),Enhancing an Existing Feature (0/1),New Feature (0/1),Documentation(0/1),Testing (0/1),Refactoring (0/1),
