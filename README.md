@@ -15,12 +15,16 @@ The code folder contains all code and scripts utilized for all components of thi
 
 * CSV
 * Github
-* PyDriller
 
 Please note that the code provided is not indicative of my personal developer abilities or meant as a showcase of efficient code. The codebase was iteratively developed utilizing numerous frameworks and mismatching APIs, meaning it was constructed with the goal of 'getting the job done' as opposed to being efficient and optimal.
 
 ## Data
-TODO
+The raw data containing all sampled *good first issue*s from a repository and the first commits per user can be found in the 'Data' folder. Each repository has two CSV files containing this information.
+
+## Analyzed Work
+The analyzed components that are presented in the thesis work are given in the 'Analysis' folder. Within this folder, the template CSV and XLSX files utilized for the analysis can be found, along with the analysis per sampled repository found in the 'Data' folder. For each repository, one CSV was created containing up to 30 sampled first contributions from developers, whereas the other CSV file contains up to 30 sample *good first issue*s.
+
+Additionally, files are found containing all samples for simple sorting and analysis.
 
 # Licensing
 Please see the licensing document in the repository to learn about your rights and abilities regarding the content in this repository and the thesis work.
